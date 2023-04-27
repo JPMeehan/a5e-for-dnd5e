@@ -1,0 +1,27 @@
+{
+  "id": "a5e-for-dnd5e",
+  "title": "A5E for dnd5e",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A conversion of a5e material to the dnd5e system",
+  "authors": [
+    {
+      "name": "Joseph M.",
+      "discord": "ChaosOS#1948",
+      "url": "https://joseph-meehan.carrd.co/",
+      "flags": {}
+    }
+  ]
+}
