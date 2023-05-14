@@ -12,6 +12,12 @@
         "id": "dnd5e",
         "type": "system"
       }
+    ],
+    "recommends": [
+      {
+        "id": "a5e",
+        "type": "system"
+      }
     ]
   },
   "description": "A conversion of a5e material to the dnd5e system",
@@ -22,5 +28,49 @@
       "url": "https://joseph-meehan.carrd.co/"
     }
   ],
-  "url": "https://github.com/JPMeehan/a5e-for-dnd5e"
+  "url": "https://github.com/JPMeehan/a5e-for-dnd5e",
+  "packs": [
+    {
+      "label": "A5E Classes",
+      "name": "classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/classes"
+    },
+    {
+      "label": "A5E Subclasses",
+      "name": "subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/subclasses"
+    },
+    {
+      "label": "A5E Bestiary",
+      "name": "bestiary",
+      "type": "Actor",
+      "system": "dnd5e",
+      "path": "packs/bestiary"
+    },
+    {
+      "label": "A5E Spells",
+      "name": "spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/spells"
+    },
+    {
+      "label": "A5E Combat Maneuvers",
+      "name": "combat-maneuvers",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/combat-maneuvers"
+    },
+    {
+      "label": "A5E Equipment",
+      "name": "equipment",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/equipment"
+    }
+  ]
 }
