@@ -38,13 +38,6 @@
       "path": "packs/classes"
     },
     {
-      "label": "A5E Subclasses",
-      "name": "subclasses",
-      "type": "Item",
-      "system": "dnd5e",
-      "path": "packs/subclasses"
-    },
-    {
       "label": "A5E Bestiary",
       "name": "bestiary",
       "type": "Actor",
@@ -71,6 +64,20 @@
       "type": "Item",
       "system": "dnd5e",
       "path": "packs/equipment"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "A5E for 5e",
+      "sorting": "a",
+      "packs": [
+        "classes",
+        "bestiary",
+        "spells",
+        "combat-maneuvers",
+        "equipment"
+      ],
+      "color": "#A52A2A"
     }
   ]
 }
