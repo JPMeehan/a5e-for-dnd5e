@@ -65,7 +65,7 @@ def migrateMonster(system: dict) -> dict:
 "featureType": "",
 "prerequisite": ""
 """
-
+# Turns the feature into a class, subclass, or feat
 def migrateFeature(system: dict) -> dict:
     o5e = {
         "description": {
@@ -88,7 +88,7 @@ def migrateFeature(system: dict) -> dict:
 "prerequisite": "",
 "tradition": ""
 """
-
+# Turns the maneuver into a maneuver
 def migrateManeuver(system: dict) -> dict:
     o5e = {
         "description": {
@@ -128,7 +128,7 @@ def migrateManeuver(system: dict) -> dict:
 "weaponProperties": [],
 "weight": 0
 """
-
+# Turns the object into a backpack, consumable, equipment, loot, tool, or weapon
 def migrateObject(system: dict) -> dict:
     o5e = {
         "description": {
@@ -140,13 +140,65 @@ def migrateObject(system: dict) -> dict:
         "quantity": system["quantity"],
         "weight": system["weight"],
         "price": {
-          "value": system["price"],
-          "denomination": "gp"
+            "value": system["price"],
+            "denomination": "gp"
         },
         "attunement": 0,
         "equipped": system["equipped"],
         "rarity": system["rarity"],
         "identified": True
+    }
+    backpack = {
+        "capacity": {
+            "type": "weight",
+            "value": None,
+            "weightless": False
+        },
+        "currency": {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        }
+    }
+    equipment = {
+        "templates": ["activatedEffect", "action", "mountable"],
+        "armor": {
+            "type": "light",
+            "value": None,
+            "dex": None
+        },
+        "baseItem": "",
+        "speed": {
+            "value": None,
+            "conditions": ""
+        },
+        "strength": None,
+        "stealth": False,
+        "proficient": True
+    }
+    consumable = {
+        "templates": ["activatedEffect", "action"],
+        "consumableType": "potion",
+        "uses": {
+            "autoDestroy": False
+        }
+    }
+    tool = {
+        "toolType": "",
+        "baseItem": "",
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "bonus": ""
+    }
+    weapon = {
+        "templates": ["activatedEffect", "action", "mountable"],
+        "weaponType": "simpleM",
+        "baseItem": "",
+        "properties": {},
+        "proficient": True
     }
     return o5e
 
@@ -172,7 +224,7 @@ def migrateObject(system: dict) -> dict:
     "secondary": []
 }
 """
-
+# Turns the spell into a spell
 def migrateSpell(system: dict) -> dict:
     o5e = {
         "description": {
@@ -211,7 +263,7 @@ def migrateSpell(system: dict) -> dict:
     }
 }
 """
-
+# Turns the background into a background
 def migrateBackground(system: dict) -> dict:
     o5e = {
         "description": {
@@ -237,7 +289,7 @@ def migrateBackground(system: dict) -> dict:
     }
 }
 """
-
+# Turns the culture into a background
 def migrateCulture(system: dict) -> dict:
     o5e = {
         "description": {
@@ -258,7 +310,7 @@ def migrateCulture(system: dict) -> dict:
 "inspirationFeature": "",
 "fulfillmentFeature": ""
 """
-
+# Turns the destiny into a background
 def migrateDestiny(system: dict) -> dict:
     o5e = {
         "description": {
