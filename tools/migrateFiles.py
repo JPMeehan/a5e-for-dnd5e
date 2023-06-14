@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import re
 
 targetPack = sys.argv[1]
 origin = os.path.join(".\src", "packs-origin", targetPack)
@@ -34,8 +35,199 @@ def abbr(word):
             return "nec"
         case "transmutation":
             return "trs"
+        case _:
+            return word
 
-def migrateAction(action, o5e) -> bool:
+"""ACTION TEMPLATES - activatedEffect | action
+"activatedEffect": {
+    "activation": {
+        "type": "",
+        "cost": null,
+        "condition": ""
+    },
+    "duration": {
+        "value": "",
+        "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+        "value": null,
+        "width": null,
+        "units": "",
+        "type": ""
+    },
+    "range": {
+        "value": null,
+        "long": null,
+        "units": ""
+    },
+    "uses": {
+        "value": null,
+        "max": "",
+        "per": null,
+        "recovery": ""
+    },
+    "consume": {
+        "type": "",
+        "target": null,
+        "amount": null
+    }
+},
+"action": {
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+        "threshold": null,
+        "damage": ""
+    },
+    "damage": {
+        "parts": [],
+        "versatile": ""
+    },
+    "formula": "",
+    "save": {
+        "ability": "",
+        "dc": null,
+        "scaling": "spell"
+    }
+}
+"""
+""" EXAMPLE A5E ACTION
+{
+    "name": "Burning Hands",
+    "activation": {
+        "cost": 1,
+        "type": "action",
+        "reactionTrigger": ""
+    },
+    "duration": {
+        "unit": "instantaneous",
+        "value": ""
+    },
+    "ranges": {
+        "Z7f8aeFVZFoYaQM4": {
+            "range": "self"
+        }
+    },
+    "area": {
+        "shape": "cone",
+        "length": "15",
+        "placeTemplate": false
+    },
+    "target": {
+        "quantity": "",
+        "type": ""
+    },
+    "rolls": {
+        "unsR1rjY4mpqI7TB": {
+            "canCrit": false,
+            "damageType": "fire",
+            "formula": "3d6",
+            "name": "",
+            "type": "damage",
+            "scaling": {
+                "mode": "spellLevel",
+                "formula": "1d6"
+            }
+        }
+    },
+    "prompts": {
+        "rdGYF9zI83Xqelou": {
+            "ability": "dex",
+            "onSave": "Half damage",
+            "saveDC": {
+                "type": "spellcasting",
+                "bonus": ""
+            },
+            "type": "savingThrow"
+        }
+    },
+    "consumers": {
+        "Xlu0D0ThDnWXJx9H": {
+        "mode": "variable",
+        "spellLevel": 1,
+        "points": 2,
+        "type": "spell"
+    }
+}
+"""
+
+def migrateAction(action: dict, system: dict) -> bool:
+    activation = {
+        "activation": {
+            "type": action.get("activation", {}).get("type", ""),
+            "cost": action.get("activation", {}).get("cost"),
+            "condition": action.get("activation", {}).get("reactionTrigger", "")
+        },
+        "duration": {
+            "value": action.get("duration", {}).get("value", ""),
+            "units": action.get("duration", {}).get("unit", "")
+        },
+        "cover": None,
+        "crewed": False,
+        "target": {
+            "value": action.get("target", {}).get("quantity"),
+            "width": None,
+            "units": "",
+            "type": action.get("target", {}).get("type", "")
+        },
+        "range": {
+            "value": None,
+            "long": None,
+            "units": ""
+        },
+        "uses": {
+            "value": None,
+            "max": "",
+            "per": None,
+            "recovery": ""
+        },
+        "consume": {
+            "type": "",
+            "target": None,
+            "amount": None
+        },
+        "ability": None,
+        "actionType": None,
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+            "threshold": None,
+            "damage": ""
+        },
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": None,
+            "scaling": "spell"
+        }
+    }
+    system.update(activation)
+    processRolls(action.get("rolls", {}), action,  system)
+    return True
+
+def processRolls(rolls: dict, action: dict, system: dict):
+    if len(rolls) == 0:
+        return False
+    for r in rolls:
+        match rolls[r]["type"]:
+            case "attack":
+                system["actionType"] = abbr(rolls[r]["attackType"])
+                # do stuff
+            case "damage":
+                formula = re.sub("@\w+.mod","@mod",  rolls[r]["formula"]) 
+                print(formula)
+                system["damage"]["parts"].append([formula, rolls[r]["damageType"]])
+                # do stuff
+            case "savingThrow":
+                print("foo")
     return True
 
 def migrateMonster(system: dict) -> dict:
@@ -309,6 +501,8 @@ def migrateSpell(system: dict) -> dict:
             "formula": None
         }
     }
+    for a in system["actions"]:
+        migrateAction(system["actions"][a], o5e)
     return o5e
 
 """ BACKGROUND
@@ -414,6 +608,15 @@ for p in packList:
                 data["type"] = data["system"]["type"]
                 data["system"].pop("type")
             case "spell":
+                data["flags"]["a5e-for-dnd5e"] ={"secondarySchools" : data["system"]["schools"]["secondary"]}
+                if "core" in data["flags"]:
+                    data["flags"].pop("core")
+                print(data["name"])
+                # if len(data["system"]["actions"]) > 1:
+                # for a in data["system"]["actions"]:
+                    # print(data["system"]["actions"][a])
+                    # if len(data["system"]["actions"][a].get("rolls",[])) == 1:
+                    #     print(data["name"])
                 data["system"] = migrateSpell(data["system"])
             case "background":
                 data["system"] = migrateBackground(data["system"])
@@ -423,7 +626,7 @@ for p in packList:
             case "destiny":
                 data["system"] = migrateDestiny(data["system"])
                 data["type"] = "background"
-    print(data)
-    break
+    # print(data)
+    # break
     # with open(os.path.join(packPath,p), "r") as writeFile:
     #     writeFile.write(json.dumps(data, indent=2))
