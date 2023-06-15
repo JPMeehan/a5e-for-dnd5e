@@ -62,16 +62,6 @@ def abbr(word: str) -> str:
         case _:
             return word
 
-def targetType(action: dict) -> str:
-    targetType = action.get("target", {}).get("type", "")
-    match targetType:
-        case 'self' | 'creature' | 'object':
-            return targetType
-        case 'creatureObject':
-            return 'enemy'
-        case _:
-            return ""
-
 """ACTION TEMPLATES - activatedEffect | action
 "activatedEffect": {
     "activation": {
@@ -203,10 +193,10 @@ def migrateAction(action: dict, system: dict) -> bool:
         "cover": None,
         "crewed": False,
         "target": {
-            "value": action.get("target", {}).get("quantity"),
+            "value": None,
             "width": None,
             "units": "",
-            "type": targetType(action)
+            "type": ""
         },
         "range": {
             "value": None,
@@ -243,6 +233,7 @@ def migrateAction(action: dict, system: dict) -> bool:
             "scaling": "spell"
         }
     }
+    updateTarget(activation["target"], action)
     rangeProp = "value"
     for r in action.get("ranges",{}):
         arange = action["ranges"][r]["range"]
@@ -306,6 +297,39 @@ def actionType(new: str, old: str) -> str:
                 return old
         case _:
             return new
+
+def updateTarget(t, action: dict) -> None:
+    area = action.get("area", {})
+    match area.get("shape", ""):
+        case "circle" | "cylinder":
+            t["type"] = "cylinder"
+            t["value"] = area["radius"]
+            return
+        case "cone":
+            t["type"] = "cone"
+            t["value"] = area["length"]
+            return
+        case "cube" | "square":
+            t["type"] = area["shape"]
+            t["value"] = area["width"]
+            return
+        case "line":
+            t["type"] = "line"
+            t["value"] = area["length"]
+            t["width"] = area["width"]
+            return
+        case "sphere":
+            t["type"] = "sphere"
+            t["value"] = area["radius"]
+            return
+    targetType: str = action.get("target", {}).get("type", "")
+    match targetType: # self, creature, object, creatureObject, other, and none
+        case 'self' | 'creature' | 'object':
+            t["type"] = targetType
+            t["value"] = action.get("target", {}).get("quantity")
+        case 'creatureObject':
+            t["type"] = 'enemy'
+            t["value"] = action.get("target", {}).get("quantity")
 
 def migrateMonster(system: dict) -> dict:
     o5e = {
