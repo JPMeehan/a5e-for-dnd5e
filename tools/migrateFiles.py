@@ -43,10 +43,22 @@ def abbr(word: str) -> str:
             return "msak"
         case "rangedSpellAttack":
             return "rsak"
+        case "temporaryHealing":
+            return "temphp"
+        case "spellLevel":
+            return "level"
+        case "fiveFeet":
+            return "5"
+        case "short":
+            return "30"
+        case "medium":
+            return "60"
+        case "long":
+            return "120"
         case _:
             return word
 
-def target(action: dict) -> str:
+def targetType(action: dict) -> str:
     targetType = action.get("target", {}).get("type", "")
     match targetType:
         case 'self' | 'creature' | 'object':
@@ -54,7 +66,7 @@ def target(action: dict) -> str:
         case 'creatureObject':
             return 'enemy'
         case _:
-            print("Do Stuff")
+            return ""
 
 """ACTION TEMPLATES - activatedEffect | action
 "activatedEffect": {
@@ -190,7 +202,7 @@ def migrateAction(action: dict, system: dict) -> bool:
             "value": action.get("target", {}).get("quantity"),
             "width": None,
             "units": "",
-            "type": abbr()
+            "type": targetType(action)
         },
         "range": {
             "value": None,
@@ -227,6 +239,16 @@ def migrateAction(action: dict, system: dict) -> bool:
             "scaling": "spell"
         }
     }
+    rangeProp = "value"
+    for r in action["ranges"]:
+        arange = action["ranges"][r]["range"]
+        if arange == "self":
+            continue
+        activation["range"][rangeProp] = abbr(arange)
+        if rangeProp == "value":
+            rangeProp = "long"
+        else:
+            print("More than 2 ranges")
     system.update(activation)
     processRolls(action.get("rolls", {}), action,  system)
     return True
@@ -238,16 +260,23 @@ def processRolls(rolls: dict, action: dict, system: dict):
         match rolls[r]["type"]:
             case "attack":
                 system["actionType"] = abbr(rolls[r]["attackType"])
-                # do stuff
+                system["attackBonus"] = rolls[r].get("bonus", "")
             case "damage":
                 formula = re.sub("@\w+.mod","@mod",  rolls[r]["formula"]) 
                 if "damageType" not in rolls[r]:
                     print("No damage type found in", action["name"])
                     continue
                 system["damage"]["parts"].append([formula, rolls[r]["damageType"]])
+                if "scaling" in system and "scaling" in rolls[r]:
+                    system["scaling"]["formula"] = rolls[r]["scaling"]["formula"]
+                    system["scaling"]["mode"] = abbr(rolls[r]["scaling"]["mode"])
                 # do stuff
-            case "savingThrow":
-                print("Saving throw in", action["name"])
+            case "healing":
+                system["actionType"] = "heal"
+                formula = re.sub("@\w+.mod","@mod",  rolls[r]["formula"]) 
+                system["damage"]["parts"].append([formula, abbr(rolls[r].get("healingType", "healing"))])
+            case "abilityCheck":
+                system["actionType"] = "abil"
             case _:
                 print(rolls[r]["type"], action["name"])
     return True
@@ -616,6 +645,8 @@ def migrateDestiny(system: dict) -> dict:
 for p in packList:
     with open(os.path.join(origin,p), "r") as read_file:
         data = json.load(read_file)
+        if "core" in data["flags"]:
+            data["flags"].pop("core")
         match data["type"]: # a5e type
             case "npc":
                 data["system"] = migrateMonster(data["system"])
@@ -631,14 +662,6 @@ for p in packList:
                 data["system"].pop("type")
             case "spell":
                 data["flags"]["a5e-for-dnd5e"] ={"secondarySchools" : data["system"]["schools"]["secondary"]}
-                if "core" in data["flags"]:
-                    data["flags"].pop("core")
-                # print(data["name"])
-                # if len(data["system"]["actions"]) > 1:
-                # for a in data["system"]["actions"]:
-                    # print(data["system"]["actions"][a])
-                    # if len(data["system"]["actions"][a].get("rolls",[])) == 1:
-                    #     print(data["name"])
                 data["system"] = migrateSpell(data["system"])
             case "background":
                 data["system"] = migrateBackground(data["system"])
