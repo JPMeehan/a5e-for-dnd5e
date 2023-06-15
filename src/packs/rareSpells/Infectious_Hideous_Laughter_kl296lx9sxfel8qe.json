@@ -1,0 +1,99 @@
+{
+  "name": "Infectious Hideous Laughter",
+  "type": "spell",
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "affliction",
+        "arcane",
+        "compulsion"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The target is overwhelmed by the absurdity of the world and is crippled by paroxysms of laughter. The target falls prone, becomes incapacitated, and cannot stand.</p><p>Until the spell ends, at the end of each of the target's turns and when it suffers damage, the target may attempt another saving throw (with advantage if triggered by damage). On a successful save, the spell ends.</p><p><strong><em>Cast at Higher Levels.</em></strong> Target an additional creature within 30 feet of the original for each slot level above 1st.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Infectious Hideous Laughter.</strong> Any creature that touches the target must also succeed on a Wisdom saving throw or be affected by the spell.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 1,
+    "school": "enc",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "poppy seed",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "30",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "kl296lx9sxfel8qe",
+  "_key": "!items!kl296lx9sxfel8qe"
+}

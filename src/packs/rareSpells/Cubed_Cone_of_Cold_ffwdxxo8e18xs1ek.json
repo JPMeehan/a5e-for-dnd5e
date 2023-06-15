@@ -1,0 +1,104 @@
+{
+  "name": "Cubed Cone of Cold",
+  "type": "spell",
+  "img": "icons/magic/water/projectile-beams-salvo-blue.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "attack",
+        "cold"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Frigid cold blasts from your hands. Each creature in the area takes 8d8 cold damage. Creatures killed by this spell become frozen statues until they thaw.</p><p><strong><em>Cast at Higher Levels.</em></strong> The damage increases by 1d8 for each slot level above 5th.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Cubed Cone of Cold.</strong> The spell\u00e2\u20ac\u2122s area becomes a 30-foot cube. Any buildings or structures entirely in the area take double damage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 5,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "small glass or crystal snowflake",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "8d8",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "ffwdxxo8e18xs1ek",
+  "_key": "!items!ffwdxxo8e18xs1ek"
+}

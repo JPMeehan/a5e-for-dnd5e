@@ -1,0 +1,105 @@
+{
+  "name": "Spiteful Divine Favor",
+  "type": "spell",
+  "img": "icons/skills/melee/strike-sword-dagger-runes-yellow.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "attack",
+        "divine",
+        "radiant",
+        "weaponry"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You imbue divine power into your strikes. Until the spell ends, you deal an extra 1d4 radiant damage with your weapon attacks.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Spiteful Divine Favor.</strong> You deal extra necrotic damage instead of extra radiant damage, and when rolling extra damage from this spell you reroll any results of 1 (you must use the new result). </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "bonusAction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4r1",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "ji5g4jq0f6khdd8z",
+  "_key": "!items!ji5g4jq0f6khdd8z"
+}

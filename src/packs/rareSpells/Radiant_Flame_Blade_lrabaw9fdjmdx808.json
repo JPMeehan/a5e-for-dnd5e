@@ -1,0 +1,104 @@
+{
+  "name": "Radiant Flame Blade",
+  "type": "spell",
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "attack",
+        "fire",
+        "weaponry"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A scimitar-shaped blade of fire appears in your hand, lasting for the duration. It disappears if you drop it, but you can use a bonus action to recall it. The blade casts bright light in a 10-foot radius and dim light for another 10 feet. You can use an action to make a melee spell attack with the blade that deals 3d6 fire damage.</p><p><strong>Cast At Higher Levels. </strong>The damage increases by 1d6 for every two slot levels above 2nd.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Radiant Flame Blade.</strong> You transform a freshly plucked blade of grass into a scimitar-shaped blade which glows with emerald radiance. Attacks with this weapon deal radiant damage. The duration of this spell is 1 hour, and it doesn\u00e2\u20ac\u2122t require concentration. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 2,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "sumac leaf",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "activation": {
+      "type": "bonusAction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "msak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "lrabaw9fdjmdx808",
+  "_key": "!items!lrabaw9fdjmdx808"
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Bunched Goodberry",
+  "type": "spell",
+  "img": "icons/consumables/fruit/berry-leaf-purple-teal.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "healing",
+        "nature",
+        "plants"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You transform the components into 2d4 berries.</p><p>For the next 24 hours, any creature that consumes one of these berries regains 1 hit point. Eating or administering a berry is an action. The berries do not provide any nourishment or sate hunger.</p><p><strong><em>Cast at Higher Levels.</em></strong> You create 1d4 additional berries for every 2 slot levels above 1st.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Bunched Goodberry.</strong> Eating or administering any number of berries is a bonus action, and a creature regains 1 hit point per berry consumed.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 1,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "mistletoe and a handful of grass",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "bonusAction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": "touch",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "3cb42zj6e3qib157",
+  "_key": "!items!3cb42zj6e3qib157"
+}

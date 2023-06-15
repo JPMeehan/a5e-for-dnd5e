@@ -1,0 +1,103 @@
+{
+  "name": "Inverted Burning Hands",
+  "type": "spell",
+  "img": "icons/magic/fire/blast-jet-stream-embers-red.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "fire"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A thin sheet of flames shoots forth from your outstretched hands. Each creature in the area takes 3d6 fire damage. The fire ignites any flammable unattended objects in the area.</p><p><strong><em>Cast at Higher Levels.</em></strong> The damage increases by 1d6 for each slot level above 1st.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Inverted Burning Hands.</strong> The spell deals cold damage instead of fire damage, creatures in the area make a Constitution saving throw instead of a Dexterity saving throw, and the area becomes difficult terrain for 1 minute as it is covered in hoarfrost.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "t12rt644eoncg8s7",
+  "_key": "!items!t12rt644eoncg8s7"
+}

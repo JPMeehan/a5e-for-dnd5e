@@ -1,0 +1,98 @@
+{
+  "name": "Traveling Gust of Wind",
+  "type": "spell",
+  "img": "icons/magic/air/wind-swirl-gray-blue.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "air",
+        "nature"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A torrent of wind erupts from your hand in a direction you choose. Each creature that starts its turn in the area or moves into the area must succeed on a Strength saving throw or be pushed 15 feet from you in the direction of the line.</p><p>Any creature in the area must spend 2 feet of movement for every foot moved when trying to approach you.</p><p>The blast of wind extinguishes small fires and disperses gas or vapor.</p><p>You can use a bonus action to change the direction of the gust.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Traveling Gust of Wind. </strong>The spell targets one vehicle of Huge size or smaller that has sails and its duration increases to concentration (1 hour). Until the spell ends, the vehicle\u00e2\u20ac\u2122s sails are magically filled and it can travel as if it had a strong wind. Additionally, any checks made to pilot the vehicle have advantage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 2,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "seed",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "k5zj0xw9l1cacv7t",
+  "_key": "!items!k5zj0xw9l1cacv7t"
+}

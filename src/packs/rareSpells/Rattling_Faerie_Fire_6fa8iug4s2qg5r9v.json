@@ -1,0 +1,98 @@
+{
+  "name": "Rattling Faerie Fire",
+  "type": "spell",
+  "img": "icons/magic/light/projectiles-pink-purple.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "utility"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Each object in a 20-foot cube within range is outlined in light (your choice of color). Any creature in the area when the spell is cast is also outlined unless it makes a Dexterity saving throw. Until the spell ends, affected objects and creatures shed dim light in a 10-foot radius.</p><p>Any attack roll against an affected object or creature has advantage. The spell also negates the benefits of invisibility on affected creatures and objects.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Rattling Faerie Fire.</strong> When an affected creature is damaged by a weapon attack it takes 1d4 psychic damage and is rattled until the end of its next turn. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "60",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "6fa8iug4s2qg5r9v",
+  "_key": "!items!6fa8iug4s2qg5r9v"
+}
