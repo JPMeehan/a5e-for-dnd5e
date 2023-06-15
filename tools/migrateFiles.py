@@ -304,23 +304,28 @@ def updateTarget(t, action: dict) -> None:
         case "circle" | "cylinder":
             t["type"] = "cylinder"
             t["value"] = area["radius"]
+            t["units"] = "ft"
             return
         case "cone":
             t["type"] = "cone"
             t["value"] = area["length"]
+            t["units"] = "ft"
             return
         case "cube" | "square":
             t["type"] = area["shape"]
             t["value"] = area["width"]
+            t["units"] = "ft"
             return
         case "line":
             t["type"] = "line"
             t["value"] = area["length"]
             t["width"] = area["width"]
+            t["units"] = "ft"
             return
         case "sphere":
             t["type"] = "sphere"
             t["value"] = area["radius"]
+            t["units"] = "ft"
             return
     targetType: str = action.get("target", {}).get("type", "")
     match targetType: # self, creature, object, creatureObject, other, and none
