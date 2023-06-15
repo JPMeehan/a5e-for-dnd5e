@@ -1,0 +1,97 @@
+{
+  "name": "Friends",
+  "type": "spell",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Once before the start of your next turn, when you make a Charisma ability check against the target, you gain an expertise die. If you roll a 1 on the ability or skill check, the target realizes its judgment was influenced by magic and may become hostile.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 0,
+    "school": "enc",
+    "components": {
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "bonusAction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "30",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "uyp8lageqgau1a4h",
+  "_key": "!items!uyp8lageqgau1a4h"
+}

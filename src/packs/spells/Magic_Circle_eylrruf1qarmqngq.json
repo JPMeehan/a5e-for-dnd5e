@@ -1,0 +1,98 @@
+{
+  "name": "Magic Circle",
+  "type": "spell",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "compulsion",
+        "protection"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Magical energies surround the area and stop the type of designated creature from willingly entering by nonmagical means.</p><p>Designated creatures have disadvantage when attacking creatures within the area and are unable to charm, frighten, or possess creatures within the area. When a designated creature attempts to teleport or use interplanar travel to enter the area, it makes a Charisma saving throw or its attempt fails.</p><p>You may also choose to reverse this spell, trapping a creature of your chosen type within the area in order to protect targets outside it.</p><p><strong><em>Cast at Higher Levels.</em></strong> The spell's duration increases by 1 hour for every slot level above 3rd.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 3,
+    "school": "abj",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "holy water or ornately engraved padlocks worth 100 gold, consumed by the spell",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "30",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "eylrruf1qarmqngq",
+  "_key": "!items!eylrruf1qarmqngq"
+}

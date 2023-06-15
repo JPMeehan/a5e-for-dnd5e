@@ -1,0 +1,100 @@
+{
+  "name": "Far Traveler",
+  "type": "spell",
+  "img": "icons/environment/wilderness/terrain-river-road-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you cast this spell, choose a number of additional creatures equal to your spellcasting modifier (minimum 1). You and each of these creatures can travel at a normal pace and still use stealth. Additionally, you make Constitution saves related to forced marching with advantage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Arcane Sniper",
+    "level": 1,
+    "school": "abj",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "30",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "nature",
+        "movement",
+        "obscurement",
+        "multiclass"
+      ]
+    }
+  },
+  "_id": "00qv1khzmljwnjmw",
+  "_key": "!items!00qv1khzmljwnjmw"
+}

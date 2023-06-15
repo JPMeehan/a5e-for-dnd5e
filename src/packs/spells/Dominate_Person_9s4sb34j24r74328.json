@@ -1,0 +1,97 @@
+{
+  "name": "Dominate Person",
+  "type": "spell",
+  "img": "icons/magic/control/control-influence-puppet.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "compulsion"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You assert control over the target humanoid's mind and it is charmed for the duration. If it is engaged in combat with you or creatures friendly to you, it has advantage on its saving throw.</p><p>Until the charmed condition ends, you establish a telepathic link with it while you are on the same plane. You may issue commands through this link and the target does its best to obey. No action is required to issue commands, which can be a simple and general course of action such as &quot;Attack that target, &quot; &quot;Go over there, &quot; or &quot;Bring me that object.&quot; Without commands the target only defends itself. The target continues to follow a command until its task is complete.</p><p>You can use your action to assume direct control of the target. Until the end of your next turn, you decide all of the target's actions and it does nothing you do not allow it to. While a target is directly controlled in this way, you can also cause it to use a reaction, but this requires you to use your own reaction as well.</p><p>Each time the target takes damage, it makes a new saving throw against the spell, ending the spell on a success.</p><p><strong><em>Cast at Higher Levels.</em></strong> The spell's duration is extended: 6th-level&mdash;Concentration (10 minutes), 7th-level &mdash;Concentration (1 hour), 8th-level &mdash;Concentration (8 hours).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 5,
+    "school": "enc",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "60",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "9s4sb34j24r74328",
+  "_key": "!items!9s4sb34j24r74328"
+}

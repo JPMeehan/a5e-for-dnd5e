@@ -1,0 +1,100 @@
+{
+  "name": "Soulwrought Fists",
+  "type": "spell",
+  "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "enhancement",
+        "transformation",
+        "unarmed",
+        "weaponry"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The target's hands harden with inner power, turning dexterous fingers into magical iron cudgels.</p><p>Until the spell ends, the target drops anything it is holding and cannot use its hands to grasp objects or perform complex tasks. A target can still cast any spell that does not specifically require its hands.</p><p>When making unarmed strikes, the target can use its spellcasting ability or Dexterity (its choice) instead of Strength for the attack and damage rolls of unarmed strikes. In addition, the target's unarmed strikes deal 1d8 bludgeoning damage and count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 2,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "handful of iron filings",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "touch",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "igcos86w2ic9bqd4",
+  "_key": "!items!igcos86w2ic9bqd4"
+}

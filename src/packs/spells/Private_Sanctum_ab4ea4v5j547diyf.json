@@ -1,0 +1,100 @@
+{
+  "name": "Private Sanctum",
+  "type": "spell",
+  "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "obscurement",
+        "scrying",
+        "utility"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You increase the magical security in an area, choosing one or more of the following:</p><ul><li>sound cannot pass the edge of the area.</li><li>light and vision cannot pass the edge of the area.</li><li>sensors created by divination spells can neither enter the area nor appear within it.</li><li>creatures within the area cannot be targeted by divination spells.</li><li>nothing can teleport into or out of the area.</li><li>planar travel is impossible within the area.</li></ul><p>Casting this spell on the same area every day for a year makes the duration permanent.</p><p><strong><em>Cast at Higher Levels.</em></strong> Increase the size of the sanctum by up to 100 feet for each slot level above 4th.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 4,
+    "school": "abj",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "sheet of lead, piece of glass, wad of cotton or cloth, powdered chrysolite",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "120",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "ab4ea4v5j547diyf",
+  "_key": "!items!ab4ea4v5j547diyf"
+}

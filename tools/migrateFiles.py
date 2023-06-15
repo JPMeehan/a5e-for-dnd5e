@@ -43,6 +43,10 @@ def abbr(word: str) -> str:
             return "msak"
         case "rangedSpellAttack":
             return "rsak"
+        case "savingThrow":
+            return "save"
+        case "abilityCheck":
+            return "abil"
         case "temporaryHealing":
             return "temphp"
         case "spellLevel":
@@ -240,7 +244,7 @@ def migrateAction(action: dict, system: dict) -> bool:
         }
     }
     rangeProp = "value"
-    for r in action["ranges"]:
+    for r in action.get("ranges",{}):
         arange = action["ranges"][r]["range"]
         if arange == "self":
             continue
@@ -249,6 +253,12 @@ def migrateAction(action: dict, system: dict) -> bool:
             rangeProp = "long"
         else:
             print("More than 2 ranges")
+    for p in action.get("prompts",{}):
+        activation["actionType"] = actionType(abbr(action["prompts"][p]["type"]), activation["actionType"])
+        if activation["actionType"] == 'abil':
+            activation["ability"] = action["prompts"][p]["ability"]
+        if activation["actionType"] == 'save':
+            activation["save"]["ability"] = action["prompts"][p]["ability"]
     system.update(activation)
     processRolls(action.get("rolls", {}), action,  system)
     return True
@@ -259,7 +269,7 @@ def processRolls(rolls: dict, action: dict, system: dict):
     for r in rolls:
         match rolls[r]["type"]:
             case "attack":
-                system["actionType"] = abbr(rolls[r]["attackType"])
+                system["actionType"] = actionType(abbr(rolls[r]["attackType"]), system["actionType"])
                 system["attackBonus"] = rolls[r].get("bonus", "")
             case "damage":
                 formula = re.sub("@\w+.mod","@mod",  rolls[r]["formula"]) 
@@ -272,14 +282,30 @@ def processRolls(rolls: dict, action: dict, system: dict):
                     system["scaling"]["mode"] = abbr(rolls[r]["scaling"]["mode"])
                 # do stuff
             case "healing":
-                system["actionType"] = "heal"
+                system["actionType"] = actionType("heal", system["actionType"])
                 formula = re.sub("@\w+.mod","@mod",  rolls[r]["formula"]) 
                 system["damage"]["parts"].append([formula, abbr(rolls[r].get("healingType", "healing"))])
             case "abilityCheck":
-                system["actionType"] = "abil"
+                system["actionType"] = actionType("abil", system["actionType"])
             case _:
                 print(rolls[r]["type"], action["name"])
     return True
+
+def actionType(new: str, old: str) -> str:
+    # if old != None:
+    #     print (new, old)
+    match old:
+        case None | "save" | "util" | "other":
+            return new
+        case "mwak" | "msak" | "rwak" | "rsak":
+            return old
+        case "abil" | "heal":
+            if new in ["mwak", "msak", "rwak", "rsak"]:
+                return new
+            else:
+                return old
+        case _:
+            return new
 
 def migrateMonster(system: dict) -> dict:
     o5e = {
@@ -521,7 +547,7 @@ def migrateObject(system: dict) -> dict:
 # Turns the spell into a spell
 def migrateSpell(system: dict) -> dict:
     o5e = {
-        "templates": ["activatedEffect", "action"],
+        # "templates": ["activatedEffect", "action"],
         "description": {
             "value": system["description"],
             "chat": "",
@@ -673,5 +699,7 @@ for p in packList:
                 data["type"] = "background"
     # print(data)
     # break
-    # with open(os.path.join(packPath,p), "r") as writeFile:
-    #     writeFile.write(json.dumps(data, indent=2))
+    if not os.path.exists(packPath):
+        os.mkdir(packPath)
+    with open(os.path.join(packPath,p), "w") as writeFile:
+        writeFile.write(json.dumps(data, indent=2))

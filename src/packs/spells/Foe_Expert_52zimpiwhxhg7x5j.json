@@ -1,0 +1,99 @@
+{
+  "name": "Foe Expert",
+  "type": "spell",
+  "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You must cast this spell before beginning a long rest. When you finish your rest, you may select two adversary types, one adversary type and two humanoid heritages, or four humanoid heritages for your Studied Adversary feature.</p>\n<p><strong>Cast at Higher Levels. </strong>For each spell slot above first, you may select an additional adversary type or pair of humanoid heritages.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Arcane Sniper",
+    "level": 1,
+    "school": "div",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "knowledge",
+        "multiclass"
+      ]
+    }
+  },
+  "_id": "52zimpiwhxhg7x5j",
+  "_key": "!items!52zimpiwhxhg7x5j"
+}

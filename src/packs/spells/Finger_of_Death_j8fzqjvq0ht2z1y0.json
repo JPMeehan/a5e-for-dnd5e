@@ -1,0 +1,104 @@
+{
+  "name": "Finger of Death",
+  "type": "spell",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "necrotic",
+        "undead"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Negative energy wracks the target and deals 7d8 + 30 necrotic damage. A humanoid killed by this spell turns into a zombie at the start of your next turn. It is permanently under your control and follows your spoken commands.</p><p><strong><em>Cast at Higher Levels.</em></strong> The damage increases by 2d8 for each slot level above 7th.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 7,
+    "school": "nec",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "2d8"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "60",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "7d8+30",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "j8fzqjvq0ht2z1y0",
+  "_key": "!items!j8fzqjvq0ht2z1y0"
+}

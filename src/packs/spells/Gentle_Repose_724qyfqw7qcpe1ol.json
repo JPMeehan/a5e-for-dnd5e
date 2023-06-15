@@ -1,0 +1,98 @@
+{
+  "name": "Gentle Repose",
+  "type": "spell",
+  "img": "icons/magic/life/heart-shadow-red.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "divine"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The target can't become undead and doesn't decay. Days spent under the influence of this spell don't count towards the time limit of spells which raise the dead.</p><p><strong><em>Cast at Higher Levels.</em></strong> The spell's duration is 1 year when using a 3rd-level spell slot, or permanent until dispelled when using a 4th-level spell slot.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 2,
+    "school": "nec",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a copper piece placed on each of the corpse's eyes",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "day"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "touch",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "724qyfqw7qcpe1ol",
+  "_key": "!items!724qyfqw7qcpe1ol"
+}

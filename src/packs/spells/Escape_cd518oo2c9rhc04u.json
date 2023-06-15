@@ -1,0 +1,98 @@
+{
+  "name": "Escape",
+  "type": "spell",
+  "img": "icons/environment/wilderness/mine-interior-dungeon-door.webp",
+  "system": {
+    "description": {
+      "value": "<p>If you cast this spell while underground or inside a building, you teleport to the outdoor space you occupied most recently within the last 24 hours. You are teleported whether or not the destination is hazardous.</p>\n<p>The spell fails if there is 100 contiguous feet of earth or stone or a thin layer of lead in a direct line between you and the destination.</p>\n<p><strong>Cast at Higher Levels. </strong>For each spell slot above 5th, you can teleport two additional creatures along with you.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 5,
+    "school": "conj",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "A silken cord",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 11,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "Special",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "teleportation"
+      ]
+    }
+  },
+  "_id": "cd518oo2c9rhc04u",
+  "_key": "!items!cd518oo2c9rhc04u"
+}

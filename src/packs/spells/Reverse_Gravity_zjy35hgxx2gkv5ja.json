@@ -1,0 +1,97 @@
+{
+  "name": "Reverse Gravity",
+  "type": "spell",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Gravity reverses in the area. Any creatures or objects not anchored to the ground fall upward until they reach the top of the area. A creature may make a Dexterity saving throw to prevent the fall by grabbing hold of something. If a solid object (such as a ceiling) is encountered, the affected creatures and objects impact against it with the same force as a downward fall. When an object or creature reaches the top of the area, it remains suspended there until the spell ends.</p><p>When the spell ends, all affected objects and creatures fall back down.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 7,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "lodestone and iron filings",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "120",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "zjy35hgxx2gkv5ja",
+  "_key": "!items!zjy35hgxx2gkv5ja"
+}

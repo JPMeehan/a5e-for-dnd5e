@@ -1,0 +1,99 @@
+{
+  "name": "Color Spray",
+  "type": "spell",
+  "img": "icons/magic/light/beams-rays-orange-purple-small.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "prismatic",
+        "senses"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A blast of dazzling multicolored light flashes from your hand to blind your targets until the start of your next turn. Starting with the target with the lowest hit points (ignoring unconscious creatures), targets within the area are blinded, in ascending order according to their hit points.</p><p>When a target is blinded, subtract its hit points from the total before moving on to the next target.</p><p>A target's hit points must be equal to or less than the total remaining for the spell to have any affect.</p><p><strong><em>Cast at Higher Levels.</em></strong> Add an additional 2d10 hit points for each slot level above 1st.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 1,
+    "school": "ill",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "pinch of red, yellow, and blue colored sand or powder",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "lxu7vfccmpg4ntno",
+  "_key": "!items!lxu7vfccmpg4ntno"
+}

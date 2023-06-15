@@ -1,0 +1,98 @@
+{
+  "name": "Hypnotic Pattern",
+  "type": "spell",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "prismatic"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You conjure a swirling pattern of twisting hues that roils through the air, appearing for a moment and then vanishing. Creatures in the area that can perceive the pattern make a Wisdom saving throw or become charmed. A creature charmed by this spell becomes incapacitated and its Speed is reduced to 0.</p><p>The effect ends on a creature when it takes damage or when another creature uses an action to shake it out of its daze.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 3,
+    "school": "ill",
+    "components": {
+      "vocal": false,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "piece of crystal",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "120",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "6yuzn2ix28wkvduc",
+  "_key": "!items!6yuzn2ix28wkvduc"
+}

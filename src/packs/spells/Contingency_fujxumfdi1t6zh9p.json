@@ -1,0 +1,98 @@
+{
+  "name": "Contingency",
+  "type": "spell",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "time"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>As part of this spell, cast a spell of 5th-level or lower that has a casting time of 1 action, expending spell slots for both. The second spell must target you, and doesn't target others even if it normally would.</p><p>Describe the circumstances under which the second spell should be cast. It is automatically triggered the first time these circumstances are met. This spell ends when the second spell is triggered, when you cast <em>contingency</em> again, or if the material component for it is not on your person. For example, when you cast <em>contingency</em> with <em>blur</em> as a second spell you might make the trigger be when you see a creature target you with a weapon attack, or you might make it be when you make a weapon attack against a creature, or you could choose for it to be when you see an ally make a weapon attack against a creature.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 6,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "gem-encrusted statuette of yourself worth 1, 500 gold",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "day"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "fujxumfdi1t6zh9p",
+  "_key": "!items!fujxumfdi1t6zh9p"
+}

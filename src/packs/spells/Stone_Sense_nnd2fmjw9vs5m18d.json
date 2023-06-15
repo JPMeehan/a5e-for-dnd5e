@@ -1,0 +1,100 @@
+{
+  "name": "Stone Sense",
+  "type": "spell",
+  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+  "system": {
+    "description": {
+      "value": "<p>You imbue the target with a preternatural understanding of stone. The target gains tremorsense out to a distance of 60 feet.</p>\n<p>Whenever the target makes a History check related to the origin of stonework, it is considered proficient in the History skill and gains an expertise die on the check. If the target already has the Stonecunning trait, it makes the check with advantage.</p>\n<p>Additionally, if the target is underground, it can make a DC 10 Intelligence check to correctly determine the distance between itself and the surface, or to perfectly recall any path it has traveled in the past week.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 3,
+    "school": "div",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a rough figure of an earth elemental",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "touch",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "int",
+    "actionType": "abil",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "divine",
+        "earth",
+        "nature"
+      ]
+    }
+  },
+  "_id": "nnd2fmjw9vs5m18d",
+  "_key": "!items!nnd2fmjw9vs5m18d"
+}

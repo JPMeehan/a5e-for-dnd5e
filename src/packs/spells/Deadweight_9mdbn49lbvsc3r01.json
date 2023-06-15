@@ -1,0 +1,98 @@
+{
+  "name": "Deadweight",
+  "type": "spell",
+  "img": "icons/magic/control/hypnosis-mesmerism-watch.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "mobility",
+        "transformation"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The target object's weight is greatly increased. Any creature holding the object must succeed on a Strength saving throw or drop it. A creature which doesn't drop the object has disadvantage on attack rolls until the start of your next turn as it figures out the object's new balance.</p><p>Creatures that attempt to push, drag, or lift the object must succeed on a Strength check against your spell save DC to do so.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 2,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": "touch",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "abil",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "9mdbn49lbvsc3r01",
+  "_key": "!items!9mdbn49lbvsc3r01"
+}

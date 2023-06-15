@@ -1,0 +1,99 @@
+{
+  "name": "Eyebite",
+  "type": "spell",
+  "img": "icons/magic/perception/hand-eye-pink.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "affliction",
+        "arcane",
+        "fear"
+      ]
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your eyes become an inky void imbued with fell power. One creature of your choice within 60 feet of you that you can see and that can see you must succeed on a Wisdom saving throw or be afflicted by one of the following effects for the duration. Until the spell ends, on each of your turns you can use an action to target a creature that has not already succeeded on a saving throw against this casting of <em>eyebite</em>.</p><ul><li><p><strong>Asleep:</strong> The target falls unconscious, waking if it takes any damage or another creature uses an action to rouse it.</p></li><li><p><strong>Panicked:</strong> The target is frightened of you. On each of its turns, the frightened creature uses its action to take the Dash action and move away from you by the safest and shortest available route unless there is nowhere for it to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.</p></li><li><p><strong>Sickened:</strong> The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another Wisdom saving throw, ending this effect on a successful save.</p></li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 6,
+    "school": "nec",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "uroaodb26zqe1qbh",
+  "_key": "!items!uroaodb26zqe1qbh"
+}

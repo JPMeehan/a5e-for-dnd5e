@@ -1,0 +1,106 @@
+{
+  "name": "Cupid's Arrow",
+  "type": "spell",
+  "img": "icons/magic/life/heart-shadow-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>As part of the action used to cast this spell, make a ranged weapon attack against a target within range of the weapon you are wielding. If you hit, the target takes no damage, is instead healed for an amount of hit points equal to the weapon\u00e2\u20ac\u2122s normal damage + 1d8, and must make a Charisma saving throw against your spell save DC. A creature that fails its save is charmed by you for one minute. A creature that succeeds on its save is still healed, but is not charmed.</p><p>The spell ends if you or your companions do anything harmful towards the target. The target knows it was charmed by you when the spell ends.&nbsp;</p><p>If the target is already friendly toward you, it is not charmed and instead gains an expertise die on its next saving throw or ability check.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Arcane Sniper",
+    "level": 3,
+    "school": "enc",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "A ranged weapon",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "30",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "heal",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "divine",
+        "compulsion",
+        "healing",
+        "weaponry"
+      ]
+    }
+  },
+  "_id": "mr3mrx2b8po8bh73",
+  "_key": "!items!mr3mrx2b8po8bh73"
+}
