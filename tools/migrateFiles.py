@@ -9,15 +9,15 @@ packPath = os.path.join(".\src", "packs", targetPack)
 packList = os.listdir(origin)
 
 # dnd5e item types = ["weapon", "equipment", "consumable", "tool", "loot", "background", "class", "subclass", "spell", "feat", "backpack"]
-#   a5e item types = ["feature", "maneuver", "object", "spell", "background", "culture", "destiny"],
+#   a5e item types = ["feature", "maneuver", "object", "spell", "background", "culture", "destiny"]
 
-def flattenSource(source):
+def flattenSource(source: str | dict) -> str:
     if type(source) == str:
         return source if source != "" else "A5E Adventurer's Guide"
     else:
         return source["name"]
 
-def abbr(word):
+def abbr(word: str) -> str:
     match word:
         case "abjuration":
             return "abj"
@@ -35,8 +35,26 @@ def abbr(word):
             return "nec"
         case "transmutation":
             return "trs"
+        case "meleeWeaponAttack":
+            return "mwak"
+        case "rangedWeaponAttack":
+            return "rwak"
+        case "meleeSpellAttack":
+            return "msak"
+        case "rangedSpellAttack":
+            return "rsak"
         case _:
             return word
+
+def target(action: dict) -> str:
+    targetType = action.get("target", {}).get("type", "")
+    match targetType:
+        case 'self' | 'creature' | 'object':
+            return targetType
+        case 'creatureObject':
+            return 'enemy'
+        case _:
+            print("Do Stuff")
 
 """ACTION TEMPLATES - activatedEffect | action
 "activatedEffect": {
@@ -172,7 +190,7 @@ def migrateAction(action: dict, system: dict) -> bool:
             "value": action.get("target", {}).get("quantity"),
             "width": None,
             "units": "",
-            "type": action.get("target", {}).get("type", "")
+            "type": abbr()
         },
         "range": {
             "value": None,
@@ -223,11 +241,15 @@ def processRolls(rolls: dict, action: dict, system: dict):
                 # do stuff
             case "damage":
                 formula = re.sub("@\w+.mod","@mod",  rolls[r]["formula"]) 
-                print(formula)
+                if "damageType" not in rolls[r]:
+                    print("No damage type found in", action["name"])
+                    continue
                 system["damage"]["parts"].append([formula, rolls[r]["damageType"]])
                 # do stuff
             case "savingThrow":
-                print("foo")
+                print("Saving throw in", action["name"])
+            case _:
+                print(rolls[r]["type"], action["name"])
     return True
 
 def migrateMonster(system: dict) -> dict:
@@ -611,7 +633,7 @@ for p in packList:
                 data["flags"]["a5e-for-dnd5e"] ={"secondarySchools" : data["system"]["schools"]["secondary"]}
                 if "core" in data["flags"]:
                     data["flags"].pop("core")
-                print(data["name"])
+                # print(data["name"])
                 # if len(data["system"]["actions"]) > 1:
                 # for a in data["system"]["actions"]:
                     # print(data["system"]["actions"][a])
