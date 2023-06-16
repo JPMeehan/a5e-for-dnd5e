@@ -341,6 +341,9 @@ def updateTarget(t, action: dict) -> None:
             t["type"] = 'enemy'
             t["value"] = action.get("target", {}).get("quantity")
 
+""" NPC TEMPLATE
+"""
+# Turns the npc into an npc
 def migrateMonster(system: dict) -> dict:
     o5e = {
         "description": {
@@ -464,19 +467,16 @@ def migrateObject(system: dict) -> dict:
         "source": flattenSource(system["source"]),
         "quantity": system["quantity"],
         "weight": system["weight"],
-        "price": {
-            "value": system["price"],
-            "denomination": "gp"
-        },
+        "price": splitPrice(system["price"]),
         "attunement": 0,
         "equipped": system["equipped"],
         "rarity": system["rarity"],
         "identified": True
     }
-    backpack = {
+    backpack = { # No data properties to pull from
         "capacity": {
             "type": "weight",
-            "value": None,
+            "value": None, 
             "weightless": False
         },
         "currency": {
@@ -488,14 +488,13 @@ def migrateObject(system: dict) -> dict:
         },
         "type": "backpack"
     }
-    equipment = {
-        "templates": ["activatedEffect", "action", "mountable"],
+    equipment = { # No data properties to pull from
         "armor": {
-            "type": "light",
+            "type": system["armorCategory"] if not system["shieldCategory"] else "shield",
             "value": None,
             "dex": None
         },
-        "baseItem": "",
+        "baseItem": "", # Need to do some CONFIG work...
         "speed": {
             "value": None,
             "conditions": ""
@@ -506,14 +505,13 @@ def migrateObject(system: dict) -> dict:
         "type": "equipment"
     }
     consumable = {
-        "templates": ["activatedEffect", "action"],
         "consumableType": "potion",
         "uses": {
             "autoDestroy": False
         },
         "type": "consumable"
     }
-    tool = {
+    tool = { # No data properties to pull from
         "toolType": "",
         "baseItem": "",
         "ability": "int",
@@ -523,38 +521,101 @@ def migrateObject(system: dict) -> dict:
         "type": "tool"
     }
     weapon = {
-        "templates": ["activatedEffect", "action", "mountable"],
-        "weaponType": "simpleM",
+        "weaponType": weaponType(system),
         "baseItem": "",
         "properties": {},
         "proficient": True,
         "type": "weapon"
     }
+    mountable = {
+        "armor": {
+          "value": None
+        },
+        "hp": {
+          "value": None,
+          "max": None,
+          "dt": None,
+          "conditions": ""
+        }
+    }
     match system["objectType"]:
         case "ammunition":
             o5e.update(consumable)
+            o5e["consumableType"] = "ammo"
         case "armor":
             o5e.update(equipment)
+            o5e.update(mountable)
+            for a in system["actions"]:
+                migrateAction(system["actions"][a], o5e)
         case "clothing":
             o5e.update(equipment)
+            o5e.update(mountable)
+            for a in system["actions"]:
+                migrateAction(system["actions"][a], o5e)
         case "consumable":
             o5e.update(consumable)
+            for a in system["actions"]:
+                migrateAction(system["actions"][a], o5e)
         case "container":
             o5e.update(backpack)
         case "jewelry":
             o5e.update(equipment)
+            o5e.update(mountable)
+            for a in system["actions"]:
+                migrateAction(system["actions"][a], o5e)
         case "miscellaneous":
             o5e.update(equipment)
+            o5e.update(mountable)
+            for a in system["actions"]:
+                migrateAction(system["actions"][a], o5e)
         case "shield":
             o5e.update(equipment)
+            o5e.update(mountable)
+            for a in system["actions"]:
+                migrateAction(system["actions"][a], o5e)
         case "tool":
             o5e.update(tool)
         case "weapon":
             o5e.update(weapon)
+            o5e.update(mountable)
+            for a in system["actions"]:
+                migrateAction(system["actions"][a], o5e)
         case _:
             o5e["type"] = "loot"
     
     return o5e
+
+def splitPrice(price: str) -> dict:
+    if type(price) == int:
+        return {"value": price, "denomination": "gp"}
+    s = price.split(' ')
+    p = {
+        "value": int(s[0].replace(',','')),
+        "denomination": s[1]
+    }
+    return p
+
+def weaponType(system: dict) -> str:
+
+    wepRange: str = ""
+
+    for a in system["actions"]:
+        action: dict = system["actions"][a]
+        for r in action.get("rolls", {}):
+            roll: dict = system["actions"][a]["rolls"][r]
+            match abbr(roll.get("attackType")):
+                case "mwak":
+                    wepRange = "M"
+                case "rwak":
+                    wepRange = "R"
+    
+    if not wepRange:
+        return ""
+
+    if "simple" in system["weaponProperties"]:
+        return "simple" + wepRange
+    else:
+        return "martial" + wepRange
 
 """ SPELL
 "templates": [
@@ -707,6 +768,7 @@ for p in packList:
         data = json.load(read_file)
         if "core" in data["flags"]:
             data["flags"].pop("core")
+        print(data["name"])
         match data["type"]: # a5e type
             case "npc":
                 data["system"] = migrateMonster(data["system"])
@@ -734,12 +796,16 @@ for p in packList:
             case "destiny":
                 data["system"] = migrateDestiny(data["system"])
                 data["type"] = "background"
-    # print(data)
+    if data["type"] != "weapon":
+        continue
+    print(data)
     # break
-    match targetPack:
-        case "rareSpells":
-            packPath = os.path.join(".\src", "packs", "spells")
-    if not os.path.exists(packPath):
-        os.mkdir(packPath)
-    with open(os.path.join(packPath,p), "w") as writeFile:
-        writeFile.write(json.dumps(data, indent=2, ensure_ascii=False))
+    # match targetPack:
+    #     case "rareSpells":
+    #         packPath = os.path.join(".\src", "packs", "spells")
+    #     case "adventuringGear" | "magicItems":
+    #         packPath = os.path.join(".\src", "packs", "equipment")
+    # if not os.path.exists(packPath):
+    #     os.mkdir(packPath)
+    # with open(os.path.join(packPath,p), "w") as writeFile:
+    #     writeFile.write(json.dumps(data, indent=2, ensure_ascii=False))
