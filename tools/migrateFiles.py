@@ -22,7 +22,7 @@ def abbr(word: str) -> str:
         case "abjuration":
             return "abj"
         case "conjuration":
-            return "conj"
+            return "con"
         case "divination":
             return "div"
         case "enchantment":
