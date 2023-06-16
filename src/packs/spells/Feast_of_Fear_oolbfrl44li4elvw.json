@@ -1,0 +1,99 @@
+{
+  "name": "Feast of Fear",
+  "type": "spell",
+  "img": "icons/magic/death/projectile-skull-fire-purple.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "arcane",
+        "fear"
+      ],
+      "rareSpell": true
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You project a phantasmal image into the minds of each creature in the area showing them what they fear most. On a failed save, a creature becomes frightened until the spell ends and must drop whatever it is holding.</p><p>On each of its turns, a creature frightened by this spell uses its action to take the Dash action and move away from you by the safest available route. If there is nowhere it can move, it remains stationary. When the creature ends its turn in a location where it doesn't have line of sight to you, the creature can repeat the saving throw, ending the spell's effects on it on a successful save.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Feast of Fear.</strong> The spell affects every creature within 30 feet of you. When you first cast the spell and again at the start of each of your turns, you gain temporary hit points equal to the number of frightened creatures you can see within 30 feet of you.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 3,
+    "school": "ill",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "white feather or hen's heart",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "30",
+      "width": null,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "oolbfrl44li4elvw",
+  "_key": "!items!oolbfrl44li4elvw"
+}

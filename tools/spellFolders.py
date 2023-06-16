@@ -70,6 +70,8 @@ for f in folders:
 for p in packList:
     with open(os.path.join(packPath,p), "r") as read_file:
         data = json.load(read_file)
+        if data["type"] != 'spell':
+            continue
         if data["flags"]["a5e-for-dnd5e"].get("rareSpell"):
             data["folder"] = rareSpells[data["system"]["level"]]
         else:

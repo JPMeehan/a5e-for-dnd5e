@@ -1,0 +1,104 @@
+{
+  "name": "Blinding Acid Arrow",
+  "type": "spell",
+  "img": "icons/magic/acid/projectile-stream-bubbles.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "acid",
+        "arcane"
+      ],
+      "rareSpell": true
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A jet of acid streaks towards the target like a hissing, green arrow. Make a ranged spell attack.</p><p>On a hit the target takes 4d4 acid damage and 2d4 ongoing acid damage for 1 round. On a miss the target takes half damage.</p><p><strong><em>Cast at Higher Levels.</em></strong> Increase this spell's initial and ongoing damage by 1d4 per slot level above 2nd.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Blinding Acid Arrow.</strong> The arrow flies to the target\u00e2\u20ac\u2122s sensory organs seeking to damage its sight. A creature damaged by this spell makes a Dexterity saving throw or it is blinded until the end of its next turn. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 2,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "flint arrowhead",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d4"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "enemy"
+    },
+    "range": {
+      "value": "120",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "rsak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d4",
+          "acid"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "9qdoa9d8uj1auz17",
+  "_key": "!items!9qdoa9d8uj1auz17"
+}

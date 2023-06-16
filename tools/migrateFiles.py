@@ -716,7 +716,10 @@ for p in packList:
                 data["type"] = data["system"]["type"]
                 data["system"].pop("type")
             case "spell":
-                data["flags"]["a5e-for-dnd5e"] ={"secondarySchools" : data["system"]["schools"]["secondary"]}
+                data["flags"]["a5e-for-dnd5e"] = {
+                    "secondarySchools" : data["system"]["schools"]["secondary"],
+                    "rareSpell": targetPack == "rareSpells"
+                }
                 data["system"] = migrateSpell(data["system"])
             case "background":
                 data["system"] = migrateBackground(data["system"])
@@ -730,5 +733,8 @@ for p in packList:
     # break
     if not os.path.exists(packPath):
         os.mkdir(packPath)
+    match targetPack:
+        case "rareSpells":
+            packPath = os.path.join(".\src", "packs", "spells")
     with open(os.path.join(packPath,p), "w") as writeFile:
         writeFile.write(json.dumps(data, indent=2))

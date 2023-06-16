@@ -1,0 +1,104 @@
+{
+  "name": "Rapid Air Wave",
+  "type": "spell",
+  "img": "icons/magic/air/wind-swirl-gray-blue.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "air",
+        "weaponry"
+      ],
+      "rareSpell": true
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your deft weapon swing sends a wave of cutting air to assault a creature within range. Make a melee weapon attack against the target. If you are wielding one weapon in each hand, your attack deals an additional 1d6 damage. Regardless of the weapon you are wielding, your attack deals slashing damage.</p><p><strong><em>Cast at Higher Levels.</em></strong> The spell's range increases by 30 feet for each slot level above 1st.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Rapid Air Wave.</strong> If you have the Extra Attack feature, you may make two melee weapon attacks against the target. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 1,
+    "school": "conj",
+    "components": {
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "30",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "3bf2cd46rv8y65vv",
+  "_key": "!items!3bf2cd46rv8y65vv"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Lasting Animal Friendship",
+  "type": "spell",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "beasts",
+        "compulsion",
+        "nature"
+      ],
+      "rareSpell": true
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You allow your inner beauty to shine through in song and dance whether to call a bird from its tree or a badger from its sett. Until the spell ends or one of your companions harms it (whichever is sooner), the target is charmed by you.</p><p><strong><em>Cast at Higher Levels.</em></strong> Choose one additional target for each slot level above 1st.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Lasting Animal Friendship.</strong> So long as the target has a CR equal to or less than half your proficiency bonus, the spell\u00e2\u20ac\u2122s duration becomes permanent until it is dispelled or you cast this spell again. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 1,
+    "school": "enc",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "red ribbon",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "30",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "wnnu0wjje2e5fwh1",
+  "_key": "!items!wnnu0wjje2e5fwh1"
+}

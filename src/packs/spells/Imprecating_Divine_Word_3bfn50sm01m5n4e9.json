@@ -1,0 +1,99 @@
+{
+  "name": "Imprecating Divine Word",
+  "type": "spell",
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+  "effects": [],
+  "flags": {
+    "a5e-for-dnd5e": {
+      "secondarySchools": [
+        "affliction",
+        "divine"
+      ],
+      "rareSpell": true
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You utter a primordial imprecation that brings woe upon your enemies. A target suffers an effect based on its current hit points.</p><ul><li><p>Fewer than 50 hit points: deafened for 1 minute.</p></li><li><p>Fewer than 40 hit points: blinded and deafened for 10 minutes.</p></li><li><p>Fewer than 30 hit points: stunned, blinded, and deafened for 1 hour.</p></li><li><p>Fewer than 20 hit points: instantly killed outright.</p></li></ul><p>Additionally, when a celestial, elemental, fey, or fiend is affected by this spell it is immediately forced back to its home plane and for 24 hours it is unable to return to your current plane by any means less powerful than a wish spell. Such a creature does not suffer this effect if it is already on its plane of origin.</p><hr class=\"a5e-rule u-my-md\"><p><strong>Rare: Imprecating Divine Word.</strong> The spell\u00e2\u20ac\u2122s additional effect also targets aberrations and dragons, sending them to a harmless demiplane. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "level": 7,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": null
+    },
+    "activation": {
+      "type": "bonusAction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "instantaneous"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": "30",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "3bfn50sm01m5n4e9",
+  "_key": "!items!3bfn50sm01m5n4e9"
+}
