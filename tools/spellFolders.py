@@ -78,5 +78,5 @@ for p in packList:
             data["folder"] = spells[data["system"]["level"]]
     # print(data["folder"])
     with open(os.path.join(packPath,p), "w") as writeFile:
-        writeFile.write(json.dumps(data, indent=2, cls=encoder))
+        writeFile.write(json.dumps(data, indent=2, ensure_ascii=False))
     # break

@@ -62,6 +62,11 @@ def abbr(word: str) -> str:
         case _:
             return word
 
+def fixUUIDrefs(s: str) -> str:
+    s = s.replace("Compendium.a5e.a5e-spells", "Compendium.a5e-for-dnd5e.spells")
+    s = s.replace("Compendium.a5e.a5e-rare-spells", "Compendium.a5e-for-dnd5e.spells")
+    return s
+
 """ACTION TEMPLATES - activatedEffect | action
 "activatedEffect": {
     "activation": {
@@ -339,7 +344,7 @@ def updateTarget(t, action: dict) -> None:
 def migrateMonster(system: dict) -> dict:
     o5e = {
         "description": {
-            "value": system["description"],
+            "value": fixUUIDrefs(system["description"]),
             "chat": "",
             "unidentified": ""
         },
@@ -389,7 +394,7 @@ def migrateMonster(system: dict) -> dict:
 def migrateFeature(system: dict) -> dict:
     o5e = {
         "description": {
-            "value": system["description"],
+            "value": fixUUIDrefs(system["description"]),
             "chat": "",
             "unidentified": ""
         },
@@ -412,7 +417,7 @@ def migrateFeature(system: dict) -> dict:
 def migrateManeuver(system: dict) -> dict:
     o5e = {
         "description": {
-            "value": system["description"],
+            "value": fixUUIDrefs(system["description"]),
             "chat": "",
             "unidentified": ""
         },
@@ -452,7 +457,7 @@ def migrateManeuver(system: dict) -> dict:
 def migrateObject(system: dict) -> dict:
     o5e = {
         "description": {
-            "value": system["description"],
+            "value": fixUUIDrefs(system["description"]),
             "chat": "",
             "unidentified": ""
         },
@@ -578,7 +583,7 @@ def migrateSpell(system: dict) -> dict:
     o5e = {
         # "templates": ["activatedEffect", "action"],
         "description": {
-            "value": system["description"],
+            "value": fixUUIDrefs(system["description"]),
             "chat": "",
             "unidentified": ""
         },
@@ -642,7 +647,7 @@ def migrateSpell(system: dict) -> dict:
 def migrateBackground(system: dict) -> dict:
     o5e = {
         "description": {
-            "value": system["description"],
+            "value": fixUUIDrefs(system["description"]),
             "chat": "",
             "unidentified": ""
         },
@@ -668,7 +673,7 @@ def migrateBackground(system: dict) -> dict:
 def migrateCulture(system: dict) -> dict:
     o5e = {
         "description": {
-            "value": system["description"],
+            "value": fixUUIDrefs(system["description"]),
             "chat": "",
             "unidentified": ""
         },
@@ -689,7 +694,7 @@ def migrateCulture(system: dict) -> dict:
 def migrateDestiny(system: dict) -> dict:
     o5e = {
         "description": {
-            "value": system["description"],
+            "value": fixUUIDrefs(system["description"]),
             "chat": "",
             "unidentified": ""
         },
@@ -731,10 +736,10 @@ for p in packList:
                 data["type"] = "background"
     # print(data)
     # break
-    if not os.path.exists(packPath):
-        os.mkdir(packPath)
     match targetPack:
         case "rareSpells":
             packPath = os.path.join(".\src", "packs", "spells")
+    if not os.path.exists(packPath):
+        os.mkdir(packPath)
     with open(os.path.join(packPath,p), "w") as writeFile:
-        writeFile.write(json.dumps(data, indent=2))
+        writeFile.write(json.dumps(data, indent=2, ensure_ascii=False))
