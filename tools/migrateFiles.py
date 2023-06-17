@@ -257,7 +257,7 @@ def migrateAction(action: dict, system: dict) -> bool:
             activation["save"]["ability"] = action["prompts"][p]["ability"]
     system.update(activation)
     processRolls(action.get("rolls", {}), action,  system)
-    if system.get("properties",{}).get("vers"):
+    if system.get("properties",{}).get("vers") or system.get("properties",{}).get("mnt"):
         dmg: dict = system["damage"]
         dmg["versatile"] = dmg["parts"].pop(1)[0]
     return True
@@ -662,9 +662,6 @@ def weaponProperties(system: dict) -> dict:
     p = dict()
     """Renames
     Missing o5e: Ammunition, Firearm, Focus, Reload, Special
-    Missing a5e: burn, breaker, compounding, defensive, flamboyant, handMounted,
-        inaccurate, mounted, muzzleLoading, parrying, parryingImmunity, quickdraw,
-        range, rifled, scatter, shock, stealthy, storage, triggerCharge, trip, vicious
     """
     if "dualWielding" in props:
         p.update({'lgt': True})
@@ -682,6 +679,31 @@ def weaponProperties(system: dict) -> dict:
         p.update({'thr': True})
     if "twoHanded" in props:
         p.update({'two': True})
+    if "versatile" in props:
+        p.update({"vers": True})
+    """A5E Specific
+    burn, breaker, compounding, defensive, flamboyant, handMounted, inaccurate, 
+        mounted, muzzleLoading, parrying, parryingImmunity, quickdraw, range, 
+        rifled, scatter, shock, stealthy, storage, triggerCharge, trip, vicious
+    """
+    if "burn" in props:
+        p.update({"vers": True})
+    if "breaker" in props:
+        p.update({"vers": True})
+    if "compounding" in props:
+        p.update({"vers": True})
+    if "defensive" in props:
+        p.update({"vers": True})
+    if "flamboyant" in props:
+        p.update({"vers": True})
+    if "handMounted" in props:
+        p.update({"vers": True})
+    if "inaccurate" in props:
+        p.update({"vers": True})
+    if "versatile" in props:
+        p.update({"vers": True})
+    if "versatile" in props:
+        p.update({"vers": True})
     if "versatile" in props:
         p.update({"vers": True})
     return p
