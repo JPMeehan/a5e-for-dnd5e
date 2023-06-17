@@ -522,8 +522,8 @@ def migrateObject(system: dict) -> dict:
     }
     weapon = {
         "weaponType": weaponType(system),
-        "baseItem": "",
-        "properties": {},
+        "baseItem": getBaseItem(system),
+        "properties": weaponProperties(system),
         "proficient": True,
         "type": "weapon"
     }
@@ -591,14 +591,12 @@ def splitPrice(price: str) -> dict:
     s = price.split(' ')
     p = {
         "value": int(s[0].replace(',','')),
-        "denomination": s[1]
+        "denomination": s[1] if len(s) == 2 else "gp"
     }
     return p
 
 def weaponType(system: dict) -> str:
-
     wepRange: str = ""
-
     for a in system["actions"]:
         action: dict = system["actions"][a]
         for r in action.get("rolls", {}):
@@ -616,6 +614,16 @@ def weaponType(system: dict) -> str:
         return "simple" + wepRange
     else:
         return "martial" + wepRange
+
+def getBaseItem(system: dict) -> str:
+    return ""
+
+def weaponProperties(system: dict) -> dict:
+    props: dict = system["weaponProperties"]
+    p = dict()
+    if "versatile" in props:
+        p.update({"vers": True})
+    return p
 
 """ SPELL
 "templates": [
