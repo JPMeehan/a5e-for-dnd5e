@@ -687,25 +687,21 @@ def weaponProperties(system: dict) -> dict:
         rifled, scatter, shock, stealthy, storage, triggerCharge, trip, vicious
     """
     if "burn" in props:
-        p.update({"vers": True})
+        p.update({"brn": True})
     if "breaker" in props:
-        p.update({"vers": True})
+        p.update({"brk": True})
     if "compounding" in props:
-        p.update({"vers": True})
+        p.update({"cmp": True})
     if "defensive" in props:
-        p.update({"vers": True})
+        p.update({"def": True})
     if "flamboyant" in props:
-        p.update({"vers": True})
+        p.update({"flm": True})
     if "handMounted" in props:
-        p.update({"vers": True})
+        p.update({"hmt": True})
     if "inaccurate" in props:
-        p.update({"vers": True})
-    if "versatile" in props:
-        p.update({"vers": True})
-    if "versatile" in props:
-        p.update({"vers": True})
-    if "versatile" in props:
-        p.update({"vers": True})
+        p.update({"inac": True})
+    if "mounted" in props:
+        p.update({"mnt": True})
     return p
 
 """ SPELL
