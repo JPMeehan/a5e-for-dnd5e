@@ -1,0 +1,44 @@
+{
+  "name": "Lantern (hooded)",
+  "type": "equipment",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Once lit, a lantern burns for 6 hours on a flask of oil (1 pint).</p><p>Hooded: Casts bright light in a 30-foot radius and dim light for an additional 30 feet. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "2cnb4ywk6y2pn9jo",
+  "_key": "!items!2cnb4ywk6y2pn9jo"
+}

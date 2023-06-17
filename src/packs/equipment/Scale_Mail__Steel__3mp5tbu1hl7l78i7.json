@@ -1,0 +1,44 @@
+{
+  "name": "Scale Mail (Steel)",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><em>Low-Maintenance (Expertise Die), Requirements STR 14, Stealth (Disadvantage)</em></p><p><strong>AC 14 (DEX +2 max)</strong></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 35,
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": true,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "3mp5tbu1hl7l78i7",
+  "_key": "!items!3mp5tbu1hl7l78i7"
+}

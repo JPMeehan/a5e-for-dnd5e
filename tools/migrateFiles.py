@@ -257,6 +257,9 @@ def migrateAction(action: dict, system: dict) -> bool:
             activation["save"]["ability"] = action["prompts"][p]["ability"]
     system.update(activation)
     processRolls(action.get("rolls", {}), action,  system)
+    if system.get("properties",{}).get("vers"):
+        dmg: dict = system["damage"]
+        dmg["versatile"] = dmg["parts"].pop(1)[0]
     return True
 
 def processRolls(rolls: dict, action: dict, system: dict):
@@ -804,16 +807,16 @@ for p in packList:
             case "destiny":
                 data["system"] = migrateDestiny(data["system"])
                 data["type"] = "background"
-    if data["type"] != "weapon":
-        continue
-    print(data)
+    # if data["type"] != "weapon":
+    #     continue
+    # print(data)
     # break
-    # match targetPack:
-    #     case "rareSpells":
-    #         packPath = os.path.join(".\src", "packs", "spells")
-    #     case "adventuringGear" | "magicItems":
-    #         packPath = os.path.join(".\src", "packs", "equipment")
-    # if not os.path.exists(packPath):
-    #     os.mkdir(packPath)
-    # with open(os.path.join(packPath,p), "w") as writeFile:
-    #     writeFile.write(json.dumps(data, indent=2, ensure_ascii=False))
+    match targetPack:
+        case "rareSpells":
+            packPath = os.path.join(".\src", "packs", "spells")
+        case "adventuringGear" | "magicItems":
+            packPath = os.path.join(".\src", "packs", "equipment")
+    if not os.path.exists(packPath):
+        os.mkdir(packPath)
+    with open(os.path.join(packPath,p), "w") as writeFile:
+        writeFile.write(json.dumps(data, indent=2, ensure_ascii=False))

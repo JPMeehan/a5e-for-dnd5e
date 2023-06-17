@@ -1,0 +1,44 @@
+{
+  "name": "String (10 feet)",
+  "type": "equipment",
+  "img": "icons/sundries/survival/rope-coiled-wrapped-brown.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>A 10-foot length of string, typically found in a burglar's pack.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 1,
+      "denomination": "sp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "z4gh8q95ff89lfpv",
+  "_key": "!items!z4gh8q95ff89lfpv"
+}

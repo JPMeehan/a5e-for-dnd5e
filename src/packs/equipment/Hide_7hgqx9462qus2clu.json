@@ -1,0 +1,44 @@
+{
+  "name": "Hide",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-layered-leather-stitched.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><em>Comfortable, Wild</em></p><p><strong>AC 13 (DEX +2 max)</strong></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 15,
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "7hgqx9462qus2clu",
+  "_key": "!items!7hgqx9462qus2clu"
+}

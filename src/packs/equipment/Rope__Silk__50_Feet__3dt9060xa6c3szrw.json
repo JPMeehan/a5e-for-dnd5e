@@ -1,0 +1,44 @@
+{
+  "name": "Rope, Silk (50 Feet)",
+  "type": "equipment",
+  "img": "icons/sundries/survival/rope-wrapped-tan.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Rope, whether made of hemp or silk, has an AC of 10, 2 hit points, and can be burst with a DC 17 Strength check.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "3dt9060xa6c3szrw",
+  "_key": "!items!3dt9060xa6c3szrw"
+}

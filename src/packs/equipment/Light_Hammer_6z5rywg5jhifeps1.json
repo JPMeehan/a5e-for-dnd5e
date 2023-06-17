@@ -1,0 +1,96 @@
+{
+  "name": "Light Hammer",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-war-spiked.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><em>Dual-Wielding, Thrown (20/60)</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "weaponType": "martialM",
+    "baseItem": "",
+    "properties": {},
+    "proficient": true,
+    "armor": {
+      "value": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": "",
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "enemy"
+    },
+    "range": {
+      "value": "20 ft",
+      "long": "60",
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "6z5rywg5jhifeps1",
+  "_key": "!items!6z5rywg5jhifeps1"
+}

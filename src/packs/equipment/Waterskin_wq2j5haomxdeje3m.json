@@ -1,0 +1,39 @@
+{
+  "name": "Waterskin",
+  "type": "backpack",
+  "img": "icons/sundries/survival/wetskin-leather-tan.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Capacity: 4 pints liquid</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 2,
+      "denomination": "sp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "type": "weight",
+      "value": null,
+      "weightless": false
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    }
+  },
+  "_id": "wq2j5haomxdeje3m",
+  "_key": "!items!wq2j5haomxdeje3m"
+}

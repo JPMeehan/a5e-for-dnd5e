@@ -1,0 +1,44 @@
+{
+  "name": "Bedroll",
+  "type": "equipment",
+  "img": "icons/sundries/survival/bedroll-tan.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>This essential commodity provides insulation and comfortable sleep on rocky, wet, or uneven terrain.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 7,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "xw9gyjrrbjou3a3u",
+  "_key": "!items!xw9gyjrrbjou3a3u"
+}

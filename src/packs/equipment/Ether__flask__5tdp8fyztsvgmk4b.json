@@ -1,0 +1,95 @@
+{
+  "name": "Ether (flask)",
+  "type": "equipment",
+  "img": "icons/skills/toxins/bottle-open-vapors-pink.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>You can use the chemicals in this flask to soak a rag or other small cloth item. An open flask of ether or an ether-soaked rag retains its potency for 1 minute or until you hit with it. While you are grappling a creature, you may make a special melee weapon attack against it using ether. On a hit, the creature makes a DC 12 Constitution saving throw or fall unconscious. The creature remains unconscious for 1 minute, until it takes damage, or until an action is used to shake or slap the creature awake.</p><p>Applying a poison takes an action. A creature immune to the poisoned condition is immune to any effects from poisons.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 20,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "5tdp8fyztsvgmk4b",
+  "_key": "!items!5tdp8fyztsvgmk4b"
+}

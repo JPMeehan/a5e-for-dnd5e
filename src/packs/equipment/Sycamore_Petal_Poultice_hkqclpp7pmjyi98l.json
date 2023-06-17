@@ -1,0 +1,31 @@
+{
+  "name": "Sycamore Petal Poultice",
+  "type": "consumable",
+  "img": "icons/consumables/plants/fern-broad-leaf-damaged-green.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Consumption of these pulped petals heightens your senses, and after you eat it you gain an expertise die on Wisdom saving throws for 1 hour.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "consumableType": "potion",
+    "uses": {
+      "autoDestroy": false
+    }
+  },
+  "_id": "hkqclpp7pmjyi98l",
+  "_key": "!items!hkqclpp7pmjyi98l"
+}

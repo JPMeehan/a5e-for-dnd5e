@@ -1,0 +1,44 @@
+{
+  "name": "Splint (Steel)",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-layered-leather-studded-black.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><em>Low-Maintenance (Expertise Die), Requires STR 15, Stealth (Disadvantage)</em></p><p><strong>AC 17</strong></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 30,
+    "price": {
+      "value": 450,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "edwns4f8zfs8dely",
+  "_key": "!items!edwns4f8zfs8dely"
+}

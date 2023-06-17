@@ -1,0 +1,44 @@
+{
+  "name": "Explorer's Pack",
+  "type": "equipment",
+  "img": "icons/containers/bags/pack-leather-embossed-brown.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Includes:</p><ul><li><p>1x Backpack</p></li><li><p>1x Bedroll</p></li><li><p>1x Mess Tin</p></li><li><p>1x Tinderbox</p></li><li><p>10x Torch</p></li><li><p>10x Rations (1 Supply)</p></li><li><p>1x Waterskin</p></li><li><p>1x Rope, Hempen (50 Feet)</p></li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "unho3xas1hjgyr7q",
+  "_key": "!items!unho3xas1hjgyr7q"
+}

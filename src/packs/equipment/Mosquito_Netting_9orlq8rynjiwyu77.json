@@ -1,0 +1,44 @@
+{
+  "name": "Mosquito Netting",
+  "type": "equipment",
+  "img": "icons/tools/fishing/net-gold.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>This thin mesh cloth provides protection from small insects while sleeping in jungles, swamps, or similar environments.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "9orlq8rynjiwyu77",
+  "_key": "!items!9orlq8rynjiwyu77"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Priest's Pack",
+  "type": "equipment",
+  "img": "icons/containers/bags/pouch-leather-gold-grey.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Includes:</p><ul><li><p>1x Backpack</p></li><li><p>1x Blanket</p></li><li><p>10x Candle</p></li><li><p>1x Tinderbox</p></li><li><p>1x Alms Box</p></li><li><p>2x Incense (Block)</p></li><li><p>1x Censer</p></li><li><p>1x Vestments</p></li><li><p>2x Rations (1 Supply)</p></li><li><p>1x Waterskin</p></li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 19,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "x48yekoml3mkq5qa",
+  "_key": "!items!x48yekoml3mkq5qa"
+}

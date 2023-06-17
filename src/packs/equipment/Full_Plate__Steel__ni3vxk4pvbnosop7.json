@@ -1,0 +1,44 @@
+{
+  "name": "Full Plate (Steel)",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><em>Low-Maintenance (Expertise Die), Requires STR 15, Stealth (Disadvantage)</em></p><p><strong>AC 18</strong></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 55,
+    "price": {
+      "value": 1500,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": true,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "ni3vxk4pvbnosop7",
+  "_key": "!items!ni3vxk4pvbnosop7"
+}

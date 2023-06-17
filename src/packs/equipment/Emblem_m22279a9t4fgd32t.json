@@ -1,0 +1,44 @@
+{
+  "name": "Emblem",
+  "type": "equipment",
+  "img": "icons/equipment/shield/kite-wooden-dragon-green.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><strong><em>Divine Focus:</em></strong> These foci (often called holy symbols) are representations of a deity, pantheon, or ideal. They usually depict the crest or icon of a specific god or are of symbolic importance to a particular faith. Reliquaries, censers, amulets, emblems, or tattoos are often used as spellcasting foci by clerics and heralds.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "m22279a9t4fgd32t",
+  "_key": "!items!m22279a9t4fgd32t"
+}

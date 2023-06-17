@@ -1,0 +1,95 @@
+{
+  "name": "Bomb, Smoke",
+  "type": "equipment",
+  "img": "icons/commodities/tech/smoke-spout-blue.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>This metal sphere’s casing is pockmarked with holes and capped with a thick fuse. When lit, it spews suffocating black smoke that heavily obscures a 10-foot cube for 1 minute. Air-breathing creatures within the smoke must make a DC 10 Constitution saving throw, or have disadvantage on ability checks, attack rolls, and saving throws made while breathing the fumes. A wind of moderate or greater speed suppresses the smoke effect for 1 round.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": "",
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    }
+  },
+  "_id": "jtte8esxstc55gx6",
+  "_key": "!items!jtte8esxstc55gx6"
+}

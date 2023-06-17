@@ -1,0 +1,31 @@
+{
+  "name": "Arrows",
+  "type": "consumable",
+  "img": "icons/weapons/ammunition/arrows-war-white.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>A bundle of 20 arrows.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 20,
+    "weight": 1,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "consumableType": "ammo",
+    "uses": {
+      "autoDestroy": false
+    }
+  },
+  "_id": "4li8cxq2p7xsh1jx",
+  "_key": "!items!4li8cxq2p7xsh1jx"
+}

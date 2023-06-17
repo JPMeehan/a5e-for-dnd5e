@@ -1,0 +1,33 @@
+{
+  "name": "Disguise Kit",
+  "type": "tool",
+  "img": "icons/containers/bags/pack-engraved-leather-tan.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>This pouch of props, costuming, and cosmetics lets you change your physical appearance. A creature observing you after you make a disguise kit check must make a Perception check (DC equal to the result of your disguise kit check) in order to see through your disguise.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "",
+    "baseItem": "",
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "_id": "3906eejw1gtmziv1",
+  "_key": "!items!3906eejw1gtmziv1"
+}

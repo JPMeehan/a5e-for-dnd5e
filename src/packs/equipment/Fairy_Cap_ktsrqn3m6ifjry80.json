@@ -1,0 +1,31 @@
+{
+  "name": "Fairy Cap",
+  "type": "consumable",
+  "img": "icons/consumables/mushrooms/convex-spotted-orange-white.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Consuming this small red mushroom cap removes inhibitions and creates confidence, and after you eat it you gain an expertise die on Charisma saving throws for 1 hour.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "consumableType": "potion",
+    "uses": {
+      "autoDestroy": false
+    }
+  },
+  "_id": "ktsrqn3m6ifjry80",
+  "_key": "!items!ktsrqn3m6ifjry80"
+}

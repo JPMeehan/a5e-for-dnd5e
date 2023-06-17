@@ -1,0 +1,44 @@
+{
+  "name": "Wheelchair",
+  "type": "equipment",
+  "img": "icons/commodities/wood/wood-wheel-brown.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<blockquote><p>This durable device provides tactical mobility without requiring use of the legs.</p></blockquote><p>While mounted on a wheelchair you are considered to be wearing the wheelchair as a piece of gear. The wheelchair is mechanically complex, and can ascend stairs and ramps slowly, or provide a boost of speed on the descent. You have a movement speed of 30 feet while mounted on a wheelchair and treat inclines and stairs as difficult terrain, but while moving down slopes, stairs, or other significant declines you may take the Dash action as a bonus action.</p><p>At the Narrator’s discretion, more advanced and tactical wheelchairs may be available.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 25,
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "yy4mmt9bwvsls7mp",
+  "_key": "!items!yy4mmt9bwvsls7mp"
+}

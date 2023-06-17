@@ -1,0 +1,33 @@
+{
+  "name": "Thieves' Tools",
+  "type": "tool",
+  "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>This set of often sharp and slender metal instruments are needed to crack locks and carefully spy into mechanisms. You can use an action to open a lock by making a thieves’ tools check against a DC determined by the quality of the lock being picked.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "",
+    "baseItem": "",
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "_id": "3k3o90tq7gclpuem",
+  "_key": "!items!3k3o90tq7gclpuem"
+}

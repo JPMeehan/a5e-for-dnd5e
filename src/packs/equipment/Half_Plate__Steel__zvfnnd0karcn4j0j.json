@@ -1,0 +1,44 @@
+{
+  "name": "Half-Plate (Steel)",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-layered-steel-green.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><em>Low-Maintenance (Expertise Die), Requires STR 13, Stealth (Disadvantage)</em></p><p><strong>AC 15 (DEX +2 max)</strong></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 40,
+    "price": {
+      "value": 750,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "zvfnnd0karcn4j0j",
+  "_key": "!items!zvfnnd0karcn4j0j"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Flaming arrows",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><em>Flaming.</em> This ammunition can be lit as a bonus action. A weapon firing this ammunition can only hit targets within its normal range, but on a hit it deals an extra 1d4 fire damage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 4,
+    "weight": 5,
+    "price": {
+      "value": 60,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "consumableType": "ammo",
+    "uses": {
+      "autoDestroy": false
+    }
+  },
+  "_id": "r7w8ztrbo5nxrtk5",
+  "_key": "!items!r7w8ztrbo5nxrtk5"
+}

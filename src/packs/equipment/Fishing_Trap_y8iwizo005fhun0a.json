@@ -1,0 +1,44 @@
+{
+  "name": "Fishing Trap",
+  "type": "equipment",
+  "img": "icons/tools/fishing/basket-blue-tan.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Whenever you retrieve this arrangement of netting, wires, and weights from a body of water with aquatic life, roll a d20 and add a bonus equal to the number of hours the trap has been set. On a 21 or higher the trap has captured fish or other aquatic animals totaling 1d4 Supply.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 10,
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "y8iwizo005fhun0a",
+  "_key": "!items!y8iwizo005fhun0a"
+}

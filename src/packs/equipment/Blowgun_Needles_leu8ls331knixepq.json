@@ -1,0 +1,31 @@
+{
+  "name": "Blowgun Needles",
+  "type": "consumable",
+  "img": "icons/weapons/ammunition/arrows-bodkin-yellow-red.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 50,
+    "weight": 1,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "consumableType": "ammo",
+    "uses": {
+      "autoDestroy": false
+    }
+  },
+  "_id": "leu8ls331knixepq",
+  "_key": "!items!leu8ls331knixepq"
+}

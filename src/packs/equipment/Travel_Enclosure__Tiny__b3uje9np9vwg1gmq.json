@@ -1,0 +1,44 @@
+{
+  "name": "Travel Enclosure (Tiny)",
+  "type": "equipment",
+  "img": "icons/environment/settlement/tent.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>This fine wire mesh bag is reinforced with metal beams, making a durable but flexible enclosure. Creatures of an appropriate size can comfortably reside within the enclosure if provided with some appropriate substrate (soft bedding for rodents, loamy soil for toads, and so on).</p><p>Tiny: A single Tiny creature residing within the enclosure has total cover while inside it and automatically succeeds on saving throws to resist area effects.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "b3uje9np9vwg1gmq",
+  "_key": "!items!b3uje9np9vwg1gmq"
+}

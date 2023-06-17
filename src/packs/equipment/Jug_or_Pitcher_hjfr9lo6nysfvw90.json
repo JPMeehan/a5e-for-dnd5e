@@ -1,0 +1,39 @@
+{
+  "name": "Jug or Pitcher",
+  "type": "backpack",
+  "img": "icons/containers/kitchenware/jug-clay-brown.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Capacity: 1 gallon liquid</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 2,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "type": "weight",
+      "value": null,
+      "weightless": false
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    }
+  },
+  "_id": "hjfr9lo6nysfvw90",
+  "_key": "!items!hjfr9lo6nysfvw90"
+}

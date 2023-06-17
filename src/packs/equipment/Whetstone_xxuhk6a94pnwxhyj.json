@@ -1,0 +1,44 @@
+{
+  "name": "Whetstone",
+  "type": "equipment",
+  "img": "icons/commodities/metal/ingot-steel.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>A standard whetstone used to sharpen blades.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 1,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "armor": {
+      "value": null
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "_id": "xxuhk6a94pnwxhyj",
+  "_key": "!items!xxuhk6a94pnwxhyj"
+}

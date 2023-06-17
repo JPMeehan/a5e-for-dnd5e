@@ -1,0 +1,33 @@
+{
+  "name": "Forgery Kit",
+  "type": "tool",
+  "img": "icons/skills/trades/academics-merchant-scribe.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>This small box contains a wide variety of papers, inks, and sealing waxes needed to create convincing forgeries of specific documents. A creature examining a false document made using a forgery kit must make an Investigation check (DC equal to the result of your forgery kit check) in order to realize it is a fake.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 15,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "",
+    "baseItem": "",
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "_id": "uwrm02lk6beqqt92",
+  "_key": "!items!uwrm02lk6beqqt92"
+}

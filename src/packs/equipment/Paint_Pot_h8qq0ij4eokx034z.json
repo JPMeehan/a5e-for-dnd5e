@@ -1,0 +1,27 @@
+{
+  "name": "Paint Pot",
+  "type": "loot",
+  "img": "icons/tools/cooking/mortar-black.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>This small clay pot contains about a pint of a single color of paint, enough to cover 50 square feet. Alternatively, as an action, you can splash the contents of this pot up to 20 feet, shattering it on impact. Make a ranged weapon attack against a creature within 20 feet, treating the paint pot as an improvised weapon. On a hit, the target is covered in bright paint. The paint can only be removed with at least 1 minute of vigorous scrubbing. While covered in paint, a creature has disadvantage on Stealth checks.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "A5E Adventurer's Guide",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "_id": "h8qq0ij4eokx034z",
+  "_key": "!items!h8qq0ij4eokx034z"
+}
