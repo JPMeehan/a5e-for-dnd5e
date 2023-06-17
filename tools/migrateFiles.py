@@ -621,9 +621,67 @@ def weaponType(system: dict) -> str:
 def getBaseItem(system: dict) -> str:
     return ""
 
+"""A5E Weapon Properties
+A5E.weaponProperties = {
+  burn: 'A5E.WeaponPropertyBurn',
+  breaker: 'A5E.WeaponPropertyBreaker',
+  compounding: 'A5E.WeaponPropertyCompounding',
+  defensive: 'A5E.WeaponPropertyDefensive',
+  dualWielding: 'A5E.WeaponPropertyDualWielding',
+  finesse: 'A5E.WeaponPropertyFinesse',
+  flamboyant: 'A5E.WeaponPropertyFlamboyant',
+  handMounted: 'A5E.WeaponPropertyHandMounted',
+  heavy: 'A5E.WeaponPropertyHeavy',
+  inaccurate: 'A5E.WeaponPropertyInaccurate',
+  loading: 'A5E.WeaponPropertyLoading',
+  mounted: 'A5E.WeaponPropertyMounted',
+  muzzleLoading: 'A5E.WeaponPropertyMuzzleLoading',
+  parrying: 'A5E.WeaponPropertyParrying',
+  parryingImmunity: 'A5E.WeaponPropertyParryingImmunity',
+  quickdraw: 'A5E.WeaponPropertyQuickdraw',
+  range: 'A5E.WeaponPropertyRange',
+  rebounding: 'A5E.ObjectPropertyRebounding',
+  reach: 'A5E.WeaponPropertyReach',
+  rifled: 'A5E.WeaponPropertyRifled',
+  scatter: 'A5E.WeaponPropertyScatter',
+  shock: 'A5E.WeaponPropertyShock',
+  simple: 'A5E.WeaponPropertySimple',
+  stealthy: 'A5E.ObjectPropertyStealthy',
+  storage: 'A5E.ObjectPropertyStorage',
+  thrown: 'A5E.WeaponPropertyThrown',
+  triggerCharge: 'A5E.WeaponPropertyTriggerCharge',
+  trip: 'A5E.WeaponPropertyTrip',
+  twoHanded: 'A5E.WeaponPropertyTwoHanded',
+  versatile: 'A5E.WeaponPropertyVersatile',
+  vicious: 'A5E.WeaponPropertyVicious'
+};
+"""
+
 def weaponProperties(system: dict) -> dict:
     props: dict = system["weaponProperties"]
     p = dict()
+    """Renames
+    Missing o5e: Ammunition, Firearm, Focus, Reload, Special
+    Missing a5e: burn, breaker, compounding, defensive, flamboyant, handMounted,
+        inaccurate, mounted, muzzleLoading, parrying, parryingImmunity, quickdraw,
+        range, rifled, scatter, shock, stealthy, storage, triggerCharge, trip, vicious
+    """
+    if "dualWielding" in props:
+        p.update({'lgt': True})
+    if "finesse" in props:
+        p.update({'fin': True})
+    if "heavy" in props:
+        p.update({'hvy': True})
+    if "loading" in props:
+        p.update({'lod': True})
+    if "reach" in props:
+        p.update({'rch': True})
+    if "rebounding" in props:
+        p.update({'ret': True})
+    if "thrown" in props:
+        p.update({'thr': True})
+    if "twoHanded" in props:
+        p.update({'two': True})
     if "versatile" in props:
         p.update({"vers": True})
     return p
