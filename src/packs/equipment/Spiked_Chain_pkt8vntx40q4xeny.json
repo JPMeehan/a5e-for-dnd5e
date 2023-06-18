@@ -6,7 +6,7 @@
   "flags": {},
   "system": {
     "description": {
-      "value": "<p><em>Heavy, Parrying Immunity, Reach (10 ft), Two-Handed</em></p>",
+      "value": "<p><em>Heavy, Parrying Immunity, Reach (10 ft), Two-Handed</em></p><hr><p><b>Parrying Immunity:</b> Attacks with this weapon ignore the parrying property and Armor Class bonuses from shields.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -23,7 +23,11 @@
     "identified": true,
     "weaponType": "",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "hvy": true,
+      "rch": true,
+      "two": true
+    },
     "proficient": true,
     "armor": {
       "value": null

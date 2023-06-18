@@ -23,7 +23,11 @@
     "identified": true,
     "weaponType": "",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "fin": true,
+      "lod": true,
+      "amm": true
+    },
     "proficient": true,
     "armor": {
       "value": null

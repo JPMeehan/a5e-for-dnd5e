@@ -6,7 +6,7 @@
   "flags": {},
   "system": {
     "description": {
-      "value": "<p><em>Heavy, Reach, Trip, Two-Handed</em></p>",
+      "value": "<p><em>Heavy, Reach, Trip, Two-Handed</em></p><hr><p><b>Trip:</b> When used with a combat maneuver that trips a creature or the Knockdown attack, this weapon increases your Maneuver DC by 1. If the target is mounted, your Maneuver DC is instead increased by 2.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -23,7 +23,11 @@
     "identified": true,
     "weaponType": "martialM",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "hvy": true,
+      "rch": true,
+      "two": true
+    },
     "proficient": true,
     "armor": {
       "value": null

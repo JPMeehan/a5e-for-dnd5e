@@ -6,7 +6,7 @@
   "flags": {},
   "system": {
     "description": {
-      "value": "<p><em>Finesse, Stealthy</em></p><hr class=\"a5e-rule u-my-md\"><p>At a glance this item seems to be perfectly typical, but it conceals a spring-loaded blade deployed by pressing a switch when it is used to make an attack.</p><p>A creature observing it only realizes that the item is a weapon with a DC 15 Investigation check (made with disadvantage if the weapon is being worn at the time and not deployed).</p><p>Once deployed, a bonus action is required to re-sheathe the blade. You gain an expertise die on your attack roll when you deploy this weapon as part of an attack against a target that is unaware you have it.</p>",
+      "value": "<p><em>Finesse, Stealthy</em></p><hr class=\"a5e-rule u-my-md\"><p>At a glance this item seems to be perfectly typical, but it conceals a spring-loaded blade deployed by pressing a switch when it is used to make an attack.</p><p>A creature observing it only realizes that the item is a weapon with a DC 15 Investigation check (made with disadvantage if the weapon is being worn at the time and not deployed).</p><p>Once deployed, a bonus action is required to re-sheathe the blade. You gain an expertise die on your attack roll when you deploy this weapon as part of an attack against a target that is unaware you have it.</p><hr><p><b>Stealthy:</b> This armor or weapon has been disguised to look like a piece of clothing or other normal item. A creature observing the item only realizes that it is armor or a weapon with a DC 15 Investigation check (made with disadvantage if the armor is being worn at the time or the weapon is sheathed).</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -23,7 +23,9 @@
     "identified": true,
     "weaponType": "martialM",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "fin": true
+    },
     "proficient": true,
     "armor": {
       "value": null

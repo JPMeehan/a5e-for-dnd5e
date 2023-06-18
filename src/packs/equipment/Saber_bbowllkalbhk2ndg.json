@@ -6,7 +6,7 @@
   "flags": {},
   "system": {
     "description": {
-      "value": "<p><em>Defensive (Light), Finesse, Mounted (1d10)</em></p>",
+      "value": "<p><em>Defensive (Light), Finesse, Mounted (1d10)</em></p><hr><p><b>Defensive:</b> This weapon is designed to be used with a shield of the stated degree or lighter (light, medium, or heavy). When you make an attack with this weapon and are using a shield designed for it, you can use a bonus action to either make an attack with your shield or increase your Armor Class by 1 until the start of your next turn.</p><p><b>Mounted:</b> This weapon deals the damage listed in parenthesis when you are wielding it while mounted.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -23,7 +23,10 @@
     "identified": true,
     "weaponType": "martialM",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "fin": true,
+      "mnt": true
+    },
     "proficient": true,
     "armor": {
       "value": null
@@ -80,13 +83,9 @@
         [
           "1d8 + @mod",
           "slashing"
-        ],
-        [
-          "1d10 + @mod",
-          "slashing"
         ]
       ],
-      "versatile": ""
+      "versatile": "1d10 + @mod"
     },
     "formula": "",
     "save": {

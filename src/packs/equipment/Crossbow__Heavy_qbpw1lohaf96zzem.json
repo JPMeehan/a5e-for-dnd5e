@@ -23,7 +23,12 @@
     "identified": true,
     "weaponType": "simpleR",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "hvy": true,
+      "lod": true,
+      "amm": true,
+      "two": true
+    },
     "proficient": true,
     "armor": {
       "value": null

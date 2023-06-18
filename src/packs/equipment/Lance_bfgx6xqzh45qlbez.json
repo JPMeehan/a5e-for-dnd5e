@@ -6,7 +6,7 @@
   "flags": {},
   "system": {
     "description": {
-      "value": "<p><em>Defensive (Medium), Reach</em></p><hr class=\"a5e-rule u-my-md\"><p>You have disadvantage when you use a lance to attack a target within 5 feet of you. If you are not mounted, you must use two hands to wield the lance.</p>",
+      "value": "<p><em>Defensive (Medium), Reach</em></p><hr class=\"a5e-rule u-my-md\"><p>You have disadvantage when you use a lance to attack a target within 5 feet of you. If you are not mounted, you must use two hands to wield the lance.</p><hr><p><b>Defensive:</b> This weapon is designed to be used with a shield of the stated degree or lighter (light, medium, or heavy). When you make an attack with this weapon and are using a shield designed for it, you can use a bonus action to either make an attack with your shield or increase your Armor Class by 1 until the start of your next turn.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -23,7 +23,9 @@
     "identified": true,
     "weaponType": "martialM",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "rch": true
+    },
     "proficient": true,
     "armor": {
       "value": null

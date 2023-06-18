@@ -6,7 +6,7 @@
   "flags": {},
   "system": {
     "description": {
-      "value": "<p><em>Breaker (Wood), Heavy, Two-Handed</em></p>",
+      "value": "<p><em>Breaker (Wood), Heavy, Two-Handed</em></p><hr><p><b>Breaker:</b> This weapon deals double damage to unattended objects, such as doors and walls. If this property only applies to a specific type of material, such as wood, it is stated in parenthesis after this property.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -23,7 +23,10 @@
     "identified": true,
     "weaponType": "martialM",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "hvy": true,
+      "two": true
+    },
     "proficient": true,
     "armor": {
       "value": null

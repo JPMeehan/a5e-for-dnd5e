@@ -6,7 +6,7 @@
   "flags": {},
   "system": {
     "description": {
-      "value": "<p><em>Mounted (1d8/1d10), Thrown (20/60), Versatile (1d8)</em></p>",
+      "value": "<p><em>Mounted (1d8/1d10), Thrown (20/60), Versatile (1d8)</em></p><hr><p><b>Mounted:</b> This weapon deals the damage listed in parenthesis when you are wielding it while mounted.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -24,7 +24,9 @@
     "weaponType": "martialM",
     "baseItem": "",
     "properties": {
-      "vers": true
+      "thr": true,
+      "ver": true,
+      "mnt": true
     },
     "proficient": true,
     "armor": {

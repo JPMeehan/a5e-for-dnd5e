@@ -6,7 +6,7 @@
   "flags": {},
   "system": {
     "description": {
-      "value": "<p><em>Dual-Wielding, Finesse, Parrying</em></p>",
+      "value": "<p><em>Dual-Wielding, Finesse, Parrying</em></p><hr><p><b>Parrying:</b> When you are wielding this weapon and you are not using a shield, once before your next turn you can gain an expertise die to your AC against a single melee attack made against you by a creature you can see. You cannot use this property while incapacitated , paralyzed , rattled , restrained , or stunned.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -23,7 +23,10 @@
     "identified": true,
     "weaponType": "martialM",
     "baseItem": "",
-    "properties": {},
+    "properties": {
+      "lgt": true,
+      "fin": true
+    },
     "proficient": true,
     "armor": {
       "value": null

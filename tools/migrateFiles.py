@@ -257,7 +257,7 @@ def migrateAction(action: dict, system: dict) -> bool:
             activation["save"]["ability"] = action["prompts"][p]["ability"]
     system.update(activation)
     processRolls(action.get("rolls", {}), action,  system)
-    if system.get("properties",{}).get("vers") or system.get("properties",{}).get("mnt"):
+    if system.get("properties",{}).get("ver") or system.get("properties",{}).get("mnt"):
         dmg: dict = system["damage"]
         dmg["versatile"] = dmg["parts"].pop(1)[0]
     return True
@@ -672,7 +672,7 @@ def weaponProperties(system: dict, description: dict) -> dict:
     if "loading" in props:
         p.update({'lod': True})
     if "range" in props:
-        p.update({"amm", True})
+        p.update({"amm": True})
     if "reach" in props:
         p.update({'rch': True})
     if "rebounding" in props:
@@ -682,7 +682,7 @@ def weaponProperties(system: dict, description: dict) -> dict:
     if "twoHanded" in props:
         p.update({'two': True})
     if "versatile" in props:
-        p.update({"vers": True})
+        p.update({"ver": True})
     """A5E Specific
     burn, breaker, compounding, defensive, flamboyant, handMounted, inaccurate, 
         mounted, muzzleLoading, parrying, parryingImmunity, quickdraw, 
@@ -692,7 +692,7 @@ def weaponProperties(system: dict, description: dict) -> dict:
     if "burn" in props:
         s += "<p><b>Burn:</b> The fire fusil only deals a base of 1 fire damage, but the target also catches on fire. It takes 1d10 fire damage at the start of each of its turns, and can end this damage by using its action to extinguish the flames.</p>"
     if "breaker" in props:
-        s += "<p><b>Breaker:</b> </p>"
+        s += "<p><b>Breaker:</b> This weapon deals double damage to unattended objects, such as doors and walls. If this property only applies to a specific type of material, such as wood, it is stated in parenthesis after this property.</p>"
         # This weapon deals double damage to unattended objects, such as doors and walls. If this property only applies to a specific type of material, such as wood, it is stated in parenthesis after this property.
     if "compounding" in props:
         p.update({"cmp": True})
