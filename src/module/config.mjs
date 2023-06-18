@@ -1,5 +1,7 @@
 const A5ECONFIG = {
-    A5E: {},
+    A5E: {
+      MANEUVERS: {}
+    },
     DND5E: {}
 }
 

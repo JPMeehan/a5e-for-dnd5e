@@ -79,5 +79,29 @@
       ],
       "color": "#CD853F"
     }
-  ]
+  ],
+  "esmodules": ["./a5e.mjs"],
+  "styles": ["./a5e.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "documentTypes": {
+    "Item": {
+      "maneuver": {
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "description.unidentified"
+        ],
+        "filePathFields": {
+          "img": ["IMAGE"]
+        }
+      }
+    }
+  },
 }
