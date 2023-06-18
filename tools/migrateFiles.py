@@ -526,7 +526,7 @@ def migrateObject(system: dict) -> dict:
     weapon = {
         "weaponType": weaponType(system),
         "baseItem": getBaseItem(system),
-        "properties": weaponProperties(system),
+        "properties": weaponProperties(system, o5e["description"]),
         "proficient": True,
         "type": "weapon"
     }
@@ -657,11 +657,11 @@ A5E.weaponProperties = {
 };
 """
 
-def weaponProperties(system: dict) -> dict:
+def weaponProperties(system: dict, description: dict) -> dict:
     props: dict = system["weaponProperties"]
     p = dict()
     """Renames
-    Missing o5e: Ammunition, Firearm, Focus, Reload, Special
+    Missing o5e: Firearm, Focus, Reload, Special
     """
     if "dualWielding" in props:
         p.update({'lgt': True})
@@ -671,6 +671,8 @@ def weaponProperties(system: dict) -> dict:
         p.update({'hvy': True})
     if "loading" in props:
         p.update({'lod': True})
+    if "range" in props:
+        p.update({"amm", True})
     if "reach" in props:
         p.update({'rch': True})
     if "rebounding" in props:
@@ -683,25 +685,57 @@ def weaponProperties(system: dict) -> dict:
         p.update({"vers": True})
     """A5E Specific
     burn, breaker, compounding, defensive, flamboyant, handMounted, inaccurate, 
-        mounted, muzzleLoading, parrying, parryingImmunity, quickdraw, range, 
+        mounted, muzzleLoading, parrying, parryingImmunity, quickdraw, 
         rifled, scatter, shock, stealthy, storage, triggerCharge, trip, vicious
     """
+    s = "<hr>"
     if "burn" in props:
-        p.update({"brn": True})
+        s += "<p><b>Burn:</b> The fire fusil only deals a base of 1 fire damage, but the target also catches on fire. It takes 1d10 fire damage at the start of each of its turns, and can end this damage by using its action to extinguish the flames.</p>"
     if "breaker" in props:
-        p.update({"brk": True})
+        s += "<p><b>Breaker:</b> </p>"
+        # This weapon deals double damage to unattended objects, such as doors and walls. If this property only applies to a specific type of material, such as wood, it is stated in parenthesis after this property.
     if "compounding" in props:
         p.update({"cmp": True})
+        s += "<p><b>Compounding:</b> You use only your Strength modifier for attack and damage rolls made with this weapon.</p>"
     if "defensive" in props:
-        p.update({"def": True})
+        s += "<p><b>Defensive:</b> This weapon is designed to be used with a shield of the stated degree or lighter (light, medium, or heavy). When you make an attack with this weapon and are using a shield designed for it, you can use a bonus action to either make an attack with your shield or increase your Armor Class by 1 until the start of your next turn.</p>"
     if "flamboyant" in props:
-        p.update({"flm": True})
+        s += "<p><b>Flamboyant:</b> Creatures have disadvantage on saving throws made to resist being distracted by this weapon, and you have advantage on Intimidation or Performance checks made with the use of it.</p>"
     if "handMounted" in props:
-        p.update({"hmt": True})
+        s += "<p><b>Hand-Mounted:</b> This weapon is affixed to your hand. You can do simple activities such as climbing a ladder while wielding this weapon, and you have advantage on saving throws made to resist being disarmed. You cannot use a hand that is wielding a hand-mounted weapon to do complex tasks like picking a pocket, using thieves’ tools to bypass a lock, or casting spells with seen components.</p>"
     if "inaccurate" in props:
-        p.update({"inac": True})
+        s += "<p><b>Inaccurate:</b> Grenades do not add your ability score modifier to damage.</p><p>When you throw a grenade, choose a creature or an unoccupied 5-ft. space. (If the creature occupies more than one 5-ft. space, choose one of the squares it occupies.) Make an attack roll against AC 10. If the attack misses, the grenade veers off course, missing by 5 ft. in a random direction, or 10 ft. if the target area was at long range. Each creature in a 5-ft. radius of where the grenade lands must succeed a DC 12 Dexterity save or else take 3d6 bludgeoning damage.</p><p>If you targeted a creature and the attack roll is a critical hit, the grenade directly strikes that creature. The grenade does double damage to that creature without allowing a save. Other creatures in the area are affected normally.</p>"
     if "mounted" in props:
         p.update({"mnt": True})
+        s += "<p><b>Mounted:</b> This weapon deals the damage listed in parenthesis when you are wielding it while mounted.</p>"
+    if "muzzleLoading" in props:
+        p.update({"fir": True})
+        s += "<p><b>Muzzle Loading:</b> After each shot, it takes an action or bonus action to reload the weapon.</p><p>Sometimes irregular packing of a barrel causes the weapon not to function properly. Whenever you roll a natural 1 on an attack roll with a firearm, the gun misfires – nothing happens, and the gun remains loaded. Clearing the barrel requires an action, and makes the gun safe to use. You can continue using the misfired gun without clearing the barrel, but attacks with the weapon have disadvantage , and if you roll a second natural 1, the weapon has a mishap and explodes. It is destroyed and deals its base damage die to you (e.g., 2d8 with a musket).</p><p>Magical guns never misfire or have mishaps.</p>"
+    if "parrying" in props:
+        s += "<p><b>Parrying:</b> When you are wielding this weapon and you are not using a shield, once before your next turn you can gain an expertise die to your AC against a single melee attack made against you by a creature you can see. You cannot use this property while incapacitated , paralyzed , rattled , restrained , or stunned.</p>"
+    if "parryingImmunity" in props:
+        s += "<p><b>Parrying Immunity:</b> Attacks with this weapon ignore the parrying property and Armor Class bonuses from shields.</p>"
+    if "quickdraw" in props:
+        s += "<p><b>Quickdraw:</b> If you would normally only be able to draw one of these weapons on a turn, you may instead draw a number equal to the number of attacks you make. </p>"
+    if "rifled" in props:
+        s += "<p><b>Rifled:</b> Rifling extends the range a firearm can accurately hit a target. You can spend an action to aim down the weapon’s sight, and choose a creature you can see. Until you stop aiming, quadruple the weapon’s short and long ranges for the purpose of attacking that target.</p><p>Each turn thereafter you can spend an action or bonus action to continue aiming at the same target or switch to another target you can see. If you move or take damage, your aim is ruined and you have to start over again.</p>"
+    if "scatter" in props:
+        s += "<p><b>Scatter:</b> If you are wielding a shotgun and have advantage on an attack roll and both rolls hit the target, the weapon deals an extra 1d10 damage. If you have disadvantage, if one attack roll hits but the other misses, the target takes 1d4 damage. This graze damage is not increased by anything else (not ability modifiers, feats, smite spells, sneak attack, etc.), though resistances and vulnerabilities still apply.</p>"
+    if "shock" in props:
+        s += "<p><b>Shock:</b> When you attack a creature wearing metal armor with a lightning fusil, you have advantage on the attack roll.</p>"
+    if "stealthy" in props:
+        s += "<p><b>Stealthy:</b> This armor or weapon has been disguised to look like a piece of clothing or other normal item. A creature observing the item only realizes that it is armor or a weapon with a DC 15 Investigation check (made with disadvantage if the armor is being worn at the time or the weapon is sheathed).</p>"
+    if "storage" in props:
+        s += "<p><b>Storage:</b> This piece contains a hidden compartment the size of a small vial. On weapons, this compartment may have a release that allows liquid placed in the compartment, such as poison, to flow out and coat the blade or head. You can use a bonus action to release the liquid stored in a weapon.</p>"
+    if "triggerCharge" in props:
+        s += "<p><b>Trigger Charge:</b> An arcane fusil requires no ammunition, but you cannot simply shoot it by pulling the trigger. The planarite takes a moment to gather the necessary energy. To charge the fusil, you spend a bonus action and pull back a firing hammer. At the start of your next turn, the fusil is charged, and can be used for a single attack. </p><p>The shot of an arcane fusil is either a pellet of flame that engulfs a target hit, or a shaft of crackling lightning.</p><p>Once fired, you cannot charge a fusil again on the same turn. It can only be fired every other turn.</p><p>If you charge a fusil but do not fire it on your next turn, the weapon suffers a misfire. Similar to a muzzle-loading weapon, you can clear the barrel by spending an action, but until you do the weapon has disadvantage on attacks. If you suffer a second misfire without clearing the barrel, the fusil explodes and deals its base damage die to you.</p>"
+    if "trip" in props:
+        s += "<p><b>Trip:</b> When used with a combat maneuver that trips a creature or the Knockdown attack, this weapon increases your Maneuver DC by 1. If the target is mounted, your Maneuver DC is instead increased by 2.</p>"
+    if "vicious" in props:
+        s += "<p><b>Vicious:</b> A vicious weapon scores a critical hit on a roll of 19 or 20. If you already have a feature that increases the range of your critical hits, your critical hit range increases by 1 (maximum 17–20).</p>"
+    if len(s) > 5:
+        description["value"] += s
+    
     return p
 
 """ SPELL
