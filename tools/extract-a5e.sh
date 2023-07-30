@@ -1,5 +1,5 @@
 fvtt package workon a5e --type "System"
-rm -r ./src/packs-origin/*
+rm -rf ./src/packs-origin/*
 for FILE in ../../systems/a5e/packs/*.db 
 do 
     echo ${FILE:24}
