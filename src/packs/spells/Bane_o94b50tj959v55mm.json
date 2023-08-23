@@ -2,7 +2,66 @@
   "name": "Bane",
   "type": "spell",
   "img": "icons/magic/unholy/hand-light-green.webp",
-  "effects": [],
+  "effects": [
+    {
+      "icon": "icons/magic/unholy/hand-light-green.webp",
+      "origin": "Item.i5XOwOskrx5AJkYg",
+      "flags": {
+        "a5e": {
+          "sort": 0,
+          "transferType": "onUse"
+        }
+      },
+      "transfer": false,
+      "name": "Bane",
+      "_id": "10bmEifXE2UZdfFf",
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "-1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.meleeSpellAttack",
+          "mode": 2,
+          "value": "-1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.meleeWeaponAttack",
+          "mode": 2,
+          "value": "-1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rangedSpellAttack",
+          "mode": 2,
+          "value": "-1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rangedWeaponAttack",
+          "mode": 2,
+          "value": "-1d4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!o94b50tj959v55mm.10bmEifXE2UZdfFf"
+    }
+  ],
   "flags": {
     "a5e-for-dnd5e": {
       "secondarySchools": [
@@ -75,7 +134,7 @@
       "amount": null
     },
     "ability": null,
-    "actionType": "save",
+    "actionType": "effect",
     "attackBonus": "",
     "chatFlavor": "",
     "critical": {
@@ -93,7 +152,7 @@
       "scaling": "spell"
     }
   },
+  "folder": "zjqNNlUCNDZmwftL",
   "_id": "o94b50tj959v55mm",
-  "_key": "!items!o94b50tj959v55mm",
-  "folder": "zjqNNlUCNDZmwftL"
+  "_key": "!items!o94b50tj959v55mm"
 }

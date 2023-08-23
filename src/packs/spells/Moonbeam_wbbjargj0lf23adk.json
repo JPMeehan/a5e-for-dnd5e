@@ -43,24 +43,24 @@
       "formula": "1d10"
     },
     "activation": {
-      "type": "action",
+      "type": "",
       "cost": 1,
       "condition": ""
     },
     "duration": {
       "value": "1",
-      "units": "minute"
+      "units": "instantaneous"
     },
     "cover": null,
     "crewed": false,
     "target": {
-      "value": "5",
+      "value": null,
       "width": null,
-      "units": "ft",
-      "type": "cylinder"
+      "units": "",
+      "type": ""
     },
     "range": {
-      "value": "120",
+      "value": null,
       "long": null,
       "units": ""
     },
@@ -99,7 +99,7 @@
       "scaling": "spell"
     }
   },
+  "folder": "7KMPp5KO4ohtk3XS",
   "_id": "wbbjargj0lf23adk",
-  "_key": "!items!wbbjargj0lf23adk",
-  "folder": "7KMPp5KO4ohtk3XS"
+  "_key": "!items!wbbjargj0lf23adk"
 }

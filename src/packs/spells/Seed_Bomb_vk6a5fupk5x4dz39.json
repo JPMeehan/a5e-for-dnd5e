@@ -14,7 +14,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Up to four seeds appear in your hand and are infused with magic for the duration. As an action, a creature can throw one of these seeds at a point up to 60 feet away. Each creature within 5 feet of that point makes a Dexterity saving throw or takes 4d6 piercing damage. Depending on the material component used, a seed bomb also causes one of the following additional effects: Pinecone. Seed shrapnel explodes outward.</p><p>A creature in the area of the exploding seed bomb makes a Constitution saving throw or it is blinded until the end of its next turn.</p><p>Sunflower. Seeds enlarge into a blanket of pointy needles. The area affected by the exploding seed bomb becomes difficult terrain for the next minute.</p><p>Tumbleweed. The weeds unravel to latch around creatures. A creature in the area of the exploding seed bomb makes a Dexterity saving throw or it becomes grappled until the end of its next turn.</p><p><strong><em>Cast at Higher Levels.</em></strong> The damage increases by 1d6 for each slot level above 2nd.</p>",
+      "value": "<p>Up to four seeds appear in your hand and are infused with magic for the duration. As an action, a creature can throw one of these seeds at a point up to 60 feet away. Each creature within 5 feet of that point makes a Dexterity saving throw or takes 4d6 piercing damage. Depending on the material component used, a seed bomb also causes one of the following additional effects:</p>\n<p><strong>Pinecone.</strong> Seeds enlarge into a blanket of pointy needles. The area affected by the exploding seed bomb becomes difficult terrain for the next minute.</p>\n<p><strong>Sunflower. </strong>Seed shrapnel explodes outward. A creature in the area of the exploding seed bomb makes a Constitution saving throw or it is blinded until the end of its next turn.</p>\n<p><strong>Tumbleweed.</strong> The weeds unravel to latch around creatures. A creature in the area of the exploding seed bomb makes a Dexterity saving throw or it becomes grappled until the end of its next turn.</p>\n<p><strong><em>Cast at Higher Levels.</em></strong> The damage increases by 1d6 for each slot level above 2nd.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -48,19 +48,19 @@
       "condition": ""
     },
     "duration": {
-      "value": "1",
-      "units": "minute"
+      "value": 1,
+      "units": "round"
     },
     "cover": null,
     "crewed": false,
     "target": {
-      "value": "",
+      "value": 5,
       "width": null,
-      "units": "",
-      "type": "self"
+      "units": "ft",
+      "type": "cylinder"
     },
     "range": {
-      "value": null,
+      "value": "60",
       "long": null,
       "units": ""
     },
@@ -76,7 +76,7 @@
       "amount": null
     },
     "ability": null,
-    "actionType": null,
+    "actionType": "save",
     "attackBonus": "",
     "chatFlavor": "",
     "critical": {
@@ -94,12 +94,12 @@
     },
     "formula": "",
     "save": {
-      "ability": "",
+      "ability": "dex",
       "dc": null,
       "scaling": "spell"
     }
   },
+  "folder": "7KMPp5KO4ohtk3XS",
   "_id": "vk6a5fupk5x4dz39",
-  "_key": "!items!vk6a5fupk5x4dz39",
-  "folder": "7KMPp5KO4ohtk3XS"
+  "_key": "!items!vk6a5fupk5x4dz39"
 }

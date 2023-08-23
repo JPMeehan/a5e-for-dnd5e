@@ -2,7 +2,66 @@
   "name": "Bless",
   "type": "spell",
   "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
-  "effects": [],
+  "effects": [
+    {
+      "icon": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
+      "origin": "Item.QRheEbsC1czdoVDJ",
+      "flags": {
+        "a5e": {
+          "sort": 0,
+          "transferType": "onUse"
+        }
+      },
+      "transfer": false,
+      "name": "Bless",
+      "_id": "BVzQZTrd5DWfDSRB",
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.meleeSpellAttack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.meleeWeaponAttack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rangedSpellAttack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rangedWeaponAttack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The blessing you bestow upon the targets makes them more durable and competent. Until the spell ends, a d4 is added to attack rolls and saving throws made by a target.</p>",
+      "statuses": [],
+      "_key": "!items.effects!xnm2hvlfzqp792tz.BVzQZTrd5DWfDSRB"
+    }
+  ],
   "flags": {
     "a5e-for-dnd5e": {
       "secondarySchools": [
@@ -76,7 +135,7 @@
       "amount": null
     },
     "ability": null,
-    "actionType": null,
+    "actionType": "effect",
     "attackBonus": "",
     "chatFlavor": "",
     "critical": {
@@ -94,7 +153,7 @@
       "scaling": "spell"
     }
   },
+  "folder": "zjqNNlUCNDZmwftL",
   "_id": "xnm2hvlfzqp792tz",
-  "_key": "!items!xnm2hvlfzqp792tz",
-  "folder": "zjqNNlUCNDZmwftL"
+  "_key": "!items!xnm2hvlfzqp792tz"
 }
