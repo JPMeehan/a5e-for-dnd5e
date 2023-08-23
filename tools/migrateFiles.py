@@ -472,7 +472,7 @@ def migrateObject(system: dict) -> dict:
         "weight": system["weight"],
         "price": splitPrice(system["price"]),
         "attunement": 0,
-        "equipped": system["equipped"],
+        "equipped": False,
         "rarity": system["rarity"],
         "identified": True
     }
@@ -917,7 +917,7 @@ for p in packList:
             case "destiny":
                 data["system"] = migrateDestiny(data["system"])
                 data["type"] = "background"
-    # if data["type"] != "weapon":
+    # if data["name"] != "Adderwort Roots":
     #     continue
     # print(data)
     # break
@@ -928,5 +928,5 @@ for p in packList:
             packPath = os.path.join(".\src", "packs", "equipment")
     if not os.path.exists(packPath):
         os.mkdir(packPath)
-    with open(os.path.join(packPath,p), "w") as writeFile:
+    with open(os.path.join(packPath,p), "w", encoding='utf-8') as writeFile:
         writeFile.write(json.dumps(data, indent=2, ensure_ascii=False))
