@@ -885,7 +885,7 @@ def migrateDestiny(system: dict) -> dict:
     return o5e
 
 for p in packList:
-    with open(os.path.join(origin,p), "r") as read_file:
+    with open(os.path.join(origin,p), "r", encoding='utf-8') as read_file:
         data = json.load(read_file)
         if "core" in data["flags"]:
             data["flags"].pop("core")
