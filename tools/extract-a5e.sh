@@ -4,8 +4,9 @@ for FILE in ../../systems/a5e/packs/*.db
 do 
     echo ${FILE:24}
     db=${FILE:24:${#FILE}-27}
-    echo $db
-    fvtt package unpack -n $db --out ./src/packs-origin/$db --nedb
+    [[ $db = 'monsters' ]] && t='Actor' || t='Item'
+    # echo $t
+    fvtt package unpack -n $db --out ./src/packs-origin/$db --in ../../systems/a5e/packs/$db --nedb -t $t
 done
 
 # fvtt package unpack -n $1 --outputDirectory ./src/packs/$1
