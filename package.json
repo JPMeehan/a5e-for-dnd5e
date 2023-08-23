@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.1"
+  },
+  "scripts": {
+    "build:init": "bash ./tools/extract-a5e.sh",
+    "build:spellFolders": "python ./tools/spellFolders.py",
+    "build:A5Eto5E": "python ./tools/migrateFiles.py",
+    "build:pullYMLtoLDB": "bash ./tools/packCompendiums.sh",
+    "build:pushLDBtoYML": "bash ./tools/unpackCompendiums.sh"
+  }
+}

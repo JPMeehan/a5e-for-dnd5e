@@ -4,8 +4,8 @@ for FILE in ../../systems/a5e/packs/*.db
 do 
     echo ${FILE:24}
     db=${FILE:24:${#FILE}-27}
-    # echo $db
-    fvtt package unpack -n $db --outputDirectory ./src/packs-origin/$db # --nedb --verbose
+    echo $db
+    fvtt package unpack -n $db --out ./src/packs-origin/$db --nedb
 done
 
 # fvtt package unpack -n $1 --outputDirectory ./src/packs/$1
