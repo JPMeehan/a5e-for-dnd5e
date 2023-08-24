@@ -22,7 +22,15 @@
     "rarity": "common",
     "identified": true,
     "armor": {
-      "value": null
+      "type": "medium",
+      "value": 0,
+      "dex": 2
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
     },
     "baseItem": "",
     "speed": {
@@ -31,13 +39,7 @@
     },
     "strength": 14,
     "stealth": false,
-    "proficient": true,
-    "hp": {
-      "value": null,
-      "max": null,
-      "dt": null,
-      "conditions": ""
-    }
+    "proficient": null
   },
   "folder": "Hi0Exa3LBwLdqM1Q",
   "_id": "3mp5tbu1hl7l78i7",

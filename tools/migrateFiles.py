@@ -503,8 +503,8 @@ def migrateObject(system: dict) -> dict:
             "conditions": ""
         },
         "strength": system["ac"]["minStr"],
-        "stealth": False,
-        "proficient": True,
+        "stealth": False, # Still missing from the source data as of A5E 14.10
+        "proficient": None,
         "type": "equipment"
     }
     consumable = {
@@ -546,13 +546,13 @@ def migrateObject(system: dict) -> dict:
             o5e.update(consumable)
             o5e["consumableType"] = "ammo"
         case "armor":
-            o5e.update(equipment)
             o5e.update(mountable)
+            o5e.update(equipment)
             for a in system["actions"]:
                 migrateAction(system["actions"][a], o5e)
         case "clothing":
-            o5e.update(equipment)
             o5e.update(mountable)
+            o5e.update(equipment)
             for a in system["actions"]:
                 migrateAction(system["actions"][a], o5e)
         case "consumable":
@@ -562,18 +562,18 @@ def migrateObject(system: dict) -> dict:
         case "container":
             o5e.update(backpack)
         case "jewelry":
-            o5e.update(equipment)
             o5e.update(mountable)
+            o5e.update(equipment)
             for a in system["actions"]:
                 migrateAction(system["actions"][a], o5e)
         case "miscellaneous":
-            o5e.update(equipment)
             o5e.update(mountable)
+            o5e.update(equipment)
             for a in system["actions"]:
                 migrateAction(system["actions"][a], o5e)
         case "shield":
-            o5e.update(equipment)
             o5e.update(mountable)
+            o5e.update(equipment)
             for a in system["actions"]:
                 migrateAction(system["actions"][a], o5e)
         case "tool":

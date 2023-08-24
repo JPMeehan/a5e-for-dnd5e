@@ -20,7 +20,15 @@
     "rarity": "common",
     "identified": true,
     "armor": {
-      "value": null
+      "type": "",
+      "value": 0,
+      "dex": 0
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
     },
     "baseItem": "",
     "speed": {
@@ -29,13 +37,7 @@
     },
     "strength": 0,
     "stealth": false,
-    "proficient": true,
-    "hp": {
-      "value": null,
-      "max": null,
-      "dt": null,
-      "conditions": ""
-    }
+    "proficient": null
   },
   "effects": [],
   "flags": {},
