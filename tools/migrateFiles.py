@@ -491,18 +491,18 @@ def migrateObject(system: dict) -> dict:
         },
         "type": "backpack"
     }
-    equipment = { # No data properties to pull from
+    equipment = {
         "armor": {
             "type": system["armorCategory"] if not system["shieldCategory"] else "shield",
-            "value": None,
-            "dex": None
+            "value": baseAC(system["ac"]["baseFormula"]),
+            "dex": system["ac"]["maxDex"]
         },
         "baseItem": "", # Need to do some CONFIG work...
         "speed": {
             "value": None,
             "conditions": ""
         },
-        "strength": None,
+        "strength": system["ac"]["minStr"],
         "stealth": False,
         "proficient": True,
         "type": "equipment"
@@ -597,6 +597,14 @@ def splitPrice(price: str) -> dict:
         "denomination": s[1] if len(s) == 2 else "gp"
     }
     return p
+
+def baseAC(formula: str) -> int:
+    try:
+        foo = int(formula)
+    except ValueError:
+        foo =  0
+    return foo
+
 
 def weaponType(system: dict) -> str:
     wepRange: str = ""
