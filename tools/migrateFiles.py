@@ -519,7 +519,7 @@ def migrateObject(system: dict) -> dict:
         "baseItem": "",
         "ability": "int",
         "chatFlavor": "",
-        "proficient": 0,
+        "proficient": None,
         "bonus": "",
         "type": "tool"
     }
