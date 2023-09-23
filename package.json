@@ -3,11 +3,11 @@
     "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.1"
   },
   "scripts": {
-    "build:init": "bash ./tools/extract-a5e.sh",
+    "build:init": "node ./tools/extract-a5e.mjs",
     "build:A5Eto5E": "python ./tools/migrateFiles.py",
     "build:spells": "npm run build:A5Eto5E -- spells && npm run build:A5Eto5E -- rareSpells && python ./tools/spellFolders.py",
     "build:equipment": "npm run build:A5Eto5E -- adventuringGear",
-    "build:pullYMLtoLDB": "bash ./tools/packCompendiums.sh",
-    "build:pushLDBtoYML": "bash ./tools/unpackCompendiums.sh"
+    "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
+    "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"
   }
 }
