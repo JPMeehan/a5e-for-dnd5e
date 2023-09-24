@@ -1,7 +1,7 @@
 import os
 import json
 import utils
-import buildReferenceFolder
+# import buildReferenceFolder
 
 targetPack = "spells"
 packPath = os.path.join(".\src", "packs", targetPack)
@@ -45,7 +45,7 @@ def createFolders():
             filename = inner.name.replace(' ', '_') + '_' + inner._id + ".json"
             with open(os.path.join(packPath,filename), "w") as writeFile:
                 writeFile.write(json.dumps(inner, indent=2, cls=encoder))
-    buildReferenceFolder.build(targetPack)
+    # buildReferenceFolder.build(targetPack)
 
 if not os.path.exists(os.path.join("tools", "referenceFolders", "spells.json")):
     createFolders()

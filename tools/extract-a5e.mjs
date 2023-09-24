@@ -1,7 +1,6 @@
 import { extractPack } from "@foundryvtt/foundryvtt-cli";
 import { promises as fs } from "fs";
 import path from "path";
-import buildReferenceFolder from "./buildReferenceFolder.mjs";
 
 const a5eDir = path.join("../", "../", "systems", "a5e", "packs");
 
