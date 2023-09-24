@@ -16,7 +16,7 @@ export default async function buildReferenceFolder(pack) {
     };
   }
   await fs.writeFile(
-    path.join("tools", "referenceFolders", pack + ".json"),
+    path.join("tools", "referenceFolders", pack + ".yml"),
     yaml.dump(folderStruct, null, 2),
     "utf-8"
   );
