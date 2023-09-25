@@ -1,7 +1,7 @@
 import { extractPack } from "@foundryvtt/foundryvtt-cli";
 import { promises as fs } from "fs";
 import path from "path";
-import buildReferenceFolder from "./buildReferenceFolder.mjs";
+import ReferenceFolder from "./ReferenceFolder.mjs";
 
 const packs = await fs.readdir("packs");
 for (const pack of packs) {
@@ -21,5 +21,5 @@ for (const pack of packs) {
 
   await extractPack(src, dest, { yaml: true, log: true });
 
-  buildReferenceFolder(pack);
+  ReferenceFolder.build(pack);
 }

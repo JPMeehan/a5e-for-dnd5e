@@ -1,8 +1,9 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { folderName, prepFolders, randomID } from "./utils.mjs";
+import { randomID } from "./utils.mjs";
 import yaml from "js-yaml";
 import buildReferenceFolder from "./buildReferenceFolder.mjs";
+import ReferenceFolder from "./ReferenceFolder.mjs";
 
 const targetPack = "spells";
 const packPath = path.join("src", "packs", targetPack);
@@ -75,11 +76,13 @@ if (!spellReferenceExists) createFolders();
 const spells = Array.from("0123456789");
 const rareSpells = Array.from("0123456789");
 
-const folders = await prepFolders(targetPack);
+const folders = new ReferenceFolder(targetPack);
 
-for (const [id, f] of folders) {
+await folders.prepFolders();
+
+for (const [id, f] of folders.compendium) {
   if (!f.parent) return;
-  const parentName = folderName(folders, f, 1);
+  const parentName = folders.getFolderName(f, 1);
   const currentName = f.name;
   const level = currentName !== "Cantrip" ? parseInt(currentName[0]) : 0;
   if (parentName === "Spells") spells[level] = id;
