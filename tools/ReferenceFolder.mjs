@@ -3,15 +3,19 @@ import path from "path";
 import yaml from "js-yaml";
 
 /**
+ * @typedef {object} Document
+ * @property {string} name    The name of the document
+ * @property {string} parent  The ID of the document's containing folder
+ */
+
+/**
  * A clean mapping of the folder relationships within a FVTT compendium pack
  */
 export default class ReferenceFolder {
+  /** @type {string} */
   #pack;
-  /**
-   * @typedef {object} Document
-   * @property {string} name    The name of the document
-   * @property {string} parent  The ID of the document's containing folder
-   */
+
+  /**  @type {Record<string, Document>} */
   #compendium;
   /**
    * Sets the pack the ReferenceFolder is for.
@@ -65,7 +69,7 @@ export default class ReferenceFolder {
    * Builds a .yml file based on the extracted compendium files
    * @param {string} pack The name of the compendium to build a reference folder from
    */
-  async build(pack) {
+  static async build(pack) {
     const folderStruct = {};
     const packList = await fs.readdir(path.join("src", "packs", pack));
     for (const p of packList) {
