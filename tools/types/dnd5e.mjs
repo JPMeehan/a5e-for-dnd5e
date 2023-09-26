@@ -47,3 +47,29 @@
  * @property {string} save.scaling        Method for automatically determining saving throw DC.
  * @mixin
  */
+
+/**
+ * Items that can be attuned and equipped
+ * @typedef EquippableItem
+ * @property {number} attunement
+ * @property {boolean} equipped
+ */
+
+/**
+ * Item description & source.
+ * @typedef ItemDescription
+ * @property {object} description               Various item descriptions.
+ * @property {string} description.value         Full item description.
+ * @property {string} description.chat          Description displayed in chat card.
+ * @property {string} description.unidentified  Description displayed if item is unidentified.
+ * @property {string} source                    Adventure or sourcebook where this item originated.
+ */
+
+/**
+ * Data definition for Weapon items.
+ * @typedef {object} Weapon
+ * @property {string} weaponType   Weapon category as defined in `DND5E.weaponTypes`.
+ * @property {string} baseItem     Base weapon as defined in `DND5E.weaponIds` for determining proficiency.
+ * @property {object} properties   Mapping of various weapon property booleans.
+ * @property {number} proficient   Does the weapon's owner have proficiency?
+ */

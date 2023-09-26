@@ -4,8 +4,8 @@
   },
   "scripts": {
     "build:init": "node ./tools/extract-a5e.mjs",
-    "build:A5Eto5E": "python ./tools/migrateFiles.py",
-    "build:spells": "npm run build:A5Eto5E -- spells && npm run build:A5Eto5E -- rareSpells && python ./tools/spellFolders.py",
+    "build:A5Eto5E": "node ./tools/migrateFiles.mjs",
+    "build:spells": "npm run build:A5Eto5E -- spells && npm run build:A5Eto5E -- rareSpells && node ./tools/spellFolders.mjs",
     "build:equipment": "npm run build:A5Eto5E -- adventuringGear",
     "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
     "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"

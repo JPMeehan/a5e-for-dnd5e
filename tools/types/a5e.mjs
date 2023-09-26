@@ -66,3 +66,52 @@
  * @property {string} [skill]
  * @property {string} [tool]
  */
+
+/**
+ * @typedef {object} BaseTemplate
+ * @property {object} actions
+ * @property {string} description
+ * @property {boolean} favorite
+ * @property {string} secretDescription
+ * @property {object} source
+ * @property {string} source.name
+ * @property {string} source.link
+ * @property {string} source.publisher
+ * @property {object} uses
+ * @property {number} uses.value
+ * @property {string} uses.max
+ * @property {string} uses.per
+ * @property {object} uses.recharge
+ * @property {string} uses.recharge.formula
+ * @property {string} uses.recharge.threshold
+ */
+
+/**
+ * @typedef {object} ACTemplate
+ * @property {object} ac
+ * @property {string} ac.baseFormula
+ * @property {string} ac.formula
+ * @property {number} ac.maxDex
+ * @property {number} ac.minStr
+ * @property {number} ac.mode
+ * @property {boolean} ac.requiresNoShield
+ * @property {boolean} ac.requiresUnarmored
+ */
+
+/**
+ * @typedef {object} A5ESpell
+ * @property {object} system.components
+ * @property {boolean} system.components.vocalized
+ * @property {boolean} system.components.seen
+ * @property {boolean} system.components.material
+ * @property {boolean} system.concentration
+ * @property {number} system.level
+ * @property {string} system.materials
+ * @property {boolean} system.materialsConsumed
+ * @property {boolean} system.prepared
+ * @property {string} system.prerequisite
+ * @property {boolean} system.ritual
+ * @property {object} system.schools
+ * @property {string} system.schools.primary
+ * @property {string[]} system.schools.secondary
+ */

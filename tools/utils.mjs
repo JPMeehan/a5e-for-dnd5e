@@ -30,6 +30,8 @@ export function uuid(pack, id, type) {
  * @returns {string}    The full length name of the source
  */
 export function expandSource(src) {
+  switch (src) {
+  }
   return src;
 }
 
@@ -39,5 +41,7 @@ export function expandSource(src) {
  * @returns {string}        The name of the subclass feature
  */
 export function subclassHeader(classID) {
+  switch (classID) {
+  }
   return "Item Grant";
 }
