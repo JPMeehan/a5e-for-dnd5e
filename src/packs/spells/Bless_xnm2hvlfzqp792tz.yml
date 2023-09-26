@@ -1,0 +1,124 @@
+name: Bless
+type: spell
+img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+effects:
+  - icon: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+    origin: Item.xnm2hvlfzqp792tz
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Bless
+    _id: BVzQZTrd5DWfDSRB
+    changes:
+      - key: system.bonuses.abilities.save
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.meleeSpellAttack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.meleeWeaponAttack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rangedSpellAttack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rangedWeaponAttack
+        mode: 2
+        value: 1d4
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The blessing you bestow upon the targets makes them more durable and
+      competent. Until the spell ends, a d4 is added to attack rolls and saving
+      throws made by a target.</p>
+    statuses: []
+    _key: '!items.effects!xnm2hvlfzqp792tz.BVzQZTrd5DWfDSRB'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - enhancement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The blessing you bestow upon the targets makes them more durable and
+      competent. Until the spell ends, a d4 is added to attack rolls and saving
+      throws made by a target.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> You target one additional creature for each slot
+      level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: enc
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: sprinkle of holy water
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: xnm2hvlfzqp792tz
+_key: '!items!xnm2hvlfzqp792tz'

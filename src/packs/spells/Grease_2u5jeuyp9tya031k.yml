@@ -1,0 +1,80 @@
+name: Grease
+type: spell
+img: icons/magic/water/vortex-water-whirlpool-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - earth
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Grease erupts from a point that you can see within range and coats the
+      ground in the area, turning it into difficult terrain until the spell
+      ends.</p><p>When the grease appears, each creature within the area must
+      succeed on a Dexterity saving throw or fall prone. A creature that enters
+      or ends its turn in the area must also succeed on a Dexterity saving throw
+      or fall prone.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: drop of grease
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 2u5jeuyp9tya031k
+_key: '!items!2u5jeuyp9tya031k'

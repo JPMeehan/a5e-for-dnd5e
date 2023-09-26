@@ -1,0 +1,81 @@
+name: Invisibility
+type: spell
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - obscurement
+      - shadow
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You wreathe a creature in an illusory veil, making it invisible.
+      Anything the target is carrying or wearing is also invisible as long as it
+      remains in the target's possession. The spell's effects end for a target
+      that attacks or casts a spell.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> Target one additional creature for each slot level
+      above 2nd.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: ill
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: piece of a veil
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 4eidicv0lyqevtwd
+_key: '!items!4eidicv0lyqevtwd'

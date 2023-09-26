@@ -1,0 +1,80 @@
+name: Holy Aura
+type: spell
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - enhancement
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Holy radiance emanates from you and fills the area. Targets shed dim
+      light in a 5-foot radius and have advantage on saving throws. Attacks made
+      against a target have disadvantage. When a fiend or undead hits a target,
+      the aura erupts into blinding light, forcing the attacker to make a
+      Constitution saving throw or be blinded until the spell ends.</p>
+    chat: ''
+    unidentified: ''
+  level: 8
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: sacred reliquary worth at least 1, 000 gold
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: ego4vzicfhlcqdcu
+_key: '!items!ego4vzicfhlcqdcu'

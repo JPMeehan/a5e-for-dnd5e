@@ -1,0 +1,77 @@
+name: Revivify
+type: spell
+img: icons/magic/life/heart-cross-strong-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - healing
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target returns to life with 1 hit point. The spell does not restore
+      any missing body parts and cannot return to life a creature that died of
+      old age.</p>
+    chat: ''
+    unidentified: ''
+  level: 3
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: diamonds worth 300 gold, consumed by the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 0k5zymq9q95l8jwa
+_key: '!items!0k5zymq9q95l8jwa'

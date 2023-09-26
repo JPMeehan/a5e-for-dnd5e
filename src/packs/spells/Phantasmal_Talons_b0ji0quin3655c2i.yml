@@ -1,0 +1,80 @@
+name: Phantasmal Talons
+type: spell
+img: icons/creatures/claws/claw-talons-glowing-purple.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - psychic
+      - unarmed
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You silently clench your hand into a claw and invisible talons of pure
+      will sprout from your fingers.</p><p>The talons do not interact with
+      physical matter, but rip viciously at the psyche of any creature struck by
+      them. For the duration, your unarmed strikes gain the finesse property and
+      deal psychic damage. In addition, if your unarmed strike normally deals
+      less than 1d4 damage, it instead deals 1d4 damage.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: enc
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: b0ji0quin3655c2i
+_key: '!items!b0ji0quin3655c2i'

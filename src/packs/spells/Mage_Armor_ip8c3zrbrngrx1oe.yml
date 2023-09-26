@@ -1,0 +1,80 @@
+name: Mage Armor
+type: spell
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, the target is protected by a shimmering magical
+      force. Its AC becomes 13 + its Dexterity modifier. The spell ends if the
+      target dons armor, or if you use an action to dismiss
+      it.</p><p><strong><em>Cast at Higher Levels.</em></strong> The target
+      gains 5 temporary hit points for each slot level above 1st. The temporary
+      hit points last for the spell's duration.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: metal stud
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: ip8c3zrbrngrx1oe
+_key: '!items!ip8c3zrbrngrx1oe'

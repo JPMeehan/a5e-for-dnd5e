@@ -1,0 +1,84 @@
+name: Produce Flame
+type: spell
+img: icons/magic/fire/flame-burning-hand-white.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - fire
+      - nature
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You create a flame in your hand which lasts until the spell ends and
+      does no harm to you or your equipment. The flame sheds bright light in a
+      10-foot radius and dim light for an additional 10 feet.</p><p>The spell
+      ends when you dismiss it, cast it again, or attack with the flame. As part
+      of casting the spell or as an action on a following turn, you can fling
+      the flame at a creature within 30 feet, making a ranged spell attack that
+      deals 1d8 fire damage.</p><p>This spell's damage increases by 1d8 when you
+      reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    chat: ''
+    unidentified: ''
+  level: 0
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: krg2pw9p0pa5praw
+_key: '!items!krg2pw9p0pa5praw'

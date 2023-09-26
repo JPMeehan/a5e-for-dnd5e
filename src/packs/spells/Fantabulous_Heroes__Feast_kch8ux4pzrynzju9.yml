@@ -1,0 +1,85 @@
+name: Fantabulous Heroes' Feast
+type: spell
+img: icons/consumables/food/bowl-stew-tofu-potato-red.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>The spell summons forth a sumptuous feast with a cuisine of your
+      choosing that provides 1 Supply for a number of creatures equal to twice
+      your proficiency bonus. Consuming the food takes 1 hour and leaves a
+      creature feeling nourished—it immediately makes a saving throw with
+      advantage against any disease or poison it is suffering from, and it is
+      cured of any effect that frightens it.</p><p>For up to 24 hours afterward
+      the feast's participants have advantage on Wisdom saving throws, advantage
+      on saving throws made against disease and poison, resistance against
+      damage from poison and disease, and each increases its hit point maximum
+      by 2d10.</p><hr class="a5e-rule u-my-md"><p><strong>Rare: Fantabulous
+      Heroes’ Feast.</strong> For 24 hours afterward, you gain advantage on
+      Charisma checks made against creatures that participate in the feast.</p>
+    chat: ''
+    unidentified: ''
+  level: 6
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: beautifully crafted bowl worth at least 1, 000 gold, consumed by the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ohddM2fcnkPeUeJv
+_id: kch8ux4pzrynzju9
+_key: '!items!kch8ux4pzrynzju9'

@@ -1,0 +1,95 @@
+name: Guarded Enhance Ability
+type: spell
+img: icons/magic/life/cross-embers-glow-yellow-purple.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You bestow a magical enhancement on the target. Choose one of the
+      following effects for the target to receive until the spell
+      ends.</p><ul><li><p><strong>Bear's Endurance:</strong> The target has
+      advantage on Constitution checks and it gains 2d6 temporary hit points
+      (lost when the spell ends).</p></li><li><p><strong>Bull's
+      Strength:</strong> The target has advantage on Strength checks and doubles
+      its carrying capacity.</p></li><li><p><strong>Cat's Grace:</strong> The
+      target has advantage on Dexterity checks and it reduces any falling damage
+      it takes by 10 unless it is incapacitated.</p></li><li><p><strong>Eagle's
+      Splendor:</strong> The target has advantage on Charisma checks and is
+      instantly cleaned (as if it had just bathed and put on fresh
+      clothing).</p></li><li><p><strong>Fox's Cunning:</strong> The target has
+      advantage on Intelligence checks and on checks using gaming
+      sets.</p></li><li><p><strong>Owl's Wisdom:</strong> The target has
+      advantage on Wisdom checks and it gains darkvision to a range of 30 feet
+      (or extends its existing darkvision by 30
+      feet).</p></li></ul><p></p><p><strong><em>Cast at Higher
+      Levels.</em></strong> You target one additional creature for each slot
+      level above 2nd.</p><hr class="a5e-rule u-my-md"><p><strong>Rare: Guarded
+      Enhance Ability.</strong> When the target makes a saving throw using the
+      chosen ability score, it can use its reaction to end the spell and gain
+      advantage. </p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: fur or feather from a beast
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ohddM2fcnkPeUeJv
+_id: tyn4lkm6ltdgdims
+_key: '!items!tyn4lkm6ltdgdims'

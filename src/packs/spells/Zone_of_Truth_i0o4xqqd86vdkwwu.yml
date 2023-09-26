@@ -1,0 +1,85 @@
+name: Zone of Truth
+type: spell
+img: icons/magic/symbols/runes-triangle-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - communication
+      - compulsion
+      - law
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You create a zone that minimizes deception. Any creature that is able
+      to be charmed can't speak a deliberate lie while in the area.</p><p>An
+      affected creature is aware of the spell and can choose not to speak, or it
+      might be evasive in its communications. A creature that enters the zone
+      for the first time on its turn or starts its turn there must make a
+      Charisma saving throw. On a failed save, the creature takes 2d4 psychic
+      damage when it intentionally tries to mislead or occlude important
+      information. Each time the spell damages a creature, it makes a Deception
+      check (DC 8 + the damage dealt) or its suffering is obvious. You know
+      whether a creature succeeds on its saving throw</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: enc
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: i0o4xqqd86vdkwwu
+_key: '!items!i0o4xqqd86vdkwwu'

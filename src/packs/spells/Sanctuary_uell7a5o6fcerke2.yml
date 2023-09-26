@@ -1,0 +1,81 @@
+name: Sanctuary
+type: spell
+img: icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You ward a creature against intentional harm.</p><p>Any creature that
+      makes an attack against or casts a harmful spell against the target must
+      first make a Wisdom saving throw. On a failed save, the attacking creature
+      must choose a different creature to attack or it loses the attack or
+      spell. This spell doesn't protect the target from area effects, such as an
+      explosion.</p><p>This spell ends early when the target attacks or casts a
+      spell that affects an enemy creature.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: silver mirror
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: uell7a5o6fcerke2
+_key: '!items!uell7a5o6fcerke2'

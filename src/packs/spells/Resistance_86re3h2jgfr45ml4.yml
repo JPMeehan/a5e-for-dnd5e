@@ -1,0 +1,77 @@
+name: Resistance
+type: spell
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target gains an expertise die to one saving throw of its choice,
+      ending the spell. The expertise die can be rolled before or after the
+      saving throw is made.</p>
+    chat: ''
+    unidentified: ''
+  level: 0
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: a miniature cloak
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 86re3h2jgfr45ml4
+_key: '!items!86re3h2jgfr45ml4'

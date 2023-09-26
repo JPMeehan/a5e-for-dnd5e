@@ -1,0 +1,83 @@
+name: Find Traps
+type: spell
+img: icons/skills/ranged/shuriken-thrown-sawblade-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+      - senses
+      - technological
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>This spell reveals whether there is at least one trap within range and
+      within line of sight. You don't learn the number, location, or kind of
+      traps detected. For the purpose of this spell, a trap is a hidden
+      mechanical device or magical effect which is designed to harm you or put
+      you in danger, such as a pit trap, symbol spell, or alarm bell on a door,
+      but not a natural hazard.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: u4r9fu1nxbtieekm
+_key: '!items!u4r9fu1nxbtieekm'

@@ -1,0 +1,81 @@
+name: Telepathic Bond
+type: spell
+img: icons/magic/perception/third-eye-blue-red.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - communication
+      - telepathy
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, a telepathic link connects the minds of the
+      targets. So long as they remain on the same plane of existence, targets
+      may communicate telepathically with each other regardless of language and
+      across any distance.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> The spell's duration increases by 1d4 hours for each
+      slot level above 5th.</p>
+    chat: ''
+    unidentified: ''
+  level: 5
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: true
+    concentration: false
+  materials:
+    value: two matching cards from different decks
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 158awzfd5ctjae15
+_key: '!items!158awzfd5ctjae15'

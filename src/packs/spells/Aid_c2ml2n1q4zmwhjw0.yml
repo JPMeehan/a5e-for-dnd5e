@@ -1,0 +1,79 @@
+name: Aid
+type: spell
+img: icons/magic/life/heart-cross-strong-flame-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - enhancement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You draw upon divine power, imbuing the targets with fortitude. Until
+      the spell ends, each target increases its hit point maximum and current
+      hit points by 5.</p><p><strong><em>Cast at Higher Levels.</em></strong>
+      The granted hit points increase by an additional 5 for each slot level
+      above 2nd.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: measure of spirits
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: c2ml2n1q4zmwhjw0
+_key: '!items!c2ml2n1q4zmwhjw0'

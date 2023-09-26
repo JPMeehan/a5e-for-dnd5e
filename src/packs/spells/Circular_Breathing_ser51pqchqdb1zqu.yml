@@ -1,0 +1,83 @@
+name: Circular Breathing
+type: spell
+img: icons/magic/air/air-burst-spiral-blue-gray.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - air
+      - enhancement
+      - water
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You begin carefully regulating your breath so that you can continue
+      playing longer or keep breathing longer in adverse conditions.</p><p>Until
+      the spell ends, you can breathe underwater, and you can utilize bardic
+      performances that would normally require breathable air. In addition, you
+      have advantage on saving throws against gases and environments with
+      adverse breathing conditions.</p><p>The duration of this spell increases
+      when you reach 5th level (10 minutes), 11th level (30 minutes), and 17th
+      level (1 hour).</p>
+    chat: ''
+    unidentified: ''
+  level: 0
+  school: trs
+  components:
+    vocal: false
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: long breath of clean air
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: ser51pqchqdb1zqu
+_key: '!items!ser51pqchqdb1zqu'

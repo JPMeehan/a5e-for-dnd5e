@@ -1,0 +1,85 @@
+name: Control Weather
+type: spell
+img: icons/magic/lightning/bolt-cloud-sky-white.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - nature
+      - weather
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You must be outdoors to cast this spell, and it ends early if you don't
+      have a clear path to the sky.</p><p>Until the spell ends, you change the
+      weather conditions in the area from what is normal for the current climate
+      and season. Choose to increase or decrease each weather condition
+      (precipitation, temperature, and wind) up or down by one stage on the
+      following tables. Whenever you change the wind, you can also change its
+      direction. The new conditions take effect after 1d4 &times; 10 minutes, at
+      which point you can change the conditions again. The weather gradually
+      returns to normal when the spell ends.</p>
+    chat: ''
+    unidentified: ''
+  level: 8
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: burning incense, bits of earth, and wood mixed with water
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: ekzbxzb2pzhffev9
+_key: '!items!ekzbxzb2pzhffev9'

@@ -1,0 +1,82 @@
+name: Calculate
+type: spell
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - law
+      - technological
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You instantly know the answer to any mathematical equation that you
+      speak aloud. The equation must be a problem that a creature with
+      Intelligence 20 could solve using nonmagical tools with 1 hour of
+      calculation. Additionally, you gain an expertise die on Engineering checks
+      made during the duration of the spell.</p><p>Note: Using the
+      <em>calculate</em> cantrip allows a player to make use of a calculator at
+      the table in order to rapidly answer mathematical equations.</p>
+    chat: ''
+    unidentified: ''
+  level: 0
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: u0ez2czg763i77kl
+_key: '!items!u0ez2czg763i77kl'

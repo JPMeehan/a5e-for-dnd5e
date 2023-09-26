@@ -1,0 +1,93 @@
+name: Finor's Imprisoning Skeletal Hands
+type: spell
+img: icons/magic/death/hand-undead-skeleton-fire-green.webp
+system:
+  description:
+    value: >-
+      <p>Dozens of skeletal hands reach from a wall or other vertical surface to
+      grasp a creature within 5 feet of the surface. Make a melee spell attack.
+      On a hit, the target takes 1d8 necrotic damage and is restrained until the
+      spell ends. A creature restrained by the hands can use a bonus action to
+      make a Strength saving throw to escape, ending the spell early on a
+      success. On a failure, the target takes 1d8 necrotic damage. When the
+      spell ends, the hands withdraw into the wall.</p>
+
+      <p><em><strong>Cast at Higher Levels.</strong></em> The spell&rsquo;s
+      initial damage and damage on a failed escape attempt increase by 1d8 per
+      slot level above 1st.</p>
+
+      <hr>
+
+      <p><strong>Rare: Finor&rsquo;s Imprisoning Skeletal Hands.</strong> If you
+      maintain concentration on the spell for the full duration, the target
+      remains trapped by the hands until the magic is dispelled or you dismiss
+      the spell as an action.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: nec
+  components:
+    vocal: false
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: finger bone
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - necrotic
+    rareSpell: true
+folder: ohddM2fcnkPeUeJv
+_id: 30de7tsm4zwt6wax
+_key: '!items!30de7tsm4zwt6wax'

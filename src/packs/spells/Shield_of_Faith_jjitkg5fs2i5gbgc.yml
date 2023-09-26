@@ -1,0 +1,78 @@
+name: Shield of Faith
+type: spell
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, a barrier of divine energy envelops the target
+      and increases its AC by +2.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> The bonus to AC increases by +1 for every three slot
+      levels above 1st.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: scrap of holy text
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: jjitkg5fs2i5gbgc
+_key: '!items!jjitkg5fs2i5gbgc'

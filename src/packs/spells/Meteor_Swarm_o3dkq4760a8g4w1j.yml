@@ -1,0 +1,82 @@
+name: Meteor Swarm
+type: spell
+img: icons/magic/earth/projectiles-magma-stone-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - attack
+      - fire
+      - storm
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Scorching spheres of flame strike the ground at 4 different points
+      within range. The effects of a sphere reach around corners. Creatures and
+      objects in the area take 14d6 fire damage and 14d6 bludgeoning damage, and
+      flammable unattended objects catch on fire. If a creature is in the area
+      of more than one sphere, it is affected only once.</p>
+    chat: ''
+    unidentified: ''
+  level: 9
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: o3dkq4760a8g4w1j
+_key: '!items!o3dkq4760a8g4w1j'

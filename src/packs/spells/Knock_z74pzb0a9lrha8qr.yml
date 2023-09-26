@@ -1,0 +1,85 @@
+name: Knock
+type: spell
+img: icons/magic/lightning/bolt-strike-forked-sparks-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Make a check against the DC of a lock or door using your spell attack
+      bonus. On a success, you unlock or open the target with a loud metallic
+      clanging noise easily audible at up to 300 feet. In addition, any traps on
+      the object are automatically triggered. An item with multiple locks
+      requires multiple castings of this spell to be opened.</p><p>When you
+      target an object held shut by an arcane lock, that spell is suppressed for
+      10 minutes, allowing the object to be opened and shut normally during that
+      time.</p><p><strong><em>Cast at Higher Levels.</em></strong> The level of
+      the arcane lock you can suppress increases by 1 for each slot level above
+      3rd. In addition, if the level of your knock spell is 2 or more levels
+      higher than that of the arcane lock, you may dispel the arcane lock
+      instead of suppressing it.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: key
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: z74pzb0a9lrha8qr
+_key: '!items!z74pzb0a9lrha8qr'

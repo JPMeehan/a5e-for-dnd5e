@@ -1,0 +1,77 @@
+name: Power Word Kill
+type: spell
+img: icons/magic/death/skeleton-skull-soul-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>With but a word you snuff out the target's life and it immediately
+      dies. If you cast this on a creature with more than 100 hit points, it
+      takes 50 hit points of damage.</p>
+    chat: ''
+    unidentified: ''
+  level: 9
+  school: enc
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 77amz0lv01jzpzsg
+_key: '!items!77amz0lv01jzpzsg'

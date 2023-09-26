@@ -1,0 +1,83 @@
+name: Arcane Sword
+type: spell
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - force
+      - summoning
+      - weaponry
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You summon an insubstantial yet deadly sword to do your
+      bidding.</p><p>Make a melee spell attack against a target of your choice
+      within 5 feet of the sword, dealing 3d10 force damage on a
+      hit.</p><p>Until the spell ends, you can use a bonus action on subsequent
+      turns to move the sword up to 20 feet to a space you can see and make an
+      identical melee spell attack against a target.</p>
+    chat: ''
+    unidentified: ''
+  level: 7
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: miniature sword worth 250 gold
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: p4talb2lkjgu6owl
+_key: '!items!p4talb2lkjgu6owl'

@@ -1,0 +1,84 @@
+name: Locate Object
+type: spell
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - knowledge
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Name or describe in detail an object familiar to you. The spell reveals
+      the general direction the object is in (south, east, northwest, and so on)
+      if it exists within range. This includes its current trajectory if it's
+      travelling.</p><p>You may locate a specific object known to you, provided
+      that you have observed it within 30 feet at least once. You may also find
+      the closest example of a certain type of object (for example an
+      instrument, item of furniture, compass, or vase).</p><p>When there is any
+      thickness of lead in the direct path between you and the object the spell
+      is unable to find it.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: two L-shaped metal rods
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 84xbuk6c7yo86ga7
+_key: '!items!84xbuk6c7yo86ga7'

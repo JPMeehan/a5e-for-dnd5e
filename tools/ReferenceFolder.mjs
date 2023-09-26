@@ -47,7 +47,7 @@ export default class ReferenceFolder {
    */
   async prepFolders() {
     const read_file = await fs.readFile(
-      path.join("tools", "referenceFolders", pack + ".yml")
+      path.join("tools", "referenceFolders", this.pack + ".yml")
     );
     this.#compendium = yaml.load(read_file);
   }
@@ -85,9 +85,10 @@ export default class ReferenceFolder {
       };
     }
     await fs.writeFile(
+      // tools\referenceFolders
       path.join("tools", "referenceFolders", pack + ".yml"),
-      yaml.dump(folderStruct, null, 2),
-      "utf-8"
+      yaml.dump(folderStruct, null, 2).trim()
+      // { encoding: "utf-8", flag: "w" }
     );
   }
 }

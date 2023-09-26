@@ -1,0 +1,79 @@
+name: Purify Food and Drink
+type: spell
+img: icons/consumables/drinks/clay-jar-glowing-orange-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - nature
+      - negation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You remove all poison and disease from a number of Supply equal to your
+      proficiency bonus.</p><p><strong><em>Cast at Higher Levels.</em></strong>
+      Remove all poison and disease from an additional Supply for each slot
+      level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: true
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: fe2d3gkhdwtibizq
+_key: '!items!fe2d3gkhdwtibizq'

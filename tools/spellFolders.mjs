@@ -81,7 +81,7 @@ const folders = new ReferenceFolder(targetPack);
 await folders.prepFolders();
 
 for (const [id, f] of folders.compendium) {
-  if (!f.parent) return;
+  if (!f.parent) continue;
   const parentName = folders.getFolderName(f, 1);
   const currentName = f.name;
   const level = currentName !== "Cantrip" ? parseInt(currentName[0]) : 0;

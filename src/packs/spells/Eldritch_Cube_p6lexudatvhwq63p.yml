@@ -1,0 +1,82 @@
+name: Eldritch Cube
+type: spell
+img: icons/magic/unholy/hand-light-pink.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - law
+      - psychic
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A black, nonreflective, incorporeal 10-foot cube appears in an
+      unoccupied space that you can see. Its space can be in midair if you so
+      desire. When a creature starts its turn in the cube or enters the cube for
+      the first time on its turn it must make an Intelligence saving throw,
+      taking 5d6 psychic damage on a failed save, or half damage on a
+      success.</p><p>As a bonus action, you can move the cube up to 10 feet in
+      any direction to a space you can see. The cube cannot be made to pass
+      through other creatures in this way.</p>
+    chat: ''
+    unidentified: ''
+  level: 5
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: p6lexudatvhwq63p
+_key: '!items!p6lexudatvhwq63p'

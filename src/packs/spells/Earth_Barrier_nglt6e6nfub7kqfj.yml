@@ -1,0 +1,79 @@
+name: Earth Barrier
+type: spell
+img: icons/magic/earth/barrier-stone-explosion-red.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Choose an unoccupied space between you and the source of the attack
+      which triggers the spell. You call forth a pillar of earth or stone (3
+      feet diameter, 20 feet tall, AC 10, 20 hit points) in that space that
+      provides you with three-quarters cover (+5 to AC, Dexterity saving throws,
+      and ability checks made to hide).</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: nglt6e6nfub7kqfj
+_key: '!items!nglt6e6nfub7kqfj'

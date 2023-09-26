@@ -1,0 +1,97 @@
+name: Create Undead
+type: spell
+img: icons/magic/death/skull-trio-badge-purple.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - undead
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>This spell cannot be cast in sunlight. You reanimate the targets as
+      undead and transform them into ghouls under your control.</p><p>While it
+      is within 120 feet you can use a bonus action to mentally command the
+      undead. When you command multiple undead using this spell, you must give
+      them all the same command. You may decide the action the undead takes and
+      where it moves during its next turn, or you can issue a general command,
+      such as guarding an area. If not given a command, the undead only defends
+      itself. The undead continues to follow a command until its task is
+      complete.</p><p>The undead is under your control for 24 hours, after which
+      it stops obeying any commands. You must cast this spell on the undead
+      before the spell ends to maintain control of it for another 24 hours.
+      Casting the spell in this way reasserts control over up to 3 undead you
+      have animated with this spell, rather than animating a new
+      one.</p><p><strong><em>Cast at Higher Levels.</em></strong> You create or
+      reassert control over one additional ghoul for each slot level above 6th.
+      Alternatively, when using an 8th-level spell slot you create or reassert
+      control over 2 ghasts or wights, or when using a 9th-level spell slot you
+      create or reassert control over 3 ghasts or wights, or 2 mummies. When
+      commanding more than 3 undead they make group attack rolls (see page 454
+      in Chapter 8: Combat).</p>
+    chat: ''
+    unidentified: ''
+  level: 6
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: >-
+      each corpse requires a clay pot filled with grave dirt, a clay pot filled
+      with brackish water, and a black onyx stone worth 150 gold
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: evhh5s6v0ctzop82
+_key: '!items!evhh5s6v0ctzop82'

@@ -1,0 +1,82 @@
+name: Silent Image
+type: spell
+img: icons/magic/symbols/runes-star-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - senses
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You create an illusory image of a creature, object, or other visible
+      effect within the area. The illusion is purely visual, it cannot produce
+      sound or smell, and items and other creatures pass through it.</p><p>As an
+      action, you can move the image to any point within range. The image's
+      movement can be natural and lifelike (for example, a ball will roll and a
+      bird will fly).</p><p>A creature can spend an action to make an
+      Investigation check against your spell save DC to determine if the image
+      is an illusion. On a success, it is able to see through the image.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: ill
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: bit of wool
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 1046kzuqvlnjtk0x
+_key: '!items!1046kzuqvlnjtk0x'

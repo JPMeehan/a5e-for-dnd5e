@@ -1,0 +1,83 @@
+name: Lasting Harmonic Resonance
+type: spell
+img: icons/skills/trades/music-notes-sound-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - sound
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You harmonize with the rhythm of those around you until you're
+      perfectly in sync. You may take the Help action as a bonus action.
+      Additionally, when a creature within 30 feet uses a Bardic Inspiration
+      die, you may choose to reroll the die after it is rolled but before the
+      outcome is determined.</p><p>You cannot cast another spell through your
+      spellcasting focus while concentrating on this spell.</p><hr
+      class="a5e-rule u-my-md"><p><strong>Rare: Lasting Harmonic
+      Resonance.</strong> The spell’s effects continue for 1 round after its
+      duration ends.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: the written lyrics of a duet
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ohddM2fcnkPeUeJv
+_id: k84aijl0gris8n6h
+_key: '!items!k84aijl0gris8n6h'

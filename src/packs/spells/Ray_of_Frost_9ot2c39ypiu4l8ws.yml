@@ -1,0 +1,80 @@
+name: Ray of Frost
+type: spell
+img: icons/magic/water/projectile-icecicle-glowing.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - cold
+      - movement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>An icy beam shoots from your outstretched fingers.</p><p>Make a ranged
+      spell attack. On a hit, you deal 1d8 cold damage and reduce the target's
+      Speed by 10 feet until the start of your next turn.</p><p>This spell's
+      damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8),
+      and 17th level (4d8).</p>
+    chat: ''
+    unidentified: ''
+  level: 0
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 9ot2c39ypiu4l8ws
+_key: '!items!9ot2c39ypiu4l8ws'

@@ -1,0 +1,89 @@
+name: Trick Shot
+type: spell
+img: icons/skills/ranged/target-bullseye-archer-orange.webp
+system:
+  description:
+    value: >-
+      <p>As part of the action used to cast this spell, make a ranged weapon
+      attack against a target within range of the weapon you are wielding. On a
+      hit, the creature takes normal weapon damage and you may immediately roll
+      a second attack against another target within 30 feet of the first as the
+      shot penetrates through the initial target and keeps going. If the
+      ammunition has some additional effect applied to it (such as poison, a
+      spell, a class feature effect, etc.) it only affects the first
+      target.</p><p>At 5th level, you may select a 2nd additional target if you
+      hit the first, at 11th level you may select a 3rd if you hit the first
+      two, and at 17th, you may select a 4th if you hit the first three. A
+      single target may be targeted by multiple attacks as long as they are not
+      consecutive. For example, at 5th level, if the first attack hits, and the
+      second attack hits (a different target), the third attack may be directed
+      back to the initial target.</p>
+    chat: ''
+    unidentified: ''
+  source: Arcane Sniper
+  level: 0
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: A ranged weapon
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - weaponry
+    rareSpell: false
+folder: XXlxppJh0OdnJaQQ
+_id: 048bpvlv3py8katm
+_key: '!items!048bpvlv3py8katm'

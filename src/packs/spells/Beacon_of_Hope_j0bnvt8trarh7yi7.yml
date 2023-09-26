@@ -1,0 +1,78 @@
+name: Beacon of Hope
+type: spell
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The targets are filled with hope and vitality.</p><p>Until the spell
+      ends, each target gains advantage on Wisdom saving throws and death saving
+      throws, and when a target receives healing it regains the maximum number
+      of hit points possible.</p>
+    chat: ''
+    unidentified: ''
+  level: 3
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: j0bnvt8trarh7yi7
+_key: '!items!j0bnvt8trarh7yi7'

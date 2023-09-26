@@ -1,0 +1,78 @@
+name: Pass Without Trace
+type: spell
+img: icons/magic/nature/wolf-paw-glow-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - obscurement
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You and allies within the area gain advantage and an expertise die on
+      Dexterity (Stealth) checks as an aura of secrecy enshrouds you. Creatures
+      in the area leave behind no evidence of their passage.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: ashes of mistletoe and spruce
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: zlsdqrnf2t9thns7
+_key: '!items!zlsdqrnf2t9thns7'

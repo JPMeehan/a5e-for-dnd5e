@@ -91,7 +91,7 @@ function fixUUIDrefs(uuid) {
 
 /**
  *
- * @param {import('./types/a5e.mjs').a5eAction} action
+ * @param {import('./types/a5e.mjs').Action} action
  * @param {object} system
  * @returns {boolean} Validates that the action was completed
  */
@@ -148,14 +148,14 @@ function migrateAction(action, system) {
   };
   updateTarget(activation, action);
   let rangeProp = "value";
-  for (const r of action?.ranges) {
+  for (const r of Object.values(action.ranges || {})) {
     const actionRange = r.range;
     if (actionRange === "self") continue;
     activation.range[rangeProp] = abbr(actionRange);
     if (rangeProp === "value") rangeProp = "long";
     else console.log("More than 2 ranges!");
   }
-  for (p of action?.prompts) {
+  for (const p of Object.values(action.prompts || {})) {
     activation.actionType = actionType(abbr(p.type), activation.actionType);
     if (activation.actionType === "abil") activation.ability = p.ability;
     if (activation.actionType === "save") activation.save.ability = p.ability;
@@ -208,10 +208,10 @@ function actionType(alternative, current) {
 /**
  * Updates the target
  * @param {object} t
- * @param {import("./types/a5e.mjs").a5eAction} action
+ * @param {import("./types/a5e.mjs").Action} action
  */
 function updateTarget(t, action) {
-  switch (action.area.shape) {
+  switch (action.area?.shape) {
     case "circle":
     case "cylinder":
       t.type = "cylinder";
@@ -240,7 +240,7 @@ function updateTarget(t, action) {
       t.units = "ft";
       return;
   }
-  switch (action.target.type) {
+  switch (action.target?.type) {
     case "self":
     case "creature":
     case "object":
@@ -461,11 +461,11 @@ function weaponProperties(system, description) {
 
 /**
  *
- * @param {import("./types/a5e.mjs").A5ESpell | import("./types/a5e.mjs").BaseTemplate} system
+ * @param {import("./types/a5e.mjs").Spell | import("./types/a5e.mjs").BaseTemplate} system
  * @returns {}
  */
 function migrateSpell(system) {
-  o5e = {
+  const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
       chat: "",
@@ -496,7 +496,7 @@ function migrateSpell(system) {
       formula: null,
     },
   };
-  for (const a of system.actions) migrateAction(a, o5e);
+  for (const a in Object.values(system.actions)) migrateAction(a, o5e);
   return o5e;
 }
 
@@ -509,7 +509,7 @@ function migrateBackground(system) {
     },
     source: flattenSource(system.source),
   };
-  return;
+  return o5e;
 }
 
 function migrateCulture(system) {

@@ -1,0 +1,104 @@
+name: Identify Weapon
+type: spell
+img: icons/tools/scribal/lens-blue.webp
+system:
+  description:
+    value: >-
+      <div id="spell-body">
+
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p>While casting this spell, you touch a wound on a creature or corpse. If
+      the wound was inflicted by an object, such as a weapon, you know exactly
+      what the specific item looks like for the purposes of spells like<em>
+      </em>@UUID[Compendium.a5e-for-dnd5e.spells.84xbuk6c7yo86ga7]{Locate
+      Object}. For the duration of the spell you also know the object&rsquo;s
+      general direction and its current trajectory if it&rsquo;s traveling.</p>
+
+      <p>The spell fails if the wound was inflicted by a creature&rsquo;s
+      natural weapons, such as fists or claws, or by a spell. The spell also
+      fails if the wound was inflicted more than 3 days ago. If the weapon is
+      more than 5 miles away, has been destroyed, or if there is any thickness
+      of lead in the direct path between you and the object, the spell is unable
+      to provide its direction.</p>
+
+      <p><strong style="font-size: 10.5pt;"><em>Cast at Higher Levels</em>.
+      </strong><span style="font-size: 10.5pt;">When using a 3rd-level spell
+      slot, the spell&rsquo;s duration increases to 10 minutes and it can detect
+      a weapon up to 30 miles away.</span></p>
+
+      </div>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - knowledge
+      - law
+      - weaponry
+    rareSpell: false
+folder: XXlxppJh0OdnJaQQ
+_id: taibvy7syeyykk4i
+_key: '!items!taibvy7syeyykk4i'

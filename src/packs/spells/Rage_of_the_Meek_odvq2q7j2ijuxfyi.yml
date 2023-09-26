@@ -1,0 +1,88 @@
+name: Rage of the Meek
+type: spell
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - force
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You unleash the discipline of your magical training and let arcane
+      power burn from your fists, consuming the material components of the
+      spell. Until the spell ends you have resistance to bludgeoning, piercing,
+      and slashing damage from nonmagical weapons, and on each of your turns you
+      can use an action to make a melee spell attack against a target within 5
+      feet that deals 4d8 force damage on a successful hit.</p><p>For the
+      duration, you cannot cast other spells or concentrate on other spells. The
+      spell ends early if your turn ends and you haven't attacked a hostile
+      creature since your last turn or taken damage since then. You can also end
+      this spell early on your turn as a bonus action.</p><p><strong><em>Cast at
+      Higher Levels.</em></strong> When using a spell slot of 5th- or 6th-level,
+      the damage increases to 5d8.</p><p>When using a spell slot of 7th- or
+      8th-level, the damage increases to 6d8. When using a spell slot of
+      9th-level, the damage increases to 7d8.</p>
+    chat: ''
+    unidentified: ''
+  level: 4
+  school: trs
+  components:
+    vocal: true
+    somatic: false
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: bauble, curio, or toy worth at least 20 gold, consumed by the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: odvq2q7j2ijuxfyi
+_key: '!items!odvq2q7j2ijuxfyi'

@@ -1,0 +1,81 @@
+name: Blindness/Deafness
+type: spell
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - divine
+      - senses
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, the target is blinded or deafened (your choice).
+      At the end of each of its turns the target can repeat its saving throw,
+      ending the spell on a success.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> You target one additional creature for each slot
+      level above 2nd.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: nec
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 6q34ttse78toj5x0
+_key: '!items!6q34ttse78toj5x0'

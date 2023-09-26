@@ -1,0 +1,78 @@
+name: Foresight
+type: spell
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - senses
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You impart the ability to see flashes of the immediate future. The
+      target can't be surprised and has advantage on ability checks, attack
+      rolls, and saving throws. Other creatures have disadvantage on attack
+      rolls against the target.</p>
+    chat: ''
+    unidentified: ''
+  level: 9
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: hummingbird feather
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: kbdluu7o446n2opz
+_key: '!items!kbdluu7o446n2opz'

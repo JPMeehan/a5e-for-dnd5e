@@ -1,0 +1,85 @@
+name: Flesh to Stone
+type: spell
+img: icons/magic/defensive/armor-stone-skin.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - earth
+      - transformation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target becomes restrained as it begins to turn to stone. On a
+      successful saving throw, the target is instead slowed until the end of its
+      next turn and the spell ends.</p><p>A creature restrained by this spell
+      makes a second saving throw at the end of its turn. On a success, the
+      spell ends. On a failure, the target is petrified for the duration. If you
+      maintain concentration for the maximum duration of the spell, this
+      petrification is permanent.</p><p>Any pieces removed from a petrified
+      creature are missing when the petrification ends.</p><p><strong><em>Cast
+      at Higher Levels.</em></strong> Target one additional creature when you
+      cast this spell with an 8th-level spell slot.</p>
+    chat: ''
+    unidentified: ''
+  level: 6
+  school: trs
+  components:
+    vocal: false
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: limestone
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: i130d76fifd75hv5
+_key: '!items!i130d76fifd75hv5'

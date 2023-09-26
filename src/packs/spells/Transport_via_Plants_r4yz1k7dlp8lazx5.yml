@@ -1,0 +1,80 @@
+name: Transport via Plants
+type: spell
+img: icons/magic/nature/tree-spirit-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - nature
+      - plants
+      - teleportation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You create a magical pathway between the target and a second plant that
+      you've seen or touched before that is on the same plane of existence. Any
+      creature can step into the target and exit from the second plant by using
+      5 feet of movement.</p>
+    chat: ''
+    unidentified: ''
+  level: 6
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: r4yz1k7dlp8lazx5
+_key: '!items!r4yz1k7dlp8lazx5'

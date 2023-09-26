@@ -13,7 +13,7 @@
  */
 
 /**
- * @typedef {object} a5eAction
+ * @typedef {object} Action
  * @property {string} name
  * @property {string} [description]
  * @property {object} activation
@@ -69,7 +69,7 @@
 
 /**
  * @typedef {object} BaseTemplate
- * @property {object} actions
+ * @property {Record<string, Action>} actions
  * @property {string} description
  * @property {boolean} favorite
  * @property {string} secretDescription
@@ -99,7 +99,7 @@
  */
 
 /**
- * @typedef {object} A5ESpell
+ * @typedef {object} Spell
  * @property {object} system.components
  * @property {boolean} system.components.vocalized
  * @property {boolean} system.components.seen

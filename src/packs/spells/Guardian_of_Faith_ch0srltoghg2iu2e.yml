@@ -1,0 +1,82 @@
+name: Guardian of Faith
+type: spell
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>A large spectral guardian appears and hovers for the duration in an
+      unoccupied space of your choice that you can see within range. This
+      guardian occupies that space and is indistinct except for a gleaming sword
+      and sheild emblazoned with the symbol of your deity.</p>
+
+      <p>Any creature hostile to you that moves to a space within 10 feet of the
+      guardian for the first time on a turn must succeed on a Dexterity saving
+      throw. The creature takes 20 radiant damage on a failed save, or half as
+      much damage on a successful one. The guardian vanishes when it has dealt a
+      total of 60 damage.</p>
+    chat: ''
+    unidentified: ''
+  level: 4
+  school: con
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools: []
+    rareSpell: false
+folder: XXlxppJh0OdnJaQQ
+_id: ch0srltoghg2iu2e
+_key: '!items!ch0srltoghg2iu2e'

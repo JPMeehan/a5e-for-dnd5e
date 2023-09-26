@@ -1,0 +1,77 @@
+name: Tongues
+type: spell
+img: icons/magic/symbols/runes-star-magenta.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - communication
+      - divine
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target understands any words it hears, and when the target speaks
+      its words are understood by creatures that know at least one language.</p>
+    chat: ''
+    unidentified: ''
+  level: 3
+  school: div
+  components:
+    vocal: true
+    somatic: false
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: clay model of a ziggurat
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: ef9fuzf8xcja2p7c
+_key: '!items!ef9fuzf8xcja2p7c'

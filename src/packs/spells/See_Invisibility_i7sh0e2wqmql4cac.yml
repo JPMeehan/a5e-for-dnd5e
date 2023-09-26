@@ -1,0 +1,77 @@
+name: See Invisibility
+type: spell
+img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - enhancement
+      - senses
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You can see invisible creatures and objects, and you can see into the
+      Ethereal Plane. Ethereal creatures and objects appear translucent.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: pinch of powdered talc
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: i7sh0e2wqmql4cac
+_key: '!items!i7sh0e2wqmql4cac'

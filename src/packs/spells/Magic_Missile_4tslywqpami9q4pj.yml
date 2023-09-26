@@ -1,0 +1,80 @@
+name: Magic Missile
+type: spell
+img: icons/magic/light/projectiles-salvo-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - force
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A trio of glowing darts of magical force unerringly and simultaneously
+      strike the targets, each dealing 1d4+1 force
+      damage.</p><p><strong><em>Cast at Higher Levels.</em></strong> Evoke one
+      additional dart and target up to one additional creature for each slot
+      level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  level: 1
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 4tslywqpami9q4pj
+_key: '!items!4tslywqpami9q4pj'

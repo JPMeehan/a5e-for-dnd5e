@@ -1,0 +1,81 @@
+name: Shatter
+type: spell
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - sound
+      - arcane
+      - thunder
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>An ear-splitting ringing sound emanates through the area. Creatures in
+      the area take 3d8 thunder damage. A creature made of stone, metal, or
+      other inorganic material has disadvantage on its saving throw.</p><p>Any
+      nonmagical items within the area that are not worn or carried also take
+      damage.</p><p><strong>Cast at Higher Levels. </strong>The damage increases
+      by 1d8 for each slot level above 2nd.</p>
+    chat: ''
+    unidentified: ''
+  level: 2
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: A silver bell or chime
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: 7e9cvnpmbg3knm9l
+_key: '!items!7e9cvnpmbg3knm9l'

@@ -1,0 +1,84 @@
+name: Battlecry Ballad
+type: spell
+img: icons/skills/trades/music-singing-voice-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - sound
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You fill your allies with a thirst for glory and battle using your
+      triumphant rallying cry. Expend and roll a Bardic Inspiration die to
+      determine the number of rounds you can maintain concentration on this
+      spell (minimum 1 round). Each target gains a bonus to attack and damage
+      rolls equal to the number of rounds you have maintained concentration on
+      this spell (maximum +4).</p><p>You cannot cast another spell through your
+      spellcasting focus while concentrating on this
+      spell.</p><p><strong><em>Cast at Higher Levels.</em></strong> You can
+      maintain concentration on this spell for an additional round for each slot
+      level above 3rd.</p>
+    chat: ''
+    unidentified: ''
+  level: 3
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: banner or flag
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: ljopwunwolpxj2w9
+_key: '!items!ljopwunwolpxj2w9'

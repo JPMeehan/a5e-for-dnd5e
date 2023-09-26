@@ -1,0 +1,79 @@
+name: Mass Heal
+type: spell
+img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - healing
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Healing energy erupts from your steepled hands and restores up to 700
+      hit points between the targets.</p><p>Creatures healed in this way are
+      also cured of any diseases, and any effect causing them to be blinded or
+      deafened. In addition, on subsequent turns within the next minute you can
+      use a bonus action to distribute any unused hit points.</p>
+    chat: ''
+    unidentified: ''
+  level: 9
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: rcodaq0qz6lz0vop
+_key: '!items!rcodaq0qz6lz0vop'

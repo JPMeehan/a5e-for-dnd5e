@@ -1,0 +1,79 @@
+name: Find the Path
+type: spell
+img: icons/magic/nature/leaf-rune-glow-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - nature
+      - terrain
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Name a specific, immovable location that you have visited before. If no
+      such location is within range, the spell fails. For the duration, you know
+      the location's direction and distance. While you are traveling there, you
+      have advantage on ability checks made to determine the shortest path.</p>
+    chat: ''
+    unidentified: ''
+  level: 6
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: object worth at least 1 silver and from the target location
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: c16b46enmxlur04y
+_key: '!items!c16b46enmxlur04y'

@@ -1,0 +1,80 @@
+name: Shillelagh
+type: spell
+img: icons/weapons/staves/staff-vines-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - transformation
+      - weaponry
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You imbue the target with nature's magical energy. Until the spell
+      ends, the target becomes a magical weapon (if it wasn't already), its
+      damage becomes 1d8, and you can use your spellcasting ability instead of
+      Strength for melee attack and damage rolls made using it. The spell ends
+      if you cast it again or let go of the target.</p>
+    chat: ''
+    unidentified: ''
+  level: 0
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: club or quarterstaff
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XXlxppJh0OdnJaQQ
+_id: zaeerhaj7ici4dtd
+_key: '!items!zaeerhaj7ici4dtd'
