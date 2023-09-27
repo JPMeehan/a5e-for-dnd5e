@@ -40,8 +40,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 2d8
   activation:
     type: action
     cost: 1
@@ -68,14 +68,18 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: rsak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 4d8
+        - poison
+      - - 8d8
+        - poison
     versatile: ''
   formula: ''
   save:

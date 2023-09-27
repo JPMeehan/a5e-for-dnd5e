@@ -79,7 +79,11 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 10d8
+        - fire
+      - - 1d8
+        - fire
     versatile: ''
   formula: ''
   save:

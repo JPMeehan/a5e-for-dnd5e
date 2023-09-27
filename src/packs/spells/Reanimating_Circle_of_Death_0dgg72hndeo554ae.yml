@@ -36,8 +36,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 2d6
   activation:
     type: action
     cost: 1
@@ -71,7 +71,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 9d6
+        - necrotic
     versatile: ''
   formula: ''
   save:

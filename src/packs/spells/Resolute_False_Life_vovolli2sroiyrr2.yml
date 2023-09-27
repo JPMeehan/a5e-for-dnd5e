@@ -65,14 +65,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: heal
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d4+4
+        - temphp
     versatile: ''
   formula: ''
   save:

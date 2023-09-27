@@ -65,14 +65,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: rsak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - (floor((@details.level+1)/6)+1)d10
+        - fire
     versatile: ''
   formula: ''
   save:

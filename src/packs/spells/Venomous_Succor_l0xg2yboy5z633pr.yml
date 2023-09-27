@@ -37,8 +37,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d6
   activation:
     type: bonusAction
     cost: 1
@@ -65,14 +65,18 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: heal
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d6
+        - poison
+      - - 2d4
+        - healing
     versatile: ''
   formula: ''
   save:

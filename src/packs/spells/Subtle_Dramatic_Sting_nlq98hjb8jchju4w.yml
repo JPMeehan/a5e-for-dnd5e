@@ -47,8 +47,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d4
   activation:
     type: bonusAction
     cost: 1
@@ -82,7 +82,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d4
+        - psychic
     versatile: ''
   formula: ''
   save:

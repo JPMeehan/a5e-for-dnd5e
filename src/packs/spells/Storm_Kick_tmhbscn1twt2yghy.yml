@@ -76,14 +76,20 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: rsak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d6+@mod
+        - bludgeoning
+      - - 3d8
+        - thunder
+      - - 6d8
+        - lightning
     versatile: ''
   formula: ''
   save:

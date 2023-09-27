@@ -62,14 +62,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: heal
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d4 + @mod
+        - healing
     versatile: ''
   formula: ''
   save:

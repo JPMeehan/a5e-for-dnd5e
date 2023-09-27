@@ -71,7 +71,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 10d8
+        - lightning
     versatile: ''
   formula: ''
   save:

@@ -40,8 +40,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d10
   activation: {}
   duration: {}
   cover: null
@@ -72,7 +72,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 6d10
+        - slashing
     versatile: ''
   formula: ''
   save:

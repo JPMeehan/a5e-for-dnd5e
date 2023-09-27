@@ -43,8 +43,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d6
   activation:
     type: action
     cost: 1
@@ -71,14 +71,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: msak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 2d6
+        - thunder
     versatile: ''
   formula: ''
   save:

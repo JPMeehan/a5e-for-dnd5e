@@ -41,8 +41,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d6
   activation:
     type: bonusAction
     cost: 1
@@ -69,14 +69,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: msak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 3d6
+        - lightning
     versatile: ''
   formula: ''
   save:

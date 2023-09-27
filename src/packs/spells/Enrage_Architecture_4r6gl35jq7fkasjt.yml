@@ -74,7 +74,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 2d10+5
+        - bludgeoning
     versatile: ''
   formula: ''
   save:

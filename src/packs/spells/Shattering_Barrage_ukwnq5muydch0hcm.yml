@@ -70,14 +70,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: rsak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 2d4
+        - slashing
     versatile: ''
   formula: ''
   save:

@@ -74,7 +74,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 3d4
+        - psychic
     versatile: ''
   formula: ''
   save:

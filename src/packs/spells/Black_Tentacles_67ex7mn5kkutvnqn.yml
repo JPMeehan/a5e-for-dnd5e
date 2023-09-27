@@ -68,8 +68,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d6
   activation: {}
   duration: {}
   cover: null
@@ -100,7 +100,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 3d6
+        - bludgeoning
     versatile: ''
   formula: ''
   save:

@@ -73,7 +73,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 3d6
+        - thunder
     versatile: ''
   formula: ''
   save:

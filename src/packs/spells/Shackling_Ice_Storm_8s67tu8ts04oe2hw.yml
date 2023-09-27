@@ -40,8 +40,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d8
   activation:
     type: action
     cost: 1
@@ -75,7 +75,13 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 2d8
+        - bludgeoning
+      - - 4d6
+        - cold
+      - - 2d6
+        - cold
     versatile: ''
   formula: ''
   save:

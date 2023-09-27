@@ -48,8 +48,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d8
   activation:
     type: action
     cost: 1
@@ -83,7 +83,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 7d8
+        - piercing
     versatile: ''
   formula: ''
   save:

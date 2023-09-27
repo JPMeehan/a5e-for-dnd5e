@@ -87,14 +87,18 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: msak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 5d8
+        - fire
+      - - 5d8
+        - cold
     versatile: ''
   formula: ''
   save:

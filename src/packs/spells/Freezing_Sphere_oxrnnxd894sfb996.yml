@@ -41,8 +41,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 1d6
   activation:
     type: action
     cost: 1
@@ -69,14 +69,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: abil
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 10d6
+        - cold
     versatile: ''
   formula: ''
   save:

@@ -61,8 +61,8 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
-    formula: null
+    mode: level
+    formula: 2d6
   activation:
     type: action
     cost: 1

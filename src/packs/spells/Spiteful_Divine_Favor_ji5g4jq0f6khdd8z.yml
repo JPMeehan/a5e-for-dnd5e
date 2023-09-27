@@ -73,7 +73,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d4r1
+        - necrotic
     versatile: ''
   formula: ''
   save:
