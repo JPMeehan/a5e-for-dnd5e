@@ -7,7 +7,7 @@ import ReferenceFolder from "./ReferenceFolder.mjs";
 const targetPack = "spells";
 const packPath = path.join("src", "packs", targetPack);
 
-const packs = await fs.readdir(packPath);
+const spellPack = await fs.readdir(packPath);
 
 class Folder {
   constructor(name, parentFolder = null, color = null) {
@@ -83,25 +83,25 @@ await folders.prepFolders();
 
 console.warn("Two");
 for (const [id, f] of Object.entries(folders.compendium)) {
-  if (!f.parent) continue;
+  if (!f.parent || f.parent === "XXlxppJh0OdnJaQQ") continue;
   const parentName = folders.getFolderName(id, 1);
   const currentName = f.name;
+  console.log(id, currentName, parentName);
   const level = currentName !== "Cantrip" ? parseInt(currentName[0]) : 0;
   if (parentName === "Spells") spells[level] = id;
   else rareSpells[level] = id;
-  console.warn(id);
 }
 
-for (const p of packs) {
-  console.warn(p);
-  const read_file = await fs.readFile(path.join(packPath, p));
+for (const d of spellPack) {
+  console.warn(d);
+  const read_file = await fs.readFile(path.join(packPath, d));
   const data = yaml.load(read_file);
   if (data.type !== "spell") continue;
   if (data.flags["a5e-for-dnd5e"]?.rareSpell) {
     data.folder = rareSpells[data.system.level];
   } else data.folder = spells[data.system.level];
   await fs.writeFile(
-    path.join(packPath, p),
+    path.join(packPath, d),
     yaml.dump(data, { indent: 2 }),
     "utf-8"
   );
