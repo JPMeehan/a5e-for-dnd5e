@@ -2,7 +2,6 @@ import { promises as fs } from "fs";
 import path from "path";
 import { randomID } from "./utils.mjs";
 import yaml from "js-yaml";
-import buildReferenceFolder from "./buildReferenceFolder.mjs";
 import ReferenceFolder from "./ReferenceFolder.mjs";
 
 const targetPack = "spells";
