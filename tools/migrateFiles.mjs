@@ -254,20 +254,36 @@ function updateTarget(t, action) {
 
 /**
  *
- * @param {object} system
- * @returns
+ * @param {object} system The a5e bestiary entry
+ * @returns {object}      The o5e bestiary entry
  */
 function migrateMonster(system) {
-  return;
+  const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: "",
+      unidentified: "",
+    },
+    source: flattenSource(system.source),
+  };
+  return o5e;
 }
 
 /**
  *
- * @param {object} system
- * @returns
+ * @param {object} system The a5e feature
+ * @returns {object}      The o5e feature
  */
 function migrateFeature(system) {
-  return;
+  const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: "",
+      unidentified: "",
+    },
+    source: flattenSource(system.source),
+  };
+  return o5e;
 }
 
 /**
@@ -285,7 +301,136 @@ function migrateManeuver(system) {
  * @returns
  */
 function migrateObject(system) {
-  return;
+  const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: "",
+      unidentified: "",
+    },
+    source: flattenSource(system.source),
+    quantity: system.quantity,
+    weight: system.weight,
+    price: splitPrice(system.price),
+    attunement: 0,
+    equipped: False,
+    rarity: system.rarity,
+    identified: True,
+  };
+  const backpack = {
+    // No data properties to pull from
+    capacity: {
+      type: "weight",
+      value: None,
+      weightless: False,
+    },
+    currency: {
+      cp: 0,
+      sp: 0,
+      ep: 0,
+      gp: 0,
+      pp: 0,
+    },
+    type: "backpack",
+  };
+  const equipment = {
+    armor: {
+      type: system.shieldCategory ? "shield" : system.armorCategory,
+      value: baseAC(system.ac.baseFormula),
+      dex: system.ac.maxDex,
+    },
+    baseItem: "", // Need to do some CONFIG work...
+    speed: {
+      value: null,
+      conditions: "",
+    },
+    strength: system.ac.minStr,
+    stealth: false, // Still missing from the source data as of A5E 14.10
+    proficient: null,
+    type: "equipment",
+  };
+  const consumable = {
+    consumableType: "potion",
+    uses: {
+      autoDestroy: false,
+    },
+    type: "consumable",
+  };
+  const tool = {
+    toolType: "",
+    baseItem: "",
+    ability: "int",
+    chatFlavor: "",
+    proficient: null,
+    bonus: "",
+    type: "tool",
+  };
+  const weapon = {
+    weaponType: weaponType(system),
+    baseItem: getBaseItem(system),
+    properties: weaponProperties(system, o5e.description),
+    proficient: True,
+    type: "weapon",
+  };
+  const mountable = {
+    armor: {
+      value: null,
+    },
+    hp: {
+      value: null,
+      max: null,
+      dt: null,
+      conditions: "",
+    },
+  };
+  switch (system.objectType) {
+    case "ammunition":
+      Object.assign(o5e, consumable);
+      o5e.consumableType = "ammo";
+      break;
+    case "armor":
+      Object.assign(o5e, mountable);
+      Object.assign(o5e, equipment);
+      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      break;
+    case "clothing":
+      Object.assign(o5e, mountable);
+      Object.assign(o5e, equipment);
+      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      break;
+    case "consumable":
+      Object.assign(o5e, consumable);
+      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      break;
+    case "container":
+      Object.assign(o5e, backpack);
+      break;
+    case "jewelry":
+      Object.assign(o5e, mountable);
+      Object.assign(o5e, equipment);
+      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      break;
+    case "miscellaneous":
+      Object.assign(o5e, mountable);
+      Object.assign(o5e, equipment);
+      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      break;
+    case "shield":
+      Object.assign(o5e, mountable);
+      Object.assign(o5e, equipment);
+      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      break;
+    case "tool":
+      Object.assign(o5e, tool);
+      break;
+    case "weapon":
+      Object.assign(o5e, weapon);
+      Object.assign(o5e, mountable);
+      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      break;
+    default:
+      o5e.type = "loot";
+  }
+  return o5e;
 }
 
 /**
@@ -500,6 +645,11 @@ function migrateSpell(system) {
   return o5e;
 }
 
+/**
+ *
+ * @param {object} system The a5e background
+ * @returns {object}      The o5e background
+ */
 function migrateBackground(system) {
   const o5e = {
     description: {
@@ -512,12 +662,38 @@ function migrateBackground(system) {
   return o5e;
 }
 
+/**
+ *
+ * @param {object} system The a5e culture
+ * @returns {object}      The o5e background
+ */
 function migrateCulture(system) {
-  return;
+  const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: "",
+      unidentified: "",
+    },
+    source: flattenSource(system.source),
+  };
+  return o5e;
 }
 
+/**
+ *
+ * @param {object} system The a5e destiny
+ * @returns {object}      The o5e background
+ */
 function migrateDestiny(system) {
-  return;
+  const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: "",
+      unidentified: "",
+    },
+    source: flattenSource(system.source),
+  };
+  return o5e;
 }
 
 for (const p of packList) {
