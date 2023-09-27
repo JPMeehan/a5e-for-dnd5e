@@ -99,7 +99,7 @@ function migrateAction(action, system) {
   const activation = {
     activation: {
       type: action?.activation?.type,
-      cost: action?.activation?.type,
+      cost: action?.activation?.cost,
       condition: action?.activation?.reactionTrigger,
     },
     duration: {},
@@ -206,49 +206,59 @@ function actionType(alternative, current) {
 }
 
 /**
- * Updates the target
- * @param {object} t
- * @param {import("./types/a5e.mjs").Action} action
+ * Effect's valid targets, a subset of ActivatedEffect
+ * @typedef {object} Target 
+ * @property {number} value          Length or radius of target depending on targeting mode selected.
+ * @property {number} width          Width of line when line type is selected.
+ * @property {string} units          Units used for value and width as defined in `DND5E.distanceUnits`.
+ * @property {string} type           Targeting mode as defined in `DND5E.targetTypes`.
+
  */
-function updateTarget(t, action) {
+
+/**
+ * Updates the target property of an item
+ * @param {Target} target                           Item's valid targets
+ * @param {import("./types/a5e.mjs").Action} action The source action
+ */
+function updateTarget(target, action) {
   switch (action.area?.shape) {
     case "circle":
     case "cylinder":
-      t.type = "cylinder";
-      t.value = action.area.radius;
-      t.units = "ft";
+      target.type = "cylinder";
+      target.value = action.area.radius;
+      target.units = "ft";
       return;
     case "cone":
-      t.type = "cone";
-      t.value = action.area.length;
-      t.units = "ft";
+      target.type = "cone";
+      target.value = action.area.length;
+      target.units = "ft";
     case "cube":
     case "square":
-      t.type = action.area.shape;
-      t.value = action.area.width;
-      t.units = "ft";
+      target.type = action.area.shape;
+      target.value = action.area.width;
+      target.units = "ft";
       return;
     case "line":
-      t.type = "line";
-      t.value = action.area.length;
-      t.width = action.area.width;
-      t.units = "ft";
+      target.type = "line";
+      target.value = action.area.length;
+      target.width = action.area.width;
+      target.units = "ft";
       return;
     case "sphere":
-      t.type = "sphere";
-      t.value = action.area.radius;
-      t.units = "ft";
+      target.type = "sphere";
+      target.value = action.area.radius;
+      target.units = "ft";
       return;
   }
   switch (action.target?.type) {
     case "self":
     case "creature":
     case "object":
-      t.type = action.target.type;
-      t.value = action.target.quantity;
+      target.type = action.target.type;
+      target.value = action.target.quantity;
     case "creatureObject":
-      t.type = "enemy";
-      t.value = action.target.quantity;
+      target.type = "enemy";
+      target.value = action.target.quantity;
   }
 }
 
