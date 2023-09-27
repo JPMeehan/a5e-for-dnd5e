@@ -11,7 +11,7 @@ const packPath = path.join("src", "packs", targetPack);
 const packs = await fs.readdir(packPath);
 
 class Folder {
-  constructor(name, color = null, parentFolder = null) {
+  constructor(name, parentFolder = null, color = null) {
     this.name = name;
     this.color = color;
     this.flags = {};
@@ -28,7 +28,7 @@ class Folder {
    * @returns {object} The folder, as an object
    */
   get toObject() {
-    out = { ...this };
+    const out = { ...this };
     out["type"] = this._type;
     delete out._type;
     return out;
@@ -52,26 +52,28 @@ async function createFolders() {
   for (const o of outerFolders) {
     const outer = new Folder(o);
     let filename = outer.name.replace(" ", "_") + "_" + outer._id + ".yml";
-    const outerFolder = await fs.writeFile(
+    await fs.writeFile(
       path.join(packPath, filename),
-      yaml.dump(outer.toObject, { indent: 2 })
+      yaml.dump(outer.toObject, { indent: 2 }),
+      { flag: "w" }
     );
     for (const i of innerFolders) {
-      const inner = new Folder(i, (parentFolder = outer._id));
+      const inner = new Folder(i, outer._id);
       filename = inner.name.replace(" ", "_") + "_" + outer._id + ".yml";
       await fs.writeFile(
         path.join(packPath, filename),
         yaml.dump(inner.toObject, { indent: 2 })
       );
     }
-    buildReferenceFolder(targetPack);
   }
+  await ReferenceFolder.build(targetPack);
 }
-
-const spellReferenceExists = fs.access(
-  path.join("tools", "referenceFolders", "spells.json")
-);
-if (!spellReferenceExists) createFolders();
+console.warn("One");
+try {
+  await fs.access(path.join("tools", "referenceFolders", "spells.yml"));
+} catch {
+  await createFolders();
+}
 
 const spells = Array.from("0123456789");
 const rareSpells = Array.from("0123456789");
@@ -80,16 +82,19 @@ const folders = new ReferenceFolder(targetPack);
 
 await folders.prepFolders();
 
-for (const [id, f] of folders.compendium) {
+console.warn("Two");
+for (const [id, f] of Object.entries(folders.compendium)) {
   if (!f.parent) continue;
   const parentName = folders.getFolderName(f, 1);
   const currentName = f.name;
   const level = currentName !== "Cantrip" ? parseInt(currentName[0]) : 0;
   if (parentName === "Spells") spells[level] = id;
   else rareSpells[level] = id;
+  console.warn(id);
 }
 
 for (const p of packs) {
+  console.warn(p);
   const read_file = await fs.readFile(path.join(packPath, p));
   const data = yaml.load(read_file);
   if (data.type !== "spell") continue;

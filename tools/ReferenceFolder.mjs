@@ -59,7 +59,7 @@ export default class ReferenceFolder {
    * @returns {string} The name of the parent folder
    */
   getFolderName(id, depth) {
-    f = this.compendium[id];
+    const f = this.compendium[id];
     if (f.parent === null || depth === 0) return f.name;
     else if (depth > 0) return this.getFolderName(f.parent, depth - 1);
     else return this.getFolderName(f.parent, depth);
@@ -84,11 +84,11 @@ export default class ReferenceFolder {
         parent: data.folder,
       };
     }
+    console.warn("FOOBAR");
     await fs.writeFile(
-      // tools\referenceFolders
       path.join("tools", "referenceFolders", pack + ".yml"),
-      yaml.dump(folderStruct, null, 2).trim()
-      // { encoding: "utf-8", flag: "w" }
+      yaml.dump(folderStruct, null, 2).trim(),
+      { encoding: "utf-8", flag: "w" }
     );
   }
 }
