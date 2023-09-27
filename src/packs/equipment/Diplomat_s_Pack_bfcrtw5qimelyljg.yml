@@ -1,0 +1,44 @@
+name: Diplomat's Pack
+type: equipment
+img: icons/containers/bags/pouch-leather-silver-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Includes:</p><ul><li><p>1x Chest</p></li><li><p>2x Case, Map or
+      Scroll</p></li><li><p>1x Clothes (Fine)</p></li><li><p>1x Ink (1 ounce
+      Bottle)</p></li><li><p>1x Ink Pen</p></li><li><p>1x Lantern,
+      Standard</p></li><li><p>2x Oil, Flask</p></li><li><p>5x Paper,
+      Sheet</p></li><li><p>1x Perfume, Vial</p></li><li><p>1x Sealing
+      Wax</p></li><li><p>1x Soap</p></li></ul>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 0
+  price:
+    value: 39
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: bfcrtw5qimelyljg
+_key: '!items!bfcrtw5qimelyljg'

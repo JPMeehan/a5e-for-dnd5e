@@ -1,0 +1,93 @@
+name: Dried Yewclaw Bark
+type: consumable
+img: icons/consumables/plants/leaf-stem-tree-bud-green-brown.webp
+effects:
+  - icon: icons/consumables/plants/leaf-stem-tree-bud-green-brown.webp
+    origin: Item.1wsowojgg8hcd5wi
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+    transfer: false
+    name: Dried Yewclaw Bark
+    _id: PioiinfhcPVDWypr
+    changes:
+      - key: system.abilities.int.save.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _key: '!items.effects!1wsowojgg8hcd5wi.PioiinfhcPVDWypr'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Eating strips of this dried yellow bark calms and clarifies the mind,
+      and after consuming this bark you gain an expertise die on Intelligence
+      saving throws for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 0
+  price:
+    value: 5
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  consumableType: potion
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: f6tPO4aWtcScCrkJ
+_id: 1wsowojgg8hcd5wi
+_key: '!items!1wsowojgg8hcd5wi'

@@ -1,0 +1,89 @@
+name: Alchemist's Fire (flask)
+type: creatureOrObject
+img: icons/weapons/thrown/bomb-fuse-red-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This sticky, adhesive fluid ignites when exposed to air. You can use an
+      action to throw this flask up to 20 feet where it shatters on impact. Make
+      a ranged weapon attack against a creature or object, treating the
+      alchemist’s fire as an improvised weapon. On a hit, the target takes 1d6
+      ongoing fire damage. This damage persists for 1 minute. A creature can end
+      all ongoing damage being dealt by alchemist’s fires by using its action to
+      either make a DC 14 Dexterity check to extinguish the flames or by dousing
+      the target with at least 1 gallon of water.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 35
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: up to 20 ft
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  value: 1
+folder: f6tPO4aWtcScCrkJ
+_id: 4t0m2ttaca5hg2vi
+_key: '!items!4t0m2ttaca5hg2vi'

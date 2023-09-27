@@ -1,0 +1,32 @@
+name: Bottle, Glass
+type: backpack
+img: icons/consumables/drinks/wine-bottle-glass-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: '<p>Capacity: 1 1/2 pints liquid</p>'
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 2
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: f6tPO4aWtcScCrkJ
+_id: 9tpazhbp85h7gdgw
+_key: '!items!9tpazhbp85h7gdgw'

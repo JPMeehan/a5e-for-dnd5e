@@ -1,0 +1,84 @@
+name: Greatsword
+type: creatureOrObject
+img: icons/weapons/swords/greatsword-guard-gem-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Heavy, Parrying, Two-Handed</em></p><hr><p><b>Parrying:</b> When
+      you are wielding this weapon and you are not using a shield, once before
+      your next turn you can gain an expertise die to your AC against a single
+      melee attack made against you by a creature you can see. You cannot use
+      this property while incapacitated , paralyzed , rattled , restrained , or
+      stunned.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 7
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  weaponType: martialM
+  baseItem: ''
+  properties:
+    hvy: true
+    two: true
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  value: 1
+folder: f6tPO4aWtcScCrkJ
+_id: gq6lfesjrd75se7u
+_key: '!items!gq6lfesjrd75se7u'

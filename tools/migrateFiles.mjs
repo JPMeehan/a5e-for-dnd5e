@@ -165,8 +165,9 @@ function migrateAction(action, system) {
   Object.assign(system, activation);
   processRolls(action.rolls, action, system);
   if (system?.properties?.ver || system?.properties?.mnt) {
+    /** @type {{versatile: string, parts: string[]}} */
     const dmg = system.damage;
-    dmg.versatile = dmg.parts.slice(1)[0];
+    dmg.versatile = dmg.parts.splice(1, 1)[0][0];
   }
   return true;
 }
@@ -178,35 +179,30 @@ function migrateAction(action, system) {
  * @param {object} system
  */
 function processRolls(rolls, action, system) {
-  if (rolls.length === 0) return false;
+  if (!Object.keys(rolls || {}).length) return false;
+  let formula = "";
   for (const r of Object.values(rolls)) {
     switch (r.type) {
       case "attack":
-        system.actionType = actionType(
-          abbr(rolls[r].attackType),
-          system.actionType
-        );
-        system.attackBonus = rolls[r].get("bonus", "");
+        system.actionType = actionType(abbr(r.attackType), system.actionType);
+        system.attackBonus = r.bonus ?? "";
         break;
       case "damage":
-        formula = re.sub("@w+.mod", "@mod", rolls[r].formula);
+        formula = r.formula.replace(/\w+.mod/, "mod"); //  re.sub("@w+.mod", "@mod", r.formula);
         if (!r.damageType) {
           console.log("No damage type found in", action.name);
           continue;
         }
-        system.damage.parts.append([formula, rolls[r].damageType]);
+        system.damage.parts.push([formula, r.damageType]);
         if (system.scaling && r.scaling) {
-          system.scaling.formula = rolls[r].scaling.formula;
-          system.scaling.mode = abbr(rolls[r].scaling.mode);
+          system.scaling.formula = r.scaling.formula;
+          system.scaling.mode = abbr(r.scaling.mode);
         }
         break;
       case "healing":
         system.actionType = actionType("heal", system.actionType);
-        formula = re.sub("@w+.mod", "@mod", rolls[r].formula);
-        system.damage.parts.append([
-          formula,
-          abbr(rolls[r].get("healingType", "healing")),
-        ]);
+        formula = r.formula.replace(/\w+.mod/, "mod"); // re.sub("@w+.mod", "@mod", r.formula);
+        system.damage.parts.push([formula, abbr(r.healingType ?? "healing")]);
         break;
       case "abilityCheck":
         system.actionType = actionType("abil", system.actionType);
@@ -558,7 +554,6 @@ function weaponProperties(system, description) {
   /** @type {Array<string>} */
   const props = system.weaponProperties;
   const p = {};
-  if (debugInfo) console.log(props);
   /**
    * Renames
    * Missing o5e: Firearm, Focus, Reload, Special
@@ -658,8 +653,6 @@ function weaponProperties(system, description) {
       "<p><b>Vicious:</b> A vicious weapon scores a critical hit on a roll of 19 or 20. If you already have a feature that increases the range of your critical hits, your critical hit range increases by 1 (maximum 17–20).</p>";
   }
   if (s.length > 5) description.value += s;
-  if (debugInfo) console.log(s);
-  if (debugInfo) console.log(p);
   return p;
 }
 
@@ -773,7 +766,6 @@ for (const p of packList) {
       data.system = migrateManeuver(data.system);
       break;
     case "object":
-      debugInfo = data.name === "Whip";
       data.system = migrateObject(data.system);
       data.type = data.system.type;
       delete data.system.type;

@@ -1,0 +1,38 @@
+name: Hide Armor
+type: equipment
+img: icons/equipment/chest/breastplate-layered-leather-stitched.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 15
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: medium
+    value: 13
+    dex: 2
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: qgiZWSJNnA2tf5Gt
+_id: 7hgqx9462qus2clu
+_key: '!items!7hgqx9462qus2clu'

@@ -1,0 +1,38 @@
+name: Paper, Sheet
+type: equipment
+img: icons/sundries/documents/paper-plain-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p>A sheet of standard paper is made from cloth fibers.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 0
+  price:
+    value: 2
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: otm5w9ewo7r2bu8t
+_key: '!items!otm5w9ewo7r2bu8t'

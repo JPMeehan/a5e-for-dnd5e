@@ -1,0 +1,82 @@
+name: Mercurial Maul
+type: creatureOrObject
+img: icons/weapons/hammers/hammer-double-bronze.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Breaker, Heavy, Two-Handed</em></p><hr><p><b>Breaker:</b> This
+      weapon deals double damage to unattended objects, such as doors and walls.
+      If this property only applies to a specific type of material, such as
+      wood, it is stated in parenthesis after this property.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 15
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  weaponType: martialM
+  baseItem: ''
+  properties:
+    hvy: true
+    two: true
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  value: 1
+folder: f6tPO4aWtcScCrkJ
+_id: ky37gm57e3li890a
+_key: '!items!ky37gm57e3li890a'

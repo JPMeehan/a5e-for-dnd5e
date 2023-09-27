@@ -1,0 +1,27 @@
+name: Sling Bullets
+type: consumable
+img: icons/weapons/ammunition/shot-round-lead.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>rounded, or almond-shaped leaden pellets used in a <em>Sling</em> as
+      ammunition.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 20
+  weight: 1
+  price:
+    value: 4
+    denomination: cp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  consumableType: ammo
+  uses:
+    autoDestroy: false
+folder: f6tPO4aWtcScCrkJ
+_id: gaagneycfjqmy3u0
+_key: '!items!gaagneycfjqmy3u0'

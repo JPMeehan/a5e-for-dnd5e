@@ -1,0 +1,40 @@
+name: Sledgehammer
+type: equipment
+img: icons/weapons/hammers/hammer-double-stone-worn.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This two-handed, iron-headed hammer is good for smashing open treasure
+      chests.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 10
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: oo0ip5vii2mdsb2q
+_key: '!items!oo0ip5vii2mdsb2q'

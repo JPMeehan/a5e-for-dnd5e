@@ -1,0 +1,67 @@
+name: Healing Potion (Basic)
+type: consumable
+img: icons/consumables/potions/vial-cork-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When you drink the bright red liquid in this flask, you regain 2d4 + 2
+      hit points.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  consumableType: potion
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4 + 2
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: f6tPO4aWtcScCrkJ
+_id: yla4i7uz4h58mfqb
+_key: '!items!yla4i7uz4h58mfqb'

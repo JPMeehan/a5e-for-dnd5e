@@ -1,0 +1,40 @@
+name: Rope, Silk (50 Feet)
+type: equipment
+img: icons/sundries/survival/rope-wrapped-tan.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Rope, whether made of hemp or silk, has an AC of 10, 2 hit points, and
+      can be burst with a DC 17 Strength check.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 5
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: 3dt9060xa6c3szrw
+_key: '!items!3dt9060xa6c3szrw'

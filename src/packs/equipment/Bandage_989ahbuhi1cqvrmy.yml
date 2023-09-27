@@ -1,0 +1,42 @@
+name: Bandage
+type: equipment
+img: icons/commodities/cloth/cloth-roll-worn-tan.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>These strips of sterilized cloth staunch bleeding and cover wounds. You
+      can use an action to apply a bandage to yourself or another creature to
+      end ongoing piercing or slashing damage. When using improvised bandages
+      there is a 50% chance of exposure to a disease.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 0
+  price:
+    value: 1
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: 989ahbuhi1cqvrmy
+_key: '!items!989ahbuhi1cqvrmy'

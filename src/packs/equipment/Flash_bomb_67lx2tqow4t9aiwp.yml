@@ -1,0 +1,79 @@
+name: Flash bomb
+type: creature
+img: icons/skills/ranged/bomb-grenade-thrown-stars-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can use an action to throw this glass bauble, making a ranged
+      weapon attack against a creature within 20 feet and treating the flash
+      bomb as an improvised weapon. The target makes a DC 14 Constitution saving
+      throw or it is blinded until the end of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 3
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  weaponType: martialR
+  baseItem: ''
+  properties:
+    thr: true
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 20 ft
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  value: 1
+folder: f6tPO4aWtcScCrkJ
+_id: 67lx2tqow4t9aiwp
+_key: '!items!67lx2tqow4t9aiwp'

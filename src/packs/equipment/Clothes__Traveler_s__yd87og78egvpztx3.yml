@@ -1,0 +1,41 @@
+name: Clothes (Traveler's)
+type: equipment
+img: icons/equipment/back/cloak-brown-collared-fur-white-tied.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Clothes of varying styles can be appropriate to any number of cultures
+      or social situations and can be worn over light armor. A DC 14 Perception
+      check is required to notice light armor hidden underneath clothes.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 4
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: yd87og78egvpztx3
+_key: '!items!yd87og78egvpztx3'

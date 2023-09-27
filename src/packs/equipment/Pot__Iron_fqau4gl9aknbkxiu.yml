@@ -1,0 +1,32 @@
+name: Pot, Iron
+type: backpack
+img: icons/tools/cooking/cauldron-empty.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: '<p>Capacity: 1 gallon liquid</p>'
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 10
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: f6tPO4aWtcScCrkJ
+_id: fqau4gl9aknbkxiu
+_key: '!items!fqau4gl9aknbkxiu'

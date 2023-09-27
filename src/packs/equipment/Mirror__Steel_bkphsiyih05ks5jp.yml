@@ -1,0 +1,42 @@
+name: Mirror, Steel
+type: equipment
+img: icons/sundries/survival/mirror-plain.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A steel mirror is handy when you want to look around corners, signal
+      friends with reflected sunlight, keep an eye on a medusa, make sure that
+      you look good enough to present yourself to the queen, or examine wounds
+      that you’ve received on hard-to-see parts of your body.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 5
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: bkphsiyih05ks5jp
+_key: '!items!bkphsiyih05ks5jp'

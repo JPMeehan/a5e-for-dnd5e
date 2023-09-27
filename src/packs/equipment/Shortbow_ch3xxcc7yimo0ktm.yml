@@ -1,0 +1,78 @@
+name: Shortbow
+type: creatureOrObject
+img: icons/weapons/bows/shortbow-leather.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p><em>Range (80/320), Two-Handed</em></p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 2
+  price:
+    value: 25
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  weaponType: martialR
+  baseItem: ''
+  properties:
+    amm: true
+    two: true
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 80 ft
+    long: 320 ft
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  value: 1
+folder: f6tPO4aWtcScCrkJ
+_id: ch3xxcc7yimo0ktm
+_key: '!items!ch3xxcc7yimo0ktm'

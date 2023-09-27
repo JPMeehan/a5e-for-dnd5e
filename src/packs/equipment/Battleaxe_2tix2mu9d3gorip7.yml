@@ -1,0 +1,81 @@
+name: Battleaxe
+type: creatureOrObject
+img: icons/weapons/axes/axe-broad-worn-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Breaker (Wood), Versatile (1d10)</em></p><hr><p><b>Breaker:</b>
+      This weapon deals double damage to unattended objects, such as doors and
+      walls. If this property only applies to a specific type of material, such
+      as wood, it is stated in parenthesis after this property.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 6
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  weaponType: martialM
+  baseItem: ''
+  properties:
+    ver: true
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - slashing
+    versatile: 1d10 + @mod
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  value: 1
+folder: f6tPO4aWtcScCrkJ
+_id: 2tix2mu9d3gorip7
+_key: '!items!2tix2mu9d3gorip7'

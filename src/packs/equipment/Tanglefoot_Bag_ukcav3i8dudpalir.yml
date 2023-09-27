@@ -1,0 +1,86 @@
+name: Tanglefoot Bag
+type: creature
+img: icons/weapons/thrown/bomb-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>Unguents and adhesives fill this airtight
+      sack.</p></blockquote><p>You can use an action to throw this bag at a
+      target within 20 feet, treating it as a ranged weapon attack with an
+      improvised weapon. On a hit, rapidly hardening sap covers the target and
+      it makes a DC 13 Strength check or becomes grappled. At the start of each
+      of its turns, the target repeats the check, ending the effect on itself on
+      a success.</p><p>The sap can also be destroyed (AC 13, 6 hit points).</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 3
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 20 feet
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  value: null
+folder: f6tPO4aWtcScCrkJ
+_id: ukcav3i8dudpalir
+_key: '!items!ukcav3i8dudpalir'

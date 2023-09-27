@@ -1,0 +1,30 @@
+name: Lavender Paste
+type: consumable
+img: icons/consumables/potions/potion-bottle-labeled-stopped-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Mixing lavender petals with herbs creates a natural insect repellent.
+      You can use an action to apply the paste to yourself or a willing
+      creature, granting immunity to insect-based hazards in swampy terrain. In
+      addition, the creature gains benefits equivalent to mosquito netting for
+      the next 24 hours.&nbsp;&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 35
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  consumableType: potion
+  uses:
+    autoDestroy: false
+folder: f6tPO4aWtcScCrkJ
+_id: lamxdxcl7gqxy5zt
+_key: '!items!lamxdxcl7gqxy5zt'

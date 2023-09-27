@@ -1,0 +1,42 @@
+name: Tent (Two Person)
+type: equipment
+img: icons/sundries/flags/banner-worn-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>These stitched together canvases, hides, or tarps provide protection
+      from the elements so long as there is a flat space for them to be
+      deployed.</p><p><em>Two Person</em>: Suitable for up to 2 Medium- sized
+      creatures. Occupies a 10-foot by 10-foot space when set up.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 20
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: hn1js11bwvee4jcu
+_key: '!items!hn1js11bwvee4jcu'

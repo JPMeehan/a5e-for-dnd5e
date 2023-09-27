@@ -1,0 +1,32 @@
+name: Alms Box
+type: backpack
+img: icons/containers/chest/chest-reinforced-box-brown.webp
+system:
+  description:
+    value: <p>A small box for alms, typically found in a priest's pack.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+effects: []
+flags: {}
+folder: f6tPO4aWtcScCrkJ
+_id: oh1ic66mc1hgnmp1
+_key: '!items!oh1ic66mc1hgnmp1'

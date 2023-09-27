@@ -1,0 +1,67 @@
+name: Healing Potion (Greater)
+type: consumable
+img: icons/consumables/potions/bottle-corked-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When you drink the pure red concoction in this flask, you regain 4d4 +
+      4 hit points.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  consumableType: potion
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d4 + 4
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: f6tPO4aWtcScCrkJ
+_id: nees9nzonritxzwe
+_key: '!items!nees9nzonritxzwe'

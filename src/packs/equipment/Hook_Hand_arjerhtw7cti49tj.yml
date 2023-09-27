@@ -1,0 +1,85 @@
+name: Hook Hand
+type: equipment
+img: icons/weapons/fist/hook.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>Prosthetic hook hands are common replacements for missing
+      hands.</p></blockquote><p>You cannot gain advantage or expertise dice on
+      Sleight of Hand checks made with a hook hand. In addition, a hook is a
+      natural weapon which you can use to make unarmed strikes that deal
+      piercing damage equal to 1d6 + your Strength modifier.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 15
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: unarmed
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6+@@mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: f6tPO4aWtcScCrkJ
+_id: arjerhtw7cti49tj
+_key: '!items!arjerhtw7cti49tj'

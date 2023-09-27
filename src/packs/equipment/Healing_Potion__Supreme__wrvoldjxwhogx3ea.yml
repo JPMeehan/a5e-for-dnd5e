@@ -1,0 +1,68 @@
+name: Healing Potion (Supreme)
+type: consumable
+img: icons/consumables/potions/bottle-round-label-cork-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Only a few herbalists every generation master the precise artistry
+      required to brew these serums. When you drink the iridescent liquid in
+      this vial you regain 10d4 + 20 hit points.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 1500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  consumableType: potion
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 10d4 + 20
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: f6tPO4aWtcScCrkJ
+_id: wrvoldjxwhogx3ea
+_key: '!items!wrvoldjxwhogx3ea'

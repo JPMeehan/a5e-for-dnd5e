@@ -1,0 +1,83 @@
+name: Geared Slingshot
+type: creature
+img: icons/weapons/slings/slingshot-wood.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Constructed much like a crossbow, this shoulder-mounted weapon bears a
+      striking resemblance to a miniature catapult. It is typically used to fire
+      hand-sized rocks but any Tiny object can be used as ammunition
+      instead.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 25
+  price:
+    value: 110
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  weaponType: martialR
+  baseItem: ''
+  properties:
+    hvy: true
+    lod: true
+    two: true
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '60'
+    long: '180'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  value: 1
+folder: f6tPO4aWtcScCrkJ
+_id: f270hnmd1wlu9mb0
+_key: '!items!f270hnmd1wlu9mb0'

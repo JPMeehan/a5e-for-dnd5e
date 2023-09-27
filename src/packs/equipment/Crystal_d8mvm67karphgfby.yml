@@ -1,0 +1,42 @@
+name: Crystal
+type: equipment
+img: icons/commodities/gems/gem-rough-round-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong><em>Arcane Focus: </em></strong>These foci are soaked in arcane
+      power and often engraved or painted with eldritch symbols and cosmic
+      iconography. Orbs, crystals, grimoires, staves, or wands are often used as
+      spellcasting foci by sorcerers, warlocks, and wizards.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 3
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: d8mvm67karphgfby
+_key: '!items!d8mvm67karphgfby'

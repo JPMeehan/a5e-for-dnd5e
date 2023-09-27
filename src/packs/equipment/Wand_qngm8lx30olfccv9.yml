@@ -1,0 +1,46 @@
+name: Wand
+type: equipment
+img: icons/weapons/wands/wand-gem-violet.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong><em>Arcane Focus:</em></strong> These foci are soaked in arcane
+      power and often engraved or painted with eldritch symbols and cosmic
+      iconography. Orbs, crystals, grimoires, staves, or wands are often used as
+      spellcasting foci by sorcerers, warlocks, and
+      wizards.</p><p><strong><em>Nature Focus:</em></strong> These foci
+      typically incorporate furs, feathers, living plants, sacred wood, or the
+      bones or teeth of sacred animals. Staves, wands, wonders, fetishes, or
+      totems are typically used as spellcasting foci by druids and rangers.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: qngm8lx30olfccv9
+_key: '!items!qngm8lx30olfccv9'

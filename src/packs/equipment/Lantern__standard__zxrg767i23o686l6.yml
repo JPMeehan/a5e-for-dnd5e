@@ -1,0 +1,41 @@
+name: Lantern (standard)
+type: equipment
+img: icons/sundries/lights/lantern-iron-lit-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Once lit, a lantern burns for 6 hours on a flask of oil (1
+      pint).</p><p>Standard: Casts bright light in a 15-foot radius and dim
+      light for an additional 30 feet.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 1
+  price:
+    value: 5
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    type: ''
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+folder: f6tPO4aWtcScCrkJ
+_id: zxrg767i23o686l6
+_key: '!items!zxrg767i23o686l6'

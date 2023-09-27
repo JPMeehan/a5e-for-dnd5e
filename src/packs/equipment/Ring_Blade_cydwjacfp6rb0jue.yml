@@ -1,0 +1,84 @@
+name: Ring Blade
+type: creatureOrObject
+img: icons/weapons/thrown/shuriken-triple-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Thrown (30/90)</em></p><hr class="a5e-rule u-my-md"><p>This metal
+      hoop has sharpened edges that make it deadly whether thrown or used in
+      hand.</p><p>It costs only 1 exertion point to use the
+      <strong><em>Ricochet</em></strong><em> </em><strong><em>combat
+      maneuver</em></strong> with this weapon. In addition, when you throw this
+      weapon, you may make the attack with disadvantage, and on a hit it returns
+      to your hand.</p>
+    chat: ''
+    unidentified: ''
+  quantity: 1
+  weight: 6
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  weaponType: martialR
+  baseItem: ''
+  properties:
+    thr: true
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: 90 ft
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  value: 1
+folder: f6tPO4aWtcScCrkJ
+_id: cydwjacfp6rb0jue
+_key: '!items!cydwjacfp6rb0jue'
