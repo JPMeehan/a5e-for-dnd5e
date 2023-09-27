@@ -41,7 +41,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -51,7 +54,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: touch
     long: null
     units: ''
   uses:
@@ -78,6 +81,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: creature
+  value: ''
 folder: 1nsTXAoeYqTNnhvC
 _id: adbxdvi3uj851e70
 _key: '!items!adbxdvi3uj851e70'

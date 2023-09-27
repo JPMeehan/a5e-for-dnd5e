@@ -86,7 +86,9 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   duration: {}
   cover: null
   crewed: false
@@ -96,7 +98,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: touch
     long: null
     units: ''
   uses:
@@ -123,6 +125,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: object
+  value: 1
 effects: []
 flags:
   a5e-for-dnd5e:

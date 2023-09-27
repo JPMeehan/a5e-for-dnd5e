@@ -45,7 +45,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -82,6 +85,10 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: line
+  value: 60
+  width: 10
+  units: ft
 folder: OaguBN3PZZ5CqykB
 _id: k5zj0xw9l1cacv7t
 _key: '!items!k5zj0xw9l1cacv7t'

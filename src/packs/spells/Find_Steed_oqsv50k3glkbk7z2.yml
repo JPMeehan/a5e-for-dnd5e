@@ -52,7 +52,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -62,7 +65,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '30'
     long: null
     units: ''
   uses:

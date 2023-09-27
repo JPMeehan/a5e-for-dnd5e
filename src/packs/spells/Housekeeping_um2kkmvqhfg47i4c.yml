@@ -59,7 +59,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '60'
     long: null
     units: ''
   uses:
@@ -86,6 +86,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: square
+  value: 10
+  units: ft
 effects: []
 flags:
   a5e-for-dnd5e:

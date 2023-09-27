@@ -38,7 +38,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -48,7 +51,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '120'
     long: null
     units: ''
   uses:
@@ -75,6 +78,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: sphere
+  value: '20'
+  units: ft
 folder: 2MOOeiNikd5un75X
 _id: ne8hcbhbymfcrlar
 _key: '!items!ne8hcbhbymfcrlar'

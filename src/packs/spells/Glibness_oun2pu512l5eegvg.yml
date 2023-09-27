@@ -36,7 +36,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -73,6 +76,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: Hzve3JmmPEpjtUbK
 _id: oun2pu512l5eegvg
 _key: '!items!oun2pu512l5eegvg'

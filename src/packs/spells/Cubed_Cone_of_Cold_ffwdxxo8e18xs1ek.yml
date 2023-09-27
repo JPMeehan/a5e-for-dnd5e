@@ -40,7 +40,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -63,7 +66,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -74,9 +77,12 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: con
     dc: null
     scaling: spell
+  type: cube
+  value: 30
+  units: ft
 folder: rsY7udpTp9SMZ7qA
 _id: ffwdxxo8e18xs1ek
 _key: '!items!ffwdxxo8e18xs1ek'

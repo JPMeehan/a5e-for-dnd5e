@@ -40,7 +40,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take when a creature makes a melee attack against you
   duration: {}
   cover: null
   crewed: false
@@ -77,6 +80,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: 8hAGnyE6jUqdf5VK
 _id: npaw56x028swb7mz
 _key: '!items!npaw56x028swb7mz'

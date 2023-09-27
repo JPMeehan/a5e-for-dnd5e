@@ -70,7 +70,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -93,7 +96,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -107,6 +110,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: g5UjPnj2gMwlXnHo
 _id: u0ez2czg763i77kl
 _key: '!items!u0ez2czg763i77kl'

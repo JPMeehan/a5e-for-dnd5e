@@ -35,7 +35,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -45,7 +48,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '120'
     long: null
     units: ''
   uses:
@@ -58,7 +61,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -69,9 +72,12 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: con
     dc: null
     scaling: spell
+  type: sphere
+  value: '60'
+  units: ft
 folder: fsLJSoSLyIXx3gO7
 _id: f64g6d7u9y9wxfij
 _key: '!items!f64g6d7u9y9wxfij'

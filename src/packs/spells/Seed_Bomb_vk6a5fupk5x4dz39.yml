@@ -54,7 +54,9 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   duration: {}
   cover: null
   crewed: false
@@ -64,7 +66,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '60'
     long: null
     units: ''
   uses:
@@ -77,7 +79,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -88,9 +90,12 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
+  type: cylinder
+  value: 5
+  units: ft
 folder: 2MOOeiNikd5un75X
 _id: vk6a5fupk5x4dz39
 _key: '!items!vk6a5fupk5x4dz39'

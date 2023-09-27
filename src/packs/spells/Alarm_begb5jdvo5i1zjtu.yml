@@ -53,7 +53,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -63,7 +66,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '60'
     long: null
     units: ''
   uses:
@@ -90,6 +93,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: cube
+  value: null
+  units: ft
 folder: 8hAGnyE6jUqdf5VK
 _id: begb5jdvo5i1zjtu
 _key: '!items!begb5jdvo5i1zjtu'

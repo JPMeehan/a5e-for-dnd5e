@@ -37,7 +37,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -47,7 +50,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: touch
     long: null
     units: ''
   uses:
@@ -60,7 +63,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -71,9 +74,11 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
+  type: object
+  value: ''
 folder: g5UjPnj2gMwlXnHo
 _id: bqavvq6ju5ti8hr3
 _key: '!items!bqavvq6ju5ti8hr3'

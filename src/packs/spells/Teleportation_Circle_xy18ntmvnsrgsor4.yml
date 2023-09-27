@@ -48,7 +48,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -58,7 +61,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: touch
     long: null
     units: ''
   uses:
@@ -85,6 +88,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: cylinder
+  value: '5'
+  units: ft
 folder: B13Tk6mXagJ1jDGh
 _id: xy18ntmvnsrgsor4
 _key: '!items!xy18ntmvnsrgsor4'

@@ -48,7 +48,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -85,6 +88,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: sphere
+  value: '10'
+  units: ft
 folder: 8Yxn1Nz3Netn8m25
 _id: l08wnki0f8mr24qd
 _key: '!items!l08wnki0f8mr24qd'

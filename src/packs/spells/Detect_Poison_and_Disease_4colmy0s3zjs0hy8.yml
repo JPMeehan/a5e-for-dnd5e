@@ -45,7 +45,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -55,7 +58,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: 30-foot radius
     long: null
     units: ''
   uses:
@@ -82,6 +85,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: 8hAGnyE6jUqdf5VK
 _id: 4colmy0s3zjs0hy8
 _key: '!items!4colmy0s3zjs0hy8'

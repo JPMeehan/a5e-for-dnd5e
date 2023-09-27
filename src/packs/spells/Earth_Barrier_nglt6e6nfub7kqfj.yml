@@ -37,7 +37,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take when you are targeted with a ranged attack
   duration: {}
   cover: null
   crewed: false
@@ -47,7 +50,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '30'
     long: null
     units: ''
   uses:
@@ -74,6 +77,7 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: space
 folder: 8hAGnyE6jUqdf5VK
 _id: nglt6e6nfub7kqfj
 _key: '!items!nglt6e6nfub7kqfj'

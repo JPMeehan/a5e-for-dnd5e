@@ -35,7 +35,9 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   duration: {}
   cover: null
   crewed: false
@@ -45,7 +47,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: Special
     long: null
     units: ''
   uses:
@@ -58,7 +60,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -69,9 +71,12 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
+  type: cylinder
+  value: 10
+  units: ft
 effects: []
 flags:
   a5e:

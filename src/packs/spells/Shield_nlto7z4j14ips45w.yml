@@ -36,7 +36,12 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      which you take when you are hit by an attack or targeted by the magic
+      missile spell
   duration: {}
   cover: null
   crewed: false
@@ -73,6 +78,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: 8hAGnyE6jUqdf5VK
 _id: nlto7z4j14ips45w
 _key: '!items!nlto7z4j14ips45w'

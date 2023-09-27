@@ -45,7 +45,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take when you see a creature within range cast a spell
   duration: {}
   cover: null
   crewed: false
@@ -55,7 +58,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '60'
     long: null
     units: ''
   uses:
@@ -82,6 +85,7 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: space
 folder: 8Yxn1Nz3Netn8m25
 _id: zc250942nlox9vyk
 _key: '!items!zc250942nlox9vyk'

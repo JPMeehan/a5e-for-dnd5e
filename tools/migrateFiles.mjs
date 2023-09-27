@@ -149,7 +149,6 @@ function migrateAction(action, system) {
     },
   };
   updateTarget(activation, action);
-  if (debugInfo) console.log(activation);
   let rangeProp = "value";
   for (const r of Object.values(action.ranges || {})) {
     const actionRange = r.range;
@@ -169,7 +168,6 @@ function migrateAction(action, system) {
     dmg = system.damage;
     dmg.versatile = dmg.parts.pop(1)[0];
   }
-  if (debugInfo) console.log(system);
   return true;
 }
 
@@ -260,9 +258,14 @@ function updateTarget(target, action) {
     case "object":
       target.type = action.target.type;
       target.value = action.target.quantity;
+      break;
     case "creatureObject":
-      target.type = "enemy";
+      target.type = "creatureOrObject";
       target.value = action.target.quantity;
+      break;
+    case "other":
+      target.type = "space";
+      break;
   }
 }
 
@@ -655,8 +658,7 @@ function migrateSpell(system) {
       formula: null,
     },
   };
-  if (debugInfo) console.log(system.actions);
-  for (const a in Object.values(system.actions)) migrateAction(a, o5e);
+  for (const a of Object.values(system.actions)) migrateAction(a, o5e);
   return o5e;
 }
 
@@ -738,7 +740,6 @@ for (const p of packList) {
         secondarySchools: data.system.schools.secondary,
         rareSpell: targetPack === "rareSpells",
       };
-      debugInfo = data.name === "Control Water";
       data.system = migrateSpell(data.system);
       break;
     case "background":

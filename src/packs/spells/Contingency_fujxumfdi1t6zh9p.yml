@@ -45,7 +45,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -82,6 +85,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: fsLJSoSLyIXx3gO7
 _id: fujxumfdi1t6zh9p
 _key: '!items!fujxumfdi1t6zh9p'

@@ -42,7 +42,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -52,7 +55,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: 300 feet
     long: null
     units: ''
   uses:
@@ -65,7 +68,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -76,9 +79,12 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
+  type: cylinder
+  value: 20
+  units: ft
 folder: a4QK7lbF8ThfneUh
 _id: 8s67tu8ts04oe2hw
 _key: '!items!8s67tu8ts04oe2hw'

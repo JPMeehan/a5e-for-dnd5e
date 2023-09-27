@@ -44,7 +44,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -54,7 +57,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '60'
     long: null
     units: ''
   uses:
@@ -67,7 +70,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -78,9 +81,12 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: con
     dc: null
     scaling: spell
+  type: sphere
+  value: 15
+  units: ft
 folder: OaguBN3PZZ5CqykB
 _id: lc8xji24tnqh1vbw
 _key: '!items!lc8xji24tnqh1vbw'

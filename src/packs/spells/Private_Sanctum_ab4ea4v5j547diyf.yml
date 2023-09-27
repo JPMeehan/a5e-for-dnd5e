@@ -45,7 +45,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -55,7 +58,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '120'
     long: null
     units: ''
   uses:
@@ -82,6 +85,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: cube
+  value: null
+  units: ft
 folder: 1nsTXAoeYqTNnhvC
 _id: ab4ea4v5j547diyf
 _key: '!items!ab4ea4v5j547diyf'

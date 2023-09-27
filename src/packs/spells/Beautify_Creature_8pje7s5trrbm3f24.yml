@@ -44,7 +44,9 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   duration: {}
   cover: null
   crewed: false
@@ -54,7 +56,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '30'
     long: null
     units: ''
   uses:
@@ -67,7 +69,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -81,6 +83,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: creature
+  value: 1
 effects:
   - icon: icons/magic/life/heart-glowing-red.webp
     origin: Item.8pje7s5trrbm3f24

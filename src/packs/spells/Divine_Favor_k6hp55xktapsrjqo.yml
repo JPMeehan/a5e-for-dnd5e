@@ -36,7 +36,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -73,6 +76,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: 8hAGnyE6jUqdf5VK
 _id: k6hp55xktapsrjqo
 _key: '!items!k6hp55xktapsrjqo'

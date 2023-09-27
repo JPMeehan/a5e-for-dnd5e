@@ -56,7 +56,9 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   duration: {}
   cover: null
   crewed: false
@@ -66,7 +68,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '60'
     long: null
     units: ''
   uses:
@@ -78,8 +80,8 @@ system:
     type: ''
     target: null
     amount: null
-  ability: null
-  actionType: null
+  ability: str
+  actionType: abil
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -93,6 +95,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: object
+  value: 1
 folder: B13Tk6mXagJ1jDGh
 _id: 0xo9oc6s6mrh77ci
 _key: '!items!0xo9oc6s6mrh77ci'

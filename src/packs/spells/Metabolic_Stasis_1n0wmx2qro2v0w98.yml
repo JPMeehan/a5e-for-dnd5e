@@ -33,7 +33,9 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: minute
+    cost: 10
   duration: {}
   cover: null
   crewed: false
@@ -43,7 +45,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '30'
     long: null
     units: ''
   uses:
@@ -70,6 +72,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: cube
+  value: 50
+  units: ft
 effects: []
 flags:
   a5e-for-dnd5e:

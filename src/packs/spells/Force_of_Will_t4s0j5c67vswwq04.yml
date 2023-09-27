@@ -36,7 +36,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take in response to being damaged
   duration: {}
   cover: null
   crewed: false
@@ -73,6 +76,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: 2MOOeiNikd5un75X
 _id: t4s0j5c67vswwq04
 _key: '!items!t4s0j5c67vswwq04'

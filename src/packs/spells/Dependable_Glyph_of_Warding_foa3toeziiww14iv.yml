@@ -64,7 +64,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -74,7 +77,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: touch
     long: null
     units: ''
   uses:
@@ -101,6 +104,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: object
+  value: ''
 folder: k0vsdT2TmPJHm23h
 _id: foa3toeziiww14iv
 _key: '!items!foa3toeziiww14iv'

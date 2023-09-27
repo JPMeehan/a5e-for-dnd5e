@@ -54,7 +54,9 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   duration: {}
   cover: null
   crewed: false
@@ -64,7 +66,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '120'
     long: null
     units: ''
   uses:
@@ -76,8 +78,8 @@ system:
     type: ''
     target: null
     amount: null
-  ability: null
-  actionType: null
+  ability: str
+  actionType: abil
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -88,9 +90,12 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
+  type: cube
+  value: 30
+  units: ft
 effects: []
 flags:
   a5e-for-dnd5e:

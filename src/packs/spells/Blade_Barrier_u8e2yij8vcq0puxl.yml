@@ -65,7 +65,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -76,9 +76,13 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
+  type: line
+  value: 100
+  width: 5
+  units: ft
 folder: fsLJSoSLyIXx3gO7
 _id: u8e2yij8vcq0puxl
 _key: '!items!u8e2yij8vcq0puxl'

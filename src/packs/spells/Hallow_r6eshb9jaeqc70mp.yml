@@ -69,7 +69,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: hour
+    cost: 24
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -79,7 +82,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: touch
     long: null
     units: ''
   uses:
@@ -106,6 +109,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: sphere
+  value: '60'
+  units: ft
 folder: B13Tk6mXagJ1jDGh
 _id: r6eshb9jaeqc70mp
 _key: '!items!r6eshb9jaeqc70mp'

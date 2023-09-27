@@ -40,7 +40,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -77,6 +80,9 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: sphere
+  value: '10'
+  units: ft
 folder: B13Tk6mXagJ1jDGh
 _id: 10a7cken5ktbtnus
 _key: '!items!10a7cken5ktbtnus'

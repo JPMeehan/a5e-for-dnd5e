@@ -39,7 +39,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take when you or a creature within range falls
   duration: {}
   cover: null
   crewed: false
@@ -49,7 +52,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '60'
     long: null
     units: ''
   uses:
@@ -76,6 +79,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: creature
+  value: ''
 folder: 8hAGnyE6jUqdf5VK
 _id: ak4r2o5c5mrme5vk
 _key: '!items!ak4r2o5c5mrme5vk'

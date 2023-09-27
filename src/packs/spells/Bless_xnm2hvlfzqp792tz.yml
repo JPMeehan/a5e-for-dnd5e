@@ -82,7 +82,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -92,7 +95,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '30'
     long: null
     units: ''
   uses:
@@ -105,7 +108,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -119,6 +122,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: creature
+  value: 3
 folder: 8hAGnyE6jUqdf5VK
 _id: xnm2hvlfzqp792tz
 _key: '!items!xnm2hvlfzqp792tz'

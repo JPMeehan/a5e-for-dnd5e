@@ -62,7 +62,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -72,7 +75,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: touch
     long: null
     units: ''
   uses:
@@ -99,6 +102,7 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: space
 folder: pKkf6k3sASy3dj5n
 _id: 866qabcoi5rezr16
 _key: '!items!866qabcoi5rezr16'

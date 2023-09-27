@@ -42,7 +42,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -52,7 +55,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: touch
     long: null
     units: ''
   uses:
@@ -79,6 +82,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: creature
+  value: ''
 folder: pKkf6k3sASy3dj5n
 _id: d4gqwm4bxoklygp6
 _key: '!items!d4gqwm4bxoklygp6'

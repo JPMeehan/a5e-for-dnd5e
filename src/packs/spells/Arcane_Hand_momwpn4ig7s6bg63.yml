@@ -63,7 +63,9 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   duration: {}
   cover: null
   crewed: false
@@ -73,7 +75,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: '120'
     long: null
     units: ''
   uses:
@@ -100,6 +102,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: space
+  value: 1
 folder: B13Tk6mXagJ1jDGh
 _id: momwpn4ig7s6bg63
 _key: '!items!momwpn4ig7s6bg63'

@@ -42,7 +42,10 @@ system:
   scaling:
     mode: none
     formula: null
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   duration: {}
   cover: null
   crewed: false
@@ -52,7 +55,7 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: 1,000-foot radius
     long: null
     units: ''
   uses:
@@ -79,6 +82,8 @@ system:
     ability: ''
     dc: null
     scaling: spell
+  type: self
+  value: ''
 folder: 2MOOeiNikd5un75X
 _id: 84xbuk6c7yo86ga7
 _key: '!items!84xbuk6c7yo86ga7'
