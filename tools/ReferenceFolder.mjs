@@ -60,6 +60,7 @@ export default class ReferenceFolder {
    */
   getFolderName(id, depth) {
     const f = this.compendium[id];
+    if (!f) console.log(id);
     if (f.parent === null || depth === 0) return f.name;
     else if (depth > 0) return this.getFolderName(f.parent, depth - 1);
     else return this.getFolderName(f.parent, depth);

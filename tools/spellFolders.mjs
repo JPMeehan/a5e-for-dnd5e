@@ -84,7 +84,7 @@ await folders.prepFolders();
 console.warn("Two");
 for (const [id, f] of Object.entries(folders.compendium)) {
   if (!f.parent) continue;
-  const parentName = folders.getFolderName(f, 1);
+  const parentName = folders.getFolderName(id, 1);
   const currentName = f.name;
   const level = currentName !== "Cantrip" ? parseInt(currentName[0]) : 0;
   if (parentName === "Spells") spells[level] = id;
