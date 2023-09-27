@@ -1,7 +1,39 @@
 name: Beacon of Hope
 type: spell
 img: icons/magic/holy/prayer-hands-glowing-yellow.webp
-effects: []
+effects:
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
+    origin: Item.j0bnvt8trarh7yi7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: minutes
+    transfer: false
+    name: Beacon of Hope
+    _id: xg8HNqC7uYv33svs
+    changes:
+      - key: flags.a5e.effects.rollMode.abilitySave.wis
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.deathSave
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _key: '!items.effects!j0bnvt8trarh7yi7.xg8HNqC7uYv33svs'
 flags:
   a5e-for-dnd5e:
     secondarySchools:

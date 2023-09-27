@@ -1,7 +1,34 @@
 name: Black Tentacles
 type: spell
 img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
-effects: []
+effects:
+  - icon: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
+    origin: Item.67ex7mn5kkutvnqn
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Black Tentacles
+    _id: jtHRTP4hsdLzVW3U
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    _key: '!items.effects!67ex7mn5kkutvnqn.jtHRTP4hsdLzVW3U'
 flags:
   a5e-for-dnd5e:
     secondarySchools:

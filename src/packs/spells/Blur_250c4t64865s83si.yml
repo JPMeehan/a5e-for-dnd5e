@@ -1,7 +1,31 @@
 name: Blur
 type: spell
 img: icons/magic/defensive/illusion-evasion-echo-purple.webp
-effects: []
+effects:
+  - icon: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    origin: Item.250c4t64865s83si
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: minutes
+    transfer: false
+    name: Blur
+    _id: WRbkreWcyxoYrIGy
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _key: '!items.effects!250c4t64865s83si.WRbkreWcyxoYrIGy'
 flags:
   a5e-for-dnd5e:
     secondarySchools:

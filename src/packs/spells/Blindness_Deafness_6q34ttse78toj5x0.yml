@@ -1,7 +1,64 @@
 name: Blindness/Deafness
 type: spell
 img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
-effects: []
+effects:
+  - icon: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+    origin: Item.6q34ttse78toj5x0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: minutes
+    transfer: false
+    name: Blindness
+    _id: tey9cUNf8o3CHPA6
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    _key: '!items.effects!6q34ttse78toj5x0.tey9cUNf8o3CHPA6'
+  - icon: icons/magic/sonic/explosion-shock-sound-wave.webp
+    origin: Item.6q34ttse78toj5x0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: minutes
+    transfer: false
+    name: Deafness
+    _id: 0lA7vqfoDvlNfBe1
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _key: '!items.effects!6q34ttse78toj5x0.0lA7vqfoDvlNfBe1'
 flags:
   a5e-for-dnd5e:
     secondarySchools:
