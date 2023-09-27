@@ -60,7 +60,8 @@ export default class ReferenceFolder {
    */
   getFolderName(id, depth) {
     const f = this.compendium[id];
-    if (f.parent === null || depth === 0) return f.name;
+    if (f === undefined) console.log("Undefined result for ID", id);
+    if (f?.parent === null || depth === 0) return f.name;
     else if (depth > 0) return this.getFolderName(f.parent, depth - 1);
     else return this.getFolderName(f.parent, depth);
   }
@@ -84,7 +85,6 @@ export default class ReferenceFolder {
         parent: data.folder,
       };
     }
-    console.warn("FOOBAR");
     await fs.writeFile(
       path.join("tools", "referenceFolders", pack + ".yml"),
       yaml.dump(folderStruct, null, 2).trim(),

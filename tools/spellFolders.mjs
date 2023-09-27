@@ -67,7 +67,6 @@ async function createFolders() {
   }
   await ReferenceFolder.build(targetPack);
 }
-console.warn("One");
 try {
   await fs.access(path.join("tools", "referenceFolders", "spells.yml"));
 } catch {
@@ -81,19 +80,21 @@ const folders = new ReferenceFolder(targetPack);
 
 await folders.prepFolders();
 
-console.warn("Two");
 for (const [id, f] of Object.entries(folders.compendium)) {
-  if (!f.parent || f.parent === "XXlxppJh0OdnJaQQ") continue;
+  if (
+    !f.parent ||
+    f.parent === "XXlxppJh0OdnJaQQ" || // a5e-native "Spells" folder
+    f.parent === "ohddM2fcnkPeUeJv" // a5e-native "Rare spells" folder
+  )
+    continue;
   const parentName = folders.getFolderName(id, 1);
   const currentName = f.name;
-  console.log(id, currentName, parentName);
   const level = currentName !== "Cantrip" ? parseInt(currentName[0]) : 0;
   if (parentName === "Spells") spells[level] = id;
   else rareSpells[level] = id;
 }
 
 for (const d of spellPack) {
-  console.warn(d);
   const read_file = await fs.readFile(path.join(packPath, d));
   const data = yaml.load(read_file);
   if (data.type !== "spell") continue;
