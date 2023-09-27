@@ -7,6 +7,8 @@ const origin = path.join("src", "packs-origin", targetPack);
 let packPath = path.join("src", "packs", targetPack);
 const packList = await fs.readdir(origin);
 
+let debugInfo = false;
+
 // dnd5e item types = ["weapon", "equipment", "consumable", "tool", "loot", "background", "class", "subclass", "spell", "feat", "backpack"]
 // a5e item types = ["feature", "maneuver", "object", "spell", "background", "culture", "destiny"]
 
@@ -91,8 +93,8 @@ function fixUUIDrefs(uuid) {
 
 /**
  *
- * @param {import('./types/a5e.mjs').Action} action
- * @param {object} system
+ * @param {import('./types/a5e.mjs').Action} action The action being called
+ * @param {object} system                           The o5e system data to update
  * @returns {boolean} Validates that the action was completed
  */
 function migrateAction(action, system) {
@@ -147,6 +149,7 @@ function migrateAction(action, system) {
     },
   };
   updateTarget(activation, action);
+  if (debugInfo) console.log(activation);
   let rangeProp = "value";
   for (const r of Object.values(action.ranges || {})) {
     const actionRange = r.range;
@@ -166,6 +169,7 @@ function migrateAction(action, system) {
     dmg = system.damage;
     dmg.versatile = dmg.parts.pop(1)[0];
   }
+  if (debugInfo) console.log(system);
   return true;
 }
 
@@ -651,6 +655,7 @@ function migrateSpell(system) {
       formula: null,
     },
   };
+  if (debugInfo) console.log(system.actions);
   for (const a in Object.values(system.actions)) migrateAction(a, o5e);
   return o5e;
 }
@@ -733,6 +738,7 @@ for (const p of packList) {
         secondarySchools: data.system.schools.secondary,
         rareSpell: targetPack === "rareSpells",
       };
+      debugInfo = data.name === "Control Water";
       data.system = migrateSpell(data.system);
       break;
     case "background":
