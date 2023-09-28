@@ -1,3 +1,38 @@
 {
-    "TYPES.Item.a5e-for-dnd5e.maneuver": "Maneuver"
+  "TYPES.Item.a5e-for-dnd5e.maneuver": "Maneuver",
+  "a5e-for-dnd5e": {
+    "Maneuver": {
+      "Name": "Maneuver Name",
+      "Details": "Maneuver Details",
+      "Degree": "Maneuver Degree",
+      "Degrees": {
+        "0": "Basic Maneuver",
+        "1": "1st Degree",
+        "2": "2nd Degree",
+        "3": "3rd Degree",
+        "4": "4th Degree",
+        "5": "5th Degree"
+      },
+      "Tradition": "Combat Tradition",
+      "Traditions": {
+        "adm": "Adamant Mountain",
+        "btz": "Biting Zephyr",
+        "mgl": "Mirror's Glint",
+        "mas": "Mist and Shade",
+        "rc": "Rapid Current",
+        "rze": "Razor's Edge",
+        "sk": "Sanguine Knot",
+        "ss": "Spirited Steed",
+        "tpi": "Tempered Iron",
+        "tac": "Tooth and Claw",
+        "uwh": "Unending Wheel"
+      },
+      "Prerequisite": "Prerequisite",
+      "isStance": "Maneuver is a stance",
+      "1EP": "Exertion Point",
+      "EP": "Exertion Points",
+      "ActivationHeader": "Maneuver Execution",
+      "EffectHeader": "Maneuver Effects"
+    }
+  }
 }

@@ -1,0 +1,93 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+
+    {{!-- Item Sheet Header --}}
+    <header class="sheet-header flexrow">
+        <img class="profile" src="{{item.img}}" data-tooltip="{{item.name}}" data-edit="img"/>
+
+        <div class="header-details flexrow">
+            <h1 class="charname">
+                <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'a5e-for-dnd5e.Maneuver.Name' }}"/>
+            </h1>
+
+            <div class="item-subtitle">
+                <h4 class="item-type">{{itemType}}</h4>
+                <span class="item-status">{{itemStatus}}</span>
+            </div>
+
+            <ul class="summary flexrow">
+                <li>
+                    {{labels.degree}}
+                </li>
+                <li>
+                    {{labels.tradition}}
+                </li>
+                <li>
+                    <input type="text" name="system.source" value="{{system.source}}" placeholder="{{ localize 'DND5E.Source' }}"/>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    {{!-- Item Sheet Navigation --}}
+    <nav class="sheet-navigation tabs" data-group="primary">
+        <a class="item active" data-tab="description">{{ localize "DND5E.Description" }}</a>
+        <a class="item" data-tab="details">{{ localize "DND5E.Details" }}</a>
+        <a class="item" data-tab="effects">{{ localize "DND5E.Effects" }}</a>
+    </nav>
+
+    {{!-- Item Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Description Tab --}}
+        {{> "dnd5e.item-description"}}
+
+        {{!-- Details Tab --}}
+        <div class="tab details" data-group="primary" data-tab="details">
+            <h3 class="form-header">{{ localize "a5e-for-dnd5e.Maneuver.Details" }}</h3>
+
+            {{!-- Power Level --}}
+            <div class="form-group">
+                <label>{{ localize "a5e-for-dnd5e.Maneuver.Tradition" }}</label>
+                <select name="system.degree" data-dtype="Number">
+                    {{#select system.degree}}
+                    {{#each maneuvers.degree as |name lvl|}}
+                    <option value="{{lvl}}">{{name}}</option>
+                    {{/each}}
+                    {{/select}}
+                </select>
+            </div>
+
+            {{!-- Power Augment --}}
+            {{#if system.level}}
+            <div class="form-group">
+                <label>{{ localize "a5e-for-dnd5e.Maneuver.Prerequisite" }}</label>
+                <input class="materials" type="text" name="system.prerequisite" value="{{system.prerequisite}}"/>
+            </div>
+            {{/if}}
+
+            {{!-- Power Discipline --}}
+            <div class="form-group">
+                <label>{{ localize "a5e-for-dnd5e.Maneuver.Tradition" }}</label>
+                <select name="system.tradition">
+                    {{selectOptions maneuver.tradition selected=system.tradition blank=""}}
+                </select>
+            </div>
+
+            <h3 class="form-header">{{ localize "a5e-for-dnd5e.Maneuver.ActivationHeader" }}</h3>
+
+            {{!-- Item Activation Template --}}
+            {{> "dnd5e.item-activation"}}
+
+            <h3 class="form-header">{{ localize "a5e-for-dnd5e.Maneuver.EffectHeader" }}</h3>
+
+            {{!-- Item Action Template --}}
+            {{> "dnd5e.item-action"}}
+
+        </div>
+
+        {{!-- Effects Tab --}}
+        <div class="tab effects flexcol" data-group="primary" data-tab="effects">
+            {{> "dnd5e.active-effects"}}
+        </div>
+    </section>
+</form>

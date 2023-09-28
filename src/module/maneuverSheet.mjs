@@ -1,38 +1,40 @@
 import { ppText, usesPP } from "./utils.mjs";
 
 export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
-    get template() {
-        return `/modules/a5e-for-dnd5e/templates/maneuver-sheet.hbs`;
-    }
+  get template() {
+    return `/modules/a5e-for-dnd5e/templates/maneuver-sheet.hbs`;
+  }
 
-    async getData(options={}) {
-        const context = await super.getData(options);
-        context.psionics = CONFIG.A5E.MANEUVERS;
-        context.maneuverComponents = {
-            ...CONFIG.PSIONICS.maneuverComponents,
-            ...CONFIG.DND5E.spellTags
-        }
-        if (context.system.actionType === "msak") context.itemProperties[0] = game.i18n.localize("PrimePsionics.ActionMPAK")
-        if (context.system.actionType === "rsak") context.itemProperties[0] = game.i18n.localize("PrimePsionics.ActionRPAK")
+  async getData(options = {}) {
+    const context = await super.getData(options);
+    context.maneuvers = CONFIG.A5E.MANEUVERS;
 
-        const consume = context.system.consume.type === "flags" ? {pp: game.i18n.localize("PrimePsionics.PP")} : {};
+    const consume =
+      context.system.consume.type === "flags"
+        ? { ep: game.i18n.localize("a5e-for-dnd5e.Maneuver.EP") }
+        : {};
 
-        context.maneuverScalingModes = CONFIG.PSIONICS.maneuverScalingModes;
+    const consumption = context.system.consume;
+    if (system.usesExertion(consumption)) {
+      if (context.system.labels.ep) {
+        const epLabel = this.epText(consumption.amount);
+        context.system.labels.ep = epLabel;
+        context.itemStatus = epLabel;
+      }
+    } else delete context.system.labels.ep;
+    foundry.utils.mergeObject(context, {
+      labels: context.system.labels,
+      abilityConsumptionTargets: consume,
+    });
 
-        const consumption = context.system.consume
-        if (usesPP(consumption)){
-            if (context.system.labels.pp) {
-                const ppLabel = ppText(consumption.amount)
-                context.system.labels.pp = ppLabel;
-                context.itemStatus = ppLabel;
-            }
-        }
-        else delete context.system.labels.pp;
-        foundry.utils.mergeObject(context, {
-            labels: context.system.labels,
-            abilityConsumptionTargets: consume
-        })
+    return context;
+  }
 
-        return context;
-    }
+  epText(ep) {
+    return `${ep} ${
+      ep === 1
+        ? game.i18n.localize("a5e-for-dnd5e.Maneuver.1EP")
+        : game.i18n.localize("a5e-for-dnd5e.Maneuver.EP")
+    }`;
+  }
 }

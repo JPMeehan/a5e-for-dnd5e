@@ -6,114 +6,102 @@ import { usesPP } from "./utils.mjs";
  * @mixes ActivatedEffectTemplate
  * @mixes ActionTemplate
  *
- * @property {number} level                      Base level of the maneuver.
- * @property {string} school                     Psionic discipline to which this maneuver belongs.
- * @property {object} components                 General components and tags for this maneuver.
- * @property {boolean} components.auditory       Does this maneuver manifest auditory components?
- * @property {boolean} components.observable     Does this maneuver manifest observable components?
- * @property {boolean} components.ritual         Can this maneuver be cast as a ritual?
- * @property {boolean} components.concentration  Does this maneuver require concentration?
+ * @property {number} degree                     Degree (level) of the maneuver.
+ * @property {string} tradition                  Combat tradition to which this maneuver belongs.
  * @property {object} scaling                    Details on how casting at higher levels affects this maneuver.
  * @property {string} scaling.mode               Spell scaling mode as defined in `DND5E.spellScalingModes`.
  * @property {string} scaling.formula            Dice formula used for scaling.
  */
 export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin(
-  dnd5e.dataModels.item.ItemDescriptionTemplate, dnd5e.dataModels.item.ActivatedEffectTemplate, dnd5e.dataModels.item.ActionTemplate
-  ) {
-    /** @inheritdoc */
-    static defineSchema() {
-      return this.mergeSchema(super.defineSchema(), {
-        level: new foundry.data.fields.NumberField({
-          required: true, integer: true, initial: 1, min: 0, label: "DND5E.SpellLevel"
-        }),
-        discipline: new foundry.data.fields.StringField({required: true, label: "PrimePsionics.ManeuverDiscipline"}),
-        augmenting: new foundry.data.fields.StringField({required: true, label: "PrimePsionics.Augmenting"}),
-        components: new dnd5e.dataModels.fields.MappingField(new foundry.data.fields.BooleanField(), {
-          required: true, label: "PrimePsionics.ManeuverComponents",
-          initialKeys: [
-            ...Object.keys(CONFIG.A5E.MANEUVERS.maneuverComponents), 
-            ...Object.keys(CONFIG.DND5E.spellTags)
-          ]
-        }),
-        scaling: new foundry.data.fields.SchemaField({
-          mode: new foundry.data.fields.StringField({required: true, initial: "none", label: "DND5E.ScalingMode"}),
-          formula: new dnd5e.dataModels.fields.FormulaField({required: true, nullable: true, initial: null, label: "DND5E.ScalingFormula"})
-        }, {label: "DND5E.LevelScaling"})
-      });
-    }
-  
-    /* -------------------------------------------- */
-    /*  Migrations                                  */
-    /* -------------------------------------------- */
-  
-    /** @inheritdoc */
-    static migrateData(source) {
-      super.migrateData(source);
-    }
-  
-
-    /* -------------------------------------------- */
-    /*  Derived Data                                */
-    /* -------------------------------------------- */
-
-    prepareDerivedData() {
-      this.labels = {}
-      this._prepareManeuver()
-    }
-
-    _prepareManeuver() {
-      const tags = Object.fromEntries(Object.entries(CONFIG.DND5E.spellTags).map(([k, v]) => {
-        v.tag = true;
-        return [k, v];
-      }));
-      const attributes = {...CONFIG.A5E.MANEUVERS.maneuverComponents, ...tags};
-      this.labels.level = this.level != 0 ? CONFIG.DND5E.spellLevels[this.level] : game.i18n.localize("PrimePsionics.Talent");
-      this.labels.school = CONFIG.A5E.MANEUVERS.disciplines[this.discipline];
-      this.labels.pp = (usesPP(this.consume)) ? "PrimePsionics.PP" : "";
-      this.labels.aug = (this.augmenting) ? game.i18n.format("PrimePsionics.AugmentManeuver", {maneuver: this.augmenting}) : "";
-      this.labels.components = Object.entries(this.components).reduce((obj, [c, active]) => {
-        const config = attributes[c];
-        if ( !config || (active !== true) ) return obj;
-        obj.all.push({abbr: config.abbr, tag: config.tag});
-        if ( config.tag ) obj.tags.push(config.label);
-        else obj.ao.push(config.abbr);
-        return obj;
-      }, {all: [], ao: [], tags: []});
-    }
-
-    /* -------------------------------------------- */
-    /*  Getters                                     */
-    /* -------------------------------------------- */
-  
-    /**
-     * Properties displayed in chat.
-     * @type {string[]}
-     */
-    get chatProperties() {
-      let properties = [this.labels.level]
-      if (this.labels.pp) properties.push(this.labels.pp)
-      if (this.labels.aug) properties.push(this.labels.aug)
-      
-      return [
-        ...properties,
-        this.labels.components.ao,
-        ...this.labels.components.tags
-      ];
-    }
-  
-    /* -------------------------------------------- */
-  
-    /** @inheritdoc */
-    get _typeAbilityMod() {
-      return this.parent?.actor?.system.attributes.spellcasting || "int";
-    }
-  
-    /* -------------------------------------------- */
-  
-    /** @inheritdoc */
-    get _typeCriticalThreshold() {
-      return this.parent?.actor?.flags.dnd5e?.spellCriticalThreshold ?? Infinity;
-    }
-  
+  dnd5e.dataModels.item.ItemDescriptionTemplate,
+  dnd5e.dataModels.item.ActivatedEffectTemplate,
+  dnd5e.dataModels.item.ActionTemplate
+) {
+  /** @inheritdoc */
+  static defineSchema() {
+    return this.mergeSchema(super.defineSchema(), {
+      degree: new foundry.data.fields.NumberField({
+        required: true,
+        integer: true,
+        initial: 1,
+        min: 0,
+        label: "a5e-for-5e.Maneuver.Degree",
+      }),
+      tradition: new foundry.data.fields.StringField({
+        required: true,
+        label: "a5e-for-5e.Maneuver.Tradition",
+      }),
+      prerequisite: new foundry.data.fields.StringField({
+        required: false,
+        label: "a5e-for-5e.Maneuver.Prerequisite",
+      }),
+      isStance: new foundry.data.fields.BooleanField({
+        required: true,
+        label: "a5e-for-5e.Maneuver.isStance",
+      }),
+    });
   }
-  
+
+  /* -------------------------------------------- */
+  /*  Migrations                                  */
+  /* -------------------------------------------- */
+
+  /** @inheritdoc */
+  static migrateData(source) {
+    super.migrateData(source);
+  }
+
+  /* -------------------------------------------- */
+  /*  Derived Data                                */
+  /* -------------------------------------------- */
+
+  prepareDerivedData() {
+    this.labels = {};
+    this._prepareManeuver();
+  }
+
+  _prepareManeuver() {
+    this.labels.degree = CONFIG.A5E.MANEUVERS.degree[this.degree];
+    this.labels.tradition = CONFIG.A5E.MANEUVERS.tradition[this.tradition];
+    this.labels.ep = this.usesExertion ? "a5e-for-5e.Maneuver.EP" : "";
+  }
+
+  /* -------------------------------------------- */
+  /*  Getters                                     */
+  /* -------------------------------------------- */
+
+  /**
+   * Properties displayed in chat.
+   * @type {string[]}
+   */
+  get chatProperties() {
+    let properties = [this.labels.degree];
+    if (this.labels.ep) properties.push(this.labels.ep);
+
+    return [...properties];
+  }
+
+  /* -------------------------------------------- */
+
+  /** @inheritdoc */
+  get _typeAbilityMod() {
+    return this.parent?.actor?.system.attributes.spellcasting || "str";
+  }
+
+  /* -------------------------------------------- */
+
+  /** @inheritdoc */
+  get _typeCriticalThreshold() {
+    return this.parent?.actor?.flags.dnd5e?.spellCriticalThreshold ?? Infinity;
+  }
+
+  /**
+   * @param {object} consume        Effect's resource consumption.
+   * @param {string} consume.type   Type of resource to consume
+   * @param {string} consume.target Item ID or resource key path of resource to consume.
+   * @returns {boolean}     Returns true if it spends psi points as a resource
+   */
+  get usesExertion() {
+    return this.consume.type === "flags" && this.consume.target === "exert";
+  }
+}
