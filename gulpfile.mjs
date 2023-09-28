@@ -1,12 +1,15 @@
 import gulp from "gulp";
-import * as sass from "gulp-sass";
+import dartSass from "node-sass";
+import gulpSass from "gulp-sass";
 import concat from "gulp-concat";
 import { rollup } from "rollup";
 
+const sass = gulpSass(dartSass);
+
 function compileSCSS() {
   return gulp
-    .src("./styles/**/*.scss")
-    .pipe(concat("prime-psionics.scss"))
+    .src("./styles/*.scss")
+    .pipe(concat("a5e.scss"))
     .pipe(sass().on("error", sass.logError))
     .pipe(gulp.dest("./"));
 }
@@ -15,14 +18,14 @@ gulp.task("sass", compileSCSS);
 
 async function compileJavascript() {
   const bundle = await rollup({
-    input: "./module/hooks.mjs",
+    input: "./src/module/hooks.mjs",
     //   plugins: [nodeResolve()]
   });
   await bundle.write({
-    file: "./prime-psionics.mjs",
+    file: "./a5e.mjs",
     format: "es",
     sourcemap: true,
-    sourcemapFile: "module/hooks.mjs",
+    sourcemapFile: "src/module/hooks.mjs",
   });
 }
 

@@ -1,5 +1,3 @@
-import { usesPP } from "./utils.mjs";
-
 /**
  * Data definition for Maneuver items.
  * @mixes ItemDescriptionTemplate
