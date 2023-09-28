@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.1"
-  },
   "scripts": {
     "build:init": "node ./tools/extract-a5e.mjs",
     "build:A5Eto5E": "node ./tools/migrateFiles.mjs",
@@ -9,5 +6,12 @@
     "build:equipment": "npm run build:A5Eto5E -- adventuringGear",
     "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
     "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0",
+    "rollup": "^3.29.4"
   }
 }
