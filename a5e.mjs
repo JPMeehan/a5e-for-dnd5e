@@ -177,7 +177,7 @@ class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
         : {};
 
     const consumption = context.system.consume;
-    if (system.usesExertion(consumption)) {
+    if (context.system.usesExertion) {
       if (context.system.labels.ep) {
         const epLabel = this.epText(consumption.amount);
         context.system.labels.ep = epLabel;
@@ -215,4 +215,20 @@ Hooks.once("init", () => {
     makeDefault: true,
   });
 });
+
+Hooks.once("i18nInit", () => _localizeHelper(CONFIG.A5E));
+
+function _localizeHelper(object) {
+  for (const [key, value] of Object.entries(object)) {
+    switch (typeof value) {
+      case "string":
+        if (value.includes("a5e-for-dnd5e"))
+          object[key] = game.i18n.localize(value);
+        break;
+      case "object":
+        _localizeHelper(object[key]);
+        break;
+    }
+  }
+}
 //# sourceMappingURL=a5e.mjs.map

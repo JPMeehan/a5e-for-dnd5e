@@ -13,7 +13,7 @@ export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
         : {};
 
     const consumption = context.system.consume;
-    if (system.usesExertion(consumption)) {
+    if (context.system.usesExertion) {
       if (context.system.labels.ep) {
         const epLabel = this.epText(consumption.amount);
         context.system.labels.ep = epLabel;
