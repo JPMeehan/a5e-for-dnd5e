@@ -24,7 +24,11 @@ const A5ECONFIG = {
       },
     },
   },
-  DND5E: {},
+  DND5E: {
+    specialTimePeriods: {
+      stance: "a5e-for-dnd5e.Stance",
+    },
+  },
 };
 
 /**
@@ -32,28 +36,25 @@ const A5ECONFIG = {
  * @enum {string}
  */
 A5ECONFIG.DND5E.weaponProperties = {
-  burn: "A5E.WeaponPropertyBurn",
-  breaker: "A5E.WeaponPropertyBreaker",
-  compounding: "A5E.WeaponPropertyCompounding",
-  defensive: "A5E.WeaponPropertyDefensive",
-  flamboyant: "A5E.WeaponPropertyFlamboyant",
-  handMounted: "A5E.WeaponPropertyHandMounted",
-  inaccurate: "A5E.WeaponPropertyInaccurate",
-  mounted: "A5E.WeaponPropertyMounted",
-  muzzleLoading: "A5E.WeaponPropertyMuzzleLoading",
-  parrying: "A5E.WeaponPropertyParrying",
-  parryingImmunity: "A5E.WeaponPropertyParryingImmunity",
-  quickdraw: "A5E.WeaponPropertyQuickdraw",
-  range: "A5E.WeaponPropertyRange",
-  rifled: "A5E.WeaponPropertyRifled",
-  scatter: "A5E.WeaponPropertyScatter",
-  shock: "A5E.WeaponPropertyShock",
-  simple: "A5E.WeaponPropertySimple",
-  stealthy: "A5E.ObjectPropertyStealthy",
-  storage: "A5E.ObjectPropertyStorage",
-  triggerCharge: "A5E.WeaponPropertyTriggerCharge",
-  trip: "A5E.WeaponPropertyTrip",
-  vicious: "A5E.WeaponPropertyVicious",
+  burn: "a5e-for-dnd5e.WeaponProperty.Burn",
+  breaker: "a5e-for-dnd5e.WeaponProperty.Breaker",
+  compounding: "a5e-for-dnd5e.WeaponProperty.Compounding",
+  defensive: "a5e-for-dnd5e.WeaponProperty.Defensive",
+  flamboyant: "a5e-for-dnd5e.WeaponProperty.Flamboyant",
+  handMounted: "a5e-for-dnd5e.WeaponProperty.HandMounted",
+  inaccurate: "a5e-for-dnd5e.WeaponProperty.Inaccurate",
+  mounted: "a5e-for-dnd5e.WeaponProperty.Mounted",
+  muzzleLoading: "a5e-for-dnd5e.WeaponProperty.MuzzleLoading",
+  parrying: "a5e-for-dnd5e.WeaponProperty.Parrying",
+  parryingImmunity: "a5e-for-dnd5e.WeaponProperty.ParryingImmunity",
+  quickdraw: "a5e-for-dnd5e.WeaponProperty.Quickdraw",
+  range: "a5e-for-dnd5e.WeaponProperty.Range",
+  rifled: "a5e-for-dnd5e.WeaponProperty.Rifled",
+  scatter: "a5e-for-dnd5e.WeaponProperty.Scatter",
+  shock: "a5e-for-dnd5e.WeaponProperty.Shock",
+  triggerCharge: "a5e-for-dnd5e.WeaponProperty.TriggerCharge",
+  trip: "a5e-for-dnd5e.WeaponProperty.Trip",
+  vicious: "a5e-for-dnd5e.WeaponProperty.Vicious",
 };
 
 export default A5ECONFIG;

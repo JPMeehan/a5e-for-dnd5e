@@ -33,10 +33,6 @@ export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin
         required: false,
         label: "a5e-for-5e.Maneuver.Prerequisite",
       }),
-      isStance: new foundry.data.fields.BooleanField({
-        required: true,
-        label: "a5e-for-5e.Maneuver.isStance",
-      }),
     });
   }
 

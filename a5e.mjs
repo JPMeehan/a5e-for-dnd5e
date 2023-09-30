@@ -24,7 +24,11 @@ const A5ECONFIG = {
       },
     },
   },
-  DND5E: {},
+  DND5E: {
+    specialTimePeriods: {
+      stance: "a5e-for-dnd5e.Stance",
+    },
+  },
 };
 
 /**
@@ -32,28 +36,25 @@ const A5ECONFIG = {
  * @enum {string}
  */
 A5ECONFIG.DND5E.weaponProperties = {
-  burn: "A5E.WeaponPropertyBurn",
-  breaker: "A5E.WeaponPropertyBreaker",
-  compounding: "A5E.WeaponPropertyCompounding",
-  defensive: "A5E.WeaponPropertyDefensive",
-  flamboyant: "A5E.WeaponPropertyFlamboyant",
-  handMounted: "A5E.WeaponPropertyHandMounted",
-  inaccurate: "A5E.WeaponPropertyInaccurate",
-  mounted: "A5E.WeaponPropertyMounted",
-  muzzleLoading: "A5E.WeaponPropertyMuzzleLoading",
-  parrying: "A5E.WeaponPropertyParrying",
-  parryingImmunity: "A5E.WeaponPropertyParryingImmunity",
-  quickdraw: "A5E.WeaponPropertyQuickdraw",
-  range: "A5E.WeaponPropertyRange",
-  rifled: "A5E.WeaponPropertyRifled",
-  scatter: "A5E.WeaponPropertyScatter",
-  shock: "A5E.WeaponPropertyShock",
-  simple: "A5E.WeaponPropertySimple",
-  stealthy: "A5E.ObjectPropertyStealthy",
-  storage: "A5E.ObjectPropertyStorage",
-  triggerCharge: "A5E.WeaponPropertyTriggerCharge",
-  trip: "A5E.WeaponPropertyTrip",
-  vicious: "A5E.WeaponPropertyVicious",
+  burn: "a5e-for-dnd5e.WeaponProperty.Burn",
+  breaker: "a5e-for-dnd5e.WeaponProperty.Breaker",
+  compounding: "a5e-for-dnd5e.WeaponProperty.Compounding",
+  defensive: "a5e-for-dnd5e.WeaponProperty.Defensive",
+  flamboyant: "a5e-for-dnd5e.WeaponProperty.Flamboyant",
+  handMounted: "a5e-for-dnd5e.WeaponProperty.HandMounted",
+  inaccurate: "a5e-for-dnd5e.WeaponProperty.Inaccurate",
+  mounted: "a5e-for-dnd5e.WeaponProperty.Mounted",
+  muzzleLoading: "a5e-for-dnd5e.WeaponProperty.MuzzleLoading",
+  parrying: "a5e-for-dnd5e.WeaponProperty.Parrying",
+  parryingImmunity: "a5e-for-dnd5e.WeaponProperty.ParryingImmunity",
+  quickdraw: "a5e-for-dnd5e.WeaponProperty.Quickdraw",
+  range: "a5e-for-dnd5e.WeaponProperty.Range",
+  rifled: "a5e-for-dnd5e.WeaponProperty.Rifled",
+  scatter: "a5e-for-dnd5e.WeaponProperty.Scatter",
+  shock: "a5e-for-dnd5e.WeaponProperty.Shock",
+  triggerCharge: "a5e-for-dnd5e.WeaponProperty.TriggerCharge",
+  trip: "a5e-for-dnd5e.WeaponProperty.Trip",
+  vicious: "a5e-for-dnd5e.WeaponProperty.Vicious",
 };
 
 /**
@@ -90,10 +91,6 @@ class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin(
       prerequisite: new foundry.data.fields.StringField({
         required: false,
         label: "a5e-for-5e.Maneuver.Prerequisite",
-      }),
-      isStance: new foundry.data.fields.BooleanField({
-        required: true,
-        label: "a5e-for-5e.Maneuver.isStance",
       }),
     });
   }
@@ -201,7 +198,7 @@ class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
   }
 }
 
-const moduleName = "a5e-for-dnd5e";
+const moduleID = "a5e-for-dnd5e";
 const typeManeuver = "a5e-for-dnd5e.maneuver";
 
 Hooks.once("init", () => {
@@ -223,7 +220,7 @@ function _localizeHelper(object) {
   for (const [key, value] of Object.entries(object)) {
     switch (typeof value) {
       case "string":
-        if (value.includes(moduleName)) object[key] = game.i18n.localize(value);
+        if (value.includes(moduleID)) object[key] = game.i18n.localize(value);
         break;
       case "object":
         _localizeHelper(object[key]);
@@ -323,11 +320,11 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
     const template = "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs";
     renderTemplate(template, context).then((partial) => {
       spellList.html(partial);
-      let ep = app.actor.getFlag("prime-psionics", "pp");
+      let ep = app.actor.getFlag(moduleID, "ep");
       if (ep) {
         const ppContext = {
           ep: ep.value,
-          ppMax: ep.max,
+          epMax: ep.max,
         };
         renderTemplate(
           `/modules/a5e-for-dnd5e/templates/ep-partial.hbs`,
@@ -341,45 +338,45 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
   } else return true;
 });
 
-// /**
-//  *
-//  * CALCULATE MAX PSI POINTS
-//  *
-//  */
+/**
+ *
+ * CALCULATE MAX EXERTION POINTS
+ *
+ */
 
-// Hooks.on(
-//   "dnd5e.computePsionicsProgression",
-//   (progression, actor, cls, spellcasting, count) => {
-//     if (!progression.hasOwnProperty("psionics")) progression.psionics = 0;
-//     const prog =
-//       CONFIG.DND5E.spellcastingTypes.psionics.progression[
-//         spellcasting.progression
-//       ];
-//     if (!prog) return;
+Hooks.on(
+  "dnd5e.computePsionicsProgression",
+  (progression, actor, cls, spellcasting, count) => {
+    if (!progression.hasOwnProperty("psionics")) progression.psionics = 0;
+    const prog =
+      CONFIG.DND5E.spellcastingTypes.psionics.progression[
+        spellcasting.progression
+      ];
+    if (!prog) return;
 
-//     progression.psionics += Math.floor(spellcasting.levels / prog.divisor ?? 1);
-//     // Single-classed, non-full progression rounds up, rather than down, except at first level for half manifesters.
-//     if (count === 1 && prog.divisor > 1 && progression.psionics) {
-//       progression.psionics = Math.ceil(spellcasting.levels / prog.divisor);
-//     }
+    progression.psionics += Math.floor(spellcasting.levels / prog.divisor ?? 1);
+    // Single-classed, non-full progression rounds up, rather than down, except at first level for half manifesters.
+    if (count === 1 && prog.divisor > 1 && progression.psionics) {
+      progression.psionics = Math.ceil(spellcasting.levels / prog.divisor);
+    }
 
-//     const limit = Math.ceil(Math.min(progression.psionics, 10) / 2) * 2;
-//     const updates = {
-//       manifestLimit: limit,
-//       pp: {
-//         max: CONFIG.PSIONICS.ppProgression[progression.psionics],
-//       },
-//     };
-//     if (actor === undefined) return;
-//     const pp = actor.getFlag("prime-psionics", "pp");
-//     if (pp === undefined)
-//       updates.pp.value = CONFIG.PSIONICS.ppProgression[progression.psionics];
-//     else if (typeof pp === "number") updates.pp.value = pp; // migration
-//     const flags = actor.flags["prime-psionics"];
-//     if (flags) foundry.utils.mergeObject(flags, updates);
-//     else actor.flags["prime-psionics"] = updates;
-//   }
-// );
+    const limit = Math.ceil(Math.min(progression.psionics, 10) / 2) * 2;
+    const updates = {
+      manifestLimit: limit,
+      pp: {
+        max: CONFIG.PSIONICS.ppProgression[progression.psionics],
+      },
+    };
+    if (actor === undefined) return;
+    const pp = actor.getFlag("prime-psionics", "pp");
+    if (pp === undefined)
+      updates.pp.value = CONFIG.PSIONICS.ppProgression[progression.psionics];
+    else if (typeof pp === "number") updates.pp.value = pp; // migration
+    const flags = actor.flags["prime-psionics"];
+    if (flags) foundry.utils.mergeObject(flags, updates);
+    else actor.flags["prime-psionics"] = updates;
+  }
+);
 
 /**
  *
@@ -512,8 +509,8 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
 
 Hooks.on("dnd5e.preRestCompleted", (actor, result) => {
   if (!result.longRest) return true;
-  result.updateData[`flags.${moduleName}.ep.value`] = actor.getFlag(
-    moduleName,
+  result.updateData[`flags.${moduleID}.ep.value`] = actor.getFlag(
+    moduleID,
     "ep"
   )["max"];
 });
