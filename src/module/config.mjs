@@ -28,8 +28,13 @@ const A5ECONFIG = {
     specialTimePeriods: {
       stance: "a5e-for-dnd5e.Stance",
     },
+    spellcastingTypes: {
+      maneuvers: {
+        label: "a5e-for-dnd5e.Maneuver.Label",
+      },
+    },
   },
-};
+}
 
 /**
  * The set of weapon property flags which can exist on a weapon.
@@ -55,6 +60,6 @@ A5ECONFIG.DND5E.weaponProperties = {
   triggerCharge: "a5e-for-dnd5e.WeaponProperty.TriggerCharge",
   trip: "a5e-for-dnd5e.WeaponProperty.Trip",
   vicious: "a5e-for-dnd5e.WeaponProperty.Vicious",
-};
+}
 
-export default A5ECONFIG;
+export default A5ECONFIG
