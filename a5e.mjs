@@ -15,6 +15,7 @@ Hooks.once("init", () => {
   Items.registerSheet("maneuver", ManeuverSheet, {
     types: [typeManeuver],
     makeDefault: true,
+    label: `${moduleID}.Maneuver.SheetLabel`,
   })
 })
 
@@ -35,7 +36,7 @@ function _localizeHelper(object) {
 
 /**
  *
- * INLINE POWER DISPLAY
+ * INLINE MANEUVER DISPLAY
  *
  */
 
@@ -110,7 +111,7 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
         }
       }
 
-      // Known bug: This breaks if there's a mix of spells and powers WITHOUT spellcaster levels
+      // Known bug: This breaks if there's a mix of spells and maneuvers WITHOUT spellcaster levels
       else if (!spellbook[p]) {
         registerSection(pl, p, CONFIG.DND5E.spellLevels[p], {
           levels: levels[pl],
@@ -149,36 +150,14 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
  */
 
 Hooks.on(
-  "dnd5e.computePsionicsProgression",
+  "dnd5e.prepareManeuversSlots",
   (progression, actor, cls, spellcasting, count) => {
-    if (!progression.hasOwnProperty("psionics")) progression.psionics = 0
-    const prog =
-      CONFIG.DND5E.spellcastingTypes.psionics.progression[
-        spellcasting.progression
-      ]
-    if (!prog) return
-
-    progression.psionics += Math.floor(spellcasting.levels / prog.divisor ?? 1)
-    // Single-classed, non-full progression rounds up, rather than down, except at first level for half manifesters.
-    if (count === 1 && prog.divisor > 1 && progression.psionics) {
-      progression.psionics = Math.ceil(spellcasting.levels / prog.divisor)
-    }
-
-    const limit = Math.ceil(Math.min(progression.psionics, 10) / 2) * 2
-    const updates = {
-      manifestLimit: limit,
-      pp: {
-        max: CONFIG.PSIONICS.ppProgression[progression.psionics],
-      },
-    }
-    if (actor === undefined) return
-    const pp = actor.getFlag("prime-psionics", "pp")
-    if (pp === undefined)
-      updates.pp.value = CONFIG.PSIONICS.ppProgression[progression.psionics]
-    else if (typeof pp === "number") updates.pp.value = pp // migration
-    const flags = actor.flags["prime-psionics"]
-    if (flags) foundry.utils.mergeObject(flags, updates)
-    else actor.flags["prime-psionics"] = updates
+    const prof = foundry.utils.getProperty(actor, "system.attributes.prof")
+    let ep = actor.getFlag(moduleID, "ep")
+    if (ep) ep.max = 2 * prof
+    else ep = { value: 2 * prof, max: 2 * prof }
+    actor.flags[moduleID].ep = ep
+    // actor.setFlag(moduleID, "ep", ep)
   }
 )
 
