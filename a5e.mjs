@@ -1,230 +1,34 @@
-const A5ECONFIG = {
-  A5E: {
-    MANEUVERS: {
-      degree: {
-        0: "a5e-for-dnd5e.Maneuver.Degrees.0",
-        1: "a5e-for-dnd5e.Maneuver.Degrees.1",
-        2: "a5e-for-dnd5e.Maneuver.Degrees.2",
-        3: "a5e-for-dnd5e.Maneuver.Degrees.3",
-        4: "a5e-for-dnd5e.Maneuver.Degrees.4",
-        5: "a5e-for-dnd5e.Maneuver.Degrees.5",
-      },
-      tradition: {
-        adm: "a5e-for-dnd5e.Maneuver.Traditions.adm",
-        btz: "a5e-for-dnd5e.Maneuver.Traditions.btz",
-        mgl: "a5e-for-dnd5e.Maneuver.Traditions.mgl",
-        mas: "a5e-for-dnd5e.Maneuver.Traditions.mas",
-        rc: "a5e-for-dnd5e.Maneuver.Traditions.rc",
-        rze: "a5e-for-dnd5e.Maneuver.Traditions.rze",
-        sk: "a5e-for-dnd5e.Maneuver.Traditions.sk",
-        ss: "a5e-for-dnd5e.Maneuver.Traditions.ss",
-        tpi: "a5e-for-dnd5e.Maneuver.Traditions.tpi",
-        tac: "a5e-for-dnd5e.Maneuver.Traditions.tac",
-        uwh: "a5e-for-dnd5e.Maneuver.Traditions.uwh",
-      },
-    },
-  },
-  DND5E: {
-    specialTimePeriods: {
-      stance: "a5e-for-dnd5e.Stance",
-    },
-  },
-};
+import A5ECONFIG from "./src/module/config.mjs"
+import ManeuverData from "./src/module/maneuverData.mjs"
+import ManeuverSheet from "./src/module/maneuverSheet.mjs"
 
-/**
- * The set of weapon property flags which can exist on a weapon.
- * @enum {string}
- */
-A5ECONFIG.DND5E.weaponProperties = {
-  burn: "a5e-for-dnd5e.WeaponProperty.Burn",
-  breaker: "a5e-for-dnd5e.WeaponProperty.Breaker",
-  compounding: "a5e-for-dnd5e.WeaponProperty.Compounding",
-  defensive: "a5e-for-dnd5e.WeaponProperty.Defensive",
-  flamboyant: "a5e-for-dnd5e.WeaponProperty.Flamboyant",
-  handMounted: "a5e-for-dnd5e.WeaponProperty.HandMounted",
-  inaccurate: "a5e-for-dnd5e.WeaponProperty.Inaccurate",
-  mounted: "a5e-for-dnd5e.WeaponProperty.Mounted",
-  muzzleLoading: "a5e-for-dnd5e.WeaponProperty.MuzzleLoading",
-  parrying: "a5e-for-dnd5e.WeaponProperty.Parrying",
-  parryingImmunity: "a5e-for-dnd5e.WeaponProperty.ParryingImmunity",
-  quickdraw: "a5e-for-dnd5e.WeaponProperty.Quickdraw",
-  range: "a5e-for-dnd5e.WeaponProperty.Range",
-  rifled: "a5e-for-dnd5e.WeaponProperty.Rifled",
-  scatter: "a5e-for-dnd5e.WeaponProperty.Scatter",
-  shock: "a5e-for-dnd5e.WeaponProperty.Shock",
-  triggerCharge: "a5e-for-dnd5e.WeaponProperty.TriggerCharge",
-  trip: "a5e-for-dnd5e.WeaponProperty.Trip",
-  vicious: "a5e-for-dnd5e.WeaponProperty.Vicious",
-};
-
-/**
- * Data definition for Maneuver items.
- * @mixes ItemDescriptionTemplate
- * @mixes ActivatedEffectTemplate
- * @mixes ActionTemplate
- *
- * @property {number} degree                     Degree (level) of the maneuver.
- * @property {string} tradition                  Combat tradition to which this maneuver belongs.
- * @property {object} scaling                    Details on how casting at higher levels affects this maneuver.
- * @property {string} scaling.mode               Spell scaling mode as defined in `DND5E.spellScalingModes`.
- * @property {string} scaling.formula            Dice formula used for scaling.
- */
-class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin(
-  dnd5e.dataModels.item.ItemDescriptionTemplate,
-  dnd5e.dataModels.item.ActivatedEffectTemplate,
-  dnd5e.dataModels.item.ActionTemplate
-) {
-  /** @inheritdoc */
-  static defineSchema() {
-    return this.mergeSchema(super.defineSchema(), {
-      degree: new foundry.data.fields.NumberField({
-        required: true,
-        integer: true,
-        initial: 1,
-        min: 0,
-        label: "a5e-for-5e.Maneuver.Degree",
-      }),
-      tradition: new foundry.data.fields.StringField({
-        required: true,
-        label: "a5e-for-5e.Maneuver.Tradition",
-      }),
-      prerequisite: new foundry.data.fields.StringField({
-        required: false,
-        label: "a5e-for-5e.Maneuver.Prerequisite",
-      }),
-    });
-  }
-
-  /* -------------------------------------------- */
-  /*  Migrations                                  */
-  /* -------------------------------------------- */
-
-  /** @inheritdoc */
-  static migrateData(source) {
-    super.migrateData(source);
-  }
-
-  /* -------------------------------------------- */
-  /*  Derived Data                                */
-  /* -------------------------------------------- */
-
-  prepareDerivedData() {
-    this.labels = {};
-    this._prepareManeuver();
-  }
-
-  _prepareManeuver() {
-    this.labels.degree = CONFIG.A5E.MANEUVERS.degree[this.degree];
-    this.labels.tradition = CONFIG.A5E.MANEUVERS.tradition[this.tradition];
-    this.labels.ep = this.usesExertion ? "a5e-for-5e.Maneuver.EP" : "";
-  }
-
-  /* -------------------------------------------- */
-  /*  Getters                                     */
-  /* -------------------------------------------- */
-
-  /**
-   * Properties displayed in chat.
-   * @type {string[]}
-   */
-  get chatProperties() {
-    let properties = [this.labels.degree];
-    if (this.labels.ep) properties.push(this.labels.ep);
-
-    return [...properties];
-  }
-
-  /* -------------------------------------------- */
-
-  /** @inheritdoc */
-  get _typeAbilityMod() {
-    return this.parent?.actor?.system.attributes.spellcasting || "str";
-  }
-
-  /* -------------------------------------------- */
-
-  /** @inheritdoc */
-  get _typeCriticalThreshold() {
-    return this.parent?.actor?.flags.dnd5e?.spellCriticalThreshold ?? Infinity;
-  }
-
-  /**
-   * @param {object} consume        Effect's resource consumption.
-   * @param {string} consume.type   Type of resource to consume
-   * @param {string} consume.target Item ID or resource key path of resource to consume.
-   * @returns {boolean}     Returns true if it spends psi points as a resource
-   */
-  get usesExertion() {
-    return this.consume.type === "flags" && this.consume.target === "exert";
-  }
-}
-
-class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
-  get template() {
-    return `/modules/a5e-for-dnd5e/templates/maneuver-sheet.hbs`;
-  }
-
-  async getData(options = {}) {
-    const context = await super.getData(options);
-    context.maneuvers = CONFIG.A5E.MANEUVERS;
-
-    const consume =
-      context.system.consume.type === "flags"
-        ? { ep: game.i18n.localize("a5e-for-dnd5e.Maneuver.EP") }
-        : {};
-
-    const consumption = context.system.consume;
-    if (context.system.usesExertion) {
-      if (context.system.labels.ep) {
-        const epLabel = this.epText(consumption.amount);
-        context.system.labels.ep = epLabel;
-        context.itemStatus = epLabel;
-      }
-    } else delete context.system.labels.ep;
-    foundry.utils.mergeObject(context, {
-      labels: context.system.labels,
-      abilityConsumptionTargets: consume,
-    });
-
-    return context;
-  }
-
-  epText(ep) {
-    return `${ep} ${
-      ep === 1
-        ? game.i18n.localize("a5e-for-dnd5e.Maneuver.1EP")
-        : game.i18n.localize("a5e-for-dnd5e.Maneuver.EP")
-    }`;
-  }
-}
-
-const moduleID = "a5e-for-dnd5e";
-const typeManeuver = "a5e-for-dnd5e.maneuver";
+const moduleID = "a5e-for-dnd5e"
+const typeManeuver = "a5e-for-dnd5e.maneuver"
 
 Hooks.once("init", () => {
-  foundry.utils.mergeObject(CONFIG, A5ECONFIG);
+  foundry.utils.mergeObject(CONFIG, A5ECONFIG)
 
   Object.assign(CONFIG.Item.dataModels, {
     [typeManeuver]: ManeuverData,
-  });
+  })
 
   Items.registerSheet("maneuver", ManeuverSheet, {
     types: [typeManeuver],
     makeDefault: true,
-  });
-});
+  })
+})
 
-Hooks.once("i18nInit", () => _localizeHelper(CONFIG.A5E));
+Hooks.once("i18nInit", () => _localizeHelper(CONFIG.A5E))
 
 function _localizeHelper(object) {
   for (const [key, value] of Object.entries(object)) {
     switch (typeof value) {
       case "string":
-        if (value.includes(moduleID)) object[key] = game.i18n.localize(value);
-        break;
+        if (value.includes(moduleID)) object[key] = game.i18n.localize(value)
+        break
       case "object":
-        _localizeHelper(object[key]);
-        break;
+        _localizeHelper(object[key])
+        break
     }
   }
 }
@@ -236,15 +40,15 @@ function _localizeHelper(object) {
  */
 
 Hooks.on("renderActorSheet5e", (app, html, context) => {
-  if (!game.user.isGM && app.actor.limited) return true;
+  if (!game.user.isGM && app.actor.limited) return true
   if (context.isCharacter || context.isNPC) {
-    const owner = context.actor.isOwner;
-    let maneuvers = context.items.filter((i) => i.type === typeManeuver);
-    maneuvers = app._filterItems(maneuvers, app._filters.spellbook);
-    const levels = context.system.spells;
-    const spellbook = context.spellbook;
-    const useLabels = { "-20": "-", "-10": "-", 0: "&infin;" };
-    const sections = { atwill: -20, innate: -10, pact: 0.5 };
+    const owner = context.actor.isOwner
+    let maneuvers = context.items.filter((i) => i.type === typeManeuver)
+    maneuvers = app._filterItems(maneuvers, app._filters.spellbook)
+    const levels = context.system.spells
+    const spellbook = context.spellbook
+    const useLabels = { "-20": "-", "-10": "-", 0: "&infin;" }
+    const sections = { atwill: -20, innate: -10, pact: 0.5 }
 
     const registerSection = (
       sl,
@@ -255,7 +59,7 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
       const aeOverride = foundry.utils.hasProperty(
         context.actor.overrides,
         `system.spells.spell${i}.override`
-      );
+      )
       spellbook[i] = {
         order: i,
         label: label,
@@ -273,36 +77,36 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
         },
         prop: sl,
         editable: context.editable && !aeOverride,
-      };
-    };
+      }
+    }
 
     maneuvers.forEach((maneuver) => {
       if (maneuver.system.usesExertion)
         maneuver.system.labels.ep = maneuver.sheet.epText(
           maneuver.system.consume.amount
-        );
+        )
       foundry.utils.mergeObject(maneuver, {
         labels: maneuver.system.labels,
-      });
+      })
       context.itemContext[maneuver.id].toggleTitle =
-        CONFIG.DND5E.spellPreparationModes.always;
-      context.itemContext[maneuver.id].toggleClass = "fixed";
+        CONFIG.DND5E.spellPreparationModes.always
+      context.itemContext[maneuver.id].toggleClass = "fixed"
 
-      const mode = "always";
-      let p = maneuver.system.degree;
-      const pl = `spell${p}`;
+      const mode = "always"
+      let p = maneuver.system.degree
+      const pl = `spell${p}`
 
       if (mode in sections) {
-        p = sections[mode];
+        p = sections[mode]
         if (!spellbook[p]) {
-          const l = levels[mode] || {};
-          const config = CONFIG.DND5E.spellPreparationModes[mode];
+          const l = levels[mode] || {}
+          const config = CONFIG.DND5E.spellPreparationModes[mode]
           registerSection(mode, p, config, {
             prepMode: mode,
             value: l.value,
             max: l.max,
             override: l.override,
-          });
+          })
         }
       }
 
@@ -310,33 +114,33 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
       else if (!spellbook[p]) {
         registerSection(pl, p, CONFIG.DND5E.spellLevels[p], {
           levels: levels[pl],
-        });
+        })
       }
 
       // Add the power to the relevant heading
-      spellbook[p].spells.push(maneuver);
-    });
-    const spellList = html.find(".spellbook");
-    const template = "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs";
+      spellbook[p].spells.push(maneuver)
+    })
+    const spellList = html.find(".spellbook")
+    const template = "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs"
     renderTemplate(template, context).then((partial) => {
-      spellList.html(partial);
-      let ep = app.actor.getFlag(moduleID, "ep");
+      spellList.html(partial)
+      let ep = app.actor.getFlag(moduleID, "ep")
       if (ep) {
         const ppContext = {
           ep: ep.value,
           epMax: ep.max,
-        };
+        }
         renderTemplate(
           `/modules/a5e-for-dnd5e/templates/ep-partial.hbs`,
           ppContext
         ).then((exertionHeader) => {
-          spellList.find(".inventory-list").prepend(exertionHeader);
-        });
+          spellList.find(".inventory-list").prepend(exertionHeader)
+        })
       }
-      app.activateListeners(spellList);
-    });
-  } else return true;
-});
+      app.activateListeners(spellList)
+    })
+  } else return true
+})
 
 /**
  *
@@ -347,36 +151,36 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
 Hooks.on(
   "dnd5e.computePsionicsProgression",
   (progression, actor, cls, spellcasting, count) => {
-    if (!progression.hasOwnProperty("psionics")) progression.psionics = 0;
+    if (!progression.hasOwnProperty("psionics")) progression.psionics = 0
     const prog =
       CONFIG.DND5E.spellcastingTypes.psionics.progression[
         spellcasting.progression
-      ];
-    if (!prog) return;
+      ]
+    if (!prog) return
 
-    progression.psionics += Math.floor(spellcasting.levels / prog.divisor ?? 1);
+    progression.psionics += Math.floor(spellcasting.levels / prog.divisor ?? 1)
     // Single-classed, non-full progression rounds up, rather than down, except at first level for half manifesters.
     if (count === 1 && prog.divisor > 1 && progression.psionics) {
-      progression.psionics = Math.ceil(spellcasting.levels / prog.divisor);
+      progression.psionics = Math.ceil(spellcasting.levels / prog.divisor)
     }
 
-    const limit = Math.ceil(Math.min(progression.psionics, 10) / 2) * 2;
+    const limit = Math.ceil(Math.min(progression.psionics, 10) / 2) * 2
     const updates = {
       manifestLimit: limit,
       pp: {
         max: CONFIG.PSIONICS.ppProgression[progression.psionics],
       },
-    };
-    if (actor === undefined) return;
-    const pp = actor.getFlag("prime-psionics", "pp");
+    }
+    if (actor === undefined) return
+    const pp = actor.getFlag("prime-psionics", "pp")
     if (pp === undefined)
-      updates.pp.value = CONFIG.PSIONICS.ppProgression[progression.psionics];
-    else if (typeof pp === "number") updates.pp.value = pp; // migration
-    const flags = actor.flags["prime-psionics"];
-    if (flags) foundry.utils.mergeObject(flags, updates);
-    else actor.flags["prime-psionics"] = updates;
+      updates.pp.value = CONFIG.PSIONICS.ppProgression[progression.psionics]
+    else if (typeof pp === "number") updates.pp.value = pp // migration
+    const flags = actor.flags["prime-psionics"]
+    if (flags) foundry.utils.mergeObject(flags, updates)
+    else actor.flags["prime-psionics"] = updates
   }
-);
+)
 
 /**
  *
@@ -508,12 +312,12 @@ Hooks.on(
  */
 
 Hooks.on("dnd5e.preRestCompleted", (actor, result) => {
-  if (!result.longRest) return true;
+  if (!result.longRest) return true
   result.updateData[`flags.${moduleID}.ep.value`] = actor.getFlag(
     moduleID,
     "ep"
-  )["max"];
-});
+  )["max"]
+})
 
 // /**
 //  *
@@ -553,4 +357,3 @@ Hooks.on("dnd5e.preRestCompleted", (actor, result) => {
 //     }
 //   }
 // );
-//# sourceMappingURL=a5e.mjs.map
