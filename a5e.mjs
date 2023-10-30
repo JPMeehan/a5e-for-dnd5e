@@ -1,35 +1,35 @@
-import A5ECONFIG from "./src/module/config.mjs"
-import ManeuverData from "./src/module/maneuverData.mjs"
-import ManeuverSheet from "./src/module/maneuverSheet.mjs"
+import A5ECONFIG from "./src/module/config.mjs";
+import ManeuverData from "./src/module/maneuverData.mjs";
+import ManeuverSheet from "./src/module/maneuverSheet.mjs";
 
-const moduleID = "a5e-for-dnd5e"
-const typeManeuver = "a5e-for-dnd5e.maneuver"
+const moduleID = "a5e-for-dnd5e";
+const typeManeuver = "a5e-for-dnd5e.maneuver";
 
 Hooks.once("init", () => {
-  foundry.utils.mergeObject(CONFIG, A5ECONFIG)
+  foundry.utils.mergeObject(CONFIG, A5ECONFIG);
 
   Object.assign(CONFIG.Item.dataModels, {
     [typeManeuver]: ManeuverData,
-  })
+  });
 
   Items.registerSheet("maneuver", ManeuverSheet, {
     types: [typeManeuver],
     makeDefault: true,
     label: `${moduleID}.Maneuver.SheetLabel`,
-  })
-})
+  });
+});
 
-Hooks.once("i18nInit", () => _localizeHelper(CONFIG.A5E))
+Hooks.once("i18nInit", () => _localizeHelper(CONFIG.A5E));
 
 function _localizeHelper(object) {
   for (const [key, value] of Object.entries(object)) {
     switch (typeof value) {
       case "string":
-        if (value.includes(moduleID)) object[key] = game.i18n.localize(value)
-        break
+        if (value.includes(moduleID)) object[key] = game.i18n.localize(value);
+        break;
       case "object":
-        _localizeHelper(object[key])
-        break
+        _localizeHelper(object[key]);
+        break;
     }
   }
 }
@@ -41,15 +41,16 @@ function _localizeHelper(object) {
  */
 
 Hooks.on("renderActorSheet5e", (app, html, context) => {
-  if (!game.user.isGM && app.actor.limited) return true
+  if (!game.user.isGM && app.actor.limited) return true;
   if (context.isCharacter || context.isNPC) {
-    const owner = context.actor.isOwner
-    let maneuvers = context.items.filter((i) => i.type === typeManeuver)
-    maneuvers = app._filterItems(maneuvers, app._filters.spellbook)
-    const levels = context.system.spells
-    const spellbook = context.spellbook
-    const useLabels = { "-20": "-", "-10": "-", 0: "&infin;" }
-    const sections = { atwill: -20, innate: -10, pact: 0.5 }
+    const owner = context.actor.isOwner;
+    let maneuvers = context.items.filter((i) => i.type === typeManeuver);
+    maneuvers = app._filterItems(maneuvers, app._filters.spellbook);
+    if (!maneuvers.length && !hasExertionPool(app.actor)) return true;
+    const levels = context.system.spells;
+    const spellbook = context.spellbook;
+    const useLabels = { "-20": "-", "-10": "-", 0: "&infin;" };
+    const sections = { atwill: -20, innate: -10, pact: 0.5 };
 
     const registerSection = (
       sl,
@@ -60,7 +61,7 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
       const aeOverride = foundry.utils.hasProperty(
         context.actor.overrides,
         `system.spells.spell${i}.override`
-      )
+      );
       spellbook[i] = {
         order: i,
         label: label,
@@ -78,36 +79,36 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
         },
         prop: sl,
         editable: context.editable && !aeOverride,
-      }
-    }
+      };
+    };
 
     maneuvers.forEach((maneuver) => {
       if (maneuver.system.usesExertion)
         maneuver.system.labels.ep = maneuver.sheet.epText(
           maneuver.system.consume.amount
-        )
+        );
       foundry.utils.mergeObject(maneuver, {
         labels: maneuver.system.labels,
-      })
+      });
       context.itemContext[maneuver.id].toggleTitle =
-        CONFIG.DND5E.spellPreparationModes.always
-      context.itemContext[maneuver.id].toggleClass = "fixed"
+        CONFIG.DND5E.spellPreparationModes.always;
+      context.itemContext[maneuver.id].toggleClass = "fixed";
 
-      const mode = "always"
-      let p = maneuver.system.degree
-      const pl = `spell${p}`
+      const mode = "always";
+      let p = maneuver.system.degree;
+      const pl = `spell${p}`;
 
       if (mode in sections) {
-        p = sections[mode]
+        p = sections[mode];
         if (!spellbook[p]) {
-          const l = levels[mode] || {}
-          const config = CONFIG.DND5E.spellPreparationModes[mode]
+          const l = levels[mode] || {};
+          const config = CONFIG.DND5E.spellPreparationModes[mode];
           registerSection(mode, p, config, {
             prepMode: mode,
             value: l.value,
             max: l.max,
             override: l.override,
-          })
+          });
         }
       }
 
@@ -115,34 +116,49 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
       else if (!spellbook[p]) {
         registerSection(pl, p, CONFIG.DND5E.spellLevels[p], {
           levels: levels[pl],
-        })
+        });
       }
 
       // Add the power to the relevant heading
-      spellbook[p].spells.push(maneuver)
-    })
-    const spellList = html.find(".spellbook")
-    const template = "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs"
+      spellbook[p].spells.push(maneuver);
+    });
+    const spellList = html.find(".spellbook");
+    const template = "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs";
     renderTemplate(template, context).then((partial) => {
-      spellList.html(partial)
-      let ep = app.actor.getFlag(moduleID, "ep")
-      if (ep) {
+      spellList.html(partial);
+      let ep = app.actor.getFlag(moduleID, "ep");
+      if (ep && context.isCharacter) {
         const ppContext = {
           ep: ep.value,
           epMax: ep.max,
-        }
+        };
         renderTemplate(
           `/modules/a5e-for-dnd5e/templates/ep-partial.hbs`,
           ppContext
         ).then((exertionHeader) => {
-          spellList.find(".inventory-list").prepend(exertionHeader)
-        })
+          spellList.find(".inventory-list").prepend(exertionHeader);
+        });
       }
-      app.activateListeners(spellList)
-    })
-  } else return true
-})
+      app.activateListeners(spellList);
+    });
+  } else return true;
+});
 
+/**
+ * Determines if an actor has exertion points
+ * @param {object} actor  The character
+ * @returns {boolean}     Whether or not the character has an exertion pool
+ */
+function hasExertionPool(actor) {
+  for (const cls of Object.values(actor.classes)) {
+    if (
+      cls.spellcasting.type === "maneuvers" ||
+      cls.spellcasting.progression === "herald"
+    )
+      return true;
+  }
+  return false;
+}
 /**
  *
  * CALCULATE MAX EXERTION POINTS
@@ -150,16 +166,25 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
  */
 
 Hooks.on(
-  "dnd5e.prepareManeuversSlots",
+  "dnd5e.computeManeuversProgression",
   (progression, actor, cls, spellcasting, count) => {
-    const prof = foundry.utils.getProperty(actor, "system.attributes.prof")
-    let ep = actor.getFlag(moduleID, "ep")
-    if (ep) ep.max = 2 * prof
-    else ep = { value: 2 * prof, max: 2 * prof }
-    actor.flags[moduleID].ep = ep
+    if (
+      spellcasting.type !== "maneuvers" &&
+      spellcasting.progression !== "herald"
+    )
+      return true;
+    const prof = foundry.utils.getProperty(actor, "system.attributes.prof");
+    const max = spellcasting.progression === "default" ? 2 * prof : 0;
+    let ep = actor.getFlag(moduleID, "ep");
+    if (ep) ep.max = Math.max(max, ep.max);
+    else ep = { value: max, max };
+    const flags = {
+      [moduleID]: { ep },
+    };
+    foundry.utils.mergeObject(actor.flags, flags);
     // actor.setFlag(moduleID, "ep", ep)
   }
-)
+);
 
 /**
  *
@@ -213,90 +238,17 @@ Hooks.on(
 // });
 
 /**
- * SCALING
- */
-
-// Hooks.on("dnd5e.preRollDamage", (item, rollConfig) => {
-//   if (item.type !== typePower) return;
-//   if (item.system.scaling.mode === "talent") {
-//     let level;
-//     if (rollConfig.actor.type === "character")
-//       level = rollConfig.actor.system.details.level;
-//     else if (item.system.preparation.mode === "innate")
-//       level = Math.ceil(rollConfig.actor.system.details.cr);
-//     else level = rollConfig.actor.system.details.spellLevel;
-//     const add = Math.floor((level + 1) / 6);
-//     if (add === 0) return;
-//     scaleDamage(
-//       rollConfig.parts,
-//       item.system.scaling.mode.formula || rollConfig.parts.join(" + "),
-//       add,
-//       rollConfig.data
-//     );
-//   } else if (
-//     item.system.scaling.mode === "intensify" &&
-//     item.system.scaling.formula
-//   ) {
-//     const ppSpend = Number(rollConfig.event.target.dataset["ppspend"]);
-//     if (ppSpend === NaN) return;
-//     const minPP = item.system.consume.amount;
-//     const intensify = Math.max(0, ppSpend - minPP);
-//     if (intensify === 0) return;
-//     scaleDamage(
-//       rollConfig.parts,
-//       item.system.scaling.formula,
-//       intensify,
-//       rollConfig.data
-//     );
-//   }
-// });
-// /**
-//  * Scale an array of damage parts according to a provided scaling formula and scaling multiplier.
-//  * @param {string[]} parts    The original parts of the damage formula.
-//  * @param {string} scaling    The scaling formula.
-//  * @param {number} times      A number of times to apply the scaling formula.
-//  * @param {object} rollData   A data object that should be applied to the scaled damage roll
-//  * @returns {string[]}        The parts of the damage formula with the scaling applied.
-//  * @private
-//  */
-// function scaleDamage(parts, scaling, times, rollData) {
-//   if (times <= 0) return parts;
-//   const p0 = new Roll(parts[0], rollData);
-//   const s = new Roll(scaling, rollData).alter(times);
-
-//   // Attempt to simplify by combining like dice terms
-//   let simplified = false;
-//   if (s.terms[0] instanceof Die && s.terms.length === 1) {
-//     const d0 = p0.terms[0];
-//     const s0 = s.terms[0];
-//     if (
-//       d0 instanceof Die &&
-//       d0.faces === s0.faces &&
-//       d0.modifiers.equals(s0.modifiers)
-//     ) {
-//       d0.number += s0.number;
-//       parts[0] = p0.formula;
-//       simplified = true;
-//     }
-//   }
-
-//   // Otherwise, add to the first part
-//   if (!simplified) parts[0] = `${parts[0]} + ${s.formula}`;
-//   return parts;
-// }
-/**
  *
- * POWER POINT RESET ON LR
+ * EXERTION POINT RESET ON LR
  *
  */
 
 Hooks.on("dnd5e.preRestCompleted", (actor, result) => {
-  if (!result.longRest) return true
   result.updateData[`flags.${moduleID}.ep.value`] = actor.getFlag(
     moduleID,
     "ep"
-  )["max"]
-})
+  )["max"];
+});
 
 // /**
 //  *

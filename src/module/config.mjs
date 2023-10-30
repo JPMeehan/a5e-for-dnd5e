@@ -28,13 +28,30 @@ const A5ECONFIG = {
     specialTimePeriods: {
       stance: "a5e-for-dnd5e.Stance",
     },
+    spellProgression: {
+      default: "a5e-for-dnd5e.Maneuver.Progression.default",
+      herald: "a5e-for-dnd5e.Maneuver.Progression.herald",
+    },
     spellcastingTypes: {
+      leveled: {
+        progression: {
+          herald: {
+            label: "a5e-for-dnd5e.Maneuver.Progression.herald",
+            divisor: 2,
+          },
+        },
+      },
       maneuvers: {
         label: "a5e-for-dnd5e.Maneuver.Label",
+        progression: {
+          default: {
+            label: "a5e-for-dnd5e.Maneuver.Progression.default",
+          },
+        },
       },
     },
   },
-}
+};
 
 /**
  * The set of weapon property flags which can exist on a weapon.
@@ -60,6 +77,6 @@ A5ECONFIG.DND5E.weaponProperties = {
   triggerCharge: "a5e-for-dnd5e.WeaponProperty.TriggerCharge",
   trip: "a5e-for-dnd5e.WeaponProperty.Trip",
   vicious: "a5e-for-dnd5e.WeaponProperty.Vicious",
-}
+};
 
-export default A5ECONFIG
+export default A5ECONFIG;
