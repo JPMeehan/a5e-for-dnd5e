@@ -9,7 +9,6 @@ packs/**/MANIFEST-*
 *.lock
 src/packs-origin/**
 tools/__pycache__
-foundry**
 node_modules/
 *.map
-public/a5e.mjs
+public/**
