@@ -22,7 +22,7 @@
                     {{labels.tradition}}
                 </li>
                 <li>
-                    <input type="text" name="system.source" value="{{system.source}}" placeholder="{{ localize 'DND5E.Source' }}"/>
+                    {{> "dnd5e.item-source"}}
                 </li>
             </ul>
         </div>
@@ -45,7 +45,7 @@
         <div class="tab details" data-group="primary" data-tab="details">
             <h3 class="form-header">{{ localize "a5e-for-dnd5e.Maneuver.Details" }}</h3>
 
-            {{!-- Power Level --}}
+            {{!-- Maneuver Degree --}}
             <div class="form-group">
                 <label>{{ localize "a5e-for-dnd5e.Maneuver.Tradition" }}</label>
                 <select name="system.degree" data-dtype="Number">
@@ -57,15 +57,15 @@
                 </select>
             </div>
 
-            {{!-- Power Augment --}}
-            {{#if system.level}}
+            {{!-- Maneuver Prerequisites --}}
+            {{#if system.degree}}
             <div class="form-group">
                 <label>{{ localize "a5e-for-dnd5e.Maneuver.Prerequisite" }}</label>
                 <input class="materials" type="text" name="system.prerequisite" value="{{system.prerequisite}}"/>
             </div>
             {{/if}}
 
-            {{!-- Power Discipline --}}
+            {{!-- Maneuver Tradition --}}
             <div class="form-group">
                 <label>{{ localize "a5e-for-dnd5e.Maneuver.Tradition" }}</label>
                 <select name="system.tradition">

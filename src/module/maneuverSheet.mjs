@@ -8,8 +8,8 @@ export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
     context.maneuvers = CONFIG.A5E.MANEUVERS;
 
     const consume =
-      context.system.consume.type === "flags"
-        ? { ep: game.i18n.localize("a5e-for-dnd5e.Maneuver.EP") }
+      context.system.consume.type === 'flags'
+        ? { ep: game.i18n.localize('a5e-for-dnd5e.Maneuver.EP') }
         : {};
 
     const consumption = context.system.consume;
@@ -25,14 +25,17 @@ export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
       abilityConsumptionTargets: consume,
     });
 
+    if (this.item.system.duration.units === 'stance')
+      context.itemStatus = game.i18n.localize('a5e-for-dnd5e.Stance');
+
     return context;
   }
 
   epText(ep) {
     return `${ep} ${
       ep === 1
-        ? game.i18n.localize("a5e-for-dnd5e.Maneuver.1EP")
-        : game.i18n.localize("a5e-for-dnd5e.Maneuver.EP")
+        ? game.i18n.localize('a5e-for-dnd5e.Maneuver.1EP')
+        : game.i18n.localize('a5e-for-dnd5e.Maneuver.EP')
     }`;
   }
 }
