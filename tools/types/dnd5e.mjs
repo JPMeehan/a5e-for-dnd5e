@@ -1,5 +1,65 @@
 /**
- * @typedef {object} ActivatedEffect
+ * Field for storing creature type data.
+ * @typedef CreatureType
+ * @property {string} value
+ * @property {string} subtype
+ * @property {string} swarm
+ * @property {string} custom
+ */
+
+/**
+ * A template for currently held currencies.
+ * @typedef Currency
+ * @property {Object<string, string>} currency
+ */
+
+/**
+ * Field for storing movement data.
+ * @typedef Movement
+ * @property {number} burrow
+ * @property {number} climb
+ * @property {number} fly
+ * @property {number} swim
+ * @property {number} walk
+ * @property {string} units
+ * @property {boolean} hover
+ */
+
+/**
+ * Field for storing senses data.
+ * @typedef Senses
+ * @property {number} darkvision
+ * @property {number} blindsight
+ * @property {number} tremorsense
+ * @property {number} truesight
+ * @property {string} units
+ * @property {string} special
+ */
+
+/**
+ * Data model template for item actions.
+ * @typedef Action
+ * @property {string} ability             Ability score to use when determining modifier.
+ * @property {string} actionType          Action type as defined in `DND5E.itemActionTypes`.
+ * @property {string} attackBonus         Numeric or dice bonus to attack rolls.
+ * @property {string} chatFlavor          Extra text displayed in chat.
+ * @property {object} critical            Information on how critical hits are handled.
+ * @property {number} critical.threshold  Minimum number on the dice to roll a critical hit.
+ * @property {string} critical.damage     Extra damage on critical hit.
+ * @property {object} damage              Item damage formulas.
+ * @property {string[][]} damage.parts    Array of damage formula and types.
+ * @property {string} damage.versatile    Special versatile damage formula.
+ * @property {string} formula             Other roll formula.
+ * @property {object} save                Item saving throw data.
+ * @property {string} save.ability        Ability required for the save.
+ * @property {number} save.dc             Custom saving throw value.
+ * @property {string} save.scaling        Method for automatically determining saving throw DC.
+ * @mixin
+ */
+
+/**
+ * Data model template for items that can be used as some sort of action.
+ * @typedef ActivatedEffect
  * @property {object} activation            Effect's activation conditions.
  * @property {string} activation.type       Activation type as defined in `DND5E.abilityActivationTypes`.
  * @property {number} activation.cost       How much of the activation type is needed to use this item's effect.
@@ -29,39 +89,10 @@
  */
 
 /**
- * @typedef {object} Action
- * @property {string} ability             Ability score to use when determining modifier.
- * @property {string} actionType          Action type as defined in `DND5E.itemActionTypes`.
- * @property {string} attackBonus         Numeric or dice bonus to attack rolls.
- * @property {string} chatFlavor          Extra text displayed in chat.
- * @property {object} critical            Information on how critical hits are handled.
- * @property {number} critical.threshold  Minimum number on the dice to roll a critical hit.
- * @property {string} critical.damage     Extra damage on critical hit.
- * @property {object} damage              Item damage formulas.
- * @property {string[][]} damage.parts    Array of damage formula and types.
- * @property {string} damage.versatile    Special versatile damage formula.
- * @property {string} formula             Other roll formula.
- * @property {object} save                Item saving throw data.
- * @property {string} save.ability        Ability required for the save.
- * @property {number} save.dc             Custom saving throw value.
- * @property {string} save.scaling        Method for automatically determining saving throw DC.
- * @mixin
- */
-
-/**
  * Items that can be attuned and equipped
  * @typedef EquippableItem
  * @property {number} attunement
  * @property {boolean} equipped
- */
-
-/**
- * Data fields that stores information on the adventure or sourcebook where this document originated.
- * @typedef SourceField
- * @property {string} book     Book/publication where the item originated.
- * @property {string} page     Page or section where the item can be found.
- * @property {string} custom   Fully custom source label.
- * @property {string} license  Type of license that covers this item.
  */
 
 /**
@@ -75,8 +106,43 @@
  */
 
 /**
+ * Data fields that stores information on the adventure or sourcebook where this document originated.
+ * @typedef SourceField
+ * @property {string} book     Book/publication where the item originated.
+ * @property {string} page     Page or section where the item can be found.
+ * @property {string} custom   Fully custom source label.
+ * @property {string} license  Type of license that covers this item.
+ */
+
+/**
+ * Data model template for equipment that can be mounted on a vehicle.
+ * @typedef Mountable
+ * @property {object} armor          Equipment's armor class.
+ * @property {number} armor.value    Armor class value for equipment.
+ * @property {object} hp             Equipment's hit points.
+ * @property {number} hp.value       Current hit point value.
+ * @property {number} hp.max         Max hit points.
+ * @property {number} hp.dt          Damage threshold.
+ * @property {string} hp.conditions  Conditions that are triggered when this equipment takes damage.
+ * @mixin
+ */
+
+/**
+ * Data model template with information on physical items.
+ * @typedef PhysicalItem
+ * @property {number} quantity            Number of items in a stack.
+ * @property {number} weight              Item's weight in pounds or kilograms (depending on system setting).
+ * @property {object} price
+ * @property {number} price.value         Item's cost in the specified denomination.
+ * @property {string} price.denomination  Currency denomination used to determine price.
+ * @property {string} rarity              Item rarity as defined in `DND5E.itemRarity`.
+ * @property {boolean} identified         Has this item been identified?
+ * @mixin
+ */
+
+/**
  * Data definition for Weapon items.
- * @typedef {object} Weapon
+ * @typedef Weapon
  * @property {string} weaponType   Weapon category as defined in `DND5E.weaponTypes`.
  * @property {string} baseItem     Base weapon as defined in `DND5E.weaponIds` for determining proficiency.
  * @property {object} properties   Mapping of various weapon property booleans.
