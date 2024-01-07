@@ -56,13 +56,22 @@
  */
 
 /**
+ * Data fields that stores information on the adventure or sourcebook where this document originated.
+ * @typedef SourceField
+ * @property {string} book     Book/publication where the item originated.
+ * @property {string} page     Page or section where the item can be found.
+ * @property {string} custom   Fully custom source label.
+ * @property {string} license  Type of license that covers this item.
+ */
+
+/**
  * Item description & source.
  * @typedef ItemDescription
  * @property {object} description               Various item descriptions.
  * @property {string} description.value         Full item description.
  * @property {string} description.chat          Description displayed in chat card.
  * @property {string} description.unidentified  Description displayed if item is unidentified.
- * @property {string} source                    Adventure or sourcebook where this item originated.
+ * @property {SourceField} source               Adventure or sourcebook where this item originated.
  */
 
 /**
