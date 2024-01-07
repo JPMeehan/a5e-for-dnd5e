@@ -2,7 +2,7 @@ import { extractPack } from "@foundryvtt/foundryvtt-cli";
 import { promises as fs } from "fs";
 import path from "path";
 
-const a5eDir = path.join("../", "../", "systems", "a5e", "packs");
+const a5eDir = path.join("..", "..", "systems", "a5e", "packs");
 
 const packs = await fs.readdir(a5eDir);
 for (const pack of packs) {
