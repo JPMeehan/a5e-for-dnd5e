@@ -15,7 +15,6 @@ export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin
   dnd5e.dataModels.item.ActivatedEffectTemplate,
   dnd5e.dataModels.item.ActionTemplate
 ) {
-  /** @inheritdoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
       degree: new foundry.data.fields.NumberField({
@@ -23,15 +22,15 @@ export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin
         integer: true,
         initial: 1,
         min: 0,
-        label: "a5e-for-5e.Maneuver.Degree",
+        label: 'a5e-for-5e.Maneuver.Degree',
       }),
       tradition: new foundry.data.fields.StringField({
         required: true,
-        label: "a5e-for-5e.Maneuver.Tradition",
+        label: 'a5e-for-5e.Maneuver.Tradition',
       }),
       prerequisite: new foundry.data.fields.StringField({
         required: false,
-        label: "a5e-for-5e.Maneuver.Prerequisite",
+        label: 'a5e-for-5e.Maneuver.Prerequisite',
       }),
     });
   }
@@ -40,7 +39,6 @@ export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin
   /*  Migrations                                  */
   /* -------------------------------------------- */
 
-  /** @inheritdoc */
   static migrateData(source) {
     super.migrateData(source);
   }
@@ -57,7 +55,7 @@ export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin
   _prepareManeuver() {
     this.labels.degree = CONFIG.A5E.MANEUVERS.degree[this.degree];
     this.labels.tradition = CONFIG.A5E.MANEUVERS.tradition[this.tradition];
-    this.labels.ep = this.usesExertion ? "a5e-for-5e.Maneuver.EP" : "";
+    this.labels.ep = this.usesExertion ? 'a5e-for-5e.Maneuver.EP' : '';
   }
 
   /* -------------------------------------------- */
@@ -79,7 +77,7 @@ export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin
 
   /** @inheritdoc */
   get _typeAbilityMod() {
-    return this.parent?.actor?.system.attributes.spellcasting || "str";
+    return this.parent?.actor?.system.attributes.spellcasting || 'str';
   }
 
   /* -------------------------------------------- */
@@ -96,6 +94,6 @@ export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin
    * @returns {boolean}     Returns true if it spends psi points as a resource
    */
   get usesExertion() {
-    return this.consume.type === "flags" && this.consume.target === "exert";
+    return this.consume.type === 'flags' && this.consume.target === 'exert';
   }
 }

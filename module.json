@@ -87,15 +87,26 @@
   ],
   "documentTypes": {
     "Item": {
+      "culture": {
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "description.unidentified"
+        ]
+      },
+      "destiny": {
+        "htmlFields": [
+          "description.value",
+          "description.chat",
+          "description.unidentified"
+        ]
+      },
       "maneuver": {
         "htmlFields": [
           "description.value",
           "description.chat",
           "description.unidentified"
-        ],
-        "filePathFields": {
-          "img": ["IMAGE"]
-        }
+        ]
       }
     }
   }

@@ -1,33 +1,48 @@
-import A5ECONFIG from "./src/module/config.mjs";
-import ManeuverData from "./src/module/maneuverData.mjs";
-import ManeuverSheet from "./src/module/maneuverSheet.mjs";
+import A5ECONFIG from './src/module/config.mjs';
+import * as DataClasses from './src/module/data/_module.mjs';
+import * as SheetClasses from './src/module/apps/_module.mjs';
 
-const moduleID = "a5e-for-dnd5e";
-const typeManeuver = "a5e-for-dnd5e.maneuver";
+const moduleID = 'a5e-for-dnd5e';
+const moduleTypes = {
+  culture: moduleID + '.culture',
+  destiny: moduleID + '.destiny',
+  maneuver: moduleID + '.maneuver',
+};
 
-Hooks.once("init", () => {
+Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, A5ECONFIG);
 
   Object.assign(CONFIG.Item.dataModels, {
-    [typeManeuver]: ManeuverData,
+    [moduleTypes.culture]: DataClasses.Culture,
+    [moduleTypes.destiny]: DataClasses.Destiny,
+    [moduleTypes.maneuver]: DataClasses.Maneuver,
   });
 
-  Items.registerSheet("maneuver", ManeuverSheet, {
-    types: [typeManeuver],
-    makeDefault: true,
-    label: `${moduleID}.Maneuver.SheetLabel`,
-  });
+  for (const [name, sheetClass] of Object.entries(SheetClasses)) {
+    const type = name.toLowerCase();
+    Items.registerSheet(type, sheetClass, {
+      types: [moduleTypes[type]],
+      makeDefault: true,
+      label: `${moduleID}.${name}.SheetLabel`,
+    });
+  }
+
+  // Items.registerSheet('maneuver', SheetClasses.Maneuver, {
+  //   types: [moduleTypes.maneuver],
+  //   makeDefault: true,
+  //   label: `${moduleID}.Maneuver.SheetLabel`,
+  // });
 });
 
-Hooks.once("i18nInit", () => _localizeHelper(CONFIG.A5E));
+Hooks.once('i18nInit', () => _localizeHelper(CONFIG.A5E));
 
 function _localizeHelper(object) {
   for (const [key, value] of Object.entries(object)) {
     switch (typeof value) {
-      case "string":
+      case 'string':
         if (value.includes(moduleID)) object[key] = game.i18n.localize(value);
         break;
-      case "object":
+      case 'object':
         _localizeHelper(object[key]);
         break;
     }
@@ -40,23 +55,25 @@ function _localizeHelper(object) {
  *
  */
 
-Hooks.on("renderActorSheet5e", (app, html, context) => {
+Hooks.on('renderActorSheet5e', (app, html, context) => {
   if (!game.user.isGM && app.actor.limited) return true;
   if (context.isCharacter || context.isNPC) {
     const owner = context.actor.isOwner;
-    let maneuvers = context.items.filter((i) => i.type === typeManeuver);
+    let maneuvers = context.items.filter(
+      (i) => i.type === moduleTypes.maneuver
+    );
     maneuvers = app._filterItems(maneuvers, app._filters.spellbook);
     if (!maneuvers.length && !hasExertionPool(app.actor)) return true;
     const levels = context.system.spells;
     const spellbook = context.spellbook;
-    const useLabels = { "-20": "-", "-10": "-", 0: "&infin;" };
+    const useLabels = { '-20': '-', '-10': '-', 0: '&infin;' };
     const sections = { atwill: -20, innate: -10, pact: 0.5 };
 
     const registerSection = (
       sl,
       i,
       label,
-      { prepMode = "prepared", value, max, override } = {}
+      { prepMode = 'prepared', value, max, override } = {}
     ) => {
       const aeOverride = foundry.utils.hasProperty(
         context.actor.overrides,
@@ -67,15 +84,15 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
         label: label,
         usesSlots: i > 0,
         canCreate: owner,
-        canPrepare: context.actor.type === "character" && i >= 1,
+        canPrepare: context.actor.type === 'character' && i >= 1,
         spells: [],
         uses: useLabels[i] || value || 0,
         slots: useLabels[i] || max || 0,
         override: override || 0,
         dataset: {
-          type: "spell",
+          type: 'spell',
           level: prepMode in sections ? 1 : i,
-          "preparation.mode": prepMode,
+          'preparation.mode': prepMode,
         },
         prop: sl,
         editable: context.editable && !aeOverride,
@@ -92,9 +109,9 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
       });
       context.itemContext[maneuver.id].toggleTitle =
         CONFIG.DND5E.spellPreparationModes.always;
-      context.itemContext[maneuver.id].toggleClass = "fixed";
+      context.itemContext[maneuver.id].toggleClass = 'fixed';
 
-      const mode = "always";
+      const mode = 'always';
       let p = maneuver.system.degree;
       const pl = `spell${p}`;
 
@@ -122,11 +139,11 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
       // Add the power to the relevant heading
       spellbook[p].spells.push(maneuver);
     });
-    const spellList = html.find(".spellbook");
-    const template = "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs";
+    const spellList = html.find('.spellbook');
+    const template = 'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs';
     renderTemplate(template, context).then((partial) => {
       spellList.html(partial);
-      let ep = app.actor.getFlag(moduleID, "ep");
+      let ep = app.actor.getFlag(moduleID, 'ep');
       if (ep && context.isCharacter) {
         const ppContext = {
           ep: ep.value,
@@ -136,7 +153,7 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
           `/modules/a5e-for-dnd5e/templates/ep-partial.hbs`,
           ppContext
         ).then((exertionHeader) => {
-          spellList.find(".inventory-list").prepend(exertionHeader);
+          spellList.find('.inventory-list').prepend(exertionHeader);
         });
       }
       app.activateListeners(spellList);
@@ -152,8 +169,8 @@ Hooks.on("renderActorSheet5e", (app, html, context) => {
 function hasExertionPool(actor) {
   for (const cls of Object.values(actor.classes)) {
     if (
-      cls.spellcasting.type === "maneuvers" ||
-      cls.spellcasting.progression === "herald"
+      cls.spellcasting.type === 'maneuvers' ||
+      cls.spellcasting.progression === 'herald'
     )
       return true;
   }
@@ -166,16 +183,16 @@ function hasExertionPool(actor) {
  */
 
 Hooks.on(
-  "dnd5e.computeManeuversProgression",
+  'dnd5e.computeManeuversProgression',
   (progression, actor, cls, spellcasting, count) => {
     if (
-      spellcasting.type !== "maneuvers" &&
-      spellcasting.progression !== "herald"
+      spellcasting.type !== 'maneuvers' &&
+      spellcasting.progression !== 'herald'
     )
       return true;
-    const prof = foundry.utils.getProperty(actor, "system.attributes.prof");
-    const max = spellcasting.progression === "default" ? 2 * prof : 0;
-    let ep = actor.getFlag(moduleID, "ep");
+    const prof = foundry.utils.getProperty(actor, 'system.attributes.prof');
+    const max = spellcasting.progression === 'default' ? 2 * prof : 0;
+    let ep = actor.getFlag(moduleID, 'ep');
     if (ep) ep.max = Math.max(max, ep.max);
     else ep = { value: max, max };
     const flags = {
@@ -243,11 +260,11 @@ Hooks.on(
  *
  */
 
-Hooks.on("dnd5e.preRestCompleted", (actor, result) => {
+Hooks.on('dnd5e.preRestCompleted', (actor, result) => {
   result.updateData[`flags.${moduleID}.ep.value`] = actor.getFlag(
     moduleID,
-    "ep"
-  )["max"];
+    'ep'
+  )['max'];
 });
 
 // /**

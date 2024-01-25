@@ -1,6 +1,13 @@
 {
-  "TYPES.Item.a5e-for-dnd5e.maneuver": "Combat Maneuver",
   "a5e-for-dnd5e": {
+    "Culture": {
+      "Name": "Culture Name",
+      "SheetLabel": "Default Culture Sheet"
+    },
+    "Destiny": {
+      "Name": "Destiny Name",
+      "SheetLabel": "Default Destiny Sheet"
+    },
     "Maneuver": {
       "Label": "Combat Maneuvers",
       "SheetLabel": "Default Maneuver Sheet",
@@ -62,5 +69,17 @@
       "Trip": "Trip",
       "Vicious": "Vicious"
     }
+  },
+  "TYPES.Item": {
+    "a5e-for-dnd5e": {
+      "culture": "Culture",
+      "culturePl": "Cultures",
+      "destiny": "Destiny",
+      "destinyPl": "Destinies",
+      "maneuver": "Combat Maneuver",
+      "maneuverPl": "Combat Maneuvers"
+    },
+    "race": "Heritage",
+    "racePl": "Heritages"
   }
 }

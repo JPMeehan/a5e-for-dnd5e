@@ -1,8 +1,14 @@
 export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
+  /**
+   * @override
+   */
   get template() {
     return `/modules/a5e-for-dnd5e/templates/maneuver-sheet.hbs`;
   }
 
+  /**
+   * @override
+   */
   async getData(options = {}) {
     const context = await super.getData(options);
     context.maneuvers = CONFIG.A5E.MANEUVERS;
@@ -31,6 +37,10 @@ export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
     return context;
   }
 
+  /**
+   * @param {number} ep Exertion point count
+   * @returns Pluralized string
+   */
   epText(ep) {
     return `${ep} ${
       ep === 1
