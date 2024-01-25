@@ -26,12 +26,6 @@ Hooks.once('init', () => {
       label: `${moduleID}.${name}.SheetLabel`,
     });
   }
-
-  // Items.registerSheet('maneuver', SheetClasses.Maneuver, {
-  //   types: [moduleTypes.maneuver],
-  //   makeDefault: true,
-  //   label: `${moduleID}.Maneuver.SheetLabel`,
-  // });
 });
 
 Hooks.once('i18nInit', () => _localizeHelper(CONFIG.A5E));
@@ -266,42 +260,3 @@ Hooks.on('dnd5e.preRestCompleted', (actor, result) => {
     'ep'
   )['max'];
 });
-
-// /**
-//  *
-//  * SPELLCASTING TABLE
-//  *
-//  */
-
-// Hooks.on(
-//   "dnd5e.buildPsionicsSpellcastingTable",
-//   (table, item, spellcasting) => {
-//     table.headers = [
-//       [
-//         { content: game.i18n.localize("PrimePsionics.PP") },
-//         { content: game.i18n.localize("PrimePsionics.PsiLimit") },
-//       ],
-//     ];
-
-//     table.cols = [{ class: "spellcasting", span: 2 }];
-
-//     for (const level of Array.fromRange(CONFIG.DND5E.maxLevel, 1)) {
-//       const progression = { psionics: 0 };
-//       spellcasting.levels = level;
-//       globalThis.dnd5e.documents.Actor5e.computeClassProgression(
-//         progression,
-//         item,
-//         { spellcasting }
-//       );
-
-//       const pp = CONFIG.PSIONICS.ppProgression[progression.psionics] || "—";
-//       const limit =
-//         Math.ceil(Math.min(progression.psionics, 10) / 2) * 2 || "—";
-
-//       table.rows.push([
-//         { class: "spell-slots", content: `${pp}` },
-//         { class: "spell-slots", content: `${limit}` },
-//       ]);
-//     }
-//   }
-// );
