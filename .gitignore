@@ -1,3 +1,12 @@
+## Code links
+
+foundry
+
+dnd5e
+
+
+## Packs
+
 packs/**/*.log
 packs/**/*.old
 packs/**/*.ldb
@@ -8,6 +17,9 @@ packs/**/LOG
 packs/**/MANIFEST-*
 *.lock
 src/packs-origin/**
+
+## Build artifacts
+
 tools/__pycache__
 node_modules/
 *.map
