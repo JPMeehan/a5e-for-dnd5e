@@ -88,7 +88,39 @@ A5ECONFIG.DND5E.featureTypes = {
   },
   class: {
     subtypes: {
+      /** Adept */
       practicedTechnique: 'DND5E.ClassFeature.PracticedTechnique',
+      focusFeature: 'DND5E.ClassFeature.FocusFeature',
+      /** Artificer */
+      fieldDiscovery: 'DND5E.ClassFeature.FieldDiscovery',
+      /** Bard */
+      battleHymn: 'DND5E.ClassFeature.BattleHymn',
+      /** Berserker */
+      developedTalent: 'DND5E.ClassFeature.DevelopedTalent',
+      furiousCritical: 'DND5E.ClassFeature.FuriousCritical',
+      /** Cleric */
+      faithSign: 'DND5E.ClassFeature.FaithSign',
+      /** Druid */
+      natureSecret: 'DND5E.ClassFeature.NatureSecret',
+      /** Fighter */
+      soldieringKnack: 'DND5E.ClassFeature.SoldieringKnack',
+      /** Herald */
+      divineLesson: 'DND5E.ClassFeature.DivineLesson',
+      /** Marshal */
+      warLesson: 'DND5E.ClassFeature.WarLesson',
+      /** Ranger */
+      explorationKnack: 'DND5E.ClassFeature.ExplorationKnack',
+      /** Rogue */
+      skillTrick: 'DND5E.ClassFeature.SkillTrick',
+      /** Savant */
+      cleverScheme: 'DND5E.ClassFeature.CleverScheme',
+      savantTrick: 'DND5E.ClassFeature.SavantTrick',
+      /** Sorcerer */
+      arcaneInnovation: 'DND5E.ClassFeature.ArcaneInnovation',
+      /** Warlock (note: Eldritch Invocation is base 5e) */
+      secretArcana: 'DND5E.ClassFeature.SecretArcana',
+      /** Wizard */
+      electiveStudy: 'DND5E.ClassFeature.ElectiveStudy',
     },
   },
 };
