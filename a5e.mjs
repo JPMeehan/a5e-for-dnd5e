@@ -49,6 +49,49 @@ function _localizeHelper(object) {
 
 /**
  *
+ * INLINE CULTURE AND DESTINY DISPLAY
+ *
+ */
+
+Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
+  const newFeatures = [
+    context.features[0],
+    {
+      dataset: { type: moduleTypes.culture },
+      hasActions: false,
+      items: [],
+      label: `TYPES.Item.${moduleTypes.culture}`,
+    },
+    context.features[1],
+    {
+      dataset: { type: moduleTypes.destiny },
+      hasActions: false,
+      items: [],
+      label: `TYPES.Item.${moduleTypes.destiny}`,
+    },
+    ...context.features.slice(2),
+  ];
+  /** @type {Actor} */
+  const actor = app.actor;
+  /** @type {Item} */
+  const culture = actor.itemTypes[moduleTypes.culture][0];
+  if (culture) newFeatures[1].items.push(culture);
+  /** @type {Item} */
+  const destiny = actor.itemTypes[moduleTypes.destiny][0];
+  if (destiny) newFeatures[3].items.push(destiny);
+
+  const featureList = html.find('.features');
+  const template = 'systems/dnd5e/templates/actors/parts/actor-features.hbs';
+  renderTemplate(template, { ...context, sections: newFeatures }).then(
+    (partial) => {
+      featureList.html(partial);
+      app.activateListeners(featureList);
+    }
+  );
+});
+
+/**
+ *
  * INLINE MANEUVER DISPLAY
  *
  */
