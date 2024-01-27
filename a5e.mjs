@@ -88,6 +88,13 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
       app.activateListeners(featureList);
     }
   );
+
+  const exhaustion = html.find('.exhaustion');
+  renderTemplate('/modules/a5e-for-dnd5e/templates/stress-partial.hbs', {
+    stress: actor.getFlag(moduleID, 'stress'),
+  }).then((partial) => {
+    exhaustion.after(partial);
+  });
 });
 
 /**
