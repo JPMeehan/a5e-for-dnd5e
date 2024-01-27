@@ -4,5 +4,10 @@
     "target": "ES6"
   },
   "exclude": ["node_modules", "**/node_modules/*"],
-  "include": ["src/**/*", "dnd5e/**/*", "foundry/**/*"]
+  "include": [
+    "a5e.mjs",
+    "src/module/**/*.mjs",
+    "dnd5e/**/*.mjs",
+    "foundry/**/*.js"
+  ]
 }

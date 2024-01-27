@@ -30,6 +30,10 @@ Hooks.once('init', () => {
 
 Hooks.once('i18nInit', () => _localizeHelper(CONFIG.A5E));
 
+/**
+ * Re-implementation of dnd5e's Localization Helper for this module
+ * @param {Record<string, string | Record<string, string>>} object
+ */
 function _localizeHelper(object) {
   for (const [key, value] of Object.entries(object)) {
     switch (typeof value) {
