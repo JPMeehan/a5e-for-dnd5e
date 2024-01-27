@@ -95,6 +95,13 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
   }).then((partial) => {
     exhaustion.after(partial);
   });
+
+  const characteristics = html.find('.characteristics');
+  renderTemplate('modules/a5e-for-dnd5e/templates/prestige-partial.hbs', {
+    prestige: actor.getFlag(moduleID, 'prestige'),
+  }).then((partial) => {
+    characteristics.prepend(partial);
+  });
 });
 
 /**
