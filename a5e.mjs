@@ -20,7 +20,7 @@ Hooks.once('init', () => {
 
   for (const [name, sheetClass] of Object.entries(SheetClasses)) {
     const type = name.toLowerCase();
-    Items.registerSheet(type, sheetClass, {
+    Items.registerSheet(moduleID, sheetClass, {
       types: [moduleTypes[type]],
       makeDefault: true,
       label: `${moduleID}.${name}.SheetLabel`,
