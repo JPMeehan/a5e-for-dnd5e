@@ -4,4 +4,22 @@
       width: 30px;
     }
   }
+  .prestige {
+    display: flex;
+    input {
+      font-weight: 400;
+
+      &[type='text'] {
+        flex: 0 0 80%;
+        font-size: 13px;
+        border: 1px solid #c9c7b8;
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      &[type='number'] {
+        flex: 0 0 20%;
+        font-size: 24px;
+        text-align: center;
+      }
+    }
+  }
 }

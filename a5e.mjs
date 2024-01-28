@@ -99,6 +99,7 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
   const characteristics = html.find('.characteristics');
   renderTemplate('modules/a5e-for-dnd5e/templates/prestige-partial.hbs', {
     prestige: actor.getFlag(moduleID, 'prestige'),
+    prestigeCenter: actor.getFlag(moduleID, 'prestigeCenter'),
   }).then((partial) => {
     characteristics.prepend(partial);
   });
