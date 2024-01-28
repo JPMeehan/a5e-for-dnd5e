@@ -135,7 +135,7 @@ Hooks.on(
 
 Hooks.on('renderProficiencyConfig', a5eHooks.expertiseDice.configSkillTool);
 
-Hooks.on('renderDialog', a5eHooks.expertiseDice.rollConfig);
+// Hooks.on('renderDialog', a5eHooks.expertiseDice.rollConfig);
 
 /**
  * MANEUVERS
