@@ -5,6 +5,7 @@
     "build:spells": "npm run build:A5Eto5E -- spells && npm run build:A5Eto5E -- rareSpells && node ./tools/spellFolders.mjs",
     "build:equipment": "npm run build:A5Eto5E -- adventuringGear",
     "build": "gulp buildAll",
+    "build:css": "gulp sass",
     "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
     "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"
   },
