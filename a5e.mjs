@@ -137,6 +137,9 @@ Hooks.on('renderProficiencyConfig', a5eHooks.expertiseDice.configSkillTool);
 
 // Hooks.on('renderDialog', a5eHooks.expertiseDice.rollConfig);
 
+Hooks.on('dnd5e.preRollToolCheck', a5eHooks.expertiseDice.applyExpertDie);
+Hooks.on('dnd5e.preRollSkillCheck', a5eHooks.expertiseDice.applyExpertDie);
+
 /**
  * MANEUVERS
  */

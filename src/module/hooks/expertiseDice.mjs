@@ -64,3 +64,17 @@ export function rollConfig(app, html, context) {
     html.height(html.height() + edPartialHeight);
   });
 }
+
+/**
+ *
+ * @param {Actor} actor
+ * @param {import("../../../dnd5e/module/dice/dice.mjs").D20RollConfiguration} rollData
+ * @param {string} id
+ */
+export function applyExpertDie(actor, rollData, id) {
+  /** @type {Record<string, number>} */
+  const ed = actor.getFlag(moduleID, 'ed') ?? {};
+  rollData.parts.push('@expertDie');
+  rollData.data['expertDie'] = CONFIG.A5E.expertiseDie[ed[id]];
+  console.log(rollData);
+}
