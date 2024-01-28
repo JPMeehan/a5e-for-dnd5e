@@ -1,6 +1,7 @@
 import A5ECONFIG from './src/module/config.mjs';
 import * as DataClasses from './src/module/data/_module.mjs';
 import * as SheetClasses from './src/module/apps/_module.mjs';
+import * as a5ehooks from './src/module/hooks/_module.mjs';
 
 const moduleID = 'a5e-for-dnd5e';
 const moduleTypes = {
@@ -49,72 +50,93 @@ function _localizeHelper(object) {
 
 /**
  *
- * INLINE CULTURE AND DESTINY DISPLAY
+ * INLINE CHARACTER SHEET DISPLAY
+ * FATIGUE AND STRESS
+ * CULTURES
+ * DESTINIES
+ * PRESTIGE
+ */
+
+Hooks.on(
+  'renderActorSheet5eCharacter',
+  /**
+   *
+   * @param {ActorSheet} app
+   * @param {JQuery} html
+   * @param {object} context
+   */
+  (app, html, context) => {
+    const newFeatures = [
+      context.features[0],
+      {
+        dataset: { type: moduleTypes.culture },
+        hasActions: false,
+        items: [],
+        label: `TYPES.Item.${moduleTypes.culture}`,
+      },
+      context.features[1],
+      {
+        dataset: { type: moduleTypes.destiny },
+        hasActions: false,
+        items: [],
+        label: `TYPES.Item.${moduleTypes.destiny}`,
+      },
+      ...context.features.slice(2),
+    ];
+
+    const actor = app.actor;
+    /** @type {Item} */
+    const culture = actor.itemTypes[moduleTypes.culture][0];
+    if (culture) newFeatures[1].items.push(culture);
+    /** @type {Item} */
+    const destiny = actor.itemTypes[moduleTypes.destiny][0];
+    if (destiny) newFeatures[3].items.push(destiny);
+
+    const featureList = html.find('.features');
+    const template = 'systems/dnd5e/templates/actors/parts/actor-features.hbs';
+    renderTemplate(template, { ...context, sections: newFeatures }).then(
+      (partial) => {
+        featureList.html(partial);
+        app.activateListeners(featureList);
+      }
+    );
+
+    const exhaustion = html.find('.exhaustion');
+    renderTemplate('/modules/a5e-for-dnd5e/templates/stress-partial.hbs', {
+      stress: actor.getFlag(moduleID, 'stress'),
+    }).then((partial) => {
+      exhaustion.after(partial);
+    });
+
+    const characteristics = html.find('.characteristics');
+    renderTemplate('modules/a5e-for-dnd5e/templates/prestige-partial.hbs', {
+      prestige: actor.getFlag(moduleID, 'prestige'),
+      prestigeCenter: actor.getFlag(moduleID, 'prestigeCenter'),
+    }).then((partial) => {
+      characteristics.prepend(partial);
+
+      /** Roll Listener */
+      characteristics.on('click', '.prestige-roll', (_e) => {
+        game.dnd5e.dice.d20Roll({
+          parts: ['@prestige'],
+          data: { prestige: actor.getFlag(moduleID, 'prestige') },
+          title: game.i18n.localize('a5e-for-dnd5e.Prestige.check'),
+          messageData: {
+            speaker: { actor },
+          },
+        });
+      });
+    });
+  }
+);
+
+/**
+ *
+ * Expertise Dice
  *
  */
 
-Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
-  const newFeatures = [
-    context.features[0],
-    {
-      dataset: { type: moduleTypes.culture },
-      hasActions: false,
-      items: [],
-      label: `TYPES.Item.${moduleTypes.culture}`,
-    },
-    context.features[1],
-    {
-      dataset: { type: moduleTypes.destiny },
-      hasActions: false,
-      items: [],
-      label: `TYPES.Item.${moduleTypes.destiny}`,
-    },
-    ...context.features.slice(2),
-  ];
-  /** @type {Actor} */
-  const actor = app.actor;
-  /** @type {Item} */
-  const culture = actor.itemTypes[moduleTypes.culture][0];
-  if (culture) newFeatures[1].items.push(culture);
-  /** @type {Item} */
-  const destiny = actor.itemTypes[moduleTypes.destiny][0];
-  if (destiny) newFeatures[3].items.push(destiny);
-
-  const featureList = html.find('.features');
-  const template = 'systems/dnd5e/templates/actors/parts/actor-features.hbs';
-  renderTemplate(template, { ...context, sections: newFeatures }).then(
-    (partial) => {
-      featureList.html(partial);
-      app.activateListeners(featureList);
-    }
-  );
-
-  const exhaustion = html.find('.exhaustion');
-  renderTemplate('/modules/a5e-for-dnd5e/templates/stress-partial.hbs', {
-    stress: actor.getFlag(moduleID, 'stress'),
-  }).then((partial) => {
-    exhaustion.after(partial);
-  });
-
-  const characteristics = html.find('.characteristics');
-  renderTemplate('modules/a5e-for-dnd5e/templates/prestige-partial.hbs', {
-    prestige: actor.getFlag(moduleID, 'prestige'),
-    prestigeCenter: actor.getFlag(moduleID, 'prestigeCenter'),
-  }).then((partial) => {
-    characteristics.prepend(partial);
-
-    characteristics.on('click', '.prestige-roll', (e) => {
-      game.dnd5e.dice.d20Roll({
-        parts: ['@prestige'],
-        data: { prestige: actor.getFlag(moduleID, 'prestige') },
-        title: game.i18n.localize('a5e-for-dnd5e.Prestige.check'),
-        messageData: {
-          speaker: { actor },
-        },
-      });
-    });
-  });
-});
+Hooks.on('renderProficiencyConfig', a5ehooks.expertiseDice.sheetConfig);
 
 /**
  *
@@ -122,127 +144,8 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
  *
  */
 
-Hooks.on('renderActorSheet5e', (app, html, context) => {
-  if (!game.user.isGM && app.actor.limited) return true;
-  if (context.isCharacter || context.isNPC) {
-    const owner = context.actor.isOwner;
-    let maneuvers = context.items.filter(
-      (i) => i.type === moduleTypes.maneuver
-    );
-    maneuvers = app._filterItems(maneuvers, app._filters.spellbook);
-    if (!maneuvers.length && !hasExertionPool(app.actor)) return true;
-    const levels = context.system.spells;
-    const spellbook = context.spellbook;
-    const useLabels = { '-20': '-', '-10': '-', 0: '&infin;' };
-    const sections = { atwill: -20, innate: -10, pact: 0.5 };
+Hooks.on('renderActorSheet5e', a5ehooks.maneuvers.inlineManeuverDisplay);
 
-    const registerSection = (
-      sl,
-      i,
-      label,
-      { prepMode = 'prepared', value, max, override } = {}
-    ) => {
-      const aeOverride = foundry.utils.hasProperty(
-        context.actor.overrides,
-        `system.spells.spell${i}.override`
-      );
-      spellbook[i] = {
-        order: i,
-        label: label,
-        usesSlots: i > 0,
-        canCreate: owner,
-        canPrepare: context.actor.type === 'character' && i >= 1,
-        spells: [],
-        uses: useLabels[i] || value || 0,
-        slots: useLabels[i] || max || 0,
-        override: override || 0,
-        dataset: {
-          type: 'spell',
-          level: prepMode in sections ? 1 : i,
-          'preparation.mode': prepMode,
-        },
-        prop: sl,
-        editable: context.editable && !aeOverride,
-      };
-    };
-
-    maneuvers.forEach((maneuver) => {
-      if (maneuver.system.usesExertion)
-        maneuver.system.labels.ep = maneuver.sheet.epText(
-          maneuver.system.consume.amount
-        );
-      foundry.utils.mergeObject(maneuver, {
-        labels: maneuver.system.labels,
-      });
-      context.itemContext[maneuver.id].toggleTitle =
-        CONFIG.DND5E.spellPreparationModes.always;
-      context.itemContext[maneuver.id].toggleClass = 'fixed';
-
-      const mode = 'always';
-      let p = maneuver.system.degree;
-      const pl = `spell${p}`;
-
-      if (mode in sections) {
-        p = sections[mode];
-        if (!spellbook[p]) {
-          const l = levels[mode] || {};
-          const config = CONFIG.DND5E.spellPreparationModes[mode];
-          registerSection(mode, p, config, {
-            prepMode: mode,
-            value: l.value,
-            max: l.max,
-            override: l.override,
-          });
-        }
-      }
-
-      // Known bug: This breaks if there's a mix of spells and maneuvers WITHOUT spellcaster levels
-      else if (!spellbook[p]) {
-        registerSection(pl, p, CONFIG.DND5E.spellLevels[p], {
-          levels: levels[pl],
-        });
-      }
-
-      // Add the power to the relevant heading
-      spellbook[p].spells.push(maneuver);
-    });
-    const spellList = html.find('.spellbook');
-    const template = 'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs';
-    renderTemplate(template, context).then((partial) => {
-      spellList.html(partial);
-      let ep = app.actor.getFlag(moduleID, 'ep');
-      if (ep && context.isCharacter) {
-        const ppContext = {
-          ep: ep.value,
-          epMax: ep.max,
-        };
-        renderTemplate(
-          `/modules/a5e-for-dnd5e/templates/ep-partial.hbs`,
-          ppContext
-        ).then((exertionHeader) => {
-          spellList.find('.inventory-list').prepend(exertionHeader);
-        });
-      }
-      app.activateListeners(spellList);
-    });
-  } else return true;
-});
-
-/**
- * Determines if an actor has exertion points
- * @param {object} actor  The character
- * @returns {boolean}     Whether or not the character has an exertion pool
- */
-function hasExertionPool(actor) {
-  for (const cls of Object.values(actor.classes)) {
-    if (
-      cls.spellcasting.type === 'maneuvers' ||
-      cls.spellcasting.progression === 'herald'
-    )
-      return true;
-  }
-  return false;
-}
 /**
  *
  * CALCULATE MAX EXERTION POINTS
@@ -251,23 +154,7 @@ function hasExertionPool(actor) {
 
 Hooks.on(
   'dnd5e.computeManeuversProgression',
-  (progression, actor, cls, spellcasting, count) => {
-    if (
-      spellcasting.type !== 'maneuvers' &&
-      spellcasting.progression !== 'herald'
-    )
-      return true;
-    const prof = foundry.utils.getProperty(actor, 'system.attributes.prof');
-    const max = spellcasting.progression === 'default' ? 2 * prof : 0;
-    let ep = actor.getFlag(moduleID, 'ep');
-    if (ep) ep.max = Math.max(max, ep.max);
-    else ep = { value: max, max };
-    const flags = {
-      [moduleID]: { ep },
-    };
-    foundry.utils.mergeObject(actor.flags, flags);
-    // actor.setFlag(moduleID, "ep", ep)
-  }
+  a5ehooks.maneuvers.maxExertionPoints
 );
 
 /**
@@ -327,9 +214,4 @@ Hooks.on(
  *
  */
 
-Hooks.on('dnd5e.preRestCompleted', (actor, result) => {
-  result.updateData[`flags.${moduleID}.ep.value`] = actor.getFlag(
-    moduleID,
-    'ep'
-  )['max'];
-});
+Hooks.on('dnd5e.preRestCompleted', a5ehooks.maneuvers.resetEP);

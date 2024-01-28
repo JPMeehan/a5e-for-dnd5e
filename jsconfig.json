@@ -4,5 +4,8 @@
     "target": "ES6"
   },
   "exclude": ["node_modules", "**/node_modules/*"],
-  "include": ["a5e.mjs", "dnd5e/**/*.mjs", "foundry/**/*.js"]
+  "include": ["a5e.mjs", "dnd5e/**/*.mjs", "foundry/**/*.js"],
+  "typeAcquisition": {
+    "include": ["jquery"]
+  }
 }

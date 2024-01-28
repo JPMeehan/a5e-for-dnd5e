@@ -1,5 +1,11 @@
 const A5ECONFIG = {
   A5E: {
+    EXPERTISEDIE: {
+      0: '',
+      1: '1d4',
+      2: '1d6',
+      3: '1d8',
+    },
     MANEUVERS: {
       degree: {
         0: 'a5e-for-dnd5e.Maneuver.Degrees.0',
