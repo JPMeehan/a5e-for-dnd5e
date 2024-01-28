@@ -25,6 +25,18 @@ const A5ECONFIG = {
     },
   },
   DND5E: {
+    skills: {
+      cul: {
+        ability: 'int',
+        fullKey: 'culture',
+        label: 'DND5E.SkillCul',
+      },
+      eng: {
+        ability: 'int',
+        fullKey: 'engineering',
+        label: 'DND5E.SkillEng',
+      },
+    },
     specialTimePeriods: {
       stance: 'a5e-for-dnd5e.Stance',
     },
