@@ -102,6 +102,17 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
     prestigeCenter: actor.getFlag(moduleID, 'prestigeCenter'),
   }).then((partial) => {
     characteristics.prepend(partial);
+
+    characteristics.on('click', '.prestige-roll', (e) => {
+      game.dnd5e.dice.d20Roll({
+        parts: ['@prestige'],
+        data: { prestige: actor.getFlag(moduleID, 'prestige') },
+        title: game.i18n.localize('a5e-for-dnd5e.Prestige.check'),
+        messageData: {
+          speaker: { actor },
+        },
+      });
+    });
   });
 });
 
