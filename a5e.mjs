@@ -152,3 +152,10 @@ Hooks.on(
 );
 
 Hooks.on('dnd5e.preRestCompleted', a5eHooks.maneuvers.resetEP);
+
+Hooks.on(
+  'dnd5e.preItemUsageConsumption',
+  a5eHooks.maneuvers.disableConsumeResourceCheck
+);
+
+Hooks.on('dnd5e.itemUsageConsumption', a5eHooks.maneuvers.handleEPConsumption);
