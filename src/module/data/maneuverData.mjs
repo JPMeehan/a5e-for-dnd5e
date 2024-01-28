@@ -56,7 +56,7 @@ export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin
     this.labels.degree = CONFIG.A5E.MANEUVERS.degree[this.degree];
     this.labels.tradition = CONFIG.A5E.MANEUVERS.tradition[this.tradition];
     this.labels.school = CONFIG.A5E.MANEUVERS.tradition[this.tradition];
-    this.labels.ep = this.usesExertion ? 'a5e-for-5e.Maneuver.EP' : '';
+    this.labels.ep = this.usesExertion ? 'a5e-for-dnd5e.Maneuver.EP' : '';
   }
 
   /* -------------------------------------------- */
