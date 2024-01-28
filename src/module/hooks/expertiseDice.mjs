@@ -1,13 +1,13 @@
 const moduleID = 'a5e-for-dnd5e';
 
 /**
- *
+ * Adds expertise die configuration to skills and tools
  * @param {DocumentSheet} app
  * @param {JQuery} html
  * @param {object} context
  * @returns
  */
-export function sheetConfig(app, html, context) {
+export function configSkillTool(app, html, context) {
   /** @type {Actor} */
   const actor = app.document;
   if (actor.documentName !== 'Actor') return;
@@ -23,4 +23,19 @@ export function sheetConfig(app, html, context) {
     // Insert before check bonus
     html.find('.form-group:nth-child(4)').after(partial);
   });
+}
+
+/**
+ *
+ * @param {Dialog} app
+ * @param {JQuery} html
+ * @param {*} context
+ */
+export function rollConfig(app, html, context) {
+  // Validate this is a roll dialog
+
+  // Locate situational bonus
+  const sitBonus = html.find('.form-group:nth-child(3)');
+
+  // Stick the extra info right before the sit bonus
 }

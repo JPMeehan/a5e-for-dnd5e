@@ -136,7 +136,7 @@ Hooks.on(
  *
  */
 
-Hooks.on('renderProficiencyConfig', a5ehooks.expertiseDice.sheetConfig);
+Hooks.on('renderProficiencyConfig', a5ehooks.expertiseDice.configSkillTool);
 
 /**
  *
