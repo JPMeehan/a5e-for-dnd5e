@@ -176,7 +176,7 @@ export function maxExertionPoints(
 }
 
 /**
- *
+ * Reset an actor's exertion points on a long rest
  * @param {Actor} actor
  * @param {*} result
  */
@@ -186,3 +186,54 @@ export function resetEP(actor, result) {
     'ep'
   )['max'];
 }
+
+/**
+ *
+ * ITEM USAGE HANDLING
+ *
+ */
+
+// Hooks.on("renderAbilityUseDialog", (dialog, html, data) => {
+//   if (!dialog.item.system.usesExertion) return;
+
+//   const content = game.i18n.format("PrimePsionics.PPManifest", {
+//     limit: dialog.item.parent.getFlag("prime-psionics", "manifestLimit"),
+//   });
+//   const input = `<input type=number class="psi-points" name="ppSpend" value="${dialog.item.system.consume.amount}" min="${dialog.item.system.consume.amount}">`;
+
+//   html.find("#ability-use-form").append("<div>" + content + input + "</div>");
+//   html.height(html.height() + 10);
+//   html.find("input[name='consumeResource']").parents(".form-group").remove();
+// });
+
+// Hooks.on("dnd5e.preItemUsageConsumption", (item, config, options) => {
+//   if (!usesPP(item.system.consume)) return;
+//   config.consumeResource = false;
+// });
+
+// Hooks.on("dnd5e.itemUsageConsumption", (item, config, options, usage) => {
+//   if (!usesPP(item.system.consume)) return;
+//   options.ppSpend = config.ppSpend;
+//   const currentPP = item.parent.getFlag("prime-psionics", "pp")["value"];
+//   const newPP = currentPP - config.ppSpend;
+//   if (newPP >= 0) usage.actorUpdates["flags.prime-psionics.pp.value"] = newPP;
+//   else {
+//     ui.notifications.warn(game.i18n.localize("PrimePsionics.TooManyPP"));
+//     return false;
+//   }
+// });
+
+// Hooks.on("dnd5e.preDisplayCard", (item, chatData, options) => {
+//   if (!usesPP(item.system.consume)) return;
+//   chatData.content = chatData.content.replace(
+//     "PrimePsionics.PP",
+//     ppText(options.ppSpend)
+//   );
+//   chatData.flags["prime-psionics"] = { ppSpend: options.ppSpend };
+// });
+
+// Hooks.on("renderChatMessage", (app, html, context) => {
+//   const ppSpend = app.getFlag("prime-psionics", "ppSpend");
+//   if (ppSpend === undefined) return;
+//   html.find("button[data-action='damage']")[0].dataset["ppspend"] = ppSpend;
+// });

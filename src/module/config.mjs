@@ -1,6 +1,6 @@
-const A5ECONFIG = {
+const A5E_CONFIG = {
   A5E: {
-    EXPERTISEDIE: {
+    expertiseDie: {
       0: '',
       1: '1d4',
       2: '1d6',
@@ -75,7 +75,7 @@ const A5ECONFIG = {
  * The set of weapon property flags which can exist on a weapon.
  * @enum {string}
  */
-A5ECONFIG.DND5E.weaponProperties = {
+A5E_CONFIG.DND5E.weaponProperties = {
   burn: 'a5e-for-dnd5e.WeaponProperty.Burn',
   breaker: 'a5e-for-dnd5e.WeaponProperty.Breaker',
   compounding: 'a5e-for-dnd5e.WeaponProperty.Compounding',
@@ -97,7 +97,7 @@ A5ECONFIG.DND5E.weaponProperties = {
   vicious: 'a5e-for-dnd5e.WeaponProperty.Vicious',
 };
 
-A5ECONFIG.DND5E.featureTypes = {
+A5E_CONFIG.DND5E.featureTypes = {
   culture: {
     label: 'DND5E.Feature.Culture',
   },
@@ -143,4 +143,4 @@ A5ECONFIG.DND5E.featureTypes = {
   },
 };
 
-export default A5ECONFIG;
+export default A5E_CONFIG;

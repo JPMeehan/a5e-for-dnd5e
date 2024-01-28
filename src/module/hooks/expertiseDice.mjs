@@ -18,10 +18,11 @@ export function configSkillTool(app, html, context) {
   renderTemplate(template, {
     key: context.key,
     dice: ed[context.key] ?? 0,
-    config: CONFIG.A5E.EXPERTISEDIE,
+    config: CONFIG.A5E.expertiseDie,
   }).then((partial) => {
     // Insert before check bonus
     html.find('.form-group:nth-child(4)').after(partial);
+    html.height(html.height() + 10);
   });
 }
 

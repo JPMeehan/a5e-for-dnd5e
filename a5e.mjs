@@ -1,7 +1,7 @@
-import A5ECONFIG from './src/module/config.mjs';
+import A5E_CONFIG from './src/module/config.mjs';
 import * as DataClasses from './src/module/data/_module.mjs';
 import * as SheetClasses from './src/module/apps/_module.mjs';
-import * as a5ehooks from './src/module/hooks/_module.mjs';
+import * as a5eHooks from './src/module/hooks/_module.mjs';
 
 const moduleID = 'a5e-for-dnd5e';
 const moduleTypes = {
@@ -11,7 +11,7 @@ const moduleTypes = {
 };
 
 Hooks.once('init', () => {
-  foundry.utils.mergeObject(CONFIG, A5ECONFIG);
+  foundry.utils.mergeObject(CONFIG, A5E_CONFIG);
 
   Object.assign(CONFIG.Item.dataModels, {
     [moduleTypes.culture]: DataClasses.Culture,
@@ -49,12 +49,11 @@ function _localizeHelper(object) {
 }
 
 /**
- *
  * INLINE CHARACTER SHEET DISPLAY
- * FATIGUE AND STRESS
- * CULTURES
- * DESTINIES
- * PRESTIGE
+ * - Fatigue and Stress
+ * - Culture
+ * - Destiny
+ * - Prestige
  */
 
 Hooks.on(
@@ -131,87 +130,22 @@ Hooks.on(
 );
 
 /**
- *
- * Expertise Dice
- *
+ * EXPERTISE DICE
  */
 
-Hooks.on('renderProficiencyConfig', a5ehooks.expertiseDice.configSkillTool);
+Hooks.on('renderProficiencyConfig', a5eHooks.expertiseDice.configSkillTool);
+
+Hooks.on('renderDialog', a5eHooks.expertiseDice.rollConfig);
 
 /**
- *
- * INLINE MANEUVER DISPLAY
- *
+ * MANEUVERS
  */
 
-Hooks.on('renderActorSheet5e', a5ehooks.maneuvers.inlineManeuverDisplay);
-
-/**
- *
- * CALCULATE MAX EXERTION POINTS
- *
- */
+Hooks.on('renderActorSheet5e', a5eHooks.maneuvers.inlineManeuverDisplay);
 
 Hooks.on(
   'dnd5e.computeManeuversProgression',
-  a5ehooks.maneuvers.maxExertionPoints
+  a5eHooks.maneuvers.maxExertionPoints
 );
 
-/**
- *
- * ITEM USAGE HANDLING
- *
- */
-
-// Hooks.on("renderAbilityUseDialog", (dialog, html, data) => {
-//   if (!dialog.item.system.usesExertion) return;
-
-//   const content = game.i18n.format("PrimePsionics.PPManifest", {
-//     limit: dialog.item.parent.getFlag("prime-psionics", "manifestLimit"),
-//   });
-//   const input = `<input type=number class="psi-points" name="ppSpend" value="${dialog.item.system.consume.amount}" min="${dialog.item.system.consume.amount}">`;
-
-//   html.find("#ability-use-form").append("<div>" + content + input + "</div>");
-//   html.height(html.height() + 10);
-//   html.find("input[name='consumeResource']").parents(".form-group").remove();
-// });
-
-// Hooks.on("dnd5e.preItemUsageConsumption", (item, config, options) => {
-//   if (!usesPP(item.system.consume)) return;
-//   config.consumeResource = false;
-// });
-
-// Hooks.on("dnd5e.itemUsageConsumption", (item, config, options, usage) => {
-//   if (!usesPP(item.system.consume)) return;
-//   options.ppSpend = config.ppSpend;
-//   const currentPP = item.parent.getFlag("prime-psionics", "pp")["value"];
-//   const newPP = currentPP - config.ppSpend;
-//   if (newPP >= 0) usage.actorUpdates["flags.prime-psionics.pp.value"] = newPP;
-//   else {
-//     ui.notifications.warn(game.i18n.localize("PrimePsionics.TooManyPP"));
-//     return false;
-//   }
-// });
-
-// Hooks.on("dnd5e.preDisplayCard", (item, chatData, options) => {
-//   if (!usesPP(item.system.consume)) return;
-//   chatData.content = chatData.content.replace(
-//     "PrimePsionics.PP",
-//     ppText(options.ppSpend)
-//   );
-//   chatData.flags["prime-psionics"] = { ppSpend: options.ppSpend };
-// });
-
-// Hooks.on("renderChatMessage", (app, html, context) => {
-//   const ppSpend = app.getFlag("prime-psionics", "ppSpend");
-//   if (ppSpend === undefined) return;
-//   html.find("button[data-action='damage']")[0].dataset["ppspend"] = ppSpend;
-// });
-
-/**
- *
- * EXERTION POINT RESET ON LR
- *
- */
-
-Hooks.on('dnd5e.preRestCompleted', a5ehooks.maneuvers.resetEP);
+Hooks.on('dnd5e.preRestCompleted', a5eHooks.maneuvers.resetEP);
