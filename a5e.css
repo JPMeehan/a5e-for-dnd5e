@@ -1,16 +1,22 @@
 .dnd5e.sheet.actor .exertion-points .ep-input {
-  width: 30px; }
-
+  width: 30px;
+}
 .dnd5e.sheet.actor .prestige {
-  display: flex; }
-  .dnd5e.sheet.actor .prestige input {
-    font-weight: 400; }
-    .dnd5e.sheet.actor .prestige input[type='text'] {
-      flex: 0 0 80%;
-      font-size: 13px;
-      border: 1px solid #c9c7b8;
-      background-color: rgba(0, 0, 0, 0.05); }
-    .dnd5e.sheet.actor .prestige input[type='number'] {
-      flex: 0 0 20%;
-      font-size: 24px;
-      text-align: center; }
+  display: flex;
+}
+.dnd5e.sheet.actor .prestige input {
+  font-weight: 400;
+}
+.dnd5e.sheet.actor .prestige input[type=text] {
+  flex: 0 0 80%;
+  font-size: 13px;
+  border: 1px solid #c9c7b8;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.dnd5e.sheet.actor .prestige input[type=number] {
+  flex: 0 0 20%;
+  font-size: 24px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=a5e.css.map */

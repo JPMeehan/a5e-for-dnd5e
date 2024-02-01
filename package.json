@@ -4,17 +4,15 @@
     "build:A5Eto5E": "node ./tools/migrateFiles.mjs",
     "build:spells": "npm run build:A5Eto5E -- spells && npm run build:A5Eto5E -- rareSpells && node ./tools/spellFolders.mjs",
     "build:equipment": "npm run build:A5Eto5E -- adventuringGear",
-    "build": "gulp buildAll",
-    "build:css": "gulp sass",
+    "build:css": "sass ./src/styles/a5e.scss a5e.css",
+    "build:js": "rollup -c",
+    "build": "npm run build:css && npm run build:js",
     "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
     "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^5.1.0",
-    "node-sass": "^9.0.0",
-    "rollup": "^3.29.4"
+    "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "rollup": "^3.29.4",
+    "sass": "^1.70.0"
   }
 }
