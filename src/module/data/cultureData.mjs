@@ -1,6 +1,6 @@
 const moduleID = 'a5e-for-dnd5e';
 
-export default class CultureData extends dnd5e.dataModels.SystemDataModel.mixin(
+export default class CultureData extends dnd5e.dataModels.ItemDataModel.mixin(
   dnd5e.dataModels.item.ItemDescriptionTemplate
 ) {
   static defineSchema() {

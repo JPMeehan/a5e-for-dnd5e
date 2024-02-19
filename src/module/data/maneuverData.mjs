@@ -10,7 +10,7 @@
  * @property {string} scaling.mode               Spell scaling mode as defined in `DND5E.spellScalingModes`.
  * @property {string} scaling.formula            Dice formula used for scaling.
  */
-export default class ManeuverData extends dnd5e.dataModels.SystemDataModel.mixin(
+export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   dnd5e.dataModels.item.ItemDescriptionTemplate,
   dnd5e.dataModels.item.ActivatedEffectTemplate,
   dnd5e.dataModels.item.ActionTemplate
