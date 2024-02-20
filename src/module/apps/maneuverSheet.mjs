@@ -1,9 +1,11 @@
+import { modulePath } from '../utils.mjs';
+
 export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
   /**
    * @override
    */
   get template() {
-    return `/modules/a5e-for-dnd5e/templates/maneuver-sheet.hbs`;
+    return modulePath + 'templates/maneuver-sheet.hbs';
   }
 
   /**

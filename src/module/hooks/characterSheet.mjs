@@ -1,3 +1,5 @@
+import { modulePath } from '../utils.mjs';
+
 /**
  *
  * @param {ActorSheet} app
@@ -51,14 +53,14 @@ export function legacySheet(sheet, html, context) {
   );
 
   const exhaustion = html.find('.exhaustion');
-  renderTemplate('/modules/a5e-for-dnd5e/templates/stress-partial.hbs', {
+  renderTemplate(modulePath + 'templates/stress-partial.hbs', {
     stress: actor.getFlag(moduleID, 'stress'),
   }).then((partial) => {
     exhaustion.after(partial);
   });
 
   const characteristics = html.find('.characteristics');
-  renderTemplate('modules/a5e-for-dnd5e/templates/prestige-partial.hbs', {
+  renderTemplate(modulePath + 'templates/prestige-partial.hbs', {
     prestige: actor.getFlag(moduleID, 'prestige'),
     prestigeCenter: actor.getFlag(moduleID, 'prestigeCenter'),
   }).then((partial) => {

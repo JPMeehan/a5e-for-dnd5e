@@ -1,3 +1,5 @@
+import { modulePath } from '../utils.mjs';
+
 /**
  * Data definition for Maneuver items.
  * @mixes ItemDescriptionTemplate
@@ -39,8 +41,7 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   /*  Tooltips                                    */
   /* -------------------------------------------- */
 
-  static ITEM_TOOLTIP_TEMPLATE =
-    'modules/a5e-for-dnd5e/templates/maneuver-tooltip.hbs';
+  static ITEM_TOOLTIP_TEMPLATE = modulePath + 'templates/maneuver-tooltip.hbs';
 
   async getCardData(enrichmentOptions = {}) {
     const context = await super.getCardData(enrichmentOptions);

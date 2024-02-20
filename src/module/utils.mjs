@@ -5,6 +5,7 @@ export const CUSTOM_SHEETS = {
 };
 
 export const moduleID = 'a5e-for-dnd5e';
+export const modulePath = `modules/${moduleID}/`;
 export const moduleTypes = {
   culture: moduleID + '.culture',
   destiny: moduleID + '.destiny',

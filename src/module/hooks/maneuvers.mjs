@@ -1,4 +1,4 @@
-import { CUSTOM_SHEETS, moduleID, moduleTypes } from '../utils.mjs';
+import { CUSTOM_SHEETS, moduleID, modulePath, moduleTypes } from '../utils.mjs';
 const maneuverType = moduleTypes.maneuver;
 
 /**
@@ -140,12 +140,11 @@ export function inlineManeuverDisplay(app, html, context) {
           ep: ep.value,
           epMax: ep.max,
         };
-        renderTemplate(
-          `/modules/a5e-for-dnd5e/templates/ep-partial.hbs`,
-          ppContext
-        ).then((exertionHeader) => {
-          spellList.find('.inventory-list').prepend(exertionHeader);
-        });
+        renderTemplate(modulePath + 'templates/ep-partial.hbs', ppContext).then(
+          (exertionHeader) => {
+            spellList.find('.inventory-list').prepend(exertionHeader);
+          }
+        );
       }
 
       if (newCharacterSheet) {
@@ -155,13 +154,12 @@ export function inlineManeuverDisplay(app, html, context) {
           .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.TraditionShort'));
 
         const schoolSlots = spellList.find('.item-detail.item-school');
-        /** @type {Array<string>} */
-        const traditions = Object.values(CONFIG.A5E.MANEUVERS.traditions).map(
-          (t) => t.label
-        );
+        /** @type {Array<{label: string, icon: string}>} */
+        const traditions = Object.values(CONFIG.A5E.MANEUVERS.traditions);
         for (const div of schoolSlots) {
-          if (traditions.includes(div.dataset.tooltip)) {
-            div.innerHTML = `<dnd5e-icon src="modules/a5e-for-dnd5e/assets/icons/${div.dataset.tooltip.toLowerCase()}.svg"></dnd5e-icon>`;
+          const trad = traditions.find((t) => t.label === div.dataset.tooltip);
+          if (trad) {
+            div.innerHTML = `<dnd5e-icon src="${trad.icon}"></dnd5e-icon>`;
           }
         }
 

@@ -1,4 +1,4 @@
-import { moduleID } from '../utils.mjs';
+import { moduleID, modulePath } from '../utils.mjs';
 const edPartialHeight = 30;
 
 /**
@@ -15,9 +15,9 @@ export function configSkillTool(app, html, context) {
   /** @type {Record<string, number>} */
   const ed = actor.getFlag(moduleID, 'ed') ?? {};
 
-  const template = 'modules/a5e-for-dnd5e/templates/expertise-dice-partial.hbs';
+  const template = modulePath + 'templates/expertise-dice-partial.hbs';
   renderTemplate(template, {
-    key: 'flags.a5e-for-dnd5e.ed.' + context.key,
+    key: `flags.${moduleID}.ed.${context.key}`,
     dice: ed[context.key] ?? 0,
     config: CONFIG.A5E.expertiseDie,
   }).then((partial) => {
@@ -53,7 +53,7 @@ export function rollConfig(app, html, context) {
   // Stick the extra info right before the sit bonus
   const ed = {};
 
-  const template = 'modules/a5e-for-dnd5e/templates/expertise-dice-partial.hbs';
+  const template = modulePath + 'templates/expertise-dice-partial.hbs';
   renderTemplate(template, {
     key: 'expertDie',
     dice: ed[context.key] ?? 0,

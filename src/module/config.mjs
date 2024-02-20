@@ -1,3 +1,5 @@
+import { modulePath, moduleTypes } from './utils.mjs';
+
 const A5E_CONFIG = {
   A5E: {
     expertiseDie: {
@@ -18,57 +20,57 @@ const A5E_CONFIG = {
       tradition: {
         adm: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.adm',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/adm.svg',
           fullKey: '',
         },
         btz: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.btz',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/btz.svg',
           fullKey: '',
         },
         mgl: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.mgl',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/mgl.svg',
           fullKey: '',
         },
         mas: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.mas',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/mas.svg',
           fullKey: '',
         },
         rc: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.rc',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/rc.svg',
           fullKey: '',
         },
         rze: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.rze',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/rze.svg',
           fullKey: '',
         },
         sk: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.sk',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/sk.svg',
           fullKey: '',
         },
         ss: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.ss',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/ss.svg',
           fullKey: '',
         },
         tpi: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.tpi',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/tpi.svg',
           fullKey: '',
         },
         tac: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.tac',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/tac.svg',
           fullKey: '',
         },
         uwh: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.uwh',
-          icon: 'modules/a5e-for-dnd5e/assets/icons/',
+          icon: modulePath + 'assets/icons/traditions/uwh.svg',
           fullKey: '',
         },
       },
@@ -111,6 +113,11 @@ const A5E_CONFIG = {
           },
         },
       },
+    },
+    defaultArtwork: {
+      [moduleTypes.culture]: modulePath + 'assets/icons/subtypes/culture.svg',
+      [moduleTypes.destiny]: modulePath + 'assets/icons/subtypes/destiny.svg',
+      [moduleTypes.maneuver]: modulePath + 'assets/icons/subtypes/maneuver.svg',
     },
   },
 };
@@ -185,6 +192,14 @@ A5E_CONFIG.DND5E.featureTypes = {
       electiveStudy: 'DND5E.ClassFeature.ElectiveStudy',
     },
   },
+};
+
+A5E_CONFIG.DND5E.sourceBooks = {
+  "Adventurer's Guide": 'Level Up: Advanced 5th Edition by EN Publishing',
+  'Trials & Treasures': 'Level Up: Advanced 5th Edition by EN Publishing',
+  'Monstrous Menagerie': 'Level Up: Advanced 5th Edition by EN Publishing',
+  'Gate Pass Gazette': 'Level Up: Advanced 5th Edition by EN Publishing',
+  "Dungeon Delver's Guide": 'Level Up: Advanced 5th Edition by EN Publishing',
 };
 
 export default A5E_CONFIG;
