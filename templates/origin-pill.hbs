@@ -1,5 +1,5 @@
 {{#if item}}
-<div class="pill-lg texture item-tooltip" data-action="edit"
+<div class="pill-lg texture item-tooltip {{type}}" data-action="edit"
         data-item-id="{{ item.id }}"
         aria-label="{{#if actor.isOwner}}{{ localize "DND5E.ItemEdit" }}{{else}}{{ localize "DND5E.ItemView" }}{{/if}}">
     {{#if item.img}}

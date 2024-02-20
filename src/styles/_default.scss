@@ -1,0 +1,11 @@
+.dnd5e2.sheet.character {
+  .pill-lg {
+    &.a5e-for-dnd5e\.culture,
+    &.a5e-for-dnd5e\.destiny {
+      cursor: pointer;
+      &:hover:not(:has(a:hover)) {
+        box-shadow: 0 0 12px var(--dnd5e-color-gold);
+      }
+    }
+  }
+}

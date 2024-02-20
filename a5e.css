@@ -1,3 +1,10 @@
+.dnd5e2.sheet.character .pill-lg.a5e-for-dnd5e\.culture, .dnd5e2.sheet.character .pill-lg.a5e-for-dnd5e\.destiny {
+  cursor: pointer;
+}
+.dnd5e2.sheet.character .pill-lg.a5e-for-dnd5e\.culture:hover:not(:has(a:hover)), .dnd5e2.sheet.character .pill-lg.a5e-for-dnd5e\.destiny:hover:not(:has(a:hover)) {
+  box-shadow: 0 0 12px var(--dnd5e-color-gold);
+}
+
 .dnd5e.sheet.actor .exertion-points .ep-input {
   width: 30px;
 }
