@@ -36,11 +36,32 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   }
 
   /* -------------------------------------------- */
-  /*  Migrations                                  */
+  /*  Tooltips                                    */
   /* -------------------------------------------- */
 
-  static migrateData(source) {
-    super.migrateData(source);
+  static ITEM_TOOLTIP_TEMPLATE =
+    'modules/a5e-for-dnd5e/templates/maneuver-tooltip.hbs';
+
+  async getCardData(enrichmentOptions = {}) {
+    const context = await super.getCardData(enrichmentOptions);
+    context.maneuvers = CONFIG.A5E.MANEUVERS;
+    context.tradition = this.tradition;
+    context.isSpell = true;
+    context.tags = this.labels.components.tags;
+    context.subtitle = [
+      this.labels.degree,
+      CONFIG.A5E.MANEUVERS.tradition[this.tradition].label,
+    ].filterJoin(' &bull; ');
+    return context;
+  }
+
+  async getFavoriteData() {
+    return foundry.utils.mergeObject(await super.getFavoriteData(), {
+      subtitle: [this.parent.labels.activation],
+      modifier: this.parent.labels.modifier,
+      range: this.range,
+      save: this.save,
+    });
   }
 
   /* -------------------------------------------- */
@@ -49,12 +70,9 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
 
   prepareDerivedData() {
     this.labels = {};
-    this._prepareManeuver();
-  }
-
-  _prepareManeuver() {
     this.labels.degree = CONFIG.A5E.MANEUVERS.degree[this.degree];
-    this.labels.tradition = CONFIG.A5E.MANEUVERS.tradition[this.tradition];
+    this.labels.tradition =
+      CONFIG.A5E.MANEUVERS.tradition[this.tradition].label;
     this.labels.school = CONFIG.A5E.MANEUVERS.tradition[this.tradition];
     this.labels.ep = this.usesExertion ? 'a5e-for-dnd5e.Maneuver.EP' : '';
   }

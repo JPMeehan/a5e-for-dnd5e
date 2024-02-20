@@ -1,0 +1,62 @@
+<section class='content'>
+  <section class='header'>
+    {{#if specialty}}
+      <div class='school'>
+        {{#with
+          (lookup @root.maneuvers.tradition tradition)
+          as |traditionConfig|
+        }}
+          <dnd5e-icon src='{{traditionConfig.icon}}'></dnd5e-icon>
+        {{/with}}
+      </div>
+    {{/if}}
+    <div class='top'>
+      <img src='{{img}}' alt='{{name}}' />
+      <div class='name name-stacked'>
+        <span class='title'>{{name}}</span>
+        <span class='subtitle'>{{{subtitle}}}</span>
+      </div>
+    </div>
+    <div class='bottom'>
+      <div class='charges'>
+        {{#if uses.max}}
+          <span class='value'>{{uses.value}}</span>
+          <span class='separator'>&sol;</span>
+          <span class='max'>{{uses.max}}</span>
+          <span>{{localize 'DND5E.Charges'}}</span>
+        {{/if}}
+      </div>
+    </div>
+  </section>
+  <ul class='info unlist'>
+    <li>
+      <strong>{{localize 'a5e-for-dnd5e.Maneuver.ActivationHeader'}}:</strong>
+      <span class='value'>
+        {{labels.activation}}
+        {{#if activation.condition}}
+          <span class='condition'>({{activation.condition}})</span>
+        {{/if}}
+      </span>
+    </li>
+    <li>
+      <strong>{{localize 'DND5E.Range'}}:</strong>
+      <span class='value'>{{labels.range}}</span>
+    </li>
+    <li>
+      <strong>{{localize 'DND5E.Target'}}:</strong>
+      <span class='value'>{{labels.target}}</span>
+    </li>
+    <li>
+      <strong>{{localize 'DND5E.Duration'}}:</strong>
+      <span class='value'>{{labels.concentrationDuration}}</span>
+    </li>
+  </ul>
+  <section class='description'>{{{description.value}}}</section>
+  <ul class='pills'>
+    {{#each tags}}
+      <li class='pill pill-sm'>
+        <span class='label'>{{this}}</span>
+      </li>
+    {{/each}}
+  </ul>
+</section>
