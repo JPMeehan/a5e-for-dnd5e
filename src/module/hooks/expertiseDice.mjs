@@ -1,4 +1,4 @@
-const moduleID = 'a5e-for-dnd5e';
+import { moduleID } from '../utils.mjs';
 const edPartialHeight = 30;
 
 /**

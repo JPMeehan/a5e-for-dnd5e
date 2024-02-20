@@ -2,13 +2,7 @@ import A5E_CONFIG from './src/module/config.mjs';
 import * as DataClasses from './src/module/data/_module.mjs';
 import * as SheetClasses from './src/module/apps/_module.mjs';
 import * as a5eHooks from './src/module/hooks/_module.mjs';
-
-const moduleID = 'a5e-for-dnd5e';
-const moduleTypes = {
-  culture: moduleID + '.culture',
-  destiny: moduleID + '.destiny',
-  maneuver: moduleID + '.maneuver',
-};
+import { CUSTOM_SHEETS, moduleID, moduleTypes } from './src/module/utils.mjs';
 
 Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, A5E_CONFIG);
@@ -65,6 +59,10 @@ Hooks.on(
    * @param {object} context
    */
   (app, html, context) => {
+    if (!game.user.isGM && app.actor.limited) return true;
+
+    const newCharacterSheet = app.constructor.name === CUSTOM_SHEETS.DEFAULT;
+
     const newFeatures = [
       context.features[0],
       {

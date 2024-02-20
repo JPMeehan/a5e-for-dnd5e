@@ -1,4 +1,4 @@
-const moduleID = 'a5e-for-dnd5e';
+import { moduleID } from '../utils.mjs';
 
 export default class DestinyData extends dnd5e.dataModels.ItemDataModel.mixin(
   dnd5e.dataModels.item.ItemDescriptionTemplate

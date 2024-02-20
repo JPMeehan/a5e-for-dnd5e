@@ -1,5 +1,5 @@
-const moduleID = 'a5e-for-dnd5e';
-const maneuverType = 'a5e-for-dnd5e.maneuver';
+import { moduleID, moduleTypes } from '../utils.mjs';
+const maneuverType = moduleTypes.maneuver;
 
 /**
  * Sorts and displays maneuvers on the character sheet
