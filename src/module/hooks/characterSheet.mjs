@@ -7,7 +7,6 @@ import { moduleID, modulePath, moduleTypes } from '../utils.mjs';
  * @param {object} context
  */
 export async function defaultSheet(sheet, html, context) {
-  console.log(sheet, html, context);
   const originInfo = html.find('.right .top.flexrow .pills-lg');
 
   const actor = sheet.actor;
@@ -38,6 +37,14 @@ export async function defaultSheet(sheet, html, context) {
   );
 
   originInfo.append(destinyPill);
+
+  const cultureClass = moduleTypes.culture.replace('.', '\\.');
+
+  const destinyClass = moduleTypes.destiny.replace('.', '\\.');
+
+  const targetClasses = `.${cultureClass}, .${destinyClass}`;
+
+  originInfo.on('click', targetClasses, sheet._onItemAction.bind(sheet));
 }
 
 /**
