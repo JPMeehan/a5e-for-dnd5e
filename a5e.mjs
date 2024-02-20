@@ -7,6 +7,10 @@ import { CUSTOM_SHEETS, moduleID, moduleTypes } from './src/module/utils.mjs';
 Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, A5E_CONFIG);
 
+  CONFIG.DND5E.validProperties.weapon.add(
+    Object.keys(A5E_CONFIG.DND5E.itemProperties)
+  );
+
   Object.assign(CONFIG.Item.dataModels, {
     [moduleTypes.culture]: DataClasses.Culture,
     [moduleTypes.destiny]: DataClasses.Destiny,
