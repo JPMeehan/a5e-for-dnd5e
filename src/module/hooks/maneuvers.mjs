@@ -1,4 +1,4 @@
-import { moduleID, moduleTypes } from '../utils.mjs';
+import { CUSTOM_SHEETS, moduleID, moduleTypes } from '../utils.mjs';
 const maneuverType = moduleTypes.maneuver;
 
 /**
@@ -10,6 +10,7 @@ const maneuverType = moduleTypes.maneuver;
  */
 export function inlineManeuverDisplay(app, html, context) {
   if (!game.user.isGM && app.actor.limited) return true;
+  const newCharacterSheet = app.constructor.name === CUSTOM_SHEETS.DEFAULT;
   if (context.isCharacter || context.isNPC) {
     const owner = context.actor.isOwner;
     let maneuvers = context.items.filter((i) => i.type === maneuverType);
@@ -17,45 +18,19 @@ export function inlineManeuverDisplay(app, html, context) {
     if (!maneuvers.length && !hasExertionPool(app.actor)) return true;
     const levels = context.system.spells;
     const spellbook = context.spellbook;
-    const useLabels = { '-20': '-', '-10': '-', 0: '&infin;' };
-    const sections = { atwill: -20, innate: -10, pact: 0.5 };
-
-    const cantripOffset =
-      !!spellbook.find((s) => s?.order === sections.atwill) +
-      !!spellbook.find((s) => s?.order === sections.innate);
-    const levelOffset =
-      cantripOffset + !!spellbook.find((s) => s?.order === sections.pact);
-    const emptyTen = Array.from({ length: 10 });
-    if (!!spellbook.length) {
-      // Resolving #5 - bad order for mixed psionics + spellcasting if have spells > spell level.
-      const manifestLevels = emptyTen.map((e, i) =>
-        spellbook.findIndex((s) => s?.order === i)
-      );
-      let inserted = 0;
-      for (const index in manifestLevels) {
-        const i = Number(index);
-        if (i === 0 && manifestLevels[i] === -1) {
-          inserted += 1;
-          // Cantrip special case
-          spellbook.splice(cantripOffset, 0, undefined);
-        } else if (manifestLevels[i] + inserted !== i + levelOffset) {
-          inserted += 1;
-          spellbook.splice(i + levelOffset, 0, undefined);
-        }
-      }
-    }
+    const levelOffset = spellbook.length - 1;
 
     const registerSection = (
       sl,
       d,
       label,
-      { prepMode = 'prepared', value, max, override } = {}
+      { preparationMode = 'prepared', override } = {}
     ) => {
       const aeOverride = foundry.utils.hasProperty(
         context.actor.overrides,
         `system.spells.spell${d}.override`
       );
-      const i = d ? d + levelOffset : d + cantripOffset;
+      const i = d + levelOffset;
       spellbook[i] = {
         order: d,
         label: label,
@@ -63,13 +38,13 @@ export function inlineManeuverDisplay(app, html, context) {
         canCreate: owner,
         canPrepare: context.actor.type === 'character' && d >= 1,
         spells: [],
-        uses: useLabels[d] || value || 0,
-        slots: useLabels[d] || max || 0,
+        uses: '-',
+        slots: '-',
         override: override || 0,
         dataset: {
-          type: 'spell',
-          level: prepMode in sections ? 1 : d,
-          'preparation.mode': prepMode,
+          type: maneuverType,
+          degree: p,
+          preparationMode,
         },
         prop: sl,
         editable: context.editable && !aeOverride,
@@ -84,17 +59,63 @@ export function inlineManeuverDisplay(app, html, context) {
       foundry.utils.mergeObject(maneuver, {
         labels: maneuver.system.labels,
       });
-      context.itemContext[maneuver.id].toggleTitle =
-        CONFIG.DND5E.spellPreparationModes.always;
-      context.itemContext[maneuver.id].toggleClass = 'fixed';
+
+      // Activation
+      const cost = maneuver.system.activation?.cost;
+      const abbr = {
+        action: 'DND5E.ActionAbbr',
+        bonus: 'DND5E.BonusActionAbbr',
+        reaction: 'DND5E.ReactionAbbr',
+        minute: 'DND5E.TimeMinuteAbbr',
+        hour: 'DND5E.TimeHourAbbr',
+        day: 'DND5E.TimeDayAbbr',
+      }[maneuver.system.activation.type];
+
+      const itemContext = newCharacterSheet
+        ? {
+            activation:
+              cost && abbr
+                ? `${cost}${game.i18n.localize(abbr)}`
+                : maneuver.labels.activation,
+            preparation: { applicable: false },
+          }
+        : {
+            toggleTitle: CONFIG.DND5E.spellPreparationModes.always,
+            toggleClass: 'fixed',
+          };
+
+      if (newCharacterSheet) {
+        // Range
+        const units = maneuver.system.range?.units;
+        if (units && units !== 'none') {
+          if (units in CONFIG.DND5E.movementUnits) {
+            itemContext.range = {
+              distance: true,
+              value: maneuver.system.range.value,
+              unit: game.i18n.localize(`DND5E.Dist${units.capitalize()}Abbr`),
+            };
+          } else itemContext.range = { distance: false };
+        }
+
+        // To Hit
+        const toHit = parseInt(maneuver.labels.modifier);
+        if (maneuver.hasAttack && !isNaN(toHit)) {
+          itemContext.toHit = {
+            sign: Math.sign(toHit) < 0 ? '-' : '+',
+            abs: Math.abs(toHit),
+          };
+        }
+      }
+
+      foundry.utils.mergeObject(context.itemContext[maneuver.id], itemContext);
 
       /** @type {number} */
       const d = maneuver.system.degree;
       const pl = `spell${d}`;
-      const index = d ? d + levelOffset : d + cantripOffset;
-      // Known bug: This breaks if there's a mix of spells and maneuvers WITHOUT spellcaster levels
+      const index = d + levelOffset;
+
       if (!spellbook[index]) {
-        registerSection(pl, d, CONFIG.DND5E.spellLevels[d], {
+        registerSection(pl, d, CONFIG.A5E.MANEUVERS.degree[d], {
           levels: levels[pl],
         });
       }
@@ -105,9 +126,13 @@ export function inlineManeuverDisplay(app, html, context) {
     for (const i in spellbook) {
       if (spellbook[i] === undefined) delete spellbook[i];
     }
-    const spellList = html.find('.spellbook');
-    const template = 'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs';
-    renderTemplate(template, context).then((partial) => {
+    const spellList = newCharacterSheet
+      ? html.find('.spells')
+      : html.find('.spellbook');
+    const spellListTemplate = newCharacterSheet
+      ? 'systems/dnd5e/templates/actors/tabs/character-spells.hbs'
+      : 'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs';
+    renderTemplate(spellListTemplate, context).then((partial) => {
       spellList.html(partial);
       let ep = app.actor.getFlag(moduleID, 'ep');
       if (ep && context.isCharacter) {
@@ -121,6 +146,44 @@ export function inlineManeuverDisplay(app, html, context) {
         ).then((exertionHeader) => {
           spellList.find('.inventory-list').prepend(exertionHeader);
         });
+      }
+
+      if (newCharacterSheet) {
+        spellList
+          .find(`.items-section[data-type="${maneuverType}"]`)
+          .find('.item-header.item-school')
+          .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.TraditionShort'));
+
+        const schoolSlots = spellList.find('.item-detail.item-school');
+        /** @type {Array<string>} */
+        const traditions = Object.values(CONFIG.A5E.MANEUVERS.traditions).map(
+          (t) => t.label
+        );
+        for (const div of schoolSlots) {
+          if (traditions.includes(div.dataset.tooltip)) {
+            div.innerHTML = `<dnd5e-icon src="modules/a5e-for-dnd5e/assets/icons/${div.dataset.tooltip.toLowerCase()}.svg"></dnd5e-icon>`;
+          }
+        }
+
+        const schoolFilter = spellList.find('item-list-controls .filter-list');
+        schoolFilter.append(
+          Object.values(CONFIG.A5E.MANEUVERS.traditions).map((t) => {
+            `<li><button type="button" class="filter-item">${t.label}</button></li>`;
+          })
+        );
+      } else {
+        const sectionHeader = spellList.find(
+          `.items-header.spellbook-header[data-type="${maneuverType}"]`
+        );
+        sectionHeader
+          .find('.spell-school')
+          .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Tradition'));
+        sectionHeader
+          .find('.spell-action')
+          .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Usage'));
+        sectionHeader
+          .find('.spell-target')
+          .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Target'));
       }
       app.activateListeners(spellList);
     });
