@@ -6,8 +6,38 @@ import { moduleID, modulePath, moduleTypes } from '../utils.mjs';
  * @param {JQuery} html
  * @param {object} context
  */
-export function defaultSheet(sheet, html, context) {
+export async function defaultSheet(sheet, html, context) {
   console.log(sheet, html, context);
+  const originInfo = html.find('.right .top.flexrow .pills-lg');
+
+  const actor = sheet.actor;
+  const itemTypes = actor.itemTypes;
+
+  /** @type {Item} */
+  const culture = itemTypes[moduleTypes.culture][0];
+  const culturePill = await renderTemplate(
+    modulePath + 'templates/origin-pill.hbs',
+    {
+      actor,
+      item: culture,
+      type: moduleTypes.culture,
+    }
+  );
+
+  originInfo.find('.pill-lg:nth-child(2)').after(culturePill);
+
+  /** @type {Item} */
+  const destiny = itemTypes[moduleTypes.destiny][0];
+  const destinyPill = await renderTemplate(
+    modulePath + 'templates/origin-pill.hbs',
+    {
+      actor,
+      item: destiny,
+      type: moduleTypes.destiny,
+    }
+  );
+
+  originInfo.append(destinyPill);
 }
 
 /**
@@ -36,11 +66,13 @@ export function legacySheet(sheet, html, context) {
   ];
 
   const actor = sheet.actor;
+  const itemTypes = actor.itemTypes;
+
   /** @type {Item} */
-  const culture = actor.itemTypes[moduleTypes.culture][0];
+  const culture = itemTypes[moduleTypes.culture][0];
   if (culture) newFeatures[1].items.push(culture);
   /** @type {Item} */
-  const destiny = actor.itemTypes[moduleTypes.destiny][0];
+  const destiny = itemTypes[moduleTypes.destiny][0];
   if (destiny) newFeatures[3].items.push(destiny);
 
   const featureList = html.find('.features');
