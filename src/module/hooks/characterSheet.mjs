@@ -99,15 +99,21 @@ export function legacySheet(sheet, html, context) {
     characteristics.prepend(partial);
 
     /** Roll Listener */
-    characteristics.on('click', '.prestige-roll', (_e) => {
-      game.dnd5e.dice.d20Roll({
-        parts: ['@prestige'],
-        data: { prestige: actor.getFlag(moduleID, 'prestige') },
-        title: game.i18n.localize('a5e-for-dnd5e.Prestige.check'),
-        messageData: {
-          speaker: { actor },
-        },
-      });
-    });
+    characteristics.on('click', '.prestige-roll', () => rollPrestige(actor));
+  });
+}
+
+/**
+ * Rolls the actor's prestige
+ * @param {Actor} actor
+ */
+function rollPrestige(actor) {
+  game.dnd5e.dice.d20Roll({
+    parts: ['@prestige'],
+    data: { prestige: actor.getFlag(moduleID, 'prestige') },
+    title: game.i18n.localize('a5e-for-dnd5e.Prestige.check'),
+    messageData: {
+      speaker: { actor },
+    },
   });
 }
