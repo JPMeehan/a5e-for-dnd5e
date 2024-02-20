@@ -48,11 +48,10 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
     context.maneuvers = CONFIG.A5E.MANEUVERS;
     context.tradition = this.tradition;
     context.isSpell = true;
-    context.tags = this.labels.components.tags;
-    context.subtitle = [
-      this.labels.degree,
-      CONFIG.A5E.MANEUVERS.tradition[this.tradition].label,
-    ].filterJoin(' &bull; ');
+    // context.tags = this.labels.components.tags;
+    context.subtitle = [this.labels.degree, this.labels.school].filterJoin(
+      ' &bull; '
+    );
     return context;
   }
 
@@ -72,9 +71,9 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   prepareDerivedData() {
     this.labels = {};
     this.labels.degree = CONFIG.A5E.MANEUVERS.degree[this.degree];
-    this.labels.tradition =
-      CONFIG.A5E.MANEUVERS.tradition[this.tradition].label;
-    this.labels.school = CONFIG.A5E.MANEUVERS.tradition[this.tradition];
+    // const traditionLabel = CONFIG.A5E.MANEUVERS.tradition[this.tradition].label;
+    // this.labels.tradition = traditionLabel;
+    this.labels.school = CONFIG.A5E.MANEUVERS.tradition[this.tradition].label;
     this.labels.ep = this.usesExertion ? 'a5e-for-dnd5e.Maneuver.EP' : '';
   }
 

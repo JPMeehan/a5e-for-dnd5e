@@ -14,7 +14,7 @@ export function inlineManeuverDisplay(app, html, context) {
   if (context.isCharacter || context.isNPC) {
     const owner = context.actor.isOwner;
     let maneuvers = context.items.filter((i) => i.type === maneuverType);
-    maneuvers = app._filterItems(maneuvers, app._filters.spellbook);
+    maneuvers = app._filterItems(maneuvers, app._filters.spellbook.properties);
     if (!maneuvers.length && !hasExertionPool(app.actor)) return true;
     const levels = context.system.spells;
     const spellbook = context.spellbook;
@@ -34,7 +34,7 @@ export function inlineManeuverDisplay(app, html, context) {
       spellbook[i] = {
         order: d,
         label: label,
-        usesSlots: d > 0,
+        usesSlots: false,
         canCreate: owner,
         canPrepare: context.actor.type === 'character' && d >= 1,
         spells: [],
@@ -43,7 +43,7 @@ export function inlineManeuverDisplay(app, html, context) {
         override: override || 0,
         dataset: {
           type: maneuverType,
-          degree: p,
+          degree: d,
           preparationMode,
         },
         prop: sl,
@@ -134,13 +134,13 @@ export function inlineManeuverDisplay(app, html, context) {
       : 'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs';
     renderTemplate(spellListTemplate, context).then((partial) => {
       spellList.html(partial);
-      let ep = app.actor.getFlag(moduleID, 'ep');
+      const ep = app.actor.getFlag(moduleID, 'ep');
       if (ep && context.isCharacter) {
-        const ppContext = {
+        const epContext = {
           ep: ep.value,
           epMax: ep.max,
         };
-        renderTemplate(modulePath + 'templates/ep-partial.hbs', ppContext).then(
+        renderTemplate(modulePath + 'templates/ep-partial.hbs', epContext).then(
           (exertionHeader) => {
             spellList.find('.inventory-list').prepend(exertionHeader);
           }
@@ -155,7 +155,7 @@ export function inlineManeuverDisplay(app, html, context) {
 
         const schoolSlots = spellList.find('.item-detail.item-school');
         /** @type {Array<{label: string, icon: string}>} */
-        const traditions = Object.values(CONFIG.A5E.MANEUVERS.traditions);
+        const traditions = Object.values(CONFIG.A5E.MANEUVERS.tradition);
         for (const div of schoolSlots) {
           const trad = traditions.find((t) => t.label === div.dataset.tooltip);
           if (trad) {
@@ -165,7 +165,7 @@ export function inlineManeuverDisplay(app, html, context) {
 
         const schoolFilter = spellList.find('item-list-controls .filter-list');
         schoolFilter.append(
-          Object.values(CONFIG.A5E.MANEUVERS.traditions).map((t) => {
+          Object.values(CONFIG.A5E.MANEUVERS.tradition).map((t) => {
             `<li><button type="button" class="filter-item">${t.label}</button></li>`;
           })
         );

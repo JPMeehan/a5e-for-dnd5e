@@ -28,14 +28,14 @@ const A5E_CONFIG = {
           icon: modulePath + 'assets/icons/traditions/btz.svg',
           fullKey: '',
         },
-        mgl: {
-          label: 'a5e-for-dnd5e.Maneuver.Traditions.mgl',
-          icon: modulePath + 'assets/icons/traditions/mgl.svg',
-          fullKey: '',
-        },
         mas: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.mas',
           icon: modulePath + 'assets/icons/traditions/mas.svg',
+          fullKey: '',
+        },
+        mgl: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.mgl',
+          icon: modulePath + 'assets/icons/traditions/mgl.svg',
           fullKey: '',
         },
         rc: {
@@ -115,9 +115,12 @@ const A5E_CONFIG = {
       },
     },
     defaultArtwork: {
-      [moduleTypes.culture]: modulePath + 'assets/icons/subtypes/culture.svg',
-      [moduleTypes.destiny]: modulePath + 'assets/icons/subtypes/destiny.svg',
-      [moduleTypes.maneuver]: modulePath + 'assets/icons/subtypes/maneuver.svg',
+      Item: {
+        [moduleTypes.culture]: modulePath + 'assets/icons/subtypes/culture.svg',
+        [moduleTypes.destiny]: modulePath + 'assets/icons/subtypes/destiny.svg',
+        [moduleTypes.maneuver]:
+          modulePath + 'assets/icons/subtypes/maneuver.svg',
+      },
     },
   },
 };

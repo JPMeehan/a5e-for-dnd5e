@@ -1,4 +1,4 @@
-import { modulePath } from '../utils.mjs';
+import { moduleID, modulePath, moduleTypes } from '../utils.mjs';
 
 /**
  *
@@ -12,7 +12,7 @@ export function defaultSheet(sheet, html, context) {
 
 /**
  *
- * @param {ActorSheet} app
+ * @param {ActorSheet} sheet
  * @param {JQuery} html
  * @param {object} context
  */
@@ -35,7 +35,7 @@ export function legacySheet(sheet, html, context) {
     ...context.features.slice(2),
   ];
 
-  const actor = app.actor;
+  const actor = sheet.actor;
   /** @type {Item} */
   const culture = actor.itemTypes[moduleTypes.culture][0];
   if (culture) newFeatures[1].items.push(culture);
@@ -48,7 +48,7 @@ export function legacySheet(sheet, html, context) {
   renderTemplate(template, { ...context, sections: newFeatures }).then(
     (partial) => {
       featureList.html(partial);
-      app.activateListeners(featureList);
+      sheet.activateListeners(featureList);
     }
   );
 
