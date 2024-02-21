@@ -20,6 +20,7 @@ export async function defaultSheet(sheet, html, context) {
       actor,
       item: culture,
       type: moduleTypes.culture,
+      editable: context.editable,
     }
   );
 
@@ -33,16 +34,19 @@ export async function defaultSheet(sheet, html, context) {
       actor,
       item: destiny,
       type: moduleTypes.destiny,
+      editable: context.editable,
     }
   );
 
   originInfo.append(destinyPill);
 
+  // Need to manually reapply listeners in v11
   const cultureClass = moduleTypes.culture.replace('.', '\\.');
 
   const destinyClass = moduleTypes.destiny.replace('.', '\\.');
 
-  const targetClasses = `.${cultureClass}, .${destinyClass}`;
+  // General "edit" fn and then specific delete buttons
+  const targetClasses = `.${cultureClass}, .${destinyClass}, .${cultureClass} .item-action, .${destinyClass} .item-action`;
 
   originInfo.on('click', targetClasses, sheet._onItemAction.bind(sheet));
 }
