@@ -1,5 +1,19 @@
 {
   "a5e-for-dnd5e": {
+    "Settings": {
+      "ShowBlankOrigins": {
+        "name": "Show Blank Culture and Destiny",
+        "hint": "Show blank spaces for culture and destiny on the character sheet if a character does not have them"
+      },
+      "UseFatigueStress": {
+        "name": "Use A5E Fatigue and Stress",
+        "hint": "Replaces the default Exhaustion track with ones for Fatigue and Stress"
+      }
+    },
+    "Fatigue": "Fatigue",
+    "FatigueLevel": "Fatigue Level {n}",
+    "Stress": "Stress",
+    "StressLevel": "Stress Level {n}",
     "ExpertiseDie": {
       "label": "Expertise Die",
       "plural": "Expertise Dice"
@@ -86,8 +100,6 @@
     }
   },
   "DND5E": {
-    "Exhaustion": "Fatigue",
-    "Stress": "Stress",
     "Feature": {
       "Culture": "Culture Feature",
       "Destiny": "Destiny Feature",

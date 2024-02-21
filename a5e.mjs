@@ -25,9 +25,41 @@ Hooks.once('init', () => {
       label: `${moduleID}.${name}.SheetLabel`,
     });
   }
+
+  game.settings.register(moduleID, 'showBlankOrigins', {
+    name: `${moduleID}.Settings.ShowBlankOrigins.name`,
+    hint: `${moduleID}.Settings.ShowBlankOrigins.hint`,
+    scope: 'world',
+    config: true,
+    type: Boolean,
+    default: true,
+  });
+
+  game.settings.register(moduleID, 'useFatigueStress', {
+    name: `${moduleID}.Settings.UseFatigueStress.name`,
+    hint: `${moduleID}.Settings.UseFatigueStress.hint`,
+    scope: 'world',
+    config: true,
+    type: Boolean,
+    default: true,
+    requiresReload: true,
+  });
+
+  if (game.settings.get(moduleID, 'useFatigueStress'))
+    a5eHooks.characterSheet.useFatigueStress();
 });
 
-Hooks.once('i18nInit', () => _localizeHelper(CONFIG.A5E));
+Hooks.once('i18nInit', () => {
+  if (game.settings.get(moduleID, 'useFatigueStress')) {
+    game.i18n.translations.DND5E.ExhaustionLevel = game.i18n.localize(
+      'a5e-for-dnd5e.FatigueLevel'
+    );
+    game.i18n.translations.DND5E.Exhaustion = game.i18n.localize(
+      'a5e-for-dnd5e.Fatigue'
+    );
+  }
+  _localizeHelper(CONFIG.A5E);
+});
 
 /**
  * Re-implementation of dnd5e's Localization Helper for this module

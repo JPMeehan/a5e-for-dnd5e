@@ -16,8 +16,10 @@
     </a>
     {{/if}}
 </div>
-{{else if actor.isOwner}}
+{{else if (and actor.isOwner displayBlank)}}
 <div class="pill-lg empty roboto-upper" data-action="findItem" data-item-type="{{type}}">
-    {{ localize (concat type ".Add") }}
+    {{!-- Switch to add version when there's a more general API here --}}
+    {{!-- {{ localize (concat type ".Add") }} --}}
+    {{ localize (concat "TYPES.Item." type)}}
 </div>
 {{/if}}

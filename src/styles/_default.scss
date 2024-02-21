@@ -8,4 +8,25 @@
       }
     }
   }
+  &.sheet.actor.character .sheet-body .sidebar .card .stats .top {
+    margin-bottom: 5px;
+  }
+  div.top .pips {
+    &.fatigue,
+    &.stress {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    &.fatigue {
+      .pip.filled {
+        background-color: brown;
+      }
+    }
+    &.stress {
+      flex-direction: row-reverse;
+      .pip.filled {
+        background-color: blueviolet;
+      }
+    }
+  }
 }

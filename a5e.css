@@ -4,6 +4,22 @@
 .dnd5e2.sheet.character .pill-lg.a5e-for-dnd5e\.culture:hover:not(:has(a:hover)), .dnd5e2.sheet.character .pill-lg.a5e-for-dnd5e\.destiny:hover:not(:has(a:hover)) {
   box-shadow: 0 0 12px var(--dnd5e-color-gold);
 }
+.dnd5e2.sheet.character.sheet.actor.character .sheet-body .sidebar .card .stats .top {
+  margin-bottom: 5px;
+}
+.dnd5e2.sheet.character div.top .pips.fatigue, .dnd5e2.sheet.character div.top .pips.stress {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.dnd5e2.sheet.character div.top .pips.fatigue .pip.filled {
+  background-color: brown;
+}
+.dnd5e2.sheet.character div.top .pips.stress {
+  flex-direction: row-reverse;
+}
+.dnd5e2.sheet.character div.top .pips.stress .pip.filled {
+  background-color: blueviolet;
+}
 
 .dnd5e.sheet.actor .exertion-points .ep-input {
   width: 30px;
