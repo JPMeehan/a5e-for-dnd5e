@@ -47,6 +47,15 @@ Hooks.once('init', () => {
 
   if (game.settings.get(moduleID, 'useFatigueStress'))
     a5eHooks.characterSheet.useFatigueStress();
+
+  game.settings.register(moduleID, 'usePrestige', {
+    name: `${moduleID}.Settings.UsePrestige.name`,
+    hint: `${moduleID}.Settings.UsePrestige.hint`,
+    scope: 'world',
+    config: true,
+    type: Boolean,
+    default: true,
+  });
 });
 
 Hooks.once('i18nInit', () => {
@@ -55,6 +64,9 @@ Hooks.once('i18nInit', () => {
       'a5e-for-dnd5e.FatigueLevel'
     );
     game.i18n.translations.DND5E.Exhaustion = game.i18n.localize(
+      'a5e-for-dnd5e.Fatigue'
+    );
+    game.i18n.translations.DND5E.ConExhaustion = game.i18n.localize(
       'a5e-for-dnd5e.Fatigue'
     );
   }

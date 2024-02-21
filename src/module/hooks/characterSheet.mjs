@@ -87,6 +87,14 @@ export async function defaultSheet(sheet, html, context) {
       }
     );
   }
+
+  /**
+   * Prestige
+   */
+  if (game.settings.get(moduleID, 'usePrestige')) {
+    const levelDisplay = html.find('.sheet-header .right');
+    console.log(levelDisplay);
+  }
 }
 
 /**
@@ -165,6 +173,9 @@ export function legacySheet(sheet, html, context) {
     }
   );
 
+  /**
+   * Fatigue
+   */
   if (game.settings.get(moduleID, 'useFatigueStress')) {
     const exhaustion = html.find('.exhaustion');
     renderTemplate(modulePath + 'templates/stress-partial.hbs', {
@@ -174,16 +185,21 @@ export function legacySheet(sheet, html, context) {
     });
   }
 
-  const characteristics = html.find('.characteristics');
-  renderTemplate(modulePath + 'templates/prestige-partial.hbs', {
-    prestige: actor.getFlag(moduleID, 'prestige'),
-    prestigeCenter: actor.getFlag(moduleID, 'prestigeCenter'),
-  }).then((partial) => {
-    characteristics.prepend(partial);
+  /**
+   * Prestige
+   */
+  if (game.settings.get(moduleID, 'usePrestige')) {
+    const characteristics = html.find('.characteristics');
+    renderTemplate(modulePath + 'templates/prestige-partial.hbs', {
+      prestige: actor.getFlag(moduleID, 'prestige'),
+      prestigeCenter: actor.getFlag(moduleID, 'prestigeCenter'),
+    }).then((partial) => {
+      characteristics.prepend(partial);
 
-    /** Roll Listener */
-    characteristics.on('click', '.prestige-roll', () => rollPrestige(actor));
-  });
+      /** Roll Listener */
+      characteristics.on('click', '.prestige-roll', () => rollPrestige(actor));
+    });
+  }
 }
 
 /**
