@@ -46,7 +46,7 @@ Hooks.once('init', () => {
   });
 
   if (game.settings.get(moduleID, 'useFatigueStress'))
-    a5eHooks.characterSheet.useFatigueStress();
+    a5eHooks.exhaustion.useFatigueStress();
 
   game.settings.register(moduleID, 'usePrestige', {
     name: `${moduleID}.Settings.UsePrestige.name`,
