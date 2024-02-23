@@ -1,12 +1,16 @@
 import { moduleID, modulePath, moduleTypes } from '../utils.mjs';
 
 export function useFatigueStress() {
-  foundry.utils.mergeObject(CONFIG.DND5E.conditionTypes.exhaustion, {
-    // icon: 'modules/chaosos-5e-content/assets/icons/exhaustion.svg',
-    // reference:
-    //   'Compendium.chaosos-5e-content.class-journals.JournalEntry.byhrzi2UPEpHbCNu.JournalEntryPage.iYCe6WcEW4Kosqfa',
+  const fatigue = {
+    label: 'a5e-for-dnd5e.Fatigue',
+    name: 'a5e-for-dnd5e.Fatigue',
     levels: 7,
-  });
+  };
+  foundry.utils.mergeObject(CONFIG.DND5E.conditionTypes.exhaustion, fatigue);
+  foundry.utils.mergeObject(
+    CONFIG.statusEffects.find((s) => s.id === 'exhaustion'),
+    fatigue
+  );
   CONFIG.DND5E.conditionEffects.halfMovement.delete('exhaustion-2');
   CONFIG.DND5E.conditionEffects.halfMovement.add('exhaustion-3');
   CONFIG.DND5E.conditionEffects.halfHealth.delete('exhaustion-4');

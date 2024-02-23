@@ -60,15 +60,11 @@ Hooks.once('init', () => {
 
 Hooks.once('i18nInit', () => {
   if (game.settings.get(moduleID, 'useFatigueStress')) {
-    game.i18n.translations.DND5E.ExhaustionLevel = game.i18n.localize(
-      'a5e-for-dnd5e.FatigueLevel'
-    );
-    game.i18n.translations.DND5E.Exhaustion = game.i18n.localize(
-      'a5e-for-dnd5e.Fatigue'
-    );
-    game.i18n.translations.DND5E.ConExhaustion = game.i18n.localize(
-      'a5e-for-dnd5e.Fatigue'
-    );
+    foundry.utils.mergeObject(game.i18n.translations.DND5E, {
+      ExhaustionLevel: game.i18n.localize('a5e-for-dnd5e.FatigueLevel'),
+      Exhaustion: game.i18n.localize('a5e-for-dnd5e.Fatigue'),
+      ConExhaustion: game.i18n.localize('a5e-for-dnd5e.Fatigue'),
+    });
   }
   _localizeHelper(CONFIG.A5E);
 });
