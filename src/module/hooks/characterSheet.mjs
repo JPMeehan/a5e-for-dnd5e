@@ -1,12 +1,17 @@
 import { moduleID, modulePath, moduleTypes } from '../utils.mjs';
 
 /**
+ * The Prestige flag
+ * @typedef {Record<number, {rating: number, center: string}>} Prestige
+ */
+
+/**
  *
  * @param {ActorSheet} app
  * @param {JQuery} html
  * @param {object} context
  */
-export async function defaultSheet(sheet, html, context) {
+export async function defaultSheet(sheet, html, { editable, ...context }) {
   /**
    * Culture and Destiny
    */
@@ -24,7 +29,7 @@ export async function defaultSheet(sheet, html, context) {
       actor,
       item: culture,
       type: moduleTypes.culture,
-      editable: context.editable,
+      editable,
       displayBlank,
     }
   );
@@ -37,7 +42,7 @@ export async function defaultSheet(sheet, html, context) {
       actor,
       item: destiny,
       type: moduleTypes.destiny,
-      editable: context.editable,
+      editable,
       displayBlank,
     }
   );
@@ -79,8 +84,27 @@ export async function defaultSheet(sheet, html, context) {
    * Prestige
    */
   if (game.settings.get(moduleID, 'usePrestige')) {
-    const levelDisplay = html.find('.sheet-header .right');
-    console.log(levelDisplay);
+    const biographyTraits = html.find('.tab.biography .middle');
+    const prestige = getPrestige(actor);
+    const prestigeHTML = await renderTemplate(
+      modulePath + 'templates/character/prestige-partial.hbs',
+      { editable, prestige }
+    );
+    biographyTraits.append(prestigeHTML);
+    biographyTraits.on('click', 'a.prestige', (e) => {
+      const data = e.currentTarget.dataset;
+      switch (data.action) {
+        case 'roll':
+          rollPrestige(actor, Number(data.rating));
+          break;
+        case 'add':
+          addPrestige(actor);
+          break;
+        case 'delete':
+          removePrestige(actor, Number(data.index));
+          break;
+      }
+    });
   }
 }
 
@@ -114,6 +138,83 @@ function constructPips(condition, actor) {
     acc.push(pip);
     return acc;
   }, []);
+}
+
+/**
+ *
+ * @param {Actor} actor
+ */
+function getPrestige(actor) {
+  const prestige = actor.getFlag(moduleID, 'prestige');
+  // case 1: Convert object of numbers to array
+  if (prestige) return Object.values(prestige);
+  // case 2: No prestige flag set yet
+  else if (prestige === undefined)
+    return [
+      {
+        center: game.i18n.localize('a5e-for-dnd5e.Prestige.center'),
+        rating: 1,
+      },
+    ];
+  // case 3: deleted all values for empty object
+  else return [];
+}
+
+/**
+ * Performs a prestige check
+ * @param {Actor} actor
+ * @param {number} prestige
+ */
+function rollPrestige(actor, prestige) {
+  game.dnd5e.dice.d20Roll({
+    parts: ['@prestige'],
+    data: { prestige },
+    title: game.i18n.localize('a5e-for-dnd5e.Prestige.check'),
+    messageData: {
+      speaker: { actor },
+    },
+  });
+}
+
+/**
+ * Adds a new prestige center to the actor
+ * @param {Actor} actor
+ */
+function addPrestige(actor) {
+  const start = {
+    center: game.i18n.localize('a5e-for-dnd5e.Prestige.center'),
+    rating: 1,
+  };
+  /** @type {Prestige} */
+  const prestige = actor.getFlag(moduleID, 'prestige') ?? { 0: start };
+  prestige[Object.keys(prestige).length] = start;
+  actor.setFlag(moduleID, 'prestige', prestige);
+}
+
+/**
+ * Removes a prestige center
+ * @param {Actor} actor
+ */
+function removePrestige(actor, index) {
+  /** @type {Prestige} */
+  const prestige = actor.getFlag(moduleID, 'prestige');
+  if (!prestige) {
+    actor.setFlag(moduleID, 'prestige', {});
+    return;
+  }
+
+  const prestigeArray = Object.values(prestige);
+
+  prestigeArray.splice(index, 1);
+
+  const newPrestige = prestigeArray.reduce(
+    (acc, curr, i) => {
+      acc[i] = curr;
+      return acc;
+    },
+    { [`-=${prestigeArray.length}`]: null }
+  );
+  actor.setFlag(moduleID, 'prestige', newPrestige);
 }
 
 /**
@@ -165,7 +266,7 @@ export function legacySheet(sheet, html, context) {
    */
   if (game.settings.get(moduleID, 'useFatigueStress')) {
     const exhaustion = html.find('.exhaustion');
-    renderTemplate(modulePath + 'templates/stress-partial.hbs', {
+    renderTemplate(modulePath + 'templates/legacy/stress-partial.hbs', {
       stress: actor.getFlag(moduleID, 'stress'),
     }).then((partial) => {
       exhaustion.after(partial);
@@ -177,29 +278,16 @@ export function legacySheet(sheet, html, context) {
    */
   if (game.settings.get(moduleID, 'usePrestige')) {
     const characteristics = html.find('.characteristics');
-    renderTemplate(modulePath + 'templates/prestige-partial.hbs', {
-      prestige: actor.getFlag(moduleID, 'prestige'),
-      prestigeCenter: actor.getFlag(moduleID, 'prestigeCenter'),
+    const prestige = actor.getFlag(moduleID, 'prestige')[0];
+    renderTemplate(modulePath + 'templates/legacy/prestige-partial.hbs', {
+      prestige,
     }).then((partial) => {
       characteristics.prepend(partial);
 
       /** Roll Listener */
-      characteristics.on('click', '.prestige-roll', () => rollPrestige(actor));
+      characteristics.on('click', '.prestige-roll', () =>
+        rollPrestige(actor, prestige.rating)
+      );
     });
   }
-}
-
-/**
- * Rolls the actor's prestige
- * @param {Actor} actor
- */
-function rollPrestige(actor) {
-  game.dnd5e.dice.d20Roll({
-    parts: ['@prestige'],
-    data: { prestige: actor.getFlag(moduleID, 'prestige') },
-    title: game.i18n.localize('a5e-for-dnd5e.Prestige.check'),
-    messageData: {
-      speaker: { actor },
-    },
-  });
 }
