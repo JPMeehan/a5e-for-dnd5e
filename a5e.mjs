@@ -3,6 +3,7 @@ import * as DataClasses from './src/module/data/_module.mjs';
 import * as SheetClasses from './src/module/apps/_module.mjs';
 import * as a5eHooks from './src/module/hooks/_module.mjs';
 import { CUSTOM_SHEETS, moduleID, moduleTypes } from './src/module/utils.mjs';
+import { _onDialogSubmit } from './src/module/hooks/expertiseDice.mjs';
 
 Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, A5E_CONFIG);
@@ -56,6 +57,14 @@ Hooks.once('init', () => {
     type: Boolean,
     default: true,
   });
+
+  /** Expertise Die */
+  libWrapper.register(
+    moduleID,
+    'CONFIG.Dice.D20Roll.prototype._onDialogSubmit',
+    _onDialogSubmit,
+    'WRAPPER'
+  );
 });
 
 Hooks.once('i18nInit', () => {
@@ -105,10 +114,10 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
 
 Hooks.on('renderProficiencyConfig', a5eHooks.expertiseDice.configSkillTool);
 
-// Hooks.on('renderDialog', a5eHooks.expertiseDice.rollConfig);
+Hooks.on('renderDialog', a5eHooks.expertiseDice.rollConfig);
 
 Hooks.on('dnd5e.preRollToolCheck', a5eHooks.expertiseDice.applyExpertDie);
-Hooks.on('dnd5e.preRollSkillCheck', a5eHooks.expertiseDice.applyExpertDie);
+Hooks.on('dnd5e.preRollSkill', a5eHooks.expertiseDice.applyExpertDie);
 
 /**
  * MANEUVERS
