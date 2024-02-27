@@ -142,7 +142,10 @@ export function inlineManeuverDisplay(app, html, context) {
         };
         renderTemplate(modulePath + 'templates/ep-partial.hbs', epContext).then(
           (exertionHeader) => {
-            spellList.find('.inventory-list').prepend(exertionHeader);
+            const epTarget = newCharacterSheet
+              ? 'dnd5e-inventory'
+              : '.inventory-list';
+            spellList.find(epTarget).prepend(exertionHeader);
           }
         );
       }

@@ -58,6 +58,15 @@ Hooks.once('init', () => {
     default: true,
   });
 
+  game.settings.register(moduleID, 'multiPrestige', {
+    name: `${moduleID}.Settings.MultiPrestige.name`,
+    hint: `${moduleID}.Settings.MultiPrestige.hint`,
+    scope: 'world',
+    config: true,
+    type: Boolean,
+    default: false,
+  });
+
   /** Expertise Die */
   libWrapper.register(
     moduleID,

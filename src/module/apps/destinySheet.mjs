@@ -5,6 +5,6 @@ export default class DestinySheet extends dnd5e.applications.item.ItemSheet5e {
    * @override
    */
   get template() {
-    return modulePath + 'templates/destiny-sheet.hbs';
+    return modulePath + 'templates/sheets/destiny-sheet.hbs';
   }
 }

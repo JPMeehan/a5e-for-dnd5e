@@ -24,7 +24,7 @@ export async function defaultSheet(sheet, html, { editable, ...context }) {
 
   const culture = itemTypes[moduleTypes.culture][0];
   const culturePill = await renderTemplate(
-    modulePath + 'templates/origin-pill.hbs',
+    modulePath + 'templates/default/origin-pill.hbs',
     {
       actor,
       item: culture,
@@ -37,7 +37,7 @@ export async function defaultSheet(sheet, html, { editable, ...context }) {
 
   const destiny = itemTypes[moduleTypes.destiny][0];
   const destinyPill = await renderTemplate(
-    modulePath + 'templates/origin-pill.hbs',
+    modulePath + 'templates/default/origin-pill.hbs',
     {
       actor,
       item: destiny,
@@ -84,27 +84,35 @@ export async function defaultSheet(sheet, html, { editable, ...context }) {
    * Prestige
    */
   if (game.settings.get(moduleID, 'usePrestige')) {
-    const biographyTraits = html.find('.tab.biography .middle');
     const prestige = getPrestige(actor);
-    const prestigeHTML = await renderTemplate(
-      modulePath + 'templates/character/prestige-partial.hbs',
-      { editable, prestige }
-    );
-    biographyTraits.append(prestigeHTML);
-    biographyTraits.on('click', 'a.prestige', (e) => {
-      const data = e.currentTarget.dataset;
-      switch (data.action) {
-        case 'roll':
-          rollPrestige(actor, Number(data.rating));
-          break;
-        case 'add':
-          addPrestige(actor);
-          break;
-        case 'delete':
-          removePrestige(actor, Number(data.index));
-          break;
-      }
-    });
+    if (game.settings.get(moduleID, 'multiPrestige')) {
+      const biographyTraits = html.find('.tab.biography .middle');
+      const prestigeHTML = await renderTemplate(
+        modulePath + 'templates/character/prestige-partial.hbs',
+        { editable, prestige }
+      );
+      biographyTraits.append(prestigeHTML);
+      biographyTraits.on('click', 'a.prestige', (e) => {
+        const data = e.currentTarget.dataset;
+        switch (data.action) {
+          case 'roll':
+            rollPrestige(actor, Number(data.rating));
+            break;
+          case 'add':
+            addPrestige(actor);
+            break;
+          case 'delete':
+            removePrestige(actor, Number(data.index));
+            break;
+        }
+      });
+    } else {
+      const middleRight = html.find('.tab.biography .middle .right');
+      const prestigeHTML = await renderTemplate(
+        modulePath + 'templates/shared/single-prestige.hbs',
+        {}
+      );
+    }
   }
 }
 
@@ -279,7 +287,7 @@ export function legacySheet(sheet, html, context) {
   if (game.settings.get(moduleID, 'usePrestige')) {
     const characteristics = html.find('.characteristics');
     const prestige = actor.getFlag(moduleID, 'prestige')[0];
-    renderTemplate(modulePath + 'templates/legacy/prestige-partial.hbs', {
+    renderTemplate(modulePath + 'templates/shared/single-prestige.hbs', {
       prestige,
     }).then((partial) => {
       characteristics.prepend(partial);
