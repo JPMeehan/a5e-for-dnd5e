@@ -1,8 +1,8 @@
 import { moduleID, modulePath, moduleTypes } from '../utils.mjs';
 
 /**
- * The Prestige flag
- * @typedef {Record<number, {rating: number, center: string}>} Prestige
+ * A prestige definition
+ * @typedef {{rating: number, center: string}} Prestige
  */
 
 /**
@@ -85,34 +85,36 @@ export async function defaultSheet(sheet, html, { editable, ...context }) {
    */
   if (game.settings.get(moduleID, 'usePrestige')) {
     const prestige = getPrestige(actor);
+    const biographyTraits = html.find('.tab.biography .middle');
     if (game.settings.get(moduleID, 'multiPrestige')) {
-      const biographyTraits = html.find('.tab.biography .middle');
       const prestigeHTML = await renderTemplate(
-        modulePath + 'templates/character/prestige-partial.hbs',
+        modulePath + 'templates/character/multi-prestige.hbs',
         { editable, prestige }
       );
       biographyTraits.append(prestigeHTML);
-      biographyTraits.on('click', 'a.prestige', (e) => {
-        const data = e.currentTarget.dataset;
-        switch (data.action) {
-          case 'roll':
-            rollPrestige(actor, Number(data.rating));
-            break;
-          case 'add':
-            addPrestige(actor);
-            break;
-          case 'delete':
-            removePrestige(actor, Number(data.index));
-            break;
-        }
-      });
     } else {
-      const middleRight = html.find('.tab.biography .middle .right');
+      const appearance = biographyTraits.find('.right .textbox-half');
       const prestigeHTML = await renderTemplate(
-        modulePath + 'templates/shared/single-prestige.hbs',
-        {}
+        modulePath + 'templates/default/single-prestige.hbs',
+        { prestige: prestige[0], editable, element: 'h3' }
       );
+
+      appearance.first().after(prestigeHTML);
     }
+    biographyTraits.on('click', 'a.prestige', (e) => {
+      const data = e.currentTarget.dataset;
+      switch (data.action) {
+        case 'roll':
+          rollPrestige(actor, Number(data.rating));
+          break;
+        case 'add':
+          addPrestige(actor);
+          break;
+        case 'delete':
+          removePrestige(actor, Number(data.index));
+          break;
+      }
+    });
   }
 }
 
@@ -151,6 +153,7 @@ function constructPips(condition, actor) {
 /**
  *
  * @param {Actor} actor
+ * @returns {Array<Prestige>}
  */
 function getPrestige(actor) {
   const prestige = actor.getFlag(moduleID, 'prestige');
@@ -193,7 +196,7 @@ function addPrestige(actor) {
     center: game.i18n.localize('a5e-for-dnd5e.Prestige.center'),
     rating: 1,
   };
-  /** @type {Prestige} */
+  /** @type {Record<number, Prestige>} */
   const prestige = actor.getFlag(moduleID, 'prestige') ?? { 0: start };
   prestige[Object.keys(prestige).length] = start;
   actor.setFlag(moduleID, 'prestige', prestige);
@@ -202,15 +205,17 @@ function addPrestige(actor) {
 /**
  * Removes a prestige center
  * @param {Actor} actor
+ * @param {number} index
  */
 function removePrestige(actor, index) {
-  /** @type {Prestige} */
+  /** @type {Record<number, Prestige} */
   const prestige = actor.getFlag(moduleID, 'prestige');
   if (!prestige) {
     actor.setFlag(moduleID, 'prestige', {});
     return;
   }
 
+  /** @type {Array<Prestige>} */
   const prestigeArray = Object.values(prestige);
 
   prestigeArray.splice(index, 1);
@@ -286,9 +291,10 @@ export function legacySheet(sheet, html, context) {
    */
   if (game.settings.get(moduleID, 'usePrestige')) {
     const characteristics = html.find('.characteristics');
-    const prestige = actor.getFlag(moduleID, 'prestige')[0];
-    renderTemplate(modulePath + 'templates/shared/single-prestige.hbs', {
+    const prestige = getPrestige(actor)[0];
+    renderTemplate(modulePath + 'templates/legacy/prestige-partial.hbs', {
       prestige,
+      editable: true,
     }).then((partial) => {
       characteristics.prepend(partial);
 

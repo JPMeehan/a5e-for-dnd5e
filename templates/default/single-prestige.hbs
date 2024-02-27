@@ -1,0 +1,31 @@
+<div class='prestige'>
+  <h3 class='icon'>
+    <i class='fa-solid fa-ranking-star'></i>
+    <span class='roboto-upper'>
+      {{localize 'a5e-for-dnd5e.Prestige.label'}}
+    </span>
+  </h3>
+  <div>
+    {{#if editable}}
+      <input
+        type='text'
+        value='{{prestige.center}}'
+        name='flags.a5e-for-dnd5e.prestige.0.center'
+        placeholder='{{localize "a5e-for-dnd5e.Prestige.center"}}'
+        data-dtype='String'
+      />
+      <input
+        type='number'
+        value='{{prestige.rating}}'
+        name='flags.a5e-for-dnd5e.prestige.0.rating'
+        placeholder='1'
+        data-dtype='Number'
+      />
+    {{else}}
+      <a class='prestige' data-action='roll' data-rating='{{prestige.rating}}'>
+        {{prestige.center}}:
+        {{prestige.rating}}
+      </a>
+    {{/if}}
+  </div>
+</div>
