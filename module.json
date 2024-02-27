@@ -1,7 +1,7 @@
 {
   "id": "a5e-for-dnd5e",
   "title": "A5E for dnd5e",
-  "version": "0.0.1",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -10,55 +10,81 @@
     "systems": [
       {
         "id": "dnd5e",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
       }
     ],
-    "recommends": []
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
   },
   "description": "A conversion of a5e material to the dnd5e system",
   "authors": [
     {
       "name": "Joseph M.",
-      "discord": "ChaosOS#1948",
-      "url": "https://joseph-meehan.carrd.co/"
+      "url": "https://joseph-meehan.carrd.co/",
+      "discord": "ChaosOS#1948"
     }
   ],
   "url": "https://github.com/JPMeehan/a5e-for-dnd5e",
   "packs": [
     {
-      "label": "A5E Classes",
       "name": "classes",
+      "label": "A5E Classes",
+      "path": "packs/classes",
       "type": "Item",
       "system": "dnd5e",
-      "path": "packs/classes"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "A5E Bestiary",
       "name": "bestiary",
+      "label": "A5E Bestiary",
+      "path": "packs/bestiary",
       "type": "Actor",
       "system": "dnd5e",
-      "path": "packs/bestiary"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "A5E Spells",
       "name": "spells",
+      "label": "A5E Spells",
+      "path": "packs/spells",
       "type": "Item",
       "system": "dnd5e",
-      "path": "packs/spells"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "A5E Combat Maneuvers",
       "name": "combat-maneuvers",
+      "label": "A5E Combat Maneuvers",
+      "path": "packs/combat-maneuvers",
       "type": "Item",
       "system": "dnd5e",
-      "path": "packs/combat-maneuvers"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "A5E Equipment",
       "name": "equipment",
+      "label": "A5E Equipment",
+      "path": "packs/equipment",
       "type": "Item",
       "system": "dnd5e",
-      "path": "packs/equipment"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -72,11 +98,16 @@
         "combat-maneuvers",
         "equipment"
       ],
-      "color": "#CD853F"
+      "color": "#CD853F",
+      "folders": []
     }
   ],
-  "esmodules": ["./a5e.mjs"],
-  "styles": ["./a5e.css"],
+  "esmodules": [
+    "a5e.mjs"
+  ],
+  "styles": [
+    "a5e.css"
+  ],
   "languages": [
     {
       "lang": "en",
