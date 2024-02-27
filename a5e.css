@@ -25,18 +25,18 @@
   margin: 0;
   padding: 0;
 }
-.dnd5e2.sheet.character .prestige ol input[type=text] {
-  flex: 1;
-  margin-right: 2px;
-}
-.dnd5e2.sheet.character .prestige ol input[type=number] {
-  flex: 0 0 30px;
-}
 .dnd5e2.sheet.character .prestige ol a.prestige[data-action=delete] {
   flex: 0 0 20px;
   line-height: 26px;
   font-size: 16px;
   text-align: center;
+}
+.dnd5e2.sheet.character .prestige input[type=text] {
+  flex: 1;
+  margin-right: 2px;
+}
+.dnd5e2.sheet.character .prestige input[type=number] {
+  flex: 0 0 30px;
 }
 
 .dnd5e.sheet.actor .exertion-points .ep-input {

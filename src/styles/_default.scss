@@ -34,15 +34,6 @@
       list-style: none;
       margin: 0;
       padding: 0;
-      input {
-        &[type='text'] {
-          flex: 1;
-          margin-right: 2px;
-        }
-        &[type='number'] {
-          flex: 0 0 30px;
-        }
-      }
       a.prestige {
         &[data-action='delete'] {
           flex: 0 0 20px;
@@ -52,10 +43,14 @@
         }
       }
     }
-    // a.prestige-roll {
-    //   margin-left: inherit;
-    //   font-size: inherit;
-    //   color: inherit;
-    // }
+    input {
+      &[type='text'] {
+        flex: 1;
+        margin-right: 2px;
+      }
+      &[type='number'] {
+        flex: 0 0 30px;
+      }
+    }
   }
 }
