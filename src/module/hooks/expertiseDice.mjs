@@ -59,23 +59,24 @@ export function rollConfig(dialog, html, context, actor) {
     return;
   }
 
-  /** @type {string} */
-  const formula = html.find('.form-group:nth-child(1) input').val();
-
-  const newFormula = formula.replace(/ \+ 1d\d\[Expertise\]/, '');
-
-  html.find('.form-group:nth-child(1) input').val(newFormula);
-
-  const expertise = formula.match(/1d\d\[Expertise\]/);
-
   // Locate situational bonus
   const sitBonus = html.find('.form-group:nth-child(3)');
   const labelText = sitBonus.find('label')[0].innerText;
   if (labelText !== game.i18n.localize('DND5E.RollSituationalBonus')) return;
 
+  /** @type {string} */
+  const formula = html.find('.form-group:nth-child(1) input').val();
+
+  const newFormula = formula.replace(/ \+ (1d\d|0)\[Expertise\]/, '');
+
+  html.find('.form-group:nth-child(1) input').val(newFormula);
+
+  const expertise = formula.match(/(1d\d|0)\[Expertise\]/);
+
   // Stick the extra info right before the sit bonus
   const ed = {
-    '1d4[Expertise]': 2,
+    '0[Expertise]': 0,
+    '1d4[Expertise]': 1,
     '1d6[Expertise]': 2,
     '1d8[Expertise]': 3,
   };
@@ -83,7 +84,7 @@ export function rollConfig(dialog, html, context, actor) {
   const template = modulePath + 'templates/expertise-dice-partial.hbs';
   renderTemplate(template, {
     key: 'expertDie',
-    dice: ed[expertise] ?? 0,
+    dice: ed[expertise[0]] ?? 0,
     config: CONFIG.A5E.expertiseDie,
   }).then((partial) => {
     // Insert before check bonus
@@ -104,15 +105,29 @@ export function _onDialogSubmit(wrapped, html, advantageMode) {
   /** @type {Roll} */
   const roll = wrapped(html, advantageMode);
 
-  const expertise = roll.terms.find((t) => t.options?.flavor === 'Expertise');
+  const form = html[0].querySelector('form');
 
-  if (expertise) {
-    const form = html[0].querySelector('form');
+  const dice = CONFIG.Dice;
 
-    if (form.expertDie.value) {
+  if (form.expertDie) {
+    const expIndex = roll.terms.findIndex(
+      (t) => t.options?.flavor === 'Expertise'
+    );
+    const expertise = roll.terms[expIndex];
+    if (expIndex === -1) return roll;
+    else if (expertise instanceof dice.termTypes.DiceTerm) {
       expertise.faces = [0, 4, 6, 8][form.expertDie.value];
-      roll.resetFormula();
+    } else if (
+      expertise instanceof dice.termTypes.NumericTerm &&
+      form.expertDie.value > 0
+    ) {
+      roll.terms[expIndex] = new dice.terms.d({
+        number: 1,
+        faces: form.expertDie.value * 2 + 2,
+        options: { flavor: 'Expertise' },
+      });
     }
+    roll.resetFormula();
   }
 
   return roll;
