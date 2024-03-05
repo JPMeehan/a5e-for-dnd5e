@@ -11,7 +11,10 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "3.0",
+          "verified": "3.0.3"
+        }
       }
     ],
     "requires": [
@@ -33,7 +36,7 @@
   "packs": [
     {
       "name": "classes",
-      "label": "A5E Classes",
+      "label": "Classes",
       "path": "packs/classes",
       "type": "Item",
       "system": "dnd5e",
@@ -43,10 +46,43 @@
       }
     },
     {
-      "name": "bestiary",
-      "label": "A5E Bestiary",
-      "path": "packs/bestiary",
-      "type": "Actor",
+      "name": "subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "class-features",
+      "label": "Class & Subclass Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "origins",
+      "label": "Origins",
+      "path": "packs/origins",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "origin-features",
+      "label": "Origin Features",
+      "path": "packs/origin-features",
+      "type": "Item",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -55,7 +91,7 @@
     },
     {
       "name": "spells",
-      "label": "A5E Spells",
+      "label": "Spells",
       "path": "packs/spells",
       "type": "Item",
       "system": "dnd5e",
@@ -66,7 +102,7 @@
     },
     {
       "name": "combat-maneuvers",
-      "label": "A5E Combat Maneuvers",
+      "label": "Combat Maneuvers",
       "path": "packs/combat-maneuvers",
       "type": "Item",
       "system": "dnd5e",
@@ -76,10 +112,54 @@
       }
     },
     {
-      "name": "equipment",
-      "label": "A5E Equipment",
-      "path": "packs/equipment",
+      "name": "gear",
+      "label": "Gear",
+      "path": "packs/gear",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monster-features",
+      "label": "Monster Features",
+      "path": "packs/monster-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rules",
+      "label": "Rules",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -91,23 +171,41 @@
     {
       "name": "Level Up: Advanced 5th Edition",
       "sorting": "a",
-      "packs": [
-        "classes",
-        "bestiary",
-        "spells",
-        "combat-maneuvers",
-        "equipment"
-      ],
+      "packs": ["rules", "tables"],
       "color": "#CD853F",
-      "folders": []
+      "folders": [
+        {
+          "name": "Character Features",
+          "sorting": "m",
+          "packs": [
+            "classes",
+            "subclasses",
+            "class-features",
+            "origins",
+            "origin-features"
+          ],
+          "color": "#ba7a3b",
+          "folders": []
+        },
+        {
+          "name": "Gear, Spells, and Maneuvers",
+          "sorting": "m",
+          "packs": ["gear", "spells", "combat-maneuvers"],
+          "color": "#8f5e2d",
+          "folders": []
+        },
+        {
+          "name": "Monsters",
+          "sorting": "a",
+          "packs": ["monsters", "monster-features"],
+          "color": "#704a23",
+          "folders": []
+        }
+      ]
     }
   ],
-  "esmodules": [
-    "a5e.mjs"
-  ],
-  "styles": [
-    "a5e.css"
-  ],
+  "esmodules": ["a5e.mjs"],
+  "styles": ["a5e.css"],
   "languages": [
     {
       "lang": "en",
@@ -122,21 +220,21 @@
         "htmlFields": [
           "description.value",
           "description.chat",
-          "description.unidentified"
+          "unidentified.description"
         ]
       },
       "destiny": {
         "htmlFields": [
           "description.value",
           "description.chat",
-          "description.unidentified"
+          "unidentified.description"
         ]
       },
       "maneuver": {
         "htmlFields": [
           "description.value",
           "description.chat",
-          "description.unidentified"
+          "unidentified.description"
         ]
       }
     }
