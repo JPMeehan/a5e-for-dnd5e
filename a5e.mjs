@@ -117,6 +117,8 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
   }
 });
 
+Hooks.on('dnd5e.rollDeathSave', a5eHooks.exhaustion.natOneDeathSave);
+
 /**
  * EXPERTISE DICE
  */
