@@ -3,19 +3,22 @@ const maneuverType = moduleTypes.maneuver;
 
 /**
  * Sorts and displays maneuvers on the character sheet
- * @param {ActorSheet} app
+ * @param {ActorSheet} sheet
  * @param {JQuery} html
  * @param {object} context
  * @returns
  */
-export function inlineManeuverDisplay(app, html, context) {
-  if (!game.user.isGM && app.actor.limited) return true;
-  const newCharacterSheet = app.constructor.name === CUSTOM_SHEETS.DEFAULT;
+export function inlineManeuverDisplay(sheet, html, context) {
+  if (!game.user.isGM && sheet.actor.limited) return true;
+  const newCharacterSheet = sheet.constructor.name === CUSTOM_SHEETS.DEFAULT;
   if (context.isCharacter || context.isNPC) {
     const owner = context.actor.isOwner;
     let maneuvers = context.items.filter((i) => i.type === maneuverType);
-    maneuvers = app._filterItems(maneuvers, app._filters.spellbook.properties);
-    if (!maneuvers.length && !hasExertionPool(app.actor)) return true;
+    maneuvers = sheet._filterItems(
+      maneuvers,
+      sheet._filters.spellbook.properties
+    );
+    if (!maneuvers.length && !hasExertionPool(sheet.actor)) return true;
     const levels = context.system.spells;
     const spellbook = context.spellbook;
     const levelOffset = spellbook.length - 1;
@@ -134,7 +137,7 @@ export function inlineManeuverDisplay(app, html, context) {
       : 'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs';
     renderTemplate(spellListTemplate, context).then((partial) => {
       spellList.html(partial);
-      const ep = app.actor.getFlag(moduleID, 'ep');
+      const ep = sheet.actor.getFlag(moduleID, 'ep');
       if (ep && context.isCharacter) {
         const epContext = {
           ep: ep.value,
@@ -189,8 +192,17 @@ export function inlineManeuverDisplay(app, html, context) {
           .find('.spell-target')
           .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Target'));
       }
-      app.activateListeners(spellList);
+      sheet.activateListeners(spellList);
     });
+
+    if (sheet.constructor.name === 'ActorSheet5eNPC') {
+      const features = html.find('dnd5e-inventory').first();
+      const inventory = features.find('ol').last();
+      for (const i of inventory.find('li')) {
+        const item = sheet.actor.items.get(i.dataset.itemId);
+        if (item.type === maneuverType) i.remove();
+      }
+    }
   } else return true;
 }
 
