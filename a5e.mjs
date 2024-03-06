@@ -27,6 +27,21 @@ Hooks.once('init', () => {
     });
   }
 
+  game.settings.register(moduleID, 'useCultureEngineer', {
+    name: `${moduleID}.Settings.UseCultureEngineer.name`,
+    hint: `${moduleID}.Settings.UseCultureEngineer.hint`,
+    scope: 'world',
+    config: true,
+    type: Boolean,
+    default: true,
+    requiresReload: true,
+  });
+
+  if (!game.settings.get(moduleID, 'useCultureEngineer')) {
+    delete CONFIG.DND5E.skills.cul;
+    delete CONFIG.DND5E.skills.eng;
+  }
+
   game.settings.register(moduleID, 'showBlankOrigins', {
     name: `${moduleID}.Settings.ShowBlankOrigins.name`,
     hint: `${moduleID}.Settings.ShowBlankOrigins.hint`,
