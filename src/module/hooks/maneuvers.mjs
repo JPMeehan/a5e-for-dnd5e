@@ -140,7 +140,10 @@ export function inlineManeuverDisplay(app, html, context) {
           ep: ep.value,
           epMax: ep.max,
         };
-        renderTemplate(modulePath + 'templates/ep-partial.hbs', epContext).then(
+        const template = newCharacterSheet
+          ? 'templates/default/ep-partial.hbs'
+          : 'templates/legacy/ep-partial.hbs';
+        renderTemplate(modulePath + template, epContext).then(
           (exertionHeader) => {
             const epTarget = newCharacterSheet
               ? 'dnd5e-inventory'

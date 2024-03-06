@@ -20,6 +20,13 @@
 .dnd5e2.sheet.character div.top .pips.stress .pip.filled {
   background-color: blueviolet;
 }
+.dnd5e2.sheet.character .exertion-points .ep-input {
+  height: 100%;
+  width: 30px;
+  color: white;
+  border: none;
+  text-align: right;
+}
 .dnd5e2.sheet.character .prestige ol {
   list-style: none;
   margin: 0;

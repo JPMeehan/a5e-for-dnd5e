@@ -18,19 +18,20 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   dnd5e.dataModels.item.ActionTemplate
 ) {
   static defineSchema() {
+    const fields = foundry.data.fields;
     return this.mergeSchema(super.defineSchema(), {
-      degree: new foundry.data.fields.NumberField({
+      degree: new fields.NumberField({
         required: true,
         integer: true,
         initial: 1,
         min: 0,
         label: 'a5e-for-5e.Maneuver.Degree',
       }),
-      tradition: new foundry.data.fields.StringField({
+      tradition: new fields.StringField({
         required: true,
         label: 'a5e-for-5e.Maneuver.Tradition',
       }),
-      prerequisite: new foundry.data.fields.StringField({
+      prerequisite: new fields.StringField({
         required: false,
         label: 'a5e-for-5e.Maneuver.Prerequisite',
       }),
@@ -71,9 +72,10 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   prepareDerivedData() {
     this.labels = {};
     this.labels.degree = CONFIG.A5E.MANEUVERS.degree[this.degree];
-    // const traditionLabel = CONFIG.A5E.MANEUVERS.tradition[this.tradition].label;
-    // this.labels.tradition = traditionLabel;
-    this.labels.school = CONFIG.A5E.MANEUVERS.tradition[this.tradition].label;
+    const traditionLabel =
+      CONFIG.A5E.MANEUVERS.tradition[this.tradition]?.label;
+    this.labels.tradition = traditionLabel;
+    this.labels.school = traditionLabel;
     this.labels.ep = this.usesExertion ? 'a5e-for-dnd5e.Maneuver.EP' : '';
   }
 
