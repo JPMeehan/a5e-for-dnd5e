@@ -8,9 +8,9 @@ import { _onDialogSubmit } from './src/module/hooks/expertiseDice.mjs';
 Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, A5E_CONFIG);
 
-  CONFIG.DND5E.validProperties.weapon.add(
-    Object.keys(A5E_CONFIG.DND5E.itemProperties)
-  );
+  for (const prop of Object.keys(A5E_CONFIG.DND5E.itemProperties)) {
+    CONFIG.DND5E.validProperties.weapon.add(prop);
+  }
 
   Object.assign(CONFIG.Item.dataModels, {
     [moduleTypes.culture]: DataClasses.Culture,
