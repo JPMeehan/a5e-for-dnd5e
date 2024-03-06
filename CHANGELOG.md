@@ -1,15 +1,12 @@
 # Changelog
 
-## 0.9 Beta Release
+## 0.8 Alpha Release
 
-**Expertise Dice**
+Basic feature showcase
 
-**Prestige**
+- Expertise dice
+- Prestige Rating
+- Fatigue and Stress
+- Combat Maneuvers
 
-**Maneuvers**
-
-- New Item Type
-- Display alongside other spells
-- New "spellcasting progressions" enable the Exertion pool on the sheet
-
-**Cultures and Heritages**
+Cultures & Destinies are implemented as much as possible, but cannot currently provide advancements.
