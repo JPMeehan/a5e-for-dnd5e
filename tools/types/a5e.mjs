@@ -73,10 +73,7 @@
  * @property {string} description
  * @property {boolean} favorite
  * @property {string} secretDescription
- * @property {object} source
- * @property {string} source.name
- * @property {string} source.link
- * @property {string} source.publisher
+ * @property {string} source
  * @property {object} uses
  * @property {number} uses.value
  * @property {string} uses.max
@@ -87,31 +84,177 @@
  */
 
 /**
- * @typedef {object} ACTemplate
- * @property {object} ac
- * @property {string} ac.baseFormula
- * @property {string} ac.formula
- * @property {number} ac.maxDex
- * @property {number} ac.minStr
- * @property {number} ac.mode
- * @property {boolean} ac.requiresNoShield
- * @property {boolean} ac.requiresUnarmored
+ * @typedef ACTemplate
+ * @property {string} baseFormula
+ * @property {string} formula
+ * @property {boolean} grantsDisadvantage
+ * @property {number} maxDex
+ * @property {number} minStr
+ * @property {number} mode
+ * @property {boolean} requiresNoShield
+ * @property {boolean} requiresUnarmored
  */
 
 /**
- * @typedef {object} Spell
- * @property {object} system.components
- * @property {boolean} system.components.vocalized
- * @property {boolean} system.components.seen
- * @property {boolean} system.components.material
- * @property {boolean} system.concentration
- * @property {number} system.level
- * @property {string} system.materials
- * @property {boolean} system.materialsConsumed
- * @property {boolean} system.prepared
- * @property {string} system.prerequisite
- * @property {boolean} system.ritual
- * @property {object} system.schools
- * @property {string} system.schools.primary
- * @property {string[]} system.schools.secondary
+ * @typedef GrantCore
+ * @property {string} grantType
+ * @property {string} label
+ * @property {boolean} [optional]
+ * @property {number} [level]
+ * @property {number} [img]
+ * @property {number} [default]
+ *
+ */
+
+/**
+ * @typedef ASI
+ * @property {object} abilities
+ * @property {object} context
+ * @property {string} bonus
+ */
+
+/**
+ * @typedef Proficiency
+ * @property {object} keys
+ * @property {string} proficiencyType
+ */
+
+/**
+ * @typedef {object} Feature
+ */
+
+/**
+ * @typedef {object} Item
+ */
+
+/**
+ * @typedef Movement
+ * @property {object} movementTypes
+ * @property {string} bonus
+ * @property {string} unit
+ */
+
+/**
+ * @typedef Trait
+ * @property {object} traits
+ */
+
+/**
+ * @typedef {GrantCore & (ASI | Proficiency | Movement | Trait)} Grant
+ */
+
+/**********************
+ *
+ * Feature, Spell, Maneuver
+ *
+ **********************/
+
+/**
+ * @typedef {BaseTemplate} Feature
+ * @property {ACTemplate} ac
+ * @property {boolean} concentration
+ * @property {string} featureType
+ * @property {Record<string, Grant>} grants
+ * @property {boolean} requiresBloodied
+ */
+
+/**
+ * @typedef {BaseTemplate} Spell
+ * @property {object} components
+ * @property {boolean} components.vocalized
+ * @property {boolean} components.seen
+ * @property {boolean} components.material
+ * @property {boolean} concentration
+ * @property {number} level
+ * @property {string} materials
+ * @property {boolean} materialsConsumed
+ * @property {boolean} prepared
+ * @property {string} prerequisite
+ * @property {boolean} rare
+ * @property {boolean} ritual
+ * @property {object} schools
+ * @property {string} schools.primary
+ * @property {string[]} schools.secondary
+ */
+
+/**
+ * @typedef {BaseTemplate} Maneuver
+ * @property {boolean} concentration
+ * @property {number} degree
+ * @property {number} exertionCost
+ * @property {boolean} isStance
+ * @property {string} prerequisite
+ * @property {boolean} rare
+ * @property {string} tradition
+ */
+
+/********************
+ *
+ *      ORIGINS
+ *
+ ********************/
+
+/**
+ * @typedef Background
+ * @property {string} description
+ * @property {Record<string, Grant>} grants
+ * @property {string} source
+ */
+
+/**
+ * @typedef Culture
+ * @property {string} description
+ * @property {Record<string, Grant>} grants
+ * @property {string} source
+ */
+
+/**
+ * @typedef Destiny
+ * @property {string} description
+ * @property {string} sourceOfInspiration
+ * @property {string} inspirationFeature
+ * @property {string} fulfillmentFeature
+ */
+
+/**
+ * @typedef Heritage
+ * @property {string} description
+ * @property {Record<string, Grant>} grants
+ * @property {string} source
+ */
+
+/**
+ *
+ * OBJECT
+ *
+ */
+
+/**
+ * @typedef {BaseTemplate} ObjectA5E
+ * @property {ACTemplate} ac
+ * @property {string[]} ammunitionProperties
+ * @property {string} armorCategory
+ * @property {string[]} armorProperties
+ * @property {boolean} attuned
+ * @property {boolean} bulky
+ * @property {string} containerId
+ * @property {string} craftingComponents
+ * @property {number} damagedState
+ * @property {number} equippedState
+ * @property {object} items
+ * @property {string[]} materialProperties
+ * @property {string} objectType
+ * @property {boolean} plotItem
+ * @property {number} price
+ * @property {boolean} proficient
+ * @property {number} quantity
+ * @property {string} rarity
+ * @property {boolean} requiresAttunement
+ * @property {string} shieldCategory
+ * @property {string[]} shieldProperties
+ * @property {boolean} unidentified
+ * @property {string} unidentifiedDescription
+ * @property {string} unidentifiedName
+ * @property {string[]} weaponProperties
+ * @property {number} weight
  */

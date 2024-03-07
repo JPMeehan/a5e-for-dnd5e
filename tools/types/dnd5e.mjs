@@ -91,8 +91,17 @@
 /**
  * Items that can be attuned and equipped
  * @typedef EquippableItem
- * @property {number} attunement
- * @property {boolean} equipped
+ * @property {number} attunement    Attunement information as defined in `DND5E.attunementTypes`.
+ * @property {boolean} equipped     Is this item equipped on its owning actor.
+ */
+
+/**
+ * Items that can be identified.
+ * @typedef Identifiable
+ * @property {boolean} identified               Has this item been identified?
+ * @property {object} unidentified
+ * @property {string} unidentified.name         Name of the item when it is unidentified.
+ * @property {string} unidentified.description  Description displayed if item is unidentified.
  */
 
 /**
@@ -101,7 +110,6 @@
  * @property {object} description               Various item descriptions.
  * @property {string} description.value         Full item description.
  * @property {string} description.chat          Description displayed in chat card.
- * @property {string} description.unidentified  Description displayed if item is unidentified.
  * @property {SourceField} source               Adventure or sourcebook where this item originated.
  */
 
@@ -112,6 +120,14 @@
  * @property {string} page     Page or section where the item can be found.
  * @property {string} custom   Fully custom source label.
  * @property {string} license  Type of license that covers this item.
+ */
+
+/**
+ * @typedef ItemType
+ * @property {object} type                      Standardized item type object.
+ * @property {string} type.value                Category to which this item belongs.
+ * @property {string} type.subtype              Item subtype according to its category.
+ * @property {string} type.baseItem             Item this one is based on.
  */
 
 /**
@@ -130,21 +146,136 @@
 /**
  * Data model template with information on physical items.
  * @typedef PhysicalItem
+ * @property {string} container           Container within which this item is located.
  * @property {number} quantity            Number of items in a stack.
  * @property {number} weight              Item's weight in pounds or kilograms (depending on system setting).
  * @property {object} price
  * @property {number} price.value         Item's cost in the specified denomination.
  * @property {string} price.denomination  Currency denomination used to determine price.
  * @property {string} rarity              Item rarity as defined in `DND5E.itemRarity`.
- * @property {boolean} identified         Has this item been identified?
  * @mixin
+ */
+
+/**
+ * @typedef Advancement
+ */
+
+/**
+ * Data definition for Race items.
+ * @typedef Race
+ * @property {string} identifier       Identifier slug for this race.
+ * @property {Advancement[]} advancement    Advancement objects for this race.
+ * @property {Movement} movement
+ * @property {Senses} senses
+ * @property {CreatureType} type
+ */
+
+/**
+ * Data definition for Background items.
+ * @typedef Background
+ * @property {Advancement[]} advancement
+ */
+
+/**
+ * Data definition for Class items.
+ * @typedef Class5e
+ * @property {string} identifier            Identifier slug for this class.
+ * @property {number} levels                Current number of levels in this class.
+ * @property {string} hitDice               Denomination of hit dice available as defined in `DND5E.hitDieTypes`.
+ * @property {number} hitDiceUsed           Number of hit dice consumed.
+ * @property {Advancement[]} advancement    Advancement objects for this class.
+ * @property {object} spellcasting          Details on class's spellcasting ability.
+ * @property {string} spellcasting.progression  Spell progression granted by class as from `DND5E.spellProgression`.
+ * @property {string} spellcasting.ability      Ability score to use for spellcasting.
+ */
+
+/**
+ * Data definition for Subclass items.
+ * @typedef Subclass5e
+ * @property {string} identifier       Identifier slug for this subclass.
+ * @property {string} classIdentifier  Identifier slug for the class with which this subclass should be associated.
+ * @property {object[]} advancement    Advancement objects for this subclass.
+ * @property {object} spellcasting              Details on subclass's spellcasting ability.
+ * @property {string} spellcasting.progression  Spell progression granted by class as from `DND5E.spellProgression`.
+ * @property {string} spellcasting.ability      Ability score to use for spellcasting.
+ */
+
+/**
+ * Data definition for Consumable items.
+ * @typedef Consumable
+ * @property {Array<string>} properties  Ammunition properties.
+ * @property {object} uses
+ * @property {boolean} uses.autoDestroy  Should this item be destroyed when it runs out of uses.
+ */
+
+/**
+ * Data definition for Container items.
+ * @typedef Container
+ * @property {object} capacity              Information on container's carrying capacity.
+ * @property {string} capacity.type         Method for tracking max capacity as defined in `DND5E.itemCapacityTypes`.
+ * @property {number} capacity.value        Total amount of the type this container can carry.
+ */
+
+/**
+ * Data definition for Equipment items.
+ * @typedef Equipment
+ * @property {object} armor             Armor details and equipment type information.
+ * @property {number} armor.value       Base armor class or shield bonus.
+ * @property {number} armor.dex         Maximum dex bonus added to armor class.
+ * @property {object} speed             Speed granted by a piece of vehicle equipment.
+ * @property {number} speed.value       Speed granted by this piece of equipment measured in feet or meters
+ *                                      depending on system setting.
+ * @property {string} speed.conditions  Conditions that may affect item's speed.
+ * @property {number} strength          Minimum strength required to use a piece of armor.
+ * @property {number} proficient        Does the owner have proficiency in this piece of equipment?
+ */
+
+/**
+ * Data definition for Feature items.
+ * @typedef Feat
+ * @property {Array<string>} properties             General properties of a feature item.
+ * @property {string} requirements                  Actor details required to use this feature.
+ * @property {object} recharge                      Details on how a feature can roll for recharges.
+ * @property {number} recharge.value                Minimum number needed to roll on a d6 to recharge this feature.
+ * @property {boolean} recharge.charged             Does this feature have a charge remaining?
+ */
+
+/**
+ * Data definition for Loot items.
+ * @typedef Loot
+ */
+
+/**
+ * Data definition for Spell items.
+ * @typedef Spell
+ * @property {number} level                      Base level of the spell.
+ * @property {string} school                     Magical school to which this spell belongs.
+ * @property {Set<string>} properties            General components and tags for this spell.
+ * @property {object} materials                  Details on material components required for this spell.
+ * @property {string} materials.value            Description of the material components required for casting.
+ * @property {boolean} materials.consumed        Are these material components consumed during casting?
+ * @property {number} materials.cost             GP cost for the required components.
+ * @property {number} materials.supply           Quantity of this component available.
+ * @property {object} preparation                Details on how this spell is prepared.
+ * @property {string} preparation.mode           Spell preparation mode as defined in `DND5E.spellPreparationModes`.
+ * @property {boolean} preparation.prepared      Is the spell currently prepared?
+ * @property {object} scaling                    Details on how casting at higher levels affects this spell.
+ * @property {string} scaling.mode               Spell scaling mode as defined in `DND5E.spellScalingModes`.
+ * @property {string} scaling.formula            Dice formula used for scaling.
+ */
+
+/**
+ * Data definition for Tool items.
+ * @typedef Tool
+ * @property {string} ability     Default ability when this tool is being used.
+ * @property {string} chatFlavor  Additional text added to chat when this tool is used.
+ * @property {number} proficient  Level of proficiency in this tool as defined in `DND5E.proficiencyLevels`.
+ * @property {string} bonus       Bonus formula added to tool rolls.
  */
 
 /**
  * Data definition for Weapon items.
  * @typedef Weapon
- * @property {string} weaponType   Weapon category as defined in `DND5E.weaponTypes`.
- * @property {string} baseItem     Base weapon as defined in `DND5E.weaponIds` for determining proficiency.
- * @property {object} properties   Mapping of various weapon property booleans.
+ * @property {Array<string>} properties   Mapping of various weapon property booleans.
  * @property {number} proficient   Does the weapon's owner have proficiency?
  */
