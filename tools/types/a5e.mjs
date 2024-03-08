@@ -37,7 +37,7 @@
  * @property {any} consumers
  * @property {object} prompts
  * @property {Record<string, ActionRange>} ranges
- * @property {Record<string, Rolls>} rolls
+ * @property {Record<string, Roll>} rolls
  * @property {object} target
  * @property {number} [target.quantity]
  * @property {ScalingProperties} target.scaling
@@ -50,7 +50,7 @@
  */
 
 /**
- * @typedef {object} Rolls
+ * @typedef {object} Roll
  * @property {boolean} default
  * @property {string} label
  * @property {string} type
