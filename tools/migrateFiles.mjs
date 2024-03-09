@@ -250,7 +250,7 @@ function processRolls(rolls, action, system) {
       case 'damage':
         formula = r.formula.replace(/\w+.mod/, 'mod'); //  re.sub("@w+.mod", "@mod", r.formula);
         if (!r.damageType) {
-          console.log('No damage type found in', action.name);
+          console.warn('No damage type found in', action.name);
           continue;
         }
         system.damage.parts.push([formula, r.damageType]);
@@ -268,7 +268,7 @@ function processRolls(rolls, action, system) {
         system.actionType = actionType('abil', system.actionType);
         break;
       default:
-        console.log(r.type, action.name);
+        console.warn(r.type, action.name);
     }
   }
   return true;
@@ -428,7 +428,7 @@ function migrateObject(system) {
     rarity: system.rarity,
     identified: true,
   };
-  const backpack = {
+  const container = {
     // No data properties to pull from
     capacity: {
       type: 'weight',
@@ -442,7 +442,7 @@ function migrateObject(system) {
       gp: 0,
       pp: 0,
     },
-    type: 'backpack',
+    type: 'container',
   };
   const equipment = {
     armor: {
@@ -514,7 +514,7 @@ function migrateObject(system) {
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
       break;
     case 'container':
-      Object.assign(o5e, backpack);
+      Object.assign(o5e, container);
       break;
     case 'jewelry':
       Object.assign(o5e, mountable);
@@ -734,6 +734,7 @@ function weaponProperties(system, description) {
  * @returns {}
  */
 function migrateSpell(system) {
+  /** @type {import('./types/dnd5e.mjs').Spell} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -774,6 +775,7 @@ function migrateSpell(system) {
  * @returns {object}      The o5e background
  */
 function migrateBackground(system) {
+  /** @type {import('./types/dnd5e.mjs').Background} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -791,6 +793,7 @@ function migrateBackground(system) {
  * @returns {object}      The o5e background
  */
 function migrateCulture(system) {
+  /**  */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -808,6 +811,7 @@ function migrateCulture(system) {
  * @returns {object}      The o5e background
  */
 function migrateDestiny(system) {
+  /**  */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -835,6 +839,7 @@ for (const p of packList) {
       break;
     case 'maneuver':
       data.system = migrateManeuver(data.system);
+      data.type = 'a5e-for-dnd5e.maneuver';
       break;
     case 'object':
       data.system = migrateObject(data.system);
@@ -853,22 +858,23 @@ for (const p of packList) {
       break;
     case 'culture':
       data.system = migrateCulture(data.system);
-      data.type = 'background';
+      data.type = 'a5e-for-dnd5e.culture';
       break;
     case 'destiny':
       data.system = migrateDestiny(data.system);
-      data.type = 'background';
+      data.type = 'a5e-for-dnd5e.destiny';
       break;
   }
   switch (targetPack) {
-    case 'rareSpells':
-      packPath = path.join('src', 'packs', 'spells');
-      break;
     case 'adventuringGear':
     case 'magicItems':
       packPath = path.join('src', 'packs', 'equipment');
       break;
   }
   if (!fs.lstat(packPath)) fs.mkdir(packPath);
-  await fs.writeFile(path.join(packPath, p), yaml.dump(data, { indent: 2 }));
+  const fileOutPath = data.type + '_' + p;
+  await fs.writeFile(
+    path.join(packPath, fileOutPath),
+    yaml.dump(data, { indent: 2 })
+  );
 }
