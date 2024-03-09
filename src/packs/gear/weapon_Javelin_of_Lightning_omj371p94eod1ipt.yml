@@ -1,0 +1,88 @@
+name: Javelin of Lightning
+type: weapon
+img: icons/magic/lightning/bolt-beam-strike-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Once per dawn, when you throw this magic weapon and speak its command
+      word it transforms into a 5-foot wide line of electricity that is 120 feet
+      long.</p><p>Each creature in the area (excluding you) makes a DC 13
+      Dexterity saving throw, taking 4d6 lightning damage on a failed save, or
+      half damage on a success. The target of your attack takes the javelin’s
+      normal damage plus 4d6 lightning damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: ''
+    baseItem: ''
+  properties:
+    - thr
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 120
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - lightning
+      - - 1d6 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: null
+_id: omj371p94eod1ipt
+_key: '!items!omj371p94eod1ipt'

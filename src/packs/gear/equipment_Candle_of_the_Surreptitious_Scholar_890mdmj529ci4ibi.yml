@@ -1,0 +1,96 @@
+name: Candle of the Surreptitious Scholar
+type: equipment
+img: icons/sundries/lights/candle-lit-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Initially crafted by wizard apprentices trying not to irritate their
+      roommates, these candles became extremely popular with the thieves and
+      other ne’erdo-wells that can afford them (helping some less scrupulous
+      novice mages to afford tuition). The candle has 3 charges and regains 1d3
+      charges each dawn.</p><p>When you speak the command word and use an action
+      to expend 1 charge, the candle’s flame to spring to life. Its bluish flame
+      provides clear illumination within 5 feet and dim light for another 5
+      feet. The enchantment of the candle is such that the light that it sheds
+      is visible only to you, allowing you to read, write, or engage in other
+      tasks with no penalties from darkness. Each charge is good for 1 hour of
+      illumination, after which the candle winks out.</p><p>By expending all 3
+      charges at once, you can create an effect identical to <em>light</em>
+      except that only you are able to see the light it sheds.</p><p>If you
+      expend the last charge, roll a d20. On a result of 5 or less, the candle
+      loses its magic and becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 890mdmj529ci4ibi
+_key: '!items!890mdmj529ci4ibi'

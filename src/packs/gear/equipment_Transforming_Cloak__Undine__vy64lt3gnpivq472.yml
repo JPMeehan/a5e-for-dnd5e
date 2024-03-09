@@ -1,0 +1,54 @@
+name: Transforming Cloak (Undine)
+type: equipment
+img: icons/equipment/back/cloak-plain-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While you are attuned to and wearing a transforming cloak, you gain
+      resistance to a type of damage and you can use an action to activate an
+      elemental form that lasts for 1 hour, until you fall unconscious, or you
+      use a bonus action to end it.</p><p>Once you have used the cloak to take
+      on an elemental form, you cannot use that property again until you have
+      finished a long rest.</p><hr class="a5e-rule u-my-md"><p><em>This fine
+      blue and green cloak always appears to be wet, yet it never
+      drips.</em></p><hr class="a5e-rule u-my-md"><p>While your water form is
+      active you gain:</p><ul><li><p>resistance to fire
+      damage</p><p></p></li><li><p>a swim speed of 60
+      feet</p><p></p></li><li><p>the ability to breathe
+      water</p><p></p></li><li><p>you can pass through space at least half an
+      inch wide without squeezing.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 30000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: vy64lt3gnpivq472
+_key: '!items!vy64lt3gnpivq472'

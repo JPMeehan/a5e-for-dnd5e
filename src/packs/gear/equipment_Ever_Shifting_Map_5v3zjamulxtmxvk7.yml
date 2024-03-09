@@ -1,0 +1,59 @@
+name: Ever-Shifting Map
+type: equipment
+img: icons/tools/navigation/map-marked-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Created by a dwarven prospector who made it his life’s goal to map out
+      as many of the deepest dungeons and tunnels as he possibly could, this
+      tattered piece of parchment has a display of words and diagrams on it that
+      is in constant flux.</p><p>When you attune to the map, the words change to
+      the language of your choosing.</p><p>Whenever you examine the map, you can
+      immediately find north no matter where you are, so long as you are on a
+      plane of existence that has traditional cardinal directions</p><p> When
+      you speak a command word etched on the back corner of the map while you
+      are underground, you recall the memory of the dwarven prospector embarking
+      on what he feared to be his last expedition, delving so deep that he
+      thought he might never return. When this happens, the map shows you the
+      direction to the largest cache of treasure (measured in number of coins
+      and jewels) within 1 mile.</p><p>The map shows you passageways relevant to
+      your destination and gives you advantage on ability checks to find secret
+      doors, but does not note the location of monsters or traps.</p><p>The
+      information on the map disappears after your next long rest, at which
+      point all writing vanishes from the parchment and it becomes a mundane
+      item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 100
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 5v3zjamulxtmxvk7
+_key: '!items!5v3zjamulxtmxvk7'

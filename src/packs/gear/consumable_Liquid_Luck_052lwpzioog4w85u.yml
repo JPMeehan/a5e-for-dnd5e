@@ -1,0 +1,72 @@
+name: Liquid Luck
+type: consumable
+img: icons/consumables/potions/potion-bottle-corked-fancy-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>This ornate vial contains a liquid that shimmers with
+      opalescent hues.</p></blockquote><hr class="a5e-rule u-my-md"><p>After
+      drinking this potion, for the next 24 hours you have advantage whenever
+      you roll a d20.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 55000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 052lwpzioog4w85u
+_key: '!items!052lwpzioog4w85u'

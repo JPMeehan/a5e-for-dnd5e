@@ -1,0 +1,91 @@
+name: Robe of Scintillating Colors
+type: equipment
+img: icons/equipment/back/cape-layered-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components</strong>: Sign of favor from a noble
+      fey</p><hr class="a5e-rule u-my-md"><p>While wearing and attuned to this
+      robe of stimulating and lively colors, you can use an action to expend 1
+      charge and make the garment to emit bright kaleidoscopic light for 30 feet
+      and dim light for an additional 30 feet. The light  lasts until the end of
+      your next turn. Creatures that can see you have disadvantage on attack
+      rolls against you, and creatures within 30 feet that can see you when the
+      light is emitted make a DC 15 Wisdom saving throw<br>or are stunned until
+      the end of your next turn. </p><p>The robe has 3 charges and regains [[/r
+      1d3 #charges]] expended charges at dawn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30 ft. bright light and another 30 ft. dim light centered on you
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: ln9c4w1n83igf9f0
+_key: '!items!ln9c4w1n83igf9f0'

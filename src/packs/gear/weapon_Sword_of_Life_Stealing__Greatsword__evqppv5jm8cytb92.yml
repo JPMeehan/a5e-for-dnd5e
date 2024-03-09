@@ -1,0 +1,93 @@
+name: Sword of Life Stealing (Greatsword)
+type: weapon
+img: icons/weapons/swords/greatsword-guard-gem-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Heavy, Parrying, Two-Handed</em></p><hr class="a5e-rule
+      u-my-md"><p>When you use this weapon to make an attack against a creature
+      that is not a construct or undead and roll a natural 20, the creature
+      takes an extra 3d6 necrotic damage and you gain an amount of temporary hit
+      points equal to the necrotic damage dealt.</p><hr><p><b>Parrying:</b> When
+      you are wielding this weapon and you are not using a shield, once before
+      your next turn you can gain an expertise die to your AC against a single
+      melee attack made against you by a creature you can see. You cannot use
+      this property while incapacitated , paralyzed , rattled , restrained , or
+      stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 7
+  price:
+    value: 2000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 +@mod
+        - slashing
+      - - 3d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: evqppv5jm8cytb92
+_key: '!items!evqppv5jm8cytb92'

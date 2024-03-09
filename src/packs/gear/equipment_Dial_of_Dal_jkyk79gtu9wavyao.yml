@@ -1,0 +1,118 @@
+name: Dial of Dal
+type: equipment
+img: icons/commodities/tech/watch.webp
+system:
+  description:
+    value: >-
+      <div class="grid_8 omega posts righter">
+
+      <div id="block-ipress-content" class="mbf clearfix blockcontent">
+
+      <article class="magic-item full clearfix" role="article"
+      data-history-node-id="2989">
+
+      <div class="name">
+
+      <div class="magic-item-page-header">
+
+      <div class="field field--name-field-mi-description field--type-text-long
+      field--label-hidden field--item">
+
+      <p>None living know who or what Dal was, only that the name is carved into
+      this device. About half a foot in diameter, this flat disk resembles a
+      sundial with many styles (time-telling edges), each of which can be moved
+      on its own course, rotating on the flat of the disc on an undetectable
+      groove. As these are moved, you receive a vision of events and emotions
+      that have occurred in your current location.</p>
+
+      <p>As an action, you can use the dial of Dal to cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.24rmiwo0w5pd746x]{Legend Lore}
+      spell focused on your current location without the need for material
+      components. Once used in this way, the dial cannot be used again until you
+      finish a <span class="freelinking-link">long rest</span>.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </article>
+
+      </div>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 12800
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_id: jkyk79gtu9wavyao
+_key: '!items!jkyk79gtu9wavyao'

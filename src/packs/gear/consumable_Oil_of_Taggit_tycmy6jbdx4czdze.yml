@@ -1,0 +1,105 @@
+folder: null
+name: Oil of Taggit
+type: consumable
+img: icons/consumables/drinks/alcohol-jar-spirits-gray.webp
+system:
+  description:
+    value: >-
+      <p><em>Uncommon, Contact, Instantaneous</em></p>
+
+      <p>The roots of the taggit plant can be concentrated into this slick,
+      gray, odorless oil. A creature makes a DC 13 Constitution saving throw
+      when subjected to this poison, and on a failure it becomes poisoned for 24
+      hours. Creatures poisoned in this way are also knocked unconscious. The
+      creature wakes up if it takes damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/drinks/alcohol-jar-spirits-gray.webp
+    origin: Item.tycmy6jbdx4czdze
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iXiD5Xl8MPahhMgR
+        duration:
+          unit: hours
+    transfer: false
+    name: Oil of Taggit Poisoning
+    _id: dDKukCX2YSt7Tw4X
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned","unconscious"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+      - unconscious
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!tycmy6jbdx4czdze.dDKukCX2YSt7Tw4X'
+flags: {}
+_id: tycmy6jbdx4czdze
+_key: '!items!tycmy6jbdx4czdze'

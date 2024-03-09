@@ -1,0 +1,86 @@
+name: Cloak of Displacement
+type: equipment
+img: icons/equipment/back/cloak-layered-tattered-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This cloak creates a visual illusion that distorts your position.
+      Attack rolls against you have disadvantage unless the attacker does not
+      rely on sight. When you take damage, this property stops until the start
+      of your next turn, and it is otherwise negated if you are incapacitated,
+      restrained, or unable to move.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: none
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ssotwpinge5ji9ly
+_key: '!items!ssotwpinge5ji9ly'

@@ -1,0 +1,38 @@
+name: Potion of Invisibility
+type: consumable
+img: icons/consumables/potions/vial-ornet-silver-black.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>The silver liquid in this vial is visible only when shaken
+      or disturbed.</p></blockquote><p>After drinking this potion, for the next
+      hour you and anything you’re wearing or carrying becomes
+      invisible.</p><p>The effect ends early if you attack or cast a
+      spell.</p><hr class="a5e-rule u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Crushed
+      moonstone</p><p>or</p></li><li><p>a piece from a sacred
+      veil</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: 7xfhqdmhicdtmtw8
+_key: '!items!7xfhqdmhicdtmtw8'

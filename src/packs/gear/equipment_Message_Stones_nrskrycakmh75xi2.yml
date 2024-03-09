@@ -1,0 +1,52 @@
+name: Message Stones
+type: equipment
+img: icons/commodities/stone/paver-cobble-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Message stones are a pair of small, smooth stones, carved from two
+      halves of a single rock. While touching one of the stones, you can use an
+      action to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.kbyg7uvh3w8osgiq]{Sending},
+      targeting the creature that carries the other stone. The spell is only
+      cast if a creature is holding the paired stone or it is otherwise touching
+      the creature&rsquo;s skin.</p>
+
+      <p>Once used to cast sending, the stones cannot be used again until dawn
+      of the following day. If one of the paired stones is destroyed, the other
+      loses its magical properties. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 450
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: nrskrycakmh75xi2
+_key: '!items!nrskrycakmh75xi2'

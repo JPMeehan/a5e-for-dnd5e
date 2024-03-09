@@ -1,0 +1,48 @@
+name: Quiver of the Hunt
+type: equipment
+img: icons/containers/ammunition/arrows-quiver-grey-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Pelt of a hunting beast of CR 1
+      or higher, or air elemental’s essence</p><hr class="a5e-rule
+      u-my-md"><p>While attuned to and wearing this ornate quiver, you can draw
+      arrows, bolts, or sling stones as part of taking the Attack action with a
+      bow, crossbow, or sling, producing an endless supply of missiles. The
+      ammunition disappears upon impact, hit or miss, and disappears if passed
+      to another creature to fire.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 300
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: mlmhk4lfuwo0pk7b
+_key: '!items!mlmhk4lfuwo0pk7b'

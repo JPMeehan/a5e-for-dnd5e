@@ -1,0 +1,103 @@
+name: Potion of Frost Giant Strength
+type: consumable
+img: icons/consumables/potions/potion-tube-corked-labeled-cyan.webp
+system:
+  description:
+    value: >-
+      <p>After you drink this transparent, viscous potion, for the next hour
+      your Strength score increases to 22.</p>
+
+      <p>The potion has no effect if your Strength is equal to or greater than
+      the giant&rsquo;s Strength score.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Item.z0kb9jn3l3n72yol
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: n9Q2Qouem5tP22tj
+    transfer: false
+    name: Potion of Frost Giant Strength
+    _id: XLlSFdtETTS1R91h
+    changes:
+      - key: system.abilities.str.value
+        value: '22'
+        mode: 5
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!z0kb9jn3l3n72yol.XLlSFdtETTS1R91h'
+flags: {}
+folder: null
+_id: z0kb9jn3l3n72yol
+_key: '!items!z0kb9jn3l3n72yol'

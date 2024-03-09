@@ -1,0 +1,88 @@
+name: Nine Lives Stealer
+type: weapon
+img: icons/weapons/swords/sword-runed-glowing.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You gain a +2 bonus to attack and damage rolls made with this magic
+      sword.</p><p>The sword has [[/r 1d8+1 #charges]] charges. When you use the
+      sword to score a critical hit against a creature that is not a construct
+      or undead, if it has less than 100 hit points it makes a DC 15
+      Constitution saving throw or it instantly dies as the sword rips the life
+      force out of it. Each time a creature is killed in this manner the sword
+      expends a charge. When all its charges are gone, the sword loses this
+      property. </p><p>This item variant can be created as:</p><p>Nine Lives
+      Stealer Bastard Sword</p><p>Nine Lives Stealer Greatsword</p><p>Nine Lives
+      Stealer Longsword</p><p>Nine Lives Stealer Rapier</p><p>Nine Lives Stealer
+      Scimitar</p><p>Nine Lives Stealer Shortsword</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 10000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: ''
+    baseItem: ''
+  properties: []
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: js4qafwc3t10mb4k
+_key: '!items!js4qafwc3t10mb4k'

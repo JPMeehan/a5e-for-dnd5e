@@ -1,0 +1,125 @@
+name: Tomahawk +2
+type: weapon
+img: icons/weapons/axes/shortaxe-tribal.webp
+effects:
+  - icon: icons/weapons/axes/shortaxe-tribal.webp
+    origin: Item.tAF2pPReUpueHsKO
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Wj2wEtEOK3ej6uIH
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: 2pzcilmmaypkTG8n
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 0
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!bc61rvzctr7teti0.2pzcilmmaypkTG8n'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Breaker (Wood), Defensive (Light), Dual-Wielding, Simple, Thrown
+      (20/60)</em></p>
+
+      <p>A tomahawk uses the statistics of a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.h7r1ogzu9fairy71]{Handaxe}.</p><hr><p><b>Breaker:</b>
+      This weapon deals double damage to unattended objects, such as doors and
+      walls. If this property only applies to a specific type of material, such
+      as wood, it is stated in parenthesis after this
+      property.</p><p><b>Defensive:</b> This weapon is designed to be used with
+      a shield of the stated degree or lighter (light, medium, or heavy). When
+      you make an attack with this weapon and are using a shield designed for
+      it, you can use a bonus action to either make an attack with your shield
+      or increase your Armor Class by 1 until the start of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: simpleR
+    baseItem: ''
+  properties:
+    - lgt
+    - thr
+    - breaker
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: bc61rvzctr7teti0
+_key: '!items!bc61rvzctr7teti0'

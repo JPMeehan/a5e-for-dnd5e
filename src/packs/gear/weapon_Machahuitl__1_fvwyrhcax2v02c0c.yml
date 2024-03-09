@@ -1,0 +1,118 @@
+name: Machahuitl +1
+type: weapon
+img: icons/weapons/staves/staff-spiked.webp
+effects:
+  - icon: icons/weapons/staves/staff-spiked.webp
+    origin: Item.TX0oJUXjzvObVIDg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: v3bptQ9yjfEMnfwo
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: Llj5xb79gCEj7iz8
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!fvwyrhcax2v02c0c.Llj5xb79gCEj7iz8'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Defensive (Medium)</em></p>
+
+      <p>This club with embedded obsidian blades functions as a fine
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.pxazla3i4qaj6c29]{Longsword}.</p><hr><p><b>Defensive:</b>
+      This weapon is designed to be used with a shield of the stated degree or
+      lighter (light, medium, or heavy). When you make an attack with this
+      weapon and are using a shield designed for it, you can use a bonus action
+      to either make an attack with your shield or increase your Armor Class by
+      1 until the start of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: fvwyrhcax2v02c0c
+_key: '!items!fvwyrhcax2v02c0c'

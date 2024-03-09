@@ -1,0 +1,74 @@
+name: Oil of Etherealness
+type: consumable
+img: icons/consumables/potions/vial-cork-empty.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This misty white solution has turned to vapor in its vial, becoming
+      liquid again when shaken. You can spend 10 minutes applying the ephemeral
+      substance to a Medium or smaller creature, as well as its gear. One
+      additional vial is required for each size category above Medium.</p><p>A
+      creature covered in the oil becomes ethereal as the <em>Etherealness
+      </em>spell for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: touch
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: gqlz1b5ravkr560y
+_key: '!items!gqlz1b5ravkr560y'

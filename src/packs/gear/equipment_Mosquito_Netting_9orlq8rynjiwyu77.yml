@@ -1,0 +1,43 @@
+name: Mosquito Netting
+type: equipment
+img: icons/tools/fishing/net-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This thin mesh cloth provides protection from small insects while
+      sleeping in jungles, swamps, or similar environments.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 9orlq8rynjiwyu77
+_key: '!items!9orlq8rynjiwyu77'

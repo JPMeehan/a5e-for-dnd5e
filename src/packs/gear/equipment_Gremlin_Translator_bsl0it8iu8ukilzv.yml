@@ -1,0 +1,51 @@
+name: Gremlin Translator
+type: equipment
+img: icons/equipment/finger/ring-horseshoe-gold-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This Tiny ethereal orange goblinoid sits inside a decorative silver
+      earring.</p><p>The gremlin speaks Common and has limited knowledge of all
+      other known languages, able to understand and translate the following
+      phrases regardless of what language they are spoken
+      in:</p><ul><li><p>Excuse
+      me</p></li><li><p>Please</p></li><li><p>Yes</p></li><li><p>No</p></li><li><p>Where
+      is the privy?</p></li></ul><p>When prompted the gremlin provides you with
+      the correct translation of any of those phrases in any language. It can
+      also attempt to translate anything spoken or written in any language,
+      however it only recognizes the words that comprise the above phrases.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 250
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: bsl0it8iu8ukilzv
+_key: '!items!bsl0it8iu8ukilzv'

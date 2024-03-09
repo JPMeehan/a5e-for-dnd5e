@@ -1,0 +1,92 @@
+name: Shield, Light +1
+type: equipment
+img: icons/equipment/shield/buckler-wooden-round-hole.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>AC:&nbsp;</strong>+2</p>
+
+      <p>When you take a critical hit, you can use your reaction to block it and
+      sacrifice your shield, turning the critical hit into a regular hit.
+      Afterwards your shield is broken, or if your shield is magical it instead
+      becomes mundane for 1 hour.</p>
+
+      <p>You may throw this shield, treating it as an improvised weapon that
+      deals 1d6 bludgeoning damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 1000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: 2
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: shield
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 20
+    long: '60'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: vf83modl46ytbqgg
+_key: '!items!vf83modl46ytbqgg'

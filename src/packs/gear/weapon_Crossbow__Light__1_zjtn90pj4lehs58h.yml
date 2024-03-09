@@ -1,0 +1,82 @@
+name: Crossbow, Light +1
+type: weapon
+img: icons/weapons/crossbows/crossbow-simple-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p><em>Loading, Range (80/320), Simple, Two-Handed</em></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: simpleR
+    baseItem: ''
+  properties:
+    - lod
+    - amm
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 80
+    long: 320
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod + 1
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: zjtn90pj4lehs58h
+_key: '!items!zjtn90pj4lehs58h'

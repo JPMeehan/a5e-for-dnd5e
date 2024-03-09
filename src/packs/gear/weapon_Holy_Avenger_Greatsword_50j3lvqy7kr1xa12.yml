@@ -1,0 +1,99 @@
+name: Holy Avenger Greatsword
+type: weapon
+img: icons/weapons/swords/greatsword-guard-gem-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Heavy, Parrying, Two-Handed</em></p>
+
+      <p>You gain a +3 bonus to attack and damage rolls made with this magic
+      sword. While you are attuned to the sword and use it to attack a fiend or
+      undead, on a hit it deals an extra 2d10 radiant damage. In addition, while
+      drawn the sword creates an aura in a 10-foot radius around you. You and
+      friendly creatures in the aura gain&nbsp;<span
+      class="freelinking-link">advantage</span>&nbsp;on&nbsp;<span
+      class="freelinking-link">saving throws</span>&nbsp;against spells and
+      other magical effects. If you have 17 or more levels in the herald class,
+      the aura increases to a 30-foot radius.</p><hr><p><b>Parrying:</b> When
+      you are wielding this weapon and you are not using a shield, once before
+      your next turn you can gain an expertise die to your AC against a single
+      melee attack made against you by a creature you can see. You cannot use
+      this property while incapacitated , paralyzed , rattled , restrained , or
+      stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 7
+  price:
+    value: 100000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod + 3
+        - slashing
+      - - 2d10
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 50j3lvqy7kr1xa12
+_key: '!items!50j3lvqy7kr1xa12'

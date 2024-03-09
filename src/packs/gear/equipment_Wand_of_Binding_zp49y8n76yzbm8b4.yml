@@ -1,0 +1,99 @@
+name: Wand of Binding
+type: equipment
+img: icons/weapons/wands/wand-carved-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Adamantine shackles that have
+      bound a creature of CR 9 or higher</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p><em>Requires attunement by a spellcaster</em></p>
+
+      <p>While holding this wand, you can use an action to expend charges to
+      cast one of the following spells, using your spell save DC:
+      @UUID[Compendium.a5e-for-dnd5e.spells.ztgij3hd5gktogqt]{Hold Person} (2
+      charges), @UUID[Compendium.a5e.a5e-spells.geix9369vzozz4zm]{Hold Monster}
+      (5 charges). Alternatively, when you attempt to escape a grapple or are
+      making a saving throw to avoid being paralyzed or restrained, you can use
+      your reaction to expend 1 charge and gain advantage.</p>
+
+      <p>This wand has 7 charges and regains [[/r 1d6+1 #charges]] expended
+      charges each dawn. When the last charge is expended, roll a [[/r 1d20]].
+      On a 1, the wand folds in on itself until it disappears.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: zp49y8n76yzbm8b4
+_key: '!items!zp49y8n76yzbm8b4'

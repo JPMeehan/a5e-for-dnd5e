@@ -1,0 +1,140 @@
+name: Frost Giant’s Plate
+type: equipment
+img: icons/commodities/treasure/token-engraved-blue-glowing.webp
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.zw00haggkflm5oa5
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: New Effect
+    _id: 42pUMz6ozAnp0jw9
+    changes:
+      - key: system.traits.damageResistances
+        mode: 2
+        value: Cold
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!zw00haggkflm5oa5.42pUMz6ozAnp0jw9'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With only a thought you can make this fist-sized ball of jagged ice
+      expand to encase your body in a frigid suit of plate armor constructed out
+      of solid black ice.</p>
+
+      <p>As a bonus action, you can reduce the armor to a 5 pound ball of ice
+      which never melts, or expand the ice back into the suit of armor.</p>
+
+      <p>While wearing this plate armor you gain:</p>
+
+      <ul>
+
+      <li>
+
+      <p>+2 bonus to Armor Class</p>
+
+      </li>
+
+      <li>
+
+      <p>resistance to cold damage</p>
+
+      </li>
+
+      <li>
+
+      <p>once per day you can double your size (as the <em>enlarge/reduce</em>
+      spell) for 10 minutes.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 15600
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: 20
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: heavy
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 15
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: zw00haggkflm5oa5
+_key: '!items!zw00haggkflm5oa5'

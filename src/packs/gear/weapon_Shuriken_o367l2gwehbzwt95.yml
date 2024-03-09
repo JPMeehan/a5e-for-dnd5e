@@ -1,0 +1,92 @@
+name: Shuriken
+type: weapon
+img: icons/weapons/thrown/shuriken-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Dual-Wielding, Finesse, Quickdraw, Thrown (30/80)</em></p>
+
+      <p>&nbsp;</p>
+
+      <p>This weapon&nbsp;uses the statistics of a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.waqd98z0mqohxxz2]{Dagger,
+      Throwing}. It can only do 1 damage in melee. It has the
+      quickdraw&nbsp;property.</p><hr><p><b>Quickdraw:</b> If you would normally
+      only be able to draw one of these weapons on a turn, you may instead draw
+      a number equal to the number of attacks you make. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - lgt
+    - fin
+    - thr
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '30'
+    long: 80
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + min(@mod,0)
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: o367l2gwehbzwt95
+_key: '!items!o367l2gwehbzwt95'

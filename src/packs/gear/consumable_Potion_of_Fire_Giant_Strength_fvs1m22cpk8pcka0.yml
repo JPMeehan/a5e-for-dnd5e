@@ -1,0 +1,103 @@
+name: Potion of Fire Giant Strength
+type: consumable
+img: icons/consumables/potions/bottle-round-corked-orange.webp
+system:
+  description:
+    value: >-
+      <p>After you drink this orange, volatile potion, for the next hour your
+      Strength score increases to 25.</p>
+
+      <p>The potion has no effect if your Strength is equal to or greater than
+      the giant&rsquo;s Strength score.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Item.fvs1m22cpk8pcka0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: n9Q2Qouem5tP22tj
+    transfer: false
+    name: Potion of Fire Giant Strength
+    _id: XLlSFdtETTS1R91h
+    changes:
+      - key: system.abilities.str.value
+        value: '25'
+        mode: 5
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!fvs1m22cpk8pcka0.XLlSFdtETTS1R91h'
+flags: {}
+folder: null
+_id: fvs1m22cpk8pcka0
+_key: '!items!fvs1m22cpk8pcka0'

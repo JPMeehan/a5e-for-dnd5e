@@ -1,0 +1,91 @@
+name: Ring Blade +1
+type: weapon
+img: icons/weapons/thrown/shuriken-triple-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Thrown (30/90)</em></p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>This metal hoop has sharpened edges that make it deadly whether thrown
+      or used in hand.</p>
+
+      <p>It costs only 1 exertion point to use
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.wgqhr8fisrynnnvl]{Ricochet}&nbsp;with
+      this weapon. In addition, when you throw this weapon, you may make the
+      attack with disadvantage, and on a hit it returns to your hand.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 6
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - thr
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '30'
+    long: 90
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod + 1
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ltk33c9fc3cxufsw
+_key: '!items!ltk33c9fc3cxufsw'

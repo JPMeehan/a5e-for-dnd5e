@@ -1,0 +1,94 @@
+name: Snake-Eye Bones
+type: equipment
+img: icons/sundries/gaming/dice-pair-white-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Every trip to sea can become boring and one of the best ways to whittle
+      away at the time — besides drinking rum—is to engage in a game of bones.
+      Not every sailor on the high seas is honest and these dice were crafted
+      with the devious amongst them in mind.</p><p>Each four-sided die is made
+      from bleached white whale bone and inlaid with jet-black markings. No
+      matter how many times they are thrown or the number of ship hulls they
+      strike, the dice never nick or scuff, and their markings do not
+      fade.</p><p>The dice have 2 charges and regain 1 charge each
+      dawn.</p><p>When you speak the command word as a bonus action as the dice
+      are being rolled, their results come up as double ones (or
+      snake-eyes).</p><p>If you expend the last charge, roll a d20. On a result
+      of 5 or less, the dice will roll up as double ones but both dice then
+      crack in half rendering them useless.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 55
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: rc2dbwy5tbk83ejt
+_key: '!items!rc2dbwy5tbk83ejt'

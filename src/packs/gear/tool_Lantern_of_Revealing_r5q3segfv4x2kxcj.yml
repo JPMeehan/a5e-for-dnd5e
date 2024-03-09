@@ -1,0 +1,36 @@
+name: Lantern of Revealing
+type: tool
+img: icons/sundries/lights/lantern-iron-lit-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      While lit, this hooded lantern casts bright light in a 30-foot radius,
+      revealing invisible creatures and objects in the area. It sheds dim light
+      an additional 30 feet, or if you use an action to lower the hood only in a
+      5-foot radius. The lantern stays lit for 6 hours on 1 pint of oil. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: ''
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  bonus: ''
+folder: null
+_id: r5q3segfv4x2kxcj
+_key: '!items!r5q3segfv4x2kxcj'

@@ -1,0 +1,76 @@
+name: Orb of Chaotic Assault
+type: consumable
+img: icons/commodities/materials/glass-orb-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This iridescent glass sphere’s color is constantly shifting. When used
+      as an improvised weapon the orb breaks on impact. If the orb shatters
+      against a creature, one randomly determined resistance or immunity the
+      creature has is reduced for [[/r 1d6+1 #rounds]] rounds, after which the
+      creature’s defenses return to normal. A creature’s immunity to a damage
+      type changes to resistance to that damage type, or it loses its
+      resistance. Success on a DC 15 Intelligence (Arcana) check reveals what
+      resistance has been affected after the orb is used.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: 20/60 ft.
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ppw286lg2iedg15l
+_key: '!items!ppw286lg2iedg15l'

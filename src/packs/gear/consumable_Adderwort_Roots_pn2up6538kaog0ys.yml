@@ -1,0 +1,101 @@
+name: Adderwort Roots
+type: consumable
+img: icons/consumables/plants/dried-bundle-wrapped-stems-sticks-brown.webp
+effects:
+  - icon: icons/consumables/plants/dried-bundle-wrapped-stems-sticks-brown.webp
+    origin: Item.pn2up6538kaog0ys
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: Az9ybj9nB0AzENqm
+    transfer: false
+    name: Adderwort Roots
+    _id: V6RtQh7mtpjwoKEn
+    changes:
+      - key: system.abilities.con.save.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!pn2up6538kaog0ys.V6RtQh7mtpjwoKEn'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Chewing these dark roots bolsters your body’s natural defenses, and
+      after you eat it you gain an expertise die on Constitution saving throws
+      for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: pn2up6538kaog0ys
+_key: '!items!pn2up6538kaog0ys'

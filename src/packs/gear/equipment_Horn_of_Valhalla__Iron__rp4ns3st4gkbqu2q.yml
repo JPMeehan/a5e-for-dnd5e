@@ -1,0 +1,86 @@
+name: Horn of Valhalla (Iron)
+type: equipment
+img: icons/containers/misc/horn-drinking-wood-teal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can use an action to blow this horn and summon the spirits of
+      fallen warriors. These spirits appear within 60 feet of you and use the
+      statistics for berserker hordes. They return to Valhalla after 1 hour or
+      when they drop to 0 hit points. Once you use the horn, it can’t be used
+      again for 7 days.</p><p>Summon five Berserker Hordes.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 75000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: rp4ns3st4gkbqu2q
+_key: '!items!rp4ns3st4gkbqu2q'

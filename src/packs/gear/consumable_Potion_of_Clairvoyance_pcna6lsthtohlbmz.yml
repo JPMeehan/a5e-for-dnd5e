@@ -1,0 +1,37 @@
+name: Potion of Clairvoyance
+type: consumable
+img: icons/consumables/potions/potion-tube-corked-orange.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>This dark liquid has a copper
+      sheen.</p></blockquote><p>After drinking this potion, you are affected as
+      if you had cast <em>clairvoyance</em>.</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Dream captured from the Astral
+      Plane</p></li><li><p>100x copper pennies</p></li><li><p>fine silk bed
+      sheets</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: pcna6lsthtohlbmz
+_key: '!items!pcna6lsthtohlbmz'

@@ -1,0 +1,150 @@
+name: Ring of the Ram
+type: equipment
+img: icons/equipment/finger/ring-horned-gold-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components: </strong>Chimera horns</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>This ring has 3 charges and regains [[/r 1d3 #charges]] expended
+      charges at dawn. While wearing this ring, you can use an action to expend
+      1 to 3 charges and choose a creature you can see within 60 feet. A
+      spectral ram&rsquo;s head launches from the ring to slam into the
+      creature, making its attack roll with a +7 bonus. On a hit, for every
+      expended charge the attack deals 2d10<br>force damage and the creature is
+      pushed 5 feet away.</p>
+
+      <p>Additionally, you can use an action to expend 1 to 3 charges to break
+      an unattended object you can see within 60 feet. The ring makes a Strength
+      check with a +5 bonus for each expended charge.</p>
+
+      <table style="width: 100%; height: 67.1876px;" border="1"><colgroup><col
+      style="width: 50.8124%;"><col style="width: 49.1876%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">Charges</td>
+
+      <td style="height: 16.7969px; text-align: center;">Strength Check</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 1d20+5 #Strength
+      check]]</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 1d20+10 #Strength
+      check]]</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 1d20+15 #Strength
+      check]]</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: '7'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d10
+        - force
+      - - 4d10
+        - force
+      - - 6d10
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: vj2ribo5u3giqbm1
+_key: '!items!vj2ribo5u3giqbm1'

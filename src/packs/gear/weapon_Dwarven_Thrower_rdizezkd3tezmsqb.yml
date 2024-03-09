@@ -1,0 +1,98 @@
+name: Dwarven Thrower
+type: weapon
+img: icons/weapons/hammers/hammer-double-engraved-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      You gain +3 bonus to attack and damage rolls made with this magic
+      warhammer. In addition, while you are attuned to the hammer, you may throw
+      it with a normal range of 20 feet and a maximum range of 60 feet. On a hit
+      with a ranged attack using this hammer it deals an extra 1d8 damage (2d8
+      damage if the target is a giant). When thrown the warhammer immediately
+      flies back to your hand after it hits or misses its target. 
+
+      <hr><p><b>Breaker:</b> This weapon deals double damage to unattended
+      objects, such as doors and walls. If this property only applies to a
+      specific type of material, such as wood, it is stated in parenthesis after
+      this property.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 18000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - ver
+    - breaker
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: Normal range 20ft, maximum range 60ft.
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + 3 + @mod
+        - bludgeoning
+      - - 1d10 + 3 +@mod
+        - bludgeoning
+      - - 1d8
+        - bludgeoning
+      - - 2d8
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: rdizezkd3tezmsqb
+_key: '!items!rdizezkd3tezmsqb'

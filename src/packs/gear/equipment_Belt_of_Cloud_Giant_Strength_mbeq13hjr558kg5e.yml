@@ -1,0 +1,71 @@
+name: Belt of Cloud Giant Strength
+type: equipment
+img: icons/equipment/waist/belt-thick-gemmed-steel-grey.webp
+effects:
+  - icon: icons/equipment/waist/belt-thick-gemmed-steel-grey.webp
+    origin: Item.mbeq13hjr558kg5e
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Belt of Cloud Giant Strength
+    _id: losAXdRJ9dPHzWMK
+    changes:
+      - key: system.abilities.str.value
+        mode: 5
+        value: '27'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!mbeq13hjr558kg5e.losAXdRJ9dPHzWMK'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Wearing this belt increases your Strength score to 27. It has no effect
+      if your Strength is equal to or greater than the belt’s score.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 55000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: mbeq13hjr558kg5e
+_key: '!items!mbeq13hjr558kg5e'

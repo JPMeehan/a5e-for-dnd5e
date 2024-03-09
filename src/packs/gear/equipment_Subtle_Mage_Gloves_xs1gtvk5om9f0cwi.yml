@@ -1,0 +1,47 @@
+name: Subtle Mage Gloves
+type: equipment
+img: icons/equipment/hand/glove-ringed-cloth-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While wearing these gloves, you gain a +1 bonus to AC.</p><hr
+      class="a5e-rule u-my-md"><p>When you cast a spell you can use your
+      reaction to expend a number of charges equal to the spell’s level, casting
+      it without any seen or vocalized components.</p><hr class="a5e-rule
+      u-my-md"><p>The gloves have 4 charges and regain 1d3 charges each
+      dawn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: 1
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: xs1gtvk5om9f0cwi
+_key: '!items!xs1gtvk5om9f0cwi'

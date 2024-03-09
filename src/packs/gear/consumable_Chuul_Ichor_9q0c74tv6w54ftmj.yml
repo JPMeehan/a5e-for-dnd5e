@@ -1,0 +1,106 @@
+folder: null
+name: Chuul Ichor
+type: consumable
+img: icons/commodities/materials/liquid-green.webp
+system:
+  description:
+    value: >-
+      <p><em>Uncommon, Injury, Instantaneous</em></p>
+
+      <p>This slime can be carefully harvested from&nbsp;a chuul&rsquo;s
+      tentacles. A creature makes a DC 13&nbsp;Constitution saving throw when
+      subjected to this&nbsp;poison, and on a failure it becomes poisoned
+      for&nbsp;1 minute. Creatures poisoned in this way are also&nbsp;paralyzed.
+      The poisoned creature repeats its saving&nbsp;throw at the end of each of
+      its turns, ending the&nbsp;poison&rsquo;s effects on a success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 350
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/materials/liquid-green.webp
+    origin: Item.9q0c74tv6w54ftmj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: minutes
+    transfer: false
+    name: Chuul Ichor Poisoning
+    _id: 5UaBqRqzFKFk9i84
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned","paralyzed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+      - paralyzed
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!9q0c74tv6w54ftmj.5UaBqRqzFKFk9i84'
+flags: {}
+_id: 9q0c74tv6w54ftmj
+_key: '!items!9q0c74tv6w54ftmj'

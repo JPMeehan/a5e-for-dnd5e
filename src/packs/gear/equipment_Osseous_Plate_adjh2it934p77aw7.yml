@@ -1,0 +1,125 @@
+name: Osseous Plate
+type: equipment
+img: icons/commodities/metal/mail-chain-steel.webp
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.adjh2it934p77aw7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Osseous Plate
+    _id: kEq0dPbVbI5w6l0N
+    changes:
+      - key: system.traits.damageResistances
+        mode: 2
+        value: necrotic
+        priority: null
+      - key: system.traits.damageVulnerabilities
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.damageResistances
+        mode: 2
+        value: poison
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!adjh2it934p77aw7.kEq0dPbVbI5w6l0N'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><span style="font-size: 10.5pt;">This heavy armor is made from the
+      bones of several humanoids &mdash; ribs, shoulder, femurs and many others
+      have been bound in leather and fused with necromantic magic &mdash; and
+      while donned it imparts a touch of undeath to the wearer. While wearing
+      this armor, you gain resistance to poison and necrotic damage, but also
+      vulnerability to bludgeoning damage. As a bonus action, you can make the
+      bones rattle to gain advantage on the next Intimidation check you make
+      this turn against a humanoid.</span></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 20
+  price:
+    value: 3750
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: 16
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: heavy
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 13
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: adjh2it934p77aw7
+_key: '!items!adjh2it934p77aw7'

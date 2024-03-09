@@ -3,7 +3,7 @@
     "build:init": "node ./tools/extract-a5e.mjs",
     "build:A5Eto5E": "node ./tools/migrateFiles.mjs",
     "build:spells": "npm run build:A5Eto5E -- spells && node ./tools/spellFolders.mjs",
-    "build:equipment": "npm run build:A5Eto5E -- adventuringGear",
+    "build:gear": "npm run build:A5Eto5E -- adventuringGear",
     "build:css": "sass ./src/styles/index.scss a5e.css",
     "build:js": "rollup -c",
     "build": "npm run build:css && npm run build:js",

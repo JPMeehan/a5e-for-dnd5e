@@ -1,0 +1,79 @@
+name: Fizzy Rocks
+type: consumable
+img: icons/magic/light/orbs-hand-gray.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This paper packet bearing a winking wizard’s face contains a dozen
+      brightly colored sugary pebbles that fizz when eaten.</p><p>When you
+      consume a piece of this candy, you can use a bonus action to throw your
+      voice to any point you can see within 60 feet, and your voice emanates
+      directly from that point until the start of your next turn. This effect
+      lasts for 1 hour.</p><p>Alternatively, you can consume all 12 fizzy rocks
+      to cast <em>thunderwave </em>as a 2nd-level spell (dealing 2d8 thunder
+      damage; save DC 14). <em>You are made an additional target of the spell
+      when casting it in this way.</em></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 95
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: rwiccr0upvc2drka
+_key: '!items!rwiccr0upvc2drka'

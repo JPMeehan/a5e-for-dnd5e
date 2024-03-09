@@ -1,0 +1,92 @@
+name: Crystal Ball of Telepathy
+type: equipment
+img: icons/commodities/gems/pearl-beige-smooth.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A typical enchanted <em>crystal ball</em> can be used to cast the
+      <em>scrying</em> spell (save DC 17) once between short rests while
+      touching it.</p><p>Three legendary variations exist. In all cases, the
+      legendary variants have an alignment (Chaotic, Evil, Good, or Lawful). If
+      you do not have an alignment trait that matches the crystal ball’s, after
+      using it you take 6d6 psychic damage and gain a level of
+      strife.</p><p>While the scrying is active, you can communicate
+      telepathically with creatures within 30 feet of the spell’s sensor, and
+      you can use an action to cast <em>suggestion</em> (save DC 17) through the
+      sensor on one of them. This effect does not require concentration, but it
+      ends when the scrying does.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: joam4ik3tyflsxr4
+_key: '!items!joam4ik3tyflsxr4'

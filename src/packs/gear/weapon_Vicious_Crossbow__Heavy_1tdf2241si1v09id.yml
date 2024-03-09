@@ -1,0 +1,89 @@
+name: Vicious Crossbow, Heavy
+type: weapon
+img: icons/weapons/crossbows/crossbow-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Heavy, Loading, Range (100/400), Simple, Two-Handed</em></p><p>When
+      you roll a natural 20 on an attack roll using this weapon it deals an
+      extra 2d6 damage of the weapon's type (this extra damage does not
+      double).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 15
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: simpleR
+    baseItem: ''
+  properties:
+    - hvy
+    - lod
+    - amm
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 100
+    long: 400
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 + @mod
+        - piercing
+      - - 2d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 1tdf2241si1v09id
+_key: '!items!1tdf2241si1v09id'

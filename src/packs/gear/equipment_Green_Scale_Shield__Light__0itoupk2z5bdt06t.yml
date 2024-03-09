@@ -1,0 +1,113 @@
+name: Green Scale Shield (Light)
+type: equipment
+img: icons/equipment/shield/kite-wooden-dragon-green.webp
+effects:
+  - icon: icons/equipment/shield/kite-wooden-dragon-green.webp
+    origin: Item.0itoupk2z5bdt06t
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Poison Resistance
+    _id: AJsgWeG7KhSng79g
+    changes:
+      - key: system.traits.damageResistances
+        value: poison
+        mode: 2
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!0itoupk2z5bdt06t.AJsgWeG7KhSng79g'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While you hold this shield, you have&nbsp;<span
+      class="freelinking-link">resistance</span>&nbsp;to poison damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: 1
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: shield
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 0itoupk2z5bdt06t
+_key: '!items!0itoupk2z5bdt06t'

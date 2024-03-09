@@ -1,0 +1,114 @@
+folder: null
+name: Striped Toadstool
+type: consumable
+img: icons/consumables/mushrooms/campanulate-bell-shiny-red.webp
+system:
+  description:
+    value: >-
+      <p><em>Common, Ingested, Onset (1 hour)</em></p>
+
+      <p>These red-striped mushrooms are well known as&nbsp;toxic to forest
+      foragers. A creature makes a DC 12&nbsp;Constitution saving throw when it
+      is subjected to&nbsp;this poison, and on a failure it becomes
+      poisoned&nbsp;for 1d4+2 hours. Creatures poisoned in this way&nbsp;also
+      have disadvantage on Wisdom checks and&nbsp;saving throws. Prior to the
+      onset, this poison can&nbsp;be counteracted by the lesser restoration
+      spell or&nbsp;any ability that would cure the poisoned condition.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/mushrooms/campanulate-bell-shiny-red.webp
+    origin: Item.gqzbs079wsyd0tev
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: hours
+    transfer: false
+    name: Striped Toadstool Poisoning
+    _id: 5UaBqRqzFKFk9i84
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.wis
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilitySave.wis
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 7200
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>[[1d4+2]] hours</p>
+    statuses:
+      - poisoned
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!gqzbs079wsyd0tev.5UaBqRqzFKFk9i84'
+flags: {}
+_id: gqzbs079wsyd0tev
+_key: '!items!gqzbs079wsyd0tev'

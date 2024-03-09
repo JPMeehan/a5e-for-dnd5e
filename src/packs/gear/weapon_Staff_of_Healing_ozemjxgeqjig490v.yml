@@ -1,0 +1,95 @@
+name: Staff of Healing
+type: weapon
+img: icons/weapons/staves/staff-nature.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>(Requires attunement by a Bard, Cleric, or
+      Druid)</p></blockquote><p>While holding this staff, you can use an action
+      to expend charges to cast one of the following spells, using your
+      spellcasting ability modifier:</p><ul><li><p><em>cure wounds</em> (1
+      charge per spell level, up to 4th-level)</p></li><li><p><em>lesser
+      restoration</em> (2 charges)</p></li><li><p><em>mass cure wounds</em> (5
+      charges)</p></li></ul><hr class="a5e-rule u-my-md"><p>The staff has 10
+      charges, regaining 1d6+4 expended charges each dawn.</p><p>When the last
+      charge is expended, roll a d20. On a 1, the staff disappears with a flash
+      of light and is lost forever.</p><hr><p><b>Parrying:</b> When you are
+      wielding this weapon and you are not using a shield, once before your next
+      turn you can gain an expertise die to your AC against a single melee
+      attack made against you by a creature you can see. You cannot use this
+      property while incapacitated , paralyzed , rattled , restrained , or
+      stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 +@mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ozemjxgeqjig490v
+_key: '!items!ozemjxgeqjig490v'

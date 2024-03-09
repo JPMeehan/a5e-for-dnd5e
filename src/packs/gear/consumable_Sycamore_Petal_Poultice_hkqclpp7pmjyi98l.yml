@@ -1,0 +1,100 @@
+name: Sycamore Petal Poultice
+type: consumable
+img: icons/consumables/plants/fern-broad-leaf-damaged-green.webp
+effects:
+  - icon: icons/consumables/plants/fern-broad-leaf-damaged-green.webp
+    origin: Item.hkqclpp7pmjyi98l
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: 0Wo8Zn1aXXr27aOd
+    transfer: false
+    name: Sycamore Petal Poultice
+    _id: oKkqNaq45HJEOQ1B
+    changes:
+      - key: system.abilities.wis.save.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!hkqclpp7pmjyi98l.oKkqNaq45HJEOQ1B'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Consumption of these pulped petals heightens your senses, and after you
+      eat it you gain an expertise die on Wisdom saving throws for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: hkqclpp7pmjyi98l
+_key: '!items!hkqclpp7pmjyi98l'

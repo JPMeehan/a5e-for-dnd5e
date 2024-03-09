@@ -1,0 +1,86 @@
+name: Cloak of Elvenkind
+type: equipment
+img: icons/equipment/back/cloak-collared-feathers-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While you wear this cloak with its hood up, its color changes to
+      camouflage you. While camouflaged, you gain advantage on Dexterity
+      (Stealth) checks made to hide and creatures have disadvantage on Wisdom
+      (Perception) checks made to see you. You can use an action to put the hood
+      up or down.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: fwynl1c28x4z41tk
+_key: '!items!fwynl1c28x4z41tk'

@@ -1,0 +1,90 @@
+name: Demon Armor
+type: equipment
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While wearing this armor, your Armor Class increases by +1 and you can
+      understand and speak Abyssal. You can attack with the armor’s clawed
+      gauntlets (which deal 1d8 slashing damage) and gain a +1 bonus to attack
+      and damage rolls when doing so. </p><p><strong><em>Cursed.</em></strong>
+      You cannot remove this armor until you are targeted by remove curse or
+      similar magic. You have disadvantage on attack rolls against demons and on
+      saving throws made against them</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 55
+  price:
+    value: 6660
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: 19
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: heavy
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 15
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + 1 +@mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: tp3xkg88d9hbu36k
+_key: '!items!tp3xkg88d9hbu36k'

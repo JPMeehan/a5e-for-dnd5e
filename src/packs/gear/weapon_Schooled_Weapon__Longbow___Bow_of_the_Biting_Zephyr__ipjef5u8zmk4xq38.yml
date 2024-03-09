@@ -1,0 +1,95 @@
+name: Schooled Weapon (Longbow) "Bow of the Biting Zephyr"
+type: weapon
+img: icons/weapons/bows/bow-ornamental-gold-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Weapon</em></p><hr class="a5e-rule u-my-md"><p><em>Heavy, Range
+      (150/600), Two-Handed</em></p><hr class="a5e-rule u-my-md"><p>You are
+      proficient with this magic weapon as long as you are attuned to it, and
+      you gain a +1 bonus on attack and damage rolls with it.</p><p>You cannot
+      attune to this weapon if you do not know at least one combat maneuver from
+      the tradition it is associated with. When you attune to this weapon,
+      choose a combat maneuver from it's associated tradition that you meet the
+      prerequisites for. While you remain attuned to this weapon, you have
+      access to that combat maneuver.</p><p>In addition, any attacks you make
+      with this weapon as part of a combat maneuver from the associated
+      tradition gains an additional +1 bonus to attack and damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 2500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - hvy
+    - amm
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 150
+    long: 600
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + 1 + @mod
+        - piercing
+      - - 1d8 + 2 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ipjef5u8zmk4xq38
+_key: '!items!ipjef5u8zmk4xq38'

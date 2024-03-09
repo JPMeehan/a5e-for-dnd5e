@@ -1,0 +1,74 @@
+folder: null
+name: Green Dragon Breath
+type: consumable
+img: icons/commodities/materials/bowl-powder-gold.webp
+system:
+  description:
+    value: >-
+      <p><em>Rare, Inhaled, Instantaneous</em></p>
+
+      <p>Although it is not as potent in this powder form,&nbsp;the distilled
+      draconic bile is still quite noxious.&nbsp;A creature makes a DC 18
+      Constitution saving&nbsp;throw when subjected to this poison, taking
+      28&nbsp;(8d6) poison damage on a failure, or half as much&nbsp;damage on a
+      success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1650
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 8d6
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: fkaa49od2z64zk4l
+_key: '!items!fkaa49od2z64zk4l'

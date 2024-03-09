@@ -1,0 +1,51 @@
+name: Legerdemain Gloves
+type: equipment
+img: icons/equipment/hand/glove-simple-leather-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Stage magic may not be as impressive as true wizardry but it can still
+      delight an audience and that’s where these supple gray leather gloves got
+      their start, but con artists and thieves find uses for them as well. While
+      wearing both of these gloves, once per minute you can teleport an item, up
+      to the size of a dagger, from one hand to the other.</p><p>The gloves can
+      teleport an item a longer distance, but their magic is forever exhausted
+      in the process. When you wear one glove and another creature within 120
+      feet wears the other, you can teleport an item up to the size of a dagger
+      into the hand of the creature wearing the other glove. If you do, the
+      gloves dry and crack, losing their magic and becoming mundane items.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 95
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: tm0vzvu5pwgc3hw5
+_key: '!items!tm0vzvu5pwgc3hw5'

@@ -383,7 +383,7 @@ function migrateMonster(system) {
 
 /**
  *
- * @param {object} system The a5e feature
+ * @param {import('./types/a5e.mjs').Feature} system The a5e feature
  * @returns {object}      The o5e feature
  */
 function migrateFeature(system) {
@@ -391,7 +391,6 @@ function migrateFeature(system) {
     description: {
       value: fixUUIDrefs(system.description),
       chat: '',
-      unidentified: '',
     },
     source: mapSource(system.source),
   };
@@ -409,8 +408,8 @@ function migrateManeuver(system) {
 
 /**
  *
- * @param {import('./types/a5e.mjs').ObjectA5E} system
- * @returns
+ * @param {import('./types/a5e.mjs').ObjectA5E & import('./types/a5e.mjs').BaseTemplate} system
+ * @returns {object} Weapon, Container, Equipment,
  */
 function migrateObject(system) {
   const o5e = {
@@ -428,6 +427,7 @@ function migrateObject(system) {
     rarity: system.rarity,
     identified: true,
   };
+  /** @type {import('./types/dnd5e.mjs').Container} */
   const container = {
     // No data properties to pull from
     capacity: {
@@ -442,15 +442,18 @@ function migrateObject(system) {
       gp: 0,
       pp: 0,
     },
-    type: 'container',
+    documentSubType: 'container',
   };
+  /** @type {import('./types/dnd5e.mjs').Equipment} */
   const equipment = {
     armor: {
-      type: system.shieldCategory ? 'shield' : system.armorCategory,
       value: baseAC(system.ac.baseFormula),
       dex: system.ac.maxDex,
     },
-    baseItem: '', // Need to do some CONFIG work...
+    type: {
+      value: system.shieldCategory ? 'shield' : system.armorCategory,
+      baseItem: getBaseItem(system),
+    },
     speed: {
       value: null,
       conditions: '',
@@ -458,30 +461,31 @@ function migrateObject(system) {
     strength: system.ac.minStr,
     stealth: system.ac.grantsDisadvantage,
     proficient: null,
-    type: 'equipment',
+    documentSubType: 'equipment',
   };
+  /** @type {import('./types/dnd5e.mjs').Consumable} */
   const consumable = {
-    consumableType: 'potion',
+    type: { value: 'potion', subtype: '' },
     uses: {
       autoDestroy: false,
     },
-    type: 'consumable',
+    documentSubType: 'consumable',
   };
+  /** @type {import('./types/dnd5e.mjs').Tool} */
   const tool = {
-    toolType: '',
-    baseItem: '',
+    type: { value: '', baseItem: getBaseItem(system) },
     ability: 'int',
     chatFlavor: '',
     proficient: null,
     bonus: '',
-    type: 'tool',
+    documentSubType: 'tool',
   };
+  /** @type {import('./types/dnd5e.mjs').Weapon} */
   const weapon = {
-    weaponType: weaponType(system),
-    baseItem: getBaseItem(system),
+    type: { value: weaponType(system), baseItem: getBaseItem(system) },
     properties: weaponProperties(system, o5e.description),
     proficient: true,
-    type: 'weapon',
+    documentSubType: 'weapon',
   };
   const mountable = {
     armor: {
@@ -834,8 +838,8 @@ for (const p of packList) {
       break;
     case 'feature':
       data.system = migrateFeature(data.system);
-      data.type = data.system.type;
-      delete data.system.type;
+      data.type = data.system.documentSubType;
+      delete data.system.documentSubType;
       break;
     case 'maneuver':
       data.system = migrateManeuver(data.system);
@@ -843,8 +847,8 @@ for (const p of packList) {
       break;
     case 'object':
       data.system = migrateObject(data.system);
-      data.type = data.system.type;
-      delete data.system.type;
+      data.type = data.system.documentSubType;
+      delete data.system.documentSubType;
       break;
     case 'spell':
       data.flags['a5e-for-dnd5e'] = {

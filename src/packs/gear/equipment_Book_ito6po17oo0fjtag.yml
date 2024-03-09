@@ -1,0 +1,48 @@
+name: Book
+type: equipment
+img: icons/sundries/books/book-plain-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A book might contain poetry, historical accounts, information
+      pertaining to a particular field of lore, diagrams and notes on gnomish
+      contraptions, or just about anything else that can be represented using
+      text or pictures. A book of spells is a spellbook (described later in this
+      section). Any book of masterwork quality covers in detail one specialty.
+      You gain an expertise die on checks made regarding the specialty detailed
+      in the last masterwork book you’ve read.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 25
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: ito6po17oo0fjtag
+_key: '!items!ito6po17oo0fjtag'

@@ -1,0 +1,43 @@
+name: Stone of Good Luck (Luckstone)
+type: equipment
+img: icons/commodities/gems/gem-rough-oval-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      You gain a +1 bonus to ability checks and savings throws as long as this
+      lustrous gemstone is on your person. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 350
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: bpilx3k8d4c43gpk
+_key: '!items!bpilx3k8d4c43gpk'

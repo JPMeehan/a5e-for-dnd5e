@@ -1,0 +1,97 @@
+name: Robe of the Archmagi
+type: equipment
+img: icons/equipment/back/cloak-collared-purple-gold.webp
+effects:
+  - icon: icons/equipment/back/cloak-collared-purple-gold.webp
+    origin: Item.09zwb4iw33gpvtnz
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Robe of the Archmagi
+    _id: DYHfotveDpF2NtGR
+    changes:
+      - key: system.bonuses.spellDC
+        mode: 2
+        value: '2'
+        priority: null
+      - key: flags.a5e.effects.bonuses.attacks
+        mode: 0
+        value: >-
+          {"context":{"attackTypes":["meleeSpellAttack"]},"formula":"2","label":"Melee
+          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+        priority: null
+      - key: flags.a5e.effects.bonuses.attacks
+        mode: 0
+        value: >-
+          {"context":{"attackTypes":["rangedSpellAttack"]},"formula":"2","label":"Ranged
+          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!09zwb4iw33gpvtnz.DYHfotveDpF2NtGR'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Requires attunement by a sorcerer, warlock, or wizard</em></p>
+
+      <p>This elegant garment is adorned with runes sewn with metallic thread.
+      You gain the following benefits while attuned to and wearing the robe:</p>
+
+      <ul>
+
+      <li>While not wearing armor, your Armor Class is 15 + your Dexterity
+      modifier.</li>
+
+      <li>Advantage on saving throws against spells and other magical
+      effects.</li>
+
+      <li>Your spell save DC and spell attack bonus are increased by 2.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 70000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  armor:
+    value: 13
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 09zwb4iw33gpvtnz
+_key: '!items!09zwb4iw33gpvtnz'

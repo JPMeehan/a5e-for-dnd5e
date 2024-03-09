@@ -1,0 +1,87 @@
+folder: null
+name: Portraiture Gremlin
+type: equipment
+img: icons/containers/chest/chest-simple-box-blue.webp
+system:
+  description:
+    value: >-
+      <p>This Tiny ethereal white goblinoid sits within&nbsp;a small iron box
+      and is surrounded by dabs of&nbsp;pigments. The box has a switch that when
+      pressed&nbsp;strikes the gremlin on the head with a tiny
+      hammer.&nbsp;Whenever the gremlin is hit by the hammer it rapidly paints
+      whatever it sees out of the small porthole at&nbsp;the front of the box.
+      The gremlin takes 1 minute to&nbsp;finish the picture and the result is a
+      perfectly accurate&nbsp;painting, albeit miniature. The gremlin comes
+      with&nbsp;enough pigments for 5 paintings and each
+      subsequent&nbsp;painting requires paints worth at least 12 gold.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: fqlqatx90nisdu5w
+_key: '!items!fqlqatx90nisdu5w'

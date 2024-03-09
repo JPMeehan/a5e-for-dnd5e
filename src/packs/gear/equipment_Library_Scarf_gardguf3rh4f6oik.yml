@@ -1,0 +1,98 @@
+name: Library Scarf
+type: equipment
+img: icons/commodities/cloth/cloth-bolt-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Wizard schools are rarely built for comfort and more than one would-be
+      scholar has caught a chill while pouring over inscrutable tomes or stuffy
+      old biographies in drafty libraries in the wee hours of the morning. Given
+      that bonfires are generally frowned upon when surrounded by books,
+      creative apprentices were forced to investigate other means to get them
+      through long nights of studying, resulting in the creation of these
+      enchanted trinkets. Each appears as a simple woolen scarf of whatever
+      color or pattern its creator chooses. When you use a bonus action to speak
+      its command word and expend 1 charge, the scarf magically warms you for 2
+      hours, providing comfort and protection from cold temperatures down to
+      freezing (under more frigid conditions, each charge insulates you for 1
+      hour.)</p><p>In dire circumstances, the scarf can offer more significant
+      protection. When you take cold damage, you can use your reaction and
+      expend 3 charges to gain cold resistance until the end of the
+      round.</p><p>The scarf has 3 charges and regains 1d3 charges each dawn. If
+      you expend the last charge, roll a d20. On a result of 5 or less, the
+      scarf loses its magic and becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: gardguf3rh4f6oik
+_key: '!items!gardguf3rh4f6oik'

@@ -1,0 +1,101 @@
+name: Tome of the Endless Tale
+type: equipment
+img: icons/sundries/books/book-worn-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>The stresses of a wizard’s education can overwhelm even the most
+      stalwart apprentices without some sort of diversion.</p><p>Typically
+      resembling a small, worn book with fanciful creatures or locales on
+      battered leather covers, the tome’s pages fill with serialized stories
+      that engage and distract the reader. Each tome focuses on a given genre
+      (often romance or adventure) but the stories crafted within the pages are
+      unique to each reader, tailored by the magic from their own imagination
+      and so vibrant that the book’s tales seem to come to life in the mind’s
+      eye.</p><p>Each tome has 3 charges.</p><p>When you speak the command word
+      and use an action to expend 1 charge, its pages fill with a serial story
+      tailored to the next reader that touches the tome.</p><p>This story
+      typically takes 1 hour to read, continuing from where the last tale
+      completed.</p><p>When you speak another command word and use an action to
+      expend all 3 charges, the story created when the book is opened is
+      particularly engrossing and the reader must succeed on a DC 10 Wisdom
+      saving throw or be enthralled, failing to notice anything that is not
+      directly harmful.</p><hr class="a5e-rule u-my-md"><p>The tome has 3
+      charges and regains 1d3 charges each dawn.</p><p>If you expend the last
+      charge, roll a d20. On a result of 5 or less, the tome loses its magic and
+      becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: aqs15h7g8bwzdwmv
+_key: '!items!aqs15h7g8bwzdwmv'

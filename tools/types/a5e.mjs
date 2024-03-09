@@ -230,7 +230,7 @@
  */
 
 /**
- * @typedef {BaseTemplate} ObjectA5E
+ * @typedef ObjectA5E
  * @property {ACTemplate} ac
  * @property {string[]} ammunitionProperties
  * @property {string} armorCategory

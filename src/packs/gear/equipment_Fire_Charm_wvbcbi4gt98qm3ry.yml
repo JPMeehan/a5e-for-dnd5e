@@ -1,0 +1,53 @@
+name: Fire Charm
+type: equipment
+img: icons/equipment/neck/pendant-rough-silver-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While wearing this charm you can use an action to light or extinguish a
+      candle-sized flame within 5 feet, or you can break the charm to release
+      its power, destroying it to activate one of the following
+      effects.</p><ul><li><p><strong>Cleanse</strong>: Cast <em>lesser
+      restoration</em>.</p><p></p></li><li><p><strong>Resist</strong>: Cast
+      <em>protection from energy (fire
+      only)</em>.</p><p></p></li><li><p><strong>Scorch</strong>: Cast
+      <em>scorching ray</em> at 3rd-level (+7 spell attack
+      bonus).</p></li></ul><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong><em>Curse</em></strong>. Releasing the
+      charm’s power attracts the attention of an efreeti who seeks you out to
+      demand a gift.</p></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: wvbcbi4gt98qm3ry
+_key: '!items!wvbcbi4gt98qm3ry'

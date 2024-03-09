@@ -1,0 +1,44 @@
+name: Ink Pen
+type: equipment
+img: icons/tools/scribal/pen-steel-grey-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>An ink pen is a wooden stick with a special tip on the end. The tip
+      draws ink in when dipped in a vial and leaves an ink trail when drawn
+      across a surface.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 2
+    denomination: cp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 82kz4htg65yqk0rq
+_key: '!items!82kz4htg65yqk0rq'

@@ -1,0 +1,49 @@
+name: Feather Token (Whip)
+type: equipment
+img: icons/commodities/materials/feather-curled-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This small silver charm resembles a feather. Many types of feather
+      tokens exist with different effects.</p><hr class="a5e-rule
+      u-my-md"><p>You can use an action to toss the token to a point that you
+      can see within 10 feet. The token transforms into a floating whip that you
+      can command by using a bonus action, making it move up to 20 feet and
+      attack a creature up to 10 feet away from it. The whip has an attack bonus
+      of +10 and deals 1d6+6 force damage.</p><p>The whip vanishes after 1 hour,
+      when you die, or when you use an action to dismiss it.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 700
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: fftse48r9w9gdbrv
+_key: '!items!fftse48r9w9gdbrv'

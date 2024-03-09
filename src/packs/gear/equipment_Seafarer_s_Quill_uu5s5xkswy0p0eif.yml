@@ -1,0 +1,50 @@
+name: Seafarer’s Quill
+type: equipment
+img: icons/tools/scribal/ink-quill-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Wondrous</em></p><hr class="a5e-rule u-my-md"><p>This elegant swan
+      feather quill has a solid gold nib that allows you to write in perfect
+      cursive, granting an expertise die on any forgery kit check you make as
+      long as the handwriting you are copying is also in
+      cursive.</p><p>Strangely enough, you can use a bonus action or reaction to
+      break the quill, magically transforming everything it has written in the
+      last minute to almost perfectly match the original handwriting of whoever
+      you were copying last.</p><p>Creatures have disadvantage on checks made to
+      realize it is a forgery</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: uu5s5xkswy0p0eif
+_key: '!items!uu5s5xkswy0p0eif'

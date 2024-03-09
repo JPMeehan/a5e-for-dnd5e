@@ -1,0 +1,36 @@
+name: Potion of Water Breathing
+type: consumable
+img: icons/consumables/potions/potion-bottle-fumes-blue.webp
+system:
+  description:
+    value: >-
+      <p>After drinking this murky blue potion, you are able to breathe
+      underwater for 1 hour.</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Hydra head</p></li><li><p>vial of pond
+      water</p></li><li><p>vial of rain water</p></li><li><p>vial of sea
+      water</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: 8lcxc857ufnzwsqj
+_key: '!items!8lcxc857ufnzwsqj'

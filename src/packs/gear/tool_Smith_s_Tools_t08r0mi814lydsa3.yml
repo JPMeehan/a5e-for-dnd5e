@@ -1,0 +1,36 @@
+name: Smith's Tools
+type: tool
+img: icons/skills/trades/smithing-anvil-silver-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>These hammers and clamps are a poor replacement for a full forge but
+      can be instrumental for repairing metal items. With 1 hour of work you can
+      use smith’s tools to mend many weapons and armors. The DC of a smith’s
+      tools check is determined by the material being worked.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 8
+  price:
+    value: 20
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: ''
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  bonus: ''
+folder: null
+_id: t08r0mi814lydsa3
+_key: '!items!t08r0mi814lydsa3'

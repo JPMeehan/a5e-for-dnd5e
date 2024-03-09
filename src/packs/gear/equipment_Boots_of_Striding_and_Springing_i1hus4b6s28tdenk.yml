@@ -1,0 +1,45 @@
+name: Boots of Striding and Springing
+type: equipment
+img: icons/equipment/feet/boots-leather-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      While wearing these boots, your Speed increases to 30 feet, unless it is
+      higher, regardless of encumbrance or armor. In addition, your jump
+      distances increase 15 feet vertically and 30 feet horizontally (as the
+      jump spell). 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: i1hus4b6s28tdenk
+_key: '!items!i1hus4b6s28tdenk'

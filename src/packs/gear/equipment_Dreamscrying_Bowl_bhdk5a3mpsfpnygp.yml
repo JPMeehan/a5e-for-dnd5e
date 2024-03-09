@@ -1,0 +1,91 @@
+name: Dreamscrying Bowl
+type: equipment
+img: icons/containers/kitchenware/vase-clay-brown-large.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This terra cotta pottery bowl has a glossy black band around the rim
+      and is sized to be used as a nightstand washbowl. Most of it is covered in
+      geometric shapes unique to each other. When you are attuned to the bowl
+      and fill it with holy water, the reflection on its surface portrays your
+      most recent dream, or the dream of a sleeping creature within your reach.
+      If the water is disturbed the shown dream disappears and will not return.
+      </p><p>Alternatively, you can shatter the bowl and choose one sleeping
+      creature you can see within 30 feet. Until the sleeping creature awakens
+      naturally, its dream and sleep cannot be interrupted or effected by any
+      other magic.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 100
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: bhdk5a3mpsfpnygp
+_key: '!items!bhdk5a3mpsfpnygp'

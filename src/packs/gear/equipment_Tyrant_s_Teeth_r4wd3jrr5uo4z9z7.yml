@@ -1,0 +1,96 @@
+name: Tyrant’s Teeth
+type: equipment
+img: icons/equipment/neck/collar-carved-bone-teeth-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>You can only attune to this item if you have survived being
+      bitten by a Huge or larger reptile or dragon.</p></blockquote><hr
+      class="a5e-rule u-my-md"><p>Dagger-sharp fangs ripped from the skull of a
+      tyrant lizard clatter around this necklace’s cord.</p><p>When you attack
+      while wearing it, a ghostly reptilian head appears and snaps down on your
+      target.</p><p>While wearing this item your footsteps make the ground
+      tremble slightly and you have disadvantage on Stealth checks.</p><p>When
+      you take energy damage, your attacks deal an extra 1d6 damage of the same
+      type until the end of your next turn. If you are damaged by multiple
+      energy types, you only deal bonus damage of the most recent
+      type.</p><p>Once per day, when you hit with a melee attack you can use a
+      bonus action to create a spectral tyrannosaur that bites the target,
+      dealing 4d6 force damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 7000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: r4wd3jrr5uo4z9z7
+_key: '!items!r4wd3jrr5uo4z9z7'

@@ -1,0 +1,44 @@
+name: Bracers of Archery
+type: equipment
+img: icons/equipment/wrist/bracer-studded-leather-steel.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      While wearing these bracers, you gain proficiency with the longbow and
+      shortbow, and you gain a +2 bonus on damage rolls on ranged attacks made
+      with them. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 8lrbnkmahfhuj0ge
+_key: '!items!8lrbnkmahfhuj0ge'

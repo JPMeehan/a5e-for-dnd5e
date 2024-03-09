@@ -1,0 +1,100 @@
+name: Box of Bees
+type: equipment
+img: icons/containers/chest/chest-simple-box-gold-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Many apprentices play pranks on one another, some of which can be quite
+      painful—the box of bees is a particularly popular example and now sold by
+      those with their own mischievous designs. Each of these wooden boxes is
+      rectangular and approximately 2 inches long. It is usually unadorned,
+      though some boxes seem to have something moving or vibrating
+      inside.</p><p>When you speak the command word and use an action to expend
+      1 charge, the lid slides open and a bee erupts out of the box to harass a
+      creature of your choice within 20 feet. A creature harassed by the bee
+      must succeed on a DC 5 Constitution saving throw at the start of each of
+      its turns for 1 minute. On a failure, the creature makes its next attack
+      roll or ability check with disadvantage.</p><p>When you speak another
+      command word and expend all 3 charges, a dozen or more bees swarm out of
+      the box and attack. A creature attacked by the bees must succeed on a DC
+      10 Constitution saving throw at the start of each of its turns for 1
+      minute. On a failure, the creature takes 1 point of damage and has
+      disadvantage on attack rolls and ability checks for 1 round.</p><p>The box
+      has 3 charges and regains 1d3 charges each dawn. If you expend the last
+      charge, roll a d20. On a result of 5 or less, the box loses its magic and
+      becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 110
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: 5la7otew2m5mo4sf
+_key: '!items!5la7otew2m5mo4sf'

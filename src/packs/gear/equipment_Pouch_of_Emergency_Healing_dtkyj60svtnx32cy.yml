@@ -1,0 +1,89 @@
+folder: null
+name: Pouch of Emergency Healing
+type: equipment
+img: icons/containers/bags/coinpouch-cloth-purple.webp
+system:
+  description:
+    value: >-
+      <p>Twice per day, you can use an action to open this&nbsp;blue silk pouch
+      and receive or bestow the benefits&nbsp;of one of the following spells:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.1vo427vjnzgzb5z2]{Cure Wounds},
+      @UUID[Compendium.a5e.a5e-spells.Item.2fn904xje78xc7de]{Greater
+      Restoration},
+      @UUID[Compendium.a5e.a5e-spells.Item.zzv2xb2kvvcyci4i]{Healing Word},
+      @UUID[Compendium.a5e.a5e-spells.Item.sgiwn0n20mnf1ddx]{Lesser
+      Restoration}.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 4000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: dtkyj60svtnx32cy
+_key: '!items!dtkyj60svtnx32cy'

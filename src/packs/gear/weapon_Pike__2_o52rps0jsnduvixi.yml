@@ -1,0 +1,121 @@
+name: Pike +2
+type: weapon
+img: icons/weapons/polearms/spear-hooked-spike.webp
+effects:
+  - icon: icons/weapons/polearms/spear-hooked-spike.webp
+    origin: Item.o52rps0jsnduvixi
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: v3bptQ9yjfEMnfwo
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: Lfgy559EtlC4KF80
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!o52rps0jsnduvixi.Lfgy559EtlC4KF80'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Defensive (Heavy), Heavy, Reach (Disadvantage when attacking a
+      target within 5 ft of you)</em></p><hr><p><b>Defensive:</b> This weapon is
+      designed to be used with a shield of the stated degree or lighter (light,
+      medium, or heavy). When you make an attack with this weapon and are using
+      a shield designed for it, you can use a bonus action to either make an
+      attack with your shield or increase your Armor Class by 1 until the start
+      of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 13
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - rch
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '2'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 + @mod + 2
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: o52rps0jsnduvixi
+_key: '!items!o52rps0jsnduvixi'

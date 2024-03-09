@@ -1,0 +1,34 @@
+name: Explosive Arrows +1
+type: consumable
+img: icons/weapons/ammunition/arrows-war-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Explosive.</em> An attack made with explosive ammunition cannot
+      benefit from expertise dice and can only hit targets within its normal
+      range, but on a hit it deals an extra 1d6 thunder damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 10
+  weight: 0.125
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+  consumableType: ammo
+folder: null
+_id: r5fpq48tg8b79amk
+_key: '!items!r5fpq48tg8b79amk'

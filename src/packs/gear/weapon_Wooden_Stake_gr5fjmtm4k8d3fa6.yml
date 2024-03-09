@@ -1,0 +1,89 @@
+name: Wooden Stake
+type: weapon
+img: icons/commodities/wood/fence-post-tan.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Dual-Wielding, Finesse, Simple</em></p>
+
+      <p>&nbsp;</p>
+
+      <p>This simple&nbsp;weapon uses the statistics of a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.vzmgutyegssa2akj]{Dagger},
+      but any vampire reduced to 0 hit points with it is&nbsp;permanently
+      destroyed. It is made of wood.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - lgt
+    - fin
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + min(@mod,0)
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: gr5fjmtm4k8d3fa6
+_key: '!items!gr5fjmtm4k8d3fa6'

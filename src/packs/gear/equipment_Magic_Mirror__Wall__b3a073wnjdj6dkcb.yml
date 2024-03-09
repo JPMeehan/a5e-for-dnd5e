@@ -1,0 +1,97 @@
+name: Magic Mirror (Wall)
+type: equipment
+img: icons/sundries/survival/mirror-plain.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When a magic mirror is viewed indirectly, its surface shows an
+      insubstantial otherworldly face looking back at you. Magic mirrors can be
+      found in three sizes.</p>
+
+      <p>While this bulky mirror is securely fastened to a wall, twice per dawn
+      you<br>can look into it and speak a command phrase to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.h5ssew7apf5ofbhc]{Commune},
+      @UUID[Compendium.a5e.a5e-spells.59she20yqbp2giqq]{Contact Other Plane}, or
+      @UUID[Compendium.a5e.a5e-spells.bs3wnsid88tbup6c]{Divination}. Your
+      reflection answers your questions. Additionally, as an action once per
+      dawn, the wall mirror can be linked to another magic mirror by speaking
+      the name of the other mirror&rsquo;s bearer,<br>initiating a face to face
+      conversation that can last up to 10 minutes. Both you and the other mirror
+      user can clearly see each other&rsquo;s faces, but don&rsquo;t get any
+      sense of one another&rsquo;s surroundings. Either you or the other mirror
+      user can use a bonus action to end the conversation early. <br><br></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 10000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: b3a073wnjdj6dkcb
+_key: '!items!b3a073wnjdj6dkcb'

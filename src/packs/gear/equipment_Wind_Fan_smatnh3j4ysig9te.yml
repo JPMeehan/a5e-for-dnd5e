@@ -1,0 +1,91 @@
+name: Wind Fan
+type: equipment
+img: icons/magic/air/wind-tornado-spiral-blue-gray.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Air from the Planar of Air,
+      gilded songbird feather</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>You can use an action to wave this fan and cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.8rsevg8q1eygarlk]{Gust of Wind} save
+      DC 13). Each time the fan is used before the next dawn there is a
+      cumulative 20% chance that it breaks, causing the spell to fail and for it
+      to shred into nonmagical pieces.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 450
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 60
+    width: 10
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: null
+_id: smatnh3j4ysig9te
+_key: '!items!smatnh3j4ysig9te'

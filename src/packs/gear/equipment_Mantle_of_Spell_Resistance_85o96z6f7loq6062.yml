@@ -1,0 +1,43 @@
+name: Mantle of Spell Resistance
+type: equipment
+img: icons/equipment/back/cloak-layered-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While wearing this cloak, you have advantage on saving throws against
+      spells.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 85o96z6f7loq6062
+_key: '!items!85o96z6f7loq6062'

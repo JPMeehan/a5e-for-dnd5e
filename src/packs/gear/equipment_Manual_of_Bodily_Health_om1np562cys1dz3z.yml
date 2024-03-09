@@ -1,0 +1,46 @@
+name: Manual of Bodily Health
+type: equipment
+img: icons/sundries/books/book-clasp-spiral-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This magical book contains surprisingly accurate advice on building
+      endurance. Spending 48 hours over 6 days (or fewer) reading and following
+      the book’s advice increases your Constitution score and your maximum
+      Constitution score by 2. The manual then becomes a mundane item for a
+      century before it regains its magic. <br><br></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 20000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: om1np562cys1dz3z
+_key: '!items!om1np562cys1dz3z'

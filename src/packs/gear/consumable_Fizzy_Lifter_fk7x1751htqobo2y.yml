@@ -1,0 +1,38 @@
+name: Fizzy Lifter
+type: consumable
+img: icons/consumables/potions/potion-flask-corked-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>This glass bottle contains a brown bubbly liquid and bears
+      a winking wizard on the label.</p></blockquote><hr class="a5e-rule
+      u-my-md"><p>When you are unconscious and have at least 1 hit point, if
+      another creature forces you to sniff this powerful concoction you
+      immediately wake up.</p><p>Alternatively, when you consume this potion you
+      are targeted by the <em>levitate </em>spell (save DC 14) but are also
+      comically bloated with bubbles, taking a -2 penalty to Constitution saving
+      throws for the duration.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 85
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+folder: null
+_id: fk7x1751htqobo2y
+_key: '!items!fk7x1751htqobo2y'

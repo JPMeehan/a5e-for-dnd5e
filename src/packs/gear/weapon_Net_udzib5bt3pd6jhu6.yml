@@ -1,0 +1,83 @@
+name: Net
+type: weapon
+img: icons/tools/fishing/net-simple-tan.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Thrown (5/15)</em></p><hr class="a5e-rule u-my-md"><p>A corporeal
+      Large or smaller creature that cannot move through a space one inch or
+      smaller who is hit by a net is restrained until it is freed. A creature
+      can use its action to make a DC 10 Strength check, freeing itself or
+      another creature within its reach on a success. A net has AC 10, 5 hit
+      points, and is immune to bludgeoning damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 1
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - thr
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: 15
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: str
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: udzib5bt3pd6jhu6
+_key: '!items!udzib5bt3pd6jhu6'

@@ -1,0 +1,92 @@
+name: Hungry Quasit
+type: equipment
+img: icons/creatures/unholy/demon-fanged-horned-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This Tiny bloodstone is carved in the shape of a grinning, pot-bellied
+      quasit. Whenever you would gain temporary hit points, you can choose to
+      store them inside the quasit instead. Unlike normal temporary hit points,
+      the hit points you store inside the quasit stack, although the maximum
+      number of temporary hit points the quasit can hold at one time is equal to
+      your Charisma modifier + your warlock level (minimum 1). </p><p>You can
+      use an action to activate the quasit and gain all the temporary hit points
+      currently stored inside it, which last for up to 1 hour. Whenever you
+      activate the quasit, roll a d20. On a result of 5 or less, you don’t gain
+      any temporary hit points, and instead the quasit animates and flies off
+      never to be seen again.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 75
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: qpn0cr8a3h37itdc
+_key: '!items!qpn0cr8a3h37itdc'

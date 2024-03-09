@@ -1,0 +1,87 @@
+name: Ring of Animal Influence
+type: equipment
+img: icons/equipment/finger/ring-ball-leaves-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Staff wielded by an
+      archdruid</p><hr class="a5e-rule u-my-md"><p>While wearing this ring, you
+      can expend 1 of its 3 charges to cast one of the following spells (save DC
+      13): <em>animal friendship</em>, <em>fear</em> targeting only beasts that
+      have an Intelligence of 3 or less, or <em>speak with animals</em>. The
+      ring regains 1d3 expended charges at dawn. <br><br></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 2500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: bws46k8cn9p48duz
+_key: '!items!bws46k8cn9p48duz'

@@ -1,0 +1,41 @@
+name: Whetstone
+type: equipment
+img: icons/commodities/metal/ingot-steel.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p>A standard whetstone used to sharpen blades.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 1
+    denomination: cp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: xxuhk6a94pnwxhyj
+_key: '!items!xxuhk6a94pnwxhyj'

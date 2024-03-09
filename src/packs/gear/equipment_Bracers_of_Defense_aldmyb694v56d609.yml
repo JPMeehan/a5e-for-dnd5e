@@ -1,0 +1,43 @@
+name: Bracers of Defense
+type: equipment
+img: icons/equipment/wrist/bracer-segmented-leather.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      While wearing these bracers, you gain a +2 bonus to AC if you are not
+      wearing armor or using a shield. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 2000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: 2
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: aldmyb694v56d609
+_key: '!items!aldmyb694v56d609'

@@ -1,0 +1,97 @@
+name: Staff of Striking
+type: weapon
+img: icons/weapons/staves/staff-ornate-hook.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You have a +3 bonus to attack and damage rolls made with this magic
+      quarterstaff. When you hit with a melee attack using this staff, you can
+      expend up to 3 of its charges, dealing an extra 1d6 force damage per
+      expended charge.</p><hr class="a5e-rule u-my-md"><p>The staff has 10
+      charges and regains 1d6+4 expended charges each dawn.</p><p>When the last
+      charge is expended, roll a d20. On a 1, it loses its magical
+      properties.</p><hr><p><b>Parrying:</b> When you are wielding this weapon
+      and you are not using a shield, once before your next turn you can gain an
+      expertise die to your AC against a single melee attack made against you by
+      a creature you can see. You cannot use this property while incapacitated ,
+      paralyzed , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 20000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 +3 +@mod
+        - bludgeoning
+      - - 1d6
+        - force
+      - - 2d6
+        - force
+      - - 3d6
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: nzc3cu71ljn916y7
+_key: '!items!nzc3cu71ljn916y7'

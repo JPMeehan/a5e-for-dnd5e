@@ -1,0 +1,35 @@
+name: Punching Ammunition
+type: consumable
+img: icons/skills/ranged/projectile-spiral-gray.webp
+system:
+  description:
+    value: >-
+      <p><strong><em>Punching</em></strong><em>.</em> On a critical hit, this
+      ammunition decreases an armored target’s Armor Class by 1. This cannot
+      reduce the target’s Armor Class to less than 10 + its Dexterity
+      modifier.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 4
+  weight: 1
+  price:
+    value: 100
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+  consumableType: ammo
+effects: []
+flags: {}
+folder: null
+_id: 93c7yifly1aob99n
+_key: '!items!93c7yifly1aob99n'

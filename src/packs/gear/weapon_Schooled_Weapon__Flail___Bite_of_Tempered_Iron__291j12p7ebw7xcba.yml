@@ -1,0 +1,97 @@
+name: Schooled Weapon (Flail) "Bite of Tempered Iron"
+type: weapon
+img: icons/weapons/maces/flail-triple-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Weapon</em></p><hr class="a5e-rule u-my-md"><p><em>Parrying
+      Immunity, Trip</em></p><hr class="a5e-rule u-my-md"><p>You are proficient
+      with this magic weapon as long as you are attuned to it, and you gain a +1
+      bonus on attack and damage rolls with it.</p><p>You cannot attune to this
+      weapon if you do not know at least one combat maneuver from the tradition
+      it is associated with. When you attune to this weapon, choose a combat
+      maneuver from it's associated tradition that you meet the prerequisites
+      for. While you remain attuned to this weapon, you have access to that
+      combat maneuver.</p><p>In addition, any attacks you make with this weapon
+      as part of a combat maneuver from the associated tradition gains an
+      additional +1 bonus to attack and damage.</p><hr><p><b>Parrying
+      Immunity:</b> Attacks with this weapon ignore the parrying property and
+      Armor Class bonuses from shields.</p><p><b>Trip:</b> When used with a
+      combat maneuver that trips a creature or the Knockdown attack, this weapon
+      increases your Maneuver DC by 1. If the target is mounted, your Maneuver
+      DC is instead increased by 2.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 2500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties: []
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + 1 + @mod
+        - bludgeoning
+      - - 1d8 + 2 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 291j12p7ebw7xcba
+_key: '!items!291j12p7ebw7xcba'

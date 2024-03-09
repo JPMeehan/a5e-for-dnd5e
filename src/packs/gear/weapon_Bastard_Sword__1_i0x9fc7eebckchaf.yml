@@ -1,0 +1,87 @@
+name: Bastard Sword +1
+type: weapon
+img: icons/weapons/swords/greatsword-guard.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <hr><p><b>Parrying:</b> When you are wielding this weapon and you are not
+      using a shield, once before your next turn you can gain an expertise die
+      to your AC against a single melee attack made against you by a creature
+      you can see. You cannot use this property while incapacitated , paralyzed
+      , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - ver
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod + 1
+        - slashing
+      - - 1d10 + @mod + 1
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: i0x9fc7eebckchaf
+_key: '!items!i0x9fc7eebckchaf'

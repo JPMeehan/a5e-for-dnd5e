@@ -1,0 +1,91 @@
+name: Ring of X-Ray Vision
+type: equipment
+img: icons/equipment/finger/ring-eye-purple-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Vial of tears from a
+      couatl</p><hr class="a5e-rule u-my-md"><p>While wearing this ring, you can
+      use an action to speak its command word and see through solid objects and
+      matter in a 30-foot radius for 1 minute. Solid objects within the radius
+      appear ghostly and transparent, allowing light to pass through them. You
+      can see through up 3 feet of wood and dirt, 1 foot of stone, and 1 inch of
+      common metal (thicker materials or a thin sheet of lead block the
+      vision).</p><p>When you use this ring again before taking a long rest, you
+      make a DC 15 Constitution saving throw or suffer one level of fatigue and
+      strife.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 2500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30 ft. radius centered around self
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: w461idap4kbu7mwe
+_key: '!items!w461idap4kbu7mwe'

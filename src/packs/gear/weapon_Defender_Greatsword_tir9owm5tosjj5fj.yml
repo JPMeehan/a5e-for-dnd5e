@@ -1,0 +1,91 @@
+name: Defender Greatsword
+type: weapon
+img: icons/weapons/swords/greatsword-guard-gem-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You gain +3 bonus to attack and damage rolls made with this magic
+      sword. In addition, while you are attuned to the sword, on each of your
+      turns before you make your first attack with it you can transfer some or
+      all of the +3 bonus to your Armor Class (instead of using it for attacks)
+      until the start of your next turn or until you drop the sword (whichever
+      comes first)</p>.<hr><p><b>Parrying:</b> When you are wielding this weapon
+      and you are not using a shield, once before your next turn you can gain an
+      expertise die to your AC against a single melee attack made against you by
+      a creature you can see. You cannot use this property while incapacitated ,
+      paralyzed , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 7
+  price:
+    value: 60000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '+3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod + 3
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: tir9owm5tosjj5fj
+_key: '!items!tir9owm5tosjj5fj'

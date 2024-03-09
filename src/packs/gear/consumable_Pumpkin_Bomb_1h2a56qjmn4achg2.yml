@@ -1,0 +1,113 @@
+folder: null
+name: Pumpkin Bomb
+type: consumable
+img: icons/consumables/vegetable/squash-pumpkin-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>This pale white pumpkin is small enough to fit in the palm of a human
+      hand. A macabre, grinning face is carved into one side, and a candle
+      within burns an eerie purple flame. While its candle is lit, this pumpkin
+      lantern shines dim light in a 10-foot radius. The lantern&rsquo;s candle
+      burns for 1 minute, after which the pumpkin instantly rots and loses its
+      magic.</p>
+
+      <p>Undead must make a DC 12 Wisdom saving throw when entering the radius
+      or when beginning their turn within the pumpkin&rsquo;s light, taking 3d6
+      radiant damage on a failed save or half as much on a success. Incorporeal
+      undead have disadvantage on this saving throw.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 570
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/vegetable/squash-pumpkin-glow-orange.webp
+    origin: Item.1h2a56qjmn4achg2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5EQah7RhqivOI0WO
+        duration:
+          unit: minutes
+    transfer: false
+    name: Emit Light
+    _id: Q4kBL3tAnfHeG0nF
+    changes:
+      - key: '@token.light.color'
+        value: '800080'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '10'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!1h2a56qjmn4achg2.Q4kBL3tAnfHeG0nF'
+flags: {}
+_id: 1h2a56qjmn4achg2
+_key: '!items!1h2a56qjmn4achg2'

@@ -1,0 +1,51 @@
+name: Birdsong Whistle
+type: equipment
+img: icons/weapons/staves/staff-ornate-bird.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This carving of reddish soapstone resembles a miniature cardinal. When
+      air is blown through the lower back high-pitched sounds are emitted
+      through the bird’s open beak. When the whistle is blown the sounds of
+      songbirds are heard by all creatures in a 100-foot radius. These calls are
+      indistinguishable from actual birds singing.</p><p>Alternatively, you can
+      use an action to break the whistle to summon a large flock of birds that
+      appear at the start of your next turn and surround you in a 10-foot
+      radius. The flock moves with you and makes you heavily obscured from
+      creatures more than 10 feet away for 1 minute, or until the flock takes 10
+      or more damage from area effects.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 85
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 0qe8mbqquh6s3a1w
+_key: '!items!0qe8mbqquh6s3a1w'

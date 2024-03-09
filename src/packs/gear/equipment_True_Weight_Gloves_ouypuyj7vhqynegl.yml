@@ -1,0 +1,48 @@
+name: True Weight Gloves
+type: equipment
+img: icons/equipment/hand/glove-ring-leather-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This set of emerald green gloves are made from velvet with very fine
+      silk stitching and function as a small scale.</p><p>While wearing them,
+      you can hold two objects in your hands and know the exact weight of the
+      objects. The objects must be of a size and weight that allow you to hold
+      your arms straight out with one in each open palm.</p><p>While using the
+      gloves to weigh objects, you can speak a command word that makes them
+      disappear in a puff of green smoke if either object is counterfeit.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: ouypuyj7vhqynegl
+_key: '!items!ouypuyj7vhqynegl'

@@ -1,0 +1,44 @@
+name: Piton
+type: equipment
+img: icons/tools/fasteners/nail-steel-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When a wall doesn’t offer handholds and footholds, you can make your
+      own. A piton is a steel spike with an eye through which you can loop a
+      rope.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 5
+    denomination: cp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: s8ahxh30atix9728
+_key: '!items!s8ahxh30atix9728'

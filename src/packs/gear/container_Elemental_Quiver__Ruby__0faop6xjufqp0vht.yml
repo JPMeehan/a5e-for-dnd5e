@@ -1,0 +1,50 @@
+name: Elemental Quiver (Ruby)
+type: container
+img: icons/containers/ammunition/arrows-quiver-orange-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When you place one or more pieces of nonmagical ammunition into this
+      bejeweled leather quiver, after 1 hour each is imbued with elemental power
+      determined by the gem used in its construction. An elementally-imbued
+      piece of ammunition deals an extra 1d4 elemental damage (see
+      <strong><em>Table: Elemental Quiver</em></strong>).</p><p>The enchantment
+      begins to fade after the ammunition is removed from the quiver and
+      vanishes entirely after 1 minute.</p><p>Each piece of ammunition imbued
+      with elemental power expends 1 charge from the quiver.</p><p>The quiver
+      has 20 charges and regains 1d4+2 charges each dawn.</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>TABLE: ELEMENTAL
+      QUIVER</strong></p><ul><li><p><strong>Diamond
+      </strong>Lightning</p><p></p></li><li><p><strong>Emerald
+      </strong>Acid</p><p></p></li><li><p><strong>Ruby
+      </strong>Fire</p><p></p></li><li><p><strong>Sapphire
+      </strong>Cold</p></li></ul></blockquote><hr class="a5e-rule u-my-md">
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 1000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: null
+_id: 0faop6xjufqp0vht
+_key: '!items!0faop6xjufqp0vht'

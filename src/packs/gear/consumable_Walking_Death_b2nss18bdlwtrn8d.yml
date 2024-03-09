@@ -1,0 +1,106 @@
+folder: null
+name: Walking Death
+type: consumable
+img: icons/commodities/flowers/flower-grey-orange.webp
+system:
+  description:
+    value: >-
+      <p><em>Legendary, Ingested, Onset (3 days)</em></p>
+
+      <p>The shredded petals of this black flower&mdash;said to only grow in the
+      land of the dead&mdash;are the most potent known poison. A creature makes
+      a DC 28 Constitution saving throw when it is subjected to this poison, and
+      on a failure it is doomed. Prior to the onset, this poison can only be
+      counteracted by
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pe52jryde7ljobzq]{Wish} or
+      similar magic.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 60000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/flowers/flower-grey-orange.webp
+    origin: Item.b2nss18bdlwtrn8d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: minutes
+    transfer: false
+    name: Walking Death Poisoning
+    _id: 5UaBqRqzFKFk9i84
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["doomed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - doomed
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!b2nss18bdlwtrn8d.5UaBqRqzFKFk9i84'
+flags: {}
+_id: b2nss18bdlwtrn8d
+_key: '!items!b2nss18bdlwtrn8d'

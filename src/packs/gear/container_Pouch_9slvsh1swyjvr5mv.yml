@@ -1,0 +1,35 @@
+name: Pouch
+type: container
+img: icons/containers/bags/pouch-leather-simple-tan.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: '<p>Capacity: 6 pounds of gear or ⅕ cubic foot</p>'
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 5
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: null
+_id: 9slvsh1swyjvr5mv
+_key: '!items!9slvsh1swyjvr5mv'

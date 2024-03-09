@@ -1,0 +1,176 @@
+folder: null
+name: Orb of the Devouring King
+type: equipment
+img: icons/commodities/biological/organ-heart-pink.webp
+system:
+  description:
+    value: >-
+      <p>This crimson orb resembles a massive, calcified&nbsp;heart suspended on
+      a crude chain. When the orb&nbsp;returns to life, hooked tendrils extend
+      and burrow&nbsp;into your chest, lodging it there where it grants
+      a&nbsp;portion of the god&rsquo;s mind and knowledge.</p>
+
+      <p>While attuned to the Orb of the Devouring King, you gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li>Choose Intelligence or Charisma. The chosen ability score is increased
+      to 20. This property has no effect if the chosen ability score is equal to
+      or greater than 20.</li>
+
+      <li>You gain a 1d10 expertise die on Intelligence checks.</li>
+
+      <li>When you take a short rest, you can recover an expended spell slot of
+      6th-level or higher by spending a number of charges equal to the level of
+      the spell slot recovered.</li>
+
+      <li>You may expend one or more charges to cast the following spells:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.4rgo85d49qwancup]{Detect
+      Thoughts} (1 charge),
+      @UUID[Compendium.a5e.a5e-spells.Item.ml9ls27u9ncms8ko]{Suggestion} (2
+      charges), @UUID[Compendium.a5e.a5e-spells.Item.67ex7mn5kkutvnqn]{Black
+      Tentacles} (3 charges),
+      @UUID[Compendium.a5e.a5e-spells.Item.0xo9oc6s6mrh77ci]{Telekinesis} (4
+      charges), @UUID[Compendium.a5e.a5e-spells.Item.9pyk9fklr2xff0ue]{Dominate
+      Monster} (5 charges).</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/biological/organ-heart-pink.webp
+    origin: Item.ox3m78syx29bh1au
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Attuned (Intelligence)
+    _id: AWozlRi5emGtRore
+    changes:
+      - key: system.abilities.int.value
+        value: '20'
+        mode: 5
+        priority: null
+      - key: system.abilities.int.check.expertiseDice
+        value: '4'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!ox3m78syx29bh1au.AWozlRi5emGtRore'
+  - icon: icons/commodities/biological/organ-heart-pink.webp
+    origin: Item.ox3m78syx29bh1au
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Attuned (Charisma)
+    _id: XT7G5wadvQU6OtVW
+    changes:
+      - key: system.abilities.cha.value
+        value: ''
+        mode: 7
+        priority: null
+      - key: system.abilities.int.check.expertiseDice
+        value: '4'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!ox3m78syx29bh1au.XT7G5wadvQU6OtVW'
+flags: {}
+_id: ox3m78syx29bh1au
+_key: '!items!ox3m78syx29bh1au'

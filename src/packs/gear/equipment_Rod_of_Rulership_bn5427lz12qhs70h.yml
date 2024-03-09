@@ -1,0 +1,89 @@
+name: Rod of Rulership
+type: equipment
+img: icons/weapons/staves/staff-obsidian.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Royal scepter given as a
+      prize</p><hr class="a5e-rule u-my-md"><p>Once per dawn, while holding this
+      rod you can use an action to command obedience. Each creature of your
+      choice that you can see within 120 feet makes a DC 15 Wisdom saving throw.
+      On a failure, a creature is charmed by you for 8 hours. A creature charmed
+      by you regards you as its trusted leader. The charm is broken if you or
+      your companions either command a charmed creature to do something contrary
+      to its nature, or cause the creature harm.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: Each creature of your choice within 120 ft. that you can see
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: bn5427lz12qhs70h
+_key: '!items!bn5427lz12qhs70h'

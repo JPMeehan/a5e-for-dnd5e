@@ -1,0 +1,44 @@
+name: Ironweed Rope
+type: equipment
+img: icons/sundries/survival/rope-coiled-tan.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When this tough, fibrous plant is carefully woven into rope it has AC
+      17, 10 hit points, and resistance to bludgeoning, piercing, and slashing
+      damage from nonmagical attacks.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: gmj1hzaai8lk2nfw
+_key: '!items!gmj1hzaai8lk2nfw'

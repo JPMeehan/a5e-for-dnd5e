@@ -1,0 +1,44 @@
+name: Ring of Swimming
+type: equipment
+img: icons/equipment/finger/ring-ball-silver.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Water from the Plane of
+      Water</p><hr class="a5e-rule u-my-md"><p>While wearing this ring, you have
+      a swim speed of 40 feet.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: g9og2dwqt3wcpnj2
+_key: '!items!g9og2dwqt3wcpnj2'

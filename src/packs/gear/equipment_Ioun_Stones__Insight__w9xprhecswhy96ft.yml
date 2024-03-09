@@ -1,0 +1,95 @@
+name: Ioun Stones (Insight)
+type: equipment
+img: icons/commodities/gems/gem-faceted-round-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Some say these enchanted gems take their name from a deity of
+      knowledge, others that they are named for the sound they make as they
+      gently orbit their bearer’s head. Whatever the case, there are many types
+      of ioun stones, each imbued with powerful beneficial magic.</p><p>The
+      specifics of these stones vary but they all work in essentially the same
+      way: once you have attuned to it you can use an action to set a stone in a
+      gentle orbit around your head, 1d4 feet away from you. Another creature
+      may use an action to try and take an orbiting stone, but must make a melee
+      attack against AC 24 or make a DC 24 Dexterity (Acrobatics) check. An ioun
+      stone’s AC is 24, it has 10 hit points, and resistance to all damage.
+      While orbiting your head, it is considered a worn item. You can use an
+      action to seize and stow the stone, returning it to an inert and inactive
+      state.</p><p>While this clear octahedron orbits your head your Wisdom
+      score is increased by 2 (to a maximum of 20).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 15000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: w9xprhecswhy96ft
+_key: '!items!w9xprhecswhy96ft'

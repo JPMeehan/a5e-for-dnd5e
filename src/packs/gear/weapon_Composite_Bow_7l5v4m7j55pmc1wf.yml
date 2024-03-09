@@ -1,0 +1,86 @@
+name: Composite Bow
+type: weapon
+img: icons/weapons/bows/longbow-recurve-leather-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Compounding, Heavy, Range (150/600),
+      Two-Handed</em></p><hr><p><b>Compounding:</b> You use only your Strength
+      modifier for attack and damage rolls made with this weapon.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - hvy
+    - amm
+    - two
+    - compounding
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 150
+    long: 600
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 7l5v4m7j55pmc1wf
+_key: '!items!7l5v4m7j55pmc1wf'

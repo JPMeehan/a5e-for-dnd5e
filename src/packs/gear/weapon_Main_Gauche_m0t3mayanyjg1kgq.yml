@@ -1,0 +1,90 @@
+name: Main-Gauche
+type: weapon
+img: icons/weapons/daggers/dagger-double-skull-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Dual-Wielding, Finesse, Simple, Thrown</em></p>
+
+      <p>&nbsp;</p>
+
+      <p>This&nbsp;parrying dagger may be used as a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.vzmgutyegssa2akj]{Dagger}
+      or as&nbsp;a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.xy2bn4687azmkadw]{Shield,
+      Light}.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 4
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: simpleR
+    baseItem: ''
+  properties:
+    - lgt
+    - fin
+    - thr
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 20
+    long: '60'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: m0t3mayanyjg1kgq
+_key: '!items!m0t3mayanyjg1kgq'

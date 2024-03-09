@@ -1,0 +1,87 @@
+name: Chime of Opening
+type: equipment
+img: icons/tools/instruments/chimes-wood-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can use an action to strike this foot-long metal tube while
+      pointing it at an object that can be opened (such as a lid, lock, or
+      window) within 120 feet. The chime sounds and one lock or latch on the
+      object opens as long as the sound can reach the object. If no closures
+      remain, the object itself opens. After being struck 10 times, the chime
+      cracks and becomes useless.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 750
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: object
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: qh0zcsr9fbq7xaab
+_key: '!items!qh0zcsr9fbq7xaab'

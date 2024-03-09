@@ -1,0 +1,46 @@
+name: Tome of Clear Thought
+type: equipment
+img: icons/sundries/books/book-symbol-potion-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This magical book dictates methodologies for more rational and logical
+      thinking.</p><p>Spending 48 hours over 6 days (or fewer) reading and
+      following the book’s methodologies increases your Intelligence score and
+      your maximum Intelligence score by 2.</p><p>The tome then becomes a
+      mundane item for a century before it regains its magic.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 20000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: sm87ec9693b97bv3
+_key: '!items!sm87ec9693b97bv3'

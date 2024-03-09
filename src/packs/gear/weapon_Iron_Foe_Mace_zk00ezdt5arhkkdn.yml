@@ -1,0 +1,106 @@
+name: Iron Foe Mace
+type: weapon
+img: icons/weapons/maces/mace-spiked-steel-grey.webp
+system:
+  description:
+    value: >-
+      <div class="field field--name-field-mi-description field--type-text-long
+      field--label-hidden field--item">
+
+      <p>Crafted with the ichor of a rust monster, this pale white mace looks
+      and feels like bone, but has the heft of stone and consumes metal on
+      impact. You gain +2 bonus to <span class="freelinking-link">attack and
+      damage rolls</span> made with this magical mace. However, if your Strength
+      score is less than 16 you suffer <span
+      class="freelinking-link">disadvantage</span> on attack rolls made with the
+      mace.</p>
+
+      <p>On a successful attack, you can use your reaction to expend a charge
+      and attempt to consume non-magical metal armor or a shield worn by your
+      target, in addition to your normal damage. Alternately, when an attack
+      misses you, you can use your reaction to spend a charge to deflect the
+      weapon and attempt to consume it. Finally, you can use your action to
+      spend a charge and touch the mace to any unattended non-magical metal
+      object of Medium size or smaller and consume it.</p>
+
+      <p>The wielder of an item you are trying to consume must succeed on a DC
+      14 Constitution <span class="freelinking-link">saving throw</span> ,
+      otherwise the item is destroyed. Unattended objects are automatically
+      destroyed. The mace has 4 charges and regains 1d4 charges each dawn.</p>
+
+      </div><hr><p><b>Defensive:</b> This weapon is designed to be used with a
+      shield of the stated degree or lighter (light, medium, or heavy). When you
+      make an attack with this weapon and are using a shield designed for it,
+      you can use a bonus action to either make an attack with your shield or
+      increase your Armor Class by 1 until the start of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 8
+  price:
+    value: 13500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: day
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_id: zk00ezdt5arhkkdn
+_key: '!items!zk00ezdt5arhkkdn'

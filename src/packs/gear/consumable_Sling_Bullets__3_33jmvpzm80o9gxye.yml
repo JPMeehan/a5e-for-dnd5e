@@ -1,0 +1,31 @@
+name: Sling Bullets +3
+type: consumable
+img: icons/weapons/ammunition/shot-round-lead.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 10
+  weight: 0.075
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+  consumableType: ammo
+folder: null
+_id: 33jmvpzm80o9gxye
+_key: '!items!33jmvpzm80o9gxye'

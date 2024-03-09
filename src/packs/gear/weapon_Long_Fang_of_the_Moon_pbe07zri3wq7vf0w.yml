@@ -1,0 +1,94 @@
+name: Long Fang of the Moon
+type: weapon
+img: icons/weapons/swords/sword-runed-glowing.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You gain a +3 bonus to attack and damage rolls made with this silvered
+      longsword.</p><p>Weapon attacks using long fang of the moon deal an extra
+      2d6 radiant damage against creatures. When you hit a shapeshifter with
+      this weapon, it makes a DC 30 Constitution saving throw or reverts to its
+      original form. If it fails this saving throw, you may choose to prevent
+      the shapeshifter from transforming for up to 10
+      minutes.</p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 55000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '+3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 +3 +@mod
+        - slashing
+      - - 2d6[radiant]
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: pbe07zri3wq7vf0w
+_key: '!items!pbe07zri3wq7vf0w'

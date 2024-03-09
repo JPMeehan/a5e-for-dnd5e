@@ -1,0 +1,101 @@
+name: Fairy Cap
+type: consumable
+img: icons/consumables/mushrooms/convex-spotted-orange-white.webp
+effects:
+  - icon: icons/consumables/mushrooms/convex-spotted-orange-white.webp
+    origin: Item.ktsrqn3m6ifjry80
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: euSU3ikhmCtNWgIn
+    transfer: false
+    name: Fairy Cap
+    _id: LmqYAPiHJsG6Hgx4
+    changes:
+      - key: system.abilities.dex.save.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!ktsrqn3m6ifjry80.LmqYAPiHJsG6Hgx4'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Consuming this small red mushroom cap removes inhibitions and creates
+      confidence, and after you eat it you gain an expertise die on Charisma
+      saving throws for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ktsrqn3m6ifjry80
+_key: '!items!ktsrqn3m6ifjry80'

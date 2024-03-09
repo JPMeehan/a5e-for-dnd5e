@@ -1,0 +1,93 @@
+name: Giant Slayer Battleaxe
+type: weapon
+img: icons/weapons/axes/axe-broad-worn-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You gain a +1 bonus to attack and damage rolls made with this magic
+      weapon, and it deals an extra 2d6 damage against giants (including any
+      creature with the giant type, such as ettins and trolls). In addition,
+      when the weapon deals damage to a giant, the giant makes a DC 15 Strength
+      saving throw or falls prone. </p><hr><p><b>Breaker:</b> This weapon deals
+      double damage to unattended objects, such as doors and walls. If this
+      property only applies to a specific type of material, such as wood, it is
+      stated in parenthesis after this property.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 6
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - ver
+    - breaker
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '+1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod + 1
+        - slashing
+      - - 1d10 + @mod + 1
+        - slashing
+      - - 2d6
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: null
+_id: tsfodgu0qeghm0k6
+_key: '!items!tsfodgu0qeghm0k6'

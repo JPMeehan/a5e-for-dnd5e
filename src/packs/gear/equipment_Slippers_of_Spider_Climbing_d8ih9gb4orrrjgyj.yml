@@ -1,0 +1,45 @@
+name: Slippers of Spider Climbing
+type: equipment
+img: icons/equipment/feet/shoes-leather-simple-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While you are wearing these shoes, you can move on walls and upside
+      down on ceilings without the use of your hands, gaining a climb speed
+      equal to your Speed.</p><p>These shoes cannot be used on slippery
+      surfaces.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: d8ih9gb4orrrjgyj
+_key: '!items!d8ih9gb4orrrjgyj'

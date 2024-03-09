@@ -1,0 +1,120 @@
+name: Shield, Light
+type: equipment
+img: icons/equipment/shield/buckler-wooden-round-hole.webp
+effects:
+  - icon: icons/equipment/shield/buckler-wooden-round-hole.webp
+    origin: Item.xy2bn4687azmkadw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: AOJzRldBZFJqSsnD
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Defensive AC
+    _id: 5AgG4EcAjssWedF2
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!xy2bn4687azmkadw.5AgG4EcAjssWedF2'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You may throw this shield, treating it as an improvised weapon that
+      deals 1d6 bludgeoning damage.</p>
+
+      <p>When you take a critical hit, you can use your reaction to block it and
+      sacrifice your shield, turning the critical hit into a regular hit.
+      Afterwards your shield is broken, or if your shield is magical it instead
+      becomes mundane for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: 1
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: shield
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: xy2bn4687azmkadw
+_key: '!items!xy2bn4687azmkadw'

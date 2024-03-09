@@ -1,0 +1,31 @@
+name: Firearm Bullets +3
+type: consumable
+img: icons/weapons/ammunition/bullets-cartridge-shell-gray.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 10
+  weight: 0.15
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+  consumableType: ammo
+folder: null
+_id: jcrypwjtxalg20o9
+_key: '!items!jcrypwjtxalg20o9'

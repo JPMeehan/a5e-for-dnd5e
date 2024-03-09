@@ -1,0 +1,98 @@
+name: Shield, Heavy +2
+type: equipment
+img: icons/equipment/shield/heater-steel-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>AC:&nbsp;</strong>+4</p>
+
+      <p><em>Acrobatics (Disadvantage), Stealth (Disadvantage)</em></p>
+
+      <p>When you take a critical hit, you can use your reaction to block it and
+      sacrifice your shield, turning the critical hit into a regular hit.
+      Afterwards your shield is broken, or if your shield is magical it instead
+      becomes mundane for 1 hour.</p>
+
+      <p>You gain an expertise die on Dexterity saving throws. When you take the
+      Dodge action while wielding a heavy shield, you may instead take cover
+      behind your shield, gaining an expertise die to your Armor Class until the
+      start of your turn.</p>
+
+      <p>You cannot squeeze through spaces smaller than your size category.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 20
+  price:
+    value: 7000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: 4
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: shield
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: z7wlw8l7cop7otxl
+_key: '!items!z7wlw8l7cop7otxl'

@@ -1,0 +1,37 @@
+folder: null
+name: Squire's Set (Fighter)
+type: container
+img: icons/containers/bags/pouch-leather-simple-tan.webp
+system:
+  description:
+    value: >-
+      <p>Also comes with a
+      @UUID[Compendium.a5e.a5e-monsters.Actor.scecq7mxrzd425pz]{Pony}.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 129
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+effects: []
+flags: {}
+_id: du0lk6yh6mf6krve
+_key: '!items!du0lk6yh6mf6krve'

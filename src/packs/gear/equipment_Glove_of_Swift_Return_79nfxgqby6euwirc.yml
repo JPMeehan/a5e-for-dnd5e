@@ -1,0 +1,44 @@
+name: Glove of Swift Return
+type: equipment
+img: icons/equipment/hand/glove-ringed-cloth-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      While you are attuned to and wearing this crimson glove, any weapon you
+      throw returns to your gloved hand immediately after it hits or misses the
+      target. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 79nfxgqby6euwirc
+_key: '!items!79nfxgqby6euwirc'

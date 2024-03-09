@@ -1,0 +1,41 @@
+name: Blanket
+type: equipment
+img: icons/sundries/survival/bedroll-blue-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p>Provides warmth while resting in cold environments.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 5
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: lyq5z3i5wlnq7hzy
+_key: '!items!lyq5z3i5wlnq7hzy'

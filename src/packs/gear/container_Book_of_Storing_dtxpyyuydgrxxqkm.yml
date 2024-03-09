@@ -1,0 +1,41 @@
+name: Book of Storing
+type: container
+img: icons/sundries/books/book-backed-wood-tan.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      After you attune to this 1-foot square 6-inch thick book it hides its true
+      nature to anybody else, appearing to be a mundane diary. When you open it
+      however, the book reveals a Tiny storage compartment. The storage space is
+      the same size as the book, and because this item doesn’t function as a
+      pocket dimension it can be safely used to store such items (such as a
+      portable hole). 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 350
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: null
+_id: dtxpyyuydgrxxqkm
+_key: '!items!dtxpyyuydgrxxqkm'

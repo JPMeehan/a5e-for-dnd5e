@@ -1,0 +1,50 @@
+name: Jade Tiger
+type: equipment
+img: icons/equipment/head/mask-tiger-silver.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This jade figurine carries the memories of a weretiger that spent years
+      tracking and hunting its prey under the light of the jungle moon. When you
+      attune to the item and keep it on your person, you gain an expertise die
+      on Survival checks made to find and follow tracks for up to 1 hour per
+      day.</p><p>When you speak the jade tiger’s command word, you vividly
+      recall one of the weretiger’s most challenging hunts. For the next minute,
+      you can use a bonus action to make a Stealth check to hide immediately
+      before or after you take the Attack action. The jade tiger’s magic forever
+      fades away after being used in this way.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: hrdobogklod7hayo
+_key: '!items!hrdobogklod7hayo'

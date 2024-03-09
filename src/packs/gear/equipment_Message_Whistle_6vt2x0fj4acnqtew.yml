@@ -1,0 +1,96 @@
+name: Message Whistle
+type: equipment
+img: icons/commodities/treasure/statue-carved-figurehead.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Carved by satyr musicians, this wooden whistle resembles a shushing
+      finger when held to one&rsquo;s mouth, and blowing through it does not
+      produce an audible sound. Puffing on the whistle as an action allows you
+      to cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.4gcxix2l4zvy9kdu]{Message} cantrip
+      once without any other spell components. This ability recharges after 1
+      week.</p>
+
+      <p>Alternatively, you can use an action to blow extremely hard through the
+      whistle to cast the
+      @UUID[Compendium.a5e.a5e-spells.kbyg7uvh3w8osgiq]{Sending} spell without
+      seen, vocal, or material components. Unlike the spell, your message can
+      only contain 10 words and there is a 10% chance the message doesn&rsquo;t
+      arrive (even if you are on the same plane of existence). The whistle is
+      then destroyed in a burst of sparkles.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 95
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 6vt2x0fj4acnqtew
+_key: '!items!6vt2x0fj4acnqtew'

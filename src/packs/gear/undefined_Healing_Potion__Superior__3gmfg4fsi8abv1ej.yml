@@ -1,0 +1,28 @@
+name: Healing Potion (Superior)
+img: icons/consumables/potions/potion-flask-corked-shiny-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Requiring rare ingredients, the recipes for these potions are jealously
+      guarded by master herbalists. When you drink the glowing crimson liquid in
+      this vial, you regain 8d4 + 8 hit points.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 550
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type: loot
+folder: null
+_id: 3gmfg4fsi8abv1ej
+_key: '!items!3gmfg4fsi8abv1ej'

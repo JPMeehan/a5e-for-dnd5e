@@ -1,0 +1,72 @@
+folder: null
+name: Periapt of Proof Against Poison
+type: equipment
+img: icons/equipment/neck/amulet-round-copper-green.webp
+system:
+  description:
+    value: >-
+      <p>A slick film surrounds this delicate pendant and&nbsp;makes it shimmer.
+      While wearing this pendant,&nbsp;you are immune to poison damage and
+      the&nbsp;poisoned condition.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 800
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+effects:
+  - icon: icons/equipment/neck/amulet-round-copper-green.webp
+    origin: Item.hpnal3phdnvxg6jl
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Periapt of Proof Against Poison
+    _id: tyHU7gAfgRL07VuM
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["poisoned"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!hpnal3phdnvxg6jl.tyHU7gAfgRL07VuM'
+flags: {}
+_id: hpnal3phdnvxg6jl
+_key: '!items!hpnal3phdnvxg6jl'

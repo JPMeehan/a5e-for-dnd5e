@@ -1,0 +1,48 @@
+name: Eyepatch
+type: equipment
+img: icons/creatures/eyes/human-single-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>Eyepatches can be used to prepare one eye for lower light
+      vision, especially for working on deck and in the relative darkness of a
+      ship.</p></blockquote><p>When you are wearing an eyepatch and enter an
+      area of darkness or dim light from a brightly lit area, you can use a
+      bonus action to swap it from one eye to the other to gain an expertise die
+      on <em>Perception</em> checks until you enter an area of bright light or
+      for the next 10 minutes.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 2
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 5syhcbdz2j32noxh
+_key: '!items!5syhcbdz2j32noxh'

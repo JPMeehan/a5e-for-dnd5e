@@ -1,0 +1,96 @@
+name: Bag of Tricks (Tan)
+type: equipment
+img: icons/containers/bags/pouch-simple-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This seemingly empty cloth bag comes in several colors and has a small,
+      fuzzy object inside.</p><p>You can use an action to pull a fuzzy object
+      from the bag and throw it up to 20 feet. Upon landing, it becomes a
+      creature determined by a roll on the Bag of Tricks table (depending on the
+      bag’s color).</p><p>The resulting creature is friendly to you and any
+      companions you have. It acts on your turn, during which you can use a
+      bonus action to give it simple commands such as “attack that creature” or
+      “move over there”. If the creature dies or if you use the bag again, it
+      disappears without a trace. After the first use each day, there is a 50%
+      chance that a creature from the bag is hostile instead of friendly and
+      obedient.</p><p>Once you have used the bag three times, you cannot do so
+      again until the next dawn.</p><hr class="a5e-rule
+      u-my-md"><p><strong>Table: Tan Bag of Tricks (d8)</strong></p><p>1 -
+      Jackal</p><p>2 - Ape</p><p>3 - Baboon</p><p>4 - Axe Beak</p><p>5 - Black
+      Bear</p><p>6 - Giant Weasel</p><p>7 - Giant Hyena</p><p>8 - Tiger</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 300
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 20 ft.
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: fmirhez1i3pemqbz
+_key: '!items!fmirhez1i3pemqbz'

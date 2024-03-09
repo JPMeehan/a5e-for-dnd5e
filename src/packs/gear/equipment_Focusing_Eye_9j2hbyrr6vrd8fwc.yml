@@ -1,0 +1,55 @@
+name: Focusing Eye
+type: equipment
+img: icons/commodities/biological/eye-lizard-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p><strong>(Patron Token)</strong></p></blockquote><hr
+      class="a5e-rule u-my-md"><p>This thumb-sized opal is carved to resemble an
+      open eye.</p><p>As an action, you can affix it to your forehead where it
+      remains in place until you use another action to remove it.</p><p>While
+      you wear the eye, you gain an expertise die on Insight checks you make
+      while speaking telepathically with another creature.</p><p>You can use an
+      action to expend 2 charges and cast <em>detect thoughts</em> on any
+      creature with whom you have communicated telepathically during the last 24
+      hours, regardless of your distance from the creature.</p><p>Alternatively,
+      you can expend 3 charges to cast <em>clairvoyance </em>centered on the
+      creature’s current location.</p><hr class="a5e-rule u-my-md"><p>The eye
+      has 3 charges and regains 1 charge each dusk.</p><p>When you expend the
+      eye’s last charge, it permanently affixes to your forehead but otherwise
+      becomes a normal opal.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 9j2hbyrr6vrd8fwc
+_key: '!items!9j2hbyrr6vrd8fwc'

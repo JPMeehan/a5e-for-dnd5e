@@ -1,0 +1,77 @@
+name: Restorative Ointment
+type: consumable
+img: icons/consumables/potions/potion-faceted-corked-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Holy herbs from a druid
+      grove</p><hr class="a5e-rule u-my-md"><p>This green glass jar holds [[/r
+      1d4+1 #doses]] doses of a freshsmelling mixture. You can use an action to
+      swallow or apply one dose, restoring 2d8+2 hit points and curing both
+      poison and disease.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 250
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8+2
+        - healing
+      - - ''
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 71j81u5ggpfpzgfr
+_key: '!items!71j81u5ggpfpzgfr'

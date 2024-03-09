@@ -1,0 +1,163 @@
+name: Butterfly Sword +3
+type: weapon
+img: icons/weapons/swords/swords-short.webp
+effects:
+  - icon: icons/weapons/swords/swords-short.webp
+    origin: Item.ElCrLPK9sJzmEaGr
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LfiU8RBp5laBi6jt
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: o3RplnB3d2bgc5Cs
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!xsnwq03ljucz4tke.o3RplnB3d2bgc5Cs'
+  - icon: icons/weapons/swords/swords-short.webp
+    origin: Item.ElCrLPK9sJzmEaGr
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LfiU8RBp5laBi6jt
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: p3De6mXqbzuFUVGq
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!xsnwq03ljucz4tke.p3De6mXqbzuFUVGq'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Defensive (Medium), Dual-Wielding, Finesse, Parrying</em></p>
+
+      <p>&nbsp;</p>
+
+      <p>These use the statistics of
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.36k2tx29firrtrgl]{Shortswords},
+      and are usually wielded in pairs. They have the dual-wielding
+      property.</p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p><p><b>Parrying:</b> When you are wielding this weapon and you are
+      not using a shield, once before your next turn you can gain an expertise
+      die to your AC against a single melee attack made against you by a
+      creature you can see. You cannot use this property while incapacitated ,
+      paralyzed , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - lgt
+    - fin
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + min(@mod,0) + 3
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: xsnwq03ljucz4tke
+_key: '!items!xsnwq03ljucz4tke'

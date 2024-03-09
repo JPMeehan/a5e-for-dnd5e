@@ -1,0 +1,47 @@
+name: Elven Chain (Shirt)
+type: equipment
+img: icons/commodities/metal/mail-chain-steel.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Low-Maintenance (Expertise Die)</em></p><p><strong>AC 14 (DEX +2
+      max)</strong></p><hr class="a5e-rule u-my-md"><p>While wearing this armor
+      your Armor Class increases by +1 (included above), and you are able to
+      wear it without penalty even without proficiency.</p><p>It only weighs 10
+      pounds, including the padding underneath, and can be stealthily worn under
+      normal clothes.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 10
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: 14
+    dex: 2
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: medium
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: hlvkvuarsizuidmz
+_key: '!items!hlvkvuarsizuidmz'

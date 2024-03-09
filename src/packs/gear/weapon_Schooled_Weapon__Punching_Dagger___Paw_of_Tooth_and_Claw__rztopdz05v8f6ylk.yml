@@ -1,0 +1,99 @@
+name: Schooled Weapon (Punching Dagger) "Paw of Tooth and Claw"
+type: weapon
+img: icons/weapons/fist/punch-dagger-flared-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Weapon</em></p><hr class="a5e-rule u-my-md"><p><em>Dual-Wielding,
+      Hand-Mounted</em></p><hr class="a5e-rule u-my-md"><p>You are proficient
+      with this magic weapon as long as you are attuned to it, and you gain a +1
+      bonus on attack and damage rolls with it.</p><p>You cannot attune to this
+      weapon if you do not know at least one combat maneuver from the tradition
+      it is associated with. When you attune to this weapon, choose a combat
+      maneuver from it's associated tradition that you meet the prerequisites
+      for. While you remain attuned to this weapon, you have access to that
+      combat maneuver.</p><p>In addition, any attacks you make with this weapon
+      as part of a combat maneuver from the associated tradition gains an
+      additional +1 bonus to attack and damage.</p><hr><p><b>Hand-Mounted:</b>
+      This weapon is affixed to your hand. You can do simple activities such as
+      climbing a ladder while wielding this weapon, and you have advantage on
+      saving throws made to resist being disarmed. You cannot use a hand that is
+      wielding a hand-mounted weapon to do complex tasks like picking a pocket,
+      using thieves’ tools to bypass a lock, or casting spells with seen
+      components.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 2500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - lgt
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + 1 + @mod
+        - piercing
+      - - 1d4 + 2 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: rztopdz05v8f6ylk
+_key: '!items!rztopdz05v8f6ylk'

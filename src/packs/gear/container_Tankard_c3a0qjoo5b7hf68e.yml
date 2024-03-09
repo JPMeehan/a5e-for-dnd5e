@@ -1,0 +1,35 @@
+name: Tankard
+type: container
+img: icons/containers/kitchenware/stein-empty.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: '<p>Capacity: 1 pint liquid</p>'
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 2
+    denomination: cp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: null
+_id: c3a0qjoo5b7hf68e
+_key: '!items!c3a0qjoo5b7hf68e'

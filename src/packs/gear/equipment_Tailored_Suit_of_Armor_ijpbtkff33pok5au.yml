@@ -1,0 +1,50 @@
+name: Tailored Suit of Armor
+type: equipment
+img: icons/equipment/chest/coat-collared-red-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><span style="font-size: 10.5pt;">For the debonair gentleman or
+      sophisticated lady who wishes to attend the ball in something respectable
+      but still retain the safety of mind that armor provides, this set of
+      padded leather armor is glamoured with an illusion that makes it look like
+      a finely-tailored suit or dress.</span></p>
+
+      <p>This illusion does not hold up to physical scrutiny and any creature
+      who physically interacts with the armor sees through the figment with a
+      successful DC 10 Investigation check.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 8
+  price:
+    value: 80
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: 12
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: light
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: ijpbtkff33pok5au
+_key: '!items!ijpbtkff33pok5au'

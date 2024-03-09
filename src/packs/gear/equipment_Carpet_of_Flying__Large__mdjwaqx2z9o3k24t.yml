@@ -1,0 +1,88 @@
+name: Carpet of Flying (Large)
+type: equipment
+img: icons/commodities/cloth/cloth-bolt-gold-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can use an action to speak this carpet’s command word, making it
+      hover and fly. It moves according to your verbal commands as long as you
+      are within 30 feet of it.</p><p>These carpets come in four sizes. The
+      Narrator can choose or randomly determine which size a given carpet
+      is.</p><p>If the carpet is carrying half its capacity or less, its Speed
+      is doubled.</p><p></p><p>Size: 5ft. x 7ft.</p><p>Capacity: 800
+      lb.</p><p>Flying Speed: 20 ft.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 25000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: mdjwaqx2z9o3k24t
+_key: '!items!mdjwaqx2z9o3k24t'

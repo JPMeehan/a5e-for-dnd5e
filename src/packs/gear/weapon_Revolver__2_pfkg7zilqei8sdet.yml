@@ -1,0 +1,81 @@
+name: Revolver +2
+type: weapon
+img: icons/weapons/guns/rifle-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When a revolver is loaded, it holds up to 6 bullets. The revolver only
+      needs to be loaded after all of its ammunition has been
+      fired.</p><p><em>Loading a revolver requires an action. A revolver can be
+      used to make one ranged attack per bullet loaded into it.</em></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - lod
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: pfkg7zilqei8sdet
+_key: '!items!pfkg7zilqei8sdet'

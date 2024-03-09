@@ -1,0 +1,73 @@
+folder: null
+name: Naga Spit
+type: consumable
+img: icons/commodities/materials/slime-white.webp
+system:
+  description:
+    value: >-
+      <p><em>Rare, Contact, Instantaneous</em></p>
+
+      <p>This venomous substance slithers and burns&nbsp;through veins at a mere
+      touch. A creature makes a&nbsp;DC 15 Constitution saving throw when
+      subjected&nbsp;to this poison, taking 45 (10d8) poison damage on&nbsp;a
+      failure, or half as much damage on a success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 10d6
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 5eqb8804aluvtrx6
+_key: '!items!5eqb8804aluvtrx6'

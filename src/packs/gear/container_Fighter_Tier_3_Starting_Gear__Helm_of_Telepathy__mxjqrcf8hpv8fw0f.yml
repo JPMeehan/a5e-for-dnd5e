@@ -1,0 +1,37 @@
+folder: null
+name: Fighter Tier 3 Starting Gear (Helm of Telepathy)
+type: container
+img: icons/skills/melee/maneuver-greatsword-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Option of other Schooled Weapon. Also includes 650 gp and a
+      @UUID[Compendium.a5e.a5e-monsters.Actor.tjooykvdf4n55ufx]{Warhorse}.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 7000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+effects: []
+flags: {}
+_id: mxjqrcf8hpv8fw0f
+_key: '!items!mxjqrcf8hpv8fw0f'

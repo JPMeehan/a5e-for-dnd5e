@@ -1,0 +1,117 @@
+name: Shield, Medium
+type: equipment
+img: icons/equipment/shield/heater-steel-worn.webp
+effects:
+  - icon: icons/equipment/shield/heater-steel-worn.webp
+    origin: Item.19oc64en7c6kmk1w
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PwrEe2BhzH8Ia3ZA
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Defensive AC
+    _id: R4H9hwQqrcReSUg6
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!19oc64en7c6kmk1w.R4H9hwQqrcReSUg6'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When you take a critical hit, you can use your reaction to block it and
+      sacrifice your shield, turning the critical hit into a regular hit.
+      Afterwards your shield is broken, or if your shield is magical it instead
+      becomes mundane for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 8
+  price:
+    value: 20
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: 2
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: shield
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 19oc64en7c6kmk1w
+_key: '!items!19oc64en7c6kmk1w'

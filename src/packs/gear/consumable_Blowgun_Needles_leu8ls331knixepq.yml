@@ -1,0 +1,31 @@
+name: Blowgun Needles
+type: consumable
+img: icons/weapons/ammunition/arrows-bodkin-yellow-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 50
+  weight: 0.02
+  price:
+    value: 1
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+  consumableType: ammo
+folder: null
+_id: leu8ls331knixepq
+_key: '!items!leu8ls331knixepq'

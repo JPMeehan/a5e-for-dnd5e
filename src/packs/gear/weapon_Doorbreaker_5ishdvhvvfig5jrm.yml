@@ -1,0 +1,97 @@
+name: Doorbreaker
+type: weapon
+img: icons/weapons/hammers/hammer-double-engraved-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>The head of this magic maul is shaped like an adamantine fist. You gain
+      a +2 bonus to <span class="freelinking-link">attack and damage
+      rolls</span>&nbsp;made with this weapon. When you hit an object or
+      construct while wielding&nbsp;<em>Doorbreaker</em>, the hit is treated as
+      a critical hit.</p>
+
+      <p><em>Doorbreaker&nbsp;</em>has 3 charges. When you attack or touch a
+      portal sealed with an&nbsp;<em><span class="freelinking-link">arcane
+      lock</span>&nbsp;</em>, you can expend 1 charge to cast&nbsp;<em><span
+      class="freelinking-link">@UUID[Compendium.a5e-for-dnd5e.spells.Item.z74pzb0a9lrha8qr]{Knock}</span></em><em>&nbsp;</em>on
+      the portal.&nbsp;<em>Doorbreaker&nbsp;</em>regains 1d3 charges each
+      dawn.</p><hr><p><b>Breaker:</b> This weapon deals double damage to
+      unattended objects, such as doors and walls. If this property only applies
+      to a specific type of material, such as wood, it is stated in parenthesis
+      after this property.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 11
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - two
+    - breaker
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '2'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + 2 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 5ishdvhvvfig5jrm
+_key: '!items!5ishdvhvvfig5jrm'

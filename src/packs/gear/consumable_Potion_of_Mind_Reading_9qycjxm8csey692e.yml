@@ -1,0 +1,35 @@
+name: Potion of Mind Reading
+type: consumable
+img: icons/consumables/potions/potion-flask-corked-teal.webp
+system:
+  description:
+    value: >-
+      <p>After drinking this fizzy deep green lime potion, for the next hour you
+      are affected as if you had cast <em>detect thoughts</em> (save DC
+      13).</p><hr class="a5e-rule u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>100x copper
+      pennies</p></li><li><p>ruby</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 750
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: 9qycjxm8csey692e
+_key: '!items!9qycjxm8csey692e'

@@ -1,0 +1,92 @@
+name: Wings of Flying
+type: equipment
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components: </strong>Nalfeshnee feather or planetar
+      feather</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>While you are wearing this cloak, you can use an action speaking its
+      command word to transform it into a pair of wings. The wings last for 1
+      hour or until you use an action to speak the command word to dismiss them.
+      The wings give you a flying speed of 60 feet. After being used in this
+      way, the wings disappear and cannot be used again for [[/r 2d6 #hours]]
+      hours. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: anl5ab0gd5jxk7os
+_key: '!items!anl5ab0gd5jxk7os'

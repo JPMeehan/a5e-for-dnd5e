@@ -1,0 +1,37 @@
+name: Backpack
+type: container
+img: icons/containers/bags/pack-simple-leather.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Capacity: 30 pounds of gear or 1 cubic foot. You can also strap items,
+      such as a bedroll or a coil of rope, to the outside of a backpack.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: null
+_id: yobed5dj5zmxjnjh
+_key: '!items!yobed5dj5zmxjnjh'

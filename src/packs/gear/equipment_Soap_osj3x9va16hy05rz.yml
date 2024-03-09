@@ -1,0 +1,41 @@
+name: Soap
+type: equipment
+img: icons/sundries/survival/soap.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p>A commodity used for bathing.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1
+    denomination: cp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: osj3x9va16hy05rz
+_key: '!items!osj3x9va16hy05rz'

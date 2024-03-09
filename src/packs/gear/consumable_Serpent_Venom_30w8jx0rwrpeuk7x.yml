@@ -1,0 +1,74 @@
+folder: null
+name: Serpent Venom
+type: consumable
+img: >-
+  icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp
+system:
+  description:
+    value: >-
+      <p><em>Common, Injury, Instantaneous</em></p>
+
+      <p>The venom sacs of exotic serpents can be carefully&nbsp;extracted and
+      repurposed. A creature makes a DC 11&nbsp;Constitution saving throw when
+      it is subjected to&nbsp;this poison, taking 11 (3d6) poison damage on
+      a&nbsp;failure, or half as much damage on a success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 75
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 30w8jx0rwrpeuk7x
+_key: '!items!30w8jx0rwrpeuk7x'

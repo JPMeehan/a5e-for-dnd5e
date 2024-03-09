@@ -1,0 +1,100 @@
+name: Sword of Wounding (Longsword)
+type: weapon
+img: icons/weapons/swords/greatsword-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Defensive (Medium)</em></p><hr class="a5e-rule u-my-md"><p>Once per
+      turn, when you use this sword to hit a creature with a melee weapon
+      attack, in addition to dealing the attack damage you may inflict it with a
+      wound.</p><p>A wounded creature takes 1d4 necrotic damage at the start of
+      each of its turns for each wound you have inflicted this way. Whenever the
+      creature is damaged by its wound, it can make a DC 15 Constitution saving
+      throw, ending all wound effects it is suffering from on a
+      success.</p><p>Alternatively, the wounds can be healed if the wounded
+      creature (or a creature within 5 feet of it) uses an action to make a DC
+      15 Medicine check, ending all wound effects it is suffering from on a
+      success.</p><p>Damage dealt by this sword can only be regained by taking a
+      short or long rest— no other method, magical or otherwise, will restore
+      the hit points.</p><hr><p><b>Defensive:</b> This weapon is designed to be
+      used with a shield of the stated degree or lighter (light, medium, or
+      heavy). When you make an attack with this weapon and are using a shield
+      designed for it, you can use a bonus action to either make an attack with
+      your shield or increase your Armor Class by 1 until the start of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 +@mod
+        - slashing
+      - - 1d4
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 2pr5limgesiwasoz
+_key: '!items!2pr5limgesiwasoz'

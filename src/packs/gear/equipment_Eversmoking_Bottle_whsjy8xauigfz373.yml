@@ -1,0 +1,90 @@
+name: Eversmoking Bottle
+type: equipment
+img: icons/skills/toxins/bottle-open-vapors-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This glass bottle is filled with whirling smoke.</p><p>You can use an
+      action to remove the stopper, causing a thick cloud to pour out and fill a
+      60-foot radius centered on the bottle, making the area heavily obscured.
+      The cloud grows by 10 feet for each minute that the bottle remains open,
+      to a maximum radius of 120 feet.</p><p>The cloud remains until the bottle
+      is closed. Closing the bottle requires the item’s command word and an
+      action, after which the smoke disperses after 10 minutes. Moderate winds
+      disperse the smoke after 1 minute. Strong winds disperse the smoke after 1
+      round.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 250
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: whsjy8xauigfz373
+_key: '!items!whsjy8xauigfz373'

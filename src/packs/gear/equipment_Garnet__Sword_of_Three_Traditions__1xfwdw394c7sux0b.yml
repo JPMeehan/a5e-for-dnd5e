@@ -1,0 +1,90 @@
+folder: null
+name: Garnet (Sword of Three Traditions)
+type: equipment
+img: icons/commodities/gems/gem-faceted-radiant-red.webp
+system:
+  description:
+    value: >-
+      <p>Each of the lost magical gemstones of the Sword&nbsp;of Three
+      Traditions is a wondrous item and artifact&nbsp;that requires attunement.
+      Once attuned to a magical&nbsp;gemstone, it bestows a minor artifact
+      benefit. You&nbsp;can only attune to the magical gemstone if you
+      know&nbsp;a combat maneuver from the tradition associated&nbsp;with
+      it.</p>
+
+      <p>You can use an action to attach a magical gemstone to the sword. No
+      matter how many magical gemstones are attached to the sword, it counts as
+      a single magic item for the purposes of attunement.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 1xfwdw394c7sux0b
+_key: '!items!1xfwdw394c7sux0b'

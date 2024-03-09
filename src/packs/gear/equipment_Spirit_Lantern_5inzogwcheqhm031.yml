@@ -1,0 +1,46 @@
+name: Spirit Lantern
+type: equipment
+img: icons/magic/light/light-lantern-lit-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When you use a bonus action to speak its command word, this lantern
+      creates a magical bluish flame that emits bright light in a 20-foot radius
+      and dim light for an additional 20 feet.</p><p>This light outlines any
+      ethereal creatures within 40 feet and any invisible creatures within 10
+      feet.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 1000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 5inzogwcheqhm031
+_key: '!items!5inzogwcheqhm031'

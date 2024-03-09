@@ -1,0 +1,91 @@
+name: Horn of Blasting
+type: equipment
+img: icons/containers/misc/horn-drinking-wood-teal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can use an action to speak the horn’s command word and blow it,
+      emitting a thunderous blast in a 30-foot cone that is audible 600 feet
+      away. Each creature in the area makes a DC 15 Constitution saving throw.
+      On a failed save, a creature takes 5d6 thunder damage and is deafened for
+      1 minute. On a successful save, a creature takes half damage and isn’t
+      deafened. Creatures and objects made of glass or crystal have disadvantage
+      on the saving throw and take double damage. </p><p>Each use of the horn’s
+      magic has a 20% chance of making it explode, dealing 10d6 fire damage to
+      you and destroying it.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 4000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: 600ft.
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 10d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: 0zqn5ni36cplo06b
+_key: '!items!0zqn5ni36cplo06b'

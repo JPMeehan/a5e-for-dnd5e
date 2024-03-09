@@ -1,0 +1,157 @@
+folder: null
+name: Paramour’s Daisy
+type: equipment
+img: icons/commodities/flowers/daisy-close-white.webp
+system:
+  description:
+    value: >-
+      <p>This bright yellow daisy never wilts or fades. The daisy has exactly 20
+      petals when you first receive it.</p>
+
+      <p>While the daisy has an even number of petals, both your personality and
+      physical appearance become vibrant. You gain an expertise die on
+      Persuasion checks, but you have disadvantage on Stealth checks.</p>
+
+      <p>While the daisy has an odd number of petals, your presence fades into
+      the background. You gain an expertise die on Stealth checks, but you have
+      disadvantage on Persuasion checks.</p>
+
+      <p>You can use an action to pluck one petal from the daisy. The daisy
+      loses its magic once you remove its final petal.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 130
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/flowers/daisy-close-white.webp
+    origin: Item.ra9gpo2knldj50bq
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Even Petals
+    _id: zR1z6k0whzzLdheb
+    changes:
+      - key: system.skills.per.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!ra9gpo2knldj50bq.zR1z6k0whzzLdheb'
+  - icon: icons/commodities/flowers/daisy-close-white.webp
+    origin: Item.ra9gpo2knldj50bq
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Odd Petals
+    _id: 00P8PJsZsIyiHqek
+    changes:
+      - key: system.skills.ste.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.per
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!ra9gpo2knldj50bq.00P8PJsZsIyiHqek'
+flags: {}
+_id: ra9gpo2knldj50bq
+_key: '!items!ra9gpo2knldj50bq'

@@ -1,0 +1,46 @@
+name: Hunting Snare
+type: equipment
+img: icons/sundries/survival/rope-noose-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This simple arrangement of stakes, wires, and ropes can be set for
+      catching small game in woodlands, forests, or other hunting grounds.
+      Whenever you retrieve the snare, roll a d20 and add a bonus equal to the
+      number of hours the snare has been set. On a 21 or higher the snare has
+      captured and killed a Tiny game animal with 1d4 Supply.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 5
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: osjupsyzvbm6mcbp
+_key: '!items!osjupsyzvbm6mcbp'

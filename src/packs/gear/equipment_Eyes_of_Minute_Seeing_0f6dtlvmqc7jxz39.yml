@@ -1,0 +1,44 @@
+name: Eyes of Minute Seeing
+type: equipment
+img: icons/tools/scribal/spectacles-glasses.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>These wire-framed lenses are worn over the eyes and enhance your vision
+      within 1 foot.</p><p>You gain advantage on any sight-based Investigation
+      checks made to study an object or area within that range</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 0f6dtlvmqc7jxz39
+_key: '!items!0f6dtlvmqc7jxz39'

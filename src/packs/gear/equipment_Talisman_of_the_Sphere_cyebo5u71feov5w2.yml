@@ -1,0 +1,46 @@
+name: Talisman of the Sphere
+type: equipment
+img: icons/magic/unholy/orb-rays-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When you hold this talisman while making an Intelligence (Arcana) check
+      to control a sphere of annihilation add your proficiency bonus
+      twice.</p><p>If you are in control of a sphere of annihilation at the
+      start of your turn, you can use an action to move the sphere 10 feet plus
+      a number of additional feet equal to 10x your Intelligence modifier.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 85000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: cyebo5u71feov5w2
+_key: '!items!cyebo5u71feov5w2'

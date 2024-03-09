@@ -1,0 +1,73 @@
+folder: null
+name: Basilisk Drool
+type: consumable
+img: icons/commodities/materials/slime-thick-orange.webp
+system:
+  description:
+    value: >-
+      <p><em>Uncommon, Contact, Instantaneous</em></p>
+
+      <p>A basilisk&rsquo;s mouth is among the world&rsquo;s most putrid
+      locations. A creature makes a DC 12 Constitution saving throw when
+      subjected to this poison, taking 7 (2d6) poison damage on a failure, or
+      half as much damage on a success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 125
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: vpl1an53x7845bmf
+_key: '!items!vpl1an53x7845bmf'

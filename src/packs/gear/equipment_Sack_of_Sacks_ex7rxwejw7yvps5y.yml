@@ -1,0 +1,47 @@
+name: Sack of Sacks
+type: equipment
+img: icons/containers/bags/coinpouch-leather-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Wondrous Item</em></p><hr class="a5e-rule u-my-md"><p>Inside this
+      hand-sized sack is a Medium-sized sack. There is no room to store anything
+      inside the original sack.</p><p>When you pull a sack out, roll 1d20 and
+      add 1 for each sack pulled out in the last 24 hours. On a result of 20 or
+      higher the hand-sized sack is empty and it becomes a mundane item.
+      Otherwise there is another Medium-sized sack inside.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 55
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: ex7rxwejw7yvps5y
+_key: '!items!ex7rxwejw7yvps5y'

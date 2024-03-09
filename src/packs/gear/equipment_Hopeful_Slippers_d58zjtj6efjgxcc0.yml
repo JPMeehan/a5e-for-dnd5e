@@ -1,0 +1,99 @@
+name: Hopeful Slippers
+type: equipment
+img: icons/equipment/feet/shoes-rounded-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A wish made from the innocent heart of a scullery maid created these
+      magical shoes, upon which she danced her way into a better life. You can
+      only attune to these shoes if you are the first creature to do so. When
+      you attune to the shoes, they resize to perfectly fit your feet and your
+      feet alone. During the day they take the form of simple wooden clogs, and
+      by night the shoes transform into beautiful glass slippers that somehow
+      hold your weight without breaking. </p><p>While wearing these shoes as
+      clogs, your Wisdom score increases by 2 and you gain an expertise die on
+      Animal Handling checks. While wearing these shoes as glass slippers, your
+      Charisma score increases by 2 and you gain an expertise die on Performance
+      checks. </p><p>Alternatively, you can use a bonus action to shatter the
+      glass slipper against the floor, sending shards exploding outward in a
+      10-foot radius. Creatures and objects in the area make a DC 15 Dexterity
+      saving throw, taking 8d6 magical piercing damage on a failed save or half
+      as much on a success. Afterwards the area becomes difficult terrain, and
+      the remaining shoe becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 10400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 8d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: null
+_id: d58zjtj6efjgxcc0
+_key: '!items!d58zjtj6efjgxcc0'

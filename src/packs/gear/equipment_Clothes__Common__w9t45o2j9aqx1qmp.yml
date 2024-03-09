@@ -1,0 +1,44 @@
+name: Clothes (Common)
+type: equipment
+img: icons/equipment/chest/shirt-collared-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Clothes of varying styles can be appropriate to any number of cultures
+      or social situations and can be worn over light armor. A DC 14 Perception
+      check is required to notice light armor hidden underneath clothes.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 5
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: w9t45o2j9aqx1qmp
+_key: '!items!w9t45o2j9aqx1qmp'

@@ -1,0 +1,97 @@
+name: Bag of Tricks (Green)
+type: equipment
+img: icons/containers/bags/sack-simple-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This seemingly empty cloth bag comes in several colors and has a small,
+      fuzzy object inside.</p><p>You can use an action to pull a fuzzy object
+      from the bag and throw it up to 20 feet. Upon landing, it becomes a
+      creature determined by a roll on the Bag of Tricks table (depending on the
+      bag’s color).</p><p>The resulting creature is friendly to you and any
+      companions you have. It acts on your turn, during which you can use a
+      bonus action to give it simple commands such as “attack that creature” or
+      “move over there”. If the creature dies or if you use the bag again, it
+      disappears without a trace. After the first use each day, there is a 50%
+      chance that a creature from the bag is hostile instead of friendly and
+      obedient.</p><p>Once you have used the bag three times, you cannot do so
+      again until the next dawn.</p><hr class="a5e-rule
+      u-my-md"><p><strong>Table: Green Bag of Tricks (d8)</strong></p><p>1 -
+      Giant Crocodile</p><p>2 - Allosaurus</p><p>3 - Ankylosaurus</p><p>4 -
+      Raptor</p><p>5 - Giant lizard</p><p>6 - Triceratops</p><p>7 -
+      Plesiosaurus</p><p>8 - Pteranodon</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 800
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 20 ft.
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: mzp11i2b1sc6wfvm
+_key: '!items!mzp11i2b1sc6wfvm'

@@ -1,0 +1,48 @@
+name: Air Charm
+type: equipment
+img: icons/commodities/materials/feathers-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While wearing this charm you can hold your breath for an additional 10
+      minutes, or you can break the charm to release its power, destroying it to
+      activate one of the following effects.</p><p>• Flight: Cast fly.</p><p>•
+      Float: Cast feather fall.</p><p>• Whirl: Cast whirlwind kick (+7 spell
+      attack bonus, spell save DC 15).</p><p><strong><em>Curse.</em></strong>
+      Releasing the charm’s power attracts the attention of a
+      <strong>djinni</strong> who seeks you out to request a favor.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: qmvw9568a78jgkbe
+_key: '!items!qmvw9568a78jgkbe'

@@ -1,0 +1,86 @@
+name: Dust of Disappearance
+type: equipment
+img: icons/commodities/materials/powder-teal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      This shimmering dust is usually found in a small vial that contains enough
+      for a single use. You can use an action to scatter the dust into the air,
+      covering you and each creature and object within 10 feet and rendering
+      them invisible for 2d4 minutes. This consumes the dust. If an affected
+      creature casts a spell or attacks, the effect ends for that creature. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: nf6ctnhxad9ls37m
+_key: '!items!nf6ctnhxad9ls37m'

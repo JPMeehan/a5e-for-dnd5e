@@ -1,0 +1,74 @@
+name: Oil of Slipperiness
+type: consumable
+img: icons/consumables/potions/bottle-round-empty-glass.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can spend 10 minutes applying this thick black oil to a Medium or
+      smaller creature, as well as its gear. One additional vial is required for
+      each size category above Medium. A creature covered in the oil gains the
+      effect of a <em>Freedom of Movement</em> spell for 2 hours. Alternatively,
+      you can use an action to pour the oil on the ground next to you, making a
+      10-foot square slippery, as the <em>Grease</em> spell, for 8 hours.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: special
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: square
+  range:
+    value: touch
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: null
+_id: jvuyu85h36fatbke
+_key: '!items!jvuyu85h36fatbke'

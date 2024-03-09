@@ -1,0 +1,88 @@
+name: Stonebow +1
+type: weapon
+img: icons/weapons/bows/shortbow-recurve-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Range (80/320), Two-Handed</em></p>
+
+      <p>&nbsp;</p>
+
+      <p>This weapon&nbsp;functions as a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.ch3xxcc7yimo0ktm]{Shortbow},
+      but fires sling bullets which inflict bludgeoning damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - amm
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 80
+    long: 320
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod + 1
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: eaqwuixs3oaysstd
+_key: '!items!eaqwuixs3oaysstd'

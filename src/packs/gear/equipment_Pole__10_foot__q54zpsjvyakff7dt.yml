@@ -1,0 +1,43 @@
+name: Pole (10-foot)
+type: equipment
+img: icons/commodities/wood/wood-pole.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When you suspect a trap, you can put the end of your 10-foot pole
+      through that hole in the wall instead of reaching in with your hand.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 7
+  price:
+    value: 5
+    denomination: cp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: q54zpsjvyakff7dt
+_key: '!items!q54zpsjvyakff7dt'

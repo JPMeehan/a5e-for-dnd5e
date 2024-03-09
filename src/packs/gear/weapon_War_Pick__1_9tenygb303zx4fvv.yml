@@ -1,0 +1,84 @@
+name: War Pick +1
+type: weapon
+img: icons/weapons/hammers/shorthammer-claw-stone.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Breaker (Stone)</em></p><hr><p><b>Breaker:</b> This weapon deals
+      double damage to unattended objects, such as doors and walls. If this
+      property only applies to a specific type of material, such as wood, it is
+      stated in parenthesis after this property.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - breaker
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod + 1
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 9tenygb303zx4fvv
+_key: '!items!9tenygb303zx4fvv'

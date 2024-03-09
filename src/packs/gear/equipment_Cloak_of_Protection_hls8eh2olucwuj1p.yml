@@ -1,0 +1,74 @@
+name: Cloak of Protection
+type: equipment
+img: >-
+  https://assets.forge-vtt.com/bazaar/core/icons/equipment/back/cloak-plain-blue.webp
+effects:
+  - icon: https://assets.forge-vtt.com/bazaar/core/icons/svg/aura.svg
+    origin: Item.hls8eh2olucwuj1p
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Saving Throw Bonus
+    _id: 8ONPvIdVCabqvB3O
+    changes:
+      - key: flags.a5e.effects.bonuses.abilities
+        value: >-
+          {"context":{"abilities":["str","dex","con","int","wis","cha"],"types":["save"],"requiresProficiency":false},"formula":"1","label":"Ability
+          Bonus","default":true}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!hls8eh2olucwuj1p.8ONPvIdVCabqvB3O'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While wearing this cloak, you gain a +1 bonus to Armor Class and saving
+      throws.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: 1
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: hls8eh2olucwuj1p
+_key: '!items!hls8eh2olucwuj1p'

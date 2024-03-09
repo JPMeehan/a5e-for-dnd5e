@@ -1,0 +1,98 @@
+name: Vicious Shotgun
+type: weapon
+img: icons/weapons/guns/gun-double-barrel.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When this weapon is used to make an attack roll with&nbsp;<span
+      class="freelinking-link">advantage</span>&nbsp;, the attack becomes a
+      critical hit if both d20 rolls would result in a hit. When this weapon is
+      used to make an attack roll with&nbsp;<span
+      class="freelinking-link">disadvantage</span>&nbsp;and only one attack roll
+      would result in a hit, you instead deal 1d4 piercing damage (adding no
+      bonuses to damage from ability score modifiers or enchantments)</p>
+
+      <p><strong>Vicious Weapon:&nbsp;</strong>When you roll a natural 20 on an
+      attack roll using this weapon it deals an extra 2d6 damage of the
+      weapon&rsquo;s type (this extra damage does not
+      double).</p><hr><p><b>Vicious:</b> A vicious weapon scores a critical hit
+      on a roll of 19 or 20. If you already have a feature that increases the
+      range of your critical hits, your critical hit range increases by 1
+      (maximum 17–20).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 6
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - lod
+    - vicious
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: 90
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 + @mod
+        - piercing
+      - - 1d4
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ofl6mh7d5iimzi3n
+_key: '!items!ofl6mh7d5iimzi3n'

@@ -1,0 +1,81 @@
+name: Luminescent Gum
+type: consumable
+img: icons/environment/creatures/crustacean-clam-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This salty chewing gum is made from the sap of a deep sea plant and is
+      normally stored inside of a clamshell. In order to activate it, you must
+      chew the gum as an action, during which its properties are released into
+      your bloodstream. The center of your forehead forms a slight bump and
+      begins to glow. Any darkness within a range of 120 feet becomes dim light,
+      and any dim light within the same range becomes bright light. The gum has
+      no effect on bright light.</p><p>The effect lasts for 1 hour, after which
+      the gum loses its magical properties. The gum itself is a bit of an
+      acquired taste and when you chew it for the first time you must make a DC
+      10 Constitution check or gain the stunned condition for a round as you
+      vomit. Vomited gum can be retrieved and used again, but its remaining
+      duration is halved every time it is reused.</p><p>Luminescent gum is
+      generally found in bunches of 6 or 12 clamshells.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: n5ywa0bnjw4igm5x
+_key: '!items!n5ywa0bnjw4igm5x'

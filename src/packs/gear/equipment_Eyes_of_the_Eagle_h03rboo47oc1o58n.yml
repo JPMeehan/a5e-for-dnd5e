@@ -1,0 +1,45 @@
+name: Eyes of the Eagle
+type: equipment
+img: icons/tools/scribal/spectacles-glasses.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>These wire-framed lenses fit over the eyes and grant you advantage on
+      sight-based Perception checks.</p><p>When visibility is clear you can make
+      out fine details at extreme ranges, easily discerning creatures and
+      objects as small as 2 feet across.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 250
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: h03rboo47oc1o58n
+_key: '!items!h03rboo47oc1o58n'

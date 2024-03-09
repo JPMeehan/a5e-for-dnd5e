@@ -1,0 +1,71 @@
+name: Belt of Fire Giant Strength
+type: equipment
+img: icons/equipment/waist/belt-coiled-leather-steel.webp
+effects:
+  - icon: icons/equipment/waist/belt-coiled-leather-steel.webp
+    origin: Item.jwhqfsy0slfr89fy
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Belt of Fire Giant Strength
+    _id: KZ1ZGli9aes4VawZ
+    changes:
+      - key: system.abilities.str.value
+        value: '25'
+        mode: 5
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!jwhqfsy0slfr89fy.KZ1ZGli9aes4VawZ'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Wearing this belt increases your Strength score to 25. It has no effect
+      if your Strength is equal to or greater than the belt’s score.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 20000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: jwhqfsy0slfr89fy
+_key: '!items!jwhqfsy0slfr89fy'

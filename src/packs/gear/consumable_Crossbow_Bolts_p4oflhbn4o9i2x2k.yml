@@ -1,0 +1,31 @@
+name: Crossbow Bolts
+type: consumable
+img: icons/weapons/ammunition/arrows-war-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p>A bundle of 20 bolts.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 20
+  weight: 0.075
+  price:
+    value: 1
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+  consumableType: ammo
+folder: null
+_id: p4oflhbn4o9i2x2k
+_key: '!items!p4oflhbn4o9i2x2k'

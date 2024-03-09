@@ -1,0 +1,91 @@
+name: Marble of Direction
+type: equipment
+img: icons/commodities/gems/pearl-natural.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This seemingly ordinary marble is very susceptible to air currents as
+      though it were only a fraction of its true weight. When placed on a flat
+      horizontal surface, such as the floor of a room or chamber, the marble
+      rolls in the direction of the current path of air currents around it.
+      </p><p>The marble has 1 charge. You can use an action to speak its command
+      word while placing the marble on a flat horizontal surface, expending 1
+      charge. The marble rolls towards the direction of the nearest exit of the
+      chamber it is placed in, ultimately coming to rest against the nearest
+      exit (regardless of air currents). The delicate calibration of the marble
+      is destroyed and it becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: wb8vfgbe0ocp9ltu
+_key: '!items!wb8vfgbe0ocp9ltu'

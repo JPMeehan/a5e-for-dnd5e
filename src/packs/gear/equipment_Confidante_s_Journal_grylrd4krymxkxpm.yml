@@ -1,0 +1,48 @@
+name: Confidante’s Journal
+type: equipment
+img: icons/sundries/books/book-embossed-roots-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Living vines hold shut this journal’s cover and part only for you. Your
+      patron can read anything you write in the journal and can cause brief
+      messages to appear on its pages. </p><p>If you spend a short or long rest
+      writing your most secret thoughts in the journal, you can choose to gain
+      Inspiration instead of regaining expended Pact Magic spell slots. The
+      seventh time you gain Inspiration in this way, you fill the journal’s
+      pages and can’t write in it again.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 145
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: grylrd4krymxkxpm
+_key: '!items!grylrd4krymxkxpm'

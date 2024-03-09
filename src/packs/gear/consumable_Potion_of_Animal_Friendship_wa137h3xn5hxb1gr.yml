@@ -1,0 +1,35 @@
+name: Potion of Animal Friendship
+type: consumable
+img: icons/consumables/potions/flask-decorated-label-pink.webp
+system:
+  description:
+    value: >-
+      <p>After drinking this potion, for the next hour you can cast <em>animal
+      friendship</em> (save DC 13) at will.</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Lock of dryad
+      hair</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: wa137h3xn5hxb1gr
+_key: '!items!wa137h3xn5hxb1gr'

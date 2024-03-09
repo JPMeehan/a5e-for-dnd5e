@@ -1,0 +1,160 @@
+name: Shield, Heavy
+type: equipment
+img: icons/equipment/shield/heater-steel-gold.webp
+effects:
+  - icon: icons/equipment/shield/heater-steel-gold.webp
+    origin: Item.al5bt63sprk6hkxv
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Shield, Heavy
+    _id: xufT6e11kUsK9SPh
+    changes:
+      - key: system.abilities.dex.save.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.acr
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!al5bt63sprk6hkxv.xufT6e11kUsK9SPh'
+  - icon: icons/equipment/shield/heater-steel-gold.webp
+    origin: Item.al5bt63sprk6hkxv
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: F3TTzlAfNwLEaLFb
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Defensive AC
+    _id: rws7wAPvY6mq40Bt
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!al5bt63sprk6hkxv.rws7wAPvY6mq40Bt'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You gain an expertise die on Dexterity saving throws. When you take the
+      Dodge action while wielding a heavy shield, you may instead take cover
+      behind your shield, gaining an expertise die to your Armor Class until the
+      start of your turn.</p>
+
+      <p>You cannot squeeze through spaces smaller than your size category.</p>
+
+      <p>When you take a critical hit, you can use your reaction to block it and
+      sacrifice your shield, turning the critical hit into a regular hit.
+      Afterwards your shield is broken, or if your shield is magical it instead
+      becomes mundane for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 20
+  price:
+    value: 35
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: 2
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: shield
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: al5bt63sprk6hkxv
+_key: '!items!al5bt63sprk6hkxv'

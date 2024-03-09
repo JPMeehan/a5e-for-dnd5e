@@ -1,0 +1,95 @@
+name: Nine Lives Stealer Scimitar
+type: weapon
+img: icons/weapons/swords/scimitar-guard-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You gain a +2 bonus to attack and damage rolls made with this magic
+      sword.</p><p>The sword has [[/r 1d8+1 #charges]] charges. When you use the
+      sword to score a critical hit against a creature that is not a construct
+      or undead, if it has less than 100 hit points it makes a DC 15
+      Constitution saving throw or it instantly dies as the sword rips the life
+      force out of it. Each time a creature is killed in this manner the sword
+      expends a charge. When all its charges are gone, the sword loses this
+      property. </p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 10000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - lgt
+    - fin
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '2'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod +2
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: ppg0unjrdg5mqi6q
+_key: '!items!ppg0unjrdg5mqi6q'

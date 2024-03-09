@@ -1,0 +1,35 @@
+name: Arrows +3
+type: consumable
+img: icons/weapons/ammunition/arrow-simple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><br>This ammunition comes in bundles of 10. When used to make a ranged
+      weapon attack, a piece of this ammunition grants a +3 bonus to attack and
+      damage rolls made with it. After hitting a target, a piece of ammunition
+      loses its magical properties. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 10
+  weight: 0.05
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+  consumableType: ammo
+folder: null
+_id: lv4c9qodtb4x7e94
+_key: '!items!lv4c9qodtb4x7e94'

@@ -1,0 +1,52 @@
+name: Necklace of Hunger
+type: equipment
+img: icons/equipment/neck/choker-simple-carved-wood-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While you are attuned to and wearing this necklace of serrated teeth,
+      you gain a bite natural weapon attack that deals [[/r 1d6 #magical
+      piercing]] magical piercing damage, and you cannot become diseased or
+      poisoned from anything you eat or drink.</p><p>In addition, you may eat
+      anything organic that can reasonably fit in your mouth without difficulty
+      (or regard for taste) and gain sustenance from doing so as if you have
+      consumed a normal meal. </p><p><strong><em>Curse</em></strong>. Your
+      appearance and aura carries a hint of malice and despair. You have
+      disadvantage on Charisma checks and beasts are hostile towards you.
+      </p><p></p><p><em>! Foundry note: create a separate bite attack manually.
+      </em><br></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 4xwvn5nu3tjcmb7n
+_key: '!items!4xwvn5nu3tjcmb7n'

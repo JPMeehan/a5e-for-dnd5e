@@ -1,0 +1,100 @@
+name: Sonic Staff
+type: weapon
+img: icons/weapons/staves/staff-ornate-wood-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This metal polearm has complex flanged baffles along its haft and ends
+      with a faintly glowing two-tined cap not unlike a tuning fork.</p><p>When
+      struck it reverberates near-deafeningly and by adjusting its components
+      you can tune it to the destructive resonance of an
+      object.</p><ul><li><p>You have a +1 bonus to attack and damage rolls made
+      with this magic weapon. It constantly emits a high-pitched whine that is
+      uncomfortable to animals. Animals do not willingly approach within 10 feet
+      of the staff without a successful DC 22 Animal Handling
+      check.</p><p></p></li><li><p>Attacks with this weapon deal double damage
+      against doors and other objects.</p><p></p></li><li><p>Once per day, you
+      can use an action to slam it against the ground and generate a wave of
+      thunder and force, either in a 10-foot radius or 30-foot cone. Creatures
+      in the area take 3d6 thunder damage and are pushed 15 feet away. This
+      effect cannot penetrate a <em>silence </em>spell (or any similar magical
+      silence effect).</p></li></ul><hr><p><b>Parrying:</b> When you are
+      wielding this weapon and you are not using a shield, once before your next
+      turn you can gain an expertise die to your AC against a single melee
+      attack made against you by a creature you can see. You cannot use this
+      property while incapacitated , paralyzed , rattled , restrained , or
+      stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 9000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + 1 +@mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 459ak83fm7sniw6n
+_key: '!items!459ak83fm7sniw6n'

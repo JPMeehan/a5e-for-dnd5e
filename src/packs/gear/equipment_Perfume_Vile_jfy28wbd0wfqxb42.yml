@@ -1,0 +1,115 @@
+folder: null
+name: Perfume Vile
+type: equipment
+img: icons/consumables/potions/bottle-circular-corked-labeled-green.webp
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 120
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/potions/bottle-circular-corked-labeled-green.webp
+    origin: Item.jfy28wbd0wfqxb42
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ECNiLuYAP8vPrK7J
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Stunned
+    _id: 6OjwXLb7ABG2rqkv
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - stunned
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!jfy28wbd0wfqxb42.6OjwXLb7ABG2rqkv'
+flags: {}
+_id: jfy28wbd0wfqxb42
+_key: '!items!jfy28wbd0wfqxb42'

@@ -1,0 +1,96 @@
+name: Perfect Disguise
+type: equipment
+img: icons/equipment/head/mask-plague-leather-brown.webp
+system:
+  description:
+    value: >-
+      <p>This set of novelty glasses has a comically-oversized false nose along
+      with a thick fake mustache and bushy eyebrows. These glasses have 3
+      charges and regain 1 charge each dawn. While wearing the glasses you can
+      expend 1 charge to cast the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.vemj08hawvmf44ya]{Disguise
+      Self} (save DC 14).</p>
+
+      <p>However, you cannot mask the glasses themselves using disguise self in
+      this way&mdash;no matter how your disguise looks, it includes the novelty
+      glasses.</p>
+
+      <p>If you expend the last charge, roll a d20. On a result of 5 or less,
+      the perfect disguise is glued to your face (as
+      @UUID[Compendium.a5e.a5e-magic-items.Item.fhi2dhlr4jugr1qj]{Sovereign
+      Glue}) and it becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 125
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: abil
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_id: 58r2ilz6marvt1ct
+_key: '!items!58r2ilz6marvt1ct'

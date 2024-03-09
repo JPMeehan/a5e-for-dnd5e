@@ -1,0 +1,47 @@
+name: Tome of Triumphant Tavern Keeping
+type: equipment
+img: icons/sundries/books/book-turquoise-moon.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This collection of journals from tavern keepers the world over contains
+      numerous stories about revelry written by the people that enabled
+      them.</p><p>After you spend 12 hours reading through the book’s tales,
+      whenever you are in a pub, inn, or tavern you gain advantage on Wisdom and
+      Charisma checks made against the workers there.</p><p>The tome then
+      becomes a mundane item for 28 days before it regains its magic.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 135
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: ruttx8zpf3oe9gm8
+_key: '!items!ruttx8zpf3oe9gm8'

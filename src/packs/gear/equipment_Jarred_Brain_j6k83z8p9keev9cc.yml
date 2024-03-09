@@ -1,0 +1,95 @@
+name: Jarred Brain
+type: equipment
+img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A humanoid brain floats in formaldehyde within this glass and iron jar,
+      the electrodes protruding from its lid sparking on occasion as the mass of
+      tissue within twitches. You can use an action to gain a flash of insight
+      by shocking your own mind with the jar’s electrodes, taking 1d6 lightning
+      damage. You gain 5 expertise dice to use on Intelligence checks made in
+      the next minute, either individually or up to as many as 3 at a time. Once
+      the jar is used in this way the sparks recede and it cannot be used in
+      this way again for the next 24 hours.</p><p>Alternatively, the brain can
+      be wired up directly to the mind of another creature. This process takes 1
+      minute and allows a creature to consult the jarred brain about a specific
+      course of action (as the spell augury), after which it malfunctions and
+      shatters.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 75
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: j6k83z8p9keev9cc
+_key: '!items!j6k83z8p9keev9cc'

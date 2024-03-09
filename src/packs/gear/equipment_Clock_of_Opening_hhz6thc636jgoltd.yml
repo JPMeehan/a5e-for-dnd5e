@@ -1,0 +1,51 @@
+name: Clock of Opening
+type: equipment
+img: icons/magic/time/clock-spinning-gold-pink.webp
+system:
+  description:
+    value: >-
+      <p>This grandfather clock weighs 250 pounds and tolls loudly every hour.
+      Among its internal mechanisms are 12 keyholes of various sizes. Any key
+      can be inserted into a keyhole.</p>
+
+      <p>If you are trained in the Arcana or Engineering skill, you can use an
+      action to cause a lock within 500 miles to magically lock or unlock by
+      inserting the lock&rsquo;s key into the clock and adjusting the
+      clock&rsquo;s mechanisms. Additionally, so long as the key remains in the
+      clock, you can schedule the lock to lock or unlock at certain hours of the
+      day.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 250
+  price:
+    value: 3000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+effects: []
+folder: null
+flags: {}
+_id: hhz6thc636jgoltd
+_key: '!items!hhz6thc636jgoltd'

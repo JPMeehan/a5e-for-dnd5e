@@ -1,0 +1,102 @@
+name: Ghost Metal Handaxe
+type: weapon
+img: icons/weapons/axes/axe-broad-energy-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>Breaker (Wood), Defensive (Light), Dual-Wielding, Simple,
+      Thrown (20/60)</p></blockquote><hr class="a5e-rule u-my-md"><p>While you
+      are attuned to and wielding this extremely light axe, you are able to see
+      20 feet into the Ethereal Plane and use it to make melee weapon attacks
+      against creatures on the Ethereal Plane.</p><p>If you are on the Ethereal
+      Plane, you are able to see 20 feet into the Material Plane and use the axe
+      to make melee weapon attacks against creatures on the Material
+      Plane.</p><p>In addition, once per turn when you take the Attack action,
+      you can strike at an undead possessing another creature, forcing it to
+      make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma
+      modifier) or exit the possessed creature.</p><hr><p><b>Breaker:</b> This
+      weapon deals double damage to unattended objects, such as doors and walls.
+      If this property only applies to a specific type of material, such as
+      wood, it is stated in parenthesis after this
+      property.</p><p><b>Defensive:</b> This weapon is designed to be used with
+      a shield of the stated degree or lighter (light, medium, or heavy). When
+      you make an attack with this weapon and are using a shield designed for
+      it, you can use a bonus action to either make an attack with your shield
+      or increase your Armor Class by 1 until the start of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 18500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - lgt
+    - thr
+    - breaker
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 20
+    long: '60'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: 3txid9xoenri7pg9
+_key: '!items!3txid9xoenri7pg9'

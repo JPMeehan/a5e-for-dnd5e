@@ -1,0 +1,50 @@
+name: Wand of the War Mage +2
+type: equipment
+img: icons/weapons/staves/staff-ornate-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components: </strong>Shards of a destroyed staff of
+      power</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p><em>Requires attunement by a spellcaster</em></p>
+
+      <p>While holding this wand, you gain a +2 bonus to spell attack rolls, and
+      you ignore half cover when making spell attacks.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 2500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: wo71b2yd8on4vs8d
+_key: '!items!wo71b2yd8on4vs8d'

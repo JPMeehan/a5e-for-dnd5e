@@ -1,0 +1,73 @@
+name: Oil of Sharpness
+type: consumable
+img: icons/consumables/potions/potion-tube-corked-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>It takes 1 minute to use this glittering oil to cover a weapon that
+      deals slashing or piercing damage, or 5 pieces of ammunition that deals
+      slashing or piercing damage. For 1 hour the weapon or ammunition is
+      magical, and when using it you gain a +3 bonus to attack and damage
+      rolls.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: touch
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: vo4ql6h63qe4sanl
+_key: '!items!vo4ql6h63qe4sanl'

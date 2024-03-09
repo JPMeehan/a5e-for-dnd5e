@@ -1,0 +1,105 @@
+folder: null
+name: Perdita’s Abandon
+type: consumable
+img: icons/commodities/flowers/clover-purple.webp
+system:
+  description:
+    value: >-
+      <p><em>Rare, Ingested, Onset (1 minute)</em></p>
+
+      <p>Perdita Ravenwing first created this violet herbal&nbsp;mixture to
+      block years of training from the minds&nbsp;of her rivals. A creature
+      makes a DC 16 Wisdom&nbsp;saving throw when subjected to this poison,
+      and&nbsp;on a failure it becomes rattled for the next 24 hours.&nbsp;This
+      poison and all of its effects can be cured by&nbsp;the greater restoration
+      spell.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1750
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/flowers/clover-purple.webp
+    origin: Item.x421dqqe9sj4v8t9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: hours
+    transfer: false
+    name: Perdita’s Abandon Poisoning
+    _id: 5UaBqRqzFKFk9i84
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!x421dqqe9sj4v8t9.5UaBqRqzFKFk9i84'
+flags: {}
+_id: x421dqqe9sj4v8t9
+_key: '!items!x421dqqe9sj4v8t9'

@@ -1,0 +1,47 @@
+name: Map (Distant)
+type: equipment
+img: icons/tools/navigation/map-plain-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When using a map, you may travel at a fast pace without taking a
+      penalty to your passive Perception while within the area it depicts. If
+      you also use a compass in conjunction with a map, you gain an expertise
+      die on checks made to avoid becoming lost.</p><p>Distant: This map depicts
+      a region far-flung from those that made it, and it only shows the major
+      geographical features and best known routes within the realm.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 75
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 78r679scgdx9sqft
+_key: '!items!78r679scgdx9sqft'

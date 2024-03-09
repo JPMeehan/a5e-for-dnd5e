@@ -1,0 +1,81 @@
+folder: null
+name: Burnt Othur Fumes
+type: consumable
+img: icons/magic/air/fog-gas-smoke-dense-brown.webp
+system:
+  description:
+    value: >-
+      <p><em>Uncommon, Inhaled, Instantaneous</em></p>
+
+      <p>Othur bog mold emits caustic spores that are both&nbsp;toxic and
+      intensely flammable. A creature makes a&nbsp;DC 13 Constitution saving
+      throw when subjected&nbsp;to this poison, taking 10 (3d6) poison damage
+      on&nbsp;a failure, or half as much on a success. Additionally,&nbsp;a
+      creature that fails its saving throw takes an&nbsp;additional 3 (1d6)
+      ongoing poison damage for the&nbsp;next 3 rounds.</p>
+
+      <p>If a cloud of this poison is exposed to an open flame or any target
+      within it takes fire damage, the 5-foot radius cloud is immediately
+      dispersed as it explodes. Each creature in the area makes a DC 13
+      Dexterity saving throw, taking 10 (3d6) fire damage on a failure, or half
+      as much on a success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 450
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '5'
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: shjcdb1bjptzx7ok
+_key: '!items!shjcdb1bjptzx7ok'

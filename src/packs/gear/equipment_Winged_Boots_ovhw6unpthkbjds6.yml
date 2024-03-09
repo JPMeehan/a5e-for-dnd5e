@@ -1,0 +1,93 @@
+name: Winged Boots
+type: equipment
+img: icons/skills/movement/feet-winged-boots-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Couatl feather</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>While you are wearing these boots, you have a flying speed equal to
+      your Speed and you can hover. You can use these boots to fly for 2 hours,
+      expending at least 10 minutes worth of time with each use. If you are
+      flying when the time runs out, you fall at a rate of 30 feet per round and
+      take no damage from landing.</p>
+
+      <p>The boots regain 1 hour of flying time for every 12 hours they are not
+      in use. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: none
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ovhw6unpthkbjds6
+_key: '!items!ovhw6unpthkbjds6'

@@ -1,0 +1,139 @@
+folder: null
+name: Shadow Poison
+type: consumable
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+system:
+  description:
+    value: >-
+      <p><em>Uncommon, Injury, Instantaneous</em></p>
+
+      <p>This bright purple sleeping agent is typically&nbsp;brewed by shadow
+      elves. A creature makes a DC&nbsp;13 Constitution saving throw when it is
+      subjected&nbsp;to this poison, and on a failure it becomes
+      poisoned&nbsp;for 1 hour. On a failure by 5 or more, the creature&nbsp;is
+      also unconscious while poisoned in this way. The&nbsp;creature wakes up if
+      it takes damage or if another&nbsp;creature takes an action to shake it
+      awake.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/potions/bottle-bulb-corked-purple.webp
+    origin: Item.8954vxqaf6csqxre
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: hours
+    transfer: false
+    name: Shadow Poisoning
+    _id: 3SK3UCFqkZJloVzG
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!8954vxqaf6csqxre.3SK3UCFqkZJloVzG'
+  - icon: icons/consumables/potions/bottle-bulb-corked-purple.webp
+    origin: Item.8954vxqaf6csqxre
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: hours
+    transfer: false
+    name: Shadow Poisoning (Critical Failure)
+    _id: Pf0kQRQC5mYpivie
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned","unconscious"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+      - unconscious
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!8954vxqaf6csqxre.Pf0kQRQC5mYpivie'
+flags: {}
+_id: 8954vxqaf6csqxre
+_key: '!items!8954vxqaf6csqxre'

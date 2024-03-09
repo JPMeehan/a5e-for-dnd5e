@@ -1,0 +1,50 @@
+name: Belt of Dwarvenkind
+type: equipment
+img: icons/equipment/waist/belt-armored-steel.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While wearing this belt, you gain the following
+      benefits:</p><ul><li><p>Your Constitution score increases by 2, to a
+      maximum of 20.</p></li><li><p>Advantage on Charisma (Persuasion) checks
+      made against dwarves.</p></li><li><p>Advantage on saving throws against
+      poison, and resistance to poison damage.</p></li><li><p>Darkvision to a
+      range of 60 feet.</p></li><li><p>The ability to speak, read, sign, and
+      write Dwarvish.</p></li></ul><p>In addition, while you are attuned to this
+      belt there is a 50% chance at dawn each day that you grow a full beard (or
+      a noticeably thicker beard if you have one already).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: w80656ij315tw4te
+_key: '!items!w80656ij315tw4te'

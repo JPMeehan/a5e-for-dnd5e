@@ -1,0 +1,35 @@
+name: Case, Crossbow Bolt
+type: container
+img: icons/containers/ammunition/arrows-quiver-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p><strong>Capacity:</strong>&nbsp;20 Crossbow Bolts</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 1
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: null
+_id: yb73o5l19xcd8y68
+_key: '!items!yb73o5l19xcd8y68'

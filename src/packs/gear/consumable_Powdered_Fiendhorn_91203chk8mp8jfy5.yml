@@ -1,0 +1,115 @@
+folder: null
+name: Powdered Fiendhorn
+type: consumable
+img: icons/commodities/materials/powder-black.webp
+system:
+  description:
+    value: >-
+      <p><em>Rare, Inhaled, Instantaneous</em></p>
+
+      <p>This ash black powder is rendered from the horns&nbsp;of powerful
+      fiends. A creature makes a DC 15 Constitution&nbsp;saving throw when
+      subjected to this poison.&nbsp;On a failed saving throw, a creature takes
+      11 (3d6)&nbsp;necrotic damage and 11 (3d6) poison damage, and
+      it&nbsp;becomes poisoned for 1 minute. While poisoned in&nbsp;this way the
+      creature becomes vulnerable to necrotic&nbsp;damage. A creature that
+      succeeds on its saving&nbsp;throw takes no damage from this poison.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - necrotic
+      - - 3d6
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/materials/powder-black.webp
+    origin: Item.91203chk8mp8jfy5
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iXiD5Xl8MPahhMgR
+        duration:
+          type: seconds
+          unit: minutes
+    transfer: false
+    name: Powdered Fiendhorn Poisoning
+    _id: PsZGIT5ziioLmJKn
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+      - key: system.traits.damageVulnerabilities
+        value: '["necrotic"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!91203chk8mp8jfy5.PsZGIT5ziioLmJKn'
+flags: {}
+_id: 91203chk8mp8jfy5
+_key: '!items!91203chk8mp8jfy5'

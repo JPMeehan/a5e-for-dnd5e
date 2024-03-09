@@ -1,0 +1,38 @@
+folder: null
+name: Wizard Tier 2 Starting Gear
+type: container
+img: icons/sundries/books/book-open-purple.webp
+system:
+  description:
+    value: >-
+      <p>The first-level spell scroll is a scroll of
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.6l4bmc7ovgcn2c9k]{Find
+      Familiar}. Also includes 160 gp.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 700
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+effects: []
+flags: {}
+_id: 13bazwlouis0hncr
+_key: '!items!13bazwlouis0hncr'

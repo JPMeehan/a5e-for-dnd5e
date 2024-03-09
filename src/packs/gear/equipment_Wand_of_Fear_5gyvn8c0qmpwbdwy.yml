@@ -1,0 +1,104 @@
+name: Wand of Fear
+type: equipment
+img: icons/weapons/staves/staff-animal-skull-bull.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Grave goods stolen from the tomb
+      of an infamous tyrant</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>While holding this wand, you can use an action to expend 1 charge and
+      command another creature to flee or grovel (as the
+      @UUID[Compendium.a5e-for-dnd5e.spells.bs1zn1s8ewwa4tfx]{Command} spell,
+      save DC 15).</p>
+
+      <p>Alternatively, you can use an action to expend 2 charges, causing the
+      wand to emit a 60-foot cone of light. Each creature in the area makes a DC
+      15 Wisdom saving throw or becomes frightened of you for 1 minute. A
+      creature frightened in this way must spend its turns trying to move as far
+      away from you as possible, and it can&rsquo;t willingly move to a space
+      within 30 feet of you. It also can&rsquo;t take reactions. On its turn,
+      the frightened creature can use only the Dash action or try to escape from
+      an effect that prevents it from moving, or if it has nowhere to move then
+      the Dodge action. A frightened creature can repeat the saving throw at the
+      end of each of its turns, ending the effect on itself on a success.</p>
+
+      <p>This wand has 7 charges and regains [[/r 1d6+1 #charges]] expended
+      charges each dawn. When the last charge is expended, roll a [[/r 1d20]].
+      On a 1, the wand releases a chilling wail and crumbles into nothing. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: 5gyvn8c0qmpwbdwy
+_key: '!items!5gyvn8c0qmpwbdwy'

@@ -1,0 +1,81 @@
+name: Quarterstaff +3
+type: weapon
+img: icons/weapons/staves/staff-simple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Parrying, Simple, Two-Handed</em></p><hr><p><b>Parrying:</b> When
+      you are wielding this weapon and you are not using a shield, once before
+      your next turn you can gain an expertise die to your AC against a single
+      melee attack made against you by a creature you can see. You cannot use
+      this property while incapacitated , paralyzed , rattled , restrained , or
+      stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: iy0omhclsydih2cy
+_key: '!items!iy0omhclsydih2cy'

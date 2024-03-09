@@ -1,0 +1,93 @@
+name: Mourning Medallion
+type: equipment
+img: icons/equipment/neck/amulet-round-engraved-spiral-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This medallion hangs from a very old rope made from the braided hair of
+      those long past. When you are reduced to 0 hit points while wearing it,
+      before going unconscious you can use your reaction to ask the medallion a
+      single question which it answers with “yes,” “no,” or “unknown.” It
+      answers truthfully, using the knowledge of all those who have died. Roll
+      [[/r 1d20]] after using this feature. On a result of 5 or less, the
+      medallion becomes a mundane piece of mourning jewelry. Once you have used
+      this feature, you cannot do so again until you finish a long
+      rest.</p><p>Alternatively, you can instead use your reaction to rip the
+      medallion from its braid when you are reduced to 0 hit points but not
+      killed outright. You drop to 1 hit point instead and the medallion becomes
+      a mundane piece of mourning jewelry.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 135
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you are reduced to 0 hit points
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: mpncdit5p42sichq
+_key: '!items!mpncdit5p42sichq'

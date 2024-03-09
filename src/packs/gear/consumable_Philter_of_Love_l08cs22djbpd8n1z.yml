@@ -1,0 +1,37 @@
+name: Philter of Love
+type: consumable
+img: icons/consumables/potions/flask-decorated-label-pink.webp
+system:
+  description:
+    value: >-
+      <p>After drinking this philter, the next time you see a creature in the
+      next 10 minutes, you become charmed by that creature for 1 hour.</p><p>If
+      you would normally be attracted to the creature, while charmed you believe
+      it to be your true love.</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Petal plucked from a flower in the
+      Dreaming</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 250
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: l08cs22djbpd8n1z
+_key: '!items!l08cs22djbpd8n1z'

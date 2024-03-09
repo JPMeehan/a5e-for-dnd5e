@@ -1,0 +1,101 @@
+name: Robe of Eyes
+type: equipment
+img: icons/equipment/back/cape-layered-green-eye.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Mirror that a basilisk has seen
+      its reflection in</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>Numerous upraised eyes are sewn into the fabric of this robe. You gain
+      the following benefits while attuned to and wearing the robe:<br>&bull;
+      Advantage on sight-based Perception checks.<br>&bull; Darkvision to a
+      range of 120 feet.<br>&bull; The ability to see 120 feet into the Ethereal
+      Plane.<br>&bull; The ability to see invisible creatures and objects within
+      120 feet.<br>&bull; The ability to see in all directions.<br>&bull; You
+      are always considered to have your eyes open and may not close or avert
+      them.</p>
+
+      <p>When a <em>daylight </em>or <em>light</em> spell is cast within 5 feet
+      of you or on the robe, you are blinded for 1 minute. At the end of each of
+      your turns, you make a DC 11
+      (@UUID[Compendium.a5e-for-dnd5e.spells.bqavvq6ju5ti8hr3]{Light}) or DC 15
+      (@UUID[Compendium.a5e.a5e-spells.ew3qtw0gvzelrmgg]{Daylight}) Constitution
+      saving throw to end the condition. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: qnfvaz51w7tf97ka
+_key: '!items!qnfvaz51w7tf97ka'

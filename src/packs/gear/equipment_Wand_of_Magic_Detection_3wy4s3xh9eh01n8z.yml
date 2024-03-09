@@ -1,0 +1,94 @@
+name: Wand of Magic Detection
+type: equipment
+img: icons/weapons/wands/wand-gem-teal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Crystal mined by an
+      aboleth&rsquo;s servants</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>While holding this wand, you can use an action to expend 1 charge to
+      cast @UUID[Compendium.a5e-for-dnd5e.spells.kaye34nheyrit487]{Detect
+      Magic}.</p>
+
+      <p>This wand has 7 charges and regains [[/r 1d6+1 #charges]] expended
+      charges each dawn. When the last charge is expended, roll a [[/r 1d20]].
+      On a 1, the wand violently shakes and sparks with magic then disappears.
+      </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 250
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 3wy4s3xh9eh01n8z
+_key: '!items!3wy4s3xh9eh01n8z'

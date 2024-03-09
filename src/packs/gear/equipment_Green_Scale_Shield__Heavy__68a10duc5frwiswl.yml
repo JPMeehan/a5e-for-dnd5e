@@ -1,0 +1,71 @@
+name: Green Scale Shield (Heavy)
+type: equipment
+img: icons/equipment/shield/kite-wooden-dragon-green.webp
+effects:
+  - icon: icons/equipment/shield/kite-wooden-dragon-green.webp
+    origin: Item.68a10duc5frwiswl
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Poison Resistance
+    _id: xWwRaKGl0Ov4rkDa
+    changes:
+      - key: system.traits.damageResistances
+        value: poison
+        mode: 2
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!68a10duc5frwiswl.xWwRaKGl0Ov4rkDa'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While you hold this shield, you have&nbsp;<span
+      class="freelinking-link">resistance</span>&nbsp;to poison damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 20
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: 2
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: shield
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 68a10duc5frwiswl
+_key: '!items!68a10duc5frwiswl'

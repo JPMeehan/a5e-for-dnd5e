@@ -1,0 +1,96 @@
+name: Dancing Greatsword
+type: weapon
+img: icons/weapons/swords/greatsword-guard-gem-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While you are attuned to this magic sword, you can use a bonus action
+      to speak the command word and throw it into the air. The sword hovers,
+      flies up to 30 feet, and attacks one creature of your choice within 5 feet
+      of it (using your attack roll and ability score modifier to damage rolls).
+      On each of your turns you can use a bonus action to make the sword fly up
+      to 30 feet to attack another creature within 5 feet of it. <br>After the
+      sword attacks for the fourth time, it tries to return to your hand. It
+      flies 30 feet towards you, moving as close as it can before either being
+      caught in your free hand or falling to the ground. The sword ceases to
+      hover if you move more than 30 feet away from it or grasp
+      it.</p><hr><p><b>Parrying:</b> When you are wielding this weapon and you
+      are not using a shield, once before your next turn you can gain an
+      expertise die to your AC against a single melee attack made against you by
+      a creature you can see. You cannot use this property while incapacitated ,
+      paralyzed , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 7
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 567o2jygco74a14l
+_key: '!items!567o2jygco74a14l'

@@ -1,0 +1,131 @@
+name: Celestial Aegis
+type: equipment
+img: icons/equipment/chest/breastplate-purple.webp
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.ju0tgi3quxpp5h0r
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Celestial Aegis
+    _id: iJee53DSME4VxDK0
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '1'
+        mode: 6
+        priority: 100
+      - key: flags.a5e.effects.rollMode.abilitySave.str
+        value: '1'
+        mode: 6
+        priority: 99
+      - key: system.skills.itm.expertiseDice
+        value: ''
+        mode: 2
+        priority: 98
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!ju0tgi3quxpp5h0r.iJee53DSME4VxDK0'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This suit of imposing +2 full plate is engraved with holy runes of a
+      forgotten divinity. You cannot attune to this armor if you have the Evil
+      alignment trait. While attuned to and wearing this armor, you gain the
+      following benefits: </p><p>• Your AC increases by 2. </p><p>• You count as
+      one size category larger when determining your carrying capacity. </p><p>•
+      Your Strength score increases to 20. This property has no effect if your
+      Strength is equal to or greater than 20. </p><p>• You have advantage on
+      Strength checks and saving throws. </p><p>• You gain an expertise die on
+      Intimidation checks. </p><p>• You can use a bonus action to regain 2d6 hit
+      points. Once you have used this property a number of times equal to your
+      proficiency bonus, you cannot do so again until you finish a long rest.
+      </p><p>• Your unarmed strikes and weapon attacks deal an extra 1d6 radiant
+      damage. </p><p>• Aberrations, fiends, undead, and creatures with the Evil
+      alignment trait have disadvantage on attack rolls made against you.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 55
+  price:
+    value: 17500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: 20
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: heavy
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 15
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ju0tgi3quxpp5h0r
+_key: '!items!ju0tgi3quxpp5h0r'

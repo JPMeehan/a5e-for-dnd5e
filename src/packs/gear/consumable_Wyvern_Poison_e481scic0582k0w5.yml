@@ -1,0 +1,74 @@
+folder: null
+name: Wyvern Poison
+type: consumable
+img: icons/consumables/potions/potion-jar-corked-labeled-poison-skull-green.webp
+system:
+  description:
+    value: >-
+      <p><em>Rare, Injury, Instantaneous</em></p>
+
+      <p>It is practically impossible to take from a living&nbsp;specimen, but
+      once slain the toxin drawn from a&nbsp;wyvern&rsquo;s stinging tail is
+      lethal. A creature makes a&nbsp;DC 15 Constitution saving throw when it is
+      subjected&nbsp;to this poison, taking 24 (7d6) poison damage on
+      a&nbsp;failure, or half as much damage on a success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 7d6
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: e481scic0582k0w5
+_key: '!items!e481scic0582k0w5'

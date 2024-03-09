@@ -1,0 +1,96 @@
+name: Mace of Smiting
+type: weapon
+img: icons/weapons/maces/mace-round-spiked-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You gain a +1 bonus to attack and damage rolls made with this magic
+      weapon, which increases to +3 when used to attack a construct.</p><p>When
+      you use this weapon to make an attackand roll a natural 20, it deals an
+      extra [[/r 2d6 #bludgeoning]] bludgeoning  damage, which increases to [[/r
+      4d6 #bludgeoning ]] against constructs. When this weapon reduces a
+      construct to 25 or fewer hit points, the creature is
+      destroyed.</p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod +1
+        - bludgeoning
+      - - 2d6
+        - bludgeoning
+      - - 4d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 4sxqxl7lt2papjdo
+_key: '!items!4sxqxl7lt2papjdo'

@@ -1,0 +1,88 @@
+name: Glamoured Padded Leather
+type: equipment
+img: icons/equipment/chest/vest-leather-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>Comfortable, Flaw (Piercing)</p><p><strong>AC
+      13</strong></p></blockquote><hr class="a5e-rule u-my-md"><p>While wearing
+      this armor your Armor Class increases by +1 (already included
+      above).</p><p>You can use a bonus action to make the armor appear to be
+      any normal set of clothing or other kind of armor.</p><p>The illusion
+      allows you to choose the details of its appearance, and it lasts until you
+      remove the armor or use the property again.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 8
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: 13
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: light
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: uu7fkxxh5ob4ord8
+_key: '!items!uu7fkxxh5ob4ord8'

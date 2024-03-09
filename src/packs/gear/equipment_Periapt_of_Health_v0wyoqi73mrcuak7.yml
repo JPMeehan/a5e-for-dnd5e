@@ -1,0 +1,72 @@
+name: Periapt of Health
+type: equipment
+img: icons/equipment/neck/amulet-heart.webp
+system:
+  description:
+    value: >-
+      <p>While wearing this pendant, you are immune to&nbsp;<span
+      class="freelinking-link">diseases</span>&nbsp;(you cannot contract any
+      disease, and the effects if any ongoing diseases are suppressed).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 350
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+effects:
+  - icon: icons/equipment/neck/necklace-simple-carved-stone.webp
+    origin: Item.v0wyoqi73mrcuak7
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Amulet of Melora
+    _id: VLXwc2eQ8F2ZF6D9
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["Diseased"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!v0wyoqi73mrcuak7.VLXwc2eQ8F2ZF6D9'
+folder: null
+flags: {}
+_id: v0wyoqi73mrcuak7
+_key: '!items!v0wyoqi73mrcuak7'

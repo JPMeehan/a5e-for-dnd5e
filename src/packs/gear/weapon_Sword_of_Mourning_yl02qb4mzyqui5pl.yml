@@ -1,0 +1,93 @@
+name: Sword of Mourning
+type: weapon
+img: icons/weapons/swords/greatsword-evil-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> A chip from a headstone or other
+      grave marker at least a thousand years old that is still visited by
+      mourners and well-wishers</p><p>This +1 bastard sword deals an additional
+      1d4 points of necrotic damage on a hit. In addition, while wielding the
+      sword, you may cast speak with dead at will without a spell slot or
+      components and may target a headstone or other grave marker rather than a
+      corpse. When cast on a grave marker, it brings forth a spectral image of
+      the departed to speak with. The departed may decline to speak with you or
+      even appear at its discretion. Finally, any creature slain by the sword is
+      immediately subjected to a gentle repose
+      effect.</p><hr><p><b>Parrying:</b> When you are wielding this weapon and
+      you are not using a shield, once before your next turn you can gain an
+      expertise die to your AC against a single melee attack made against you by
+      a creature you can see. You cannot use this property while incapacitated ,
+      paralyzed , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Mortalist
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5 lbs
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - ver
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: yl02qb4mzyqui5pl
+_key: '!items!yl02qb4mzyqui5pl'

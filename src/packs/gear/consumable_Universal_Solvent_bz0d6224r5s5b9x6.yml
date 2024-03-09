@@ -1,0 +1,34 @@
+name: Universal Solvent
+type: consumable
+img: icons/consumables/potions/potion-bottle-corked-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      The scent of alcohol wafts out of this bottle of white liquid. You can use
+      an action to pour the liquid in the bottle onto a surface within your
+      reach and dissolve up to 1 square foot of adhesive (including sovereign
+      glue). 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 100000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+folder: null
+_id: bz0d6224r5s5b9x6
+_key: '!items!bz0d6224r5s5b9x6'

@@ -1,0 +1,41 @@
+name: Breastplate (Bronze) +1
+type: equipment
+img: icons/equipment/chest/breastplate-sculpted-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 35
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: 15
+    dex: 2
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: medium
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 12
+  proficient: null
+folder: null
+_id: hh9kymdfeb4irp4i
+_key: '!items!hh9kymdfeb4irp4i'

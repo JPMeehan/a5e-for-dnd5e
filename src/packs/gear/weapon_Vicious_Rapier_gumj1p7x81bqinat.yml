@@ -1,0 +1,128 @@
+name: Vicious Rapier
+type: weapon
+img: icons/weapons/swords/swords-sharp-worn.webp
+effects:
+  - icon: icons/weapons/swords/swords-sharp-worn.webp
+    origin: Item.gumj1p7x81bqinat
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jE0oGbW4c91H4L9s
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: fNsg1fB0AQvNW0yM
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!gumj1p7x81bqinat.fNsg1fB0AQvNW0yM'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Defensive (Light), Finesse</em></p>
+
+      <p><strong>Vicious Weapon:&nbsp;</strong>When you roll a natural 20 on an
+      attack roll using this weapon it deals an extra 2d6 damage of the
+      weapon&rsquo;s type (this extra damage does not
+      double).</p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p><p><b>Vicious:</b> A vicious weapon scores a critical hit on a
+      roll of 19 or 20. If you already have a feature that increases the range
+      of your critical hits, your critical hit range increases by 1 (maximum
+      17–20).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - fin
+    - defensive
+    - vicious
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: gumj1p7x81bqinat
+_key: '!items!gumj1p7x81bqinat'

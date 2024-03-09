@@ -1,0 +1,44 @@
+name: Healer's Satchel
+type: equipment
+img: icons/containers/bags/pouch-leather-leaf-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This leather pouch contains medical implements used to patch up wounds.
+      As an action, you can expend one use of this item to stabilize a creature
+      that has 0 hit points, without needing to make a Medicine check.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 5
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 067o6hjosd8nrjs8
+_key: '!items!067o6hjosd8nrjs8'

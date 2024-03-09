@@ -1,0 +1,36 @@
+name: Skull Liqueur
+type: consumable
+img: icons/consumables/potions/bottle-corked-empty.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>This crystal phial appears empty unless it is agitated,
+      which reveals that it is filled to the brim with a clear liqueur. Close
+      examination reveals bubbles within the liquid that seem to be shaped like
+      tiny skulls.</p></blockquote><hr class="a5e-rule u-my-md"><p>Pouring the
+      phial’s contents into the mouth of a dead creature animates it as if it
+      were the target of a <em>speak with dead</em> spell.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 370
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+folder: null
+_id: 3o2bilrqf7gqow83
+_key: '!items!3o2bilrqf7gqow83'

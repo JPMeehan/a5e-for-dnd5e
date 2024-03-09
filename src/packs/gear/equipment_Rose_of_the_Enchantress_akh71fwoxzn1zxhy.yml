@@ -1,0 +1,96 @@
+name: Rose of the Enchantress
+type: equipment
+img: icons/commodities/flowers/clover-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components: </strong>Spite of an angry fey (a fey
+      creature must be present and hostile for at least 1 hour of the item’s
+      crafting time)</p><hr class="a5e-rule u-my-md"><p>While you are
+      concentrating on a spell of 3rd-level or lower and attuned to this item,
+      you can use a bonus action to activate it. Once activated, the rose
+      maintains concentration on the spell for you for the duration or until you
+      use another bonus action to stop the rose’s concentration. </p><p>The rose
+      has 10 petals. When it is activated, a number of petals drop from the rose
+      equal to the level of the spell it is concentrating on. At the end of each
+      minute the spell continues, an equal number of petals drop from the rose.
+      When its last petal falls the rose wilts and its magic is lost.
+      </p><p>Alternatively, if the rose is thrown against the ground, the magic
+      inside of it implodes and frays magical energies in a 15-foot radius (as
+      the <em>dispel magic</em> spell, gaining a bonus to any
+      spellcasting<br>ability checks equal to its number of petals).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3875
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: akh71fwoxzn1zxhy
+_key: '!items!akh71fwoxzn1zxhy'

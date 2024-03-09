@@ -1,0 +1,43 @@
+name: Parchment, Sheet
+type: equipment
+img: icons/commodities/materials/parchment-secrets.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A sheet of parchment is a piece of goat hide or sheepskin that has been
+      prepared for writing on.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: tmqlddzoeu97207s
+_key: '!items!tmqlddzoeu97207s'

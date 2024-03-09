@@ -1,0 +1,105 @@
+folder: null
+name: Truth Serum
+type: consumable
+img: icons/consumables/potions/bottle-corked-empty.webp
+system:
+  description:
+    value: >-
+      <p><em>Uncommon, Ingested, Instantaneous</em></p>
+
+      <p>This clear alchemical concoction unlocks and&nbsp;untethers the mind. A
+      creature makes a DC 14&nbsp;Constitution saving throw when it is subjected
+      to&nbsp;this poison, and on a failure it becomes poisoned&nbsp;for 1 hour.
+      While poisoned in this way a creature&nbsp;cannot knowingly lie (as per
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.i0o4xqqd86vdkwwu]{Zone of
+      Truth}),&nbsp;using the poison&rsquo;s DC as the spell save DC.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 450
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/potions/bottle-corked-empty.webp
+    origin: Item.0tqedqbdg2p9lg3d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: hours
+    transfer: false
+    name: Truth Serum Poisoning
+    _id: 5UaBqRqzFKFk9i84
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!0tqedqbdg2p9lg3d.5UaBqRqzFKFk9i84'
+flags: {}
+_id: 0tqedqbdg2p9lg3d
+_key: '!items!0tqedqbdg2p9lg3d'

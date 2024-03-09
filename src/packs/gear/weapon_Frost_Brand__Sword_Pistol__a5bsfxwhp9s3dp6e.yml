@@ -1,0 +1,95 @@
+name: Frost Brand (Sword Pistol)
+type: weapon
+img: icons/weapons/swords/sword-broad-serrated-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>Finesse, Loading, Range (10/30)</p></blockquote><hr
+      class="a5e-rule u-my-md"><p>When this weapon is used to hit a target with
+      a melee weapon attack, you can use your reaction to fire the gun in the
+      handle, gaining a <strong>1d6</strong> expertise die on an immediate
+      ranged weapon attack against the same target.</p><hr class="a5e-rule
+      u-my-md"><p>When exposed to freezing temperatures the blade of this magic
+      sword sheds bright light in a 10-foot radius and dim light for an
+      additional 10 feet.</p><p>While you are attuned to the sword, attacks
+      using it deal an extra 1d6 cold damage and you gain resistance to fire
+      damage.</p><p>Once per hour, when you draw the sword you can choose to
+      extinguish all nonmagical flames within 30 feet.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: ''
+    baseItem: ''
+  properties:
+    - fin
+    - lod
+    - amm
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: none
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 10
+    long: '30'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - piercing
+      - - 1d6
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: a5bsfxwhp9s3dp6e
+_key: '!items!a5bsfxwhp9s3dp6e'

@@ -1,0 +1,51 @@
+name: Security Gremlin
+type: equipment
+img: icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Wondrous (Gear Gremlin)</em></p><hr class="a5e-rule
+      u-my-md"><p>This military-styled tin contains a Tiny ethereal mottled
+      green goblinoid dressed in soldier’s armor and when opened it salutes with
+      earnest eagerness.</p><p>You can instruct this gremlin to patrol an area,
+      such as the perimeter of a room, campsite, or structure, while keeping
+      watch for a creature type you instruct it to watch for.</p><p>It
+      completely ignores any creatures that are not of the chosen creature type.
+      If it spots a creature of the chosen type, it immediately begins shouting
+      loud enough to be heard within 30 feet as it runs back into its tin to
+      hide.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 100
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: s3skfbv5f9d0j6lg
+_key: '!items!s3skfbv5f9d0j6lg'

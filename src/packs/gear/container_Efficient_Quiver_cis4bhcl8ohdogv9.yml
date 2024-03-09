@@ -1,0 +1,43 @@
+name: Efficient Quiver
+type: container
+img: icons/containers/ammunition/arrows-quiver-purple-silver.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This quiver has three compartments that contain extradimensional
+      spaces:</p><ul><li><p>The first compartment can hold up to 60 arrows or
+      items of a similar size.</p><p></p></li><li><p>The second compartment can
+      hold up to 18 javelins or similar items.</p><p></p></li><li><p>The third
+      compartment can hold up to 6 items such as bows, quarterstaffs, or
+      spears.</p></li></ul><p></p><p>You can retrieve any item as if it were
+      being drawn from a regular quiver or scabbard.</p><p>No single item can
+      weigh more than 2 pounds.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 250
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: null
+_id: cis4bhcl8ohdogv9
+_key: '!items!cis4bhcl8ohdogv9'

@@ -1,0 +1,89 @@
+name: Bead of Tracking
+type: equipment
+img: icons/equipment/neck/necklace-simple-bead-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This miniature bead is covered with hundreds of small hooks. When you
+      use an action to place it on a creature’s clothing or hide, the bead hangs
+      there imperceptibly and creates a bond between you and the creature. You
+      gain an expertise die on checks made to track the creature while the bead
+      remains on it.</p><p>To place the bead during combat without being
+      noticed, you must succeed on a Dexterity (Sleight of Hand) check against
+      the creature’s maneuver DC (or when outside of combat, the creature’s
+      passive Perception).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: abil
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: fuw08rozvo7g7f2t
+_key: '!items!fuw08rozvo7g7f2t'

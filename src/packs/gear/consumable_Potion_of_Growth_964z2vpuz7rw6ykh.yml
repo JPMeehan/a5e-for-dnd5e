@@ -1,0 +1,37 @@
+name: Potion of Growth
+type: consumable
+img: icons/consumables/potions/vial-cork-green.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>A golden acorn floating in this translucent liquid grows
+      and retracts roots every few seconds.</p></blockquote><p>After drinking
+      this potion, for the next [[1d4]] hours your size is doubled (as the
+      <em>enlarge/reduce</em> spell but without need for concentration).</p><hr
+      class="a5e-rule u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Gilded acorn</p></li><li><p>vial of
+      primordial vitae</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 350
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: 964z2vpuz7rw6ykh
+_key: '!items!964z2vpuz7rw6ykh'

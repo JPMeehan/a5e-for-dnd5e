@@ -1,0 +1,56 @@
+name: Friendly Joybuzzer
+type: equipment
+img: icons/skills/social/diplomacy-handshake-gray.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This tin ring houses a small circular device with a red
+      button.</p><p>You have advantage on Sleight of Hand checks made to hide
+      the friendly joybuzzer.</p><p>Once you are attuned to this magic item,
+      whenever a creature presses the button (even inadvertently through a
+      handshake) for the next minute it becomes happier and friendlier towards
+      you.</p><p>For the duration, you gain an expertise die on Charisma checks
+      against the creature.</p><p>If the creature sees the joybuzzer being used
+      or recognizes it as a magical item, it immediately realizes that you used
+      magic to influence its mood and may become hostile toward
+      you.</p><p>Alternatively, once you are attuned to this magic item, while
+      you are shaking hands with a creature you can choose to destroy the
+      friendly joybuzzer.</p><p>Make a melee spell attack with advantage, using
+      your highest mental ability score as your spellcasting ability score. On a
+      successful hit, you target the creature as if you had cast shocking grasp,
+      treating each damage die as if you had rolled the maximum amount.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 6up9qhmwpwudn7rc
+_key: '!items!6up9qhmwpwudn7rc'

@@ -1,0 +1,71 @@
+name: Headband of Intellect
+type: equipment
+img: icons/equipment/finger/ring-crown-silver-blue.webp
+effects:
+  - icon: icons/equipment/finger/ring-crown-silver-blue.webp
+    origin: Item.9v3eqgnkl7ck2k63
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Headband of Intellect
+    _id: HGZvpM0XSkhmQTar
+    changes:
+      - key: system.abilities.int.value
+        mode: 5
+        value: '19'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!9v3eqgnkl7ck2k63.HGZvpM0XSkhmQTar'
+flags: {}
+system:
+  description:
+    value: >
+      Wearing this headband increases your Intelligence score to 19. It has no
+      effect if your Intelligence is equal to greater than 19. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 9v3eqgnkl7ck2k63
+_key: '!items!9v3eqgnkl7ck2k63'

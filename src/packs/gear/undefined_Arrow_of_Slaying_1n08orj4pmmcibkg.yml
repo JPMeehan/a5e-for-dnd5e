@@ -1,0 +1,33 @@
+name: Arrow of Slaying
+img: icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A particular kind of creature is chosen when this magic arrow is
+      created. When the arrow of slaying damages a creature belonging to the
+      chosen type, heritage, or group, the creature makes a DC 17 Constitution
+      saving throw, taking an extra 6d10 piercing damage on a failed save, or
+      half as much extra damage on a successful one. Once the arrow of slaying
+      deals its extra damage to a creature, it loses its magical
+      properties.</p><p>Other types of magic ammunition of this kind exist, such
+      as bolts meant for a crossbow, or bullets for a firearm or sling.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type: loot
+folder: null
+_id: 1n08orj4pmmcibkg
+_key: '!items!1n08orj4pmmcibkg'

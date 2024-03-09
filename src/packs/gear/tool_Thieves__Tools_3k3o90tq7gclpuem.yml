@@ -1,0 +1,36 @@
+name: Thieves' Tools
+type: tool
+img: icons/tools/hand/lockpicks-steel-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This set of often sharp and slender metal instruments are needed to
+      crack locks and carefully spy into mechanisms. You can use an action to
+      open a lock by making a thieves’ tools check against a DC determined by
+      the quality of the lock being picked.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 25
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: ''
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  bonus: ''
+folder: null
+_id: 3k3o90tq7gclpuem
+_key: '!items!3k3o90tq7gclpuem'

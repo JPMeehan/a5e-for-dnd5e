@@ -1,0 +1,99 @@
+name: Family Scrapbook
+type: equipment
+img: icons/sundries/books/book-worn-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This scrapbook contains the legacy of campaigns undertaken by
+      adventurers in days past. When in need of advice, you can open the
+      leather-bound tome and spend 1 minute looking for a similar
+      situation.</p><hr class="a5e-rule u-my-md"><blockquote><p><strong><em>Roll
+      a d10:</em></strong></p></blockquote><ul><li><p><strong>7-10</strong>: you
+      learn one fact relevant to the
+      situation.</p></li><li><p><strong>1-6</strong>: you instead learn one fact
+      or piece of advice that is irrelevant to the situation (such as “<em>a
+      group of tigers is called an ambush</em>,” or “<em>you should eat more
+      leafy greens</em>”).</p></li></ul><p>Once you have used this feature, you
+      cannot do so again until you finish a long rest.</p><p>Alternatively, you
+      can use a bonus action to rapidly find one tale of questing relevant to
+      your situation and rip it out of the book.</p><blockquote><p><em>Choose
+      one 1st-level spell that has a casting time of 1 action from any class
+      spell list. Before the end of your next turn, you can cast this spell
+      without the need for material components.</em></p></blockquote><p>After a
+      page is torn from the tome in this way, it becomes a mundane
+      scrapbook.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: deiismlr9h6ys8q4
+_key: '!items!deiismlr9h6ys8q4'

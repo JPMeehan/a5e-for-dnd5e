@@ -1,0 +1,35 @@
+name: Pot, Iron
+type: container
+img: icons/tools/cooking/cauldron-empty.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: '<p>Capacity: 1 gallon liquid</p>'
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 10
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: null
+_id: fqau4gl9aknbkxiu
+_key: '!items!fqau4gl9aknbkxiu'

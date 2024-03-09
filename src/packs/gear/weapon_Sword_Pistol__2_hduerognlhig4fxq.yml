@@ -1,0 +1,87 @@
+name: Sword Pistol +2
+type: weapon
+img: icons/weapons/guns/rifle-bayonet.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Finesse, Loading, Range (10/30)</em></p><hr class="a5e-rule
+      u-my-md"><p>When this weapon is used to hit a target with a melee weapon
+      attack, you can use your reaction to fire the gun in the handle, gaining a
+      <strong>1d6</strong> expertise die on an immediate ranged weapon attack
+      against the same target.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - fin
+    - lod
+    - amm
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: 1d6 + 2
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod + 2
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: hduerognlhig4fxq
+_key: '!items!hduerognlhig4fxq'

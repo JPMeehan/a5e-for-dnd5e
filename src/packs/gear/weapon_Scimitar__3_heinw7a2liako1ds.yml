@@ -1,0 +1,121 @@
+name: Scimitar +3
+type: weapon
+img: icons/weapons/swords/scimitar-worn-blue.webp
+effects:
+  - icon: icons/weapons/swords/scimitar-worn-blue.webp
+    origin: Item.heinw7a2liako1ds
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 1w6mZi0L5dJhv4TU
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: PiHWvQKjPGNpP7A7
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!heinw7a2liako1ds.PiHWvQKjPGNpP7A7'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Defensive (Light), Dual-Wielding,
+      Finesse</em></p><hr><p><b>Defensive:</b> This weapon is designed to be
+      used with a shield of the stated degree or lighter (light, medium, or
+      heavy). When you make an attack with this weapon and are using a shield
+      designed for it, you can use a bonus action to either make an attack with
+      your shield or increase your Armor Class by 1 until the start of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - lgt
+    - fin
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + min(@mod,0) + 3
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: heinw7a2liako1ds
+_key: '!items!heinw7a2liako1ds'

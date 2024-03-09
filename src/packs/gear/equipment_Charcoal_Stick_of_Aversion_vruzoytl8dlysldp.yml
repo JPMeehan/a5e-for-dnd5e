@@ -1,0 +1,101 @@
+name: Charcoal Stick of Aversion
+type: equipment
+img: icons/commodities/stone/boulder-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>At every level of society—but especially when you’re on the bottom —
+      going unnoticed can be a great benefit. Invisibility is one thing but
+      effectively hiding your home and your possessions can be harder. As an
+      action, you can expend 1 charge to draw a large X on one object up to the
+      size of a normal door. This has no effect on creatures, or objects worn by
+      creatures. Creatures other than you that see the marked object roll a DC
+      10 Intelligence saving throw. On a failed save, they do not notice the
+      marked object as anything out of the ordinary from its surroundings (such
+      as a blasphemous icon in a church, a barrel of gunpowder in a kitchen, or
+      an unsheathed weapon resting against the wall of a bedroom going
+      unnoticed). On a success, they can interact with the object normally. A
+      creature that remains in the area and is consciously searching for the
+      kind of object that you have marked receives a new saving throw at the end
+      of each minute. A creature interacting with a marked object automatically
+      reveals it to all creatures who observe the interaction. A charcoal mark
+      lasts for 24 hours or until it is wiped away as an
+      action.</p><p>Alternatively, you can expend 2 charges to increase the DC
+      to notice the object to 15. The charcoal has 2 charges and regains 1
+      charge each dusk.</p><p>If you expend the last charge, the charcoal is
+      consumed.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 150
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: vruzoytl8dlysldp
+_key: '!items!vruzoytl8dlysldp'

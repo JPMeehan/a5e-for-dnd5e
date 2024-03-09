@@ -1,0 +1,93 @@
+name: Labrys +2
+type: weapon
+img: icons/weapons/axes/axe-double-engraved-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Breaker (Wood), Versatile (1d10)</em></p>
+
+      <p>&nbsp;</p>
+
+      <p>This ornate weapon&nbsp;uses the statistics of a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.2tix2mu9d3gorip7]{Battleaxe}.
+      It has two blades, one on each side of the haft.</p><hr><p><b>Breaker:</b>
+      This weapon deals double damage to unattended objects, such as doors and
+      walls. If this property only applies to a specific type of material, such
+      as wood, it is stated in parenthesis after this property.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 6
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - ver
+    - breaker
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '2'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod + 2
+        - slashing
+      - - 1d10 + @mod + 2
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: nhy7uhwxbqbresjr
+_key: '!items!nhy7uhwxbqbresjr'

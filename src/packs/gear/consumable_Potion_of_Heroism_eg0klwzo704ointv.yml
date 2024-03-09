@@ -1,0 +1,37 @@
+name: Potion of Heroism
+type: consumable
+img: icons/consumables/potions/potion-bottle-corked-white.webp
+system:
+  description:
+    value: >-
+      <p>After drinking this glowing white potion, for the next hour you gain 10
+      temporary hit points and the benefits of the <em>bless </em>spell (but
+      without the need for concentration).</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Bottle of fine
+      wine</p></li><li><p>lustrous pearl</p></li><li><p>holy
+      water</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 550
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: eg0klwzo704ointv
+_key: '!items!eg0klwzo704ointv'

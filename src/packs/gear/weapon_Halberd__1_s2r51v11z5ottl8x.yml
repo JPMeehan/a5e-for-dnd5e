@@ -1,0 +1,88 @@
+name: Halberd +1
+type: weapon
+img: icons/weapons/polearms/halberd-crescent-small-spiked.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Heavy, Reach, Trip, Two-Handed</em></p><hr><p><b>Trip:</b> When
+      used with a combat maneuver that trips a creature or the Knockdown attack,
+      this weapon increases your Maneuver DC by 1. If the target is mounted,
+      your Maneuver DC is instead increased by 2.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 7
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - rch
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 + @mod + 1
+        - piercing
+      - - 1d10 + @mod + 1
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: s2r51v11z5ottl8x
+_key: '!items!s2r51v11z5ottl8x'

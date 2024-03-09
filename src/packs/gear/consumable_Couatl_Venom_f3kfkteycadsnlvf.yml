@@ -1,0 +1,106 @@
+folder: null
+name: Couatl Venom
+type: consumable
+img: icons/commodities/materials/slime-thick-blue.webp
+system:
+  description:
+    value: >-
+      <p><em>Rare, Injury, Instantaneous</em></p>
+
+      <p>Couatl sometimes gift their iridescent venom to&nbsp;those that have
+      won their favor. A creature makes&nbsp;a DC 13 Constitution saving throw
+      when subjected&nbsp;to this poison, and on a failure it becomes
+      poisoned&nbsp;for the next 24 hours. Creatures poisoned in this&nbsp;way
+      are also knocked unconscious. The creature&nbsp;wakes up if it takes
+      damage or if another creature&nbsp;uses an action to shake it awake.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 850
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/materials/slime-thick-blue.webp
+    origin: Item.f3kfkteycadsnlvf
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: hours
+    transfer: false
+    name: Couatl Venom Poisoning
+    _id: 5UaBqRqzFKFk9i84
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned","unconscious"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+      - unconscious
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!f3kfkteycadsnlvf.5UaBqRqzFKFk9i84'
+flags: {}
+_id: f3kfkteycadsnlvf
+_key: '!items!f3kfkteycadsnlvf'

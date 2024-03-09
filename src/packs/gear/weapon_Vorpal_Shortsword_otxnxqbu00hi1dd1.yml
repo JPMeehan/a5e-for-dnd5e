@@ -1,0 +1,103 @@
+name: Vorpal Shortsword
+type: weapon
+img: icons/weapons/swords/shortsword-guard-brass.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Defensive (Medium), Finesse, Parrying</em></p><p>You gain a +3
+      bonus to attack and damage rolls made with this magic sword, and it
+      ignores resistance to slashing damage.</p><p>When you attack a creature
+      with this blade and it has at least one head, rolling a natural 20 on the
+      attack roll causes the sword to make a snicker-snack sound as it
+      efficiently chops off one of the target's heads. If the creature can't
+      survive without its head removed, it dies. This effect does not apply if
+      the target is too big for its head to be removed by the sword (determined
+      at the discretion of the Narrator, it doesn't need a head or have one, has
+      immunity to slashing damage, or has legendary actions. In cases where a
+      creature cannot lose a head, it takes an additional 6d8 slashing damage
+      (unless it is immune to slashing damage; this extra damage does not
+      double).</p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p><p><b>Parrying:</b> When you are wielding this weapon and you are
+      not using a shield, once before your next turn you can gain an expertise
+      die to your AC against a single melee attack made against you by a
+      creature you can see. You cannot use this property while incapacitated ,
+      paralyzed , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 55000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - fin
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod + 3
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: otxnxqbu00hi1dd1
+_key: '!items!otxnxqbu00hi1dd1'

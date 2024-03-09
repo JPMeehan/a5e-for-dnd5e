@@ -1,0 +1,93 @@
+name: Giant Slayer Greatsword
+type: weapon
+img: icons/weapons/swords/greatsword-guard-gem-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You gain a +1 bonus to attack and damage rolls made with this magic
+      weapon, and it deals an extra 2d6 damage against giants (including any
+      creature with the giant type, such as ettins and trolls). In addition,
+      when the weapon deals damage to a giant, the giant makes a DC 15 Strength
+      saving throw or falls prone. </p><hr><p><b>Parrying:</b> When you are
+      wielding this weapon and you are not using a shield, once before your next
+      turn you can gain an expertise die to your AC against a single melee
+      attack made against you by a creature you can see. You cannot use this
+      property while incapacitated , paralyzed , rattled , restrained , or
+      stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 7
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '+1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod + 1
+        - slashing
+      - - 2d6
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: null
+_id: udrycbcgarmkn5mh
+_key: '!items!udrycbcgarmkn5mh'

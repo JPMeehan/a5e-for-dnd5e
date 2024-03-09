@@ -1,0 +1,53 @@
+name: Hat of Grand Entrances
+type: equipment
+img: icons/equipment/head/hat-belted-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      Step into the room and make a grand entrance! This top hat has embroidered
+      figurines of trumpet players in full regalia. By speaking a command word,
+      you can cause the figures to magically and loudly herald your arrival by
+      trumpet blasts, followed by a speech announcing your name, titles, and any
+      of your major accomplishments. You can alter this speech beforehand by
+      giving any special instructions to the hat
+
+      before speaking the command word. Once this hat
+
+      has heralded an entrance it can’t be used again for
+
+      10 minutes. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 35
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: dw5ytwjd0dpq0sdh
+_key: '!items!dw5ytwjd0dpq0sdh'

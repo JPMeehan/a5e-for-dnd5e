@@ -1,0 +1,39 @@
+name: Potion of Diminution
+type: consumable
+img: icons/consumables/potions/vial-cork-blue.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>A golden acorn floats in the translucent liquid, dropping
+      from the top of the vial and floating back up every few
+      seconds.</p></blockquote><p>After drinking this potion, for the next
+      [[1d4]] your size is reduced by half (as the <em>enlarge/reduce</em> spell
+      but without need for concentration).</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Gilded
+      acorn</p></li><li><p>sapphire</p></li><li><p>vial of primordial
+      vitae</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 550
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: tzxo6p6wsulunhij
+_key: '!items!tzxo6p6wsulunhij'

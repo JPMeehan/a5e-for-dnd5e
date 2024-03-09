@@ -1,0 +1,75 @@
+name: Bottle of Fizz
+type: consumable
+img: icons/consumables/potions/bottle-corked-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >
+      When found this thick glass bottle has 25 (5d10) small red rocks inside.
+      You can use an action to throw a red rock to the ground to create a
+      spectacular fireworks show that lasts for 1 round. The fireworks cast
+      bright light for 50 feet and dim light for a further 30 feet, and they can
+      be heard up to 200 feet away. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 350
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: >-
+      The fireworks cast bright light for 50 feet and dim light for a further 30
+      feet, and they can be heard up to 200 feet away.
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: g5ydrdscragcuqwm
+_key: '!items!g5ydrdscragcuqwm'

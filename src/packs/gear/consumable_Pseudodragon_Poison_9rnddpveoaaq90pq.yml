@@ -1,0 +1,140 @@
+folder: null
+name: Pseudodragon Poison
+type: consumable
+img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+system:
+  description:
+    value: >-
+      <p><em>Common, Injury, Instantaneous</em></p>
+
+      <p>Though it is rarely given willingly, this kaleidoscopic&nbsp;liquid is
+      drawn from the diminutive stinging&nbsp;tail of the humble pseudodragon. A
+      creature makes&nbsp;a DC 11 Constitution saving throw when
+      subjected&nbsp;to this poison, and on a failure it becomes
+      poisoned&nbsp;for 1 hour. On a failure by 5 or more, the
+      creature&nbsp;falls unconscious for the same duration, or until
+      it&nbsp;takes damage or another creature uses an action to&nbsp;shake it
+      awake.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+    origin: Item.9rnddpveoaaq90pq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: hours
+    transfer: false
+    name: Pseudodragon Poisoning
+    _id: 5UaBqRqzFKFk9i84
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!9rnddpveoaaq90pq.5UaBqRqzFKFk9i84'
+  - icon: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+    origin: Item.9rnddpveoaaq90pq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xj033Ihp4ERkhV77
+        duration:
+          unit: hours
+    transfer: false
+    name: Pseudodragon Poisoning (Critical Failure)
+    _id: VJX92GJWQmf5eruK
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned","unconscious"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+      - unconscious
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!9rnddpveoaaq90pq.VJX92GJWQmf5eruK'
+flags: {}
+_id: 9rnddpveoaaq90pq
+_key: '!items!9rnddpveoaaq90pq'

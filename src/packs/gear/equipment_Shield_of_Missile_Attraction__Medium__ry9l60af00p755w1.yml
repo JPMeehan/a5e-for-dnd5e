@@ -1,0 +1,48 @@
+name: Shield of Missile Attraction (Medium)
+type: equipment
+img: icons/equipment/shield/heater-steel-segmented-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Medium shields increase your Armor Class by
+      2.</em></p><ul><li><p>While wearing this shield you have resistance to
+      damage from ranged weapon attacks.</p></li></ul><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong><em>Curse</em></strong>. Whenever a ranged
+      weapon attack is made against a target within 10 feet of you, you become
+      the target instead. Removing the shield does not stop the
+      curse.</p></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 8
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: 2
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: ry9l60af00p755w1
+_key: '!items!ry9l60af00p755w1'

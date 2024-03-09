@@ -1,0 +1,93 @@
+name: Mace of Disruption
+type: weapon
+img: icons/weapons/maces/mace-round-spiked-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Fiends and undead take an extra [[/r 2d6 #radiant]] radiant damage when
+      hit with this weapon. When this weapon reduces a fiend or undead to 25 or
+      fewer hit points, the creature makes a DC 15 Wisdom saving throw or it is
+      destroyed. On a successful save the creature becomes frightened of you
+      until the end of your next turn.</p><p>While it is held, this weapon
+      shines bright light in a 20-foot radius and dim light an additional 20
+      feet.</p><hr><p><b>Defensive:</b> This weapon is designed to be used with
+      a shield of the stated degree or lighter (light, medium, or heavy). When
+      you make an attack with this weapon and are using a shield designed for
+      it, you can use a bonus action to either make an attack with your shield
+      or increase your Armor Class by 1 until the start of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+      - - 2d6
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: p7dsbj1pznueucld
+_key: '!items!p7dsbj1pznueucld'

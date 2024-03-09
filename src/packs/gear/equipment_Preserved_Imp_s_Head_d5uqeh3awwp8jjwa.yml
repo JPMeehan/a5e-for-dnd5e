@@ -1,0 +1,93 @@
+folder: null
+name: Preserved Imp’s Head
+type: equipment
+img: icons/creatures/magical/spirit-undead-ghost-tan-teal.webp
+system:
+  description:
+    value: >-
+      <p>This dessicated head of a fiend mumbles occasionally&nbsp;as if trying
+      to speak but cannot, its eyes and&nbsp;mouth sewn shut with a rough black
+      cord. The&nbsp;head longs to escape this prison and return to
+      Hell,&nbsp;shaking violently and cursing whenever it is within&nbsp;60
+      feet of an active portal.</p>
+
+      <p>Alternatively, as an action you can direct the head at a visible
+      creature within 60 feet and cut the cord tying the imp&rsquo;s lips,
+      causing it to burst into flames and making the spirit inside lash out. The
+      target must make a DC 13 Dexterity saving throw, taking 2d10 fire damage
+      on a failed save, or half as much damage on a successful one.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 35
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d10
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: d5uqeh3awwp8jjwa
+_key: '!items!d5uqeh3awwp8jjwa'

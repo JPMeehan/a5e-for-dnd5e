@@ -1,0 +1,96 @@
+name: Vicious Whip
+type: weapon
+img: icons/weapons/misc/whip-red-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Finesse, Parrying Immunity, Reach (15 ft), Trip</em></p>
+
+      <p><strong>Vicious Weapon:&nbsp;</strong>When you roll a natural 20 on an
+      attack roll using this weapon it deals an extra 2d6 damage of the
+      weapon&rsquo;s type (this extra damage does not
+      double).</p><hr><p><b>Parrying Immunity:</b> Attacks with this weapon
+      ignore the parrying property and Armor Class bonuses from
+      shields.</p><p><b>Trip:</b> When used with a combat maneuver that trips a
+      creature or the Knockdown attack, this weapon increases your Maneuver DC
+      by 1. If the target is mounted, your Maneuver DC is instead increased by
+      2.</p><p><b>Vicious:</b> A vicious weapon scores a critical hit on a roll
+      of 19 or 20. If you already have a feature that increases the range of
+      your critical hits, your critical hit range increases by 1 (maximum
+      17–20).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - fin
+    - rch
+    - vicious
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 15
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: mlz66hq78rtn48s7
+_key: '!items!mlz66hq78rtn48s7'

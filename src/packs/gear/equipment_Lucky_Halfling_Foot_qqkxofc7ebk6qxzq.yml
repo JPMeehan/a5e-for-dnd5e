@@ -1,0 +1,53 @@
+name: Lucky Halfling Foot
+type: equipment
+img: icons/commodities/claws/claw-canine-brown-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This small hairy humanoid foot has been chemically preserved and
+      attached to a simple chain necklace as a pendant. Whenever you roll a
+      natural 1 for an attack roll, ability check, or saving throw while wearing
+      this necklace, you may choose to reroll and must use the new result. Once
+      you make a reroll in this way, you cannot do so again for the next 24
+      hours. In addition, halflings get an unnerving sense of this macabre
+      trophy even when it is hidden, and while wearing this necklace you have
+      disadvantage on all Charisma (Persuasion) checks to influence
+      halflings.</p><p>Alternatively, these mortal remains can be buried or
+      burned properly through halfling funerary rites taking 1 hour. If these
+      rites are completed, any creatures in attendance (a maximum of 8) gain a
+      point of inspiration.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 115
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: qqkxofc7ebk6qxzq
+_key: '!items!qqkxofc7ebk6qxzq'

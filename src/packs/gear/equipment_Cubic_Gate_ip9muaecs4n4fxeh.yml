@@ -1,0 +1,89 @@
+name: Cubic Gate
+type: equipment
+img: icons/skills/movement/ball-spinning-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This 3-inch cube has 3 charges and regains 1d3 charges each dawn. Each
+      side of the cube is keyed to a different plane, one of which is the
+      Material Plane. The other five sides are determined by the Narrator.
+      </p><p>As an action, you may press one side of the cube and spend a charge
+      to cast the gate spell, expending a charge and opening a portal to the
+      associated plane. You may instead press a side twice, expending 2 charges
+      and casting<em> plane shift</em> (save DC 17) which sends the targets to
+      the associated plane.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 250000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ip9muaecs4n4fxeh
+_key: '!items!ip9muaecs4n4fxeh'

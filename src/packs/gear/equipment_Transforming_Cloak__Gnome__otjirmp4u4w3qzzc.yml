@@ -1,0 +1,55 @@
+name: Transforming Cloak (Gnome)
+type: equipment
+img: icons/equipment/back/cape-layered-tattered-brown.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While you are attuned to and wearing a transforming cloak, you gain
+      resistance to a type of damage and you can use an action to activate an
+      elemental form that lasts for 1 hour, until you fall unconscious, or you
+      use a bonus action to end it.</p><p>Once you have used the cloak to take
+      on an elemental form, you cannot use that property again until you have
+      finished a long rest.</p><hr class="a5e-rule u-my-md"><p><em>This cloak
+      appears to be made of vibrant earthy soil, yet it leaves no dirt where it
+      touches.</em></p><ul><li><p>You have advantage on saving throws to resist
+      being pushed, pulled, knocked prone, or otherwise involuntarily
+      moved.</p></li></ul><hr class="a5e-rule u-my-md"><p>While your earth form
+      is active you gain:</p><ul><li><p>resistance to damage from nonmagical
+      weapons</p><p></p></li><li><p>tremorsense to a range of 30
+      feet</p><p></p></li><li><p>a burrow speed equal to half your Speed
+      (leaving no tunnel behind).</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 30000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: otjirmp4u4w3qzzc
+_key: '!items!otjirmp4u4w3qzzc'

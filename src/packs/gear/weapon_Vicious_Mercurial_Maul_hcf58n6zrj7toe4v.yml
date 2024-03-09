@@ -1,0 +1,95 @@
+name: Vicious Mercurial Maul
+type: weapon
+img: icons/weapons/hammers/hammer-double-bronze.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Breaker, Heavy, Two-Handed</em></p>
+
+      <p><strong>Vicious Weapon:&nbsp;</strong>When you roll a natural 20 on an
+      attack roll using this weapon it deals an extra 2d6 damage of the
+      weapon&rsquo;s type (this extra damage does not
+      double).</p><hr><p><b>Breaker:</b> This weapon deals double damage to
+      unattended objects, such as doors and walls. If this property only applies
+      to a specific type of material, such as wood, it is stated in parenthesis
+      after this property.</p><p><b>Vicious:</b> A vicious weapon scores a
+      critical hit on a roll of 19 or 20. If you already have a feature that
+      increases the range of your critical hits, your critical hit range
+      increases by 1 (maximum 17–20).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 15
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - hvy
+    - two
+    - breaker
+    - vicious
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - max(2d6,4) + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: hcf58n6zrj7toe4v
+_key: '!items!hcf58n6zrj7toe4v'

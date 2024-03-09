@@ -1,0 +1,85 @@
+name: Dwarven Plate
+type: equipment
+img: icons/equipment/chest/breastplate-banded-steel-studded.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While wearing this armor, you gain the following benefits: </p><p>•
+      Your Armor Class increases by +1. </p><p>• When an effect forces you to
+      move along the ground, you can use your reaction to reduce the forced
+      movement by up to 10 feet.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 55
+  price:
+    value: 20000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: 19
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: heavy
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 15
+  proficient: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: When an effect forces you to move along the ground
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: awp0parge5pe50xm
+_key: '!items!awp0parge5pe50xm'

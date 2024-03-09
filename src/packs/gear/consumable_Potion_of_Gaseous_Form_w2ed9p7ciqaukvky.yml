@@ -1,0 +1,39 @@
+name: Potion of Gaseous Form
+type: consumable
+img: icons/consumables/potions/vial-cork-empty.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>The pale, translucent liquid in this vial causes the flask
+      to float slightly.</p></blockquote><p>After drinking this potion, for the
+      next hour you are affected as if you had cast <em>gaseous form</em> (but
+      without the need for concentration ).</p><p>You can use a bonus action to
+      end the effect early.</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Stable
+      ectoplasm</p></li><li><p>mountain fog trapped in a
+      jar</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: w2ed9p7ciqaukvky
+_key: '!items!w2ed9p7ciqaukvky'

@@ -1,0 +1,96 @@
+name: Mace of Terror
+type: weapon
+img: icons/weapons/maces/mace-round-spiked-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This weapon has 3 charges and regains [[/r 1d3 #charges]] charges􀀃
+      each dawn. While you hold it, you can use an action􀀃 to expend 1 charge
+      and emanate terror in a 30-foot􀀃 radius. Each creature you choose within
+      the area􀀃 makes a DC 15 Wisdom saving throw or it becomes􀀃 frightened of
+      you for 1 minute, moving away from􀀃 you as fast as possible on its turns
+      (it can only use􀀃 the Dash action, try to escape anything preventing􀀃 it
+      from moving, or use the Dodge action if it cannot􀀃 move or attempt
+      escape) and remaining at least 30􀀃 feet from you. The creature cannot
+      take reactions.􀀃 At the end of each of its turns, a frightened creature􀀃
+      can repeat the saving throw, ending the effect on􀀃a
+      success.</p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: d82ibf79wbkrunii
+_key: '!items!d82ibf79wbkrunii'

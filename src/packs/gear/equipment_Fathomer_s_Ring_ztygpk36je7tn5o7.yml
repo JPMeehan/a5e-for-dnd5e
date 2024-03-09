@@ -1,0 +1,92 @@
+name: Fathomer’s Ring
+type: equipment
+img: icons/equipment/finger/ring-ball-silver.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p><strong>(Patron Token)</strong></p></blockquote><hr
+      class="a5e-rule u-my-md"><p>This ring reeks of muck dredged from the ocean
+      floor.</p><p>While you wear it, you automatically know the depth of any
+      body of water you can see.</p><p>As an action, you can cause one
+      submerged, unattended object up to Huge size to rise to the surface of the
+      water at a rate of 500 feet per round. You don’t need to be able to see
+      the object you affect, but you must be familiar with it or at least
+      possess a general description of it.</p><p>Once the object reaches the
+      water’s surface, it floats there for 1 hour or until you use another
+      action to return it to its resting place.</p><p>Once you’ve used the ring
+      in this way, it loses its magic and becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 85
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ztygpk36je7tn5o7
+_key: '!items!ztygpk36je7tn5o7'

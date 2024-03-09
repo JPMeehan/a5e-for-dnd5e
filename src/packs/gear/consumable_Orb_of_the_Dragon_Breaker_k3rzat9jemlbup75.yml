@@ -1,0 +1,79 @@
+name: Orb of the Dragon Breaker
+type: consumable
+img: icons/commodities/materials/glass-orb-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components: </strong>Dragon scale</p><hr
+      class="a5e-rule u-my-md"><p>This iridescent glass sphere resembles a soap
+      bubble tinted the color of the dragon scale used to create it. When used
+      as an improvised weapon the orb breaks on impact. If the orb shatters
+      against a creature, the creature’s immunity or resistance to a damage type
+      associated with the dragon scale used in the orb’s creation (fire for a
+      red dragon scale, acid for a green dragon scale, and so on) is either
+      reduced from immunity to a damage type to resistance to the same damage
+      type, or it loses its resistance. The orb’s effects last for [[/r 1d6+1
+      #rounds]] rounds, after which the creature’s defenses return to
+      normal.<br></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 3000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: 20/60 ft.
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: k3rzat9jemlbup75
+_key: '!items!k3rzat9jemlbup75'

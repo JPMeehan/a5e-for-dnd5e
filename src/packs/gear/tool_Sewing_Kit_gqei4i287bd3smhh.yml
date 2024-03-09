@@ -1,0 +1,36 @@
+name: Sewing Kit
+type: tool
+img: icons/tools/hand/needle-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This kit of threads, thimbles, buttons, and scissors is primarily used
+      to mend clothing. With 1 hour of work you can use a sewing kit to mend
+      clothing and some suits of armor. The DC of a sewing kit check is
+      determined by the material being worked.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 2
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: ''
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  bonus: ''
+folder: null
+_id: gqei4i287bd3smhh
+_key: '!items!gqei4i287bd3smhh'

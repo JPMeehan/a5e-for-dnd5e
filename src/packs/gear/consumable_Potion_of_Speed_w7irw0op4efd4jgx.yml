@@ -1,0 +1,37 @@
+name: Potion of Speed
+type: consumable
+img: icons/consumables/drinks/alcohol-spirits-bottle-blue.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>An opaque gray liquid that occasionally flashes with sparks
+      of electricity.</p></blockquote><p>After drinking this potion, for the
+      next minute you gain the benefits of a <em>haste </em>spell (without the
+      need for concentration).</p><hr class="a5e-rule
+      u-my-md"><blockquote><p><strong>Crafting
+      Components</strong>:</p><ul><li><p>Dust from a clay
+      guardian</p></li></ul></blockquote>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 7000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+folder: null
+_id: w7irw0op4efd4jgx
+_key: '!items!w7irw0op4efd4jgx'

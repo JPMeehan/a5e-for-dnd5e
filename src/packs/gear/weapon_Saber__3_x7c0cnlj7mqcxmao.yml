@@ -1,0 +1,124 @@
+name: Saber +3
+type: weapon
+img: icons/weapons/swords/scimitar-guard.webp
+effects:
+  - icon: icons/weapons/swords/scimitar-guard.webp
+    origin: Item.x7c0cnlj7mqcxmao
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 3Olf8LpZb1butJkC
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: xN74vJXEPsfOB6YU
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!x7c0cnlj7mqcxmao.xN74vJXEPsfOB6YU'
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Defensive (Light), Finesse, Mounted
+      (1d10)</em></p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p><p><b>Mounted:</b> This weapon deals the damage listed in
+      parenthesis when you are wielding it while mounted.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 8000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - fin
+    - defensive
+    - mnt
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod + 3
+        - slashing
+      - - 1d10 + @mod + 3
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: x7c0cnlj7mqcxmao
+_key: '!items!x7c0cnlj7mqcxmao'

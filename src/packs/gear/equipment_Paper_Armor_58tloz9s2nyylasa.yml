@@ -1,0 +1,136 @@
+name: Paper Armor
+type: equipment
+img: icons/sundries/books/book-embossed-gold-red.webp
+system:
+  description:
+    value: >-
+      <div class="field field--name-field-mi-description field--type-text-long
+      field--label-hidden field--item">
+
+      <p>This heavy, red leather-bound book records the details of an ancient
+      war, such as leaders, major battles, defeats, and victories. Alongside the
+      factual details are also the personal experiences and notes of one of the
+      generals.</p>
+
+      <p>Once per day, as an action, you can hold the open book to your chest
+      and quote the first line of the text contained within: &ldquo;Wars are won
+      by the prepared.&rdquo; When you do, the book transforms, unfolding into
+      what appears to be a full suit of parchment-colored plate mail armor over
+      whatever clothes you are wearing. You are proficient with this armor as
+      long as you are attuned to this item. The fragile nature of this armor
+      means it is destroyed if you are fully submerged in water or similar
+      liquid.</p>
+
+      <p>While wearing this armor, your Armor Class equals 14 + your Dexterity
+      modifier. Each time you take damage, roll 2d20. If you roll 1s on both
+      dice the armor is destroyed, leaving behind only scraps of paper.
+      Otherwise, if the total of the two dice is less than the damage taken, the
+      armor collapses back into a book. The book also folds back up after 1 hour
+      of use or until you use an action to quote the last line of the book,
+      &ldquo;In&nbsp;battle, even victors suffer death and loss.&rdquo;</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 600
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/sundries/books/book-embossed-gold-red.webp
+    origin: Item.58tloz9s2nyylasa
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dyc4FmqgawmfsMyQ
+        duration:
+          unit: hours
+    transfer: false
+    name: Armor Class
+    _id: dPknLn9s94xSFe3Z
+    changes:
+      - key: system.attributes.ac.value
+        value: 14+@dex.mod
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!58tloz9s2nyylasa.dPknLn9s94xSFe3Z'
+folder: null
+flags: {}
+_id: 58tloz9s2nyylasa
+_key: '!items!58tloz9s2nyylasa'

@@ -1,0 +1,47 @@
+name: Sovereign Glue
+type: equipment
+img: icons/consumables/potions/potion-bottle-corked-white.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This alabaster liquid adhesive permanently joins together any two
+      objects.</p><p>When found the bottle has 1d6 + 1 ounces of adhesive
+      inside. You may use one ounce to cover a 1-foot square
+      surface.</p><p>After 1 minute passes the sovereign glue sets and the bond
+      cannot be broken without using <em>universal solvent</em>, <em>oil of
+      etherealness</em>, or a <em>wish </em>spell.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: null
+  weight: 0
+  price:
+    value: 85000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: twx1cc4jca5f1eq4
+_key: '!items!twx1cc4jca5f1eq4'

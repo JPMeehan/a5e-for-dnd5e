@@ -1,0 +1,94 @@
+name: Well of Many Worlds
+type: equipment
+img: icons/commodities/cloth/cloth-worn-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components: </strong>Tuning fork that has been attuned
+      to each of the planes of existence</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>When unfolded, this handkerchief-sized piece of lightweight, silky
+      fabric expands into a 6-foot diameter circular sheet.</p>
+
+      <p>You can use an action to unfold the cloth and spread it on a solid
+      surface, creating a two-way portal to another plane of existence chosen by
+      the Narrator. You can use an action to close the portal by folding the
+      cloth. Once a portal has been opened in this manner, it cannot be opened
+      again for [[/r 1d8 #hours]] hours.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 75000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 24yryaxdkfhxu4u3
+_key: '!items!24yryaxdkfhxu4u3'

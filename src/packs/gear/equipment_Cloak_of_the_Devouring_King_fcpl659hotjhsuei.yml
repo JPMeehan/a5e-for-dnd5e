@@ -1,0 +1,144 @@
+folder: null
+name: Cloak of the Devouring King
+type: equipment
+img: icons/commodities/biological/wing-green.webp
+system:
+  description:
+    value: >-
+      <p>This deep jade cloak resembles a large piece of&nbsp;torn wing
+      membrane. When attuned, it grafts to&nbsp;your back, reweaving muscle and
+      bone and turning&nbsp;into a single leathery wing that grants a
+      portion&nbsp;of Nyth&rsquo;zerogg&rsquo;s vitality.</p>
+
+      <p>While attuned to the Cloak of the Devouring King, you gain the
+      following benefits:</p>
+
+      <ul>
+
+      <li>Your Constitution score is increased to 20. This property has no
+      effect if your Constitution is equal to or greater than 20.</li>
+
+      <li>You gain a fly speed equal to your Speed.</li>
+
+      <li>You regain 1d8 hit points at the beginning of each of your turns if
+      you have at least 1 hit point. If you lose a body part, you regrow the
+      missing part within 1d6 days.</li>
+
+      <li>You may expend one or more charges to cast the following spells:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bhi0hmhoopnxs91y]{Longstrider}
+      (1 charge), @UUID[Compendium.a5e.a5e-spells.Item.ijh0tu0wgpsp7v6n]{Misty
+      Step}&nbsp; (2 charges),
+      @UUID[Compendium.a5e.a5e-spells.Item.gq24ydzjwud2lrls]{Blink} (3 charges),
+      @UUID[Compendium.a5e.a5e-spells.Item.c9j5g49kht85ek3u]{Dimension Door} (4
+      charges), @UUID[Compendium.a5e.a5e-spells.Item.l3lr6rwvw7csn6on]{Plane
+      Shift} (5 charges), or
+      @UUID[Compendium.a5e.a5e-spells.Item.5ijl5b1goq9774l3]{Teleport} (5
+      charges)</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: Same plane
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/biological/wing-green.webp
+    origin: Item.fcpl659hotjhsuei
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Attuned
+    _id: Rx0RyzGX6rpHv58q
+    changes:
+      - key: system.abilities.con.value
+        value: '20'
+        mode: 5
+        priority: null
+      - key: system.attributes.movement.fly.distance
+        value: '30'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!fcpl659hotjhsuei.Rx0RyzGX6rpHv58q'
+flags: {}
+_id: fcpl659hotjhsuei
+_key: '!items!fcpl659hotjhsuei'

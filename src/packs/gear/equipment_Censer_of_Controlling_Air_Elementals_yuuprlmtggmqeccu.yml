@@ -1,0 +1,44 @@
+name: Censer of Controlling Air Elementals
+type: equipment
+img: icons/creatures/magical/spirit-undead-ghost-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While incense burns in this 1 pound censer, you can use an action to
+      summon an air elemental as if you had cast the <em>conjure elemental</em>
+      spell. Once used, you must wait until the next dawn to use it again.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 3000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: yuuprlmtggmqeccu
+_key: '!items!yuuprlmtggmqeccu'

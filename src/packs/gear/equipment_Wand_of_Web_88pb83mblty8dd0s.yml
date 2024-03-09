@@ -1,0 +1,94 @@
+name: Wand of Web
+type: equipment
+img: icons/weapons/staves/staff-spiked-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Crafting Components:</strong> Ettercap silk</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p><em>Requires attunement by a spellcaster</em></p>
+
+      <p>While holding this wand, you can use an action to expend 1 charge to
+      cast @UUID[Compendium.a5e-for-dnd5e.spells.hsjqquspwko9n5jl]{Web} (DC
+      15).</p>
+
+      <p>This wand has 7 charges and regains [[/r 1d6+1 #charges]] expended
+      charges each dawn. When the last charge is expended, roll a [[/r 1d20]].
+      On a 1, the wand dissolves into a pile of webbing.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: abil
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: null
+_id: 88pb83mblty8dd0s
+_key: '!items!88pb83mblty8dd0s'

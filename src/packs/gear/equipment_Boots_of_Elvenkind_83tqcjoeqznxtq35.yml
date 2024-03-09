@@ -1,0 +1,72 @@
+name: Boots of Elvenkind
+type: equipment
+img: icons/equipment/feet/boots-pointed-cloth-green.webp
+effects:
+  - icon: icons/equipment/feet/boots-pointed-cloth-green.webp
+    origin: Item.83tqcjoeqznxtq35
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Boots of Elven Kind
+    _id: 45blq0vAfsUSDSC1
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        mode: 6
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!83tqcjoeqznxtq35.45blq0vAfsUSDSC1'
+flags: {}
+system:
+  description:
+    value: >
+      These boots cause your steps to make no sound, no matter the material
+      stepped upon. While wearing these boots, you gain advantage on Dexterity
+      (Stealth) checks to move silently. 
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 300
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: 83tqcjoeqznxtq35
+_key: '!items!83tqcjoeqznxtq35'

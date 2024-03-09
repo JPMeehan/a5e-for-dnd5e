@@ -1,0 +1,94 @@
+name: Staff of Fire
+type: weapon
+img: icons/weapons/staves/staff-ornate-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <blockquote><p>(Requires attunement by a Druid, Sorcerer, Warlock, or
+      Wizard)</p></blockquote><p>While holding this staff you gain resistance to
+      fire damage. You can use an action and expend charges to cast one of the
+      following spells, using your spell save DC:</p><ul><li><p><em>burning
+      hands</em> (1 charge)</p></li><li><p><em>fireball </em>(3
+      charges)</p></li><li><p><em>wall of fire</em> (4 charges)</p></li></ul><hr
+      class="a5e-rule u-my-md"><p>The staff has 10 charges and regains 1d6+4
+      expended charges each dawn.</p><p>When the last charge is expended, roll a
+      d20. On a 1, the staff crumbles to ash and is
+      destroyed.</p><hr><p><b>Parrying:</b> When you are wielding this weapon
+      and you are not using a shield, once before your next turn you can gain an
+      expertise die to your AC against a single melee attack made against you by
+      a creature you can see. You cannot use this property while incapacitated ,
+      paralyzed , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 15000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 30ag3wdx9ccssbad
+_key: '!items!30ag3wdx9ccssbad'

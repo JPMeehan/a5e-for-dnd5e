@@ -1,0 +1,41 @@
+name: Incense (Block)
+type: equipment
+img: icons/commodities/materials/bowl-powder-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: <p>A block of incense, typically found in a priest's pack.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 5
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  proficient: null
+folder: null
+_id: kbj0f5ik1ai3v5jb
+_key: '!items!kbj0f5ik1ai3v5jb'
