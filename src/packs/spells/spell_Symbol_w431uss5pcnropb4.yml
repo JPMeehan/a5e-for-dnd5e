@@ -1,0 +1,345 @@
+name: Symbol
+type: spell
+img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+effects:
+  - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    origin: Item.w431uss5pcnropb4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: GKAsxkUb7zAnl3YV
+        duration:
+          unit: minutes
+    transfer: false
+    name: Bickering
+    _id: FhmCm5plIWOsuM2G
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!w431uss5pcnropb4.FhmCm5plIWOsuM2G'
+  - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    origin: Item.w431uss5pcnropb4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: icj3CPGghtZr2YEu
+        duration:
+          unit: minutes
+    transfer: false
+    name: Confused
+    _id: Qwyegf8YgPuFgdhE
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["confused"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - confused
+    folder: null
+    _key: '!items.effects!w431uss5pcnropb4.Qwyegf8YgPuFgdhE'
+  - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    origin: Item.w431uss5pcnropb4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dyvJagBgZrrFkvCH
+        duration:
+          unit: minutes
+    transfer: false
+    name: Frightened
+    _id: SPbQBUOVc31SWThp
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>While frightened, a creature drops whatever it\_is holding and must move at least 30 feet away\_from the glyph on each of its turns.</p>"
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!w431uss5pcnropb4.SPbQBUOVc31SWThp'
+  - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    origin: Item.w431uss5pcnropb4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: tPBmIttZwG1vK4sE
+        duration:
+          unit: minutes
+    transfer: false
+    name: Despair
+    _id: rvRY7MRxgkXiCMdd
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>While despairing,\_a creature can’t attack or target any creature with harmful features, spells, traits, or other\_magical effects.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!w431uss5pcnropb4.rvRY7MRxgkXiCMdd'
+  - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    origin: Item.w431uss5pcnropb4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QyIkGnQdAZtJ4vCu
+        duration:
+          unit: minutes
+    transfer: false
+    name: Pain
+    _id: LHiujdHARaUna92n
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["incapacitated"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - incapacitated
+    folder: null
+    _key: '!items.effects!w431uss5pcnropb4.LHiujdHARaUna92n'
+  - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    origin: Item.w431uss5pcnropb4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: uni1QPqHl8o1YIms
+        duration:
+          unit: minutes
+    transfer: false
+    name: Asleep
+    _id: RXej9oPVgCcfdJtG
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["unconscious"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - unconscious
+    folder: null
+    _key: '!items.effects!w431uss5pcnropb4.RXej9oPVgCcfdJtG'
+  - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    origin: Item.w431uss5pcnropb4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: yAQ90ymCfNFAzS6r
+        duration:
+          unit: minutes
+    transfer: false
+    name: Stunned
+    _id: IJAlwYPT9vkWDRRm
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!w431uss5pcnropb4.IJAlwYPT9vkWDRRm'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You inscribe a potent glyph on the target, setting a magical trap for
+      your enemies. If the glyph is moved more than 10 feet from its original
+      position, or if it comes within 20 feet of another glyph that you have
+      cast, the spell ends. Finding the Tiny glyph requires an Investigation
+      check against your spell save DC.</p>
+
+      <p>Describe the actions a creature must perform to trigger the spell, such
+      as approaching within a certain distance, opening or touching the object
+      the glyph is inscribed on, or seeing or reading the glyph. The creature
+      must have a clear path to the glyph to trigger it. You can specify certain
+      creatures which don't trigger the spell, such as those with a certain
+      appearance or those who speak a certain phrase. Once the glyph is
+      triggered, the spell ends.</p>
+
+      <p>When triggered, the glyph sheds dim light in a 60-foot radius for 10
+      minutes, after which the spell ends. Each creature within the sphere's
+      area is targeted by the glyph, as are creatures that enter the sphere for
+      the first time on a turn.</p>
+
+      <p>When you cast the spell, choose one of the following effects.</p>
+
+      <p><strong>Death:</strong> Creatures in the area make a Constitution
+      saving throw, taking 10d10 necrotic damage on a failed save, or half as
+      much on a successful save.</p>
+
+      <p><strong>Discord:</strong> Creatures in the area make a Constitution
+      saving throw or bicker and argue with other creatures for 1 minute. While
+      bickering, a creature cannot meaningfully communicate and it has
+      disadvantage on attack rolls and ability checks.</p>
+
+      <p><strong>Confused:</strong> Creatures in the area make an Intelligence
+      saving throw or become confused for 1 minute.</p>
+
+      <p><strong>Fear:</strong> Creatures in the area make a Wisdom saving throw
+      or are frightened for 1 minute.&nbsp;While frightened, a creature drops
+      whatever it is holding and must move at least 30 feet away from the glyph
+      on each of its turns.</p>
+
+      <p><strong>Hopelessness:</strong> Creatures in the area make a Charisma
+      saving throw or become overwhelmed with despair for 1 minute. While
+      despairing, a creature can't attack or target any creature with harmful
+      features, spells, traits, or other magical effects.</p>
+
+      <p><strong>Pain:</strong> Creatures in the area make a Constitution saving
+      throw or become incapacitated for 1 minute.</p>
+
+      <p><strong>Sleep:</strong> Creatures in the area make a Wisdom saving
+      throw or fall unconscious for 10 minutes.&nbsp;A sleeping creature awakens
+      if it takes damage or an action is used to wake it.</p>
+
+      <p><strong>Stunning:</strong> Creatures in the area make a Wisdom saving
+      throw or become stunned for 1 minute.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 7
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      mercury, phosphorous, and powdered diamond and opal with a total value of
+      at least 1, 000 gold, consumed by the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: ''
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 60
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: 2sI4m8RtV461RZaG
+_id: w431uss5pcnropb4
+_key: '!items!w431uss5pcnropb4'

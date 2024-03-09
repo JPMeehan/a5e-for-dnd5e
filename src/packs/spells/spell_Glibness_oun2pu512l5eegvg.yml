@@ -1,0 +1,109 @@
+name: Glibness
+type: spell
+img: icons/skills/social/diplomacy-handshake-yellow.webp
+effects:
+  - icon: icons/skills/social/diplomacy-handshake-yellow.webp
+    origin: Item.oun2pu512l5eegvg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4oulHVwocZT4xujY
+        duration:
+          unit: hours
+        applyToSelf: true
+    transfer: false
+    name: Glib
+    _id: ObXJ4wK04nfBweeq
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When you make a Charisma check, you can replace the number you rolled
+      with 15. Also, magic that prevents lying has no effect on you, and magic
+      cannot determine that you are lying.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!oun2pu512l5eegvg.ObXJ4wK04nfBweeq'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - communication
+      - enhancement
+      - obscurement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>When you make a Charisma check, you can replace the number you rolled
+      with 15. Also, magic that prevents lying has no effect on you, and magic
+      cannot determine that you are lying.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 8
+  school: trs
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: DMm8aLAHhpqUVDEv
+_id: oun2pu512l5eegvg
+_key: '!items!oun2pu512l5eegvg'

@@ -1,0 +1,96 @@
+folder: YnFE57i6b3g8tOII
+name: Mouth of Hell
+type: spell
+img: icons/magic/fire/barrier-wall-explosion-orange.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">The ground explodes with hellfire and shards of rock.
+      Creatures in the spell&rsquo;s area must make a Dexterity save or suffer
+      2d6 bludgeoning, 2d6 fire, and 2d6 necrotic damage. A creature that
+      successfully saves takes half damage. The spell&rsquo;s area then becomes
+      difficult terrain for the next hour. In addition a creature that enters
+      the spell&rsquo;s area for the first time on a turn or starts its turn
+      there takes 1d6 points of fire damage.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-7e258158-7fff-a49e-7cbb-970c13f41ed2">Cast at
+      Higher Levels.</strong> The spell&rsquo;s area increases by 5 feet for
+      every spell slot level above 3rd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - bludgeoning
+      - - 2d6
+        - fire
+      - - 2d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+      - evil
+      - fire
+      - necrotic
+      - terrain
+    rareSpell: false
+_id: t7c8c8cgh987718c
+_key: '!items!t7c8c8cgh987718c'

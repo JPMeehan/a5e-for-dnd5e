@@ -1,0 +1,112 @@
+name: Elusive Misty Step
+type: spell
+img: icons/skills/movement/ball-spinning-blue.webp
+effects:
+  - icon: icons/skills/movement/ball-spinning-blue.webp
+    origin: Item.adt98iyadb78wi5w
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: vXZn3iWPurUWz9QK
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Elusive
+    _id: ArzCD02x2nil24o9
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the start of your next turn, attack rolls against you are made
+      with disadvantage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!adt98iyadb78wi5w.ArzCD02x2nil24o9'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - chaos
+      - movement
+      - teleportation
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You teleport to an unoccupied space that you can see, disappearing and
+      reappearing in a swirl of shimmering mist.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Elusive Misty
+      Step.&nbsp;</strong>Until the start&nbsp;of your next turn, attack rolls
+      against you are made&nbsp;with disadvantage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: EkkxXAsn0xjh7IWp
+_id: adt98iyadb78wi5w
+_key: '!items!adt98iyadb78wi5w'

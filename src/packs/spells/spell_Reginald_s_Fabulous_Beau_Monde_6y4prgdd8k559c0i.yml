@@ -1,0 +1,94 @@
+folder: ULrFDUr9XIqKkKnP
+name: Reginald’s Fabulous Beau Monde
+type: spell
+img: icons/skills/social/thumbsup-approval-like.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">With a wave of your hand, your targets become the absolute
+      -height- of fashion and taste within the community you are standing in.
+      Nothing about them changes visibly, but the tastes of the area suddenly
+      focus on whatever sartorial style they possess, their accents, and their
+      favored music and foods. Mystical rumors spread across the community about
+      your targets. Choose one of the following skills for each target:
+      Deception, Insight, Intimidation, Perception, or Persuasion. So long as
+      the spell is in effect, your targets have expertise in their chosen skill,
+      and their prestige is treated as 2 points higher.</p>
+
+      <p dir="ltr">At the end of the spell&rsquo;s duration, no permanent
+      resident of the community is aware that magic was used, and goes about
+      their business as normal. Visitors, however, may notice the strange
+      deference given.</p>
+
+      <hr>
+
+      <p dir="ltr"><strong>Rare: Reginald&rsquo;s Fabulous Beau Monde.</strong>
+      Instead of getting expertise on their chosen skill, targets gain advantage
+      instead.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: enc
+  properties:
+    - somatic
+    - material
+  materials:
+    value: 60gp of pearls and the snout, ears, or tail of a porcine
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - communication
+    rareSpell: true
+_id: 6y4prgdd8k559c0i
+_key: '!items!6y4prgdd8k559c0i'

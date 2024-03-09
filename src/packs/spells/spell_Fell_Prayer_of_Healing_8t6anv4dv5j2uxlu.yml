@@ -1,0 +1,92 @@
+name: Fell Prayer of Healing
+type: spell
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - good
+      - healing
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p><em><strong>Target:</strong> Up to six creatures that are not
+      constructs&nbsp;or undead</em></p>
+
+      <p>The targets regain hit points equal to 2d8 + your spellcasting ability
+      modifier.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The hit points
+      regained increase by 1d8 for each slot level above 2nd.</p>
+
+      <p><strong><em>Rare:&nbsp;</em>Fell Prayer of
+      Healing.&nbsp;</strong>After&nbsp;casting this spell, the targets gain
+      temporary hit&nbsp;points equal to the amount healed as a
+      tenuous&nbsp;connection to dark entities increases their tolerance&nbsp;to
+      pain.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8 + @mod
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: EkkxXAsn0xjh7IWp
+_id: 8t6anv4dv5j2uxlu
+_key: '!items!8t6anv4dv5j2uxlu'

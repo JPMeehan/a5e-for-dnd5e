@@ -1,0 +1,127 @@
+name: Fantabulous Heroes' Feast
+type: spell
+img: icons/consumables/food/bowl-stew-tofu-potato-red.webp
+effects:
+  - icon: icons/consumables/food/bowl-stew-tofu-potato-red.webp
+    origin: Item.kch8ux4pzrynzju9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5qxTKhX2SFIsYrZK
+        duration:
+          unit: hours
+    transfer: false
+    name: Fantabulously Heroically Nourished
+    _id: 2MkhmkAtGlDDqxNF
+    changes:
+      - key: flags.a5e.effects.rollMode.abilitySave.wis
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For up to 24 hours afterward the feast's participants have advantage on
+      Wisdom saving throws, advantage on saving throws made against disease and
+      poison, resistance against damage from poison and disease, and each
+      increases its hit point maximum by 2d10.</p>
+
+      <p><strong>Rare: Fantabulous Heroes’ Feast.</strong> For 24 hours
+      afterward, you gain advantage on Charisma checks made against creatures
+      that participate in the feast.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!kch8ux4pzrynzju9.2MkhmkAtGlDDqxNF'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - hearth
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>The spell summons forth a sumptuous feast with a cuisine of your
+      choosing that provides 1 Supply for a number of creatures equal to twice
+      your proficiency bonus. Consuming the food takes 1 hour and leaves a
+      creature feeling nourished—it immediately makes a saving throw with
+      advantage against any disease or poison it is suffering from, and it is
+      cured of any effect that frightens it.</p><p>For up to 24 hours afterward
+      the feast's participants have advantage on Wisdom saving throws, advantage
+      on saving throws made against disease and poison, resistance against
+      damage from poison and disease, and each increases its hit point maximum
+      by 2d10.</p><hr class="a5e-rule u-my-md"><p><strong>Rare: Fantabulous
+      Heroes’ Feast.</strong> For 24 hours afterward, you gain advantage on
+      Charisma checks made against creatures that participate in the feast.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: beautifully crafted bowl worth at least 1, 000 gold, consumed by the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: hp7XyogTunXDH7Ig
+_id: kch8ux4pzrynzju9
+_key: '!items!kch8ux4pzrynzju9'

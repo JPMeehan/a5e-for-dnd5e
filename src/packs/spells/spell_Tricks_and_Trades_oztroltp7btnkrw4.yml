@@ -1,0 +1,129 @@
+name: Tricks and Trades
+type: spell
+img: icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You call upon magical trickery to create one of the following
+      effects within range:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You change up to 100gp of coins into a
+      different mix of coins of the same value. For example, you could turn 10
+      copper pieces into a silver piece or vice versa. This can never increase
+      or decrease the value of the currency.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You cause an object no larger than the
+      palm of your hand that you touch to teleport to one of your pockets or up
+      your sleeve.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You create a simple repeating sound such
+      as the sound of a metronome or a simple drumbeat. The sound repeats for up
+      to 10 minutes.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You instantly end the effects of
+      recreational intoxicants that you voluntarily consumed (such as alcohol)
+      on yourself, sobering up immediately.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You perfume yourself with a scent of your
+      choosing. The smell lasts for an hour or until you cast this spell
+      again.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You change the color and/or pattern of a
+      single article of clothing you are wearing to a different one. The change
+      is permanent.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - utility
+    rareSpell: false
+_id: oztroltp7btnkrw4
+_key: '!items!oztroltp7btnkrw4'

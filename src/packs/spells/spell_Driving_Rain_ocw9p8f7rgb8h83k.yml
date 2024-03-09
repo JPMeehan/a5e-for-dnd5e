@@ -1,0 +1,86 @@
+folder: KpVFJJxpHWw9kEfV
+name: Driving Rain
+type: spell
+img: icons/magic/water/projectile-beams-salvo-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You summon up a torrential downpour.</p>
+
+      <p dir="ltr">When you cast this spell, select an area as small as 100 feet
+      across or as large as a mile within range. The area becomes affected by
+      the Heavy Precipitation (rain) encounter element for the duration of the
+      spell. When the spell ends, all water created by it magically dissipates,
+      making it useless as a source of drinking water or for watering crops.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A piece of wood from a tree struck by lightning
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - storm
+      - water
+      - weather
+    rareSpell: false
+_id: ocw9p8f7rgb8h83k
+_key: '!items!ocw9p8f7rgb8h83k'

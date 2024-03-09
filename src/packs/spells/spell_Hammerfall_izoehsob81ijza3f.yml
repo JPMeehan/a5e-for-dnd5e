@@ -1,0 +1,90 @@
+folder: riV8qst3SvT2320y
+name: Hammerfall
+type: spell
+img: icons/skills/melee/strike-hammer-destructive-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You strike the ground before you with the force of all the
+      hammers of all the forges to drive your enemies to their knees.</p>
+
+      <p dir="ltr">Creatures in the spell&rsquo;s area must make a Strength save
+      or are knocked prone and take 2d6 bludgeoning damage. If a creature is in
+      the space that you target to start the cone, that creature instead takes
+      3d6 damage and has disadvantage on their saving throw.</p>
+
+      <p dir="ltr">On a successful save the target takes half damage and is not
+      knocked prone.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A hammer of any size
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - thunder
+      - - 1d6
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - earth
+      - thunder
+    rareSpell: false
+_id: izoehsob81ijza3f
+_key: '!items!izoehsob81ijza3f'

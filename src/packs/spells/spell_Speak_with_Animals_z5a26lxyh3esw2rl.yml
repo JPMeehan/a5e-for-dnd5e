@@ -1,0 +1,86 @@
+name: Speak with Animals
+type: spell
+img: icons/magic/nature/wolf-paw-glow-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - beasts
+      - communication
+      - nature
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You call upon the secret lore of beasts and gain the ability to speak
+      with them. Beasts have a different perspective of the world, and their
+      knowledge and awareness is filtered through that perspective. At a
+      minimum, beasts can tell you about nearby locations and monsters,
+      including things they have recently perceived. At the Narrator's
+      discretion, you might be able to persuade a beast to perform a small favor
+      for you.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - ritual
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: riV8qst3SvT2320y
+_id: z5a26lxyh3esw2rl
+_key: '!items!z5a26lxyh3esw2rl'

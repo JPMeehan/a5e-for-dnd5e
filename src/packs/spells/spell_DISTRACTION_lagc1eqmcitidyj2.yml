@@ -1,0 +1,90 @@
+name: DISTRACTION
+type: spell
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">With a loud noise of your choosing and a sharp, potentially
+      rude, gesture, you draw the attention of creatures within the targeted
+      area toward you and away from others.</p>
+
+      <p dir="ltr">On a failed save, creatures within the 10ft square gain
+      disadvantage on Perception checks until the start of your next turn unless
+      those Perception checks involve you. In addition, one creature of your
+      choice can attempt to hide, even if they lack cover or concealment, from
+      affected targets. If they intend to remain hidden after the end of your
+      next turn, however, they must seek cover or concealment as normal.</p>
+
+      <p dir="ltr">At levels 5, 10, and 15 you can choose additional creatures
+      that may attempt to hide without cover or concealment.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: square
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - sound
+    rareSpell: false
+_id: lagc1eqmcitidyj2
+_key: '!items!lagc1eqmcitidyj2'

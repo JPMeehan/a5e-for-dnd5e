@@ -1,0 +1,136 @@
+folder: riV8qst3SvT2320y
+name: Battle Stilts
+type: spell
+img: icons/commodities/wood/wood-pole.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You create a pair of stilts under your feet and grants you
+      supernatural balance to use them.</p>
+
+      <p dir="ltr">While the stilts are in place, you can walk through hazardous
+      liquid up to 10 feet deep without suffering ill effects, your height is 10
+      feet taller (and so you can reach or see over things further off the
+      ground), you have disadvantage on Stealth checks, and you gain a vicious
+      kick that functions as melee spell attack which deals 1d10 bludgeoning
+      damage + your spellcasting modifier and has a reach of 10 feet.</p>
+
+      <p dir="ltr">Your stilts have hit points equal to your proficiency bonus +
+      your caster level and an AC equal to your spell save DC. If your stilts
+      are destroyed or dispelled, you fall. If you attempt to cast this spell in
+      a location which would not accommodate your new height, it fails.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-c249d3a2-7fff-9f83-1846-eaf106ebf190">Cast at
+      Higher Levels.</strong> The height of the stilts increases by 5 feet for
+      every spell slot level above 1st, as does the reach of the kick attack. If
+      you cast this spell with at least a 3rd-level spell slot, your movement
+      speed increases by 10 feet. This increase occurs again at spell slot
+      levels 5, 7, and 9. If you use at least a 4th-level spell slot to cast the
+      spell, your stilts become spectral and can no longer be damaged, though
+      the can still be dispelled. They also deal force damage instead of
+      bludgeoning, and creatures on the ground must be at least Large size or
+      use a reach weapon in order to target you with melee attacks. If you cast
+      this spell with at least a 6th level spell slot, the attack damage
+      increases to 2d10 and creatures on the ground must be at least Huge size
+      or use a reach weapon in order to target you with melee attacks.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A long, thin piece of wood such as a wand, stick, or ruler
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 + @spell.moc
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/wood/wood-pole.webp
+    origin: Item.68h87n3z12azsd0x
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QqgIqdQ5uWMFzcxe
+        applyToSelf: true
+    transfer: false
+    name: On Stilts
+    _id: DaQ5n02PelQ7SytI
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!68h87n3z12azsd0x.DaQ5n02PelQ7SytI'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - utility
+    rareSpell: false
+_id: 68h87n3z12azsd0x
+_key: '!items!68h87n3z12azsd0x'

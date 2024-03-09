@@ -1,0 +1,89 @@
+folder: riV8qst3SvT2320y
+name: Quick Guard
+type: spell
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You whip your shield around to protect yourself, bolstering
+      it with magic as you do.</p>
+
+      <p dir="ltr">You may cast this spell whenever you are targeted by an
+      attack or whenever you are targeted with a hostile spell or ability that
+      would deal damage to you. If your shield is not already equipped, this
+      spell equips it as part of the casting (potentially raising your AC and
+      canceling the attack). If you are holding something that would prevent you
+      from equipping your shield, you drop it at your feet as part of the
+      casting of this spell. In addition, you gain resistance to any damage done
+      by the triggering attack or effect and gain an expertise die on any saving
+      throws it imposes. This spell provides no protection against an effect
+      with an area such as a dragon&rsquo;s breath or a fireball spell.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A shield
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+    rareSpell: false
+_id: 73wpdowh8mbw61gb
+_key: '!items!73wpdowh8mbw61gb'

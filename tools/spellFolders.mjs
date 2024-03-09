@@ -17,7 +17,7 @@ class Folder {
    * @param {string | null} [context.parentFolder]
    * @param {string | null} [context.color]
    */
-  constructor(name, { parentFolder, color, ...context }) {
+  constructor(name, { parentFolder, color, ...context } = {}) {
     this.name = name;
     this.color = color ?? null;
     this.flags = {};
@@ -94,7 +94,10 @@ async function createFolders() {
       { flag: 'w' }
     );
     for (const i of innerFolders) {
-      const inner = new Folder(i.name, { id: outer._id, color: i.color });
+      const inner = new Folder(i.name, {
+        parentFolder: outer._id,
+        color: i.color,
+      });
       filename =
         'folders_' + inner.name.replace(' ', '_') + '_' + inner._id + '.yml';
       await fs.writeFile(

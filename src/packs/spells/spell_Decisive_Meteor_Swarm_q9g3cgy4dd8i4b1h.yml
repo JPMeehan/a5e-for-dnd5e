@@ -1,0 +1,160 @@
+name: Decisive Meteor Swarm
+type: spell
+img: icons/magic/earth/projectiles-magma-stone-orange.webp
+effects:
+  - icon: icons/magic/earth/projectiles-magma-stone-orange.webp
+    origin: Item.q9g3cgy4dd8i4b1h
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: umjpQX84g8z5fEHE
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Meteor Swarm (50 or More Damage)
+    _id: Dg1eJ0V2SR2fQNtz
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!q9g3cgy4dd8i4b1h.Dg1eJ0V2SR2fQNtz'
+  - icon: icons/magic/earth/projectiles-magma-stone-orange.webp
+    origin: Item.q9g3cgy4dd8i4b1h
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: umjpQX84g8z5fEHE
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Meteor Swarm (100 or More Damage)
+    _id: n2mrbhqhIjS9GS7M
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone","stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+      - stunned
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!q9g3cgy4dd8i4b1h.n2mrbhqhIjS9GS7M'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - attack
+      - fire
+      - storm
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Scorching spheres of flame strike the ground at 4 different points
+      within range. The effects of a sphere reach around corners. Creatures and
+      objects in the area take 14d6 fire damage and 14d6 bludgeoning damage, and
+      flammable unattended objects catch on fire. If a creature is in the area
+      of more than one sphere, it is affected only once.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Decisive Meteor Swarm.
+      </strong>A creature&nbsp;that takes 50 or more damage is knocked prone.
+      A&nbsp;creature that takes 100 or more damage is stunned&nbsp;until the
+      end of its next turn and knocked prone.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 9
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '40'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 1 mile
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d46
+        - bludgeoning
+      - - 14d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: x4DhzmvgyEmZSOsn
+_id: q9g3cgy4dd8i4b1h
+_key: '!items!q9g3cgy4dd8i4b1h'

@@ -1,0 +1,118 @@
+name: Aid
+type: spell
+img: icons/magic/life/heart-cross-strong-flame-green.webp
+effects:
+  - icon: icons/magic/life/heart-cross-strong-flame-green.webp
+    origin: Item.c2ml2n1q4zmwhjw0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: noIfYYiQD8Y8MqI6
+        duration:
+          unit: hours
+    transfer: false
+    name: Aided
+    _id: xccUhaWkw1iMsUuU
+    changes:
+      - key: system.attributes.hp.max
+        value: '5'
+        mode: 2
+        priority: null
+      - key: system.attributes.hp.value
+        value: '5'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, each target increases its hit point maximum and
+      current hit points by 5.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!c2ml2n1q4zmwhjw0.xccUhaWkw1iMsUuU'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - enhancement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You draw upon divine power, imbuing the targets with fortitude. Until
+      the spell ends, each target increases its hit point maximum and current
+      hit points by 5.</p><p><strong><em>Cast at Higher Levels.</em></strong>
+      The granted hit points increase by an additional 5 for each slot level
+      above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: measure of spirits
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: c2ml2n1q4zmwhjw0
+_key: '!items!c2ml2n1q4zmwhjw0'

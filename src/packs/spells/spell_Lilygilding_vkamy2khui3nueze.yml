@@ -1,0 +1,91 @@
+folder: riV8qst3SvT2320y
+name: Lilygilding
+type: spell
+img: icons/commodities/treasure/goblet-coins-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">With a whoop and a smile you celebrate overwhelming
+      success!</p>
+
+      <p dir="ltr">When a creature within range succeeds at a skill check or
+      saving throw with a DC of 13 or higher, or critically succeeds on any
+      attack roll, you can cast this spell as a reaction. When you do so, the
+      target gains 12 temporary hit points and advantage on persuasion checks
+      for 10 minutes.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-32da0f37-7fff-9df5-b562-b5a89a212e4e">Cast at
+      Higher Levels.</strong> When cast at higher levels, the DC required
+      increases by 1, and the target gains an additional 6 temporary hit points,
+      for each spell slot level above 1st.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '12'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - communication
+      - enhancement
+    rareSpell: false
+_id: vkamy2khui3nueze
+_key: '!items!vkamy2khui3nueze'

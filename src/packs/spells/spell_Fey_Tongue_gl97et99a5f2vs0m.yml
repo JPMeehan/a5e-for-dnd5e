@@ -1,0 +1,123 @@
+name: Fey Tongue
+type: spell
+img: icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+system:
+  description:
+    value: >-
+      <p>You gain a +10 bonus on Insight checks made to understand the meaning
+      of any spoken Sylvan, Elvish or Primordial that you hear, or any written
+      text in those languages that you can touch. In addition, you gain
+      an&nbsp;<span class="freelinking-link">expertise die</span> on Performance
+      and Persuasion checks for the duration.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #17'
+    license: OGL 1.0a
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A piece of parchment with Elvish, Sylvan or Primordial writing on it
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+    origin: Item.DocjgjNYmpx1kzMS
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: A4iQ9Hf9hLpx2UaO
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Fey Tongue
+    _id: gMp1O3sIWlxqKCCy
+    changes:
+      - key: system.skills.prf.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.skills.per.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: flags.a5e.effects.bonuses.skills
+        value: >-
+          {"label":"Fey Tongue","formula":"10[Fey
+          Tongue]","damageType":"","context":{"skills":["ins"],"requiresProficiency":false,"passiveOnly":false},"default":false,"img":"icons/creatures/magical/fae-fairy-winged-glowing-green.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!gl97et99a5f2vs0m.gMp1O3sIWlxqKCCy'
+folder: riV8qst3SvT2320y
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - communication
+      - knowledge
+    rareSpell: false
+_id: gl97et99a5f2vs0m
+_key: '!items!gl97et99a5f2vs0m'

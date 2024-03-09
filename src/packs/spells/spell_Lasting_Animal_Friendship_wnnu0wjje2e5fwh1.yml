@@ -1,0 +1,123 @@
+name: Lasting Animal Friendship
+type: spell
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+effects:
+  - icon: icons/creatures/mammals/elk-moose-marked-green.webp
+    origin: Item.wnnu0wjje2e5fwh1
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: IV3HIuyqtazSa3SL
+        duration:
+          unit: seconds
+          type: seconds
+    transfer: false
+    name: Charmed
+    _id: V3v15wAVtuObQUMj
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!wnnu0wjje2e5fwh1.V3v15wAVtuObQUMj'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - beasts
+      - compulsion
+      - nature
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You allow your inner beauty to shine through in song and dance whether
+      to call a bird from its tree or a badger from its sett. Until the spell
+      ends or one of your companions harms it (whichever is sooner), the target
+      is charmed by you.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> Choose one additional
+      target for each slot level above 1st.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Lasting Animal
+      Friendship.&nbsp;</strong>So&nbsp;long as the target has a CR equal to or
+      less than&nbsp;half your proficiency bonus, the spell&rsquo;s
+      duration&nbsp;becomes permanent until it is dispelled or you&nbsp;cast
+      this spell again.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: red ribbon
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: wnnu0wjje2e5fwh1
+_key: '!items!wnnu0wjje2e5fwh1'

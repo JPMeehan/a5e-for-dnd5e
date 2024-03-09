@@ -1,0 +1,89 @@
+folder: YnFE57i6b3g8tOII
+name: Enforce Rationality
+type: spell
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  description:
+    value: >-
+      <p>With a shout to be still, you blast the area with cold rationality.
+      Creatures in the area that fail their saves immediately stop feeling
+      strong emotions and experience a flash of clarity. This ends the Charmed,
+      Confused, Frightened, and Rattled conditions, immediately ends a
+      berserker&rsquo;s rage, and stops any sort of rage or frenzy that a
+      creature may be feeling. The effect makes all affected creatures
+      indifferent to each other and you if their attitude was friendly or
+      hostile. It also suppresses other extreme emotions, shutting off intense
+      anger, sorrow, or joy. Persuasion checks based on rationality and calm
+      reasoning have advantage against affected creatures for one round after
+      this spell is cast; it is sometimes used to peacefully deter angry mobs
+      for that reason. Finally, affected creatures have advantage on
+      Intelligence checks and disadvantage on Charisma checks for one
+      minute.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - compulsion
+      - law
+      - negation
+    rareSpell: false
+_id: ohag1stxzb6o1tof
+_key: '!items!ohag1stxzb6o1tof'

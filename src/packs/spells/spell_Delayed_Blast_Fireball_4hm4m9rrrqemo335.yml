@@ -1,0 +1,94 @@
+name: Delayed Blast Fireball
+type: spell
+img: icons/magic/fire/orb-lightning-sun.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A glowing bead of yellow light flies from your finger and lingers at a
+      point at the center of the area until you end the spell&mdash;either
+      because your concentration is broken or because you choose to end
+      it&mdash;and the bead detonates. Each creature in the area takes 12d6 fire
+      damage. If at the end of your turn the bead has not yet detonated, the
+      damage increases by 1d6.</p><p>If touched before the spell ends, the
+      creature touching the bead makes a Dexterity saving throw or the bead
+      detonates. On a successful save, the creature can use an action to throw
+      the bead up to 40 feet, moving the area with it. If the bead strikes a
+      creature or solid object, the bead detonates.</p><p>The fire spreads
+      around corners, and it damages and ignites any flammable unattended
+      objects in the area.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> The damage increases by 1d6 for each slot level
+      above 7th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 7
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: tiny ball of bat guano and sulfur
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '20'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 12d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: 2sI4m8RtV461RZaG
+_id: 4hm4m9rrrqemo335
+_key: '!items!4hm4m9rrrqemo335'

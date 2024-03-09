@@ -1,0 +1,107 @@
+folder: YnFE57i6b3g8tOII
+name: Snowball
+type: spell
+img: icons/magic/water/snowflake-ice-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">Choose a point within 180 ft. A medium sized snowball appears
+      in a space of your choosing and begins rolling in a direction of your
+      choosing at a speed of 60ft per round in a straight 5ft wide line. This
+      snowball deals 1d6 points of cold damage per 15ft moved and knocks a
+      medium size or smaller creature prone, with a constitution save for half
+      damage and to avoid being knocked prone. Tiny or smaller creatures that
+      fail the saving throw are picked up by the snowball, and carried for the
+      remainder of its duration. If it strikes a medium or larger creature or
+      object during this first turn, it stops and the spell ends.</p>
+
+      <p dir="ltr">On the second turn, the snowball becomes large sized at the
+      beginning of your turn, and continues moving in the direction you
+      specified as a 10ft wide line. It now deals 4d6 cold damage, plus 1d6 per
+      additional 15ft moved, and stops when it strikes a large or larger
+      creature or object, ending the spell. Small or smaller creatures in the
+      area must make a constitution save to avoid being swept up into it and
+      carried for the remainder of its duration.</p>
+
+      <p dir="ltr">On the 3rd turn, the snowball becomes huge sized at the
+      beginning of your turn, and continues moving in the direction you
+      specified as a 15ft wide line. It now deals 8d6 cold damage, plus 1d6 per
+      additional 15ft moved, and stops when it strikes a huge or larger creature
+      or object, ending the spell. Medium or smaller creatures in the area must
+      make a constitution save to avoid being swept up into it and carried to
+      the end of its journey.</p>
+
+      <p dir="ltr">If the spell ends while carrying creatures, roll 1d4 for each
+      creature to determine how far from the spell&rsquo;s end the creature
+      lands and select a random square within that distance of the spell&rsquo;s
+      end. Creatures deposited in this way take an additional 1d6 bludgeoning
+      damage and are prone.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '180'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - cold
+      - movement
+      - nature
+    rareSpell: false
+_id: s3baz60sj5xdy7ip
+_key: '!items!s3baz60sj5xdy7ip'

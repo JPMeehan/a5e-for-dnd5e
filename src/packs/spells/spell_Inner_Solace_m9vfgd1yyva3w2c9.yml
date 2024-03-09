@@ -1,0 +1,116 @@
+folder: YnFE57i6b3g8tOII
+name: Inner Solace
+type: spell
+img: icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp
+system:
+  description:
+    value: >-
+      <p>You turn a creature's exhaustion into a well of inner strength. While
+      under the effect of this spell, the target gains a number of temporary hit
+      points equal to 1d6 &times; its combined levels of fatigue and strife at
+      the start of each of its turns. Any temporary hit points remaining are
+      lost when the spell ends.</p>
+
+      <p>Additionally, if its total levels of fatigue and strife are 3 or more,
+      the target gains advantage on its first attack roll each turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #15'
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp
+    origin: Item.m9vfgd1yyva3w2c9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: eKDYvZK5lL1xOqCI
+        duration:
+          unit: minutes
+    transfer: false
+    name: Inner Solace
+    _id: ceERcgnxqcVfTD0k
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>While under the effect of this spell, the target gains a number of
+      temporary hit points equal to 1d6 × its combined levels of fatigue and
+      strife at the start of each of its turns. Any temporary hit points
+      remaining are lost when the spell ends.</p>
+
+      <p>Additionally, if its total levels of fatigue and strife are 3 or more,
+      the target gains advantage on its first attack roll each turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!m9vfgd1yyva3w2c9.ceERcgnxqcVfTD0k'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+    rareSpell: false
+_id: m9vfgd1yyva3w2c9
+_key: '!items!m9vfgd1yyva3w2c9'

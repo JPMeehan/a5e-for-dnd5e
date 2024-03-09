@@ -1,0 +1,96 @@
+name: Cloud of Bubbles
+type: spell
+img: icons/magic/water/orb-water-bubbles-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You conjure a cloud of soap bubbles to obscure yourself.</p>
+
+      <p dir="ltr">The cloud of bubbles fills a 10-foot square and remains
+      there, drifting peacefully, for one minute unless dispersed by a strong
+      wind. While the bubbles are present, objects within the square or objects
+      with the square between them and the viewer are lightly obscured. A
+      creature with eyes that enters a square of bubbles or begins its turn in
+      one square must make a Constitution saving throw against your spell save
+      DC or&nbsp; suffer disadvantage on Perception checks and ranged attacks
+      until the beginning of its next turn. Beginning at 5th level, the bubbles
+      become caustic, and a creature that fails its save also takes 1d4 acid
+      damage. This increases to 2d4 at level 11 and 3d4 at level 17. Moving to a
+      separate square of bubbles from the same caster does not impose a new
+      save.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d4
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: square
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '0'
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - acid
+      - air
+      - arcane
+      - obscurement
+      - summoning
+    rareSpell: false
+_id: bto57kahyi6jna26
+_key: '!items!bto57kahyi6jna26'

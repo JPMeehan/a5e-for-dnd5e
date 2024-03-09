@@ -1,0 +1,233 @@
+name: Protection from Energy
+type: spell
+img: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+effects:
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+    origin: Item.ixw3ecp7e5rzivlb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nedyuuiZiAuIwnb8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Protection from Acid
+    _id: BcV1LNApxh2qlUlp
+    changes:
+      - key: system.traits.damageResistances
+        value: '["acid"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ixw3ecp7e5rzivlb.BcV1LNApxh2qlUlp'
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+    origin: Item.ixw3ecp7e5rzivlb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nedyuuiZiAuIwnb8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Protection from Cold
+    _id: cr9bDtmh7LdcdMpN
+    changes:
+      - key: system.traits.damageResistances
+        value: '["cold"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ixw3ecp7e5rzivlb.cr9bDtmh7LdcdMpN'
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+    origin: Item.ixw3ecp7e5rzivlb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nedyuuiZiAuIwnb8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Protection from Fire
+    _id: 08ylBKx5mLNEQFKb
+    changes:
+      - key: system.traits.damageResistances
+        value: '["fire"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ixw3ecp7e5rzivlb.08ylBKx5mLNEQFKb'
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+    origin: Item.ixw3ecp7e5rzivlb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nedyuuiZiAuIwnb8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Protection from Lightning
+    _id: uZKqiFahBbkZjYPW
+    changes:
+      - key: system.traits.damageResistances
+        value: '["lightning"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ixw3ecp7e5rzivlb.uZKqiFahBbkZjYPW'
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+    origin: Item.ixw3ecp7e5rzivlb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nedyuuiZiAuIwnb8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Protection from Thunder
+    _id: NKbhuvssFTFPB8d2
+    changes:
+      - key: system.traits.damageResistances
+        value: '["thunder"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ixw3ecp7e5rzivlb.NKbhuvssFTFPB8d2'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, the target has resistance to one of the following
+      damage types: acid, cold, fire, lightning, thunder.</p><p><strong><em>Cast
+      at Higher Levels.</em></strong> For each slot level above 2nd, the target
+      gains resistance to one additional type of damage listed above, with a
+      maximum number equal to your spellcasting ability modifier.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: ixw3ecp7e5rzivlb
+_key: '!items!ixw3ecp7e5rzivlb'

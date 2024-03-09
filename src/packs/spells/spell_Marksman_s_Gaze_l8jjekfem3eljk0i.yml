@@ -1,0 +1,80 @@
+name: Marksman's Gaze
+type: spell
+img: icons/creatures/eyes/human-single-brown.webp
+system:
+  description:
+    value: >-
+      <p>You focus your gaze to see past distractions. While the spell is
+      active, you ignore the vision penalties imposed by non-magical rain, snow,
+      smoke, fog, gas, and light foliage.</p>
+    chat: ''
+  source:
+    book: Arcane Sniper
+    license: OGL 1.0a
+  level: 0
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - senses
+    rareSpell: false
+folder: Tw5cqPbIxtfMfhDz
+_id: l8jjekfem3eljk0i
+_key: '!items!l8jjekfem3eljk0i'

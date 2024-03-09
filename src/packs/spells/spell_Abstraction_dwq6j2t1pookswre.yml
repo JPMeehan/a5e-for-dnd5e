@@ -1,0 +1,140 @@
+name: Abstraction
+type: spell
+img: icons/magic/control/silhouette-grow-shrink-blue.webp
+system:
+  description:
+    value: >-
+      <p>You imagine a creature you can see within range in a deconstructed and
+      simplified form. The target must make a Charisma saving throw . On a
+      failed save, the target becomes a barely recognizable, abstracted version
+      of itself until the spell ends.</p>
+
+      <p>An abstracted creature&rsquo;s speed is halved, it takes a &minus;2
+      penalty to AC and Dexterity saving throws, and it can&rsquo;t use
+      reactions. On its turn, it can use either an action or a bonus action, not
+      both. Regardless of the creature&rsquo;s abilities or magic items, it
+      can&rsquo;t make more than one melee or ranged attack during its turn.</p>
+
+      <p>At the end of each of its turns, an abstracted target repeats the
+      saving throw to end the spell&rsquo;s effect on it.</p>
+
+      <p><strong>Cast at Higher Levels.&nbsp;</strong>You can choose one
+      additional target for each slot level above 2nd.</p>
+
+      <div class="spell-source rules-source">
+
+      <div class="field field--name-field-spell-source
+      field--type-entity-reference field--label-inline">&nbsp;</div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #14'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a mechanical device that has been completely disassembled
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/silhouette-grow-shrink-blue.webp
+    origin: Item.dwq6j2t1pookswre
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: kAgcivCIomUmCnu4
+        duration:
+          unit: minutes
+    transfer: false
+    name: Abstracted
+    _id: XLzVCtGJ7pANyerH
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["slowed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>An abstracted creature’s speed is halved, it takes a −2 penalty to AC
+      and Dexterity saving throws, and it can’t use reactions. On its turn, it
+      can use either an action or a bonus action, not both. Regardless of the
+      creature’s abilities or magic items, it can’t make more than one melee or
+      ranged attack during its turn.</p>
+
+      <p>At the end of each of its turns, an abstracted target repeats the
+      saving throw to end the spell’s effect on it.</p>
+    statuses:
+      - slowed
+    folder: null
+    _key: '!items.effects!dwq6j2t1pookswre.XLzVCtGJ7pANyerH'
+folder: KpVFJJxpHWw9kEfV
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - prismatic
+      - transformation
+    rareSpell: false
+_id: dwq6j2t1pookswre
+_key: '!items!dwq6j2t1pookswre'

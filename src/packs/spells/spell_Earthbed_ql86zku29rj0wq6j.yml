@@ -1,0 +1,100 @@
+folder: DMm8aLAHhpqUVDEv
+name: Earthbed
+type: spell
+img: icons/magic/nature/root-vine-caduceus-healing.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You lie down and the earth swallows you, pulling you into a
+      healing embrace.</p>
+
+      <p dir="ltr">For the duration of the spell, you are buried in the earth in
+      a state of suspended animation and do not need to eat, drink, or breathe.
+      You have total cover and concealment and while you can be located with
+      magic or by digging, there is no obvious sign of your presence on the
+      surface. If you remain buried for the spell&rsquo;s entire duration, you
+      emerge fully restored. This spell ends any and all conditions affecting
+      you (including all accumulated levels of Fatigue and Strife and Doomed),
+      neutralizes all poisons and diseases affecting you, and restores all hit
+      dice and hit points. At your option, you can allow this process to
+      transform you, emerging as a different creature as if reincarnation had
+      been cast on&nbsp; your body.</p>
+
+      <p dir="ltr">Additionally, if you are dug up and attacked during the
+      spell&rsquo;s duration, you are vulnerable to all damage and do not awaken
+      from taking it (a friendly creature can awaken you with a Medicine check
+      with a DC equal to your spell save DC; each attempt to wake you takes 1
+      minute). If you die this way, you cannot be restored to life by any means
+      short of true resurrection or wish.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 8
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: A sacred druidic relic costing 500gp, consumed in the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+      - healing
+      - nature
+      - plants
+    rareSpell: false
+_id: ql86zku29rj0wq6j
+_key: '!items!ql86zku29rj0wq6j'

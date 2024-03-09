@@ -1,0 +1,118 @@
+name: Sanctuary
+type: spell
+img: icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp
+effects:
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp
+    origin: Item.uell7a5o6fcerke2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 2UYcB2uFDhtV8tv2
+        duration:
+          unit: minutes
+    transfer: false
+    name: Sanctuary
+    _id: 0QzHvftdKYJyvozw
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Any creature that makes an attack against or casts a harmful spell
+      against the target must first make a Wisdom saving throw. On a failed
+      save, the attacking creature must choose a different creature to attack or
+      it loses the attack or spell. This spell doesn't protect the target from
+      area effects, such as an explosion.</p>
+
+      <p>This spell ends early when the target attacks or casts a spell that
+      affects an enemy creature.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!uell7a5o6fcerke2.0QzHvftdKYJyvozw'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You ward a creature against intentional harm.</p><p>Any creature that
+      makes an attack against or casts a harmful spell against the target must
+      first make a Wisdom saving throw. On a failed save, the attacking creature
+      must choose a different creature to attack or it loses the attack or
+      spell. This spell doesn't protect the target from area effects, such as an
+      explosion.</p><p>This spell ends early when the target attacks or casts a
+      spell that affects an enemy creature.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: silver mirror
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: riV8qst3SvT2320y
+_id: uell7a5o6fcerke2
+_key: '!items!uell7a5o6fcerke2'

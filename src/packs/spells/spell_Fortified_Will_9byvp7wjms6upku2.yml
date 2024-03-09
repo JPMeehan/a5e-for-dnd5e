@@ -1,0 +1,111 @@
+folder: riV8qst3SvT2320y
+name: Fortified Will
+type: spell
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  description:
+    value: >-
+      <p>You harden a creature's mind with an unbending willpower. For the
+      duration, if the creature fails a saving throw against an effect that
+      would cause it to become charmed, confused, frightened, or stunned, it can
+      use its reaction to automatically succeed on the save instead. If it does,
+      it takes a level of strife and the spell ends.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #15'
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    origin: Item.9byvp7wjms6upku2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: mHo2GVP7ItsQSmkf
+        duration:
+          unit: minutes
+    transfer: false
+    name: Fortified Will
+    _id: vCfejSX6V7u0JDTL
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For the duration, if the creature fails a saving throw against an
+      effect that would cause it to become charmed, confused, frightened, or
+      stunned, it can use its reaction to automatically succeed on the save
+      instead. If it does, it takes a level of strife and the spell ends.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!9byvp7wjms6upku2.vCfejSX6V7u0JDTL'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - divine
+      - protection
+    rareSpell: false
+_id: 9byvp7wjms6upku2
+_key: '!items!9byvp7wjms6upku2'

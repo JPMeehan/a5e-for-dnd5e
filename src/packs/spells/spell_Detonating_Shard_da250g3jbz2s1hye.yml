@@ -1,0 +1,96 @@
+folder: riV8qst3SvT2320y
+name: Detonating Shard
+type: spell
+img: icons/magic/earth/explosion-lava-orange.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You create a shard of superheated volcanic glass and fire it
+      at your target. On a hit, the target takes 1d10 points of piercing damage.
+      Then, hit or miss, the shard explodes in a blast of razor-sharp,
+      superheated obsidian. The target and all creatures within 5 feet of it
+      must make a Dexterity saving throw or take 1d6 piercing and 1d6 fire
+      damage.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-e8043721-7fff-d006-7f90-fc5bef90fabe">Cast At
+      Higher Levels. </strong>The fire damage increases by 1d6 for each spell
+      slot level above 1st. If you cast the spell with at least a 3rd-level
+      spell slot, creatures that succeed on their save take half damage from the
+      blast rather than avoiding it entirely.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10
+        - piercing
+      - - 1d6
+        - piercing
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - earth
+      - fire
+      - nature
+    rareSpell: false
+_id: da250g3jbz2s1hye
+_key: '!items!da250g3jbz2s1hye'

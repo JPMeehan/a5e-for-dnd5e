@@ -1,0 +1,83 @@
+name: Heal
+type: spell
+img: icons/magic/life/heart-cross-strong-flame-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - healing
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A torrent of healing energy suffuses the target and it regains 70 hit
+      points. The spell also ends blindness, deafness, and any diseases
+      afflicting the target.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> The hit points regained increase by 10 for each slot
+      level above 6th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '70'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: FgEE27o1nHRME564
+_id: i4869qu4aokvlvxr
+_key: '!items!i4869qu4aokvlvxr'

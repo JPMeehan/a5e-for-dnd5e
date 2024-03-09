@@ -1,0 +1,113 @@
+name: Greater Invisibility
+type: spell
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects:
+  - icon: icons/magic/light/explosion-star-glow-silhouette.webp
+    origin: Item.0cdtrkihoe9jdon1
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 1dVOQi2bOLxhT0C6
+        duration:
+          unit: minutes
+    transfer: false
+    name: Greater Invisibility
+    _id: jyK6dZmZykERNKlw
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is invisible. Anything the target is carrying or wearing is
+      also invisible as long as it remains in the target's possession.</p>
+    statuses:
+      - invisible
+    folder: null
+    _key: '!items.effects!0cdtrkihoe9jdon1.jyK6dZmZykERNKlw'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - obscurement
+      - shadow
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target is invisible. Anything the target is carrying or wearing is
+      also invisible as long as it remains in the target's possession.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 3HQE3FN5vUCIygDu
+_id: 0cdtrkihoe9jdon1
+_key: '!items!0cdtrkihoe9jdon1'

@@ -250,7 +250,7 @@
  * @typedef Spell
  * @property {number} level                      Base level of the spell.
  * @property {string} school                     Magical school to which this spell belongs.
- * @property {Set<string>} properties            General components and tags for this spell.
+ * @property {Array<string>} properties            General components and tags for this spell.
  * @property {object} materials                  Details on material components required for this spell.
  * @property {string} materials.value            Description of the material components required for casting.
  * @property {boolean} materials.consumed        Are these material components consumed during casting?

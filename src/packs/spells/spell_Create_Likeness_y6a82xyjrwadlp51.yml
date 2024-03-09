@@ -1,0 +1,84 @@
+name: Create Likeness
+type: spell
+img: icons/commodities/treasure/doll-voodoo.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You mold clay or other materials into a rough approximation
+      of your target, wrapping it in cloth to mimic clothes or armor, and even
+      use straw, needles, or lint to create a facsimile of hair. This doll is
+      then imbued with a spark of your malevolence.</p>
+
+      <p dir="ltr">The likeness of the target creature does not provide any
+      function of its own, save as a rough approximation of a person or
+      creature. Showing it to someone while asking about the target gives
+      advantage on checks made to identify or locate someone through social
+      means</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - somatic
+    - material
+  materials:
+    value: Doll material and something of your target; 1gp in value total
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - evil
+    rareSpell: false
+_id: y6a82xyjrwadlp51
+_key: '!items!y6a82xyjrwadlp51'

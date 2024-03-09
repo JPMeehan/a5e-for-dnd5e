@@ -1,0 +1,95 @@
+folder: 3HQE3FN5vUCIygDu
+name: Enervating Light
+type: spell
+img: icons/magic/light/beam-rays-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You conjure a mote of sickly light at a point within range. The mote
+      emits&nbsp;<span class="freelinking-link">bright light</span>&nbsp;in a
+      20-foot radius, and&nbsp;<span class="freelinking-link">dim
+      light</span>&nbsp;for another 20 feet. A non-undead creature that starts
+      its turn in the bright light, or enters the bright light for the first
+      time on a turn, must succeed on a Constitution&nbsp;<span
+      class="freelinking-link">saving throw</span>&nbsp;or suffer a level
+      of&nbsp;<span class="freelinking-link">fatigue</span>&nbsp;.</p>
+
+      <p>Additionally, if it suffers this fatigue, all&nbsp;<span
+      class="freelinking-link">undead</span>&nbsp;in the area of bright light
+      gain 2d8 temporary hit points and those in the area of dim light gain 1d8
+      temporary hit points. On a successful save, a creature is&nbsp;<span
+      class="freelinking-link">immune</span>&nbsp;to the effect until it leaves
+      the area.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #15'
+    license: OGL 1.0a
+  level: 4
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 40
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - temphp
+      - - 1d8
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - undead
+    rareSpell: false
+_id: dw6rd9ry1ndfy5x4
+_key: '!items!dw6rd9ry1ndfy5x4'

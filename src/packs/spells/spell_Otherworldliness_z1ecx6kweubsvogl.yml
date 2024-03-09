@@ -1,0 +1,127 @@
+name: Otherworldliness
+type: spell
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You call upon the strange power you have harnessed to produce
+      a variety of useful effects. Choose one:&nbsp;</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">An eye with an appearance of your
+      choosing opens on your body. You can see through the eye, and if it is in
+      a useful place (such as the back of your head or on a hand you can use to
+      look around corners with) it may, at the Narrator&rsquo;s discretion, give
+      you an Expertise die on Perception checks. It closes and disappears when
+      the spell ends.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Darkness or magical energy swirls around
+      your feet. While the spell lasts, you are lightly obscured.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Spectral insects of a type of your
+      choosing flutter, buzz, or crawl around your space and body.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Your touch causes things you touch to
+      lose some of their essence - colors bleach, food becomes less flavorful,
+      light becomes pale rather than warm. Whatever you touch returns to normal
+      when the spell ends.&nbsp;</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You emit a high-pitched sound in a
+      20-foot sphere around yourself that most creatures can&rsquo;t consciously
+      perceive, but find irritating just the same. Checks to maintain
+      concentration are made with a -1d4 penalty while this effect is active.
+      Some creatures may also decide to be somewhere else, finding you too
+      annoying to hang around.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - senses
+      - shapechanging
+      - obscurement
+    rareSpell: false
+_id: z1ecx6kweubsvogl
+_key: '!items!z1ecx6kweubsvogl'

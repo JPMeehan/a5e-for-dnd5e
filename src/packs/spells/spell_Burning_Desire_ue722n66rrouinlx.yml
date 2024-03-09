@@ -1,0 +1,84 @@
+folder: 7JSQOMqQquD3x5jj
+name: Burning Desire
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+system:
+  description:
+    value: >-
+      <p>You speak a command to the target that it can perform in a single turn.
+      The action cannot be one that would result in the creature&rsquo;s demise
+      such as stabbing itself or stepping off of a high cliff, but is otherwise
+      unrestricted. While the spell is active, at the beginning of the
+      target&rsquo;s turns, it must make a Wisdom saving throw. If it succeeds,
+      it suffers no ill effects and may act normally. If it fails, it can either
+      perform the action you commanded, ending the spell, or gain a distress
+      charge, then take 1d4 psychic damage for each distress charge it has.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 5
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - compulsion
+      - psychic
+    rareSpell: false
+_id: ue722n66rrouinlx
+_key: '!items!ue722n66rrouinlx'

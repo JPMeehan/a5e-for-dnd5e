@@ -1,0 +1,113 @@
+folder: KpVFJJxpHWw9kEfV
+name: Chromatic Beam
+type: spell
+img: icons/magic/control/buff-luck-fortune-rainbow.webp
+system:
+  description:
+    value: >-
+      <div id="spell-body">
+
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p>You pour prismatic energy into a gemstone refracting the energy until
+      it fires off as a chromatic beam in a direction you choose. Choose red
+      (fire), orange (acid), yellow (lightning), green (poison), blue (cold), or
+      indigo (thunder) for the color of beam you create. Each creature in the
+      area takes 4d8 damage of the chosen type.</p>
+
+      <p><strong>Cast at Higher Levels. </strong><span style="font-size:
+      10.5pt;">The damage increases by 1d8 for each slot level above
+      2nd.</span></p>
+
+      </div>
+
+      </div>
+
+      <div class="spell-source rules-source">
+
+      <div class="field field--name-field-spell-source
+      field--type-entity-reference field--label-inline">&nbsp;</div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #14'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a diamond worth at least 50 gp
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d8
+        - fire
+      - - 4d8
+        - acid
+      - - 4d8
+        - lightning
+      - - 4d8
+        - poison
+      - - 4d8
+        - cold
+      - - 4d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - prismatic
+    rareSpell: false
+_id: mdslop89gidjb3ea
+_key: '!items!mdslop89gidjb3ea'

@@ -1,0 +1,119 @@
+name: Feeblemind
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-swirl.webp
+    origin: Item.ipsx6ijee1qpy0jl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 6QyFt4npwuvONqfc
+    transfer: false
+    name: Feebleminded
+    _id: NrMcf4r6QaZCHLy8
+    changes:
+      - key: system.abilities.cha.value
+        value: '1'
+        mode: 6
+        priority: null
+      - key: system.abilities.cha.value
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>The creature's Intelligence and Charisma scores are both reduced to 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way, but it is still able to recognize, follow, and even protect its allies.</p>\n<p>At the end of every 30 days, the creature can repeat its saving throw against this spell, ending it on a success.</p>\n<p><em>Greater restoration</em>,\_<em>heal</em>, or\_<em>wish</em> can also be used to end the spell.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!ipsx6ijee1qpy0jl.NrMcf4r6QaZCHLy8'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - psychic
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You blast the target's mind, attempting to crush its intellect and
+      sense of self. The target takes 4d6 psychic damage.</p><p>On a failed
+      save, until the spell ends the creature's Intelligence and Charisma scores
+      are both reduced to 1. The creature can't cast spells, activate magic
+      items, understand language, or communicate in any intelligible way, but it
+      is still able to recognize, follow, and even protect its allies.</p><p>At
+      the end of every 30 days, the creature can repeat its saving throw against
+      this spell, ending it on a success.</p><p><em>Greater restoration</em>,
+      <em>heal</em>, or <em>wish</em> can also be used to end the spell.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 8
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: handful of clay, crystal, glass, or mineral spheres
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+folder: DMm8aLAHhpqUVDEv
+_id: ipsx6ijee1qpy0jl
+_key: '!items!ipsx6ijee1qpy0jl'

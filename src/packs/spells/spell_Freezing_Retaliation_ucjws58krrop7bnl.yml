@@ -1,0 +1,95 @@
+folder: riV8qst3SvT2320y
+name: Freezing Retaliation
+type: spell
+img: icons/magic/water/projectile-ice-chunk-blue.webp
+system:
+  description:
+    value: >-
+      <p>You respond to being struck with a blast of cold that freezes their
+      weapon to you.</p>
+
+      <p>You may only cast this spell in response to being damaged by a melee
+      weapon attack. The creature that attacked you takes 2d6 points of cold
+      damage. If the creature struck you did so with a wielded weapon, the
+      weapon freezes to your body for one minute. The creature can free the
+      weapon with a Strength saving throw as an action on its turn or it can let
+      go of the weapon if it wishes (no action required). You and the creature
+      are considered grappling each other as long as it retains its hold on the
+      weapon and the weapon remains stuck to you.</p>
+
+      <p>If the creature instead struck you with an unarmed strike or a natural
+      weapon such as a bite or claw attack, it takes an additional d6 of cold
+      damage, but is not frozen to you.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - cold
+      - - 3d6
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - cold
+      - protection
+    rareSpell: false
+_id: ucjws58krrop7bnl
+_key: '!items!ucjws58krrop7bnl'

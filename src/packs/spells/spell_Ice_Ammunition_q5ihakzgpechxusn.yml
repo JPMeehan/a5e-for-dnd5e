@@ -1,0 +1,87 @@
+name: Ice Ammunition
+type: spell
+img: icons/magic/water/projectile-arrow-cold-fire-blue.webp
+system:
+  description:
+    value: >-
+      <p>To cast this spell, you must be within 30 feet of a body of water
+      containing at least 5 gallons of water or an area of dense fog.</p><p>You
+      crystalize water from the environment into a piece of ammunition made of
+      solid magical ice. It lasts for 1 round and then melts. When fired it
+      deals an additional amount of cold damage equal to your proficiency
+      modifier on a hit. After hitting, the ammunition melts away, leaving no
+      trace of its existence other than a small puddle.</p>
+    chat: ''
+  source:
+    book: Arcane Sniper
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A ranged weapon
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof'
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - nature
+      - cold
+      - weaponry
+    rareSpell: false
+folder: Tw5cqPbIxtfMfhDz
+_id: q5ihakzgpechxusn
+_key: '!items!q5ihakzgpechxusn'

@@ -1,0 +1,127 @@
+name: Transferrable Darklight
+type: spell
+img: icons/magic/unholy/beams-impact-pink.webp
+effects:
+  - icon: icons/magic/unholy/beams-impact-pink.webp
+    origin: Item.ki2e07qexxr83w8m
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4tWSCZCjiDUJKYEP
+    transfer: false
+    name: Transferrable Darklight
+    _id: QZOSIUHdqIHY47Qg
+    changes:
+      - key: '@token.light.bright'
+        value: '20'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '40'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You create an enchanted flame that surrounds your hand and produces no
+      heat, but sheds bright light in a 20-foot radius around you and dim light
+      for an additional 20 feet. Only you and up to 6 creatures of your choice
+      can see this light.</p>
+
+      <hr class="a5e-rule u-my-md" />
+
+      <p><strong>Rare: Transferrable Darklight.</strong> During the spell’s
+      duration, you can use an action to kindle this light on a willing
+      creature’s hand, sharing the effect with them. When the spell’s duration
+      ends, or when any of the flames are dispelled, the spell ends.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ki2e07qexxr83w8m.QZOSIUHdqIHY47Qg'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - utility
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You create an enchanted flame that surrounds your hand and produces no
+      heat, but sheds bright light in a 20-foot radius around you and dim light
+      for an additional 20 feet. Only you and up to 6 creatures of your choice
+      can see this light.</p><hr class="a5e-rule u-my-md"><p><strong>Rare:
+      Transferrable Darklight.</strong> During the spell’s duration, you can use
+      an action to kindle this light on a willing creature’s hand, sharing the
+      effect with them. When the spell’s duration ends, or when any of the
+      flames are dispelled, the spell ends.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: torch coated with pitch
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ULrFDUr9XIqKkKnP
+_id: ki2e07qexxr83w8m
+_key: '!items!ki2e07qexxr83w8m'

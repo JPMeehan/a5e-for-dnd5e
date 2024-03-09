@@ -1,0 +1,91 @@
+name: Storming Flame Blade
+type: spell
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - fire
+      - weaponry
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>A scimitar-shaped blade of fire appears in your hand, lasting for the
+      duration. It disappears if you drop it, but you can use a bonus action to
+      recall it. The blade casts bright light in a 10-foot radius and dim light
+      for another 10 feet. You can use an action to make a melee spell attack
+      with the blade that deals 3d6 fire damage.</p><p><strong>Cast At Higher
+      Levels. </strong>The damage increases by 1d6 for every two slot levels
+      above 2nd.</p><hr class="a5e-rule u-my-md"><p><strong>Rare: Storming Flame
+      Blade.</strong> This spell produces a crackling white blade which deals
+      lightning damage. Attacks with this weapon have advantage against
+      creatures wearing metal armor.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: sumac leaf
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: EkkxXAsn0xjh7IWp
+_id: osn0oh6w909zn3tv
+_key: '!items!osn0oh6w909zn3tv'

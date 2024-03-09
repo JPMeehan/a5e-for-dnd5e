@@ -1,0 +1,121 @@
+name: Enhanced Mage Armor
+type: spell
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+effects:
+  - icon: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+    origin: Item.s176vdtvssr6fglk
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: p54IchHbLju7Y4vP
+        duration:
+          unit: hours
+    transfer: false
+    name: Mage Armor
+    _id: xILhsp6xwaUWS7YT
+    changes:
+      - key: system.attributes.ac.value
+        value: 10 + @prof + @dex.mod
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!s176vdtvssr6fglk.xILhsp6xwaUWS7YT'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - protection
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, the target is protected by a shimmering magical
+      force. Its AC becomes 13 + its Dexterity modifier. The spell ends if the
+      target dons armor, or if you use an action to dismiss it.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The target gains 5
+      temporary hit points for each slot level above 1st. The temporary hit
+      points last for the spell's duration.</p>
+
+      <p><strong><em>Rare:</em> Enhanced Mage Armor.</strong>
+      The&nbsp;target&rsquo;s AC becomes 10 + your&nbsp;proficiency bonus + its
+      Dexterity modifier.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: metal stud
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '0'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: s176vdtvssr6fglk
+_key: '!items!s176vdtvssr6fglk'

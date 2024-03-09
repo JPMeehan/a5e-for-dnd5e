@@ -1,0 +1,86 @@
+name: Commune with Nature
+type: spell
+img: icons/magic/nature/tree-spirit-glow-black-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - knowledge
+      - nature
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, your spirit bonds with that of nature and you
+      learn about the surrounding land.</p><p>When cast outdoors the spell
+      reaches 3 miles around you, and in natural underground settings it reaches
+      only 300 feet. The spell fails if you are in a heavily constructed area,
+      such as a dungeon or town.</p><p>You learn up to 3 facts of your choice
+      about the surrounding area:</p><ul><li>Terrain and bodies of
+      water</li><li>Common flora, fauna, minerals, and peoples</li><li>Any
+      unnatural creatures in the area</li><li>Weaknesses in planar
+      boundaries</li><li>Built structures</li></ul></p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 5
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - ritual
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 7JSQOMqQquD3x5jj
+_id: pdwrag8eq7r0ldcp
+_key: '!items!pdwrag8eq7r0ldcp'

@@ -1,0 +1,92 @@
+name: Spellbound Oath
+type: spell
+img: icons/equipment/neck/choker-chain-thick-gold.webp
+system:
+  description:
+    value: >-
+      <p>This spell binds two creatures to an agreement spoken as the part of
+      the casting of the spell in a language that both parties understand.</p>
+
+      <p>The agreement must include a promise by both parties to do or refrain
+      from doing something specific. The promises do not need to be the same or
+      equal but mustn&rsquo;t be obviously harmful to either creature. For
+      example, an archfey may promise to restore the freedom of a loved one in
+      exchange for a mortal becoming their emissary.</p>
+
+      <p>A creature attempting to act in a way that will breach the terms must
+      make a Wisdom&nbsp;<span class="freelinking-link">saving throw</span> . On
+      a failure, they find themselves unable to act as intended, ending their
+      turn if they are in combat. Regardless, it suffers 52 (8d12) psychic
+      damage for the attempt. Damage from this spell does not require a save for
+      massive damage, though the creature makes death saving throws as
+      usual.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #17'
+    license: OGL 1.0a
+  level: 6
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: Two matching pieces of jewelry worth at least 25 gold each
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 8d12
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+folder: FgEE27o1nHRME564
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - compulsion
+    rareSpell: false
+_id: ehal804pav5zu5tc
+_key: '!items!ehal804pav5zu5tc'

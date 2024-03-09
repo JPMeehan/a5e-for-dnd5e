@@ -1,0 +1,99 @@
+folder: YnFE57i6b3g8tOII
+name: Chains of Hell
+type: spell
+img: icons/magic/fire/barrier-wall-explosion-orange.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You summon up a set of heavy, spiked chains made of hellish
+      metal to bind and constrict your foe.</p>
+
+      <p dir="ltr">When you cast this spell, a set of heavy metal chains covered
+      in barbs wrap around the target, which must make a Strength saving throw.
+      On a failed save, the chains deal 3d6 piercing damage and 3d6 psychic
+      damage to the target. The creature is also grappled (escape DC equal to
+      your spell save DC).&nbsp; A creature that succeeds on its save takes half
+      damage and is still grappled, but rolls its attempts to escape with
+      advantage.</p>
+
+      <p dir="ltr">Each time the target begins its turn grappled this way, the
+      creature takes 1d6 piercing damage and 1d6 psychic damage as the chains
+      constrict them.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-4d03dbe3-7fff-ca81-dc22-3206396c9449">Cast At
+      Higher Levels. </strong>The initial damage increases by 1d6 piercing and
+      1d6 psychic damage for each spell slot level above 3rd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: none
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - piercing
+      - - 1d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - evil
+      - summoning
+    rareSpell: false
+_id: mac6yorikyk9li9d
+_key: '!items!mac6yorikyk9li9d'

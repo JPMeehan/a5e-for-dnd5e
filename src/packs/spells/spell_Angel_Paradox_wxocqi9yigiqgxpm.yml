@@ -1,0 +1,87 @@
+name: Angel Paradox
+type: spell
+img: icons/magic/light/projectile-beam-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - radiant
+      - undead
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target is bombarded with a fraction of energy stolen from some
+      slumbering, deific source, immediately taking 40 radiant damage. This
+      spell ignores resistances but does not ignore immunities. A creature
+      killed by this spell does not decay and cannot become undead for the
+      spell's duration. Days spent under the influence of this spell don't count
+      against the time limit of spells such as <em>raise dead</em>. This effect
+      ends early if the corpse takes necrotic damage.</p><p><strong><em>Cast at
+      Higher Levels.</em></strong> The damage and duration increase to 45
+      radiant damage and 1 year when using an 8th-level spell slot, or 50 damage
+      and until dispelled when using a 9th-level spell slot.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 7
+  school: evo
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: '5'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '40'
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 2sI4m8RtV461RZaG
+_id: wxocqi9yigiqgxpm
+_key: '!items!wxocqi9yigiqgxpm'

@@ -1,0 +1,88 @@
+folder: riV8qst3SvT2320y
+name: Missage
+type: spell
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You point and whisper your message at the target. It alone
+      hears the message and may reply in a whisper audible only to you. However
+      the voice that your message is delivered in sounds like a creature of your
+      choosing that you have heard at least once.</p>
+
+      <p dir="ltr">You may cast this spell through solid objects even if you
+      cannot see your target. However it is blocked by 3ft of soil, 1ft of
+      stone, or 1 inch of metal. It passes through doors and around corners with
+      ease.</p>
+
+      <p dir="ltr">Deception and Perform checks made to trick the target of the
+      Missage spell gain advantage.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A scrap of paper
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - communication
+      - sound
+    rareSpell: false
+_id: 53sg7r11sfbjj2x1
+_key: '!items!53sg7r11sfbjj2x1'

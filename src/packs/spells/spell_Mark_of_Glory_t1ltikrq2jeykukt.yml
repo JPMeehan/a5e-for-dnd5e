@@ -1,0 +1,152 @@
+folder: 3HQE3FN5vUCIygDu
+name: Mark of Glory
+type: spell
+img: icons/commodities/treasure/crown-gold-laurel-wreath.webp
+system:
+  description:
+    value: >-
+      <p>You place a mark on the target that covers them with supernatural
+      glory. For the duration, the creature can choose to shed bright light to a
+      range of 30 feet and dim light to a range of 60, their effective prestige
+      level rises by 2, they gain a fly speed of 40 feet, and they can spend a
+      bonus action to walk through a solid surface no more than one foot
+      thick.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 4
+  school: ill
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/treasure/crown-gold-laurel-wreath.webp
+    origin: Item.t1ltikrq2jeykukt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: VVlsDSnXqpzDWdTS
+        duration:
+          unit: hours
+    transfer: false
+    name: Mark of Glory
+    _id: mIHNd7Fqk9W1NwP6
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '40'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For the duration, the creature can choose to shed bright light to a
+      range of 30 feet and dim light to a range of 60, their effective prestige
+      level rises by 2, they gain a fly speed of 40 feet, and they can spend a
+      bonus action to walk through a solid surface no more than one foot
+      thick.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t1ltikrq2jeykukt.mIHNd7Fqk9W1NwP6'
+  - icon: icons/commodities/treasure/crown-gold-laurel-wreath.webp
+    origin: Item.t1ltikrq2jeykukt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: VVlsDSnXqpzDWdTS
+    transfer: false
+    name: Glorious Light
+    _id: lKN75NPQ3n5bJzim
+    changes:
+      - key: '@token.light.bright'
+        value: '30'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '60'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!t1ltikrq2jeykukt.lKN75NPQ3n5bJzim'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - enhancement
+      - law
+      - movement
+      - utility
+      - displacement
+    rareSpell: false
+_id: t1ltikrq2jeykukt
+_key: '!items!t1ltikrq2jeykukt'

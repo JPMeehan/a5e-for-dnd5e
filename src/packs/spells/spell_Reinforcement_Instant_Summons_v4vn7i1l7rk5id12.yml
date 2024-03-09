@@ -1,0 +1,103 @@
+name: Reinforcement Instant Summons
+type: spell
+img: icons/commodities/gems/gem-faceted-rough-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - summoning
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, a mystical bond connects the target and the
+      precious stone used to cast this spell.</p>
+
+      <p>Any time after, you may crush the stone and speak the name of the item,
+      summoning it instantly into your hand no matter the physical,
+      metaphysical, or planar distances involved, at which point the spell ends.
+      If another creature is holding the item when the stone is crushed, the
+      item is not summoned to you. Instead, the spell grants you the knowledge
+      of who possesses it and a general idea of the creature's location.</p>
+
+      <p>Each time you cast this spell, you must use a different precious
+      stone.</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.spells.Item.hms9kdl2qoqjjrs4]{Dispel
+      Magic} or a similar effect targeting the stone ends the spell.</p>
+
+      <p><strong>Rare:&nbsp;<em>Reinforcement Instant
+      Summons.&nbsp;</em></strong>The spell can target a willing creature and
+      uses a&nbsp;precious statue carved to resemble the target. This material
+      component costs 1,000 gold per Hit Die&nbsp;that the creature possesses.
+      Once cast, you may&nbsp;summon the target the same way that you
+      would&nbsp;summon an item. If the target is asleep, it is
+      awakened&nbsp;when summoned. The target may decline the&nbsp;summons, in
+      which case you are granted a general&nbsp;idea of the target&rsquo;s
+      current location.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: precious stone worth 1, 000 gold
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: object
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: hp7XyogTunXDH7Ig
+_id: v4vn7i1l7rk5id12
+_key: '!items!v4vn7i1l7rk5id12'

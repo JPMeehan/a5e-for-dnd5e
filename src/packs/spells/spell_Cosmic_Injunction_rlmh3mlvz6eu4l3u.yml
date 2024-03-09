@@ -1,0 +1,95 @@
+folder: FgEE27o1nHRME564
+name: Cosmic Injunction
+type: spell
+img: icons/magic/defensive/shield-barrier-blades-teal.webp
+system:
+  description:
+    value: >-
+      <p>You forbid a creature to take a specific action until the end of its
+      next turn. Valid choices are melee attacks, ranged attacks, casting
+      spells, or a specific, known action particular to the creature such as a
+      dragon&rsquo;s breath weapon. If the creature can perform the prohibited
+      action with a bonus action, reaction, or legendary action, the
+      spell&rsquo;s effects apply to those as well. The creature is aware of
+      your prohibition and the potential consequences for disobeying it
+      regardless of any language barriers between you and it.</p>
+
+      <p>On its next turn, if the creature decides to defy your forbiddance and
+      perform the action anyway, it must make a Charisma saving throw against
+      your spell save DC. On a success, it suffers no ill effects and can
+      perform the action as normal. On a failure, it can perform the action as
+      normal, but if it does, it suffers 4d8 points of psychic damage and is
+      slowed until the end of its next turn.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 6
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A badge of office or book of laws
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d8
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - compulsion
+      - law
+      - negation
+      - psychic
+    rareSpell: false
+_id: rlmh3mlvz6eu4l3u
+_key: '!items!rlmh3mlvz6eu4l3u'

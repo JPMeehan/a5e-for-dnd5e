@@ -1,0 +1,111 @@
+name: Mindshield
+type: spell
+img: icons/magic/symbols/runes-star-magenta.webp
+effects:
+  - icon: icons/magic/symbols/runes-star-magenta.webp
+    origin: Item.eut9ps902to4nd1u
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iDCtzR27wRAeIiZa
+        duration:
+          unit: minutes
+    transfer: false
+    name: Mindshield
+    _id: QwxVLuOkkUcHrb7o
+    changes:
+      - key: system.traits.damageResistances
+        value: '["psychic"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target has resistance to psychic damage and advantage on saving
+      throws made to resist being charmed or frightened.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!eut9ps902to4nd1u.QwxVLuOkkUcHrb7o'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - protection
+      - psychic
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target has resistance to psychic damage and advantage on saving
+      throws made to resist being charmed or frightened.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 3HQE3FN5vUCIygDu
+_id: eut9ps902to4nd1u
+_key: '!items!eut9ps902to4nd1u'

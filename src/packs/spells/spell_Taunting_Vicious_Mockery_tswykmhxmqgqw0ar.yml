@@ -1,0 +1,133 @@
+name: Taunting Vicious Mockery
+type: spell
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+effects:
+  - icon: icons/magic/sonic/scream-wail-shout-teal.webp
+    origin: Item.tswykmhxmqgqw0ar
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Q3Ts07ycwHan15js
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Taunted
+    _id: VZWerjXTPrFvHKDb
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On a failed saving throw the target has disadvantage on all attack
+      rolls next round, and if it makes an attack it can only target you (it can
+      take other actions, but if the target takes the Attack action or casts a
+      spell that includes a spell attack, that attack must be against you).
+      Persuasion checks you make against the target have disadvantage, even
+      after the spell’s duration ends.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!tswykmhxmqgqw0ar.VZWerjXTPrFvHKDb'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - psychic
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You verbally insult or mock the target so viciously its mind is seared.
+      As long as the target hears you (understanding your words is not required)
+      it takes 1d6 psychic damage and has disadvantage on the first attack roll
+      it makes before the end of its next turn.</p>
+
+      <p>The spell's damage increases by 1d6 when you reach 5th level (2d6),
+      11th level (3d6), and 17th level (4d6).</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Taunting Vicious
+      Mockery.&nbsp;</strong>Your&nbsp;amazingly effective insults and mockeries
+      also&nbsp;entertain others&mdash;even the target&rsquo;s allies. On
+      a&nbsp;failed saving throw the target has disadvantage&nbsp;on all attack
+      rolls next round, and if it makes an&nbsp;attack it can only target you
+      (it can take other&nbsp;actions, but if the target takes the Attack
+      action&nbsp;or casts a spell that includes a spell attack,
+      that&nbsp;attack must be against you). Persuasion checks&nbsp;you make
+      against the target have disadvantage,&nbsp;even after the spell&rsquo;s
+      duration ends.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 0
+  school: enc
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: VZdnSJFGeDzlfocC
+_id: tswykmhxmqgqw0ar
+_key: '!items!tswykmhxmqgqw0ar'

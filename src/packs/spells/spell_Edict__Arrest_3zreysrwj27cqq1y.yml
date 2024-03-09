@@ -1,0 +1,132 @@
+folder: KpVFJJxpHWw9kEfV
+name: 'Edict: Arrest'
+type: spell
+img: icons/magic/nature/root-vine-entangled-humanoid.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">As you shout the edict at your targets, vines, ropes, or
+      chains of radiant gold or nebulous shadow rise up to bind your targets and
+      hold them fast. Starting with the target with the lowest hit points
+      (ignoring unconscious creatures), targets are grappled by these bindings,
+      and make a Charisma save at the end of their turn to end the grappled
+      state. In addition, as an action, they may make a charisma saving throw to
+      attempt to break the grapple to break the bindings.</p>
+
+      <p dir="ltr">As each target is grappled, subtract its hit points from the
+      total before moving on to the next target. A target&rsquo;s hit points
+      must be equal to or less than the total remaining for the spell to have
+      any effect.</p>
+
+      <p dir="ltr">If the spell grapples no creatures, the creature in the area
+      with the lowest hit point total is rattled until the beginning of its next
+      turn.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-c4fdc523-7fff-4cdc-dd69-e3e1c67f00f7">Cast at
+      Higher Levels. </strong>The spell affects an additional 2d10 hit points
+      worth of creatures for each slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/nature/root-vine-entangled-humanoid.webp
+    origin: Item.3zreysrwj27cqq1y
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: uC5K33n9m9jBM9fM
+        duration:
+          unit: minutes
+    transfer: false
+    name: Arrested
+    _id: yvSeO92FhPkXVkc7
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["grappled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Targets are grappled by these bindings, and make a Charisma save at the
+      end of their turn to end the grappled state. In addition, as an action,
+      they may make a charisma saving throw to attempt to break the grapple to
+      break the bindings.</p>
+    statuses:
+      - grappled
+    folder: null
+    _key: '!items.effects!3zreysrwj27cqq1y.yvSeO92FhPkXVkc7'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - compulsion
+      - law
+    rareSpell: false
+_id: 3zreysrwj27cqq1y
+_key: '!items!3zreysrwj27cqq1y'

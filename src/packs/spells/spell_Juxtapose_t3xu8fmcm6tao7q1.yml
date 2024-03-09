@@ -1,0 +1,83 @@
+folder: KpVFJJxpHWw9kEfV
+name: Juxtapose
+type: spell
+img: icons/magic/unholy/projectiles-binary-pink.webp
+system:
+  description:
+    value: >-
+      <p>Raising the mirror to your adversary you crush it in your hand. In the
+      next moment you are looking at yourself from across the battlefield. When
+      you cast Juxtapose you and your target teleport into each other&rsquo;s
+      squares to swap position. In addition, if the target fails its save, an
+      illusion falls over each of you, recreating the sight, scent, and sound of
+      the other. This spell grants advantage on charisma checks to convince
+      creatures you are your target, and your target gains disadvantage on
+      charisma checks to convince creatures that it is not you.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A broken mirror
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - teleportation
+    rareSpell: false
+_id: t3xu8fmcm6tao7q1
+_key: '!items!t3xu8fmcm6tao7q1'

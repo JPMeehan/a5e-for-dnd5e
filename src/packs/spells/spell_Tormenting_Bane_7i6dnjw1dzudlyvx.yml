@@ -1,0 +1,145 @@
+name: Tormenting Bane
+type: spell
+img: icons/magic/unholy/hand-light-green.webp
+effects:
+  - icon: icons/magic/unholy/hand-light-green.webp
+    origin: Item.7i6dnjw1dzudlyvx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5DV904tuT5qFRZ8M
+        duration:
+          unit: minutes
+    transfer: false
+    name: Tormenting Bane
+    _id: PYw6G65D8qrKd8GH
+    changes:
+      - key: flags.a5e.effects.bonuses.abilities
+        value: >-
+          {"label":"","formula":"-1d4","damageType":"","context":{"abilities":["str","dex","con","int","wis","cha"],"types":["save"]},"default":true,"img":"icons/svg/upgrade.svg"}
+        mode: 0
+        priority: null
+      - key: flags.a5e.effects.bonuses.attacks
+        value: >-
+          {"context":{"attackTypes":["meleeSpellAttack"]},"formula":"-1d4","label":"Melee
+          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+        mode: 0
+        priority: null
+      - key: flags.a5e.effects.bonuses.attacks
+        value: >-
+          {"context":{"attackTypes":["meleeWeaponAttack"]},"formula":"-1d4","label":"Melee
+          Weapon Attack","img":"icons/svg/upgrade.svg","default":true}
+        mode: 0
+        priority: null
+      - key: flags.a5e.effects.bonuses.attacks
+        value: >-
+          {"context":{"attackTypes":["rangedSpellAttack"]},"formula":"-1d4","label":"Ranged
+          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+        mode: 0
+        priority: null
+      - key: flags.a5e.effects.bonuses.attacks
+        value: >-
+          {"context":{"attackTypes":["rangedWeaponAttack"]},"formula":"-1d4","label":"Ranged
+          Weapon Attack","img":"icons/svg/upgrade.svg","default":true}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, a d4 is subtracted from attack rolls and saving
+      throws made by a target.</p>
+
+      <p><strong>Rare: Tormenting Bane.</strong> A target affected by this spell
+      has disadvantage on its next saving throw made against fear.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!7i6dnjw1dzudlyvx.PYw6G65D8qrKd8GH'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>The senses of the targets are filled with phantom energies that make
+      them more vulnerable and less capable. Until the spell ends, a d4 is
+      subtracted from attack rolls and saving throws made by a
+      target.</p><p><strong><em>Cast at Higher Levels.</em></strong> You target
+      an additional creature for each slot level above 1st.</p><hr
+      class="a5e-rule u-my-md"><p><strong>Rare: Tormenting Bane.</strong> A
+      target affected by this spell has disadvantage on its next saving throw
+      made against fear.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a small straw dolly
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: 7i6dnjw1dzudlyvx
+_key: '!items!7i6dnjw1dzudlyvx'

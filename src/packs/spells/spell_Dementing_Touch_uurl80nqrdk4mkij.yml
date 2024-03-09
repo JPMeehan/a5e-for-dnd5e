@@ -1,0 +1,86 @@
+folder: 7JSQOMqQquD3x5jj
+name: Dementing Touch
+type: spell
+img: icons/magic/unholy/hand-claw-fire-green.webp
+system:
+  description:
+    value: >-
+      <p>Your touch implants a vile plague in a creature&rsquo;s mind. While a
+      creature is under the effects of this spell and can see you, you can use
+      an action to force it to make a Wisdom&nbsp;<span
+      class="freelinking-link">saving throw</span>&nbsp;. On a failure, it takes
+      a level of&nbsp;<span class="freelinking-link">strife</span>&nbsp;. You
+      can only inflict a number of levels in strife equal to half your
+      proficiency&nbsp;bonus in this way each time you cast this spell.</p>
+
+      <p>The target knows it has been enchanted and can recognize you as the
+      source of this effect with a Wisdom (Insight) check against
+      your&nbsp;<span class="freelinking-link">spell save</span>&nbsp;DC.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #15'
+    license: OGL 1.0a
+  level: 5
+  school: enc
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - evil
+    rareSpell: false
+_id: uurl80nqrdk4mkij
+_key: '!items!uurl80nqrdk4mkij'

@@ -1,0 +1,182 @@
+name: Divine Word
+type: spell
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+effects:
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
+    origin: Item.k4uhl7j9mypwmny2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ZgiPqNgJaxd2EUuZ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Divine Word (<50 HP)
+    _id: kvlEdUTPhgvoRJy0
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - deafened
+    folder: null
+    _key: '!items.effects!k4uhl7j9mypwmny2.kvlEdUTPhgvoRJy0'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
+    origin: Item.k4uhl7j9mypwmny2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ZgiPqNgJaxd2EUuZ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Divine Word (<40 HP)
+    _id: FJXudOhA1dpskJgF
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded","deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+      - deafened
+    folder: null
+    _key: '!items.effects!k4uhl7j9mypwmny2.FJXudOhA1dpskJgF'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
+    origin: Item.k4uhl7j9mypwmny2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ZgiPqNgJaxd2EUuZ
+        duration:
+          unit: hours
+    transfer: false
+    name: Divine Word (<30 HP)
+    _id: 3koR4uBhHwVE1Ks6
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned","blinded","deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - stunned
+      - blinded
+      - deafened
+    folder: null
+    _key: '!items.effects!k4uhl7j9mypwmny2.3koR4uBhHwVE1Ks6'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - divine
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You utter a primordial imprecation that brings woe upon your enemies. A
+      target suffers an effect based on its current hit points.</p><ul><li>Fewer
+      than 50 hit points: deafened for 1 minute.</li><li>Fewer than 40 hit
+      points: blinded and deafened for 10 minutes.</li><li>Fewer than 30 hit
+      points: stunned, blinded, and deafened for 1 hour.</li><li>Fewer than 20
+      hit points: instantly killed outright.</li></ul><p>Additionally, when a
+      celestial, elemental, fey, or fiend is affected by this spell it is
+      immediately forced back to its home plane and for 24 hours it is unable to
+      return to your current plane by any means less powerful than a wish spell.
+      Such a creature does not suffer this effect if it is already on its plane
+      of origin.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 7
+  school: evo
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 2sI4m8RtV461RZaG
+_id: k4uhl7j9mypwmny2
+_key: '!items!k4uhl7j9mypwmny2'

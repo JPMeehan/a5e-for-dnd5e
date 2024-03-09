@@ -1,0 +1,99 @@
+folder: KpVFJJxpHWw9kEfV
+name: Pigment Cloud
+type: spell
+img: icons/magic/air/fog-gas-smoke-dense-pink.webp
+system:
+  description:
+    value: >-
+      <p>You create a&nbsp;<em><span class="freelinking-link">heavily
+      obscured</span></em>&nbsp;area of multicolored fog. The fog spreads around
+      corners and can be dispersed by a moderate wind (at least 10 miles per
+      hour). Any creature that moves through this cloud on their turn or that
+      starts their turn there is covered in a rainbow of colorful pigments and
+      while covered in this way they leave multicolored footprints and trails of
+      pigment behind them as they move for the duration of the spell. Checks
+      made to see or track creatures covered in such pigment are made
+      at&nbsp;<em><span class="freelinking-link">advantage</span></em>. These
+      pigments are removed if the affected creature is fully submerged in water
+      or similar liquid.</p>
+
+      <p><strong>Cast at Higher Levels.&nbsp;</strong>The spell&rsquo;s radius
+      increases by 20 feet for each slot level above 2nd.</p>
+
+      <div class="spell-source rules-source">
+
+      <div class="field field--name-field-spell-source
+      field--type-entity-reference field--label-inline">&nbsp;</div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #14'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a piece of colored chalk
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - obscurement
+      - prismatic
+    rareSpell: false
+_id: io0jyaozjghz9250
+_key: '!items!io0jyaozjghz9250'

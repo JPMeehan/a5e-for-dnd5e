@@ -1,0 +1,159 @@
+name: Frigid Ray of Frost
+type: spell
+img: icons/magic/water/projectile-icecicle-glowing.webp
+effects:
+  - icon: icons/magic/water/projectile-icecicle-glowing.webp
+    origin: Item.2w71asjan334iteo
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: rjaz6n2uCMQHcsGc
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frost
+    _id: i4bWmHzg2OE6Ddvk
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '-10'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!2w71asjan334iteo.i4bWmHzg2OE6Ddvk'
+  - icon: icons/magic/water/projectile-icecicle-glowing.webp
+    origin: Item.2w71asjan334iteo
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: rjaz6n2uCMQHcsGc
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frigid Frost
+    _id: AL14b1NHwiT31LRk
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '0'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!2w71asjan334iteo.AL14b1NHwiT31LRk'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - cold
+      - movement
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>An icy beam shoots from your outstretched fingers.</p>
+
+      <p>Make a ranged spell attack. On a hit, you deal 1d8 cold damage and
+      reduce the target's Speed by 10 feet until the start of your next
+      turn.</p>
+
+      <p>This spell's damage increases by 1d8 when you reach 5th level (2d8),
+      11th level (3d8), and 17th level (4d8).</p>
+
+      <p><strong><em>Rare:&nbsp;</em>Frigid Ray of Frost.&nbsp;</strong>A target
+      that takes&nbsp;20 or more damage from this spell reduces its&nbsp;Speed
+      to 0 and becomes rattled until the beginning&nbsp;of your next turn as the
+      cold penetrates to&nbsp;its very core.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: VZdnSJFGeDzlfocC
+_id: 2w71asjan334iteo
+_key: '!items!2w71asjan334iteo'

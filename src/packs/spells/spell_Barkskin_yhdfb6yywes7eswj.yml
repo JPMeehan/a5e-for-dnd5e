@@ -1,0 +1,115 @@
+name: Barkskin
+type: spell
+img: icons/magic/nature/root-vine-hand-strike.webp
+effects:
+  - icon: icons/magic/nature/root-vine-hand-strike.webp
+    origin: Item.yhdfb6yywes7eswj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: CFzdWjIQR8OtkIi0
+        duration:
+          unit: hours
+    transfer: false
+    name: Barkskin
+    _id: mZPoe5J9Scfw7HYB
+    changes:
+      - key: system.attributes.ac.value
+        value: max(16, @original)
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target's skin takes on the texture and appearance of bark,
+      increasing its AC to 16 (unless its AC is already higher).</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!yhdfb6yywes7eswj.mZPoe5J9Scfw7HYB'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - plants
+      - protection
+      - transformation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target's skin takes on the texture and appearance of bark,
+      increasing its AC to 16 (unless its AC is already
+      higher).</p><p><strong><em>Cast at Higher Levels.</em></strong> The
+      target's AC increases by +1 for every two slot levels above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: strip of bark
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: yhdfb6yywes7eswj
+_key: '!items!yhdfb6yywes7eswj'

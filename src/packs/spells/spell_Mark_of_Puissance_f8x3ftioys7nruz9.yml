@@ -1,0 +1,132 @@
+folder: 7JSQOMqQquD3x5jj
+name: Mark of Puissance
+type: spell
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+system:
+  description:
+    value: >-
+      <p>You place a magical mark on a creature or yourself granting&nbsp;power
+      to fight and win against your foes.</p>
+
+      <p>When you cast this spell, the target gains 4 points or exertion, may
+      remove a level of fatigue or strife, and gains 20 temporary hit
+      points.</p>
+
+      <p>In addition, while the mark remains visible, the target sheds dim light
+      in a 5-foot area, gains a +2 bonus to AC, has an expertise die on
+      Intimidation checks, and their weapon attacks deal an additional 1d4
+      points of radiant damage.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/symbols/runes-etched-steel-blade.webp
+    origin: Item.f8x3ftioys7nruz9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: lObt3tuWsie2pxsp
+        duration:
+          unit: hours
+    transfer: false
+    name: Mark of Puissance
+    _id: T1g2kNYMcFwQdzSA
+    changes:
+      - key: '@token.light.dim'
+        value: '5'
+        mode: 6
+        priority: null
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '2'
+        mode: 2
+        priority: null
+      - key: system.skills.itm.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target gains 4 points or exertion, may remove a level of fatigue or
+      strife, and gains 20 temporary hit points.</p>
+
+      <p>In addition, while the mark remains visible, the target sheds dim light
+      in a 5-foot area, gains a +2 bonus to AC, has an expertise die on
+      Intimidation checks, and their weapon attacks deal an additional 1d4
+      points of radiant damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!f8x3ftioys7nruz9.T1g2kNYMcFwQdzSA'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - enhancement
+      - protection
+    rareSpell: false
+_id: f8x3ftioys7nruz9
+_key: '!items!f8x3ftioys7nruz9'

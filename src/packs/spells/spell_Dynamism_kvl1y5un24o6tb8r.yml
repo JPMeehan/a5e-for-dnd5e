@@ -1,0 +1,117 @@
+name: Dynamism
+type: spell
+img: icons/magic/symbols/runes-triangle-orange-purple.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You call up a small, but impressive, show of magical power.
+      Choose one of the following:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Your hair and clothing billow in a wind
+      that only affects you.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Your body crackles or sizzles with
+      harmless, but colorful magical energy with an appearance of your choosing.
+      This grants you an expertise die to Intimidation, Performance, or
+      Persuasion checks relating to your magical abilities with anyone who
+      witnessed the display.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You telekinetically grab an unattended
+      item weighing no more than a pound located no more than 5 feet away and
+      pull it to your hand.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You hover a foot off the ground and gain
+      a fly speed of 5 feet until the end of your turn. You cannot hover more
+      than 5 feet above any solid or liquid surface. If you cast this spell
+      again next turn, you may remain aloft, allowing you to slowly cross
+      liquids or move over hazards without falling in.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - movement
+      - utility
+    rareSpell: false
+_id: kvl1y5un24o6tb8r
+_key: '!items!kvl1y5un24o6tb8r'

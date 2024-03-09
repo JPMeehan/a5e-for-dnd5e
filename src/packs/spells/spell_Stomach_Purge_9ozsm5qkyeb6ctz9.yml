@@ -1,0 +1,90 @@
+folder: KpVFJJxpHWw9kEfV
+name: Stomach Purge
+type: spell
+img: icons/creatures/abilities/mouth-teeth-tongue-purple.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">Your magic causes a creature&rsquo;s stomach to lurch,
+      violently expelling its contents.</p>
+
+      <p dir="ltr">A target that fails its save immediately and forcefully
+      vomits, expelling the contents of its stomach. This instantly frees any
+      swallowed creatures, and it also supernaturally purges any poisons or
+      toxins affecting the creature, even injury or inhaled ones, from the
+      creature&rsquo;s body, ending any ongoing effects imposed by them. The
+      creature is stunned until the end of its next turn. A creature may fail
+      this save voluntarily.</p>
+
+      <p dir="ltr">A creature that succeeds on its save does not vomit, but
+      suffers a horrible wave of nausea. It is poisoned and rattled until the
+      end of its next turn.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - compulsion
+      - healing
+    rareSpell: false
+_id: 9ozsm5qkyeb6ctz9
+_key: '!items!9ozsm5qkyeb6ctz9'

@@ -1,0 +1,97 @@
+folder: riV8qst3SvT2320y
+name: Clangorous Blow
+type: spell
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">Your weapon reverberates with powerful magic, ready to strike
+      with deafening power.</p>
+
+      <p dir="ltr">The first time you hit with a melee weapon attack after you
+      cast this spell the sound of a massive&nbsp; bell fills the air and the
+      blow deals an additional 3d6 points of Thunder damage and all creatures
+      within 20 feet of the target of your attack must make a Constitution
+      saving throw or be deafened for a minute. The target makes this saving
+      throw with disadvantage. The clang is so loud, it can be heard a mile away
+      with no check required and can be heard up to 5 miles away with a DC 10
+      Perception check. The spell then ends.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-9d1f1404-7fff-f008-dd5c-c078ada69a57">Cast at
+      Higher Levels</strong>. If you cast this spell with at least a 2nd-level
+      spell slot, creatures that fail their save against the deafening effect
+      also take 1d6 points of Thunder damage. If you cast this spell with at
+      least a 3rd-level spell slot, the initial attack and area damage both
+      increase by 1d6 for each spell slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A melee weapon
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - sound
+      - weaponry
+    rareSpell: false
+_id: 1e98tn7mhq5ixt2e
+_key: '!items!1e98tn7mhq5ixt2e'

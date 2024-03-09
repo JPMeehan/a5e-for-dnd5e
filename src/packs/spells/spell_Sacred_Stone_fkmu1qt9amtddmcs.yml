@@ -1,0 +1,110 @@
+folder: YnFE57i6b3g8tOII
+name: Sacred Stone
+type: spell
+img: icons/magic/symbols/runes-carved-stone-green.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You call up a floating tablet made of stone and inscribed
+      with holy text to protect you and smite your enemies.</p>
+
+      <p dir="ltr">The stone begins with 3 charges. It orbits around your body,
+      protecting you from attacks. The stone sheds bright light to a range equal
+      to 10 feet times the number of charges remaining and dim light to double
+      that range.</p>
+
+      <p dir="ltr">When you are hit with an attack, you may use your reaction to
+      interpose the stone between you and the attack, granting you an AC bonus
+      equal to the number of charges the stone has remaining against that
+      attack, potentially turning the hit into a miss. Whenever an attack is
+      canceled this way, the stone loses a charge and the attacking creature
+      takes 2d6 points of radiant damage.</p>
+
+      <p dir="ltr">On your turn, you may use a bonus action to spend 1 or more
+      charges from the stone to blast a target within 60 feet with a ranged
+      spell attack. On a hit, the target takes 2d6 points of radiant damage for
+      each charge spent this way.</p>
+
+      <p dir="ltr">When the last charge is spent, or if you drop or lose
+      concentration on the spell, the stone crumbles away and you are healed a
+      number of hit points equal to 1d4 + your spell modifier. This healing does
+      not trigger if you are unconscious.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-bdfa226a-7fff-1451-c06b-b25c264dadca">Cast At
+      Higher Levels.</strong> The stone begins with an additional charge for
+      each spell slot level above 3rd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A small piece of sacred stone
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: none
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+      - radiant
+      - summoning
+    rareSpell: false
+_id: fkmu1qt9amtddmcs
+_key: '!items!fkmu1qt9amtddmcs'

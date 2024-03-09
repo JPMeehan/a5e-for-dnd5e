@@ -1,0 +1,128 @@
+name: Fell Spiritual Weapon
+type: spell
+img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
+effects:
+  - icon: icons/weapons/hammers/hammer-double-glowing-yellow.webp
+    origin: Item.exr88op9f3kyd9xs
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: vkbQdk2lBUnbRZrT
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    _id: ccZpMsz2uU6CBYKf
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!exr88op9f3kyd9xs.ccZpMsz2uU6CBYKf'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - divine
+      - force
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You create a floating, incandescent weapon with an appearance of your
+      choosing and use it to attack your enemies. On the round you cast it, you
+      can make a melee spell attack against a creature within 5 feet of the
+      weapon that deals force damage equal to 1d8 + your spellcasting ability
+      modifier.</p>
+
+      <p>As a bonus action on subsequent turns until the spell ends, you can
+      move the weapon up to 20 feet and make another attack against a creature
+      within 5 feet of it.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The damage increases
+      by 1d8 for every two slot levels above 2nd.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Fell Spiritual
+      Weapon.&nbsp;</strong>The weapon&nbsp;deals necrotic damage instead of
+      force damage,&nbsp;and when it scores a critical hit its target is
+      rattled&nbsp;until the end of your next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: EkkxXAsn0xjh7IWp
+_id: exr88op9f3kyd9xs
+_key: '!items!exr88op9f3kyd9xs'

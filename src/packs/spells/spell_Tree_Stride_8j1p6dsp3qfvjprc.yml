@@ -1,0 +1,124 @@
+name: Tree Stride
+type: spell
+img: icons/magic/nature/tree-spirit-green.webp
+effects:
+  - icon: icons/magic/nature/tree-spirit-green.webp
+    origin: Item.8j1p6dsp3qfvjprc
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: k49bVnGU0O1FJhEF
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Tree Stride
+    _id: H7jIrH9LhmcCEoY2
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, once per round you can use 5 feet of movement to
+      enter a living tree and move to inside another living tree of the same
+      kind within 500 feet so long as you end your turn outside of a tree. Both
+      trees must be at least your size. You instantly know the location of all
+      other trees of the same kind within 500 feet. You may step back outside of
+      the original tree or spend 5 more feet of movement to appear within a spot
+      of your choice within 5 feet of the destination tree. If you have no
+      movement left, you appear within 5 feet of the tree you entered.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!8j1p6dsp3qfvjprc.H7jIrH9LhmcCEoY2'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - nature
+      - plants
+      - teleportation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, once per round you can use 5 feet of movement to
+      enter a living tree and move to inside another living tree of the same
+      kind within 500 feet so long as you end your turn outside of a tree. Both
+      trees must be at least your size. You instantly know the location of all
+      other trees of the same kind within 500 feet. You may step back outside of
+      the original tree or spend 5 more feet of movement to appear within a spot
+      of your choice within 5 feet of the destination tree. If you have no
+      movement left, you appear within 5 feet of the tree you
+      entered.</p><p><strong><em>Cast at Higher Levels.</em></strong> Target one
+      additional creature within reach for each slot level above 5th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 5
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 7JSQOMqQquD3x5jj
+_id: 8j1p6dsp3qfvjprc
+_key: '!items!8j1p6dsp3qfvjprc'

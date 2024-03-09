@@ -1,0 +1,217 @@
+name: Maiming Power Word Stun
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-swirl.webp
+    origin: Item.glwtxuy2d9lv118h
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: eAwDRDxpIDZxroZQ
+    transfer: false
+    name: Stunned
+    _id: XmnbNrYSr8Cs83YZ
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!glwtxuy2d9lv118h.XmnbNrYSr8Cs83YZ'
+  - icon: icons/magic/control/hypnosis-mesmerism-swirl.webp
+    origin: Item.glwtxuy2d9lv118h
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: eAwDRDxpIDZxroZQ
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    _id: 3RDhoMrcJ50CBCD3
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!glwtxuy2d9lv118h.3RDhoMrcJ50CBCD3'
+  - icon: icons/magic/control/hypnosis-mesmerism-swirl.webp
+    origin: Item.glwtxuy2d9lv118h
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: eAwDRDxpIDZxroZQ
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: wIrEeKizn1i910qR
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '0.5'
+        mode: 1
+        priority: null
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!glwtxuy2d9lv118h.wIrEeKizn1i910qR'
+  - icon: icons/magic/control/hypnosis-mesmerism-swirl.webp
+    origin: Item.glwtxuy2d9lv118h
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: eAwDRDxpIDZxroZQ
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Deafened
+    _id: 8vWJ5oGL42EGzvLe
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '0.5'
+        mode: 1
+        priority: null
+      - key: flags.a5e.effects.statusConditions
+        value: '["deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - deafened
+    folder: null
+    _key: '!items.effects!glwtxuy2d9lv118h.8vWJ5oGL42EGzvLe'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You utter a powerful word that stuns a target with 150 hit points or
+      less. At the end of the target's turn, it makes a Constitution saving
+      throw to end the effect. If the target has more than 150 hit points, it is
+      instead rattled until the end of its next turn.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Maiming Power Word
+      Stun.&nbsp; </strong>When a&nbsp;target succeeds on its saving throw, its
+      movement&nbsp;is halved and it is either blinded or deafened
+      (your&nbsp;choice) until the end of its next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 8
+  school: enc
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: tV0pWb0LhH7T2MPb
+_id: glwtxuy2d9lv118h
+_key: '!items!glwtxuy2d9lv118h'

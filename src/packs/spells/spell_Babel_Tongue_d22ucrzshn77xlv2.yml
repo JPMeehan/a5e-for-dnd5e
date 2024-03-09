@@ -1,0 +1,161 @@
+folder: KpVFJJxpHWw9kEfV
+name: Babel Tongue
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You curse the language of your foes, casting them into
+      disarray.</p>
+
+      <p dir="ltr">Each creature in the spell&rsquo;s area that fails its save
+      immediately begins speaking a brand-new language unique to itself. The
+      creature perceives itself as speaking the language it has always spoken,
+      but in reality is instead speaking an entirely new tongue with its own
+      vocabulary and grammar. This extends even to writing and sign language.
+      The only way to communicate with affected creatures is via the tongues
+      spell (or a comprehend languages spell for writing) or telepathy. An
+      affected creature can repeat the saving throw every hour, ending the
+      effect for itself on a success.</p>
+
+      <p dir="ltr">A creature that succeeds on its saving throw has disadvantage
+      on all Intelligence ability checks and saves for one minute instead.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-swirl.webp
+    origin: Item.d22ucrzshn77xlv2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jj4DmR3LgAvFTLwg
+        duration:
+          unit: hours
+    transfer: false
+    name: Babel Tongue
+    _id: vCfVmnmtpPyDol2P
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The creature perceives itself as speaking the language it has always
+      spoken, but in reality is instead speaking an entirely new tongue with its
+      own vocabulary and grammar. This extends even to writing and sign
+      language. The only way to communicate with affected creatures is via the
+      tongues spell (or a comprehend languages spell for writing) or telepathy.
+      An affected creature can repeat the saving throw every hour, ending the
+      effect for itself on a success.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!d22ucrzshn77xlv2.vCfVmnmtpPyDol2P'
+  - icon: icons/magic/control/hypnosis-mesmerism-swirl.webp
+    origin: Item.d22ucrzshn77xlv2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jj4DmR3LgAvFTLwg
+        duration:
+          unit: minutes
+    transfer: false
+    name: Babel Tongue (Saved)
+    _id: 7yD1AjSAxgxFqV2x
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.int
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilitySave.int
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A creature that succeeds on its saving throw has disadvantage on all
+      Intelligence ability checks and saves for one minute instead.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!d22ucrzshn77xlv2.7yD1AjSAxgxFqV2x'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - chaos
+      - compulsion
+      - communication
+    rareSpell: false
+_id: d22ucrzshn77xlv2
+_key: '!items!d22ucrzshn77xlv2'

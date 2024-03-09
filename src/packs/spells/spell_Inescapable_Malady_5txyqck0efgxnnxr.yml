@@ -1,0 +1,95 @@
+name: Inescapable Malady
+type: spell
+img: icons/magic/acid/dissolve-arm-flesh.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You infect your target with an arcane disease. At any time after you
+      cast this spell, as long as you are on the same plane of existence as the
+      target, you can use an action to deal 7d10 necrotic damage to the target.
+      If this damage would reduce the target to 0 hit points, you can choose to
+      leave it with 1 hit point.</p>
+
+      <p>As part of dealing the damage, you may expend a 7th-level spell slot to
+      sustain the disease. Otherwise, the spell ends. The spell ends when you
+      die.</p>
+
+      <p>Casting <em>remove curse</em>, <em>greater restoration</em>, or heal on
+      the target allows the target to make a Constitution saving throw against
+      the disease. Otherwise the disease can only be cured by a <em>wish</em>
+      spell.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The damage increases
+      by 1d10 for each slot level above 7th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 7
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: hair, fingernail clippings, or some other piece of the target
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d10
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 7d10
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 2sI4m8RtV461RZaG
+_id: 5txyqck0efgxnnxr
+_key: '!items!5txyqck0efgxnnxr'

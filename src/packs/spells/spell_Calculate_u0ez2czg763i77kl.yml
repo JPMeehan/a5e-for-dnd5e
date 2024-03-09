@@ -1,0 +1,118 @@
+name: Calculate
+type: spell
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+effects:
+  - icon: icons/skills/trades/academics-astronomy-navigation-purple.webp
+    origin: Item.u0ez2czg763i77kl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: 7W8939UwmTFQjejV
+    transfer: false
+    name: Calculate
+    _id: U7YjG5GGAFTAZQNt
+    changes:
+      - key: system.skills.eng.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!u0ez2czg763i77kl.U7YjG5GGAFTAZQNt'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - law
+      - technological
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You instantly know the answer to any mathematical equation that you
+      speak aloud. The equation must be a problem that a creature with
+      Intelligence 20 could solve using nonmagical tools with 1 hour of
+      calculation. Additionally, you gain an expertise die on Engineering checks
+      made during the duration of the spell.</p>
+
+      <p><strong>Note:</strong> Using the <em>calculate</em> cantrip allows a
+      player to make use of a calculator at the table in order to rapidly answer
+      mathematical equations.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 0
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: Tw5cqPbIxtfMfhDz
+_id: u0ez2czg763i77kl
+_key: '!items!u0ez2czg763i77kl'

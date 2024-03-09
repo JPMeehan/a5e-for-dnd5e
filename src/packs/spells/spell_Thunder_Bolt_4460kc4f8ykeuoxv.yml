@@ -1,0 +1,128 @@
+name: Thunder Bolt
+type: spell
+img: icons/magic/sonic/projectile-shock-wave-blue.webp
+system:
+  description:
+    value: >-
+      <p>A peal of thunder ripples from a point you can see within range. Each
+      creature in the area takes 8d6 thunder damage and is deafened until the
+      end of its next turn. If the area contains Large or larger nonmagical wood
+      or stone objects, the objects take 8d6 thunder damage and creatures in the
+      area that fail their saving throw take an additional 2d6 slashing damage
+      from flying splinters. The thunderclap can be heard from 600 feet
+      away.</p>
+
+      <p><em><strong>Cast at Higher Levels.</strong></em> For every slot level
+      above 4th, the thunder and slashing damage increase by 1d6, and the
+      thunderclap can be heard from an additional 100 feet away.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Dungeon Delver''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: tiny sheet of metal
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 8d6
+        - thunder
+      - - 2d6
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/sonic/projectile-shock-wave-blue.webp
+    origin: Item.4460kc4f8ykeuoxv
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: JSgNidgT3n37hph2
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Deafened
+    _id: JfavgSRmrOkczpQE
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - deafened
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!4460kc4f8ykeuoxv.JfavgSRmrOkczpQE'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - nature
+      - sound
+      - storm
+      - thunder
+    rareSpell: false
+folder: 3HQE3FN5vUCIygDu
+_id: 4460kc4f8ykeuoxv
+_key: '!items!4460kc4f8ykeuoxv'

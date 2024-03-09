@@ -1,0 +1,166 @@
+name: Wall of Flesh
+type: spell
+img: icons/magic/unholy/strike-beam-blood-large-red-blue.webp
+effects:
+  - icon: icons/magic/unholy/strike-beam-blood-large-red-blue.webp
+    origin: Item.ntp3gsg3g3r3rmks
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: aewi1fSHn5VmrlS1
+        duration:
+          unit: minutes
+    transfer: false
+    name: Grappled
+    _id: X2cwUFdaLApblSHM
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["grappled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - grappled
+    folder: null
+    _key: '!items.effects!ntp3gsg3g3r3rmks.X2cwUFdaLApblSHM'
+  - icon: icons/magic/unholy/strike-beam-blood-large-red-blue.webp
+    origin: Item.ntp3gsg3g3r3rmks
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: aewi1fSHn5VmrlS1
+        duration:
+          unit: minutes
+    transfer: false
+    name: Swallowed
+    _id: cALeUw9v4ArkT9Qt
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded","deafened","restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+      - deafened
+      - restrained
+    folder: null
+    _key: '!items.effects!ntp3gsg3g3r3rmks.cALeUw9v4ArkT9Qt'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - chaos
+      - evil
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A squirming wall of bodies, groping arms and tentacles, and moaning,
+      biting mouths heaves itself up from the ground at a point you choose. The
+      wall is 6 inches thick and is made up of a contiguous group of ten 10-foot
+      square sections. The wall can have any shape you desire.</p><p>If the wall
+      enters a creature's space when it appears, the creature makes a Dexterity
+      saving throw, and on a success it moves up to its Speed to escape. On a
+      failed save, it is swallowed by the wall (as below).</p><p>When a creature
+      enters the area for the first time on a turn or starts its turn within 10
+      feet of the wall, tentacles and arms reach out to grab it. The creature
+      makes a Dexterity saving throw or takes 5d8 bludgeoning damage and becomes
+      grappled. If the creature was already grappled by the wall at the start of
+      its turn and fails its saving throw, a mouth opens in the wall and
+      swallows the creature.</p><p>A creature swallowed by the wall takes 5d8
+      ongoing bludgeoning damage and is blinded, deafened, and
+      restrained.</p><p>A creature grappled or restrained by the wall can use
+      its action to make a Strength saving throw against your spell save DC. On
+      a success, a grappled creature frees itself and a restrained creature
+      claws its way out of the wall's space, exiting to an empty space next to
+      the wall and still grappled.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> The damage increases by 1d8 for each slot level
+      above the 6th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: piece of bone
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 5d8
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: FgEE27o1nHRME564
+_id: ntp3gsg3g3r3rmks
+_key: '!items!ntp3gsg3g3r3rmks'

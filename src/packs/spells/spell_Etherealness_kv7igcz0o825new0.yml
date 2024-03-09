@@ -1,0 +1,95 @@
+name: Etherealness
+type: spell
+img: icons/magic/control/silhouette-hold-change-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - movement
+      - obscurement
+      - planar
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends or you use an action to end it, you step into the
+      border regions of the Ethereal Plane where it overlaps with your current
+      plane. While on the Ethereal Plane, you can move in any direction, but
+      vertical movement is considered difficult terrain. You can see and hear
+      the plane you originated from, but everything looks desaturated and you
+      can see no further than 60 feet.</p><p>While on the Ethereal Plane, you
+      can only affect and be affected by other creatures on that plane.
+      Creatures not on the Ethereal Plane can't perceive you unless some special
+      ability or magic explicitly allows them to.</p><p>When the spell ends, you
+      immediately return to the plane you originated from in the spot you
+      currently occupy. If you occupy the same spot as a solid object or
+      creature when this happens, you are immediately shunted to the nearest
+      unoccupied space and you take force damage equal to twice the number of
+      feet you are moved.</p><p>The spell has no effect if you cast it while you
+      are on the Ethereal Plane or a plane that doesn't border it, such as an
+      Outer Plane.</p><p><strong><em>Cast at Higher Levels.</em></strong> You
+      can target up to 3 willing creatures within 10 feet (including you) for
+      each slot level above 7th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 7
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 2sI4m8RtV461RZaG
+_id: kv7igcz0o825new0
+_key: '!items!kv7igcz0o825new0'

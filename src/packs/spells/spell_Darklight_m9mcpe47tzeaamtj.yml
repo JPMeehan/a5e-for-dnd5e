@@ -1,0 +1,119 @@
+name: Darklight
+type: spell
+img: icons/magic/unholy/beams-impact-pink.webp
+effects:
+  - icon: icons/magic/unholy/beams-impact-pink.webp
+    origin: Item.m9mcpe47tzeaamtj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 1L3fvzBAOcbh6NsC
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Darklight
+    _id: H7Pc3OrwPJDaxbOd
+    changes:
+      - key: '@token.light.bright'
+        value: '20'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '40'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You create an enchanted flame that surrounds your hand and produces no
+      heat, but sheds bright light in a 20-foot radius around you and dim light
+      for an additional 20 feet. Only you and up to 6 creatures of your choice
+      can see this light.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!m9mcpe47tzeaamtj.H7Pc3OrwPJDaxbOd'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You create an enchanted flame that surrounds your hand and produces no
+      heat, but sheds bright light in a 20-foot radius around you and dim light
+      for an additional 20 feet. Only you and up to 6 creatures of your choice
+      can see this light.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: torch coated with pitch
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: m9mcpe47tzeaamtj
+_key: '!items!m9mcpe47tzeaamtj'

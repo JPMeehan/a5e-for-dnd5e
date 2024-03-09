@@ -1,0 +1,86 @@
+name: 'Edict: Ignite'
+type: spell
+img: icons/magic/fire/flame-burning-skeleton-explosion.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">With a word of power you cause your target to burst into
+      flames.</p>
+
+      <p dir="ltr">Your target is subjected to ongoing fire damage equal to your
+      proficiency bonus at the start of each of their turns. On their turn
+      creatures within 5ft of your target, including your target if it is a
+      creature, can spend their action putting out the fire.</p>
+
+      <p dir="ltr">This spell has no effect on objects and creatures that are
+      made of material that is not flammable, such as stone or metal.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: con
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof'
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - fire
+      - summoning
+    rareSpell: false
+_id: acr5o4a8jj7z67am
+_key: '!items!acr5o4a8jj7z67am'

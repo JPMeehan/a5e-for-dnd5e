@@ -1,0 +1,94 @@
+folder: YnFE57i6b3g8tOII
+name: Gravity Sphere
+type: spell
+img: icons/magic/unholy/orb-beam-pink.webp
+system:
+  description:
+    value: >-
+      <p>You summon up a small ball of dark, incredibly-dense matter with a
+      prodigious gravitational field just long enough to wreak havoc on your
+      enemies.</p>
+
+      <p>When you cast this spell, all creatures in the area must make a
+      Strength saving throw or be pulled immediately to the middle of the area,
+      knocked prone, and take 4d8 force damage. All creatures moved this way are
+      packed into the smallest number of open spaces as close to the center of
+      the effect as possible. Exact positioning is up to the Narrator. A
+      creature that succeeds on its save takes half damage and is not moved or
+      knocked prone.</p>
+
+      <p>The area of the spell then becomes difficult terrain. At the
+      Narrator&rsquo;s discretion, this may damage or destroy objects or
+      structures as well.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A small lead bead
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d8
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - force
+      - summoning
+      - movement
+    rareSpell: false
+_id: dn4nkud4qjvmrms4
+_key: '!items!dn4nkud4qjvmrms4'

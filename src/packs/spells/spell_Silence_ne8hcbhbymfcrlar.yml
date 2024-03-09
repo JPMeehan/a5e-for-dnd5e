@@ -1,0 +1,84 @@
+name: Silence
+type: spell
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - negation
+      - senses
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, a bubble of silence envelops the area, and no
+      sound can travel in or out of it.</p><p>While in the area a creature is
+      deafened and immune to thunder damage. Casting a spell that requires a
+      vocalized component is impossible while within the area.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - ritual
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '20'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: ne8hcbhbymfcrlar
+_key: '!items!ne8hcbhbymfcrlar'

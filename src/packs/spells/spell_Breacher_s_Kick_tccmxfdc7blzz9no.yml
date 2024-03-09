@@ -1,0 +1,85 @@
+folder: KpVFJJxpHWw9kEfV
+name: Breacher's Kick
+type: spell
+img: icons/skills/melee/shield-damaged-broken-brown.webp
+system:
+  description:
+    value: >-
+      <p>You magically bolster your ability to kick through obstacles. The next
+      unarmed strike you make against an inanimate object after casting this
+      spell deals an additional 6d6 points of force damage (this spell has no
+      effect on attacks made against creatures). If this reduces the object to 0
+      hit points, a blast of shrapnel fills the spell area. Creatures caught in
+      the blast must make a Dexterity saving throw, suffering 3d8 points of
+      piercing damage. A creature that succeeds on its save takes half
+      damage.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d8
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - force
+      - law
+      - unarmed
+    rareSpell: false
+_id: tccmxfdc7blzz9no
+_key: '!items!tccmxfdc7blzz9no'

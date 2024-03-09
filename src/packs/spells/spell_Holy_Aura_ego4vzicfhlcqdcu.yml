@@ -1,0 +1,127 @@
+name: Holy Aura
+type: spell
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+effects:
+  - icon: icons/magic/light/explosion-beam-impact-silhouette.webp
+    origin: Item.ego4vzicfhlcqdcu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: OaCzA0ewDpS9v01w
+        duration:
+          unit: minutes
+    transfer: false
+    name: Holy Aura
+    _id: FtdsJCGGLpJKoYQ5
+    changes:
+      - key: '@token.light.dim'
+        value: '5'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilitySave.all
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Targets shed dim light in a 5-foot radius and have advantage on saving
+      throws. Attacks made against a target have disadvantage. When a fiend or
+      undead hits a target, the aura erupts into blinding light, forcing the
+      attacker to make a Constitution saving throw or be blinded until the spell
+      ends.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ego4vzicfhlcqdcu.FtdsJCGGLpJKoYQ5'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - enhancement
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0"><strong>Target:</strong> </span><span
+      class="fontstyle2">Creatures you choose that are&nbsp;within the
+      area</span></p>
+
+      <p>Holy radiance emanates from you and fills the area. Targets shed dim
+      light in a 5-foot radius and have advantage on saving throws. Attacks made
+      against a target have disadvantage. When a fiend or undead hits a target,
+      the aura erupts into blinding light, forcing the attacker to make a
+      Constitution saving throw or be blinded until the spell ends.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 8
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: sacred reliquary worth at least 1, 000 gold
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '30'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: DMm8aLAHhpqUVDEv
+_id: ego4vzicfhlcqdcu
+_key: '!items!ego4vzicfhlcqdcu'

@@ -1,0 +1,109 @@
+name: Predator's Arsenal
+type: spell
+img: icons/creatures/claws/claw-talons-glowing-purple.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">Your body takes on the traits of a predatory creature.</p>
+
+      <p>When you cast the spell, choose fangs, claws, or a pincer. Your jaws or
+      one of your hands (your choice as to which one) transforms into magical
+      natural weapons of the selected type. For the rest of the spell&rsquo;s
+      duration, you can make unarmed attacks with your new natural weapon.</p>
+
+      <p>Claws have the finesse property and deal slashing damage equal 1d6 +
+      your Strength or Dexterity modifier.</p>
+
+      <p>Fangs deal piercing damage equal to 1d6 + your Strength modifier and
+      score a critical hit on a roll of 19-20.</p>
+
+      <p>A pincer deals piercing damage equal to 1d6 + your Strength modifier
+      and you may grapple your target as part of the attack. You cannot deal
+      piercing damage with your pincer as long as the target remains grappled
+      this way, but you may squeeze a creature grappled this way for bludgeoning
+      damage equal to 1d4 + your Strength modifier as a bonus action on your
+      turn. You cannot use your pincer hand to hold weapons or a shield or any
+      task requiring fine dexterity such as playing a musical instrument or
+      picking a lock.</p>
+
+      <p>The damage of your claws, fangs, or pincer increases to 1d8 at level 5.
+      At level 11, you can also choose a tail with a scorpion-like stinger which
+      has a reach of 10 feet and deals piercing damage equal to 1d4 + your
+      strength modifier + 1d4 poison damage and your claws, fangs, or pincer
+      increases to 1d10. At 17th level, the damage of your claws, fangs, or
+      pincer increases to 1d12 and the poison damage dealt by your tail stinger
+      increases to 1d6.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - poison
+      - shapechanging
+      - unarmed
+    rareSpell: false
+_id: f7eg0o1z7mqfunel
+_key: '!items!f7eg0o1z7mqfunel'

@@ -1,0 +1,92 @@
+name: Fertilize Field
+type: spell
+img: icons/consumables/grains/wheat-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You bless the ground to accommodate a specific crop in a 130-foot
+      square area. The soil alters its composition to become ideal for that
+      specific plant, purging contaminants (such as salt or other undesirable
+      minerals), instantly decomposing any bodies lying in its soil down to a
+      depth of 5 feet, and dispelling curses of up to 4th level. For a year and
+      a day, plants of the type specified at the casting of the spell produce
+      50% more yield than they normally would, potentially increasing the income
+      of a farm if properly harvested. Bodies destroyed by this spell
+      immediately become useless for speak with dead, animate dead,
+      resurrection, and other similar spells that require a body (the bodies of
+      particularly powerful magical creatures may not be affected by this spell
+      at the Narrator's discretion).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #10'
+    license: OGL 1.0a
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      A pinch of manure and the seeds, roots, or fruiting body of the desired
+      crop
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 130
+    width: null
+    units: ft
+    type: square
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - earth
+      - plants
+      - utility
+    rareSpell: false
+folder: 3HQE3FN5vUCIygDu
+_id: covsd1x03kjay0cx
+_key: '!items!covsd1x03kjay0cx'

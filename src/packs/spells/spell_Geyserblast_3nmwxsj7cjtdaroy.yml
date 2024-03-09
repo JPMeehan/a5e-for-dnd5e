@@ -1,0 +1,91 @@
+folder: YnFE57i6b3g8tOII
+name: Geyserblast
+type: spell
+img: icons/magic/water/projectile-water-rings.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">A high-pressure stream of water blasts forth from your
+      outstretched hand. Creatures must make a Strength saving throw or take 6d6
+      points of bludgeoning damage, be pushed 20 feet away from you and knocked
+      prone. A creature that succeeds takes half damage and is not pushed or
+      knocked prone.</p>
+
+      <p dir="ltr">In addition, the water douses any unattended flames and
+      scours any clinging substances such as slime, oil, or contact poisons from
+      the surface of every creature in the stream.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels.</strong> The damage increases
+      by 1d6 for every spell slot level above 3rd. The push distance increases
+      by an additional 5 feet for every two spell slot levels above 3rd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A small metal valve or nozzle
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 60
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 6d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - water
+    rareSpell: false
+_id: 3nmwxsj7cjtdaroy
+_key: '!items!3nmwxsj7cjtdaroy'

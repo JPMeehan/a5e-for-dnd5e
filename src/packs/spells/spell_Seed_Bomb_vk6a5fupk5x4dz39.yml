@@ -1,0 +1,187 @@
+name: Seed Bomb
+type: spell
+img: >-
+  https://assets.forge-vtt.com/bazaar/core/icons/magic/nature/seed-acorn-glowing-green.webp
+effects:
+  - icon: >-
+      https://assets.forge-vtt.com/bazaar/core/icons/magic/nature/seed-acorn-glowing-green.webp
+    origin: Item.vk6a5fupk5x4dz39
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: tgBRHcGwkcOG5hc3
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: sf5k7sDn5SyctJMh
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!vk6a5fupk5x4dz39.sf5k7sDn5SyctJMh'
+  - icon: >-
+      https://assets.forge-vtt.com/bazaar/core/icons/magic/nature/seed-acorn-glowing-green.webp
+    origin: Item.vk6a5fupk5x4dz39
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4oA2XXnERNEp2xne
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Grappled
+    _id: L1yFHu1rSRECEVjY
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["grappled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - grappled
+    folder: null
+    _key: '!items.effects!vk6a5fupk5x4dz39.L1yFHu1rSRECEVjY'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - weaponry
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <div id="spell-body">
+
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p>Up to four seeds appear in your hand and are infused with magic for the
+      duration. As an action, a creature can throw one of these seeds at a point
+      up to 60 feet away. Each creature within 5 feet of that point makes a
+      Dexterity&nbsp;<span class="freelinking-link">saving throw</span>&nbsp;or
+      takes 4d6 piercing damage. Depending on the material component used, a
+      seed bomb also causes one of the following additional effects:</p>
+
+      <p class="Indent1"><em><strong>Pinecone.</strong></em>&nbsp;Seed shrapnel
+      explodes outward. A creature in the area of the exploding seed bomb makes
+      a Constitution&nbsp;<span class="freelinking-link">saving
+      throw</span>&nbsp;or it is&nbsp;<span
+      class="freelinking-link">blinded</span>&nbsp;until the end of its next
+      turn.</p>
+
+      <p class="Indent1"><em><strong>Sunflower.</strong></em>&nbsp;Seeds enlarge
+      into a blanket of pointy needles. The area affected by the exploding seed
+      bomb becomes&nbsp;<span class="freelinking-link">difficult
+      terrain</span>&nbsp;for the next minute.</p>
+
+      <p class="Indent1"><em><strong>Tumbleweed.&nbsp;</strong></em>The weeds
+      unravel to latch around creatures. A creature in the area of the exploding
+      seed bomb makes a Dexterity&nbsp;<span class="freelinking-link">saving
+      throw</span>&nbsp;or it becomes&nbsp;<span
+      class="freelinking-link">grappled</span>&nbsp;until the end of its next
+      turn.</p>
+
+      </div>
+
+      </div>
+
+      <div class="field field--name-field-spellcast-at-higher-levels
+      field--type-text-long field--label-above">
+
+      <div class="field--label"><em><strong>Cast at Higher
+      Levels.</strong></em>&nbsp;The damage increases by 1d6 for each slot level
+      above 2nd.</div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - somatic
+    - material
+  materials:
+    value: tumbleweed, pinecone, or sunflower head
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: vk6a5fupk5x4dz39
+_key: '!items!vk6a5fupk5x4dz39'

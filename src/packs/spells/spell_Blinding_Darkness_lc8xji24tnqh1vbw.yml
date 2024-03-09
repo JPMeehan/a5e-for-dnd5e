@@ -1,0 +1,89 @@
+name: Blinding Darkness
+type: spell
+img: icons/magic/unholy/orb-glowing-purple.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - shadow
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Magical darkness heavily obscures darkvision and blocks nonmagical
+      light in the area. The darkness spreads around corners. If any of the area
+      overlaps with magical light created by a spell of 2nd-level or lower, the
+      spell that created the light is dispelled.</p><p>When cast on an object
+      that is in your possession or unattended, the darkness emanates from it
+      and moves with it. Completely covering the object with something that is
+      not transparent blocks the darkness.</p><hr class="a5e-rule
+      u-my-md"><p><strong>Rare: Blinding Darkness.</strong> A creature that
+      moves out of the darkness must make a Constitution saving throw or be
+      blinded for 1 minute. A creature blinded by this spell can repeat the
+      saving throw at the end of each of its turns, ending the effect on itself
+      on a success.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - material
+    - concentration
+  materials:
+    value: bat fur and a drop of pitch or piece of coal
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: EkkxXAsn0xjh7IWp
+_id: lc8xji24tnqh1vbw
+_key: '!items!lc8xji24tnqh1vbw'

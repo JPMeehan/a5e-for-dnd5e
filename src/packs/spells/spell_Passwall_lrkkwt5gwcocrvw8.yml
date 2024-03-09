@@ -1,0 +1,85 @@
+name: Passwall
+type: spell
+img: icons/commodities/stone/masonry-block-cube-grey-teal.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - terrain
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, you create a passage extending into the target
+      surface. When creating the passage you define its dimensions, as long as
+      they do not exceed 5 feet in width, 8 feet in height, or 20 feet in
+      depth.</p><p>The appearance of the passage has no effect on the stability
+      of the surrounding environment.</p><p>Any creatures or objects within the
+      passage when the spell ends are expelled without harm into unoccupied
+      spaces near where the spell was cast.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 5
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: sesame seeds
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 7JSQOMqQquD3x5jj
+_id: lrkkwt5gwcocrvw8
+_key: '!items!lrkkwt5gwcocrvw8'

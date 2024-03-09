@@ -1,0 +1,124 @@
+name: Conjure Infernal
+type: spell
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - summoning
+      - evil
+      - law
+      - divine
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p><strong>Classes: </strong>Cleric, Warlock, Wizard</p>
+
+      <hr>
+
+      <p>You summon a devil from the depths of Hell, bargaining for its aid.
+      This creature uses the statistics of an <em>infernal creature</em> with
+      certain traits determined by your choice of its type: bearded devil, hell
+      hound, or barbed devil.</p>
+
+      <p>When casting this spell, you must offer the devil summoned payment out
+      of your soul. Your maximum hit points are reduced by an amount equal to 5
+      x the level of the spell. These lost hit points cannot be regained while
+      the devil remains, and they are restored when the <em>infernal
+      creature</em> returns to Hell. When the spell ends, you must make a DC 13
+      Wisdom saving throw or gain a level of strife (DC 18 if it was cast using
+      rapid summoning). If you are reduced to 0 hit points while the
+      <em>infernal creature </em>remains, whether concentrating on the spell or
+      not, the reduction to your maximum hit points becomes permanent unless
+      undone by a spell such as greater restoration.</p>
+
+      <p>The creature is friendly to you and your companions and takes its turn
+      immediately after yours.</p>
+
+      <p>It obeys your verbal commands. Without such commands, the creature only
+      defends itself.</p>
+
+      <p>The creature disappears when reduced to 0 hit points. If your
+      concentration is broken before the spell ends, you lose control of the
+      creature, which becomes hostile and might attack you and your companions.
+      An uncontrolled creature disappears at the end of the spell's maximum
+      duration.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> For each slot level
+      above 6th the <em>infernal creature</em>'s AC increases by 1, its hit
+      points increase by 10, and when it deals damage with an attack it deals
+      1d6 extra damage. This addittional damage is fire for the hellhound's bite
+      attack. The DC to avoid gaining a level of strife when the spell ends also
+      increases by 1.</p>
+
+      <hr>
+
+      <p><strong>Rare: Okiremle's Lawful Infernal Conjuring. </strong>When using
+      rapid summoning to cast this spell, the spell does not require
+      concentration. Increase the maximum hit point reduction you must pay by
+      5.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  level: 6
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: FgEE27o1nHRME564
+_id: b2q4jv6csfxz5j8e
+_key: '!items!b2q4jv6csfxz5j8e'

@@ -1,0 +1,84 @@
+name: Stone Shape
+type: spell
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - transformation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You reshape the target into any form you choose.</p><p>For example, you
+      could shape a large rock into a weapon, statue, or chest, make a small
+      passage through a wall (as long as it isn't more than 5 feet thick), seal
+      a stone door shut, or create a hiding place. The target can have up to two
+      hinges and a latch, but finer mechanical detail isn't
+      possible.</p><p><strong><em>Cast at Higher Levels.</em></strong> You may
+      select one additional target for every slot level above 4th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: soft clay shaped as part of the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: object
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 3HQE3FN5vUCIygDu
+_id: ble3ggi0tc4u550j
+_key: '!items!ble3ggi0tc4u550j'

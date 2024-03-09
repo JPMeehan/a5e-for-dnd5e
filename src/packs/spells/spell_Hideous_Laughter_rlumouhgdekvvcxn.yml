@@ -1,0 +1,127 @@
+name: Hideous Laughter
+type: spell
+img: icons/skills/wounds/injury-face-impact-orange.webp
+effects:
+  - icon: icons/skills/wounds/injury-face-impact-orange.webp
+    origin: Item.rlumouhgdekvvcxn
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: EnM94wEvCpTZmMnQ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Hideous Laughter
+    _id: sEzBFpSnqGKITqF4
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone","incapacitated"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is overwhelmed by the absurdity of the world and is crippled
+      by paroxysms of laughter. The target falls prone, becomes incapacitated,
+      and cannot stand.</p>
+
+      <p>Until the spell ends, at the end of each of the target's turns and when
+      it suffers damage, the target may attempt another saving throw (with
+      advantage if triggered by damage). On a successful save, the spell
+      ends.</p>
+    statuses:
+      - prone
+      - incapacitated
+    folder: null
+    _key: '!items.effects!rlumouhgdekvvcxn.sEzBFpSnqGKITqF4'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - compulsion
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target is overwhelmed by the absurdity of the world and is crippled
+      by paroxysms of laughter. The target falls prone, becomes incapacitated,
+      and cannot stand.</p><p>Until the spell ends, at the end of each of the
+      target's turns and when it suffers damage, the target may attempt another
+      saving throw (with advantage if triggered by damage). On a successful
+      save, the spell ends.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> Target an additional creature within 30 feet of the
+      original for each slot level above 1st.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: poppy seed
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: riV8qst3SvT2320y
+_id: rlumouhgdekvvcxn
+_key: '!items!rlumouhgdekvvcxn'

@@ -1,0 +1,117 @@
+name: Costly Spare the Dying
+type: spell
+img: icons/magic/life/heart-cross-green.webp
+effects:
+  - icon: icons/magic/life/heart-cross-green.webp
+    origin: Item.3b5jvxp0kdcpfa97
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: M096lNDqettqPs4l
+        duration:
+          unit: hours
+    transfer: false
+    name: Rattled
+    _id: l0pWhtSp1kS8lQq9
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!3b5jvxp0kdcpfa97.l0pWhtSp1kS8lQq9'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - healing
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>A jolt of healing energy flows through the target and it becomes
+      stable.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Costly Spare the
+      Dying.&nbsp;</strong>For the&nbsp;next 3 rounds, at the start of its turn
+      the target&nbsp;rolls 1d20, regaining 1 hit point on a result of
+      20.&nbsp;Whether or not it regains any hit points, for the&nbsp;next 24
+      hours the target is rattled.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 0
+  school: nec
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '1'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: VZdnSJFGeDzlfocC
+_id: 3b5jvxp0kdcpfa97
+_key: '!items!3b5jvxp0kdcpfa97'

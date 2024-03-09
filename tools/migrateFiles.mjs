@@ -153,8 +153,8 @@ function fixUUIDrefs(uuid) {
 
 /**
  *
- * @param {import('./types/a5e.mjs').Action} action The action being called
- * @param {object} system                           The o5e system data to update
+ * @param {import('./types/a5e.mjs').Action} action     The action being called
+ * @param {import('./types/dnd5e.mjs').Action} system   The o5e system data to update
  * @returns {boolean} Validates that the action was completed
  */
 function migrateAction(action, system) {
@@ -208,7 +208,7 @@ function migrateAction(action, system) {
       scaling: 'spell',
     },
   };
-  updateTarget(activation, action);
+  updateTarget(activation.target, action);
   let rangeProp = 'value';
   for (const r of Object.values(action.ranges || {})) {
     const actionRange = r.range;
@@ -236,7 +236,7 @@ function migrateAction(action, system) {
  * Handles the rolls object of the a5e item
  * @param {Record<string, import('./types/a5e.mjs').Roll} rolls
  * @param {import('./types/a5e.mjs').Action} action
- * @param {object} system
+ * @param {import('./types/dnd5e.mjs').Action & import('./types/dnd5e.mjs').Spell} system
  */
 function processRolls(rolls, action, system) {
   if (!Object.keys(rolls || {}).length) return false;
@@ -730,7 +730,7 @@ function weaponProperties(system, description) {
 
 /**
  *
- * @param {import("./types/a5e.mjs").Spell | import("./types/a5e.mjs").BaseTemplate} system
+ * @param {import("./types/a5e.mjs").Spell & import('./types/a5e.mjs').BaseTemplate} system
  * @returns {}
  */
 function migrateSpell(system) {
@@ -743,13 +743,7 @@ function migrateSpell(system) {
     source: mapSource(system.source),
     level: system.level,
     school: abbr(system.schools.primary),
-    components: {
-      vocal: system.components.vocalized,
-      somatic: system.components.seen,
-      material: system.components.material,
-      ritual: system.ritual,
-      concentration: system.concentration,
-    },
+    properties: [],
     materials: {
       value: system.materials,
       consumed: system.materialsConsumed,
@@ -765,14 +759,20 @@ function migrateSpell(system) {
       formula: null,
     },
   };
+  if (system.components.vocalized) o5e.properties.push('vocal');
+  if (system.components.seen) o5e.properties.push('somatic');
+  if (system.components.material) o5e.properties.push('material');
+  if (system.ritual) o5e.properties.push('ritual');
+  if (system.concentration) o5e.properties.push('concentration');
+
   for (const a of Object.values(system.actions)) migrateAction(a, o5e);
   return o5e;
 }
 
 /**
  *
- * @param {object} system The a5e background
- * @returns {object}      The o5e background
+ * @param {import('./types/a5e.mjs').Background} system The a5e background
+ * @returns {import('./types/dnd5e.mjs').Background}      The o5e background
  */
 function migrateBackground(system) {
   /** @type {import('./types/dnd5e.mjs').Background} */
@@ -789,7 +789,7 @@ function migrateBackground(system) {
 
 /**
  *
- * @param {object} system The a5e culture
+ * @param {import('./types/a5e.mjs').Culture} system The a5e culture
  * @returns {object}      The o5e background
  */
 function migrateCulture(system) {
@@ -849,7 +849,7 @@ for (const p of packList) {
     case 'spell':
       data.flags['a5e-for-dnd5e'] = {
         secondarySchools: data.system.schools.secondary,
-        rareSpell: targetPack === 'rareSpells',
+        rareSpell: data.system.rare,
       };
       data.system = migrateSpell(data.system);
       break;
@@ -868,7 +868,7 @@ for (const p of packList) {
   switch (targetPack) {
     case 'adventuringGear':
     case 'magicItems':
-      packPath = path.join('src', 'packs', 'equipment');
+      packPath = path.join('src', 'packs', 'gear');
       break;
   }
   if (!fs.lstat(packPath)) fs.mkdir(packPath);

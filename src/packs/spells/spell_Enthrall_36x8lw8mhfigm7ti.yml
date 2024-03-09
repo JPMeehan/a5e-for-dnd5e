@@ -1,0 +1,111 @@
+name: Enthrall
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-eye.webp
+    origin: Item.36x8lw8mhfigm7ti
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Gxhj5RDuFppzj6yo
+        duration:
+          unit: minutes
+    transfer: false
+    name: Enthralled
+    _id: XlCX0Vv1mKB12oEg
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends or a target can no longer hear you, it has
+      disadvantage on Perception checks made to perceive any creature other than
+      you. The spell ends if you are incapacitated or can no longer speak.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!36x8lw8mhfigm7ti.XlCX0Vv1mKB12oEg'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - compulsion
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You weave a compelling stream of words that captivates your targets.
+      Any target that can't be charmed automatically succeeds on its saving
+      throw, and targets fighting you or creatures friendly to you have
+      advantage on the saving throw.</p><p>Until the spell ends or a target can
+      no longer hear you, it has disadvantage on Perception checks made to
+      perceive any creature other than you. The spell ends if you are
+      incapacitated or can no longer speak.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: 36x8lw8mhfigm7ti
+_key: '!items!36x8lw8mhfigm7ti'

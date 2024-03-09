@@ -1,0 +1,96 @@
+name: Conductive Lightning Bolt
+type: spell
+img: icons/magic/lightning/bolt-strike-sparks-teal.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - lightning
+      - nature
+      - storm
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>A bolt of lightning arcs out from you in a direction you choose. Each
+      creature in the area takes 8d6 lightning damage. The lightning ignites
+      flammable objects in its path that aren't worn or carried by another
+      creature.</p>
+
+      <p>If the spell is stopped by an object at least as large as its width, it
+      ends there unless it deals enough damage to break through. When it does,
+      it continues to the end of its area.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> Damage increases by
+      1d6 for every slot level above 3rd.</p>
+
+      <p><strong><em>Rare:&nbsp;</em></strong><strong>Conductive Lightning
+      Bolt.&nbsp;</strong>Metallic&nbsp;creatures and creatures wearing metal
+      armor&nbsp;make their saving throw with disadvantage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: small metal rod and rain water
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '100'
+    width: '5'
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 8d6
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: ULrFDUr9XIqKkKnP
+_id: uvo1o6d8he9iogp6
+_key: '!items!uvo1o6d8he9iogp6'

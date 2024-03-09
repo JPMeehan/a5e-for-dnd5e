@@ -1,0 +1,95 @@
+folder: riV8qst3SvT2320y
+name: Probability Manipulation
+type: spell
+img: icons/skills/movement/ball-spinning-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You reach out and tug upon the strings of fate itself,
+      bringing about a result you desire.</p>
+
+      <p dir="ltr">You may cast this spell whenever you or another creature
+      would roll a die other than a d20, d100, or percentile die. You may set
+      the result of that die roll. If more than one die is being rolled at once,
+      you may choose any of the dice to affect, but only one, and it may not be
+      a d20, d100, or percentile die. You may not use this spell on rolls
+      private to the Narrator (such as random encounter table results) or on the
+      die used to determine a creature&rsquo;s hit points upon leveling up.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-858d8e85-7fff-9629-5c9e-0978b42f0a2f">Cast At
+      Higher Levels.</strong> If you cast this with a spell slot of at least 2nd
+      level, you may change the result of an additional die from the same roll
+      for each spell slot level above 1st. In addition, if you cast this spell
+      with an 8th or 9th level spell slot, you may use it to manipulate the
+      result of a single d20, d100, or percentile die roll instead.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A sheep’s knucklebone
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - time
+      - utility
+    rareSpell: false
+_id: ezcmcpqs024bstj1
+_key: '!items!ezcmcpqs024bstj1'

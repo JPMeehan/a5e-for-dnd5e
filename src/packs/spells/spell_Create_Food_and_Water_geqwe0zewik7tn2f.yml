@@ -1,0 +1,83 @@
+name: Create Food and Water
+type: spell
+img: icons/consumables/food/cheese-round-glowing-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - hearth
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Your magic turns one serving of food or water into 3 Supply. The food
+      is nourishing but bland, and the water is clean. After 24 hours uneaten
+      food spoils and water affected or created by this spell goes
+      bad.</p><p><strong><em>Cast at Higher Levels.</em></strong> You create an
+      additional 2 Supply for each slot level above 3rd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: serving of fresh food or water
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: object
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: geqwe0zewik7tn2f
+_key: '!items!geqwe0zewik7tn2f'

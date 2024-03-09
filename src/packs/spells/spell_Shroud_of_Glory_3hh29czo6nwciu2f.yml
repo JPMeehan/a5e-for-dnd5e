@@ -1,0 +1,146 @@
+folder: KpVFJJxpHWw9kEfV
+name: Shroud of Glory
+type: spell
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You glow with brilliant divine light that obscures your
+      features and dazzles your foes.</p>
+
+      <p dir="ltr">When you cast this spell, you begin glowing with brilliant
+      light. Your head appears backlit no matter which angle you are viewed
+      from. You shed bright light to a distance of 30 feet and dim light for an
+      additional 30 feet. When a creature attacks you in melee, you may use your
+      reaction to cause the light to flare, potentially blinding your attacker.
+      The attacking creature must make a Constitution save against your spell
+      save DC. If it fails, it is blinded until the end of its next turn and
+      rolls the triggering attack with disadvantage. Once a creature has had
+      this blinding effect used on it, you cannot use it on that same creature
+      again with the same casting of Shroud of Glory.</p>
+
+      <p dir="ltr">In addition, creatures that see you while this spell&rsquo;s
+      effects are active have disadvantage on checks to remember anything about
+      you except for the brilliant light or to recognize you later if they see
+      you again. This second effect does not affect those who are very familiar
+      with you such as close friends, traveling companions, longtime rivals, or
+      immediate family members.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: ill
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/light/explosion-star-glow-silhouette.webp
+    origin: Item.3hh29czo6nwciu2f
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 8QiCJxDRPyebKhv7
+        duration:
+          unit: minutes
+    transfer: false
+    name: Shroud of Glory
+    _id: dNeNU8Brrn93bpjs
+    changes:
+      - key: '@token.light.bright'
+        value: '30'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '30'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p dir="ltr">When you cast this spell, you begin glowing with brilliant
+      light. Your head appears backlit no matter which angle you are viewed
+      from. You shed bright light to a distance of 30 feet and dim light for an
+      additional 30 feet. When a creature attacks you in melee, you may use your
+      reaction to cause the light to flare, potentially blinding your attacker.
+      The attacking creature must make a Constitution save against your spell
+      save DC. If it fails, it is blinded until the end of its next turn and
+      rolls the triggering attack with disadvantage. Once a creature has had
+      this blinding effect used on it, you cannot use it on that same creature
+      again with the same casting of Shroud of Glory.</p>
+
+      <p dir="ltr">In addition, creatures that see you while this spell’s
+      effects are active have disadvantage on checks to remember anything about
+      you except for the brilliant light or to recognize you later if they see
+      you again. This second effect does not affect those who are very familiar
+      with you such as close friends, traveling companions, longtime rivals, or
+      immediate family members.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!3hh29czo6nwciu2f.dNeNU8Brrn93bpjs'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - obscurement
+    rareSpell: false
+_id: 3hh29czo6nwciu2f
+_key: '!items!3hh29czo6nwciu2f'

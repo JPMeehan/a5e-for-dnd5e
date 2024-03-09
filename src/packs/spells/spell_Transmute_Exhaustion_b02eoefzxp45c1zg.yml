@@ -1,0 +1,81 @@
+folder: KpVFJJxpHWw9kEfV
+name: Transmute Exhaustion
+type: spell
+img: icons/magic/life/ankh-gold-blue.webp
+system:
+  description:
+    value: >-
+      <p>All the target creature&rsquo;s levels of&nbsp;strife&nbsp;are
+      transformed into&nbsp;fatigue, or vice-versa. This spell fails if the
+      target&rsquo;s total levels of fatigue or strife would equal 7 or
+      more.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #15'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - divine
+      - healing
+    rareSpell: false
+_id: b02eoefzxp45c1zg
+_key: '!items!b02eoefzxp45c1zg'

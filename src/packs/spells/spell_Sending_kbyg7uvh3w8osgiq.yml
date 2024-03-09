@@ -1,0 +1,85 @@
+name: Sending
+type: spell
+img: icons/magic/sonic/projectile-sound-rings-wave.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - communication
+      - divine
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You send a message of 25 words or less to the target. It recognizes you
+      as the sender and can reply immediately in kind. The message travels
+      across any distance and into other planes of existence. If the target is
+      on a different plane of existence than you, there is a 5% chance it
+      doesn't receive your message. A target with an Intelligence score of at
+      least 1 understands your message as you intend it (whether you share a
+      language or not).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: piece of copper wire
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: Unlimited
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: kbyg7uvh3w8osgiq
+_key: '!items!kbyg7uvh3w8osgiq'

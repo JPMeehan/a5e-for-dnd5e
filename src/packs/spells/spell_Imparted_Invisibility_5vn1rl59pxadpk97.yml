@@ -1,0 +1,122 @@
+name: Imparted Invisibility
+type: spell
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects:
+  - icon: icons/magic/light/explosion-star-glow-silhouette.webp
+    origin: Item.5vn1rl59pxadpk97
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: JmYFAmw4m4fpTJH3
+        duration:
+          unit: hours
+    transfer: false
+    name: Invisible
+    _id: o1qvWrwid36w8yeW
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - invisible
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!5vn1rl59pxadpk97.o1qvWrwid36w8yeW'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - obscurement
+      - shadow
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You wreathe a creature in an illusory veil, making it invisible.
+      Anything the target is carrying or wearing is also invisible as long as it
+      remains in the target's possession. The spell's effects end for a target
+      that attacks or casts a spell.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> Target one additional
+      creature for each slot level above 2nd.</p>
+
+      <p><strong>Rare:&nbsp;<em>Imparted Invisibility.&nbsp;</em></strong>Until
+      the&nbsp;spell ends, any object that the target picks up&nbsp;becomes
+      invisible even after it is dropped.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: piece of a veil
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: EkkxXAsn0xjh7IWp
+_id: 5vn1rl59pxadpk97
+_key: '!items!5vn1rl59pxadpk97'

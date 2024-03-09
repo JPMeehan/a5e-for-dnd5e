@@ -1,0 +1,88 @@
+name: Remove Curse
+type: spell
+img: icons/magic/symbols/star-inverted-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - negation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>This spell ends a curse inflicted with a spell slot of 3rd-level or
+      lower. If the curse was instead inflicted by a feature or trait, the spell
+      ends a curse inflicted by a creature of Challenge Rating 6 or lower. If
+      cast on a cursed object of Rare or lesser rarity, this spell breaks the
+      owner's attunement to the item (although it does not end the curse on the
+      object).</p><p><strong><em>Cast at Higher Levels.</em></strong> For each
+      slot level above 3rd, the spell ends a curse inflicted either by a spell
+      one level higher or by a creature with a Challenge Rating two higher. When
+      using a 6th-level spell slot, the spell breaks the owner's attunement to a
+      Very Rare item.</p><p>When using a 9th-level spell slot, the spell breaks
+      the owner's attunement to a Legendary item.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: abj
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: l16wg9h1z9s16exb
+_key: '!items!l16wg9h1z9s16exb'

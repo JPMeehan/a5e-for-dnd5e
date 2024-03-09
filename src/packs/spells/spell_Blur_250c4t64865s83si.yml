@@ -1,0 +1,113 @@
+name: Blur
+type: spell
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+effects:
+  - icon: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    origin: Item.250c4t64865s83si
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: minutes
+        actionId: tGuKAxs5LfW4JsEB
+    transfer: false
+    name: Blur
+    _id: WRbkreWcyxoYrIGy
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!250c4t64865s83si.WRbkreWcyxoYrIGy'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - protection
+      - senses
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, you are shrouded in distortion and your image is
+      blurred. Creatures make attack rolls against you with disadvantage unless
+      they have senses that allow them to perceive without sight or to see
+      through illusions (like blindsight or truesight).</p><p><strong><em>Cast
+      at Higher Levels.</em></strong> You may target an additional willing
+      creature you can see within range for each slot level above 2nd. Whenever
+      an affected creature other than you is hit by an attack, the spell ends
+      for that creature. When using a higher level spell slot, increase the
+      spell's range to 30 feet.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: ill
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: 250c4t64865s83si
+_key: '!items!250c4t64865s83si'

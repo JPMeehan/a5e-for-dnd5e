@@ -1,0 +1,88 @@
+name: Incendiary Cloud
+type: spell
+img: icons/magic/air/fog-gas-smoke-swirling-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A cloud of burning embers, smoke, and roiling flame appears within
+      range. The cloud heavily obscures its area, spreading around corners and
+      through cracks. When the cloud appears and a creature is in it, when a
+      creature enters the cloud for the first time on a turn, or when a creature
+      ends its turn within the cloud it makes a Dexterity saving throw, taking
+      10d8 fire damage on a failed save, or half as much on a successful
+      one.</p><p>The cloud can be dispelled by a wind of at least 10 miles per
+      hour. After it is cast, the cloud moves 10 feet away from you in a
+      direction that you choose at the start of each of your turns.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 8
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '20'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 10d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: DMm8aLAHhpqUVDEv
+_id: jgf01d6mjuovnsyp
+_key: '!items!jgf01d6mjuovnsyp'

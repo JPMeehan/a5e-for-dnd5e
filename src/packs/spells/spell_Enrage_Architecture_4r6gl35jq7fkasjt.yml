@@ -1,0 +1,89 @@
+name: Enrage Architecture
+type: spell
+img: icons/creatures/magical/construct-face-stone-pink.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+      - terrain
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You animate and enrage a target building that lashes out at its
+      inhabitants and surroundings. As a bonus action you may command the target
+      to open, close, lock, or unlock any nonmagical doors or windows, or to
+      thrash about and attempt to crush its inhabitants. While the target is
+      thrashing, any creature inside or within 30 feet of it must make a
+      Dexterity saving throw, taking 2d10+5 bludgeoning damage on a failed save
+      or half as much on a successful one. When the spell ends, the target
+      returns to its previous state, magically repairing any damage it sustained
+      during the spell's duration.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 7
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: stone or timber removed from a structure at least 100 years old
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d10+5
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 2sI4m8RtV461RZaG
+_id: 4r6gl35jq7fkasjt
+_key: '!items!4r6gl35jq7fkasjt'

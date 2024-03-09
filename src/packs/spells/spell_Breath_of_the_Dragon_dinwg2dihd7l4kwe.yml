@@ -1,0 +1,168 @@
+folder: KpVFJJxpHWw9kEfV
+name: Breath of the Dragon
+type: spell
+img: icons/creatures/abilities/dragon-fire-breath-orange.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">As the material component burns, melts, or freezes and
+      shatters in the palm of your hand, you turn your ire upon your target and
+      the primordial energy rises up within you. You exhale dragon breath upon
+      your targets.</p>
+
+      <p dir="ltr">You may choose to breathe out in a 20ft cone or a 30ft line.
+      But you must also choose to either deal 3d6 damage, or use a special
+      metallic breath weapon.</p>
+
+      <p dir="ltr">You may choose the damage type of this breath weapon from the
+      following list: acid, cold, fire, force, lightning, necrotic, poison,
+      radiant, or thunder. If you choose to deal damage, enemies in the area
+      must make a dexterity save for half damage. This breath weapon is treated
+      as true dragon breath for special effects or magical considerations.</p>
+
+      <p dir="ltr">If you choose to use a special breath weapon, you may select
+      from the following options:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Brass:</strong> You breathe out
+      sleep gas. This forces your targets to make a constitution save or fall
+      into slumber for up to 1 minute. Loud noises, damage, or a creature
+      spending their action can awaken the target.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Bronze:</strong> You breathe out
+      a blast of ocean water. In addition to putting out nonmagical fires in the
+      area, any creature hit must make a strength save or be knocked back 5ft
+      and knocked prone.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Copper: </strong>You breathe out
+      a cloud of slowing gas that creeps upon your enemies. Creatures in the
+      area must make a constitution save or halve their movement rate for 3
+      rounds and they must choose between an action or bonus action on their
+      next turn, but not both.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Gold: </strong>You breathe out a
+      weakening gas. Creatures in the area must make a constitution save or have
+      disadvantage on weapon attacks for 3 rounds.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Silver:</strong> You breathe out
+      an insidious paralytic vapor. Creatures in the area must make a
+      constitution save or be stunned until the start of your next turn.</p>
+
+      </li>
+
+      </ul>
+
+      <p><strong
+      id="docs-internal-guid-cc791c8c-7fff-2c23-8eb6-9f22f4078e18">Cast at
+      Higher Levels.</strong> When cast at a higher level you may deal an
+      additional 1d8 damage per spell slot above 2nd. If cast at 6th level or
+      higher, all creatures who witness the spell must make a charisma saving
+      throw or be frightened for up to 1 minute, though they may continue making
+      saving throws to end the frightened condition at the end of their
+      subsequent turns. Creatures who have been exposed to dragon fear within
+      the last 24 hours are immune to this frightening effect.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - material
+  materials:
+    value: A scale the color of the dragon whose breath you wish to imitate
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - acid
+      - - 3d6
+        - cold
+      - - 3d6
+        - fire
+      - - 3d6
+        - force
+      - - 3d6
+        - lightning
+      - - 3d6
+        - necrotic
+      - - 3d6
+        - poison
+      - - 3d6
+        - radiant
+      - - 3d6
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - prismatic
+    rareSpell: false
+_id: dinwg2dihd7l4kwe
+_key: '!items!dinwg2dihd7l4kwe'

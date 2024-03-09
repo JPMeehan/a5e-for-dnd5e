@@ -1,0 +1,115 @@
+name: Charm Monster
+type: spell
+img: icons/creatures/abilities/paw-print-yellow.webp
+effects:
+  - icon: icons/creatures/abilities/paw-print-yellow.webp
+    origin: Item.7rvo952czilh307s
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: njimzvfaoMCnHUwH
+    transfer: false
+    name: Charm Monster
+    _id: 5Vy0nfmHjkiuUhvW
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!7rvo952czilh307s.5Vy0nfmHjkiuUhvW'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - compulsion
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You only require line of sight to the target (not line of effect) and
+      it has advantage on its saving throw to resist the spell if you or your
+      companions are fighting it. Until the spell ends, the target is charmed by
+      you and friendly towards you.</p><p>The spell ends if you or your
+      companions do anything harmful towards the target. The target knows it was
+      charmed by you when the spell ends.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> For each slot level above 4th, you affect one
+      additional target that is within 30 feet of other targets.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: 3HQE3FN5vUCIygDu
+_id: 7rvo952czilh307s
+_key: '!items!7rvo952czilh307s'

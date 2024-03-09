@@ -1,0 +1,84 @@
+folder: KpVFJJxpHWw9kEfV
+name: Cauterize
+type: spell
+img: icons/magic/fire/projectile-embers-orange.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You sear a creature, scorching it, but closing its wounds.
+      This spell deals 2d4 fire damage (potentially rendering the target
+      unconscious or causing a death save failure), then immediately ends all
+      ongoing damage of types other than fire on the target, and finally heals
+      it for 2d8 hit points.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4
+        - fire
+      - - 2d8
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - fire
+      - healing
+    rareSpell: false
+_id: b139siw9qit8u5wz
+_key: '!items!b139siw9qit8u5wz'

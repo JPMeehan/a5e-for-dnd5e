@@ -1,0 +1,117 @@
+name: Spiteful Divine Favor
+type: spell
+img: icons/skills/melee/strike-sword-dagger-runes-yellow.webp
+effects:
+  - icon: icons/skills/melee/strike-sword-dagger-runes-yellow.webp
+    origin: Item.ji5g4jq0f6khdd8z
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qATnhiGEce8sizWl
+        duration:
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Spiteful Divine Favor
+    _id: YE7PTLhlB2aNEALJ
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, you deal an extra 1d4 necrotic damage with your
+      weapon attacks, and when rolling extra damage from this spell you reroll
+      any results of 1 (you must use the new result).</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ji5g4jq0f6khdd8z.YE7PTLhlB2aNEALJ'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - divine
+      - radiant
+      - weaponry
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You imbue divine power into your strikes. Until the spell ends, you
+      deal an extra 1d4 radiant damage with your weapon attacks.</p><hr
+      class="a5e-rule u-my-md"><p><strong>Rare: Spiteful Divine Favor.</strong>
+      You deal extra necrotic damage instead of extra radiant damage, and when
+      rolling extra damage from this spell you reroll any results of 1 (you must
+      use the new result). </p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4r1
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: ji5g4jq0f6khdd8z
+_key: '!items!ji5g4jq0f6khdd8z'

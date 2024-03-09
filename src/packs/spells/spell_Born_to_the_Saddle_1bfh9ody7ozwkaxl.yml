@@ -1,0 +1,84 @@
+folder: riV8qst3SvT2320y
+name: Born to the Saddle
+type: spell
+img: icons/skills/movement/feet-spurred-boots-brown.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">With a word of encouragement and a gentle pat, you bolster
+      your mount&rsquo;s body and mind.</p>
+
+      <p dir="ltr">For the spell&rsquo;s duration, you have advantage on Animal
+      Handling checks related to the target. In addition, all of its movement
+      speeds increase by 20 feet and it gains an expertise die on saving throws.
+      Finally, it can maintain a gallop travel speed for the entire
+      spell&rsquo;s duration, which does not count against the usual 1 hour per
+      day limit. If you cast the spell on another creature before it ends, the
+      spell ends early.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: trs
+  properties: []
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - beasts
+      - enhancement
+      - movement
+    rareSpell: false
+_id: 1bfh9ody7ozwkaxl
+_key: '!items!1bfh9ody7ozwkaxl'

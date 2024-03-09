@@ -1,0 +1,92 @@
+name: Mounted Giant Insect
+type: spell
+img: icons/creatures/invertebrates/beetle-stag-yellow-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - beasts
+      - nature
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You transform insects and other vermin into monstrous versions of
+      themselves. Until the spell ends, up to 3 spiders become giant spiders, 2
+      ants become giant ants, 2 crickets or mantises become ankhegs, a centipede
+      becomes a giant centipede, or a scorpion becomes a giant scorpion. The
+      spell ends for a creature when it dies or when you use an action to end
+      the effect on it.</p><p>While it is within 60 feet you can use a bonus
+      action to mentally command the insects. When you command multiple insects
+      using this spell, you may simultaneously give them all the same
+      command.</p><p><strong><em>Cast at Higher Levels.</em></strong> The
+      spell's duration is 1 hour when using a 5th-level spell slot, or 8 hours
+      when using a 6th-level spell slot.</p><hr class="a5e-rule
+      u-my-md"><p><strong>Rare: Mounted Giant Insect.</strong> The spell
+      transforms up to 10 beetles into riding beetles. When using a 5th-level
+      spell slot and transforming beetles into riding beetles, the spell doesn’t
+      require concentration.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: TAolsZpEQ6FlOJYt
+_id: ga07wuu55zadqivt
+_key: '!items!ga07wuu55zadqivt'

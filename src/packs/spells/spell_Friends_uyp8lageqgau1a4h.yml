@@ -1,0 +1,78 @@
+name: Friends
+type: spell
+img: icons/skills/social/diplomacy-handshake-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Once before the start of your next turn, when you make a Charisma
+      ability check against the target, you gain an expertise die. If you roll a
+      1 on the ability or skill check, the target realizes its judgment was
+      influenced by magic and may become hostile.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 0
+  school: enc
+  properties:
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: Tw5cqPbIxtfMfhDz
+_id: uyp8lageqgau1a4h
+_key: '!items!uyp8lageqgau1a4h'

@@ -1,0 +1,87 @@
+name: Accompanying Fog Cloud
+type: spell
+img: icons/magic/air/fog-gas-smoke-blue-gray.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - obscurement
+      - weather
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You create a heavily obscured area of fog. The fog spreads around
+      corners and can be dispersed by a moderate wind (at least 10 miles per
+      hour).</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The spell's radius
+      increases by 20 feet for each slot level above 1st.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Accompanying Fog
+      Cloud.&nbsp;</strong>Until the spell ends, you can use a bonus action to
+      move the area of fog up to 30 feet horizontally and 5 feet vertically.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: 9298seizqe5xmcfn
+_key: '!items!9298seizqe5xmcfn'

@@ -1,0 +1,101 @@
+name: Wall of Fire
+type: spell
+img: icons/magic/fire/barrier-wall-explosion-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - divine
+      - fire
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You create a wall of fire on a solid surface. The wall can be up to 60
+      feet long (it does not have to be a straight line; sections of the wall
+      can angle as long as they are contiguous), 20 feet high, and 1 foot thick,
+      or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot
+      thick. The wall blocks sight.</p>
+
+      <p>When the wall appears, each creature within its area makes a Dexterity
+      saving throw, taking 5d8 fire damage on a failed save, or half as much
+      damage on a successful save.</p>
+
+      <p>One side of the wall (chosen when the spell is cast) deals 5d8 fire
+      damage to each creature that ends its turn within 10 feet of that side or
+      inside the wall. A creature takes the same damage when it enters the wall
+      itself for the first time on a turn or ends its turn there. The other side
+      of the wall deals no damage.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The damage increases
+      by 1d8 for each slot level above 4th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: phosphorus
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 5d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 3HQE3FN5vUCIygDu
+_id: 1b2ean5arnl3tob0
+_key: '!items!1b2ean5arnl3tob0'

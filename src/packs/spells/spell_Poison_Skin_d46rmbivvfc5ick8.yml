@@ -1,0 +1,138 @@
+name: Poison Skin
+type: spell
+img: icons/magic/acid/dissolve-pool-bubbles.webp
+effects:
+  - icon: icons/magic/acid/dissolve-pool-bubbles.webp
+    origin: Item.d46rmbivvfc5ick8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ySdg0UeALBx4vL5T
+        duration:
+          unit: minutes
+    transfer: false
+    name: Poison Skin
+    _id: UV6ZEWo0eMfVrAlk
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, whenever a creature within 5 feet of the target
+      damages the target with a melee weapon attack, the creature makes a
+      Constitution saving throw. On a failed save, the creature becomes poisoned
+      and takes 1d6 ongoing poison damage.</p>
+
+      <p>A poisoned creature can make a Constitution saving throw at the end of
+      each of its turns, ending the effect on itself on a success.</p>
+
+      <p>The target of the spell also becomes bright and multicolored like a
+      poisonous dart frog, giving it disadvantage on Dexterity (Stealth)
+      checks.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The target's skin is
+      also covered in mucus, giving it advantage on saving throws and checks
+      made to resist being grappled or restrained. In addition, the damage
+      increases by 1d6 for each slot level above 3rd.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!d46rmbivvfc5ick8.UV6ZEWo0eMfVrAlk'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - poison
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target becomes poisonous to the touch. Until the spell ends,
+      whenever a creature within 5 feet of the target damages the target with a
+      melee weapon attack, the creature makes a Constitution saving throw. On a
+      failed save, the creature becomes poisoned and takes 1d6 ongoing poison
+      damage.</p><p>A poisoned creature can make a Constitution saving throw at
+      the end of each of its turns, ending the effect on itself on a
+      success.</p><p>The target of the spell also becomes bright and
+      multicolored like a poisonous dart frog, giving it disadvantage on
+      Dexterity (Stealth) checks.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> The target's skin is also covered in mucus, giving
+      it advantage on saving throws and checks made to resist being grappled or
+      restrained. In addition, the damage increases by 1d6 for each slot level
+      above 3rd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: handful of frog spawn
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: d46rmbivvfc5ick8
+_key: '!items!d46rmbivvfc5ick8'

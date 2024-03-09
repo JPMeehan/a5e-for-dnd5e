@@ -1,0 +1,198 @@
+folder: KpVFJJxpHWw9kEfV
+name: Adaptive Physiology
+type: spell
+img: icons/creatures/abilities/wing-batlike-white-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You shape your body with magic, giving yourself new options
+      for movement.</p>
+
+      <p dir="ltr">When you cast this spell, choose one of the following
+      options. It remains in place as long as the spell is active.</p>
+
+      <p dir="ltr"><strong>Flight:</strong> Your arms and hands become massive,
+      powerful wings with an appearance of your choosing. You gain a fly speed
+      equal to your walking speed, but cannot cast other spells and lose the use
+      of your hands.</p>
+
+      <p dir="ltr"><strong>Burrowing:</strong> You gain Darkvision with a range
+      of 20 feet and your fingers transform into powerful, shovel-like claws.
+      You gain a burrow speed equal to your walking speed.</p>
+
+      <p dir="ltr"><strong>Swimming:</strong> You gain a set of gills and webbed
+      fingers and toes. You can breathe air and water and have a swimming speed
+      equal to your walking speed.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/abilities/wing-batlike-white-blue.webp
+    origin: Item.ev4w0zu167obx70z
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: wqHkV4blRTEnSVjW
+        duration:
+          unit: minutes
+    transfer: false
+    name: Flight
+    _id: QRC9SUIQeUfTAl4s
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your arms and hands become massive, powerful wings with an appearance
+      of your choosing. You gain a fly speed equal to your walking speed, but
+      cannot cast other spells and lose the use of your hands.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ev4w0zu167obx70z.QRC9SUIQeUfTAl4s'
+  - icon: icons/creatures/abilities/wing-batlike-white-blue.webp
+    origin: Item.ev4w0zu167obx70z
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: wqHkV4blRTEnSVjW
+        duration:
+          unit: minutes
+    transfer: false
+    name: Burrowing
+    _id: EIQRQl7z8bpZuJyV
+    changes:
+      - key: system.attributes.movement.burrow.distance
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+      - key: system.attributes.senses.darkvision.distance
+        value: '20'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain Darkvision with a range of 20 feet and your fingers transform
+      into powerful, shovel-like claws. You gain a burrow speed equal to your
+      walking speed.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ev4w0zu167obx70z.EIQRQl7z8bpZuJyV'
+  - icon: icons/creatures/abilities/wing-batlike-white-blue.webp
+    origin: Item.ev4w0zu167obx70z
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: wqHkV4blRTEnSVjW
+        duration:
+          unit: minutes
+    transfer: false
+    name: Swimming
+    _id: rNfRR11EY0OFl8sh
+    changes:
+      - key: system.attributes.movement.swim.distance
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain a set of gills and webbed fingers and toes. You can breathe
+      air and water and have a swimming speed equal to your walking speed.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ev4w0zu167obx70z.rNfRR11EY0OFl8sh'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - movement
+      - nature
+      - shapechanging
+    rareSpell: false
+_id: ev4w0zu167obx70z
+_key: '!items!ev4w0zu167obx70z'

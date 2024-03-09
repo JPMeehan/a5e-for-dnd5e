@@ -1,0 +1,85 @@
+name: Chain Lightning
+type: spell
+img: icons/magic/lightning/bolt-strike-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - lightning
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You fire a bolt of electricity at the primary target that deals 10d8
+      lightning damage. Electricity arcs to up to 3 additional targets you
+      choose that are within 30 feet of the primary
+      target.</p><p><strong><em>Cast at Higher Levels.</em></strong> An extra
+      arc leaps from the primary target to an additional target for each slot
+      level above 6th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: three pins, piece of glass, piece of fur
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 10d8
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: FgEE27o1nHRME564
+_id: v2bva71qkpbi3dhd
+_key: '!items!v2bva71qkpbi3dhd'

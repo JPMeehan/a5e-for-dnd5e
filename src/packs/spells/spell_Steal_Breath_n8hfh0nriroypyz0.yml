@@ -1,0 +1,119 @@
+folder: 3HQE3FN5vUCIygDu
+name: Steal Breath
+type: spell
+img: icons/magic/air/wind-stream-blue-gray.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">As you crush the lung in the palm of your hand, your target
+      feels as if they are drowning on dry land. The target must hold their
+      breath or begin drowning. If they take damage they must make a
+      concentration check to hold their breath. Creatures that do not breathe
+      are immune to this spell.</p>
+
+      <p dir="ltr">Creatures that die from the effects of this spell have water
+      filling their lungs and throat.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels.</strong> For every level above
+      4th, you may choose an additional target.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 4
+  school: enc
+  properties:
+    - vocal
+    - material
+    - concentration
+  materials:
+    value: The lungs of a mudskipper or other lungfish
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/air/wind-stream-blue-gray.webp
+    origin: Item.n8hfh0nriroypyz0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: GukD18uBi6tsnnKs
+        duration:
+          unit: hours
+    transfer: false
+    name: Stolen Breath
+    _id: hrfx6vby6UgMa8wV
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p dir="ltr">The target must hold their breath or begin drowning. If they
+      take damage they must make a concentration check to hold their breath.
+      Creatures that do not breathe are immune to this spell.</p>
+
+      <p dir="ltr">Creatures that die from the effects of this spell have water
+      filling their lungs and throat.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!n8hfh0nriroypyz0.hrfx6vby6UgMa8wV'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - compulsion
+    rareSpell: false
+_id: n8hfh0nriroypyz0
+_key: '!items!n8hfh0nriroypyz0'

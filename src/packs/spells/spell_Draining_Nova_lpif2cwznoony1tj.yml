@@ -1,0 +1,85 @@
+folder: 3HQE3FN5vUCIygDu
+name: Draining Nova
+type: spell
+img: icons/magic/unholy/orb-glowing-yellow-purple.webp
+system:
+  description:
+    value: >-
+      <p>Creatures in the area make a Constitution&nbsp;<span
+      class="freelinking-link">saving throw</span>&nbsp;, taking 4d8 necrotic
+      damage and suffering one level of&nbsp;<span
+      class="freelinking-link">fatigue</span>&nbsp;on a failed save and avoiding
+      the fatigue on a successful one. For each level of fatigue you cause in
+      this manner, you gain 1d8 temporary hit points.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #15'
+    license: OGL 1.0a
+  level: 4
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a handheld silver cauldron worth at least 50 gp
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d8
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - necrotic
+      - healing
+    rareSpell: false
+_id: lpif2cwznoony1tj
+_key: '!items!lpif2cwznoony1tj'

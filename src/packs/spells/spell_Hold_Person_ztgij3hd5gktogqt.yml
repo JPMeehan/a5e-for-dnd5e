@@ -1,0 +1,117 @@
+name: Hold Person
+type: spell
+img: icons/magic/control/debuff-chains-blue.webp
+effects:
+  - icon: icons/magic/control/debuff-chains-blue.webp
+    origin: Item.ztgij3hd5gktogqt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: D4D1cBdgTkodRK1D
+        duration:
+          unit: minutes
+    transfer: false
+    name: Held
+    _id: 3JVj6W1lcRJTlRBV
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["paralyzed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is paralyzed. At the end of each of its turns, the target
+      makes another saving throw, ending the spell's effects on it on a
+      successful save.</p>
+    statuses:
+      - paralyzed
+    folder: null
+    _key: '!items.effects!ztgij3hd5gktogqt.3JVj6W1lcRJTlRBV'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target is paralyzed. At the end of each of its turns, the target
+      makes another saving throw, ending the spell's effects on it on a
+      successful save.</p><p><strong><em>Cast at Higher Levels.</em></strong>
+      Target an additional creature within 30 feet of the first target for each
+      slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: piece of iron
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: ztgij3hd5gktogqt
+_key: '!items!ztgij3hd5gktogqt'

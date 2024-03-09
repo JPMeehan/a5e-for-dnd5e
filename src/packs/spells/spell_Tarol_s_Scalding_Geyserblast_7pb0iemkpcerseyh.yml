@@ -1,0 +1,100 @@
+folder: ULrFDUr9XIqKkKnP
+name: Tarol’s Scalding Geyserblast
+type: spell
+img: icons/magic/water/projectile-water-rings.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">A high-pressure stream of water blasts forth from your
+      outstretched hand. Creatures must make a Strength saving throw or take 6d6
+      points of bludgeoning damage, be pushed 20 feet away from you and knocked
+      prone. A creature that succeeds takes half damage and is not pushed or
+      knocked prone.</p>
+
+      <p dir="ltr">In addition, the water douses any unattended flames and
+      scours any clinging substances such as slime, oil, or contact poisons from
+      the surface of every creature in the stream.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels.</strong> The damage increases
+      by 1d6 for every spell slot level above 3rd. The push distance increases
+      by an additional 5 feet for every two spell slot levels above 3rd.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-112d6778-7fff-6de7-3c9f-eafd80268f92">Rare:
+      Tarol&rsquo;s Scalding Geyserblast.</strong> The stream is made of
+      pressurized, superheated steam and deals 4d6 bludgeoning and 4d6 fire
+      damage. It lacks the pushing effect, and creatures in the path make a
+      Dexterity save to take half damage instead of a Strength save.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A small metal valve or nozzle
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: null
+    formula: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 60
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - bludgeoning
+      - - 4d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - water
+    rareSpell: true
+_id: 7pb0iemkpcerseyh
+_key: '!items!7pb0iemkpcerseyh'

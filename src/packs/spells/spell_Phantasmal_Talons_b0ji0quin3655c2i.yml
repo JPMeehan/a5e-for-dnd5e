@@ -1,0 +1,112 @@
+name: Phantasmal Talons
+type: spell
+img: icons/creatures/claws/claw-talons-glowing-purple.webp
+effects:
+  - icon: icons/creatures/claws/claw-talons-glowing-purple.webp
+    origin: Item.b0ji0quin3655c2i
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: GW2mOcrH3DrZsFas
+        duration:
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Phantasmal Talons
+    _id: tSDGPUyDaTpmtFjM
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For the duration, your unarmed strikes gain the finesse property and
+      deal psychic damage. In addition, if your unarmed strike normally deals
+      less than 1d4 damage, it instead deals 1d4 damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!b0ji0quin3655c2i.tSDGPUyDaTpmtFjM'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - psychic
+      - unarmed
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You silently clench your hand into a claw and invisible talons of pure
+      will sprout from your fingers.</p><p>The talons do not interact with
+      physical matter, but rip viciously at the psyche of any creature struck by
+      them. For the duration, your unarmed strikes gain the finesse property and
+      deal psychic damage. In addition, if your unarmed strike normally deals
+      less than 1d4 damage, it instead deals 1d4 damage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: riV8qst3SvT2320y
+_id: b0ji0quin3655c2i
+_key: '!items!b0ji0quin3655c2i'

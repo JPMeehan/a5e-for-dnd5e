@@ -1,0 +1,85 @@
+name: Flame Strike
+type: spell
+img: icons/magic/fire/beam-jet-stream-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - fire
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A column of divine flame deals 4d6 fire damage and 4d6 radiant damage
+      to creatures in the area.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> Increase either the fire damage or the radiant
+      damage by 1d6 for each slot level above 5th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: pinch of sulfur
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: null
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '10'
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - fire
+      - - 4d6
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: 7JSQOMqQquD3x5jj
+_id: c2mhqi8hbsck0pdy
+_key: '!items!c2mhqi8hbsck0pdy'

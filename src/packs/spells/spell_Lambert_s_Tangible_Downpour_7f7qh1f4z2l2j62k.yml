@@ -1,0 +1,92 @@
+folder: EkkxXAsn0xjh7IWp
+name: Lambert’s Tangible Downpour
+type: spell
+img: icons/magic/water/projectile-beams-salvo-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You summon up a torrential downpour.</p>
+
+      <p dir="ltr">When you cast this spell, select an area as small as 100 feet
+      across or as large as a mile within range. The area becomes affected by
+      the Heavy Precipitation (rain) encounter element for the duration of the
+      spell. When the spell ends, all water created by it magically dissipates,
+      making it useless as a source of drinking water or for watering crops.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-589604d4-7fff-9773-d86d-a8df240b2c5d">Rare:
+      Lambert&rsquo;s Tangible Downpour.</strong>&nbsp;The water created by this
+      spell is real and can nourish plants or be collected and consumed. It does
+      not vanish when the spell ends.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A piece of wood from a tree struck by lightning
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - storm
+      - water
+      - weather
+    rareSpell: true
+_id: 7f7qh1f4z2l2j62k
+_key: '!items!7f7qh1f4z2l2j62k'

@@ -1,0 +1,83 @@
+name: Bothersome Buzzing
+type: spell
+img: icons/creatures/invertebrates/bee-yellow.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You hum, briefly, but the hum persists in your target&rsquo;s
+      ear, driving them to distraction.</p>
+
+      <p dir="ltr">On a failed saving throw, the next attack made against your
+      target gains expertise as if your target were flanked. At levels 5, 11,
+      and 17 you may target an additional creature with this spell. At level 11,
+      the range also increases to 60 feet.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 0
+  school: ill
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+folder: Tw5cqPbIxtfMfhDz
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - air
+      - sound
+    rareSpell: false
+_id: b87rq9617y6ysv5l
+_key: '!items!b87rq9617y6ysv5l'

@@ -1,0 +1,88 @@
+name: Blight
+type: spell
+img: icons/magic/unholy/hand-claw-fog-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - nature
+      - necrotic
+      - plants
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Necrotic energies drain moisture and vitality from the target, dealing
+      8d8 necrotic damage. Undead and constructs are immune to this
+      spell.</p><p>A plant creature or magical plant has disadvantage on its
+      saving throw and takes the maximum damage possible from this spell. A
+      nonmagical plant that isn't a creature receives no saving throw and
+      instead withers until dead.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> The damage increases by 1d8 for each slot level
+      above 4th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: nec
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 8d8
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: 3HQE3FN5vUCIygDu
+_id: 2q65v0xklhfx73to
+_key: '!items!2q65v0xklhfx73to'

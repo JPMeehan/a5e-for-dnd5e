@@ -1,0 +1,119 @@
+name: Protection from Poison
+type: spell
+img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+effects:
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+    origin: Item.vjye1ciunsmk099b
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iFbgqidjfvqkmvUq
+        duration:
+          unit: hours
+    transfer: false
+    name: Protection from Poison
+    _id: qPau3CSpppzHRDbG
+    changes:
+      - key: system.traits.damageResistances
+        value: '["poison"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target has advantage on saving throws against being poisoned and
+      resistance to poison damage.</p>
+
+      <p>Additionally, if the target is poisoned, you negate one poison
+      affecting it. If more than one poison affects the target, you negate one
+      poison you know is present (otherwise you negate one at random).</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!vjye1ciunsmk099b.qPau3CSpppzHRDbG'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - nature
+      - negation
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target has advantage on saving throws against being poisoned and
+      resistance to poison damage.</p><p>Additionally, if the target is
+      poisoned, you negate one poison affecting it. If more than one poison
+      affects the target, you negate one poison you know is present (otherwise
+      you negate one at random).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: abj
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: vjye1ciunsmk099b
+_key: '!items!vjye1ciunsmk099b'

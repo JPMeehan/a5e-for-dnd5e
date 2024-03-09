@@ -1,0 +1,185 @@
+name: Imprecating Divine Word
+type: spell
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+effects:
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
+    origin: Item.3bfn50sm01m5n4e9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: H50sNnXuavoSjquR
+        duration:
+          unit: minutes
+    transfer: false
+    name: Imprecating Divine Word (<50 HP)
+    _id: rnztvfPTLtjTp3O8
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - deafened
+    folder: null
+    _key: '!items.effects!3bfn50sm01m5n4e9.rnztvfPTLtjTp3O8'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
+    origin: Item.3bfn50sm01m5n4e9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: H50sNnXuavoSjquR
+        duration:
+          unit: minutes
+    transfer: false
+    name: Imprecating Divine Word (<40 HP)
+    _id: H4ocizG6o9Ll9ksV
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded","deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+      - deafened
+    folder: null
+    _key: '!items.effects!3bfn50sm01m5n4e9.H4ocizG6o9Ll9ksV'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
+    origin: Item.3bfn50sm01m5n4e9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: H50sNnXuavoSjquR
+        duration:
+          unit: hours
+    transfer: false
+    name: Imprecating Divine Word (<30 HP)
+    _id: eOscshLCLDAt9p3u
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded","deafened","stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+      - deafened
+      - stunned
+    folder: null
+    _key: '!items.effects!3bfn50sm01m5n4e9.eOscshLCLDAt9p3u'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - divine
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You utter a primordial imprecation that brings woe upon your enemies. A
+      target suffers an effect based on its current hit
+      points.</p><ul><li><p>Fewer than 50 hit points: deafened for 1
+      minute.</p></li><li><p>Fewer than 40 hit points: blinded and deafened for
+      10 minutes.</p></li><li><p>Fewer than 30 hit points: stunned, blinded, and
+      deafened for 1 hour.</p></li><li><p>Fewer than 20 hit points: instantly
+      killed outright.</p></li></ul><p>Additionally, when a celestial,
+      elemental, fey, or fiend is affected by this spell it is immediately
+      forced back to its home plane and for 24 hours it is unable to return to
+      your current plane by any means less powerful than a wish spell. Such a
+      creature does not suffer this effect if it is already on its plane of
+      origin.</p><hr class="a5e-rule u-my-md"><p><strong>Rare: Imprecating
+      Divine Word.</strong> The spell’s additional effect also targets
+      aberrations and dragons, sending them to a harmless demiplane. </p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 7
+  school: evo
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ybSOtxUcdcb5Rzdc
+_id: 3bfn50sm01m5n4e9
+_key: '!items!3bfn50sm01m5n4e9'

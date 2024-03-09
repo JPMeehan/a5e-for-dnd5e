@@ -1,0 +1,104 @@
+name: Find Familiar
+type: spell
+img: icons/creatures/birds/raptor-owl-flying-moon.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - summoning
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Your familiar, a spirit that takes the form of any CR 0 beast of Small
+      or Tiny size, appears in an unoccupied space within range. It has the
+      statistics of the chosen form, but is your choice of a celestial, fey, or
+      fiend (instead of a beast).</p><p>Your familiar is an independent creature
+      that rolls its own initiative and acts on its own turn in combat (but
+      cannot take the Attack action). However, it is loyal to you and always
+      obeys your commands.</p><p>When the familiar drops to 0 hit points, it
+      vanishes without a trace. Casting the spell again causes it to
+      reappear.</p><p>You are able to communicate telepathically with your
+      familiar when it is within 100 feet. As long as it is within this range,
+      you can use an action to see through your familiar's eyes and hear through
+      its ears until the beginning of your next turn, gaining the benefit of any
+      special senses it has. During this time, you are blind and deaf to your
+      body's surroundings.</p><p>You can use an action to either permanently
+      dismiss your familiar or temporarily dismiss it to a pocket dimension
+      where it awaits your summons. While it is temporarily dismissed, you can
+      use an action to call it back, causing it to appear in any unoccupied
+      space within 30 feet of you.</p><p>You can't have more than one familiar
+      at a time, but if you cast this spell while you already have a familiar,
+      you can cause it to adopt a different form.</p><p>Finally, when you cast a
+      spell with a range of Touch and your familiar is within 100 feet of you,
+      it can deliver the spell as if it was the spellcaster. Your familiar must
+      use its reaction to deliver the spell when you cast it. If the spell
+      requires an attack roll, use your attack bonus for the spell.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: >-
+      10 gold worth of charcoal, incense, and herbs that must be burned in a
+      brass brazier
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: riV8qst3SvT2320y
+_id: 6l4bmc7ovgcn2c9k
+_key: '!items!6l4bmc7ovgcn2c9k'

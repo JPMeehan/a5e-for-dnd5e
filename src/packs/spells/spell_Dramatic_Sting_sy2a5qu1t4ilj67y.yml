@@ -1,0 +1,128 @@
+name: Dramatic Sting
+type: spell
+img: icons/skills/trades/music-notes-sound-blue.webp
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.sy2a5qu1t4ilj67y
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ysJ9vce3k0ZHkGxm
+        duration:
+          unit: minutes
+    transfer: false
+    name: Dramatic Sting
+    _id: eb89dT9TftKKFA64
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You frighten the target by echoing its movements with ominous music and
+      terrifying sound effects. It takes 1d4 psychic damage and becomes
+      frightened of you until the spell ends.</p>
+
+      <p>At the end of each of the creature's turns, it can make another Wisdom
+      saving throw, ending the effect on itself on a success. On a failed save,
+      the creature takes 1d4 psychic damage.</p>
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!sy2a5qu1t4ilj67y.eb89dT9TftKKFA64'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - fear
+      - psychic
+      - sound
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You frighten the target by echoing its movements with ominous music and
+      terrifying sound effects. It takes 1d4 psychic damage and becomes
+      frightened of you until the spell ends.</p><p>At the end of each of the
+      creature's turns, it can make another Wisdom saving throw, ending the
+      effect on itself on a success. On a failed save, the creature takes 1d4
+      psychic damage.</p><p>You cannot cast another spell through your
+      spellcasting focus while concentrating on this
+      spell.</p><p><strong><em>Cast at Higher Levels.</em></strong> The damage
+      increases by 1d4 for each slot level above 1st.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: broken violin string and a wasp's stinger
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d4
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: riV8qst3SvT2320y
+_id: sy2a5qu1t4ilj67y
+_key: '!items!sy2a5qu1t4ilj67y'

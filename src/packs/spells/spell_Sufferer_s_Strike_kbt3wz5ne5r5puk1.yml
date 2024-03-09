@@ -1,0 +1,104 @@
+folder: KpVFJJxpHWw9kEfV
+name: Sufferer's Strike
+type: spell
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+system:
+  description:
+    value: >-
+      <div id="spell-body">
+
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p>Your weapon thrums with the power of your misery. As part of casting
+      this spell, make a melee spell attack against the target. On a hit, you
+      deal your weapon damage plus 2d8 force damage. This damage increases by
+      1d8 for each level of&nbsp;<span
+      class="freelinking-link">fatigue</span>&nbsp;and&nbsp;<span
+      class="freelinking-link">strife</span>&nbsp;you are suffering. If your
+      total of your fatigue and strife levels is 3 or more, the target makes a
+      Constitution&nbsp;<span class="freelinking-link">saving throw</span> or
+      suffers one level of fatigue or strife&nbsp;(your choice).</p>
+
+      <p><strong>Cast at Higher Levels. </strong>The base damage of this spell
+      increases by 1d8 for every two spell slot levels above 2nd. You can
+      inflict an additional level of&nbsp;<span
+      class="freelinking-link">fatigue</span>&nbsp;or&nbsp;<span
+      class="freelinking-link">strife</span>&nbsp;when you reach 11th level and
+      17th level. These levels must be either all fatigue&nbsp;or all
+      strife.</p>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #15'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - attack
+      - divine
+      - force
+    rareSpell: false
+_id: kbt3wz5ne5r5puk1
+_key: '!items!kbt3wz5ne5r5puk1'

@@ -1,0 +1,149 @@
+name: Haste
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects:
+  - icon: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    origin: Item.zhtyft34531a9nil
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 2TanzQRFauPUMAid
+        duration:
+          unit: minutes
+    transfer: false
+    name: Hasted
+    _id: CtCXh8oEkDvO2sv9
+    changes:
+      - key: system.attributes.movement.burrow.distance
+        value: '2'
+        mode: 1
+        priority: null
+      - key: system.attributes.movement.climb.distance
+        value: '2'
+        mode: 1
+        priority: null
+      - key: system.attributes.movement.fly.distance
+        value: '2'
+        mode: 1
+        priority: null
+      - key: system.attributes.movement.swim.distance
+        value: '2'
+        mode: 1
+        priority: null
+      - key: system.attributes.movement.walk.distance
+        value: '2'
+        mode: 1
+        priority: null
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '2'
+        mode: 2
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilitySave.dex
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, the target's Speed is doubled, it gains a +2
+      bonus to AC, it has advantage on Dexterity saving throws, and it gains one
+      additional action on each of its turns. This action can be used to make a
+      single weapon attack, or to take the Dash, Disengage, Hide, or Use an
+      Object action.</p>
+
+      <p>When the spell ends, the target is tired and cannot move or take
+      actions until after its next turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!zhtyft34531a9nil.CtCXh8oEkDvO2sv9'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - time
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, the target's Speed is doubled, it gains a +2
+      bonus to AC, it has advantage on Dexterity saving throws, and it gains one
+      additional action on each of its turns. This action can be used to make a
+      single weapon attack, or to take the Dash, Disengage, Hide, or Use an
+      Object action.</p><p>When the spell ends, the target is tired and cannot
+      move or take actions until after its next turn.</p><p><strong><em>Cast at
+      Higher Levels.</em></strong> Target one additional creature for each slot
+      level above 3rd. All targets of this spell must be within 30 feet of each
+      other.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: transformation
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: coffee bean
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: zhtyft34531a9nil
+_key: '!items!zhtyft34531a9nil'

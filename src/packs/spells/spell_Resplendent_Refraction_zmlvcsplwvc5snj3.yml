@@ -1,0 +1,176 @@
+folder: 3HQE3FN5vUCIygDu
+name: Resplendent Refraction
+type: spell
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+system:
+  description:
+    value: >-
+      <p>The target&rsquo;s skin becomes reflective and faceted like a finely
+      cut gemstone. Until the spell ends, the target can use their action to
+      fire a beam of reflected light in a 30-foot line. Each creature in that
+      area must make a Constitution&nbsp;<span
+      class="freelinking-link">saving</span> throw&nbsp;, taking an amount of
+      damage determined by the light level around the target on a failed save,
+      or half as much on a successful one.</p>
+
+      <p>In addition, whenever the target would take radiant damage (from a
+      source other than this spell), it may instead reflect it as a reaction. If
+      it does, it gains&nbsp;<span
+      class="freelinking-link">resistance</span>&nbsp;to the triggering damage
+      and may immediately fire a beam at the attacker as if it were in bright
+      light.</p>
+
+      <div id="spell-body">
+
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <table style="height: 100.781px;" border="1" width="550" cellspacing="1"
+      cellpadding="1">
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="height: 33.5938px; width: 104.016px; text-align: center;">Light
+      Level</td>
+
+      <td style="height: 33.5938px; width: 407.984px;">Damage and Effects</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; width: 104.016px; text-align:
+      center;">Darkness</td>
+
+      <td style="height: 16.7969px; width: 407.984px;">Beams cannot be
+      fired.</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; width: 104.016px; text-align: center;">Dim
+      Light</td>
+
+      <td style="height: 16.7969px; width: 407.984px;">1d10 radiant damage</td>
+
+      </tr>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="height: 33.5938px; width: 104.016px; text-align:
+      center;">Bright Light</td>
+
+      <td style="height: 33.5938px; width: 407.984px;">5d10 radiant damage, and
+      on a failed save the creature is also&nbsp;<span
+      class="freelinking-link">blinded</span>&nbsp;until the end of their next
+      turn</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      </div>
+
+      <div class="field field--name-field-spellcast-at-higher-levels
+      field--type-text-long field--label-above">
+
+      <p class="field--label"><strong>Cast at Higher Levels. </strong>This
+      spell&rsquo;s damage increases by 1d10 in both&nbsp;<span
+      class="freelinking-link">dim light and bright light</span>&nbsp;for each
+      slot level above 4th.</p>
+
+      </div>
+
+      <div class="spell-source rules-source">
+
+      <div class="field field--name-field-spell-source
+      field--type-entity-reference field--label-inline">&nbsp;</div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #14'
+    license: OGL 1.0a
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a gemstone worth at least 50 gp
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d10
+  activation:
+    type: reaction
+    cost: 1
+    condition: Taking radiant damage
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10
+        - radiant
+      - - 5d10
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - prismatic
+      - protection
+      - radiant
+    rareSpell: false
+_id: zmlvcsplwvc5snj3
+_key: '!items!zmlvcsplwvc5snj3'

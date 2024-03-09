@@ -1,0 +1,114 @@
+name: Fly
+type: spell
+img: icons/magic/fire/projectile-feathers-embers-gold.webp
+effects:
+  - icon: icons/magic/fire/projectile-feathers-embers-gold.webp
+    origin: Item.aedq05b8pz7t02wd
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: aB9z7esCzyo9VKxX
+        duration:
+          unit: minutes
+    transfer: false
+    name: Flying
+    _id: f7HJasNajZGyTMya
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '60'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target gains a flying speed of 60 feet. When the spell ends, the
+      target falls if it is off the ground.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!aedq05b8pz7t02wd.f7HJasNajZGyTMya'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - movement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target gains a flying speed of 60 feet. When the spell ends, the
+      target falls if it is off the ground.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> Target one additional creature for each slot level
+      above 3rd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: feather
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: aedq05b8pz7t02wd
+_key: '!items!aedq05b8pz7t02wd'

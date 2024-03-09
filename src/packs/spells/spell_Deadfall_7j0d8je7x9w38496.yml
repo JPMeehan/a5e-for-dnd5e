@@ -1,0 +1,92 @@
+folder: YnFE57i6b3g8tOII
+name: Deadfall
+type: spell
+img: icons/environment/traps/spike-skull-white-brown.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You create a deep hole in a horizontal space you can see
+      within range. The hole drops down 30 feet onto a floor of solid stone. If
+      the surface the hole is created on isn&rsquo;t 30 feet thick (such as a
+      floor over a basement), it simply bores a hole of the same size through
+      the surface instead. Creatures on one of the spaces of the newly-created
+      hole must make a Dexterity save or fall in, taking falling damage as
+      usual. A creature that succeeds on its save is relocated to a space of its
+      choice adjacent to the hole.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-f2dc74d6-7fff-3ee0-298b-b23cd730593d">Cast at
+      Higher Levels.</strong> For each spell slot level above 3rd, you may
+      select one of the following enhancements: you may widen the hole by 5
+      feet. You may deepen the hole by 10 feet. You may grease the sides of the
+      hole, imposing disadvantage on checks to climb out of the hole. You may
+      place acid, fire, and/or spikes (1 spell slot level for each) at the
+      bottom, doing an additional 1d6 acid, fire, or piercing damage to
+      creatures that fall into the hole.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+    rareSpell: false
+_id: 7j0d8je7x9w38496
+_key: '!items!7j0d8je7x9w38496'

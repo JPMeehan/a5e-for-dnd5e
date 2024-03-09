@@ -1,0 +1,92 @@
+folder: 3HQE3FN5vUCIygDu
+name: Crashing Wave
+type: spell
+img: icons/magic/water/wave-water-blue.webp
+system:
+  description:
+    value: >-
+      <p>You summon a short-lived portal to some primeval ocean which surges
+      forth with terrible force. Every creature in the area must make a
+      Dexterity save or take 5d8 bludgeoning damage and be knocked prone. A
+      creature that succeeds takes half damage and is not knocked prone. The
+      water also deals the same damage to structures in the area, douses open
+      flames, waterlogs paper and cloth and generally makes a mess. It spreads
+      out to a distance of 300 feet beyond the spell&rsquo;s area in all
+      directions, then disappears. If you cast the spell from a space included
+      in its area, you may choose to ride the wave, ending your turn in any
+      other open space in the spell&rsquo;s area. If you ride the wave this way,
+      you are unaffected by its effects, take no damage from the spell, and do
+      not need to make a save.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 4
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A piece of driftwood
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 5d8
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - storm
+      - summoning
+      - water
+    rareSpell: false
+_id: u0pctu9rk5e5be1n
+_key: '!items!u0pctu9rk5e5be1n'

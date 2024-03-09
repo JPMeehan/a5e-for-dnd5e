@@ -1,0 +1,113 @@
+name: Swift Fly
+type: spell
+img: icons/magic/fire/projectile-feathers-embers-gold.webp
+effects:
+  - icon: icons/magic/fire/projectile-feathers-embers-gold.webp
+    origin: Item.qzv5fd1ahlina4s9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ZxPY0eIIMzSNfXzt
+        duration:
+          unit: minutes
+    transfer: false
+    name: Flying Swiftly
+    _id: hXdmLCSqaWmEA5Nh
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '90'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!qzv5fd1ahlina4s9.hXdmLCSqaWmEA5Nh'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - movement
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>The target gains a flying speed of 60 feet. When the spell ends, the
+      target falls if it is off the ground.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> Target one additional creature for each slot level
+      above 3rd.</p><hr class="a5e-rule u-my-md"><p><strong>Rare: Swift
+      Fly.</strong> The target gains a flying speed of 90 feet. </p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: feather
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ULrFDUr9XIqKkKnP
+_id: qzv5fd1ahlina4s9
+_key: '!items!qzv5fd1ahlina4s9'

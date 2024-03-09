@@ -1,0 +1,89 @@
+folder: 2sI4m8RtV461RZaG
+name: 'Edict: No'
+type: spell
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You may cast this spell in response to any creature using an
+      action or bonus action. The creature does not perform the action or bonus
+      action, but may choose a different action of the same type to perform
+      instead. If the action or bonus action would have used a resource like a
+      spell slot or exertion points, those are not expended. The creature may
+      otherwise act normally on its turn.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-18ad6c30-7fff-5018-ca9a-dd74dc4ae709">Cast at
+      Higher Levels.</strong> If this spell is cast with a 9th-level spell slot,
+      the creature loses the action or bonus action instead of being able to
+      replace it with a different one.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 7
+  school: enc
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: Any creature uses an action or bonus action
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - compulsion
+      - law
+      - negation
+    rareSpell: false
+_id: 147547ef5e59anxu
+_key: '!items!147547ef5e59anxu'

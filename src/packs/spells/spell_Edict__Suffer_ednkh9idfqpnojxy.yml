@@ -1,0 +1,78 @@
+folder: K84cQHhy97ad0RZo
+name: 'Edict: Suffer'
+type: spell
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You pour out your spite on the target with a single venomous
+      word. The target immediately suffers 2 levels of fatigue, 2 levels of
+      strife, and has its maximum hit points reduced by 20 (to a minimum of 1)
+      until it finishes a long rest.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 9
+  school: nec
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - law
+    rareSpell: false
+_id: ednkh9idfqpnojxy
+_key: '!items!ednkh9idfqpnojxy'

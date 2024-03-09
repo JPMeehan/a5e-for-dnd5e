@@ -1,0 +1,119 @@
+name: Exceptional Telepathic Bond
+type: spell
+img: icons/magic/perception/third-eye-blue-red.webp
+effects:
+  - icon: icons/magic/perception/third-eye-blue-red.webp
+    origin: Item.ubxkke98il8p1gut
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: M2hWX387tiMLTQNn
+        duration:
+          unit: hours
+    transfer: false
+    name: Telepathic Bond
+    _id: 8dbLNsrJKPSlRDEp
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Targets may communicate telepathically with each other regardless of
+      language and across any distance. This spell functions even when targets
+      are on different planes of existence.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ubxkke98il8p1gut.8dbLNsrJKPSlRDEp'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - communication
+      - telepathy
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, a telepathic link connects the minds of the
+      targets. So long as they remain on the same plane of existence, targets
+      may communicate telepathically with each other regardless of language and
+      across any distance.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The spell's duration
+      increases by 1d4 hours for each slot level above 5th.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Exceptional Telepathic
+      Bond.&nbsp;</strong>This&nbsp;spell functions even when targets are on
+      different&nbsp;planes of existence.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: two matching cards from different decks
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 8
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: jczcRu76oXuTkOlM
+_id: ubxkke98il8p1gut
+_key: '!items!ubxkke98il8p1gut'

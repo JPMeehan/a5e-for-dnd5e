@@ -1,0 +1,86 @@
+name: Corpse Explosion
+type: spell
+img: icons/magic/unholy/strike-beam-blood-large-red-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - poison
+      - thunder
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A corpse explodes in a poisonous cloud. Each creature in a 10-foot
+      radius of the corpse must make a Constitution saving throw. A creature
+      takes 3d6 thunder damage and is poisoned for 1 minute on a failed save, or
+      it takes half as much damage and is not poisoned on a successful one. A
+      poisoned creature can repeat the saving throw at the end of each of its
+      turns, ending the effect for itself on a success.</p><p><strong><em>Cast
+      at Higher Levels.</em></strong> You target an additional corpse for every
+      2 slot levels above 1st.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: riV8qst3SvT2320y
+_id: 0tqlw209xugpzidv
+_key: '!items!0tqlw209xugpzidv'

@@ -1,0 +1,87 @@
+name: Crystal Pillar
+type: spell
+img: icons/magic/earth/barrier-stone-explosion-red.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+      - protection
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Choose an unoccupied space between you and the source of the attack
+      which triggers the spell. You call forth a pillar of earth or stone (3
+      feet diameter, 20 feet tall, AC 10, 20 hit points) in that space that
+      provides you with three-quarters cover (+5 to AC, Dexterity saving throws,
+      and ability checks made to hide).</p><hr class="a5e-rule
+      u-my-md"><p><strong>Rare: Crystal Pillar.</strong> The pillar summoned by
+      this spell is made of translucent crystal. If this spell causes an attack
+      to miss, the attack hits the pillar instead. If this pillar is destroyed,
+      every creature within 5 feet of it takes 2d6 piercing damage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take when you are targeted with a ranged attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 2
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: o0ukmx8fxcp2b1rk
+_key: '!items!o0ukmx8fxcp2b1rk'

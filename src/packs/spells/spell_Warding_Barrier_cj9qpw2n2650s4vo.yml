@@ -1,0 +1,95 @@
+folder: riV8qst3SvT2320y
+name: Warding Barrier
+type: spell
+img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">As an attack lashes toward you, or a spell flies, you raise
+      your hand to bring up a ward of force to protect yourself and those
+      nearby.</p>
+
+      <p dir="ltr">As a reaction to an attack that targets you, or being in the
+      area of a damaging spell or other effect which requires a Dexterity saving
+      throw, you create a temporary waist-high force field in front of you that
+      provides half cover to you and anyone behind it as normal cover would.
+      Creatures behind you, relative to the source of danger, also gain the
+      benefit of cover. (Half cover grants a +2 bonus to AC and Dexterity saving
+      throws until the start of your next turn.)</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-487c62d9-7fff-0468-bea6-bdc413276652">Cast At
+      Higher Levels.</strong> Using a 2nd level or higher spell slot creates an
+      identical magical barrier in front of an additional creature you can see
+      within 30 feet. You can create a second such barrier if you use a spell
+      slot of at least 4th level, a third with a spell slot of at least 6th
+      level (and the range increases to 60 feet), and a fourth with a spell slot
+      of at least 8th level. All barriers created by this spell dissipate at the
+      same time.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - force
+      - protection
+    rareSpell: false
+_id: cj9qpw2n2650s4vo
+_key: '!items!cj9qpw2n2650s4vo'

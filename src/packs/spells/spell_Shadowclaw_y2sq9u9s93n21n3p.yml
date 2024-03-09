@@ -1,0 +1,88 @@
+folder: riV8qst3SvT2320y
+name: Shadowclaw
+type: spell
+img: icons/magic/unholy/hand-claw-fire-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">With a snarl of anger you cast out a claw of darkness that
+      grips your target&rsquo;s throat with ruthless talons.</p>
+
+      <p dir="ltr">As a reaction to a creature within range casting a spell you
+      attempt to interrupt the spell before it is cast. Make a ranged spell
+      attack against your target to deal 2d6 necrotic damage. On a successful
+      hit, the target must succeed at a concentration check in order to complete
+      the spell that they are currently casting. If they fail, the spell slot is
+      not expended, and they may choose to do something with the same action
+      cost as the spell.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - negation
+      - necrotic
+    rareSpell: false
+_id: y2sq9u9s93n21n3p
+_key: '!items!y2sq9u9s93n21n3p'

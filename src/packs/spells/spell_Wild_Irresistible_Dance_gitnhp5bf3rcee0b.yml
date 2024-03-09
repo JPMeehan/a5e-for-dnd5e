@@ -1,0 +1,130 @@
+name: Wild Irresistible Dance
+type: spell
+img: icons/skills/trades/music-notes-sound-blue.webp
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.gitnhp5bf3rcee0b
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ymYutl44wa5JBERC
+        duration:
+          unit: minutes
+    transfer: false
+    name: Irresistible Dance
+    _id: T0e2N19TSqmvLOQi
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilitySave.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>At the start of each of its turns, the dancing target must use all of
+      its movement to dance in its space, and it has disadvantage on attack
+      rolls and saving throws. Attacks made against the target have advantage.
+      On each of its turns, the target can use an action to repeat the saving
+      throw, ending the spell on a successful save.</p>
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!gitnhp5bf3rcee0b.T0e2N19TSqmvLOQi'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - compulsion
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You murmur a tune that takes root in the target's mind until the spell
+      ends, forcing it to caper, dance, and shuffle. At the start of each of its
+      turns, the dancing target must use all of its movement to dance in its
+      space, and it has disadvantage on attack rolls and saving throws. Attacks
+      made against the target have advantage. On each of its turns, the target
+      can use an action to repeat the saving throw, ending the spell on a
+      successful save.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> Target one additional
+      creature within 30 feet for each slot level above 6th.</p>
+
+      <p><strong>Rare: <em>Wild Irresistible Dance.&nbsp;</em></strong>The
+      target&nbsp;is forced to dance with such vigor that it suffers&nbsp;a
+      level of fatigue when the spell ends.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: enc
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: hp7XyogTunXDH7Ig
+_id: gitnhp5bf3rcee0b
+_key: '!items!gitnhp5bf3rcee0b'

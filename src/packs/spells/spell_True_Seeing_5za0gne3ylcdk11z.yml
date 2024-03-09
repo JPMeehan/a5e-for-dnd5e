@@ -1,0 +1,114 @@
+name: True Seeing
+type: spell
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+effects:
+  - icon: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+    origin: Item.5za0gne3ylcdk11z
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: kjfGqi9GZMkJrOLT
+        duration:
+          unit: hours
+    transfer: false
+    name: True Seeing
+    _id: CToxxyRFbSpHQoVY
+    changes:
+      - key: system.attributes.senses.truesight.distance
+        value: '120'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, the target gains truesight to a range of 120
+      feet. The target also notices secret doors hidden by magic.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!5za0gne3ylcdk11z.CToxxyRFbSpHQoVY'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - senses
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, the target gains truesight to a range of 120
+      feet. The target also notices secret doors hidden by magic.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      an ointment for the eyes made from mushroom powder, saffron, and fat
+      costing 25 gold, consumed by the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: FgEE27o1nHRME564
+_id: 5za0gne3ylcdk11z
+_key: '!items!5za0gne3ylcdk11z'

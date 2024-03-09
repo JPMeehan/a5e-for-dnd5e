@@ -1,0 +1,222 @@
+name: Dominate Beast
+type: spell
+img: icons/creatures/abilities/bull-head-horns-glowing.webp
+effects:
+  - icon: icons/creatures/abilities/bull-head-horns-glowing.webp
+    origin: Item.ma5iq3qjh0fa7ezb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: rhpBwsEIHRb7RSL9
+        duration:
+          unit: minutes
+    transfer: false
+    name: Charmed
+    _id: kz08GwrHdeazSDPY
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!ma5iq3qjh0fa7ezb.kz08GwrHdeazSDPY'
+  - icon: icons/creatures/abilities/bull-head-horns-glowing.webp
+    origin: Item.ma5iq3qjh0fa7ezb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: coQFvp6Ufv9slOaq
+        duration:
+          unit: minutes
+    transfer: false
+    name: Charmed
+    _id: 4ab3QK7o48R6LsYe
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!ma5iq3qjh0fa7ezb.4ab3QK7o48R6LsYe'
+  - icon: icons/creatures/abilities/bull-head-horns-glowing.webp
+    origin: Item.ma5iq3qjh0fa7ezb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 0EAgulYlFzPzXch0
+        duration:
+          unit: hours
+    transfer: false
+    name: Charmed
+    _id: Jt4trSkATcduXBVA
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!ma5iq3qjh0fa7ezb.Jt4trSkATcduXBVA'
+  - icon: icons/creatures/abilities/bull-head-horns-glowing.webp
+    origin: Item.ma5iq3qjh0fa7ezb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: fRfgyY0HyDdWoP41
+        duration:
+          unit: hours
+    transfer: false
+    name: Charmed
+    _id: PTGTdno9NcNHDtQc
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!ma5iq3qjh0fa7ezb.PTGTdno9NcNHDtQc'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - beasts
+      - compulsion
+      - nature
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You assert control over the target beast's mind and it is charmed for
+      the duration. If it is engaged in combat with you or creatures friendly to
+      you, it has advantage on its saving throw.</p><p>Until the charmed
+      condition ends, you establish a telepathic link with it while you are on
+      the same plane. You may issue commands through this link and the target
+      does its best to obey. No action is required to issue commands, which can
+      be a simple and general course of action such as &quot;Attack that target,
+      &quot; &quot;Go over there, &quot; or &quot;Bring me that object.&quot;
+      Without commands the target only defends itself. The target continues to
+      follow a command until its task is complete.</p><p>You can use your action
+      to assume direct control of the target. Until the end of your next turn,
+      you decide all of the target's actions and it does nothing you do not
+      allow it to. While a target is directly controlled in this way, you can
+      also cause it to use a reaction, but this requires you to use your own
+      reaction as well.</p><p>Each time the target takes damage, it makes a new
+      saving throw against the spell, ending the spell on a
+      success.</p><p><strong><em>Cast at Higher Levels.</em></strong> The
+      spell's duration is extended: 5th-level&mdash;Concentration (10 minutes),
+      6th-level&mdash;Concentration (1 hour), 7th-level&mdash;Concentration (8
+      hours).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: 3HQE3FN5vUCIygDu
+_id: ma5iq3qjh0fa7ezb
+_key: '!items!ma5iq3qjh0fa7ezb'

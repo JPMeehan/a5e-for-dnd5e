@@ -1,0 +1,84 @@
+name: Fireball
+type: spell
+img: icons/magic/fire/explosion-fireball-large-red-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A fiery mote streaks to a point within range and explodes in a burst of
+      flame. The fire spreads around corners and ignites unattended flammable
+      objects. Each creature in the area takes 6d6 fire
+      damage.</p><p><strong><em>Cast at Higher Levels.</em></strong> The damage
+      increases by 1d6 for each slot level above 3rd.</p>
+    chat: ''
+  source:
+    book: "Level Up: Adventurer's Guide"
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: bat guano and sulfur
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '20'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 6d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: n7vv8e7phkfc513j
+_key: '!items!n7vv8e7phkfc513j'

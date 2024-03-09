@@ -1,0 +1,83 @@
+name: Water Breathing
+type: spell
+img: icons/magic/water/bubbles-air-water-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - enhancement
+      - utility
+      - water
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, the targets are able to breathe underwater (and
+      still able to respirate normally).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: short reed or piece of straw
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: ug1c28d5upbq19x4
+_key: '!items!ug1c28d5upbq19x4'

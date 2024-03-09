@@ -1,0 +1,125 @@
+name: Soulwrought Fists
+type: spell
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+effects:
+  - icon: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+    origin: Item.igcos86w2ic9bqd4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: sFYioBtBzbYqQdoB
+        duration:
+          unit: minutes
+    transfer: false
+    name: Soulwrought Fists
+    _id: sDQ2eM9WOlYrICWd
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, the target drops anything it is holding and
+      cannot use its hands to grasp objects or perform complex tasks. A target
+      can still cast any spell that does not specifically require its hands.</p>
+
+      <p>When making unarmed strikes, the target can use its spellcasting
+      ability or Dexterity (its choice) instead of Strength for the attack and
+      damage rolls of unarmed strikes. In addition, the target's unarmed strikes
+      deal 1d8 bludgeoning damage and count as magical for the purpose of
+      overcoming resistance and immunity to nonmagical attacks and damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!igcos86w2ic9bqd4.sDQ2eM9WOlYrICWd'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - transformation
+      - unarmed
+      - weaponry
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target's hands harden with inner power, turning dexterous fingers
+      into magical iron cudgels.</p><p>Until the spell ends, the target drops
+      anything it is holding and cannot use its hands to grasp objects or
+      perform complex tasks. A target can still cast any spell that does not
+      specifically require its hands.</p><p>When making unarmed strikes, the
+      target can use its spellcasting ability or Dexterity (its choice) instead
+      of Strength for the attack and damage rolls of unarmed strikes. In
+      addition, the target's unarmed strikes deal 1d8 bludgeoning damage and
+      count as magical for the purpose of overcoming resistance and immunity to
+      nonmagical attacks and damage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: handful of iron filings
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: igcos86w2ic9bqd4
+_key: '!items!igcos86w2ic9bqd4'

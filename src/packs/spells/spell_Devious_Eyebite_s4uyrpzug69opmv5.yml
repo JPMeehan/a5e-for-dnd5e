@@ -1,0 +1,262 @@
+name: Devious Eyebite
+type: spell
+img: icons/magic/perception/hand-eye-pink.webp
+effects:
+  - icon: icons/magic/perception/hand-eye-pink.webp
+    origin: Item.s4uyrpzug69opmv5
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LaDYbbzBJNKgg5LZ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Asleep
+    _id: z3YHDb2NjO2ii9dx
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["unconscious"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target falls unconscious, waking if it takes any damage or another
+      creature uses an action to rouse it.</p>
+    statuses:
+      - unconscious
+    folder: null
+    _key: '!items.effects!s4uyrpzug69opmv5.z3YHDb2NjO2ii9dx'
+  - icon: icons/magic/perception/hand-eye-pink.webp
+    origin: Item.s4uyrpzug69opmv5
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LaDYbbzBJNKgg5LZ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Panicked
+    _id: qni12sawICz1WxAc
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is frightened of you. On each of its turns, the frightened
+      creature uses its action to take the Dash action and move away from you by
+      the safest and shortest available route unless there is nowhere for it to
+      move. If the target moves to a place at least 60 feet away from you where
+      it can no longer see you, this effect ends.</p>
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!s4uyrpzug69opmv5.qni12sawICz1WxAc'
+  - icon: icons/magic/perception/hand-eye-pink.webp
+    origin: Item.s4uyrpzug69opmv5
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LaDYbbzBJNKgg5LZ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Sickened
+    _id: TjsMlR3myXC3paqN
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.dex
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.con
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.int
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.wis
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.cha
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target has disadvantage on attack rolls and ability checks. At the
+      end of each of its turns, it can make another Wisdom saving throw, ending
+      this effect on a successful save.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!s4uyrpzug69opmv5.TjsMlR3myXC3paqN'
+  - icon: icons/magic/perception/hand-eye-pink.webp
+    origin: Item.s4uyrpzug69opmv5
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LaDYbbzBJNKgg5LZ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Charmed
+    _id: n0c6OrGKLm1JqHgV
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is charmed by you. On each of its turns while it is charmed,
+      you may beckon it (no action required) to force the target to move closer
+      to you by the shortest, safest route.</p>
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!s4uyrpzug69opmv5.n0c6OrGKLm1JqHgV'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - fear
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Your eyes become an inky void imbued with fell power. One creature of
+      your choice within 60 feet of you that you can see and that can see you
+      must succeed on a Wisdom saving throw or be afflicted by one of the
+      following effects for the duration. Until the spell ends, on each of your
+      turns you can use an action to target a creature that has not already
+      succeeded on a saving throw against this casting of
+      <em>eyebite</em>.</p><ul><li><p><strong>Asleep:</strong> The target falls
+      unconscious, waking if it takes any damage or another creature uses an
+      action to rouse it.</p></li><li><p><strong>Panicked:</strong> The target
+      is frightened of you. On each of its turns, the frightened creature uses
+      its action to take the Dash action and move away from you by the safest
+      and shortest available route unless there is nowhere for it to move. If
+      the target moves to a place at least 60 feet away from you where it can no
+      longer see you, this effect
+      ends.</p></li><li><p><strong>Sickened:</strong> The target has
+      disadvantage on attack rolls and ability checks. At the end of each of its
+      turns, it can make another Wisdom saving throw, ending this effect on a
+      successful save.</p></li></ul><hr class="a5e-rule
+      u-my-md"><p><strong>Rare: Devious Eyebite.</strong> Your eyes glow with a
+      soft purple light. You gain an additional
+      option:<br><strong>Charmed.</strong> The target is charmed by you. On each
+      of its turns while it is charmed, you may beckon it (no action required)
+      to force the target to move closer to you by the shortest, safest route.
+      </p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: hp7XyogTunXDH7Ig
+_id: s4uyrpzug69opmv5
+_key: '!items!s4uyrpzug69opmv5'

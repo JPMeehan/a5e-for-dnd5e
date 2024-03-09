@@ -1,0 +1,89 @@
+folder: YnFE57i6b3g8tOII
+name: Dawn Bolts
+type: spell
+img: icons/magic/light/projectile-beam-yellow.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You bless the ammunition giving it the power to pierce the
+      darkness. When you make a ranged weapon attack with one of the pieces of
+      ammunition drawn from the container, it deals an additional 1d6 points of
+      radiant damage. Then, hit or miss, the magic on that piece of ammunition
+      dissipates.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels.</strong> For each spell level
+      above third, you may bless an additional 2 pieces of ammunition. If you
+      use at least a 5th-level spell slot, all of the damage done by the
+      ammunition is radiant rather than its normal type, and being hit with one
+      of the pieces of ranged ammunition counts as spending a round in natural
+      sunlight.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A scrap of paper from a holy book or with a blessing written on it
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - good
+      - radiant
+      - weaponry
+    rareSpell: false
+_id: 6ltv1wf3f8t3clqi
+_key: '!items!6ltv1wf3f8t3clqi'

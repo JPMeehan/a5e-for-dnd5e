@@ -1,0 +1,121 @@
+name: Skeletal Hands
+type: spell
+img: icons/magic/death/hand-undead-skeleton-fire-green.webp
+system:
+  description:
+    value: >-
+      <p>Dozens of skeletal hands reach from a wall or other vertical surface to
+      grasp a creature within 5 feet of the surface. Make a melee spell attack.
+      On a hit, the target takes 1d8 necrotic damage and is restrained until the
+      spell ends. A creature restrained by the hands can use a bonus action to
+      make a Strength saving throw to escape, ending the spell early on a
+      success. On a failure, the target takes 1d8 necrotic damage. When the
+      spell ends, the hands withdraw into the wall.</p>
+
+      <p><em><strong>Cast at Higher Levels.</strong></em> The spell&rsquo;s
+      initial damage and damage on a failed escape attempt increase by 1d8 per
+      slot level above 1st.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Dungeon Delver''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: nec
+  properties:
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: finger bone
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/death/hand-undead-skeleton-fire-green.webp
+    origin: Item.x385rbb1ej38ijjy
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: SOCGBfYCGfLYccOY
+        duration:
+          unit: minutes
+    transfer: false
+    name: Skeletal Hands
+    _id: K8UMviZ1LpnOON1P
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>\_A creature restrained by the hands can use a bonus action to make a Strength saving throw to escape, ending the spell early on a success. On a failure, the target takes 1d8 necrotic damage. When the spell ends, the hands withdraw into the wall.</p>\n<p><em><strong>Cast at Higher Levels.</strong></em> The spell’s initial damage and damage on a failed escape attempt increase by 1d8 per slot level above 1st.</p>"
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!x385rbb1ej38ijjy.K8UMviZ1LpnOON1P'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - necrotic
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: x385rbb1ej38ijjy
+_key: '!items!x385rbb1ej38ijjy'

@@ -1,0 +1,177 @@
+name: Radiant Shield
+type: spell
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+effects:
+  - icon: icons/magic/defensive/shield-barrier-deflect-gold.webp
+    origin: Item.mr1z7pqvtwmqyash
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: STA5gdxQ2x1OvxUC
+        duration:
+          unit: minutes
+    transfer: false
+    name: Shield of Faith
+    _id: rn8UmOgiwz7XSl09
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!mr1z7pqvtwmqyash.rn8UmOgiwz7XSl09'
+  - icon: icons/magic/defensive/shield-barrier-deflect-gold.webp
+    origin: Item.mr1z7pqvtwmqyash
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: O8TjPLApd5D5I4GA
+        duration:
+          unit: minutes
+    transfer: false
+    name: Shield of Faith
+    _id: 8crYdLZe3fSU0G5y
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '3'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!mr1z7pqvtwmqyash.8crYdLZe3fSU0G5y'
+  - icon: icons/magic/defensive/shield-barrier-deflect-gold.webp
+    origin: Item.mr1z7pqvtwmqyash
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: bP2ZRcqyiYJ1JQLD
+        duration:
+          unit: minutes
+    transfer: false
+    name: Shield of Faith
+    _id: y72YmzRWy8ZdLg9c
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '4'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!mr1z7pqvtwmqyash.y72YmzRWy8ZdLg9c'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, a barrier of divine energy envelops the target
+      and increases its AC by +2.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The bonus to AC
+      increases by +1 for every three slot levels above 1st.</p>
+
+      <p><strong><em>Rare:&nbsp;</em>Radiant Shield.&nbsp;</strong>When a
+      creature&nbsp;makes a melee attack against the target, it takes&nbsp;1d6
+      radiant damage as the shield sparks and flares&nbsp;with holy power.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: scrap of holy text
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: generic
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: mr1z7pqvtwmqyash
+_key: '!items!mr1z7pqvtwmqyash'

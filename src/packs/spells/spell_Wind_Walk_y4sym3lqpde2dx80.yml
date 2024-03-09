@@ -1,0 +1,133 @@
+name: Wind Walk
+type: spell
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+effects:
+  - icon: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+    origin: Item.y4sym3lqpde2dx80
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PFMezRBLItpLdgSO
+    transfer: false
+    name: Cloud form
+    _id: 9HTihRW6cAtGO5Zz
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '300'
+        mode: 6
+        priority: null
+      - key: system.traits.damageResistances
+        value: '["nonmagical weapons"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Each target has a flying speed of 300 feet and resistance to damage
+      from nonmagical weapons, but the only action it can take is the Dash
+      action or to revert to its normal form (a process that takes 1 minute
+      during which it is incapacitated and can't move).</p>
+
+      <p>Until the spell ends, a target can change again to cloud form (in an
+      identical transformation process).</p>
+
+      <p>When the effect ends for a target flying in cloud form, it descends 60
+      feet each round for up to 1 minute or until it safely lands. If the target
+      can't land after 1 minute, the creature falls the rest of the way
+      normally.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!y4sym3lqpde2dx80.9HTihRW6cAtGO5Zz'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - air
+      - divine
+      - movement
+      - transformation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The targets assume a gaseous form and appear as wisps of cloud. Each
+      target has a flying speed of 300 feet and resistance to damage from
+      nonmagical weapons, but the only action it can take is the Dash action or
+      to revert to its normal form (a process that takes 1 minute during which
+      it is incapacitated and can't move).</p><p>Until the spell ends, a target
+      can change again to cloud form (in an identical transformation
+      process).</p><p>When the effect ends for a target flying in cloud form, it
+      descends 60 feet each round for up to 1 minute or until it safely lands.
+      If the target can't land after 1 minute, the creature falls the rest of
+      the way normally.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 6
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: fire and holy water
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: FgEE27o1nHRME564
+_id: y4sym3lqpde2dx80
+_key: '!items!y4sym3lqpde2dx80'

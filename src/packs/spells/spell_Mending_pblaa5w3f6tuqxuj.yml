@@ -1,0 +1,85 @@
+name: Mending
+type: spell
+img: icons/commodities/treasure/puzzle-box-glowing-blue.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - transformation
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You repair a single rip or break in the target object (for example, a
+      cracked goblet, torn page, or ripped robe). The break must be smaller than
+      1 foot in all dimensions. The spell leaves no trace that the object was
+      damaged.</p><p>Magic items and constructs may be repaired in this way, but
+      their magic is not restored. You gain an expertise die on maintenance
+      checks if you are able to cast this spell on the item you are
+      treating.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: fragment of equine bone
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: object
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: Tw5cqPbIxtfMfhDz
+_id: pblaa5w3f6tuqxuj
+_key: '!items!pblaa5w3f6tuqxuj'

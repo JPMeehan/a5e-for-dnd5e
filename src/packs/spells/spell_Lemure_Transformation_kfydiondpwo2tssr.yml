@@ -1,0 +1,119 @@
+name: Lemure Transformation
+type: spell
+img: icons/creatures/slimes/slime-giant-face-eyes.webp
+effects:
+  - icon: icons/creatures/slimes/slime-giant-face-eyes.webp
+    origin: Item.kfydiondpwo2tssr
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: zI2h6fCGlLXfmBQu
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Lemure
+    _id: McmZcKengokxtFqa
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '20'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your body melts into a humanoid-shaped mass of liquid flesh. Each
+      creature within 5 feet of you that can see the transformation must make a
+      Wisdom saving throw. On a failure, the creature can't take reactions and
+      is frightened of you until the start of its next turn. Until the end of
+      your turn, your Speed becomes 20 feet, you can't speak, and you can move
+      through spaces as narrow as 1 inch wide without squeezing. You revert to
+      your normal form at the end of your turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!kfydiondpwo2tssr.McmZcKengokxtFqa'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - transformation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Your body melts into a humanoid-shaped mass of liquid flesh. Each
+      creature within 5 feet of you that can see the transformation must make a
+      Wisdom saving throw. On a failure, the creature can't take reactions and
+      is frightened of you until the start of its next turn. Until the end of
+      your turn, your Speed becomes 20 feet, you can't speak, and you can move
+      through spaces as narrow as 1 inch wide without squeezing. You revert to
+      your normal form at the end of your turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: kfydiondpwo2tssr
+_key: '!items!kfydiondpwo2tssr'

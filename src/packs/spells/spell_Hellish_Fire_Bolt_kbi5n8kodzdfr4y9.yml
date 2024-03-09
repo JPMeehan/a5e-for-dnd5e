@@ -1,0 +1,85 @@
+name: Hellish Fire Bolt
+type: spell
+img: icons/magic/fire/projectile-fireball-embers-yellow.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You cast a streak of flame at the target. Make a ranged spell attack.
+      On a hit, you deal 1d10 fire damage. An unattended flammable object is
+      ignited.</p><p>This spell's damage increases by 1d10 when you reach 5th
+      level (2d10), 11th level (3d10), and 17th level (4d10).</p><hr
+      class="a5e-rule u-my-md"><p><strong>Rare: Hellish Fire Bolt.</strong> This
+      spell’s damage ignores fire resistance and treats a creature’s immunity to
+      fire damage as resistance to fire damage. </p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - (floor((@details.level+1)/6)+1)d10
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: VZdnSJFGeDzlfocC
+_id: kbi5n8kodzdfr4y9
+_key: '!items!kbi5n8kodzdfr4y9'

@@ -1,0 +1,84 @@
+folder: YnFE57i6b3g8tOII
+name: Flame Gate
+type: spell
+img: icons/magic/fire/beam-jet-stream-spiral-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You create a gate of swirling flame and step through, pulling the
+      flames in behind you. You reappear on any space you can see in range and
+      creatures within 10 feet of your arrival location must make a Dexterity
+      save or suffer 3d6 points of fire damage and 1d6 ongoing fire damage for
+      the next minute unless an action is spent to douse the flames. Creatures
+      that succeed on their save take half damage and do not suffer ongoing
+      damage.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+      - teleportation
+    rareSpell: false
+_id: ghnozb4h4pbji9tl
+_key: '!items!ghnozb4h4pbji9tl'

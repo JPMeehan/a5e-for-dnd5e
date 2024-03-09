@@ -1,0 +1,99 @@
+name: Insightful Speak with Plants
+type: spell
+img: icons/magic/nature/leaf-glow-maple-orange-purple.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - communication
+      - nature
+      - plants
+      - utility
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Your voice takes on a magical timbre, awakening the targets to limited
+      sentience. Until the spell ends, the targets can communicate with you and
+      follow simple commands, telling you about recent events including
+      creatures that have passed, weather, and nearby locations.</p>
+
+      <p>The targets have a limited mobility: they can move their branches,
+      tendrils, and stalks freely. This allows them to turn ordinary terrain
+      into difficult terrain, or make difficult terrain caused by vegetation
+      into ordinary terrain for the duration as vines and branches move at your
+      request. This spell can also release a creature restrained by an entangle
+      spell.</p>
+
+      <p>At the Narrator's discretion the targets may be able to perform other
+      tasks, though each must remain rooted in place. If a plant creature is in
+      the area, you can communicate with it but it is not compelled to follow
+      your requests.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Insightful Speak with
+      Plants.&nbsp;</strong>So long&nbsp;as your spell save DC is higher than
+      the passive&nbsp;Insight score of a plant you are conversing
+      with,&nbsp;you can use an action to view the memories of&nbsp;an event the
+      plant is describing.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ULrFDUr9XIqKkKnP
+_id: kgm6hw1eesrtcm29
+_key: '!items!kgm6hw1eesrtcm29'

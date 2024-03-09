@@ -1,0 +1,198 @@
+folder: riV8qst3SvT2320y
+name: Unstable Blast
+type: spell
+img: icons/magic/fire/projectile-fireball-purple.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You sling a blast of unstable, coruscating energy at your
+      target, subjecting it to unknown&mdash;but always
+      unpleasant&mdash;effects.</p>
+
+      <p dir="ltr">Make a ranged spell attack against your target, on a hit, the
+      target takes 4d6 damage and suffers an additional effect until the end of
+      your next turn. Roll on the table below to determine the type of damage
+      and corresponding effect.</p>
+
+      <div dir="ltr" align="left">
+
+      <table><colgroup><col width="51"><col width="573"></colgroup>
+
+      <thead>
+
+      <tr>
+
+      <td style="text-align: center;">1d10</td>
+
+      <td style="text-align: center;">Damage and Effect</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">Radiant, and the target is outlined in a
+      faerie fire effect until the end of its next turn</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">Necrotic, and the target suffers
+      disadvantage on Perception checks until the end of its next turn</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">Poison, and the target suffers the
+      poisoned condition until the end of its next turn</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">Fire, and the target takes 1d4 ongoing
+      fire damage for one minute or until an action is used to extinguish the
+      flames</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">Cold, and the target&rsquo;s move speeds
+      are reduced by 10 feet until the end of its next turn</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">Lightning, and the target has disadvantage
+      on Dextertity checks and saves until the end of its next turn</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">Thunder, and the target is deafened until
+      the end of its next turn</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">Acid, and the target is rattled until the
+      end of its next turn</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">Psychic, and the target is confused until
+      the end of its next turn</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">Force, and the target is knocked
+      prone&nbsp;</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - chaos
+    rareSpell: false
+_id: fh01f9dt9n6kpav8
+_key: '!items!fh01f9dt9n6kpav8'

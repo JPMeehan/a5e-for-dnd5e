@@ -1,0 +1,86 @@
+name: Resolute False Life
+type: spell
+img: icons/magic/death/hand-undead-skeleton-fire-green.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - enhancement
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You are bolstered with fell energies resembling life, gaining 1d4+4
+      temporary hit points that last until the spell
+      ends.</p><p><strong><em>Cast at Higher Levels.</em></strong> Gain an
+      additional 5 temporary hit points for each slot level above 1st.</p><hr
+      class="a5e-rule u-my-md"><p><strong>Rare: Resolute False Life.</strong>
+      While you have temporary hit points from this spell, you gain an expertise
+      die on saving throws made against fear. </p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: alcohol or distilled spirits
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4+4
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: vovolli2sroiyrr2
+_key: '!items!vovolli2sroiyrr2'

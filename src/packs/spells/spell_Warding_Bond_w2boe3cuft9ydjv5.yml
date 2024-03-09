@@ -1,0 +1,88 @@
+name: Warding Bond
+type: spell
+img: icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - protection
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, the target is warded by a mystic connection
+      between it and you. While the target is within 60 feet it gains a +1 bonus
+      to AC and saving throws, and it has resistance to all damage. Each time it
+      takes damage, you take an equal amount of damage.</p><p>The spell ends if
+      you are reduced to 0 hit points or if you and the target become separated
+      by more than 60 feet. It also ends if you use an action to dismiss it, or
+      if the spell is cast again on either you or the
+      target.</p><p><strong><em>Cast at Higher Levels.</em></strong> The
+      duration increases by 1 hour for each slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      pair of platinum rings worth at least 50 gold each, which you and the
+      target must wear for the duration
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: w2boe3cuft9ydjv5
+_key: '!items!w2boe3cuft9ydjv5'

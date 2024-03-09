@@ -1,0 +1,87 @@
+folder: riV8qst3SvT2320y
+name: Merciless Weapon
+type: spell
+img: icons/skills/melee/strike-axe-red.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You enhance the properties of your weapon, making it deadlier
+      to your foes.</p>
+
+      <p dir="ltr">If the weapon deals piercing damage, it deals an additional
+      1d6 poison damage for the duration. If it deals slashing damage, the
+      weapon deals 1d4 ongoing damage for one minute on a hit until an action is
+      spent to stanch the bleeding or the target receives magical healing (a
+      creature can only have one instance of this ongoing damage at a time). If
+      the weapon normally deals bludgeoning damage, it deals force damage
+      instead. In all cases, the damage done by the weapon is considered
+      magical.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 1
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: The weapon to be affected
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - weaponry
+    rareSpell: false
+_id: g7d73h825wq2fvct
+_key: '!items!g7d73h825wq2fvct'

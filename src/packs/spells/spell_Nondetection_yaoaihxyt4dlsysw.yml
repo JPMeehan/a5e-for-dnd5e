@@ -1,0 +1,112 @@
+name: Nondetection
+type: spell
+img: icons/magic/symbols/runes-star-magenta.webp
+effects:
+  - icon: icons/magic/symbols/runes-star-magenta.webp
+    origin: Item.yaoaihxyt4dlsysw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: juATkH3h14Wj08Ar
+        duration:
+          unit: hours
+    transfer: false
+    name: Nondetection
+    _id: bWEHEaLIhRKX497R
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is hidden from divination magic and cannot be perceived by
+      magical scrying sensors.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!yaoaihxyt4dlsysw.bWEHEaLIhRKX497R'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - negation
+      - obscurement
+      - scrying
+      - utility
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target is hidden from divination magic and cannot be perceived by
+      magical scrying sensors.</p><p>When used on a place or object, the spell
+      only works if the target is no larger than 10 feet in any given
+      dimension.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: 25 gold worth of diamond dust, consumed by the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YnFE57i6b3g8tOII
+_id: yaoaihxyt4dlsysw
+_key: '!items!yaoaihxyt4dlsysw'

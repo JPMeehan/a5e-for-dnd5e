@@ -1,0 +1,84 @@
+folder: KpVFJJxpHWw9kEfV
+name: Lacerating Blast
+type: spell
+img: icons/magic/water/projectiles-ice-faceted-salvo-gray.webp
+system:
+  description:
+    value: >-
+      <p>Razor-sharp shards of volcanic glass blast from your outstretched hand.
+      Each creature in the area takes 4d4 slashing damage. A creature that fails
+      its save also takes 1d4 ongoing slashing damage for one minute or until an
+      action is used to stanch the bleeding.</p>
+
+      <p><strong>Cast at Higher Levels. </strong>The initial and ongoing damage
+      each increase by 1d4 for each spell slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A piece of sharp obsidian
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d4
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d4
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - earth
+    rareSpell: false
+_id: hccxpt54fnokq3pl
+_key: '!items!hccxpt54fnokq3pl'

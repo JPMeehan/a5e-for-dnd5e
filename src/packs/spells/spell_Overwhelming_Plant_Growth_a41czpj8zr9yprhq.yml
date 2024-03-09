@@ -1,0 +1,95 @@
+name: Overwhelming Plant Growth
+type: spell
+img: icons/magic/nature/vines-thorned-entwined-teal.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+      - nature
+      - plants
+      - terrain
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You channel vitality into vegetation to achieve one of the following
+      effects, chosen when casting the spell.</p>
+
+      <p><em><strong>Enlarged:</strong></em> Plants in the area are greatly
+      enriched. Any harvests of the affected plants provide twice as much food
+      as normal.</p>
+
+      <p><em><strong>Rapid:</strong></em> All nonmagical plants in the area
+      surge with the power of life. A creature that moves through the area must
+      spend 4 feet of movement for every foot it moves. You can exclude one or
+      more areas of any size from being affected.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Overwhelming Plant
+      Growth.&nbsp;</strong>This&nbsp;spell doesn&rsquo;t require the presence
+      of pre-existing&nbsp;vegetation to take effect, but must use the
+      Rapid&nbsp;option, and plants that appear only last for a day&nbsp;before
+      fading away.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: (rapid) or 8 hours (enlarged)
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '100'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ULrFDUr9XIqKkKnP
+_id: a41czpj8zr9yprhq
+_key: '!items!a41czpj8zr9yprhq'

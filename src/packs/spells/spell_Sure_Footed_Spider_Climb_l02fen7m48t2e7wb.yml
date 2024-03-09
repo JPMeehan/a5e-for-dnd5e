@@ -1,0 +1,118 @@
+name: Sure-Footed Spider Climb
+type: spell
+img: icons/creatures/webs/web-spider-glowing-purple.webp
+effects:
+  - icon: icons/creatures/webs/web-spider-glowing-purple.webp
+    origin: Item.l02fen7m48t2e7wb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: GWa9uJi4MquZXIi6
+        duration:
+          unit: hours
+    transfer: false
+    name: Spider Climb
+    _id: sQU8HDpxkEceCdQe
+    changes:
+      - key: system.attributes.movement.climb.distance
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!l02fen7m48t2e7wb.sQU8HDpxkEceCdQe'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - movement
+      - utility
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>The target gains the ability to walk on walls and upside down on
+      ceilings, as well as a climbing speed equal to its base Speed.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> You can affect one
+      additional target for each slot level above 2nd.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Sure-Footed Spider
+      Climb.&nbsp;</strong>The&nbsp;target automatically succeeds on ability
+      checks&nbsp;and saving throws made to keep its balance.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: cobweb and small wooden shoe
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: EkkxXAsn0xjh7IWp
+_id: l02fen7m48t2e7wb
+_key: '!items!l02fen7m48t2e7wb'

@@ -1,0 +1,98 @@
+name: Persistent Shattering Barrage
+type: spell
+img: icons/magic/water/projectiles-ice-faceted-shard-salvo-gray.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - air
+      - terrain
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You create three orbs of jagged broken glass and hurl them at targets
+      within range. You can hurl them at one target or several.</p>
+
+      <p>Make a ranged spell attack for each orb. On a hit, the target takes 2d4
+      slashing damage and the shards of broken glass remain suspended in midair,
+      filling the area they occupy (or 5 feet of the space they occupy if the
+      creature is Large-sized or larger) with shards of suspended broken glass.
+      Whenever a creature enters an area of broken glass for the first time or
+      starts its turn there, it must succeed on a Dexterity saving throw or take
+      2d4 slashing damage.&nbsp;The shards of broken glass dissolve into
+      harmless wisps of sand and blow away after 1 minute.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> You create one
+      additional orb for each slot level above 2nd.</p>
+
+      <p><em><strong>Rare:&nbsp;</strong></em><strong>Persistent Shattering
+      Barrage.&nbsp;</strong>The&nbsp;shards of broken glass do not dissolve
+      harmlessly&nbsp;and instead fall, turning the area they occupy
+      into&nbsp;difficult terrain.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: handful of clean sand
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: EkkxXAsn0xjh7IWp
+_id: ha3okttr41s29zi7
+_key: '!items!ha3okttr41s29zi7'

@@ -1,0 +1,85 @@
+name: Scorching Ray
+type: spell
+img: icons/magic/fire/projectile-fireball-sparks-orange.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - fire
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Three rays of blazing orange fire shoot from your fingertips. Make a
+      ranged spell attack for each ray.&nbsp;On a hit, the target takes 2d6 fire
+      damage.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> Create an additional
+      ray for each slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: null
+    formula: 2d6
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: c9itysok7lr2ai51
+_key: '!items!c9itysok7lr2ai51'

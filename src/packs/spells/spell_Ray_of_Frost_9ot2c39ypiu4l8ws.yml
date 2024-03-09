@@ -1,0 +1,141 @@
+name: Ray of Frost
+type: spell
+img: icons/magic/water/projectile-icecicle-glowing.webp
+effects:
+  - icon: icons/magic/water/projectile-icecicle-glowing.webp
+    origin: Item.9ot2c39ypiu4l8ws
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: rjaz6n2uCMQHcsGc
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Ray of Frost
+    _id: 6meIM37yip1QShpH
+    changes:
+      - key: system.attributes.movement.burrow.distance
+        value: >-
+          {"comparisonOperator":">","comparisonValue":"10","positiveValue":"@original
+          - 10","negativeValue":"0"}
+        mode: 7
+        priority: null
+      - key: system.attributes.movement.climb.distance
+        value: >-
+          {"comparisonOperator":">","comparisonValue":"10","positiveValue":"@original
+          - 10","negativeValue":"0"}
+        mode: 7
+        priority: null
+      - key: system.attributes.movement.fly.distance
+        value: >-
+          {"comparisonOperator":">","comparisonValue":"10","positiveValue":"@original
+          - 10","negativeValue":"0"}
+        mode: 7
+        priority: null
+      - key: system.attributes.movement.swim.distance
+        value: >-
+          {"comparisonOperator":">","comparisonValue":"10","positiveValue":"@original
+          - 10","negativeValue":"0"}
+        mode: 7
+        priority: null
+      - key: system.attributes.movement.walk.distance
+        value: >-
+          {"comparisonOperator":">","comparisonValue":"10","positiveValue":"@original
+          - 10","negativeValue":"0"}
+        mode: 7
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The target's Speed by 10 feet until the start of your next turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!9ot2c39ypiu4l8ws.6meIM37yip1QShpH'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - cold
+      - movement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>An icy beam shoots from your outstretched fingers.</p><p>Make a ranged
+      spell attack. On a hit, you deal 1d8 cold damage and reduce the target's
+      Speed by 10 feet until the start of your next turn.</p><p>This spell's
+      damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8),
+      and 17th level (4d8).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: Tw5cqPbIxtfMfhDz
+_id: 9ot2c39ypiu4l8ws
+_key: '!items!9ot2c39ypiu4l8ws'

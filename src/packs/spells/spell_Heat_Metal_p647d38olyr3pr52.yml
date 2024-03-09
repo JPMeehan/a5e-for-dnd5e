@@ -1,0 +1,126 @@
+name: Heat Metal
+type: spell
+img: icons/magic/fire/projectile-arrow-fire-gem-yellow.webp
+effects:
+  - icon: icons/magic/fire/projectile-arrow-fire-gem-yellow.webp
+    origin: Item.p647d38olyr3pr52
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 3TwHG01htzTbfZE9
+        duration:
+          unit: minutes
+    transfer: false
+    name: Heat Metal
+    _id: 1jsD60bmaSEw7wg5
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target becomes oven hot. Any creature touching the target takes 2d8
+      fire damage when the spell is cast. Until the spell ends, on subsequent
+      turns you can use a bonus action to inflict the same damage. If a creature
+      is holding or wearing the target and suffers damage, it makes a
+      Constitution saving throw or it drops the target. If a creature does not
+      or cannot drop the target, it has disadvantage on attack rolls and ability
+      checks until the start of your next turn.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The damage increases
+      by 1d8 for each slot level above 2nd.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!p647d38olyr3pr52.1jsD60bmaSEw7wg5'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - fire
+      - nature
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target becomes oven hot. Any creature touching the target takes 2d8
+      fire damage when the spell is cast. Until the spell ends, on subsequent
+      turns you can use a bonus action to inflict the same damage. If a creature
+      is holding or wearing the target and suffers damage, it makes a
+      Constitution saving throw or it drops the target. If a creature does not
+      or cannot drop the target, it has disadvantage on attack rolls and ability
+      checks until the start of your next turn.</p><p><strong><em>Cast at Higher
+      Levels.</em></strong> The damage increases by 1d8 for each slot level
+      above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: piece of iron
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: object
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: p647d38olyr3pr52
+_key: '!items!p647d38olyr3pr52'

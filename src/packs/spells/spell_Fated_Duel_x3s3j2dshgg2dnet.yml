@@ -1,0 +1,90 @@
+folder: KpVFJJxpHWw9kEfV
+name: Fated Duel
+type: spell
+img: icons/skills/melee/swords-parry-block-blue.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">As you sing or play a rousing and recognizable leitmotif,
+      your targets feel themselves drawn to one another, and they feel compelled
+      to battle. Attacks made against the fated pair by other creatures are made
+      with disadvantage. And the fated pair has disadvantage to strike anyone
+      other than the other target of this spell. However, both members of the
+      fated pair land a critical hit on an 18, 19, or 20 on any target so long
+      as your concentration is maintained. Either target may choose to end this
+      effect by surrendering to the other, and the effect also ends when one of
+      the targets reaches 0 hit points or is otherwise incapacitated.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-a962d442-7fff-80e3-4d1b-9e54a7fb5885">Cast at
+      Higher Levels.</strong> When cast at 4th, 6th, or 8th level you may
+      designate an additional fated pair to battle.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A musical instrument you play or a banner or weapon held aloft
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 2
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - compulsion
+    rareSpell: false
+_id: x3s3j2dshgg2dnet
+_key: '!items!x3s3j2dshgg2dnet'

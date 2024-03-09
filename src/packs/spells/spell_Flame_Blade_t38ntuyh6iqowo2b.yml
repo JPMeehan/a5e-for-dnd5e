@@ -1,0 +1,120 @@
+name: Flame Blade
+type: spell
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp
+effects:
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp
+    origin: Item.t38ntuyh6iqowo2b
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: z9UWPSkS8dwehacm
+    transfer: false
+    name: Flame Blade
+    _id: yDEXJPKm47IUJvi6
+    changes:
+      - key: '@token.light.bright'
+        value: '10'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '20'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>A scimitar-shaped blade of fire appears in your hand, lasting for the duration. It disappears if you drop it, but you can use a bonus action to recall it. The blade casts bright light in a 10-foot radius and dim light for another 10 feet. You can use an action to make a melee spell attack with the blade that deals 3d6 fire damage.</p>\n<p><strong>Cast At Higher Levels.\_</strong>The damage increases by 1d6 for every two slot levels above 2nd.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!t38ntuyh6iqowo2b.yDEXJPKm47IUJvi6'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - fire
+      - weaponry
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>A scimitar-shaped blade of fire appears in your hand, lasting for the
+      duration. It disappears if you drop it, but you can use a bonus action to
+      recall it. The blade casts bright light in a 10-foot radius and dim light
+      for another 10 feet. You can use an action to make a melee spell attack
+      with the blade that deals 3d6 fire damage.</p><p><strong>Cast At Higher
+      Levels. </strong>The damage increases by 1d6 for every two slot levels
+      above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: sumac leaf
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: KpVFJJxpHWw9kEfV
+_id: t38ntuyh6iqowo2b
+_key: '!items!t38ntuyh6iqowo2b'

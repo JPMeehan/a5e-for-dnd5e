@@ -1,0 +1,93 @@
+name: Shaking Thunderwave
+type: spell
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - nature
+      - thunder
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You create a wave of thunderous force, damaging creatures and pushing
+      them back. Creatures in the area take 2d8 thunder damage and are pushed 10
+      feet away from you.</p>
+
+      <p>Unsecured objects completely within the area are also pushed 10 feet
+      away from you. The thunderous boom of the spell is audible out to 300
+      feet.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The damage increases
+      by 1d8 for each slot level above 1st.</p>
+
+      <p><strong><em>Rare:</em> Shaking Thunderwave.</strong> A
+      creature&nbsp;that takes 10 or more damage from this&nbsp;spell is knocked
+      prone.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: fJv2r2A8kfCAKTCg
+_id: q9pqytk78cd106jd
+_key: '!items!q9pqytk78cd106jd'

@@ -1,0 +1,121 @@
+name: Mind Blank
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-eye.webp
+    origin: Item.wad0cgw4tcdbuvbr
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 7cg8bU39fEtHwRmN
+        duration:
+          unit: hours
+    transfer: false
+    name: Mind Blank
+    _id: RBAh2Q7IrMLfxazw
+    changes:
+      - key: system.traits.damageImmunities
+        value: '["psychic"]'
+        mode: 2
+        priority: null
+      - key: system.traits.conditionImmunities
+        value: '["charmed"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is immune to psychic damage, any effect that would read its
+      emotions or thoughts, divination spells, and the charmed condition.</p>
+
+      <p>This immunity extends even to the wish spell, and magical effects or
+      spells of similar power that would affect the target's mind or gain
+      information about it.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!wad0cgw4tcdbuvbr.RBAh2Q7IrMLfxazw'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - negation
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The target is immune to psychic damage, any effect that would read its
+      emotions or thoughts, divination spells, and the charmed
+      condition.</p><p>This immunity extends even to the wish spell, and magical
+      effects or spells of similar power that would affect the target's mind or
+      gain information about it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 8
+  school: abj
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: DMm8aLAHhpqUVDEv
+_id: wad0cgw4tcdbuvbr
+_key: '!items!wad0cgw4tcdbuvbr'

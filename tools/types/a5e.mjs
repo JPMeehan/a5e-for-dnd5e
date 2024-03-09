@@ -150,7 +150,7 @@
  **********************/
 
 /**
- * @typedef {BaseTemplate} Feature
+ * @typedef Feature
  * @property {ACTemplate} ac
  * @property {boolean} concentration
  * @property {string} featureType
@@ -159,7 +159,7 @@
  */
 
 /**
- * @typedef {BaseTemplate} Spell
+ * @typedef Spell
  * @property {object} components
  * @property {boolean} components.vocalized
  * @property {boolean} components.seen
@@ -178,7 +178,7 @@
  */
 
 /**
- * @typedef {BaseTemplate} Maneuver
+ * @typedef Maneuver
  * @property {boolean} concentration
  * @property {number} degree
  * @property {number} exertionCost

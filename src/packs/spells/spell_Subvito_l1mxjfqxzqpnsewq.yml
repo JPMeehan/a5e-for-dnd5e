@@ -1,0 +1,86 @@
+folder: KpVFJJxpHWw9kEfV
+name: Subvito
+type: spell
+img: icons/skills/wounds/blood-spurt-spray-red.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">With a harsh word and a sharp gesture you steal the very life
+      essence from one target and grant it to another. The first target takes
+      3d10 necrotic damage if it fails its save, or half as much if it succeeds.
+      The second target may expend 1 hit die to recover hit points as if they
+      had taken a short rest.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels.</strong> For each level above
+      2nd, increase the damage by 1d10 and the number of hit dice rolled by
+      1.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: nec
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d10
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 2
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d10
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - healing
+      - necrotic
+    rareSpell: false
+_id: l1mxjfqxzqpnsewq
+_key: '!items!l1mxjfqxzqpnsewq'

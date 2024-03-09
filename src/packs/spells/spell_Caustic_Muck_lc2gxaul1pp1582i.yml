@@ -1,0 +1,93 @@
+folder: YnFE57i6b3g8tOII
+name: Caustic Muck
+type: spell
+img: icons/magic/acid/dissolve-bone-white.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You soften a patch of dry ground you can see within range
+      into a horrible caustic mire. The spell&rsquo;s area becomes difficult
+      terrain. A creature that enters the area for the first time on its turn or
+      begins its turn in the area must make a Strength saving throw or be
+      grappled (escape DC equal to your spell save DC) and take 2d6 points of
+      acid damage. A creature that begins its turn grappled by the spell also
+      takes 2d6 points of acid damage.&nbsp;</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-fec4f85f-7fff-f8f5-0d13-3d645accc826">Cast at
+      Higher Levels. </strong>The acid damage increases by 1d6 for each spell
+      slot level above 3rd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: An acid flask; consumed by the casting of the spell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: none
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - acid
+      - - 2d6
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - acid
+      - earth
+      - terrain
+    rareSpell: false
+_id: lc2gxaul1pp1582i
+_key: '!items!lc2gxaul1pp1582i'

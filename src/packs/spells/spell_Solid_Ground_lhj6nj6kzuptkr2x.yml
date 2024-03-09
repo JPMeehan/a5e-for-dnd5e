@@ -1,0 +1,86 @@
+folder: 3HQE3FN5vUCIygDu
+name: Solid Ground
+type: spell
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+system:
+  description:
+    value: >-
+      <p>You magically shore up and smooth the ground. Any non-magical difficult
+      terrain in the spell&rsquo;s area ceases to be difficult terrain; mud
+      dries, uneven ground flattens, vegetation withers away, ice melts,
+      slippery liquids like oil absorb or dissipate, etc. In addition, if any
+      horizontal surfaces in the area look solid but cannot actually bear the
+      weight of a normal medium-sized or smaller creature, they are magically
+      reinforced making them safe to walk across for the next hour. This spell
+      even solidifies pressure plates and trap doors, keeping them from
+      activating for the next hour without deliberate effort. (For example, you
+      could open a trap door that opens in by grasping the handle and opening
+      it, but not by stepping on it.)</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+      - terrain
+    rareSpell: false
+_id: lhj6nj6kzuptkr2x
+_key: '!items!lhj6nj6kzuptkr2x'

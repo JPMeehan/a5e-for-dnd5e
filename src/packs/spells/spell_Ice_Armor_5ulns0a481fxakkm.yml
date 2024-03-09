@@ -1,0 +1,128 @@
+folder: KpVFJJxpHWw9kEfV
+name: Ice Armor
+type: spell
+img: icons/magic/water/barrier-ice-crystal-wall-jagged.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You form a suit of ice around your body.</p>
+
+      <p dir="ltr">When you cast the spell, you gain 3d6 temporary hit points.
+      While you have any of these temporary hit points remaining, you have
+      resistance to cold damage, your AC increases by +1, and creatures grappled
+      by or grappling you take 1d6 points of cold damage at the start of their
+      turn.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels.</strong> If you cast this
+      spell with at least a 3rd-level spell slot, you gain an additional 1d6
+      temporary hit points for each spell slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: Spells from the Forgotten Vault
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/barrier-ice-crystal-wall-jagged.webp
+    origin: Item.5ulns0a481fxakkm
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: lN0yyAhVxU1XiDgc
+        duration:
+          unit: minutes
+    transfer: false
+    name: Ice Armour
+    _id: IVj4mYGtXn1rAS9X
+    changes:
+      - key: system.traits.damageResistances
+        value: '["cold"]'
+        mode: 2
+        priority: null
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When you cast the spell, you gain 3d6 temporary hit points. While you
+      have any of these temporary hit points remaining, you have resistance to
+      cold damage, your AC increases by +1, and creatures grappled by or
+      grappling you take 1d6 points of cold damage at the start of their
+      turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!5ulns0a481fxakkm.IVj4mYGtXn1rAS9X'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - cold
+      - protection
+    rareSpell: false
+_id: 5ulns0a481fxakkm
+_key: '!items!5ulns0a481fxakkm'

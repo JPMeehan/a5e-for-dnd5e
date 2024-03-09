@@ -1,0 +1,150 @@
+name: Confusion
+type: spell
+img: icons/magic/sonic/projectile-sound-rings-wave.webp
+effects:
+  - icon: icons/magic/sonic/projectile-sound-rings-wave.webp
+    origin: Item.pdvg7c9emjgnib07
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jqb7BKBuOfS5Z1n8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Confused
+    _id: 2wGiliUjJKlBJYp3
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["confused"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>At the end of each of its turns, a confused target makes a Wisdom
+      saving throw to end the spell's effects on it.</p>
+    statuses:
+      - confused
+    folder: null
+    _key: '!items.effects!pdvg7c9emjgnib07.2wGiliUjJKlBJYp3'
+  - icon: icons/magic/sonic/projectile-sound-rings-wave.webp
+    origin: Item.pdvg7c9emjgnib07
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jqb7BKBuOfS5Z1n8
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    _id: gJe691nLuizKcGEa
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!pdvg7c9emjgnib07.gJe691nLuizKcGEa'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - chaos
+      - compulsion
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You assault the minds of your targets, filling them with delusions and
+      making them confused until the spell ends. On a successful saving throw, a
+      target is rattled for 1 round. At the end of each of its turns, a confused
+      target makes a Wisdom saving throw to end the spell's effects on
+      it.</p><p><strong><em>Cast at Higher Levels.</em></strong> The spell's
+      area increases by 5 feet for each slot level above 4th.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 4
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a tangled string
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '10'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: 3HQE3FN5vUCIygDu
+_id: pdvg7c9emjgnib07
+_key: '!items!pdvg7c9emjgnib07'

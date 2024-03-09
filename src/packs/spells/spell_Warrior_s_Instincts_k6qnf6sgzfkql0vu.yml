@@ -1,0 +1,122 @@
+name: Warrior's Instincts
+type: spell
+img: icons/magic/control/silhouette-aura-energy.webp
+effects:
+  - icon: icons/magic/control/silhouette-aura-energy.webp
+    origin: Item.k6qnf6sgzfkql0vu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: fTvHcbCoSv2BZyZE
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Warrior's Instincts
+    _id: Yxl7h8xSsPrTT3fs
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, creatures cannot gain bonuses (like those granted
+      by bless or expertise dice) or advantage on attack rolls against you. In
+      addition, none of your movement provokes opportunity attacks, and you
+      ignore nonmagical difficult terrain. Finally, you can end the spell early
+      to treat a single weapon attack roll as though you had rolled a 15 on the
+      d20.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!k6qnf6sgzfkql0vu.Yxl7h8xSsPrTT3fs'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - enhancement
+      - protection
+      - senses
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Your senses sharpen, allowing you to anticipate incoming attacks and
+      find weaknesses in the defenses of your foes. Until the spell ends,
+      creatures cannot gain bonuses (like those granted by bless or expertise
+      dice) or advantage on attack rolls against you. In addition, none of your
+      movement provokes opportunity attacks, and you ignore nonmagical difficult
+      terrain. Finally, you can end the spell early to treat a single weapon
+      attack roll as though you had rolled a 15 on the
+      d20.</p><p><strong><em>Cast at Higher Levels.</em></strong> For each slot
+      level above 5th, you can also apply this spell's benefits to an additional
+      creature you can see within 30 feet.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  level: 5
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: headband
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 7JSQOMqQquD3x5jj
+_id: k6qnf6sgzfkql0vu
+_key: '!items!k6qnf6sgzfkql0vu'
