@@ -6,9 +6,9 @@
  */
 export function randomID(length = 16) {
   const chars =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   const r = Array.from({ length }, () => (Math.random() * chars.length) >> 0);
-  return r.map((i) => chars[i]).join("");
+  return r.map((i) => chars[i]).join('');
 }
 
 /**
@@ -21,7 +21,7 @@ export function randomID(length = 16) {
  */
 export function uuid(pack, id, type) {
   const MODULE_ID = process.cwd();
-  return ["Compendium", MODULE_ID, pack, type, id].join(".");
+  return ['Compendium', MODULE_ID, pack, type, id].join('.');
 }
 
 /**
@@ -43,5 +43,37 @@ export function expandSource(src) {
 export function subclassHeader(classID) {
   switch (classID) {
   }
-  return "Item Grant";
+  return 'Item Grant';
+}
+
+export class Folder {
+  /**
+   *
+   * @param {string} name
+   * @param {object} context
+   * @param {string | null} [context.parentFolder]
+   * @param {string | null} [context.color]
+   */
+  constructor(name, { parentFolder, color, ...context } = {}) {
+    this.name = name;
+    this.color = color ?? null;
+    this.flags = {};
+    this.sort = 0;
+    this.sorting = 'a';
+    this._type = 'Item';
+    this.folder = parentFolder ?? null;
+    this._id = randomID();
+    this._key = '!folders!' + this._id;
+  }
+
+  /**
+   * Returns the folder as an object but with the _type replaced by type
+   * @returns {object} The folder, as an object
+   */
+  get toObject() {
+    const out = { ...this };
+    out['type'] = this._type;
+    delete out._type;
+    return out;
+  }
 }

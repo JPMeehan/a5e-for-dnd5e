@@ -4,7 +4,7 @@ import { Folder } from './utils.mjs';
 import yaml from 'js-yaml';
 import ReferenceFolder from './ReferenceFolder.mjs';
 
-const targetPack = 'spells';
+const targetPack = 'gear';
 const packPath = path.join('src', 'packs', targetPack);
 
 const spellPack = await fs.readdir(packPath);
@@ -77,7 +77,7 @@ async function createFolders() {
   await ReferenceFolder.build(targetPack);
 }
 try {
-  await fs.access(path.join('tools', 'referenceFolders', 'spells.yml'));
+  await fs.access(path.join('tools', 'referenceFolders', 'gear.yml'));
 } catch {
   await createFolders();
 }
