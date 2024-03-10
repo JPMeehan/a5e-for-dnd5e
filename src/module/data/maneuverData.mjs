@@ -35,6 +35,8 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
         required: false,
         label: 'a5e-for-5e.Maneuver.Prerequisite',
       }),
+      // There's
+      properties: new fields.SetField(new fields.StringField()),
     });
   }
 
