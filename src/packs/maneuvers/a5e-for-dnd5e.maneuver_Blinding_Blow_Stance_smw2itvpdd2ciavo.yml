@@ -1,0 +1,92 @@
+name: Blinding Blow Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/control/mouth-smile-deception-purple.webp
+effects:
+  - icon: icons/magic/control/mouth-smile-deception-purple.webp
+    origin: Item.smw2itvpdd2ciavo
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: aGtbNhnNUvIS29jA
+    transfer: false
+    name: Blinding Blow Stance
+    _id: C7STh18yoXIvT8CP
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!smw2itvpdd2ciavo.C7STh18yoXIvT8CP'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You pace your attacks in a disruptive flow that makes it easy to follow
+      a strike with maneuvering that temporarily blinds your foes.</p><p>After
+      you hit a creature with a melee weapon attack, you can spend 1 exertion to
+      make a Sleight of Hand check, blinding it if the result is higher than its
+      AC.</p><p>At the beginning of each of its turns, the blinded creature can
+      make a Wisdom saving throw to recover from its blindness.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: mistAndShade
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: MsmgB2gwBDHXU7yT
+_id: smw2itvpdd2ciavo
+_key: '!items!smw2itvpdd2ciavo'

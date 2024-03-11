@@ -1,0 +1,66 @@
+name: Rake
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With two deft attacks you rend at your opponent, striking at them first
+      to diminish their defenses then delivering a ferocious second
+      blow.</p><p>When you activate this maneuver, you take the Attack action
+      and make a weapon attack, as well as any additional attacks granted by
+      Extra Attack. Until the start of your next turn, when you hit a creature
+      with two or more melee weapon attacks, each hit after the first deals 1d8
+      extra damage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: toothAndClaw
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: qt2BwoJbCv1KTBbH
+_id: ums2c0flyzpaf7vu
+_key: '!items!ums2c0flyzpaf7vu'

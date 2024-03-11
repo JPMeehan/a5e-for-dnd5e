@@ -1,0 +1,62 @@
+name: Heightened Concentration
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/strike-sword-blood-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You nearly lose concentration, but you shake your head and stay
+      focused.</p><p>When you lose concentration, you can use your reaction to
+      prevent yourself from losing concentration.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: razorsEdge
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you lose concentration.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 06SfUb79AapH2897
+_id: zektlj2lkgq1u7mp
+_key: '!items!zektlj2lkgq1u7mp'

@@ -1,0 +1,70 @@
+name: Take Weapon
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You snatch your enemy's weapon and use it against them.</p>
+
+      <p>When a creature misses you with a melee weapon attack against you using
+      a weapon, you can use your reaction to flip it out of the creature's
+      hands. The creature makes a Dexterity saving throw, and on a failure it
+      drops the weapon and you grab it from mid-air.</p>
+
+      <p>You can spend 2 exertion points to immediately use the weapon to make a
+      melee weapon attack against the creature.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: mirrorsGlint
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When a creature misses you with a melee weapon attack against you using a
+      weapon.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: 1seSYx6wGDaGtof5
+_id: 4w1s4c8hv7t7p4i3
+_key: '!items!4w1s4c8hv7t7p4i3'

@@ -1,0 +1,85 @@
+name: Transform Weapon
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-purple.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 20">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p><strong>Requirement: </strong>Unused spell slot of 1st level or higher
+      or at least 2 unspent spell points</p>
+
+      <p>You transform your weapon into something more immediately useful.</p>
+
+      <p>You transform your weapon into another weapon you are proficient with.
+      This change lasts only until the end of your turn. If your weapon has
+      magical properties that could apply to its new form, they are still
+      present. Otherwise, they are suppressed. A ranged weapon such as a bow or
+      sling does not come with ammunition; you must provide it as normal.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 2
+  tradition: cuttingOmen
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: LAtyYq2NzS2rGyim
+_id: txXrzsAZB2JNRCmT
+_key: '!items!txXrzsAZB2JNRCmT'

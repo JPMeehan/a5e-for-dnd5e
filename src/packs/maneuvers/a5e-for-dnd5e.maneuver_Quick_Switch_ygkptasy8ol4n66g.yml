@@ -1,0 +1,66 @@
+name: Quick Switch
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  description:
+    value: >-
+      <p>You command your animal companion to switch places with a creature
+      within 5 feet of it. This movement does not provoke opportunity attacks.
+      If the creature you command your animal companion to switch places with is
+      unwilling, it may make a Dexterity saving throw. On a success, it is not
+      moved.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #6'
+    license: OGL 1.0a
+  degree: 3
+  tradition: beastUnity
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      You command your animal companion to switch places with a creature within
+      5 feet of it
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: k9wLRF31D957sH5j
+_id: ygkptasy8ol4n66g
+_key: '!items!ygkptasy8ol4n66g'

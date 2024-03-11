@@ -1,0 +1,65 @@
+name: Disarming Counter
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With expert timing you apply just the right amount of force to send an
+      opponent's weapon flying just as they strike.</p><p>When a creature makes
+      a melee weapon attack against you and misses, you can use your reaction to
+      force it to make a Dexterity saving throw. On a failure, a weapon it is
+      wielding (your choice) flies from its grip to land in a randomly
+      determined space 10 feet away.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: rapidCurrent
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature makes a melee weapon attack against you and misses
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: hl51axnADADHsrRh
+_id: mis9almt6mhynl2x
+_key: '!items!mis9almt6mhynl2x'

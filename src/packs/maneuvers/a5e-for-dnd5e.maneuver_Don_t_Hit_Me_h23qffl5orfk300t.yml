@@ -1,0 +1,74 @@
+folder: UkSUsWseCFv6SLsH
+name: Don't Hit Me
+type: a5e-for-dnd5e.maneuver
+img: icons/consumables/fruit/tomato-ripe-red.webp
+system:
+  description:
+    value: >-
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p>Even a well-told lie of being harmless only works if you&rsquo;re
+      really believing it when you tell it&mdash;and in the midst of a pitched
+      fight it&rsquo;s easy to muster some real feeling to briefly fool a
+      foe.</p>
+
+      <p>When a creature makes an attack against you, you can use your reaction
+      to make a Deception or nonmusical Performance check with <span
+      class="freelinking-link">disadvantage</span> , opposed by its Insight
+      check. On a success, the creature is briefly perplexed and targets a
+      different creature with the attack instead.</p>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #19'
+    license: OGL 1.0a
+  degree: 1
+  tradition: comedicJabs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: Target of attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: h23qffl5orfk300t
+_key: '!items!h23qffl5orfk300t'

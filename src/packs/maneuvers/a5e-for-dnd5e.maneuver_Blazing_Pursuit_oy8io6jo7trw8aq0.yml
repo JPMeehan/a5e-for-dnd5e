@@ -1,0 +1,68 @@
+name: Blazing Pursuit
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">With fiery heat, you pursue a fleeing
+      foe.</span></p>
+
+      <p><span class="fontstyle0">If a creature moves out of your reach, you may
+      expend your reaction to move in the same direction up to 20 feet and make
+      a single melee attack against the creature if they are within your reach.
+      This movement does not provoke attacks of opportunity, and your weapon
+      attacks deal fire damage, as well as its original types, until the end of
+      your next turn.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 2
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: if a creature moves out of your reach
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: L140n9nNVZy6P59T
+_id: oy8io6jo7trw8aq0
+_key: '!items!oy8io6jo7trw8aq0'

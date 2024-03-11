@@ -1,0 +1,63 @@
+name: Expert Sidestep
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You respond to an attacker's weapon with a peerless defensive step that
+      displays your prowess as a warrior.</p><p>When a creature makes a weapon
+      attack against you, you can use your reaction to gain a bonus to AC equal
+      to your proficiency bonus, possibly turning a hit into a miss.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: unendingWheel
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature makes a weapon attack against you.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: hDOZaBcbXkFE5Cq4
+_id: wrzw80j4cxnfqou8
+_key: '!items!wrzw80j4cxnfqou8'

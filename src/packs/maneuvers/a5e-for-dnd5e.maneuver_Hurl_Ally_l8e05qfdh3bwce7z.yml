@@ -1,0 +1,67 @@
+name: Hurl Ally
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/social/diplomacy-unity-alliance.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You throw your ally at an opponent, lending them extra
+      power.</p><p>Choose a willing ally within your reach that is at least one
+      size category smaller than you. You hurl your ally at a creature within 20
+      feet. Your ally lands in a space adjacent to the creature and can use
+      their reaction to make a melee weapon attack against it. On a hit, the
+      creature makes a Dexterity saving throw or the attack becomes a critical
+      hit (or if the attack is already a critical hit your ally deals maximum
+      damage).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: sanguineKnot
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 20ft
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: M9395rC2DuIGEm5B
+_id: l8e05qfdh3bwce7z
+_key: '!items!l8e05qfdh3bwce7z'

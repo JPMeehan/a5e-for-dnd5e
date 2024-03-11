@@ -1,0 +1,63 @@
+name: Charge
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Flinging yourself forward you barrel towards an enemy with your weapon
+      held at the ready to unleash an attack before they can react! </p><p>Move
+      up to 30 feet in a straight line and make a melee weapon attack. You can't
+      take the Dash action and use this maneuver on the same turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: rapidCurrent
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: NyMOj8UAZtaFH2kL
+_id: xatq76xpgbfqm53j
+_key: '!items!xatq76xpgbfqm53j'

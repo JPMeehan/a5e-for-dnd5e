@@ -1,0 +1,66 @@
+name: Stormrider
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">Calling the power of the storm to your weapon,
+      you fling yourself across the battlefield and drag lightning from the sky
+      onto your foes.</span></p>
+
+      <p><span class="fontstyle0">As an action, teleport up to your Speed to an
+      unoccupied space you can see. All enemies within 10 feet of the space must
+      make a Constitution saving throw or take lightning damage as if hit by
+      your weapon and be pushed back 5 feet.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 5
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: R8Z0Z5twv70om01I
+_id: gc3ip16wf3qtcphf
+_key: '!items!gc3ip16wf3qtcphf'

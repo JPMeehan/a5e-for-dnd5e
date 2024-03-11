@@ -1,0 +1,99 @@
+name: Darkstalkers Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>You draw forth the unquiet dead and force them to your bidding. Choose
+      a number of squares equal to your Charisma modifier within 30 feet. Each
+      square becomes occupied by a spirit entity with an AC equal to 10 + your
+      Charisma modifier, 20 hit points, and vulnerability to radiant damage.
+      Each entity also has a reach of 5 feet and its own reaction for the
+      purposes of making opportunity attacks , which it makes using your attack
+      bonus and base melee damage. The entities cannot use any movement and
+      cannot flank. The squares they occupy are considered difficult terrain to
+      any creature except you.</p>
+
+      <p>Additionally, while this stance is active, as part of the Attack action
+      you can forgo any number of weapon attacks available to you to instead
+      direct a chosen entity to attack using your attack modifier and weapon
+      damage. This stance ends early if all entities are destroyed.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 5
+  tradition: eldritchBlackguard
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/hand-claw-glow-orange.webp
+    origin: Item.ijtqedwm8c9l29n1
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: 0UQ4718L2Cc8X44E
+    transfer: false
+    name: Darkstalkers Stance
+    _id: ajJZFbFuQ1yXRw7e
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!ijtqedwm8c9l29n1.ajJZFbFuQ1yXRw7e'
+flags: {}
+folder: n6HDp3sT8Ew7nUrb
+_id: ijtqedwm8c9l29n1
+_key: '!items!ijtqedwm8c9l29n1'

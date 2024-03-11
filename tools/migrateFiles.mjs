@@ -410,7 +410,7 @@ function migrateManeuver(system) {
       chat: '',
     },
     source: mapSource(system.source),
-    degree: system.degree,
+    degree: Number(system.degree),
     tradition: system.tradition,
     prerequisite: system.prerequisite,
     properties: [],

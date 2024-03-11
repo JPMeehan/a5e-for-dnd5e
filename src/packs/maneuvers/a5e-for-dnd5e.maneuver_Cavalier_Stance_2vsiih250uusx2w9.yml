@@ -1,0 +1,89 @@
+name: Cavalier Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+effects:
+  - icon: icons/creatures/mammals/spirit-deer-herd-blue.webp
+    origin: Item.2vsiih250uusx2w9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: MNUKSMJeMpuCJudV
+    transfer: false
+    name: Cavalier Stance
+    _id: 8HpfNMFvnsGZI698
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!2vsiih250uusx2w9.8HpfNMFvnsGZI698'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You protect your mount as you ride.</p><p>While you are riding your
+      mount, its Armor Class increases by an amount equal to half your
+      proficiency bonus.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: spiritedSteed
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: htC43JdUpvoRC58i
+_id: 2vsiih250uusx2w9
+_key: '!items!2vsiih250uusx2w9'

@@ -1,0 +1,61 @@
+name: Blinding Dust
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ' You expend a dose of basic poison to blow blinding dust into an opponent’s eyes. Choose a creature within 5 feet of you. It must make a Dexterity save against your maneuver DC or take 1d4 poison damage and be blinded until the end of your next turn.</p>'
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: FRtW4XTMZbBWGBpl
+_id: dxir38g6xycrj3co
+_key: '!items!dxir38g6xycrj3co'

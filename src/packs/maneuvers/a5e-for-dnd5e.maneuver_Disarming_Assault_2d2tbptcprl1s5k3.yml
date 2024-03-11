@@ -1,0 +1,69 @@
+name: Disarming Assault
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Instead of waiting for an opponent to strike so you can slap their
+      weapon away, you lay into them with attacks that knock it from their
+      hands.</p><p>When you activate this maneuver, you take the Attack action
+      and make a weapon attack, as well as any additional attacks granted by
+      Extra Attack. Until the start of your next turn, your strikes can deprive
+      foes of their armaments. In addition to dealing damage, when you hit a
+      creature with a melee weapon attack it makes a Strength saving throw. On a
+      failure, an item of your choice that the creature is holding (including a
+      shield) flies from its grip to land in a randomly determined space 10 feet
+      away.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: unendingWheel
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: hDOZaBcbXkFE5Cq4
+_id: 2d2tbptcprl1s5k3
+_key: '!items!2d2tbptcprl1s5k3'

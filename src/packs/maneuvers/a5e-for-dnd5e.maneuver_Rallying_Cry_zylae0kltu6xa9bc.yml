@@ -1,0 +1,66 @@
+name: Rallying Cry
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/social/diplomacy-unity-alliance.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You offer inspiring encouragement to an ally and they gain their second
+      wind.</p><p>When an ally you can see takes damage from an attack, you can
+      use your reaction to release a hearty rallying cry. As long as they are
+      able to hear you, your ally regains an amount of hit points equal to twice
+      your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: sanguineKnot
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When an ally you can see takes damage from an attack.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: Sight
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2 * @prof
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: NkjKbuv7qZG4ZBTm
+_id: zylae0kltu6xa9bc
+_key: '!items!zylae0kltu6xa9bc'

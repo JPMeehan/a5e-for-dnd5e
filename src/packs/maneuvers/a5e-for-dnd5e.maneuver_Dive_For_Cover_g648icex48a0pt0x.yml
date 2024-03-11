@@ -1,0 +1,69 @@
+name: Dive For Cover
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Under fire, you dive for cover.</p>
+
+      <p>When you are targeted by a ranged attack, after it hits or misses you,
+      you can use your reaction to move up to your Speed.</p>
+
+      <p>If your movement ends adjacent to either a solid barrier as big as you
+      are or a creature the same size as you or larger, until the beginning of
+      your next turn you have three-quarters cover against ranged attacks (+5
+      bonus to AC and saving throws) as long as you remain adjacent to the
+      barrier or creature.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: bitingZephyr
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you are targeted by a ranged attack, after it hits or misses you.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 5GuY3lONE5b3ZmB9
+_id: g648icex48a0pt0x
+_key: '!items!g648icex48a0pt0x'

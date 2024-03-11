@@ -1,0 +1,66 @@
+name: Flowing Form
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You turn into a twisting leaf upon the wind of battle, turning every
+      dodged strike into a sublime counterattack.</p>
+
+      <p>You take the Dodge action. Until the start of your next turn you make
+      one melee weapon attack against each target that misses you with a melee
+      weapon attack, and you have disadvantage on Wisdom (Perception)
+      checks.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: mirrorsGlint
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: bdDQPXuGHXMbIAHc
+_id: pobxuhyo9biz2w04
+_key: '!items!pobxuhyo9biz2w04'

@@ -1,0 +1,64 @@
+name: Heightened Reflexes (1-3 Points)
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Bracing yourself with a controlled burst of adrenaline propels you into
+      a state of superior awareness along with the energy to act with unnatural
+      quickness.</p><p>You gain a number of reactions equal to exertion points
+      spent. You must use these reactions before the start of your next
+      turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: mirrorsGlint
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: bdDQPXuGHXMbIAHc
+_id: oaf88minzcediu8f
+_key: '!items!oaf88minzcediu8f'

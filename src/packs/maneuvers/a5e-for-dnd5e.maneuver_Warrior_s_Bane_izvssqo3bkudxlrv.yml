@@ -1,0 +1,65 @@
+name: Warrior’s Bane
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>In response to an attack from a creature within reach, make a melee
+      weapon attack against the attacking creature and expend a dose of basic
+      poison. On a hit, the creature must make a Constitution save or for the
+      next minute, whenever it would make a melee attack, take the Dash action,
+      or make a Strength or Dexterity check, it takes 2d6 acid damage. This
+      effect can be ended early by administering an antitoxin.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 3
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: Attacked by a creature within reach.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: NSR49vMHd08VIoOs
+_id: izvssqo3bkudxlrv
+_key: '!items!izvssqo3bkudxlrv'

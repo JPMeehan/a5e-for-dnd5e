@@ -1,0 +1,73 @@
+folder: fYbSVyCCY3oCUp66
+name: Quick, Drink This
+type: a5e-for-dnd5e.maneuver
+img: icons/consumables/fruit/tomato-ripe-red.webp
+system:
+  description:
+    value: >-
+      <p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w
+      x y z ab ac ae af ag ah ai aj ak" dir="ltr">No matter how deadly or
+      serious an opponent is, if they can drink, you can splash something down
+      their throat with superlative timing.</span></p>
+
+      <p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w
+      x y z ab ac ae af ag ah ai aj ak" dir="ltr">Make a Persuasion check
+      opposed by the Insight check of a creature within your reach. On a
+      success, the creature drinks whatever item you are offering to it, whether
+      that is a potion, poison, or otherwise. Any alchemical item (such as an
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.b0z0yz39b3qy3hdo]{Acid
+      Flask} or
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.4t0m2ttaca5hg2vi]{Alchemist's
+      Fire}) deals four times as much damage as normal when a creature drinks it
+      in this way, although any ongoing damage is only dealt twice.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #19'
+    license: OGL 1.0a
+  degree: 4
+  tradition: comedicJabs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: eu1lq8ebwdokxuwm
+_key: '!items!eu1lq8ebwdokxuwm'

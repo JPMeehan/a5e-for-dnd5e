@@ -1,0 +1,85 @@
+name: Forceful Defense
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-purple.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 19">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p><strong>Requirement:</strong> Unused spell slot of 1st level or higher
+      or at least 2 unspent spell points</p>
+
+      <p>You respond to an incoming attack with a blast of magical force,
+      driving your opponent back.</p>
+
+      <p>When you would be hit by a melee attack, you may use your reaction to
+      gain a +2 bonus to AC against the attack. If this causes the attack to
+      miss, at your option the creature is pushed 10 feet away from you if it is
+      Large-sized or smaller.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: cuttingOmen
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: when you would be hit by a melee attack.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: 2TRKViFdtAm1eMJi
+_id: EqBO69Ol3eDSHyXE
+_key: '!items!EqBO69Ol3eDSHyXE'

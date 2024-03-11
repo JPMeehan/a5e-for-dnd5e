@@ -1,0 +1,71 @@
+name: Duelist’s Sigil
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">Drawing a fingertip across your weapon, you
+      briefly inscribe a glowing mark before you strike your opponent, which
+      reminds them of your threat when they seek to engage others.</span></p>
+
+      <p><span class="fontstyle0">As part of this stance, you trace a rune onto
+      a melee weapon. Your mark is transferred to the next creature you
+      successfully hit with the inscribed weapon. If the marked creature
+      attempts to attack any other target but you, it takes force damage equal
+      to your Intelligence modifier, regardless of whether the attack hits. This
+      stance ends early if you wish to mark another creature or if the target is
+      more than 30 feet away from you.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 2
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@mod'
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: L140n9nNVZy6P59T
+_id: n6yi7e85nigyal1x
+_key: '!items!n6yi7e85nigyal1x'

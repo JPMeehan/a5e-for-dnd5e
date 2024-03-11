@@ -1,0 +1,66 @@
+name: Shadowy Feint
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>Lashing out at your target gives you a moment to escape amongst
+      concealing shadows. After making a successful melee attack, you may use
+      your reaction to deal basic melee damage instead of normal weapon damage.
+      When you do so, you can move up to 15 feet without&nbsp;<span
+      class="freelinking-link">provoking opportunity attacks</span>.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 1
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: After making a successful melee attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: rSNQOpIviMR78Wr7
+flags: {}
+_id: nsm754jzdkfwqvyf
+_key: '!items!nsm754jzdkfwqvyf'

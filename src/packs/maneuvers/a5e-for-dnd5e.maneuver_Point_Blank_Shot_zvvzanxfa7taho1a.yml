@@ -1,0 +1,70 @@
+name: Point Blank Shot
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With uncanny swiftness you ready a weapon normally only used at range,
+      compensating for making an attack at an opponent within only a few feet
+      and giving your enemies reason to be wary.</p>
+
+      <p>Until the end of your next turn, being within 5 feet of a hostile
+      creature who can see you and who isn't incapacitated does not give you
+      disadvantage when making a ranged attack using a weapon.</p>
+
+      <p>In addition, when an adjacent hostile creature that you can see moves 5
+      feet or more away from you, you can use your reaction to make a ranged
+      weapon attack against it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: bitingZephyr
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: HuOk2R5Kq5D0DyX4
+_id: zvvzanxfa7taho1a
+_key: '!items!zvvzanxfa7taho1a'

@@ -1,0 +1,64 @@
+name: Reassuring Pat
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Your mount takes comfort from your presence and gains its second
+      wind.</p><p>When your mount is hit by an attack, you can use your reaction
+      to pat it reassuringly. Your mount regains hit points equal to your
+      level.</p><p>If your mount is charmed, poisoned, or restrained, it can use
+      its reaction to end those conditions.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: spiritedSteed
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When your mount is hit by an attack.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: rUpDPEEvKs7vblXD
+_id: 3g1mpdh7qt9ixwcc
+_key: '!items!3g1mpdh7qt9ixwcc'

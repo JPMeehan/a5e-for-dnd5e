@@ -1,0 +1,65 @@
+name: Fell Spines
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>Flesh and bone obey your command and form spines along your forearm.
+      Flinging your arm out, you launch the bony projectiles into your
+      opponents. Choose a number of targets up to your proficiency bonus in a 15
+      foot cone. Each must make a Dexterity save or take damage equal to your
+      basic melee damage and become rattled until the start of its next turn.
+      This damage is considered both necrotic and piercing. On a successful
+      save, the target does not take the damage, but is still rattled until the
+      start of its next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 3
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: f49w1dSTaDnUZkds
+_id: 5u880mqpuskqa319
+_key: '!items!5u880mqpuskqa319'

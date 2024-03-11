@@ -1,0 +1,70 @@
+name: Shove
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-block-bash-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can use the Shove maneuver to push a creature away. If you are able
+      to make multiple attacks with the Attack action, this maneuver replaces
+      one of them.</p><p>The target must be within your reach and be no more
+      than one size category larger than you. The target makes a Strength saving
+      throw against your maneuver DC. On a failure, you deal basic melee damage
+      and push the target a number of feet away from you equal to 5 + 5 for
+      every 5 points it failed its saving throw by. You can move the creature in
+      any direction away from you (to the side, forward, or diagonally
+      away).</p><p>A creature that is shoved off of a precipice is propelled off
+      of whatever it is standing on -- it does not receive any saving throw or
+      ability check to grab onto something to avoid falling down below.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 0
+  tradition: ''
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: VKcfBIxquL7VgHCw
+_id: md35qozzy2fxy2o6
+_key: '!items!md35qozzy2fxy2o6'

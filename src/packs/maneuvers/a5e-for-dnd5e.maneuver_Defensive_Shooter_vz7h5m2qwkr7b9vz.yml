@@ -1,0 +1,77 @@
+name: Defensive Shooter
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 39">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>Responding to aggressive movement, you attack any who draw too near
+      with a binding shot. So long as you maintain this stance you may use your
+      reaction to make a ranged weapon opportunity attack against any creature
+      that moves into or out of a space within 15ft of you. Creatures struck by
+      this attack must make a Constitution saving throw or have their speed
+      reduced to 0 until the start of your next turn.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  degree: 4
+  tradition: arcaneArtillery
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: g9LAgNtWph1RkkgT
+_id: vz7h5m2qwkr7b9vz
+_key: '!items!vz7h5m2qwkr7b9vz'

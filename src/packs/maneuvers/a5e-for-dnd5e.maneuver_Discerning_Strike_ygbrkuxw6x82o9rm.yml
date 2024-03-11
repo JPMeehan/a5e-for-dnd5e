@@ -1,0 +1,69 @@
+name: Discerning Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p> A probing blow allows you to take the measure of your foe.</p><p>When
+      you activate this maneuver, you take the Attack action and make a weapon
+      attack, as well as any additional attacks granted by Extra Attack. Until
+      the start of your next turn, when you deal damage to a creature you learn
+      its current hit points, hit point maximum, immunities, resistances, and
+      vulnerabilities.</p><p>If you score a critical hit you can choose one of
+      the creature's resistances or immunities. The creature loses that
+      resistance or immunity until the end of your next turn. In addition, until
+      the beginning of your next turn you gain advantage on melee weapon attacks
+      against that creature.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: mirrorsGlint
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: CAAnoYyx4VMuoBGL
+_id: ygbrkuxw6x82o9rm
+_key: '!items!ygbrkuxw6x82o9rm'

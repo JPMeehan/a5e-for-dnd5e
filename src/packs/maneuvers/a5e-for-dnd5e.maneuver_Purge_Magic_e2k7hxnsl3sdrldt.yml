@@ -1,0 +1,64 @@
+name: Purge Magic
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>As soon as your senses seize upon the uttering of an incantation or a
+      hand working the gestures of magic your body reflexively reacts with
+      violence.</p><p>When a creature you can see within your reach casts a
+      spell, you can use your reaction to make a melee weapon attack against
+      it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: temperedIron
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: hRKPiDbXXHp8mzZ0
+_id: e2k7hxnsl3sdrldt
+_key: '!items!e2k7hxnsl3sdrldt'

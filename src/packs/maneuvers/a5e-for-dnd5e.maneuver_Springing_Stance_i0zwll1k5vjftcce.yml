@@ -1,0 +1,97 @@
+name: Springing Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects:
+  - icon: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+    origin: Item.i0zwll1k5vjftcce
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: BRjFmfpjPM55F64Y
+    transfer: false
+    name: Springing Stance
+    _id: JYAsP3AverE3Tjqe
+    changes:
+      - key: system.skills.acr.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!i0zwll1k5vjftcce.JYAsP3AverE3Tjqe'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Every time you step, slide, or turn you do so more quickly than usual
+      and it becomes much easier to hurl yourself about.</p>
+
+      <p>You increase the distance of your horizontal jumps by a number of feet
+      equal to your proficiency bonus, and the distance of your vertical jumps
+      by a number of feet equal to half your proficiency bonus. In addition, you
+      gain an expertise die on Acrobatics checks and checks made to jump.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: toothAndClaw
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: LJpMHpMHY5uQtwMf
+_id: i0zwll1k5vjftcce
+_key: '!items!i0zwll1k5vjftcce'

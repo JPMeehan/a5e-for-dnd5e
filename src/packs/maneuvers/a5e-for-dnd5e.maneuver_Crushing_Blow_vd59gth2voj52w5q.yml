@@ -1,0 +1,66 @@
+name: Crushing Blow
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With a bone crushing strike you briefly deprive an opponent of their
+      very ability to move.</p>
+
+      <p>Make a melee weapon attack roll using a weapon that has the heavy
+      property. A creature damaged by the attack makes a Strength saving throw,
+      and on a failure it is paralyzed until it takes damage or the end of your
+      next turn (whichever comes first).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: adamantMountain
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: rMFkUZlq5sxqJ3is
+_id: vd59gth2voj52w5q
+_key: '!items!vd59gth2voj52w5q'

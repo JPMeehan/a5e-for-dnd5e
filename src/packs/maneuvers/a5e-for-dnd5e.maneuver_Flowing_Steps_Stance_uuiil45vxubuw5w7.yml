@@ -1,0 +1,90 @@
+name: Flowing Steps Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects:
+  - icon: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    origin: Item.uuiil45vxubuw5w7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: RTiidUOrzu6ZX90j
+    transfer: false
+    name: Flowing Steps Stance
+    _id: G5WvwmpHaLnXAzS0
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!uuiil45vxubuw5w7.G5WvwmpHaLnXAzS0'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You focus on moving so swiftly and with such subtlety that nothing can
+      stop you.</p><p>You allow your movements to adapt to all conditions. You
+      have advantage on saving throws made to resist being grappled, paralyzed,
+      restrained, or stunned. In addition, you ignore difficult terrain.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: rapidCurrent
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: zZdx6IBukA1kzo57
+_id: uuiil45vxubuw5w7
+_key: '!items!uuiil45vxubuw5w7'

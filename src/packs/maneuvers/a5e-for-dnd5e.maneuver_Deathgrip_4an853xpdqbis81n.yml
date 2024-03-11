@@ -1,0 +1,65 @@
+name: Deathgrip
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>A phantasmal force manifests around your weapon, waiting to wrap itself
+      around a foe. Make a melee weapon attack . On a hit, the target must make
+      a Strength saving throw or take additional necrotic damage equal to your
+      base melee damage and become restrained until the beginning of your next
+      turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 4
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1 + @mod
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: iLWivADhq8KIBlTc
+_id: 4an853xpdqbis81n
+_key: '!items!4an853xpdqbis81n'

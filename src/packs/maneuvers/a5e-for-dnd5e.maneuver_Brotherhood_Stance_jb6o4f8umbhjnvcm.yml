@@ -1,0 +1,90 @@
+name: Brotherhood Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/social/diplomacy-unity-alliance.webp
+effects:
+  - icon: icons/skills/social/diplomacy-unity-alliance.webp
+    origin: Item.jb6o4f8umbhjnvcm
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: yxhvHDqyuq3303mo
+    transfer: false
+    name: Brotherhood Stance
+    _id: 0PXptsNPLGubb6gI
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!jb6o4f8umbhjnvcm.0PXptsNPLGubb6gI'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By focusing on keeping enemies off-balance, you help allies attack more
+      effectively.</p><p>Whenever you hit a creature with a melee weapon attack,
+      you can also take the Help action. On a critical hit, the target of your
+      Help action can use their reaction to take the Dodge action.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: sanguineKnot
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: beGrH5K8SBmrzzgF
+_id: jb6o4f8umbhjnvcm
+_key: '!items!jb6o4f8umbhjnvcm'

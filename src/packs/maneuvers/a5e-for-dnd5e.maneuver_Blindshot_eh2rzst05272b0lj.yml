@@ -1,0 +1,66 @@
+name: Blindshot
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By closing your eyes and focusing on the sound of the environment, you
+      target an unseen foe with uncanny accuracy.</p>
+
+      <p>Make a Perception check against the passive Stealth of a target you
+      cannot see that is within 30 feet. On a success, you know the target's
+      location and do not have disadvantage on your next ranged attack against
+      it before the end of your turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: bitingZephyr
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: EYDAWHinexFZNdYV
+_id: eh2rzst05272b0lj
+_key: '!items!eh2rzst05272b0lj'

@@ -1,0 +1,67 @@
+name: Branding Steel
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You permanently mark your foe with your sword.</p><p>Before the start
+      of your next turn, when you hit a creature with a melee weapon attack you
+      can choose to brand it. A branded creature has disadvantage on
+      concentration checks and on attacks made against creatures other than you.
+      In addition, a branded creature able to see you cannot move closer to you
+      without making a Wisdom saving throw. The brand on a creature is removed
+      when it regains 30 hit points or more from a healing spell or similar
+      magic.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: temperedIron
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: FgPKzriHLl6YFJ3Y
+_id: w7bouadb28pkpyuk
+_key: '!items!w7bouadb28pkpyuk'

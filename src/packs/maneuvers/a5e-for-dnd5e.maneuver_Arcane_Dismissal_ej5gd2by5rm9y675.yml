@@ -1,0 +1,64 @@
+name: Arcane Dismissal
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">With a violent arc of your weapon you batter
+      your foes away like pieces across the chessboard.</span></p>
+
+      <p><span class="fontstyle0">Choose up to three creatures within your reach
+      to make Strength saving throws. On a failed save, the target takes basic
+      melee damage and is pushed back 15 feet in a straight line.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 3
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: dRZuEpWdwLU12XTh
+_id: ej5gd2by5rm9y675
+_key: '!items!ej5gd2by5rm9y675'

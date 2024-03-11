@@ -1,0 +1,73 @@
+name: Skull Taker
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>Channeling your dark power into a single brutal attack, you attempt to
+      decapitate your target. Make a melee weapon attack. On a hit, your attack
+      becomes a critical hit, and if your attack would have already been a
+      critical hit the creature makes a Constitution&nbsp;<span
+      class="freelinking-link">saving throw</span>. On a failure, it takes an
+      additional 10d10 damage. On a success, it takes half damage.</p>
+
+      <div class="field--label"><strong>Prerequisite</strong>:</div>
+
+      <div class="field--item">
+
+      <p>Extra Attack (2)</p>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 5
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: After making a successful melee attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+folder: n6HDp3sT8Ew7nUrb
+flags: {}
+_id: zs696sie4habzllf
+_key: '!items!zs696sie4habzllf'

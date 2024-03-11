@@ -1,0 +1,66 @@
+name: Spinning Parry
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/control/mouth-smile-deception-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A quick step and suddenly you and your foe exchange places.</p><p>You
+      can use your reaction to make a Sleight of Hand check when a creature
+      makes a melee attack against you, turning it into a miss if your result is
+      higher than the attack roll.</p><p>In addition, you may also swap places
+      with the attacker (no opportunity attacks provoked), forcing it to make a
+      Wisdom saving throw or be stunned until the beginning of its next
+      turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: mistAndShade
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature makes a melee attack against you
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: MsmgB2gwBDHXU7yT
+_id: gd5rv8epa46xtnwz
+_key: '!items!gd5rv8epa46xtnwz'

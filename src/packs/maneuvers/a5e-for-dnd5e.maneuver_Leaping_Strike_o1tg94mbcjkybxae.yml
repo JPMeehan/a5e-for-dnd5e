@@ -1,0 +1,67 @@
+name: Leaping Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Like a stalking predator you run down your prey and pounce with a
+      lethal attack that throws your opponent to the ground or knocks them
+      back.</p><p>When you activate this maneuver, you take the Attack action
+      and make a weapon attack, as well as any additional attacks granted by
+      Extra Attack. Move up to 40 feet in a straight line. If you hit with a
+      melee weapon attack at the end of your movement, the target makes a
+      Strength saving throw, and on a failure it is either knocked prone or
+      pushed back 10 feet (your choice).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: toothAndClaw
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 40
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: 7q3HmyUetjkJwIjm
+_id: o1tg94mbcjkybxae
+_key: '!items!o1tg94mbcjkybxae'

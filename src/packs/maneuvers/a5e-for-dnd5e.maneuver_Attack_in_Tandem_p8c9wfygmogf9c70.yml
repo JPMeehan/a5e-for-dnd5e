@@ -1,0 +1,65 @@
+name: Attack in Tandem
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  description:
+    value: >-
+      <p>You and your animal companion must both take this stance to gain its
+      benefits. When you make a melee attack against a creature, your animal
+      companion gains advantage on attack rolls against that creature until the
+      start of your next turn.</p>
+
+      <p>In addition, your animal companion has advantage on saving throws and
+      it takes half as much damage as normal.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #6'
+    license: OGL 1.0a
+  degree: 4
+  tradition: beastUnity
+  prerequisite: Beast Unity Combat Tradition
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: 0Y9WVCVQ2sXL8xWk
+_id: p8c9wfygmogf9c70
+_key: '!items!p8c9wfygmogf9c70'

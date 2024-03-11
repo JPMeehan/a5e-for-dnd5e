@@ -1,0 +1,66 @@
+name: Trickshot
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Carefully judging the wind and everything else that might interfere,
+      you unleash an impressive shot that delights all who see it.</p>
+
+      <p>Make a ranged weapon attack against an unattended object. On a hit, you
+      can use the result of the attack roll instead of making a Performance
+      check, and you gain an expertise die when doing so. Otherwise the kinds of
+      trick shots you can make are at the Narrator's discretion.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: bitingZephyr
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: Iat4lRdl0DIYaG8a
+_id: s8v38t7obti8v3or
+_key: '!items!s8v38t7obti8v3or'

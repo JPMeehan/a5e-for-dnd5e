@@ -1,0 +1,89 @@
+name: Vigilant Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  description:
+    value: >-
+      <p>You command your animal companion to take a stance. While this stance
+      is active, your animal companion only adds half your proficiency bonus to
+      its attack and damage rolls. However, it also adds half your proficiency
+      bonus to its AC.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #6'
+    license: OGL 1.0a
+  degree: 1
+  tradition: beastUnity
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/abilities/paw-print-pair-purple.webp
+    origin: Item.62qfr02ztjb20jw8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: oPBMrbUgQJQtT7eV
+    transfer: false
+    name: Vigilant Stance
+    _id: FZ62z6eljXf7hSZi
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!62qfr02ztjb20jw8.FZ62z6eljXf7hSZi'
+flags: {}
+folder: WmPBxaCWJ8UEpCTF
+_id: 62qfr02ztjb20jw8
+_key: '!items!62qfr02ztjb20jw8'

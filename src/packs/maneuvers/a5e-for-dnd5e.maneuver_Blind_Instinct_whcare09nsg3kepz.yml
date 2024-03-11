@@ -1,0 +1,65 @@
+name: Blind Instinct
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You use all your senses to focus your attacks on a single
+      enemy.</p><p>You gain blindsight out to a range of 30 feet. If a creature
+      leaves the range of your blindsight, you can use your reaction to mark it
+      as prey and move up to your Speed. The next melee weapon attack you make
+      against that creature before the end of your next turn deals an additional
+      weapon damage die.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: toothAndClaw
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: yU0VZG9NkVmrcOr7
+_id: whcare09nsg3kepz
+_key: '!items!whcare09nsg3kepz'

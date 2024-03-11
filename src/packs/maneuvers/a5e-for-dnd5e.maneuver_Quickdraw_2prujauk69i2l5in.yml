@@ -1,0 +1,64 @@
+name: Quickdraw
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With incredible swiftness you tear your weapon from its sheath and let
+      fly a reckless attack.</p>
+
+      <p>As long as you are not surprised, when initiative is rolled you can use
+      your reaction to draw a weapon and make a ranged attack with it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: bitingZephyr
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When initiative is rolled.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: Iat4lRdl0DIYaG8a
+_id: 2prujauk69i2l5in
+_key: '!items!2prujauk69i2l5in'

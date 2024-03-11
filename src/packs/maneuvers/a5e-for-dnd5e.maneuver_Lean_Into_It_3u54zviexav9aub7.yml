@@ -1,0 +1,67 @@
+name: Lean Into It
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Not just commiting to an assault, you shoulder into it with all the
+      strength you can bear and deliver hits that resonate in the very bones of
+      your foes.</p>
+
+      <p>When you activate this maneuver, you take the Attack action and make a
+      weapon attack, as well as any additional attacks granted by Extra Attack.
+      Until the start of your next turn, when you hit a creature with a melee
+      weapon attack it makes a Strength saving throw or it is knocked prone.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: adamantMountain
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: XxWPgrZvNcXQGIST
+_id: 3u54zviexav9aub7
+_key: '!items!3u54zviexav9aub7'

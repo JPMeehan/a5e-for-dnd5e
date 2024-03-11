@@ -1,0 +1,65 @@
+name: Break Spell
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You interrupt a spell to stop it being cast.</p><p>When a creature you
+      can see within your reach casts a spell, you can use your reaction to make
+      a melee weapon attack against it. On a hit, the creature makes a
+      Constitution saving throw (against your maneuver DC or as normal,
+      whichever is higher) or the spell is interrupted (expending the spell
+      slot) and has no effect.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: temperedIron
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature you can see within your reach casts a spell.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: AVOSzuRrwTbB68gI
+_id: tdby28f6f8lg1sp5
+_key: '!items!tdby28f6f8lg1sp5'

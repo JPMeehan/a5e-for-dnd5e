@@ -1,0 +1,66 @@
+name: Gaze Of Conviction
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You lock eyes with an opponent with a fury so potent that it cannot be
+      ignored.</p><p>You stare down a creature you can see within 30 feet, and
+      if it can see you it makes a Wisdom saving throw. On a failure, the
+      creature is compelled to attack you. On its turn the creature moves
+      towards you and makes as many attacks against you as it can.</p><p>The
+      effects of this maneuver end when you attack a different creature or the
+      creature is unable to attack you.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: temperedIron
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: YLq8bWPbCiq1Ljfz
+_id: z9i2tn37nkn4gr7s
+_key: '!items!z9i2tn37nkn4gr7s'

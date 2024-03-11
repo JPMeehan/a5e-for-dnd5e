@@ -1,0 +1,65 @@
+name: Heart of the Sword
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You focus on the bond between you and your weapon.</p><p>Choose a
+      weapon when you learn this combat maneuver. For the next minute, attacks
+      made with the chosen weapon score a critical hit on a roll of 19-20 and
+      ignore any damage resistances a target might have. If you already have a
+      feature that increases the range of your critical hits, your critical hit
+      range increases by 1 (maximum 17-20).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: unendingWheel
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: xInug2pJ1W7hikKa
+_id: l81byb08dykvw5pq
+_key: '!items!l81byb08dykvw5pq'

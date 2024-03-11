@@ -1,0 +1,68 @@
+name: Covering Fire
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Making haphazard shots to dissuade enemies, you force opponents onto
+      the defensive by unleashing death from above so an ally can move into
+      position.</p><p>Choose a number of creatures equal to your proficiency
+      bonus that you can see within your weapon's normal range. Until the start
+      of your next turn, a chosen creature's movement does not provoke
+      opportunity attacks from creatures you can see as you pelt the area nearby
+      with missiles.</p><p>For each opportunity attack a chosen creature would
+      have otherwise provoked, you expend one piece of ammunition or thrown
+      weapon.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: bitingZephyr
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: Your weapon's normal range
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: HuOk2R5Kq5D0DyX4
+_id: sd3r2tau4iaujskm
+_key: '!items!sd3r2tau4iaujskm'

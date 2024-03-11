@@ -1,0 +1,67 @@
+name: Life Drinker
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>With a baleful word and a vicious strike you draw the very lifeforce
+      from your target. Make a&nbsp;<span class="freelinking-link">melee weapon
+      attack roll</span>. A creature damaged by this attack makes a
+      Constitution&nbsp;<span class="freelinking-link">saving throw</span>, and
+      on a failure you gain hit points equal to one of its hit dice + your
+      Constitution modifier (two on a critical hit) as if you had taken a <span
+      class="freelinking-link">short rest</span>. This does not deal additional
+      damage, but does expend the hit die if the creature is capable of spending
+      them.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 3
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: f49w1dSTaDnUZkds
+flags: {}
+_id: iib1dcy9fl1kpzzw
+_key: '!items!iib1dcy9fl1kpzzw'

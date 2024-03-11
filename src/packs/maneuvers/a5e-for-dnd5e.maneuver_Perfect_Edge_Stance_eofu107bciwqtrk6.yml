@@ -1,0 +1,92 @@
+name: Perfect Edge Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/strike-sword-blood-red.webp
+effects:
+  - icon: icons/skills/melee/strike-sword-blood-red.webp
+    origin: Item.eofu107bciwqtrk6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: i67YNmxJrLtFoee3
+    transfer: false
+    name: Perfect Edge Stance
+    _id: Jo3QCWcp6e0nvmLn
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!eofu107bciwqtrk6.Jo3QCWcp6e0nvmLn'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By relying on your training and countless hours of repetition, you can
+      easily manipulate the battlefield to position yourself where your strikes
+      are able to inflict the most harm.</p><p>Your weapon attacks score a
+      critical hit on a roll of 18-20. If you already have a feature that
+      increases the range of your critical hits, your critical hit range
+      increases by 1 (maximum 17-20).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: razorsEdge
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: P3AhFjoxneT8mn4B
+_id: eofu107bciwqtrk6
+_key: '!items!eofu107bciwqtrk6'

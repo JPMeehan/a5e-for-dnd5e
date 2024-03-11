@@ -1,0 +1,105 @@
+folder: gkjzgADtSdADO0e3
+name: Just A Giggle
+type: a5e-for-dnd5e.maneuver
+img: icons/consumables/fruit/tomato-ripe-red.webp
+system:
+  description:
+    value: >-
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p>Inversion is at the heart of humor, and nothing upends a no-holdsbarred
+      fight faster than a solid joke.</p>
+
+      <p>Choose a creature able to see you and make a nonmusical Performance
+      check opposed by its Insight check. On a success, your antics force it to
+      laugh uncontrollably, making it <span
+      class="freelinking-link">incapacitated</span> until the start of your next
+      turn. After you have used Just a Giggle against a creature, until the end
+      of combat it has <span class="freelinking-link">advantage</span> on
+      Insight checks to resist this maneuver.</p>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #19'
+    license: OGL 1.0a
+  degree: 3
+  tradition: comedicJabs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/fruit/tomato-ripe-red.webp
+    origin: Item.ek6olmucuv9o5ojl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 7Vegs5Bk3HIEmWSw
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Incapacitated
+    _id: xrQzfn5kfZGlERPx
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["incapacitated"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - incapacitated
+    folder: null
+    _key: '!items.effects!ek6olmucuv9o5ojl.xrQzfn5kfZGlERPx'
+flags: {}
+_id: ek6olmucuv9o5ojl
+_key: '!items!ek6olmucuv9o5ojl'

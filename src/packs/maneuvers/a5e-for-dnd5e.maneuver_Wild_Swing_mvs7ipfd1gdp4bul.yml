@@ -1,0 +1,64 @@
+name: Wild Swing
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You wield your weapon with abandon, striking seemingly at random.</p>
+
+      <p>When you miss with an attack using a weapon that has the heavy
+      property, you can use your reaction to make an attack with the same weapon
+      against another target within your reach.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: adamantMountain
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you miss with an attack using a weapon that has the heavy property.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XxY3ReDBBVG6wIAi
+_id: mvs7ipfd1gdp4bul
+_key: '!items!mvs7ipfd1gdp4bul'

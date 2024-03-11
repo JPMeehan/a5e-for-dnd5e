@@ -1,0 +1,67 @@
+name: Fortifying Reassurance
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  description:
+    value: >-
+      <p>If you are within 20 feet when your animal companion is hit by an
+      attack, you can use your reaction to call out and help it regain its
+      fighting spirit. As long as it is able to hear you, your animal companion
+      regains hit points equal to your level.</p>
+
+      <p>If your animal companion benefits from this feature and is charmed,
+      poisoned, or restrained, it can use its action on its next turn to end
+      those conditions.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #6'
+    license: OGL 1.0a
+  degree: 5
+  tradition: beastUnity
+  prerequisite: Beast Unity Combat Tradition
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: You are within 20 feet when your animal companion is hit by an attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: VeYda4jL5oWwcRQP
+_id: v4rd942to6pb0d19
+_key: '!items!v4rd942to6pb0d19'

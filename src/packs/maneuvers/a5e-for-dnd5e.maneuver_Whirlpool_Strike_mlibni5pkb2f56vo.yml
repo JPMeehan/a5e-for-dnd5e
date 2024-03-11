@@ -1,0 +1,64 @@
+name: Whirlpool Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You spin around, gathering momentum as you strike your foes harder and
+      harder.</p><p>Make a melee weapon attack against any number of creatures
+      within 5 feet of you, making a separate attack roll for each target. For
+      each subsequent hit after the first, you deal an additional 1d6
+      damage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: rapidCurrent
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: zZdx6IBukA1kzo57
+_id: mlibni5pkb2f56vo
+_key: '!items!mlibni5pkb2f56vo'

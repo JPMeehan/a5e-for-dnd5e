@@ -1,0 +1,91 @@
+name: Mundane Missile Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects:
+  - icon: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+    origin: Item.9zf8frcho8ar6bvs
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: eplHToeRwabXcJXW
+    transfer: false
+    name: Mundane Missile Stance
+    _id: vxNTJK7lHIOF7y65
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!9zf8frcho8ar6bvs.vxNTJK7lHIOF7y65'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By focusing on balance and heft you can throw whatever you have in hand
+      with deadly accuracy.</p>
+
+      <p>While you are wielding a weapon that does not have the heavy or special
+      property, it gains the thrown property.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: bitingZephyr
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 5GuY3lONE5b3ZmB9
+_id: 9zf8frcho8ar6bvs
+_key: '!items!9zf8frcho8ar6bvs'

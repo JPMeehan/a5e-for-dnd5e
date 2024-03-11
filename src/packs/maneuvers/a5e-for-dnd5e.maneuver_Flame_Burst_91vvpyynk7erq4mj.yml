@@ -1,0 +1,68 @@
+name: Flame Burst
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">With a broad slash of your weapon you conjure
+      forth flames that flicker threateningly.</span></p>
+
+      <p><span class="fontstyle0">After dealing damage with a melee weapon,
+      select three squares within your reach. These squares erupt into flames 5
+      feet high and count as difficult terrain and until the end of your next
+      turn. Creatures that start their turn within the flames take fire damage
+      as though hit by your weapon, as does any creature that attempts to move
+      through the flames.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 4
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: after dealing damage with a melee weapon
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: xFho8NXieJJ5zRcd
+_id: 91vvpyynk7erq4mj
+_key: '!items!91vvpyynk7erq4mj'

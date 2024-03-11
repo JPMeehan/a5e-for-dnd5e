@@ -1,0 +1,68 @@
+name: Unyielding
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Badly wounded, you force yourself to keep fighting.</p>
+
+      <p>When you are reduced to 0 hit points, you can use your reaction to
+      regain hit points equal to 1d12 + your proficiency bonus + your
+      Constitution modifier (minimum 0).</p>
+
+      <p>You can take this reaction even if you are incapacitated.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: adamantMountain
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you are reduced to 0 hit points.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d12 + @prof +@mod
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: w6i5AsXXg3cI7qvL
+_id: ezj4yfjy0jeutidg
+_key: '!items!ezj4yfjy0jeutidg'

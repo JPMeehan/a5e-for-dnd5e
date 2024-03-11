@@ -1,0 +1,66 @@
+name: Faith Within
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>As soon as you spot the workings of magic nearby you can reflexively
+      draw upon your willpower to fortify your mind, body, and soul.</p><p>When
+      you fail a saving throw against a spell or other magical effect that makes
+      you charmed, frightened, poisoned, or stunned, at the start of your turn
+      you can use your reaction to repeat the saving throw.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: temperedIron
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When you fail a saving throw against a spell or other magical effect that
+      makes you charmed, frightened, poisoned, or stunned.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YLq8bWPbCiq1Ljfz
+_id: yucigl9ee56hctzf
+_key: '!items!yucigl9ee56hctzf'

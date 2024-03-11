@@ -1,0 +1,68 @@
+name: Dangerous Signature
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You have mastered a strike that is unmistakably your own.</p><p>Choose
+      a simple symbol (such as a letter) to be your signature. When you have
+      advantage on a melee weapon attack roll, on a hit you can leave your
+      signature on the creature or object you attacked. Your signature remains
+      on a creature until it is fully healed and has taken a long
+      rest.</p><p>While a creature bears your signature, you can use a bonus
+      action to try to intimidate it. The creature makes a Wisdom saving throw
+      against your maneuver DC or becomes frightened of you until the start of
+      your next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: unendingWheel
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you have advantage on a melee weapon attack roll, on a hit.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: In1zulOFJwEg6Dnl
+_id: nh2tgpbbuzdskytg
+_key: '!items!nh2tgpbbuzdskytg'

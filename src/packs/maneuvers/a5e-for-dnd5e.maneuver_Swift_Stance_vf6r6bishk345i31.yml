@@ -1,0 +1,94 @@
+name: Swift Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects:
+  - icon: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    origin: Item.vf6r6bishk345i31
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          type: seconds
+          unit: hours
+        actionId: nir96mPZl9d57uRx
+    transfer: false
+    name: Swift Stance
+    _id: 8zrgJ9OqC73lxdBG
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '5'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!vf6r6bishk345i31.8zrgJ9OqC73lxdBG'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You adopt a loose stance that gives you an extra bit of swiftness that
+      can make all the difference in a fight or chase.</p><p>Your Speed
+      increases by 5 feet.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: rapidCurrent
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: NyMOj8UAZtaFH2kL
+_id: vf6r6bishk345i31
+_key: '!items!vf6r6bishk345i31'

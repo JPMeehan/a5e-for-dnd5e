@@ -1,0 +1,91 @@
+name: Throwing Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/perception/eye-ringed-green.webp
+effects:
+  - icon: icons/magic/perception/eye-ringed-green.webp
+    origin: Item.q0yobkb6cor5gnz9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: lsFEMawaQGtEB2GB
+    transfer: false
+    name: Throwing Stance
+    _id: lu44gFUy8R4A4ggX
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!q0yobkb6cor5gnz9.lu44gFUy8R4A4ggX'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You wield your weapon with a practiced familiarity that makes it deadly
+      even when a foe is beyond your reach, able to hurl it as accurately as a
+      thrown dagger.</p><p>Choose a weapon when you learn this combat maneuver.
+      While you are wielding the chosen weapon it has the rebounding property
+      and thrown property (range 30/60 feet).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: unendingWheel
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: In1zulOFJwEg6Dnl
+_id: q0yobkb6cor5gnz9
+_key: '!items!q0yobkb6cor5gnz9'

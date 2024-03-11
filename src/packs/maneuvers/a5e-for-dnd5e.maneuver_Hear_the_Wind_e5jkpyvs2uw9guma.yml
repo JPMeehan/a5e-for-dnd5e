@@ -1,0 +1,68 @@
+name: Hear the Wind
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can literally hear the sound of incoming missiles and react to them
+      easily.</p>
+
+      <p>Until the end of your next turn, you gain blindsight to a range of 20
+      feet. When you are hit by a ranged attack, you make a Perception check
+      against a DC equal to the attack roll.</p>
+
+      <p>On a success the attack misses you, and on a critical success you
+      redirect it back at the attacker.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: bitingZephyr
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: YSx6mscwqZ6QQG6L
+_id: e5jkpyvs2uw9guma
+_key: '!items!e5jkpyvs2uw9guma'

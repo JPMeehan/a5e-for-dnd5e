@@ -1,0 +1,66 @@
+name: Warning Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>When an opponent opens themself up to a reflexive strike you can
+      deliver a blow that shakes them to their core and forces them to
+      hesitate.</p>
+
+      <p>When a hostile creature that you can see moves out of your reach, you
+      can use your reaction to make a melee weapon attack and on a hit its Speed
+      is reduced to 0 until the start of its next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: mirrorsGlint
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a hostile creature that you can see moves out of your reach
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: CShfV86W2cYZQgDN
+_id: f8cvx46xxyjykycm
+_key: '!items!f8cvx46xxyjykycm'

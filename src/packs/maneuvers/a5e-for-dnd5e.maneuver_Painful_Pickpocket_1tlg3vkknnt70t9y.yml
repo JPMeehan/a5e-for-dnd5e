@@ -1,0 +1,64 @@
+name: Painful Pickpocket
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/control/mouth-smile-deception-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Sometimes a good diversion is presented to you and though a foe might
+      bloody you, your light fingers find opportunity in the exchange.</p>
+
+      <p>When a creature hits you with a melee attack, you can use your reaction
+      to make a Sleight of Hand check against it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: mistAndShade
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: DiAlLoiomBR0zwWt
+_id: 1tlg3vkknnt70t9y
+_key: '!items!1tlg3vkknnt70t9y'

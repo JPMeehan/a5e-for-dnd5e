@@ -1,0 +1,64 @@
+name: Frigid Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">With a shivering whisper of clouding breath,
+      you strike at your target and shift the chill onto them.</span></p>
+
+      <p><span class="fontstyle0">Make a melee weapon attack. If you deal
+      damage, your target&rsquo;s Speed is reduced by 15 feet until the end of
+      your next turn.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 1
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: RxH73er6m7o5kBMG
+_id: 8fo2aqtnb8ivos9m
+_key: '!items!8fo2aqtnb8ivos9m'

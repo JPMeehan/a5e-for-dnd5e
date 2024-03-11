@@ -1,0 +1,64 @@
+name: Living Shadow
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>Severing yourself from your own shadow, you place it at your
+      opponent&rsquo;s back! Choose a square within 15 feet. Until the start of
+      your next turn, your shadow (AC 10, 1 hp) occupies the chosen space and
+      has a range of 5 feet. It cannot attack, but it can serve as a flanking
+      partner for you and one other creature that you designate when using this
+      maneuver.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 2
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: square
+  range:
+    value: 15
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: oc9TgcO2cuDhwbK3
+flags: {}
+_id: eo7lkzhx15lw6hj1
+_key: '!items!eo7lkzhx15lw6hj1'

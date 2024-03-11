@@ -1,0 +1,67 @@
+name: Rapid Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With an array of quick, carefully placed attacks against the same
+      opponent you throw them off their guard.</p><p>When you activate this
+      maneuver, you take the Attack action and make a weapon attack, as well as
+      any additional attacks granted by Extra Attack. After hitting a creature
+      with a melee weapon attack, you can use your bonus action to make an
+      additional attack against the same creature.</p><p>On a hit with this
+      additional attack, you can use your reaction to spend 2 exertion points
+      and attack the same creature again.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: rapidCurrent
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: hl51axnADADHsrRh
+_id: ieqnla445hw0bx0f
+_key: '!items!ieqnla445hw0bx0f'

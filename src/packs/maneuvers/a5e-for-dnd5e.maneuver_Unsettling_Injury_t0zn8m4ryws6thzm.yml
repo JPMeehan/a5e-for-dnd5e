@@ -1,0 +1,66 @@
+name: Unsettling Injury
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Your attack unnerves your foe, making it hard for them to
+      concentrate.</p><p>Choose a weapon when you learn this combat maneuver.
+      Make a melee weapon attack using the chosen weapon, and on a hit the
+      target makes a Constitution saving throw. On a failure the target loses
+      concentration on any spell it has cast, any combat stance it is using
+      ends, and it cannot use combat maneuvers or cast spells until the end of
+      your next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: unendingWheel
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: hDOZaBcbXkFE5Cq4
+_id: t0zn8m4ryws6thzm
+_key: '!items!t0zn8m4ryws6thzm'

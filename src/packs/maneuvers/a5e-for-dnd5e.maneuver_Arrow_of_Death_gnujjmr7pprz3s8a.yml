@@ -1,0 +1,77 @@
+name: Arrow of Death
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 39">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>With a whisper of death singing behind it, your arrow spells doom for
+      your foes. As a special attack action you make a single ranged weapon
+      attack against a foe within range. The target of this ranged weapon attack
+      must make a Charisma save or be struck by a critical hit. If you roll a
+      natural 20 on the attack roll, this attack triples the normal damage of
+      your attack if the target also fails their saving throw.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  degree: 5
+  tradition: arcaneArtillery
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: B5wmxMcxnCr3wGbQ
+_id: gnujjmr7pprz3s8a
+_key: '!items!gnujjmr7pprz3s8a'

@@ -1,0 +1,71 @@
+folder: gkjzgADtSdADO0e3
+name: Old Pal
+type: a5e-for-dnd5e.maneuver
+img: icons/consumables/fruit/tomato-ripe-red.webp
+system:
+  description:
+    value: >-
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p>Sometimes putting on a friendly face and sidling up to an enemy
+      thirsting for your blood is just unexpected enough to work.</p>
+
+      <p>Make a Deception check opposed by the Insight check of a creature able
+      to see you. On a success, until the end of your next turn the creature
+      treats you as an ally (instead of an enemy) for the purposes of traits and
+      other effects. The creature can still target you with attacks, and the
+      effects of this combat maneuver end early if you damage it.</p>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #19'
+    license: OGL 1.0a
+  degree: 3
+  tradition: comedicJabs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 7egn2jzco0jwb6gj
+_key: '!items!7egn2jzco0jwb6gj'

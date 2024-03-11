@@ -1,0 +1,67 @@
+name: Parrying Counter
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Pointing your weapon at your foe you challenge them, forcing them to
+      lower their defenses so you can launch an attack of your own.</p><p>At the
+      end of your turn, you can use your reaction to gain an expertise die to
+      your AC against one creature you can see within reach. This increase to
+      your AC only applies to the chosen creature and ends at the start of your
+      next turn.</p><p>If the creature misses with one or more attacks against
+      you before the start of your next turn, you can make a melee weapon attack
+      against it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: rapidCurrent
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: At the end of your turn
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: swHJnelJJBne8YQB
+_id: xiwhbto7asbl3pij
+_key: '!items!xiwhbto7asbl3pij'

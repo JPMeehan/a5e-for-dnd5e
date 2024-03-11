@@ -1,0 +1,63 @@
+name: Primal Intercept
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>The instant you sense an opponent has moved within your guard you
+      immediately attack in response.</p><p>When a creature makes a melee weapon
+      attack or attempts to grapple you, you can use your reaction to make a
+      melee weapon attack against it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: toothAndClaw
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature makes a melee weapon attack or attempts to grapple you.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 7q3HmyUetjkJwIjm
+_id: 1ey8ebtiy8yoxyua
+_key: '!items!1ey8ebtiy8yoxyua'

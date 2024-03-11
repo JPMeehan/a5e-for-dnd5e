@@ -1,0 +1,64 @@
+name: Leading Throw
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>An opponent that strikes at you invites peril as they find the momentum
+      from their attack turned against them.</p><p>When a creature within your
+      reach misses you with a melee weapon attack, you can use your reaction to
+      try to throw it. The creature makes a Dexterity saving throw or moves 15
+      feet in a straight line in a direction of your choice.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: mirrorsGlint
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature within your reach misses you with a melee weapon attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: CShfV86W2cYZQgDN
+_id: in4j4fk4u1drzsay
+_key: '!items!in4j4fk4u1drzsay'

@@ -1,0 +1,62 @@
+name: Pickpocket
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/control/mouth-smile-deception-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You snatch something from your enemy.</p><p>When a creature is within
+      your reach, you can use your reaction to make a Sleight of Hand check
+      against it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: mistAndShade
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature is within your reach.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 9YLw1v0Emu96sw1V
+_id: vk60ssoy6wram5zt
+_key: '!items!vk60ssoy6wram5zt'

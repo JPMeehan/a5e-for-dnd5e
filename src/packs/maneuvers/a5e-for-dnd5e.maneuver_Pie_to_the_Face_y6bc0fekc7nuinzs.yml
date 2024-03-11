@@ -1,0 +1,111 @@
+folder: UkSUsWseCFv6SLsH
+name: Pie to the Face
+type: a5e-for-dnd5e.maneuver
+img: icons/consumables/fruit/tomato-ripe-red.webp
+system:
+  description:
+    value: >-
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p>The extremely rapid delivery of food can be not only hilariously
+      satisfying, but also give a warrior an edge in combat.</p>
+
+      <p>When you activate this maneuver, you take the <span
+      class="freelinking-link">Attack action and make a weapon attack</span>, as
+      well as any additional attacks granted by Extra Attack. This weapon attack
+      must target a creature and be made using an improvised weapon that
+      includes food or is made out of <span
+      class="freelinking-link">Supply</span> (such as a pie, bowl of stew,
+      flagon of mead, or other container filled with nourishment). On a hit, the
+      creature is <span class="freelinking-link">blinded</span> until either the
+      start of its next turn or until it uses its reaction to wipe its eyes
+      clean (whichever is first). Until the creature uses a bonus action to
+      entirely clean its face, you gain an <span
+      class="freelinking-link">expertise die</span> on Intimidation checks made
+      against the creature.</p>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #19'
+    license: OGL 1.0a
+  degree: 1
+  tradition: comedicJabs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/fruit/tomato-ripe-red.webp
+    origin: Item.y6bc0fekc7nuinzs
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xuxGz5lol1sE8dgH
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: zzk5izccdBTuxWIW
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!y6bc0fekc7nuinzs.zzk5izccdBTuxWIW'
+flags: {}
+_id: y6bc0fekc7nuinzs
+_key: '!items!y6bc0fekc7nuinzs'

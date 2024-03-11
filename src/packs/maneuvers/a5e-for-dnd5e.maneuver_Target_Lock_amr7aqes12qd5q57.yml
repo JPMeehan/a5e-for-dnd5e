@@ -1,0 +1,77 @@
+name: Target Lock
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 39">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>After striking a telling blow, your following attacks strike true.
+      After landing a critical hit on a target you may expend your reaction to
+      lock onto your target. Until the end of your next turn, you are incapable
+      of missing the target locked opponent with ranged weapon attacks, with
+      even natural 1s hitting. If you attack another creature and miss, your
+      attack hits your target locked opponent, instead.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  degree: 3
+  tradition: arcaneArtillery
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: land a critical hit on the target
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: bRJHVjUdEWG4WsEs
+_id: amr7aqes12qd5q57
+_key: '!items!amr7aqes12qd5q57'

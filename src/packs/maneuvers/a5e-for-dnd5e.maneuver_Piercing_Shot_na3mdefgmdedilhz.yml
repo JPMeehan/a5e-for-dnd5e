@@ -1,0 +1,76 @@
+name: Piercing Shot
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 39">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>With a flash of force pressing it onward, your attack drives through
+      your target, and several others. When you use this maneuver your next
+      ranged weapon attack becomes a line effect. Forgoing multiple attacks, you
+      instead make an attack roll against each creature in a 50ft line of your
+      choosing. This line begins at the edge or corner of your space.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  degree: 3
+  tradition: arcaneArtillery
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 50
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: bRJHVjUdEWG4WsEs
+_id: na3mdefgmdedilhz
+_key: '!items!na3mdefgmdedilhz'

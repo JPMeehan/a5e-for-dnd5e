@@ -1,0 +1,90 @@
+name: Goading Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  description:
+    value: >-
+      <p>You command your animal companion to tactically lower its guard. While
+      this stance is active, all melee attack rolls against your animal
+      companion are made with an expertise die of 1d6. On a successful hit, the
+      attacking creature takes damage equal to twice your proficiency bonus as
+      your companion bites and claws at it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #6'
+    license: OGL 1.0a
+  degree: 2
+  tradition: beastUnity
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/abilities/paw-print-pair-purple.webp
+    origin: Item.wgnhcnt7y2hshop3
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: 3v1SQK19SUt7Sr9S
+    transfer: false
+    name: Goading Stance
+    _id: Ih0bul7AOrKbQJa4
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!wgnhcnt7y2hshop3.Ih0bul7AOrKbQJa4'
+flags: {}
+folder: BeOmI7J41S2xHbHw
+_id: wgnhcnt7y2hshop3
+_key: '!items!wgnhcnt7y2hshop3'

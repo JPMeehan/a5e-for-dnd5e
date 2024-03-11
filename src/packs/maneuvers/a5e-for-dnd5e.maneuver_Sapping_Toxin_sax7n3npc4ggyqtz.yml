@@ -1,0 +1,67 @@
+name: Sapping Toxin
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You expend a dose of basic poison to splash a creature with a toxin
+      that saps its energy. Choose a creature within 5 feet of you. It must make
+      a Constitution save against your maneuver DC or take 1d4 poison damage and
+      gain a level of fatigue. If this would result in the creature having
+      levels of fatigue that exceed your proficiency bonus the creature is
+      rattled until the end of your next turn instead.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: FRtW4XTMZbBWGBpl
+_id: sax7n3npc4ggyqtz
+_key: '!items!sax7n3npc4ggyqtz'

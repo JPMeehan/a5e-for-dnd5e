@@ -1,0 +1,63 @@
+name: Blackguard's Blight
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>With a hissing malediction, you place your curse upon a specific foe.
+      Before the start of your next turn, when you hit a creature with a melee
+      weapon attack you can choose to lay a curse on it. It must make a Wisdom
+      saving throw or be unable to gain advantage on attack rolls against you
+      for a number of rounds equal to your Charisma modifier. This curse can
+      only be applied to one creature at a time.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 1
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: rSNQOpIviMR78Wr7
+_id: guoaj4m2m2wk53hf
+_key: '!items!guoaj4m2m2wk53hf'

@@ -1,0 +1,61 @@
+name: Disturbing Venom
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ' Expend a dose of basic poison as part of a melee weapon attack. On a hit, the target must make a Wisdom saving throw, and on a failed save takes an additional 2d6 points of psychic damage and suffers a level of strife. A creature that succeeds on its save takes half damage and does not suffer a level of strife. If this would result in the creature having levels of strife that exceed your proficiency bonus the creature is frightened for one minute instead. A frightened creature may repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>'
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 4
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: bkz887p0zVCyvZHR
+_id: xiibne5089bo6fvx
+_key: '!items!xiibne5089bo6fvx'

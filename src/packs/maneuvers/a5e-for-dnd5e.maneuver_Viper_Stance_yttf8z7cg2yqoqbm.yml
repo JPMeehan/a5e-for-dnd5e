@@ -1,0 +1,89 @@
+name: Viper Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects:
+  - icon: icons/skills/melee/blade-tip-smoke-green.webp
+    origin: Item.yttf8z7cg2yqoqbm
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: 007OZqAaRD4KfQqv
+    transfer: false
+    name: Viper Stance
+    _id: Phb7XeHLi4mFaynb
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!yttf8z7cg2yqoqbm.Phb7XeHLi4mFaynb'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You focus, granting yourself the split-second reaction speed of a
+      viper. If you could use a reaction but do not have your reaction
+      available, you may spend an exertion point to gain an additional reaction
+      this round. You may only use this ability once per round.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 4
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: none
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: bkz887p0zVCyvZHR
+_id: yttf8z7cg2yqoqbm
+_key: '!items!yttf8z7cg2yqoqbm'

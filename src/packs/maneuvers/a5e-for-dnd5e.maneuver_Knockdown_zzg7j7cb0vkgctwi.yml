@@ -1,0 +1,65 @@
+name: Knockdown
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/control/silhouette-fall-slip-prone.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You can use the Knockdown maneuver to trip or push a creature down. If
+      you are able to make multiple attacks with the Attack action, this
+      maneuver replaces one of them.</p><p>The target must be within your reach
+      and be no more than one size category larger than you. The target makes a
+      Strength saving throw against your maneuver DC. On a failure, you deal
+      basic melee damage and knock the target prone.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 0
+  tradition: ''
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: VKcfBIxquL7VgHCw
+_id: zzg7j7cb0vkgctwi
+_key: '!items!zzg7j7cb0vkgctwi'

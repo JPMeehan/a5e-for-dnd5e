@@ -1,0 +1,58 @@
+name: Toxic Goop
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ' Expend a dose of basic poison and a tanglefoot bag to make a ranged weapon attack against a creature within 20 feet. On a hit, the creature is grappled. It may take an action to make a Strength save at the beginning of each of its turns, freeing itself on a success. While it is grappled, it is also poisoned. The goop dissipates after a minute or can be destroyed (AC 13, hit points equal to your maneuver DC)</p>'
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 2
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 20ft
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: zYHnWNyvznl5iPMH
+_id: povrdohte58shqwr
+_key: '!items!povrdohte58shqwr'

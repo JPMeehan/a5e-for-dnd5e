@@ -1,0 +1,64 @@
+name: Follow-Up Topple
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/social/diplomacy-unity-alliance.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>As your ally strikes an opponent, you seize the moment of imbalance to
+      knock them down.</p><p>When an ally within your reach hits a creature with
+      a melee weapon attack, you can use your reaction to make a melee weapon
+      attack against that creature. On a hit, the creature makes a Dexterity
+      saving throw or is knocked prone.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: sanguineKnot
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When an ally within your reach hits a creature with a melee weapon attack.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: M9395rC2DuIGEm5B
+_id: ahgeox00sea3lcn2
+_key: '!items!ahgeox00sea3lcn2'

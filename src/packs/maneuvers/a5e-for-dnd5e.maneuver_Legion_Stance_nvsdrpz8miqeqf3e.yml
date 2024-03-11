@@ -1,0 +1,90 @@
+name: Legion Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/social/diplomacy-unity-alliance.webp
+effects:
+  - icon: icons/skills/social/diplomacy-unity-alliance.webp
+    origin: Item.nvsdrpz8miqeqf3e
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: 4EsSy1ZGXlUjOV86
+    transfer: false
+    name: Legion Stance
+    _id: 1HMYdCVyQYYFgD5k
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!nvsdrpz8miqeqf3e.1HMYdCVyQYYFgD5k'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You strike your foes in such a way as to leave an opening for your
+      allies to follow-up.</p><p>When you score a critical hit against a
+      creature, an ally within reach of the same creature can use their reaction
+      to make an opportunity attack against it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: sanguineKnot
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: k12aKhL1oOJ1jJKf
+_id: nvsdrpz8miqeqf3e
+_key: '!items!nvsdrpz8miqeqf3e'

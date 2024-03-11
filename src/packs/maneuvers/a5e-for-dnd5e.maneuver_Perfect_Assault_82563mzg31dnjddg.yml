@@ -1,0 +1,66 @@
+name: Perfect Assault
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>In a blur of smooth motion, you unleash a sequence of
+      attacks.</p><p>When you activate this maneuver, you take the Attack action
+      and make two weapon attacks, as well as double the number of additional
+      attacks granted by Extra Attack. You can replace any number of these
+      attacks with combat maneuvers that do not grant more than one attack. At
+      the end of your turn your exertion pool is reduced to 0 and you suffer a
+      level of fatigue.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: unendingWheel
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: xInug2pJ1W7hikKa
+_id: 82563mzg31dnjddg
+_key: '!items!82563mzg31dnjddg'

@@ -1,0 +1,63 @@
+name: Drive Back
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/strike-sword-blood-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You move inexorably forward with an attack which cannot be stopped by
+      blade or shield, forcing your opponent back.</p><p>Make a melee weapon
+      attack against a creature. Whether or not you hit, the creature is pushed
+      back 10 feet.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: razorsEdge
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: wcc0SE7sWcFztQ4P
+_id: 4xsbmv2y5shiggam
+_key: '!items!4xsbmv2y5shiggam'

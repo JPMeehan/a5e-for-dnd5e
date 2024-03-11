@@ -1,0 +1,64 @@
+name: Catch Your Breath
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You have a limited well of stamina that you can draw on to protect
+      yourself from harm.</p><p>You regain hit points equal to 1d6 + your
+      proficiency bonus + your Constitution modifier (minimum 0).</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: adamantMountain
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @prof + @mod
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XxWPgrZvNcXQGIST
+_id: b2vpnjt7cmqngkjd
+_key: '!items!b2vpnjt7cmqngkjd'

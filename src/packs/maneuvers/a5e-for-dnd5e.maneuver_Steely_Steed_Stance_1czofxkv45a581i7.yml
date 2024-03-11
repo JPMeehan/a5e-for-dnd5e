@@ -1,0 +1,92 @@
+name: Steely Steed Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+effects:
+  - icon: icons/creatures/mammals/spirit-deer-herd-blue.webp
+    origin: Item.1czofxkv45a581i7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: ZKECQcgeTHdduFun
+    transfer: false
+    name: Steely Steed Stance
+    _id: cdJsnIeObWfhXIEt
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!1czofxkv45a581i7.cdJsnIeObWfhXIEt'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You focus on a deep and unspoken connection with your mount, lending it
+      strength and working together as one.</p><p>When you make a melee attack
+      against a creature, your mount gains advantage on attack rolls against
+      that creature until the start of your next turn.</p><p>In addition, your
+      mount has advantage on saving throws and it takes half as much damage as
+      normal.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: spiritedSteed
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: pCI1W7UqD6UXKD00
+_id: 1czofxkv45a581i7
+_key: '!items!1czofxkv45a581i7'

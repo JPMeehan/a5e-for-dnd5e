@@ -1,0 +1,69 @@
+name: Burning Embers of Faith
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Digging within, you stave off the call of death and surge renewed
+      towards your foes.</p><p>When you are reduced to 0 hit points, you can use
+      your reaction to heal a number of hit points equal to your proficiency
+      bonus.</p><p>If you were reduced to 0 hit points by a spell, you instead
+      heal a number of hit points equal to your level. In addition, for the next
+      minute you gain advantage on attack rolls made against the creature that
+      reduced you to 0 hit points, and your weapon attacks against it deal extra
+      damage equal to your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: temperedIron
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you are reduced to 0 hit points.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: FgPKzriHLl6YFJ3Y
+_id: ij5lwgfdn4ko5fz6
+_key: '!items!ij5lwgfdn4ko5fz6'

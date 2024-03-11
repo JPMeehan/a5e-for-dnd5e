@@ -1,0 +1,62 @@
+name: Green-Flame Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>You draw your hand along your blade, limning it in hellish flame. As a
+      bonus action, you coat your weapon in green flame, causing your next
+      successful melee weapon attack before the end of your next turn to
+      potentially strike two targets within reach. The first target takes damage
+      normally. The second target must make a Dexterity saving throw or take
+      necrotic damage equal to half the damage dealt to the first target.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 2
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: oc9TgcO2cuDhwbK3
+_id: 5myjdg40boiz4y2r
+_key: '!items!5myjdg40boiz4y2r'

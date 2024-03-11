@@ -1,0 +1,110 @@
+name: Infused Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-purple.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 19">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p><strong>Requirement: </strong>Unused spell slot of 1st level or higher
+      or at least 2 unspent spell points</p>
+
+      <p>You infuse your weapon with latent magical energy and strike with
+      it.</p>
+
+      <p>Choose a damage type dealt by a cantrip you know or a spell you have
+      prepared. Make a melee attack with a weapon or unarmed strike. If the
+      attack hits, it deals 1d6 additional damage of the chosen damage type.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: cuttingOmen
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - acid
+      - - 1d6
+        - fire
+      - - 1d6
+        - force
+      - - 1d6
+        - lightning
+      - - 1d6
+        - necrotic
+      - - 1d6
+        - poison
+      - - 1d6
+        - psychic
+      - - 1d6
+        - radiant
+      - - 1d6
+        - thunder
+      - - 1d6
+        - cold
+      - - 1d6
+        - bludgeoning
+      - - 1d6
+        - piercing
+      - - 1d6
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: 2TRKViFdtAm1eMJi
+_id: Ovs3xMnYZuFoTS8b
+_key: '!items!Ovs3xMnYZuFoTS8b'

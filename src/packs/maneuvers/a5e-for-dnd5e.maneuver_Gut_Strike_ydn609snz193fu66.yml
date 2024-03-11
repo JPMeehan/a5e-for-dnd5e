@@ -1,0 +1,66 @@
+name: Gut Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You instinctively know when you hit an opponent's weak spot and can
+      muster an extra bit of force to devastating effect, causing your foe to
+      suffer momentary fatigue.</p><p>When you hit a creature with a weapon
+      attack, you can use your reaction to give the target one level of fatigue
+      for 1 minute. On a critical hit, the target gains two levels of fatigue
+      instead. A target cannot gain more than two levels of fatigue from this
+      maneuver.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: toothAndClaw
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you hit a creature with a weapon attack.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: qt2BwoJbCv1KTBbH
+_id: ydn609snz193fu66
+_key: '!items!ydn609snz193fu66'

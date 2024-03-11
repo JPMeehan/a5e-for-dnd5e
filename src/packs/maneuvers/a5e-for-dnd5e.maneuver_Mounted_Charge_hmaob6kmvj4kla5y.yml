@@ -1,0 +1,68 @@
+name: Mounted Charge
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You charge your foe using your mount's strength and swiftness to add
+      power to your attack.</p><p>When you activate this maneuver, you take the
+      Attack action and make a weapon attack, as well as any additional attacks
+      granted by Extra Attack. You must be mounted to use this
+      maneuver.</p><p>Move up to your mount's Speed in a straight line. If at
+      the end of your movement there is a creature within your reach, the first
+      attack you make against it as part of this maneuver has
+      advantage.</p><p>You can't take the Dash action and use this maneuver on
+      the same turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: spiritedSteed
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 40
+    width: 10
+    units: ft
+    type: line
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: htC43JdUpvoRC58i
+_id: hmaob6kmvj4kla5y
+_key: '!items!hmaob6kmvj4kla5y'

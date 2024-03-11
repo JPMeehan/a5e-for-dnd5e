@@ -1,0 +1,73 @@
+name: Bring the Mighty Low
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  description:
+    value: >-
+      <p>When a creature of up to one size category larger than your animal
+      companion makes a melee attack against it, you command your animal
+      companion to respond by harrying the attacker&rsquo;s movements. If the
+      creature&rsquo;s attack hits, it deals an additional damage die and must
+      make a Dexterity saving throw or fall prone. On a miss, it must make the
+      saving throw at disadvantage.</p>
+
+      <p>If the attacking creature is two size categories larger than your
+      animal companion, you may direct your animal companion to get under the
+      creature&rsquo;s feet and take that creature&rsquo;s basic melee damage
+      (in addition to any potential damage from the attack) in order to force it
+      to make the Dexterity saving throw as above.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #6'
+    license: OGL 1.0a
+  degree: 4
+  tradition: beastUnity
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      A creature of up to one size category larger than your animal companion
+      makes a melee attack against it
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: 0Y9WVCVQ2sXL8xWk
+_id: ebwwpf9dgg43m7th
+_key: '!items!ebwwpf9dgg43m7th'

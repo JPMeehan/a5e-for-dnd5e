@@ -1,0 +1,66 @@
+name: Piercing Fangs
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Make a melee attack against a creature that is grappling you and expend
+      a dose of basic poison. On a hit, the target takes normal weapon damage
+      plus 2d4 poison damage and also takes 1d4 ongoing poison damage for the
+      next minute or until an antitoxin is administered to it. The creature must
+      also make a Constitution save or immediately release the grapple.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 2
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: zYHnWNyvznl5iPMH
+_id: hituzwdyd1uxy86n
+_key: '!items!hituzwdyd1uxy86n'

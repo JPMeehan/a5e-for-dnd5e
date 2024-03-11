@@ -1,0 +1,65 @@
+name: Death Blow
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/strike-sword-blood-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>All your training culminates in this lethal attack. You deliver the
+      perfect killing blow with a single secret technique.</p><p>Make a melee
+      weapon attack against a creature. On a hit, your attack becomes a critical
+      hit, and if your attack would have already been a critical hit the
+      creature makes a Constitution saving throw. On a failure, the creature is
+      reduced to 0 hit points.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: razorsEdge
+  prerequisite: Extra Attack (2)
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: 06SfUb79AapH2897
+_id: 1hvhnagd1blu4hdz
+_key: '!items!1hvhnagd1blu4hdz'

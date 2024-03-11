@@ -1,0 +1,64 @@
+name: Deflect Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With a bit of effort as an opponent strikes at you, you can knock the
+      blow away and divert the attack.</p><p>When a creature hits you with a
+      weapon attack, you can use your reaction to reduce the attack's damage by
+      a number of d6 equal to your proficiency bonus.</p><p>If this maneuver
+      reduces the damage to 0, the attack becomes a miss.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: unendingWheel
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature hits you with a weapon attack.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: CCeRG5eFmZUiEK8Q
+_id: 6i4w65d12yvr95qk
+_key: '!items!6i4w65d12yvr95qk'

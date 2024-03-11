@@ -1,0 +1,64 @@
+name: Spur Mount
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>In tune with your mount, you guide it to greater heights.</p><p>While
+      you are riding your mount, when it makes an ability check or saving throw
+      you can use your reaction to grant it advantage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: spiritedSteed
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      While you are riding your mount, when it makes an ability check or saving
+      throw.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ODQmAgpBBv6qOved
+_id: c8xslslmcgfgv87j
+_key: '!items!c8xslslmcgfgv87j'

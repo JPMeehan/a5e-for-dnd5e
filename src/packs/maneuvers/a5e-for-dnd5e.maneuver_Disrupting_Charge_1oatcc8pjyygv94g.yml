@@ -1,0 +1,64 @@
+name: Disrupting Charge
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You charge a spellcaster in order to interrupt their spell.</p><p>When
+      a creature you can see casts a spell, you can use your reaction to move up
+      to your Speed. If you end your movement adjacent to that creature, you can
+      make a melee weapon attack against it. On a critical hit, the spell is
+      interrupted (expending the spell slot) and has no effect.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: temperedIron
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature you can see casts a spell.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: Up to your Speed.
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: RTTbw0WgWIWNEeqZ
+_id: 1oatcc8pjyygv94g
+_key: '!items!1oatcc8pjyygv94g'

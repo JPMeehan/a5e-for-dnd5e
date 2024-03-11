@@ -1,0 +1,65 @@
+name: Imposing Glare
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>For a moment you unleash your fury forcing your enemy to
+      hesitate.</p><p>Choose one hostile creature you can see within 30 feet. If
+      it can see you, it makes a Charisma saving throw or is frightened of you
+      until the end of your next turn.</p><p>After you have used this maneuver
+      against a creature, until the end of combat it has advantage on saving
+      throws to resist Imposing Glare.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: temperedIron
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+folder: hRKPiDbXXHp8mzZ0
+_id: cbrxwsl8gteto6gg
+_key: '!items!cbrxwsl8gteto6gg'

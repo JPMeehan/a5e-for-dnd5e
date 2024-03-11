@@ -1,0 +1,66 @@
+name: Reflect Attack
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You redirect your enemy's attack back upon itself.</p><p>When you are
+      hit with a melee weapon attack, you can use your reaction to redirect the
+      force back to the attacker. The attack misses you and the creature makes
+      an Intelligence saving throw. On a failure, the attack is redirected and
+      it becomes the target.</p><p>If you have already hit that creature with a
+      Mirror's Glint maneuver since the beginning of your last turn, the
+      redirected attack is a critical hit.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: mirrorsGlint
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you are hit with a melee weapon attack.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+folder: ZOBDIH8QVxQeoXbO
+_id: pl6hf5srwkbdpw12
+_key: '!items!pl6hf5srwkbdpw12'

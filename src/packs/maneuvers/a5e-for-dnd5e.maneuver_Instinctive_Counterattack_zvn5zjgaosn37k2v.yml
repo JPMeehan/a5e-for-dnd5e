@@ -1,0 +1,63 @@
+name: Instinctive Counterattack
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/strike-sword-blood-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Utilizing reflexes perfected by dedicated training, your body flows
+      into a sublime strike almost without a thought.</p><p>When your exertion
+      pool is not empty, you can use your reaction to make a melee weapon
+      attack.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 3
+  tradition: razorsEdge
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When your exertion pool is not empty.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: wcc0SE7sWcFztQ4P
+_id: zvn5zjgaosn37k2v
+_key: '!items!zvn5zjgaosn37k2v'

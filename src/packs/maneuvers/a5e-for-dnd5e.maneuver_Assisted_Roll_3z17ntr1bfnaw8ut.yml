@@ -1,0 +1,65 @@
+name: Assisted Roll
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You take the force delivered by an opponent's failed attack and make it
+      your own, propelling yourself away.</p>
+
+      <p>When a creature within your reach misses you with a melee weapon
+      attack, you can use your reaction to move 15 feet without provoking
+      opportunity attacks.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: mirrorsGlint
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature within your reach misses you with a melee weapon attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 1seSYx6wGDaGtof5
+_id: 3z17ntr1bfnaw8ut
+_key: '!items!3z17ntr1bfnaw8ut'

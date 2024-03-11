@@ -1,0 +1,59 @@
+name: Liquid Tinnitus
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ' You splash a toxic concoction that seeps into your foe’s ears. Choose a creature within 5 feet of you. It must make a Constitution save against your maneuver DC or be deafened and poisoned until the end of your next turn and deafened for an hour as its ears ring painfully and its balance is thrown off.</p>'
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: FRtW4XTMZbBWGBpl
+_id: cd6ltajot49jxosq
+_key: '!items!cd6ltajot49jxosq'

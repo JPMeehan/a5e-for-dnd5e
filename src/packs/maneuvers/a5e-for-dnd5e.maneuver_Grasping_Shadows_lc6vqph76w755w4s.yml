@@ -1,0 +1,64 @@
+name: Grasping Shadows
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>At your behest, the shadows themselves grip at your foes, pulling and
+      dragging like quicksand. Choose 4 squares within 20 feet of you that are
+      in dim light or darkness . These squares become areas of magical darkness
+      which are treated as difficult terrain and can&rsquo;t be illuminated
+      except by magic, such as the light spell. This effect lasts until the end
+      of your next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 1
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: '20'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: rSNQOpIviMR78Wr7
+_id: lc6vqph76w755w4s
+_key: '!items!lc6vqph76w755w4s'

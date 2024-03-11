@@ -1,0 +1,63 @@
+name: Doubletime
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/social/diplomacy-unity-alliance.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You execute a perfect retreat that distracts enemies and allows your
+      companions to fall back beside you.</p><p>You take the Disengage action,
+      and up to 3 allies within your reach can use their reactions to take the
+      Disengage action and move their Speed.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: sanguineKnot
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: beGrH5K8SBmrzzgF
+_id: a8pty16iuhtfefhy
+_key: '!items!a8pty16iuhtfefhy'

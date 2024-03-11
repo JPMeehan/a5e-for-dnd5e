@@ -1,0 +1,71 @@
+name: Reactive Ward
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">At the sight of incoming danger, you briefly
+      call up a warding shield around yourself and nearby allies.</span></p>
+
+      <p><span class="fontstyle0">When you or an ally within 15 feet are
+      targeted by a spell with a duration of 1 round or less, you may briefly
+      manifest a 5-foot-square shield centered in front of the target. The
+      creature gains threequarters cover against the spell, potentially turning
+      a hit into a miss. You may also spend up to a total of 3 exertion on this
+      reaction, protecting one extra creature within range for each additional
+      point spent.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 3
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When you or an ally within 15 feet are targeted by a spell with a duration
+      of 1 round or less
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 15
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: dRZuEpWdwLU12XTh
+_id: ktkipei0t696wq29
+_key: '!items!ktkipei0t696wq29'

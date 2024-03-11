@@ -1,0 +1,63 @@
+name: Prodigious Leap
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Your mount makes an incredible leap, soaring through the
+      air.</p><p>When your mount makes an Athletics check to jump, you can use
+      your reaction to grant it a fly speed equal to half its Speed until the
+      end of your turn. Your mount can only fly in a straight line.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: spiritedSteed
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When your mount makes an Athletics check to jump.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: 10
+    units: ft
+    type: line
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: pCI1W7UqD6UXKD00
+_id: cznrdeocukp25bc6
+_key: '!items!cznrdeocukp25bc6'

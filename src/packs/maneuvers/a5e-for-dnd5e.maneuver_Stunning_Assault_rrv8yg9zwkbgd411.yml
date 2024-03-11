@@ -1,0 +1,65 @@
+name: Stunning Assault
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You strike your opponent with enough force to stun them.</p><p>When you
+      activate this maneuver, you take the Attack action and make a weapon
+      attack, as well as any additional attacks granted by Extra Attack. Until
+      the start of your next turn, when you hit a creature with a melee weapon
+      attack it makes a Constitution saving throw or is stunned until the end of
+      your next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: temperedIron
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: YLq8bWPbCiq1Ljfz
+_id: rrv8yg9zwkbgd411
+_key: '!items!rrv8yg9zwkbgd411'

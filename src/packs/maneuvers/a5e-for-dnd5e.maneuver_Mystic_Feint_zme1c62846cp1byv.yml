@@ -1,0 +1,68 @@
+name: Mystic Feint
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">For a moment you distort your enemy&rsquo;s
+      perception, causing them to overextend themselves.</span></p>
+
+      <p><span class="fontstyle0">When a creature makes a melee attack roll
+      against you, you can use your reaction to gain an expertise die to your AC
+      against that creature. This increase only applies to the attacking
+      creature and ends at the start of your next turn. Once the attack is
+      resolved, you may choose to switch spaces with the target. This movement
+      does not provoke opportunity attacks.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 2
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature makes a melee attack roll against you
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: L140n9nNVZy6P59T
+_id: zme1c62846cp1byv
+_key: '!items!zme1c62846cp1byv'

@@ -1,0 +1,68 @@
+name: Cleaving Swing
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>After you slam your weapon into an opponent you work the momentum of
+      the blow into another strike at a second enemy nearby in a devastating
+      display of might.</p>
+
+      <p>When you hit with a melee weapon attack using a weapon with the heavy
+      property, you can use your reaction to make an additional melee weapon
+      attack against a second creature that is also within your reach.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: adamantMountain
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When you hit with a melee weapon attack using a weapon with the heavy
+      property.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: XxWPgrZvNcXQGIST
+_id: ldwv83i6vpni2zem
+_key: '!items!ldwv83i6vpni2zem'

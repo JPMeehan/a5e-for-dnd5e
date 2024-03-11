@@ -1,0 +1,66 @@
+name: Riding Leap
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You coax your mount into making a remarkable leap.</p><p>As long as you
+      are mounted and move at least 30 feet in a straight line first, your mount
+      can jump further and higher than usual. The height of the jump increases
+      by a number of feet equal to your proficiency bonus and the distance of
+      the jump increases by a number of feet equal to twice your proficiency
+      bonus.</p><p>Your movement this turn does not provoke opportunity
+      attacks.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: spiritedSteed
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: 10
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: htC43JdUpvoRC58i
+_id: 2932hach5p5wzexc
+_key: '!items!2932hach5p5wzexc'

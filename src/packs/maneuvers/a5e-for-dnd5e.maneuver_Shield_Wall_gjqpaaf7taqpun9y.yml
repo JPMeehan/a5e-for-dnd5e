@@ -1,0 +1,65 @@
+name: Shield Wall
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/social/diplomacy-unity-alliance.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Falling into step with a fellow warrior and putting both of your
+      shields together makes each of you harder to hit.</p><p>While you are
+      wielding a shield, you can choose one ally within 5 feet that is also
+      wielding a shield. Until the start of your next turn, as long as that ally
+      remains within 5 feet of you and is able to take actions both you and your
+      ally increase your AC by 2.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: sanguineKnot
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: While you are wielding a shield.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: k12aKhL1oOJ1jJKf
+_id: gjqpaaf7taqpun9y
+_key: '!items!gjqpaaf7taqpun9y'

@@ -1,0 +1,59 @@
+name: Dreadful Edge
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>Foul magic makes your strikes unnerving. Make a melee weapon attack .
+      On a hit, the target makes a Wisdom saving throw or is rattled for a
+      number of rounds equal to your Charisma modifier.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 1
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: rSNQOpIviMR78Wr7
+_id: 0zvnk8123h6ffn68
+_key: '!items!0zvnk8123h6ffn68'

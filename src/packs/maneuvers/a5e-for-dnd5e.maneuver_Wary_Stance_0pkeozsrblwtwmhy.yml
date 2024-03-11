@@ -1,0 +1,102 @@
+name: Wary Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects:
+  - icon: icons/skills/melee/spear-tips-quintuple-orange.webp
+    origin: Item.0pkeozsrblwtwmhy
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: CNf7oIGXCfi7vljF
+    transfer: false
+    name: Wary Stance
+    _id: aWUsAdJfGddmvwQD
+    changes:
+      - key: system.skills.ins.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: flags.a5e.effects.bonuses.skills
+        value: >-
+          {"context":{"skills":["ins"],"passiveOnly":true,"requiresProficiency":false},"formula":"3","label":"Skill
+          Bonus","default":true}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!0pkeozsrblwtwmhy.aWUsAdJfGddmvwQD'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With a keen eye you constantly assess everything within sight, paying
+      close attention to subtle visual cues and tells to better anticipate an
+      opponent.</p>
+
+      <p>You gain an expertise die on Insight checks and increase your passive
+      Insight score by 3.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: mirrorsGlint
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: CShfV86W2cYZQgDN
+_id: 0pkeozsrblwtwmhy
+_key: '!items!0pkeozsrblwtwmhy'

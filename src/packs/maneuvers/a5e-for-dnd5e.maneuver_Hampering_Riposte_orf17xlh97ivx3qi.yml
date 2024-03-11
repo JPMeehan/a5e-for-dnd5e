@@ -1,0 +1,61 @@
+name: Hampering Riposte
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: ' In response to an attack, you lash out with a blade poisoned with a toxin that makes your enemy sluggish. Make a melee weapon attack with advantage and expend a dose of basic poison. On a hit, the target takes 1 point of slashing damage and must make a Constitution save against your maneuver DC. A creature that fails is slowed for one minute. A creature that succeeds is poisoned and rattled until the end of your next turn instead. A slowed creature may repeat the save at the end of each of its turns, ending the effect on a success.</p>'
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 2
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When attacked.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '1'
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: zYHnWNyvznl5iPMH
+_id: orf17xlh97ivx3qi
+_key: '!items!orf17xlh97ivx3qi'

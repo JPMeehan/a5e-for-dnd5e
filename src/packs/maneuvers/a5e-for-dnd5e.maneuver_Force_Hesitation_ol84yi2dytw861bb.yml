@@ -1,0 +1,68 @@
+name: Force Hesitation
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/control/mouth-smile-deception-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>After working your way into an opponent's guard you convince them that
+      every step will lead to a disastrous end, and that to divert their
+      attention away from you for even a moment invites devastation.</p><p>A
+      creature within your reach makes an Intelligence saving throw. On a
+      failure, it reacts to a strike from you that never comes. As long as you
+      remain within the target's reach, until the start of your next turn it
+      cannot attack any creature other than you.</p><p>After you have used this
+      maneuver against a creature, until the end of combat it has advantage on
+      saving throws against Force Hesitation.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: mistAndShade
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+folder: NcDdRYBBSlctbAP1
+_id: ol84yi2dytw861bb
+_key: '!items!ol84yi2dytw861bb'

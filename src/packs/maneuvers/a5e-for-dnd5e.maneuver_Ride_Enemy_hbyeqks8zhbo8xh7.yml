@@ -1,0 +1,65 @@
+name: Ride Enemy
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You leap atop your enemy just as it attacks.</p><p>When a creature at
+      least one size category larger than you attacks you with a natural weapon,
+      you can use your reaction to use the Grab On basic maneuver, making your
+      Strength or Dexterity saving throw with advantage.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: toothAndClaw
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When a creature at least one size category larger than you attacks you
+      with a natural weapon.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: LJpMHpMHY5uQtwMf
+_id: hbyeqks8zhbo8xh7
+_key: '!items!hbyeqks8zhbo8xh7'

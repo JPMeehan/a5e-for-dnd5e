@@ -1,0 +1,66 @@
+name: Mind Cracker
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/blade-tip-smoke-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You expend a dose of basic poison to blow toxic dust into an opponent’s
+      face. Choose a creature within 5 feet of you. It must make a Dexterity
+      save against your maneuver DC or take 2d8 poison damage and suffer
+      disadvantage on all Intelligence, Wisdom, and Charisma saving throws and
+      checks for the next minute.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 5
+  tradition: vipersFangs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: IaEKPwVGQW6EeJJ1
+_id: 4k2itkjp2ylmg4px
+_key: '!items!4k2itkjp2ylmg4px'

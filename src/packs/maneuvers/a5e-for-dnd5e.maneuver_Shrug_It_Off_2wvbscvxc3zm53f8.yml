@@ -1,0 +1,64 @@
+name: Shrug It Off
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Girding yourself when your body is assaulted by more than clenched
+      fists or sharp steel, you defy weakness and overcome.</p>
+
+      <p>When an effect causes you to be frightened, poisoned, or stunned, you
+      can use your reaction to prevent it.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: adamantMountain
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When an effect causes you to be frightened, poisoned, or stunned.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 4tuex1ixx3ZA9BK2
+_id: 2wvbscvxc3zm53f8
+_key: '!items!2wvbscvxc3zm53f8'

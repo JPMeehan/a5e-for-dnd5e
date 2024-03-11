@@ -1,0 +1,65 @@
+name: Tsunami Dash
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You sprint through your enemies, striking at every one you
+      pass.</p><p>You take the Dash action. During your turn, any time you
+      become adjacent to a creature, you can make a melee attack against it
+      using a weapon that has the dual-wielding or finesse properties.</p><p>You
+      cannot attack the same creature twice in a row in this manner or make more
+      attacks than your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 5
+  tradition: rapidCurrent
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 4PXujEXuWqgn3MmP
+_id: yf588prysgcbb0qk
+_key: '!items!yf588prysgcbb0qk'

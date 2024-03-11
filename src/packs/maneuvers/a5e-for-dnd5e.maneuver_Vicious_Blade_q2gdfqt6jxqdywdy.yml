@@ -1,0 +1,67 @@
+name: Vicious Blade
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>You enchant your weapon with clinging shadows. Until the end of your
+      next turn, the next creature you damage with a&nbsp;<span
+      class="freelinking-link">melee weapon attack</span>&nbsp;makes a
+      Constitution&nbsp;<span class="freelinking-link">saving
+      throw</span>&nbsp;or takes additional necrotic damage equal to your base
+      melee damage for a number of rounds equal to your Charisma modifier.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #11'
+    license: OGL 1.0a
+  degree: 4
+  tradition: eldritchBlackguard
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: When you are grappling an opponent
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1 + @mod
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+folder: iLWivADhq8KIBlTc
+flags: {}
+_id: q2gdfqt6jxqdywdy
+_key: '!items!q2gdfqt6jxqdywdy'

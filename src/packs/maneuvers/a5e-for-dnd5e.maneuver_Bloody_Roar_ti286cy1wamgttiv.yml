@@ -1,0 +1,67 @@
+name: Bloody Roar
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A victorious battle cry strikes fear in the heart of your
+      foes.</p><p>Make a melee weapon attack against a creature. On a hit, you
+      release a mighty roar that shakes the very earth and firmament in a
+      30-foot cube centered on you. Each hostile creature in the area makes a
+      Wisdom saving throw. On a failure, a creature takes psychic damage equal
+      to twice your proficiency bonus and it becomes frightened until the end of
+      its next turn, or on a success it takes half damage and does not become
+      frightened.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: toothAndClaw
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: yU0VZG9NkVmrcOr7
+_id: ti286cy1wamgttiv
+_key: '!items!ti286cy1wamgttiv'

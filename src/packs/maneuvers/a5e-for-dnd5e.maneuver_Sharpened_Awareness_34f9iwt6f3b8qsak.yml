@@ -1,0 +1,66 @@
+name: Sharpened Awareness
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/strike-sword-blood-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You tune your senses, focusing on the fight at hand.</p><p>You can use
+      your reaction to make a Perception check when a creature makes an attack
+      against you, turning it into a miss if your result is higher than the
+      attack roll. In addition, if the attack is turned into a miss you gain
+      advantage on attacks made against that creature until the end of your next
+      turn.</p><p>If the attack still hits you, the creature has disadvantage on
+      its next attack made against you before the end of its next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: razorsEdge
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature makes an attack against you.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: P3AhFjoxneT8mn4B
+_id: 34f9iwt6f3b8qsak
+_key: '!items!34f9iwt6f3b8qsak'

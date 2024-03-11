@@ -1,0 +1,87 @@
+name: Penetrating Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-purple.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 21">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p><strong>Requirement: </strong>Unused spell slot of 3rd level or higher
+      or at least 5 unspent spell points, spell from the conjuration school
+      available to cast.</p>
+
+      <p>You call upon your magical abilities to pass through an enemy&rsquo;s
+      defenses as if they were not there.</p>
+
+      <p>You make a single weapon attack against a target, with a +20 bonus to
+      hit. This attack requires such intense focus that it cannot be augmented
+      via other means such as a herald&rsquo;s Divine Smite, a rogue's Sneak
+      Attack, or any other spell or effect that would add additional effects to
+      the attack. The attack cannot land a critical hit.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 4
+  tradition: cuttingOmen
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: 6QobrpjiM6iO651t
+_id: JQDV2CEWRYY2NNY5
+_key: '!items!JQDV2CEWRYY2NNY5'

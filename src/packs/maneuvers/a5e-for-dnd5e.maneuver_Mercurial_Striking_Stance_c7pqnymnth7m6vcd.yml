@@ -1,0 +1,90 @@
+name: Mercurial Striking Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects:
+  - icon: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+    origin: Item.c7pqnymnth7m6vcd
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: ySdYX1afnVCeysKe
+    transfer: false
+    name: Mercurial Striking Stance
+    _id: cejtautBzll7fh8v
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!c7pqnymnth7m6vcd.cejtautBzll7fh8v'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By tapping into your basic survival instincts you not only unleash your
+      potential -- you make certain that every strike counts.</p><p>The minimum
+      result on a damage die rolled with a natural weapon, unarmed strike, or
+      weapon with the dual-wielding property is a 3.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: toothAndClaw
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: yU0VZG9NkVmrcOr7
+_id: c7pqnymnth7m6vcd
+_key: '!items!c7pqnymnth7m6vcd'

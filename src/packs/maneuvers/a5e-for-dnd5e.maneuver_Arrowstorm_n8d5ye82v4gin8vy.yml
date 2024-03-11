@@ -1,0 +1,75 @@
+name: Arrowstorm
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 39">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>Firing a single arrow results in a tempest of danger as it splits into
+      dozens in flight. When you use this maneuver your next ranged weapon
+      attack becomes a cone effect. Forgoing multiple attacks, you instead make
+      an attack roll against each creature in a 30ft cone. This cone begins at a
+      square of your choosing within 15ft.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  degree: 5
+  tradition: arcaneArtillery
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: 15 ft.
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: B5wmxMcxnCr3wGbQ
+_id: n8d5ye82v4gin8vy
+_key: '!items!n8d5ye82v4gin8vy'

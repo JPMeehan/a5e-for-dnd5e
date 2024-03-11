@@ -1,0 +1,65 @@
+name: Dimensional Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">You teleport mid-attack, taking your enemy
+      </span><span class="fontstyle0">off guard.</span></p>
+
+      <p><span class="fontstyle0">You teleport a distance up to your Speed. If
+      </span><span class="fontstyle0">there is a creature within your reach, you
+      can </span><span class="fontstyle0">make a single melee weapon attack,
+      which you </span><span class="fontstyle0">gain expertise on.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 4
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: xFho8NXieJJ5zRcd
+_id: k36rd9w9mipo624t
+_key: '!items!k36rd9w9mipo624t'

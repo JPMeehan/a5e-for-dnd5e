@@ -4,7 +4,7 @@ import { Folder } from '../utils.mjs';
 import yaml from 'js-yaml';
 import ReferenceFolder from '../ReferenceFolder.mjs';
 
-const targetPack = 'combat-maneuvers';
+const targetPack = 'maneuvers';
 const packPath = path.join('src', 'packs', targetPack);
 
 const yamlPack = await fs.readdir(packPath);
@@ -190,7 +190,7 @@ for (const d of yamlPack) {
   if (data.type === 'Item') continue;
   const folderName = traditions.find((f) => f.type === data.system.tradition);
   if (folderName) {
-    data.folder = folderStruct[folderName][data.system.degree - 1];
+    data.folder = folderStruct[folderName.name][data.system.degree - 1];
   } else data.folder = folderStruct[basic.name];
   await fs.writeFile(
     path.join(packPath, d),

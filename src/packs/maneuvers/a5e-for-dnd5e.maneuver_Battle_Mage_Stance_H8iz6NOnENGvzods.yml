@@ -1,0 +1,108 @@
+name: Battle Mage Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-purple.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 21">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You call upon your latent magical power to infuse your weapon
+      attacks.</p>
+
+      <p>When you use Extra Attack, you can replace any of the weapon attacks
+      with a weaponry cantrip. However, each cantrip cast this way beyond the
+      first each round costs you 2 points of exertion.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 4
+  tradition: cuttingOmen
+  prerequisite: Extra Attack
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-strong-purple.webp
+    origin: Item.H8iz6NOnENGvzods
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: RiMb0DMlvjZHakGx
+    transfer: false
+    name: Battle Mage Stance
+    _id: VDbtb9Pop1s10luL
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!H8iz6NOnENGvzods.VDbtb9Pop1s10luL'
+flags: {}
+folder: 6QobrpjiM6iO651t
+_id: H8iz6NOnENGvzods
+_key: '!items!H8iz6NOnENGvzods'

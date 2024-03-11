@@ -1,0 +1,100 @@
+name: Deceptive Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/control/mouth-smile-deception-purple.webp
+effects:
+  - icon: icons/magic/control/mouth-smile-deception-purple.webp
+    origin: Item.qpzwnm59j2f7820e
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: hdMlwpYUVqZhRsLr
+    transfer: false
+    name: Deceptive Stance
+    _id: 90zJehW2Xnuy13y3
+    changes:
+      - key: system.skills.dec.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.skills.slt.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!qpzwnm59j2f7820e.90zJehW2Xnuy13y3'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>With practice and training you learn how to shut off your facial
+      reactions amidst battle, taking on a passive countenance from which
+      nothing can be easily gleaned.</p>
+
+      <p>You gain an expertise die on Deception and Sleight of Hand checks made
+      in combat.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 1
+  tradition: mistAndShade
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: DiAlLoiomBR0zwWt
+_id: qpzwnm59j2f7820e
+_key: '!items!qpzwnm59j2f7820e'

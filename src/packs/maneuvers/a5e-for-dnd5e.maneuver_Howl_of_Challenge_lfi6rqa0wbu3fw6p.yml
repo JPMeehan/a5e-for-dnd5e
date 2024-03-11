@@ -1,0 +1,64 @@
+name: Howl of Challenge
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  description:
+    value: >-
+      <p>On your animal companion&rsquo;s turn, it makes a melee attack against
+      a creature as it roars, howls, or makes some similar threatening noise.
+      All hostile creatures within 30 feet of your animal companion must make a
+      Wisdom saving throw. On a failure, they have disadvantage to attack any
+      creature that is not your animal companion until the start of your animal
+      companion&rsquo;s next turn.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #6'
+    license: OGL 1.0a
+  degree: 3
+  tradition: beastUnity
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: k9wLRF31D957sH5j
+_id: lfi6rqa0wbu3fw6p
+_key: '!items!lfi6rqa0wbu3fw6p'

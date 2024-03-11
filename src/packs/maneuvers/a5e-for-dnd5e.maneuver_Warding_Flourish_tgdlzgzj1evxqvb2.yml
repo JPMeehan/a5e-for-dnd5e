@@ -1,0 +1,66 @@
+name: Warding Flourish
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: >-
+      <p><span class="fontstyle0">With a mystical flourish of your weapon you
+      create a shield of force around a nearby ally.</span></p>
+
+      <p><span class="fontstyle0">Choose an ally within 15 feet that you can
+      see. As long as that ally stays within 15 feet of you, they increase their
+      AC by 2. You can only ward one creature at a time, and cannot use this
+      ward on yourself. This effect ends if you can no longer take
+      actions.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #9'
+    license: OGL 1.0a
+  degree: 1
+  tradition: arcaneKnight
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: RxH73er6m7o5kBMG
+_id: tgdlzgzj1evxqvb2
+_key: '!items!tgdlzgzj1evxqvb2'

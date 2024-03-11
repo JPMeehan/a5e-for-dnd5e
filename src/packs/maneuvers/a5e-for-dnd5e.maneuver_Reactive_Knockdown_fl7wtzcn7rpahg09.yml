@@ -1,0 +1,67 @@
+name: Reactive Knockdown
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Putting yourself in just the right position as you strike, your
+      unbalancing hit sends a retreating opponent into a reeling stumble and
+      then the ground.</p>
+
+      <p>When a creature within your reach provokes an opportunity attack, you
+      can use your reaction to make a melee weapon attack. On a hit, the
+      creature makes a Strength saving throw or it moves 10 feet in a straight
+      line and is knocked prone.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 2
+  tradition: adamantMountain
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature within your reach provokes an opportunity attack.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: 4tuex1ixx3ZA9BK2
+_id: fl7wtzcn7rpahg09
+_key: '!items!fl7wtzcn7rpahg09'

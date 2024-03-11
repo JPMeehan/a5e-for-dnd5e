@@ -1,0 +1,135 @@
+folder: UkSUsWseCFv6SLsH
+name: Quick Spill
+type: a5e-for-dnd5e.maneuver
+img: icons/consumables/fruit/tomato-ripe-red.webp
+system:
+  description:
+    value: >-
+      <p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w
+      x y z ab ac ae af ag ah ai aj ak" dir="ltr">With daring-do and practiced
+      grace you seamlessly fling an obstacle across the floor with surprising
+      swiftness. With some extra effort, you can distract from the violent
+      intent.</span></p>
+
+      <p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w
+      x y z ab ac ae af ag ah ai aj ak" dir="ltr">You spread
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.g7kjz2fok0p8yzrh]{Ball
+      Bearings},
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.txxm6r8vc8v7i81a]{Caltrops},
+      or @UUID[Compendium.a5e.a5e-adventuring-gear.Item.322whxi7q57yw3ww]{Oil}
+      into a 5-foot square. If a creature is in the area, it makes a Dexterity
+      saving throw with advantage (or normally if you spend an additional 1
+      exertion). On a failure against ball bearings or oil the creature falls
+      prone , or on a failure against caltrops it takes 1d4 piercing damage that
+      reduces its Speed by 10 feet until it regains at least 1 hit
+      point.</span></p>
+    chat: ''
+  source:
+    book: 'Level Up: Gate Pass Gazette Issue #19'
+    license: OGL 1.0a
+  degree: 1
+  tradition: comedicJabs
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: square
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/fruit/tomato-ripe-red.webp
+    origin: Item.emc9aob74j8k0apq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: KwNmBfrCIm35hub0
+    transfer: false
+    name: Fall Prone (Ball Bearings or Oil)
+    _id: Lx8DdE7WssFU3Sbm
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!emc9aob74j8k0apq.Lx8DdE7WssFU3Sbm'
+  - icon: icons/consumables/fruit/tomato-ripe-red.webp
+    origin: Item.emc9aob74j8k0apq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: KwNmBfrCIm35hub0
+    transfer: false
+    name: Caltrops
+    _id: V1hq9DEY2ILXAPls
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '10'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!emc9aob74j8k0apq.V1hq9DEY2ILXAPls'
+flags: {}
+_id: emc9aob74j8k0apq
+_key: '!items!emc9aob74j8k0apq'

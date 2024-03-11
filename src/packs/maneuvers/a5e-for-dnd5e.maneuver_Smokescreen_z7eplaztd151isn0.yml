@@ -1,0 +1,79 @@
+name: Smokescreen
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 39">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>With an explosive pop on impact your attack releases noxious smoke.
+      Make a ranged attack as normal. If this attack hits your target, it bursts
+      into a cloud of gas with a 15ft cube centered on your target&rsquo;s
+      square until the end of your next turn. Each creature that starts their
+      turn in or moves through the smoke must make a constitution save against
+      your maneuver DC or have disadvantage on perception and investigation
+      checks for 1 minute. Affected creatures can attempt additional saves at
+      the end of each of their turns, ending the effect on a success.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  degree: 2
+  tradition: arcaneArtillery
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: NL4uw0MXtqTuSzXs
+_id: z7eplaztd151isn0
+_key: '!items!z7eplaztd151isn0'

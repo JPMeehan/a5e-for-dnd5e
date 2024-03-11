@@ -1,0 +1,64 @@
+name: Spirited Whistle
+type: a5e-for-dnd5e.maneuver
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You summon your mount to your side.</p><p>When you have become
+      separated from your mount but can see it, you can use an action to
+      whistle. As long as your mount is able to hear you, it uses its reaction
+      to move until it is adjacent to you.</p><p>Your mount suffers a level of
+      fatigue if this movement is more than twice its Speed.</p>
+    chat: ''
+  source:
+    book: 'Level Up: Adventurer''s Guide'
+    license: OGL 1.0a
+  degree: 4
+  tradition: spiritedSteed
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: Sight of Mount.
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: pCI1W7UqD6UXKD00
+_id: 80u0y156byj1qsej
+_key: '!items!80u0y156byj1qsej'
