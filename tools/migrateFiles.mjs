@@ -501,7 +501,7 @@ function migrateObject(system) {
   switch (system.objectType) {
     case 'ammunition':
       Object.assign(o5e, consumable);
-      o5e.consumableType = 'ammo';
+      o5e.type.value = 'ammo';
       break;
     case 'armor':
       Object.assign(o5e, mountable);
