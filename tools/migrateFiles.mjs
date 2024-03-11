@@ -99,50 +99,52 @@ function mapSource(src) {
  * @returns {string} The abbreviation
  */
 function abbr(word) {
-  switch (word) {
-    case 'abjuration':
-      return 'abj';
-    case 'conjuration':
-      return 'con';
-    case 'divination':
-      return 'div';
-    case 'enchantment':
-      return 'enc';
-    case 'evocation':
-      return 'evo';
-    case 'illusion':
-      return 'ill';
-    case 'necromancy':
-      return 'nec';
-    case 'transmutation':
-      return 'trs';
-    case 'meleeWeaponAttack':
-      return 'mwak';
-    case 'rangedWeaponAttack':
-      return 'rwak';
-    case 'meleeSpellAttack':
-      return 'msak';
-    case 'rangedSpellAttack':
-      return 'rsak';
-    case 'savingThrow':
-      return 'save';
-    case 'abilityCheck':
-      return 'abil';
-    case 'temporaryHealing':
-      return 'temphp';
-    case 'spellLevel':
-      return 'level';
-    case 'fiveFeet':
-      return '5';
-    case 'short':
-      return '30';
-    case 'medium':
-      return '60';
-    case 'long':
-      return '120';
-    default:
-      return word;
-  }
+  const map = {
+    abjuration: 'abj',
+    conjuration: 'con',
+    divination: 'div',
+    enchantment: 'enc',
+    evocation: 'evo',
+    illusion: 'ill',
+    necromancy: 'nec',
+    transmutation: 'trs',
+    meleeWeaponAttack: 'mwak',
+    rangedWeaponAttack: 'rwak',
+    meleeSpellAttack: 'msak',
+    rangedSpellAttack: 'rsak',
+    savingThrow: 'save',
+    abilityCheck: 'abil',
+    temporaryHealing: 'temphp',
+    spellLevel: 'level',
+    fiveFeet: '5',
+    short: '30',
+    medium: '60',
+    long: '120',
+    adamantMountain: 'adm',
+    arcaneArtillery: 'arcart',
+    arcaneKnight: 'arckn',
+    awakenedMind: 'awm',
+    beastUnity: 'bu',
+    bitingZephyr: 'btz',
+    comedicJabs: 'coj',
+    cuttingOmen: 'cutom',
+    eldritchBlackguard: 'elb',
+    gallantHeart: 'gh',
+    grindingCog: 'grc',
+    mirrorsGlint: 'mgl',
+    mistAndShade: 'mas',
+    rapidCurrent: 'rc',
+    razorsEdge: 'rze',
+    sanctifiedSteel: 'sst',
+    sanguineKnot: 'sk',
+    selflessSentinel: 'ssn',
+    spiritedSteed: 'ss',
+    temperedIron: 'tpi',
+    toothAndClaw: 'tac',
+    unendingWheel: 'uwh',
+    vipersFangs: 'vif',
+  };
+  return map[word] ?? word;
 }
 
 /**
@@ -422,7 +424,7 @@ function migrateManeuver(system) {
     },
     source: mapSource(system.source),
     degree: Number(system.degree),
-    tradition: system.tradition,
+    tradition: abbr(system.tradition),
     prerequisite: system.prerequisite,
     properties: [],
   };

@@ -40,9 +40,9 @@
 
   {{! Item Sheet Navigation }}
   <nav class='sheet-navigation tabs' data-group='primary'>
-    <a class='item active' data-tab='description'>{{localize
-        'DND5E.Description'
-      }}</a>
+    <a class='item active' data-tab='description'>
+      {{localize 'DND5E.Description' }}
+      </a>
     <a class='item' data-tab='details'>{{localize 'DND5E.Details'}}</a>
     <a class='item' data-tab='effects'>{{localize 'DND5E.Effects'}}</a>
   </nav>
@@ -61,11 +61,7 @@
       <div class='form-group'>
         <label>{{localize 'a5e-for-dnd5e.Maneuver.Tradition'}}</label>
         <select name='system.degree' data-dtype='Number'>
-          {{#select system.degree}}
-            {{#each maneuvers.degree as |name lvl|}}
-              <option value='{{lvl}}'>{{name}}</option>
-            {{/each}}
-          {{/select}}
+          {{selectOptions maneuvers.degree selected=system.degree}}
         </select>
       </div>
 
@@ -91,6 +87,7 @@
             selected=system.tradition
             labelAttr="label"
             blank=''
+            sort="true"
           }}
         </select>
       </div>

@@ -14,95 +14,95 @@ const basic = { name: 'Basic Maneuvers', type: '' };
 const traditions = [
   {
     name: 'Adamant Mountain',
-    type: 'adamantMountain',
+    type: 'adm',
   },
   {
     name: 'Arcane Artillery',
-    type: 'arcaneArtillery',
+    type: 'arcart',
   },
   {
     name: 'Arcane Knight',
-    type: 'arcaneKnight',
+    type: 'arckn',
   },
   {
     name: 'Awakened Mind',
-    type: 'awakenedMind',
+    type: 'awm',
   },
   {
     name: 'Beast Unity',
-    type: 'beastUnity',
+    type: 'bu',
   },
   {
     name: 'Biting Zephyr',
-    type: 'bitingZephyr',
+    type: 'btz',
   },
   {
     name: 'Comedic Jabs',
-    type: 'comedicJabs',
+    type: 'coj',
   },
   {
     name: 'Cutting Omen',
-    type: 'cuttingOmen',
+    type: 'cutom',
   },
   {
     name: 'Eldritch Blackguard',
-    type: 'eldritchBlackguard',
+    type: 'elb',
   },
   {
     name: 'Gallant Heart',
-    type: 'gallantHeart',
+    type: 'gh',
   },
   {
     name: 'Grinding Cog',
-    type: 'grindingCog',
+    type: 'grc',
   },
   {
     name: "Mirror's Glint",
-    type: 'mirrorsGlint',
+    type: 'mgl',
   },
   {
     name: 'Mist and Shade',
-    type: 'mistAndShade',
+    type: 'mas',
   },
   {
     name: 'Rapid Current',
-    type: 'rapidCurrent',
+    type: 'rc',
   },
   {
     name: "Razor's Edge",
-    type: 'razorsEdge',
+    type: 'rze',
   },
   {
     name: 'Sanctified Steel',
-    type: 'sanctifiedSteel',
+    type: 'sst',
   },
   {
     name: 'Sanguine Knot',
-    type: 'sanguineKnot',
+    type: 'sk',
   },
   {
     name: 'Selfless Sentinel',
-    type: 'selflessSentinel',
+    type: 'ssn',
   },
   {
     name: 'Spirited Steed',
-    type: 'spiritedSteed',
+    type: 'ss',
   },
   {
     name: 'Tempered Iron',
-    type: 'temperedIron',
+    type: 'tpi',
   },
   {
     name: 'Tooth and Claw',
-    type: 'toothAndClaw',
+    type: 'tac',
   },
   {
     name: 'Unending Wheel',
-    type: 'unendingWheel',
+    type: 'uwh',
   },
   {
     name: "Viper's Fangs",
-    type: 'vipersFangs',
+    type: 'vif',
   },
 ];
 

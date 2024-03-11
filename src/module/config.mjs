@@ -18,60 +18,122 @@ const A5E_CONFIG = {
         5: 'a5e-for-dnd5e.Maneuver.Degrees.5',
       },
       tradition: {
+        /** Adventurer's Guide */
         adm: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.adm',
           icon: modulePath + 'assets/icons/traditions/adm.svg',
-          fullKey: '',
+          fullKey: 'adamantMountain',
         },
         btz: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.btz',
           icon: modulePath + 'assets/icons/traditions/btz.svg',
-          fullKey: '',
+          fullKey: 'bitingZephyr',
         },
         mas: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.mas',
           icon: modulePath + 'assets/icons/traditions/mas.svg',
-          fullKey: '',
+          fullKey: 'mistAndShade',
         },
         mgl: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.mgl',
           icon: modulePath + 'assets/icons/traditions/mgl.svg',
-          fullKey: '',
+          fullKey: 'mirrorsGlint',
         },
         rc: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.rc',
           icon: modulePath + 'assets/icons/traditions/rc.svg',
-          fullKey: '',
+          fullKey: 'rapidCurrent',
         },
         rze: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.rze',
           icon: modulePath + 'assets/icons/traditions/rze.svg',
-          fullKey: '',
+          fullKey: 'razorsEdge',
         },
         sk: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.sk',
           icon: modulePath + 'assets/icons/traditions/sk.svg',
-          fullKey: '',
+          fullKey: 'sanguineKnot',
         },
         ss: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.ss',
           icon: modulePath + 'assets/icons/traditions/ss.svg',
-          fullKey: '',
+          fullKey: 'spiritedSteed',
         },
         tpi: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.tpi',
           icon: modulePath + 'assets/icons/traditions/tpi.svg',
-          fullKey: '',
+          fullKey: 'temperedIron',
         },
         tac: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.tac',
           icon: modulePath + 'assets/icons/traditions/tac.svg',
-          fullKey: '',
+          fullKey: 'toothAndClaw',
         },
         uwh: {
           label: 'a5e-for-dnd5e.Maneuver.Traditions.uwh',
           icon: modulePath + 'assets/icons/traditions/uwh.svg',
-          fullKey: '',
+          fullKey: 'unendingWheel',
+        },
+        /** Other sources */
+        arcart: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.arcart',
+          icon: modulePath + 'assets/icons/traditions/arcart.svg',
+          fullKey: 'arcaneArtillery',
+        },
+        arckn: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.arckn',
+          icon: modulePath + 'assets/icons/traditions/arckn.svg',
+          fullKey: 'arcaneKnight',
+        },
+        awm: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.awm',
+          icon: modulePath + 'assets/icons/traditions/awm.svg',
+          fullKey: 'awakenedMind',
+        },
+        bu: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.bu',
+          icon: modulePath + 'assets/icons/traditions/bu.svg',
+          fullKey: 'beastUnity',
+        },
+        coj: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.coj',
+          icon: modulePath + 'assets/icons/traditions/coj.svg',
+          fullKey: 'comedicJabs',
+        },
+        cutom: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.cutom',
+          icon: modulePath + 'assets/icons/traditions/cutom.svg',
+          fullKey: 'cuttingOmen',
+        },
+        elb: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.elb',
+          icon: modulePath + 'assets/icons/traditions/elb.svg',
+          fullKey: 'eldritchBlackguard',
+        },
+        gh: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.gh',
+          icon: modulePath + 'assets/icons/traditions/gh.svg',
+          fullKey: 'gallantHeart',
+        },
+        grc: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.grc',
+          icon: modulePath + 'assets/icons/traditions/grc.svg',
+          fullKey: 'grindingCog',
+        },
+        sst: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.sst',
+          icon: modulePath + 'assets/icons/traditions/sst.svg',
+          fullKey: 'sanctifiedSteel',
+        },
+        ssn: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.ssn',
+          icon: modulePath + 'assets/icons/traditions/ssn.svg',
+          fullKey: 'selflessSentinel',
+        },
+        vif: {
+          label: 'a5e-for-dnd5e.Maneuver.Traditions.vif',
+          icon: modulePath + 'assets/icons/traditions/vif.svg',
+          fullKey: 'vipersFangs',
         },
       },
     },
