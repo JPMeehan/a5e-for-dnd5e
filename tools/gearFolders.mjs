@@ -7,55 +7,26 @@ import ReferenceFolder from './ReferenceFolder.mjs';
 const targetPack = 'gear';
 const packPath = path.join('src', 'packs', targetPack);
 
-const spellPack = await fs.readdir(packPath);
+const yamlPack = await fs.readdir(packPath);
+
+const innerFolders = [
+  { name: 'Containers', type: 'container' },
+  { name: 'Consumables', type: 'consumable' },
+  { name: 'Equipment', type: 'equipment' },
+  { name: 'Armor', type: 'equipment' },
+  { name: 'Shields', type: 'equipment' },
+  { name: 'Tools', type: 'tool' },
+  { name: 'Weapons', type: 'weapon' },
+  { name: 'Loot', type: 'loot' },
+];
 
 async function createFolders() {
-  const outerFolders = ['Spells', 'Rare Spells'];
-  const innerFolders = [
-    {
-      name: 'Cantrip',
-      color: '#b18dcd',
-    },
-    {
-      name: '1st Level',
-      color: '#a27ebc',
-    },
-    {
-      name: '2nd Level',
-      color: '#926fac',
-    },
-    {
-      name: '3rd Level',
-      color: '#83609d',
-    },
-    {
-      name: '4th Level',
-      color: '#75528d',
-    },
-    {
-      name: '5th Level',
-      color: '#66447e',
-    },
-    {
-      name: '6th Level',
-      color: '#58366f',
-    },
-    {
-      name: '7th Level',
-      color: '#4a2960',
-    },
-    {
-      name: '8th Level',
-      color: '#3d1b52',
-    },
-    {
-      name: '9th Level',
-      color: '#300d44',
-    },
-  ];
+  const outerFolders = ['Mundane', 'Magic'];
+
   for (const o of outerFolders) {
     const outer = new Folder(o);
-    let filename = outer.name.replace(' ', '_') + '_' + outer._id + '.yml';
+    let filename =
+      'folders_' + outer.name.replace(' ', '_') + '_' + outer._id + '.yml';
     await fs.writeFile(
       path.join(packPath, filename),
       yaml.dump(outer.toObject, { indent: 2 }),
@@ -64,7 +35,6 @@ async function createFolders() {
     for (const i of innerFolders) {
       const inner = new Folder(i.name, {
         parentFolder: outer._id,
-        color: i.color,
       });
       filename =
         'folders_' + inner.name.replace(' ', '_') + '_' + inner._id + '.yml';
@@ -77,39 +47,57 @@ async function createFolders() {
   await ReferenceFolder.build(targetPack);
 }
 try {
-  await fs.access(path.join('tools', 'referenceFolders', 'gear.yml'));
+  await fs.access(path.join('tools', 'referenceFolders', targetPack + '.yml'));
 } catch {
   await createFolders();
 }
 
-const spells = Array.from('0123456789');
-const rareSpells = Array.from('0123456789');
+// const spells = Array.from('0123456789');
+// const rareSpells = Array.from('0123456789');
+
+const mundane = innerFolders.reduce((acc, curr) => {
+  acc[curr.name] = '';
+  return acc;
+}, {});
+const magic = innerFolders.reduce((acc, curr) => {
+  acc[curr.name] = '';
+  return acc;
+}, {});
 
 const folders = new ReferenceFolder(targetPack);
 
 await folders.prepFolders();
 
 for (const [id, f] of Object.entries(folders.compendium)) {
-  if (
-    !f.parent ||
-    f.parent === 'XXlxppJh0OdnJaQQ' || // a5e-native "Spells" folder
-    f.parent === 'ohddM2fcnkPeUeJv' // a5e-native "Rare spells" folder
-  )
-    continue;
+  if (!f.parent) continue;
   const parentName = folders.getFolderName(id, 1);
   const currentName = f.name;
-  const level = currentName !== 'Cantrip' ? parseInt(currentName[0]) : 0;
-  if (parentName === 'Spells') spells[level] = id;
-  else rareSpells[level] = id;
+  const target = parentName === 'Mundane' ? mundane : magic;
+  target[currentName] = id;
 }
 
-for (const d of spellPack) {
+console.log(magic, mundane);
+
+for (const d of yamlPack) {
   const read_file = await fs.readFile(path.join(packPath, d));
   const data = yaml.load(read_file);
-  if (data.type !== 'spell') continue;
-  if (data.flags['a5e-for-dnd5e']?.rareSpell) {
-    data.folder = rareSpells[data.system.level];
-  } else data.folder = spells[data.system.level];
+  if (data.type === 'folder') continue;
+  const target = data.system.rarity === 'mundane' ? mundane : magic;
+  const inF = innerFolders.find((f) => f.type === data.type);
+  if (inF.type === 'equipment') {
+    switch (data.system.type.value) {
+      case 'light':
+      case 'medium':
+      case 'heavy':
+        data.folder = target['Armor'];
+        break;
+      case 'shield':
+        data.folder = target['Shields'];
+        break;
+      default:
+        data.folder = target['Equipment'];
+    }
+  } else data.folder = target[inF.name];
   await fs.writeFile(
     path.join(packPath, d),
     yaml.dump(data, { indent: 2 }),

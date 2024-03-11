@@ -55,7 +55,8 @@ async function createFolders() {
   ];
   for (const o of outerFolders) {
     const outer = new Folder(o);
-    let filename = outer.name.replace(' ', '_') + '_' + outer._id + '.yml';
+    let filename =
+      'folders_' + outer.name.replace(' ', '_') + '_' + outer._id + '.yml';
     await fs.writeFile(
       path.join(packPath, filename),
       yaml.dump(outer.toObject, { indent: 2 }),
@@ -90,12 +91,7 @@ const folders = new ReferenceFolder(targetPack);
 await folders.prepFolders();
 
 for (const [id, f] of Object.entries(folders.compendium)) {
-  if (
-    !f.parent ||
-    f.parent === 'XXlxppJh0OdnJaQQ' || // a5e-native "Spells" folder
-    f.parent === 'ohddM2fcnkPeUeJv' // a5e-native "Rare spells" folder
-  )
-    continue;
+  if (!f.parent) continue;
   const parentName = folders.getFolderName(id, 1);
   const currentName = f.name;
   const level = currentName !== 'Cantrip' ? parseInt(currentName[0]) : 0;
