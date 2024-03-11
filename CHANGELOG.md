@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.3 Combat Maneuvers
+
+- Added `magical` and `concentration` as valid maneuver properties
+- Expanded maneuver tradition options to match A5E system offerings
+- Initial setup of the Maneuvers pack
+- Improved source labels
+
 ## 0.8.2 Spells and Gear
 
 - Added `properties` field to maneuvers
