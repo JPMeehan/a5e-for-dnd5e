@@ -14,48 +14,48 @@ let debugInfo = false;
 
 /**
  * Maps a5e sources to their name
- * @param {string} source                             The a5e source
+ * @param {string} src                             The a5e source
  * @returns {import('./types/dnd5e.mjs').SourceField} The converted source
  */
-function mapSource(source) {
+function mapSource(src) {
   /** Produced by `Object.entries(CONFIG.A5E.products).reduce((a, [k, v]) => {a[k] = v.title; return a}, {})` */
   const sourceMap = {
     acesAdventuringGuideToNecromancy: "Ace's Adventuring Guide to Necromancy",
     acesAdventuringGuideToNecromancySupplement:
       "Ace's Adventuring Guide to Necromancy: A Supplement",
-    adventurersGuide: "Level Up: Adventurer's Guide",
-    adventuresInZeitgeist: 'Level Up: Adventures in ZEITGEIST',
+    adventurersGuide: "Adventurer's Guide",
+    adventuresInZeitgeist: 'Adventures in ZEITGEIST',
     arcaneSniper: 'Arcane Sniper',
     confidenceMage: 'Confidence Mage',
     doseOfDungeonpunk: 'Dose of Dungeonpunk - The Talos Heritage',
-    dungeonDelversGuide: "Level Up: Dungeon Delver's Guide",
+    dungeonDelversGuide: "Dungeon Delver's Guide",
     fieldEngineer: 'Field Engineer',
     fieryJustice: 'Fiery Justice',
-    gpg0: 'Level Up: Gate Pass Gazette Issue #0',
-    gpg1: 'Level Up: Gate Pass Gazette Issue #1',
-    gpg2: 'Level Up: Gate Pass Gazette Issue #2',
-    gpg3: 'Level Up: Gate Pass Gazette Issue #3',
-    gpg4: 'Level Up: Gate Pass Gazette Issue #4',
-    gpg5: 'Level Up: Gate Pass Gazette Issue #5',
-    gpg6: 'Level Up: Gate Pass Gazette Issue #6',
-    gpg7: 'Level Up: Gate Pass Gazette Issue #7',
-    gpg8: 'Level Up: Gate Pass Gazette Issue #8',
-    gpg9: 'Level Up: Gate Pass Gazette Issue #9',
-    gpg10: 'Level Up: Gate Pass Gazette Issue #10',
-    gpg11: 'Level Up: Gate Pass Gazette Issue #11',
-    gpg12: 'Level Up: Gate Pass Gazette Issue #12',
-    gpg13: 'Level Up: Gate Pass Gazette Issue #13',
-    gpg14: 'Level Up: Gate Pass Gazette Issue #14',
-    gpg15: 'Level Up: Gate Pass Gazette Issue #15',
-    gpg16: 'Level Up: Gate Pass Gazette Issue #16',
-    gpg17: 'Level Up: Gate Pass Gazette Issue #17',
-    gpg18: 'Level Up: Gate Pass Gazette Issue #18',
-    gpg19: 'Level Up: Gate Pass Gazette Issue #19',
-    gpg20: 'Level Up: Gate Pass Gazette Issue #20',
-    gpg21: 'Level Up: Gate Pass Gazette Issue #21',
+    gpg0: 'Gate Pass Gazette #0',
+    gpg1: 'Gate Pass Gazette #1',
+    gpg2: 'Gate Pass Gazette #2',
+    gpg3: 'Gate Pass Gazette #3',
+    gpg4: 'Gate Pass Gazette #4',
+    gpg5: 'Gate Pass Gazette #5',
+    gpg6: 'Gate Pass Gazette #6',
+    gpg7: 'Gate Pass Gazette #7',
+    gpg8: 'Gate Pass Gazette #8',
+    gpg9: 'Gate Pass Gazette #9',
+    gpg10: 'Gate Pass Gazette #10',
+    gpg11: 'Gate Pass Gazette #11',
+    gpg12: 'Gate Pass Gazette #12',
+    gpg13: 'Gate Pass Gazette #13',
+    gpg14: 'Gate Pass Gazette #14',
+    gpg15: 'Gate Pass Gazette #15',
+    gpg16: 'Gate Pass Gazette #16',
+    gpg17: 'Gate Pass Gazette #17',
+    gpg18: 'Gate Pass Gazette #18',
+    gpg19: 'Gate Pass Gazette #19',
+    gpg20: 'Gate Pass Gazette #20',
+    gpg21: 'Gate Pass Gazette #21',
     heroesOldAndNew: 'Heroes Old and New',
     moarComplete: 'Manual of Adventurous Resources: Complete',
-    monstrousMenagerie: 'Level Up: Monstrous Menagerie',
+    monstrousMenagerie: 'Monstrous Menagerie',
     mortalist: 'Mortalist',
     motifClasses: 'System Architecture: Motif Classes',
     mysteriousAndMarvelousMiscellanea: 'Mysterious and Marvelous Miscellanea',
@@ -77,13 +77,20 @@ function mapSource(source) {
     thematicToolkitStoryteller: 'Thematic Toolkit: Storyteller',
     thematicToolkitThunderOfWar: 'Thematic Toolkit: Thunder of War',
     thematicToolkitVenomousShadow: 'Thematic Toolkit: Venomous Shadow',
-    toSaveAKingdom: 'Level Up: To Save a Kingdom',
-    trialsAndTreasures: 'Level Up: Trials and Treasures',
+    toSaveAKingdom: 'To Save a Kingdom',
+    trialsAndTreasures: 'Trials and Treasures',
   };
-  return {
-    book: sourceMap[source] ?? '',
+  /** @type {import('./types/dnd5e.mjs').SourceField} */
+  const source = {
+    book: sourceMap[src] ?? '',
     license: 'OGL 1.0a',
   };
+  if (source.book.includes('#')) {
+    const issue = source.book.split('#');
+    source.book = issue[0];
+    source.page = '#' + issue[1];
+  }
+  return source;
 }
 
 /**
