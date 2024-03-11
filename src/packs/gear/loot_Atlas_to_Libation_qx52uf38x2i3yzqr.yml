@@ -1,0 +1,37 @@
+name: Atlas to Libation
+type: loot
+img: icons/tools/navigation/map-marked-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This golden-brown parchment has an odd handle-like wooden stave and a
+      seal marked with an ale tankard. As a bonus action, you can break the seal
+      and unfurl the map. When you do so, the map fills in with accurate
+      topography in a 1-mile radius around you. A miniature image of you appears
+      at the map’s center along with a dotted line leading to an X that marks
+      the nearest potable alcohol. The map immediately rolls back up if brought
+      within 50 feet of alcohol or if no alcohol is within 1 mile when the seal
+      is opened.</p><p>Once used in this way, the seal reforms and is usable
+      again after 24 hours. </p><p>Alternatively, you can form a cylinder with
+      the map and grasp it by the handle as an action. If you do so, the map
+      hardens into a tall wooden tankard and magically fills with high quality
+      ale, then loses all magical properties and becomes a mundane object.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 35
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+folder: KgQ6CdIvGHXxQ3wz
+_id: qx52uf38x2i3yzqr
+_key: '!items!qx52uf38x2i3yzqr'
