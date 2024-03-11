@@ -96,6 +96,10 @@ jobs:
           npm run build --if-present
           mv --force public/a5e.mjs a5e.mjs
 
+      - name: Build Packs
+        run: |
+          npm run pullYMLtoLDB --if-present
+
       # Create a "module.zip" archive containing all the module's required files.
       # If you have other directories or files that will need to be added to
       # your packaged module, add them here.
@@ -118,7 +122,8 @@ jobs:
             a5e.css                              \
             templates/                           \
             assets/                              \
-            lang/
+            lang/                                \
+            packs/
           # Don't forget to add a backslash at the end of the line for any
           # additional files or directories!
 
