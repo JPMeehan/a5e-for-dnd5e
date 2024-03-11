@@ -8,8 +8,17 @@ import { _onDialogSubmit } from './src/module/hooks/expertiseDice.mjs';
 Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, A5E_CONFIG);
 
-  for (const prop of Object.keys(A5E_CONFIG.DND5E.itemProperties)) {
-    CONFIG.DND5E.validProperties.weapon.add(prop);
+  for (const [type, props] of Object.entries(
+    A5E_CONFIG.A5E.newItemProperties
+  )) {
+    foundry.utils.mergeObject(CONFIG.DND5E.itemProperties, props);
+    if (type.startsWith(moduleID)) {
+      CONFIG.DND5E.validProperties[type] = new Set(Object.keys(props));
+    } else {
+      for (const p of Object.keys(props)) {
+        CONFIG.DND5E.validProperties[type].add(p);
+      }
+    }
   }
 
   Object.assign(CONFIG.Item.dataModels, {

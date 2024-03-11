@@ -129,26 +129,18 @@ const A5E_CONFIG = {
  * The set of weapon property flags which can exist on a weapon.
  * @enum {string}
  */
-A5E_CONFIG.DND5E.itemProperties = {
-  // burn: { label: 'a5e-for-dnd5e.WeaponProperty.Burn' },
-  breaker: { label: 'a5e-for-dnd5e.WeaponProperty.Breaker' },
-  compounding: { label: 'a5e-for-dnd5e.WeaponProperty.Compounding' },
-  defensive: { label: 'a5e-for-dnd5e.WeaponProperty.Defensive' },
-  // flamboyant: { label: 'a5e-for-dnd5e.WeaponProperty.Flamboyant' },
-  // handMounted: { label: 'a5e-for-dnd5e.WeaponProperty.HandMounted' },
-  // inaccurate: { label: 'a5e-for-dnd5e.WeaponProperty.Inaccurate' },
-  mounted: { label: 'a5e-for-dnd5e.WeaponProperty.Mounted' },
-  // muzzleLoading: { label: 'a5e-for-dnd5e.WeaponProperty.MuzzleLoading' },
-  parrying: { label: 'a5e-for-dnd5e.WeaponProperty.Parrying' },
-  // parryingImmunity: { label: 'a5e-for-dnd5e.WeaponProperty.ParryingImmunity' },
-  // quickdraw: { label: 'a5e-for-dnd5e.WeaponProperty.Quickdraw' },
-  // range: { label: 'a5e-for-dnd5e.WeaponProperty.Range' },
-  // rifled: { label: 'a5e-for-dnd5e.WeaponProperty.Rifled' },
-  // scatter: { label: 'a5e-for-dnd5e.WeaponProperty.Scatter' },
-  // shock: { label: 'a5e-for-dnd5e.WeaponProperty.Shock' },
-  // triggerCharge: { label: 'a5e-for-dnd5e.WeaponProperty.TriggerCharge' },
-  // trip: { label: 'a5e-for-dnd5e.WeaponProperty.Trip' },
-  vicious: { label: 'a5e-for-dnd5e.WeaponProperty.Vicious' },
+A5E_CONFIG.A5E.newItemProperties = {
+  weapon: {
+    breaker: { label: 'a5e-for-dnd5e.WeaponProperty.Breaker' },
+    compounding: { label: 'a5e-for-dnd5e.WeaponProperty.Compounding' },
+    defensive: { label: 'a5e-for-dnd5e.WeaponProperty.Defensive' },
+    mounted: { label: 'a5e-for-dnd5e.WeaponProperty.Mounted' },
+    parrying: { label: 'a5e-for-dnd5e.WeaponProperty.Parrying' },
+    vicious: { label: 'a5e-for-dnd5e.WeaponProperty.Vicious' },
+  },
+  [moduleTypes.maneuver]: {
+    mastered: { label: 'a5e-for-dnd5e.Maneuver.Mastered' },
+  },
 };
 
 A5E_CONFIG.DND5E.featureTypes = {

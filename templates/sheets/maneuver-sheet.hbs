@@ -95,6 +95,16 @@
         </select>
       </div>
 
+      {{!-- Maneuver Properties --}}
+      <div class="maneuver-properties form-group stacked">
+          <label>{{ localize "a5e-for-dnd5e.Maneuver.Properties" }}</label>
+          {{#each properties}}
+          <label class="checkbox">
+              <input type="checkbox" name="system.properties.{{@key}}" {{checked selected}}> {{ label }}
+          </label>
+          {{/each}}
+      </div>
+
       <h3 class='form-header'>
         {{localize 'a5e-for-dnd5e.Maneuver.ActivationHeader'}}
       </h3>
