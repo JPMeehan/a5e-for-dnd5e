@@ -1,0 +1,121 @@
+folder: 9k4UVzCiMuqj62ea
+name: Nemirtvi's Skull Goblet
+type: equipment
+img: icons/containers/kitchenware/goblet-engraved-gold.webp
+system:
+  description:
+    value: >-
+      <p>While the construction of this cup is superlative, the magnificence of
+      its craftsmanship is turned wicked by the grotesque gold-crowned humanoid
+      skull that makes up its bowl. When you use this spellcasting focus to
+      consume Supply during a long rest, you gain a 1d8 expertise die on your
+      next Arcana or Religion check. After making this check, you make a
+      Charisma saving throw (DC 1 + 1 per previous use of this property) or gain
+      the Evil trait (making you radiate an aura of Evil).</p>
+
+      <p>In addition, once per day you can place the blood of a creature that
+      has died within the last hour into the goblet and drink from it. You
+      instantly experi- ence the last 10 minutes of the creature&rsquo;s life
+      through its senses, and you have disadvantage on your next Charisma saving
+      throw against Nemirtvi&rsquo;s skull goblet.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 12000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/containers/kitchenware/goblet-engraved-gold.webp
+    origin: Item.5UA9gH6mXAVBJGkd
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: NbAoZ6XzTRLX0tPQ
+        applyToSelf: true
+    transfer: false
+    name: Evil
+    _id: kkIIkviztr2qU2nm
+    changes:
+      - key: system.traits.alignment
+        value: Evil
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!kxy0s0moahrzpt31.kkIIkviztr2qU2nm'
+flags: {}
+_id: kxy0s0moahrzpt31
+_key: '!items!kxy0s0moahrzpt31'

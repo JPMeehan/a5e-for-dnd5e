@@ -1,0 +1,127 @@
+folder: 9k4UVzCiMuqj62ea
+name: Pearl of Dark Waters
+type: equipment
+img: icons/commodities/gems/pearl-water.webp
+system:
+  description:
+    value: >-
+      <p>This night-black pearl of surpassing quality is the size of an adult
+      human&rsquo;s fist. Just under the surface, dark waters roil and churn.
+      Once a golden pearl with the ability to purify waters and heal the most
+      grievous of wounds, it was taken by the aboleth necromancer Tolamir and
+      twisted to darker purposes.</p>
+
+      <p>The Pearl of Dark Waters is different from most magic items in that it
+      is so closely-tied to its mistress. Any creature that is not Tolamir that
+      touches the Pearl of Dark Waters takes 49 (14d6) necrotic damage and
+      suffers a level of strife, or half if they are Evil or undead. This damage
+      is halved if the Pearl of Dark Waters is still sundered. Additionally, as
+      long as both Tolamir and this artifact are on the same plane, she can
+      remain attuned to it no matter the distance or duration of separation.</p>
+
+      <p>The Pearl of Dark Waters cannot be taken far from the open sea. If it
+      is taken more than 50 miles inland from the coast (including on river
+      ways) it evaporates, immediately reforming on the nearest beach.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 14d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/gems/pearl-water.webp
+    origin: Item.c9Dzt0YsgU7e3HBx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: CgUTw7cVUyspqL11
+        applyToSelf: true
+    transfer: false
+    name: Strife
+    _id: Ua3axpVdQePfupw8
+    changes:
+      - key: system.attributes.strife
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!t57o62k1dyg3irr2.Ua3axpVdQePfupw8'
+flags: {}
+_id: t57o62k1dyg3irr2
+_key: '!items!t57o62k1dyg3irr2'

@@ -1,0 +1,96 @@
+folder: 9k4UVzCiMuqj62ea
+name: Wand of Maleficent Detection
+type: equipment
+img: icons/weapons/wands/wand-skull-horned.webp
+system:
+  description:
+    value: >-
+      <p>This osseous stick is engraved with small runes. The wand has 5 charges
+      and regains 1d4 charges each dawn.&nbsp;</p>
+
+      <p>hile holding the wand, you can use an action to expend a charge and
+      gain the ability to detect undead for 1 minute. You can sense when undead
+      are within 30 feet of you, but cannot determine their number, type, or
+      location.</p>
+
+      <p>As a bonus action, you can briefly enhance your senses to learn the
+      location, number, and type of any creatures of your chosen types within 30
+      feet of you. When you do so, creatures of those types that are within
+      range make a Wisdom saving throw (DC 8 + your proficiency bonus + your
+      highest mental ability score), with advantage if a creature&rsquo;s CR is
+      higher than your level. On a failed save, you also learn a
+      creature&rsquo;s identity.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: p41a52e79ognvmc7
+_key: '!items!p41a52e79ognvmc7'

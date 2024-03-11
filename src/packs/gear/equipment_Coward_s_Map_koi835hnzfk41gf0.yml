@@ -1,0 +1,98 @@
+folder: 9k4UVzCiMuqj62ea
+name: Coward's Map
+type: equipment
+img: icons/sundries/scrolls/scroll-bound-ruby-red.webp
+system:
+  description:
+    value: >-
+      <p>This map was used by the dwarves of Deephall Point to flee
+      Cirothe&rsquo;s assault on their homeland but it is not simply a drawing
+      of a secret route (though it is that, too), it is a powerful artifact that
+      helps any fleeing danger to find their refuge.</p>
+
+      <p>While holding the map, you can gaze into it and envision a place you
+      want to go. The map then depicts a path to that destination that is as
+      free of danger as possible. The terrain, features, and route all appear as
+      if some unseen hand is drawing it in front of your eyes making it
+      impossible for you to become lost. In addition, once per day the map shows
+      where you are likely to have a random encounter (allowing you to avoid the
+      area altogether).</p>
+
+      <p>DESTRUCTION</p>
+
+      <p>If you are in possession of the map and take fire damage from the
+      breath weapon of a red dragon, you automatically fail your Dexterity
+      saving throw and the map is destroyed. Otherwise the relic cannot be
+      damaged.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: koi835hnzfk41gf0
+_key: '!items!koi835hnzfk41gf0'

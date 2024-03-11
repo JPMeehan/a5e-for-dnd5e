@@ -1,0 +1,132 @@
+name: Whispering Daggers
+type: spell
+img: icons/weapons/daggers/dagger-blue.webp
+effects:
+  - icon: icons/weapons/daggers/dagger-blue.webp
+    origin: Item.HTabBqcxy1Kx0el3
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: vkbQdk2lBUnbRZrT
+    transfer: false
+    name: Conjured Daggers
+    _id: mGH2vH74Y2RH7Hfc
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You conjure a trio of ethereal daggers that float around you. On your
+      turn, you can throw the daggers at one or multiple targets within 60ft of
+      you, making a ranged spell attack for each dagger.</p>
+
+      <p>You can use an action to throw two daggers. You can use a bonus action
+      to throw one dagger. The daggers disappear after they are thrown.</p>
+
+      <p>As long as you are concentrating on the spell, the daggers
+      rematerialize floating around you at the beginning of your turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!6vaj0ain3o9vpikq.mGH2vH74Y2RH7Hfc'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - weaponry
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You conjure a trio of ethereal daggers that float around you. On your
+      turn, you can throw the daggers at one or multiple targets within 60 ft of
+      you, making a ranged spell attack for each dagger. On a hit, a target
+      takes 2d4 magical piercing damage.</p>
+
+      <p>You can use an action to throw two daggers. You can use a bonus action
+      to throw one dagger. The daggers disappear after they are thrown.</p>
+
+      <p>As long as you are concentrating on the spell, the daggers
+      rematerialize floating around you at the beginning of your turn.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The damage increases
+      by 1d4 for every two slot levels above 3rd.</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p><strong>Rare: Whispering Daggers.</strong> On a critical hit, the
+      target takes an additional 2d4 psychic damage as their mind is overwhelmed
+      by ghostly whispers.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - material
+    - concentration
+  materials:
+    value: a small bundle of pine needles
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d4
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4
+        - piercing
+      - - 0d1
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: ULrFDUr9XIqKkKnP
+_id: 6vaj0ain3o9vpikq
+_key: '!items!6vaj0ain3o9vpikq'

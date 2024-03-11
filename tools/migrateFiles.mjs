@@ -87,7 +87,7 @@ function mapSource(src) {
   };
   if (source.book.includes('#')) {
     const issue = source.book.split('#');
-    source.book = issue[0];
+    source.book = issue[0].trim();
     source.page = '#' + issue[1];
   }
   return source;
@@ -255,6 +255,10 @@ function processRolls(rolls, action, system) {
         system.attackBonus = r.bonus ?? '';
         break;
       case 'damage':
+        if (!r.formula) {
+          console.warn('No formula found in', action.name);
+          continue;
+        }
         formula = r.formula.replace(/\w+.mod/, 'mod'); //  re.sub("@w+.mod", "@mod", r.formula);
         if (!r.damageType) {
           console.warn('No damage type found in', action.name);

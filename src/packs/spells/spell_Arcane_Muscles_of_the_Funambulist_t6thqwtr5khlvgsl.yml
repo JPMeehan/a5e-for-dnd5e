@@ -1,0 +1,131 @@
+name: Arcane Muscles of the Funambulist
+type: spell
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+effects:
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Item.j5wlDqOi9sJnGPMI
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 9mkcm7B4GV5nfOlp
+        duration:
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Arcane Muscles of the Funambulist
+    _id: 6lMRS1Jol2uoJWDm
+    changes:
+      - key: system.skills.acr.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your muscles swell with arcane power. They're too clumsy to effectively
+      wield weapons but certainly strong enough for a powerful punch. Until the
+      spell ends, you can choose to use your spellcasting ability score for
+      Athletics checks, and for the attack and damage rolls of unarmed strikes.
+      In addition, your unarmed strikes deal 1d6 bludgeoning damage and count as
+      magical for the purpose of overcoming resistance and immunity to
+      nonmagical attacks and damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t6thqwtr5khlvgsl.6lMRS1Jol2uoJWDm'
+flags:
+  a5e:
+    sortMode: 1
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - enhancement
+      - transformation
+      - unarmed
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>Your muscles swell with arcane power. They're too clumsy to effectively
+      wield weapons but certainly strong enough for a powerful punch. Until the
+      spell ends, you can choose to use your spellcasting ability score for
+      Athletics checks, and for the attack and damage rolls of unarmed strikes.
+      In addition, your unarmed strikes deal 1d6 bludgeoning damage and count as
+      magical for the purpose of overcoming resistance and immunity to
+      nonmagical attacks and damage.</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p><strong>Rare: Arcane Muscles of the Funambulist.</strong> Rumored to
+      have been created by a wizard enamored with a funambulist, this rare
+      variant additionally grants you an expertise die in Acrobatics.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: VZdnSJFGeDzlfocC
+_id: t6thqwtr5khlvgsl
+_key: '!items!t6thqwtr5khlvgsl'

@@ -1,0 +1,106 @@
+folder: jUj7oP8VFpreITEL
+name: Vampire Draught
+type: consumable
+img: icons/consumables/potions/potion-bottle-corked-white.webp
+system:
+  description:
+    value: >-
+      <p><em>Rare, Contact, Onset (1 hour)</em></p>
+
+      <p>This milky liquid gives living creatures the superficial appearance and
+      weakness of being a vampire. A creature makes a DC 17 Constitution saving
+      throw when subjected to this poison, and on a failure it becomes
+      afflicted. The afflicted creature becomes pale, its canines grow long, and
+      direct sunlight burns it like flame. When the afflicted creature ends its
+      turn in an area of sunlight or first enters into an area of sunlight on a
+      turn, it makes a DC 13 Constitution saving throw or becomes poisoned until
+      it ends its turn in an area of dim light or darkness. At the end of each
+      long rest, an afflicted creature can make a DC 17 Constitution saving
+      throw, ending the effect on itself on a success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 250
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/potions/potion-bottle-corked-white.webp
+    origin: Item.tIi2jltMFwp9tBeY
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: siCYKtvPrtnz9STJ
+    transfer: false
+    name: Poisoned
+    _id: o8ICo9Vs7BKgsSWN
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    folder: null
+    _key: '!items.effects!gru8qg2zqkv16kne.o8ICo9Vs7BKgsSWN'
+flags: {}
+_id: gru8qg2zqkv16kne
+_key: '!items!gru8qg2zqkv16kne'

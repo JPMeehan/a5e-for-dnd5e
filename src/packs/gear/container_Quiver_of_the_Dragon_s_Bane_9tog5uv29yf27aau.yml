@@ -1,0 +1,57 @@
+name: Quiver of the Dragon's Bane
+type: container
+img: icons/containers/ammunition/arrows-quiver-green.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Capacity: </strong>20 arrows</p>
+
+      <p>This quiver made by the elves of Greenfell contains the poison of the
+      Spider Queen Sheeltielle. Any arrow placed into it gains the dragonvenom
+      enchantment for up to 1 minute after it has been drawn back out.</p>
+
+      <hr>
+
+      <p><em><strong>Dragonvenom.</strong></em> An arrow enchanted with
+      dragonvenom deals an extra 21 (6d6) poison damage. When you hit a dragon
+      with a dragonvenom arrow, the attack becomes a critical hit and the dragon
+      makes a DC 14 Wisdom saving throw. On a failure, attacks against the
+      dragon have advantage until the start of its next turn.</p>
+
+      <hr>
+
+      <p>DESTRUCTION</p>
+
+      <p>If you are in possession of the quiver and take fire damage from the
+      breath weapon of a red dragon, you automatically fail your Dexterity
+      saving throw and the quiver is destroyed. Otherwise the relic cannot be
+      damaged.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: .nan
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+folder: juYjTH85siuKSM9j
+_id: 9tog5uv29yf27aau
+_key: '!items!9tog5uv29yf27aau'

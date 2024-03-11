@@ -1,0 +1,148 @@
+folder: 9k4UVzCiMuqj62ea
+name: Servant's Amulet
+type: equipment
+img: icons/equipment/neck/amulet-round-silver-teal.webp
+system:
+  description:
+    value: >-
+      <p>This pewter talisman hangs from a simple silk cord. While you are
+      attuned to and wearing this amulet, you gain the following immunities.</p>
+
+      <ul>
+
+      <li>Divination spells cast by creatures other than the amulet&rsquo;s
+      creator.</li>
+
+      <li>The charmed, frightened, and rattled conditions.</li>
+
+      <li>Any effect that would read your emotions or thoughts (as the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.wad0cgw4tcdbuvbr]{Mind Blank}
+      spell).</li>
+
+      </ul>
+
+      <p>In addition, you can use a bonus action to teleport up to 100 feet to
+      an unoccupied space you can see (minimum 10 feet). Once you have used this
+      property to teleport a total of 400 feet, you cannot use it again until
+      you finish a long rest.</p>
+
+      <p>When the amulet&rsquo;s creator dies it becomes an amulet of
+      protection.</p>
+
+      <hr>
+
+      <p><em><strong>Cursed.</strong></em> You cannot remove this amulet until
+      you are targeted by
+      @UUID[Compendium.a5e.a5e-spells.Item.l16wg9h1z9s16exb]{Remove Curse} or
+      similar magic. When you do so, the amulet teleports back to its creator
+      and you make a DC 20 Constitutionsaving throw or suffer 1d4+1 levels of
+      strife.</p>
+
+      <p>In addition, when you attune to this amulet the creator may command
+      that you keep their secrets. While you are on the same plane of existence
+      as the amulet&rsquo;s creator, they can telepathically communicate with
+      you, give you commands (as the
+      @UUID[Compendium.a5e.a5e-spells.Item.a64cea2ij2t33xva]{Geas} spell), and
+      you are unable to share information about them through pantomime, speech,
+      writing, or any other means unless they allow you to do so. When you are
+      reduced to 0 hit points while wearing the amulet, you and all of your
+      belongings are teleported back to the amulet&rsquo;s creator.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/equipment/neck/amulet-round-silver-teal.webp
+    origin: Item.Er9pGyMf0HxmyfoR
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Servant's Amulet
+    _id: PWCCjFvS9UG02yej
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["charmed","frightened","rattled"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!62z5367evqwj7r0j.PWCCjFvS9UG02yej'
+flags: {}
+_id: 62z5367evqwj7r0j
+_key: '!items!62z5367evqwj7r0j'

@@ -1,0 +1,231 @@
+folder: 9k4UVzCiMuqj62ea
+name: Amulet of the Spectral Grove
+type: equipment
+img: icons/equipment/neck/necklace-triquetra-silver.webp
+system:
+  description:
+    value: >-
+      <p>This intricate piece of jewelry is carved from unblemished white stone.
+      A polished opal sits at its center held in place by intricate, delicately
+      thin strands of seamless rock. Once you have attuned to this amulet, while
+      wearing it you gain the constant effects of a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.wa2nd43b9dvkh1yu]{Protection
+      from Evil and Good} spell and you are immune to fear.</p>
+
+      <p>Once per week you can use an action to go limp, withdrawing your spirit
+      from your corporeal form (treat your body as under the effects of a
+      @UUID[Compendium.a5e.a5e-spells.Item.anlgm314xl6sscco]{Magic Jar} spell).
+      Your spectral form appears within 30 feet of your body and gains the
+      following benefits:</p>
+
+      <ul>
+
+      <li>Your AC increases by 3.</li>
+
+      <li>Any damage you take in spectral form is immediately dealt to your
+      corporeal form. When you are reduced to 0 hit points, your spectral form
+      dissipates. Otherwise your spectral form remains for 2 minutes.</li>
+
+      <li>You gain a fly speed of 40 feet and the ability to hover.</li>
+
+      <li>You can see normally in darkness, both magical and nonmagical, to a
+      distance of 120 feet.</li>
+
+      <li>You can see 60 feet into the Ethereal Plane when you are on the
+      Material Plane, and vice versa.</li>
+
+      <li>You gain resistance to acid, fire, lightning, and thunder damage, and
+      resistance to bludgeoning, piercing, and slashing.</li>
+
+      <li>You gain immunity to cold, necrotic, and poison damage, and the
+      charmed, fatigue, grappled , paralyzed, petrified, poisoned, prone,
+      restrained, and slowed conditions.</li>
+
+      <li>You can move through other creatures and objects as if they were
+      difficult terrain . You take 5 (1d10) force damage if you end your turn
+      inside an object.</li>
+
+      <li>You can use an action to enter the Ethereal Plane from the Material
+      Plane, or vice versa. You are visible on the Material Plane while
+      you&rsquo;re in the Border Ethereal, and vice versa, yet you can&rsquo;t
+      affect or be affected by anything on the other plane.</li>
+
+      <li>You can use an action to shoot a number of energy rays equal to your
+      proficiency bonus. These are spell attacks with range 50/100 ft., and on a
+      successful hit deal 3d6 radiant damage plus your Charisma modifier
+      (minimum 0). You use Charisma as your spellcasting ability for this
+      feature.</li>
+
+      <li>You can use a bonus action to shoot a number of energy rays equal to
+      half your proficiency bonus. When you do so, the duration of your spectral
+      form is reduced by 1d4 rounds.</li>
+
+      </ul>
+
+      <p>When the duration of your spectral form ends, make a Constitution
+      saving throw (DC 8 + 1 per round of use). If your spectral form dissipates
+      from damage you have disadvantage on this saving throw. On a failure you
+      are reduced to 0 hit points and must make death saves.</p>
+
+      <p>Evil and undead creatures take 2d6 fire damage when touching the amulet
+      and cannot activate its abilities.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 85000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: 50
+    long: 100
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6 + max(@mod,0)
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/equipment/neck/necklace-triquetra-silver.webp
+    origin: Item.FveMx4qrEvDkbSO5
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Immune to Fear
+    _id: Vd1VJWb4BOTl6l6c
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["frightened"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!vdejekpf28b10i6c.Vd1VJWb4BOTl6l6c'
+  - icon: icons/equipment/neck/necklace-triquetra-silver.webp
+    origin: Item.FveMx4qrEvDkbSO5
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nS5UjXyDlI5NfVd6
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Spectral Form
+    _id: 2oFgPZdwZYPfsaP5
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '3'
+        mode: 2
+        priority: null
+      - key: system.attributes.movement.fly.distance
+        value: '40'
+        mode: 6
+        priority: null
+      - key: system.attributes.movement.traits.hover
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.attributes.senses.darkvision.distance
+        value: '120'
+        mode: 6
+        priority: null
+      - key: system.traits.damageResistances
+        value: >-
+          ["acid","fire","lightning","thunder","bludgeoning","piercing","slashing"]
+        mode: 2
+        priority: null
+      - key: system.traits.damageImmunities
+        value: '["cold","necrotic","poison"]'
+        mode: 2
+        priority: null
+      - key: system.traits.conditionImmunities
+        value: >-
+          ["charmed","fatigue","grappled","paralyzed","petrified","poisoned","prone","restrained","slowed"]
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 120
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!vdejekpf28b10i6c.2oFgPZdwZYPfsaP5'
+flags: {}
+_id: vdejekpf28b10i6c
+_key: '!items!vdejekpf28b10i6c'

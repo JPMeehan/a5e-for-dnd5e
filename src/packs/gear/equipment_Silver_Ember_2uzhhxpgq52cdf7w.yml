@@ -1,0 +1,138 @@
+folder: 9k4UVzCiMuqj62ea
+name: Silver Ember
+type: equipment
+img: icons/equipment/neck/pendant-silver-pink.webp
+system:
+  description:
+    value: >-
+      <p>This small necklace bears a flame idol&mdash;like the birthmark that
+      Milton Fremont had upon his hand&mdash;made of silver hanging from a
+      silver chain.</p>
+
+      <hr>
+
+      <p><em><strong>Banish the Dark.</strong></em> While you are within 500
+      miles of the island of Flame&rsquo;s Rest and have an unobstructed line of
+      effect to the Silver Flame, you can use a bonus action to grasp the
+      necklace and point it at an area of darkness you can see that is up to 20
+      feet in radius. The area of darkness becomes brightly lit for the next
+      minute and the darkness is dispelled.</p>
+
+      <p>Alternatively, you can use this property while not able to access the
+      Silver Flame. Once you have used this property in that way, you cannot do
+      so again until the next dawn.</p>
+
+      <p><em><strong>Silver Essence.</strong></em> While wearing this necklace,
+      your melee and ranged weapon attacks are considered to be both magical and
+      silvered.</p>
+
+      <p><em><strong>Silver Light.</strong></em> This trinket shines with silver
+      light in a 15-foot radius and dim silver light for an additional 15 feet.
+      You can use an action to increase or decrease the light and dim light
+      radiuses by 5 feet, up to a maximum of 30 feet each or down to a minimum
+      of 10 feet each.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 900
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/equipment/neck/pendant-silver-pink.webp
+    origin: Item.hFLC7AAD2Pg8oNxW
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Silver Light
+    _id: ZwvFx2lFsuwvXThS
+    changes:
+      - key: '@token.light.bright'
+        value: '15'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '30'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!2uzhhxpgq52cdf7w.ZwvFx2lFsuwvXThS'
+flags: {}
+_id: 2uzhhxpgq52cdf7w
+_key: '!items!2uzhhxpgq52cdf7w'

@@ -1,10 +1,9 @@
 name: Cloak of Protection
 type: equipment
-img: >-
-  https://assets.forge-vtt.com/bazaar/core/icons/equipment/back/cloak-plain-blue.webp
+img: icons/equipment/back/cloak-plain-blue.webp
 effects:
   - icon: https://assets.forge-vtt.com/bazaar/core/icons/svg/aura.svg
-    origin: Item.hls8eh2olucwuj1p
+    origin: Item.HYWt9eJZs3vcvkGM
     flags:
       a5e:
         sort: 0
@@ -42,7 +41,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   quantity: 1
   weight: 0
@@ -68,6 +67,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: 9k4UVzCiMuqj62ea
 _id: hls8eh2olucwuj1p

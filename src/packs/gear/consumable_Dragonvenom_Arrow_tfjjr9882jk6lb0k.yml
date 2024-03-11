@@ -1,0 +1,35 @@
+folder: jUj7oP8VFpreITEL
+name: Dragonvenom Arrow
+type: consumable
+img: icons/weapons/ammunition/arrow-simple-brown.webp
+system:
+  description:
+    value: >-
+      <p>An arrow enchanted with dragonvenom deals an extra 21 (6d6) poison
+      damage. When you hit a dragon with a dragonvenom arrow, the attack becomes
+      a critical hit and the dragon makes a DC 14 Wisdom saving throw. On a
+      failure, attacks against the dragon have advantage until the start of its
+      next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  type:
+    value: ammo
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+_id: tfjjr9882jk6lb0k
+_key: '!items!tfjjr9882jk6lb0k'

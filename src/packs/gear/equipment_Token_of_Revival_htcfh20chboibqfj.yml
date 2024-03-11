@@ -1,0 +1,90 @@
+folder: 9k4UVzCiMuqj62ea
+name: Token of Revival
+type: equipment
+img: icons/commodities/currency/coin-engraved-sun-smile-copper.webp
+system:
+  description:
+    value: >-
+      <p>This small coin seems to be made of diamond and bears the symbol of the
+      Order of Night&rsquo;s End in gold&mdash;a shining sun. You can spend
+      1d4+2 rounds pressing at the coin to break it, making a DC 13 Constitution
+      saving throw on each of your turns and taking a level of fatigue on a
+      failure. When the coin breaks, you can press the remains against the
+      corpse of a creature that was slain less than 10 minutes ago to bring the
+      creature back to life. Roll 1d20 and on a result of 5 or higher the
+      creature is restored to life with 1 hit point and 3 levels of fatigue.
+      Otherwise the slain creature is
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.3bqdjnpytxlpgcc4]{reincarnated}
+      instead (as per the spell, but taking immediate effect).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 9000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: generic
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: htcfh20chboibqfj
+_key: '!items!htcfh20chboibqfj'

@@ -1,10 +1,9 @@
 name: Ring of Protection
 type: equipment
-img: >-
-  https://assets.forge-vtt.com/bazaar/core/icons/equipment/finger/ring-faceted-grey.webp
+img: icons/equipment/finger/ring-faceted-grey.webp
 effects:
   - icon: https://assets.forge-vtt.com/bazaar/core/icons/svg/aura.svg
-    origin: Item.uu67m6vxlnd1xnvw
+    origin: Item.FSjG2252DthIqklK
     flags:
       a5e:
         sort: 0
@@ -43,7 +42,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   quantity: 1
   weight: 0
@@ -69,6 +68,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: 9k4UVzCiMuqj62ea
 _id: uu67m6vxlnd1xnvw

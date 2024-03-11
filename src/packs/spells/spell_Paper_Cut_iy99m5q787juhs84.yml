@@ -1,0 +1,85 @@
+name: Paper Cut
+type: spell
+img: icons/sundries/gaming/playing-cards-black.webp
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You summon forth an ethereal sheet of paper, or a playing card, and
+      throw it at your target.</p>
+
+      <p>Make a ranged spell attack. On a hit, you deal 1d4 magical slashing
+      damage.</p>
+
+      <p>The spell's damage increases by 1d4 when you reach 5th level (2d4),
+      11th level (3d4), and 17th level (4d4).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 0
+  school: con
+  properties:
+    - somatic
+    - material
+  materials:
+    value: a piece of paper, held between the caster's fingers
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d4
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: Tw5cqPbIxtfMfhDz
+_id: iy99m5q787juhs84
+_key: '!items!iy99m5q787juhs84'

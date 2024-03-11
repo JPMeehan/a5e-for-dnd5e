@@ -1,0 +1,117 @@
+name: Silver Quickbow
+type: weapon
+img: icons/equipment/wrist/bracer-red-silver.webp
+system:
+  description:
+    value: >-
+      <p>This gauntlet fits over the wrist, binding tightly with cords of
+      leather, and one side of it is adorned with a winged silver contraption
+      that has a taut wire connected on the ends and set perpendicular to the
+      bracer. When you take the Attack action using this weapon, you may choose
+      to attack with disadvantage until the start of your next turn to make two
+      additional ranged weapon attacks.</p>
+
+      <hr>
+
+      <p>This archaic weapon is covered in holy iconography. You gain a +1
+      magical bonus to attack and damage rolls made with this quickbow.</p>
+
+      <p>In addition, while attuned this weapon has the following
+      properties.</p>
+
+      <hr>
+
+      <p><em><strong>Rain of Bolts.</strong></em> You can use an action to fire
+      a rain of bolts. Make a ranged weapon attack against any number of
+      creatures within 40 feet of a point you can see within 100 feet. You must
+      have ammunition for each target, and you make a separate attack roll for
+      each target. You do not have disadvantage for firing the weapon at long
+      range for this action. Once you have used this property, it cannot be used
+      again until the next sunrise.</p>
+
+      <p><em><strong>Silvered Bolts.</strong></em> Every bolt you fire from the
+      quickbow becomes coated in silver as it leaves the flight groove. On a
+      successful hit against an undead, a silvered bolt from this weapon deals
+      an extra 1d6 radiant damage. This silver dissipates after 1 minute.</p>
+
+      <hr>
+
+      <p>Evil and undead creatures take 2d6 radiant damage when touching this
+      weapon and cannot wield it.</p><hr><p><b>Hand-Mounted:</b> This weapon is
+      affixed to your hand. You can do simple activities such as climbing a
+      ladder while wielding this weapon, and you have advantage on saving throws
+      made to resist being disarmed. You cannot use a hand that is wielding a
+      hand-mounted weapon to do complex tasks like picking a pocket, using
+      thieves’ tools to bypass a lock, or casting spells with seen
+      components.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: To Save a Kingdom
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 8500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - amm
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 40
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 100
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: zzy7PcM8aJV9irTn
+flags: {}
+_id: iv7cia7sxc8cze32
+_key: '!items!iv7cia7sxc8cze32'
