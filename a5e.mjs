@@ -21,8 +21,8 @@ Hooks.once('init', () => {
     }
   }
 
-  CONFIG.DND5E.itemProperties[moduleTypes.maneuver].add('concentration');
-  CONFIG.DND5E.itemProperties[moduleTypes.maneuver].add('magical');
+  CONFIG.DND5E.validProperties[moduleTypes.maneuver].add('concentration');
+  CONFIG.DND5E.validProperties[moduleTypes.maneuver].add('mgc');
 
   Object.assign(CONFIG.Item.dataModels, {
     [moduleTypes.culture]: DataClasses.Culture,
