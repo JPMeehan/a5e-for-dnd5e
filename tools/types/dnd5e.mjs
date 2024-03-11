@@ -276,6 +276,21 @@
 /**
  * Data definition for Weapon items.
  * @typedef Weapon
- * @property {Array<string>} properties   Mapping of various weapon property booleans.
- * @property {number} proficient   Does the weapon's owner have proficiency?
+ * @property {Array<string>} properties   Weapon's properties
+ * @property {number} proficient          Does the weapon's owner have proficiency?
+ */
+
+/**
+ *
+ * A5E-for-DND5E Module Subtypes
+ *
+ */
+
+/**
+ * Data definition for Maneuver items.
+ * @typedef Maneuver
+ * @property {number} degree                    Degree (level) of the maneuver.
+ * @property {string} tradition                 Combat tradition to which this maneuver belongs.
+ * @property {string} prerequisite              Requirements for the maneuver
+ * @property {Set<string>} properties           Maneuver's properties.
  */

@@ -7,7 +7,7 @@ import ReferenceFolder from '../ReferenceFolder.mjs';
 const targetPack = 'spells';
 const packPath = path.join('src', 'packs', targetPack);
 
-const spellPack = await fs.readdir(packPath);
+const yamlPack = await fs.readdir(packPath);
 
 async function createFolders() {
   const outerFolders = ['Spells', 'Rare Spells'];
@@ -78,7 +78,7 @@ async function createFolders() {
   await ReferenceFolder.build(targetPack);
 }
 try {
-  await fs.access(path.join('tools', 'referenceFolders', 'spells.yml'));
+  await fs.access(path.join('tools', 'referenceFolders', targetPack + '.yml'));
 } catch {
   await createFolders();
 }
@@ -99,10 +99,10 @@ for (const [id, f] of Object.entries(folders.compendium)) {
   else rareSpells[level] = id;
 }
 
-for (const d of spellPack) {
+for (const d of yamlPack) {
   const read_file = await fs.readFile(path.join(packPath, d));
   const data = yaml.load(read_file);
-  if (data.type !== 'spell') continue;
+  if (data.type === 'Item') continue;
   if (data.flags['a5e-for-dnd5e']?.rareSpell) {
     data.folder = rareSpells[data.system.level];
   } else data.folder = spells[data.system.level];

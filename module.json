@@ -100,9 +100,9 @@
       }
     },
     {
-      "name": "combat-maneuvers",
+      "name": "maneuvers",
       "label": "Combat Maneuvers",
-      "path": "packs/combat-maneuvers",
+      "path": "packs/maneuvers",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -189,7 +189,7 @@
         {
           "name": "Gear, Spells, and Maneuvers",
           "sorting": "m",
-          "packs": ["gear", "spells", "combat-maneuvers"],
+          "packs": ["gear", "spells", "maneuvers"],
           "color": "#8f5e2d",
           "folders": []
         },

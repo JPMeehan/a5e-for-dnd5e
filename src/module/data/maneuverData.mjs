@@ -6,11 +6,10 @@ import { modulePath } from '../utils.mjs';
  * @mixes ActivatedEffectTemplate
  * @mixes ActionTemplate
  *
- * @property {number} degree                     Degree (level) of the maneuver.
- * @property {string} tradition                  Combat tradition to which this maneuver belongs.
- * @property {object} scaling                    Details on how casting at higher levels affects this maneuver.
- * @property {string} scaling.mode               Spell scaling mode as defined in `DND5E.spellScalingModes`.
- * @property {string} scaling.formula            Dice formula used for scaling.
+ * @property {number} degree                    Degree (level) of the maneuver.
+ * @property {string} tradition                 Combat tradition to which this maneuver belongs.
+ * @property {string} prerequisite              Requirements for the maneuver
+ * @property {Set<string>} properties           Maneuver's properties.
  */
 export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   dnd5e.dataModels.item.ItemDescriptionTemplate,

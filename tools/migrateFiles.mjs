@@ -399,11 +399,28 @@ function migrateFeature(system) {
 
 /**
  *
- * @param {object} system
- * @returns
+ * @param {import('./types/a5e.mjs').Maneuver} system
+ * @returns {import('./types/dnd5e.mjs').Maneuver}
  */
 function migrateManeuver(system) {
-  return;
+  /** @type {import('./types/dnd5e.mjs').Maneuver} */
+  const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: '',
+    },
+    source: mapSource(system.source),
+    degree: system.degree,
+    tradition: system.tradition,
+    prerequisite: system.prerequisite,
+    properties: [],
+  };
+
+  if (system.concentration) o5e.properties.push('concentration');
+
+  for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+
+  return o5e;
 }
 
 /**
