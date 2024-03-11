@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { Folder } from './utils.mjs';
+import { Folder } from '../utils.mjs';
 import yaml from 'js-yaml';
-import ReferenceFolder from './ReferenceFolder.mjs';
+import ReferenceFolder from '../ReferenceFolder.mjs';
 
 const targetPack = 'gear';
 const packPath = path.join('src', 'packs', targetPack);
