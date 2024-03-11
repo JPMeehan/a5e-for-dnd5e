@@ -544,7 +544,7 @@ function migrateObject(system) {
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
       break;
     default:
-      o5e.type = 'loot';
+      o5e.documentSubType = 'loot';
   }
   return o5e;
 }

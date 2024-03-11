@@ -73,14 +73,20 @@ for (const [id, f] of Object.entries(folders.compendium)) {
   target[currentName] = id;
 }
 
-console.log(magic, mundane);
-
 for (const d of yamlPack) {
   const read_file = await fs.readFile(path.join(packPath, d));
   const data = yaml.load(read_file);
-  if (data.type === 'folder') continue;
+  if (data.type === 'Item') continue;
+  if (!data.system) {
+    console.log(d);
+    continue;
+  }
   const target = data.system.rarity === 'mundane' ? mundane : magic;
   const inF = innerFolders.find((f) => f.type === data.type);
+  if (!inF) {
+    console.log(d);
+    continue;
+  }
   if (inF.type === 'equipment') {
     switch (data.system.type.value) {
       case 'light':
