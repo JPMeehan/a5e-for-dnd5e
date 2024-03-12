@@ -123,11 +123,10 @@
  */
 
 /**
- * @typedef ItemType
- * @property {object} type                      Standardized item type object.
- * @property {string} type.value                Category to which this item belongs.
- * @property {string} type.subtype              Item subtype according to its category.
- * @property {string} type.baseItem             Item this one is based on.
+ * @typedef ItemType Standardized item type object.
+ * @property {string} value                Category to which this item belongs.
+ * @property {string} [subtype]            Item subtype according to its category.
+ * @property {string} [baseItem]           Item this one is based on.
  */
 
 /**
@@ -203,6 +202,7 @@
 /**
  * Data definition for Consumable items.
  * @typedef Consumable
+ * @property {ItemType} type
  * @property {Array<string>} properties  Ammunition properties.
  * @property {object} uses
  * @property {boolean} uses.autoDestroy  Should this item be destroyed when it runs out of uses.
@@ -219,6 +219,7 @@
 /**
  * Data definition for Equipment items.
  * @typedef Equipment
+ * @property {ItemType} type
  * @property {object} armor             Armor details and equipment type information.
  * @property {number} armor.value       Base armor class or shield bonus.
  * @property {number} armor.dex         Maximum dex bonus added to armor class.
@@ -233,6 +234,7 @@
 /**
  * Data definition for Feature items.
  * @typedef Feat
+ * @property {ItemType} type
  * @property {Array<string>} properties             General properties of a feature item.
  * @property {string} requirements                  Actor details required to use this feature.
  * @property {object} recharge                      Details on how a feature can roll for recharges.
@@ -243,6 +245,8 @@
 /**
  * Data definition for Loot items.
  * @typedef Loot
+ * @property {ItemType} type
+ * @property {Array<string>} properties             General properties of a loot item.
  */
 
 /**
@@ -267,6 +271,7 @@
 /**
  * Data definition for Tool items.
  * @typedef Tool
+ * @property {ItemType} type
  * @property {string} ability     Default ability when this tool is being used.
  * @property {string} chatFlavor  Additional text added to chat when this tool is used.
  * @property {number} proficient  Level of proficiency in this tool as defined in `DND5E.proficiencyLevels`.
@@ -276,6 +281,7 @@
 /**
  * Data definition for Weapon items.
  * @typedef Weapon
+ * @property {ItemType} type
  * @property {Array<string>} properties   Weapon's properties
  * @property {number} proficient          Does the weapon's owner have proficiency?
  */

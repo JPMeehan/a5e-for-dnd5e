@@ -120,7 +120,7 @@
  */
 
 /**
- * @typedef {object} Feature
+ * @typedef {object} FeatureGrant
  */
 
 /**
@@ -155,6 +155,7 @@
  * @property {boolean} concentration
  * @property {string} featureType
  * @property {Record<string, Grant>} grants
+ * @property {string} prerequisite
  * @property {boolean} requiresBloodied
  */
 

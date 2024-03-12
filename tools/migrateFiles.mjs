@@ -7,6 +7,36 @@ const origin = path.join('src', 'packs-origin', targetPack);
 let packPath = path.join('src', 'packs', targetPack);
 const packList = await fs.readdir(origin);
 
+switch (targetPack) {
+  case 'adventuringGear':
+  case 'magicItems':
+    packPath = path.join('src', 'packs', 'gear');
+    break;
+  case 'backgroundFeatures':
+  case 'cultureFeatures':
+  case 'destinyFeatures':
+  case 'heritageFeatures':
+  case 'feats':
+  case 'paragonGifts':
+    packPath = path.join('src', 'packs', 'origin-features');
+    break;
+  case 'backgrounds':
+  case 'cultures':
+  case 'destinies':
+  case 'heritages':
+    packPath = path.join('src', 'packs', 'origins');
+    break;
+  case 'classFeatures':
+    packPath = path.join('src', 'packs', 'class-features');
+    break;
+  case 'monsters':
+    packPath = path.join('src', 'packs', 'bestiary');
+    break;
+  case 'roll-tables':
+    packPath = path.join('src', 'packs', 'tables');
+    break;
+}
+
 let debugInfo = false;
 
 // dnd5e item types = ["weapon", "equipment", "consumable", "tool", "loot", "background", "class", "subclass", "spell", "feat", "container"]
@@ -395,28 +425,114 @@ function migrateMonster(system) {
 }
 
 /**
+ * @typedef {import('./types/dnd5e.mjs').Feat & import('./types/dnd5e.mjs').ItemDescription} Feature
+ */
+
+/**
  *
- * @param {import('./types/a5e.mjs').Feature} system The a5e feature
- * @returns {object}      The o5e feature
+ * @param {import('./types/a5e.mjs').Feature & import('./types/a5e.mjs').BaseTemplate} system The a5e feature
+ * @returns {Feature}      The o5e feature
  */
 function migrateFeature(system) {
+  /** @type {Feature} */
   const o5e = {
+    type: featureTypes(system),
     description: {
       value: fixUUIDrefs(system.description),
       chat: '',
     },
     source: mapSource(system.source),
+    properties: [],
+    requirements: system.prerequisite,
+    recharge: {
+      value: null,
+      charged: true,
+    },
   };
+
+  if (system.concentration) o5e.properties.push('concentration');
+
+  for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+
   return o5e;
 }
 
 /**
+ * Translates a5e featureTypes to dnd5e type.value and type.subtype
+ * @param {import('./types/a5e.mjs').Feature} system
+ * @returns {import('./types/dnd5e.mjs').ItemType}
+ */
+function featureTypes(system) {
+  const typeMap = {
+    background: 'background',
+    boon: 'supernaturalGift',
+    class: 'class',
+    culture: 'culture',
+    destiny: 'destiny',
+    feat: 'feat',
+    heritage: 'race',
+    knack: 'class',
+    legendaryAction: 'monster',
+    naturalWeapon: '',
+    other: '',
+  };
+  const subtypeMap = {
+    /** Adept */
+    practicedTechnique: 'Technique',
+    focusFeature: 'Focus',
+    /** Artificer */
+    // fieldDiscovery: 'Field Discovery', // No consistent naming scheme
+    /** Bard */
+    battleHymn: 'Battle Hymn',
+    /** Berserker */
+    developedTalent: 'Talent',
+    furiousCritical: 'Critical',
+    /** Cleric */
+    faithSign: 'Sign',
+    /** Druid */
+    natureSecret: 'Druid Secrets',
+    /** Fighter */
+    soldieringKnack: 'Knack',
+    /** Herald */
+    divineLesson: 'Lesson',
+    /** Marshal */
+    warLesson: 'Lesson',
+    /** Ranger */
+    explorationKnack: 'Knack',
+    /** Rogue */
+    skillTrick: 'Trick',
+    /** Savant */
+    cleverScheme: 'Clever Scheme',
+    // savantTrick: 'Savant Trick', // No consistent naming scheme
+    /** Sorcerer */
+    arcaneInnovation: 'Innovation',
+    /** Warlock (note: Eldritch Invocation is base 5e) */
+    secretArcana: 'Secrets',
+    /** Wizard */
+    electiveStudy: 'Elective',
+  };
+
+  let subtype = '';
+
+  // some fancy loop for class features
+
+  return {
+    value: typeMap[system.featureType],
+    subtype,
+  };
+}
+
+/**
+ * @typedef {import('./types/dnd5e.mjs').Maneuver & import('./types/dnd5e.mjs').ItemDescription} Maneuver
+ */
+
+/**
  *
  * @param {import('./types/a5e.mjs').Maneuver} system
- * @returns {import('./types/dnd5e.mjs').Maneuver}
+ * @returns {Maneuver}
  */
 function migrateManeuver(system) {
-  /** @type {import('./types/dnd5e.mjs').Maneuver} */
+  /** @type {} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -437,11 +553,16 @@ function migrateManeuver(system) {
 }
 
 /**
+ * @typedef {import('./types/dnd5e.mjs').ItemDescription & import('./types/dnd5e.mjs').PhysicalItem & import('./types/dnd5e.mjs').Identifiable} PhysicalItem
+ */
+
+/**
  *
  * @param {import('./types/a5e.mjs').ObjectA5E & import('./types/a5e.mjs').BaseTemplate} system
- * @returns {object} Weapon, Container, Equipment,
+ * @returns {PhysicalItem} Weapon, Container, Equipment,
  */
 function migrateObject(system) {
+  /** @type {PhysicalItem} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -763,12 +884,16 @@ function weaponProperties(system, description) {
 }
 
 /**
+ * @typedef {import('./types/dnd5e.mjs').Spell & import('./types/dnd5e.mjs').ItemDescription} Spell
+ */
+
+/**
  *
  * @param {import("./types/a5e.mjs").Spell & import('./types/a5e.mjs').BaseTemplate} system
- * @returns {}
+ * @returns {Spell}
  */
 function migrateSpell(system) {
-  /** @type {import('./types/dnd5e.mjs').Spell} */
+  /** @type {Spell} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -868,8 +993,7 @@ for (const p of packList) {
       break;
     case 'feature':
       data.system = migrateFeature(data.system);
-      data.type = data.system.documentSubType;
-      delete data.system.documentSubType;
+      data.type = 'feat';
       break;
     case 'maneuver':
       data.system = migrateManeuver(data.system);
@@ -897,12 +1021,6 @@ for (const p of packList) {
     case 'destiny':
       data.system = migrateDestiny(data.system);
       data.type = 'a5e-for-dnd5e.destiny';
-      break;
-  }
-  switch (targetPack) {
-    case 'adventuringGear':
-    case 'magicItems':
-      packPath = path.join('src', 'packs', 'gear');
       break;
   }
   if (!fs.lstat(packPath)) fs.mkdir(packPath);
