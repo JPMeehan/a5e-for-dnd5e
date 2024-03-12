@@ -1,0 +1,27 @@
+name: 'Warmaster: Master of Combat'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You master every maneuver you know and any future maneuvers you learn
+      as per Maneuver Specialization. Additionally, choose one maneuver of 3rd
+      degree or less that you know. You are able to use the chosen maneuver
+      without expending any exertion points.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: qu1keleffgnf22ac
+_key: '!items!qu1keleffgnf22ac'

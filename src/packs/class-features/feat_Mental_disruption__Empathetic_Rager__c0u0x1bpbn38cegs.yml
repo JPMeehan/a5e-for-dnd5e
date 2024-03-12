@@ -1,0 +1,27 @@
+folder: null
+name: Mental disruption (Empathetic Rager)
+type: feat
+img: icons/magic/air/wind-vortex-swirl-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 6th level your anger is distracting to those around you.
+      Whenever you damage a creature when raging, if they are concentrating on a
+      spell they have disadvantage on the save. If your attack is a critical
+      hit, you can automatically break their concentration.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Berserker Level 6; Empathetic Rager Archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: c0u0x1bpbn38cegs
+_key: '!items!c0u0x1bpbn38cegs'

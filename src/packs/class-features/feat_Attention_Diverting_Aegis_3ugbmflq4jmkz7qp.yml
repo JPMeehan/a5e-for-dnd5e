@@ -1,0 +1,69 @@
+name: Attention Diverting Aegis
+type: feat
+img: icons/magic/perception/eye-slit-red-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When a creature within 30 feet that can sense you makes an attack that
+      isn’t targeting you, you can use your reaction to try to distract the
+      attacker. If it fails a Wisdom saving throw , until your next turn it has
+      disadvantage on all attack rolls it makes that aren’t against you.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: null
+    condition: >-
+      When a creature within 30 feet that can sense you makes an attack that
+      isn’t targeting you
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 3ugbmflq4jmkz7qp
+_key: '!items!3ugbmflq4jmkz7qp'

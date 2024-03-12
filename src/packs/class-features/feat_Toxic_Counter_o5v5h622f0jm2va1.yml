@@ -1,0 +1,29 @@
+name: Toxic Counter
+type: feat
+img: icons/magic/symbols/triangle-glowing-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you learn to poison the magic of others, harming them
+      and disrupting their spells. You learn counterspell if you do not already
+      know it. When you cast counterspell, if you successfully disrupt a spell,
+      you may also spend a dose of advanced poison as an optional material
+      component to deal 3d6 poison damage to the creature whose spell you
+      disrupted and it cannot attempt to cast a different spell. </p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: o5v5h622f0jm2va1
+_key: '!items!o5v5h622f0jm2va1'

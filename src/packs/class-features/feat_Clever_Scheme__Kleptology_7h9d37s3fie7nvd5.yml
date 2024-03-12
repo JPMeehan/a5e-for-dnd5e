@@ -1,0 +1,68 @@
+name: 'Clever Scheme: Kleptology'
+type: feat
+img: icons/equipment/hand/gloves-leather-tan.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When a creature makes a melee attack against you or otherwise touches
+      you, you can make a Sleight of Hand check against them as a
+      reaction.</p><p>Additionally, when you spend at least a minute interacting
+      with someone while within arm’s reach, you gain an expertise die on
+      Sleight of Hand checks that involve them until the interaction ends.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature makes a melee attack against you or otherwise touches you
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 7h9d37s3fie7nvd5
+_key: '!items!7h9d37s3fie7nvd5'

@@ -1,0 +1,31 @@
+name: Stand like a Mountain
+type: feat
+img: icons/environment/wilderness/cave-entrance-vulcano.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.22rh6x031cqpcdwc]{Stoneskin} spell
+      and add it to your spellbook if you do not already have it. You always
+      have it prepared and it doesn't count against your number of spells
+      prepared. You do not require concentration when casting stoneskin on
+      yourself, and while under the effects of a stoneskin spell you cast you
+      gain a +1 bonus to AC and an expertise die on Strength, Dexterity, and
+      Constitution saving throws.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: hgd7gxem1hleysme
+_key: '!items!hgd7gxem1hleysme'

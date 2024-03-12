@@ -1,0 +1,27 @@
+name: Reflexive Shot
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level, your accurate reflexes allow you to threaten shots at a
+      moment’s notice. You may make opportunity attacks using ranged weapons,
+      and your threatened area is equal to the normal range of any ranged weapon
+      you wield.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 36znk0dyuhpglf37
+_key: '!items!36znk0dyuhpglf37'

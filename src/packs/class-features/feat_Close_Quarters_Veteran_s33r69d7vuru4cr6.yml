@@ -1,0 +1,102 @@
+folder: null
+name: Close-Quarters Veteran
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 15th level, you have mastered the art of fighting in
+      cramped environments both offensively and defensively.</p>
+
+      <ul>
+
+      <li>If you selected Back to the Wall as your Close-Quarters Fighting
+      feature, your damage bonus increases to 2 + your proficiency bonus.</li>
+
+      <li>If you selected Tunnel Guardian as your Close-Quarters Fighting
+      feature, your bonus to AC increases to +3.</li>
+
+      <li>You gain the Close-Quarters Fighting feature you did not select at
+      level 3.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/earth/barrier-stone-explosion-spiked.webp
+    origin: Item.s33r69d7vuru4cr6
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Tunnel AC
+    _id: 9JCbOWYhdRotoSnp
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '3'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!s33r69d7vuru4cr6.9JCbOWYhdRotoSnp'
+flags: {}
+_id: s33r69d7vuru4cr6
+_key: '!items!s33r69d7vuru4cr6'

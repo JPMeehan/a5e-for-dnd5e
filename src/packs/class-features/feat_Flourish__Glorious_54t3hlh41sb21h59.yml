@@ -1,0 +1,70 @@
+name: 'Flourish: Glorious'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you score a critical hit with a weapon attack you may choose
+      to do a Glorious Flourish.</p><p><strong><em>&nbsp; &nbsp;Glorious
+      Flourish</em></strong>.&nbsp;You and your weapons dance and shine with the
+      glory of combat. Make a Performance check. Each hostile creature within 20
+      feet of you makes a Charisma saving throw against a DC equal to the result
+      of your Performance check. On a failure, a creature becomes charmed by you
+      until the end of your next turn.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+folder: null
+_id: 54t3hlh41sb21h59
+_key: '!items!54t3hlh41sb21h59'

@@ -1,0 +1,74 @@
+folder: null
+name: Draconic Resistance (Dragonsworn)
+type: feat
+img: icons/magic/symbols/rune-sigil-horned-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 6th level you gain
+      resistance to your draconic damage type.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">In addition, whenever
+      you fail a saving throw, you can use your reaction to roll a d4 and add it
+      to the result of the saving throw, potentially turning it into a
+      success.<span style="mso-spacerun: yes;">&nbsp; </span></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You can do so a
+      number of times equal to your proficiency bonus and regain all expended
+      uses when you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Warlock Level 6; Dragonsworn Archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: fail a saving throw
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: mxwgufwcrjs08z5k
+_key: '!items!mxwgufwcrjs08z5k'

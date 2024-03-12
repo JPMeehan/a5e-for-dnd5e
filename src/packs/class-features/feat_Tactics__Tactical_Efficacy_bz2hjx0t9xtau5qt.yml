@@ -1,0 +1,26 @@
+name: 'Tactics: Tactical Efficacy'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>&nbsp;Your tactics die begins at d6. When you reach 20th level, your
+      tactics die begins at d8. After the tactics die is rolled, when regained
+      it reverts to a d4.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: bz2hjx0t9xtau5qt
+_key: '!items!bz2hjx0t9xtau5qt'

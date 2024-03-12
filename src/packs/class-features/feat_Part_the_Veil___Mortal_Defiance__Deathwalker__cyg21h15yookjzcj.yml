@@ -1,0 +1,89 @@
+folder: null
+name: Part the Veil - Mortal Defiance (Deathwalker)
+type: feat
+img: icons/magic/life/heart-cross-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">When you select this
+      archetype at 1st level, you begin to learn how to manipulate the powers
+      and energies of death.<span style="mso-spacerun: yes;">&nbsp; </span>You
+      learn the <em>spare the dying</em> cantrip, which does not count against
+      your number of cantrips known.<span style="mso-spacerun: yes;">&nbsp;
+      </span></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">Choose one of the
+      following:</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><s><strong>Death
+      Curse</strong></s></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><strong>Mortal
+      Defiance</strong></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You can cast
+      <em>spare the dying</em> as a bonus action. In addition, when you are
+      reduced to 0 hit points as a reaction you may cast spare the dying on
+      yourself.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">When you cast spare
+      the dying on another creature that is actually dying, you regain hit
+      points equal to 1d8 + you Charisma modifier.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You have advantage on
+      saving throws against poison and disease.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Warlock Level 1; Deathwalker Archetype
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: cyg21h15yookjzcj
+_key: '!items!cyg21h15yookjzcj'

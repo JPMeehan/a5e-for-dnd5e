@@ -1,0 +1,29 @@
+name: Crushing Presence (Curseweaver)
+type: feat
+img: icons/magic/control/voodoo-doll-pain-damage-red.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level creatures affected by an Organizational effigy wielded by
+      you must make a Wisdom saving throw when they enter the area of your
+      Commanding Presence or start their turn there. On a failed save, an
+      affected creature suffers the Slowed condition until the beginning of its
+      next turn. Creatures affected by an Individual Effigy suffer the same
+      effects, but suffer the Encumbered condition instead on a failed save and
+      the Slowed condition on a successful one.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Master of Ceremonies'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 1bumweyhep19uamu
+_key: '!items!1bumweyhep19uamu'

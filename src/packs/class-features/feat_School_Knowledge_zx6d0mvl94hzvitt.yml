@@ -1,0 +1,29 @@
+name: School Knowledge
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, you gain access to more fantastical magical knowledge.
+      Choose one school of magic that is not a classical school of magic, the
+      arcane school of magic, or the divine school of magic. All spells from the
+      chosen school of magic count as bard spells for you. </p><p>In addition,
+      you learn two bard spells. A spell you choose must be a cantrip or of a
+      spell level you can cast.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: zx6d0mvl94hzvitt
+_key: '!items!zx6d0mvl94hzvitt'

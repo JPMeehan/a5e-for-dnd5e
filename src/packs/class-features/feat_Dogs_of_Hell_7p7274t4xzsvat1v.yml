@@ -1,0 +1,33 @@
+name: Dogs of Hell
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, when you kill a creature targeted by your
+      Diabolical Curse or under the effects of one of your warlock spells, you
+      can bid your patron conjure into your service either a death dog or a
+      ghoul (your choice) into an unoccupied space within 30 feet. The creature
+      rolls its own initiative, has its own turns, and obeys your verbal
+      commands. The creature disappears after 1 minute, when you are knocked
+      unconscious, or when it is reduced to 0 hit points.</p><p>At 15th level,
+      you can have your patron conjure for you either a hell hound or a wight
+      instead.</p><p>Once you have used this feature, you can’t use it again
+      until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 7p7274t4xzsvat1v
+_key: '!items!7p7274t4xzsvat1v'

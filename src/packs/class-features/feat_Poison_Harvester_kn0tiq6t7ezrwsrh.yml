@@ -1,0 +1,29 @@
+name: Poison Harvester
+type: feat
+img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 3 when you take this archetype, you become especially adept at
+      harvesting poisons. You gain proficiency with the poisoner’s kit and on a
+      failed check, you are not poisoned, though you still do not collect any
+      poison. On a successful check with the poisoner’s kit, you harvest an
+      additional number of doses of basic poison equal to half your proficiency
+      bonus (rounded down).</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: kn0tiq6t7ezrwsrh
+_key: '!items!kn0tiq6t7ezrwsrh'

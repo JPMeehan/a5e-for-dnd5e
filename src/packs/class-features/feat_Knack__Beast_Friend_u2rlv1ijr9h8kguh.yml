@@ -1,0 +1,30 @@
+name: 'Knack: Beast Friend'
+type: feat
+img: icons/creatures/mammals/ox-buffalo-horned-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you spend 10 minutes befriending and feeding a Medium or smaller
+      beast of CR 1/8 or less, you become its guardian ranger. It follows you
+      and is loyal to you, but it acts independently. In combat, it rolls its
+      own initiative and acts on its own turn. The beast won’t attack except as
+      a reaction to being attacked, but it can take other actions as normal and
+      makes death saving throws. You can only be a guardian ranger to one beast
+      at a time.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: u2rlv1ijr9h8kguh
+_key: '!items!u2rlv1ijr9h8kguh'

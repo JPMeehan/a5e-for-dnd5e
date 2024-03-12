@@ -1,0 +1,68 @@
+name: Canny Dodge Aegis
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When an attack would hit you, you can use your reaction to roll [[/r
+      1d4]] and add it to your AC against that attack. Alternately, when you
+      would fail a Dexterity saving throw , you can use your reaction to roll
+      1d4 and add it to your saving throw. In either case, you know how much the
+      roll succeeded or failed by before deciding whether to use this aegis.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When an attack would hit you or you miss a Dexterity saving throw
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 10qp7or8n3gaptnh
+_key: '!items!10qp7or8n3gaptnh'

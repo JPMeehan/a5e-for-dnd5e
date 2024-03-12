@@ -1,0 +1,30 @@
+name: Superior Talent (Perfect Control)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you’ve discovered even greater ways to use your magic to
+      your advantage. Choose one of the following
+      benefits:</p><h3><strong>Perfect Control</strong></h3><p>When
+      concentrating on a wizard spell of your chosen school, you only need to
+      roll to maintain concentration when you take damage from an attack,
+      effect, or spell equal to or greater than your Intelligence score + your
+      wizard level.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: k336xelxvoo5d3dd
+_key: '!items!k336xelxvoo5d3dd'

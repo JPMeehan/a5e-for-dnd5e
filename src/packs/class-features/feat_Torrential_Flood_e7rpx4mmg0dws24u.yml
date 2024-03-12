@@ -1,0 +1,69 @@
+name: Torrential Flood
+type: feat
+img: icons/magic/water/wave-water-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level whenever you cast a spell that deals force, bludgeoning,
+      acid, or cold damage that requires a saving throw, if the creature fails
+      the save they are either pushed 10 feet away from you or knocked prone,
+      your choice. If the spell instead requires a spell attack roll, you can
+      force the target to make a Strength saving throw against your wizard spell
+      DC or suffer the same. Using this ability on a spell causes the spell to
+      benefit from Inescapable Current. You can do so a number of times equal to
+      your proficiency bonus and regain all expended uses when you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: e7rpx4mmg0dws24u
+_key: '!items!e7rpx4mmg0dws24u'

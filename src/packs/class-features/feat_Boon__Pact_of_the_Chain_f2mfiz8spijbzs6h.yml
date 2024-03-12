@@ -1,0 +1,35 @@
+name: 'Boon: Pact of the Chain'
+type: feat
+img: icons/creatures/unholy/demon-fanged-horned-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You learn the&nbsp;find familiar&nbsp;spell and can cast it as a
+      ritual. The spell doesn&rsquo;t count against your number of spells known.
+      When you cast the spell, you can choose one of the normal forms for your
+      familiar or one of the following special forms: imp, pseudodragon, quasit,
+      sprite, or any Tiny creature of CR 1/2 or less. You can also opt for the
+      spirit you call forth to be an aberration, elemental, or undead.</p>
+
+      <p>When you take the Attack action, you can forgo one of your own attacks
+      to allow your familiar to make one attack of its own with its reaction.
+      Additionally, when you use Eldritch Scythe, you can choose to deliver the
+      attack through your familiar as though you had cast a spell with a range
+      of Touch.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: f2mfiz8spijbzs6h
+_key: '!items!f2mfiz8spijbzs6h'

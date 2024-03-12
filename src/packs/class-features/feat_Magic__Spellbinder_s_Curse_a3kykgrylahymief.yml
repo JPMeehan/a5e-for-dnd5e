@@ -1,0 +1,76 @@
+name: 'Magic: Spellbinder’s Curse'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use a bonus action to place a curse on a creature you can see
+      within 30 feet. The curse lasts for 1 minute, and ends early if the target
+      dies, you die, or you become incapacitated. The curse has the following
+      effects:</p><ul><li><p>Choose lightning damage or thunder damage. When you
+      deal damage against the cursed creature, it takes an additional 1d4 damage
+      of the chosen type. This bonus increases by 1d4 at 10th level, and again
+      at 15th and 20th level.</p></li><li><p>You gain a pool of faerie dice,
+      which begins empty. Each faerie die represents a bit of good fortune from
+      your patron. When the cursed creature makes an ability check or attack
+      roll with disadvantage, add one faerie die to this pool. You can spend a
+      faerie die when making an ability check or attack roll to gain a 1d4
+      bonus. The pool disappears when you finish a short or long
+      rest.</p></li></ul><p>Once you have used this feature, you can’t use it
+      again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: a3kykgrylahymief
+_key: '!items!a3kykgrylahymief'

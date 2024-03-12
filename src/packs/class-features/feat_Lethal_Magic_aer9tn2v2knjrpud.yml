@@ -1,0 +1,31 @@
+name: Lethal Magic
+type: feat
+img: icons/magic/acid/dissolve-vomit-green-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 14th level, your ability to infuse poison into your spells
+      improves. When you cast a spell with a single target, you may expend a
+      dose of any poison (common or named). If the target is struck by a spell
+      requiring an attack roll or fails its save against a spell requiring a
+      saving throw, it is also subjected to the effects of the poison. If the
+      poison’s save DC is lower than your spell save DC, it increases to match
+      your spell save DC. Once you have used this ability, you can’t do so again
+      until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: aer9tn2v2knjrpud
+_key: '!items!aer9tn2v2knjrpud'

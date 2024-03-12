@@ -1,0 +1,68 @@
+name: 'Focus: Undefeated'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <h4><em>Requirement: 11th level</em></h4><p>When a creature would drop you
+      to 0 hit points, you can use your reaction to make an unarmed strike
+      against any enemy within your reach. On a hit, you can spend 1 exertion to
+      roll your martial arts die and gain that many temporary hit points. You
+      can’t use this feature again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature would drop you to 0 hit points
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: o9jwhdgnbbe6h07q
+_key: '!items!o9jwhdgnbbe6h07q'

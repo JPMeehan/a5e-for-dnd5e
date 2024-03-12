@@ -1,0 +1,30 @@
+name: Councilor
+type: feat
+img: icons/skills/social/diplomacy-unity-alliance.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You are adept at using your studies to advise others, as well as
+      yourself, for there are few that share your burden of knowledge. You may
+      spend inspiration to allow yourself or another creature to regain a use of
+      an ability with limited uses per long rest. This cannot be used to restore
+      spell slots, nor can a single creature benefit from this more than once
+      per long rest. You also gain inspiration anytime you finish a long rest if
+      you do not already have it.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: w5wmr3ydxuteh7pk
+_key: '!items!w5wmr3ydxuteh7pk'

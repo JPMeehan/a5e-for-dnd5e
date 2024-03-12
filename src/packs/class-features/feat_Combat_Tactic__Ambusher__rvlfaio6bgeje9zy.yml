@@ -1,0 +1,29 @@
+name: Combat Tactic (Ambusher)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, you adopt a set of moves and tactics which complement
+      your preferred combat strategies. Choose one of the following options.
+      Each time you gain a level, you may change this
+      choice.</p><h3><strong>Ambusher</strong></h3><p>When you begin your turn
+      hidden from a creature, you gain advantage on melee attacks against it
+      until the end of your turn.</p><h3></h3>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: rvlfaio6bgeje9zy
+_key: '!items!rvlfaio6bgeje9zy'

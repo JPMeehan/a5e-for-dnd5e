@@ -1,0 +1,27 @@
+name: Seek Truths
+type: feat
+img: icons/magic/light/beam-strike-orange-gold.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Insight checks made to discern the truth.
+      In addition, after you have made a successful Insight check opposed by a
+      creature's Deception check, you have advantage on Insight checks made
+      against it for 24 hours.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: arn7raktwyklwqeh
+_key: '!items!arn7raktwyklwqeh'

@@ -1,0 +1,70 @@
+name: 'Focus: Deflect Spells'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Requirement: Deflect Missiles, 9th level</em></p><p>When you are
+      hit by a ranged spell attack that deals damage, you can use your reaction
+      and spend 2 exertion to deflect the magic. When you do so, the damage you
+      take from the attack is reduced by 2d10 + your Dexterity modifier + your
+      adept level.</p><p>If you reduce the damage to 0, you can spend 1 exertion
+      to redirect the spell to another target within 30 feet of you as part of
+      the same reaction. You make this attack with proficiency using your Wisdom
+      modifier.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When hit by a ranged spell attack that deals damage
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: s7kibn1675hv0a30
+_key: '!items!s7kibn1675hv0a30'

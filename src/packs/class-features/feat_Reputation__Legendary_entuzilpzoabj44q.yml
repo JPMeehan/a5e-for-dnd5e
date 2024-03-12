@@ -1,0 +1,29 @@
+name: 'Reputation: Legendary'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your deeds have become epic stories, growing bigger and more outlandish
+      with each retelling. You gain an expertise die on Deception checks. In
+      addition, you can spend 1 exertion point to weave your real legendary
+      deeds into a Persuasion check as boasting, or include fabricated legendary
+      deeds into a Deception check. When you do so, you have advantage on the
+      check.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: entuzilpzoabj44q
+_key: '!items!entuzilpzoabj44q'

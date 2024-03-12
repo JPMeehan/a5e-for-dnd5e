@@ -1,0 +1,67 @@
+name: 'Mystery: Hands of Harming'
+type: feat
+img: icons/magic/unholy/hand-light-pink.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You gain a pool of
+      points equal to your witch level. As an action you may make a melee spell
+      attack against a creature. On a hit, they take necrotic damage equal to
+      the number of expended points and the target cannot regain hit points
+      until the start of your next turn. You must decide how many points your
+      are spending before the attack roll is made.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Witch Class
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: e4luolpst30y95t3
+_key: '!items!e4luolpst30y95t3'

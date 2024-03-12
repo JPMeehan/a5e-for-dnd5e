@@ -1,0 +1,69 @@
+name: 'Critical: Relentless Attack'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your blows fall down mercilessly. When you score a critical hit, you
+      may immediately make an additional melee weapon attack (no action or
+      reaction required). If this subsequent attack is also a critical hit, this
+      feature can be activated again for a number of times equal to half your
+      proficiency bonus. No other Furious Critical can be activated for these
+      additional attacks.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: g6csjgp4e2tuwhnk
+_key: '!items!g6csjgp4e2tuwhnk'

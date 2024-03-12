@@ -1,0 +1,29 @@
+name: Superior Understanding
+type: feat
+img: icons/sundries/books/book-open-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, your knowledge of secrets becomes such that most
+      communication is laid bare to you. You are permanently under a comprehend
+      languages effect.</p>
+
+      <p>You also can cast spells from scrolls regardless of whether the spell
+      is on your spell list or not.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Cultist'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: u1ba5gvm44rs6hpd
+_key: '!items!u1ba5gvm44rs6hpd'

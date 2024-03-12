@@ -1,0 +1,33 @@
+name: 'Elective: Detect Magic Savant'
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Prerequisite: Able to cast Detect Magic </em></p><p>Whenever you
+      cast detect magic, you can choose one of the following benefits to amplify
+      the spell. </p><p><strong><em>Lengthened Detect Magic.</em></strong> The
+      duration of detect magic is increased by 10 minutes.
+      </p><p><strong><em>Extended Detect Magic</em></strong>. The detection
+      radius of detect magic is increased by 30 feet.
+      </p><p><strong><em>Penetrating Detect Magic</em></strong>. The spell can
+      penetrate most barriers, and it is only blocked by 2 feet of stone, 2
+      inches of common metal, a 1-inch sheet of lead, or 6 feet of wood or
+      dirt.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: zz594ilsfk9l7c3z
+_key: '!items!zz594ilsfk9l7c3z'

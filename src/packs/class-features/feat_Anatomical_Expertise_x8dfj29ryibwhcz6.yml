@@ -1,0 +1,75 @@
+name: Anatomical Expertise
+type: feat
+img: icons/skills/wounds/bone-broken-knee-beam.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 7th level your knowledge of anatomy and physiology shows
+      you where to strike. As a bonus action, you may make a skill check to
+      recall knowledge of a creature’s physiology and focus on that creature
+      (use the same skill that you would use for lore on the creature;
+      Narrator’s call if not specified).</p><p>The DC is equal to the creature’s
+      CR + 5 (creatures with a CR of less than 1 count as having a CR of 0 for
+      the purposes of this ability).</p><p>If you succeed, once per round, when
+      you hit that creature with an attack, you deal an additional 2d6 points of
+      damage. This damage increases to 3d6 at level 9, 4d6 at level 13, and 5d6
+      at level 17.</p><p>Your focus lasts for an hour or until either you or the
+      focused creature falls unconscious or dies, or until you dismiss your
+      focus (no action required). You may switch your focus to another creature
+      as a bonus action (making a new check to do so), and may only focus on one
+      creature at a time.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: x8dfj29ryibwhcz6
+_key: '!items!x8dfj29ryibwhcz6'

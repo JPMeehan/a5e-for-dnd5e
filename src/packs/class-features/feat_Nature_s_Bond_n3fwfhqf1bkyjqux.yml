@@ -1,0 +1,28 @@
+name: Nature's Bond
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level, nature provides you with the ability to summon its
+      minor spirits. As an action, you can expend a use of your Wild Shape
+      feature to cast the find familiar spell, without material
+      components.</p><p>The familiar you summon is a fey instead of a beast, and
+      it disappears after a number of hours equal to half your druid level.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: n3fwfhqf1bkyjqux
+_key: '!items!n3fwfhqf1bkyjqux'

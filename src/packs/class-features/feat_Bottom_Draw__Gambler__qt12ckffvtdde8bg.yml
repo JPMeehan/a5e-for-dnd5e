@@ -1,0 +1,38 @@
+name: Bottom Draw (Gambler)
+type: feat
+img: icons/sundries/gaming/playing-cards-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 14">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>Also at 6th level, you know how to turn a bad hand into a good one with
+      a little sleight of hand. When rolling initiative you can always choose to
+      use Sleight of Hand.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: qt12ckffvtdde8bg
+_key: '!items!qt12ckffvtdde8bg'

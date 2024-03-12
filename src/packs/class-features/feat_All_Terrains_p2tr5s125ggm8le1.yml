@@ -1,0 +1,32 @@
+name: All Terrains
+type: feat
+img: icons/environment/wilderness/cave-entrance-mountain.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <h3>At 14th level, choose one of the following boons:</h3><ul><li><p>You
+      ignore difficult terrain.</p></li><li><p>You ignore the effects of extreme
+      heat, extreme cold, and high altitude.</p></li><li><p>You gain a swim
+      speed equal to your Speed.</p></li><li><p>You can climb difficult
+      surfaces, including upside down on ceilings, without needing to make an
+      ability check.</p></li><li><p>You can spend 1 sorcery point to gain a fly
+      speed equal to your Speed for 1 hour.</p></li></ul><p>When you finish a
+      long rest, you may switch out your active boon with one other boon from
+      this list.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: p2tr5s125ggm8le1
+_key: '!items!p2tr5s125ggm8le1'

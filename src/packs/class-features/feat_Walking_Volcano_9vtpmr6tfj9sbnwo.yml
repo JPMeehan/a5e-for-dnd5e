@@ -1,0 +1,78 @@
+name: Walking Volcano
+type: feat
+img: icons/environment/wilderness/cave-entrance-vulcano.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 14, your volcanic transformation reaches its apex. While you
+      are raging, you can spend an action to fill an area extending 10 feet from
+      you with a cloud of dense smoke. You treat an area affected by your own
+      smoke as lightly obscured rather than heavily obscured. Any given area of
+      smoke persists for an 10 minutes or until dispersed by a strong breeze</p>
+
+      <p>You can also generate and throw a volcanic bomb at a target within as
+      an action. A volcanic bomb counts as a ranged weapon attack with a range
+      of 30/60 feet. On a hit, the target takes 2d6 fire and 2d6 bludgeoning
+      damage.</p>
+    chat: ''
+  source:
+    book: Fiery Justice
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '30'
+    long: '60'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - bludgeoning
+      - - 2d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e:
+    placeTemplate: false
+folder: null
+_id: 9vtpmr6tfj9sbnwo
+_key: '!items!9vtpmr6tfj9sbnwo'

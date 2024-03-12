@@ -1,0 +1,69 @@
+name: Combat Tactic (Sniper)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, you adopt a set of moves and tactics which complement
+      your preferred combat strategies. Choose one of the following options.
+      Each time you gain a level, you may change this
+      choice.</p><h3><strong>Sniper</strong></h3><p>Once per turn, when you make
+      an attack with a ranged weapon you can choose to add your proficiency
+      bonus to the damage roll.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 30pwwxfb1ctsx46x
+_key: '!items!30pwwxfb1ctsx46x'

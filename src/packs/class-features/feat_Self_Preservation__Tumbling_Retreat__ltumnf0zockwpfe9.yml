@@ -1,0 +1,69 @@
+name: Self-Preservation (Tumbling Retreat)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, your honed reflexes and mental toughness allow you to
+      avoid danger. Choose two of the following options. You may choose an
+      additional option at 12th level and two more at 18th
+      level.</p><h3><strong>Tumbling Retreat</strong></h3><p>When a melee attack
+      misses you, you can use your reaction to move up to half your speed. This
+      movement doesn’t provoke opportunity attacks.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ltumnf0zockwpfe9
+_key: '!items!ltumnf0zockwpfe9'

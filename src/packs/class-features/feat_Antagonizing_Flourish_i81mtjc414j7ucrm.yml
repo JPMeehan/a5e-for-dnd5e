@@ -1,0 +1,67 @@
+name: Antagonizing Flourish
+type: feat
+img: icons/skills/melee/strike-sword-slashing-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you hit a creature with a melee attack, you can try to draw its
+      ire. If it fails an Intelligence saving throw , it has disadvantage on
+      attack rolls against creatures other than you until the start of your next
+      turn.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: i81mtjc414j7ucrm
+_key: '!items!i81mtjc414j7ucrm'

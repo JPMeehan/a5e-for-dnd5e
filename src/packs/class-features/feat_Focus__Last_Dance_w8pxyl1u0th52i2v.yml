@@ -1,0 +1,28 @@
+name: 'Focus: Last Dance'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Requirement: any dance</em></p><p>When the duration of one of your
+      dances ends, you can spend 2 exertion to make the effect last until the
+      end of your next turn.</p><p>In addition, if you know two or more dance
+      focus features you can spend 3 additional exertion to activate two dances
+      using the same bonus action.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: w8pxyl1u0th52i2v
+_key: '!items!w8pxyl1u0th52i2v'

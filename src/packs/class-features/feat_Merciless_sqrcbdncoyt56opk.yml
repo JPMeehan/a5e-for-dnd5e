@@ -1,0 +1,28 @@
+name: Merciless
+type: feat
+img: icons/skills/wounds/blood-spurt-spray-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level, your wrath extends to your magical abilities. You
+      learn the vicious mockery cantrip, and it does not count against the
+      number of cantrips you know. You also have advantage on saving throws
+      against spells and effects that would make you less aggressive such as
+      <em>calm emotions</em>.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Cultist'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: sqrcbdncoyt56opk
+_key: '!items!sqrcbdncoyt56opk'

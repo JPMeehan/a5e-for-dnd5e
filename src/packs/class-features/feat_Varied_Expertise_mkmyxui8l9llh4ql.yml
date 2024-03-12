@@ -1,0 +1,27 @@
+name: Varied Expertise
+type: feat
+img: icons/skills/trades/academics-study-reading-book.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level, choose one skill or tool you are proficient with.
+      You gain an expertise die on checks made using the chosen skill or tool.
+      At 6th level, and again at 10th, 14th, and 18th level, choose an
+      additional skill or tool.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: mkmyxui8l9llh4ql
+_key: '!items!mkmyxui8l9llh4ql'

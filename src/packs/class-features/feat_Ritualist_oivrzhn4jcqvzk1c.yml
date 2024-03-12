@@ -1,0 +1,30 @@
+name: Ritualist
+type: feat
+img: icons/sundries/books/book-tooled-eye-gold-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 3rd level, you gain the ability to learn magic rituals and
+      cast them. You acquire a spellbook. When you find a spell with the ritual
+      tag, you can transcribe it into your spellbook if the spell’s level is
+      equal to or less than the highest-level herald spell you can cast. For
+      each level of the spell, the transcription process takes 2 hours and costs
+      50 gold for the rare inks needed to inscribe it. Once a spell is
+      transcribed in this manner, you can cast it as a herald spell.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: oivrzhn4jcqvzk1c
+_key: '!items!oivrzhn4jcqvzk1c'

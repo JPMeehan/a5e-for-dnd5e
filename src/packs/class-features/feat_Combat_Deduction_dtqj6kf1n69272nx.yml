@@ -1,0 +1,73 @@
+name: Combat Deduction
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level, you can read your enemies like a book. You can use a
+      bonus action to make an Intelligence (Investigation) check against the
+      Maneuver DC of a creature you have spent at least one round observing in
+      combat. If you succeed, choose three of the following items to learn about
+      the creature: Armor Class, vulnerabilities , resistances , immunities ,
+      weakest saving throw , or highest ability score. At the narrator’s
+      discretion, you might learn other pertinent details of its combat
+      abilities.</p><p>After you use this feature on a creature, you cannot
+      attempt it against the same creature until you finish a short or long rest
+      .</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: dtqj6kf1n69272nx
+_key: '!items!dtqj6kf1n69272nx'

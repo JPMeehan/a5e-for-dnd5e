@@ -1,0 +1,30 @@
+name: 'Elective: Loremaster of Travel'
+type: feat
+img: icons/environment/settlement/city-night-spire.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You are well-travelled and well-studied. You have advantage on History
+      checks to recall information relating to myths and legends that are
+      location-based. In addition, when you arrive at a settlement for the first
+      time, choose one of the following subjects: culture, etiquette,
+      government, or populace. The Narrator will give you a useful fact about
+      that subject. You can take an expertise die on ability checks related to
+      that subject in this settlement.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: t5ndymrhvsmacktc
+_key: '!items!t5ndymrhvsmacktc'

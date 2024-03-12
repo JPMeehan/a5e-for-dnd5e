@@ -1,0 +1,48 @@
+name: 'Seal of the Pact: Genie Magic'
+type: feat
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can draw upon the magic of genies. Choose the type of genie you
+      draw your power from and associated damage type: Div (bludgeoning), Djinn
+      (lightning), Efreet (fire), or Marid (cold).</p>
+
+      <ul>
+
+      <li>At 1st level you learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.kaye34nheyrit487]{Detect Magic}
+      spell</li>
+
+      <li>At 3rd level you learn the
+      @UUID[Compendium.a5e.a5e-spells.yav7747ibqje7nzm]{Alter Self} spell</li>
+
+      <li>At 5th level you learn the
+      @UUID[Compendium.a5e.a5e-spells.ef9fuzf8xcja2p7c]{Tongues} spell</li>
+
+      <li>At 9th level you learn the
+      @UUID[Compendium.a5e.a5e-spells.v14gdz7j6rr1cr4h]{Creation} and
+      @UUID[Compendium.a5e.a5e-spells.633bpp281x35cz6t]{Conjure Elemental}
+      spells, the latter of which can only summon elementals of the same element
+      and the genie type you chose.</li>
+
+      </ul>
+
+      <p>These spells do not count against your maximum spells known.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 1 Wishmaster archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 40vssvirxn716r6p
+_key: '!items!40vssvirxn716r6p'

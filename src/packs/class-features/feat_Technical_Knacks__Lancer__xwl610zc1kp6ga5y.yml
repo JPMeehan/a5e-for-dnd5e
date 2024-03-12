@@ -1,0 +1,27 @@
+name: Technical Knacks (Lancer)
+type: feat
+img: icons/skills/melee/strike-axe-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level you gain access to your first Technical Knack. This
+      feature allows you to take Techniques from the Adept class or Soldiering
+      Knacks from the Fighter Class. You gain additional technical knacks at
+      4th, 6th, and 8th level.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: xwl610zc1kp6ga5y
+_key: '!items!xwl610zc1kp6ga5y'

@@ -1,0 +1,71 @@
+name: Lava Body
+type: feat
+img: icons/magic/fire/flame-burning-eye.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at level 10, your supernatural transformation takes on an
+      even more powerful aspect. Your very flesh transforms into lava while you
+      rage, making you even more durable. You are immune to fire damage, and
+      while you are raging, treat critical hits that you suffer as normal
+      hits.&nbsp;</p><p>Additionally, while you are raging, any creature that
+      grapples you, that you grapple, or that begins its turn grappling or
+      grappled by you takes 1d6 fire damage as the searing heat of your molten
+      insides burns it.&nbsp;</p><p>Finally, while you are raging, you may
+      ignite flammable materials with a touch as a bonus action.</p>
+    chat: ''
+  source:
+    book: Fiery Justice
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: kp6swl2tt5r3786r
+_key: '!items!kp6swl2tt5r3786r'

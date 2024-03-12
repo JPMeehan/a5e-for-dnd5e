@@ -1,0 +1,26 @@
+name: Practical Applications (Smith's Tools)
+type: feat
+img: icons/tools/smithing/hammer-maul-steel-grey.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may fine tune any weapons or armor made of metal over a short rest,
+      causing them to deal +1 damage or grant +1 armor class. This does not
+      stack with similar bonuses from the Smith follower.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: vk2z1grkfpb09i5m
+_key: '!items!vk2z1grkfpb09i5m'

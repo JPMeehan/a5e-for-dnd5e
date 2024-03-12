@@ -1,0 +1,27 @@
+name: Master of Your Trade
+type: feat
+img: icons/tools/smithing/anvil.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level when you perform the Work downtime activity using
+      their chosen tool, you multiply the gold earned by your proficiency bonus.
+      When you take the craft downtime activity with you chosen tool and time
+      and gold required to create non-magical items is cut in half.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: a0igmyixpdwerm0r
+_key: '!items!a0igmyixpdwerm0r'

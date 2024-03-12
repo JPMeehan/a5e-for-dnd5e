@@ -1,0 +1,27 @@
+name: The Calm Before
+type: feat
+img: icons/magic/time/day-night-sunset-sunrise.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you roll initiative you may choose to do so with disadvantage. If
+      you do so, you regain sorcery points equal to half your proficiency bonus.
+      Once you have done so you cannot do so again until you finish a short or
+      long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 6 Stormborn Sorcerer archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 57lz1dtytkk5m4ff
+_key: '!items!57lz1dtytkk5m4ff'

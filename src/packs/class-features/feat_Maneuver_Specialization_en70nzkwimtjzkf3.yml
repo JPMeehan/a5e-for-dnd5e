@@ -1,0 +1,32 @@
+name: Maneuver Specialization
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As you experience combat and perfect your techniques they get easier
+      for you to perform and more difficult for your foes to overcome. At 3rd
+      level, and again at 7th, 11th, 15th, and 19th level you may choose to
+      master a combat maneuver you know.&nbsp;You cannot master the same
+      maneuver more than once in this way.</p><p>The exertion point cost of
+      mastered maneuvers is reduced by 1 (minimum 1).</p><p>Your maneuver DC for
+      mastered maneuvers increases by 1.</p><p>Any attack you make as part of a
+      mastered maneuver (including triggering attacks) deals 2 additional
+      damage.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: en70nzkwimtjzkf3
+_key: '!items!en70nzkwimtjzkf3'

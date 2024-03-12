@@ -1,0 +1,28 @@
+name: 'Mystery: Terrible Curse'
+type: feat
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">When using a
+      Witch&rsquo;s Curse to curse a target, the penalty increases to d8 + your
+      spellcasting ability modifier. If the Witch&rsquo;s Curse causes a
+      creature to fail on the roll, they are rattled until the end of their next
+      turn.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 5 Witch Class; Witch’s Curse feature
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: zikzu334arkaw10x
+_key: '!items!zikzu334arkaw10x'

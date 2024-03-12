@@ -1,0 +1,70 @@
+name: I'll Take That
+type: feat
+img: icons/magic/unholy/hand-marked-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at level 14, you learn the sneakiest ability of all: the
+      ability to steal the spell knowledge of other wizards. When you see a
+      spell being cast, you may make an Arcana check with a DC equal to 10 + the
+      spell&rsquo;s level. If you succeed and the spell appears on the Wizard,
+      Sorcerer, and/or Warlock spell list, you hold the spell in your mind. You
+      can write a spell kept in mind in this way into your spellbook as if you
+      had another spellbook or spell scroll to copy from. You can only hold one
+      spell in mind in this way at once, but you may release a held spell at any
+      time, freeing the space for a different spell.</p>
+    chat: ''
+  source:
+    book: Confidence Mage
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: en77cojudg6toz2d
+_key: '!items!en77cojudg6toz2d'

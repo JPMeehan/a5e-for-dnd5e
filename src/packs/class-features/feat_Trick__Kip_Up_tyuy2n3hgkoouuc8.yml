@@ -1,0 +1,26 @@
+name: 'Trick: Kip Up'
+type: feat
+img: icons/skills/movement/arrow-upward-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Acrobatics checks. When you are prone,
+      standing up uses none of your movement. When you are knocked prone, you
+      can use your reaction to stand up.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: tyuy2n3hgkoouuc8
+_key: '!items!tyuy2n3hgkoouuc8'

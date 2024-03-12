@@ -1,0 +1,72 @@
+name: Undermining Taunt Aegis
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When a creature misses with an attack or when a foe succeeds on a
+      saving throw against an effect it created, you can use your reaction to
+      capitalize on their failure, warning the creature why another possible
+      course of action will also turn out badly. If that creature can understand
+      you, choose an action, such as Attack or Cast a Spell. The target must
+      make a Charisma saving throw. If it fails, until the end of its next turn
+      it cannot take that action.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When a creature misses with an attack or when a foe succeeds on a saving
+      throw against an effect it created
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 8hnymlg1l2eezd3w
+_key: '!items!8hnymlg1l2eezd3w'

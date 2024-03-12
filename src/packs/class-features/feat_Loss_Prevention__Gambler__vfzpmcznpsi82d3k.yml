@@ -1,0 +1,33 @@
+name: Loss Prevention (Gambler)
+type: feat
+img: icons/skills/melee/swords-parry-block-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <blockquote><p>Your risk taking has taught you that sometimes taking a
+      risk can really hurt.</p></blockquote><hr class="a5e-rule
+      u-my-md"><ul><li><p> <strong>At 3rd level</strong>, You gain expertise in
+      Parrying and when you take the Parry reaction you can choose to roll one
+      risk die.</p><p>If the attack still hits you, reduce the damage you take
+      by the amount you rolled on the risk die.</p><p></p></li><li><p><strong>At
+      5th level</strong>, you may use Loss Prevention on behalf of an ally in
+      your aura of luck who uses the parry
+      reaction.</p><p></p></li><li><p><strong>At 7th level</strong>, your Loss
+      Prevention allows you to roll 2 risk dice.</p></li></ul><p></p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: vfzpmcznpsi82d3k
+_key: '!items!vfzpmcznpsi82d3k'

@@ -1,0 +1,30 @@
+name: Virulence
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-triangle-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 9th level, you learn the Virulent Stance maneuver and you
+      are always under its effects. It does not count as an active stance for
+      you, does not cost exertion, and affects any poison you use, not just
+      named ones. If you already had the Virulent Stance maneuver, you may
+      select another Viper’s Fangs maneuver in its place.</p><p>If you would
+      deal poison damage, you can choose to do acid or necrotic damage
+      instead.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: x5fv8do5epmih2k9
+_key: '!items!x5fv8do5epmih2k9'

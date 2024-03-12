@@ -1,0 +1,28 @@
+name: 'Sign: Gentle Healer'
+type: feat
+img: icons/skills/wounds/injury-stitched-flesh-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>During a short rest, you can spend uses from your healer’s satchel to
+      aid your allies in their recovery. A creature you choose may roll expended
+      hit dice twice, taking the higher result. You may not expend your own hit
+      dice while using this feature, since you use all of your energies to heal
+      your companions.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: m3dahmy78vgo72dz
+_key: '!items!m3dahmy78vgo72dz'

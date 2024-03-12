@@ -1,0 +1,28 @@
+name: Overcharge
+type: feat
+img: icons/magic/control/energy-stream-link-large-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 7th level, you can choose to overcharge a Leyline Master
+      spell you know as you cast it, treating the spell as if you had cast it
+      with a spell slot one higher than the one you actually used, to a maximum
+      effective spell level of 9. Once you have used this feature, you
+      can&rsquo;t do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: p16u53h8si94v6ze
+_key: '!items!p16u53h8si94v6ze'

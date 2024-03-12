@@ -1,0 +1,29 @@
+name: 'Invocation: Celestial Transfiguration'
+type: feat
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You infuse your body with a reflection of celestial light. You are
+      immune to disease and resistant to radiant damage. As an action you can
+      gain a flying speed of 90 feet that lasts for 1 minute. For the duration
+      your spells, eldritch blasts, and weapon attacks deal additional radiant
+      damage equal to your spellasting ability modifier. Once you have used this
+      ability you cannot do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: 15th Level, Empyreal Sage archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: gcnx63q7hbql1r54
+_key: '!items!gcnx63q7hbql1r54'

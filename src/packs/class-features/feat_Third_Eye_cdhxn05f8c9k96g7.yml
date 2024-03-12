@@ -1,0 +1,33 @@
+name: Third Eye
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 15th level you
+      open your third eye. You gain 60 feet of darkvision if you do not already
+      have it. If you already have darkvision, the rand of your darkvision
+      increases by 30 feet. You can see through magical darkness with this
+      darkvision. In addition, you may choose one the following spells: <em
+      style="mso-bidi-font-style: normal;">detect magic, detect evil and good,
+      detect poison and disease, </em>or<em style="mso-bidi-font-style:
+      normal;"> see invisibility</em>. You gain the benefits of this spell, no
+      spell slot or concentration required, unlimited duration, and the effect
+      cannot be dispelled, though it can be suppressed by an antimagic
+      field.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 15 Witch
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: cdhxn05f8c9k96g7
+_key: '!items!cdhxn05f8c9k96g7'

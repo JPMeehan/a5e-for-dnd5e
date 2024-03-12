@@ -1,0 +1,32 @@
+name: Legendary Lancer (Lancer)
+type: feat
+img: icons/weapons/polearms/spear-ornate-gold.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 8th level your reputation as a lancer has reached its pinnacle but
+      your reputation can only grow from here. You gain a +1 bonus to your
+      renown, 2 additional exertion, and you may choose one of the following
+      options.</p><ul><li><p><strong>Adept Lancer: </strong>Weapons which
+      qualify for one with the spear become adept weapons in your
+      hands.<strong>&nbsp;</strong></p></li><li><p><strong>Fighter Lancer:
+      </strong>You immediately learn a new school and maneuver of your choice,
+      neither of which count against your limit of maneuvers or schools
+      known.</p></li></ul>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: gy4a05trv2thawss
+_key: '!items!gy4a05trv2thawss'

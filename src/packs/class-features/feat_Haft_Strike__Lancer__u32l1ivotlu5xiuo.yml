@@ -1,0 +1,30 @@
+name: Haft Strike (Lancer)
+type: feat
+img: icons/weapons/staves/staff-simple-carved.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>While wielding a weapon which benefits from one with the spear and
+      using no other weapons you may make off-hand attacks with the haft or
+      pommel of your weapon. Doing so follows all the normal rules of
+      dual-wielding, but allows you to apply any magical bonuses from the weapon
+      to your haft strike.&nbsp;</p><p>This damage begins at 1d4, but increases
+      as you gain levels in the Lancer motif, growing to 1d6 at level 4 and 1d8
+      at level 8.</p><p>The damage of your haft strike is bludgeoning.<br></p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: u32l1ivotlu5xiuo
+_key: '!items!u32l1ivotlu5xiuo'

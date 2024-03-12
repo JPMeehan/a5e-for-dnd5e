@@ -1,0 +1,100 @@
+name: 'Embrace of Death: Deathly Curse'
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You can use a bonus action to place a curse on a creature you
+      can see within 30ft. The curse lasts 1 minute, ending early if the
+      creature dies, you die, or you become incapacitated.</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">When you deal damage against the cursed
+      creature, it takes an additional 1d4 Necrotic damage. This bonus increases
+      by 1d4 at 10th level, and again at 15th and 19th level.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You gain a pool of necrosis dice, which
+      begins empty. When the cursed creature fails a saving throw, add one
+      necrosis die to this pool. You can spend a necrosis die whenever you deal
+      damage with your Eldritch Blast, or a spell of 1st level or higher that
+      deals necrotic damage, to deal an additional 1d4 necrotic damage. The pool
+      disappears when you finish a short or long rest.</p>
+
+      </li>
+
+      </ul>
+
+      <p dir="ltr">Once you have used this feature, you can&rsquo;t use it again
+      until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - necrotic
+      - - 2d4
+        - necrotic
+      - - 3d4
+        - necrotic
+      - - 4d4
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: oxd2xyqifqzt7wbr
+_key: '!items!oxd2xyqifqzt7wbr'

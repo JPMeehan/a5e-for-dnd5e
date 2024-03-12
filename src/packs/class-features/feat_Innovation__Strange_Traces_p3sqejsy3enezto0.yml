@@ -1,0 +1,27 @@
+name: 'Innovation: Strange Traces'
+type: feat
+img: icons/magic/nature/stealth-hide-eyes-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>While traveling, you can spend 1 sorcery point to obscure your trail.
+      For the next hour, any tracks your group leaves become random, zigzagging,
+      and incomprehensible. Creatures have disadvantage on Survival checks to
+      track you and become lost on a failed check.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: p3sqejsy3enezto0
+_key: '!items!p3sqejsy3enezto0'

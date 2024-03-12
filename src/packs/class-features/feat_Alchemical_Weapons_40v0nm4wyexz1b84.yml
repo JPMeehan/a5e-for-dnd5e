@@ -1,0 +1,38 @@
+name: Alchemical Weapons
+type: feat
+img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you gain proficiency with attacks made with acid
+      flasks, alchemist's fire, and flash bombs. Furthermore, each of these is
+      more potent if crafted by you.</p>
+
+      <p><strong>Acid Flask:</strong> Your acid flasks deal an immediate 2d4
+      acid damage on hit. The initial damage increases by 1d4 at levels 7, 10,
+      14, and 18. At level 14 the ongoing damage also increases to 3d4 per
+      tick.</p>
+
+      <p><strong>Alchemist's Fire:</strong> Your alchemist's fire deals an
+      immediate 1d6 fire damage on hit. This initial damage increases by 1d6 at
+      levels 7, 10, 14, and 18.</p>
+
+      <p><strong>Flash Bomb:</strong> You may use your scholar DC in place of
+      the DC of the bomb if it is higher.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 40v0nm4wyexz1b84
+_key: '!items!40v0nm4wyexz1b84'

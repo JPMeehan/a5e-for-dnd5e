@@ -1,0 +1,34 @@
+name: Lesser Wish
+type: feat
+img: icons/equipment/finger/ring-band-gold.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have gained the ability to conjure a lesser wish or be granted one
+      by your patron. As an action you can speak your desire and cast any spell
+      of 6th level or lower with no components required, and it takes effect
+      immediately regardless of its normal casting time. The selected spell is
+      cast as if it were using a 6th level slot. Once you have done so you
+      cannot do so again until you have finished 1d4+1 long rests.</p>
+
+      <p>You also add
+      @UUID[Compendium.a5e-for-dnd5e.spells.pe52jryde7ljobzq]{Wish} to the list
+      of warlock spells available for the <em>Penultimate Arcanum</em>
+      invocation.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 14 Wishmaster archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: qd6ekv3da8c8tx1k
+_key: '!items!qd6ekv3da8c8tx1k'

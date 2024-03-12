@@ -1,0 +1,72 @@
+folder: null
+name: Command Undead
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="preFade fadeIn">At 14th level you become a true master of the
+      undead. You may use a bonus action to command one undead creature which
+      can hear you. The target must make a Charisma saving throw vs. your spell
+      DC. On a failure, the undead creature becomes unable to attack you for one
+      minute, and obeys your commands for the duration. The creature can make a
+      new saving throw at the end of each of its turns, ending the effect on a
+      success.&nbsp;</p>
+
+      <p>Once a creature succeeds in a saving throw against this feature, it
+      becomes immune to the feature for 24 hours.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: dtjtka3c3t73pycs
+_key: '!items!dtjtka3c3t73pycs'

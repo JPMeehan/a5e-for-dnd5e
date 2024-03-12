@@ -1,0 +1,60 @@
+folder: null
+name: Trained in Blood (Runespell Rager)
+type: feat
+img: icons/magic/unholy/projectile-helix-blood-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 7th level, the many battles that you have fought and won
+      have led you to strange locations and situations, teaching you new tricks
+      along the way.</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr"><strong>Invocation of the Courts:</strong>&nbsp;Your study
+      into other realms has let you steal some of their secrets. You learn one
+      invocation from the Invocation of the Courts warlock feature for which you
+      meet the prerequisites. You may use runespell rager levels in place of
+      warlock levels to meet these prerequisites.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr"><strong>Dead Interrogator:</strong>&nbsp;Your impatience
+      sometimes leads you to kill first and ask questions later, but through
+      magic you figured out how to make such interrogations work anyway. You
+      learn speak with dead and may cast the spell once per short rest without
+      expending spell points. If you target the corpse of a creature that you or
+      an ally killed within the past hour, the creature must succeed on a Wisdom
+      saving throw against your spell save DC or be so frightened of you, even
+      in death, that it answers truthfully.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr"><strong>Martial Presence:</strong>&nbsp;You may choose one of
+      the options granted by the Martial Presence berserker feature.&nbsp;</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: gi8kfs4o88dsagps
+_key: '!items!gi8kfs4o88dsagps'

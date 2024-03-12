@@ -1,0 +1,31 @@
+name: Adroit Defense (Adept)
+type: feat
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 1st level, you learn special defensive techniques. Choose one of the
+      following options:</p>
+
+      <p>&nbsp;@UUID[Compendium.a5e.a5e-class-features.gs54uaguz87ikzio]{Defense:
+      Agile Defense}</p>
+
+      <p>&nbsp;@UUID[Compendium.a5e.a5e-class-features.mhz08sufd4nlowsz]{Defense:
+      Brutal Defense}</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: wqcltzuwqink2dq5
+_key: '!items!wqcltzuwqink2dq5'

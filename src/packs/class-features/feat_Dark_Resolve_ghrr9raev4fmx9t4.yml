@@ -1,0 +1,52 @@
+folder: null
+name: Dark Resolve
+type: feat
+img: icons/magic/unholy/beam-ringed-impact-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level, you gain proficiency in Wisdom&nbsp;<span
+      class="freelinking-link">saving throws</span>.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/unholy/beam-ringed-impact-purple.webp
+    origin: Item.ghrr9raev4fmx9t4
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Wisdom STP
+    _id: DvGJxE9ywYF4WQC6
+    changes:
+      - key: system.abilities.wis.save.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ghrr9raev4fmx9t4.DvGJxE9ywYF4WQC6'
+flags: {}
+_id: ghrr9raev4fmx9t4
+_key: '!items!ghrr9raev4fmx9t4'

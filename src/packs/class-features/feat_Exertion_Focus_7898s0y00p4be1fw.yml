@@ -1,0 +1,78 @@
+name: Exertion Focus
+type: feat
+img: icons/magic/control/silhouette-hold-change-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, your training allows you to harness your mental energy
+      into a supernatural state of focus. Some cultures refer to this energy as
+      ax&eacute;, prana, pneuma, or ki. Your access to this energy is
+      represented by your exertion pool. You can spend exertion points to fuel
+      various focus features.</p>
+
+      <p>You start knowing three such features: Flurry of Blows, Long Step, and
+      Patient Defense. You learn more focus features as you gain levels in this
+      class.</p>
+
+      <p>Some of your focus features require your target to make a saving throw
+      to resist the feature&rsquo;s effects. The saving throw DC is calculated
+      as follows:</p>
+
+      <p><strong>Focus save DC</strong> = 8 + your proficiency bonus + your
+      Wisdom modifier</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 7898s0y00p4be1fw
+_key: '!items!7898s0y00p4be1fw'

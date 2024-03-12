@@ -1,0 +1,70 @@
+name: 'Critical: Deafening Blow'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>The force of the blow leaves the target with a ringing sensation in
+      their ears, muffling the world around them. When you score a critical hit,
+      the target is deafened for a number of rounds equal to half your
+      proficiency bonus. If the target attempts to cast a spell it must make a
+      Constitution saving throw in order to do so successfully. The DC equals 10
+      or half the damage the creature took from the attack that inflicted the
+      condition, whichever number is higher.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: p3ycq2i3kaapwg68
+_key: '!items!p3ycq2i3kaapwg68'

@@ -1,0 +1,71 @@
+name: Killing Word
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level, you can spend an action to so utterly cut to the core of
+      a person’s identity that for a moment they might lose the will to live.
+      One creature that can understand you is stunned . At the end of each of
+      its turns it must make a Charisma saving throw against your trick DC or
+      else it gains a level of strife . The effect ends when it succeeds one of
+      these saving throws, or when it has six levels of strife.</p><p>Once you
+      use this feature, you must finish a short or long rest before you can use
+      it again.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: One creature that can hear and understand you
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: sdg624w6ms78lwss
+_key: '!items!sdg624w6ms78lwss'

@@ -1,0 +1,26 @@
+name: 'Advanced Defense: Enhanced Vitality'
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose Intelligence, Wisdom, or Charisma. When you make the chosen
+      saving throw against an effect that deals half damage on a success, you
+      can choose to instead make a Constitution saving throw.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 6gcedxtqq977tv7t
+_key: '!items!6gcedxtqq977tv7t'

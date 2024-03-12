@@ -1,0 +1,72 @@
+name: Driven by Success
+type: feat
+img: icons/skills/melee/weapons-crossed-daggers-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level you gain the following benefits whenever you score a
+      critical hit:</p>
+
+      <ul>
+
+      <li>Inspiration if you do not already have it, and</li>
+
+      <li>1d10 x your proficiency bonus in temporary hit points.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 * @prof
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: x4eapbfyys81xmwv
+_key: '!items!x4eapbfyys81xmwv'

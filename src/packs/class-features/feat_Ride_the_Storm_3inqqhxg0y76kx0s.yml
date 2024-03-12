@@ -1,0 +1,27 @@
+name: Ride the Storm
+type: feat
+img: icons/magic/lightning/bolt-strike-clouds-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a flying speed of 80 feet while outdoors. In addition, if you
+      are outdoors and it is stormy weather, any spell you cast that deals
+      <em>thunder</em>, <em>lightning</em>, or <em>cold</em> damage adds your
+      Charisma modifier to one of its damage rolls.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 18 Stormborn Sorcerer archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 3inqqhxg0y76kx0s
+_key: '!items!3inqqhxg0y76kx0s'

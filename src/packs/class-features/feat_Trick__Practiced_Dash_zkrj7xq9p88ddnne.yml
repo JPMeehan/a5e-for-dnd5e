@@ -1,0 +1,27 @@
+name: 'Trick: Practiced Dash'
+type: feat
+img: icons/magic/water/ice-snowman.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Prerequisite: 13th level, d8 expertise die on Athletics checks
+      </em></p><p>Your expertise die on Athletics checks increases to d10. When
+      using the Dash action, you ignore difficult terrain and don’t fall on
+      slippery surfaces.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: zkrj7xq9p88ddnne
+_key: '!items!zkrj7xq9p88ddnne'

@@ -1,0 +1,28 @@
+name: Master Slayer
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When attacking one of your <em>Studied Adversaries</em> you may
+      increase the benefits of your <em>T</em><em>rained Accuracy</em> ability
+      as if you had expended one additional use, to a maximum equivalent of 3
+      uses. &nbsp;Once you have done so against a specific creature, you cannot
+      do so again against that creature for 24 hours.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 15 Hunter Ranger archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: b5rqrwq7kmgcypr2
+_key: '!items!b5rqrwq7kmgcypr2'

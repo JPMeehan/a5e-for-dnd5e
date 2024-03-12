@@ -1,0 +1,71 @@
+folder: null
+name: Speak with Dead
+type: feat
+img: icons/magic/death/skeleton-skull-soul-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level you gain the ability to speak with the dead. You can
+      cast the 3rd-level spell&nbsp;<em>speak with dead</em><em>&nbsp;</em>as an
+      action without expending any spell slots. Once you have used this feature,
+      you cannot do so again until after you take a&nbsp;<span
+      class="freelinking-link">long rest</span>&nbsp;.</p>
+
+      <p>At 10th level you gain the ability to use this feature a number of
+      times equal to your proficiency bonus between long rests.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: ep373vzqvv94p1pc
+_key: '!items!ep373vzqvv94p1pc'

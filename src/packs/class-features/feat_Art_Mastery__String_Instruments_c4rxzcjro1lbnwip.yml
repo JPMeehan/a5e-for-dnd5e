@@ -1,0 +1,28 @@
+name: 'Art Mastery: String Instruments'
+type: feat
+img: icons/tools/instruments/lute-gold-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>The melodies you pluck spread like gusts of wind. You gain a number of
+      melody charges equal to your Charisma modifier, which you regain whenever
+      you finish a long rest. When using this musical art as a spell focus, if
+      you cast a spell that targets only one creature you can spend a melody
+      charge to target an additional creature within the spell's range.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: c4rxzcjro1lbnwip
+_key: '!items!c4rxzcjro1lbnwip'

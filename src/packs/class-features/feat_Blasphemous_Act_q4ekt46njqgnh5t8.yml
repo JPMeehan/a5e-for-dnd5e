@@ -1,0 +1,29 @@
+name: Blasphemous Act
+type: feat
+img: icons/magic/symbols/rune-sigil-hook-white-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you can siphon away divine power intended for the gods’
+      chosen. At the end of each long rest, you gain a Channel Divinity feature.
+      This feature must be from a cleric archetype and granted to clerics of 2nd
+      level. Alternatively, you can instead gain Turn Undead with the benefit of
+      the Command Undead empowerment.</p><p>Once you have used the chosen cleric
+      feature, you can’t use it again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: q4ekt46njqgnh5t8
+_key: '!items!q4ekt46njqgnh5t8'

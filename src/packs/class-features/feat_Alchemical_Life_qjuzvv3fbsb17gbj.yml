@@ -1,0 +1,32 @@
+name: Alchemical Life
+type: feat
+img: icons/creatures/magical/construct-stone-earth-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level you gain the ability to create a homunculus. This
+      requires 8 hours of work and 2000 gp of reagents. It also requires you to
+      shed some of your blood, dealing between 2d4 and 12d4 piercing damage
+      chosen in multiples of 2d4. This damage cannot be reduced by any means,
+      and your maximum hit points are reduced by this amount until the
+      homunculus is destroyed. The homunculous uses the stats from the Monstrous
+      Menagerie except its maximum hit points are increased by the amount of
+      damage you took creating it. You can only have one homunculus at a
+      time.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: qjuzvv3fbsb17gbj
+_key: '!items!qjuzvv3fbsb17gbj'

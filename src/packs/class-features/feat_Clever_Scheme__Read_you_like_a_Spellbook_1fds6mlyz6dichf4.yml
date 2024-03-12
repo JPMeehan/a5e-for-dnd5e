@@ -1,0 +1,67 @@
+name: 'Clever Scheme: Read you like a Spellbook'
+type: feat
+img: icons/magic/lightning/bolt-strike-hand-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can spend an action to make an Arcana check against the save DC of
+      a creature’s spell. If you succeed, you deduce from their demeanor,
+      fashion, and accoutrements what cantrips they know and the last
+      non-cantrip spell it cast, if any.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 1fds6mlyz6dichf4
+_key: '!items!1fds6mlyz6dichf4'

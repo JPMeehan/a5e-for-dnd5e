@@ -1,0 +1,29 @@
+name: 'Knack: Poisons and Antidotes'
+type: feat
+img: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Once between long rests you can spend 10 minutes to extract 3 doses of
+      liquid poison (when ingested, a creature makes a DC 10 Constitution saving
+      throw or is poisoned for 1 hour) from poisonous plants you’ve foraged with
+      an hour of searching and DC 10 Survival check. Alternatively, using the
+      same plants you can spend an hour making a dose of antitoxin (see Chapter
+      4: Equipment).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: weavxhkegoav0ihp
+_key: '!items!weavxhkegoav0ihp'

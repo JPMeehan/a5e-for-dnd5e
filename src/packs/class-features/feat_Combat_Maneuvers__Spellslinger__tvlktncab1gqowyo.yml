@@ -1,0 +1,47 @@
+name: Combat Maneuvers (Spellslinger)
+type: feat
+img: icons/skills/melee/sword-shield-stylized-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level, you gain the ability to use combat maneuvers.
+      You gain proficiency in two combat traditions from the following list:</p>
+
+      <ul>
+
+      <li>Biting Zephyr</li>
+
+      <li>Mist and Shade</li>
+
+      <li>Arcane Artillery</li>
+
+      </ul>
+
+      <p>You select two combat maneuvers taken from the traditions that
+      you&rsquo;ve chosen and gain additional maneuvers at 2nd level and every
+      even numbered level after that.</p>
+
+      <p>You gain an exertion pool equal to twice your proficiency bonus,
+      regaining any spent exertion at the end of a short or long rest. You use
+      your maneuvers by spending points from your exertion pool.</p>
+
+      <p>Whenever you gain a level you may choose one maneuver you know and
+      replace it with another maneuver of your choice which may be of the
+      highest degree you are capable of, or lower.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: tvlktncab1gqowyo
+_key: '!items!tvlktncab1gqowyo'

@@ -1,0 +1,28 @@
+folder: null
+name: More Scared of You (Scourge)
+type: feat
+img: icons/skills/melee/maneuver-greatsword-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At level 15 you can
+      choose to increase the damage of your Threatening Presence by 1d6.<span
+      style="mso-spacerun: yes;">&nbsp; </span>If you do so, the target is also
+      immune to fear for the duration, and if they are currently frightened that
+      condition immediately ends for them.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Marshal Level 15; Scourge Archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: giwfrvcb43hezc49
+_key: '!items!giwfrvcb43hezc49'

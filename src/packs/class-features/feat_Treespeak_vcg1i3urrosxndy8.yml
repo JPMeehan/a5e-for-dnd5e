@@ -1,0 +1,75 @@
+name: Treespeak
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level plants understand anything you verbally communicate in
+      Druidic, and you can comprehend them in return. The knowledge and
+      awareness of many plants is limited and most mundane plants have at best a
+      vague understanding of the world around them, though creatures with the
+      plant type can often give you information about nearby locations and
+      monsters, including whatever they have perceived within the past day. At
+      the Narrator’s discretion, you might be able to persuade a plant creature
+      to perform a small favor for you. </p><p>In addition, your verdant magic
+      causes those around you to flourish. Whenever you cast a spell of the
+      plants school, <strong>roll a number of d4s equal to the spell’s
+      level</strong>. You and allied creatures within 10 feet of you regain a
+      number of hit points equal to the result.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 10
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: vcg1i3urrosxndy8
+_key: '!items!vcg1i3urrosxndy8'

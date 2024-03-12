@@ -1,0 +1,33 @@
+name: Combat Directives
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 5th level, you can direct your companions so effectively
+      that they can use the techniques you’ve mastered. You learn one additional
+      combat maneuver from the Sanguine Knot tradition. This combat maneuver
+      does not count against the number of combat maneuvers that you
+      know.</p><p>In addition, when a creature uses your Commanding Presence to
+      make an attack, it can simultaneously use one Sanguine Knot combat
+      maneuver that you know. If the creature does not have any exertion points
+      to spend on combat maneuvers, it does not require exertion points for that
+      use but it cannot benefit from Combat Directives again until it has
+      finished a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 5el685zm5ggve3sf
+_key: '!items!5el685zm5ggve3sf'

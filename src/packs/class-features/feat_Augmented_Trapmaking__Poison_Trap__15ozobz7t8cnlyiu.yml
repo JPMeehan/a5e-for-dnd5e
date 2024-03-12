@@ -1,0 +1,31 @@
+name: Augmented Trapmaking (Poison Trap)
+type: feat
+img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 9th level, you invent a new way to increase the danger posed by your
+      traps. You learn one of the following trap capabilities. When using
+      Trapmaking to create a trap, you can choose to augment it with the new
+      capability, which is triggered when your trap damages a
+      creature.</p><h3><strong>Poison Trap</strong></h3><p>You may add a contact
+      or injury poison to the trap (see Chapter 6: Maladies, in Trials &amp;
+      Treasures), which is consumed. The victim of the trap is affected by the
+      poison.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 15ozobz7t8cnlyiu
+_key: '!items!15ozobz7t8cnlyiu'

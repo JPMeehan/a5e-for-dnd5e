@@ -1,0 +1,29 @@
+name: Exemplary
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Acrobatics and Athletics checks made to
+      climb, jump, run, and swim. When your party makes a group Acrobatics or
+      Athletics check, you may apply the results of your roll to yourself and
+      one ally. You can choose which ally to apply your result to after everyone
+      has rolled, but must do so before the Narrator says whether you succeed or
+      fail.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 7lwmdgt4c6or8dxo
+_key: '!items!7lwmdgt4c6or8dxo'

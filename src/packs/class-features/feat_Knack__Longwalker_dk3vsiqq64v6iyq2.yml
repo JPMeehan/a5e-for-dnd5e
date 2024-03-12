@@ -1,0 +1,28 @@
+name: 'Knack: Longwalker'
+type: feat
+img: icons/commodities/biological/organ-stomach.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you would gain a level of fatigue due to lack of Supply during a
+      journey, you do not gain that level of fatigue. Alternatively, you can
+      choose to accept the level of fatigue, allowing up to two traveling
+      companions to forgo gaining a level of fatigue instead. Once you have used
+      this feature, you cannot do so again for a week.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: dk3vsiqq64v6iyq2
+_key: '!items!dk3vsiqq64v6iyq2'

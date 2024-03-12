@@ -1,0 +1,72 @@
+name: Stride and Seek (Swift Feet)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your wilderness survival instincts guide your physical and mental
+      training. You gain one of the following features at 2nd level. You gain
+      the other feature when you reach 5th level in this
+      class.</p><h3><strong>SWIFT FEET</strong></h3><p>You can use your bonus
+      action to move with greater agility. For 1 minute, your movement doesn’t
+      provoke opportunity attacks. You can choose to end this effect early to
+      either increase your Speed by 30 feet until the end of your turn or gain
+      advantage on a weapon attack.&nbsp;</p><p>Once you use this feature, you
+      can’t use it again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: f5f1x9yq7a66sqx9
+_key: '!items!f5f1x9yq7a66sqx9'

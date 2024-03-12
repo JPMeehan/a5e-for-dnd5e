@@ -1,0 +1,69 @@
+name: 'Escape: Get Them Out'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When an ally within range of your Commanding Presence would make a
+      saving throw against an area effect, you can use your reaction to shout at
+      them and your ally can use their reaction to move up to half their Speed.
+      If your ally ends their movement outside the area, the area effect has no
+      effect on them. Once you use this feature, you cannot do so again until
+      you finish a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: An ally makes a saving throw against an area effect.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: Within Commanding Presence range
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: dtyyz0yh9pcmzoec
+_key: '!items!dtyyz0yh9pcmzoec'

@@ -1,0 +1,32 @@
+name: Field Studies (Lancer)
+type: feat
+img: icons/skills/trades/academics-book-study-runes.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 4th level your knowledge increases based on topics you’ve learned in
+      your adventures. Choose from the following
+      options:</p><ul><li><p><strong>Adventuring Knowledge: </strong>You gain
+      proficiency in the Arcana, Culture, History, Nature, or Religion
+      skill.</p></li><li><p><strong>Linguistic Experimentation: </strong>You
+      gain proficiency in two languages you have been exposed
+      to.</p></li><li><p><strong>Martial Training: </strong>You gain proficiency
+      in the Acrobatics or Athletics skill, or in a cultural or rare weapon you
+      have been exposed to.</p></li></ul>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: vf63xrmpzig9yu37
+_key: '!items!vf63xrmpzig9yu37'

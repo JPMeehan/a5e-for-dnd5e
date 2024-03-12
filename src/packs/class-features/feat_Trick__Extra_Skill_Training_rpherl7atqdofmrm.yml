@@ -1,0 +1,26 @@
+name: 'Trick: Extra Skill Training'
+type: feat
+img: icons/skills/trades/academics-investigation-puzzles.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency in one of the following: Acrobatics, Athletics,
+      Investigation, Perception, Stealth, or any tool. You may choose this trick
+      more than once.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: rpherl7atqdofmrm
+_key: '!items!rpherl7atqdofmrm'

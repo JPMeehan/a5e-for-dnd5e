@@ -1,0 +1,73 @@
+name: Stone Circle
+type: feat
+img: icons/environment/wilderness/arch-stone.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you gain a grade 4 Sacred Grove stronghold. In addition
+      to the normal benefits it also contains a circle of standing stones that
+      map the stars. You always have the
+      @UUID[Compendium.a5e-for-dnd5e.spells.bs3wnsid88tbup6c]{Divination} and
+      @UUID[Compendium.a5e.a5e-spells.qsa7b22n3y1pbzf6]{Augury} spells prepared
+      and they do not count against your number of prepared spells. While in
+      your Sacred Grove you may cast each of these spells once per long rest
+      with out expending a spell slot, and in your grove you always count as
+      being able to see the night sky even if you cannot (if you are blind, if
+      it is daytime, etc.).</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: cmkn5len60fxofgg
+_key: '!items!cmkn5len60fxofgg'

@@ -1,0 +1,31 @@
+name: Erupting Nova
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level, your ability to pour forth energy increases
+      substantially. You can cast two spells simultaneously, spending spell
+      slots for each, so long as both spells have a casting time of 1 action,
+      the sum of their levels is less than 6th-level, and neither spell requires
+      concentration. When you do so, make a Charisma saving throw (DC 12 + the
+      sum of the spells’ levels). On a failure, you waste your action (but not
+      any spell slots) and both spells are removed from your spell list until
+      you finish a long rest. </p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: b9ht5mfwoxj1z8g2
+_key: '!items!b9ht5mfwoxj1z8g2'

@@ -1,0 +1,69 @@
+name: Guiding Flourish
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you hit a creature with a melee attack, you can try to trick it
+      into moving. If it fails a Dexterity saving throw , it moves up to 10 feet
+      in a direction of your choice. This movement doesn’t provoke opportunity
+      attacks . If this movement would cause it to take damage (such as by
+      falling or entering fire), the creature has advantage on this saving
+      throw.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: v95mki4ol1knxh6h
+_key: '!items!v95mki4ol1knxh6h'

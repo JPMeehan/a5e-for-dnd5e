@@ -1,0 +1,74 @@
+name: Embodied Vitality [Verdant Sovereign]
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level your lifeforce becomes a locus of natural power. You gain
+      an additional Primal Vitality or Ingrained Vitality feature you haven’t
+      previously selected, and your choice of one of the
+      following.</p><h3><strong>Verdant
+      Sovereign</strong></h3><p><em>Prerequisite: Verdant
+      Beguiler</em></p><p>Your charming spores find fertile ground in even the
+      strongest minds. When you emit charming spores at a target you may choose
+      to affect them as per the spell Charm Monster.</p><hr class="a5e-rule
+      u-my-md"><p>If you do not meet any of the prerequisites, instead you gain
+      an additional Primal Vitality and an additional Ingrained Vitality feature
+      you haven’t previously selected.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: cr6uj7hjeom7alai
+_key: '!items!cr6uj7hjeom7alai'

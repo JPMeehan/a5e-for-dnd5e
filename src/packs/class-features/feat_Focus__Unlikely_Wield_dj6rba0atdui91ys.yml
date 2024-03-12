@@ -1,0 +1,29 @@
+name: 'Focus: Unlikely Wield'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Requirement: 11th level</em></p><p>You can wield three weapons with
+      the light property at once. Typically this is done with a dagger wielded
+      between toes, but it has been known to be done with the mouth (or even a
+      tail for combatants that have one). When you engage in two weapon
+      fighting, you can use the third weapon to make an additional weapon
+      attack.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: dj6rba0atdui91ys
+_key: '!items!dj6rba0atdui91ys'

@@ -1,0 +1,67 @@
+name: 'Blessed Bargain: Light of Life'
+type: feat
+img: icons/magic/light/orbs-firefly-hand-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can touch a creature to heal it for 2d8 + you proficiency bonus hit
+      points.<br>Alternatively you may end a disease or one of the following
+      conditions: <em>blinded</em>, <em>deafened</em>, <em>paralyzed</em>, or
+      <em>poisoned</em>. &nbsp;You can do so once per long rest for every two
+      warlock levels you possess.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 1 Empyreal Sage archetype
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8 +@prof
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: ejsgrgno5xblopxb
+_key: '!items!ejsgrgno5xblopxb'

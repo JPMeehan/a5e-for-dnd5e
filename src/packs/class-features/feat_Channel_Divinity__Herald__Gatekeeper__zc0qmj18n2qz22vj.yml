@@ -1,0 +1,90 @@
+name: 'Channel Divinity (Herald: Gatekeeper)'
+type: feat
+img: icons/magic/symbols/triangle-glowing-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level you gain the following channel divinity options:</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Turn the Outsider</h2>
+
+      <p>As an action, you present your holy symbol and speak a divine word,
+      rebuking the outsiders. Each fiend, celestial, aberration, or elemental
+      creature or any creature with an alignment trait within 30 feet that can
+      see or hear you must make a Wisdom saving throw. If the creature fails it
+      is turned for 1 minute or until it takes damage from any source.</p>
+
+      <p>A turned creature must use its turns trying to move as far away from
+      you as possible. It cannot willingly move to a space within 30 feet of
+      you. It also cannot take reactions. On its action, it can use only the
+      Dash action or try to escape any effect that prevents it from moving. If
+      there&rsquo;s nowhere to move, the creature can use the Dodge action.</p>
+
+      <p>At your Narrator's discretion, depending on the cosmology of your
+      setting you may also turn other creature types such as fey or undead.</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Abjure the Mind</h2>
+
+      <p>As a bonus action you end any charm, fear, or possession effects on
+      yourself or any allies within 10 feet. Starting at level 18, this area
+      increases to 30 feet.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '10'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: zc0qmj18n2qz22vj
+_key: '!items!zc0qmj18n2qz22vj'

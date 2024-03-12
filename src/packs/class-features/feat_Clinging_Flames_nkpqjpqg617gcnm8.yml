@@ -1,0 +1,28 @@
+name: Clinging Flames
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, when you cast a spell that deals fire damage and forces a
+      saving throw, creatures that fail their first saving throw against it
+      suffer ongoing fire damage equal to your Intelligence modifier. At the
+      start of each of its turns a creature repeats the saving throw, ending the
+      ongoing fire damage on a success.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: nkpqjpqg617gcnm8
+_key: '!items!nkpqjpqg617gcnm8'

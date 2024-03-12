@@ -1,0 +1,30 @@
+name: Multitalented
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you have an incredible breadth of magical understanding.
+      When you see a creature cast a spell of a level equal to or lower than
+      your Intelligence modifier, you automatically know what spell it is.
+      </p><p>In addition, choose one Flux effect. The chosen effect doesn’t
+      interfere with your normal use of Flux and can be used an unlimited number
+      of times. When you gain a level in this class, you can replace it with a
+      different Flux effect.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: jtc54k2qs1h9rnnh
+_key: '!items!jtc54k2qs1h9rnnh'

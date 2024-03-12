@@ -1,0 +1,84 @@
+name: Aura of Luck (Gambler)
+type: feat
+img: icons/magic/control/buff-luck-fortune-clover-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 12">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>At 1st level you exude an aura of luck in a 10-foot radius around your
+      person. Attacks within your aura that land critical hits deal an
+      additional 1d6 damage (which is not doubled). This aura increases to 20
+      feet at 5th level. The damage from this aura increases by 1d6 at levels 5,
+      10, and 15.</p>
+
+      <p>In addition, you may use your Charisma modifier to determine your bonus
+      to attack and damage rolls with weapons that don&rsquo;t have the finesse
+      quality.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 4gduehpjfdrqo5dw
+_key: '!items!4gduehpjfdrqo5dw'

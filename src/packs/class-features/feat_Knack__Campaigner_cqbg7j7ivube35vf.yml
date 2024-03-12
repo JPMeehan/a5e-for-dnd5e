@@ -1,0 +1,29 @@
+name: 'Knack: Campaigner'
+type: feat
+img: icons/environment/settlement/warehouse-crates.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span class="fontstyle2">You have the ability to go for the long haul,
+      carrying heavy equipment across long distances. You double your Strength
+      score when determining your carrying capacity and the weight you can lift,
+      push, or drag.</span>&nbsp;<span class="fontstyle0">You may also add your
+      proficiency bonus to the number of hours you can march before you risk
+      fatigue from a forced march.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: cqbg7j7ivube35vf
+_key: '!items!cqbg7j7ivube35vf'

@@ -1,0 +1,34 @@
+name: 'Mystery: Old Lore'
+type: feat
+img: icons/sundries/books/book-open-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">Choose Arcana,
+      Nature, or Religion.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You gain an expertise
+      die on checks made with the given skill and you may also always choose to
+      apply your spellcasting ability modifier to checks with the chose
+      skill.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You may choose this
+      mystery more than once, but must choose a different skill each
+      time.&nbsp;</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Witch Class
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: j2ef696s18nuh8d9
+_key: '!items!j2ef696s18nuh8d9'

@@ -1,0 +1,67 @@
+name: 'Aura of the Champion: Aura of Light'
+type: feat
+img: icons/magic/light/explosion-star-glow-blue-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>An unconscious ally with 0 hit points that starts its turn in your aura
+      automatically succeeds on one death saving throw each turn. Once a
+      creature has succeeded on three death saving throws while in your aura, it
+      cannot benefit from this effect until it has finished a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: cnwri456q5q5jqet
+_key: '!items!cnwri456q5q5jqet'

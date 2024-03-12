@@ -1,0 +1,27 @@
+name: Flowing Freedom
+type: feat
+img: icons/magic/water/pseudopod-swirl-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th Level you are permanently under the effects of a
+      @UUID[Compendium.a5e-for-dnd5e.spells.adbxdvi3uj851e70]{Freedom of
+      Movement} spell. This cannot be dispelled, though it is suppressed by an
+      antimagic field. You can also breath underwater.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: lkbfavogq58q0fbh
+_key: '!items!lkbfavogq58q0fbh'

@@ -1,0 +1,27 @@
+name: 'Dirge: Frantic Dash'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You cause the target creature&rsquo;s movement, jump height, and jump
+      distance to be tripled for one turn and you cause attacks of opportunity
+      against the creature to be at disadvantage. The creature&rsquo;s movement
+      speed then becomes 0 for two turns and the creature loses 2 hit dice.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 30200ui9xni4zv92
+_key: '!items!30200ui9xni4zv92'

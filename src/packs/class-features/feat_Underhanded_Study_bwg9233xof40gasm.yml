@@ -1,0 +1,32 @@
+name: Underhanded Study
+type: feat
+img: icons/magic/unholy/silhouette-robe-evil-power.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at level 2, while no slouch in the magic department, you’ve
+      found that hiding this fact until an opportune time can be useful. You
+      gain proficiency with the Deception and Sleight of Hand skills. You may
+      rely on legerdemain, saving the real magic for when it’s truly needed, or
+      you may just have an ability to surreptitiously take small items like
+      scrolls and wands without notice. Or both. You may always choose to use
+      Intelligence when making Deception checks.</p><p>You’re also able to work
+      much faster when copying spells to your spellbook. The time to copy a new
+      spell is halved</p>
+    chat: ''
+  source:
+    book: Confidence Mage
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: bwg9233xof40gasm
+_key: '!items!bwg9233xof40gasm'

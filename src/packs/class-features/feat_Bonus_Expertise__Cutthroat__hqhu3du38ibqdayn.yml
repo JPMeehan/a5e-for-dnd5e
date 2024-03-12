@@ -1,0 +1,28 @@
+name: Bonus Expertise (Cutthroat)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you choose this archetype at 3rd level, you gain proficiency with
+      Deception, and you gain an expertise die on Deception checks and checks
+      made using a poisoner’s kit. For you, expertise dice in Deception and the
+      poisoner’s kit can be upgraded from d8 to d10, exceeding the usual limit
+      on expertise dice.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: hqhu3du38ibqdayn
+_key: '!items!hqhu3du38ibqdayn'

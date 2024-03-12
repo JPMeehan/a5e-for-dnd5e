@@ -1,0 +1,30 @@
+name: Whirling Winds
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, a gale whips up around you as you rage, kicking
+      up grit and debris that &nbsp;make you difficult to see. These winds act
+      as an aura extending 10 feet from you in every direction, but not through
+      total cover. While you are raging, treat all attacks against you as though
+      you had half cover (+2 to AC, Dexterity saving throws, and ability checks
+      made to hide).</p><p>In addition, you gain resistance to either thunder or
+      lightning damage, whichever you did not choose at 3rd level.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: f41mri24smndjesd
+_key: '!items!f41mri24smndjesd'

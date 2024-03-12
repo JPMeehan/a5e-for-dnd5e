@@ -1,0 +1,29 @@
+name: Sanguine Knot (Lancer)
+type: feat
+img: icons/sundries/survival/rope-wrapped-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at level 1, you gain access to a pool of exertion equal to twice
+      your proficiency bonus and the Sanguine Knot combat tradition. You gain
+      two maneuvers at level 1 and additional maneuvers at levels 3, 5, and 7.
+      Whenever you gain a level you may choose to replace a maneuver you know
+      with a maneuver of a degree equal to or lower than the degree you are
+      replacing.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: dp06nc3u49tyrnc5
+_key: '!items!dp06nc3u49tyrnc5'

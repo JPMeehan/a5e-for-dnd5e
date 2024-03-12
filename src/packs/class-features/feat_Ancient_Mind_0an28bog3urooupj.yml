@@ -1,0 +1,130 @@
+name: Ancient Mind
+type: feat
+img: icons/creatures/magical/spirit-fear-energy-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, constant exposure to forbidden lore and strange
+      supernatural effects has both warped and hardened your mind.</p>
+
+      <p>You have advantage on saving throws to resist spells and effects that
+      would impose the Charmed, Confused, Frightened, or Rattled conditions on
+      you. In addition, a creature attempting to contact you via telepathy, read
+      your mind, or control your actions with a spell or effect (such as
+      dominate person) must make a Wisdom save against your spell save DC or
+      suffer 4d4 psychic damage and a condition determined by the table below.
+      The condition persists for one minute, but the creature can repeat the
+      saving throw at the end of each of its turns, ending the effect on a
+      success. A creature that succeeds on its save takes half damage and does
+      not suffer a condition.</p>
+
+      <table style="width: 100%; height: 83.9845px;" border="1"><colgroup><col
+      style="width: 30.3191%;"><col style="width: 69.6809%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">d6</td>
+
+      <td style="text-align: center; height: 16.7969px;">Condition</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">1-2</td>
+
+      <td style="text-align: center; height: 16.7969px;">Rattled</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">3</td>
+
+      <td style="text-align: center; height: 16.7969px;">Confused</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">4</td>
+
+      <td style="text-align: center; height: 16.7969px;">Charmed</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">5-6</td>
+
+      <td style="text-align: center; height: 16.7969px;">Frightened</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Cultist'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: 0an28bog3urooupj
+_key: '!items!0an28bog3urooupj'

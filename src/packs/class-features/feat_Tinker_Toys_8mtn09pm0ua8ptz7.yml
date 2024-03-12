@@ -1,0 +1,38 @@
+name: Tinker Toys
+type: feat
+img: icons/magic/control/control-influence-puppet.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p style="text-align: right"><em>Field Discovery</em></p><hr
+      class="a5e-rule u-my-md"><p>Your mastery of locomotion and gearing allows
+      you to easily infuse elements of motion into simple devices. As an action
+      you can create and place a Tiny moving gadget called a tinker toy (such as
+      a walking doll, flying whirligig, or toy boat) out of 1 gold worth of
+      materials. This tinker toy has AC 10, 1 hit point, and your choice of a
+      Speed of 10 feet, fly speed of 10 feet, or swim speed of 10 feet. When you
+      place this device it begins moving in a straight line until it is
+      destroyed, it is blocked by an obstacle, or you use a bonus action to pick
+      it up again. Tinker toys made in this way weigh 2 pounds, and can carry up
+      to 1 pound worth of other devices or materials. Once you create a tinker
+      toy in this way you cannot do so again until you finish a short rest, and
+      any existing tinker toys you’ve created fall apart whenever you create a
+      new one.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 8mtn09pm0ua8ptz7
+_key: '!items!8mtn09pm0ua8ptz7'

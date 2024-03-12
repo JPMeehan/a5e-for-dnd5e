@@ -1,0 +1,31 @@
+name: 'Presence: Mighty'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You turn your toughness into a tool when imposing upon others. You can
+      always choose to use Constitution when making Intimidation
+      checks.</p><p>In addition, when you enter a tavern or other social
+      gathering, you can make a DC 15 Intimidation check while loudly declaring
+      that you are looking for something or someone. On a success, most of the
+      people there look at and otherwise point out whoever they believe is the
+      person you are looking for or the person most likely to know about what
+      you are seeking.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 18w3ij6yfmojzz2b
+_key: '!items!18w3ij6yfmojzz2b'

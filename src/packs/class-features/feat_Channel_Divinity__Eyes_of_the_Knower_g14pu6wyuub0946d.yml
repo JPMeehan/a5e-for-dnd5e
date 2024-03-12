@@ -1,0 +1,67 @@
+name: 'Channel Divinity: Eyes of the Knower'
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As a bonus action, you can gain supernatural clarity for one minute.
+      While this ability is active, you gain immunity to the Charmed condition
+      and automatically succeed on saving throws to disbelieve illusions and
+      contested Insight checks to determine if another creature is lying or
+      withholding information from you.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: g14pu6wyuub0946d
+_key: '!items!g14pu6wyuub0946d'

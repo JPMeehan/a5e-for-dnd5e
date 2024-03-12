@@ -1,0 +1,25 @@
+name: 'Sacred Aura: Aura of Resistance'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You and allies within range of your aura gain a bonus on saving throws
+      equal to your Charisma modifier (+1).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 9ssn50o71od73f7i
+_key: '!items!9ssn50o71od73f7i'

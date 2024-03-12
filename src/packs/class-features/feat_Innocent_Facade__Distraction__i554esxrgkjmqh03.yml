@@ -1,0 +1,72 @@
+name: Innocent Facade (Distraction)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 4th level, you are skilled at hiding your motives. Choose
+      one of the following options. You must be proficient in a skill or tool to
+      gain an expertise die from Innocent
+      Facade.</p><h3><strong>Distraction</strong></h3><p>You gain an expertise
+      die on Performance checks. You can use an action to make a Performance
+      check, opposed by the Insight check of creatures of your choice that can
+      see or hear you. On a failure, until the end of your next turn the
+      creatures have disadvantage on Perception checks and a –5 to their passive
+      Perception scores.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: i554esxrgkjmqh03
+_key: '!items!i554esxrgkjmqh03'

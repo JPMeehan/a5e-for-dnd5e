@@ -1,0 +1,69 @@
+name: Rise or Rest
+type: feat
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 8th level, when you kill a living creature, you may cast either the
+      @UUID[Compendium.a5e-for-dnd5e.spells.xs292gklnxyaeuyx]{Animate Dead} or
+      @UUID[Compendium.a5e.a5e-spells.724qyfqw7qcpe1ol]{Gentle Repose} spells on
+      them as a bonus action. You may cast these spells in this way a combined
+      number of times equal to your Wisdom modifier and regain all uses when you
+      finish a long rest. You must still expend a spell slot as normal.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: k4ozqimnkufjhapa
+_key: '!items!k4ozqimnkufjhapa'

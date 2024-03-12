@@ -1,0 +1,79 @@
+name: Will to Live
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level you gain an expertise die on death saving throws. You also
+      gain the ability to resist the pull of death. When you are reduced to 0
+      hit points but not killed outright you may spent a point of exertion and
+      choose one of the following effects:</p>
+
+      <h2>Fight Through Death</h2>
+
+      <p>You remain conscious and able to act while dying at 0 hit points. While
+      at 0 hit points your unarmed strikes deal additional necrotic damage equal
+      to your martial arts die and if you reduce a creature to 0 hit points you
+      gain a successful death saving throw. You still suffer failed death saving
+      throws from taking damage as normal. If you attain 3 failed death saves
+      you die; if you attain 3 successful death saving throws you regain 1 hit
+      point.</p>
+
+      <h2>Long Death</h2>
+
+      <p>Increase the number of death saving throws you can fail before dying by
+      your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 8bk8h43twd96uxp0
+_key: '!items!8bk8h43twd96uxp0'

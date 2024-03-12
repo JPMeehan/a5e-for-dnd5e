@@ -1,0 +1,94 @@
+folder: null
+name: Acidic Blood
+type: feat
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, your very blood becomes anathema to the regenerative
+      abilities of trolls. You gain&nbsp;<span
+      class="freelinking-link">immunity</span> to acid damage. In addition,
+      whenever a creature damages you with a bite attack, it takes 3d6 acid
+      damage from your acidic blood.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/wounds/anatomy-organ-heart-red.webp
+    origin: Item.98cfy8w4lmi24hd0
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Acid immunity
+    _id: IjqbgZpj9nozsK7F
+    changes:
+      - key: system.traits.damageImmunities
+        value: '["acid"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!98cfy8w4lmi24hd0.IjqbgZpj9nozsK7F'
+flags: {}
+_id: 98cfy8w4lmi24hd0
+_key: '!items!98cfy8w4lmi24hd0'

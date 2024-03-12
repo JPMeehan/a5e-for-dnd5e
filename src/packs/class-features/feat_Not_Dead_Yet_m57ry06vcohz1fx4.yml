@@ -1,0 +1,65 @@
+name: Not Dead Yet
+type: feat
+img: icons/magic/nature/leaf-drip-light-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level you may expend a hit die and make a DC 20 Medicine check
+      to replicate a
+      @UUID[Compendium.a5e-for-dnd5e.spells.0k5zymq9q95l8jwa]{Revivify} spell.
+      No components are required, though a particular creature may only benefit
+      from this once per long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: m57ry06vcohz1fx4
+_key: '!items!m57ry06vcohz1fx4'

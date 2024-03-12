@@ -1,0 +1,29 @@
+name: Fear the Reaper
+type: feat
+img: icons/magic/death/weapon-scythe-rune-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level you become a true harbinger of death. You ignore necrotic
+      resistance and treat immunity to necrotic damage as resistance. In
+      addition, you add the
+      @UUID[Compendium.a5e-for-dnd5e.spells.f64g6d7u9y9wxfij]{Circle of Death}
+      and @UUID[Compendium.a5e.a5e-spells.j8fzqjvq0ht2z1y0]{Finger of Death}
+      spells to your list of Necropomp spells.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 1e8y3kbkuk5k24gm
+_key: '!items!1e8y3kbkuk5k24gm'

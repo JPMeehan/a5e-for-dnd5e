@@ -1,0 +1,68 @@
+name: 'Warrior Born: Imposing Prowess'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When an ally you can see and hear makes a Deception or Persuasion
+      check, you can use your reaction to support them with an intimidating
+      display of strength or unsettling glower. Your ally rerolls the check,
+      gaining an expertise die on the roll.</p><p>Once you have used this
+      feature, you cannot do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When an ally you can see and hear makes a Deception or Persuasion check
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: hcpyk7u5fcwa6d1x
+_key: '!items!hcpyk7u5fcwa6d1x'

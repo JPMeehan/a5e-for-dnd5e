@@ -1,0 +1,27 @@
+name: Magical Knowledge
+type: feat
+img: icons/magic/perception/eye-winged-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, your knowledge of magic is such that you are particularly
+      adept at recognizing its presence. You know
+      @UUID[Compendium.a5e-for-dnd5e.spells.kaye34nheyrit487]{Detect Magic} and
+      can cast it at level 1 without expending a spell slot.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: x9wlovlttjvogkx8
+_key: '!items!x9wlovlttjvogkx8'

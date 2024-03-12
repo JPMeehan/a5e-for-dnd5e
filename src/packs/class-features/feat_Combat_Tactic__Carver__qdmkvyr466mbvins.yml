@@ -1,0 +1,73 @@
+name: Combat Tactic (Carver)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, you adopt a set of moves and tactics which complement
+      your preferred combat strategies. Choose one of the following options.
+      Each time you gain a level, you may change this
+      choice.</p><h3><strong>Carver</strong></h3><p>When you deal sneak attack
+      damage with a dagger, your attack deals an additional 1d6 damage. At 11th
+      level, this additional damage becomes 2d6 damage.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - piercing
+      - - 2d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: qdmkvyr466mbvins
+_key: '!items!qdmkvyr466mbvins'

@@ -1,0 +1,28 @@
+name: Sly Confidant
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose one skill you are proficient with. You gain an expertise die on
+      checks made using the chosen skill. </p><p>In addition, when you succeed
+      on an opposed Intelligence, Wisdom, or Charisma check, you gain advantage
+      on your next opposed Intelligence, Wisdom, or Charisma check against the
+      same creature.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: moiphau8u48qbjs0
+_key: '!items!moiphau8u48qbjs0'

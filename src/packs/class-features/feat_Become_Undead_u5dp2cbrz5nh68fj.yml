@@ -1,0 +1,71 @@
+name: Become Undead
+type: feat
+img: icons/commodities/bones/skull-white-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Having spent too much time around necromantic magic or the undead
+      themselves, and it has now affected you in a more permanent way, and as
+      such:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You gain the undead creature type.</p>
+
+      </li>
+
+      <li>
+
+      <p>You gain resistance to necrotic damage.</p>
+
+      </li>
+
+      <li>
+
+      <p>You gain immunity to both poison damage and the poisoned condition.</p>
+
+      </li>
+
+      <li>
+
+      <p>You no longer require sleep, but instead, during a long rest you sit or
+      stand motionless for at least 4 hours. <span style="font-size:
+      10.5pt;">You remain conscious during this time.&nbsp;</span></p>
+
+      </li>
+
+      <li>
+
+      <p>You do not need to eat or drink.</p>
+
+      </li>
+
+      <li>
+
+      <p>You suffer no ill effects from resurrection magic, and resurrection
+      magic used on you does not require material components.</p>
+
+      </li>
+
+      </ul>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: u5dp2cbrz5nh68fj
+_key: '!items!u5dp2cbrz5nh68fj'

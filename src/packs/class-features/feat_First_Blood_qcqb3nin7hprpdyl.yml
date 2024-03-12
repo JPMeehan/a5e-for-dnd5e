@@ -1,0 +1,27 @@
+name: First Blood
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You are exceptionally deadly against unprepared opponents. Starting at
+      17th level, you have advantage on your first attack in combat if it’s
+      against a creature who hasn’t taken a turn yet. If this attack hits, it is
+      a critical hit.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: qcqb3nin7hprpdyl
+_key: '!items!qcqb3nin7hprpdyl'

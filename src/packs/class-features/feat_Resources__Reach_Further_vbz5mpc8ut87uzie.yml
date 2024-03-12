@@ -1,0 +1,69 @@
+name: 'Resources: Reach Further'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>While you are conscious and when an ally within range of your
+      Commanding Presence would drop to 0 or fewer hit points, your ally can use
+      their reaction to spend the tactics die and roll it to gain temporary hit
+      points equal to the result plus your Charisma modifier (minimum 1). Once a
+      creature has benefited from the tactics die in this way, it cannot do so
+      again until it finishes a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: Within Commanding Presence range
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: vbz5mpc8ut87uzie
+_key: '!items!vbz5mpc8ut87uzie'

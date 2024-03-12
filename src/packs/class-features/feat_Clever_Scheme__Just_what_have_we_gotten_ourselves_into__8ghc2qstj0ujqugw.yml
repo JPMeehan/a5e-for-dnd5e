@@ -1,0 +1,68 @@
+name: 'Clever Scheme: Just what have we gotten ourselves into?'
+type: feat
+img: icons/equipment/shield/kite-wooden-axe-blue-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you are ambushed, you gain an expertise die on your initiative
+      check. When you trigger a trap, you gain an expertise die on the first
+      saving throw you need to make, or to your AC against the first attack the
+      trap makes against you. After you use this ability, you cannot use it
+      again until you complete a short rest .</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 8ghc2qstj0ujqugw
+_key: '!items!8ghc2qstj0ujqugw'

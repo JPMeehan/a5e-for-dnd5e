@@ -1,0 +1,29 @@
+name: 'Art Mastery: Visual'
+type: feat
+img: icons/skills/trades/textiles-cloth-dye-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your magic resonates through the air. When using this musical art as a
+      spell focus, after casting a bard spell that used an ally as its point of
+      origin on your last turn, if you cast the same spell normally its spell
+      level increases by 2. Once you have used this feature a number of times
+      equal to your proficiency bonus, you can't do so again until you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: bxnd3cgqif8qfnfl
+_key: '!items!bxnd3cgqif8qfnfl'

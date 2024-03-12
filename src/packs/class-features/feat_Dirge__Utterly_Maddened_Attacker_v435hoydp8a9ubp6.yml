@@ -1,0 +1,32 @@
+name: 'Dirge: Utterly Maddened Attacker'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You cause a creature to gain advantage on all its attacks and
+      have its critical hit range with all attacks increase by 1 for the next
+      minute. However, the creature must use every type of action available to
+      it to attack creatures within its reach or range; if there are no
+      creatures within its reach or range to attack, it must move toward the
+      nearest creature to it and begin attacking.</p>
+
+      <p dir="ltr">Whenever the target creature misses with an attack, it takes
+      damage equal to its proficiency bonus.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: v435hoydp8a9ubp6
+_key: '!items!v435hoydp8a9ubp6'

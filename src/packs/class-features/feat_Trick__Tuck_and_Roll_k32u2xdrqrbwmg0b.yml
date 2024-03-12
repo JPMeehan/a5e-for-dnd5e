@@ -1,0 +1,26 @@
+name: 'Trick: Tuck and Roll'
+type: feat
+img: icons/commodities/biological/wing-bird-white.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Acrobatics checks. When you would take
+      falling damage, make an Acrobatics check and reduce the damage by an
+      amount equal to the result of the check.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: k32u2xdrqrbwmg0b
+_key: '!items!k32u2xdrqrbwmg0b'

@@ -1,0 +1,68 @@
+name: 'Knack: See the Unseen'
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Prerequisite: 5th level</em></p><p>Once between long rests you can
+      focus your attention on peripheral sights, sounds, and other signs of
+      unseen passage. For the next hour, you can detect invisible creatures and
+      objects, their location, movement, and actions, and even sense creatures
+      and objects in the Ethereal Plane.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 2hy7ul0j4ril9vnc
+_key: '!items!2hy7ul0j4ril9vnc'

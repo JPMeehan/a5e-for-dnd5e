@@ -1,0 +1,34 @@
+name: Pact Boon
+type: feat
+img: icons/magic/symbols/runes-star-pentagon-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level, the entity to which you are beholden provides a more
+      durable and lasting blessing. Choose one of the following features:</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.6co2rqjh9npjg3eb]{Pact of
+      the Blade}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.f2mfiz8spijbzs6h]{Pact of
+      the Chain}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.2dp9b4a11fuxjwbc]{Pact of
+      the Tome}</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 9m8p73ihwnicm2zi
+_key: '!items!9m8p73ihwnicm2zi'

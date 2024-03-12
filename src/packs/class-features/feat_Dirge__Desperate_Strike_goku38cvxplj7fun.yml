@@ -1,0 +1,27 @@
+name: 'Dirge: Desperate Strike'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You cause the target creature&rsquo;s weapon attack, natural weapon
+      attack, or unarmed strike to become a critical hit. For the next minute
+      after, all creatures gain an expertise die on attacks that aren&rsquo;t
+      spells against the target creature.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: goku38cvxplj7fun
+_key: '!items!goku38cvxplj7fun'

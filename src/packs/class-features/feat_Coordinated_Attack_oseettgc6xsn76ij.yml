@@ -1,0 +1,65 @@
+name: Coordinated Attack
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, when you take the Attack action on your turn, you may
+      forego one of your attacks. If you do, one ally within 30 feet can use its
+      reaction to make one weapon attack.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: oseettgc6xsn76ij
+_key: '!items!oseettgc6xsn76ij'

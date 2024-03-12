@@ -1,0 +1,86 @@
+name: 'Channel Divinity (Herald: Conqueror)'
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level you gain the following channel divinity options:</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Break the Will</h2>
+
+      <p>As an action you force creatures of your choice within 30 feet to make
+      a Wisdom saving throw or be frightened of you until the end of their next
+      turn.</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Break the Body</h2>
+
+      <p>As a bonus action you can cause your weapon attacks to deal an amount
+      of additional damage of the same type as the weapon normally deals equal
+      to your proficiency bonus. This benefit lasts until the start of your next
+      turn.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof'
+        - bludgeoning
+      - - '@prof'
+        - piercing
+      - - '@prof'
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: fa4ghyk91ula8z6f
+_key: '!items!fa4ghyk91ula8z6f'

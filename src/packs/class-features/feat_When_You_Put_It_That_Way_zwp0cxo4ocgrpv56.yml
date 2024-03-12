@@ -1,0 +1,72 @@
+name: When You Put It That Way
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level, as an action you can suggest an activity (limited to a
+      sentence or two) to a creature that can hear and understand you. A
+      creature that can’t be charmed is immune to this feature. The course of
+      action must sound reasonable, as with the <em>suggestion
+      </em>spell.</p><p>If the target fails a Wisdom saving throw , it pursues
+      the course of action you described to the best of its ability for as long
+      as you are present, and for up to 10 minutes after.</p><p>Once you use
+      this feature, you must finish a short or long rest before you can use it
+      again.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: zwp0cxo4ocgrpv56
+_key: '!items!zwp0cxo4ocgrpv56'

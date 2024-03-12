@@ -1,0 +1,67 @@
+name: 'Technique: Hurricane Walk'
+type: feat
+img: icons/magic/air/wind-stream-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Requirement: Gale Walk</em></p><p>Your step is so light you seem to
+      float in the air. You can use a bonus action and spend 1 exertion to cast
+      fly on yourself. You also have advantage on Stealth checks related to
+      noise. The effect lasts until the start of your next turn.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: w7gjerljszg7v6sp
+_key: '!items!w7gjerljszg7v6sp'

@@ -1,0 +1,30 @@
+name: 'Elective: Loremaster of Creatures'
+type: feat
+img: icons/creatures/claws/claw-scaled-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You are well-studied on naturally occurring creatures of the world.
+      When you choose this study, choose one creature type: beasts, constructs,
+      dragons, elementals, fey, fiends, giants, oozes, plants, or undead. This
+      creature type becomes your Loremaster Creature Specialty. When you
+      encounter a creature of the same type as your Loremaster Creature
+      Specialty, you automatically know any history, legends, or myths related
+      to it.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: oxd6jp5fjmd7l3ko
+_key: '!items!oxd6jp5fjmd7l3ko'

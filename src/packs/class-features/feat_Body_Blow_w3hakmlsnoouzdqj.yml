@@ -1,0 +1,72 @@
+name: Body Blow
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="a-b-r-La">At 17th level when you have a creature of your size or
+      smaller grappled, you can use them to attack another creature within your
+      reach with an improvised melee weapon attack, dealing basic melee damage
+      to both them and the target on hit. You can instead spend an exertion
+      point to throw them as a ranged improvised weapon, range 10/20 feet, in
+      which case both creatures take basic melee damage if you hit, only the
+      thrown creature takes basic melee damage if you miss, and the grapple then
+      ends. You can use this to throw a grappled creature up to 20 feet even if
+      you don't have a target to attack, dealing basic melee damage to the
+      thrown creature as if you had missed.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 20
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: w3hakmlsnoouzdqj
+_key: '!items!w3hakmlsnoouzdqj'

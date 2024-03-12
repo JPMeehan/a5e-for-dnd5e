@@ -1,0 +1,30 @@
+name: Mutated Carapace
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, your skin mutates and sheds, revealing armor-like patches
+      of barnacles, chitinous plates, glowing crystals, scales, or the like.
+      When you take damage, except for psychic damage, you can use your reaction
+      to reduce the amount taken by your spellcasting ability modifier + your
+      warlock level (minimum 1). Once you have used this feature a number of
+      times equal to half your proficiency bonus, you can’t do so again until
+      you finish a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 16gagaqt6boudfem
+_key: '!items!16gagaqt6boudfem'

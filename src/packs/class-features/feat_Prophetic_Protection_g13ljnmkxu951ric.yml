@@ -1,0 +1,27 @@
+name: Prophetic Protection
+type: feat
+img: icons/environment/traps/spike-skull-white-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you would trigger a trap, the Narrator makes a secret Charisma
+      (Perception) check against the DC to spot the trap. On a success, you do
+      not spot the trap but get a strong sense that moving any further will put
+      you in danger.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: g13ljnmkxu951ric
+_key: '!items!g13ljnmkxu951ric'

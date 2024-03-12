@@ -1,0 +1,28 @@
+name: 'Trick: Sense Aura'
+type: feat
+img: icons/magic/symbols/runes-triangle-magenta.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Prerequisite: 13th level, d8 expertise die on Investigation checks
+      </em></p><p>Your expertise die on Investigation checks increases to d10.
+      You can make an Investigation check to find magical traps. Additionally,
+      you can spend 10 minutes to sense whether an object or creature you can
+      see bears magic. This feature is nonmagical</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: qfogs0bp2hisfr1n
+_key: '!items!qfogs0bp2hisfr1n'

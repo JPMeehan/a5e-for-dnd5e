@@ -1,0 +1,71 @@
+name: Ghostly Protection (Spiritualist)
+type: feat
+img: icons/magic/unholy/orb-stone-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you can call upon the spirits of the departed to protect
+      you in combat. As an action, you call forth a swirling mass of spectral
+      forms around yourself. You gain temporary hit points equal to your
+      proficiency bonus + your spellcasting modifier + warlock level. While you
+      have any of these temporary hit points remaining, you are lightly
+      obscured. Once you have used this feature, you can’t do so again until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Spiritualist
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof + @mod + @level'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 0nidiym24wtl7xes
+_key: '!items!0nidiym24wtl7xes'

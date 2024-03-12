@@ -1,0 +1,72 @@
+name: Massive Retaliation
+type: feat
+img: icons/skills/melee/strike-axe-blood-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level when you smite a target or critically hit them with a
+      weapon attack they must make a Wisdom saving throw against your spell save
+      DC or be frightened until the end of their next turn. Whenever you reduce
+      a creature to 0 hit points all hostile creatures within 30ft of the
+      creature you felled must make a Wisdom saving throw or be frightened until
+      the end of their next turn.</p>
+
+      <p>In addition, when a creature within 5ft of you hits you with an attack
+      you may use your reaction to attack them back, critically hitting on a
+      17-20 when you do so. You may do so a number of times equal to your
+      proficiency bonus and regain all expended uses when you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: d8e9ifv78wbmy27d
+_key: '!items!d8e9ifv78wbmy27d'

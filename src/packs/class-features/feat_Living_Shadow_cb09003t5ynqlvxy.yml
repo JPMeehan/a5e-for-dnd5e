@@ -1,0 +1,69 @@
+name: Living Shadow
+type: feat
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As an action you may become a living shadow for 1 minute. As long as
+      you are in dim light or darkness you have resistance to all damage except
+      force and radiant, can take the hide action as a bonus action even without
+      cover, and can move through solid objects as difficult terrain. If you end
+      your turn in a solid object you are shunted to the nearest unoccupied
+      space and take 1d10 force damage. Once you have used this ability you
+      cannot do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 18 Shadowtouched Sorcerer archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: cb09003t5ynqlvxy
+_key: '!items!cb09003t5ynqlvxy'

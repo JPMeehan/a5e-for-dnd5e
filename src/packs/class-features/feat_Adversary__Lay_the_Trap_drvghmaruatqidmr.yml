@@ -1,0 +1,27 @@
+name: 'Adversary: Lay the Trap'
+type: feat
+img: icons/commodities/tech/metal-jaws.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <h4>While you are conscious, whenever a creature makes an attack roll
+      against you and misses, you and one creature of your choice make your next
+      attack roll against the triggering creature with advantage before the end
+      of your next turn. </h4>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: drvghmaruatqidmr
+_key: '!items!drvghmaruatqidmr'

@@ -1,0 +1,71 @@
+name: Retributive Surge
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, your body becomes infused with chaotic magic that makes
+      harming you a dangerous proposition. When a creature you can see damages
+      you, you can use your reaction to cast a spell of 1stor 2nd-level. The
+      spell must either target the creature that damaged you or be centered on a
+      space it occupies, it must have a casting time of 1 action or 1 bonus
+      action, and you must spend sorcery points equal to the level of the spell
+      in addition to the spell slot used.</p><p>At 14th and 18th level, the
+      highest level of spell you can cast in this way increases by 1. </p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature you can see damages you
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 0uzua8b3z15byc3n
+_key: '!items!0uzua8b3z15byc3n'

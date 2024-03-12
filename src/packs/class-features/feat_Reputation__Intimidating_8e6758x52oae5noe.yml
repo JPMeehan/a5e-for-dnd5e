@@ -1,0 +1,30 @@
+name: 'Reputation: Intimidating'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You’re reputed to be a terror to your foes and a fearsome ally. You
+      gain an expertise die on Intimidation checks. In addition, you can use a
+      bonus action and spend 1 exertion point to intimidate one creature you can
+      see. The creature makes a Wisdom saving throw (DC 8 + your proficiency
+      bonus + your Charisma modifier) or becomes frightened of you for 1 minute.
+      At the end of each of its turns, a frightened creature can repeat the
+      saving throw, ending the effect on itself on a success.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 8e6758x52oae5noe
+_key: '!items!8e6758x52oae5noe'

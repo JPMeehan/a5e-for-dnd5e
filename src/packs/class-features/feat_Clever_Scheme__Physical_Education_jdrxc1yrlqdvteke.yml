@@ -1,0 +1,67 @@
+name: 'Clever Scheme: Physical Education'
+type: feat
+img: icons/skills/movement/feet-winged-boots-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Once per hour, when you succeed on an Acrobatics or Athletics check to
+      climb, swim, or jump you can offer advice and encouragement to your
+      allies. For the next minute, each ally who attempts a check to traverse
+      the same area gains an expertise die .</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: jdrxc1yrlqdvteke
+_key: '!items!jdrxc1yrlqdvteke'

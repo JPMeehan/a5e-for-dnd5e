@@ -1,0 +1,41 @@
+name: Advantageous Action
+type: feat
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span class="fontstyle1"><span class="fontstyle0">Starting at 14th
+      level, your experience in battle lets you help your companions more
+      easily. You can use the Help action as a bonus action. In
+      addition,</span>&nbsp;<span class="fontstyle0">when you take the Help
+      action choose one of the following effects:</span></span></p>
+
+      <ul>
+
+      <li><span class="fontstyle1">You end the frightened condition on one
+      creature within 30 feet of you that can hear or see you.</span></li>
+
+      <li><span class="fontstyle1">You grant one creature within 5 feet of you
+      temporary hit points equal to your Charisma modifier.</span></li>
+
+      <li><span class="fontstyle1">You touch a living creature that has 0 hit
+      points. The creature regains 1 hit point.</span></li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ywoe5wghb18ujal4
+_key: '!items!ywoe5wghb18ujal4'

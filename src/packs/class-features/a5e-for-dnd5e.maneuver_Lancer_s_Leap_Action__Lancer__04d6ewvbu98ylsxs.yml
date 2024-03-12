@@ -1,0 +1,68 @@
+name: Lancer's Leap Action (Lancer)
+type: a5e-for-dnd5e.maneuver
+img: icons/skills/movement/arrows-up-trio-red.webp
+system:
+  description:
+    value: >-
+      <p><strong>Lancer’s Leap (1 point)</strong></p><p><em>Lancer
+      action</em></p><p>With the force of a thunderbolt you strike your target
+      from above. When you glide, ride, leap, fall, or fly during your turn, you
+      deal additional damage to the target of this attack equal to one haft die
+      per 10ft of movement you take before making the
+      attack.&nbsp;</p><p><br>Once you have used the Lancer’s Leap you must
+      complete a short or long rest before using it, again. If you spend 3
+      exertion points before a short or long rest, the use of this ability
+      recharges.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  degree: 0
+  tradition: ''
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 04d6ewvbu98ylsxs
+_key: '!items!04d6ewvbu98ylsxs'

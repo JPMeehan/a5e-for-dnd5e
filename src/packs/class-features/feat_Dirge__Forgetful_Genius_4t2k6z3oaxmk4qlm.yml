@@ -1,0 +1,27 @@
+name: 'Dirge: Forgetful Genius'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You cause a target creature to double its proficiency bonus, expertise
+      die roll, and skill speciality roll on one skill check. The creature then
+      loses proficiency, all expertise die, and all skill specialties on that
+      skill the end of its next short rest.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 4t2k6z3oaxmk4qlm
+_key: '!items!4t2k6z3oaxmk4qlm'

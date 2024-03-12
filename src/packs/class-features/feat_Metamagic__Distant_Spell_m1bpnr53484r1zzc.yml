@@ -1,0 +1,27 @@
+name: 'Metamagic: Distant Spell'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell that has a range of 5 feet or greater, you can
+      spend 1 sorcery point to double the range of the spell. Alternatively, if
+      you cast a spell that has a range of Touch, you can spend 1 sorcery point
+      to make the range of the spell 20 feet.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: m1bpnr53484r1zzc
+_key: '!items!m1bpnr53484r1zzc'

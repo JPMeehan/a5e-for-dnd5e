@@ -1,0 +1,72 @@
+name: 'Blast: Eldritch Chant (Dirgesinger)'
+type: feat
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You can use an action to focus mind-melting chanting and
+      wailing on a creature within 60 feet. The creature must succeed on an
+      Intelligence saving throw or take force damage equal to your Proficiency
+      Bonus and become Confused until the beginning of your next turn. Creatures
+      that succeed on this save are Rattled instead and take no damage.</p>
+
+      <p dir="ltr">You must be able to speak and the target creature must be
+      able to hear you for this effect to work.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof'
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 62wvclk6khdj1nff
+_key: '!items!62wvclk6khdj1nff'

@@ -1,0 +1,68 @@
+name: Disarming Flourish
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you hit a creature with a melee attack, you can attempt to disarm
+      it. If it fails a Strength saving throw , its grip is loosened, and the
+      creature cannot make use of the item until it spends a bonus action or
+      attack on its turn to regain a solid hold. If the creature has
+      disadvantage on the save and fails both rolls, it drops the item.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: uinzj6dg5zbkqngu
+_key: '!items!uinzj6dg5zbkqngu'

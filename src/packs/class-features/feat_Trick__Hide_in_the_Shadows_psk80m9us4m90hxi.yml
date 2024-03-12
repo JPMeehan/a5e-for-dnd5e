@@ -1,0 +1,26 @@
+name: 'Trick: Hide in the Shadows'
+type: feat
+img: icons/creatures/mammals/bats-movement-flying-black.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Stealth checks. You can attempt to hide
+      from creatures without darkvision while you are in an area of dim light.
+      When a creature tries to enter your space, your position is revealed.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: psk80m9us4m90hxi
+_key: '!items!psk80m9us4m90hxi'

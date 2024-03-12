@@ -1,0 +1,73 @@
+name: Born to the Darkness
+type: feat
+img: icons/magic/unholy/barrier-shield-glowing-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency with your choice of <em>Stealth</em> or
+      <em>Deception</em>, 120 ft darkvision and you know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.0ou0qutr7p2bedg0]{Darkness} spell
+      and it does not count against your number of spells known. You can cast
+      <em>darkness</em> without expending a spell slot. Once you have done so
+      you cannot do so again until you finish a long rest. When casting
+      <em>darkness</em> you may expend 1 sorcery point to have it last its full
+      duration without concentration, though you may only have one
+      <em>darkness</em> spell active at a time.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties:
+    - concentration
+  requirements: Level 1 Shadowtouched Sorcerer archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '15'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: e3cjdneth9no1eb9
+_key: '!items!e3cjdneth9no1eb9'

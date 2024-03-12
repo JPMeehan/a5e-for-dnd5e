@@ -1,0 +1,71 @@
+name: 'Combat Poise: A Step Ahead'
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have a deft ability to predict your opponents’ responses and
+      interfere with them. Whenever a creature within your reach that you are
+      aware of attempts to take a reaction, you can expend your reaction for the
+      round to try to disrupt them. That creature must make an Intelligence
+      saving throw against your trick DC. If they fail, their reaction is
+      wasted.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      Whenever a creature within your reach that you are aware of attempts to
+      take a reaction,
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: n7ajye779hctvjhb
+_key: '!items!n7ajye779hctvjhb'

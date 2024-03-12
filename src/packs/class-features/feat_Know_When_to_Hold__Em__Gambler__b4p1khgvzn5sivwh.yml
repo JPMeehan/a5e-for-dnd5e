@@ -1,0 +1,28 @@
+name: Know When to Hold 'Em (Gambler)
+type: feat
+img: icons/sundries/gaming/playing-cards.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <blockquote><p>Your skill in bluffing reaches its
+      peak.</p></blockquote><hr class="a5e-rule u-my-md"><p>When you attempt to
+      use Deception, Intimidation, or Persuasion while engaged in combat and
+      your roll fails, you may immediately move up to half your movement without
+      provoking attacks of opportunity.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: b4p1khgvzn5sivwh
+_key: '!items!b4p1khgvzn5sivwh'

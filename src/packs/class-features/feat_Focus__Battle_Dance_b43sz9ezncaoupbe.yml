@@ -1,0 +1,69 @@
+name: 'Focus: Battle Dance'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency in the Performance skill. As a bonus action, you
+      can spend 2 exertion to bob and sway, starting a battle dance. Until the
+      end of your turn, your Speed increases by 20 feet and opportunity attacks
+      against you are made with disadvantage.</p><p>When an opportunity attack
+      misses you, you can use your reaction to retaliate with an unarmed
+      strike.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: b43sz9ezncaoupbe
+_key: '!items!b43sz9ezncaoupbe'

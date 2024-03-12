@@ -1,0 +1,27 @@
+name: Habitual Poisoner
+type: feat
+img: icons/skills/melee/strike-blade-poison-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level you are so accustomed to using toxic compounds on your
+      weapons that you now do so unconsciously. All weapon attacks you make now
+      deal an additional 1d6 points of poison damage on a hit.</p><p>You also
+      become immune to poison damage. </p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: do8kd3ifqqlvomgu
+_key: '!items!do8kd3ifqqlvomgu'

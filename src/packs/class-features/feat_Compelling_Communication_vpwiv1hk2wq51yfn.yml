@@ -1,0 +1,71 @@
+name: Compelling Communication
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 1st level, you can manipulate people with words as easily as a
+      warrior can with physical force. You can spend an action to affect a
+      creature within 30 feet that can understand you with any flourish trick
+      that you have prepared other than Surgical Flourish, without making an
+      attack.</p><p>At 6th level, the range you can affect a creature increases
+      to 60 feet. Additionally, you gain the ability to use flourish tricks
+      other than Surgical Flourish whenever you deal damage to a creature with
+      your Weapon of Choice ability (see below).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: '60'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: vpwiv1hk2wq51yfn
+_key: '!items!vpwiv1hk2wq51yfn'

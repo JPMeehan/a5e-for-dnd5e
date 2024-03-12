@@ -1,0 +1,28 @@
+name: 'Lore: Military Traditions'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You’ve familiarized yourself with wars long past and military protocols
+      of the present. You gain an expertise die on Intelligence checks made to
+      recall lore or gather information regarding warfare or military action. In
+      addition, you gain an expertise die on Charisma checks made to influence
+      soldiers, guards, or other organized martial forces.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: d009x86j96ikc3vh
+_key: '!items!d009x86j96ikc3vh'

@@ -1,0 +1,37 @@
+name: Arcane Refinement
+type: feat
+img: icons/magic/symbols/runes-triangle-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, your command over your magic becomes more precise, and
+      you are able to assert more control over it. Choose one of the
+      following:</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>@UUID[Compendium.a5e.a5e-class-features.ksqelz0npkhv9mzp]{Refinement:
+      Deep Font}</strong></p>
+
+      <p><strong>@UUID[Compendium.a5e.a5e-class-features.i66t5lr9pnp40h7y]{Refinement
+      (Patient Aptitude)}</strong></p>
+
+      <p><strong>@UUID[Compendium.a5e.a5e-class-features.rwxhjzycmi8stro5]{Refinement
+      (Prodigious Innovator)}</strong></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: huephhrybue9iiws
+_key: '!items!huephhrybue9iiws'

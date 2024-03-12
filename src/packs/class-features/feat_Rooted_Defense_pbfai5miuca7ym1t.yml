@@ -1,0 +1,34 @@
+folder: null
+name: Rooted Defense
+type: feat
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, while you are standing on a solid surface, you can use a
+      bonus action to root yourself in place. While rooted, your Speed becomes
+      0, but whenever an effect would move you or knock you&nbsp;<span
+      class="freelinking-link">prone</span>, you ignore that effect, and the
+      ground within 10 feet of you becomes&nbsp;<span
+      class="freelinking-link">difficult terrain</span>. In addition, while you
+      are rooted, a creature you hit with a&nbsp;<span
+      class="freelinking-link">melee weapon attack</span> must make a Strength
+      save against a DC of 10 + your proficiency bonus. On a failure, the
+      creature&rsquo;s Speed is reduced to 0 until the end of its next turn. You
+      can end your rooted state as an action.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: pbfai5miuca7ym1t
+_key: '!items!pbfai5miuca7ym1t'

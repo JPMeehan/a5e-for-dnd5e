@@ -1,0 +1,28 @@
+name: 'Trick: Keen Eye'
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Prerequisite: 13th level, d8 expertise die on Perception checks
+      </em></p><p>Your expertise die on Perception checks increases to d10. You
+      don’t have disadvantage on Perception checks from being in lightly
+      obscured areas. If you have darkvision, you treat darkness and dim light
+      as if it were bright light.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: vpjy24qtc7eydt4n
+_key: '!items!vpjy24qtc7eydt4n'

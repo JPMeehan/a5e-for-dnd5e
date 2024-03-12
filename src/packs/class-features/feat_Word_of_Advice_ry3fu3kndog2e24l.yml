@@ -1,0 +1,71 @@
+name: Word of Advice
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 1st level, when you prepare an aegis trick, you can instead
+      communicate the idea to an ally that can understand you within 10 feet.
+      Until the end of your next turn, that ally can use that trick as if they
+      had prepared it. The trick still uses your trick DC.</p><p>If either of
+      you use the trick, it expends it for both of you. If the ally doesn’t use
+      the trick before the end of your next turn, it remains available for you
+      until you use it.</p><p>At 6th level, the range of this ability increases
+      to 30 feet.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 10 ft. (sub level 6)
+    long: '30'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: ry3fu3kndog2e24l
+_key: '!items!ry3fu3kndog2e24l'

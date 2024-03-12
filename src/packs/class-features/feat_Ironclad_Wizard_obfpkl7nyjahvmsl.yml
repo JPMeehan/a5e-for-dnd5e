@@ -1,0 +1,50 @@
+folder: null
+name: Ironclad Wizard
+type: feat
+img: icons/magic/defensive/armor-shield-barrier-steel.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: <p>Also at level 6, you gain proficiency in heavy armor.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/defensive/armor-shield-barrier-steel.webp
+    origin: Item.obfpkl7nyjahvmsl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Armor Proficiency
+    _id: R8vWlIlMrcEiWFXM
+    changes:
+      - key: system.proficiencies.armor
+        mode: 2
+        value: heavy
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!obfpkl7nyjahvmsl.R8vWlIlMrcEiWFXM'
+flags: {}
+_id: obfpkl7nyjahvmsl
+_key: '!items!obfpkl7nyjahvmsl'

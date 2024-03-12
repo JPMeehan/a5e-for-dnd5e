@@ -1,0 +1,28 @@
+name: Mounted Wrath
+type: feat
+img: icons/environment/creatures/horse-tan.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you gain access to the Spirited Steed combat
+      tradition and you may select a Spirited Steed maneuver that you qualify
+      for. It does not count against your maneuvers known.</p><p>Additionally,
+      while you are raging, your mount also gains resistance to bludgeoning,
+      piercing, and slashing damage and its speed increases by 10 feet.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ik427pttg98uj2mt
+_key: '!items!ik427pttg98uj2mt'

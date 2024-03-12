@@ -1,0 +1,79 @@
+name: Vine Whip
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level you can magically summon a spiritual vine that can strike
+      and grab your foes. As a bonus action, you create a 10-foot long vine at a
+      point you can see within 60 feet. The vine lasts for 1 minute, until you
+      dismiss it as a bonus action, or until you use this feature to create
+      another vine. When you create the vine, you can make a melee spell attack
+      against one target within 10 feet of it. On a hit the target takes 1d6
+      force damage, and it must make a Strength saving throw against your spell
+      save DC. On a failure the target is restrained by the vine (escape DC
+      equal to your spell save DC). </p><p>When you reach 10th level in this
+      class, the damage increases to 2d6. </p><p>As a bonus action on your turn,
+      you can move the vine up to 30 feet and repeat the attack, or if a
+      creature is currently restrained by the vine you may move the vine and the
+      restrained creature 10 feet in any direction.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - force
+      - - 2d6
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+folder: null
+_id: 98chs30l0ma7i8ug
+_key: '!items!98chs30l0ma7i8ug'

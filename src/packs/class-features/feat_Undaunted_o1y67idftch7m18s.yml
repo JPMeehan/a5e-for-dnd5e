@@ -1,0 +1,28 @@
+name: Undaunted
+type: feat
+img: icons/environment/wilderness/mine-interior-dungeon-door.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>While exploring a place which you have never been to before, you can
+      use your reaction to gain advantage on ability checks and attack rolls
+      until the end of your next turn. You can do so a number of times equal to
+      your Wisdom modifier, and regain spent uses upon finishing a long
+      rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: o1y67idftch7m18s
+_key: '!items!o1y67idftch7m18s'

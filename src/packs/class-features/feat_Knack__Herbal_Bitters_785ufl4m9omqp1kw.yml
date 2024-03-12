@@ -1,0 +1,26 @@
+name: 'Knack: Herbal Bitters'
+type: feat
+img: icons/consumables/plants/basil-herb-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can spend an hour to collect ingredients and brew two servings of a
+      bitter drink that is potent for 24 hours. Imbibing a serving takes an
+      action and reduces fatigue by one level for 4 hours.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 785ufl4m9omqp1kw
+_key: '!items!785ufl4m9omqp1kw'

@@ -1,0 +1,29 @@
+name: Cleansing Fire
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you choose this archetype at 2nd level, you learn how to use flame
+      to not just harm but heal. When you expend a spell slot to cast a spell of
+      1st-level or higher that deals fire damage, you can choose one creature
+      that would take damage from the spell. Instead of taking damage from the
+      spell, it is healed for a number of hit points equal to the spell’s level
+      plus your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: dol3gtshpoc1zwts
+_key: '!items!dol3gtshpoc1zwts'

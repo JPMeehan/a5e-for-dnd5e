@@ -1,0 +1,27 @@
+name: 'Focus: Dual Stance'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Requirement: 11th level, know at least 2 stance combat
+      maneuvers</em></p><p>Your martial stances don’t end when you start another
+      stance. You can have two stances active at the same time. If you are
+      knocked unconscious, stunned, or begin a long rest both stances end.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: vaxqvy97nmo70b4p
+_key: '!items!vaxqvy97nmo70b4p'

@@ -1,0 +1,73 @@
+folder: null
+name: Terrify (Scourge)
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 7th level your
+      reputation for harshness extends from your allies to your enemies.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">When you strike an
+      enemy with a melee weapon attack, you can force them to make a Wisdom
+      saving throw with a DC equal to 8 + your proficiency bonus + your charisma
+      modifier.&nbsp;On a failure, they are frightened of you until the end of
+      your next turn.<span style="mso-spacerun: yes;">&nbsp; </span></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You can do so a
+      number of times equal to your proficiency bonus and regain all expended
+      uses when you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Marshal Level 7; Scourge Archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 2ub9bu4zcaiwnj73
+_key: '!items!2ub9bu4zcaiwnj73'

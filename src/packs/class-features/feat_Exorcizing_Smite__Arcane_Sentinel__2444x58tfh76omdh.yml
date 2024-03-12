@@ -1,0 +1,34 @@
+name: Exorcizing Smite (Arcane Sentinel)
+type: feat
+img: icons/magic/light/projectile-beam-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>The damage of this smite can bypass the physical form of the creature
+      attacked and may be applied directly to another creature sharing its body
+      such as a possessing spirit or parasitic creature. </p><p>In addition, the
+      target makes a constitution saving throw. If it is not native to the plane
+      it currently occupies, it returns to its home plane for one minute, then
+      reappears in the space it previously occupied or the nearest available
+      safe space if its former space is occupied. </p><p>If the creature fails
+      its save by 5 or more, it it banished for a year instead, and is unable to
+      return to the plane it was banished from by means less powerful than a
+      wish spell. If the creature is undead, it is sent to its final judgment
+      instead of being banished for a year.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 2444x58tfh76omdh
+_key: '!items!2444x58tfh76omdh'

@@ -1,0 +1,29 @@
+name: Bestowed Understanding
+type: feat
+img: icons/magic/symbols/rune-sigil-red-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When attempting to understand a language with which you are not
+      proficient (whether spoken or written), you can make a DC 15 Wisdom
+      (Insight) check to understand the basic message. If the language is
+      considered forgotten, you roll with disadvantage. You can do so a number
+      of times equal to your Wisdom modifier, and regain spent uses upon
+      finishing a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: vzyw6r1icr1y7rh7
+_key: '!items!vzyw6r1icr1y7rh7'

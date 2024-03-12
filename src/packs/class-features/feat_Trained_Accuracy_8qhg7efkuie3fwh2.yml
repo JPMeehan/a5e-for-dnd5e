@@ -1,0 +1,66 @@
+name: Trained Accuracy
+type: feat
+img: icons/skills/targeting/crosshair-pointed-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, you learn to maintain a level of discipline that spills
+      over into everything you do. This perpetual state of focus allows you to
+      perform incredible feats.&nbsp;When using Trained Accuracy, the bonus to
+      attack rolls from Fighting Style: Archery becomes a +2 bonus to damage on
+      ranged weapon attacks.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 8qhg7efkuie3fwh2
+_key: '!items!8qhg7efkuie3fwh2'

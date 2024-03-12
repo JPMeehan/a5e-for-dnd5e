@@ -1,0 +1,27 @@
+name: Standing Firm
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you gain advantage on checks made to avoid being
+      knocked prone. In addition, when a creature you can see attacks a target
+      other than you that is within 5 feet of you, you can use your reaction to
+      impose disadvantage on the attack roll if you are wearing heavy armor.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: qrule620lc2a2icg
+_key: '!items!qrule620lc2a2icg'

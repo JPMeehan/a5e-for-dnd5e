@@ -1,0 +1,29 @@
+name: Dueling Traditions
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level, you gain proficiency in one of the following combat
+      traditions of your choice: </p><ul><li><p>Mirror's
+      Glint</p></li><li><p>Mist and Shade</p></li><li><p>Rapid Current
+      </p></li></ul><p>When you&nbsp;&nbsp;gain this feature you can choose one
+      of the maneuvers you know and replace it with another maneuver of the same
+      degree or lower from your newly chosen combat tradition.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: eviqfjx6i3f06y2s
+_key: '!items!eviqfjx6i3f06y2s'

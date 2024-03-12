@@ -1,0 +1,71 @@
+name: Bloodsport Flourishes
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you’ve integrated your ability to please the crowd
+      into ways to impress and intimidate your enemies. You treat any weapon you
+      wield&nbsp;and any armor you wear as if it had the Flamboyant property. In
+      addition, whenever you score a critical hit with a weapon attack you may
+      choose to do a Bloody Flourish or Glorious
+      Flourish.</p><p><strong><em>&nbsp; &nbsp;Bloody
+      Flourish</em></strong>.&nbsp;</p><p><strong><em>&nbsp; &nbsp;Glorious
+      Flourish</em></strong>.&nbsp;</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: hmpiwnkwfsl35mcf
+_key: '!items!hmpiwnkwfsl35mcf'

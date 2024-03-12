@@ -1,0 +1,29 @@
+name: Practical Applications (Leatherworker's Tools)
+type: feat
+img: icons/tools/hand/needle-grey.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may fine tune any armor made of leather over a short rest, causing
+      them to grant +1 armor class. This does not stack with similar bonuses
+      from the Smith follower. Furthermore armor made of leather that was
+      crafted or treated by you reduces the severity of its Flaw; on a natural 1
+      on a Dexterity saving throw or being critically hit by piercing damage the
+      item only becomes damaged, not broken, unless already damaged.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 1jwcfiwm3frhmk90
+_key: '!items!1jwcfiwm3frhmk90'

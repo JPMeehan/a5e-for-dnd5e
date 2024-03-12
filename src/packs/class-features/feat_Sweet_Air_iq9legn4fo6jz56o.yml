@@ -1,0 +1,32 @@
+name: Sweet Air
+type: feat
+img: icons/magic/air/fog-gas-smoke-blue-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level your magic passively purifies the air around you and fills
+      your lungs with sweet air. You can hold your breath for an additional
+      number of minutes equal to your proficiency bonus and have advantage on
+      concentration checks to avoid losing your breath. You also have advantage
+      on saving throws against inhaled poisons and any spell or effect based on
+      inhaling something harmful (such as
+      @UUID[Compendium.a5e-for-dnd5e.spells.orjiv7fbrikcns17]{Stinking Cloud},
+      @UUID[Compendium.a5e.a5e-spells.764ocg0phxmyw7y2]{Cloudkill}, etc.), and
+      have resistance to any damage they deal.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: iq9legn4fo6jz56o
+_key: '!items!iq9legn4fo6jz56o'

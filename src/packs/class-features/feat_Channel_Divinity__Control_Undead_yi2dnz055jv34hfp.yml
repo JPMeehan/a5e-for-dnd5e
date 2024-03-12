@@ -1,0 +1,85 @@
+name: 'Channel Divinity: Control Undead'
+type: feat
+img: icons/magic/control/debuff-energy-hold-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use an action to attempt to assert your control over one undead
+      creature you can see within 30 feet of you. The undead makes a Charisma
+      saving throw, or finds itself loyal to you.</p>
+
+      <p>It remains under your control for a number of rounds equal to your
+      proficiency bonus, or until you use this feature again. The effect ends
+      immediately if you or your friends cause it harm, or if you command it to
+      perform obviously suicidal actions.</p>
+
+      <p>The undead has its own turn, rolling its own initiative. While it is
+      within 60 feet, you can use a bonus action to mentally command the undead.
+      You may decide the action the undead takes and where it moves during its
+      next turn, or you can issue a general command, such as guarding an area.
+      If not given a command, the undead only defends itself.</p>
+
+      <p>The undead continues to follow a command until its task is
+      complete.</p>
+
+      <p>An undead whose challenge rating is higher than your herald level
+      automatically succeeds on its saving throw.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: yi2dnz055jv34hfp
+_key: '!items!yi2dnz055jv34hfp'

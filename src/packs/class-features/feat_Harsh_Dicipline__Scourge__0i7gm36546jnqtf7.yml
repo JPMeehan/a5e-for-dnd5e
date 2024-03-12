@@ -1,0 +1,69 @@
+folder: null
+name: Harsh Dicipline (Scourge)
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 11th level, if a
+      creature in your Commanding Presence fails an attack roll or saving throw,
+      you can use your reaction to make an Intimidation check, using the result
+      in place of the triggering attack or save and possibly changing the
+      result.<span style="mso-spacerun: yes;">&nbsp; </span></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">Once you have used
+      this ability on a particular creature, you cannot target that creature
+      again until they finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Marshal Level 11; Scourge Archetype
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 0i7gm36546jnqtf7
+_key: '!items!0i7gm36546jnqtf7'

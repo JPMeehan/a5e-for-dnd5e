@@ -1,0 +1,29 @@
+name: 'Trick: Shadow Skulk'
+type: feat
+img: icons/creatures/reptiles/chameleon-camouflage-green-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Prerequisite: 13th level, d8 expertise die on Stealth checks
+      </em></p><p>Your expertise die on Stealth checks increases to d10. You
+      have a passive Stealth score of 10 plus your Dexterity modifier plus your
+      proficiency bonus. When you have not attempted to hide from a creature but
+      are not visible to it and not making noise, you are considered hidden,
+      using your passive Stealth score.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: d88src1dbg45kygw
+_key: '!items!d88src1dbg45kygw'

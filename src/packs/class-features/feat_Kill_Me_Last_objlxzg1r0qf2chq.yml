@@ -1,0 +1,72 @@
+name: Kill Me Last
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you are exceptionally good at convincing your foes to
+      attack someone other than yourself. When a creature you can see targets
+      you with an attack or spell, you can use your reaction to focus its
+      attention on a creature you choose within its reach or within range of it.
+      It makes a Charisma saving throw and on a failure, it instead targets the
+      chosen creature with its attack or spell (gaining advantage if the chosen
+      creature is an ally). </p><p>Once you have used this feature a number of
+      times equal to your proficiency bonus, you cannot do so again until you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a creature you can see targets you with an attack or spell.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+folder: null
+_id: objlxzg1r0qf2chq
+_key: '!items!objlxzg1r0qf2chq'

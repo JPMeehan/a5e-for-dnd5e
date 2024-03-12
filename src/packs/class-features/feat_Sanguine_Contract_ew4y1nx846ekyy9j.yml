@@ -1,0 +1,32 @@
+name: Sanguine Contract
+type: feat
+img: icons/skills/wounds/blood-drip-droplet-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take this archetype at 1st level, your signature on a certain
+      metaphysical compact grants you a pernicious boon. Choose one of the
+      following:</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.ijfhr2n6bxczqg7v]{Dark
+      Blessing}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.vwk7xlbwtbjul4kf]{Diabolical
+      Curse}</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ew4y1nx846ekyy9j
+_key: '!items!ew4y1nx846ekyy9j'

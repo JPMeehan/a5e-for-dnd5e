@@ -1,0 +1,73 @@
+name: Overpowering Personality (Roguish Charm)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 18th level, your poise and charm allow you to impose your
+      vision on the world. Choose one of the following options. You must be
+      proficient in a skill in order to gain an expertise die from Overpowering
+      Personality.</p><h3><strong>Roguish Charm</strong></h3><p>You gain an
+      expertise die on Persuasion checks. After you spend a minute in
+      conversation with a creature that is not hostile, you may make a
+      Persuasion check opposed by its Insight. On a success, the creature is
+      nonmagically charmed by you for 1 hour. The charm ends early if you or
+      your allies harm the creature. Once you’ve used this feature successfully,
+      you can’t use it again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 9ljpxzspda39mshb
+_key: '!items!9ljpxzspda39mshb'

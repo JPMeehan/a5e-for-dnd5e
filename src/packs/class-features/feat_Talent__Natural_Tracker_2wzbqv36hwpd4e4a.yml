@@ -1,0 +1,66 @@
+name: 'Talent: Natural Tracker'
+type: feat
+img: icons/skills/targeting/crosshair-bars-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>After making a connection with another creature, however tenuous, you
+      make a connection that gives you an edge when pursuing it. After you spend
+      at least 1 minute observing a creature, you gain an expertise die on
+      checks made to track that specific creature.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 2wzbqv36hwpd4e4a
+_key: '!items!2wzbqv36hwpd4e4a'

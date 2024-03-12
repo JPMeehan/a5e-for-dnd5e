@@ -1,0 +1,27 @@
+name: 'Dirge: Fallible Beauty'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You cause a creature to have advantage on all Culture, Deception,
+      Intimidation, and Persuasion checks for the next minute. The creature then
+      is treated as if it were Charmed by all other creatures for the next 10
+      minutes.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: b278qtxlfxc6tyd8
+_key: '!items!b278qtxlfxc6tyd8'

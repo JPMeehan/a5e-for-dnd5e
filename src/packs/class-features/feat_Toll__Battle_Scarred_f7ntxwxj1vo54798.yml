@@ -1,0 +1,28 @@
+name: 'Toll: Battle Scarred'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You’ve embraced every victory and loss, and you wear each battle scar
+      like a badge of honor. Whenever you are reduced to 0 hit points you gain a
+      new permanent scar or mark, and you gain inspiration. Once you gain
+      inspiration in this way you cannot do so again until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: f7ntxwxj1vo54798
+_key: '!items!f7ntxwxj1vo54798'

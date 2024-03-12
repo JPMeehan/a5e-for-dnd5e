@@ -1,0 +1,31 @@
+name: Punish the Guilty
+type: feat
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, you become especially effective at bringing down the
+      wicked. As a bonus action, you may designate a creature for which you have
+      a warrant, that you have marked with your Render Verdict feature, that has
+      an Evil alignment, and/or that is of the aberration, fey, fiend, or undead
+      types. You have advantage on attacks against that creature and on ability
+      checks to capture it for one minute. Once you have used this feature a
+      number of times equal to your Charisma modifier (minimum once) you must
+      finish a short or long rest before you can do so again.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+img: icons/magic/symbols/rune-sigil-red-orange.webp
+effects: []
+flags: {}
+folder: null
+_id: dz3huv9u6fe1ekou
+_key: '!items!dz3huv9u6fe1ekou'

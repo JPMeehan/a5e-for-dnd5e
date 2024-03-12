@@ -1,0 +1,30 @@
+name: Scorching Weapons
+type: feat
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 3rd level when you choose this archetype, you can infuse a
+      melee weapon with lava-like heat. When you rage, for the duration of your
+      rage, as long as you are holding it the weapon deals an extra 1d6 fire
+      damage. The damage increases to 2d6 at 10th level, 3d6 at 15th level, and
+      4d6 at 20th level. Only one weapon can be infused at a time, though you
+      can use a bonus action to transfer the effect to a different
+      weapon.&nbsp;</p><p>In addition, you gain resistance to fire damage.</p>
+    chat: ''
+  source:
+    book: Fiery Justice
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: vfyn5z9ofc80fvlu
+_key: '!items!vfyn5z9ofc80fvlu'

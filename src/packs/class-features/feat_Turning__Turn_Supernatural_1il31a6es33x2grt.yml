@@ -1,0 +1,26 @@
+name: 'Turning: Turn Supernatural'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose a creature type from celestial, elemental, fey, or fiend. When
+      you use Turn Undead, you can also choose to affect creatures of that type.
+      You can select this option multiple times.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 1il31a6es33x2grt
+_key: '!items!1il31a6es33x2grt'

@@ -1,0 +1,67 @@
+name: Eternal Master
+type: feat
+img: icons/magic/life/ankh-shadow-green.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level you stop naturally aging, are immune to magical aging,
+      and have no maximum lifespan. You also ignore the first level of fatigue
+      you gain per day, and when critically hit by an attack you may spend 2
+      exertion points as a reaction to reduce the damage to a normal hit, though
+      other additional effects of the critical hit still apply.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you are critically hit by an attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: yr6mdvxsrzb461ac
+_key: '!items!yr6mdvxsrzb461ac'

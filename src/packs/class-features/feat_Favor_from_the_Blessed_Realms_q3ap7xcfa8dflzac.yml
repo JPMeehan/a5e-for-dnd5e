@@ -1,0 +1,65 @@
+name: Favor from the Blessed Realms
+type: feat
+img: icons/magic/light/beams-rays-orange-purple-large.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>You may cast the <em>angel paradox</em> and <em>conjure celestial</em>
+      spells once each at their lowest spell level, and they count as warlock
+      spells for you. You regain this ability when you finish a long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 14 Empyreal Sage archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: q3ap7xcfa8dflzac
+_key: '!items!q3ap7xcfa8dflzac'

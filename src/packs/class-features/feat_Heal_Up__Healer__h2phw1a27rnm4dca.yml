@@ -1,0 +1,26 @@
+name: Heal Up (Healer)
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level when you choose this archetype, you may add your
+      Wisdom modifier to the hit points restored by healing spells of 1st-level
+      or higher.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: h2phw1a27rnm4dca
+_key: '!items!h2phw1a27rnm4dca'

@@ -1,0 +1,73 @@
+folder: null
+name: Blast of Sound
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, you learn to use sound not just as a tool, but as a
+      weapon. As an action, you can emit a powerful blast of sound in a 15-foot
+      cone. Creatures caught in the blast must make a Constitution&nbsp;<span
+      class="freelinking-link">save</span>&nbsp;against your&nbsp;<span
+      class="freelinking-link">spell save</span>&nbsp;DC. On a failed saving
+      throw, the target takes 2d8 thunder damage and is&nbsp;<span
+      class="freelinking-link">deafened</span> until the end of its next turn.
+      On a success, the target takes half damage and isn&rsquo;t deafened. The
+      damage increases to 3d8 at level 11. At 17th level, the damage increases
+      to 4d8 and the blast becomes a 30-foot cone.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: btfhban7qf2ai4lz
+_key: '!items!btfhban7qf2ai4lz'

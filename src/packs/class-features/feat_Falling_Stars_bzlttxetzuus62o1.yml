@@ -1,0 +1,27 @@
+name: Falling Stars
+type: feat
+img: icons/magic/light/explosion-impact-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level you add the
+      @UUID[Compendium.a5e-for-dnd5e.spells.h4cib7rjhd5jqfff]{Guiding Bolt}
+      spell to your druid list. You always have it prepared and it does not
+      count against your number of prepared spells.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: bzlttxetzuus62o1
+_key: '!items!bzlttxetzuus62o1'

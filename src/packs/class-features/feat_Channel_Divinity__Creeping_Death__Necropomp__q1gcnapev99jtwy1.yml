@@ -1,0 +1,74 @@
+name: 'Channel Divinity: Creeping Death (Necropomp)'
+type: feat
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level you may use your Channel Divinity to mark a creature you
+      can see within 30 feet for death. This mark lasts for 1 minute. The marked
+      creature cannot regain hit points and dies if reduced to 0 hit points. At
+      the start of each of their turns they must make a Constitution saving
+      throw or take 2d4 necrotic damage. This damage increases to 2d6 at level 8
+      and 2d8 at level 17. If a creature dies while so marked, you may choose to
+      have the mark jump to a new creature if your choice you can see within 30
+      feet of the creature that died. If you do so, increase the remaining
+      duration by a number of rounds equal to your Wisdom modifier to a maximum
+      of 1 minute. A greater restoration, heal, mass heal, or similar magic ends
+      the effect on a creature.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: q1gcnapev99jtwy1
+_key: '!items!q1gcnapev99jtwy1'

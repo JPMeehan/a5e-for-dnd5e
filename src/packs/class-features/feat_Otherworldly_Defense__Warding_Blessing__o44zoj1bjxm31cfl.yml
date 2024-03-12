@@ -1,0 +1,35 @@
+name: Otherworldly Defense (Warding Blessing)
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 3rd you may choose
+      one of the following protective blessings:</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><s><strong>Magical
+      Annulment</strong></s></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><strong>Warding
+      Blessing</strong></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">While not wearing
+      armor or using a shield, your armor class equals 10 + dexterity + your
+      spellcasting ability modifier.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 3 Witch Class
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: o44zoj1bjxm31cfl
+_key: '!items!o44zoj1bjxm31cfl'

@@ -1,0 +1,76 @@
+name: Terrifying Inevitability
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 10th level, your rage exudes such an intense feeling of
+      determination that it fills nearby foes with dread. This aura extends 10
+      feet from you in every direction, but not through total cover. While
+      raging you can use a bonus action to choose one creature you can see in
+      your aura and focus your will on it. If the creature can see or hear you,
+      it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency
+      bonus + your Charisma modifier) or be frightened of you until the end of
+      your next turn. On subsequent turns, you can use your bonus action to
+      extend the duration of this effect on the frightened creature until the
+      end of your next turn. This effect ends if the creature ends its turn out
+      of line of sight or more than 60 feet away from you.</p><p>A creature that
+      successfully resists your Terrifying Inevitability is immune to its
+      effects for 24 hours.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: rk41gjwta4k08q3x
+_key: '!items!rk41gjwta4k08q3x'

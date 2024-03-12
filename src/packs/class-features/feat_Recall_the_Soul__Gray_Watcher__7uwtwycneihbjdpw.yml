@@ -1,0 +1,32 @@
+name: Recall the Soul (Gray Watcher)
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 14th level you
+      always have the <em style="mso-bidi-font-style: normal;">resurrection</em>
+      spell prepared, it does not count against your number of prepared spells,
+      and once per long rest you may cast it without expending a spell slot. In
+      addition, if a creature has been dead for less than a year, you may cast
+      this spell to raise them without requiring a material component. Once you
+      have raised a particular creature this way, you may not raise that same
+      creature in this way again, and doing so is exhausting, inflicting
+      penalties as if the target has been dead for over 1 year.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 14 Witch Class; Gray Watcher archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 7uwtwycneihbjdpw
+_key: '!items!7uwtwycneihbjdpw'

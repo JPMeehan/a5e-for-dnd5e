@@ -1,0 +1,38 @@
+folder: null
+name: Raging Projection (Empathetic Rager)
+type: feat
+img: icons/magic/movement/portal-vortex-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">When you select this
+      archetype at 3rd level, you have developed the unique psionic ability to
+      render your emotions, particularly your fury, contagious, and to project
+      them onto others.<span style="mso-spacerun: yes;">&nbsp; </span></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">Whenever you gain
+      rage hit points, you can use your reaction to project your rage at another
+      creature within 20 feet.<span style="mso-spacerun: yes;">&nbsp;
+      </span>They either gain temporary hit points equal the number of rage hit
+      points you just gained, or take psychic damage equal to that amount.<span
+      style="mso-spacerun: yes;">&nbsp; </span></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 6th level the
+      range of this ability increases to 30 feet, at 10th level it increases to
+      40ft, and at 14th level it increases to 50ft.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Berserker Level 3; Empathetic Rager Archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: g9pecyre1ld6mu4q
+_key: '!items!g9pecyre1ld6mu4q'

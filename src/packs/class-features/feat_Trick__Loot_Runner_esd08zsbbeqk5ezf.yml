@@ -1,0 +1,26 @@
+name: 'Trick: Loot Runner'
+type: feat
+img: icons/containers/barrels/barrel-reinforced-cherry-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Athletics checks, your speed increases by
+      5 feet, and you can carry 2 extra bulky items (see page 330 in Chapter 4:
+      Equipment).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: esd08zsbbeqk5ezf
+_key: '!items!esd08zsbbeqk5ezf'

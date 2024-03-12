@@ -1,0 +1,25 @@
+name: Ritual Caster (Scholar Knight)
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can cast a herald spell as a ritual if that spell has the ritual
+      tag and you have the spell in your spellbook.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 61plppuim2elu2x3
+_key: '!items!61plppuim2elu2x3'

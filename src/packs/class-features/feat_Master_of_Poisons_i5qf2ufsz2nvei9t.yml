@@ -1,0 +1,73 @@
+name: Master of Poisons
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, you learn the recipe for a special injury poison
+      called Blackblade. During a short or long rest, you can use your
+      poisoner’s kit to brew a number of doses of this poison equal to your
+      proficiency bonus without spending money or resources doing so. These
+      poisons lose their effectiveness at the start of your next short or long
+      rest. </p><p>This poison can be applied to a weapon or piece of ammunition
+      before combat or as a Cunning Action. The first time a poisoned weapon or
+      ammunition deals damage, it deals an additional 3d6 poison damage.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: i5qf2ufsz2nvei9t
+_key: '!items!i5qf2ufsz2nvei9t'

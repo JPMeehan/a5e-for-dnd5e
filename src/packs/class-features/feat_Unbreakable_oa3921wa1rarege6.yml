@@ -1,0 +1,29 @@
+name: Unbreakable
+type: feat
+img: icons/skills/melee/shield-block-gray-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you would be reduced to 0 hit points and are not killed outright,
+      you instead drop to 1 hit point and may use your reaction to make a single
+      weapon attack against the source of the damage that felled you. If this
+      counterattack is a critical hit, you immediately heal to half of your
+      maximum hit points. Once you have used this ability, you can’t do so again
+      until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: oa3921wa1rarege6
+_key: '!items!oa3921wa1rarege6'

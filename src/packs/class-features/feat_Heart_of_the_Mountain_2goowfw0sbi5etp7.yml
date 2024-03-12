@@ -1,0 +1,139 @@
+folder: null
+name: Heart of the Mountain
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level, you perfect your connection to earth and stone. When you
+      cast a spell from the earth school (or that has &ldquo;earth&rdquo; or
+      &ldquo;stone&rdquo; in its name) that has a casting time of 1 action, you
+      can cast it as a bonus action instead.</p>
+
+      <p>Additionally, you gain tremorsense to a range of 60 feet. If you are
+      touching unworked stone, you can use an action to expand your
+      consciousness through it, increasing your tremorsense to a range of 500
+      feet until the start of your next turn. This provides you with insight
+      into the layout of nearby caves and any creatures on the ground in that
+      area.</p>
+
+      <p>Finally, you can use an action to magically&nbsp;<span
+      class="freelinking-link">petrify</span>&nbsp;yourself. While petrified in
+      this way, you are aware of your surroundings and immune to all damage. You
+      do not age, nor do you need to eat, sleep, or drink. While petrified in
+      this way, you aren&rsquo;t&nbsp;<span
+      class="freelinking-link">incapacitated</span>, but you can&rsquo;t take
+      actions or reactions except to end this petrification as an action. You
+      can&rsquo;t be petrified by any other effect, unless you choose to be.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/earth/barrier-stone-explosion-red.webp
+    origin: Item.2goowfw0sbi5etp7
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Tremorsense (60 ft.)
+    _id: voIfdTmHInzARFYT
+    changes:
+      - key: system.attributes.senses.tremorsense.distance
+        value: '60'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!2goowfw0sbi5etp7.voIfdTmHInzARFYT'
+  - icon: icons/magic/earth/barrier-stone-explosion-red.webp
+    origin: Item.2goowfw0sbi5etp7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: A2GqDz0J2zORuPsL
+    transfer: false
+    name: Tremorsense (500 ft.)
+    _id: w2HPiAkvFwpZvPPu
+    changes:
+      - key: system.attributes.senses.tremorsense.distance
+        value: '440'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!2goowfw0sbi5etp7.w2HPiAkvFwpZvPPu'
+flags: {}
+_id: 2goowfw0sbi5etp7
+_key: '!items!2goowfw0sbi5etp7'

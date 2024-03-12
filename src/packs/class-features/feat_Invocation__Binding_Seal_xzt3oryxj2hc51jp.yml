@@ -1,0 +1,71 @@
+name: 'Invocation: Binding Seal'
+type: feat
+img: icons/commodities/treasure/brass-lamp-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may cast the planar ally and planar binding spells once each per
+      long rest at their lowest spell level. They count as warlock spells for
+      you. When cast in this way planar ally always summons a genie of your
+      chosen type and the cost of any services are halved. When casting the
+      planar binding spell the material component is instead a vessel such as a
+      lamp, bottle, or ring worth at least 1000 gp that is not consumed, though
+      you may only have one creature bound within it at a time. As an action you
+      may force a bound creature into this vessel, or call it forth.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: 13th Level, Wishmaster archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: xzt3oryxj2hc51jp
+_key: '!items!xzt3oryxj2hc51jp'

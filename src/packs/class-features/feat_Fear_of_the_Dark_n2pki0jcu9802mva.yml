@@ -1,0 +1,73 @@
+name: Fear of the Dark
+type: feat
+img: icons/magic/death/skull-energy-light-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may spend 2 sorcery points as an action to target a creature you
+      can see within 30 feet. They must make a Wisdom saving throw or be
+      frightened of you for 1 minute. They may repeat the saving throw at the
+      end of each of their turns, ending the effect on a success. If they start
+      their turn <em>blinded</em> or unable to see as a result of darkness, they
+      count as being able to see the source of their fear, and if they start
+      their turn <em>blinded</em> or in darkness they cannot see through they
+      take 2d6 psychic damage. You may only have one creature frightened in this
+      way at a time.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 6 Shadowtouched Sorcerer archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: n2pki0jcu9802mva
+_key: '!items!n2pki0jcu9802mva'

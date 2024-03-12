@@ -1,0 +1,32 @@
+name: 'Thaumaturge: Aura of Anathema'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p style="margin: 0.5em 0px; font-family: Signika, sans-serif; font-size:
+      14px;"><span class="fontstyle1">Hostile creatures within 120 feet gain
+      vulnerability to necrotic damage. A creature withresistance to necrotic
+      damage instead loses its resistance, and a creature immune to necrotic
+      damage instead replaces that immunity with resistance.</span></p>
+
+      <p style="margin: 0.5em 0px; font-family: Signika, sans-serif; font-size:
+      14px;"><span class="fontstyle1">Whenever you finish a long rest, you can
+      choose a different damage type for your aura.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: pwoitlnt5tqbvkzz
+_key: '!items!pwoitlnt5tqbvkzz'

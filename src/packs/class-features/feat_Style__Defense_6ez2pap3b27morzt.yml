@@ -1,0 +1,23 @@
+name: 'Style: Defense'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 6ez2pap3b27morzt
+_key: '!items!6ez2pap3b27morzt'

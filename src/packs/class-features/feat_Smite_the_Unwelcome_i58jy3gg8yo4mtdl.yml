@@ -1,0 +1,67 @@
+name: Smite the Unwelcome
+type: feat
+img: icons/skills/melee/strike-flail-destructive-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level your divine smites deal an additional 1d8 damage against
+      any creature turned by your Turn the Outsider ability. Whenever you kill
+      or banish such a creature, you may regain a use of your divine smite. Once
+      you have regained a number of divine smites in this fashion equal to your
+      Charisma modifier you may not do so again until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: i58jy3gg8yo4mtdl
+_key: '!items!i58jy3gg8yo4mtdl'

@@ -1,0 +1,29 @@
+name: Seen It All
+type: feat
+img: icons/magic/defensive/shield-barrier-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level, knowledge and experience shield your mind. You have
+      resistance to psychic damage and you gain advantage on saving throws to
+      prevent gaining levels of strife. In addition, whenever you finish a long
+      rest outside a  sanctuary, you recover a level of strife. Whenever you
+      finish one inside a sanctuary, you recover two levels of strife
+      instead.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: senntfh8j4d57i9x
+_key: '!items!senntfh8j4d57i9x'

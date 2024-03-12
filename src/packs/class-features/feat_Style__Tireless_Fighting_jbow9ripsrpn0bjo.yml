@@ -1,0 +1,26 @@
+name: 'Style: Tireless Fighting'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you expend hit dice to recover exertion points, you recover 3
+      exertion points per hit die expended (instead of 1d4 exertion points as
+      normal).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: jbow9ripsrpn0bjo
+_key: '!items!jbow9ripsrpn0bjo'

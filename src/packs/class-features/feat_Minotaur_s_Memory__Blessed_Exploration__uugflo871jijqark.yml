@@ -1,0 +1,52 @@
+folder: null
+name: Minotaur's Memory (Blessed Exploration)
+type: feat
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="Indent1">You can perfectly recall any route you have
+      traveled.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+    origin: Item.uugflo871jijqark
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: DV
+    _id: PtYYZZQjMxetZdXd
+    changes:
+      - key: system.attributes.senses.darkvision.distance
+        value: '90'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!uugflo871jijqark.PtYYZZQjMxetZdXd'
+flags: {}
+_id: uugflo871jijqark
+_key: '!items!uugflo871jijqark'

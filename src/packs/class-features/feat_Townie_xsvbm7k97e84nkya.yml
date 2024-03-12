@@ -1,0 +1,27 @@
+name: Townie
+type: feat
+img: icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose one skill you are proficient with. You gain an expertise die on
+      checks made using the chosen skill. As long as you have a positive
+      reputation in a town or city, all basic goods and spellcasting components
+      cost 1/3rd less.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: xsvbm7k97e84nkya
+_key: '!items!xsvbm7k97e84nkya'

@@ -1,0 +1,80 @@
+name: Ancient Commands
+type: feat
+img: icons/magic/sonic/projectile-shock-wave-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned secret ancient words and phrases, with the very
+      authority of creation, and can use them to command the world around you.
+      You may expend a hit die to replicate the effects of the
+      @UUID[Compendium.a5e-for-dnd5e.spells.bs1zn1s8ewwa4tfx]{Command} spell. In
+      addition, once per long rest you may expend a hit die and make a DC 20
+      skill check of the appropriate type to execute a more potent short but
+      irresistible command. Examples include ordering a hungry pack of wolves
+      back to their dens, commanding a hidden and/or magically locked door to
+      open, ordering an undead back into its tomb, ordering a pile of logs to
+      catch alight, breaking the hold of a cursed magic item, or commanding such
+      an item to function in situations it would normally not such as writing
+      that only appears under moonlight revealing itself in broad daylight.</p>
+
+      <p>The Narrator is the ultimate arbiter of what effects you can create
+      with this, though it should not be able to affect a creature with a CR
+      greater than your scholar level. Such commands are extremely taxing,
+      however, and grant you a level of fatigue when successfully used.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: 9th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: tu4hhoh9f4lrb62w
+_key: '!items!tu4hhoh9f4lrb62w'

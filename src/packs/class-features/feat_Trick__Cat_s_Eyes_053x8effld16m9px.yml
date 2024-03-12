@@ -1,0 +1,26 @@
+name: 'Trick: Cat''s Eyes'
+type: feat
+img: icons/magic/perception/eye-slit-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Perception checks and darkvision to a
+      range of 30 feet. If you already have darkvision from another source, its
+      range increases by 30 feet.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 053x8effld16m9px
+_key: '!items!053x8effld16m9px'

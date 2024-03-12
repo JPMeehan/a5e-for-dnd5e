@@ -1,0 +1,33 @@
+name: Major Metamagic
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level, in addition to a minor metamagic option, you gain one
+      major metamagic option. These are more powerful expressions of your
+      magics, though they come at significantly higher costs. You gain an
+      additional major metamagic option at 20th
+      level.</p><p></p><h4><strong>Major Metamagic
+      Options</strong></h4><p>&nbsp; &nbsp;<strong><em>Consumptive
+      Spell</em></strong>.&nbsp;</p><p>&nbsp; &nbsp;<strong><em>Contingent
+      Spell</em></strong>.&nbsp;</p><p>&nbsp; &nbsp;<strong><em>Echo
+      Spell</em></strong>.&nbsp;</p><p>&nbsp; &nbsp;<strong><em>Intense
+      Spell.</em></strong></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: s1ii8g1x1bdgoc0v
+_key: '!items!s1ii8g1x1bdgoc0v'

@@ -1,0 +1,29 @@
+name: 'Reputation: Noble Curiosity'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your reputation and ferocity have sparked the fascination of the
+      nobility. A liveried servant is likely to approach you when you enter the
+      holdings of such a noble and invite you to take part in their employer’s
+      hospitality. This includes lavish feasting, introductions to the rich and
+      powerful, and offers of assistance such as mounts, the repair of your
+      armor and weapons, and miscellaneous items worth less than 5 gold.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: pkim28nxttnracgo
+_key: '!items!pkim28nxttnracgo'

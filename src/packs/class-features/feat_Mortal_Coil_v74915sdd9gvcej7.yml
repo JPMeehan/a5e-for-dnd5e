@@ -1,0 +1,68 @@
+name: Mortal Coil
+type: feat
+img: icons/magic/death/skull-flames-white-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to draw strength from the sufferings of a mortal
+      existence. You learn the spare the dying cantrip and it does not count
+      against your cantrips known. Additionally, whenever you fail a saving
+      throw and suffer a condition as a result, you gain temporary hit points
+      equal to twice your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: Mortalist
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2 * @prof
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: v74915sdd9gvcej7
+_key: '!items!v74915sdd9gvcej7'

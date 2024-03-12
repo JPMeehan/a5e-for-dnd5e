@@ -1,0 +1,29 @@
+name: Ambidextrous
+type: feat
+img: icons/equipment/hand/gloves-leather-tan.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 9th level, you add your Dexterity modifier (minimum 1) to
+      damage when making an attack using two weapon fighting. Additionally, you
+      can use your
+      @UUID[Compendium.a5e.a5e-class-features.d8k1x28y4vn6h3q5]{Cunning Action}
+      to draw and throw, or pick up and throw, a weapon or improvised
+      weapon.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: jovr49e2qdb7yq0q
+_key: '!items!jovr49e2qdb7yq0q'

@@ -1,0 +1,28 @@
+name: 'Defense: Juggernaut'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span style="color: #191813;">You gain proficiency with heavy armor. In
+      addition, your speed is not reduced by wearing heavy armor, you can still
+      benefit from raging while wearing heavy armor, and you do not count the
+      weight of any worn armor when determining your carrying
+      capacity.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: d1fxv8660imuyf1l
+_key: '!items!d1fxv8660imuyf1l'

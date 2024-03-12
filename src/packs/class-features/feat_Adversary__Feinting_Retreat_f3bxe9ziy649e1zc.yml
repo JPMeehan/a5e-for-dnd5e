@@ -1,0 +1,67 @@
+name: 'Adversary: Feinting Retreat'
+type: feat
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take the Disengage action, until the start of your next turn,
+      when a creature ends its movement within range of your
+      @UUID[Compendium.a5e.a5e-class-features.d71mc2057x7y6c08]{Commanding
+      Presence} it provokes an opportunity attack.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: Within Commanding Presence range
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: f3bxe9ziy649e1zc
+_key: '!items!f3bxe9ziy649e1zc'

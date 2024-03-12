@@ -1,0 +1,26 @@
+name: Down But Not Out
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If they are not killed outright, friendly creatures within range of
+      your Commanding Presence ability automatically stabilize when they drop to
+      0 hit points. This ability only works while you are alive.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: rhss1phncxxc1s69
+_key: '!items!rhss1phncxxc1s69'

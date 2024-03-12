@@ -1,0 +1,28 @@
+name: Sorcerer Archetype
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Something in your past, or in the life of an ancestor, created the
+      magic within you. Choose a sorcerer archetype, which describes what this
+      source was. Your choice grants you features when you choose it, and again
+      at 6th, 14th, and 18th
+      level.</p><ul><li><p>Draconist</p></li><li><p>Enigma</p></li><li><p>Traveler</p></li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: r8y9w857f6t3124p
+_key: '!items!r8y9w857f6t3124p'

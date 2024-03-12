@@ -1,0 +1,28 @@
+name: Riding Out
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level when you use any combat maneuver that requires you to be
+      mounted you only expend half the exertion (rounded up).</p><p>In addition,
+      you gain the Ride Enemy combat maneuver. It does not count against your
+      number of maneuvers known, and you do not have to spend exertion points to
+      activate it.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: dri4hnyylucw1gbb
+_key: '!items!dri4hnyylucw1gbb'

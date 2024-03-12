@@ -1,0 +1,69 @@
+name: No Mercy
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you or a friendly creature within the range of your Commanding
+      Presence makes a successful weapon attack against a creature that has been
+      marked with your Mark Foe feature, the attack deals 1d4 ongoing damage for
+      one minute or until the creature or one of its allies spends an action to
+      stanch the wound. A target can only suffer one instance of this ability
+      from any given creature at a time. Multiple hits from the same creature
+      reset the duration of the ongoing damage, but do not increase the amount
+      of it. </p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: uuy703a7svkcedoz
+_key: '!items!uuy703a7svkcedoz'

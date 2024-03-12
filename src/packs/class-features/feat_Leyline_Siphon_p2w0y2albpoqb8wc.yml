@@ -1,0 +1,29 @@
+name: Leyline Siphon
+type: feat
+img: icons/magic/light/hand-sparks-smoke-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level, you can recover some magical energy by tapping into
+      leylines. While in natural surroundings, during a short rest you may
+      recover spell slots of a total level less than or equal to half your druid
+      level (rounded down), none of which may be higher than 5th level. Once you
+      have used this ability, you can’t do so again until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Storyteller'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: p2w0y2albpoqb8wc
+_key: '!items!p2w0y2albpoqb8wc'

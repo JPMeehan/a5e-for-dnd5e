@@ -1,0 +1,75 @@
+name: 'Focus: Powerful Blow'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Requirement: 5th level</em></p><p>As a bonus action, you prepare a
+      crushing blow. If you hit a creature with a melee weapon attack before the
+      end of your next turn, you can spend 1 exertion to deal additional damage
+      equal to your martial arts die.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - bludgeoning
+      - - 1d6
+        - bludgeoning
+      - - 1d8
+        - bludgeoning
+      - - 1d10
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ysqon64ol0f9rwt6
+_key: '!items!ysqon64ol0f9rwt6'

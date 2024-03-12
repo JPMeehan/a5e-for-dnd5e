@@ -1,0 +1,30 @@
+name: 'Dirge: Frantic Activity'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">For a number of turns equal to half your proficiency bonus,
+      you cause the target creature to take two bonus actions on its turn, each
+      of which may be a single attack with a weapon, unarmed strike, natural
+      weapon, cantrip, or other ability already usable with a bonus action.
+      Then, for a number of turns equal to your proficiency bonus, the target
+      creature may only take an action or bonus action, not both, on its turns
+      and may not make more than one attack as an action or bonus action.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: t7sctlzqaxmvitv0
+_key: '!items!t7sctlzqaxmvitv0'

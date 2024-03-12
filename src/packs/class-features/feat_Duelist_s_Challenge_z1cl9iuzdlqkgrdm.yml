@@ -1,0 +1,74 @@
+name: Duelist’s Challenge
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you’re confident enough to challenge even the most
+      monstrous threats. You can use a bonus action to expend a use of Panache
+      to challenge a creature within 30 feet to an honorable duel. Once you
+      challenge a creature in this way, you have disadvantage on attacks against
+      creatures other than the challenged creature, and the challenged creature
+      has disadvantage on attacks against creatures other than you. A creature
+      remains challenged in this way until either you or the challenged creature
+      are incapacitated, dies, or either ends their turn out of line of sight
+      from the other. The challenge also ends if you use this feature again to
+      challenge a different creature, or if a third creature challenges either
+      you or your challenged creature.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: z1cl9iuzdlqkgrdm
+_key: '!items!z1cl9iuzdlqkgrdm'

@@ -1,0 +1,30 @@
+name: Hotfixer
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level you’ve mastered the art of rerouting power, quick welds,
+      and improvising on the spot to keep your spell inventions functional. When
+      rolling the fizzle die would burn out one of your spell inventions, you
+      can use your reaction to fix it and restore it to full working order. Once
+      you repair a spell invention in this way you cannot do so again until you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 1at0l92yrr53jher
+_key: '!items!1at0l92yrr53jher'

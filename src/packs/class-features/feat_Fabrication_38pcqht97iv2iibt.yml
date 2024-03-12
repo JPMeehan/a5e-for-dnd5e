@@ -1,0 +1,65 @@
+name: Fabrication
+type: feat
+img: icons/tools/smithing/crucible.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level you can cause existing elements and compounds to come
+      together in a complex, almost supernatural reaction. You may expend a hit
+      die to replicate the effects of the
+      @UUID[Compendium.a5e-for-dnd5e.spells.tk8q47k7yjntw4c2]{Fabricate}
+      spell.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 38pcqht97iv2iibt
+_key: '!items!38pcqht97iv2iibt'

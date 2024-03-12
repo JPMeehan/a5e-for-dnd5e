@@ -1,0 +1,25 @@
+name: Bring Down the Quarry
+type: feat
+img: icons/skills/targeting/crosshair-triple-strike-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a +1 bonus to damage against your studied adversaries.
+      &nbsp;This increases to +2 at 11th level and +3 at 15th level.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 7 Hunter Ranger archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: hw5u8q1rokdmftft
+_key: '!items!hw5u8q1rokdmftft'

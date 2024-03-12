@@ -1,0 +1,69 @@
+name: All Knowing, All Seeing
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your studies have made you unusually alert and capable of perceiving
+      things others might not. You gain a +5 bonus to your passive Perception,
+      and you may expend a hit die to replicate the
+      @UUID[Compendium.a5e-for-dnd5e.spells.i7sh0e2wqmql4cac]{See Invisibility}
+      spell. Each time per long rest you use this ability beyond the first, you
+      tax your mind and gain a level of strife.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: caho0ryijamrbczt
+_key: '!items!caho0ryijamrbczt'

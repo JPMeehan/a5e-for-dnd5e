@@ -1,0 +1,29 @@
+name: Parry and Thrust
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, you master the art of turning your opponent’s strikes
+      against them. You treat any weapon with the Finesse property as if it also
+      had the Parrying property. In addition, whenever you use your reaction to
+      add an expertise die to your AC using a Parrying weapon and the triggering
+      attack misses you, you may immediately spend an exertion point to make a
+      melee weapon attack against the creature that attacked you.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 3g8z0lfqko61k8v6
+_key: '!items!3g8z0lfqko61k8v6'

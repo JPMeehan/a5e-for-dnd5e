@@ -1,0 +1,30 @@
+name: Additional Fighting Style
+type: feat
+img: icons/weapons/polearms/javelin-flared.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you’ve mastered multiple styles that constitute a
+      knight’s martial prowess. You gain an additional Fighting Style from the
+      following list: </p><ul><li><p>Battle
+      Ready</p></li><li><p>Defense</p></li><li><p>Dueling</p></li><li><p>Great
+      Weapon Fighting</p></li><li><p>Mounted
+      Combatant</p></li><li><p>Protection</p></li><li><p>Tireless
+      Fighting</p></li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: c38khsx2qzjv6l3b
+_key: '!items!c38khsx2qzjv6l3b'

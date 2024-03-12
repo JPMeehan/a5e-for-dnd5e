@@ -1,0 +1,73 @@
+name: Fairies’ Retreat
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you can instantly traverse the Dreaming to a place of
+      hopeful refuge. You can use an action to teleport yourself and up to five
+      willing creatures you can see within 30 feet, disappearing in flashes of
+      bright color or a vortex of leaves. You each reappear no further than 1
+      mile away, in the nearest unoccupied space within 30 feet of your
+      Toadstool Sanctuary, or a fairy ring or monolith consecrated to the fey
+      which you have previously seen. If you are already at such a location when
+      you use this feature, you and the creatures instead teleport into or
+      return from the Dreaming.</p><p>Once you have used this feature, you can’t
+      do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: space
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: wvrn69mk5sisi9ym
+_key: '!items!wvrn69mk5sisi9ym'

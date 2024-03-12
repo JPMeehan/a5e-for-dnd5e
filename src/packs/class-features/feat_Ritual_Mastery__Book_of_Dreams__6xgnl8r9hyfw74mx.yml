@@ -1,0 +1,49 @@
+name: Ritual Mastery (Book of Dreams)
+type: feat
+img: icons/magic/symbols/circled-gem-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">Witches have an
+      unparalleled mastery of ritual magic. A 9th level, you can cast any witch
+      spell with the ritual tag, even if you do not have it prepared. In
+      addition, at 9th level, and again at 18th level you may choose one of the
+      following abilities:</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><strong>Book of
+      Dreams</strong></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You may select one
+      ritual spell on your spell list and add it to a dream journal. Once per
+      long rest while sleeping or trancing, you may ritually cast one of the
+      spells in your journal. Each time you gain a witch level, you may add
+      another ritual spell you know to the list. In addition, you always have
+      the dream spell prepared, it does not count against the number of prepared
+      spells, and you may ritually cast it even though it does not have the
+      ritual tag, but only while you are sleeping or trancing.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><s><strong>Coven
+      Casting</strong></s></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><s><strong>Ritual
+      Attire</strong></s></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><s><strong>Candle
+      Magic</strong></s></p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: 9th Level Witch Class
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 6xgnl8r9hyfw74mx
+_key: '!items!6xgnl8r9hyfw74mx'

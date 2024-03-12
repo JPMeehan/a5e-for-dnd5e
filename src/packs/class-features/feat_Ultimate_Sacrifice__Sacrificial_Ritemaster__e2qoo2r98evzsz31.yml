@@ -1,0 +1,34 @@
+folder: null
+name: Ultimate Sacrifice (Sacrificial Ritemaster)
+type: feat
+img: icons/magic/fire/projectile-feathers-embers-gold.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 14th level, you
+      can expend 5 Burning Boon charges to cast
+      the&nbsp;<em>resurrection</em>&nbsp;spell, no material component
+      required.<span style="mso-spacerun: yes;">&nbsp; </span>You can only cast
+      <em>resurrection</em> on a particular creature once in this way. You also
+      do not need to concentrate on a <em>bless</em> spell cast using Burning
+      Boon charges.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You also gain
+      the&nbsp;<em>flame strike</em>&nbsp;spell, it is always prepared, and does
+      not count against the number of spells you have prepared.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Druid Level 14; Sacrificial Ritemaster Archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: e2qoo2r98evzsz31
+_key: '!items!e2qoo2r98evzsz31'

@@ -1,0 +1,30 @@
+name: Resist Elements
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-teal-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Strength and Constitution saving throws.
+      You also gain resistance to your choice of <em>lightning</em>,
+      <em>cold</em>, or <em>thunder</em> damage. You can change the damage type
+      whenever you finish a long rest. If you would take damage of one of the
+      types you are not resistant to, you may spend 2 sorcery points as a
+      reaction to also gain resistance to that damage type until the start of
+      your next turn.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 14 Stormborn Sorcerer archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: l750108fhmai2h81
+_key: '!items!l750108fhmai2h81'

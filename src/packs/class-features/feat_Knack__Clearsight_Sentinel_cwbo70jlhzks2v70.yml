@@ -1,0 +1,28 @@
+name: 'Knack: Clearsight Sentinel'
+type: feat
+img: icons/magic/perception/hand-eye-black.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain darkvision. You can see in dim light within 60 feet of you as
+      if it were bright light, and in darkness as if it were dim light. In
+      addition, you do not suffer disadvantage on Wisdom (Perception) checks in
+      lightly obscured areas (such as in light fog, moderate foliage, or heavy
+      precipitation).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: cwbo70jlhzks2v70
+_key: '!items!cwbo70jlhzks2v70'

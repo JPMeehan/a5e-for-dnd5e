@@ -1,0 +1,36 @@
+name: Bound Spirit (Gray Watcher)
+type: feat
+img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">When you select this
+      archetype at 2nd level, your familiar&rsquo;s type changes to undead, it
+      gains immunity to cold and necrotic damage and resistance to fire,
+      lightning, thunder, and acid damage, as well as damage from non-magical
+      weapons.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">Its attacks also deal
+      necrotic damage, and once per long rest it can cast <em
+      style="mso-bidi-font-style: normal;">speak with dead </em>on your behalf
+      at 3rd level. It appears as a ghostly, spectral version of your chosen
+      animal. You also learn the <em style="mso-bidi-font-style: normal;">chill
+      touch</em> and <em style="mso-bidi-font-style: normal;">spare the
+      dying</em> cantrips if you do not know them already.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 2 Witch Class; Gray Watcher archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: rhlud44x2frat85y
+_key: '!items!rhlud44x2frat85y'

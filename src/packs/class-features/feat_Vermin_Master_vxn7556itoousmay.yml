@@ -1,0 +1,113 @@
+folder: null
+name: Vermin Master
+type: feat
+img: icons/magic/death/skull-poison-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, adopting swarm form no longer expends a use of your Wild
+      Shape, and you gain all the listed benefits, instead of choosing one.
+      Additionally, you can cast spells while in swarm form even if they
+      don&rsquo;t have a range of Touch or Self.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@level+@prof'
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/death/skull-poison-green.webp
+    origin: Item.vxn7556itoousmay
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: gqpNUdspRzjVZVfl
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Swarm Form
+    _id: C5jyHxEghYGVhZdA
+    changes:
+      - key: system.details.creatureTypes
+        value: '["beast"]'
+        mode: 6
+        priority: null
+      - key: system.details.isSwarm
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.attributes.movement.fly.distance
+        value: ''
+        mode: 6
+        priority: null
+      - key: system.attributes.movement.climb.distance
+        value: '30'
+        mode: 6
+        priority: null
+      - key: system.traits.damageResistances
+        value: '["bludgeoning","piercing","slashing"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.C5jyHxEghYGVhZdA'
+flags: {}
+_id: vxn7556itoousmay
+_key: '!items!vxn7556itoousmay'

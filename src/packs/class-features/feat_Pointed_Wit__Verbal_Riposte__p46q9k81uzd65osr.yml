@@ -1,0 +1,30 @@
+name: Pointed Wit (Verbal Riposte)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 13th level, your words are as cutting as your blade. Choose one of
+      the following options.</p><h3><strong>Verbal Riposte</strong></h3><p>When
+      a creature threatens you or attempts an Intimidation check against you,
+      you can use your reaction to make an Intimidation check against it with
+      advantage. On a success, the creature is frightened of you for 1 minute.
+      Once you use this feature, you can’t use it again until you finish a short
+      or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: p46q9k81uzd65osr
+_key: '!items!p46q9k81uzd65osr'

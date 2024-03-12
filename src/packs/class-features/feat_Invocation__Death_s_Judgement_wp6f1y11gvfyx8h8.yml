@@ -1,0 +1,75 @@
+name: 'Invocation: Death''s Judgement'
+type: feat
+img: icons/magic/death/skull-flames-white-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="a-b-r-La">You gain a pool of Veil dice equal to your proficiency
+      bonus which are 1d4s. As a bonus action, you may expend one or more of
+      these dice to roll them and target a creature within 30 feet. That
+      creature either takes necrotic damage equal to the number rolled, or is
+      healed for that amount. When healing a creature currently at 0 hit points,
+      roll twice and take the higher result.</p>
+
+      <p class="a-b-r-La">You regain all expended Veil dice when you finish a
+      short or long rest.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: 3rd level, Deathwalker archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - necrotic
+      - - 1d4
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: wp6f1y11gvfyx8h8
+_key: '!items!wp6f1y11gvfyx8h8'

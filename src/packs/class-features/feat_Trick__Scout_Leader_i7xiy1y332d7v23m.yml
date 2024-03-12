@@ -1,0 +1,27 @@
+name: 'Trick: Scout Leader'
+type: feat
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Stealth checks. When your party makes a
+      group Stealth check, you may apply your result to yourself and one ally
+      after seeing the results of all rolls. Additionally, when you are
+      traveling, you can move stealthily at a normal pace.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: i7xiy1y332d7v23m
+_key: '!items!i7xiy1y332d7v23m'

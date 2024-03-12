@@ -1,0 +1,28 @@
+name: Marshal Archetype
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level, you choose an archetype that focuses on the military
+      stratagems you devise. Your choice grants you features at 3rd level, and
+      again at 7th, 11th, 15th, and 18th level.</p><ul><li><p>Gambling
+      General</p></li><li><p>Swift Strategist</p></li><li><p>Talented
+      Tactician</p></li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: oxlxg4kaxbr1odb2
+_key: '!items!oxlxg4kaxbr1odb2'

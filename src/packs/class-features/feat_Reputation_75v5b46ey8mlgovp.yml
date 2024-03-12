@@ -1,0 +1,28 @@
+name: Reputation
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, your reputation has begun to precede you. Choose one of
+      the following options:</p><p>&nbsp;</p><h4><strong>&nbsp;&nbsp;
+      Inspiring</strong></h4><p><strong>&nbsp;&nbsp;
+      Intimidating&nbsp;</strong></p><p><strong>&nbsp;&nbsp;
+      Legendary&nbsp;</strong></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 75v5b46ey8mlgovp
+_key: '!items!75v5b46ey8mlgovp'

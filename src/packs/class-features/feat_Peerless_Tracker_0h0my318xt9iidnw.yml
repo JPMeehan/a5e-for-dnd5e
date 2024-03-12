@@ -1,0 +1,27 @@
+name: Peerless Tracker
+type: feat
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a d8 expertise die on the track, scout, or hunt and gather
+      journey activities. &nbsp;In addition, if tracking one of your studied
+      adversaries the maximum size of expertise die you may gain on the check is
+      1d12.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 11 Hunter Ranger archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 0h0my318xt9iidnw
+_key: '!items!0h0my318xt9iidnw'

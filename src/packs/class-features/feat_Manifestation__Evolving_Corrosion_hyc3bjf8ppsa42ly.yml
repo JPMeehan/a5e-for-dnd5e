@@ -1,0 +1,71 @@
+name: 'Manifestation: Evolving Corrosion'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell of 1st-level or higher that deals acid damage,
+      you can spend 1 sorcery point to create a 10-foot radius pool of acid
+      centered on either the target of the spell or the spell’s point of origin.
+      The area is difficult terrain, and when a creature ends its turn in the
+      area it takes [[/r 2d8 #acid]] acid damage. The pool remains for 1 minute
+      or until you use a bonus action to dismiss it.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 10 ft. radius pool centered on target or spell's point of origin
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: hyc3bjf8ppsa42ly
+_key: '!items!hyc3bjf8ppsa42ly'

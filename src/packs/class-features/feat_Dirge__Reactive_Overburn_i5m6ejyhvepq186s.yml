@@ -1,0 +1,29 @@
+name: 'Dirge: Reactive Overburn'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You cause a creature, for one round, to be able to take any
+      number of reactions. The creature takes 2 damage when it takes its second
+      reaction, which is doubled when it takes its third, doubled again for its
+      fourth, and so on. When the creature has an opportunity to take a
+      reaction, it is magically forced to, even if doing so would reduce it to 0
+      hit points.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: i5m6ejyhvepq186s
+_key: '!items!i5m6ejyhvepq186s'

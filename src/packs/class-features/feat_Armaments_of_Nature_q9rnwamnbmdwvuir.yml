@@ -1,0 +1,79 @@
+name: Armaments of Nature
+type: feat
+img: icons/magic/nature/root-vine-fire-entangled-hand.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 15th level, you are able to call upon the wilderness to
+      supply you with armor and weaponry. You can use an action and expend one
+      use of&nbsp;
+      @UUID[Compendium.a5e.a5e-class-features.s4iiatrup3e3virw]{Channel
+      Divinity} to cover yourself in bark, rock, soil, and vines for 1 hour.</p>
+
+      <p>For the duration, your Armor Class equals 10 + your proficiency bonus +
+      your Dexterity modifier + your Charisma modifier, and when a creature
+      starts its turn and is grappling you, it takes 2d6 piercing damage.</p>
+
+      <p>In addition, you can use a bonus action to grow a melee weapon into
+      your hands. You are proficient with the weapon and it deals 1d12
+      bludgeoning, piercing, or slashing damage (determined by the
+      weapon&rsquo;s shape). While wielding the weapon, your reach increases by
+      5 feet. The weapon cannot be disarmed, but it can be damaged (AC equal to
+      your herald spell save DC and hit points equal to your herald level).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: q9rnwamnbmdwvuir
+_key: '!items!q9rnwamnbmdwvuir'

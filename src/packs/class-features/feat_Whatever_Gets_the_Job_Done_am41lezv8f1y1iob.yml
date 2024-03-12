@@ -1,0 +1,72 @@
+name: Whatever Gets the Job Done
+type: feat
+img: icons/commodities/tech/tube-chamber-lightning.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you have learned to adapt your tools quickly in an
+      emergency situation. As an action, you can quickly repurpose one of your
+      spell inventions. When you do, select a spell of equal or lower level than
+      the spell invention’s current spell from the artificer list. The next time
+      the spell invention is used, it casts the selected spell, then
+      automatically fizzles. When you repair the spell invention, you may choose
+      whether it returns to casting whatever spell it was originally built to
+      cast or continues to cast the new spell.</p><p>You can use this feature a
+      number of times equal to your proficiency bonus. You regain all uses of
+      this feature when you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Field Engineer
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: am41lezv8f1y1iob
+_key: '!items!am41lezv8f1y1iob'

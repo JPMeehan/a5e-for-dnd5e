@@ -1,0 +1,26 @@
+name: 'Mystery: Expanded Magic'
+type: feat
+img: icons/magic/symbols/rune-sigil-horned-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You can select a
+      cantrip from any spell list. You learn it, it does not count against your
+      number of cantrips known, and it counts as a witch spell for you.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Witch Class
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 3mutdek3vhlymjea
+_key: '!items!3mutdek3vhlymjea'

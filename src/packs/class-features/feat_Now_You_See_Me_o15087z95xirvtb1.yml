@@ -1,0 +1,66 @@
+name: Now You See Me
+type: feat
+img: icons/magic/control/silhouette-hold-change-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 10th level, your capacity for magical chicanery increases
+      still further. When you cast a spell of at least 1st level, you can choose
+      to become invisible until the beginning of your next turn. You may use
+      this ability a number of times equal to your intelligence modifier,
+      regaining all uses upon finishing a long rest.</p>
+    chat: ''
+  source:
+    book: Confidence Mage
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: o15087z95xirvtb1
+_key: '!items!o15087z95xirvtb1'

@@ -1,0 +1,26 @@
+name: 'Trick: Expertise Training'
+type: feat
+img: icons/skills/trades/academics-merchant-scribe.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on checks made with one of the following
+      skills or tools: Acrobatics, Athletics, Investigation, Perception,
+      Stealth, or any tool. You may choose this trick more than once.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 5q44z6dgicdayr54
+_key: '!items!5q44z6dgicdayr54'

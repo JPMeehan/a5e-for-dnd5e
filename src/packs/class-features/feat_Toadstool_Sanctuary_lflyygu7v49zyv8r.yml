@@ -1,0 +1,74 @@
+name: Toadstool Sanctuary
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you gain the power to open a tiny fissure into the
+      Dreaming which serves as a wellspring of revitalizing energy. When you are
+      in a forest, woodlands, or other healthy greenspace, you can dance, sing,
+      or chant for 1 minute to spring forth a circle of mushrooms in the
+      unoccupied space around you. The mushroom circle can have a radius of up
+      to 15 feet (minimum diameter 5 feet). Creatures resting in your toadstool
+      sanctuary for 10 minutes gain the&nbsp; benefits of a short
+      rest.</p><p>Your toadstool sanctuary lasts for 1 week, or until you use
+      this feature again. Once you use this feature, you can’t use it again
+      until you finish a long rest. Creatures who benefit from your toadstool
+      sanctuary cannot do so again for 24 hours.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: lflyygu7v49zyv8r
+_key: '!items!lflyygu7v49zyv8r'

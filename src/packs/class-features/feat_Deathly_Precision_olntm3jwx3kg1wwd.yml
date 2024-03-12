@@ -1,0 +1,29 @@
+folder: null
+name: Deathly Precision
+type: feat
+img: icons/magic/death/weapon-scythe-rune-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, while making an attack with a whip, flail, or
+      scythe, you can use your Wisdom modifier for attack and damage rolls in
+      place of the usual Strength or Dexterity.</p>
+
+      <p>When you hit with one of these attacks, your spells and attacks against
+      the target ignore resistance to necrotic damage for 1 minute.</p>
+    chat: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: olntm3jwx3kg1wwd
+_key: '!items!olntm3jwx3kg1wwd'

@@ -1,0 +1,37 @@
+folder: null
+name: Commanding Assault (Warlord)
+type: feat
+img: icons/skills/targeting/target-glowing-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 15th level you can
+      choose to spend an exertion point to make a Commanding Assault when you
+      take the attack action.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">If you hit with an
+      attack made as part of your attack action you can use your Commanding
+      Presence without giving up an attack.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">If you score a
+      critical hit or reduce an enemy to 0 hit points with your first hit you
+      can instead command 2 targets with Commanding Presence.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You cannot forgo an
+      attack to use Commanding Presence normally in the same round.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Marshal Level 15; Warlord Archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: gj4u72dobjelet5p
+_key: '!items!gj4u72dobjelet5p'

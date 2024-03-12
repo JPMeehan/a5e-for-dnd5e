@@ -1,0 +1,71 @@
+name: Rouse the Troops
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 10th level, you can spend 1 minute speaking words of
+      encouragement and support to reinvigorate your companions. Each friendly
+      creature that can hear or understand you can spend any number of hit dice
+      to regain hit points without having to finish a short rest. In addition,
+      each creature that does spend at least one Hit Die in this way can remove
+      one level of fatigue or strife it is suffering from. Once a creature has
+      removed a level of fatigue or strife from your use of this class feature,
+      the creature must finish a long rest before it can do so again.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: drsdy93qkiuyk7jv
+_key: '!items!drsdy93qkiuyk7jv'

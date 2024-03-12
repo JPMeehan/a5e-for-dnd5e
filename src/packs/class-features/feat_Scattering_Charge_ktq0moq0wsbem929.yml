@@ -1,0 +1,70 @@
+name: Scattering Charge
+type: feat
+img: icons/skills/melee/strike-hammer-destructive-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 14 your charge can send foes flying! If you are raging, as an
+      action you may make a special Scattering Charge attack. To do so, you must
+      have moved at least 10 feet this turn. Make a single melee weapon attack
+      against a creature within reach. If you hit, that creature and all hostile
+      creatures in squares adjacent to it are pushed 10 feet away from you and
+      take an additional 1d8 bludgeoning damage. </p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ktq0moq0wsbem929
+_key: '!items!ktq0moq0wsbem929'

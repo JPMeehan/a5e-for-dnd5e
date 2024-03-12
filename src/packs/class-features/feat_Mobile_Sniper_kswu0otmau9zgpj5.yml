@@ -1,0 +1,67 @@
+name: Mobile Sniper
+type: feat
+img: icons/skills/movement/ball-spinning-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at level 15, you have distilled the old sniper’s wisdom of “shoot,
+      then relocate” into a specialized magical technique. As an action, you may
+      make a single ranged weapon attack and cast a spell of the Movement
+      school, provided you have one available and sufficient spell slots to cast
+      it.</p>
+    chat: ''
+  source:
+    book: Arcane Sniper
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: kswu0otmau9zgpj5
+_key: '!items!kswu0otmau9zgpj5'

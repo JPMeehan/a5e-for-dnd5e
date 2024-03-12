@@ -1,0 +1,29 @@
+name: Bonus Expertise (Investigator)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you choose this archetype at 3rd level, you gain proficiency with
+      Investigation, Insight, and Perception, and you gain an expertise die on
+      checks made using any of these skills. For you, expertise dice in these
+      skills can be upgraded from d8 to d10, exceeding the usual limit on
+      expertise dice. You can use all three of these skills with your Cunning
+      Action when they’d normally take an action.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 5f0imvlh81ve5kpn
+_key: '!items!5f0imvlh81ve5kpn'

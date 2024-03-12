@@ -1,0 +1,71 @@
+name: Divine Smite
+type: feat
+img: icons/skills/melee/strike-sword-steel-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 2nd level, whenever you hit a creature with a weapon attack
+      you can choose to deliver a divine smite that deals an additional 1d8
+      radiant damage. The amount of extra damage increases as you gain levels in
+      this class, as shown in the Smite Damage column of the Herald
+      table.</p><p>You can use this feature a number of times equal to your
+      proficiency bonus, and regain spent uses upon finishing a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: c6aiq8cd90fo3ry1
+_key: '!items!c6aiq8cd90fo3ry1'

@@ -1,0 +1,68 @@
+name: Soul Shepherd
+type: feat
+img: icons/magic/death/undead-ghosts-trio-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 14th level, you can automatically sense the presence of trapped
+      or imprisoned souls, such as those contained in a magic jar, a weapon that
+      steals the souls of those it slays, or other similar receptacles. As an
+      action, you may choose to release any such souls within 30 feet to their
+      final judgment. The effect this has on the soul’s former container is left
+      to the Narrator’s discretion.</p>
+    chat: ''
+  source:
+    book: Mortalist
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: xn0ks8e9yg96y7ox
+_key: '!items!xn0ks8e9yg96y7ox'

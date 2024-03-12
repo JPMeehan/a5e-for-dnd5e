@@ -1,0 +1,28 @@
+name: 'Defense: Rugged Defense'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>While you are not wearing any armor, your armor class equals 10 + your
+      Dexterity modifier + your Constitution modifier. You can use a shield and
+      still gain this benefit.</p><p>In addition, your speed increases by 5 feet
+      while you aren’t wearing heavy armor. At 5th level, your speed increases
+      by an additional 5 feet.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: j2n9an7ozhbs1hlp
+_key: '!items!j2n9an7ozhbs1hlp'

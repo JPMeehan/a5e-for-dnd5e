@@ -1,0 +1,70 @@
+name: Better Than Cure (Healer)
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 2nd level, you may interject to prevent harm to your
+      allies. When an ally within 30 feet of you is hit with an attack that
+      deals nonmagical bludgeoning, piercing, or slashing damage, you may use
+      your reaction to halve the damage. At 8th level, you may negate all of the
+      attack’s damage.</p><p>Once you have used this feature a number of times
+      equal to your proficiency bonus, you can’t do so again until you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When an ally is dealt nonmagical physical damage
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: Ally within 30 ft.
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: eajd6uqgfemjpso5
+_key: '!items!eajd6uqgfemjpso5'

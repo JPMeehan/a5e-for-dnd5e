@@ -1,0 +1,68 @@
+folder: null
+name: Deadly Blades
+type: feat
+img: icons/magic/unholy/hand-claw-fire-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 9th level, you specialize in dealing killing blows when you
+      catch your enemy unaware or on the back foot. You deal an additional 2d6
+      Sneak Attack damage when you hit a creature with a melee weapon and
+      have&nbsp;<span class="freelinking-link">advantage</span>&nbsp;on
+      the&nbsp;<span class="freelinking-link">attack roll.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 35hymtqkzeeteqw3
+_key: '!items!35hymtqkzeeteqw3'

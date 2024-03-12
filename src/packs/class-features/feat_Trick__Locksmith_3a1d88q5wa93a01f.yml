@@ -1,0 +1,31 @@
+name: 'Trick: Locksmith'
+type: feat
+img: icons/tools/hand/lockpicks-steel-grey.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on checks made with thieves’ tools. You may
+      spend a minute using thieves’ tools to improve an unlocked lock. At the
+      end of the minute, make a Dexterity (thieves’ tools) check against the
+      lock’s DC. On a success, you permanently increase the lock’s DC by 10. A
+      lock may only be improved in this way once. </p><p>Additionally, you may
+      spend a minute using thieves’ tools to probe an unlocked lock. At the end
+      of the minute, make a thieves’ tools check against the lock’s DC. On a
+      success, you make a key for the lock.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 3a1d88q5wa93a01f
+_key: '!items!3a1d88q5wa93a01f'

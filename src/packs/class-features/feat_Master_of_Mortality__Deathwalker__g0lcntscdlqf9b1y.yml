@@ -1,0 +1,74 @@
+folder: null
+name: Master of Mortality (Deathwalker)
+type: feat
+img: icons/magic/death/skull-flames-white-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 14th level
+      whenever you finish a short rest, you gain the benefits of
+      a&nbsp;<em>death ward</em>&nbsp;spell automatically.<span
+      style="mso-spacerun: yes;">&nbsp; </span>You also have advantage on death
+      saving throws.</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">Anytime you deal
+      necrotic damage to a creature they must make a constitution saving throw
+      against your warlock spell save DC or have their hit point maximum reduced
+      by the same amount.<span style="mso-spacerun: yes;">&nbsp; </span>A
+      creature dies if its hit point maximum is reduced to 0, and such a
+      creature may not be returned to life by anything short of a wish
+      spell.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Warlock Level 14; Deathwalker Archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: g0lcntscdlqf9b1y
+_key: '!items!g0lcntscdlqf9b1y'

@@ -1,0 +1,52 @@
+folder: null
+name: Armored Wizard
+type: feat
+img: icons/magic/defensive/armor-shield-barrier-steel.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>Additionally at level 2, you gain proficiency in light and medium
+      armor.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/defensive/armor-shield-barrier-steel.webp
+    origin: Item.4j28krzzit2rj83q
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Armor Proficiency
+    _id: yZal4xmkd9c3OGxZ
+    changes:
+      - key: system.proficiencies.armor
+        mode: 2
+        value: '["light", "medium"]'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!4j28krzzit2rj83q.yZal4xmkd9c3OGxZ'
+flags: {}
+_id: 4j28krzzit2rj83q
+_key: '!items!4j28krzzit2rj83q'

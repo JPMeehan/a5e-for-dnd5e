@@ -1,0 +1,77 @@
+name: Undead Army
+type: feat
+img: icons/magic/unholy/hands-circle-light-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Beginning at 10th level, you gain the following benefits:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You add Animate Dead to your spellbook if
+      you don&rsquo;t already have it. It is always considered to be prepared,
+      and does not count against your limit of prepared spells.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Once per long rest you can use Animate
+      Dead to target 5 or more piles of bones or corpses of a size no larger
+      than medium.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">When casting Animate Dead, instead of
+      creating multiple skeletons or zombies, you may instead create a Skeleton
+      Horde or Zombie Horde, provided you are targeting at least 5 corpses or
+      piles of bones.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You need only expend one use of Animate
+      Dead to maintain control over a Skeleton Horde or Zombie Horde.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Whenever you use a bonus action to
+      command an undead under your control, if that creature was created through
+      the spell Animate Dead, you may choose to issue a command to each undead
+      animated through the spell, and each of them may be issued with a
+      different task.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Any Hordes you control share the same
+      initiative.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: u1mps1vix2dzsbc1
+_key: '!items!u1mps1vix2dzsbc1'

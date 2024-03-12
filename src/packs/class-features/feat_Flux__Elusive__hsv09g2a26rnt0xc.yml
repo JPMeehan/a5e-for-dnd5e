@@ -1,0 +1,71 @@
+name: Flux (Elusive)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, you gain the ability to bend your magic in flexible,
+      constantly-changing ways. When you finish a short or long rest, you can
+      choose a benefit from the following list. You can expend your Flux to use
+      that benefit.</p><p>When you cast a spell of 1st-level or higher, you can
+      change your benefit to a different one, recharging your Flux. Otherwise
+      your Flux recharges when you finish a short or long
+      rest.</p><p><strong><em>Elusive</em></strong>. You can use a bonus action
+      to teleport 15 feet to a space you can see.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: hsv09g2a26rnt0xc
+_key: '!items!hsv09g2a26rnt0xc'

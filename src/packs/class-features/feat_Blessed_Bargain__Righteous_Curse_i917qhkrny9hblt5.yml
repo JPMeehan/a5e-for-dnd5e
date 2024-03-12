@@ -1,0 +1,91 @@
+name: 'Blessed Bargain: Righteous Curse'
+type: feat
+img: icons/magic/unholy/hand-light-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use a bonus action to place a curse on a creature you can see
+      within 30 feet. The curse lasts for 1 minute, and ends early if the target
+      dies, you die, or you become incapacitated.</p>
+
+      <p>The curse has the following effects:</p>
+
+      <ul>
+
+      <li>When you deal damage against the cursed creature, it takes an
+      additional 1d4 radiant damage. This bonus increases by 1d4 at 10th level,
+      and again at 15th and 20th level.</li>
+
+      <li>Whenever the cursed creature attacks you or targets only you with a
+      spell, your suffering is rewarded and you regain 1d6 hit points.</li>
+
+      </ul>
+
+      <p>Once you have used this feature, you can&rsquo;t use it again until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 1 Empyreal Sage archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - radiant
+      - - 1d4
+        - radiant
+      - - 1d4
+        - radiant
+      - - 1d4
+        - radiant
+      - - 1d6
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: i917qhkrny9hblt5
+_key: '!items!i917qhkrny9hblt5'

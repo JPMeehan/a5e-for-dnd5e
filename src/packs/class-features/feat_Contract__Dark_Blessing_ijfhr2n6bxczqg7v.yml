@@ -1,0 +1,27 @@
+name: 'Contract: Dark Blessing'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you reduce a creature to 0 hit points, or when a creature under a
+      spell effect you control is reduced to 0 hit points, you gain a number of
+      temporary hit points equal to your spellcasting ability modifier + your
+      warlock level minimum 1).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ijfhr2n6bxczqg7v
+_key: '!items!ijfhr2n6bxczqg7v'

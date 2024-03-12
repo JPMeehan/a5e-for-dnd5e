@@ -1,0 +1,30 @@
+name: Flushing Wrath
+type: feat
+img: icons/skills/melee/strike-hammer-destructive-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you or a friendly creature in the range of your Commanding
+      Presence ability takes the Attack action for the first time against a
+      creature each turn, the target must make a Wisdom saving throw against a
+      DC of 8 + your Charisma modifier + your proficiency bonus. If it fails, it
+      must use its reaction to move at least half its movement speed away from
+      its current position. This movement is considered a use of the Disengage
+      action and as such does not normally provoke attacks of opportunity.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: lrzhemyd6h7x8hzm
+_key: '!items!lrzhemyd6h7x8hzm'

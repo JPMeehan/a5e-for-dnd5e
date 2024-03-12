@@ -1,0 +1,38 @@
+folder: null
+name: Touch of Death
+type: feat
+img: icons/magic/death/hand-undead-skeleton-fire-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="preFade fadeIn">When you choose this archetype at level 2, your
+      unarmed damage becomes necrotic damage, and you may use your Intelligence
+      bonus instead of your Strength bonus when calculating your unarmed
+      damage.</p>
+
+      <p class="preFade fadeIn">Additionally, you learn how to use the very life
+      force of your victims. Whenever you deal necrotic damage to a living
+      target with a CR of &frac14; or higher, you gain half the damage dealt as
+      temporary hit points. You can never have more of these temporary hit
+      points than twice your proficiency bonus, and you may not benefit from
+      temporary hit points from more than one creature at a time.</p>
+
+      <p class="preFade fadeIn">Finally, all spells of the necromancy school
+      become wizard spells for you (see the full list at the end of this
+      archetype description).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: khrk7ou2yaoel025
+_key: '!items!khrk7ou2yaoel025'

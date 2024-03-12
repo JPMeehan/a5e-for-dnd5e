@@ -1,0 +1,65 @@
+name: Divine Fury
+type: feat
+img: icons/magic/holy/yin-yang-balance-symbol.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose radiant or necrotic damage. At 1st level whenever you enter a
+      rage, you may spend a point of exertion as well. If you do so, you deal an
+      additional 1d4 points of the chosen damage type with all weapon attacks
+      for the duration of your rage.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: rfnksv0vykoi2oip
+_key: '!items!rfnksv0vykoi2oip'

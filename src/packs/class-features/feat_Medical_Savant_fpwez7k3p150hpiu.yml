@@ -1,0 +1,34 @@
+name: Medical Savant
+type: feat
+img: icons/magic/life/heart-cross-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level you gain proficiency with the Medicine skill. If you are
+      already proficient with it, you instead gain proficiency with another
+      skill from the scholar list. In addition, you gain an expertise die on all
+      Medicine checks. At level 7 this increases to a d6, at level 10 it
+      increases to a d8 and your maximum size for expertise die on Medicine
+      increases to d10, and at level 14 increases to a d10 and your maximum size
+      for expertise die on Medicine increases to d12. You may always choose to
+      use Intelligence on Medicine checks.</p>
+
+      <p>You also add @UUID[Compendium.a5e.a5e-feats.3v3eg8ki8mwvkoc6]{Surgical
+      Combatant} to the list of bonus feats you may choose.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: fpwez7k3p150hpiu
+_key: '!items!fpwez7k3p150hpiu'

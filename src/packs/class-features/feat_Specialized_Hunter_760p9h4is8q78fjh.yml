@@ -1,0 +1,27 @@
+name: Specialized Hunter
+type: feat
+img: icons/skills/ranged/arrows-flying-triple-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can gain two Studied Adversaries at the end of your long rest
+      instead of one. When you finish a short rest you may swap one for another.
+      Once you have done so you cannot do so again until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 3 Hunter Ranger archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 760p9h4is8q78fjh
+_key: '!items!760p9h4is8q78fjh'

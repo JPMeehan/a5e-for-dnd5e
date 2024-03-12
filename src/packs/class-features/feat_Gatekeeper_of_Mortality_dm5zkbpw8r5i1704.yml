@@ -1,0 +1,75 @@
+name: Gatekeeper of Mortality
+type: feat
+img: icons/magic/death/skeleton-skull-soul-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you gain the fearsome power and responsibility to
+      shepherd souls into the afterlife. Your weapons and damaging spells deal
+      an additional 2d6 points of radiant damage to undead creatures, and you
+      automatically sense if a creature you can see is undead. At the Narrator’s
+      option, this bonus damage can also apply to creatures that have cheated
+      death in some other way. You may also choose to deal radiant damage with
+      your Eldritch Blast instead of the usual force damage.</p><p>You can also
+      help the unquiet dead who wish to depart. You have advantage on all checks
+      to discern how to lay such a creature to rest and to perform tasks
+      necessary to do so. In addition, if a creature is unable to move on due to
+      something that is now impossible to fulfil, you may cut the red tape of
+      fate and send it to its eternal reward as an action. Once you have used
+      this final option, you cannot do so again for a year.</p>
+    chat: ''
+  source:
+    book: Mortalist
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: dm5zkbpw8r5i1704
+_key: '!items!dm5zkbpw8r5i1704'

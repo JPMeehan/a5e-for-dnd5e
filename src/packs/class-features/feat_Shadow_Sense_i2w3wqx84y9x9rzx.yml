@@ -1,0 +1,70 @@
+folder: null
+name: Shadow Sense
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <ul>
+
+      <li>
+
+      <p>Starting at 10th level, you are at home in pitch darkness and fight
+      even more effectively without light.</p>
+
+      <ul>
+
+      <li>You gain blindsight with a radius of 10 feet.</li>
+
+      <li>You gain an&nbsp;<span class="freelinking-link">expertise
+      die</span>&nbsp;to&nbsp;<span class="freelinking-link">attack rolls</span>
+      while in darkness.</li>
+
+      </ul>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/earth/barrier-stone-explosion-spiked.webp
+    origin: Item.i2w3wqx84y9x9rzx
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Blindsight
+    _id: y326lb2BZRAp4fMC
+    changes:
+      - key: system.attributes.senses.blindsight.distance
+        value: '10'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!i2w3wqx84y9x9rzx.y326lb2BZRAp4fMC'
+flags: {}
+_id: i2w3wqx84y9x9rzx
+_key: '!items!i2w3wqx84y9x9rzx'

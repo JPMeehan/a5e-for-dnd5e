@@ -1,0 +1,30 @@
+name: Thundering Steps
+type: feat
+img: icons/magic/lightning/bolt-strike-sparks-teal.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 10, your movement alone shakes the earth. While you are
+      raging, whenever you move, you deal 1d6 thunder damage to all creatures
+      that are on the ground and occupying or adjacent to squares you move
+      through. You (and your mount, if applicable) are unaffected by this
+      damage, as are other creatures with this archetype and their mounts. A
+      target can only be affected by this damage once from any given creature in
+      a round.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: s1d7wjoydkevprqc
+_key: '!items!s1d7wjoydkevprqc'

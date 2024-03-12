@@ -1,0 +1,89 @@
+name: Alchemical Grenade (Arcane Payload)
+type: weapon
+img: icons/weapons/thrown/grenade-round.webp
+system:
+  description:
+    value: >-
+      <p>This armed alchemical grenade explodes when it hits a target or at the
+      end of your turn.</p><p>Whenever you hit a target with an alchemical
+      grenade, each creature within 5 feet of the target makes a Dexterity
+      saving throw or takes half as much damage as taken by the target (the
+      target is immune to this effect). Whenever you miss with an armed
+      alchemical grenade it explodes in a harmless location at the end of your
+      turn.</p><h3><strong>Arcane Payload</strong></h3><p>A target hit by this
+      grenade takes additional force damage and makes an Intelligence saving
+      throw or is rattled until the end of its next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  type:
+    value: ''
+    baseItem: ''
+  properties: []
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 20 ft.
+    long: '60'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - (floor((@details.level+1)/6)+1)d6
+        - force
+      - - (floor((@details.level+1)/6)+1)d12
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: i1xkvegj33eayc17
+_key: '!items!i1xkvegj33eayc17'

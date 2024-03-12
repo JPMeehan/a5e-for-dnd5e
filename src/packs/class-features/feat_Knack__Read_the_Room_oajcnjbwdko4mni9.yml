@@ -1,0 +1,71 @@
+name: 'Knack: Read the Room'
+type: feat
+img: icons/creatures/eyes/human-single-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>By spending 10 minutes observing facial expressions, body language, and
+      vocal intonation, you can detect minute details which give you insight
+      into the creatures within 30 feet of you. For the next minute, you can
+      direct your focus on any one creature that you can see within 30 feet. If
+      the creature you choose has an Intelligence of 3 or lower or doesn’t speak
+      any language, the creature is unaffected.</p><p>You learn the surface
+      thoughts of the creature—what is most on its mind in that moment. As an
+      action, you can shift your attention to another creature’s thoughts.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: oajcnjbwdko4mni9
+_key: '!items!oajcnjbwdko4mni9'

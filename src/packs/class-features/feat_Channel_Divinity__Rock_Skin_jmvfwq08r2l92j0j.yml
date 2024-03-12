@@ -1,0 +1,69 @@
+folder: null
+name: 'Channel Divinity: Rock Skin'
+type: feat
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use an action to cover yourself in a magical layer of gray
+      stone plates. You gain temporary hit points equal to your herald level +
+      your Charisma modifier (minimum of 1). The temporary hit points last up to
+      1 hour. While the temporary hit points remain, critical hits against you
+      are treated as normal hits.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1 + @mod
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: jmvfwq08r2l92j0j
+_key: '!items!jmvfwq08r2l92j0j'

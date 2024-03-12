@@ -1,0 +1,73 @@
+name: 'Clever Scheme: Reinforce Apotropaics'
+type: feat
+img: icons/consumables/plants/holly-pointy-leaf-green.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>Apotropaics&nbsp;are specific items that can repel or harm certain
+      creatures, like bells driving away fiends. You can spend an action to
+      reinforce an apotropaic you are touching for one day.</p><p>If you
+      brandish a reinforced apotropaic to repel a creature, add an expertise die
+      to your opposed Charisma check. If a creature tries to bypass the
+      repellent effect of a reinforced apotropaic barrier (like an undead
+      crossing a line of salt), add an expertise die to the flat DC the creature
+      must overcome. If a reinforced item is used to harm a creature (like jade
+      dust against an aberration), you can also make an opposed Charisma check
+      to repel that creature without needing to spend a separate action (and you
+      add an expertise die to your check).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: jzy9kufuxrdwj0ui
+_key: '!items!jzy9kufuxrdwj0ui'

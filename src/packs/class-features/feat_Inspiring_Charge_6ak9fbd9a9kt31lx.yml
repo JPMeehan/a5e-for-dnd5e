@@ -1,0 +1,69 @@
+name: Inspiring Charge
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, you embrace the role of the knightly vanguard and learn
+      to lead others into the fray. You can use an action and spend 1 exertion
+      point to perform an Inspiring Charge. Move up to your Speed (or your
+      mount’s Speed) in a straight line and make a melee weapon attack. You gain
+      an expertise die on this attack. Until the end of your next turn, attacks
+      made by you or allies within 10 feet gain an expertise die.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 6ak9fbd9a9kt31lx
+_key: '!items!6ak9fbd9a9kt31lx'

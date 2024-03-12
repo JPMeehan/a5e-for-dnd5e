@@ -1,0 +1,64 @@
+name: Healing Reserves
+type: feat
+img: icons/magic/life/heart-hand-gold-green-light.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you may spend exertion points as part of a short
+      rest to roll additional hit dice for healing. You roll one additional hit
+      die per point of exertion spent, and may only spend a number of exertion
+      points in this way equal to half your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 0l53930nyybh7try
+_key: '!items!0l53930nyybh7try'

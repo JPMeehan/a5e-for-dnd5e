@@ -1,0 +1,69 @@
+name: Movement of the Spheres
+type: feat
+img: icons/magic/light/projectiles-trio-pink.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level you add the
+      @UUID[Compendium.a5e-for-dnd5e.spells.qsa7b22n3y1pbzf6]{Augury} and
+      @UUID[Compendium.a5e.a5e-spells.bs3wnsid88tbup6c]{Divination} spells to
+      your druid spell list. When casting either of these spells, you may ignore
+      an accumulated failure chance as long as you can see the night sky. You
+      may do so a number of times equal to half your proficiency bonus per spell
+      and regain all expended uses when you finish a long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: imswc5s6vln2vb78
+_key: '!items!imswc5s6vln2vb78'

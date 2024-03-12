@@ -1,0 +1,77 @@
+name: Teamwork
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, you and your allies can work together in combat
+      beyond what each of you can individually achieve. You add the Sanguine
+      Knot tradition to the list of martial traditions you can choose combat
+      maneuvers from. In addition, choose one of the following options.
+      </p><h3><strong>Helper</strong></h3><p>By creating a brief diversion or
+      signalling an enemy’s vulnerability, your allies can strike true. You can
+      use a bonus action and choose an ally within 30 feet who can see or hear
+      you, granting advantage on the next ability check or attack roll they make
+      before the start of your next turn.</p><h3><strong>Hinderer
+      </strong></h3><p>By distracting an enemy, you can reduce its ability to
+      harm you and your allies. You can use a bonus action and choose a creature
+      within 30 feet who can see or hear you, giving it disadvantage on the next
+      ability check or attack roll it makes before the start of your next
+      turn.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: eohfhcsnqd7e2roi
+_key: '!items!eohfhcsnqd7e2roi'

@@ -1,0 +1,26 @@
+name: Wizard Archetype
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, you choose a tradition of magic that you have dedicated
+      your studies to. Your choice grants you features at 2nd level and again at
+      6th, 10th, and 14th level.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 1wrvcwcb1cf8hhjy
+_key: '!items!1wrvcwcb1cf8hhjy'

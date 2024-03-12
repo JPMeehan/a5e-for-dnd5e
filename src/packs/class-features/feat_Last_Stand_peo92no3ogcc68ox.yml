@@ -1,0 +1,71 @@
+name: Last Stand
+type: feat
+img: icons/skills/wounds/injury-face-impact-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As a bonus action, you can declare a last stand, which lasts for 10
+      minutes. While your Last Stand is active, for each allied creature within
+      the range of your Commanding Presence ability that is at 0 hp, you and any
+      friendly creatures within the same area gain a +1 bonus to damage with
+      weapon attacks. These bonuses stack, but the maximum bonus you can receive
+      is equal to your proficiency bonus. If one of the creatures is revived,
+      the bonus to damage decreases, but you and allied creatures in the area
+      gain temporary hp equal to your proficiency bonus. Once you have used this
+      ability, you can’t use it again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: peo92no3ogcc68ox
+_key: '!items!peo92no3ogcc68ox'

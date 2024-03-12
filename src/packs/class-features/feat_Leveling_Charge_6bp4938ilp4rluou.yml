@@ -1,0 +1,29 @@
+name: Leveling Charge
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, if you make a successful attack after moving at
+      least 20 feet you can attempt to knock that creature to the ground. The
+      target must make a Strength saving throw against your Furious Critical DC
+      or fall prone.</p><p>At 10th level, you can use a bonus action to attempt
+      to knock down a creature that is within your reach that you pass during
+      your Leveling Charge.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 6bp4938ilp4rluou
+_key: '!items!6bp4938ilp4rluou'

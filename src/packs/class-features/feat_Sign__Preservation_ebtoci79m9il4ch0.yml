@@ -1,0 +1,27 @@
+name: 'Sign: Preservation'
+type: feat
+img: icons/creatures/invertebrates/scorpion-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your connection to a greater entity allows you to sense poison or
+      disease in food, drink, or other consumables. You must have had direct
+      contact with them or their container in order to sense this
+      corruption.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ebtoci79m9il4ch0
+_key: '!items!ebtoci79m9il4ch0'

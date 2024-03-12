@@ -1,0 +1,27 @@
+folder: null
+name: Martial Style (Warlord)
+type: feat
+img: icons/skills/melee/hand-grip-staff-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 11th level you
+      gain a fighting style from the fighter class.<span style="mso-spacerun:
+      yes;">&nbsp; </span>This style must be chosen from Archery, Dueling, Great
+      Weapon Fighting, Two Weapon Fighting, or Technical Fighting.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Marshal Level 11; Warlord Archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: exb1bki45kfcr4x8
+_key: '!items!exb1bki45kfcr4x8'

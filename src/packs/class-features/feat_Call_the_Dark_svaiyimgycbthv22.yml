@@ -1,0 +1,97 @@
+folder: null
+name: Call the Dark
+type: feat
+img: icons/magic/unholy/beam-ringed-impact-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level, you can summon darkness at will. You can use a bonus
+      action to cast the&nbsp;<em><span
+      class="freelinking-link">darkness</span>&nbsp;</em>spell without
+      components. You can use this feature a number of times equal to your
+      proficiency bonus, regaining all uses when you finish a&nbsp;<span
+      class="freelinking-link">long rest</span>.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties:
+    - concentration
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '15'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/beam-ringed-impact-purple.webp
+    origin: Item.svaiyimgycbthv22
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Wisdom STP
+    _id: DvGJxE9ywYF4WQC6
+    changes:
+      - key: system.abilities.wis.save.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!svaiyimgycbthv22.DvGJxE9ywYF4WQC6'
+flags: {}
+_id: svaiyimgycbthv22
+_key: '!items!svaiyimgycbthv22'

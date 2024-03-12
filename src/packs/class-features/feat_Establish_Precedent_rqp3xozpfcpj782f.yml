@@ -1,0 +1,35 @@
+name: Establish Precedent
+type: feat
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, whenever a die roll other than a d20 is used to produce
+      some effect you are aware of within 30 feet of you, you may use your
+      reaction to set it as a precedent. For the next minute, all future
+      instances of the same thing have the exact same result. For example, if
+      one of your companions rolled well on a weapon damage or the numerical
+      effects of a spell, you can Establish Precedent on that weapon or spell,
+      or if you got a roll you like on an expertise die, you can lock in that
+      expertise die result (but only for the check you received the initial
+      expertise on). You can also Establish Precedent on a hostile creature’s
+      spell damage, etc. The Narrator is the final arbiter in edge
+      cases.</p><p>Once you have used this feature, you can’t do so again until
+      you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+img: icons/sundries/scrolls/scroll-bound-diamond-brown.webp
+effects: []
+flags: {}
+folder: null
+_id: rqp3xozpfcpj782f
+_key: '!items!rqp3xozpfcpj782f'

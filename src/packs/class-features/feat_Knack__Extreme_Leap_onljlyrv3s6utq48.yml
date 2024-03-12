@@ -1,0 +1,27 @@
+name: 'Knack: Extreme Leap'
+type: feat
+img: icons/skills/movement/feet-winged-boots-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take the Dash action and make a long jump after moving no less
+      than 20 feet, your jump distance is doubled for the turn. You may spend 1
+      exertion to triple your jump distance for the turn instead, and may move
+      the full distance of your jump even if it exceeds your Speed.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: onljlyrv3s6utq48
+_key: '!items!onljlyrv3s6utq48'

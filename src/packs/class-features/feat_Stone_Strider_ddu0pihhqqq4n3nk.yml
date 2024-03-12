@@ -1,0 +1,57 @@
+folder: null
+name: Stone Strider
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level, you ignore difficult terrain caused by stone or
+      earth. Additionally, standing up from&nbsp;<span
+      class="freelinking-link">prone</span>&nbsp;costs you no movement when
+      you&rsquo;re on unworked ground.</p>
+
+      <p>You can speak, read, write, and sign the Terran dialect of
+      Primordial.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/earth/barrier-stone-explosion-red.webp
+    origin: Item.ddu0pihhqqq4n3nk
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Terran
+    _id: 4iKUue4uQpeizbAl
+    changes:
+      - key: system.proficiencies.languages
+        value: '["terran"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ddu0pihhqqq4n3nk.4iKUue4uQpeizbAl'
+flags: {}
+_id: ddu0pihhqqq4n3nk
+_key: '!items!ddu0pihhqqq4n3nk'

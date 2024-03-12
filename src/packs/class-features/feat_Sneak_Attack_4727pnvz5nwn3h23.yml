@@ -1,0 +1,72 @@
+name: Sneak Attack
+type: feat
+img: icons/skills/melee/strike-dagger-arcane-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 1st level, you fight with precision, taking advantage of
+      momentary lapses in an opponent’s concentration. Once per turn, you can
+      deal extra weapon damage when you hit a creature with a finesse weapon or
+      ranged weapon attack. The amount of extra damage is shown in the Sneak
+      Attack column of the Rogue table. </p><p>In order to apply this damage,
+      you must not have disadvantage on the attack and your target must be
+      within 5 feet of another enemy of the target who is not incapacitated.
+      Alternatively, you can apply sneak attack damage if you have advantage on
+      the attack.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 4727pnvz5nwn3h23
+_key: '!items!4727pnvz5nwn3h23'

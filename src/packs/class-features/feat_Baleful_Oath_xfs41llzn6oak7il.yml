@@ -1,0 +1,74 @@
+name: Baleful Oath
+type: feat
+img: icons/magic/perception/eye-slit-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have studied the history of ancient curses and oaths, and in doing
+      so learned to turn this knowledge on others. You may spend a hit die to
+      replicate the
+      @UUID[Compendium.a5e-for-dnd5e.spells.339zx6f5jk81fobw]{Bestow Curse}
+      spell. Starting at level 9 you may plumb even darker depth of knowledge to
+      instead replicate it as if it were cast at 5th level, 7th level at level
+      13, and lasting indefinitely without concentration until removed at level
+      17, though such knowledge takes a toll on those who study it, and using
+      the improved version of this curse grants you a level of strife. Only one
+      creature may be cursed by you at a time, and if you curse another the
+      curse on the previous creature immediately ends.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: 5th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: xfs41llzn6oak7il
+_key: '!items!xfs41llzn6oak7il'

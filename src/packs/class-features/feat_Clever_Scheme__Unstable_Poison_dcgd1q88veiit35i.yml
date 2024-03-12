@@ -1,0 +1,68 @@
+name: 'Clever Scheme: Unstable Poison'
+type: feat
+img: icons/consumables/potions/potion-labeled-poison-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on checks made with the poisoner’s kit. You
+      learn the recipe for creating basic poison . During a short or long rest ,
+      you can brew one poison for which you have the recipe without spending
+      gold or using ingredients. This version of the poison lasts until your
+      next short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: dcgd1q88veiit35i
+_key: '!items!dcgd1q88veiit35i'

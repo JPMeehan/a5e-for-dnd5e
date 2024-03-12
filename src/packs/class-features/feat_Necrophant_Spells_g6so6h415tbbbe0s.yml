@@ -1,0 +1,70 @@
+folder: null
+name: Necrophant Spells
+type: feat
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: |-
+      <div dir="ltr" align="left">
+      <table><colgroup><col width="49"><col width="235"></colgroup>
+      <tbody>
+      <tr>
+      <td>
+      <p dir="ltr">1</p>
+      </td>
+      <td>
+      <p dir="ltr">Bane, Inflict Wounds</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p dir="ltr">3</p>
+      </td>
+      <td>
+      <p dir="ltr">Darkness, Ray of Enfeeblement</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p dir="ltr">5</p>
+      </td>
+      <td>
+      <p dir="ltr">Animate Dead, Speak With Dead</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p dir="ltr">7</p>
+      </td>
+      <td>
+      <p dir="ltr">Black Tentacles, Blight</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p dir="ltr">9</p>
+      </td>
+      <td>
+      <p dir="ltr">Antilife Shell, Dominate Person</p>
+      </td>
+      </tr>
+      </tbody>
+      </table>
+      </div>
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: g6so6h415tbbbe0s
+_key: '!items!g6so6h415tbbbe0s'

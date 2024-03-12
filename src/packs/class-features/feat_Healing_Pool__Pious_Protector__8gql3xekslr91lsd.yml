@@ -1,0 +1,30 @@
+name: Healing Pool (Pious Protector)
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, you have learned to store up a stock of restorative
+      energy that you can use to aid those who need your care. You have a
+      healing pool equal to 3 x your pious protector level. When you restore hit
+      points to a creature with a spell, class feature, or feat, you can draw
+      upon this pool and cause the creature to heal an additional number of hit
+      points of your choice.</p><p>This pool is restored at the end of a long
+      rest.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 8gql3xekslr91lsd
+_key: '!items!8gql3xekslr91lsd'

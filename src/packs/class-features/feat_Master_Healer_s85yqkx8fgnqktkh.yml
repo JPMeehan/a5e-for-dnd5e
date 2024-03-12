@@ -1,0 +1,65 @@
+name: Master Healer
+type: feat
+img: icons/magic/life/heart-cross-strong-flame-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level when spending 10 minutes to do more intensive treatment
+      with Doctor&rsquo;s Hands, you may also expend a hit die to automatically
+      roll max on the doctor dice. Doing so is taxing and grants a level of
+      fatigue to the scholar, and a single creature cannot benefit from this
+      intensive care more than once per long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: s85yqkx8fgnqktkh
+_key: '!items!s85yqkx8fgnqktkh'

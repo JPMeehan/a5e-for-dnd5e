@@ -1,0 +1,72 @@
+name: 'Mobility: Fairy Dust'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your patron grants you a bag of fairy dust, which contains a number of
+      uses equal to your proficiency bonus. You can use a bonus action to
+      sprinkle this fairy dust on yourself or a creature within 15 feet. A
+      creature benefiting from your fairy dust gains a fly speed of 30 feet
+      (with the ability to hover) for 10 minutes.</p><p>A creature other than
+      you attempting to use the fairy dust must succeed on an Arcana check equal
+      to your spell save DC or it has no effect. When you finish a long rest,
+      your previous bag of fairy dust disappears and you receive a new bag of
+      fairy dust.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 1gzbf4r77xlnup0d
+_key: '!items!1gzbf4r77xlnup0d'

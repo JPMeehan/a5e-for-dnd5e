@@ -1,0 +1,28 @@
+name: 'Clever Scheme: Run Silent Run Deep'
+type: feat
+img: icons/skills/social/wave-halt-stop.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Once per hour, when you succeed on a Stealth check you can discreetly
+      direct your allies. For the next minute, each ally who attempts a check to
+      traverse the same area gains an expertise die .</p><p>When moving through
+      an area you’re familiar with or have had time to study maps of, you gain
+      an expertise die on Stealth checks.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: p5j9f1efpysfnldk
+_key: '!items!p5j9f1efpysfnldk'

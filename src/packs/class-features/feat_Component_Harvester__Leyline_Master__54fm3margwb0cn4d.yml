@@ -1,0 +1,27 @@
+name: Component Harvester (Leyline Master)
+type: feat
+img: icons/consumables/fruit/berry-bunch-red-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 2nd level, whenever you engage in the Gather Components
+      journey activity you gain an expertise die on your check. In addition, you
+      cannot critically fail the Gather Components activity, treating critical
+      failures as normal failures instead.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 54fm3margwb0cn4d
+_key: '!items!54fm3margwb0cn4d'

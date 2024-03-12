@@ -1,0 +1,69 @@
+name: 'Knack: Healing Salves'
+type: feat
+img: icons/commodities/materials/bowl-liquid-white.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Once between long rests you can spend an hour to collect natural
+      ingredients and concoct an ointment that speeds healing. This salve is
+      potent for 24 hours and has a number of uses equal to 1 + your Wisdom
+      modifier. As an action, you can use the salve to restore 1d4 hit points to
+      a creature within reach.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: mv2l8c514nj60krl
+_key: '!items!mv2l8c514nj60krl'

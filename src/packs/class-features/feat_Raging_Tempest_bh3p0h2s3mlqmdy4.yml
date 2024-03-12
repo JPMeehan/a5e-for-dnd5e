@@ -1,0 +1,70 @@
+name: Raging Tempest
+type: feat
+img: icons/magic/air/wind-tornado-cyclone-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can spend 1 sorcery point as a bonus action to be carried by the
+      wind, flying 15 feet without provoking attacks of opportunity. If you do
+      so ranged weapon attacks have disadvantage against you until the start of
+      your next turn.</p>
+
+      <p>In addition, at 2nd level you must choose the <em>blizzard</em> or
+      <em>hurricane</em> manifestation, and at 12th level you must either
+      improve that manifestation or choose the other one.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 1 Stormborn Sorcerer archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: bh3p0h2s3mlqmdy4
+_key: '!items!bh3p0h2s3mlqmdy4'

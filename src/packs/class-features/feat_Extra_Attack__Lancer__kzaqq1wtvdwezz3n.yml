@@ -1,0 +1,25 @@
+name: Extra Attack (Lancer)
+type: feat
+img: icons/skills/melee/blade-tips-double-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 5th level, you can attack twice, instead of once, whenever
+      you take the Attack action on your turn.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: kzaqq1wtvdwezz3n
+_key: '!items!kzaqq1wtvdwezz3n'

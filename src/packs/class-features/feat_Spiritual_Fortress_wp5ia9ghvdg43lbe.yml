@@ -1,0 +1,28 @@
+name: Spiritual Fortress
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-magenta.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level you gain an expertise die on all Intelligence, Wisdom,
+      and Charisma saving throws. When you succeed on such a saving throw, you
+      may use your reaction to deal damage equal to your divine smite to the
+      creature that forced you to make the saving throw. Once you have done so
+      you cannot do so again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: wp5ia9ghvdg43lbe
+_key: '!items!wp5ia9ghvdg43lbe'

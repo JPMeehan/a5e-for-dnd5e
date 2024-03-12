@@ -1,0 +1,77 @@
+name: Hurl Through Hell
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you can condemn a creature to see Hell in all its
+      infernal glory. When you hit a creature with an attack, you can use this
+      feature to instantly fling it through the most horrific vistas of the
+      multiverse. The creature disappears&nbsp; until the end of your next turn,
+      reppearing in the space it previously occupied, or the nearest unoccupied
+      space. If the creature is not a fiend, it takes [[/r 10d10]] psychic,
+      fire, or cold damage (your choice). Once you have used this feature, you
+      can’t do so again until you finish &nbsp;long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 10d10
+        - psychic
+      - - 10d10
+        - fire
+      - - 10d10
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 2ohgi9lyab1iwb1e
+_key: '!items!2ohgi9lyab1iwb1e'

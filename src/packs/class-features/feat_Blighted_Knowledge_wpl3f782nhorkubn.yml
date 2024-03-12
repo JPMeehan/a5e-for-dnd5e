@@ -1,0 +1,124 @@
+folder: null
+name: Blighted Knowledge
+type: feat
+img: icons/sundries/books/book-symbol-skull-grey.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 2nd level, you have learned to harness certain energies
+      that are normally frowned upon by other druids. You learn the Chill Touch
+      Cantrip. This does not count against your total number of cantrips
+      known.</p>
+
+      <p dir="ltr">Furthermore, at the corresponding levels, the following
+      spells are added to the druid list for you. You always have these spells
+      prepared, and they do not count against your druid spells prepared.</p>
+
+      <div dir="ltr" align="left">
+
+      <table><colgroup><col width="45"><col width="115"></colgroup>
+
+      <tbody>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">3rd</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">Inflict Wounds</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">5th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">Animate Dead</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">7th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">Blight</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">9th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">Antilife Shell</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">11th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">Create Undead</p>
+
+      </td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: wpl3f782nhorkubn
+_key: '!items!wpl3f782nhorkubn'

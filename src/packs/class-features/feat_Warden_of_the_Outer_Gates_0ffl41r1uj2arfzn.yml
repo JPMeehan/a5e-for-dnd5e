@@ -1,0 +1,67 @@
+name: Warden of the Outer Gates
+type: feat
+img: icons/magic/control/sihouette-hold-beam-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 20th level your focus and dedication make you a living bastion
+      against invasive spirits. You gain Truesight. Whenever you critically hit
+      or smite a creature turned by your Turn the Outsider ability you may force
+      them to make a Charisma saving throw against your spell save DC or be
+      banished back to their home plane if they are not already there. On a
+      successful saving throw, a creature is immune to this ability for 24
+      hours.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: touch
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 0ffl41r1uj2arfzn
+_key: '!items!0ffl41r1uj2arfzn'

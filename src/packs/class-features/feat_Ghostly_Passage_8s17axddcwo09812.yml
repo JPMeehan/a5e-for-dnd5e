@@ -1,0 +1,69 @@
+name: Ghostly Passage
+type: feat
+img: icons/magic/death/undead-ghost-scream-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, you can take on some aspects of the undeparted dead. As a
+      bonus action, you can become insubstantial, allowing you to walk through
+      solid objects for one minute. You take 1d10 force damage if you end your
+      turn inside a solid object and are immediately shunted to the nearest
+      unoccupied space. This process is draining, and when you end the effect,
+      either by dismissing it (no action required) or by its duration expiring,
+      you suffer a level of fatigue.</p>
+    chat: ''
+  source:
+    book: Mortalist
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 8s17axddcwo09812
+_key: '!items!8s17axddcwo09812'

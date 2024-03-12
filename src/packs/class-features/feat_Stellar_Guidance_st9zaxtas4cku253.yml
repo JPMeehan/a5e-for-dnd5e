@@ -1,0 +1,27 @@
+name: Stellar Guidance
+type: feat
+img: icons/magic/light/explosion-star-glow-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 1st level you learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.ljixftygfhi0sfsf]{Guidance} cantrip
+      if you do not already know it. It is especially effective and grants a 1d6
+      expertise die instead of a 1d4.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: st9zaxtas4cku253
+_key: '!items!st9zaxtas4cku253'

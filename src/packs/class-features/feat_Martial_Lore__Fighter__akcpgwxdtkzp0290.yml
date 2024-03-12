@@ -1,0 +1,34 @@
+name: Martial Lore (Fighter)
+type: feat
+img: icons/sundries/documents/blueprint-axe.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, your knowledge of martial lore deepens. Choose one of the
+      following options:</p>
+
+      <h4>@UUID[Compendium.a5e.a5e-class-features.Item.d009x86j96ikc3vh]{Lore:
+      Military Traditions}</h4>
+
+      <h4>@UUID[Compendium.a5e.a5e-class-features.Item.spb5maf4g02a97ne]{Lore:
+      Size Up}</h4>
+
+      <h4>@UUID[Compendium.a5e.a5e-class-features.Item.jcpa8sjpgnax5kaj]{Lore:
+      Weapon Lore}</h4>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: akcpgwxdtkzp0290
+_key: '!items!akcpgwxdtkzp0290'

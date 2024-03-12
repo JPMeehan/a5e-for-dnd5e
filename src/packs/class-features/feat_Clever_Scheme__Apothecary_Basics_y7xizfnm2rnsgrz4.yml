@@ -1,0 +1,27 @@
+name: 'Clever Scheme: Apothecary Basics'
+type: feat
+img: icons/tools/laboratory/bowl-mixing.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you take a short or long rest , you can use your medical
+      knowledge to treat one creature. That creature can heal as if it had one
+      extra [[/r 1d4]] Hit Die during this rest, or it can ignore one level of
+      fatigue for the next four hours.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: y7xizfnm2rnsgrz4
+_key: '!items!y7xizfnm2rnsgrz4'

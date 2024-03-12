@@ -1,0 +1,40 @@
+name: 'Invocation: Overclocked Concentration'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p style="box-sizing: border-box; user-select: text; margin: 0.5em 0px;
+      color: #191813; font-family: Signika, sans-serif; font-size: 14px;"><em
+      style="box-sizing: border-box; user-select: text;">Prerequisite: 15th
+      level</em></p>
+
+      <p style="box-sizing: border-box; user-select: text; margin: 0.5em 0px;
+      color: #191813; font-family: Signika, sans-serif; font-size: 14px;"><span
+      class="fontstyle1" style="box-sizing: border-box; user-select:
+      text;"><span class="fontstyle2" style="box-sizing: border-box;
+      user-select: text;"><span class="fontstyle2" style="box-sizing:
+      border-box; user-select: text;"><span class="fontstyle3"
+      style="box-sizing: border-box; user-select: text;">You can maintain
+      concentration on two spells simultaneously. Their cumulative spell-level
+      can be</span>&nbsp;<span class="fontstyle0" style="box-sizing: border-box;
+      user-select: text;">no higher than 5th-level. You roll once for
+      concentration checks, as if you were concentrating on a single spell, and
+      when you lose concentration both spells
+      end.</span></span></span></span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: edj9ecfsasssg783
+_key: '!items!edj9ecfsasssg783'

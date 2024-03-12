@@ -1,0 +1,28 @@
+name: Purity (Radiant) (Arcane Sentinel)
+type: feat
+img: icons/skills/melee/strike-polearm-light-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell or make a weapon attack that deals radiant
+      damage, you can spend 1 sorcery point and choose one creature you can see.
+      If that creature takes radiant damage from the spell, it is dazzled,
+      suffering a -1d4 penalty on attack rolls and Perception checks until the
+      end of your next turn.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: qgwziivdrfqkw80a
+_key: '!items!qgwziivdrfqkw80a'

@@ -1,0 +1,30 @@
+name: Prickly Mind
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 15th level, your reactions are so honed that you react even
+      to magic trying to affect your mind. When you make a saving throw to
+      resist being charmed, you can use your reaction to deal an amount of
+      psychic damage equal to your proficiency bonus to the creature attempting
+      to charm you. This backlash does not reveal the creature that tried to
+      charm you.</p><p>In addition, you gain proficiency with Wisdom saving
+      throws.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ysuu60w7hjdplhyk
+_key: '!items!ysuu60w7hjdplhyk'

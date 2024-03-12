@@ -1,0 +1,26 @@
+name: Marching Song
+type: feat
+img: icons/skills/movement/feet-bladed-boots-fire.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You know how to inspire and motivate your companions as they travel.
+      Allies within 30 feet of you travel 1 mile per hour faster than normal.
+      Your party cannot use Stealth while traveling in this manner.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 865p8waxugaoh5up
+_key: '!items!865p8waxugaoh5up'

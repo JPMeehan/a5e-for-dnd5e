@@ -1,0 +1,28 @@
+name: Pointed Wit (Conversational Parry)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 13th level, your words are as cutting as your blade. Choose one of
+      the following options.</p><h3><strong>Conversational
+      Parry</strong></h3><p>You may reroll one failed Deception check. Once you
+      use this feature, you can’t use it again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: tggvo6gxvp9j7ksp
+_key: '!items!tggvo6gxvp9j7ksp'

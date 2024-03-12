@@ -1,0 +1,71 @@
+name: Lore (Celestial)
+type: feat
+img: icons/magic/holy/saint-glass-portrait-halo.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>You learn the true name of an minor celestial being, and by speaking it
+      and expending a hit die you may call it forth as a familiar. It takes the
+      form of a sprite or psuedodragon, except its creature type is Celestial,
+      and it gains the Good, Lawful and Good, or Chaotic and Good alignment
+      traits. You may later dismiss this familiar to its home plane with an
+      action by spending another hit die, and you cannot temporarily dismiss it
+      into a pocket dimension. It otherwise follows the normal rules for the
+      find familiar spell.</p>
+
+      <p>If both this and Fiendish Lore are taken, it allows you to have two
+      familiars at once, though summoning the second one without dismissing the
+      first inflicts a level of fatigue in addition to the normal costs.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: 9th level if you already possess Lore (Fiendish)
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: azg8ji5q1rvmat7y
+_key: '!items!azg8ji5q1rvmat7y'

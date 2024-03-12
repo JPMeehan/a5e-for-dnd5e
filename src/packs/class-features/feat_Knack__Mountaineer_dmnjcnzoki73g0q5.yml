@@ -1,0 +1,27 @@
+name: 'Knack: Mountaineer'
+type: feat
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a climbing speed equal to your Speed, and may spend 1 exertion
+      to reroll a failed Athletics check to climb, choosing whether to use the
+      new roll or the original. In addition, moving through nonmagical difficult
+      terrain costs you no extra movement.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: dmnjcnzoki73g0q5
+_key: '!items!dmnjcnzoki73g0q5'

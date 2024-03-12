@@ -1,0 +1,73 @@
+name: 'Critical: Mighty Blow'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p style="box-sizing: border-box; user-select: text; visibility: visible;
+      color: #191813;"><em style="box-sizing: border-box; user-select:
+      text;">Prerequisite: 6th level</em></p>
+
+      <p style="box-sizing: border-box; user-select: text; visibility: visible;
+      color: #191813;"><span class="fontstyle3" style="box-sizing: border-box;
+      user-select: text;">You know how to hit so it hurts the most. You can roll
+      one additional weapon damage die when determining the extra damage for a
+      critical hit with a melee weapon attack. This Furious Critical can be
+      taken again at 13th level and 17th level.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: xrh7ed62jtjtdklh
+_key: '!items!xrh7ed62jtjtdklh'

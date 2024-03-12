@@ -1,0 +1,69 @@
+name: Esoteric Talent (Quick Step)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level, you gain one of the following benefits, which
+      represents a minor talent you’ve picked up over the course of your
+      studies.</p><h3><strong>Quick Step</strong></h3><p>After you cast a wizard
+      spell of 1st-level or higher, you can immediately move up to 15 feet
+      without provoking opportunity attacks or spending any of your normal
+      movement.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: yvlh01jjhv8ama3p
+_key: '!items!yvlh01jjhv8ama3p'

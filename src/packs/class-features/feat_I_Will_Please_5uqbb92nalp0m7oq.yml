@@ -1,0 +1,71 @@
+name: I Will Please
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you can spend an action and use a mix of soothing
+      remedies and confident bedside manner to help an ally overcome some
+      ailment. This can make the creature suffer no effects from one disease for
+      a day, or can let it ignore one of the following conditions: blinded ,
+      deafened , paralyzed , or poisoned .</p><p>If you use this technique too
+      often, you lose the necessary confidence for the placebo to work. Once you
+      use this feature, you must complete a short or long rest before you can
+      use it again.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 5uqbb92nalp0m7oq
+_key: '!items!5uqbb92nalp0m7oq'

@@ -1,0 +1,26 @@
+name: Pitiless Gaze
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 14th level, when a creature within 5 feet of you hits you
+      with a melee attack while you are raging, the attacker takes [[/r 1d6
+      #psychic]] psychic damage as they quail before your raw fury.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ccnna3raz7w9k2e0
+_key: '!items!ccnna3raz7w9k2e0'

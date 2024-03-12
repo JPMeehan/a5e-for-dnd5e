@@ -1,0 +1,27 @@
+name: 'Dirge: Rested Burnout'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You cause a creature to gain the benefits of a short rest
+      instantly. The creature may not benefit from short rests and recovers only
+      the minimum amount from all healing effects until the end of its next long
+      rest.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: e0og3snq7bl3umu4
+_key: '!items!e0og3snq7bl3umu4'

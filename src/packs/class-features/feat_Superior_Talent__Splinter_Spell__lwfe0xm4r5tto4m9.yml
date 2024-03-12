@@ -1,0 +1,30 @@
+name: Superior Talent (Splinter Spell)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you’ve discovered even greater ways to use your magic to
+      your advantage. Choose one of the following
+      benefits:</p><h3><strong>Splinter Spell</strong></h3><p>When you cast a
+      wizard spell from your chosen school that only affects one creature, you
+      can have it affect an additional creature within range. Once you have used
+      this feature, you cannot do so again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: lwfe0xm4r5tto4m9
+_key: '!items!lwfe0xm4r5tto4m9'

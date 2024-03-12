@@ -1,0 +1,71 @@
+name: Survivalcraft (Woodlore)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 16th level, basic survival skills have become second nature to you.
+      Choose one of the following
+      options:</p><h3><strong>WOODLORE</strong></h3><p>Using your action, you
+      can produce a flame at a moment’s notice even in wet or cold environments.
+      You can hold the flame in your hand without harming yourself or your
+      equipment. Without additional fuel, the flame lasts for 10 minutes,
+      shedding bright light in a 10-foot radius and dim light for an additional
+      10 feet.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ascxy04m5a5rpo6a
+_key: '!items!ascxy04m5a5rpo6a'

@@ -1,0 +1,69 @@
+name: 'Sacred: Boon of War'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you score a critical hit against a creature, you find yourself
+      under the favor of war gods and can use your reaction to spend 2 exertion
+      and acquire this boon. Your next successful melee weapon attack deals
+      additional damage equal to your martial arts die plus your proficiency
+      bonus.</p><p>[[/r 1d4 #d4 die]] [[/r 1d6 #d6 die]] [[/r 1d8 #d8 die]] [[/r
+      1d10 #d10 die]] [[/r 1d12 #d12 die]]</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: null
+    condition: When you score a critical hit against a creature
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 9h2g81b7kb6t0j9v
+_key: '!items!9h2g81b7kb6t0j9v'

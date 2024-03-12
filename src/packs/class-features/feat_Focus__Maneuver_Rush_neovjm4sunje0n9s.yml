@@ -1,0 +1,28 @@
+name: 'Focus: Maneuver Rush'
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Requirement: 7th level</em></p><p>When you hit with a maneuver that
+      requires 2 attacks from your Attack action, you can use another maneuver
+      that requires 1 or 2 attacks from your Attack action as part of the same
+      Attack action. You can’t use this feature again until you finish a short
+      or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: neovjm4sunje0n9s
+_key: '!items!neovjm4sunje0n9s'

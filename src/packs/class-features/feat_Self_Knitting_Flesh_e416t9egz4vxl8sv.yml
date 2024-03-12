@@ -1,0 +1,71 @@
+folder: null
+name: Self-Knitting Flesh
+type: feat
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 6th level, you become extraordinarily resilient, gaining
+      powerful healing abilities and allowing you to shrug off effects that
+      would make harm done to you persistent. You are immune to effects that
+      would prevent you from regaining hit points or that would lower your hit
+      point maximum.</p>
+
+      <p>While you are raging, you can use a bonus action to expend one of your
+      hit dice, rolling it and recovering hit points equal to the roll&rsquo;s
+      result + your Constitution modifier.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: e416t9egz4vxl8sv
+_key: '!items!e416t9egz4vxl8sv'

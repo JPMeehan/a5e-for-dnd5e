@@ -1,0 +1,29 @@
+name: 'Dirge: Spell Burnout'
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You cause a creature casting a spell to cast it at the
+      highest spell level available to the creature&rsquo;s class or archetype
+      (even if the creature doesn&rsquo;t have access to spells of that level
+      yet). The creature then loses hit dice equal to the level the spell was
+      cast at, becomes vulnerable to damage from spells, and is unable to cast
+      cantrips or spells as rituals until the end of its next long rest.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: gt6bu5w1qy33qyrl
+_key: '!items!gt6bu5w1qy33qyrl'

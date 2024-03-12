@@ -1,0 +1,72 @@
+name: Knowledgable Communication
+type: feat
+img: icons/skills/social/diplomacy-handshake-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level so deep is your knowledge and so great your skill at
+      explaining it that you can do so without the need for words. If another
+      creature is proficient in the same skill as you, you may carry on a
+      conversation with them on a subject related to that skill without needing
+      to speak aloud, speaking directly mind to mind or through significant
+      looks and glances and subtle gestures.</p>
+
+      <p>In addition, once per long rest you may expend a hit die to send your
+      thoughts great distances, conveying a brief message of no more than 5
+      words to another in their dreams, though doing so is mentally taxing and
+      you must make a DC 20 Intelligence saving throw afterwords or gain a level
+      of strife.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 9wln6kiazm9wl7mw
+_key: '!items!9wln6kiazm9wl7mw'

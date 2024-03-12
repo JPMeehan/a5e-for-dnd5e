@@ -1,0 +1,69 @@
+name: Rhythms of Magic (Leyline Master)
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Also at 2nd level, whenever you finish a long rest, choose
+      one of the following schools of magic: healing, knowledge, or movement.
+      Whenever you cast a spell of the chosen school, you may gain one of the
+      following benefits:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Gain temporary hit points equal to the
+      spell&rsquo;s level.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Gain a bonus to your movement speed equal
+      to 5x the spell level until the end of your turn.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">If the spell is a ritual, cast it in half
+      the usual time.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Become lightly obscured (by magical
+      distortion) until the beginning of your next turn.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Gain an expertise die on the first
+      Arcana, Nature, or History check you make this turn.</p>
+
+      </li>
+
+      </ul>
+
+      <p dir="ltr">You may only gain these benefits from one school of magic at
+      a time.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: up8ed46jx6kt7pfs
+_key: '!items!up8ed46jx6kt7pfs'

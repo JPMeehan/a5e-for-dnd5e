@@ -1,0 +1,28 @@
+name: Specialized Mastery (Precise Understanding)
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you’ve reached the pinnacle of your chosen magics.
+      Choose one of the following benefits:</p><h3><strong>Precise
+      Understanding</strong></h3><p>When you see a creature cast a spell from
+      your chosen school, you automatically know what spell it’s casting. You
+      also have advantage on saving throws against spells.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 9ph68bmqemhlgxhz
+_key: '!items!9ph68bmqemhlgxhz'

@@ -1,0 +1,213 @@
+folder: null
+name: In The Cracks
+type: feat
+img: icons/magic/death/skull-poison-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level, you can use a bonus action to assume a wild shape.
+      In addition, you gain an additional form you can assume using your Wild
+      Shape feature: a Medium swarm of Tiny beasts. When you adopt this form,
+      you don&rsquo;t gain temporary hit points, and while in this form you
+      can&rsquo;t gain hit points or temporary hit points. In this form, you can
+      move through other creature&rsquo;s spaces and pass through any space a
+      Tiny creature could without squeezing. The only actions you can take while
+      in this form are the Dash, Disengage, or Dodge actions. Your game
+      statistics are unchanged, except for one of the following benefits, which
+      you choose when you shift:</p>
+
+      <ul>
+
+      <li>You have&nbsp;<span class="freelinking-link">resistance</span>&nbsp;to
+      bludgeoning, piercing, and slashing damage.</li>
+
+      <li>You don&rsquo;t provoke&nbsp;<span
+      class="freelinking-link">opportunity attacks</span>&nbsp;when moving out
+      of a creature&rsquo;s reach.</li>
+
+      <li>You have a climb speed equal to your Speed, and you can walk on walls
+      and upside down on ceilings.</li>
+
+      <li>You have a fly speed equal to your Speed.</li>
+
+      <li>When you enter a creature&rsquo;s space for the first time on a turn,
+      that creature must make a Dexterity&nbsp;<span
+      class="freelinking-link">saving throw</span>&nbsp;against your spell save
+      DC, taking piercing damage equal to your level + your Wisdom modifier on a
+      failure, or half damage on a success.</li>
+
+      </ul>
+
+      <p>If you revert to your normal form before 1 minute has passed, you
+      regain the use of Wild Shape you expended to take this form.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@level+@prof'
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/death/skull-poison-green.webp
+    origin: Item.uh3w20ghozle5px5
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: gqpNUdspRzjVZVfl
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Swarm Form
+    _id: C5jyHxEghYGVhZdA
+    changes:
+      - key: system.details.creatureTypes
+        value: '["beast"]'
+        mode: 6
+        priority: null
+      - key: system.details.isSwarm
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!uh3w20ghozle5px5.C5jyHxEghYGVhZdA'
+  - icon: icons/magic/death/skull-poison-green.webp
+    origin: Item.uh3w20ghozle5px5
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Climb Speed
+    _id: b19854uwSqpdFIbJ
+    changes:
+      - key: system.attributes.movement.climb.distance
+        value: '30'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!uh3w20ghozle5px5.b19854uwSqpdFIbJ'
+  - icon: icons/magic/death/skull-poison-green.webp
+    origin: Item.uh3w20ghozle5px5
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Fly Speed
+    _id: 8slb01g9NylmrteJ
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '30'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!uh3w20ghozle5px5.8slb01g9NylmrteJ'
+  - icon: icons/magic/death/skull-poison-green.webp
+    origin: Item.uh3w20ghozle5px5
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Damage Resistances
+    _id: eE3KUQv8EJSpdxy6
+    changes:
+      - key: system.traits.damageResistances
+        value: '["bludgeoning","piercing","slashing"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!uh3w20ghozle5px5.eE3KUQv8EJSpdxy6'
+flags: {}
+_id: uh3w20ghozle5px5
+_key: '!items!uh3w20ghozle5px5'

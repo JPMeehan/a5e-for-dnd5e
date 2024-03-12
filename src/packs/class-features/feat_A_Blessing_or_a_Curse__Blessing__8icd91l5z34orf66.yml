@@ -1,0 +1,78 @@
+name: A Blessing or a Curse (Blessing)
+type: feat
+img: icons/magic/unholy/projectiles-binary-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 5th level, you
+      gain the ability to manipulate the strands of fortune and fate. You may do
+      so a number of times equal to your proficiency bonus, regaining expended
+      uses on a long rest. Choose one of the following:</p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;"><strong>Witch&rsquo;s
+      Blessing</strong></p>
+
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">When a creature you
+      can see fails an ability check, attack roll, or saving throw, you may use
+      your reaction to apply a bonus equal to 1d4 + your spellcasting ability
+      modifier, potentially changing the result of the roll.</p>
+
+      <p class="MsoNormal" style="margin-bottom:
+      .0001pt;"><strong><s>Witch&rsquo;s Curse</s></strong></p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Level 5 Witch Class
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: ' a creature you can see fails an ability check, attack roll, or saving throw'
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 8icd91l5z34orf66
+_key: '!items!8icd91l5z34orf66'

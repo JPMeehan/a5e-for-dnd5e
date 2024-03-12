@@ -1,0 +1,29 @@
+name: Lancer's Leap (Lancer)
+type: feat
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 6th level you may perform the Lancer’s Leap, a special combat
+      maneuver that only lancers gain. This maneuver does not count against your
+      maneuvers known, and can be used with any other maneuver. Once you have
+      used the Lancer’s Leap you must complete a short or long rest before using
+      it, again. If you spend 3 exertion points before a short or long rest, the
+      use of this ability recharges.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 4hdgzl5vd0443f87
+_key: '!items!4hdgzl5vd0443f87'
