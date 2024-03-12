@@ -1,0 +1,67 @@
+name: Trickster’s Veil
+type: feat
+img: icons/environment/settlement/tent-flag.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.vemj08hawvmf44ya]{Disguise
+      Self} once per long rest. Your spellcasting ability for this spell is
+      Intelligence, Wisdom, or Charisma (whichever is highest).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: abil
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: rnd4sajp31wftikv
+_key: '!items!rnd4sajp31wftikv'

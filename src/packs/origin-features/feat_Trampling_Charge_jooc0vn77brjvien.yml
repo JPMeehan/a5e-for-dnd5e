@@ -1,0 +1,101 @@
+name: Trampling Charge
+type: feat
+img: icons/environment/settlement/wagon.webp
+effects:
+  - icon: icons/environment/settlement/wagon.webp
+    origin: Item.JG8agjpJIkDBdoSy
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: zkzVk4vMDh4AXyDb
+    transfer: false
+    name: Prone
+    _id: u1d0oslfrISpBsvY
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!jooc0vn77brjvien.u1d0oslfrISpBsvY'
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Caravanners have learned to bowl down obstacles in their way. When you
+      or a mount you’re riding uses the Dash action or a vehicle you’re driving
+      uses the Ahead Full action, you can move through spaces occupied by
+      creatures with a size category smaller than you, or your mount, or the
+      vehicle. Creatures moved through in this way must make a Dexterity saving
+      throw (DC equal to 8 + your Dexterity modifier + your proficiency bonus).
+      On a failed save, creatures are knocked prone and take an amount of
+      bludgeoning damage equal to your level. Creatures cannot be damaged twice
+      from the same trampling charge. Once you use this trait, you cannot do so
+      again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@level'
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: null
+_id: jooc0vn77brjvien
+_key: '!items!jooc0vn77brjvien'

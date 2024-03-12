@@ -1,0 +1,55 @@
+name: Fearless (Halfling)
+type: feat
+img: icons/creatures/abilities/lion-roar-yellow.webp
+effects:
+  - icon: icons/creatures/abilities/lion-roar-yellow.webp
+    origin: Item.0vpqtserwzohp6ap
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Fearless
+    _id: lj2fxPIUQJVUt1vl
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["frightened"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!0vpqtserwzohp6ap.lj2fxPIUQJVUt1vl'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You are immune to the effects of the frightened condition, whether
+      caused by magic or by natural phenomena. You might still feel fear, but
+      you are able to ignore it; alternatively you might be unable to even
+      experience that emotion, and are unable to understand it in others.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 0vpqtserwzohp6ap
+_key: '!items!0vpqtserwzohp6ap'

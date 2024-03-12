@@ -1,0 +1,28 @@
+name: Dwarven Toughness (Dwarf)
+type: feat
+img: icons/creatures/abilities/bear-roar-bite-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>As a bonus action, you gain a number of temporary hit points equal to
+      1d10 plus your level. These temporary hit points last for 1 minute. You
+      can’t use this trait again until after you finish a long rest.</p><p>You
+      gain an expertise die on saving throws against poison, and you have
+      resistance against poison damage.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: osv45646poozajmc
+_key: '!items!osv45646poozajmc'

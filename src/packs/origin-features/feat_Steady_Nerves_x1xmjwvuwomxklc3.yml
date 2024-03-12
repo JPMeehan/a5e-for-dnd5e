@@ -1,0 +1,52 @@
+folder: null
+name: Steady Nerves
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You are immune to the&nbsp;<span
+      class="freelinking-link">rattled</span> condition.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/item-bag.svg
+    origin: Item.x1xmjwvuwomxklc3
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Rattled Immunity
+    _id: XWXsQFuj8kshCRV4
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["rattled"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!x1xmjwvuwomxklc3.XWXsQFuj8kshCRV4'
+flags: {}
+_id: x1xmjwvuwomxklc3
+_key: '!items!x1xmjwvuwomxklc3'

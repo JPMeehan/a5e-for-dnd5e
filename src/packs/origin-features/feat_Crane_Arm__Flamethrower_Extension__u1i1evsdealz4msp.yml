@@ -1,0 +1,68 @@
+folder: null
+name: Crane Arm (Flamethrower Extension)
+type: feat
+img: icons/commodities/tech/claw-mechanical.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p><span style="font-size: 10.5pt;">This extension functions as the
+      produce flame cantrip (using your highest ability score as its
+      spellcasting </span>ability) but its effects are nonmagical.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: u1i1evsdealz4msp
+_key: '!items!u1i1evsdealz4msp'

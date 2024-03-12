@@ -1,0 +1,64 @@
+folder: null
+name: Group Tactics (Strength in Numbers)
+type: feat
+img: icons/skills/social/diplomacy-unity-alliance.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You can make an ability check with&nbsp;<span
+      class="freelinking-link">advantage</span>&nbsp;as part of a group check.
+      Once you use this trait, you can&rsquo;t use it again until you&rsquo;ve
+      taken a&nbsp;<span class="freelinking-link">short or long rest</span>.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: agid5rhrsjn89xv5
+_key: '!items!agid5rhrsjn89xv5'

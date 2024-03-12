@@ -1,0 +1,55 @@
+name: Telepathy (Twilight-Touched Halfling)
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+effects:
+  - icon: icons/magic/control/silhouette-aura-energy.webp
+    origin: Item.dkkr5o4n6l6nawpx
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Telepathy
+    _id: WoGNKYUfr2fUPvw2
+    changes:
+      - key: system.proficiencies.languages
+        value: '["telepathy 30ft"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!dkkr5o4n6l6nawpx.WoGNKYUfr2fUPvw2'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You can speak telepathically to any creature within 30 feet of you that
+      you can see. The creature understands you only if the two of you share a
+      language. You can speak telepathically in this way to one creature at a
+      time.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: dkkr5o4n6l6nawpx
+_key: '!items!dkkr5o4n6l6nawpx'

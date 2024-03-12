@@ -1,0 +1,27 @@
+name: Desperate Dash (Spirited Traveler Human)
+type: feat
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take the Dash action, your movement this turn does not provoke
+      opportunity attacks. During this movement, you gain an expertise die on
+      Athletics checks made to jump, and Dexterity saving throws. Once you use
+      this trait, you cannot use it again until you finish a short rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: aizev8xi5oyk4ezo
+_key: '!items!aizev8xi5oyk4ezo'

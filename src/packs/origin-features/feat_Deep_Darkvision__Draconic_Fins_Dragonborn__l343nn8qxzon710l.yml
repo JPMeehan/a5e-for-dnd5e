@@ -1,0 +1,56 @@
+name: Deep Darkvision (Draconic Fins Dragonborn)
+type: feat
+img: icons/magic/light/explosion-star-small-teal-purple.webp
+effects:
+  - icon: icons/magic/light/explosion-star-small-teal-purple.webp
+    origin: Item.l343nn8qxzon710l
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Deep Darkvision
+    _id: YwEd1ZLBjnU4yGEO
+    changes:
+      - key: system.attributes.senses.darkvision.distance
+        value: '60'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!l343nn8qxzon710l.YwEd1ZLBjnU4yGEO'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You can see in dim light within 60 feet of you as if it were bright
+      light, and in darkness as if it were dim light. You can’t discern color in
+      darkness, only shades of gray. In addition, your eyes are perfectly
+      adapted for spotting movement at depth, and the radius of your darkvision
+      increases to 120 feet while underwater.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: l343nn8qxzon710l
+_key: '!items!l343nn8qxzon710l'

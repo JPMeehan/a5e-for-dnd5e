@@ -1,0 +1,26 @@
+name: Reliability
+type: feat
+img: icons/magic/symbols/chevron-elipse-circle-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you make an attack roll, saving throw, or ability check, you
+      may expend inspiration to automatically roll a 10 on the d20. You must
+      choose to do so before you roll.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Law Destiny
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: phaedwauqgb51bqe
+_key: '!items!phaedwauqgb51bqe'

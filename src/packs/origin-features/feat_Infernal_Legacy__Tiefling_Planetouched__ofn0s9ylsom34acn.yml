@@ -1,0 +1,27 @@
+name: Infernal Legacy (Tiefling Planetouched)
+type: feat
+img: icons/magic/fire/flame-burning-earth-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the produce flame cantrip. Once you reach 3rd level, you can
+      cast arcane riposte (fire damage only) once per long rest. At 5th level,
+      you can cast heat metal without material components once per long rest.
+      Charisma is your spellcasting ability for these spells.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ofn0s9ylsom34acn
+_key: '!items!ofn0s9ylsom34acn'

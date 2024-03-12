@@ -1,0 +1,61 @@
+name: Gnome Cunning (Gnome)
+type: feat
+img: icons/magic/symbols/triangle-glowing-green.webp
+effects:
+  - icon: icons/magic/symbols/triangle-glowing-green.webp
+    origin: Item.e1grni6vetjfj5da
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Gnome Cunning
+    _id: 97psDKeNeDEoWYq9
+    changes:
+      - key: system.abilities.int.save.expertiseDice
+        value: '1'
+        mode: 6
+        priority: null
+      - key: system.abilities.wis.save.expertiseDice
+        value: '1'
+        mode: 6
+        priority: null
+      - key: system.abilities.cha.save.expertiseDice
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!e1grni6vetjfj5da.97psDKeNeDEoWYq9'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Intelligence, Wisdom, and Charisma saving
+      throws against magic.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: e1grni6vetjfj5da
+_key: '!items!e1grni6vetjfj5da'

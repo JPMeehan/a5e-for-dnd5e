@@ -1,0 +1,54 @@
+name: Prophetic Instincts  (Preternatural Awareness Elf)
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+effects:
+  - icon: icons/magic/perception/orb-crystal-ball-scrying.webp
+    origin: Item.thgmsuwzkn7d9iko
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Prophetic Instincts
+    _id: WxRLYJ3eV2O7RMTY
+    changes:
+      - key: system.attributes.initiative.bonus
+        value: '@wis.mod'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!thgmsuwzkn7d9iko.WxRLYJ3eV2O7RMTY'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your ability to detect danger is nearly supernatural. You gain a bonus
+      to initiative rolls equal to your Wisdom modifier, and you can’t be
+      surprised while conscious (including during your Trance).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: thgmsuwzkn7d9iko
+_key: '!items!thgmsuwzkn7d9iko'

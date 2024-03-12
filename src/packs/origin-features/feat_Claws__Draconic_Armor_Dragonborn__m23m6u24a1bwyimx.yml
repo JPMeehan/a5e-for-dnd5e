@@ -1,0 +1,68 @@
+name: Claws (Draconic Armor Dragonborn)
+type: feat
+img: icons/skills/melee/strike-slashes-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You grow retractable claws from the tips of your fingers. Extending or
+      retracting the claws requires no action. The claws are natural weapons,
+      which you can use to make unarmed strikes that deal slashing damage equal
+      to 1d4 + your Strength modifier.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Dragonborn Heritage, Draconic Armor Gift
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4+@mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: m23m6u24a1bwyimx
+_key: '!items!m23m6u24a1bwyimx'

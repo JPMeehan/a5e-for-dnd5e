@@ -1,0 +1,55 @@
+name: Flight (Draconic Wings Dragonborn)
+type: feat
+img: icons/commodities/biological/wing-lizard-green.webp
+effects:
+  - icon: icons/commodities/biological/wing-lizard-green.webp
+    origin: Item.smr0wg8nid7rynbw
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Flight
+    _id: 8qQ2mOuGEiuwnCgw
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '30'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!smr0wg8nid7rynbw.8qQ2mOuGEiuwnCgw'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You have a fly speed of 30 feet. To use this speed, you can’t be
+      wearing medium or heavy armor. Whenever you spend 3 full consecutive
+      rounds airborne without landing, you gain a level of fatigue . Any fatigue
+      gained in this way is removed upon finishing a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: smr0wg8nid7rynbw
+_key: '!items!smr0wg8nid7rynbw'

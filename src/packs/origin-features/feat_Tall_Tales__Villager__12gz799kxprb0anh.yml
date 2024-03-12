@@ -1,0 +1,29 @@
+name: Tall Tales (Villager)
+type: feat
+img: icons/environment/settlement/house-farmland-small.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Life along the crossroads rarely offers an opportunity for proper
+      schooling, but the roads carry with them legends and stories from far and
+      wide. You may always choose to use Wisdom when making History, Nature, or
+      Religion checks. However, the Narrator may decide that the results of a
+      check made in this way are distorted or exaggerated forms of the
+      truth.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 12gz799kxprb0anh
+_key: '!items!12gz799kxprb0anh'

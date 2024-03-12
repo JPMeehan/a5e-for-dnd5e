@@ -1,0 +1,70 @@
+name: Fashion Sense
+type: feat
+img: icons/environment/settlement/palast.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You know how to read people through their clothes and bearing. After
+      you spend at least 1 minute observing a creature within 60 feet, you can
+      use an action to make either an Insight or History check against a DC
+      equal to the creature’s passive Deception check score. On a success, you
+      learn the following information about that creature:</p><ul><li><p>Whether
+      the creature has a lower Charisma score than yourself. </p></li><li><p>The
+      creature’s culture and national origin (if any). </p></li><li><p>The
+      creature’s social standing in the local majority culture.</p></li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 6scbzte2xd8d357g
+_key: '!items!6scbzte2xd8d357g'

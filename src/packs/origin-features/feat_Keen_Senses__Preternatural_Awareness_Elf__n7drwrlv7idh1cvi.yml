@@ -1,0 +1,51 @@
+name: Keen Senses (Preternatural Awareness Elf)
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+effects:
+  - icon: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+    origin: Item.n7drwrlv7idh1cvi
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Keen Senses
+    _id: 4x5TUICeM8w41q48
+    changes:
+      - key: system.skills.prc.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!n7drwrlv7idh1cvi.4x5TUICeM8w41q48'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: <p>You gain proficiency in Perception.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: n7drwrlv7idh1cvi
+_key: '!items!n7drwrlv7idh1cvi'

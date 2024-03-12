@@ -1,0 +1,56 @@
+name: Arcane Empathy (Mystic Rapport Elf)
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+effects:
+  - icon: icons/magic/control/silhouette-aura-energy.webp
+    origin: Item.m89pkpo5k93wgynw
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Arcane Empathy
+    _id: fUg9WndkIJtcdaG3
+    changes:
+      - key: system.proficiencies.languages
+        value: '["telepathy 30ft"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!m89pkpo5k93wgynw.fUg9WndkIJtcdaG3'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your sensitivity to the flow of magic lets you speak to the hearts of
+      others. You have a limited ability to communicate telepathically with
+      those within 30 feet of you. Though this grants the target no ability to
+      respond telepathically, they can understand you as long as you share a
+      language with them.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: m89pkpo5k93wgynw
+_key: '!items!m89pkpo5k93wgynw'

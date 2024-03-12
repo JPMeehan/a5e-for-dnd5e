@@ -1,0 +1,52 @@
+folder: null
+name: Rock
+type: feat
+img: icons/magic/earth/construct-stone.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>As a being made from stone, you are immune to the&nbsp;<span
+      class="freelinking-link">petrified</span> condition.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/earth/construct-stone.webp
+    origin: Item.lqr7kyhktmcj9vc4
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Petrification Immunity
+    _id: tO1qgbc3X3jMdDSR
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["petrified"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!lqr7kyhktmcj9vc4.tO1qgbc3X3jMdDSR'
+flags: {}
+_id: lqr7kyhktmcj9vc4
+_key: '!items!lqr7kyhktmcj9vc4'

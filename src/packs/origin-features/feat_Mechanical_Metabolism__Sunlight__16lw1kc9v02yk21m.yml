@@ -1,0 +1,44 @@
+folder: null
+name: Mechanical Metabolism (Sunlight)
+type: feat
+img: icons/commodities/tech/tube-chamber-lightning.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Certain types of healing are less effective or even wholly ineffective.
+      Sources of nonmagical healing&nbsp;other than taking a rest have no
+      effect.&nbsp;Magical healing only restores half as&nbsp;many hit points as
+      normal unless you are&nbsp;also repaired in the same round (with
+      an&nbsp;Engineering check, the mending cantrip,&nbsp;or similar).</p>
+
+      <p>In addition, you don&rsquo;t require Supply&nbsp;in the typical sense;
+      instead of eating&nbsp;food, you rely on a specific substance
+      to&nbsp;refuel. Every 24 hours without the&nbsp;substance you suffer a
+      level of fatigue and&nbsp;strife as your inner machinations begin
+      to&nbsp;decay.</p>
+
+      <p>Select one of the following.&nbsp;</p>
+
+      <ul>
+
+      <li><em>Sunlight: </em>3 hours of full sunlight or 6 hours of partial
+      (shaded or cloudy) sunlight.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 16lw1kc9v02yk21m
+_key: '!items!16lw1kc9v02yk21m'

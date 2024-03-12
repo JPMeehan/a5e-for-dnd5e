@@ -1,0 +1,29 @@
+name: Natural Barterer (Stoneworthy)
+type: feat
+img: icons/environment/wilderness/arch-stone.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You are used to handling transactions without currency, and can
+      appraise the relative worth of many items. When bartering, haggling, or
+      negotiating an exchange of goods, you gain an expertise die on
+      Intimidation and Persuasion checks, and you may always choose which
+      ability score to use for these rolls (Intelligence, Wisdom, or
+      Charisma).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: x51tx59u1bsgx4f7
+_key: '!items!x51tx59u1bsgx4f7'

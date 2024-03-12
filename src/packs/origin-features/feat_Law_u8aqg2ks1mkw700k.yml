@@ -1,0 +1,71 @@
+name: Law
+type: feat
+img: icons/magic/symbols/chevron-elipse-circle-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain inspiration anytime you support or enforce a state of
+      stability and order, or act in opposition of change, unless that change
+      brings about a more perfect state of order.</p>
+
+      <p><em style="mso-bidi-font-style: normal;">Serve in the royal guard
+      defending an established ruler, turn in rebels to the proper authorities,
+      show restraint and resist the urge to indulge in base personal
+      gratification</em></p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Law Destiny
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: u8aqg2ks1mkw700k
+_key: '!items!u8aqg2ks1mkw700k'

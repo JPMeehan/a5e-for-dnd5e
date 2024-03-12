@@ -1,0 +1,30 @@
+folder: null
+name: Water Magic
+type: feat
+img: icons/magic/water/orb-water-bubbles-blue.webp
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the<em>&nbsp;<span
+      class="freelinking-link">mending</span>&nbsp;</em>cantrip. Once you reach
+      3rd level, you can cast<em>&nbsp;<span class="freelinking-link">gust of
+      wind</span>&nbsp;</em>once per&nbsp;<span class="freelinking-link">long
+      rest</span>&nbsp;. You can cast these spells without components, and when
+      casting them your&nbsp;<span class="freelinking-link">spellcasting</span>
+      ability is your choice of Intelligence, Wisdom, or Charisma.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: ibfcwo3m9ipvhfhl
+_key: '!items!ibfcwo3m9ipvhfhl'

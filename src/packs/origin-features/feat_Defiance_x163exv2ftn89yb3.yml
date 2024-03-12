@@ -1,0 +1,30 @@
+name: Defiance
+type: feat
+img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>You draw inspiration from striking out against oppression, defying long
+      odds, and placing hope in the impossible. You gain inspiration whenever
+      you score a critical hit against a creature larger than you are, roll a
+      natural 20 on a death saving throw, openly defy a powerful being, or
+      succeed after taking a risk with long odds.</p><p>Loudly refuse the orders
+      of a tyrant, follow through with a convoluted or risky plan, succeed at
+      something you were extremely likely to fail.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: x163exv2ftn89yb3
+_key: '!items!x163exv2ftn89yb3'

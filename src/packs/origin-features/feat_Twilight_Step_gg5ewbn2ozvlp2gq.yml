@@ -1,0 +1,65 @@
+name: Twilight Step
+type: feat
+img: icons/magic/nature/tree-twisted-glow-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned how to skip out of the Material Plane, fly through the
+      Plane of Faerie, and land back in your native realm. You can forego your
+      movement on your turn to teleport 30 feet to an unoccupied space you can
+      see. Once you have used this trait, you cannot do so again until you
+      finish a short or long rest.&nbsp;</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: gg5ewbn2ozvlp2gq
+_key: '!items!gg5ewbn2ozvlp2gq'

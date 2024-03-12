@@ -1,0 +1,67 @@
+name: Studied Deliberation
+type: feat
+img: icons/magic/symbols/circled-gem-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>With a level head and measured logic, you objectively determine the
+      best path forward.</p><p>You may spend your inspiration and a minute’s
+      deliberation to determine the results of an upcoming plan of action (as
+      the augury spell).&nbsp;</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ztcdtw77ysjr4ah1
+_key: '!items!ztcdtw77ysjr4ah1'

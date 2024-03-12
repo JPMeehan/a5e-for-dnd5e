@@ -1,0 +1,33 @@
+name: Claim Staker (Settler)
+type: feat
+img: icons/environment/settlement/house-construction.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>A tall fence and the grit to defend it is often all it takes to stake a
+      claim out on the frontier. Whenever you begin a long rest, you can choose
+      to spend the first hour of that rest making the area into a fortified
+      position for the duration. While resting in a fortified position, the
+      ground in a 60-foot radius area around you is considered difficult terrain
+      for any creatures other than those you consider allies. In addition, the
+      first time a hidden creature enters the fortified area, it must make a
+      Dexterity saving throw (DC 8 + your Wisdom modifier + your proficiency
+      bonus). On a failed save, the creature inadvertently makes loud noises and
+      is no longer hidden.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: lf8x2dwcrmr6y0mp
+_key: '!items!lf8x2dwcrmr6y0mp'

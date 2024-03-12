@@ -1,0 +1,27 @@
+name: Studied Discipline - Medicine
+type: feat
+img: icons/environment/settlement/city-hall.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency in Medicine. You gain an expertise die when
+      identifying disease and poison, or doing small field surgeries and
+      triage.</p><p>You always choose which ability score to use for rolls
+      (Intelligence, Wisdom, or Charisma).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 50bozuktb7cclczo
+_key: '!items!50bozuktb7cclczo'

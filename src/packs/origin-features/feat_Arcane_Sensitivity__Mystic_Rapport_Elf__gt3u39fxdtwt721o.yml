@@ -1,0 +1,51 @@
+name: Arcane Sensitivity (Mystic Rapport Elf)
+type: feat
+img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+effects:
+  - icon: icons/magic/symbols/runes-star-pentagon-magenta.webp
+    origin: Item.gt3u39fxdtwt721o
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Arcane Sensitivity
+    _id: MG6lLtyFTv5KEwIr
+    changes:
+      - key: system.skills.arc.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!gt3u39fxdtwt721o.MG6lLtyFTv5KEwIr'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: <p>You gain proficiency in Arcana.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: gt3u39fxdtwt721o
+_key: '!items!gt3u39fxdtwt721o'

@@ -1,0 +1,52 @@
+folder: null
+name: Lightless Perception
+type: feat
+img: icons/magic/light/explosion-star-small-blue-yellow.webp
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>If you do not have darkvision, you gain darkvision with a range of 60
+      feet. If you already have darkvision, its range increases to 120 feet.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/item-bag.svg
+    origin: Item.f8fg68oxiwplumqx
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Darkvision
+    _id: 4akpI2pAzgBEI9X6
+    changes:
+      - key: system.attributes.senses.darkvision.distance
+        value: '60'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!f8fg68oxiwplumqx.4akpI2pAzgBEI9X6'
+flags: {}
+_id: f8fg68oxiwplumqx
+_key: '!items!f8fg68oxiwplumqx'

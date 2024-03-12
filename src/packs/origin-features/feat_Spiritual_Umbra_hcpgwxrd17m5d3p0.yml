@@ -1,0 +1,29 @@
+name: Spiritual Umbra
+type: feat
+img: icons/creatures/reptiles/dragon-winged-blue.webp
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Common amongst the gem dragons, this umbra shifts with draconic
+      cunning. While this umbra is active you gain an expertise die on Stealth
+      checks, and once on each of your turns you may alter your appearance (as
+      the @UUID[Compendium.a5e-for-dnd5e.spells.vemj08hawvmf44ya]{disguise self}
+      spell). When your umbra ends, so do any illusions conjured by
+      it.&nbsp;</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Dragoncult Culture
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: hcpgwxrd17m5d3p0
+_key: '!items!hcpgwxrd17m5d3p0'

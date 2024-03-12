@@ -1,0 +1,28 @@
+name: Religious Education (Godbound)
+type: feat
+img: icons/environment/settlement/church.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Your community is steeped in scripture, song, and storytelling. You are
+      proficient in the Religion skill and know one cantrip of your choice from
+      the cleric, druid, or herald spell list. Your spellcasting ability score
+      for this cantrip is Intelligence, Wisdom, or Charisma (whichever is
+      highest).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ir64yxe4ybl0pnbr
+_key: '!items!ir64yxe4ybl0pnbr'

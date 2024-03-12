@@ -1,0 +1,30 @@
+name: Studied Discipline - Magic
+type: feat
+img: icons/environment/settlement/city-hall.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency in Arcana. In addition, at 3rd level, you can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kaye34nheyrit487]{Detect Magic}
+      once per long rest. Your spellcasting ability for this spell is
+      Intelligence, Wisdom, or Charisma (whichever is highest).</p>
+
+      <p>You always choose which ability score to use for rolls (Intelligence,
+      Wisdom, or Charisma).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 17dr0z40fqkxjnyz
+_key: '!items!17dr0z40fqkxjnyz'

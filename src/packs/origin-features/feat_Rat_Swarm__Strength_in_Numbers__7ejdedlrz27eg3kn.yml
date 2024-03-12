@@ -1,0 +1,67 @@
+folder: null
+name: Rat Swarm (Strength in Numbers)
+type: feat
+img: icons/creatures/mammals/rodent-rat-green.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Once on your turn, you can reroll an&nbsp;<span
+      class="freelinking-link">attack roll</span>&nbsp;against a target within
+      30 feet if another creature has made a melee attack against the same
+      target since the end of your last turn. You can use this trait a number of
+      times equal to your proficiency bonus. You regain any expended uses when
+      you finish a&nbsp;<span class="freelinking-link">long rest</span>.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 7ejdedlrz27eg3kn
+_key: '!items!7ejdedlrz27eg3kn'

@@ -1,0 +1,55 @@
+folder: null
+name: Rockamouflage
+type: feat
+img: icons/magic/earth/barrier-stone-brown-green.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You are proficient with Stealth. You gain an&nbsp;<span
+      class="freelinking-link">expertise die</span>&nbsp;on Stealth checks made
+      to hide in a rocky environment. Your companions also gain this&nbsp;<span
+      class="freelinking-link">expertise die</span>, provided you can see them
+      and they are within 30 feet of you.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/earth/barrier-stone-brown-green.webp
+    origin: Item.5bcwqry4u8lpvk0f
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Stealth Proficency
+    _id: Ob32mrdlSx96yRDy
+    changes:
+      - key: system.skills.ste.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!5bcwqry4u8lpvk0f.Ob32mrdlSx96yRDy'
+flags: {}
+_id: 5bcwqry4u8lpvk0f
+_key: '!items!5bcwqry4u8lpvk0f'

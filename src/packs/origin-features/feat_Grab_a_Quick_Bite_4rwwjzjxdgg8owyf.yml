@@ -1,0 +1,71 @@
+folder: null
+name: Grab a Quick Bite
+type: feat
+img: icons/creatures/abilities/fangs-teeth-bite.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p class="Indent1">You can eat and digest huge quantities of food in
+      seconds. If you have sufficient food for one day (1&nbsp;<span
+      class="freelinking-link">Supply</span>), you can eat it as an action. When
+      you do so, you gain temporary hit points equal to twice your proficiency
+      bonus. You can use this trait a number of times equal to your proficiency
+      bonus. You regain any expended uses when you finish a&nbsp;<span
+      class="freelinking-link">long rest</span>.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2*@prof
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 4rwwjzjxdgg8owyf
+_key: '!items!4rwwjzjxdgg8owyf'

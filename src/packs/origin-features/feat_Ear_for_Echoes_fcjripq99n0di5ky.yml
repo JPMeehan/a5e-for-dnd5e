@@ -1,0 +1,52 @@
+folder: null
+name: Ear for Echoes
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You have blindsight out to a range of 10 feet. If you already had
+      blindsight, its range increases by 10 feet.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+    origin: Item.fcjripq99n0di5ky
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Blindsight
+    _id: rqcRlAeLxQcwvLd6
+    changes:
+      - key: system.attributes.senses.blindsight.distance
+        value: '10'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!fcjripq99n0di5ky.rqcRlAeLxQcwvLd6'
+flags: {}
+_id: fcjripq99n0di5ky
+_key: '!items!fcjripq99n0di5ky'

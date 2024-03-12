@@ -1,0 +1,51 @@
+name: Hellish Resistance (Tiefling Planetouched)
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-triangle-red.webp
+effects:
+  - icon: icons/magic/defensive/shield-barrier-glowing-triangle-red.webp
+    origin: Item.cwdqeshja6a35b03
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Hellish Resistance
+    _id: TZtAR71r1MiXA6GY
+    changes:
+      - key: system.traits.damageResistances
+        value: '["fire"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!cwdqeshja6a35b03.TZtAR71r1MiXA6GY'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: <p>You have resistance to fire damage.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: cwdqeshja6a35b03
+_key: '!items!cwdqeshja6a35b03'

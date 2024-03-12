@@ -1,0 +1,52 @@
+name: Tough (Carven)
+type: feat
+img: icons/skills/trades/construction-mason-stonecutter-sculpture.webp
+effects:
+  - icon: icons/skills/trades/construction-mason-stonecutter-sculpture.webp
+    origin: Item.d4wTa1rnV6MdfCVd
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Tough
+    _id: Iq9jOFwvdgnQ6Bl3
+    changes:
+      - key: system.attributes.hp.baseMax
+        value: '@level'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!h0lg9twoatb8eqzn.Iq9jOFwvdgnQ6Bl3'
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Your hit point maximum increases by 1, and it increases by 1 every time
+      you gain a level.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: h0lg9twoatb8eqzn
+_key: '!items!h0lg9twoatb8eqzn'

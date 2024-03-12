@@ -1,0 +1,27 @@
+name: Immortal Blessing (Planetouched)
+type: feat
+img: icons/magic/life/heart-cross-purple-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your connection with the source of your bloodline allows you to cheat
+      death. When you would ordinarily be reduced to zero hit points, you are
+      instead reduced to one hit point. You cannot use this feature again until
+      you have finished a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 8krct7oufws0aavh
+_key: '!items!8krct7oufws0aavh'

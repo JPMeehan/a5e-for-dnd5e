@@ -1,0 +1,33 @@
+name: Gem Dragon’s Boon
+type: feat
+img: icons/creatures/reptiles/dragon-horned-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Gem dragons ensure their agents&rsquo; missions go undetected by
+      bestowing upon them subterfuge magic. You know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.4gcxix2l4zvy9kdu]{Message}
+      cantrip. Once you reach 3rd level, you can cast
+      @UUID[Compendium.a5e.a5e-spells.Item.hq8bkkiar9tfk0sh]{Illusory Script}
+      once per long rest. At 5th level, you can cast
+      @UUID[Compendium.a5e.a5e-spells.Item.4eidicv0lyqevtwd]{Invisibility} once
+      per long rest. You don&rsquo;t need material components for these spells,
+      and when casting them your spellcasting ability is Intelligence or
+      Charisma (whichever is highest).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: t72b7hwfunejkwrw
+_key: '!items!t72b7hwfunejkwrw'

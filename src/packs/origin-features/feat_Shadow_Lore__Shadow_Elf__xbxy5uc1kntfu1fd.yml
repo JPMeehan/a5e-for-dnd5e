@@ -1,0 +1,28 @@
+name: Shadow Lore (Shadow Elf)
+type: feat
+img: icons/magic/nature/moon-crescent.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You know a cantrip: either dancing lights or minor illusion. Once you
+      reach 3rd level, you can cast faerie fire once per long rest. At 5th
+      level, you can cast darkness once per long rest. You don’t need material
+      components for these spells, and when casting them your spellcasting
+      ability is Intelligence, Wisdom, or Charisma (whichever is highest).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: xbxy5uc1kntfu1fd
+_key: '!items!xbxy5uc1kntfu1fd'

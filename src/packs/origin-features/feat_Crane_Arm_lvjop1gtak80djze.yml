@@ -1,0 +1,43 @@
+folder: null
+name: Crane Arm
+type: feat
+img: icons/commodities/tech/claw-mechanical.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You only have a single arm designed for a specialized use, including
+      one extension. For holding, grasping, and using objects, you can use a
+      bonus action to swap your extension out for an articulated hand. While not
+      wielding a shield, you can use your arm to wield a weapon with properties
+      that would normally require two hands (loading,&nbsp;two-handed) or if
+      wielding a versatile&nbsp;weapon to be treated as wielding it
+      two&nbsp;handed. Choose one of the following.</p>
+
+      <p><em>Arc Welder Extension: </em>This extension functions as the shocking
+      grasp cantrip (using your highest ability score as its
+      spellcasting&nbsp;ability) but its effects are&nbsp;nonmagical.</p>
+
+      <p><em>Flamethrower Extension: </em>This extension functions as the
+      produce flame cantrip (using your highest ability score as its
+      spellcasting&nbsp;ability) but its effects are&nbsp;nonmagical.</p>
+
+      <p><em>Multi-Tool Extension: </em>You are proficient with and can deploy
+      built-in navigator&rsquo;s tools, thieves&rsquo; tools, and tinker&rsquo;s
+      tools with this&nbsp;extension.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: lvjop1gtak80djze
+_key: '!items!lvjop1gtak80djze'

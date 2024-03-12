@@ -1,0 +1,26 @@
+name: Lady Luck (Gambler)
+type: feat
+img: icons/commodities/flowers/clover.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: background
+    subtype: ''
+  description:
+    value: >-
+      <p>Each week you may attempt a “lucky throw” to support yourself by
+      gambling. Roll a d6 to determine the lifestyle you can afford with your
+      week’s winnings (1–2: poor, 3–5: moderate, 6: rich)</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: lo5obt0px93qczpg
+_key: '!items!lo5obt0px93qczpg'

@@ -1,0 +1,57 @@
+name: Burrow (Burrowing Claws Halfling)
+type: feat
+img: icons/commodities/claws/claw-bear-brown.webp
+effects:
+  - icon: icons/commodities/claws/claw-bear-brown.webp
+    origin: Item.wgrnnqsykg0qx666
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Burrow
+    _id: 7PRDg0KDEdWcGPPN
+    changes:
+      - key: system.attributes.movement.burrow.distance
+        value: '10'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!wgrnnqsykg0qx666.7PRDg0KDEdWcGPPN'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You have a burrowing speed of 10 feet. You can use your burrowing speed
+      to move through nonmagical sand, loose earth, loamy soil, mud, or snow,
+      but not solid rock. You do not naturally leave any sort of tunnel behind
+      but you can attempt to create a 5-foot by 5-foot wide tunnel in earth,
+      soil, or snow by spending extra time and effort shoring it up and adding
+      support. This reduces your burrowing speed to 5 feet every 15 minutes.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: wgrnnqsykg0qx666
+_key: '!items!wgrnnqsykg0qx666'

@@ -1,0 +1,28 @@
+name: On the Road Again (Nomad)
+type: feat
+img: icons/environment/settlement/tent.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You are proficient with land vehicles and tinker’s tools. You can use
+      tinker’s tools to repair a land vehicle you a land vehicle you have
+      traveled in for at least 1 month, and gain an expertise die on any checks
+      made to do so. Additionally, you gain an expertise die on checks made to
+      control or navigate a land vehicle.&nbsp;</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: cr9hugup18fuibak
+_key: '!items!cr9hugup18fuibak'

@@ -1,0 +1,71 @@
+name: Critical Evaluation
+type: feat
+img: icons/skills/trades/academics-study-reading-book.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>Drawing upon a lifetime of study, you leap to accurate conclusions with
+      only preliminary findings.</p><p>As a bonus action you may spend your
+      inspiration to quickly evaluate a creature or item you can see and
+      accurately determine one objective attribute of your choice.</p><p>When
+      evaluating a creature in this way, you may determine its resistances,
+      immunities, vulnerabilities, what languages it speaks, or its Armor
+      Class.</p><p>When evaluating an item in this way, you may determine if it
+      is magical, poisonous, cursed, trapped, or its approximate value.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 20nogjonkdt7xvzg
+_key: '!items!20nogjonkdt7xvzg'

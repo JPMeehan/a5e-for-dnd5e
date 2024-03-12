@@ -1,0 +1,32 @@
+name: Magic Adept (Magic Adept Orc)
+type: feat
+img: icons/magic/symbols/runes-star-pentagon-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You are born with magic coursing through your veins, and are able to
+      utilize it in a number of ways. You learn one cantrip of your choice from
+      the wizard spell list. At 3rd level, choose one 1st- or 2nd-level spell
+      from the wizard spell list. You can cast the chosen spell without any
+      material components once per long rest. A 1st-level spell chosen this way
+      can be cast at 2nd-level using this trait, if the spell allows. Your
+      spellcasting ability for this trait is the same as the ability score used
+      in the spellcasting class in which you have the highest level, or Charisma
+      if you have no levels in a spellcasting class.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: izfbyta7ufd7fdum
+_key: '!items!izfbyta7ufd7fdum'

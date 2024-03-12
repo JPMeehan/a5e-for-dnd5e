@@ -1,0 +1,101 @@
+folder: null
+name: Roll
+type: feat
+img: icons/magic/earth/construct-stone.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p class="Indent1">You can use a bonus action to curl into a boulder, or
+      an action to uncurl. While in boulder form your Speed is reduced to 0, and
+      you cannot use a shield, make attacks, use your arms, or cast spells with
+      seen components.</p>
+
+      <p class="Indent1">While in boulder form you can use an action to roll
+      yourself in a straight line up to 30 feet, or 60 feet down a decline.
+      While rolling you can attempt to enter the spaces of creatures up to one
+      size larger than you, forcing each to make a Dexterity&nbsp;<span
+      class="freelinking-link">saving throw</span> against your maneuver DC. On
+      a failure, a creature or object takes bludgeoning damage equal to 1d4 +
+      your Strength modifier. If a creature succeeds on its saving throw, you do
+      not enter its space and your movement stops.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/earth/construct-stone.webp
+    origin: Item.bdxw1stm6pqbbqf3
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xAZy2nS4T0rzOq4J
+    transfer: false
+    name: Boulder Speed
+    _id: 7AbkKRK4L9x3g2wo
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '0'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!bdxw1stm6pqbbqf3.7AbkKRK4L9x3g2wo'
+flags: {}
+_id: bdxw1stm6pqbbqf3
+_key: '!items!bdxw1stm6pqbbqf3'

@@ -1,0 +1,26 @@
+name: Mighty Attacks (Orc)
+type: feat
+img: icons/weapons/axes/axe-battle-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>When you score a critical hit with a melee weapon attack, you can roll
+      one of the weapon’s damage dice an additional time and add it to the extra
+      damage of the critical hit.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: yca3krmolgs6ne6s
+_key: '!items!yca3krmolgs6ne6s'

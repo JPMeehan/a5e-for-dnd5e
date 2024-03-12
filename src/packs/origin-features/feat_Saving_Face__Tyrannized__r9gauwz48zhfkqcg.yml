@@ -1,0 +1,29 @@
+name: Saving Face (Tyrannized)
+type: feat
+img: icons/environment/settlement/watchtower-silhouette-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You are careful not to show weakness in front of others for fear of
+      losing status. If you miss with an attack roll or fail an ability check,
+      you can gain a bonus to the roll equal to the number of allies you can see
+      within 30 feet of you (maximum +3), possibly changing a failure into a
+      success. Once you use this trait, you cannot do so again until you finish
+      a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: r9gauwz48zhfkqcg
+_key: '!items!r9gauwz48zhfkqcg'

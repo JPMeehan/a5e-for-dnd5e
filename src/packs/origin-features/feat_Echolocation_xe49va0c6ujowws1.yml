@@ -1,0 +1,57 @@
+folder: null
+name: Echolocation
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>While you are not&nbsp;<span class="freelinking-link">deafened</span>,
+      you have blindsight with a range of 60 feet. You count as being able to
+      see targets within the range of your echolocation.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/item-bag.svg
+    origin: Item.xe49va0c6ujowws1
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Blindsight
+    _id: sWv1kQNA2rxfrcIo
+    changes:
+      - key: system.attributes.senses.blindsight.distance
+        value: '60'
+        mode: 2
+        priority: null
+      - key: system.attributes.senses.blindsight.otherwiseBlind
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!xe49va0c6ujowws1.sWv1kQNA2rxfrcIo'
+flags: {}
+_id: xe49va0c6ujowws1
+_key: '!items!xe49va0c6ujowws1'

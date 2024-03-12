@@ -1,0 +1,26 @@
+name: Supply and Demand (Trader)
+type: feat
+img: icons/commodities/currency/coins-assorted-mix-silver.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: background
+    subtype: ''
+  description:
+    value: >-
+      <p>When you buy a trade good and sell it elsewhere to a community in need
+      of that good, you gain a 10% bonus to its sale price for every 100 miles
+      between the buy and sell location (maximum of 50%)</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: p8e5aagbag1trkf7
+_key: '!items!p8e5aagbag1trkf7'

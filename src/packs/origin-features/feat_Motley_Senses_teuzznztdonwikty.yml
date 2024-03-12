@@ -1,0 +1,56 @@
+folder: null
+name: Motley Senses
+type: feat
+img: icons/magic/perception/eye-slit-red-orange.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You are proficient in Perception and gain an&nbsp;<span
+      class="freelinking-link">expertise die</span> on Perception checks.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/perception/eye-slit-red-orange.webp
+    origin: Item.teuzznztdonwikty
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Motley Senses
+    _id: 09mpgOX7mMoybK7A
+    changes:
+      - key: system.skills.prc.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.skills.prc.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!teuzznztdonwikty.09mpgOX7mMoybK7A'
+flags: {}
+_id: teuzznztdonwikty
+_key: '!items!teuzznztdonwikty'

@@ -1,0 +1,31 @@
+name: Detect Faith (Godbound)
+type: feat
+img: icons/environment/settlement/church.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You are trained to detect even the most subtle indications of a
+      person’s religious perspective. After you speak with a person for at least
+      1 minute, you can use an action to make either an Insight or Religion
+      check opposed by their Deception check. On a success, you learn the
+      following information about them:</p><ul><li><p>Whether they have a lower
+      Wisdom score than yourself.</p></li><li><p>Whether they are religious; if
+      so, you also learn their faith.</p></li><li><p>Whether they have class
+      levels in the cleric or herald class.</p></li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 7qh20cfjg2wykubd
+_key: '!items!7qh20cfjg2wykubd'

@@ -1,0 +1,34 @@
+name: War Horde Weapon Training (Warhordling)
+type: feat
+img: icons/environment/settlement/watchtower-wood.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Your time spent in the war horde trained you in the ways of warfare,
+      particularly when you’re ill-equipped. You are proficient with two martial
+      weapons of your choice and with light armor. You are also able to cobble
+      together functional if somewhat ramshackle weapons from whatever you have
+      on hand. You can create a ramshackle version of any simple weapon (except
+      crossbows) with 10 minutes of work if you have access to simple materials
+      such as common household items, the rusted scraps found among
+      battlefields, or the bounty of the forest. Ramshackle weapons created in
+      this way function identically to their normal counterparts, except their
+      gold value is always 0 and they break and become useless on a critical
+      fumble.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 8ksideg2rhcm76dh
+_key: '!items!8ksideg2rhcm76dh'

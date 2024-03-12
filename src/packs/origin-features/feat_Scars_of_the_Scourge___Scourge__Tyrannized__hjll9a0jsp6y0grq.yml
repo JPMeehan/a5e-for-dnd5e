@@ -1,0 +1,28 @@
+name: Scars of the Scourge - Scourge (Tyrannized)
+type: feat
+img: icons/environment/settlement/watchtower-silhouette-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>As a bonus action, you can enhance the next attack you make this turn.
+      If that attack hits, it deals extra damage of the chosen type equal to
+      your proficiency bonus. However, the sting of the scourge lessens after
+      the initial strike, so after you deal this extra damage to a creature,
+      this trait cannot deal extra damage to it during the same combat.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: hjll9a0jsp6y0grq
+_key: '!items!hjll9a0jsp6y0grq'

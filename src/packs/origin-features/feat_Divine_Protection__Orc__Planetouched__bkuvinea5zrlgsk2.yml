@@ -1,0 +1,51 @@
+name: Divine Protection (Orc, Planetouched)
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+effects:
+  - icon: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+    origin: Item.bkuvinea5zrlgsk2
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Divine Protection
+    _id: 4xRYT16mJkMFXmBK
+    changes:
+      - key: system.traits.damageResistances
+        value: '["radiant"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!bkuvinea5zrlgsk2.4xRYT16mJkMFXmBK'
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: <p>You have resistance to radiant damage. </p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: bkuvinea5zrlgsk2
+_key: '!items!bkuvinea5zrlgsk2'

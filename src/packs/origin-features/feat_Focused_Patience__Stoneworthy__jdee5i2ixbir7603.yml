@@ -1,0 +1,28 @@
+name: Focused Patience (Stoneworthy)
+type: feat
+img: icons/environment/wilderness/arch-stone.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Once between long rests, you can do one of the
+      following:</p><ul><li><p>Concentrate: You gain an expertise die on a
+      Constitution saving throw made to maintain
+      concentration.</p></li><li><p>Persist: You may reattempt a failed ability
+      check.</p></li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: jdee5i2ixbir7603
+_key: '!items!jdee5i2ixbir7603'

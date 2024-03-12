@@ -1,0 +1,29 @@
+name: Chromatic Dragon’s Boon
+type: feat
+img: icons/creatures/reptiles/dragon-horned-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Chromatic dragons raise their warriors to shock and terrify their
+      enemies. You can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.crjcunjc1r21w2mv]{Fear} without
+      the need for material components once per long rest. Your spellcasting
+      ability for this spell is Charisma. Until you reach 5th level, the area of
+      this casting of the spell is limited to a 15-foot cone.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: u9tiyop8rzgsbk1h
+_key: '!items!u9tiyop8rzgsbk1h'

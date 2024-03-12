@@ -1,0 +1,25 @@
+folder: null
+name: Poison Tolerance
+type: feat
+img: icons/skills/toxins/cup-goblet-poisoned-spilled.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You are immune to ingested&nbsp;<span
+      class="freelinking-link">poison</span>.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 44hvvegvyc15eikf
+_key: '!items!44hvvegvyc15eikf'

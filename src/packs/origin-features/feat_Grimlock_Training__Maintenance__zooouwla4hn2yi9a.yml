@@ -1,0 +1,56 @@
+folder: null
+name: Grimlock Training (Maintenance)
+type: feat
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Specialized training has equipped you to aid your community. You gain
+      proficiency in the Engineering skill and with tinker&rsquo;s tools.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/item-bag.svg
+    origin: Item.zooouwla4hn2yi9a
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Maintenance Training
+    _id: 7ktWwHyXL3Xu505m
+    changes:
+      - key: system.skills.eng.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.proficiencies.tools
+        value: '["tinkersTools"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!zooouwla4hn2yi9a.7ktWwHyXL3Xu505m'
+flags: {}
+_id: zooouwla4hn2yi9a
+_key: '!items!zooouwla4hn2yi9a'

@@ -1,0 +1,29 @@
+name: Essence Dragon’s Boon
+type: feat
+img: icons/creatures/reptiles/dragon-horned-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Essence Dragons ensure that their guardians can easily commune with the
+      land and the spirits within. You know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.5o1rvwzxmsh5ji9i]{Druidcraft}
+      cantrip. In addition, your diplomatic understanding extends towards the
+      creatures of the land and the spirits within it. You gain an expertise die
+      on Charisma checks made to influence beast and celestial creatures.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: wr37m1zvhph1xgbg
+_key: '!items!wr37m1zvhph1xgbg'

@@ -1,0 +1,27 @@
+name: Failure
+type: feat
+img: icons/skills/movement/arrows-up-trio-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>Every failed attempt is a chance for growth and each time you fall you
+      stand up stronger. You gain inspiration whenever the Narrator calls for
+      you to make an ability check, attack roll, or saving throw and the final
+      result of the d20 roll is a natural 1.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: govv1u91hpww2k1z
+_key: '!items!govv1u91hpww2k1z'
