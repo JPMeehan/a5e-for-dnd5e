@@ -247,6 +247,8 @@ A5E_CONFIG.DND5E.featureTypes = {
       secretArcana: 'DND5E.ClassFeature.SecretArcana',
       /** Wizard */
       electiveStudy: 'DND5E.ClassFeature.ElectiveStudy',
+      /** Witch */
+      magicalMystery: 'DND5E.ClassFeature.MagicalMystery',
     },
   },
 };

@@ -304,6 +304,10 @@ function processRolls(rolls, action, system) {
         break;
       case 'healing':
         system.actionType = actionType('heal', system.actionType);
+        if (!r.formula) {
+          console.warn('No formula found in', action.name);
+          continue;
+        }
         formula = r.formula.replace(/\w+.mod/, 'mod'); // re.sub("@w+.mod", "@mod", r.formula);
         system.damage.parts.push([formula, abbr(r.healingType ?? 'healing')]);
         break;
@@ -506,10 +510,13 @@ function featureTypes(system) {
     // savantTrick: 'Savant Trick', // No consistent naming scheme
     /** Sorcerer */
     arcaneInnovation: 'Innovation',
+    metamagic: 'Metamagic',
     /** Warlock (note: Eldritch Invocation is base 5e) */
     secretArcana: 'Secrets',
     /** Wizard */
     electiveStudy: 'Elective',
+    /** Witch */
+    magicalMystery: 'Mystery',
   };
 
   let subtype = '';
