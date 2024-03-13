@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.5 Origin and Class Features
+
+- Filled in the Class Features and Origin Features packs
+  - Source data is poorly structured, this will need significant manual updates
+- Added Magical Mystery as valid feature subtype
+
+## 0.8.4
+
+- Fixed bug in build process that failed to include the assembled packs in the distribution
+
 ## 0.8.3 Combat Maneuvers
 
 - Added `magical` and `concentration` as valid maneuver properties
