@@ -1,0 +1,26 @@
+name: Cascading Wrath
+type: feat
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose a creature within 20 feet of your position. It must make a
+      Dexterity save against your maneuver DC. On a failure, it takes radiant
+      damage equal to 1d6 + your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  properties: []
+  requirements: Vengeance Bringer feat
+  recharge:
+    value: null
+    charged: true
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+effects: []
+flags: {}
+folder: null
+_id: m4pmcl16cjscfebt
+_key: '!items!m4pmcl16cjscfebt'

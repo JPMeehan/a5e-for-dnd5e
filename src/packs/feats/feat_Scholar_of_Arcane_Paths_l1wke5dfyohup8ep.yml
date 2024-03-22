@@ -1,0 +1,54 @@
+name: Scholar of Arcane Paths
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to draw upon the magic of the natural world to bolster
+      your magical knowledge, and you can in turn use this knowledge to improve
+      your capabilities in the wilderness. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>While in natural surroundings, spells you cast from the Knowledge and
+      Scrying schools have double their normal duration.</p>
+
+      </li>
+
+      <li>
+
+      <p>While in natural surroundings, you always know which way is north,
+      which way to the nearest forest, which way to the nearest community of at
+      least 500 humanoids, how long until sunrise (if it is night) or sunset (if
+      it is day), and the location of the nearest source of potable fresh
+      water.</p>
+
+      </li>
+
+      <li>
+
+      <p>Spells that you cast which deal damage deal additional damage equal to
+      your proficiency bonus when cast on your Studied Adversaries.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  properties: []
+  requirements: Arcane Scout feat
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: l1wke5dfyohup8ep
+_key: '!items!l1wke5dfyohup8ep'

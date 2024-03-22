@@ -1,0 +1,30 @@
+name: Fight as a Pack
+type: feat
+img: icons/creatures/mammals/humanoid-wolf-dog-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your animal companion gains an expertise die on attack rolls if you are
+      within 60 feet and not incapacitated, and you gain an expertise die on
+      attack rolls if at least one of your animal companions is within 5 feet of
+      the target and not incapacitated. If you can see your animal companion
+      when it fails a saving throw of a type you are proficient in, you may use
+      your reaction to add your proficiency bonus to the roll, potentially
+      turning it into a success.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Beast Friend feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: ww2klagzredbwig6
+_key: '!items!ww2klagzredbwig6'

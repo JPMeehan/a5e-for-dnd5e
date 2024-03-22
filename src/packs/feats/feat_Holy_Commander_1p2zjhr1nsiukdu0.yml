@@ -1,0 +1,30 @@
+name: Holy Commander
+type: feat
+img: icons/skills/melee/weapons-crossed-poleaxes-white.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>If you possess the Sacred Aura or Improved Sacred Aura abilities, the
+      radius of those auras is equal to your Commanding Presence aura. If you do
+      not possess either ability, you may spend 4 exertion points to gain the
+      benefit of one aura from the Sacred Aura herald ability. This aura lasts
+      until you finish a short or long rest.</p>
+
+      <p>The radius of your Commanding Presence increases by 10 feet.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Divine Attack feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 1p2zjhr1nsiukdu0
+_key: '!items!1p2zjhr1nsiukdu0'

@@ -1,0 +1,28 @@
+name: Stalwart
+type: feat
+img: icons/magic/life/heart-shadow-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Uncommonly resilient, you gain the following
+      benefits:</p><ul><li><p>Your Constitution score increases by 1, to a
+      maximum of 20.</p></li><li><p>You regain an additional number of hit
+      points equal to double your Constitution modifier (minimum 2) whenever you
+      roll a hit die to regain hit points.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 3630fcjtfk687ff8
+_key: '!items!3630fcjtfk687ff8'

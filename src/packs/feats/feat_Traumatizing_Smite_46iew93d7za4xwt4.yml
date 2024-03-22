@@ -1,0 +1,28 @@
+name: Traumatizing Smite
+type: feat
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>The smite damage becomes force damage and the target must make a
+      Charisma saving throw against your spell save DC or be teleported to an
+      open space of your choice within 10 feet and stunned until the end of its
+      next turn. A creature that succeeds is slowed until the end of its next
+      turn, but is not teleported or stunned.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  properties: []
+  requirements: Wrathful Bargainer feat
+  recharge:
+    value: null
+    charged: true
+img: icons/skills/melee/strike-flail-destructive-yellow.webp
+effects: []
+flags: {}
+folder: null
+_id: 46iew93d7za4xwt4
+_key: '!items!46iew93d7za4xwt4'

@@ -1,0 +1,54 @@
+name: World Speaker
+type: feat
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Having heard the songs and sagas of the wild, you have reached a point
+      where you wish to add your own chapters and verses to them. You gain the
+      following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>If a spell appears on both the bard and druid spell lists (including
+      any modifications to either list from your bard and/or druid archetypes)
+      you gain access to it when you gain a spell slot of the appropriate level
+      and may cast it as a druid spell.</p>
+
+      </li>
+
+      <li>
+
+      <p>You learn the Song of Rest Adventuring Trick if you do not already know
+      it. If you do, select another Adventuring Trick you qualify for in its
+      place.</p>
+
+      </li>
+
+      <li>
+
+      <p>The ranges of your Bardic Inspiration and Battle Hymn abilities are
+      doubled while you are in natural surroundings.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Storyteller'
+    license: OGL 1.0a
+  properties: []
+  requirements: Tale Spinner feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: pvb1oearlz95mx9j
+_key: '!items!pvb1oearlz95mx9j'

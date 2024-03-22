@@ -1,0 +1,48 @@
+name: Showman
+type: feat
+img: icons/creatures/unholy/demon-fire-imp.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have combined robust leadership ability and tactical training with
+      a talent for inspirational communication, giving your commands and
+      exhortations an artistic flair. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>Your Charisma score increases by 1, to a maximum of 20.</li>
+
+      <li>You gain proficiency with the Perform skill fi you don't already have
+      it, and an expertise die if you do. Your maximum expertise die size for
+      perform also increases to a d10.</li>
+
+      <li>When you use Rallying Surge to heal a creature, you can also cast a
+      bard spell with a singletarget and a casting time of one action on it as
+      part of the same bonus action. Once you have used this feature, you can't
+      do so again until you finish a long rest. If your Rallying Surge affects
+      more than one creature, the spell's effects are replicated on each
+      creature you targeted with Rallying Surge. Half of your marshal levels
+      count as bard levels for the purpose of determining which Battle Hymns you
+      can learn.</li>
+
+      <li>Half of your bard levels count as marshal levels for the purpose of
+      determining the range of your Commanding Presence feature.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Master of Ceremonies'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in Bard, 3 levels in Marshal
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 3fvr2znvmiy6tq36
+_key: '!items!3fvr2znvmiy6tq36'

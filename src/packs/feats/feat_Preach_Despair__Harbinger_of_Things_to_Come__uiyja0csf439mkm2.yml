@@ -1,0 +1,68 @@
+name: Preach Despair (Harbinger of Things to Come)
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>A hostile creature within 60 feet of you suffers a level of strife.
+      Creatures with an opposite alignment from yours or that worship a greater
+      entity that has an opposite alignment suffer two levels of strife instead.
+      A creature cannot suffer more than two levels of strife from Preach
+      Despair in the same 24 hours.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: uiyja0csf439mkm2
+_key: '!items!uiyja0csf439mkm2'

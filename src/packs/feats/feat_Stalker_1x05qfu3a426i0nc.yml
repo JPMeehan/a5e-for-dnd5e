@@ -1,0 +1,64 @@
+name: Stalker
+type: feat
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have combined the methods and tricks of two of the most elusive
+      skill sets in the world. Attempting to locate you when you do not wish to
+      be found is a frustrating endeavor. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>Your Dexterity score increases by 1, to a maximum of 20.</p>
+
+      </li>
+
+      <li>
+
+      <p>If you are not proficient with the Stealth skill, you become proficient
+      now, and you gain an expertise die in Stealth. Your expertise die in
+      Stealth can be upgraded from a d8 to a d10 in this way.</p>
+
+      </li>
+
+      <li>
+
+      <p>You acquire the Stealth skill specialty of your choice.</p>
+
+      </li>
+
+      <li>
+
+      <p>You can use your Sneak Attack ability with any one-handed melee weapon,
+      not only ones with the finesse property.</p>
+
+      </li>
+
+      <li>
+
+      <p>If you have been in a city for at least a week continuously, you gain
+      the benefits of your Favored Terrain feature while within its limits.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in ranger, 3 levels in rogue
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 1x05qfu3a426i0nc
+_key: '!items!1x05qfu3a426i0nc'

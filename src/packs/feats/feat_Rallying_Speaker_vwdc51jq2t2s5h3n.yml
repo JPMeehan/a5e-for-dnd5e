@@ -1,0 +1,30 @@
+name: Rallying Speaker
+type: feat
+img: icons/sundries/flags/banner-flag-red-white.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You are capable of awe-inspiring leadership, and that leadership gives
+      your allies strength. When you spend 10 minutes speaking inspirationally,
+      you can choose up to 6 friendly creatures (including yourself) within 30
+      feet that can hear and understand you. Each creature gains temporary hit
+      points equal to your level + your Charisma modifier. A creature can’t gain
+      temporary hit points from this feat again until it has finished a short or
+      long rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Charisma 13 or higher
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: vwdc51jq2t2s5h3n
+_key: '!items!vwdc51jq2t2s5h3n'

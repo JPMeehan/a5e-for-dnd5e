@@ -1,0 +1,28 @@
+name: Attentive
+type: feat
+img: icons/creatures/eyes/human-single-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Always aware of your surroundings, you gain the following
+      benefits:</p><ul><li><p>When rolling initiative you gain a +5
+      bonus.</p></li><li><p>You can only be surprised if you are
+      unconscious.</p></li><li><p>A creature attacking you does not gain
+      advantage from being hidden from you or unseen by you.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: y5ai3mngb5a2u0eb
+_key: '!items!y5ai3mngb5a2u0eb'

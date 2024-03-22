@@ -7,6 +7,7 @@
     "build:maneuvers": "npm run build:A5Eto5E -- maneuvers && node ./tools/folderBuild/maneuvers.mjs",
     "build:originFeatures": "npm run build:A5Eto5E -- backgroundFeatures && npm run build:A5Eto5E -- cultureFeatures && npm run build:A5Eto5E -- destinyFeatures && npm run build:A5Eto5E -- heritageFeatures && node ./tools/folderBuild/origin-features.mjs",
     "build:classes": "npm run build:A5Eto5E -- classFeatures",
+    "build:feats": "npm run build:A5Eto5E -- feats",
     "build:css": "sass ./src/styles/index.scss a5e.css",
     "build:js": "rollup -c",
     "build": "npm run build:css && npm run build:js",

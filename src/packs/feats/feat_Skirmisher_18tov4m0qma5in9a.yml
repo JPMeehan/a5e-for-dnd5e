@@ -1,0 +1,30 @@
+name: Skirmisher
+type: feat
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You've trained yourself to be especially mobile, no matter the
+      situation. You gain the following benefits:</p><ul><li><p>Your Speed
+      increases by 10 feet.</p></li><li><p>You can Dash through difficult
+      terrain without requiring additional
+      movement.&nbsp;</p></li><li><p>Whenever you make an attack against a
+      creature, you don’t provoke opportunity attacks from that creature until
+      the end of your turn.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 18tov4m0qma5in9a
+_key: '!items!18tov4m0qma5in9a'

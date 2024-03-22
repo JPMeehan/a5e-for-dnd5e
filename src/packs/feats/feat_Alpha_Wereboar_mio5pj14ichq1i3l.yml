@@ -1,0 +1,35 @@
+name: Alpha Wereboar
+type: feat
+img: icons/creatures/mammals/livestock-pig-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have completely mastered the boar within. You can transform one
+      additional time without suffering a level of fatigue. When you choose to
+      tame the beast in an involuntary transformation, roll 1d8; you gain
+      control over that many hours. While you are transformed, you gain the
+      following features.</p><p><strong>Deadly Tusks</strong>. The damage of
+      your tusks increases to 1d8.</p><p><strong>Full Moon Defense</strong>. You
+      gain immunity against slashing, bludgeoning, and piercing damage from
+      weapons that are not magical or silvered.</p><p><strong>Full Moon
+      Ferocity</strong>. If you reduce a creature to 0 hit points with a tusks
+      attack, you regain your use of the Relentless feature. Once you use this
+      feature, you cannot use it again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Swineheart
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: mio5pj14ichq1i3l
+_key: '!items!mio5pj14ichq1i3l'

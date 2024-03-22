@@ -1,0 +1,81 @@
+name: Maestro of Battle
+type: feat
+img: icons/magic/control/debuff-energy-hold-levitate-green.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p><span style="font-size: 10.5pt;">You have become a truly inspiring
+      leader, resilient, inspirational, and deadly to your foes. You are almost
+      certainly loved by your allies and a force of terror to your enemies.
+      </span>You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You become proficient with either Wisdom or Dexterity saving
+      throws.</p>
+
+      </li>
+
+      <li>
+
+      <p><span style="font-size: 10.5pt;">When you use Mark Foe, you can spend a
+      use of Bardic Inspiration to enhance it in one of the following
+      ways:</span></p>
+
+      <ul>
+
+      <li>
+
+      <p>Its range increases to 120 feet for this use.</p>
+
+      </li>
+
+      <li>
+
+      <p>The target is outlined in a <em>faerie fire</em> effect until the start
+      of your next turn.</p>
+
+      </li>
+
+      <li>The target takes an additional 1d4 psychic damage from weapon attacks
+      or spells from you or your allies.</li>
+
+      </ul>
+
+      </li>
+
+      <li><span style="font-size: 10.5pt;">Your Battle Hymn feature&rsquo;s
+      range increases to the range of your Commanding Presence.</span></li>
+
+      <li>
+
+      <p>When you choose the targets for a Battle Hymn, you can cause all
+      creatures affected by it to either heal a number of hit points equal to
+      your bardic inspiration die or take an equal amount of psychic damage.
+      Once you have used this feature, you can&rsquo;t do so again until you
+      finish a short or long rest.</p>
+
+      </li>
+
+      </ul>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Master of Ceremonies'
+    license: OGL 1.0a
+  properties: []
+  requirements: ' Ringleader feat'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: nwyvw9qitr90v2br
+_key: '!items!nwyvw9qitr90v2br'

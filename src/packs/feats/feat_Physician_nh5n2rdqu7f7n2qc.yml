@@ -1,0 +1,31 @@
+name: Physician
+type: feat
+img: icons/containers/bags/pouch-leather-brown-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You are a capable healer, able to mend wounds and treat ailments. You
+      gain the following benefits:</p><ul><li><p>When you use a healer’s satchel
+      to stabilize a dying creature, it regains a number of hit points equal to
+      your Wisdom modifier.</p></li><li><p>You can use an action and spend one
+      use of a healer’s satchel to tend to a creature. The creature regains 1d6
+      + 4 hit points, plus additional hit points equal to its maximum number of
+      hit dice. The creature can’t regain hit points from this feat again until
+      it finishes a short or long rest.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: nh5n2rdqu7f7n2qc
+_key: '!items!nh5n2rdqu7f7n2qc'

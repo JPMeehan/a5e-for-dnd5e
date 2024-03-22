@@ -1,0 +1,34 @@
+name: Power Caster
+type: feat
+img: icons/magic/symbols/rune-sigil-red-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have advanced offensive capabilities with certain kinds of spells,
+      gaining the following benefits:</p><ul><li><p>The range is doubled for any
+      spell you cast that requires a spell attack roll.</p></li><li><p>You
+      ignore half cover and three-quarters cover when making a ranged spell
+      attack.</p></li><li><p>Choose one cantrip that requires an attack roll.
+      The cantrip must be from the bard, cleric, druid, herald, sorcerer,
+      warlock, or wizard spell list. You learn this cantrip and your
+      spellcasting ability for it depends on the spell list you chose from:
+      Intelligence for wizard, Wisdom for cleric or druid, Charisma for bard,
+      herald, or sorcerer, or your choice of Intelligence, Wisdom, or Charisma
+      for warlock.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: The ability to cast at least one spell
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 455yhvx6zwo0otsc
+_key: '!items!455yhvx6zwo0otsc'

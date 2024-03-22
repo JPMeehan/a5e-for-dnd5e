@@ -1,0 +1,34 @@
+name: Untamed
+type: feat
+img: icons/creatures/abilities/bull-head-horns-glowing.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>The untamed harness the berserker’s rage while in the wild shapes of
+      the druid, combining a mortal’s blind fury with nature’s infinite
+      unbridled wrath. You gain the following benefits: </p><ul><li><p>Your
+      Strength or Wisdom score increases by 1, to a maximum of
+      20.</p></li><li><p>You may enter a rage and assume a wild shape using the
+      same bonus action.</p></li><li><p>Any temporary hit points you gain from
+      assuming a wild shape while raging become rage hit points
+      instead.</p></li><li><p>You may cast and concentrate on druid spells with
+      a range of Self or Touch while raging.</p></li><li><p>While using a wild
+      shape, you can use Furious Critical with attacks made using natural
+      weapons.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in berserker, 3 levels in druid (Skinchanger archetype)
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ealdf5cpl4cd3xul
+_key: '!items!ealdf5cpl4cd3xul'

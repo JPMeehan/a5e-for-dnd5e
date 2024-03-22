@@ -1,0 +1,27 @@
+name: Pack Spells
+type: feat
+img: icons/creatures/mammals/humanoid-wolf-dog-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you cast a spell that targets yourself, you can have it also
+      target your animal companion as long as they are within 60 feet of you.
+      This included spells that can normally only target self, and ignores the
+      normal range of the spell.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Fight as a Pack feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: j9sr9wrgs5d16fh2
+_key: '!items!j9sr9wrgs5d16fh2'

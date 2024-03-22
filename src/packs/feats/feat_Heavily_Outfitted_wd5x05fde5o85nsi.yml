@@ -1,0 +1,26 @@
+name: Heavily Outfitted
+type: feat
+img: icons/environment/people/infantry-armored.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You’re trained to use heavy armor efficiently, gaining the following
+      benefits:</p><ul><li><p>Your Strength score increases by 1, to a maximum
+      of 20.</p></li><li><p>You gain proficiency with heavy armor.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Proficiency with medium armor
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: wd5x05fde5o85nsi
+_key: '!items!wd5x05fde5o85nsi'

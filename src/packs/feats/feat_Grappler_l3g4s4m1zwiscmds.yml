@@ -1,0 +1,30 @@
+name: Grappler
+type: feat
+img: icons/magic/control/debuff-chains-ropes-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You’ve developed the skills necessary to hold your own in
+      close-quarters grappling. You gain the following
+      benefits:</p><ul><li><p>You have advantage on attack rolls against a
+      creature you are grappling.</p></li><li><p>You can use your action to try
+      to pin a creature grappled by you. The creature makes a Strength or
+      Dexterity saving throw against your maneuver DC. On a failure, you and the
+      creature are both restrained until the grapple ends.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Strength 13 or higher
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: l3g4s4m1zwiscmds
+_key: '!items!l3g4s4m1zwiscmds'

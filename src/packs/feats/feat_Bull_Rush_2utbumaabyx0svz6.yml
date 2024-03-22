@@ -1,0 +1,71 @@
+name: Bull Rush
+type: feat
+img: icons/skills/melee/shield-block-bash-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You rush into combat, following your charge with a brutal
+      attack.</p><p>When you take the Dash action and move at least 10 feet in a
+      straight line toward a target, you can immediately take a bonus action to
+      perform one of the following:</p><p><strong><em>Attack</em>. </strong>You
+      can make one melee weapon attack, dealing an extra 5 damage on a
+      hit.</p><p><strong><em>Shove</em>. </strong>You can use the Shove
+      maneuver. On a success, you push the target up to at least 10 feet away
+      from you.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 2utbumaabyx0svz6
+_key: '!items!2utbumaabyx0svz6'

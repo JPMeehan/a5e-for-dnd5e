@@ -1,0 +1,71 @@
+name: Arrow Enchanter
+type: feat
+img: icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Skilled eldritch archers can subvert their arcane power to enchant the
+      conjured arrows with rings of eldritch symbols and energy that form around
+      their weapons as they fire.&nbsp;</p><p>Whenever you make a ranged weapon
+      attack, you may choose to expend a 1st-level spell slot or higher to
+      enhance the attack to be empowered or unerring. You cannot enhance more
+      than one attack in a turn in this way.</p><p><strong><em>Empowered.</em>
+      </strong>An empowered shot deals an additional 2d6 force damage, and an
+      additional 1d6 force damage for each spell slot level above
+      1st.&nbsp;</p><p><strong><em>Unerring.</em></strong> An unerring shot
+      gains a +2 bonus to the attack roll, and an additional +2 bonus for each
+      spell slot level above 1st.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Eldritch Archer feat
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ti05pvx5nxqxuppn
+_key: '!items!ti05pvx5nxqxuppn'

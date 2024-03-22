@@ -1,0 +1,28 @@
+name: Righteous Fury
+type: feat
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You regain a spent use of Divine Smite. In order to use this feature,
+      you must have scored a critical hit against a creature with a CR equal to
+      at least half your character level. Once you have used this a number of
+      times equal to your proficiency bonus, it does not function again until
+      you finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  properties: []
+  requirements: Wrathful Avenger feat
+  recharge:
+    value: null
+    charged: true
+img: icons/magic/light/beam-horizon-strike-yellow.webp
+effects: []
+flags: {}
+folder: null
+_id: d9zcbsmni2zapgrp
+_key: '!items!d9zcbsmni2zapgrp'

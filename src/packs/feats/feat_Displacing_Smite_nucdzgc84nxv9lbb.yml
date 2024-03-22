@@ -1,0 +1,28 @@
+name: Displacing Smite
+type: feat
+img: icons/skills/movement/arrow-upward-yellow.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>The smite damage becomes force damage and the target must make a
+      Charisma saving throw against your spell save DC or be teleported to an
+      open space of your choice within 10 feet and stunned until the end of its
+      next turn. A creature that succeeds is slowed until the end of its next
+      turn, but is not teleported or stunned.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: nucdzgc84nxv9lbb
+_key: '!items!nucdzgc84nxv9lbb'

@@ -1,0 +1,33 @@
+name: Living Stampede
+type: feat
+img: icons/creatures/abilities/bull-head-horns-glowing.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>The untamed have a connection with nature and the very world itself can
+      feel the heat of their fury. Whenever you enter a rage you may choose up
+      to a number of creatures equal to your Wisdom modifier within 60 feet that
+      are beasts, fey, or plants. These chosen creatures gain the following
+      benefits for as long as you rage, but are unable to take the Fall Back
+      reaction: </p><ul><li><p>Advantage on Strength checks and Strength saving
+      throws.</p></li><li><p>Resistance to bludgeoning, piercing, and slashing
+      damage.</p></li><li><p>Temporary hit points equal to your
+      level.</p></li><li><p>A bonus to damage rolls equal to your proficiency
+      bonus.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Untamed feat
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: vvwb2gtvmy8x3kl8
+_key: '!items!vvwb2gtvmy8x3kl8'

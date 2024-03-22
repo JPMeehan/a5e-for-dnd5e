@@ -1,0 +1,30 @@
+name: Menacing Kata
+type: feat
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>While wielding an adept weapon, you can spend an action to perform a
+      display of supreme weapon prowess. Enemies within 30 feet who can see you
+      must make a Wisdom save against your maneuver DC or be rattled for one
+      minute. Creatures that fail their save by more than 5 are frightened
+      instead.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Scrapper'
+    license: OGL 1.0a
+  properties: []
+  requirements: Master of Combat feat
+  recharge:
+    value: null
+    charged: true
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+effects: []
+flags:
+  a5e:
+    placeTemplate: true
+folder: null
+_id: fixy2it43wh6s099
+_key: '!items!fixy2it43wh6s099'

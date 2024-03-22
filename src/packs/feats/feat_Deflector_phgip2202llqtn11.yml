@@ -1,0 +1,27 @@
+name: Deflector
+type: feat
+img: icons/skills/melee/swords-parry-block-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>When you are wielding a finesse weapon which you are proficient with
+      and are hit by a melee attack from another creature, you can use your
+      reaction to add your proficiency bonus to your Armor Class against that
+      attack, potentially turning the hit into a miss.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Dexterity 13 or higher
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: phgip2202llqtn11
+_key: '!items!phgip2202llqtn11'

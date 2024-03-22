@@ -1,0 +1,31 @@
+name: Mounted Warrior
+type: feat
+img: icons/environment/people/cavalry.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You are a skilled rider, especially adept at fighting from the back of
+      a mount. While mounted, you gain the following benefits:</p><ul><li><p>You
+      gain proficiency with the Lancer Strike maneuver and do not have to spend
+      exertion to activate it.</p></li><li><p>When your mount is targeted by an
+      attack, you can make yourself the attack’s target
+      instead.</p></li><li><p>When your mount makes a Dexterity saving throw
+      against an effect that deals half damage on a success, it takes no damage
+      on a success and half damage on a failure.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: vmc5fdef2lj0mmcr
+_key: '!items!vmc5fdef2lj0mmcr'

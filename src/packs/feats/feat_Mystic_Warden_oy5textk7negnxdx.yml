@@ -1,0 +1,64 @@
+name: Mystic Warden
+type: feat
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your fusion of innate and ideological power deepens, allowing you to
+      guard yourself against more powerful threats, manipulate pockets of
+      reality, and dazzle enemies with righteous luminescence.</p>
+
+      <p>You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You can spend 3 sorcery points as an action to create a protective
+      barrier around yourself. You gain temporary hit points equal to your
+      proficiency bonus times your Charisma modifier. While you have any of
+      these temporary hit points remaining, you have resistance to necrotic and
+      psychic damage.</p>
+
+      </li>
+
+      <li>
+
+      <p>As an action, you can spend 1 sorcery point to create an
+      extradimensional space that can hold a single object the size of a
+      greatsword or smaller. You may retrieve the item as a bonus action. You
+      may only have once such space created at a time.</p>
+
+      </li>
+
+      <li>
+
+      <p>You learn the <em>sacred flame</em> cantrip and the <em>guiding
+      bolt</em> spell. They count as herald spells for you.</p>
+
+      </li>
+
+      <li>
+
+      <p>You gain the following Empowered Smite option: Binding Smite</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: Arcane Sentinel feat
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: oy5textk7negnxdx
+_key: '!items!oy5textk7negnxdx'

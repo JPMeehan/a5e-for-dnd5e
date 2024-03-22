@@ -1,0 +1,30 @@
+name: Surgical Combatant
+type: feat
+img: icons/weapons/daggers/knife-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your knowledge of anatomy and physiology is a boon to your allies and a
+      bane to your foes. You gain the following benefits:</p><ul><li><p>You gain
+      proficiency with the Dangerous Strikes maneuver and do not have to spend
+      exertion to activate it.</p></li><li><p>You gain proficiency in Medicine.
+      If you are already proficient, you instead gain an expertise
+      die.</p></li><li><p>You gain an expertise die on Medicine checks made to
+      diagnose the cause of or treat wounds.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 3v3eg8ki8mwvkoc6
+_key: '!items!3v3eg8ki8mwvkoc6'

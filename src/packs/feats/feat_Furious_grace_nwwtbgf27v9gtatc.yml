@@ -1,0 +1,27 @@
+name: Furious grace
+type: feat
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>While raging and wearing light or no armor, you have advantage on
+      Dexterity ability checks and saving throws. If you fail a Strength or
+      Dexterity based ability check or saving throw while raging, you can use
+      your reaction to roll your martial arts die and add it to the total,
+      potentially turning it into a success.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Pugilist feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: nwwtbgf27v9gtatc
+_key: '!items!nwwtbgf27v9gtatc'

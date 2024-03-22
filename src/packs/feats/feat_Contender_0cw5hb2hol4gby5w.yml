@@ -1,0 +1,57 @@
+name: Contender
+type: feat
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your disparate training further expands your options in a fight, making
+      you into a lethal collection of battlefield surprises. You gain the
+      following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>When you score a critical hit, you may choose to forfeit the extra
+      damage and gain a point of exertion instead.</p>
+
+      </li>
+
+      <li>
+
+      <p>Choose a weapon you are proficient with. It becomes an adept weapon for
+      you.</p>
+
+      </li>
+
+      <li>
+
+      <p>Melee weapons you wield gain the Thrown property with a range of
+      20/40.</p>
+
+      </li>
+
+      <li>
+
+      <p>You can use a shield with the Martial Arts feature.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Scrapper'
+    license: OGL 1.0a
+  properties: []
+  requirements: Scrapper feat
+  recharge:
+    value: null
+    charged: true
+img: icons/skills/melee/sword-twirl-orange.webp
+effects: []
+flags: {}
+folder: null
+_id: 0cw5hb2hol4gby5w
+_key: '!items!0cw5hb2hol4gby5w'

@@ -16,7 +16,6 @@ switch (targetPack) {
   case 'cultureFeatures':
   case 'destinyFeatures':
   case 'heritageFeatures':
-  case 'feats':
   case 'paragonGifts':
     packPath = path.join('src', 'packs', 'origin-features');
     break;
@@ -29,12 +28,10 @@ switch (targetPack) {
   case 'classFeatures':
     packPath = path.join('src', 'packs', 'class-features');
     break;
-  case 'monsters':
-    packPath = path.join('src', 'packs', 'bestiary');
-    break;
   case 'roll-tables':
     packPath = path.join('src', 'packs', 'tables');
     break;
+  // feats, monsters, spells stay the same
 }
 
 let debugInfo = false;

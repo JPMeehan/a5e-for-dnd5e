@@ -1,0 +1,32 @@
+name: Powerful Attacker
+type: feat
+img: icons/skills/melee/strike-sword-slashing-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You’ve mastered wielding unwieldy weapons, using weight and momentum to
+      empower your strikes. You gain the following benefits:</p><ul><li><p>You
+      gain proficiency with the Cleaving Swing maneuver and do not have to spend
+      exertion to activate it. In addition, you can use Cleaving Swing with a
+      versatile weapon wielded with two hands.</p></li><li><p>Before you make a
+      melee attack with a two-handed weapon or versatile weapon wielded with two
+      hands, if you are proficient with the weapon and do not have disadvantage
+      you can declare a powerful attack. A powerful attack has disadvantage, but
+      on a hit deals 10 extra damage.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: e6506kodovstp5yw
+_key: '!items!e6506kodovstp5yw'

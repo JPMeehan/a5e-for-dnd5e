@@ -1,0 +1,75 @@
+name: Fang and Claw (New Moon Weretiger)
+type: feat
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: ''
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a bite natural weapon and claw natural weapons which you are
+      proficient with. You can use Dexterity instead of Strength for the attack
+      rolls of your bite or claw. On a hit your bite or claw deals piercing
+      damage equal to 1d6 plus your Strength modifier or Dexterity modifier
+      (whichever is highest).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - piercing
+      - - 1d8 + @mod
+        - piercing
+      - - 1d10 + @mod
+        - piercing
+      - - 1d8 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 7unyrtbtrhuxay4f
+_key: '!items!7unyrtbtrhuxay4f'

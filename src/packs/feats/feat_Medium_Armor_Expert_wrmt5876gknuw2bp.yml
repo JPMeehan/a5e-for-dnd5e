@@ -1,0 +1,28 @@
+name: Medium Armor Expert
+type: feat
+img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use medium armor to its fullest potential, gaining the
+      following benefits:</p><ul><li><p>Wearing medium armor doesn’t impose
+      disadvantage on your Dexterity (Stealth) checks.</p></li><li><p>When you
+      are wearing medium armor, the maximum Dexterity modifier you can add to
+      your Armor Class increases to 3.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Proficiency with medium armor
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: wrmt5876gknuw2bp
+_key: '!items!wrmt5876gknuw2bp'

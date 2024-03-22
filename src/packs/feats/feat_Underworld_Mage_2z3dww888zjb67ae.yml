@@ -1,0 +1,65 @@
+name: Underworld Mage
+type: feat
+img: icons/magic/unholy/hand-marked-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You blend subterfuge, guile, and magical scholarship in ways that keep
+      your allies guessing and your enemies vexed&mdash;or dead. You gain the
+      following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>Your Intelligence score increases by 1, to a maximum of 20.</p>
+
+      </li>
+
+      <li>
+
+      <p>You can cast spells with vocalized components in thieves&rsquo; cant.
+      Observers who don&rsquo;t also know thieves&rsquo; cant make all checks to
+      identify or counter spells cast this way at disadvantage.</p>
+
+      </li>
+
+      <li>
+
+      <p>Your spellbook is encoded and cannot be read by anyone else.</p>
+
+      </li>
+
+      <li>
+
+      <p>You can read a full page of text in a single round. The time to copy
+      new spells into your spellbook is cut in half.</p>
+
+      </li>
+
+      <li>
+
+      <p>When in a community of at least 3,000 residents, you can acquire spell
+      components for spells you know through black-market channels for half
+      price.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in rogue, 3 levels in wizard
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 2z3dww888zjb67ae
+_key: '!items!2z3dww888zjb67ae'

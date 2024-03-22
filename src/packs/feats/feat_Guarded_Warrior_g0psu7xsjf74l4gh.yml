@@ -1,0 +1,31 @@
+name: Guarded Warrior
+type: feat
+img: icons/skills/melee/sword-shield-stylized-white.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>It is very difficult for foes to get by you without paying for it. You
+      gain the following benefits:</p><ul><li><p>A creature that takes the
+      Disengage action still provokes opportunity attacks from
+      you.</p></li><li><p>You gain proficiency with the Warning Strike maneuver
+      and do not have to spend exertion to activate it.</p></li><li><p>You can
+      use your reaction to make a melee weapon attack against a creature within
+      5 feet when it makes an attack against a target other than you if the
+      target does not also have this feat.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: g0psu7xsjf74l4gh
+_key: '!items!g0psu7xsjf74l4gh'

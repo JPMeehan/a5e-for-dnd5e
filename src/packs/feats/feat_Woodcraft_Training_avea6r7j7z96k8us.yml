@@ -1,0 +1,28 @@
+name: Woodcraft Training
+type: feat
+img: icons/environment/wilderness/tree-ash.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to survive in the wilds, a useful skill for almost any
+      adventurer. You gain the following benefits:</p><ul><li><p>You gain
+      proficiency with the herbalism kit, navigator's kit, a simple ranged
+      weapon, or a martial ranged weapon.</p></li><li><p>You gain two
+      exploration knacks of your choice from the ranger class.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: avea6r7j7z96k8us
+_key: '!items!avea6r7j7z96k8us'

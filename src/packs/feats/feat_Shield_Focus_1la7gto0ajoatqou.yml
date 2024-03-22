@@ -1,0 +1,33 @@
+name: Shield Focus
+type: feat
+img: icons/skills/melee/shield-block-bash-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use your shield both offensively and defensively. You gain the
+      following benefits while wielding a shield:</p><ul><li><p>When you take
+      the Attack action on your turn, you can use a bonus action to use your
+      shield to make a Shove maneuver against a creature within 5 feet of
+      you.</p></li><li><p>When you make a Dexterity saving throw against a spell
+      or harmful effect that only targets you, if you aren’t incapacitated you
+      gain a bonus equal to your shield’s Armor Class bonus.</p></li><li><p>When
+      you succeed on a Dexterity saving throw against an effect that deals half
+      damage on a success, you can use your reaction to take no damage by
+      protecting yourself with your shield.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 1la7gto0ajoatqou
+_key: '!items!1la7gto0ajoatqou'

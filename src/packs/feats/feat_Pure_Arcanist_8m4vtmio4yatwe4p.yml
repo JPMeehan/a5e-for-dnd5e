@@ -1,0 +1,34 @@
+name: Pure Arcanist
+type: feat
+img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>As a mystic arcanist studies and meditates, they come closer and closer
+      to an understanding of the pure magic from which all other arcanum stems.
+      You gain the following special manifestations:</p><p><strong><em>Divine
+      (Radiant).</em></strong> When you cast a spell that deals radiant damage,
+      you can spend 1 sorcery point and choose one creature you can see within
+      60 feet. That creature regains a number of hit points equal to 1d8 × the
+      spell’s level.</p><p><strong><em>Pure Arcanum (Force). </em></strong>When
+      you cast a spell that deals force damage, you can spend 2 sorcery points
+      and choose one creature you can see. After the spell’s damage is resolved,
+      if the creature was damaged by the spell it makes an Intelligence saving
+      throw or becomes stunned until the end of its next turn.&nbsp;&nbsp;</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Mystic Arcanist feat
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 8m4vtmio4yatwe4p
+_key: '!items!8m4vtmio4yatwe4p'

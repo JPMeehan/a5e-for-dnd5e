@@ -1,0 +1,28 @@
+name: Hardy Adventurer
+type: feat
+img: icons/environment/people/commoner.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <ul><li><p>When you take this feat, you gain a number of hit points equal
+      to twice your level.</p></li><li><p>Whenever you gain a new level, you
+      gain an additional 2 hit points to your hit point
+      maximum.</p></li><li><p>During a short rest, you regain 1 additional hit
+      point per hit die spent to heal.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 6bpbjdxwpwjhzpts
+_key: '!items!6bpbjdxwpwjhzpts'

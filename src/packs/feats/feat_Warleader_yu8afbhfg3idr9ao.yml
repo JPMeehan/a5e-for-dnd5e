@@ -1,0 +1,49 @@
+name: Warleader
+type: feat
+img: icons/skills/melee/hand-grip-hammer-spiked-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to unleash your fury without hindering your ability to
+      lead. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>Your Charisma score increases by 1, to a maximum of 20.</p>
+
+      </li>
+
+      <li>
+
+      <p>While you are raging, the range of your Commanding Presence increases
+      by 10 feet.</p>
+
+      </li>
+
+      <li>
+
+      <p>While you are raging, the damage healed by your Rallying Surge ability
+      increases to 1d10 + your marshal level + half your berserker level.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in berserker, 3 levels in marshal
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: yu8afbhfg3idr9ao
+_key: '!items!yu8afbhfg3idr9ao'

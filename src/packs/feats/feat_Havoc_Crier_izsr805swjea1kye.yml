@@ -1,0 +1,51 @@
+name: Havoc Crier
+type: feat
+img: icons/skills/melee/blade-tip-chipped-blood-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your ferocity and personal magnetism have fused into a whole as
+      inspiring to your allies as it is unnerving to your enemies. You gain the
+      following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>While you are raging, your berserker levels count as marshal levels for
+      the purposes of the Extra Attack feature.</p>
+
+      </li>
+
+      <li>
+
+      <p>You gain a second option from the Warrior Born feature.</p>
+
+      </li>
+
+      <li>
+
+      <p>Friendly creatures within the range of your Commanding Presence feature
+      gain the benefits of your Danger Sense feature as long as you are
+      conscious and not incapacitated.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: Voice of Wrath feat
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: izsr805swjea1kye
+_key: '!items!izsr805swjea1kye'

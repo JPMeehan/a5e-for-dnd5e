@@ -1,0 +1,30 @@
+name: Monster Hunter
+type: feat
+img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You are a peerless slayer of beasts most foul. You gain the following
+      benefits:</p><ul><li><p>You gain an expertise die on checks made to learn
+      information about the Legends and Lore of a creature you can
+      see.</p></li><li><p>You learn the <em>altered strike
+      </em>cantrip.</p></li><li><p>You gain proficiency with the Douse maneuver
+      and do not have to spend exertion to activate it.</p></li><li><p>You gain
+      the tracking skill specialty in Survival.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Proficiency with Survival, 8th level or higher
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: xm4pu81pr3rdm5ah
+_key: '!items!xm4pu81pr3rdm5ah'

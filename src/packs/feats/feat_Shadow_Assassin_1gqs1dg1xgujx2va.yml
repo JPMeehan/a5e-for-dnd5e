@@ -1,0 +1,27 @@
+name: Shadow Assassin
+type: feat
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Inevitably, all shadowdancers learn that the dark&rsquo;s only noble
+      purpose is to snuff out the light. While you are hidden from a target and
+      are in an area of darkness or dim light, you may apply your Sneak Attack
+      damage to an eldritch blast.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Shadowmancer
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 1gqs1dg1xgujx2va
+_key: '!items!1gqs1dg1xgujx2va'

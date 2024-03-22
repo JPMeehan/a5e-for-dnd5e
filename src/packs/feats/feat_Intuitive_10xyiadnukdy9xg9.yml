@@ -1,0 +1,29 @@
+name: Intuitive
+type: feat
+img: icons/creatures/eyes/human-single-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You’re quick to notice and analyze details, granting you the following
+      benefits:</p><ul><li><p>Your Intelligence or Wisdom score increases by 1,
+      to a maximum of 20.</p></li><li><p>Your passive Perception and passive
+      Investigation scores increase by 5.</p></li><li><p>If you can see a
+      creature’s mouth while it is speaking a language you know, you are able to
+      read its lips to understand what it is saying.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 10xyiadnukdy9xg9
+_key: '!items!10xyiadnukdy9xg9'

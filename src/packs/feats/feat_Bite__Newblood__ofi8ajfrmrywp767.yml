@@ -1,0 +1,79 @@
+name: Bite (Newblood)
+type: feat
+img: icons/magic/death/mouth-bite-fangs-vampire.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: ''
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a bite natural weapon you are proficient with. You are only
+      able to bite grappled, incapacitated, restrained, or willing creatures. On
+      a hit your bite deals piercing damage equal to 1d6 plus your Strength
+      modifier or Dexterity modifier (whichever is highest). You can use
+      Dexterity instead of Strength for the attack rolls of your bite. In
+      addition, once per turn you can choose for your bite to also deal 1d6
+      necrotic damage × your proficiency bonus. You regain hit points equal to
+      the amount of necrotic damage dealt to your target. This necrotic damage
+      can only be increased by a critical hit. </p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '5'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - piercing
+      - - 1d8 + @mod
+        - piercing
+      - - 1d10 + @mod
+        - piercing
+      - - 1d6 * @prof
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ofi8ajfrmrywp767
+_key: '!items!ofi8ajfrmrywp767'

@@ -1,0 +1,27 @@
+name: Boar Charge (Swineheart)
+type: feat
+img: icons/creatures/mammals/livestock-pig-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Once per turn when you move at least 20 feet straight towards a target
+      before attacking with your tusks, the attack deals an extra 2d6 slashing
+      damage. If the target is a creature, it makes a Strength saving throw
+      against your maneuver DC, falling prone on a failure.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: oxjtyu3y63r9ail8
+_key: '!items!oxjtyu3y63r9ail8'

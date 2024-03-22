@@ -1,0 +1,67 @@
+name: Preach Hope (Harbinger of Things to Come)
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Ally creatures within 60 feet gain advantage on saving throws. When the
+      battle hymn ends, allies within 30 feet of you remove one level of strife.
+      An ally that shares your alignment or worships a greater entity removes
+      two levels of strife instead.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: viainvfhnomyaagy
+_key: '!items!viainvfhnomyaagy'

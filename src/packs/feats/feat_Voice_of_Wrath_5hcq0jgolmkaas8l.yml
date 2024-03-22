@@ -1,0 +1,50 @@
+name: Voice of Wrath
+type: feat
+img: icons/skills/wounds/injury-face-impact-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to help your allies focus on the targets of your
+      wrath. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>Your Constitution score increases by 1, to a maximum of 20.</p>
+
+      </li>
+
+      <li>
+
+      <p>When you use Mark Foe, you can rage as part of the same bonus
+      action.</p>
+
+      </li>
+
+      <li>
+
+      <p>If you score a critical hit on a creature that you have applied Mark
+      Foe to, you may apply an additional Furious Critical option to the
+      attack.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  properties: []
+  requirements: Warleader feat
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 5hcq0jgolmkaas8l
+_key: '!items!5hcq0jgolmkaas8l'

@@ -1,0 +1,30 @@
+name: Stealth Expert
+type: feat
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You are skilled at hiding and operating from the shadows. You gain the
+      following benefits:</p><ul><li><p>You can try to hide even while you are
+      only lightly obscured from the creature you are trying to hide
+      from.</p></li><li><p>Your position isn’t revealed when you miss with a
+      ranged weapon attack against a creature you are hidden
+      from.</p></li><li><p>You do not have disadvantage from dim light when
+      making Perception checks.</p></li></ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Dexterity 13 or higher
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: zpggcow9uvgmh3oc
+_key: '!items!zpggcow9uvgmh3oc'

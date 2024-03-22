@@ -1,0 +1,58 @@
+name: Scrapper
+type: feat
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to blend the lessons of two disparate types of martial
+      training together, making you more versatile than either would allow you
+      to be on its own. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You gain proficiency with a combat tradition of your choice.</p>
+
+      </li>
+
+      <li>
+
+      <p>Your fighter levels count as adept levels for the purpose of the Extra
+      Attack feature.</p>
+
+      </li>
+
+      <li>
+
+      <p>Your fighter levels count as adept levels for the purpose of
+      determining which Focus Feature options you can take.</p>
+
+      </li>
+
+      <li>
+
+      <p>Half of your adept levels count as fighter levels for the purpose of
+      acquiring instances of the fighter&rsquo;s Maneuver Specialization
+      feature.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Scrapper'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in adept, 3 levels in fighter
+  recharge:
+    value: null
+    charged: true
+img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+effects: []
+flags: {}
+folder: null
+_id: 1uefs1btml3dhpzs
+_key: '!items!1uefs1btml3dhpzs'

@@ -1,0 +1,75 @@
+name: Wild Rioter
+type: feat
+img: icons/creatures/abilities/bull-head-horns-glowing.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your wrath bursts the dams of even your connection with nature,
+      outpouring from you and your stampede like a plague of fury.</p><p>While
+      raging, you and any creatures benefiting from your Living Stampede emit
+      5-foot auras of fury. When a creature other than you or your allies enters
+      a fury aura or starts its turn there it makes a Wisdom saving throw
+      against your druid spell save DC. On a failed save, a creature becomes
+      confused, except instead of rolling to determine their actions as normal
+      for the confused condition, they are always considered to have rolled the
+      7 or 8 result. At the end of each of a confused creature’s turns it
+      repeats the saving throw, ending the effect on itself on a success. Once a
+      creature successfully saves against this effect, it is immune to it for
+      the remainder of your rage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Living Stampede feat
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_id: nyfx09ckjjogni1t
+_key: '!items!nyfx09ckjjogni1t'

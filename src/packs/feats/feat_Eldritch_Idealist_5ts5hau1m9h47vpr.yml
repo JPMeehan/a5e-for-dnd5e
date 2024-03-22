@@ -1,0 +1,45 @@
+name: Eldritch Idealist
+type: feat
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have reached the pinnacle of fusing the powers of dedication and
+      otherworldly patronage. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You may use Divine Smite when you deal damage with Eldritch Blast, but
+      cannot augment it with Empowered Smite or Greater Empowered Smite.</p>
+
+      </li>
+
+      <li>
+
+      <p>Your pact boon improves.</p>
+
+      </li>
+
+      </ul>
+
+      <p>If you have Pact of the Blade, you gain the following feature:
+      @UUID[Item.0sZxtwI03PBSGXYt]{Eldritch Smite}.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  properties: []
+  requirements: Dedicated Pactbearer feat
+  recharge:
+    value: null
+    charged: true
+img: icons/magic/symbols/mask-yellow-orange.webp
+effects: []
+flags: {}
+folder: null
+_id: 5ts5hau1m9h47vpr
+_key: '!items!5ts5hau1m9h47vpr'

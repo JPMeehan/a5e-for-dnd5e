@@ -1,0 +1,34 @@
+name: Sudden Reversal
+type: feat
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>While raging, as a bonus action you can choose to give opponents
+      advantage on attack rolls against you. If you do so, until the start of
+      your next turn you can spend 1 exertion point to make one attack with an
+      unarmed strike or improvised weapon or perform one basic maneuver each
+      time a creature hits you with an attack. You can use your special exertion
+      pool from the Pugilist feat to do so.</p>
+
+      <p>In addition, when you critically hit with an unarmed strike or
+      improvised weapon attack while raging, you deal additional damage equal to
+      a roll of your martial arts die. This is added to the extra damage dealt
+      by the critical hit and is not multiplied as part of the critical hit.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: Furious Grace feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: o2tl6o9m69kyazg0
+_key: '!items!o2tl6o9m69kyazg0'

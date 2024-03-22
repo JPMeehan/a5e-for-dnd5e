@@ -1,0 +1,29 @@
+name: Nose for Opportunity (Rodent Embraced)
+type: feat
+img: icons/creatures/mammals/rodent-rat-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>When an ally strikes a creature you can see with a melee attack, you
+      can use your reaction to move up to your Speed, ending your move adjacent
+      to that creature and making a melee weapon attack against it. If the
+      creature is bloodied and the attack hits, you score a critical hit. Once
+      you have used this feature, you cannot use it again until you finish a
+      short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: sb5cvr3jnol8gdl0
+_key: '!items!sb5cvr3jnol8gdl0'

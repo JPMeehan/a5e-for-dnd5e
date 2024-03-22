@@ -1,0 +1,26 @@
+name: Tiger Pounce (Striped Soul)
+type: feat
+img: icons/creatures/abilities/paw-print-pair-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Once per turn when you move at least 20 feet straight towards a target
+      before attacking with your claws, the target makes a Strength saving throw
+      against your maneuver DC, falling prone on a failure.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: b69ui3ej3ino12va
+_key: '!items!b69ui3ej3ino12va'
