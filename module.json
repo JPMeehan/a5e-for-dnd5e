@@ -67,6 +67,17 @@
       }
     },
     {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "origins",
       "label": "Origins",
       "path": "packs/origins",
@@ -128,7 +139,7 @@
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
     },
@@ -139,7 +150,7 @@
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
     },
@@ -181,7 +192,8 @@
             "subclasses",
             "class-features",
             "origins",
-            "origin-features"
+            "origin-features",
+            "feats"
           ],
           "color": "#ba7a3b",
           "folders": []
