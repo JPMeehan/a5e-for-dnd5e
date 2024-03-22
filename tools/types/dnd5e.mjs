@@ -156,7 +156,141 @@
  */
 
 /**
- * @typedef Advancement
+ * Advancements
+ */
+
+/**
+ * @typedef BaseAdvancement
+ * @property {string} _id
+ * @property {number} level
+ * @property {string} title
+ * @property {string} icon
+ * @property {string} classRestriction
+ */
+
+/**
+ * @typedef AbilityScoreImprovement         Data model for the Ability Score Improvement advancement configuration.
+ * @property {number} points                Number of points that can be assigned to any score.
+ * @property {Record<string, number>} fixed Number of points automatically assigned to a certain score.
+ * @property {number} cap
+ */
+
+/**
+ * @typedef _ItemGrant
+ * @property {string} uuid
+ */
+
+/**
+ * @typedef SpellConfiguration
+ * @property {string} ability
+ * @property {string} preparation
+ * @property {object} uses
+ * @property {string} uses.max
+ * @property {string} uses.per
+ */
+
+/**
+ * @typedef ItemChoice
+ * @property {string} hint
+ * @property {Record<string, number>} choices
+ * @property {boolean} allowDrops
+ * @property {string} type
+ * @property {_ItemGrant[]} pool
+ * @property {object} spell
+ * @property {number} spell.type
+ * @property {number} spell.subtype
+ * @property {number} spell.level
+ */
+
+/**
+ * @typedef ItemGrant
+ * @property {_ItemGrant[]} items
+ * @property {boolean} optional
+ * @property {SpellConfiguration} spell
+ */
+
+/**
+ * @typedef ScaleValue                      Data model for the Scale Value advancement type.
+ * @property {object} identifier            Identifier used to select this scale value in roll formulas.
+ * @property {string} type                  Type of data represented by this scale value.
+ * @property {object} distance
+ * @property {string} distance.units        If distance type is selected, the units each value uses.
+ * @property {Record<string, object>} scale Scale values for each level. Value format is determined by type.
+ */
+
+/**
+ * @typedef Size                Configuration data for the size advancement type.
+ * @property {string} hint
+ * @property {string[]} sizes
+ */
+
+/**
+ * @typedef TraitChoice         Configuration for a specific trait choice.
+ * @property {number} count     Number of traits that can be selected.
+ * @property {string[]} [pool]  List of trait or category keys that can be chosen. If no choices are provided,
+ *                              any trait of the specified type can be selected.
+ */
+
+/**
+ * @typedef Trait                         Configuration data for the TraitAdvancement.
+ * @property {string} hint                Hint displayed instead of the automatically generated one.
+ * @property {string} mode                Method by which this advancement modifies the actor's traits.
+ * @property {boolean} allowReplacements  Whether all potential choices should be presented to the user if there
+ *                                        are no more choices available in a more limited set.
+ * @property {string[]} grants            Keys for traits granted automatically.
+ * @property {TraitChoice[]} choices      Choices presented to the user.
+ */
+
+/**
+ * @typedef AbilityScoreImprovementAdvancement
+ * @property {AbilityScoreImprovement} configuration
+ * @property {"AbilityScoreImprovement"} type
+ */
+
+/**
+ * @typedef HitPointsAdvancement
+ * @property {"HitPoints"} type
+ */
+
+/**
+ * @typedef ItemChoiceAdvancement
+ * @property {ItemChoice} configuration
+ * @property {"ItemChoice"} type
+ */
+
+/**
+ * @typedef ItemGrantAdvancement
+ * @property {ItemGrant} configuration
+ * @property {"ItemGrant"} type
+ */
+
+/**
+ * @typedef ScaleValueAdvancement
+ * @property {ScaleValue} configuration
+ * @property {"ScaleValue"} type
+ */
+
+/**
+ * @typedef SizeAdvancement
+ * @property {Size} configuration
+ * @property {"Size"} type
+ */
+
+/**
+ * @typedef TraitAdvancement
+ * @property {Trait} configuration
+ * @property {"Trait"} type
+ */
+
+/**
+ * @typedef {BaseAdvancement &
+ * (AbilityScoreImprovementAdvancement | HitPointsAdvancement |
+ * ItemChoiceAdvancement | ItemGrantAdvancement | ScaleValueAdvancement |
+ * SizeAdvancement | TraitAdvancement)} Advancement
+ */
+
+/**
+ * Item Types
  */
 
 /**

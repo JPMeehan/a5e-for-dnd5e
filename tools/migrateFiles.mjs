@@ -1036,17 +1036,17 @@ function processGrants(o5e, grants, type) {
     switch (grant.grantType) {
       case 'ability':
         break;
-      case 'attack':
+      case 'attack': // none implemented yet
         break;
-      case 'damage':
+      case 'damage': // none implemented yet
         break;
-      case 'expertiseDice':
+      case 'expertiseDice': // none implemented yet
         break;
       case 'feature':
         break;
-      case 'healing':
+      case 'healing': // none implemented yet
         break;
-      case 'initiative':
+      case 'initiative': // none implemented yet
         break;
       case 'item':
         break;
@@ -1055,13 +1055,14 @@ function processGrants(o5e, grants, type) {
           for (const mvmtType of grant.movementTypes.base) {
             o5e.movement[mvmtType] = Number(grant.bonus);
           }
+          o5e.movement.hover = grant.context.isHover;
         }
         break;
       case 'proficiency':
         break;
-      case 'senses':
+      case 'senses': // none implemented yet
         break;
-      case 'skills':
+      case 'skills': // none implemented yet
         break;
       case 'trait':
         break;
