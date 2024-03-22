@@ -116,21 +116,38 @@
  * @typedef AbilityGrant
  * @property {"ability"} grantType
  * @property {object} abilities
- * @property {string} abilities.base
+ * @property {string[]} abilities.base
  * @property {string[]} abilities.options
  * @property {number} abilities.total
- * @property {object} context
  * @property {string} bonus
+ * @property {object} context
+ * @property {string[]} context.types
+ * @property {boolean} context.requiresProficiency
  */
 
 /**
  * @typedef AttackGrant
  * @property {"attack"} grantType
+ * @property {object} attackTypes
+ * @property {string[]} attackTypes.base
+ * @property {string[]} attackTypes.options
+ * @property {number} attackTypes.total
+ * @property {string} bonus
+ * @property {object} context
+ * @property {string[]} context.spellLevels
+ * @property {boolean} context.requiresProficiency
  */
 
 /**
  * @typedef DamageGrant
  * @property {"damage"} grantType
+ * @property {number} bonus
+ * @property {string} damageType
+ * @property {object} context
+ * @property {string[]} context.attackTypes
+ * @property {string[]} context.damageTypes
+ * @property {boolean} context.isCritBonus
+ * @property {string[]} context.spellLevels
  */
 
 /**
@@ -142,7 +159,7 @@
  * @typedef FeatureGrant
  * @property {"feature"} grantType
  * @property {object} features
- * @property {string} features.base
+ * @property {string[]} features.base
  * @property {string[]} features.options
  * @property {number} features.total
  */

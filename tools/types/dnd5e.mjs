@@ -169,9 +169,13 @@
  */
 
 /**
- * @typedef AbilityScoreImprovement         Data model for the Ability Score Improvement advancement configuration.
- * @property {number} points                Number of points that can be assigned to any score.
- * @property {Record<string, number>} fixed Number of points automatically assigned to a certain score.
+ * @typedef {"str" | "dex" | "con" | "int" | "wis" | "cha"} AbilityScores
+ */
+
+/**
+ * @typedef AbilityScoreImprovement                 Data model for the Ability Score Improvement advancement configuration.
+ * @property {number} points                        Number of points that can be assigned to any score.
+ * @property {Record<AbilityScores, number>} fixed  Number of points automatically assigned to a certain score.
  * @property {number} cap
  */
 
@@ -296,7 +300,7 @@
 /**
  * Data definition for Race items.
  * @typedef Race
- * @property {string} identifier       Identifier slug for this race.
+ * @property {string} identifier            Identifier slug for this race.
  * @property {Advancement[]} advancement    Advancement objects for this race.
  * @property {Movement} movement
  * @property {Senses} senses

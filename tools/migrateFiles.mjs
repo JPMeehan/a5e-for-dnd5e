@@ -952,8 +952,9 @@ function migrateHeritage(system, name) {
       unidentified: '',
     },
     source: mapSource(system.source),
+    advancement: [],
   };
-  processGrants(o5e, Object.values(system.grants), 'heritage');
+  processGrants(o5e, system.grants, 'heritage');
   return o5e;
 }
 
@@ -975,8 +976,9 @@ function migrateBackground(system) {
       unidentified: '',
     },
     source: mapSource(system.source),
+    advancement: [],
   };
-  processGrants(o5e, Object.values(system.grants), 'background');
+  processGrants(o5e, system.grants, 'background');
   return o5e;
 }
 
@@ -998,8 +1000,9 @@ function migrateCulture(system) {
       unidentified: '',
     },
     source: mapSource(system.source),
+    advancement: [],
   };
-  processGrants(o5e, Object.values(system.grants), 'culture');
+  processGrants(o5e, system.grants, 'culture');
   return o5e;
 }
 
@@ -1021,6 +1024,7 @@ function migrateDestiny(system) {
       unidentified: '',
     },
     source: mapSource(system.source),
+    advancement: [],
   };
   return o5e;
 }
@@ -1028,13 +1032,28 @@ function migrateDestiny(system) {
 /**
  * Reads through the grants and handles their data
  * @param {Heritage | Background | Culture | Destiny} o5e The target o5e data
- * @param {import('./types/a5e.mjs').Grant[]} grants        The a5e grants
+ * @param {Record<string, import('./types/a5e.mjs').Grant>} grants        The a5e grants
  * @param {string} type                                   The item type
  */
 function processGrants(o5e, grants, type) {
-  for (const grant of grants) {
+  for (const [id, grant] of Object.entries(grants)) {
     switch (grant.grantType) {
       case 'ability':
+        /** @type {import('./types/dnd5e.mjs').AbilityScoreImprovementAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
+        const asi = {
+          _id: id,
+          type: 'AbilityScoreImprovement',
+          level: 0,
+          configuration: {
+            points: 1,
+            fixed: grant.abilities.base.reduce((acc, curr) => {
+              acc[curr] = Number(grant.bonus);
+              return acc;
+            }, {}),
+            cap: 1,
+          },
+        };
+        o5e.advancement.push(asi);
         break;
       case 'attack': // none implemented yet
         break;
