@@ -1,0 +1,69 @@
+folder: null
+name: Gift of the Eldritch
+type: feat
+img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting At 15th level, you can innately cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.67ex7mn5kkutvnqn]{Black
+      Tentacles} at 4th level, requiring no component. You cannot use spell
+      points to cast Black Tentacles.</p>
+
+      <p>Once you cast this spell using this feature, you can&rsquo;t use it
+      again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 1tezdj3hnyqcn2lf
+_key: '!items!1tezdj3hnyqcn2lf'

@@ -1,0 +1,30 @@
+folder: null
+name: Unweaving Uppercut
+type: feat
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 11th level, when you roll a 1 on your martial arts die to
+      determine damage against a creature casting a spell or maintaining
+      concentration on a spell or magical effect, you can reroll the die and
+      must use the new roll.</p>
+
+      <p>Beginning at 16th level, you can use this feature when you roll a 1 or
+      a 2 on your martial arts die.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: z9d46gs15vdu9mlc
+_key: '!items!z9d46gs15vdu9mlc'

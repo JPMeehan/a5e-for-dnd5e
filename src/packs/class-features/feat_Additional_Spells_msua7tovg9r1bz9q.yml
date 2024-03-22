@@ -1,0 +1,32 @@
+folder: null
+name: Additional Spells
+type: feat
+img: icons/magic/symbols/runes-star-magenta.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>The following new spells are&nbsp;available to the Errant Seer:</p>
+
+      <p>@UUID[Compendium.a5e.dnd5e-spells.Item.5ztanmb162mkappn]{Biting Arrow},
+      @UUID[Compendium.a5e.dnd5e-spells.Item.61c9l425b667za5d]{Uncanny
+      Avoidance},
+      @UUID[Compendium.a5e.dnd5e-spells.Item.2dt8zpgooa6hotau]{Guiding Star},
+      @UUID[Compendium.a5e.dnd5e-spells.Item.a7zibewl6e4kejvq]{Heartstrike},
+      @UUID[Compendium.a5e.dnd5e-spells.Item.myi32zywiusftafa]{Breeze
+      Compass}</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: msua7tovg9r1bz9q
+_key: '!items!msua7tovg9r1bz9q'

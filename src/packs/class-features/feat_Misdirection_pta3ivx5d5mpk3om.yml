@@ -1,0 +1,90 @@
+folder: null
+name: Misdirection
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your patron has granted you a sliver of their power&nbsp;to keep you
+      out of harm's way.</p>
+
+      <p>Beginning at 14th level, you are considered under the protection of a
+      specific version of the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.fujxumfdi1t6zh9p]{Contingency}
+      spell. You don't need to provide the material components for either the
+      <em>contingency </em>spell or the spell cast by <em>contingency</em>.</p>
+
+      <p>After a long rest, you can set the trigger of the <em>contingency
+      </em>(and inform your Narrator). When you do so, you cannot change the
+      trigger until you finish [[/r 1d4]] long rests.</p>
+
+      <p>The contingency spell protecting you can only cast one of the following
+      spells at 5th level:
+      @UUID[Compendium.a5e.a5e-spells.Item.f0lq2ogke9k8f1v9]{Mislead},
+      @UUID[Compendium.a5e.a5e-spells.Item.0cdtrkihoe9jdon1]{Greater
+      Invisibility},
+      @UUID[Compendium.a5e.a5e-spells.Item.6y4rq48okutkormg]{Phantasmal Killer}
+      or @UUID[Compendium.a5e.a5e-spells.Item.pdvg7c9emjgnib07]{Confusion}.</p>
+
+      <p>You don't need to know the spell for it to be cast as part of
+      contingency's effect. You can choose which spell is cast when contingency
+      triggers.</p>
+
+      <p>Once contingency has been triggered, this feature cannot be used again
+      before you finish [[/r 2d4]] long rests.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: '120'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: pta3ivx5d5mpk3om
+_key: '!items!pta3ivx5d5mpk3om'

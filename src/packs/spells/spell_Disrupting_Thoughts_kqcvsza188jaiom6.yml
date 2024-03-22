@@ -1,0 +1,117 @@
+folder: Tw5cqPbIxtfMfhDz
+name: Disrupting Thoughts
+type: spell
+img: icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  description:
+    value: >-
+      <p>You fill the mind of one creature you can see within&nbsp;range with
+      parasitic psychic energy.</p>
+
+      <p>The target must succeed on an Intelligence saving throw or take 1d4
+      psychic damage. Additionally, it has disadvantage on the next saving throw
+      it makes before the end of your next turn.</p>
+
+      <p>This spell's damage increases by 1d4 when you reach certain levels: 5th
+      level (2d4), 11th level (3d4), and 17th level (4d4).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 0
+  school: enc
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d4
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/wounds/injury-face-impact-orange.webp
+    origin: Item.hyNxj7gCnvHuj0Ze
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: SrZEL3U0AvKTjRFo
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Disrupting Thoughts
+    _id: kCjq3ggz1uOCo0ut
+    changes:
+      - key: flags.a5e.effects.rollMode.abilitySave.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!kqcvsza188jaiom6.kCjq3ggz1uOCo0ut'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - psychic
+    rareSpell: false
+_id: kqcvsza188jaiom6
+_key: '!items!kqcvsza188jaiom6'
