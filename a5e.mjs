@@ -24,6 +24,16 @@ Hooks.once('init', () => {
   CONFIG.DND5E.validProperties[moduleTypes.maneuver].add('concentration');
   CONFIG.DND5E.validProperties[moduleTypes.maneuver].add('mgc');
 
+  // Enabling advancements on cultures and destinies
+  for (const advType of ['ItemChoice', 'ItemGrant', 'ScaleValue', 'Trait']) {
+    CONFIG.DND5E.advancementTypes[advType].validItemTypes.add(
+      moduleTypes.culture
+    );
+    CONFIG.DND5E.advancementTypes[advType].validItemTypes.add(
+      moduleTypes.destiny
+    );
+  }
+
   Object.assign(CONFIG.Item.dataModels, {
     [moduleTypes.culture]: DataClasses.Culture,
     [moduleTypes.destiny]: DataClasses.Destiny,
