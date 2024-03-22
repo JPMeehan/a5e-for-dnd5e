@@ -96,7 +96,13 @@
  */
 
 /**
- * @typedef GrantCore
+ *
+ * GRANTS
+ *
+ */
+
+/**
+ * @typedef BaseGrant
  * @property {string} grantType
  * @property {string} label
  * @property {boolean} [optional]
@@ -107,40 +113,139 @@
  */
 
 /**
- * @typedef ASI
+ * @typedef AbilityGrant
+ * @property {"ability"} grantType
  * @property {object} abilities
+ * @property {string} abilities.base
+ * @property {string[]} abilities.options
+ * @property {number} abilities.total
  * @property {object} context
  * @property {string} bonus
  */
 
 /**
- * @typedef Proficiency
+ * @typedef AttackGrant
+ * @property {"attack"} grantType
+ */
+
+/**
+ * @typedef DamageGrant
+ * @property {"damage"} grantType
+ */
+
+/**
+ * @typedef ExpertiseDiceGrant
+ * @property {"expertiseDice"} grantType
+ */
+
+/**
+ * @typedef FeatureGrant
+ * @property {"feature"} grantType
+ * @property {object} features
+ * @property {string} features.base
+ * @property {string[]} features.options
+ * @property {number} features.total
+ */
+
+/**
+ * @typedef HealingGrant
+ * @property {"healing"} grantType
+ * @property {string} bonus
+ * @property {object} context
+ * @property {string[]} context.healingTypes
+ * @property {string[]} context.spellLevels
+ * @property {string} healingType
+ */
+
+/**
+ * @typedef InitiativeGrant
+ * @property {"initiative"} grantType
+ * @property {string} bonus
+ * @property {object} context
+ * @property {string[]} context.abilities
+ * @property {string[]} context.skills
+ */
+
+/**
+ * @typedef _ItemGrant
+ * @property {string} uuid
+ * @property {number} quantityOverride
+ */
+
+/**
+ * @typedef ItemGrant
+ * @property {"item"} grantType
+ * @property {object} items
+ * @property {_ItemGrant[]} items.base
+ * @property {_ItemGrant[]} items.options
+ * @property {number} items.total
+ */
+
+/**
+ * @typedef MovementGrant
+ * @property {"movement"} grantType
+ * @property {object} movementTypes
+ * @property {string[]} movementTypes.base
+ * @property {string[]} movementTypes.options
+ * @property {number} movementTypes.total
+ * @property {string} bonus
+ * @property {string} unit
+ * @property {object} context
+ * @property {boolean} context.isHover
+ */
+
+/**
+ * @typedef ProficiencyGrant
+ * @property {"proficiency"} grantType
  * @property {object} keys
+ * @property {string[]} keys.base
+ * @property {string[]} keys.options
+ * @property {number} keys.total
  * @property {string} proficiencyType
  */
 
 /**
- * @typedef {object} FeatureGrant
- */
-
-/**
- * @typedef {object} Item
- */
-
-/**
- * @typedef Movement
- * @property {object} movementTypes
+ * @typedef SensesGrant
+ * @property {"senses"} grantType
+ * @property {object} senses
+ * @property {string[]} senses.base
+ * @property {string[]} senses.options
+ * @property {number} senses.total
  * @property {string} bonus
  * @property {string} unit
+ * @property {object} context
+ * @property {boolean} context.otherwiseBlind
  */
 
 /**
- * @typedef Trait
+ * @typedef SkillGrant
+ * @property {"skills"} grantType
+ * @property {object} skills
+ * @property {string[]} skills.base
+ * @property {string[]} skills.options
+ * @property {number} skills.total
+ * @property {string} bonus
+ * @property {string} unit
+ * @property {object} context
+ * @property {boolean} context.passiveOnly
+ * @property {boolean} context.requiresProficiency
+ */
+
+/**
+ * @typedef TraitGrant
+ * @property {"trait"} grantType
  * @property {object} traits
+ * @property {string[]} traits.base
+ * @property {string[]} traits.options
+ * @property {number} traits.total
+ * @property {string} traits.traitType
  */
 
 /**
- * @typedef {GrantCore & (ASI | Proficiency | Movement | Trait)} Grant
+ * @typedef {BaseGrant &
+ * (AbilityGrant | AttackGrant | DamageGrant | ExpertiseDiceGrant |
+ * FeatureGrant | HealingGrant | InitiativeGrant | ItemGrant | MovementGrant |
+ * ProficiencyGrant | SensesGrant | SkillGrant | TraitGrant)} Grant
  */
 
 /**********************

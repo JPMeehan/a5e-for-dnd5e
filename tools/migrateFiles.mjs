@@ -933,12 +933,41 @@ function migrateSpell(system) {
 }
 
 /**
+ * @typedef {import('./types/dnd5e.mjs').Race & import('./types/dnd5e.mjs').ItemDescription} Heritage
+ */
+
+/**
+ *
+ * @param {import('./types/a5e.mjs').Heritage} system The a5e heritage
+ * @param {string} name                               The race's name
+ * @returns {import('./types/dnd5e.mjs').Race}        The o5e race
+ */
+function migrateHeritage(system, name) {
+  /** @type {Heritage} */
+  const o5e = {
+    identifier: name.toLowerCase().replace(' ', '-'),
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: '',
+      unidentified: '',
+    },
+    source: mapSource(system.source),
+  };
+  processGrants(o5e, Object.values(system.grants), 'heritage');
+  return o5e;
+}
+
+/**
+ * @typedef {import('./types/dnd5e.mjs').Background & import('./types/dnd5e.mjs').ItemDescription} Background
+ */
+
+/**
  *
  * @param {import('./types/a5e.mjs').Background} system The a5e background
- * @returns {import('./types/dnd5e.mjs').Background}      The o5e background
+ * @returns {import('./types/dnd5e.mjs').Background}    The o5e background
  */
 function migrateBackground(system) {
-  /** @type {import('./types/dnd5e.mjs').Background} */
+  /** @type {Background} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -947,16 +976,44 @@ function migrateBackground(system) {
     },
     source: mapSource(system.source),
   };
+  processGrants(o5e, Object.values(system.grants), 'background');
   return o5e;
 }
+
+/**
+ * @typedef {import('./types/dnd5e.mjs').Culture & import('./types/dnd5e.mjs').ItemDescription} Culture
+ */
 
 /**
  *
  * @param {import('./types/a5e.mjs').Culture} system The a5e culture
- * @returns {object}      The o5e background
+ * @returns {import('./types/dnd5e.mjs').Culture}    The o5e culture
  */
 function migrateCulture(system) {
-  /**  */
+  /** @type {Culture} */
+  const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: '',
+      unidentified: '',
+    },
+    source: mapSource(system.source),
+  };
+  processGrants(o5e, Object.values(system.grants), 'culture');
+  return o5e;
+}
+
+/**
+ * @typedef {import('./types/dnd5e.mjs').Destiny & import('./types/dnd5e.mjs').ItemDescription} Destiny
+ */
+
+/**
+ *
+ * @param {import('./types/a5e.mjs').Destiny} system The a5e destiny
+ * @returns {import('./types/dnd5e.mjs').Destiny}    The o5e destiny
+ */
+function migrateDestiny(system) {
+  /** @type {Destiny} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -969,21 +1026,47 @@ function migrateCulture(system) {
 }
 
 /**
- *
- * @param {object} system The a5e destiny
- * @returns {object}      The o5e background
+ * Reads through the grants and handles their data
+ * @param {Heritage | Background | Culture | Destiny} o5e The target o5e data
+ * @param {import('./types/a5e.mjs').Grant[]} grants        The a5e grants
+ * @param {string} type                                   The item type
  */
-function migrateDestiny(system) {
-  /**  */
-  const o5e = {
-    description: {
-      value: fixUUIDrefs(system.description),
-      chat: '',
-      unidentified: '',
-    },
-    source: mapSource(system.source),
-  };
-  return o5e;
+function processGrants(o5e, grants, type) {
+  for (const grant of grants) {
+    switch (grant.grantType) {
+      case 'ability':
+        break;
+      case 'attack':
+        break;
+      case 'damage':
+        break;
+      case 'expertiseDice':
+        break;
+      case 'feature':
+        break;
+      case 'healing':
+        break;
+      case 'initiative':
+        break;
+      case 'item':
+        break;
+      case 'movement':
+        if (type === 'heritage') {
+          for (const mvmtType of grant.movementTypes.base) {
+            o5e.movement[mvmtType] = Number(grant.bonus);
+          }
+        }
+        break;
+      case 'proficiency':
+        break;
+      case 'senses':
+        break;
+      case 'skills':
+        break;
+      case 'trait':
+        break;
+    }
+  }
 }
 
 for (const p of packList) {
@@ -1014,6 +1097,9 @@ for (const p of packList) {
         rareSpell: data.system.rare,
       };
       data.system = migrateSpell(data.system);
+      break;
+    case 'heritage':
+      data.system = migrateHeritage(data.system, data.name);
       break;
     case 'background':
       data.system = migrateBackground(data.system);

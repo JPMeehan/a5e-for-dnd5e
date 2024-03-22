@@ -300,3 +300,15 @@
  * @property {string} prerequisite              Requirements for the maneuver
  * @property {Set<string>} properties           Maneuver's properties.
  */
+
+/**
+ * Data definition for Culture items.
+ * @typedef Culture
+ * @property {Advancement[]} advancement
+ */
+
+/**
+ * Data definition for Destiny items.
+ * @typedef Destiny
+ * @property {Advancement[]} advancement
+ */
