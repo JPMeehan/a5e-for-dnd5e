@@ -139,6 +139,14 @@ const A5E_CONFIG = {
     },
   },
   DND5E: {
+    actorSizes: {
+      titan: {
+        abbreviation: 'DND5E.SizeTitanAbbr',
+        capacityMultiplier: 16,
+        label: 'DND5E.SizeTitan',
+        token: 5,
+      },
+    },
     skills: {
       cul: {
         ability: 'int',

@@ -1206,6 +1206,15 @@ function traitGrant(traits, id) {
   switch (traits.traitType) {
     case 'armorTypes':
       prefix = 'armor:';
+      trait.configuration = {
+        mode: '',
+        allowReplacements: false,
+        grants: traits.base.map(),
+        choices: {
+          pool: traits.options.map(),
+          count: traits.total,
+        },
+      };
       break;
     case 'conditionImmunities':
       prefix = 'ci:';
@@ -1228,9 +1237,7 @@ function traitGrant(traits, id) {
       break;
     case 'size':
       trait.type = 'Size';
-      trait.configuration.sizes = traits.base
-        .map()
-        .concat(traits.options.map());
+      trait.configuration.sizes = traits.base.concat(traits.options);
       break;
     case 'tools':
       prefix = 'tool:';
