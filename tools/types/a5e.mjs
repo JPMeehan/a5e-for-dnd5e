@@ -249,13 +249,23 @@
  */
 
 /**
+ * @typedef {"armorTypes" | "conditionImmunities" | "creatureTypes" |
+ * "damageImmunities" | "damageVulnerabilities" | "languages" |
+ * "maneuverTraditions" | "size" | "tools" | "weapons"} TraitType
+ */
+
+/**
+ * @typedef Traits
+ * @property {string[]} base
+ * @property {string[]} options
+ * @property {number} total
+ * @property {TraitType} traitType
+ */
+
+/**
  * @typedef TraitGrant
  * @property {"trait"} grantType
- * @property {object} traits
- * @property {string[]} traits.base
- * @property {string[]} traits.options
- * @property {number} traits.total
- * @property {string} traits.traitType
+ * @property {Traits} traits
  */
 
 /**

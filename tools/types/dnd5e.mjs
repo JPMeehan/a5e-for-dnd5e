@@ -14,6 +14,18 @@
  */
 
 /**
+ * @typedef EquipmentEntryData Data for a single entry in the equipment list.
+ * @property {string} _id                     Unique ID of this entry.
+ * @property {string|null} group              Parent entry that contains this one.
+ * @property {number} sort                    Sorting order of this entry.
+ * @property {string} type                    Entry type as defined in `EquipmentEntryData#TYPES`.
+ * @property {number} [count]                 Number of items granted. If empty, assumed to be `1`.
+ * @property {string} [key]                   Category or item key unless type is "linked", in which case it is a UUID.
+ * @property {boolean} [requiresProficiency]  Is this only a valid item if character already has the
+ *                                            required proficiency.
+ */
+
+/**
  * Field for storing movement data.
  * @typedef Movement
  * @property {number} burrow
@@ -311,6 +323,7 @@
  * Data definition for Background items.
  * @typedef Background
  * @property {Advancement[]} advancement
+ * @property {EquipmentEntryData[]} startingEquipment  Different equipment entries that will be granted.
  */
 
 /**
@@ -324,6 +337,7 @@
  * @property {object} spellcasting          Details on class's spellcasting ability.
  * @property {string} spellcasting.progression  Spell progression granted by class as from `DND5E.spellProgression`.
  * @property {string} spellcasting.ability      Ability score to use for spellcasting.
+ * @property {EquipmentEntryData[]} startingEquipment  Different equipment entries that will be granted.
  */
 
 /**

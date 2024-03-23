@@ -1030,6 +1030,25 @@ function migrateDestiny(system) {
 }
 
 /**
+ * Remaps a UUID string to the new pack
+ * @param {string} uuid
+ * @returns {string}
+ */
+function remapPack(uuid) {
+  const compendiumMap = {
+    'a5e.a5e-heritage-features': 'a5e-for-dnd5e.origin-features',
+    'a5e.a5e-background-features': 'a5e-for-dnd5e.origin-features',
+    'a5e.a5e-culture-features': 'a5e-for-dnd5e.origin-features',
+    'a5e.a5e-destiny-features': 'a5e-for-dnd5e.origin-features',
+    'a5e.a5e-adventuring-gear': 'a5e-for-dnd5e.gear',
+  };
+  return uuid.replace(
+    /a5e\.a5e-[^.]+/,
+    (compendium) => compendiumMap[compendium]
+  );
+}
+
+/**
  * Reads through the grants and handles their data
  * @param {Heritage | Background | Culture | Destiny} o5e The target o5e data
  * @param {Record<string, import('./types/a5e.mjs').Grant>} grants        The a5e grants
@@ -1062,12 +1081,50 @@ function processGrants(o5e, grants, type) {
       case 'expertiseDice': // none implemented yet
         break;
       case 'feature':
+        if (grant.features.base.length) {
+          /** @type {import('./types/dnd5e.mjs').ItemGrantAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
+          const featureGrant = {
+            _id: id,
+            type: 'ItemGrant',
+            level: 0,
+            configuration: {
+              items: grant.features.base.map((f) => ({
+                uuid: remapPack(f),
+              })),
+            },
+          };
+          o5e.advancement.push(featureGrant);
+        }
+        if (grant.features.options.length) {
+          /** @type {import('./types/dnd5e.mjs').ItemChoiceAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
+          const featureChoice = {
+            _id: id,
+            type: 'ItemChoice',
+            level: 0,
+            configuration: {
+              pool: grant.features.base.map((f) => ({
+                uuid: remapPack(f),
+              })),
+              choices: { 0: grant.features.total },
+            },
+          };
+          o5e.advancement.push(featureChoice);
+        }
         break;
       case 'healing': // none implemented yet
         break;
       case 'initiative': // none implemented yet
         break;
       case 'item':
+        if (type === 'background') {
+          /** @type {import('./types/dnd5e.mjs').EquipmentEntryData[]} */
+          const items = o5e.startingEquipment;
+          items.concat(
+            grant.items.base.map((itemGrant, i) =>
+              equipmentEntry(itemGrant, i, id)
+            )
+          );
+        }
         break;
       case 'movement':
         if (type === 'heritage') {
@@ -1078,15 +1135,96 @@ function processGrants(o5e, grants, type) {
         }
         break;
       case 'proficiency':
+        /** @type {import('./types/dnd5e.mjs').TraitAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
+        const skill = {
+          _id: id,
+          type: 'Trait',
+          level: 0,
+          configuration: {
+            allowReplacements: false,
+            grants: grant.keys.base.map((s) => 'skills:' + curr),
+            choices: grant.keys.options.reduce(
+              (acc, curr) => {
+                acc.pool.push('skills:' + curr);
+                return;
+              },
+              {
+                count: grant.keys.total,
+                pool: [],
+              }
+            ),
+          },
+        };
+        o5e.advancement.push(skill);
         break;
       case 'senses': // none implemented yet
         break;
       case 'skills': // none implemented yet
         break;
       case 'trait':
+        const trait = traitGrant(grant.traits, id);
+        o5e.advancement.push(trait);
         break;
     }
   }
+}
+
+/**
+ * Calculates the starting equipment
+ * @param {import('./types/a5e.mjs')._ItemGrant} itemGrant
+ * @param {number} i
+ * @param {string} id
+ * @returns {import('./types/dnd5e.mjs').EquipmentEntryData}
+ */
+function equipmentEntry(itemGrant, i, id) {
+  return {
+    _id: id + i,
+    sort: (i + 1) * 10000,
+    key: remapPack(itemGrant.uuid),
+    count: itemGrant.quantityOverride ?? null,
+    type: 'linked',
+    group: '',
+  };
+}
+
+/** @typedef {import('./types/dnd5e.mjs').TraitAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} TraitAdvancement */
+
+/**
+ * Creates a trait advancement from a trait grant
+ * @param {import('./types/a5e.mjs').Traits} traits
+ * @param {string} id
+ * @returns {TraitAdvancement}
+ */
+function traitGrant(traits, id) {
+  /** @type {TraitAdvancement} */
+  const trait = {
+    _id: id,
+    type: 'Trait',
+    level: 0,
+  };
+  switch (traits.traitType) {
+    case 'armorTypes':
+      break;
+    case 'conditionImmunities':
+      break;
+    case 'creatureTypes':
+      break;
+    case 'damageImmunities':
+      break;
+    case 'damageVulnerabilities':
+      break;
+    case 'languages':
+      break;
+    case 'maneuverTraditions':
+      break;
+    case 'size':
+      break;
+    case 'tools':
+      break;
+    case 'weapons':
+      break;
+  }
+  return trait;
 }
 
 for (const p of packList) {
