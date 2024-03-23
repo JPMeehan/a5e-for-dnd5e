@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.0 Beta
+
+- Cultures and Destinies now support advancements
+- Added first draft of origins (Heritages, Cultures, Backgrounds, Destinies)
+- Improved data for tools, enabled them as the base tools in CONFIG
+
 ## 0.8.5 Origin and Class Features
 
 - Filled in the Class Features and Origin Features packs
