@@ -609,9 +609,10 @@ function migrateManeuver(system) {
 /**
  *
  * @param {import('./types/a5e.mjs').ObjectA5E & import('./types/a5e.mjs').BaseTemplate} system
+ * @param {string} name
  * @returns {PhysicalItem} Weapon, Container, Equipment,
  */
-function migrateObject(system) {
+function migrateObject(system, name) {
   /** @type {PhysicalItem} */
   const o5e = {
     description: {
@@ -653,7 +654,7 @@ function migrateObject(system) {
     },
     type: {
       value: system.shieldCategory ? 'shield' : system.armorCategory,
-      baseItem: getBaseItem(system),
+      baseItem: getBaseItem(name),
     },
     speed: {
       value: null,
@@ -674,7 +675,7 @@ function migrateObject(system) {
   };
   /** @type {import('./types/dnd5e.mjs').Tool} */
   const tool = {
-    type: { value: '', baseItem: getBaseItem(system) },
+    type: { value: toolType(name), baseItem: getBaseItem(name) },
     ability: 'int',
     chatFlavor: '',
     proficient: null,
@@ -683,7 +684,7 @@ function migrateObject(system) {
   };
   /** @type {import('./types/dnd5e.mjs').Weapon} */
   const weapon = {
-    type: { value: weaponType(system), baseItem: getBaseItem(system) },
+    type: { value: weaponType(system), baseItem: getBaseItem(name) },
     properties: weaponProperties(system, o5e.description),
     proficient: true,
     documentSubType: 'weapon',
@@ -802,11 +803,110 @@ function weaponType(system) {
 
 /**
  *
- * @param {object} system
+ * @param {string} name
  * @returns {string}
  */
-function getBaseItem(system) {
-  return '';
+function toolType(name) {
+  const type = {
+    "Poisoner's Kit": '',
+    "Cook's Utensils": 'art',
+    'Disguise Kit': '',
+    "Thieves' Tools": '',
+    'Herbalism Kit': '',
+    Drum: 'music',
+    Bagpipes: 'music',
+    "Cobbler's Tools": 'art',
+    "Mason's Tools": 'art',
+    "Jeweler's Tools": 'art',
+    "Bookbinder's Kit": 'art',
+    'Dice Set': 'game',
+    "Alchemist's Supplies": 'art',
+    "Navigator's Tools": '',
+    "Woodcarver's Tools": 'art',
+    Maraca: 'music',
+    'Sewing Kit': 'art',
+    'Board Game Set': 'game',
+    "Painter's Supplies": 'art',
+    "Glassblower's Tools": 'art',
+    Lyre: 'music',
+    Violin: 'music',
+    "Tinker's Tools": 'art',
+    'Playing Card Set': 'game',
+    "Leatherworker's Tools": 'art',
+    "Potter's Tools": 'art',
+    Casaba: 'music',
+    Harp: 'music',
+    "Calligrapher's Supplies": 'art',
+    Castanet: 'music',
+    "Brewer's Supplies": 'art',
+    'Cartographer’s Tools': 'art',
+    "Smith's Tools": 'art',
+    Horn: 'music',
+    'Pan Flute': 'music',
+    'Forgery Kit': '',
+    Ocarina: 'music',
+    "Weaver's Tools": 'art',
+    Flute: 'music',
+    Trombone: 'music',
+    Dulcimer: 'music',
+    "Carpenter's Tools": 'art',
+    Lute: 'music',
+  };
+
+  return type[name] ?? '';
+}
+
+/**
+ *
+ * @param {string} name
+ * @returns {string}
+ */
+function getBaseItem(name) {
+  const nameMap = {
+    "Poisoner's Kit": '',
+    "Cook's Utensils": '',
+    'Disguise Kit': '',
+    "Thieves' Tools": '',
+    'Herbalism Kit': '',
+    Drum: '',
+    Bagpipes: '',
+    "Cobbler's Tools": '',
+    "Mason's Tools": '',
+    "Jeweler's Tools": '',
+    "Bookbinder's Kit": '',
+    'Dice Set': '',
+    "Alchemist's Supplies": '',
+    "Navigator's Tools": '',
+    "Woodcarver's Tools": '',
+    Maraca: '',
+    'Sewing Kit': '',
+    'Board Game Set': '',
+    "Painter's Supplies": '',
+    "Glassblower's Tools": '',
+    Lyre: '',
+    Violin: '',
+    "Tinker's Tools": '',
+    'Playing Card Set': '',
+    "Leatherworker's Tools": '',
+    "Potter's Tools": '',
+    Casaba: '',
+    Harp: '',
+    "Calligrapher's Supplies": '',
+    Castanet: '',
+    "Brewer's Supplies": '',
+    'Cartographer’s Tools': '',
+    "Smith's Tools": '',
+    Horn: '',
+    'Pan Flute': '',
+    'Forgery Kit': '',
+    Ocarina: '',
+    "Weaver's Tools": '',
+    Flute: '',
+    Trombone: '',
+    Dulcimer: '',
+    "Carpenter's Tools": '',
+  };
+  return nameMap[name] ?? '';
 }
 
 /**
@@ -1408,8 +1508,52 @@ function mapLanguages(lang) {
  * @returns {string}
  */
 function mapTools(tool) {
-  let prefix = '';
-
+  const prefix = {
+    alchemist: 'art:',
+    bagpipes: 'music:',
+    book: 'art:',
+    brewer: 'art:',
+    calligrapher: 'art:',
+    card: 'game:',
+    carpenter: 'art:',
+    cartographer: 'art:',
+    casaba: 'music:',
+    castanet: 'music:',
+    chess: 'game:',
+    cobbler: 'art:',
+    cook: 'art:',
+    dice: 'game:',
+    disg: '',
+    drum: 'music:',
+    dulcimer: 'music:',
+    flute: 'music:',
+    forg: '',
+    glassblower: 'art:',
+    harp: 'music:',
+    herb: '',
+    horn: 'music:',
+    jeweler: 'art:',
+    leatherworker: 'art:',
+    lute: 'music:',
+    lyre: 'music:',
+    maraca: 'music:',
+    mason: 'art:',
+    navg: '',
+    ocarina: 'music:',
+    painter: 'art:',
+    panflute: 'music:',
+    pois: '',
+    potter: 'art:',
+    sew: 'art:',
+    shawm: 'music:',
+    smith: 'art:',
+    thief: '',
+    tinker: 'art:',
+    trombone: 'music:',
+    viol: 'music:',
+    weaver: 'art:',
+    woodcarver: 'art:',
+  }[abbr(tool)];
   return prefix + abbr(tool);
 }
 
@@ -1431,7 +1575,7 @@ for (const p of packList) {
       data.type = 'a5e-for-dnd5e.maneuver';
       break;
     case 'object':
-      data.system = migrateObject(data.system);
+      data.system = migrateObject(data.system, data.name);
       data.type = data.system.documentSubType;
       delete data.system.documentSubType;
       break;
