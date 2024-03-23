@@ -1288,17 +1288,11 @@ function processGrants(o5e, grants, type) {
           level: 0,
           configuration: {
             allowReplacements: false,
-            grants: grant.keys.base.map((s) => 'skills:' + curr),
-            choices: grant.keys.options.reduce(
-              (acc, curr) => {
-                acc.pool.push('skills:' + curr);
-                return;
-              },
-              {
-                count: grant.keys.total,
-                pool: [],
-              }
-            ),
+            grants: grant.keys.base.map((s) => 'skills:' + s),
+            choices: {
+              pool: grant.keys.options.map((s) => 'skills:' + s),
+              count: grant.keys.total,
+            },
           },
         };
         o5e.advancement.push(skill);
