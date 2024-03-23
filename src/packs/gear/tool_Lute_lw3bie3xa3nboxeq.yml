@@ -1,5 +1,5 @@
 name: Lute
-type: loot
+type: tool
 img: icons/tools/instruments/lute-gold-brown.webp
 effects: []
 flags: {}
@@ -31,6 +31,13 @@ system:
   equipped: false
   rarity: mundane
   identified: true
-folder: AirN59Az6BZJDPdU
+  type:
+    value: music
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  bonus: ''
+folder: dvoRS2vRrP7Lkj1I
 _id: lw3bie3xa3nboxeq
 _key: '!items!lw3bie3xa3nboxeq'
