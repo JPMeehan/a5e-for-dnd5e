@@ -1193,35 +1193,50 @@ function equipmentEntry(itemGrant, i, id) {
  * Creates a trait advancement from a trait grant
  * @param {import('./types/a5e.mjs').Traits} traits
  * @param {string} id
- * @returns {TraitAdvancement}
+ * @returns {TraitAdvancement | import('./types/dnd5e.mjs').SizeAdvancement}
  */
 function traitGrant(traits, id) {
-  /** @type {TraitAdvancement} */
+  /** @type {TraitAdvancement | import('./types/dnd5e.mjs').SizeAdvancement} */
   const trait = {
     _id: id,
     type: 'Trait',
     level: 0,
   };
+  let prefix = '';
   switch (traits.traitType) {
     case 'armorTypes':
+      prefix = 'armor:';
       break;
     case 'conditionImmunities':
+      prefix = 'ci:';
       break;
     case 'creatureTypes':
       break;
     case 'damageImmunities':
+      prefix = 'di:';
+      break;
+    case 'damageResistances':
+      prefix = 'dr:';
       break;
     case 'damageVulnerabilities':
+      prefix = 'dv:';
       break;
     case 'languages':
+      prefix = 'languages';
       break;
     case 'maneuverTraditions':
       break;
     case 'size':
+      trait.type = 'Size';
+      trait.configuration.sizes = traits.base
+        .map()
+        .concat(traits.options.map());
       break;
     case 'tools':
+      prefix = 'tool:';
       break;
     case 'weapons':
+      prefix = 'weapon:';
       break;
   }
   return trait;

@@ -250,8 +250,8 @@
 
 /**
  * @typedef {"armorTypes" | "conditionImmunities" | "creatureTypes" |
- * "damageImmunities" | "damageVulnerabilities" | "languages" |
- * "maneuverTraditions" | "size" | "tools" | "weapons"} TraitType
+ * "damageImmunities" | "damageResistances" | "damageVulnerabilities" |
+ * "languages" | "maneuverTraditions" | "size" | "tools" | "weapons"} TraitType
  */
 
 /**
