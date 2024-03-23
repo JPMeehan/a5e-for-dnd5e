@@ -170,6 +170,52 @@ function abbr(word) {
     toothAndClaw: 'tac',
     unendingWheel: 'uwh',
     vipersFangs: 'vif',
+    alchemistsSupplies: 'alchemist',
+    bookbindersKit: '',
+    brewersSupplies: 'brewer',
+    calligraphersSupplies: 'calligrapher',
+    carpentersTools: 'carpenter',
+    cartographersTools: 'cartographer',
+    cobblersTools: 'cobbler',
+    cooksUtensils: 'cook',
+    glassblowersTools: 'glassblower',
+    jewelersTools: 'jeweler',
+    leatherworkersTools: 'leatherworker',
+    masonsTools: 'mason',
+    paintersSupplies: 'painter',
+    pottersTools: 'potter',
+    tinkersTools: 'tinker',
+    weaversTools: 'weaver',
+    woodcarversTools: 'woodcarver',
+    diceSet: 'dice',
+    boardGameSet: 'chess',
+    playingCardSet: 'card',
+    // bagpipes: 'bagpipes',
+    // casaba: 'casaba',
+    // castanet: 'castanet',
+    // drum: 'drum',
+    // dulcimer: 'dulcimer',
+    // flute: 'flute',
+    // harp: 'harp',
+    // horn: 'horn',
+    // lute: 'lute',
+    // lyre: 'lyre',
+    // maraca: 'maraca',
+    // ocarina: 'ocarina',
+    panFlute: 'panflute',
+    // trombone: 'trombone',
+    violin: 'viol',
+    disguiseKit: 'disg',
+    forgeryKit: 'forg',
+    herbalismKit: 'herb',
+    navigatorsTools: 'navg',
+    poisonersKit: 'pois',
+    sewingKit: 'sew',
+    smithsTools: 'smith',
+    thievesTools: 'thief',
+    landVehicles: 'land',
+    waterVehicles: 'water',
+    airVehicles: 'air',
   };
   return map[word] ?? word;
 }
@@ -1204,8 +1250,103 @@ function traitGrant(traits, id) {
   };
   let prefix = '';
   switch (traits.traitType) {
-    case 'armorTypes':
+    case 'armorTypes': // none implemented yet
       prefix = 'armor:';
+      trait.configuration = {
+        mode: 'default',
+        allowReplacements: false,
+        grants: traits.base.map((a) => prefix + a),
+        choices: {
+          pool: traits.options.map((a) => prefix + a),
+          count: traits.total,
+        },
+      };
+      break;
+    case 'conditionImmunities': // none implemented yet
+      prefix = 'ci:';
+      trait.configuration = {
+        mode: 'default',
+        allowReplacements: false,
+        grants: traits.base.map((ci) => prefix + ci),
+        choices: {
+          pool: traits.options.map((ci) => prefix + ci),
+          count: traits.total,
+        },
+      };
+      break;
+    case 'creatureTypes': // none implemented yet
+      break;
+    case 'damageImmunities': // none implemented yet
+      prefix = 'di:';
+      trait.configuration = {
+        mode: 'default',
+        allowReplacements: false,
+        grants: traits.base.map((di) => prefix + di),
+        choices: {
+          pool: traits.options.map((di) => prefix + di),
+          count: traits.total,
+        },
+      };
+      break;
+    case 'damageResistances': // none implemented yet
+      prefix = 'dr:';
+      trait.configuration = {
+        mode: 'default',
+        allowReplacements: false,
+        grants: traits.base.map((dr) => prefix + dr),
+        choices: {
+          pool: traits.options.map((dr) => prefix + dr),
+          count: traits.total,
+        },
+      };
+      break;
+    case 'damageVulnerabilities': // none implemented yet
+      prefix = 'dv:';
+      trait.configuration = {
+        mode: 'default',
+        allowReplacements: false,
+        grants: traits.base.map((dv) => prefix + dv),
+        choices: {
+          pool: traits.options.map((dv) => prefix + dv),
+          count: traits.total,
+        },
+      };
+      break;
+    case 'languages':
+      prefix = 'languages:';
+      trait.configuration = {
+        mode: 'default',
+        allowReplacements: false,
+        grants: traits.base.map((l) => prefix + mapLanguages(l)),
+        choices: {
+          pool:
+            traits.options.length < 4
+              ? traits.options.map((l) => prefix + mapLanguages(l))
+              : [prefix + '*'],
+          count: traits.total,
+        },
+      };
+      break;
+    case 'maneuverTraditions': // none implemented yet
+      break;
+    case 'size':
+      trait.type = 'Size';
+      trait.configuration.sizes = traits.base.concat(traits.options);
+      break;
+    case 'tools':
+      prefix = 'tool:';
+      trait.configuration = {
+        mode: 'tool',
+        allowReplacements: false,
+        grants: traits.base.map((t) => prefix + mapTools(t)),
+        choices: {
+          pool: traits.options.map((t) => prefix + mapTools(t)),
+          count: traits.total,
+        },
+      };
+      break;
+    case 'weapons': // none implemented yet
+      prefix = 'weapon:';
       trait.configuration = {
         mode: '',
         allowReplacements: false,
@@ -1216,37 +1357,60 @@ function traitGrant(traits, id) {
         },
       };
       break;
-    case 'conditionImmunities':
-      prefix = 'ci:';
-      break;
-    case 'creatureTypes':
-      break;
-    case 'damageImmunities':
-      prefix = 'di:';
-      break;
-    case 'damageResistances':
-      prefix = 'dr:';
-      break;
-    case 'damageVulnerabilities':
-      prefix = 'dv:';
-      break;
-    case 'languages':
-      prefix = 'languages';
-      break;
-    case 'maneuverTraditions':
-      break;
-    case 'size':
-      trait.type = 'Size';
-      trait.configuration.sizes = traits.base.concat(traits.options);
-      break;
-    case 'tools':
-      prefix = 'tool:';
-      break;
-    case 'weapons':
-      prefix = 'weapon:';
-      break;
   }
   return trait;
+}
+
+/**
+ * Maps a5e languages to their 5e counterparts
+ * @param {string} lang
+ * @returns {string}
+ */
+function mapLanguages(lang) {
+  const commonLanguages = [
+    'common',
+    'dwarvish',
+    'elvish',
+    'giant',
+    'giant',
+    'gnomish',
+    'goblin',
+    'halfling',
+    'orc',
+  ];
+  const exoticLanguages = [
+    'aaracokra',
+    'abyssal',
+    'celestial',
+    'deep',
+    'draconic',
+    'gnoll',
+    'infernal',
+    'primordial',
+    'sylvan',
+    'undercommon',
+  ];
+  const primordialLanguages = ['aquan', 'auran', 'ignan', 'terran'];
+  if (commonLanguages.includes(lang)) return 'standard:' + lang;
+  else if (exoticLanguages.includes(lang)) return 'exotic:' + lang;
+  else if (primordialLanguages.includes(lang)) {
+    return 'exotic:primordial:' + lang;
+  } else if (['druidic', 'cant'].includes(lang)) return lang;
+  else {
+    console.warn('Unsupported language', lang);
+    return '';
+  }
+}
+
+/**
+ *
+ * @param {string} tool
+ * @returns {string}
+ */
+function mapTools(tool) {
+  let prefix = '';
+
+  return prefix + abbr(tool);
 }
 
 for (const p of packList) {
