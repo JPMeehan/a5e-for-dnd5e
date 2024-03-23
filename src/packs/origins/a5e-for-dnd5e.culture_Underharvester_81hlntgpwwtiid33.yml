@@ -1,0 +1,57 @@
+folder: null
+name: Underharvester
+type: a5e-for-dnd5e.culture
+img: icons/consumables/mushrooms/cluster-red-brown.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the Underharvester&nbsp;culture share a variety of
+      traits in common&nbsp;with one another.</p>
+
+      <p><strong>Expert Forager. </strong>Once per long rest, you&nbsp;can spend
+      4 hours of time to locate&nbsp;Supply for yourself and one
+      other&nbsp;creature, or magical reagents worth up to&nbsp;5 gold.</p>
+
+      <p><strong>Shroomfinder. </strong>You gain advantage on&nbsp;checks made
+      to find and identify&nbsp;mushrooms, as well as on checks made&nbsp;to
+      cook mushrooms or use them as&nbsp;alchemical ingredients. In addition,
+      you&nbsp;gain an expertise die on attack rolls and&nbsp;saving throws
+      against plant creatures.&nbsp;</p>
+
+      <p><strong>Sporekeeper. </strong>You keep on your persona number of
+      pouches filled with various&nbsp;kinds of mushroom spores. When
+      you&nbsp;have access to these pouches and use a&nbsp;medicinal, the
+      medicinal&rsquo;s duration is&nbsp;doubled.</p>
+
+      <p><strong>Languages. </strong>You can speak, read, write,&nbsp;and sign
+      Common and Undercommon.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: OZqpeqYWR4dMZpzd
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.r6sptkyp9pbe3qfs
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.ij5gmtkabiktcng5
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.6jtqkztl9dldrum3
+    - _id: 27FlzWSL7AsQKoIa
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:exotic:undercommon
+        choices:
+          pool: []
+          count: 0
+effects: []
+flags: {}
+_id: 81hlntgpwwtiid33
+_key: '!items!81hlntgpwwtiid33'

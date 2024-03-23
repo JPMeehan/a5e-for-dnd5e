@@ -1,0 +1,61 @@
+name: Villager
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/house-farmland-small.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the village culture share a variety of traits in
+      common with one another.&nbsp;</p>
+
+      <p><strong><em>Farm Life.&nbsp;</em></strong>You gain proficiency in
+      Animal Handling.&nbsp;</p>
+
+      <p><strong><em>Sharpened Tools.&nbsp;</em></strong>When danger approaches
+      the village and there are no adventurers around, it&rsquo;s often left to
+      the villagers to defend themselves with whatever they have on hand. You
+      are proficient with improvised weapons.&nbsp;</p>
+
+      <p><strong><em>Tall Tales.&nbsp;</em></strong>Life along the crossroads
+      rarely offers an opportunity for proper schooling, but the roads carry
+      with them legends and stories from far and wide. You may always choose to
+      use Wisdom when making History, Nature, or Religion checks. However, the
+      Narrator may decide that the results of a check made in this way are
+      distorted or exaggerated forms of the truth.&nbsp;</p>
+
+      <p><strong><em>Village Watch.&nbsp;</em></strong>You gain an expertise die
+      on Perception checks made while keeping watch during a rest.&nbsp;</p>
+
+      <p><strong><em>Languages.&nbsp;</em></strong>You can speak, read, sign,
+      and write Common and one other language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: FDj0raCZJpa40Y8L
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.6vgw3gy7jgspghgl
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.keks5uacu7ndv029
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.12gz799kxprb0anh
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.v2agqgti6uljex6n
+    - _id: QfL5gtU41XfUBa95
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 1
+effects: []
+flags: {}
+folder: null
+_id: pex526oxp90epmof
+_key: '!items!pex526oxp90epmof'

@@ -104,6 +104,36 @@ system:
         fixed:
           str: 1
         cap: 1
+    - _id: Hsof8F5AMqW3vSRu
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 1
+    - _id: d3MMja8syAYRedD6
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:itm
+        choices:
+          pool:
+            - skills:ath
+            - skills:inv
+          count: 1
+    - _id: vFfDe2HE1xZiepfE
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.dgl1bp93fxkjkawn
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

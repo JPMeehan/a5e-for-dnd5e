@@ -1,0 +1,68 @@
+name: Wood Elf
+type: a5e-for-dnd5e.culture
+img: icons/magic/nature/tree-elm-roots-brown.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the wood elf culture share a variety of traits in
+      common with one another.&nbsp;</p>
+
+      <p><strong><em>Fleet of Foot.</em></strong>&nbsp;Your base Speed increases
+      by 5 feet.&nbsp;</p>
+
+      <p><strong><em>Nature's Ally.</em></strong>&nbsp;You can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.1laktjzxk5nh1x1r]{animal friendship}
+      without material components once per long rest.
+      Your&nbsp;spellcasting&nbsp;ability for this spell is Intelligence,
+      Wisdom, or Charisma (whichever is highest).&nbsp;</p>
+
+      <p><strong><em>Nature's Touch.</em></strong>&nbsp;Choose one of the
+      following.</p>
+
+      <p class="Indent1"><em>Way with Animals:</em>&nbsp;You gain proficiency in
+      Animal Handling and with land vehicles.</p>
+
+      <p class="Indent1"><em>Way with Plants:</em>&nbsp;You gain proficiency in
+      Nature and with herbalism kits.</p>
+
+      <p><strong><em>Treeborne Scout.</em></strong>&nbsp;You gain a climb speed
+      equal to your base Speed.&nbsp;</p>
+
+      <p><strong><em>Wood Elf Weapon Training.</em></strong>&nbsp;You are
+      proficient with longbows and shortswords.&nbsp;</p>
+
+      <p><strong><em>Languages.&nbsp;</em></strong>You can speak, read, write,
+      and sign Common and Elvish.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: Fkut9TYzCU6zXJtv
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:elvish
+          - languages:standard:common
+        choices:
+          pool: []
+          count: 0
+    - _id: Vb1kT3hYRZMWpVNA
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.hel7qdspdbc9ud6z
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.q6enp1w6n8kgsgwa
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.078nmry72wvg1b15
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.jo8so1ru4xa4y6hq
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.0seevfxw00mqr6l6
+effects: []
+flags: {}
+folder: null
+_id: fhdte0dkcxilzsar
+_key: '!items!fhdte0dkcxilzsar'

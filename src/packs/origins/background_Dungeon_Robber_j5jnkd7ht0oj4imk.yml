@@ -111,6 +111,47 @@ system:
         fixed:
           int: 1
         cap: 1
+    - _id: W7rrBTBBiW4hSaBR
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:his
+        choices:
+          pool:
+            - skills:inv
+            - skills:rel
+          count: 1
+    - _id: kvlZoz1HdH1qCTYi
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.x37wyvuivxtl9u4v
+    - _id: xkJiY9Eys8Dif15v
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:art:cartographer
+        choices:
+          pool: []
+          count: 0
+    - _id: K4JDiB9lAbyXcQhr
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 6
+  startingEquipment: []
 effects: []
 flags: {}
 _id: j5jnkd7ht0oj4imk

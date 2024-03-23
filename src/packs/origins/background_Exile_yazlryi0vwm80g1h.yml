@@ -112,6 +112,36 @@ system:
         fixed:
           wis: 1
         cap: 1
+    - _id: CknhmTgrTGrEFPBP
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.cb1f9q0offv6udeb
+    - _id: YcQ0C1x4UePnZZKT
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:sur
+        choices:
+          pool:
+            - skills:prf
+            - skills:his
+          count: 1
+    - _id: VZ1gkEQffpGDOVcL
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 2
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

@@ -1,0 +1,58 @@
+folder: null
+name: Mischief Maker
+type: a5e-for-dnd5e.culture
+img: icons/creatures/mammals/rodent-rat-green.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the mischief maker culture share a variety of
+      traits in common with one another.</p>
+
+      <p><strong>Follow My Lead.&nbsp;</strong>When you are&nbsp;involved in a
+      group skill check, you are&nbsp;treated as proficient in the skill if
+      anyone&nbsp;in the group is proficient in the skill.</p>
+
+      <p><strong>Sudden Retreat. </strong>When a creature&nbsp;makes an
+      opportunity attack against you,&nbsp;it does so with disadvantage.</p>
+
+      <p><strong>Table for One. </strong>If you are Small, you can&nbsp;make a
+      Deception check or use a disguise&nbsp;kit to appear to be Medium while
+      standing&nbsp;on another Small humanoid&rsquo;s shoulders.&nbsp;</p>
+
+      <p><strong>Tricks of the Trade. </strong>You are proficient&nbsp;in
+      Deception, Performance, or Sleight of&nbsp;Hand, or with disguise kits
+      (your choice).&nbsp;</p>
+
+      <p><strong>Languages. </strong>You can speak, read, write,&nbsp;and sign
+      Common and two other&nbsp;languages.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: ZnBOJ9zWJHq7xzCT
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.vgy1d2zp9pog9h10
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.srisbnhmcxrag10b
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.typ8hij4tm9w8izs
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.qjhahwh6lfmur2cx
+    - _id: C7Qc8IAWD6r154tn
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 2
+effects: []
+flags: {}
+_id: 3dzq6d80net54c1w
+_key: '!items!3dzq6d80net54c1w'

@@ -112,6 +112,35 @@ system:
         fixed:
           cha: 1
         cap: 1
+    - _id: p2Jc2DklkUvgltVL
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:dec
+        choices:
+          pool:
+            - skills:prc
+            - skills:sur
+          count: 1
+    - _id: gE9MTiqrRVy561Oz
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.l9uv0eb90o9ziirj
+    - _id: BuvxIoOL6cTaaPIL
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:disg
+        choices:
+          pool: []
+  startingEquipment: []
 effects: []
 flags: {}
 _id: m6r5rzje4w4bhf5x

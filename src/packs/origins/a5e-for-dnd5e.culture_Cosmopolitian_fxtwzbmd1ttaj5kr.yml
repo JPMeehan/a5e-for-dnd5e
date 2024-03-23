@@ -1,0 +1,84 @@
+name: Cosmopolitian
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/palast.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the cosmopolitan culture share a variety of traits
+      in common with one another.&nbsp;</p>
+
+      <p><strong><em>Discreetly Armed.&nbsp;</em></strong>Even while armed, you
+      know how to keep the fact discreet and nonthreatening. You gain
+      an&nbsp;<span class="freelinking-link">expertise die</span>&nbsp;on checks
+      made to persuade others to let you remain armed or to conceal weapons or
+      items about your person.</p>
+
+      <p><strong><em>Fashion Sense.&nbsp;</em></strong>You know how to read
+      people through their clothes and bearing. After you spend at least 1
+      minute observing a creature within 60 feet, you can use an action to make
+      either an Insight or History check against a DC equal to the
+      creature&rsquo;s passive Deception check score. On a success, you learn
+      the following information about that creature:</p>
+
+      <ul>
+
+      <li>Whether the creature has a lower Charisma score than yourself.</li>
+
+      <li>The creature&rsquo;s culture and national origin (if any).</li>
+
+      <li>The creature&rsquo;s social standing in the local majority
+      culture.&nbsp;</li>
+
+      </ul>
+
+      <p><strong><em>Skill Versatility.&nbsp;</em></strong>In the big city, you
+      never know what skills you&rsquo;ll need to get by. You gain proficiency
+      in Culture and one other skill of your choice.&nbsp;</p>
+
+      <p><strong><em>Urban Denizen.</em></strong>&nbsp;You know your way around
+      big cities, and know how to find people in urban locations. You can make
+      an Investigation check to learn the location of (or at the
+      Narrator&rsquo;s discretion gain a helpful clue to the trail of) a person
+      by discreetly asking around in the right places. The difficulty of the
+      check is DC 15 if the individual is not hiding, or DC 20 if they are
+      trying to conceal their location.</p>
+
+      <p><strong><em>Well-Connected.</em></strong>&nbsp;You gain an extra
+      connection, selected from a background of your choice. This person is of a
+      different heritage or national origin than yourself.&nbsp;</p>
+
+      <p><strong><em>Languages.&nbsp;</em></strong>You can speak, read, write,
+      and sign in Common and two additional languages.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: u6CAredhM6TfKCBY
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.e5htzkjqpnk9batx
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.6scbzte2xd8d357g
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.i74twfpijpdsenka
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.a2y03an1q1a2jqgm
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.cz0jcdtgddks4srp
+    - _id: NseZh9YR5n5QOSKH
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 2
+effects: []
+flags: {}
+folder: null
+_id: fxtwzbmd1ttaj5kr
+_key: '!items!fxtwzbmd1ttaj5kr'

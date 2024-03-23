@@ -1,0 +1,62 @@
+folder: null
+name: Underlander
+type: a5e-for-dnd5e.culture
+img: icons/environment/wilderness/cave-entrance-rocky.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the Underlander&nbsp;culture share a variety of
+      traits in common&nbsp;with one another.&nbsp;</p>
+
+      <p><strong>Ear for Echoes. </strong>You have blindsight out&nbsp;to a
+      range of 10 feet. If you already had&nbsp;blindsight, its range increases
+      by 10 feet.</p>
+
+      <p><strong>Eat Like a Bird. </strong>You can go a number&nbsp;of days
+      equal to half your Constitution&nbsp;modifier without suffering any
+      fatigue from&nbsp;lack of Supply.</p>
+
+      <p><strong>Tunnel Finder. </strong>You have advantage on&nbsp;checks made
+      to navigate underground.&nbsp;</p>
+
+      <p><strong>Superior Darkvision. </strong>You have darkvision out to a
+      range of 60 feet. If you already had darkvision, its range increases to
+      120 feet instead.&nbsp;</p>
+
+      <p><strong>Underlander. </strong>You gain an expertise die&nbsp;on checks
+      made for journey activities&nbsp;while in Underland.</p>
+
+      <p><strong>Languages. </strong>You can speak, read, write,&nbsp;and sign
+      Common and Undercommon.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: DrIsGy9S5FjFNr0g
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.fcjripq99n0di5ky
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.01359f4dvjd4fcpu
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.g75wok14pclyo1ub
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.0lu6jyzr0upialv9
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.p1nryx49atip3xhg
+    - _id: TWa8ScG3VLWFu1kg
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:exotic:undercommon
+        choices:
+          pool: []
+          count: 0
+effects: []
+flags: {}
+_id: awv0uva3kqizlvdr
+_key: '!items!awv0uva3kqizlvdr'

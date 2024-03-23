@@ -1,0 +1,51 @@
+name: Lone Wanderer
+type: a5e-for-dnd5e.culture
+img: icons/environment/wilderness/terrain-river-road-gray.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised as lone wanderers share a variety of traits in common
+      with one another.&nbsp;</p>
+
+      <p><strong><em>Culture of My Own.&nbsp;</em></strong>You have rejected
+      other cultures in favor of building your own. You gain four skill or tool
+      proficiencies of your choice.&nbsp;</p>
+
+      <p><strong><em>Heirloom.</em></strong>&nbsp;You carry a family or cultural
+      heirloom. Choose one weapon worth 100 gold&nbsp;or less. You
+      begin&nbsp;play with a&nbsp;<span
+      class="freelinking-link">masterwork</span>&nbsp;version of that
+      weapon.</p>
+
+      <p><strong><em>Languages</em></strong>. You can speak, read, write, and
+      sign Common and two additional languages.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: CmiosdDAfMj6XV5A
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.uy1xjai61obkh9ok
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.ag1wpk4cdvwqd1n3
+    - _id: rMEfzRvbiFQ12q4o
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 2
+effects: []
+flags: {}
+folder: null
+_id: jh4dtbxac6efvzav
+_key: '!items!jh4dtbxac6efvzav'

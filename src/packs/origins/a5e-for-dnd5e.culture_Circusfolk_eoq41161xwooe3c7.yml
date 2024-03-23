@@ -1,0 +1,63 @@
+name: Circusfolk
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/tent-flag.webp
+system:
+  description:
+    value: >-
+      <div class="field field--name-body field--type-text-with-summary
+      field--label-hidden field--item">
+
+      <p><span style="font-size: 10.5pt;">Characters raised in the circusfolk
+      culture share a variety of traits in common with one
+      another.&nbsp;</span></p>
+
+      <p><strong><em>Rapid Escape.</em></strong>&nbsp;You can use the Disengage
+      action as a bonus action.&nbsp;</p>
+
+      <p><strong><em>Slapstick.</em></strong>&nbsp;You are proficient with
+      improvised weapons, and improvised weapons you use can deal 1d6 damage
+      rather than the damage they normally deal. You can use Dexterity instead
+      of Strength for the&nbsp;<span class="freelinking-link">attack and damage
+      rolls</span>&nbsp;of your improvised weapons.&nbsp;</p>
+
+      <p><strong><em>Trickster&rsquo;s Veil.&nbsp;</em></strong>You
+      can&nbsp;cast<em>
+      </em>@UUID[Compendium.a5e-for-dnd5e.spells.vemj08hawvmf44ya]{disguise
+      self}<em> </em>once per long rest. Your&nbsp;<span
+      class="freelinking-link">spellcasting</span>&nbsp;ability for this spell
+      is Intelligence, Wisdom, or Charisma (whichever is highest).&nbsp;</p>
+
+      <p><strong><em>Languages.</em></strong> You can speak, read, write, and
+      sign Common.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: wqwiq320qqcTTNXE
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.0iuxqzq3qjfsq1g8
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.zug3gkxbr584vht4
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.rnd4sajp31wftikv
+    - _id: XPuOlTe4LLHGspFG
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool: []
+          count: 0
+effects: []
+flags: {}
+folder: null
+_id: eoq41161xwooe3c7
+_key: '!items!eoq41161xwooe3c7'

@@ -52,6 +52,53 @@ system:
         fixed:
           int: 1
         cap: 1
+    - _id: Co2RtRKR69y3cPuv
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:per
+        choices:
+          pool:
+            - skills:ins
+            - skills:his
+          count: 1
+    - _id: 86DK36FeJzIJMjVx
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - tool:art:alchemist
+            - tool:undefined
+            - tool:art:brewer
+            - tool:art:calligrapher
+            - tool:art:carpenter
+            - tool:art:cartographer
+            - tool:art:cobbler
+            - tool:art:cook
+            - tool:art:glassblower
+            - tool:art:jeweler
+            - tool:art:leatherworker
+            - tool:art:mason
+            - tool:art:painter
+            - tool:art:potter
+            - tool:art:tinker
+            - tool:art:weaver
+            - tool:art:woodcarver
+            - tool:art:smith
+          count: 1
+    - _id: e0iP6DMT9QnmKd5f
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.mmvsbsbsl92q7oq3
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

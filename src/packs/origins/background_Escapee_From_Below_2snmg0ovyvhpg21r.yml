@@ -104,6 +104,35 @@ system:
         fixed:
           con: 1
         cap: 1
+    - _id: sHdJuI3uUsLL0n8w
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:ste
+        choices:
+          pool:
+            - skills:prc
+            - skills:sur
+          count: 1
+    - _id: mopAN3tKypJKXyKS
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.og1sjqy04zeach0o
+    - _id: QPrpgrU9HXHg7jhJ
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:thief
+        choices:
+          pool: []
+  startingEquipment: []
 effects: []
 flags: {}
 _id: 2snmg0ovyvhpg21r

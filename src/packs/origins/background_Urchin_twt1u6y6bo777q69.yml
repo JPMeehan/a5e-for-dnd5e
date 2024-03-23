@@ -106,6 +106,37 @@ system:
         fixed:
           dex: 1
         cap: 1
+    - _id: BOLyr05PgWlRmsHE
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:slt
+        choices:
+          pool:
+            - skills:dec
+            - skills:ste
+          count: 1
+    - _id: pXaB2DQ4G4wx6AKG
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:disg
+          - tool:thief
+        choices:
+          pool: []
+          count: 0
+    - _id: ZAmqcPUFH81Gr4V9
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.8wqbzoynt9l2e305
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

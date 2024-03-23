@@ -1,0 +1,61 @@
+name: Tunnel Halfling
+type: a5e-for-dnd5e.culture
+img: icons/environment/wilderness/cave-entrance-rocky.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the tunnel halfling culture share a variety of
+      traits in common with one another.&nbsp;</p>
+
+      <p><strong><em>Fleet of Foot.</em></strong><strong>&nbsp;</strong>Your
+      base Speed increases to 35 feet.&nbsp;</p>
+
+      <p><strong><em>Rebellious Tactics.</em></strong><strong>&nbsp;</strong>You
+      gain proficiency with one of the following skills: Acrobatics, Deception,
+      Nature, or Stealth.&nbsp;</p>
+
+      <p><strong><em>Slippery</em></strong><strong>.&nbsp;</strong>When you
+      are&nbsp;<span class="freelinking-link">grappled</span>, you can use your
+      reaction to automatically escape that grapple. Once you have used this
+      trait, you cannot do so again until you finish a&nbsp;<span
+      class="freelinking-link">long rest</span>.&nbsp;</p>
+
+      <p><strong><em>Trained Filcher</em></strong><strong>.&nbsp;</strong>You
+      gain&nbsp;proficiency in Sleight of Hand, and you gain an&nbsp;<span
+      class="freelinking-link">expertise die</span>&nbsp;when picking a pocket
+      or otherwise taking an item without notice.&nbsp;</p>
+
+      <p><strong><em>Languages</em></strong><strong>.&nbsp;</strong>You can
+      speak, read, write, and sign Common and Halfling.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: sH4tsydiKks7WadQ
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.echqm029tj7vje3o
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.4jwdu578gbwvlpsg
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.bch6yhl9anou18ly
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.q6mmd87klom6j29x
+    - _id: svKa0gQT4mzgcs7d
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:standard:halfling
+        choices:
+          pool: []
+          count: 0
+effects: []
+flags: {}
+folder: null
+_id: sz61lu7xklweoms3
+_key: '!items!sz61lu7xklweoms3'

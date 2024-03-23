@@ -1099,6 +1099,7 @@ function migrateHeritage(system, name) {
     },
     source: mapSource(system.source),
     advancement: [],
+    movement: {},
   };
   processGrants(o5e, system.grants, 'heritage');
   return o5e;
@@ -1123,6 +1124,7 @@ function migrateBackground(system) {
     },
     source: mapSource(system.source),
     advancement: [],
+    startingEquipment: [],
   };
   processGrants(o5e, system.grants, 'background');
   return o5e;
@@ -1227,7 +1229,7 @@ function processGrants(o5e, grants, type) {
       case 'expertiseDice': // none implemented yet
         break;
       case 'feature':
-        if (grant.features.base.length) {
+        if (grant.features.base?.length) {
           /** @type {import('./types/dnd5e.mjs').ItemGrantAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
           const featureGrant = {
             _id: id,
@@ -1241,14 +1243,14 @@ function processGrants(o5e, grants, type) {
           };
           o5e.advancement.push(featureGrant);
         }
-        if (grant.features.options.length) {
+        if (grant.features.options?.length) {
           /** @type {import('./types/dnd5e.mjs').ItemChoiceAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
           const featureChoice = {
             _id: id,
             type: 'ItemChoice',
             level: 0,
             configuration: {
-              pool: grant.features.base.map((f) => ({
+              pool: grant.features.options.map((f) => ({
                 uuid: remapPack(f),
               })),
               choices: { 0: grant.features.total },
@@ -1265,11 +1267,20 @@ function processGrants(o5e, grants, type) {
         if (type === 'background') {
           /** @type {import('./types/dnd5e.mjs').EquipmentEntryData[]} */
           const items = o5e.startingEquipment;
-          items.concat(
-            grant.items.base.map((itemGrant, i) =>
-              equipmentEntry(itemGrant, i, id)
-            )
-          );
+          if (grant.items.base?.length) {
+            items.concat(
+              grant.items.base.map((itemGrant, i) =>
+                equipmentEntry(itemGrant, i, id)
+              )
+            );
+          }
+          if (grant.items.options?.length) {
+            items.concat(
+              grant.items.options.map((itemGrant, i) =>
+                equipmentEntry(itemGrant, i, id)
+              )
+            );
+          }
         }
         break;
       case 'movement':
@@ -1277,7 +1288,7 @@ function processGrants(o5e, grants, type) {
           for (const mvmtType of grant.movementTypes.base) {
             o5e.movement[mvmtType] = Number(grant.bonus);
           }
-          o5e.movement.hover = grant.context.isHover;
+          o5e.movement.hover = grant.context?.isHover;
         }
         break;
       case 'proficiency':
@@ -1425,16 +1436,16 @@ function traitGrant(traits, id) {
       break;
     case 'size':
       trait.type = 'Size';
-      trait.configuration.sizes = traits.base.concat(traits.options);
+      trait.configuration = { sizes: traits.base.concat(traits.options) };
       break;
     case 'tools':
       prefix = 'tool:';
       trait.configuration = {
         mode: 'tool',
         allowReplacements: false,
-        grants: traits.base.map((t) => prefix + mapTools(t)),
+        grants: traits.base?.map((t) => prefix + mapTools(t)) ?? [],
         choices: {
-          pool: traits.options.map((t) => prefix + mapTools(t)),
+          pool: traits.options?.map((t) => prefix + mapTools(t)) ?? [],
           count: traits.total,
         },
       };

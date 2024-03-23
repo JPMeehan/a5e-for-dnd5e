@@ -1,0 +1,61 @@
+name: High Elf
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/gazebo.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in high elf culture share a variety of traits in
+      common with one another.&nbsp;</p>
+
+      <p><strong><em>Cunning Diplomat.</em></strong><em>&nbsp;</em>You can
+      always choose to use Intelligence when making a Deception, Insight,
+      Intimidation, or Persuasion check.&nbsp;</p>
+
+      <p><strong><em>High Elf Education.&nbsp;</em></strong>You are
+      proficient&nbsp;in Culture and&nbsp;one additional skill of your
+      choice.&nbsp;</p>
+
+      <p><strong><em>High Elf Weapon Training.&nbsp;</em></strong>You have
+      proficiency with rapiers and longswords.&nbsp;</p>
+
+      <p><strong><em>Magical Versatility.&nbsp;</em></strong>You know a cantrip
+      of your choice, which can be chosen from any spell
+      list.&nbsp;Your&nbsp;<span class="freelinking-link">spellcasting
+      ability</span>&nbsp;score for this cantrip is Intelligence, Wisdom, or
+      Charisma (whichever is highest).</p>
+
+      <p><strong><em>Language.&nbsp;</em></strong>You can speak, read, write,
+      and sign in Common, Elvish, and one other language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: tcMD1YdooDxbBMAC
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.rfurempzkhguqx28
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.lf1rpkmstz8kjko0
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.51hklbd57uiyppv2
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.y70prmkqgggc21qg
+    - _id: NJFa0JLMObK9GbaA
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:standard:elvish
+        choices:
+          pool:
+            - languages:*
+          count: 1
+effects: []
+flags: {}
+folder: null
+_id: lg12669s9qahqcz5
+_key: '!items!lg12669s9qahqcz5'

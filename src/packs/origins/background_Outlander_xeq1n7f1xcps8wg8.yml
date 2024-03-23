@@ -108,6 +108,47 @@ system:
         fixed:
           con: 1
         cap: 1
+    - _id: nlZoMsCfpUZJVxo3
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:sur
+        choices:
+          pool:
+            - skills:ath
+            - skills:itm
+          count: 1
+    - _id: zQYeEAsszXDjug2R
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:herb
+        choices:
+          pool: []
+          count: 0
+    - _id: 7hGt33SbKReHCgsp
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 1
+    - _id: rGcr9gqMvuEffe09
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.h2ck63vikkdohn8a
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

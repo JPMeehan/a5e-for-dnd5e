@@ -53,6 +53,47 @@ system:
         fixed:
           str: 1
         cap: 1
+    - _id: EDRP4aL9fqFej5xW
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.1cc5yif31xsuhd2d
+    - _id: 23bfqAqHyaAdXvqD
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 1
+    - _id: SThiF5hC4o55CG3J
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:itm
+            - skills:med
+            - skills:prf
+          count: 2
+    - _id: 1MFPMrmjOEzfJC1K
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:pois
+        choices:
+          pool: []
+          count: 0
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

@@ -1,0 +1,56 @@
+folder: null
+name: Sewer Rat
+type: a5e-for-dnd5e.culture
+img: icons/creatures/mammals/rodent-rat-diseaed-gray.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the sewer rat culture&nbsp;share a variety of
+      traits in common with one&nbsp;another.</p>
+
+      <p><strong>Dirty Rat.</strong> You make saving throws against disease with
+      advantage.&nbsp;</p>
+
+      <p><strong>Maze Runner. </strong>You can&rsquo;t become lost&nbsp;while
+      retracing a route within 10 feet of a&nbsp;wall or cliff.</p>
+
+      <p><strong>Sewer Born. </strong>You gain either a swim&nbsp;speed or a
+      climb speed (your choice)&nbsp;equal to your Speed.</p>
+
+      <p><strong>Sewer Sneak. </strong>You are proficient
+      with&nbsp;thieves&rsquo; tools and your choice of the&nbsp;Arcana,
+      Acrobatics, Athletics, or Stealth&nbsp;skill.&nbsp;</p>
+
+      <p><strong>Languages. </strong>You can speak, read, write,&nbsp;and sign
+      Common and one other&nbsp;language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: bKY12vYfVc6kvvLO
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 1
+    - _id: W3GFfebn2LzhOxIy
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.t5w6l2vhrot23imj
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.hwfwtru29jjkmnp9
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.930il0dcshmpno6o
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.26epenc0zc9p5an3
+effects: []
+flags: {}
+_id: 70ze761o3r8chfyl
+_key: '!items!70ze761o3r8chfyl'

@@ -1,0 +1,58 @@
+name: Nomad
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/tent.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in this culture share the following traits:&nbsp;</p>
+
+      <p><strong><em>Nature Minded.&nbsp;</em></strong>You are proficient in
+      Animal Handling and Survival, and either Medicine, Nature, or
+      Perception.&nbsp;</p>
+
+      <p><strong><em>On the Road Again.&nbsp;</em></strong>You are proficient
+      with land vehicles and tinker&rsquo;s tools. You can use tinker&rsquo;s
+      tools to repair a land vehicle you a land vehicle you have traveled in for
+      at least 1 month, and gain an&nbsp;<span
+      class="freelinking-link">expertise die</span>&nbsp;on any checks made to
+      do so. Additionally, you gain an expertise die on checks made to control
+      or navigate a land vehicle.&nbsp;</p>
+
+      <p><strong><em>Sense Weather.</em></strong>&nbsp;After observing an
+      outside area for 1 minute, you can predict the weather within the next 24
+      hours. You cannot foresee magical changes, but you can use an action to
+      make an Insight or Perception check to notice them.&nbsp;</p>
+
+      <p><strong><em>Languages.&nbsp;</em></strong>You can speak, read, write,
+      and sign Common and two additional languages.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: GQrHTbM3D70PyuLj
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.2a8h0rt4va1et86v
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.cr9hugup18fuibak
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.ixmil6jl1nemvx5s
+    - _id: 6lOJ9XxwLxPaCZgB
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 2
+effects: []
+flags: {}
+folder: null
+_id: 2e7rkzqlpjhsjetm
+_key: '!items!2e7rkzqlpjhsjetm'

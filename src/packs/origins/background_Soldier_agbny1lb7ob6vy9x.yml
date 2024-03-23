@@ -110,6 +110,49 @@ system:
         fixed:
           str: 1
         cap: 1
+    - _id: Fq6dVRNrbxgwGL69
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.t72yzc9mq3epjvvu
+    - _id: 6MIl5NqbmR6Jbh7g
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:ath
+        choices:
+          pool:
+            - skills:ani
+            - skills:itm
+          count: 1
+    - _id: HllVezvQjndoR9lj
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - tool:game:dice
+            - tool:game:chess
+            - tool:game:card
+          count: 1
+    - _id: XFyAMVmPFk4qtCQ6
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 1
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

@@ -108,6 +108,35 @@ system:
         fixed:
           wis: 1
         cap: 1
+    - _id: krSbTcgYL3GcexFZ
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:sur
+        choices:
+          pool:
+            - skills:nat
+            - skills:ste
+          count: 1
+    - _id: DvJi44h6RnXw1vJU
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.62in0zx1iia2i6s0
+    - _id: 8H52thFFF2AAmPsU
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:art:leatherworker
+        choices:
+          pool: []
+  startingEquipment: []
 effects: []
 flags: {}
 _id: qz5fib9akehc2i2v

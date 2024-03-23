@@ -103,6 +103,55 @@ system:
         fixed:
           dex: 1
         cap: 1
+    - _id: hb84EMGdoqvxE3vM
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:sur
+        choices:
+          pool:
+            - skills:itm
+            - skills:ste
+          count: 1
+    - _id: FVsT7zuJwkPZYjbo
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - tool:art:alchemist
+            - tool:undefined
+            - tool:art:brewer
+            - tool:art:calligrapher
+            - tool:art:carpenter
+            - tool:art:cartographer
+            - tool:art:cobbler
+            - tool:art:cook
+            - tool:art:glassblower
+            - tool:art:jeweler
+            - tool:art:leatherworker
+            - tool:art:mason
+            - tool:art:painter
+            - tool:art:potter
+            - tool:art:tinker
+            - tool:art:weaver
+            - tool:art:woodcarver
+            - tool:undefinedland
+            - tool:undefinedwater
+            - tool:undefinedair
+          count: 1
+    - _id: 6GTYlq2CzyYObkrz
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.7uhcfq3mt4vsnsbd
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

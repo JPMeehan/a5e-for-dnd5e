@@ -1,0 +1,61 @@
+name: Carven
+type: a5e-for-dnd5e.culture
+img: icons/skills/trades/construction-mason-stonecutter-sculpture.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the carven culture share a variety of traits in
+      common with one another.</p>
+
+      <p><em><strong>Rock Training. </strong></em>You gain proficiency with
+      rocks as improvised weapons, and in your hands a Tiny rock deals 1d6 +
+      your Strength modifier bludgeoning damage and has the thrown property
+      (40/80 feet).</p>
+
+      <p><em><strong>Stonecarver. </strong></em>You are proficient with
+      mason&rsquo;s tools and gain an&nbsp;<span
+      class="freelinking-link">expertise die</span> on checks made to carve
+      stone.</p>
+
+      <p><em><strong>Stonecunning.&nbsp;</strong></em>Whenever you make a
+      History check related to the origin of stonework, you are considered
+      proficient in the History skill and gain an&nbsp;<span
+      class="freelinking-link">expertise die</span>.</p>
+
+      <p><em><strong>Tough. </strong></em>Your hit point maximum increases by 1,
+      and it increases by 1 every time you gain a level.</p>
+
+      <p><em><strong>Languages.&nbsp;</strong></em>You can speak, read, write,
+      and sign Common and three other languages.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: 4Rfpod7L62UkI7ep
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.4msxxsyftzwlxfqj
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.4gzmuhs4t5yusp74
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.7uye8y3fa645wyzy
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.h0lg9twoatb8eqzn
+    - _id: 2yoS6MJGBOfqybfM
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 3
+effects: []
+folder: null
+flags: {}
+_id: 1fgbv9e6uwuwaase
+_key: '!items!1fgbv9e6uwuwaase'

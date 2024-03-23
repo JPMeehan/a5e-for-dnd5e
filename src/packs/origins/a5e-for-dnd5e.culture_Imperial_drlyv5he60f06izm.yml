@@ -1,0 +1,58 @@
+name: Imperial
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/house-manor.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the imperial culture share a variety of traits in
+      common with one another.&nbsp;</p>
+
+      <p><strong><em>Conscript.</em></strong>&nbsp;All subjects of the crown
+      must register for the draft, but many go ahead and serve in the guard. You
+      are proficient with light armor, spears, and light crossbows.&nbsp;</p>
+
+      <p><strong><em>Learned Teachers.</em></strong>&nbsp;Those at the safe
+      center of empires often have privileged access to fine teachers and the
+      opportunity to follow their interests. You know about the past, at least
+      as told by your people. You gain proficiency in History and one other
+      skill of your choice.&nbsp;</p>
+
+      <p><strong><em>Local Healers</em></strong>. Citizens at the heart of a
+      nation often see more healers and clerics in a year than a remote villager
+      sees in a lifetime, and your medical upkeep has made you resilient.
+      Whenever your hit point maximum or one of your ability scores would be
+      reduced, it is reduced by half as much instead (minimum 1).&nbsp;</p>
+
+      <p><strong><em>Languages.</em></strong> You can speak, read, sign, and
+      write Common and one other language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: 7CAS9gWMorteXBy7
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.kfii9c7einb7y9up
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.umpri0azf6libsgs
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.nbbazxt1k3q8lliw
+    - _id: pRfKWKGllAZW7A7F
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 1
+effects: []
+flags: {}
+folder: null
+_id: drlyv5he60f06izm
+_key: '!items!drlyv5he60f06izm'

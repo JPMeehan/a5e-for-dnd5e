@@ -116,6 +116,38 @@ system:
         fixed:
           int: 1
         cap: 1
+    - _id: CtpMbWbcH7ww5hHg
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:his
+        choices:
+          pool:
+            - skills:arc
+            - skills:cul
+            - skills:eng
+            - skills:rel
+          count: 1
+    - _id: 98CfpFWZfOW862lo
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 2
+    - _id: pICgvRYWM39yWDP1
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.92xafazfk58herh6
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

@@ -1,0 +1,66 @@
+name: Mountain Dwarf
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/mine-cart-rocks-red.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the mountain dwarf culture share a variety of
+      traits in common with one another.&nbsp;</p>
+
+      <p><strong><em>Dwarven Weapon Training.</em></strong>&nbsp;You have
+      proficiency with the battleaxe, handaxe, light hammer, and
+      warhammer.&nbsp;</p>
+
+      <p><strong><em>Dwarven Armor Training.&nbsp;</em></strong>You have
+      proficiency with light and medium armor.&nbsp;</p>
+
+      <p><strong><em>Heart of the Forge.</em></strong>&nbsp;You have&nbsp;<span
+      class="freelinking-link">resistance</span>&nbsp;to fire damage.&nbsp;In
+      addition, you gain proficiency in Engineering.</p>
+
+      <p><strong><em>Mountain Born.&nbsp;</em></strong>You&rsquo;re acclimated
+      to high and low altitudes, including elevations above 20,000 feet or
+      depths below 20,000 feet. You&rsquo;re also naturally adapted to cold
+      climates.&nbsp;</p>
+
+      <p><strong><em>Stonecunning.&nbsp;</em></strong>Whenever you make a
+      History check related to the origin of stonework, you are considered
+      proficient in the History skill and gain an&nbsp;<span
+      class="freelinking-link">expertise die</span>&nbsp;to the check.&nbsp;</p>
+
+      <p><strong><em>Languages.</em></strong> You can speak, read, write, and
+      sign Common, Dwarvish, and one other language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: PnXtEXjVmXw9K0SS
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.czjo9q4evxlzw8x1
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.aawqr2pgzwq04big
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.21kql5tb6hlcee09
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.lj5ex2wuffrgqtdb
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.jcbi1fj9nst58x6q
+    - _id: AUKsvDgaUcYWB6EK
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:standard:dwarvish
+        choices:
+          pool:
+            - languages:*
+          count: 1
+effects: []
+flags: {}
+folder: null
+_id: dpazzjhc0dg7xl07
+_key: '!items!dpazzjhc0dg7xl07'

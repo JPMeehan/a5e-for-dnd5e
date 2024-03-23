@@ -1,0 +1,73 @@
+name: Caravanner
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/wagon.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Characters raised in the caravanner culture share a variety of traits
+      in common with one another.&nbsp;</p>
+
+      <p><strong><em>Caravanner.&nbsp;</em></strong>Long hauls require steady
+      handling of a wagon and a good rapport with the pack animals. You are
+      proficient with the Animal Handling skill and with land
+      vehicles.&nbsp;</p>
+
+      <p><strong><em>Long Hauler.</em></strong> Sometimes riding in a caravan
+      means enduring long hours and harsh weather. You have proficiency in the
+      Survival skill. In addition, you have advantage on checks made to avoid
+      fatigue from a forced march.</p>
+
+      <p><strong><em>Mobile Living.</em></strong>&nbsp;You can create a
+      ramshackle version of a cart or wagon with 30 minutes of work if you have
+      access to raw or reclaimed materials. Ramshackle vehicles created in this
+      way function identically to their normal counterparts, except their gold
+      piece value is always 0, they have half as many hit points as their normal
+      counterparts, and they break and become useless if they are hit by any
+      attack roll with a result of natural 20.&nbsp;</p>
+
+      <p><strong><em>Trampling Charge</em></strong>. Caravanners have learned to
+      bowl down obstacles in their way. When you or a mount you&rsquo;re riding
+      uses the Dash action or a vehicle you&rsquo;re driving uses the Ahead Full
+      action, you can move through spaces occupied by creatures with a size
+      category smaller than you, or your mount, or the vehicle. Creatures moved
+      through in this way must make a Dexterity saving throw (DC equal to 8 +
+      your Dexterity modifier + your proficiency bonus). On a failed save,
+      creatures are knocked prone and take an amount of bludgeoning damage equal
+      to your level. Creatures cannot be damaged twice from the same trampling
+      charge. Once you use this trait, you cannot do so again until you finish a
+      <span class="freelinking-link">short or long rest</span>.</p>
+
+      <p><strong><em>Languages.</em></strong>&nbsp;You can speak, read, sign,
+      and write Common and one other language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: KIIp5CTl5guFJdR7
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.wvgkah06op6mwb0j
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.je43l1ph0qq42lpu
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.1sgzjocqcpeeovul
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.jooc0vn77brjvien
+    - _id: kzFgTAv44dRrjayq
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 1
+folder: null
+_id: 34oqolfo1qkyaf9g
+_key: '!items!34oqolfo1qkyaf9g'

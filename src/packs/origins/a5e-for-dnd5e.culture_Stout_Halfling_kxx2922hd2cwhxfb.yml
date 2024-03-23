@@ -1,0 +1,58 @@
+name: Stout Halfling
+type: a5e-for-dnd5e.culture
+img: icons/skills/trades/farming-planet-bulb-orange.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-size: 10.5pt;">Characters raised in the stout
+      halfling culture share a variety of traits in common with one
+      another.&nbsp;</span></p>
+
+      <p><strong><em>Borough Cooking</em></strong><em>.&nbsp;</em>Whenever you
+      begin a&nbsp;<span class="freelinking-link">short rest</span>, you and up
+      to 6 allies can each consume 1 Supply to partake in your borough cooking,
+      gaining 1d6 temporary hit points.&nbsp;</p>
+
+      <p><strong><em>Home Gardening.</em></strong>&nbsp;You gain proficiency in
+      either Animal Handling or Nature.&nbsp;</p>
+
+      <p><strong><em>Memoirist.&nbsp;</em></strong>You gain proficiency with
+      calligrapher&rsquo;s supplies. In addition, you can gain an&nbsp;<span
+      class="freelinking-link">expertise die</span>&nbsp;on Intelligence checks
+      to recall details about past events you took part in by first checking
+      your journals.&nbsp;</p>
+
+      <p><strong><em>Languages.</em></strong> You can speak, read, write, and
+      sign Common, Halfling, and one other language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: yJzN2zfOXBowd6FB
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.g329upe0sihdf5q4
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.wxc8wntqpyqwvklm
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.8q2sleqdg3tooapx
+    - _id: 7RM6Ur2yYWsiHbQr
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:standard:halfling
+        choices:
+          pool:
+            - languages:*
+          count: 1
+effects: []
+flags: {}
+folder: null
+_id: kxx2922hd2cwhxfb
+_key: '!items!kxx2922hd2cwhxfb'

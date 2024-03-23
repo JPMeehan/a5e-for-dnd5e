@@ -116,6 +116,36 @@ system:
         fixed:
           wis: 1
         cap: 1
+    - _id: 9cZh8HBJoU4lQS4U
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.kk14gn9yc8rkc2u5
+    - _id: Qmf8Sd0WPy2zI0PO
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:nat
+        choices:
+          pool:
+            - skills:ani
+            - skills:sur
+          count: 1
+    - _id: LUGBGA1LLdAAoyh5
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:undefinedland
+        choices:
+          pool: []
+          count: 0
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

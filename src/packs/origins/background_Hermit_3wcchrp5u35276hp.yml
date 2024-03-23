@@ -113,6 +113,36 @@ system:
         fixed:
           wis: 1
         cap: 1
+    - _id: C8I5Zm0SheCSiKE8
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:rel
+        choices:
+          pool:
+            - skills:med
+            - skills:sur
+          count: 1
+    - _id: rkRr5SgopBp4uyzd
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:herb
+        choices:
+          pool: []
+          count: 0
+    - _id: JfFGq5MO3RlBaZp1
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.692p85tb8j61azhk
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

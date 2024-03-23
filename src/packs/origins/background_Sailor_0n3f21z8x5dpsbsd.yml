@@ -110,6 +110,37 @@ system:
         fixed:
           con: 1
         cap: 1
+    - _id: XZ5GgyMUKtgclgCB
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:ath
+        choices:
+          pool:
+            - skills:acr
+            - skills:prc
+          count: 1
+    - _id: IbFTRGwJOYzEuU9D
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:navg
+          - tool:undefinedwater
+        choices:
+          pool: []
+          count: 0
+    - _id: h8V602vJ4whembGS
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.k0sgzewjo23l9a0o
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

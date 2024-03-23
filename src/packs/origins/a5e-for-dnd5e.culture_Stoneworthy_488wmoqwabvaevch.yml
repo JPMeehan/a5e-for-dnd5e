@@ -1,0 +1,75 @@
+name: Stoneworthy
+type: a5e-for-dnd5e.culture
+img: icons/environment/wilderness/arch-stone.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the stoneworthy culture share a variety of traits
+      in common with one another.&nbsp;</p>
+
+      <p><strong><em>Focused Patience.</em></strong>&nbsp;Once between long
+      rests, you can do one of the following:</p>
+
+      <p><em>Concentrate:</em>&nbsp;You&nbsp;gain an expertise die on a
+      Constitution&nbsp;<span class="freelinking-link">saving
+      throw</span>&nbsp;made to maintain&nbsp;<span
+      class="freelinking-link">concentration</span>.</p>
+
+      <p><em>Persist:</em>&nbsp;You may reattempt a failed ability check.</p>
+
+      <p><strong><em>Natural Barterer.</em></strong>&nbsp;You are used to
+      handling transactions without currency, and can appraise the relative
+      worth of many items. When bartering, haggling, or negotiating an exchange
+      of goods, you gain an expertise die on Intimidation and Persuasion checks,
+      and you may always choose which ability score to use for these rolls
+      (Intelligence, Wisdom, or Charisma).</p>
+
+      <p><strong><em>Natural Survivalist.&nbsp;</em></strong>You gain
+      proficiency in Survival.</p>
+
+      <p><strong><em>Temporary Expert.</em></strong>&nbsp;You pick up new skills
+      quickly. Each time you gain a level, you may choose to lose proficiency in
+      one skill or tool and gain proficiency in a different skill or tool in its
+      place. You cannot trade a skill proficiency for a tool proficiency, and
+      vice versa.</p>
+
+      <p><strong><em>Versatile Crafter.</em></strong>&nbsp;You may spend 4 hours
+      between long rests crafting one non-metal tool or simple weapon, or five
+      pieces of ammunition, provided you have access to the materials needed and
+      the final cost of the items does not exceed 5 gold.</p>
+
+      <p><strong><em>Languages.&nbsp;</em></strong>You can speak, read, write,
+      and sign Common and one other language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: bmHaieuInCyg8lu7
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.jdee5i2ixbir7603
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.x51tx59u1bsgx4f7
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.8c1l04nrie98wwnn
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.5mzce2fmnk8oetkr
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.c6e9h14cttayr4to
+    - _id: G9FkyRpAFDZ26kLx
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 1
+effects: []
+flags: {}
+folder: null
+_id: 488wmoqwabvaevch
+_key: '!items!488wmoqwabvaevch'

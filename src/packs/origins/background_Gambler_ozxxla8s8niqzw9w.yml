@@ -103,6 +103,37 @@ system:
         fixed:
           cha: 1
         cap: 1
+    - _id: btIa5RiOYONUdZb9
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.lo5obt0px93qczpg
+    - _id: 9T8EScAkLUWhbW3Q
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:dec
+        choices:
+          pool:
+            - skills:ins
+            - skills:slt
+          count: 1
+    - _id: yXBWmFyk7Bo9r20m
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants:
+          - tool:game:dice
+          - tool:game:card
+        choices:
+          pool: []
+          count: 0
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

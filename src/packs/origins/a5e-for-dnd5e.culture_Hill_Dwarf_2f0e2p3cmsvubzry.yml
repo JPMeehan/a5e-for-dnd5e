@@ -1,0 +1,62 @@
+name: Hill Dwarf
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/blacksmith.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the hill dwarf culture share a variety of traits
+      in common with one another.&nbsp;</p>
+
+      <p><strong><em>Community Magic.&nbsp;</em></strong>You know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.uyp8lageqgau1a4h]{friends} cantrip.
+      Once you reach 3rd level, you can cast
+      @UUID[Compendium.a5e.a5e-spells.zf1kpjwhg9fabe01]{charm person} once per
+      long rest. At 5th level, you can cast
+      @UUID[Compendium.a5e.a5e-spells.ml9ls27u9ncms8ko]{suggestion} once per
+      long rest . You don&rsquo;t need material components for these spells, and
+      when casting them your spellcasting ability is Charisma.</p>
+
+      <p><strong><em>Friendly.</em></strong>&nbsp;You are proficient in either
+      Deception or Persuasion.&nbsp;</p>
+
+      <p><strong><em>Wagoner.</em></strong>&nbsp;You are either proficient in
+      either Animal Handling or with land vehicles.&nbsp;</p>
+
+      <p><strong><em>Ways of the Land.</em></strong>&nbsp;You are proficient in
+      Survival and gain an expertise die on checks using it.</p>
+
+      <p><strong><em>Languages.</em></strong> You can speak, read, write, and
+      sign Common, Dwarvish, and two additional languages.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: w38btti6TN5welAs
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.v0np58gtgkm2u1g2
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.u202ikbb8umqmnzn
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.2rnjc18g8i56fla9
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.blh50us6tqphklsn
+    - _id: bSejRdbNGKXjHhlm
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:standard:dwarvish
+        choices:
+          pool:
+            - languages:*
+          count: 2
+effects: []
+flags: {}
+folder: null
+_id: 2f0e2p3cmsvubzry
+_key: '!items!2f0e2p3cmsvubzry'

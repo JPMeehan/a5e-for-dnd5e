@@ -120,6 +120,36 @@ system:
         fixed:
           int: 1
         cap: 1
+    - _id: d6wROVAXf9DI9ub0
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.tzgof5ybf4hxrs5k
+    - _id: TtqgFktpnaORm4r9
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:rel
+        choices:
+          pool:
+            - skills:arc
+            - skills:dec
+          count: 1
+    - _id: sR8pMGmsYySzxXGE
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 1
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

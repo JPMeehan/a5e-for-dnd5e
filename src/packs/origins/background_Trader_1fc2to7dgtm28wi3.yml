@@ -108,6 +108,50 @@ system:
         fixed:
           cha: 1
         cap: 1
+    - _id: pbdrhX5yPGEBE9ZM
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:per
+        choices:
+          pool:
+            - skills:cul
+            - skills:dec
+            - skills:ins
+          count: 1
+    - _id: Qb9xxwWz8XLXqPbU
+      type: Trait
+      level: 0
+      configuration:
+        mode: tool
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - tool:undefinedland
+            - tool:undefinedwater
+            - tool:undefinedair
+          count: 1
+    - _id: Bv15PEN5Ic5H55NK
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 1
+    - _id: lNoKHySsDrE702pt
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.p8e5aagbag1trkf7
+  startingEquipment: []
 effects: []
 flags: {}
 folder: null

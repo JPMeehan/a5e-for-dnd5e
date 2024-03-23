@@ -1,0 +1,47 @@
+folder: null
+name: Faceless
+type: a5e-for-dnd5e.culture
+img: icons/equipment/head/mask-carved-wood-brown.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the Faceless culture&nbsp;share a variety of
+      traits in common with one<br>another.</p>
+
+      <p><strong>Quick Change. </strong>You can change&nbsp;clothes, assume a
+      disguise, or doff armor&nbsp;as an action.</p>
+
+      <p><strong>Secret Lives. </strong>By asking around, you can learn the
+      identities of any Faceless operating in a community, and whether the
+      activities of a non-Faceless shapechanger are suspected. Furthermore, you
+      make Investigation checks to gather rumors with advantage.</p>
+
+      <p><strong>Stealthy Enchantment. </strong>You know the friends cantrip.
+      Once you reach 3rd level, you can cast charm person once per long rest.
+      You can cast these spells without components, and when casting them your
+      spellcasting ability is your choice of Intelligence, Wisdom, or
+      Charisma.&nbsp;</p>
+
+      <p><strong>Subtlety. </strong>You are proficient with your choice of
+      either Deception, Insight, Sleight&nbsp;of Hand, or Stealth.<br>Languages.
+      You can speak, read, write,&nbsp;and sign Common and three
+      other&nbsp;languages.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  advancement:
+    - _id: xhS3jv4OtL7F8vla
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.7qv3e9v81iqf6h8c
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.am1vzkj6x05hv1mw
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.takawh5dpaqnlscw
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.fa3x3ccupp1zrzcm
+effects: []
+flags: {}
+_id: rykevg4uiosg53k7
+_key: '!items!rykevg4uiosg53k7'
