@@ -1593,6 +1593,7 @@ for (const p of packList) {
       break;
     case 'heritage':
       data.system = migrateHeritage(data.system, data.name);
+      data.type = 'race';
       break;
     case 'background':
       data.system = migrateBackground(data.system);

@@ -6,7 +6,7 @@
     "build:gear": "npm run build:A5Eto5E -- adventuringGear && node ./tools/folderBuild/gear.mjs",
     "build:maneuvers": "npm run build:A5Eto5E -- maneuvers && node ./tools/folderBuild/maneuvers.mjs",
     "build:originFeatures": "npm run build:A5Eto5E -- backgroundFeatures && npm run build:A5Eto5E -- cultureFeatures && npm run build:A5Eto5E -- destinyFeatures && npm run build:A5Eto5E -- heritageFeatures && node ./tools/folderBuild/origin-features.mjs",
-    "build:origins": "npm run build:A5Eto5E -- heritages && npm run build:A5Eto5E -- backgrounds && npm run build:A5Eto5E -- cultures && npm run build:A5Eto5E -- destinies",
+    "build:origins": "npm run build:A5Eto5E -- heritages && npm run build:A5Eto5E -- backgrounds && npm run build:A5Eto5E -- cultures && npm run build:A5Eto5E -- destinies && node ./tools/folderBuild/origins.mjs",
     "build:classes": "npm run build:A5Eto5E -- classFeatures",
     "build:feats": "npm run build:A5Eto5E -- feats",
     "build:css": "sass ./src/styles/index.scss a5e.css",
