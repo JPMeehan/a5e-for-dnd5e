@@ -46,11 +46,9 @@ system:
     units: ''
     type: ''
   range:
-    value: >-
-      The fireworks cast bright light for 50 feet and dim light for a further 30
-      feet, and they can be heard up to 200 feet away.
+    value: '50'
     long: null
-    units: ''
+    units: ft
   consume:
     type: ''
     target: null

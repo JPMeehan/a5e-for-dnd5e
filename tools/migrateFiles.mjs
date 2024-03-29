@@ -234,12 +234,17 @@ function fixUUIDrefs(uuid) {
 }
 
 /**
+ * @typedef {import('./types/dnd5e.mjs').Action & import('./types/dnd5e.mjs').ActivatedEffect} Action
+ */
+
+/**
  *
  * @param {import('./types/a5e.mjs').Action} action     The action being called
- * @param {import('./types/dnd5e.mjs').Action} system   The o5e system data to update
+ * @param {Action} system   The o5e system data to update
  * @returns {boolean} Validates that the action was completed
  */
 function migrateAction(action, system) {
+  /** @type {Action} */
   const activation = {
     activation: {
       type: action?.activation?.type,
@@ -294,10 +299,18 @@ function migrateAction(action, system) {
   let rangeProp = 'value';
   for (const r of Object.values(action.ranges || {})) {
     const actionRange = r.range;
-    if (actionRange === 'self') continue;
-    activation.range[rangeProp] = abbr(actionRange);
-    if (rangeProp === 'value') rangeProp = 'long';
-    else console.warn('More than 2 ranges!');
+    if (['self', 'touch'].includes(actionRange)) {
+      activation.range.units = actionRange;
+      break;
+    } else {
+      activation.range.units = 'ft';
+      const convertedRange = abbr(actionRange);
+      activation.range[rangeProp] = isNaN(convertedRange)
+        ? (convertedRange.match(/\d+/) ?? [])[0]
+        : Number(convertedRange);
+      if (rangeProp === 'value') rangeProp = 'long';
+      else console.warn('More than 2 ranges!');
+    }
   }
   for (const p of Object.values(action.prompts || {})) {
     activation.actionType = actionType(abbr(p.type), activation.actionType);

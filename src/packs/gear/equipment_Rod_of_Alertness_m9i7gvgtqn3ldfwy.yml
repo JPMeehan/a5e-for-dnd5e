@@ -73,11 +73,9 @@ system:
     units: ''
     type: ''
   range:
-    value: >-
-      60 ft. bright light and another 60 ft. dim light radius centered on
-      placement in ground
+    value: '60'
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''

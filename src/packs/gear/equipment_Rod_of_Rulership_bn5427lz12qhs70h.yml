@@ -57,9 +57,9 @@ system:
     units: ''
     type: creature
   range:
-    value: Each creature of your choice within 120 ft. that you can see
+    value: '120'
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
