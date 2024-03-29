@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.1 Data Cleaning
+
+- Updated data imports from a5e
+- Fixed handling of touch and self ranges
+
 ## 0.9.0 Beta
 
 - Cultures and Destinies now support advancements
