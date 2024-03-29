@@ -1,0 +1,169 @@
+folder: 9k4UVzCiMuqj62ea
+name: Ring of Battered Courage
+type: equipment
+img: icons/equipment/finger/ring-band-notched-gold.webp
+system:
+  description:
+    value: >-
+      <p>This jagged black ring made of volcanic rock is streaked with orange
+      veins and uncomfortable to wear. While wearing this ring, you are immune
+      to the frightened condition. Additionally, while you are bloodied, it
+      grows hotter and grants the following benefits:</p>
+
+      <ul>
+
+      <li>Your AC increases by 1 for each hostile creature (squads and swarms
+      count as single creatures for this purpose) within 5 feet of you, to a
+      maximum of +5.</li>
+
+      <li>When you hit a creature with a melee weapon attack, roll 1d8. Add the
+      result to the attack&rsquo;s damage and gain the same amount of temporary
+      hit points.</li>
+
+      </ul>
+
+      <p><strong>Curse.</strong> You fail death saving throws on a roll of 12 or
+      lower. Additionally, this ring despises what it sees as cowardice. If you
+      don armor or use a shield defensively, you lose all benefits of this ring
+      for 1 week.</p>
+
+      <p><strong>Escalation. </strong>When you show extraordinary courage in the
+      face of certain death and emerge victorious, this ring&rsquo;s power can
+      evolve, gaining one of the following features. For each power it gains,
+      the threshold for successful death saving throws increases by 2.</p>
+
+      <p><em>Charge Into Danger.</em> As a bonus action while bloodied, you can
+      move up to your movement speed toward a hostile creature.</p>
+
+      <p><em>Coward&rsquo;s Bane.</em> Creatures never gain advantage from being
+      unseen on attack rolls against you and you always have resistance to
+      poison damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  quantity: 1
+  weight: 0
+  price:
+    value: 2500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/equipment/finger/ring-band-notched-gold.webp
+    origin: Item.DyIehx5s8CDTkLUF
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Ring of Battered Courage
+    _id: EHR8T5ZT2HN0Pvte
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["frightened"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!gkpu21shq1bhjc5e.EHR8T5ZT2HN0Pvte'
+  - icon: icons/equipment/finger/ring-band-notched-gold.webp
+    origin: Item.DyIehx5s8CDTkLUF
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QBC0iMSF1CAiYRo0
+        applyToSelf: true
+    transfer: false
+    name: Coward’s Bane
+    _id: QJJ7ncCX9SEdqEjX
+    changes:
+      - key: system.traits.damageResistances
+        value: '["poison"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!gkpu21shq1bhjc5e.QJJ7ncCX9SEdqEjX'
+flags: {}
+_id: gkpu21shq1bhjc5e
+_key: '!items!gkpu21shq1bhjc5e'

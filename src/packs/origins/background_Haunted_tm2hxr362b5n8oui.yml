@@ -1,0 +1,111 @@
+folder: efsBCxTIVPrTYqUO
+name: Haunted
+type: background
+img: icons/magic/death/skull-energy-light-white.webp
+system:
+  description:
+    value: >-
+      <p><strong>Ability Score Increase:</strong> +1 Wisdom and one other
+      ability score of your choice.</p>
+
+      <p><strong>Skill Proficiencies:</strong> Religion, and any one skill of
+      your choice that the spirit has imparted to you.</p>
+
+      <p><strong>Languages:</strong> Two of your choice, one of which is the
+      spirit&rsquo;s native language.</p>
+
+      <p><strong>Suggested Equipment (Cost 16 gold):</strong> 2 days worth of
+      rations, bell, 5 candles, ink, ink pen, 10 sheets of paper, 5 pieces of
+      chalk, traveler&rsquo;s clothes</p>
+
+      <p><em><strong>Feature: Silent Aid.</strong></em> Being in tune with your
+      spirit allows them to point out something you might have missed, if only
+      for their own purposes. You gain a +2 to your choice of your passive
+      Perception, Investigation, or Insight score, depending on your
+      spirit&rsquo;s skills.</p>
+
+      <p>If you banish, free, or otherwise lose your spirit, consult with the
+      Narrator to choose an appropriate feature from another background.
+      Alternatively, the Narrator may rule that you&rsquo;ve become a beacon for
+      the supernatural and another spirit has taken up haunting you.</p>
+
+      <p><em><strong>Adventures and Advancement.</strong></em> Whether you seek
+      to violently banish the restless dead or help them to peacefully pass on,
+      you will gain a reputation as a spirit-speaker. Common folk and nobility
+      alike are likely to approach you for advice and aid with everything from
+      hereditary curses to irritable poltergeists to speaking with a dead
+      relative about a lost treasure.</p>
+
+      <p>After you have solved several such problems, you&rsquo;ve become known
+      to those who deal in certain kinds of esoteric knowledge and gain access
+      to their private libraries. These vast personal collections contain
+      esoteric mysteries, such as those answerable with a DC 25 Arcana, History,
+      or Religion check. While using such a library your host will provide you
+      and your companions a moderate or rich lifestyle, depending on their means
+      and how impressed they are by your exploits.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  advancement:
+    - _id: wwAEdViCq4vxAryI
+      type: AbilityScoreImprovement
+      level: 0
+      configuration:
+        points: 1
+        fixed:
+          wis: 1
+        cap: 1
+    - _id: ekUExW1LjAam0xLi
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:rel
+        choices:
+          pool:
+            - skills:acr
+            - skills:ani
+            - skills:arc
+            - skills:ath
+            - skills:cul
+            - skills:dec
+            - skills:eng
+            - skills:his
+            - skills:ins
+            - skills:itm
+            - skills:inv
+            - skills:med
+            - skills:nat
+            - skills:prc
+            - skills:prf
+            - skills:per
+            - skills:slt
+            - skills:ste
+            - skills:sur
+          count: 1
+    - _id: UHQDMShUvouatH9q
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.eb4k4o9d1b3tk8kx
+    - _id: uMPEqQdbHs9Oapt9
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 2
+  startingEquipment: []
+effects: []
+flags: {}
+_id: tm2hxr362b5n8oui
+_key: '!items!tm2hxr362b5n8oui'

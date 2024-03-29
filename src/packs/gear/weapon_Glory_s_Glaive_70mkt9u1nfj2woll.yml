@@ -1,0 +1,143 @@
+name: Glory’s Glaive
+type: weapon
+img: icons/weapons/polearms/glaive-simple.webp
+effects:
+  - icon: icons/weapons/polearms/glaive-simple.webp
+    origin: Item.rM7E5RPbu6YZRdTK
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qYKyaXJljmDTQiIH
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Flamboyant
+    _id: JNsWoCMEomtxDlHC
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.itm
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.prf
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!70mkt9u1nfj2woll.JNsWoCMEomtxDlHC'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A red sash with gold trim adorns the haft of this glaive, the steel
+      head of which is always polished to a mirror shine. The counterweight is
+      made of brass and resembles a snarling lion, giving the weapon a regal
+      appearance that belies its prideful, capricious nature.</p>
+
+      <p>This glaive&rsquo;s blade is dull, and cannot be sharpened by any
+      whetstone, causing it to deal only 1d6 bludgeoning damage on a hit. As a
+      bonus action, you can attempt to flatter the weapon with a DC 13
+      Persuasion check. On a failure, you take 1d4 psychic damage that cannot be
+      reduced or negated. On a success, the blade becomes sharp for 10 minutes.
+      While sharp, it deals 1d12 slashing damage, grants +1 to attack and damage
+      rolls made with it, and gains the flamboyant property. If it&rsquo;s used
+      in inglorious ways, such as for the execution of an unarmed foe or being
+      used to cut down brush, it will immediately turn dull and refuse to become
+      sharp until properly placated, as determined by the Narrator.</p>
+
+      <p>You can forgo your journey activity to spend time polishing, admiring,
+      or training with glory&rsquo;s glaive to gain a bonus equal to your
+      Proficiency bonus on Persuasion checks to flatter it for the next 24
+      hours.</p>
+
+      <p><strong>Escalation.</strong> If you strike the killing blow in battle
+      with a mighty or storied foe (as determined by the Narrator) with
+      glory&rsquo;s glaive, its ego can grow a maximum of twice. When its ego
+      grows, its bonus to attack and damage rolls increases by +1, the DC to
+      flatter it increases by 3, and the psychic damage taken on a failure
+      increases by 1d4.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  quantity: 1
+  weight: 5
+  price:
+    value: 400
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  type:
+    value: martialM
+    baseItem: ''
+  properties:
+    - rch
+    - two
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: zzy7PcM8aJV9irTn
+_id: 70mkt9u1nfj2woll
+_key: '!items!70mkt9u1nfj2woll'

@@ -1,0 +1,75 @@
+folder: null
+name: Prior Tactics
+type: feat
+img: icons/skills/social/diplomacy-unity-alliance.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you become superlative at preparing your fellows for
+      battle. Your allies must spend at least 10 minutes a week discussing
+      strategy with you to benefit from this feature, at which point you spend a
+      number of gold pieces equal to twice your proficiency bonus on materials.
+      At the Narrator&rsquo;s discretion, these may be collected with a
+      successful Hunt and Gather journey activity.</p>
+
+      <p>When taking the Attack action, you can forgo one attack to choose a
+      number of allies equal to or less than your proficiency bonus that are
+      within 30 feet that can hear and see you, and spend an equal amount of
+      exertion. On their next successful weapon attack, the chosen allies deal
+      an extra 1d8 damage as they enact your recommended strategy. Once you have
+      used this feature, you cannot do so again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: generic
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 6kysmxmq2ey3pdtb
+_key: '!items!6kysmxmq2ey3pdtb'

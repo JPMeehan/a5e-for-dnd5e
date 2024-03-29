@@ -1,0 +1,64 @@
+name: Last Dance
+type: feat
+img: icons/magic/control/control-influence-puppet.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When one of your dances ends, you can spend 2 exertion to extend the
+      dance until the end of your next turn. In addition, if you know two or
+      more dance focus features, you can spend 3 additional exertion to activate
+      two dances using the same bonus action.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Any dance
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: pd4xceyhy4ioagar
+_key: '!items!pd4xceyhy4ioagar'

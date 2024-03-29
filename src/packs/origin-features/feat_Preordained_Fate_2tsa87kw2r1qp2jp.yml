@@ -1,0 +1,67 @@
+folder: Czqb9fe3C11A0mge
+name: Preordained Fate
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>When you have 0 hit points at the end of another creature&rsquo;s turn,
+      you can spend your inspiration to gain 1 hit point. When you do, move your
+      position in initiative to immediately after that creature&rsquo;s turn,
+      and take your turn normally.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '1'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 2tsa87kw2r1qp2jp
+_key: '!items!2tsa87kw2r1qp2jp'

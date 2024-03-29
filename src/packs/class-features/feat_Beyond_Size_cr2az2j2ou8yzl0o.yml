@@ -1,0 +1,67 @@
+name: Beyond Size
+type: feat
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use basic maneuvers against creatures of any size. When a
+      creature larger than you makes a saving throw against your basic maneuver,
+      you can use your reaction to force that creature to make the save with
+      disadvantage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 11th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When a create larger than you saves against your basic maneuver
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: cr2az2j2ou8yzl0o
+_key: '!items!cr2az2j2ou8yzl0o'

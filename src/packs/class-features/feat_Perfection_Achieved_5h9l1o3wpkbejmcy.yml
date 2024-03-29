@@ -1,0 +1,63 @@
+name: Perfection Achieved
+type: feat
+img: icons/skills/melee/maneuver-greatsword-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Any time you roll your martial arts die, you can spend 1 exertion to
+      roll a d12 instead. If you roll a 12 on this die, you can roll another d12
+      and add it to the result.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 5h9l1o3wpkbejmcy
+_key: '!items!5h9l1o3wpkbejmcy'

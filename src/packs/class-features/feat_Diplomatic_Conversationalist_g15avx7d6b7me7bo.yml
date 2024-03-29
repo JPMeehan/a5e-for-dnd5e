@@ -1,0 +1,35 @@
+folder: null
+name: Diplomatic Conversationalist
+type: feat
+img: icons/skills/social/diplomacy-handshake.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 13th level, choose one of the following options.</p>
+
+      <p><em><strong>Cajoling Words.</strong></em> You may reroll one failed
+      Persuasion check. Once you have used this feature, you cannot use it again
+      until you finish a short or long rest.</p>
+
+      <p><em><strong>Prepared Speech.</strong></em> After observing a creature
+      for at least 10 minutes, you can choose to gain advantage on a Deception,
+      Intimidation, or Persuasion check against it. Once you have used this
+      feature, you cannot use it again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: g15avx7d6b7me7bo
+_key: '!items!g15avx7d6b7me7bo'

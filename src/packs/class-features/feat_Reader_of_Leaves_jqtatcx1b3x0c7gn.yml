@@ -1,0 +1,78 @@
+folder: null
+name: Reader of Leaves
+type: feat
+img: icons/consumables/plants/leaf-hastate-white-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 11th level, after a long rest during which you are able to
+      consume and read the dregs of a warm drink, you roll a d20 and use a bonus
+      action to choose a creature you can see within 30 feet, including
+      yourself. The next attack roll, ability check, or saving throw that the
+      creature makes, it uses the result instead of rolling a d20. Once you have
+      used this feature after a long rest each additional use requires 3
+      exertion (and an additional d20 roll), and after using this feature a
+      number of times equal to your Wisdom modifier, you cannot use it again
+      until you finish a long rest.</p>
+
+      <p>Additionally, you may take 10 minutes to prepare and consume a soothing
+      drink, after which you can spend 3 exertion to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bs3wnsid88tbup6c]{Divination}
+      with no other material components.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: jqtatcx1b3x0c7gn
+_key: '!items!jqtatcx1b3x0c7gn'

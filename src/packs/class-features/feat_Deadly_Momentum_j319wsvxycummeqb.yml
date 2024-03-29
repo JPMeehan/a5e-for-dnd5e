@@ -1,0 +1,68 @@
+folder: null
+name: Deadly Momentum
+type: feat
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level, you can use an action and spend 8 exertion to make a
+      melee weapon attack against a number of creatures equal to your Wisdom
+      modifier within 30 feet of you, making a separate attack roll for each
+      target. For each subsequent hit after the first, you deal an additional
+      1d6 damage. This still counts as a single Attack action for the purpose of
+      @UUID[Compendium.a5e.a5e-class-features.Item.0ga9dnbgpq466btw]{Flurry of
+      Blows} or similar abilities.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: j319wsvxycummeqb
+_key: '!items!j319wsvxycummeqb'

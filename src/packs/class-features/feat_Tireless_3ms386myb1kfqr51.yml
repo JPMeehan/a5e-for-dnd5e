@@ -1,0 +1,80 @@
+folder: null
+name: Tireless
+type: feat
+img: icons/magic/time/day-night-sun-moon.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 17th level, choose one of the following:</p>
+
+      <ul>
+
+      <li>Your speed increases as though you had taken the
+      @UUID[Compendium.a5e.a5e-class-features.Item.fpml2kpfccpvvzia]{Adept
+      Speed} technique.</li>
+
+      <li>You gain the
+      @UUID[Compendium.a5e.a5e-class-features.Item.s8p9yns6gqrjvsbd]{Instant
+      Step} technique as long as you meet the prerequisites).</li>
+
+      <li>You only need to spend 2 exertion to use the Instant Step technique
+      (if you have previously chosen it).</li>
+
+      </ul>
+
+      <p>Additionally, once per short rest when you would gain a level of
+      fatigue, you can choose not to gain that level of fatigue.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 3ms386myb1kfqr51
+_key: '!items!3ms386myb1kfqr51'

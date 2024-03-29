@@ -1,6 +1,6 @@
 name: Master Athlete
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/control/buff-strength-muscle-damage.webp
 effects: []
 flags: {}
 system:
@@ -9,20 +9,58 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Starting at 6th level, you move through the world with a fluid grace
-      few can match. Your jump distances double, you gain advantage on checks
-      made to jump, a climb speed equal to your Speed, and a swim speed equal to
-      your Speed.</p><p>In addition, once per long rest when you would gain a
-      level of fatigue, you can choose not to gain that level of fatigue.</p>
+      <p>Starting at 6th level, your jump distances double, and you have
+      advantage on ability checks made to jump. In addition, you gain a climb
+      speed equal to your Speed and a swim speed equal to your Speed.</p>
+
+      <p>Finally, once per long rest when you would gain a level of fatigue, you
+      can choose not to gain that level of fatigue.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: 9f8sjnpzd47az5dl
 _key: '!items!9f8sjnpzd47az5dl'

@@ -1,0 +1,32 @@
+folder: null
+name: Lead from the Front
+type: feat
+img: icons/environment/people/cavalry-heavy.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 15th level, when you use your
+      @UUID[Compendium.a5e.a5e-class-features.Item.7vvqy990w8pxatdy]{Indomitable}
+      feature, you may immediately use Prior Tactics without spending exertion
+      (no Attack action or attack to forgo required), its range increases to 50
+      feet, and you need not choose allies able to hear you.</p>
+
+      <p>In addition, you have advantage on saving throws made to resist spells
+      of the compulsion school.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: qxfkicbiexesv72d
+_key: '!items!qxfkicbiexesv72d'

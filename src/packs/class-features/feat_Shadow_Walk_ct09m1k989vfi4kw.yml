@@ -1,0 +1,99 @@
+name: Shadow Walk
+type: feat
+img: icons/creatures/abilities/wing-batlike-purple-blue.webp
+effects:
+  - icon: icons/creatures/abilities/wing-batlike-purple-blue.webp
+    origin: Item.Ehcsc1lmBAkA0Gph
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: VQlKekWR7KJf7NJg
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Shadow Walk
+    _id: BYYy75Rz7jK8aCPA
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ct09m1k989vfi4kw.BYYy75Rz7jK8aCPA'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you are in dim light or darkness, you can use a bonus action to
+      teleport up to 60 feet to an unoccupied space you can see that is also in
+      dim light or darkness. You then have advantage on Stealth checks until the
+      start of your next turn.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 11th level, proficiency with Stealth
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ct09m1k989vfi4kw
+_key: '!items!ct09m1k989vfi4kw'

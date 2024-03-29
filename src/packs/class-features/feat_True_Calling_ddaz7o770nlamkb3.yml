@@ -1,0 +1,69 @@
+folder: null
+name: True Calling
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 20th level, you gain your choice of either the Lawful or Good
+      alignment traits. You have advantage on saving throws against enchantment,
+      evil, and compulsion effects, and you can spend 1 exertion as a reaction
+      to gain an expertise die on them. You also treat rolls of 11 or more on
+      death saving throws as 20.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Saving throws against enchantment, evil, and compulsion effects
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: ddaz7o770nlamkb3
+_key: '!items!ddaz7o770nlamkb3'

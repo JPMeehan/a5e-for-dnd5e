@@ -1,0 +1,106 @@
+folder: null
+name: Unbound Heroism
+type: feat
+img: icons/magic/light/projectile-smoke-blue-light.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, when you suffer damage, you can spend a spell slot
+      as a reaction. You gain resistance to that damage type until the beginning
+      of your next turn and you gain temporary hit points equal to your
+      proficiency bonus times the spell slot spent. As long as you have these
+      temporary hit points, your weapon attacks deal an additional 1d6 radiant
+      damage. These temporary hit points last for 1 minute.</p>
+
+      <p>Additionally, any time you succeed at a death saving throw, you recover
+      your lowest-level spent spell slot.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Suffer damage
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/light/projectile-smoke-blue-light.webp
+    origin: Item.9xKZ4S6WItAbgWxN
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iTbtGRwvi0vVgZEp
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Unbound Heroism
+    _id: fUJ2AWuKQyuwC4XW
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Unbound
+          Heroism","formula":"1d6","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":["radiant"],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/svg/upgrade.svg"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!bquuq896rt8fg7l3.fUJ2AWuKQyuwC4XW'
+flags: {}
+_id: bquuq896rt8fg7l3
+_key: '!items!bquuq896rt8fg7l3'

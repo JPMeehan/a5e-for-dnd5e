@@ -1,0 +1,69 @@
+name: Deflect Missiles
+type: feat
+img: icons/skills/ranged/arrow-flying-gray-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you are hit by a ranged weapon attack, you can use your reaction
+      to reduce the damage by 1d10 + your Dexterity modifier + your adept level.
+      If you reduce the damage to 0, you can catch the missile if it is possible
+      to do so (the missile is small enough to hold, you have a hand free). If
+      you catch the missile, as part of this reaction you can spend 1 exertion
+      to make a ranged weapon attack with the weapon or ammunition you just
+      caught. The missile counts as an adept weapon and you have proficiency for
+      the attack, which has a normal range of 20 feet and a long range of 60
+      feet.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 20
+    long: 60
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 6hkqh73swnupa2r7
+_key: '!items!6hkqh73swnupa2r7'

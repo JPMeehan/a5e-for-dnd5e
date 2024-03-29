@@ -1,0 +1,67 @@
+name: Distant Death Dance
+type: feat
+img: icons/magic/death/hand-withered-gray.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As a bonus action, you can spend 2 exertion to start the distant death
+      dance. Until the end of your turn, your reach with unarmed strikes
+      increases to 60 feet. You have disadvantage on melee attacks against
+      creatures more than 20 feet away from you.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 5th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 20/60 ft.
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ycp1aunemm4y3wjc
+_key: '!items!ycp1aunemm4y3wjc'

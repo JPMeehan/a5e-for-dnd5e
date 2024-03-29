@@ -1,0 +1,65 @@
+folder: null
+name: Impossible Blow
+type: feat
+img: icons/skills/melee/shield-damaged-broken-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, while you are raging, you can spend 1 exertion
+      when you deal damage. If the target is immune to this damage, it takes
+      damage as though it were resistant instead. If the target is already
+      resistant to this damage, it suffers normal damage.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 0ddoyilyybkcvw7y
+_key: '!items!0ddoyilyybkcvw7y'

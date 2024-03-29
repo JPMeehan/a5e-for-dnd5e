@@ -1,7 +1,37 @@
 name: Unpredictable Style
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/movement/portal-vortex-orange.webp
+effects:
+  - icon: icons/magic/movement/portal-vortex-orange.webp
+    origin: Item.hqZ0dmRuHCgwpcH6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Xpbn3WLXpBqdxvsQ
+        applyToSelf: false
+    transfer: false
+    name: Prone
+    _id: oU8HkIa8rDenVI65
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!500djimln1pdd80j.oU8HkIa8rDenVI65'
 flags: {}
 system:
   type:
@@ -9,25 +39,58 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Starting at 11th level, the unpredictability of your combat style
-      bleeds over to all aspects of your life. You can approach problems from
-      unforeseen angles, using somewhat brutal solutions that get the job done
-      swifty (if messily). When you make any ability check that could use a
+      <p>Starting at 11th level, when you make an ability check that could use a
       skill or tool you are not proficient with, you can roll your martial arts
-      die and add it to that check. On a success, you can’t use this feature
-      with the same ability until you finish a short or long rest. On a failure,
+      die and add it to that check. On a successful check, you can&rsquo;t use
+      this feature with the same ability until you finish a rest. On a failure,
       you fall prone and roll your martial arts die, taking damage equal to that
-      amount.</p><p>[[/r 1d4 #d4 die]]   [[/r 1d6 #d6 die]]   [[/r 1d8 #d8
-      die]]   [[/r 1d10 #d10 die]]   [[/r 1d12 #d12 die]]</p>
+      amount.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: 500djimln1pdd80j
 _key: '!items!500djimln1pdd80j'

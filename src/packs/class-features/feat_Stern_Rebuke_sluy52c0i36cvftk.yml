@@ -1,0 +1,71 @@
+folder: null
+name: Stern Rebuke
+type: feat
+img: icons/magic/control/energy-stream-link-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you inflict mental harm upon a creature when it makes a
+      saving throw against an enchantment or illusion spell you have cast. A
+      creature that fails its saving throw takes an amount of psychic damage
+      equal to your Intelligence modifier, twice as much psychic damage if it
+      succeeds. A creature can only be damaged by your Stern Rebuke once every
+      24 hours.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@mod'
+        - psychic
+      - - 2*@mod
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: sluy52c0i36cvftk
+_key: '!items!sluy52c0i36cvftk'

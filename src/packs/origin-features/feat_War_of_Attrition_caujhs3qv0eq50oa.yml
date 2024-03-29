@@ -1,0 +1,68 @@
+folder: Czqb9fe3C11A0mge
+name: War of Attrition
+type: feat
+img: icons/skills/melee/blade-tip-chipped-blood-red.webp
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain Inspiration whenever you strike a blow against an especially
+      powerful creature related to your destiny (but not necessarily your
+      specific destined foe).</p>
+
+      <p><em>Force the powerful enemy&rsquo;s retreat, obtain an item important
+      to their defeat, gain a significant insight into their location or
+      intentions, defeat one of their trusted lieutenants.</em></p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: caujhs3qv0eq50oa
+_key: '!items!caujhs3qv0eq50oa'

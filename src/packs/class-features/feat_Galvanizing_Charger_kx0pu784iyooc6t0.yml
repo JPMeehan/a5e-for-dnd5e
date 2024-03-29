@@ -1,0 +1,69 @@
+folder: null
+name: Galvanizing Charger
+type: feat
+img: icons/creatures/abilities/bull-head-horns-glowing.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, whenever you use the Charge maneuver and are wielding a
+      shield and no other weapons, choose one creature within 60 feet that can
+      see you. The chosen creature gains temporary hit points equal your fighter
+      level and an expertise die on its next saving throw. Once a creature has
+      benefited from this feature, it cannot benefit from Galvanizing Charger
+      again until it finishes a long rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '60'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@level'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: kx0pu784iyooc6t0
+_key: '!items!kx0pu784iyooc6t0'

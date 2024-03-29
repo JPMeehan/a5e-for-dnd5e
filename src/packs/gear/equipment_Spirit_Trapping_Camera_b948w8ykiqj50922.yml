@@ -1,0 +1,104 @@
+folder: 9k4UVzCiMuqj62ea
+name: Spirit-Trapping Camera
+type: equipment
+img: icons/commodities/tech/tube-chamber-lightning.webp
+system:
+  description:
+    value: >-
+      <p>Not to be mistaken for a simple spectral camera, this plain-looking but
+      obviously finely-made piece gives off a subtle but reassuring feeling of
+      peace. As an action, you can use one charge to focus the camera&rsquo;s
+      lens on a single creature within 30 feet and take its picture. If the
+      targeted creature is an undead or a fiend, it must make a DC 17 Charisma
+      saving throw or be instantly captured in a glass photographic plate. If
+      the target is not an undead or fiendish creature the charge is wasted. Any
+      other creatures shown in the photograph are unaffected, even if they are
+      undead or fiends. The spirit-trapping camera can produce as many plates as
+      it has charges, though each must be removed as a bonus action before you
+      can use another charge.</p>
+
+      <p>A trapped creature can be released by breaking the plate or it can be
+      sent to its final judgment (in the case of an undead creature) or back to
+      its native plane (in the case of a fiend) by immersing the plate in holy
+      water for 1 hour, at which point it disappears. Creatures banished in this
+      way cannot return to the plane they were sent away from for a year and a
+      day by any means short of divine intervention. If neither of these actions
+      are performed within 24 hours of the photograph being taken, the creature
+      is banished as above, though it has no limitations on returning.</p>
+
+      <p>The spirit-trapping camera has 3 charges and regains 1 each dawn. When
+      the last charge is expended, roll a d20. On a 1, it becomes a mundane
+      photochemical camera.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  quantity: 1
+  weight: 15
+  price:
+    value: 50000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: b948w8ykiqj50922
+_key: '!items!b948w8ykiqj50922'

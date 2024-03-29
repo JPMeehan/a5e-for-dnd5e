@@ -1,0 +1,53 @@
+name: Sixth Sense
+type: feat
+img: icons/magic/perception/hand-eye-fire-blue.webp
+effects:
+  - icon: icons/magic/perception/hand-eye-fire-blue.webp
+    origin: Item.vj3j4MTNhfNvdrbb
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Sixth Sense
+    _id: uzuOkhwJI44kgRUn
+    changes:
+      - key: flags.a5e.effects.rollMode.initiative
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!36xnsyeetyh4h56r.uzuOkhwJI44kgRUn'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have advantage on initiative rolls. In addition, you can always
+      choose to use your Wisdom for Arcana, History, Investigation, Nature, and
+      Religion checks.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 11th level
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 36xnsyeetyh4h56r
+_key: '!items!36xnsyeetyh4h56r'

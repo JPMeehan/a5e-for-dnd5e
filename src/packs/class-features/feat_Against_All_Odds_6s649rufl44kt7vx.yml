@@ -1,0 +1,71 @@
+folder: null
+name: Against All Odds
+type: feat
+img: icons/sundries/gaming/dice-runed-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, when you have disadvantage on ability checks or
+      saving throws, you gain an expertise die. When you have disadvantage on an
+      attack roll, you add your proficiency bonus to damage. Whenever you have
+      disadvantage on any die roll, you can spend 2 exertion to roll normally
+      instead. Starting at 11th level you can instead spend 4 exertion to turn
+      the disadvantage into advantage.</p>
+
+      <p>Additionally, whenever you roll with advantage or disadvantage and roll
+      the same result on both die, you become emboldened. Until the end of your
+      next turn, your next weapon attack deals an additional damage die.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 6s649rufl44kt7vx
+_key: '!items!6s649rufl44kt7vx'

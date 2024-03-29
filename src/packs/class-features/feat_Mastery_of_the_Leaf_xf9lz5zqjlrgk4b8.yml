@@ -1,0 +1,107 @@
+folder: null
+name: Mastery of the Leaf
+type: feat
+img: icons/consumables/plants/leaf-hastate-glowing-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 17th level, the gods bless you with a celestial talisman
+      in the shape of a cup. In your hands it becomes a physical cup that
+      provides all the hot drink (though not all the cups) needed for any of
+      your features.</p>
+
+      <p>Once between long rests you can call upon the blessings of the gods and
+      drink from the cup. Afterwards, you are immune to the blinded, deafened,
+      charmed, and poisoned conditions. In addition, you can spend 1 exertion to
+      use your Serene Mind feature on any ability check. Finally, once per
+      combat you can use a bonus action to drink from the cup and roll your
+      martial arts die, regaining an equal amount of exertion. These effects all
+      last until the end of your next long rest.</p>
+
+      <p>If your talisman is destroyed, the gods provide another after you
+      complete a worthy task to prove your continued dedication.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/plants/leaf-hastate-glowing-green.webp
+    origin: Item.U7Q6zoDi5Lp4GiCI
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: fJj7BcBB0Ly415k2
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Mastery of the Leaf
+    _id: tQIkoY3fNwO7z2oj
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["blinded","deafened","charmed","poisoned"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!xf9lz5zqjlrgk4b8.tQIkoY3fNwO7z2oj'
+flags: {}
+_id: xf9lz5zqjlrgk4b8
+_key: '!items!xf9lz5zqjlrgk4b8'

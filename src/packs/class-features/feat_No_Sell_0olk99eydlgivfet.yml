@@ -1,6 +1,6 @@
 name: No Sell
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/wounds/injury-face-impact-orange.webp
 effects: []
 flags: {}
 system:
@@ -12,12 +12,10 @@ system:
       <p>Starting at 6th level, when you are hit by a melee attack, you can use
       your reaction to spend 1 exertion and reduce the impact. After damage is
       determined (including any resistances you might have), roll your martial
-      arts die. Reduce the damage suffered by that amount.</p><p>[[/r 1d4 #d4
-      die]] [[/r 1d6 #d6 die]] [[/r 1d8 #d8 die]] [[/r 1d10 #d10 die]] [[/r 1d12
-      #d12 die]]</p>
+      arts die. Reduce the damage you would take by that amount.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

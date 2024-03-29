@@ -1,0 +1,72 @@
+folder: null
+name: Weave Sight
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 7th level, while you have a prophecy die, you can spend 2
+      exertion as a reaction to see invisible creatures and objects as per the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.i7sh0e2wqmql4cac]{See
+      Invisibility} spell. This effect lasts for the duration of your prophecy
+      die.</p>
+
+      <p>Additionally, your prophecy die now starts as a d8 and the maximum size
+      of your prophecy die increases to a d10.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 39ml4hg1rte4otmz
+_key: '!items!39ml4hg1rte4otmz'

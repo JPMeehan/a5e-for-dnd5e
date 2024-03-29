@@ -1,0 +1,66 @@
+name: Deflect Spells
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you are hit by a ranged spell attack that deals damage, you can
+      use your reaction and spend 2 exertion to reduce the damage by 2d10 + your
+      Dexterity modifier + your adept level. If you reduce the damage to 0, you
+      can spend 1 exertion to redirect the spell to another target within 30
+      feet of you as part of the same reaction. Your bonus for this attack is
+      equal to your proficiency bonus + your Wisdom modifier.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Deflect Missiles, 9th level
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: d4c2c0dfldc6to3y
+_key: '!items!d4c2c0dfldc6to3y'

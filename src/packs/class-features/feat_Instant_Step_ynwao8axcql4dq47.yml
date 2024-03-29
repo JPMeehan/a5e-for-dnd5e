@@ -1,0 +1,101 @@
+name: Instant Step
+type: feat
+img: icons/magic/lightning/bolt-forked-magenta.webp
+effects:
+  - icon: icons/magic/lightning/bolt-forked-magenta.webp
+    origin: Item.GiewYN4RqT69aMKp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nYuEo7WyxLnPFLxX
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Invisible
+    _id: Fejfp8SOWWneAb6B
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - invisible
+    folder: null
+    _key: '!items.effects!ynwao8axcql4dq47.Fejfp8SOWWneAb6B'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use an action to spend 4 exertion and choose an unoccupied
+      space you can see within 500 feet. You teleport and arrive at exactly the
+      spot desired. You can bring along your gear, carried items smaller than
+      your arm, and a single creature of your size category or smaller. In
+      addition, you become invisible until the start of your next turn.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Adept Speed, 11th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 500
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ynwao8axcql4dq47
+_key: '!items!ynwao8axcql4dq47'

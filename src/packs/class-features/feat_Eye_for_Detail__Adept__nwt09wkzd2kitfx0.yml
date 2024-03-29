@@ -1,0 +1,80 @@
+name: Eye for Detail (Adept)
+type: feat
+img: icons/tools/navigation/spyglass-telescope-brass.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As an action, you can spend 1 exertion to study a creature you have
+      watched speak for at least 1 minute. You can ask the Narrator one of these
+      questions:</p>
+
+      <ul>
+
+      <li>Is the creature hiding any strong emotions?</li>
+
+      <li>Does the creature have a secret agenda?</li>
+
+      <li>Did the creature lie in the last minute?</li>
+
+      <li>Is the creature hiding their true heritage and/or culture?</li>
+
+      </ul>
+
+      <p>The Narrator must give you a truthful answer.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Proficiency in the Insight skill
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: nwt09wkzd2kitfx0
+_key: '!items!nwt09wkzd2kitfx0'

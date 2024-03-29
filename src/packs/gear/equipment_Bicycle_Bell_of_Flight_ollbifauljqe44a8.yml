@@ -1,0 +1,161 @@
+folder: 9k4UVzCiMuqj62ea
+name: Bicycle Bell of Flight
+type: equipment
+img: icons/tools/instruments/bell-silver.webp
+system:
+  description:
+    value: >-
+      <p>This beautifully-filigreed bell can turn into a mundane bicycle of
+      Small or Medium size (chosen at the time of creation) when you activate it
+      as an action. Returning the bicycle to bell form also requires an action.
+      While riding this bicycle, you can ring its bell to gain a flying speed of
+      50 feet and the ability to hover. You can use the bike to fly for 2 hours,
+      expending at least 10 minutes worth of time with each use. If you are
+      flying when the time runs out, you fall at a rate of 60 feet and take no
+      damage from landing.</p>
+
+      <p>The bell regains 1 hour of flying time for every 12 hours it is not in
+      use, regardless of which form it is in.</p>
+
+      <p><strong>Curse.</strong> While you are using its flying speed the bell
+      frequently rings of its own accord, giving you disadvantage on Stealth
+      checks.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  quantity: 1
+  weight: 0
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/tools/instruments/bell-silver.webp
+    origin: Item.ORTV3aCPS16MSxFr
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ZcYwV11xlJTUAZP0
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Fly
+    _id: PL5NOkbWAboQXNS2
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '50'
+        mode: 6
+        priority: null
+      - key: system.attributes.movement.traits.hover
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 7200
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ollbifauljqe44a8.PL5NOkbWAboQXNS2'
+  - icon: icons/tools/instruments/bell-silver.webp
+    origin: Item.ORTV3aCPS16MSxFr
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: CgRQOeR6DfEx4CpS
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Ringing Bell
+    _id: xtrKb4D4SJrYkBkX
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 7200
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ollbifauljqe44a8.xtrKb4D4SJrYkBkX'
+flags: {}
+_id: ollbifauljqe44a8
+_key: '!items!ollbifauljqe44a8'

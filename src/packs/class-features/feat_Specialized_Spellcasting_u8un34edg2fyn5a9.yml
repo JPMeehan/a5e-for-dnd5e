@@ -1,0 +1,67 @@
+folder: null
+name: Specialized Spellcasting
+type: feat
+img: icons/magic/acid/dissolve-pool-bubbles.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As your power stems from your inherent aberrancy and force of
+      personality, you must choose Charisma as your spellcasting ability for
+      this class. In addition, when you choose your
+      @UUID[Compendium.a5e.a5e-class-features.Item.9m8p73ihwnicm2zi]{Pact Boon}
+      at 3rd level, you can only choose from
+      @UUID[Compendium.a5e.a5e-class-features.Item.6co2rqjh9npjg3eb]{Pact of the
+      Blade} or
+      @UUID[Compendium.a5e.a5e-class-features.Item.2dp9b4a11fuxjwbc]{Pact of the
+      Tome}, with the following alterations:</p>
+
+      <p><strong>Pact of the Blade.</strong> When you summon your pact weapon it
+      is infused into one of your hands and cannot be disarmed or removed until
+      you dismiss it.</p>
+
+      <p><strong>Pact of the Tome.</strong> You do not have a physical Book of
+      Shadows but otherwise gain the benefits of this pact boon.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/acid/dissolve-pool-bubbles.webp
+    origin: Item.tKaucGxo3vMzLAJF
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Specialized Spellcasting
+    _id: WjS6MWvuk0tyT6GO
+    changes:
+      - key: system.attributes.spellcasting
+        value: cha
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!u8un34edg2fyn5a9.WjS6MWvuk0tyT6GO'
+flags: {}
+_id: u8un34edg2fyn5a9
+_key: '!items!u8un34edg2fyn5a9'

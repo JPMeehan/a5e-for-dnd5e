@@ -1,0 +1,72 @@
+name: Hooked Swords Dance
+type: feat
+img: icons/weapons/swords/swords-short.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you are fighting with a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.36k2tx29firrtrgl]{Shortsword}
+      in each hand, you can use a bonus action and spend 2 exertion to hook them
+      together to start a hooked swords dance. Until the end of your next turn,
+      your shortswords gain the reach property. If you hit a target with both
+      swords in the same turn, the target takes an extra 1d10 slashing
+      damage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: fn4zw50l4whc5863
+_key: '!items!fn4zw50l4whc5863'

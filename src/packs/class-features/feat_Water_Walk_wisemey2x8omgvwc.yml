@@ -1,0 +1,66 @@
+name: Water Walk
+type: feat
+img: icons/magic/water/wave-water-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use a bonus action and spend 1 exertion to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.qmz47cw7wmy78gyc]{Water Walk}
+      on yourself. The effect lasts until the start of your next turn.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Adept Speed
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: wisemey2x8omgvwc
+_key: '!items!wisemey2x8omgvwc'

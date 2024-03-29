@@ -1,0 +1,64 @@
+name: Maneuver Rush
+type: feat
+img: icons/skills/melee/strike-slashes-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you hit with a maneuver that requires two attacks from your Attack
+      action, you can use another maneuver that requires one or two attacks from
+      your Attack action as part of the same Attack action. You can&rsquo;t use
+      this feature again until you finish a rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 7th level
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: p4ze7afv67jg1p5a
+_key: '!items!p4ze7afv67jg1p5a'

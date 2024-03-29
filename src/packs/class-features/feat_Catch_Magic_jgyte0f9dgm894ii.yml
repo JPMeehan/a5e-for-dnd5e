@@ -1,0 +1,78 @@
+folder: null
+name: Catch Magic
+type: feat
+img: icons/magic/air/air-smoke-casting.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level when you choose this archetype, you gain the
+      ability to touch magic itself and change its structure. When you are hit
+      by a spell attack, you can use your reaction to absorb it, distilling it
+      into a primal form of magic called mana, which you can eventually learn to
+      harness. Make a spellcasting ability check opposed by the spellcaster. On
+      a success, you negate the spell and convert it into a number of mana
+      points equal to the level of the spell, regardless of the level of the
+      spell slot it was cast with. Cantrips count as first level spells for this
+      purpose. On a failure, or if you are unable to absorb the mana points that
+      would be gained from the spell, it resolves normally.</p>
+
+      <p>The maximum number of mana points you can absorb equals your
+      proficiency bonus. This resets at the end of a long rest and any remaining
+      mana points disappear.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Hit by a spell attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: abil
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: jgyte0f9dgm894ii
+_key: '!items!jgyte0f9dgm894ii'

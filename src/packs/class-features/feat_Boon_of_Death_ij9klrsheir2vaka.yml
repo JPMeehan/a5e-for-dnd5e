@@ -1,0 +1,106 @@
+name: Boon of Death
+type: feat
+img: icons/magic/death/grave-tombstone-glow-teal.webp
+effects:
+  - icon: icons/magic/death/grave-tombstone-glow-teal.webp
+    origin: Item.VyYnr6bjeoNjMg7X
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Dy13VlORZV6ivT7L
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Boon of Death
+    _id: 2ZL7d41UtckiGrHv
+    changes:
+      - key: flags.a5e.effects.rollMode.deathSave
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Advantage on death saving throws.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ij9klrsheir2vaka.2ZL7d41UtckiGrHv'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you reduce a living creature to 0 hit points, you can use your
+      reaction to spend 2 exertion and gain a number of temporary hit points
+      equal to your martial arts die plus your proficiency bonus. If you do, you
+      have advantage on death saving throws for 1 minute.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you reduce a living creature to 0 hit points
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 +@prof
+        - temphp
+      - - 1d6 +@prof
+        - temphp
+      - - 1d8 +@prof
+        - temphp
+      - - 1d8 +@prof
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ij9klrsheir2vaka
+_key: '!items!ij9klrsheir2vaka'

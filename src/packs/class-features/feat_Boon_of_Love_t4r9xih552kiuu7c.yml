@@ -1,0 +1,89 @@
+name: Boon of Love
+type: feat
+img: icons/magic/life/heart-glowing-red.webp
+effects:
+  - icon: icons/magic/life/heart-glowing-red.webp
+    origin: Item.rrS7ineWWWx4hOpD
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 665ekNqxmtcwVmFF
+        duration:
+          unit: hours
+    transfer: false
+    name: Boon of Love
+    _id: wcjLcZ8OJWNFnUyo
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!t4r9xih552kiuu7c.wcjLcZ8OJWNFnUyo'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you succeed on a Persuasion check to influence a creature that is
+      indifferent to you, you can spend 3 exertion to make that creature
+      friendly towards you for 1 hour.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: t4r9xih552kiuu7c
+_key: '!items!t4r9xih552kiuu7c'

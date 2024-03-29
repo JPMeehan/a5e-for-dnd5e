@@ -1,0 +1,68 @@
+folder: null
+name: Unfettered Stride
+type: feat
+img: icons/skills/movement/arrow-upward-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 14th level, after you reduce a creature to 0 hit points,
+      you can spend 1 exertion as a reaction to move up to your speed and make a
+      melee weapon attack against another target. This attack deals an
+      additional damage die.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Reduce a creature to 0 hit points
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 2c4s0ci0ggzdvyau
+_key: '!items!2c4s0ci0ggzdvyau'

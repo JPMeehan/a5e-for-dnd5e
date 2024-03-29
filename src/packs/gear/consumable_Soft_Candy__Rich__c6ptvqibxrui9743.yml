@@ -1,0 +1,35 @@
+folder: jczlz1TrOcJzDCz6
+name: Soft Candy (Rich)
+type: consumable
+img: icons/consumables/food/berries-ration-round-red.webp
+system:
+  description:
+    value: >-
+      <p>Typically sweet, these small bits of food (sold in packages of four or
+      five pieces) are always flavorful and ideal for adventurers as their
+      contents make them naturally preserved. Candy cannot be used as
+      Supply.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  quantity: 1
+  weight: 0
+  price:
+    value: 5
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+_id: c6ptvqibxrui9743
+_key: '!items!c6ptvqibxrui9743'

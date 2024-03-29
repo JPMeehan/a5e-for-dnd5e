@@ -1,0 +1,72 @@
+folder: null
+name: Magical Manipulation
+type: feat
+img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 10th level, your ability to affect magic and probability
+      increases. When you or any ally you can see within 30 ft must make a
+      saving throw as the result of a spell attack or effect, you can use your
+      reaction to grant that creature advantage on the saving throw.</p>
+
+      <p>One you have used this feature a number of times equal to half your
+      proficiency bonus, you cannot use it again until you have finished a short
+      or long rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Saving throw as the result of a spell attack or effect
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: y15vu7dh2nplmafu
+_key: '!items!y15vu7dh2nplmafu'

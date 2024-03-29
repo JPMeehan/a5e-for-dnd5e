@@ -1,0 +1,30 @@
+folder: null
+name: Divination Training
+type: feat
+img: icons/magic/holy/chalice-glowing-gold.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at 3rd level, gain proficiency with
+      Arcana. If you are already proficient, you instead gain an expertise die.
+      Additionally, you learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ljixftygfhi0sfsf]{Guidance} and
+      @UUID[Compendium.a5e.a5e-spells.Item.mqvqffh0lbzzma3a]{True Strike}
+      cantrips.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 4w8wqtzn5zqmpqf9
+_key: '!items!4w8wqtzn5zqmpqf9'

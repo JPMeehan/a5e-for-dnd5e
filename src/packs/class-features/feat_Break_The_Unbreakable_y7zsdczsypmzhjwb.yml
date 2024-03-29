@@ -1,0 +1,70 @@
+folder: null
+name: Break The Unbreakable
+type: feat
+img: icons/environment/wilderness/wall-ruins.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 10th level, after you deal damage with a melee weapon to
+      mundane objects or structures of Large size or smaller, roll a d20. On a
+      roll of 15 or more, that object or structure is destroyed.</p>
+
+      <p>Additionally, when you attack an object or structure that can only be
+      damaged by specific means (such as a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.gt3stogmnxaya7ek]{Forcecage}),
+      you can spend 2 exertion to have your melee weapon attack count as that
+      specific mean.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: y7zsdczsypmzhjwb
+_key: '!items!y7zsdczsypmzhjwb'

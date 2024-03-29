@@ -1,0 +1,64 @@
+folder: 7IoZEosPrje7wsrr
+name: Spinner Cult
+type: a5e-for-dnd5e.culture
+img: icons/creatures/invertebrates/spider-web-black.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in spinner cults share a variety of traits in common
+      with one another.</p>
+
+      <p><em><strong>Necessary Skills.</strong></em> You gain proficiency in
+      either Deception or Insight and either Investigation or Perception.</p>
+
+      <p><em><strong>Cold Read.</strong></em> When you first meet someone new
+      and interact with them personally for at least 1 minute, you can ask the
+      Narrator one question about them. This question must be a surface-level
+      question about their personality or life, such as &ldquo;do they have
+      children?&rdquo;, &ldquo;what do they think of the duke?&rdquo;, or
+      &ldquo;what do they want right now?&rdquo; You have advantage on the next
+      Deception, Persuasion or Insight check you make that uses this knowledge
+      to benefit you. Discreetly Armed. You gain an expertise die on checks made
+      to persuade others to let you remain armed or to conceal weapons or items
+      about your person.</p>
+
+      <p><em><strong>Oracular Talent. </strong></em>You know one divination
+      cantrip or 1st-level divination spell of your choice. If you choose a
+      1st-level spell, you can cast it once without spending a spell slot or
+      providing material components, and must finish a long rest before you can
+      do so again. Your spellcasting ability for this spell is Intelligence or
+      Wisdom (whichever is highest).</p>
+
+      <p><em><strong>Languages.</strong></em> You speak, read, write and sign in
+      Common and Undercommon.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  advancement:
+    - _id: lL4wtJ0NJDtfbkrD
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.slhdispdj5j36r1m
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.oqzu0orl12bg8avk
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.60jgmp988rilxzhz
+    - _id: dOnuPbOJyzRZHXTG
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:exotic:undercommon
+        choices:
+          pool:
+            - languages:*
+effects: []
+flags: {}
+_id: wyt032pdevo3wvyu
+_key: '!items!wyt032pdevo3wvyu'

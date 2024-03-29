@@ -1,0 +1,105 @@
+folder: null
+name: Epic Charge
+type: feat
+img: icons/creatures/mammals/bull-horned-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level, you can use an action and move at least 20 feet to make
+      an epic charge. While making an epic charge, you can move through the
+      spaces of creatures and objects of up to one size larger than you without
+      provoking opportunity attacks. When you move into a creature&rsquo;s space
+      it makes a Dexterity saving throw against your maneuver DC (with
+      disadvantage if it is your size or smaller), taking 36 (8d8) bludgeoning
+      damage and falling prone on a failed save, or half as much damage and
+      remaining standing on a success.</p>
+
+      <p>Once you have used this feature, you cannot use it again until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 8d8
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/mammals/bull-horned-blue.webp
+    origin: Item.jvqF3HWGDTHJ4cKN
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: y1BOAEUOryvLECcK
+    transfer: false
+    name: Prone
+    _id: DUOtmtFIoOeS7XEV
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        mode: 0
+        value: '["prone"]'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!lbkrq1vd4qaxh58w.DUOtmtFIoOeS7XEV'
+flags: {}
+_id: lbkrq1vd4qaxh58w
+_key: '!items!lbkrq1vd4qaxh58w'

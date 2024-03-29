@@ -1,0 +1,29 @@
+folder: null
+name: Increased Efficacy
+type: feat
+img: icons/skills/movement/arrow-upward-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose one of the following schools of magic: <em>communication,
+      compulsion, fear, knowledge, law, obscurement</em>. When casting a spell
+      from the chosen school using a spell slot lower than your highest level
+      spell slot, the spell counts as though you were casting it using a spell
+      slot that is one level higher.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: xwkvgiedphyijy17
+_key: '!items!xwkvgiedphyijy17'

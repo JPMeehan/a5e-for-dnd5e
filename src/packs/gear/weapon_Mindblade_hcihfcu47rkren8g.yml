@@ -1,0 +1,98 @@
+name: Mindblade
+type: weapon
+img: icons/skills/melee/sword-engraved-glow-purple.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Dual-Wielding, Finesse, Simple</em></p>
+
+      <p>This item appears to be a dagger hilt. While grasping the hilt, you can
+      use a bonus action to cause a blade of purple flames to spring into
+      existence, or make the blade disappear.</p>
+
+      <p>You gain a +2 bonus to attack and damage rolls made with this weapon,
+      which deals psychic damage instead of piercing damage. When a fey, giant,
+      or humanoid creature is slain using this weapon, for the next [[/r 1d4+2]]
+      days the resulting corpse can be possessed (such as by magic jar or a
+      ghost) as though it were still alive.</p>
+
+      <p>Alternatively, during that time you may expend a charge to use the
+      dagger to animate the corpse as
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.xs292gklnxyaeuyx]{Animate Dead}
+      with a casting time of 1 action. You must reassert your control over the
+      undead creature within 24 hours using 1 charge, or it ceases obeying any
+      commands. Casting the animate dead spell on such a creature has no effect.
+      Regardless, it reverts to a corpse when the allotted time is up and cannot
+      be reanimated in this way again. The dagger has 4 charges and regains 1d4
+      expended charges each dawn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  quantity: 1
+  weight: 1
+  price:
+    value: 6000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - lgt
+    - fin
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: zzy7PcM8aJV9irTn
+_id: hcihfcu47rkren8g
+_key: '!items!hcihfcu47rkren8g'

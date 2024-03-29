@@ -1,0 +1,99 @@
+name: Shockwave
+type: feat
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+effects:
+  - icon: icons/magic/sonic/explosion-shock-sound-wave.webp
+    origin: Item.zpNSOGdLemyjkHA3
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jFrKd7mWIr6jAbeu
+    transfer: false
+    name: Prone
+    _id: Yir0VoKz3HrhM0y1
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!dl7j692d8olrum5l.Yir0VoKz3HrhM0y1'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use an action and spend 3 exertion to hit the ground so hard it
+      creates a shockwave in a 40-foot line that is 5 feet wide. Each creature
+      in that line makes a Dexterity saving throw. On a failed save, the
+      creature takes 4d6 bludgeoning damage and is knocked prone. On a success,
+      the creature takes half damage and isn&rsquo;t knocked prone.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 5th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 40
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+folder: null
+_id: dl7j692d8olrum5l
+_key: '!items!dl7j692d8olrum5l'

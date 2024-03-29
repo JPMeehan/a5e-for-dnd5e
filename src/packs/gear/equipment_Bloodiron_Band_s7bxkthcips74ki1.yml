@@ -1,0 +1,124 @@
+folder: 9k4UVzCiMuqj62ea
+name: Bloodiron Band
+type: equipment
+img: icons/equipment/wrist/bracer-armored-steel.webp
+system:
+  description:
+    value: >-
+      <p>The Bloodiron Band gleams a metallic crimson and is set with dozens of
+      spikes on the inside so that it pierces the skin as it closes on the
+      forearm during attunement. Wearing this band increases your Strength to
+      20. It has no effect if your Strength is equal to or greater than 20.</p>
+
+      <p><em><strong>Curse.</strong></em> Because of the horrific materials
+      required in its construction, each band comes with a terrible cost. While
+      attuned to the bloodiron band, your maximum hit points are reduced by a
+      number equal to twice your level. Additionally, at the start of your turn,
+      if another creature within 15 feet of you is bloodied, you must make a DC
+      15 Wisdom saving throw (gaining advantage if the creature is an ally). On
+      a failure, you must attempt to move to a space within reach and take the
+      attack action against that creature.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  quantity: 1
+  weight: 0
+  price:
+    value: 2500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 15
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/equipment/wrist/bracer-armored-steel.webp
+    origin: Item.HUYRp1HaisL43LaH
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Bloodiron Band
+    _id: qiwGboUDfmCRB7hU
+    changes:
+      - key: system.abilities.str.value
+        value: '20'
+        mode: 5
+        priority: null
+      - key: system.attributes.hp.max
+        value: 2*@level
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!s7bxkthcips74ki1.qiwGboUDfmCRB7hU'
+flags: {}
+_id: s7bxkthcips74ki1
+_key: '!items!s7bxkthcips74ki1'

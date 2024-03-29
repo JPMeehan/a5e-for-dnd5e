@@ -1,0 +1,67 @@
+name: Mirage Dance
+type: feat
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As a bonus action, you can spend 2 exertion to start a mirage dance.
+      Until the end of your next turn, you are under the effect of the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.05w9nzp0kvu94k3h]{Mirror Image}
+      spell.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 5th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: generic
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: zhydxzjhojfk9itt
+_key: '!items!zhydxzjhojfk9itt'

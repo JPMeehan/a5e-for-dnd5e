@@ -1,0 +1,120 @@
+folder: zzy7PcM8aJV9irTn
+name: Murderous Straight Razor
+type: weapon
+img: icons/sundries/survival/razor.webp
+system:
+  description:
+    value: >-
+      <p>This otherwise gleaming implement has dark stains that cannot be
+      polished or scrubbed off. You gain a +2 bonus to attack and damage rolls
+      made with this razor. A number of times per day equal to half your
+      proficiency bonus, when you hit with a melee attack you can use a bonus
+      action to channel the inherent hatred of the razor, dealing 2d6 necrotic
+      damage.</p>
+
+      <p><strong>Curse.</strong> Once attuned to this weapon, you are cursed
+      until you are targeted by
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.l16wg9h1z9s16exb]{Remove Curse}
+      or similar magic. Your appearance and manner have a hint of murderous rage
+      at all times, giving you disadvantage on Charisma checks and making beasts
+      hostile towards you. Additionally, you have disadvantage on attack rolls
+      with any other weapon and must make a DC 14 Wisdom saving throw to
+      willingly part with the razor, even temporarily.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  quantity: 1
+  weight: 0.5
+  price:
+    value: 3500
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - fin
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/sundries/survival/razor.webp
+    origin: Item.pa4042WZphx99GJy
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: MHcgZQQaO19S5uV2
+        applyToSelf: true
+    transfer: false
+    name: Murderous Rage
+    _id: gOR0FfIeVFMUMMUr
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.cha
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!bs33uvd26vazepaf.gOR0FfIeVFMUMMUr'
+flags: {}
+_id: bs33uvd26vazepaf
+_key: '!items!bs33uvd26vazepaf'

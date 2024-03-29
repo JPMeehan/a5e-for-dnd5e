@@ -1,0 +1,37 @@
+folder: null
+name: Deceptive Mastery
+type: feat
+img: icons/magic/control/control-influence-puppet.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, choose one of the following.</p>
+
+      <p><em><strong>Takes One to Know One.</strong></em> You have advantage on
+      saving throws made against enchantment spells and illusion spells.</p>
+
+      <p><em><strong>Well-Worn Deception.</strong></em> You can cast an
+      enchantment or illusion spell using a spell slot that is one or more
+      levels lower by spending 1 favor point. For example, you could cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.f0lq2ogke9k8f1v9]{Mislead} (a
+      5th-level illusion spell) by using a 4th-level spell slot and 1 favor
+      point or with a 3rd-level spell slot and 2 favor points. Once you have
+      used this feature a number of times equal to your proficiency bonus, you
+      cannot do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: vdb76oaxjpit6a76
+_key: '!items!vdb76oaxjpit6a76'

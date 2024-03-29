@@ -1,0 +1,128 @@
+folder: zzy7PcM8aJV9irTn
+name: Defensive Umbrella
+type: weapon
+img: icons/weapons/staves/staff-ornate.webp
+system:
+  description:
+    value: >-
+      <p>This is an unassuming-looking black umbrella, but it can provide
+      impressive protection when needed. As a bonus action when the umbrella is
+      open, you can press a button in the handle. The canopy immediately
+      flattens and hardens into a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.vf83modl46ytbqgg]{+1 light
+      shield} and the handle transforms into a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.6knwjq3586qmvdg4]{+1
+      rapier}. You count as already wielding both and are considered proficient
+      as long as you are attuned to the defensive umbrella. You can return the
+      sword and shield to umbrella form as an action by bringing the two parts
+      together and speaking the command word. Opening or closing the umbrella
+      requires an action.</p><hr><p><b>Defensive:</b> This weapon is designed to
+      be used with a shield of the stated degree or lighter (light, medium, or
+      heavy). When you make an attack with this weapon and are using a shield
+      designed for it, you can use a bonus action to either make an attack with
+      your shield or increase your Armor Class by 1 until the start of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  quantity: 1
+  weight: 1
+  price:
+    value: 1800
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - fin
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 20
+    long: '60'
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/weapons/staves/staff-ornate.webp
+    origin: Item.UVxDlmPChJdWN7jH
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: d3L1FZg6EqUj4pzd
+        applyToSelf: true
+    transfer: false
+    name: Shield, Light +1
+    _id: oP9c68nHxpuEmeCm
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!y9x8ap2yeh8a6ug2.oP9c68nHxpuEmeCm'
+flags: {}
+_id: y9x8ap2yeh8a6ug2
+_key: '!items!y9x8ap2yeh8a6ug2'

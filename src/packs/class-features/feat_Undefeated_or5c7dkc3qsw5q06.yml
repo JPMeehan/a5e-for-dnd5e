@@ -1,0 +1,73 @@
+name: Undefeated
+type: feat
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When a creature would reduce you to 0 hit points, you can use your
+      reaction to make an unarmed strike against a creature within your reach.
+      On a hit, you can spend 1 exertion to roll your martial arts die and gain
+      that many temporary hit points. You can&rsquo;t use this feature again
+      until you finish a rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 11th level
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - temphp
+      - - 1d6
+        - temphp
+      - - 1d8
+        - temphp
+      - - 1d10
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: or5c7dkc3qsw5q06
+_key: '!items!or5c7dkc3qsw5q06'

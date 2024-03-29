@@ -1,0 +1,67 @@
+folder: null
+name: Prepared Speech
+type: feat
+img: icons/skills/social/wave-halt-stop.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>After observing a creature for at least 10 minutes, you can choose to
+      gain advantage on a Deception, Intimidation, or Persuasion check against
+      it. Once you have used this feature, you cannot use it again until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: wuvbidvrwknhprhz
+_key: '!items!wuvbidvrwknhprhz'

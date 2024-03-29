@@ -1,0 +1,53 @@
+name: Adept Speed
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+effects:
+  - icon: icons/skills/movement/figure-running-gray.webp
+    origin: Item.RF8eiJaO6CKfnW7n
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Adept Speed
+    _id: GkPm7xNUuL1VzVVJ
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '10'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!p8s9ju0b8doe7iqc.GkPm7xNUuL1VzVVJ'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>While you are not wearing armor or wielding a shield, your Speed
+      increases by 10 feet. You can choose this technique more than once. Its
+      effects stack.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: p8s9ju0b8doe7iqc
+_key: '!items!p8s9ju0b8doe7iqc'

@@ -1,0 +1,71 @@
+folder: null
+name: Sight Beyond Sight
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 10th level, while you have a prophecy die, you can spend 3
+      exertion as an action to see and hear at a distance as per the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.usz7we3sepg9tv9d]{Clairvoyance}
+      spell. This effect lasts for the duration of your prophecy die.</p>
+
+      <p>Additionally, the maximum size of your prophecy die increases to a
+      d12.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1 mile
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 6pq7d1aqtjrutsvy
+_key: '!items!6pq7d1aqtjrutsvy'

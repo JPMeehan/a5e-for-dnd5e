@@ -1,6 +1,6 @@
 name: Martial Arts
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/hand-grip-staff-teal.webp
 effects: []
 flags: {}
 system:
@@ -9,24 +9,28 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 1st level, your trail to perfection gives you mastery of combat
-      styles that use unarmed strikes and adept weapons, which are
-      quarterstaffs, punching daggers, shortswords, and any simple melee weapons
-      that don’t have the two-handed or heavy property.</p><p>You gain the
-      following benefits while you are unarmed or wielding only adept weapons
-      and you aren’t wielding a shield:</p><ul><li><p>You can use Dexterity
-      instead of Strength for the attack and damage rolls of your unarmed
-      strikes and adept weapons.</p></li><li><p>You can roll a d4 in place of
-      the normal damage of your unarmed strike or adept weapon. This die changes
-      as you gain adept levels, as shown in the Martial Arts column of the Adept
-      table.</p></li><li><p>When you use the Attack action with an unarmed
-      strike or an adept weapon on your turn, you can make one unarmed strike as
-      a bonus action. For example, if you take the Attack action and attack with
-      a quarterstaff, you can also make an unarmed strike as a bonus action,
-      assuming you haven’t already taken a bonus action this turn.</p></li></ul>
+      <p>At 1st level, when you are unarmed or wielding only an adept weapon (a
+      punching dagger, quarterstaff, shortsword, or any simple melee weapon that
+      doesn't have the heavy or two-handed property) and you aren't using a
+      shield, you gain the following benefits:</p>
+
+      <ul>
+
+      <li>You can use Dexterity instead of Strength when calculating attack and
+      damage rolls with your unarmed strikes and adept weapons.</li>
+
+      <li>Instead of the normal damage of your unarmed strike or adept weapon,
+      you can use the die shown in the Martial Arts column of the Adept table,
+      which starts as a d4.</li>
+
+      <li>When you use the Attack action to make an unarmed strike or an adept
+      weapon attack on your turn, you can use a bonus action to make an unarmed
+      strike.</li>
+
+      </ul>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

@@ -1,0 +1,29 @@
+folder: null
+name: Shield Fighting
+type: feat
+img: icons/skills/melee/shield-block-bash-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level when you select this archetype, you gain proficiency with
+      shields as weapons. In addition, you gain proficiency with the
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.xatq76xpgbfqm53j]{Charge}
+      maneuver, and when you are wielding a shield and no other weapons you do
+      not have to spend exertion to activate it.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 4rcinlr35pivq43k
+_key: '!items!4rcinlr35pivq43k'

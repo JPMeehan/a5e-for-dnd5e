@@ -1,7 +1,34 @@
 name: Combat Maneuvers (Adept)
 type: feat
-img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
-effects: []
+img: icons/magic/control/buff-strength-muscle-damage-red.webp
+effects:
+  - icon: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+    origin: Item.KbHDqW7Gyc4Nxfkg
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Combat Maneuvers (Adept)
+    _id: 4PoyMHWRh06nOnmI
+    changes:
+      - key: system.bonuses.maneuverDC
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!pcm01sl6ypp5j0zz.4PoyMHWRh06nOnmI'
 flags: {}
 system:
   type:
@@ -10,56 +37,26 @@ system:
   description:
     value: >-
       <p>Starting at 2nd level, you gain the ability to use combat maneuvers.
-      You gain proficiency in two combat traditions from the following list:</p>
+      You gain proficiency in two combat traditions from the following list:
+      Mirror&rsquo;s Glint, Rapid Current, Razor&rsquo;s Edge, Unending Wheel.
+      You learn two maneuvers of your choice from traditions you are proficient
+      with.</p>
 
-      <ul>
-
-      <li>
-
-      <p>Mirror&rsquo;s Glint</p>
-
-      </li>
-
-      <li>
-
-      <p>Rapid Current</p>
-
-      </li>
-
-      <li>
-
-      <p>Razor&rsquo;s Edge</p>
-
-      </li>
-
-      <li>
-
-      <p>Unending Wheel</p>
-
-      </li>
-
-      </ul>
-
-      <p>You learn two maneuvers of your choice from traditions you are
-      proficient with.</p>
-
-      <p>You gain an exertion pool equal to twice your proficiency bonus,
-      regaining any spent exertion at the end of a short or long rest. You use
-      your maneuvers by spending points from your exertion pool.</p>
-
-      <p>The Maneuvers Known column of the Adept table shows when you learn more
-      maneuvers from a tradition you are proficient with, while the Maneuver
-      Degree column shows the highest degree you can select maneuvers from at a
-      given level.</p>
+      <p>You gain an exertion pool equal to twice your proficiency bonus. You
+      use your maneuvers by spending points from your exertion pool, and you
+      regain all spent exertion when you finish a rest. The Maneuvers Known
+      column of the Adept table shows when you learn more maneuvers from a
+      tradition you are proficient with, while the Maneuver Degree column shows
+      the highest-degree maneuver you can select at a given level.</p>
 
       <p>Additionally, whenever you learn a new maneuver, you can choose one of
       the maneuvers you know and replace it with another maneuver of the same
       degree from a tradition you are proficient with.</p>
 
-      <p>As an adept, you gain +1 to your maneuver DC.</p>
+      <p>As an adept, you gain a +1 bonus to your maneuver DC.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

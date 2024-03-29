@@ -1,6 +1,6 @@
 name: Great Reputation
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/social/diplomacy-handshake-blue.webp
 effects: []
 flags: {}
 system:
@@ -9,12 +9,11 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Starting at 15th level, your reputation spreads and you become famous
-      (or infamous) among the adept community. When you interact with martial
-      artists, their initial attitude towards you is friendly.</p>
+      <p>Starting at 15th level, when you interact with martial artists, their
+      initial attitude towards you is friendly.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

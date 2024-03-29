@@ -1,0 +1,25 @@
+name: Dual Stance
+type: feat
+img: icons/magic/control/energy-stream-link-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can have two stances active at the same time. If you are knocked
+      unconscious, stunned, or start a long rest, both stances end.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 11th level, two stance combat maneuvers
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 5hksfdr4e6c4t19n
+_key: '!items!5hksfdr4e6c4t19n'

@@ -1,0 +1,70 @@
+folder: null
+name: Inflict Aberrance
+type: feat
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, when you hit a creature with an attack, you can inflict
+      aberrance upon it. It takes 10d10 psychic or radiant damage (your choice)
+      as its mind or body is overloaded with the sensation of pure magic. Once
+      you have used this feature, you cannot do so again until you have finished
+      a long rest.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 10d10
+        - psychic
+      - - 10d10
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 5m7saa3wb6lz4het
+_key: '!items!5m7saa3wb6lz4het'

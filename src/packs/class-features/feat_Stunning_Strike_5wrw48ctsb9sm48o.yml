@@ -1,0 +1,98 @@
+name: Stunning Strike
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-eye.webp
+    origin: Item.nc6wFP12hbPUz8y4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: WQuR13VpluROfze8
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Stunned
+    _id: P0bGvxhq3fa2UoYO
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!5wrw48ctsb9sm48o.P0bGvxhq3fa2UoYO'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you hit a creature with a melee weapon attack, you can spend 1
+      exertion to force the target to make a Constitution saving throw. On a
+      failed save, the target is stunned until the end of your next turn.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 5th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: 5wrw48ctsb9sm48o
+_key: '!items!5wrw48ctsb9sm48o'

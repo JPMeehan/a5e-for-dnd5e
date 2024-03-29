@@ -1,0 +1,31 @@
+folder: null
+name: Shield Throwing
+type: feat
+img: icons/equipment/shield/round-wooden-boss-steel-yellow-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 7th level, you treat all shields except
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.udvqt7222qrr3ibu]{Tower
+      Shields} as having the throwing property (light 60/120 feet, medium 50/100
+      feet, heavy 40/80 feet). In addition, you gain proficiency with the
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.wgqhr8fisrynnnvl]{Ricochet} combat
+      maneuver, and when you use a shield with it you do not have to spend
+      exertion to activate it.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: kxuux9q9amd93pxg
+_key: '!items!kxuux9q9amd93pxg'

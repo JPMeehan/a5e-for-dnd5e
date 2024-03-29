@@ -1,0 +1,182 @@
+folder: efbKERxtOjiRkqDD
+name: Sword Cane
+type: weapon
+img: icons/commodities/wood/wood-pole.webp
+system:
+  description:
+    value: >-
+      <p><strong><em>Sword Inside Cane:</em></strong><em> </em><em>Defensive
+      (Medium), Simple, Stealthy</em></p>
+
+      <p><strong><em>Sword:</em></strong><em> Defensive (Light),
+      Finesse</em></p>
+
+      <p><strong><em>Scabbard:</em></strong><em> Finesse, Simple</em></p>
+
+      <p>A sword cane is a stout wooden cane with a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.l6qdjqzvk3sddr2i]{Rapier}
+      concealed inside. The cane is clearly sturdy, but is frequently overlooked
+      by security checks as a status symbol or fashion accessory. If you have
+      the
+      @UUID[Compendium.a5e.a5e-cultures.Item.fxtwzbmd1ttaj5kr]{Cosmopolitian}
+      culture, you can increase the size of the expertise die granted by your
+      @UUID[Compendium.a5e.a5e-culture-features.Item.e5htzkjqpnk9batx]{Discreetly
+      Armed} ability by one step for checks related to retaining your sword
+      cane. The head of the cane forms the pommel of the sword when drawn, and
+      is often carved or otherwise decorated.</p>
+
+      <p>With the sword inside it, the cane counts as a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.vstsnhl9n11usa5i]{Mace}
+      with the stealthy property. Once the rapier is drawn, the scabbard counts
+      as a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.8u3v0q3jr3ov8u6l]{Club}
+      with the finesse property. Some users wield the scabbard and sword as
+      paired weapons, others drop or cast it aside.</p><hr><p><b>Defensive:</b>
+      This weapon is designed to be used with a shield of the stated degree or
+      lighter (light, medium, or heavy). When you make an attack with this
+      weapon and are using a shield designed for it, you can use a bonus action
+      to either make an attack with your shield or increase your Armor Class by
+      1 until the start of your next turn.</p><p><b>Stealthy:</b> This armor or
+      weapon has been disguised to look like a piece of clothing or other normal
+      item. A creature observing the item only realizes that it is armor or a
+      weapon with a DC 15 Investigation check (made with disadvantage if the
+      armor is being worn at the time or the weapon is sheathed).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  quantity: 1
+  weight: 6
+  price:
+    value: 125
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - fin
+    - defensive
+  proficient: true
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/weapons/maces/mace-flanged-steel.webp
+    origin: Item.FZdCmG2das98kYte
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jRcKzjkrhyUuwoOx
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: UNiLNrhOZNZFXvIw
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!0eabnhu9sv9ihxlz.UNiLNrhOZNZFXvIw'
+  - icon: icons/weapons/swords/swords-sharp-worn.webp
+    origin: Item.FZdCmG2das98kYte
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jE0oGbW4c91H4L9s
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: AC +1
+    _id: wwSgncCT1zJ6viPV
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!0eabnhu9sv9ihxlz.wwSgncCT1zJ6viPV'
+flags: {}
+_id: 0eabnhu9sv9ihxlz
+_key: '!items!0eabnhu9sv9ihxlz'

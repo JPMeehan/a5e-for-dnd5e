@@ -1425,7 +1425,7 @@ function traitGrant(traits, id) {
         grants: traits.base.map((l) => prefix + mapLanguages(l)),
         choices: {
           pool:
-            traits.options.length < 4
+            traits.options?.length < 4
               ? traits.options.map((l) => prefix + mapLanguages(l))
               : [prefix + '*'],
           count: traits.total,

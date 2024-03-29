@@ -1,0 +1,69 @@
+folder: null
+name: Head of Ceremonies
+type: feat
+img: icons/commodities/treasure/token-gold-cross.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can spend 2 exertion to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bq5bki8n1gfhrqz1]{Ceremony} by
+      way of ritualistically preparing a soothing drink for yourself and any
+      creatures or corpses involved. This does not require any further material
+      components and does not otherwise affect the spell.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: '30'
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: litv7a28d2dupz3r
+_key: '!items!litv7a28d2dupz3r'

@@ -1,0 +1,30 @@
+folder: null
+name: Feed the Muse
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting 14th level, when you spend your last Bardic Inspiration you
+      can spend a spell slot of a level no higher than your Charisma bonus as a
+      free action to help drive the story. You regain a number of uses of Bardic
+      Inspiration equal to half the spell slot spent (rounded up). Spending
+      higher-level spells in this way only yields a number of uses equal to half
+      your Charisma bonus (rounded up).</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: yay9eru8neoaefrb
+_key: '!items!yay9eru8neoaefrb'

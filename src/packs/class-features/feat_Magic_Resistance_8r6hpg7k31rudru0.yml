@@ -1,0 +1,25 @@
+name: Magic Resistance
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have advantage on saving throws against spells and other magical
+      effects.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 15th level, Closed Soul
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 8r6hpg7k31rudru0
+_key: '!items!8r6hpg7k31rudru0'

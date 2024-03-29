@@ -1,0 +1,30 @@
+folder: null
+name: Foreshadow
+type: feat
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you can choose one creature who can benefit from
+      your Bardic Inspiration and spend two uses. Then, narrate a single action
+      that creature could take the following turn. If the creature attempts that
+      action before the end of your next turn, it can add an additional Bardic
+      Inspiration die to the roll. If it cannot attempt this action or chooses
+      not to, it is affected by your Bardic Inspiration as normal.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: jhk2h1d9939a8xet
+_key: '!items!jhk2h1d9939a8xet'

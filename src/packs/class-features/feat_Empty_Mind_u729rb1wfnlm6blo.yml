@@ -1,7 +1,40 @@
 name: Empty Mind
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+effects:
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+    origin: Item.yVfVQw3k6y6JQrNZ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: XRBm6r1BISeY5q7V
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Empty Mind
+    _id: MCx23V267dfULpV2
+    changes:
+      - key: system.traits.damageResistances
+        value: '["psychic"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gain resistance to psychic damage and make saving throws against
+      enchantment spells with advantage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!u729rb1wfnlm6blo.MCx23V267dfULpV2'
 flags: {}
 system:
   type:
@@ -9,21 +42,60 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Starting at 7th level, you can empty your mind and easily disguise your
-      emotions. As an action, you can spend 1 exertion to enter a meditative
-      empty mind state. This lasts for 1 hour. While in this state, Insight
-      checks against you have disadvantage.</p><p>In addition, you gain
-      advantage on saving throws made against enchantment spells and resistance
-      to psychic damage.</p>
+      <p>Starting at 7th level, as an action, you can spend 1 exertion to enter
+      a meditative empty mind state. This lasts for 1 hour. While in this state,
+      Insight checks against you have disadvantage.</p>
+
+      <p>In addition, you gain resistance to psychic damage and make saving
+      throws against enchantment spells with advantage.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: u729rb1wfnlm6blo
 _key: '!items!u729rb1wfnlm6blo'

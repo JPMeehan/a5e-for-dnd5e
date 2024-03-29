@@ -1,0 +1,69 @@
+folder: null
+name: Second Chance
+type: feat
+img: icons/magic/time/arrows-circling-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When a friendly creature (including yourself) is suffering effects as
+      result of a failed saving throw, you can spend your reaction to allow it
+      to attempt that saving throw again.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      Friendly creature (including yourself) is suffering effects as result of a
+      failed saving throw
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 24ug4h1p7cfhunpk
+_key: '!items!24ug4h1p7cfhunpk'

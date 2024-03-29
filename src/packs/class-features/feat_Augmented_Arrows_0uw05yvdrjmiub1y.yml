@@ -1,0 +1,78 @@
+folder: null
+name: Augmented Arrows
+type: feat
+img: icons/weapons/ammunition/arrows-fletching.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you learn how to craft ammunition for the job at
+      hand. At the end of each short rest, you can craft a number of augmented
+      arrows equal to twice your proficiency bonus, each costing 1 sp of
+      materials and an equal amount of ammunition. When you craft each augmented
+      arrow, choose bludgeoning, piercing, or slashing damage. On a successful
+      hit, the ammunition deals the usual amount of damage, but of the chosen
+      type.</p>
+
+      <p>Additionally, you can use a bonus action to affix an item of Tiny size
+      that weighs 3 pounds or less and can be used as an improvised weapon (such
+      as an acid vial, alchemist&rsquo;s fire, or unstable arcanum) to the end
+      of a piece of ammunition. This increases the item&rsquo;s range to that of
+      your weapon&rsquo;s normal range and allows you to roll as though it were
+      a ranged attack with which you are proficient, though it only deals the
+      damage and effects of the item, not the ammunition utilized.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 0uw05yvdrjmiub1y
+_key: '!items!0uw05yvdrjmiub1y'

@@ -1,0 +1,98 @@
+folder: 9k4UVzCiMuqj62ea
+name: Circlet of the Apprentice
+type: equipment
+img: icons/equipment/finger/ring-inlay-red.webp
+system:
+  description:
+    value: >-
+      <p>This simple circlet has the color of lightly-rusted iron and is
+      highlighted by a large violet gem in its center, which appears to contain
+      a slowly-moving metallic fluid. While attuned to this circlet, you gain a
+      +1 bonus to all saving throws. Additionally, when you fail a saving throw,
+      you can choose to succeed instead. You can&rsquo;t use this property again
+      until the following dawn.</p>
+
+      <p><strong>Curse.</strong> The true name of the creature who crafted this
+      circlet is forever instilled within it, and it becomes aware of you upon
+      attunement. If that creature forces you to make a saving throw, you
+      automatically fail, and you can&rsquo;t use this circlet to succeed. You
+      can learn the name of the creature with
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.24rmiwo0w5pd746x]{Legend Lore}
+      or similar magic. Short of powerful magic (such as
+      @UUID[Compendium.a5e.a5e-spells.Item.pe52jryde7ljobzq]{Wish}), only the
+      maker&rsquo;s willing touch or death (yours or theirs) allows you to end
+      your attunement to the circlet. If you willingly end your attunement after
+      the maker&rsquo;s death, the circlet loses all magical properties.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  quantity: 1
+  weight: 0
+  price:
+    value: 2200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: zrjbdplvtag14ns7
+_key: '!items!zrjbdplvtag14ns7'

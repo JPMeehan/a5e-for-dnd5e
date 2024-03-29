@@ -1,0 +1,70 @@
+folder: null
+name: Prophetic Defense
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 15th level, as a reaction when you are hit by an attack,
+      you can spend 1 exertion to add your prophecy die to your Armor Class
+      (including against the triggering attack) until the beginning of your next
+      turn.</p>
+
+      <p>Additionally, your prophecy die now starts as a d10.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Hit by an attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: lm3lfhyewvjhs708
+_key: '!items!lm3lfhyewvjhs708'

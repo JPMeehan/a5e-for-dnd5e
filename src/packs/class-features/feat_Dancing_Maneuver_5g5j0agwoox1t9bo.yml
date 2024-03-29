@@ -1,0 +1,66 @@
+name: Dancing Maneuver
+type: feat
+img: icons/skills/movement/feet-bladed-boots-fire.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you use a bonus action to activate a combat maneuver, you can
+      spend 2 exertion to start one of your dances as part of the same bonus
+      action.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 11th level, any dance
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 5g5j0agwoox1t9bo
+_key: '!items!5g5j0agwoox1t9bo'

@@ -1,0 +1,100 @@
+folder: null
+name: Unassuming
+type: feat
+img: icons/environment/people/commoner.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, you gain an expertise die on Deception checks to appear
+      less than you are and on Stealth checks. In addition, when you are hit by
+      a melee attack you can use your reaction to spend 2 exertion to exude
+      tranquility, rolling your martial arts die and adding the result to your
+      AC (including against the triggering attack) for 1 round.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Hit by a melee attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/environment/people/commoner.webp
+    origin: Item.bAzJWZmP0opQkjGI
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Unassuming
+    _id: Pxf6ZQ61Z1dNrN2P
+    changes:
+      - key: system.skills.dec.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.skills.ste.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!wtxrw1d6kjpxnhjw.Pxf6ZQ61Z1dNrN2P'
+flags: {}
+_id: wtxrw1d6kjpxnhjw
+_key: '!items!wtxrw1d6kjpxnhjw'

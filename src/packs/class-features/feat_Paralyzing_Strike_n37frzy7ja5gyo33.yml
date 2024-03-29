@@ -1,0 +1,99 @@
+name: Paralyzing Strike
+type: feat
+img: icons/skills/melee/sword-damaged-broken-glow-red.webp
+effects:
+  - icon: icons/skills/melee/sword-damaged-broken-glow-red.webp
+    origin: Item.80H1V0sT6sSKGp4m
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: D38WYaTFORoNrgZV
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Paralyzed
+    _id: RsE8FvEKM3uq04qF
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["paralyzed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - paralyzed
+    folder: null
+    _key: '!items.effects!n37frzy7ja5gyo33.RsE8FvEKM3uq04qF'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you hit a creature with a melee weapon attack, you can spend 2
+      exertion to attempt a paralyzing strike. The target must succeed on a
+      Constitution saving throw or be paralyzed until the end of your next
+      turn.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: 9th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_id: n37frzy7ja5gyo33
+_key: '!items!n37frzy7ja5gyo33'
