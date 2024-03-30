@@ -168,6 +168,18 @@ Hooks.on('dnd5e.preRollToolCheck', a5eHooks.expertiseDice.applyExpertDie);
 Hooks.on('dnd5e.preRollSkill', a5eHooks.expertiseDice.applyExpertDie);
 
 /**
+ * ITEM MODIFICATIONS
+ */
+
+Hooks.on('renderItemSheet5e', (sheet, html, context) => {
+  switch (context.document.type) {
+    case 'spell':
+      a5eHooks.itemSheet.spells(sheet, html, context);
+      break;
+  }
+});
+
+/**
  * MANEUVERS
  */
 
