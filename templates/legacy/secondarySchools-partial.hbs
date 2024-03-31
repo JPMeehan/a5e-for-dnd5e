@@ -1,13 +1,14 @@
-<div class='spell-components form-group stacked'>
-  <label>{{localize 'a5e-for-dnd5e.Spell.Secondary.label'}}</label>
-  {{#each secondarySchools}}
-    <label class='checkbox'>
-      <input
-        type='checkbox'
-        name='flags.a5e-for-dnd5e.secondarySchools.{{@key}}'
-        {{checked selected}}
-      />
-      {{label}}
-    </label>
-  {{/each}}
+<div class='secondary-schools form-group stacked'>
+  <div class='form-group'>
+    <label>{{localize 'a5e-for-dnd5e.Spell.Secondary.label'}}</label>
+  </div>
+  <multi-select name='flags.a5e-for-dnd5e.secondarySchools'>
+    {{selectOptions
+      secondarySchools
+      selected=secondarySelected
+      sort=true
+      nameAttr='value'
+      labelAttr='label'
+    }}
+  </multi-select>
 </div>
