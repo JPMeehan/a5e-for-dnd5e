@@ -1,10 +1,9 @@
 <div class='form-group input-select'>
   <label>{{localize 'a5e-for-dnd5e.Spell.Rare'}}</label>
-  <div class='form-fields'>
-    <input
-      type='checkbox'
-      name='flags.a5e-for-dnd5e.rareSpell'
-      {{checked rare}}
-    />
-  </div>
+  <input
+    type='checkbox'
+    name='flags.a5e-for-dnd5e.rareSpell'
+    {{#unless editable}}disabled{{/unless}}
+    {{checked rare}}
+  />
 </div>
