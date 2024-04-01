@@ -9,10 +9,38 @@ import { moduleID, modulePath } from '../utils.mjs';
 export async function spells(sheet, html, context) {
   /** @type {{editable: boolean, item: Item}} */
   const { editable, item: spell } = context;
-  const details = html.find('.tab.details');
+  const rare = spell.getFlag(moduleID, 'rareSpell') ?? false;
+  const secondarySelected = spell.getFlag(moduleID, 'secondarySchools') ?? [];
+
+  /**
+   * Description Tab
+   */
+  const description = html.find('.tab[data-tab="description"]');
+
+  const props = description.find('ol.properties-list:last-child');
+
+  console.log(props);
+
+  if (rare) {
+    console.log('Rare spell');
+    props.prepend(`<li>${game.i18n.localize('a5e-for-dnd5e.Spell.Rare')}</li>`);
+  }
+  if (secondarySelected.length) {
+    console.log(secondarySelected);
+    const formatter = game.i18n.getListFormatter({ style: 'narrow' });
+    props.append(
+      `<li>${formatter.format(
+        secondarySelected.map((s) => CONFIG.A5E.secondarySchools[s])
+      )}</li>`
+    );
+  }
+
+  /**
+   * Details Tab
+   */
+  const details = html.find('.tab[data-tab="details"]');
 
   // Rare Spells
-  const rare = spell.getFlag(moduleID, 'rareSpell') ?? false;
   const rareInput = await renderTemplate(
     modulePath + 'templates/legacy/rareSpell-partial.hbs',
     { rare, editable }
@@ -20,7 +48,6 @@ export async function spells(sheet, html, context) {
   details.find('.form-group:nth-child(2)').before(rareInput);
 
   // Secondary Schools
-  const secondarySelected = spell.getFlag(moduleID, 'secondarySchools') ?? [];
   const secondarySchools = Object.entries(CONFIG.A5E.secondarySchools).map(
     ([value, label]) => ({
       value,
@@ -36,4 +63,5 @@ export async function spells(sheet, html, context) {
   );
   details.find('.spell-components').before(secondaryInput);
   secondaryInput.find('label').after(secondaryInput.find('select'));
+  if (!editable) secondaryInput.find('select').attr('disabled', true);
 }
