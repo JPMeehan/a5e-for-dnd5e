@@ -1,9 +1,12 @@
 # Changelog
 
-## 0.9.1 Data Cleaning
+## 0.9.1 Better Spells
 
 - Updated data imports from a5e
 - Fixed handling of touch and self ranges
+- Exposed Rare and Secondary Schools properties of spells
+  - Added listing to the properties on the Description tab
+  - Added inputs to the Details tab
 
 ## 0.9.0 Beta
 
