@@ -77,6 +77,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action
@@ -120,7 +121,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/commodities/treasure/horn-spiral-pink.webp
-    origin: Item.8j5c3hyrp1f31sna
+    origin: Item.CPNxfGIZKxTIBIn2
     flags:
       a5e:
         sort: 0
@@ -148,7 +149,7 @@ effects:
     folder: null
     _key: '!items.effects!8j5c3hyrp1f31sna.JMzBEA0C9172djCb'
   - icon: icons/commodities/treasure/horn-spiral-pink.webp
-    origin: Item.8j5c3hyrp1f31sna
+    origin: Item.CPNxfGIZKxTIBIn2
     flags:
       a5e:
         sort: 0
@@ -176,7 +177,7 @@ effects:
     folder: null
     _key: '!items.effects!8j5c3hyrp1f31sna.ROS0RisLRT6jYjoE'
   - icon: icons/commodities/treasure/horn-spiral-pink.webp
-    origin: Item.8j5c3hyrp1f31sna
+    origin: Item.CPNxfGIZKxTIBIn2
     flags:
       a5e:
         sort: 0
@@ -204,7 +205,7 @@ effects:
     folder: null
     _key: '!items.effects!8j5c3hyrp1f31sna.FYyA8SADntql23LX'
   - icon: icons/commodities/treasure/horn-spiral-pink.webp
-    origin: Item.8j5c3hyrp1f31sna
+    origin: Item.CPNxfGIZKxTIBIn2
     flags:
       a5e:
         sort: 0

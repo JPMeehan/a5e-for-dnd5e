@@ -1,0 +1,113 @@
+name: Arcane Prowess
+type: spell
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Fighter class<br></em></p>
+
+      <p>You can use magic to enhance the skill of your combat techniques.</p>
+
+      <p>Until the spell ends, the DC of maneuvers you spend exertion on
+      increases by an amount equal to half your proficiency bonus.&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    origin: Item.rs53z2h2pn1ruwwe
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: DuUEC17jOL9R6WMg
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Arcane Prowess
+    _id: DoSa5lJ7K4wIKsGm
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The DC of maneuvers you spend exertion on increases by an amount equal
+      to half your proficiency bonus.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!rs53z2h2pn1ruwwe.DoSa5lJ7K4wIKsGm'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - arcane
+      - weaponry
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: rs53z2h2pn1ruwwe
+_key: '!items!rs53z2h2pn1ruwwe'

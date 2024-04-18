@@ -1,0 +1,132 @@
+folder: riV8qst3SvT2320y
+name: White-Hot Anger
+type: spell
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Berserker class</em></p>
+
+      <p>You magically stoke your anger to the intensity of a crucible. The next
+      time you
+      @UUID[Compendium.a5e.a5e-class-features.Item.htgvror5v9twusgs]{Rage} while
+      the spell is active, you glow from within from the heat of your fury. You
+      shed bright light to a range of 10 feet and dim light a further 20 beyond
+      that. Your melee weapon attacks deal an additional 1d6 fire damage, and
+      any creature grappled by or grappling you at the start of its turn takes
+      1d6 fire damage.</p>
+
+      <p><strong>Cast at Higher Levels: </strong>The fire damage done by your
+      melee weapon attacks and to creatures grappling or grappled by you
+      increases by 1d6 for each slot level above 1st.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/light/explosion-beam-impact-silhouette.webp
+    origin: Item.nu0k9bjyx7geujjh
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 43tCR2eGvzSDuxLk
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: White-Hot Anger
+    _id: d3XrFAZ9kpxR6Mlk
+    changes:
+      - key: '@token.light.bright'
+        value: '10'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '30'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"White-Hot
+          Anger","formula":"1d6","damageType":"fire","context":{"attackTypes":["meleeWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/light/explosion-beam-impact-silhouette.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!nu0k9bjyx7geujjh.d3XrFAZ9kpxR6Mlk'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+      - weaponry
+      - multiclass
+    rareSpell: false
+_id: nu0k9bjyx7geujjh
+_key: '!items!nu0k9bjyx7geujjh'

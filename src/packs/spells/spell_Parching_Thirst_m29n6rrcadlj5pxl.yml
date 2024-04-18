@@ -1,0 +1,153 @@
+folder: 3HQE3FN5vUCIygDu
+name: Parching Thirst
+type: spell
+img: icons/skills/toxins/poison-skull-herbs-bottle-pink.webp
+system:
+  description:
+    value: >-
+      <p>The spell causes the target to heat up and dry out, inflicting upon it
+      intense incurable thirst. If the creature fails its save, its fatigue is
+      set to 4 levels for the duration of the spell unless it was already
+      higher; these fatigue levels are temporary fatigue levels, and do not
+      stack with fatigue from other sources.</p>
+
+      <p>Two levels of &nbsp;fatigue from this spell is cured if the creature
+      spends an action drinking a full pint of water. A creature may repeat this
+      action once, reducing the fatigue levels from 4 to 2 on the first instance
+      and to 0 on the second. This cannot reduce a creature&rsquo;s fatigue to a
+      level below what it had prior to being affected by the spell.</p>
+
+      <p>For the duration of the spell, the target is compelled to drink water,
+      and will spend its action and movement moving to any visible source of
+      water to drink.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 4
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a cube of saltrock
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/toxins/poison-skull-herbs-bottle-pink.webp
+    origin: Item.m29n6rrcadlj5pxl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: NEAGfF0omfiqJtMx
+        duration:
+          unit: minutes
+    transfer: false
+    name: Fatigue (2 Levels)
+    _id: YmvfbuZp3yIFGCbA
+    changes:
+      - key: system.attributes.fatigue
+        value: '2'
+        mode: 5
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!m29n6rrcadlj5pxl.YmvfbuZp3yIFGCbA'
+  - icon: icons/skills/toxins/poison-skull-herbs-bottle-pink.webp
+    origin: Item.m29n6rrcadlj5pxl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: NEAGfF0omfiqJtMx
+        duration:
+          unit: minutes
+    transfer: false
+    name: Fatigue (4 Levels)
+    _id: 60oNrDiloM7Jr15F
+    changes:
+      - key: system.attributes.fatigue
+        value: '4'
+        mode: 5
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!m29n6rrcadlj5pxl.60oNrDiloM7Jr15F'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - fire
+    rareSpell: false
+_id: m29n6rrcadlj5pxl
+_key: '!items!m29n6rrcadlj5pxl'

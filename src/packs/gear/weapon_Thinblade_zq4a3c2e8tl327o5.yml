@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/swords/greatsword-crossguard-flanged.webp
 effects:
   - icon: icons/weapons/swords/greatsword-crossguard-flanged.webp
-    origin: Item.Liy3CWw9o71aUxV4
+    origin: Item.Mn8vcEjXf8Lx2at7
     flags:
       a5e:
         sort: 0
@@ -38,8 +38,6 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Light), Finesse, Vicious</em></p>
-
       <p>This weapon uses the statistics of a
       @UUID[Compendium.a5e.a5e-adventuring-gear.Item.l6qdjqzvk3sddr2i]{Rapier}
       but is so sharp that it has the vicious

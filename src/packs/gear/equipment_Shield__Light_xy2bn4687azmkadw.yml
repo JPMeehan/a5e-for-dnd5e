@@ -3,7 +3,7 @@ type: equipment
 img: icons/equipment/shield/buckler-wooden-round-hole.webp
 effects:
   - icon: icons/equipment/shield/buckler-wooden-round-hole.webp
-    origin: Item.xy2bn4687azmkadw
+    origin: Item.gs8rHM4TuIRsVse6
     flags:
       a5e:
         sort: 0
@@ -75,6 +75,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: bonusAction

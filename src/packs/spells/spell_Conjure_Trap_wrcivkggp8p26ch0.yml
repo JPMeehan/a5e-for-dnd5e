@@ -1,0 +1,220 @@
+name: Conjure Trap
+type: spell
+img: icons/environment/traps/trap-jaw-steel.webp
+effects:
+  - icon: icons/environment/traps/trap-jaw-steel.webp
+    origin: Item.wrcivkggp8p26ch0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Ae8FnS2RubMuFhQo
+    transfer: false
+    name: Prone
+    _id: 6aAUo9HZ4wYM3SBo
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!wrcivkggp8p26ch0.6aAUo9HZ4wYM3SBo'
+  - icon: icons/environment/traps/trap-jaw-steel.webp
+    origin: Item.wrcivkggp8p26ch0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: UAOdV4zpM15JNgb9
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Restrained
+    _id: HnMNAa7ix3OBI59T
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!wrcivkggp8p26ch0.HnMNAa7ix3OBI59T'
+folder: riV8qst3SvT2320y
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+      - fire
+      - plants
+      - terrain
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>You ward a 5-foot square of non-magical ground within range with a
+      magical trap, chosen from the list below. Once after this spell is cast,
+      when a creature you can see enters or begins its turn within the warded
+      area, you can use your reaction to spring the trap. The effect on the
+      creature depends on the trap you chose.</p>
+
+      <ul>
+
+      <li>
+
+      <p><em>Explosion</em>: This spell creates a trap of
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.4t0m2ttaca5hg2vi]{Alchemist's
+      Fire} that falls on or launches at the creature, which must make a
+      Dexterity saving throw. It takes 2d10 fire on a failed save, or half as
+      much on a successful one.</p>
+
+      </li>
+
+      <li>
+
+      <p><em>Pitfall</em>: This spell creates a 5 feet-wide and 15 feet deep
+      pitfall trap beneath the creature, which must make a Dexterity saving
+      throw. On a failed saving throw, the creature falls into the pitfall. On a
+      success, the creature falls prone adjacent to the pitfall. This pitfall
+      cannot be created through material harder than earth (such as wood and
+      stone).. Otherwise the hole is well-constructed and lasts even after the
+      spell's duration. Flying creatures are unaffected by this trap.</p>
+
+      </li>
+
+      <li>
+
+      <p><em>Snare</em>: This spell creates a snare of rope, wire, vine, or webs
+      that entangle the creature, which make a Strength saving throw. A Large or
+      larger creature has advantage on this saving throw. On a failed save, the
+      creature takes 1d6 slashing damage and is restrained until the start of
+      its next turn. On a success, the creature takes half as much damage and
+      ends its movement.</p>
+
+      </li>
+
+      </ul>
+
+      <p><strong>At Higher Levels.</strong> When you cast this spell using a
+      spell slot of 2nd-level or higher, the effects increase, based on
+      effect.</p>
+
+      <ul>
+
+      <li>
+
+      <p><em>Explosion</em>. The damage increases by 1d10 for each spell slot
+      level above 1st. If cast using a spell slot of 3rd-level or higher, this
+      spell targets creatures in a sphere within range, the radius of which is 5
+      feet for every two spell slot levels above 1st.</p>
+
+      </li>
+
+      <li>
+
+      <p><em>Pitfall</em>. The depth of the pitfall increases by 5 feet for each
+      spell slot level above 1st. If cast using a spell slot of 3rd-level or
+      higher, the pit is 5 feet wider for each two spell slot levels above 1st.
+      This spell affects wooden material if cast using a spell slot of 3rd-level
+      or higher, and stone with 4th-level or higher.</p>
+
+      </li>
+
+      <li>
+
+      <p><em>Snare</em>. The damage increases by 1d6 for each spell slot level
+      above 1st. If cast using a spell of 3rd level or higher, Large creatures
+      no longer have advantage on their saving throw. This size category
+      increases for every two spell levels above 1st.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a bundle of wire
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: reaction
+    cost: 1
+    condition: A creature you can see enters or begins its turn within the warded area
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+_id: wrcivkggp8p26ch0
+_key: '!items!wrcivkggp8p26ch0'

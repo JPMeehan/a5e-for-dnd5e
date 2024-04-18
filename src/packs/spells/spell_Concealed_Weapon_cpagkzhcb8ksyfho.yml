@@ -1,0 +1,89 @@
+name: Concealed Weapon
+type: spell
+img: icons/skills/melee/strike-weapons-orange.webp
+effects: []
+folder: KpVFJJxpHWw9kEfV
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - obscurement
+      - weaponry
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>When you cast this spell, you utter a command word and transform one
+      non-magical weapon into a mundane object of roughly equivalent size. For
+      example you might change a dagger into a book or a sword into a broom. As
+      a bonus action, a creature can grasp the item and utter the command word
+      again to end the spell early, transforming the object back into its
+      original weapon form.&nbsp;</p>
+
+      <p><strong>Cast At Higher Levels. </strong>By using a 3rd-level spell
+      slot, you can transform a common, uncommon, or rare magical weapon this
+      way (though the object it becomes is still non-magical). A 4th level spell
+      slot can transform a very rare weapon, and a 5th-level can transform a
+      legendary weapon.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: the weapon to be transformed
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: cpagkzhcb8ksyfho
+_key: '!items!cpagkzhcb8ksyfho'

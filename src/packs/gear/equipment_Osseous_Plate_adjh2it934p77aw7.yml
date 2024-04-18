@@ -3,7 +3,7 @@ type: equipment
 img: icons/commodities/metal/mail-chain-steel.webp
 effects:
   - icon: icons/svg/aura.svg
-    origin: Item.adjh2it934p77aw7
+    origin: Item.pEEPUySW2PPfi1i0
     flags:
       a5e:
         sort: 0
@@ -79,6 +79,7 @@ system:
     value: null
     conditions: ''
   strength: 13
+  stealth: false
   proficient: null
   activation:
     type: bonusAction

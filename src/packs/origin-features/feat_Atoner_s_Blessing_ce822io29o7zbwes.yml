@@ -1,0 +1,65 @@
+name: Atoner’s Blessing
+type: feat
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>Your wisdom and candor can be a balm to the afflicted. If you spend
+      inspiration and an hour in honest and candid conversation with another
+      creature, you each may remove a level of strife.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+img: icons/magic/holy/angel-wings-gray.webp
+effects: []
+flags: {}
+folder: Czqb9fe3C11A0mge
+_id: ce822io29o7zbwes
+_key: '!items!ce822io29o7zbwes'

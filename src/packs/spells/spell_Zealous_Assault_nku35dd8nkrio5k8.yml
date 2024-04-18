@@ -1,0 +1,125 @@
+name: Zealous Assault
+type: spell
+img: icons/skills/targeting/crosshair-triple-strike-orange.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:&nbsp;</strong>Marshal class</em></p>
+
+      <p>You can call upon a higher power to assist your allies.</p>
+
+      <p>While this spell is active, when a creature is affected by
+      your&nbsp;@UUID[Compendium.a5e.a5e-class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence} feature, it can change the damage dealt by its attack and spell
+      to your choice of radiant or necrotic damage. The amount of damage dealt
+      does not change, only the type.</p>
+
+      <p>If the creature is wielding a ranged weapon, this attack conjures a
+      single shot of ammunition made from the selected energy type and does not
+      consume a piece of ammunition.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/targeting/crosshair-triple-strike-orange.webp
+    origin: Item.nku35dd8nkrio5k8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: usVfFEiwfCmIeKDP
+        duration:
+          unit: minutes
+    transfer: false
+    name: Zealous Assault
+    _id: jSa2IsdzyiMesi6O
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Can change the damage dealt by attack and spell to your choice of
+      radiant or necrotic damage. The amount of damage dealt does not change,
+      only the type.</p>
+
+      <p>If wielding a ranged weapon, this attack conjures a single shot of
+      ammunition made from the selected energy type and does not consume a piece
+      of ammunition.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!nku35dd8nkrio5k8.jSa2IsdzyiMesi6O'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - radiant
+      - necrotic
+      - weaponry
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: nku35dd8nkrio5k8
+_key: '!items!nku35dd8nkrio5k8'

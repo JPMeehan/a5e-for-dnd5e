@@ -1,0 +1,120 @@
+name: Swarm Strike
+type: spell
+img: icons/creatures/invertebrates/wasp-swarm-attack.webp
+effects:
+  - icon: icons/creatures/invertebrates/wasp-swarm-attack.webp
+    origin: Item.pt7w1als0wlajqek
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jtyrumsySd4NLv0y
+        duration:
+          unit: minutes
+    transfer: false
+    name: Rattled
+    _id: uOKt03qvXZQFUhxk
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!pt7w1als0wlajqek.uOKt03qvXZQFUhxk'
+folder: riV8qst3SvT2320y
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - nature
+      - poison
+      - weaponry
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>The next time you hit a creature with a weapon attack during the
+      spell’s duration, your weapon emits a strange buzzing sound, and the
+      attack deals an extra 1d6 poison damage to the target as it is engulfed in
+      a swarm of stinging insects.</p><p>At the start of each of its turns until
+      the spell ends, the target must make a Constitution saving throw. On a
+      failed save, it takes 1d6 poison damage. On a successful save, the spell
+      ends. The spell also ends early if the target or another creature within 5
+      feet of it uses an action to repel the swarm, or if some other effect
+      repels the swarm (such as the target being submerged in
+      water).</p><p><strong>Cast At Higher Levels.</strong> If you cast this
+      spell using a spell slot of 2nd level or higher, the damage increases by
+      1d6 for each slot level above 1st. The target is also Rattled for the</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: pt7w1als0wlajqek
+_key: '!items!pt7w1als0wlajqek'

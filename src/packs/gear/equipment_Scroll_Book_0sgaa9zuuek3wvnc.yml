@@ -24,7 +24,7 @@ system:
     book: Arcane Sniper
     license: OGL 1.0a
   quantity: 1
-  weight: '0'
+  weight: 0
   price:
     value: 150
     denomination: gp
@@ -47,6 +47,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 effects: []
 flags: {}

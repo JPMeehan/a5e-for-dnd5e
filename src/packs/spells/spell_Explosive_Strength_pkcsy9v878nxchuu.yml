@@ -1,0 +1,116 @@
+name: Explosive Strength
+type: spell
+img: icons/magic/fire/barrier-shield-explosion-yellow.webp
+effects:
+  - icon: icons/magic/fire/barrier-shield-explosion-yellow.webp
+    origin: Item.pkcsy9v878nxchuu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: KjZn7zdPzoU4bGEr
+    transfer: false
+    name: Prone
+    _id: 1UMxQAEJ2CW4R8PH
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!pkcsy9v878nxchuu.1UMxQAEJ2CW4R8PH'
+folder: YnFE57i6b3g8tOII
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - unarmed
+      - transformation
+      - enhancement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>With a roar, your display of sheer strength blows away nearby
+      creatures. Creatures in the area other than you must make a Strength
+      saving throw. On a failed saving throw, a creature takes 8d6 force damage,
+      and is pushed 20 feet and knocked prone. On a success, a creature takes
+      half as much damage, is pushed only 10 feet, and is not knocked
+      prone.</p><p><strong>Cast At Higher Levels.</strong> If you cast this
+      spell using a spell slot of 4th-level or higher, the damage increases by
+      1d6 for each slot level above 3rd.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A droplet of sweat
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 5d6
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+_id: pkcsy9v878nxchuu
+_key: '!items!pkcsy9v878nxchuu'

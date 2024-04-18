@@ -17,8 +17,10 @@ system:
       just spit something into your hand as a bonus action, or violent, allowing
       you to spray a 15&rsquo; cone of the swallowed substance as a bonus
       action. If the substance is normally damaging, it deals damage as usual
-      (count as a hit from a single flask of something like acid or
-      alchemist&rsquo;s fire).</p>
+      (count as a hit from a single flask of something like
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.b0z0yz39b3qy3hdo]{Acid} or
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.4t0m2ttaca5hg2vi]{Alchemist's
+      Fire).</p>
 
       <p dir="ltr">You may swallow multiple different things, but each takes up
       a gallon&rsquo;s worth of space, minimum. For example, you could swallow a
@@ -34,7 +36,7 @@ system:
       slot level above 2nd.</p>
     chat: ''
   source:
-    book: Spells from the Forgotten Vault
+    book: 'Manual of Adventurous Resources: Complete'
     license: OGL 1.0a
   level: 2
   school: trs
@@ -53,16 +55,15 @@ system:
     mode: none
     formula: null
   activation:
-    type: minute
+    type: bonusAction
     cost: 1
   duration: {}
   cover: null
   crewed: false
   target:
-    value: null
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: cone
   range:
     value: null
     long: null

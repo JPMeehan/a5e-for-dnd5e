@@ -5,9 +5,9 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       While wearing these goggles, you gain darkvision to a range of 60 feet, or
-      increase your existing darkvision by 60 feet. 
+      increase your existing darkvision by 60 feet.
     chat: ''
     unidentified: ''
   source:
@@ -37,6 +37,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: 9k4UVzCiMuqj62ea
 _id: v7smmzexypmkz5aa

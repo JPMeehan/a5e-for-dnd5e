@@ -5,10 +5,10 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       While wearing these bracers, you gain proficiency with the longbow and
       shortbow, and you gain a +2 bonus on damage rolls on ranged attacks made
-      with them. 
+      with them.
     chat: ''
     unidentified: ''
   source:
@@ -38,6 +38,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: 9k4UVzCiMuqj62ea
 _id: 8lrbnkmahfhuj0ge

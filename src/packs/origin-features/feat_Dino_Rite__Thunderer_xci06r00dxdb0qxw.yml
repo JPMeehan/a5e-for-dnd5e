@@ -1,0 +1,69 @@
+name: 'Dino-Rite: Thunderer'
+type: feat
+img: icons/creatures/reptiles/lizard-iguana-green.webp
+effects: []
+folder: OpVlQm2oviOU6e9w
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Herbivorous titans like diplodocus and brontosaurus. You can use this
+      trait to cast thunderwave once between long rests. Your spellcasting
+      ability for this spell is your choice of Intelligence, Wisdom, or
+      Charisma.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '15'
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+_id: xci06r00dxdb0qxw
+_key: '!items!xci06r00dxdb0qxw'

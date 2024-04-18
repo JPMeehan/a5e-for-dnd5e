@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/polearms/spear-flared-wrapped.webp
 effects:
   - icon: icons/weapons/polearms/spear-flared-wrapped.webp
-    origin: Item.qpbbw7gjsae2qkfp
+    origin: Item.7m0uo3ToKhg6sEqm
     flags:
       a5e:
         sort: 0
@@ -38,13 +38,11 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Heavy), Simple, Thrown (20/60), Versatile
-      (1d8)</em></p><hr><p><b>Defensive:</b> This weapon is designed to be used
-      with a shield of the stated degree or lighter (light, medium, or heavy).
-      When you make an attack with this weapon and are using a shield designed
-      for it, you can use a bonus action to either make an attack with your
-      shield or increase your Armor Class by 1 until the start of your next
-      turn.</p>
+      <hr><p><b>Defensive:</b> This weapon is designed to be used with a shield
+      of the stated degree or lighter (light, medium, or heavy). When you make
+      an attack with this weapon and are using a shield designed for it, you can
+      use a bonus action to either make an attack with your shield or increase
+      your Armor Class by 1 until the start of your next turn.</p>
     chat: ''
     unidentified: ''
   source:

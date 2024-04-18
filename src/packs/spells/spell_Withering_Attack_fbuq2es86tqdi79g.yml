@@ -1,0 +1,130 @@
+name: Withering Attack
+type: spell
+img: icons/magic/unholy/strike-body-life-soul-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-size: 10.5pt;">You weapon pulses with fell energy,
+      ready to curse a foe who dares to move from their current
+      position.</span></p>
+
+      <p>As part of the action to cast this spell, make an attack with your
+      melee weapon.&nbsp;On a hit, tendrils of accursed energy surround the
+      target, threatening it to remain in place.&nbsp;If the creature moves
+      voluntarily before the end of its next turn, it must make a Wisdom saving
+      throw against your spell save DC.&nbsp;A creature that fails its save
+      takes 1d8 points of <em>necrotic</em> damage and is
+      <em>rattled</em>.&nbsp;Involuntary movement does not trigger this
+      additional damage.</p>
+
+      <p><strong><em>Cast at Higher Levels: </em></strong>At 5th level, the
+      target takes an additional 1d8 points of <em>necrotic</em> damage on a hit
+      and the curse damage for moving increases to 2d8.&nbsp;At 11th level, the
+      target takes an additional 2d8 points of&nbsp;<em>necrotic</em> damage on
+      a hit and the curse damage for moving increases to 3d8.&nbsp;At 17th
+      level, the target takes an additional 3d8 points of&nbsp;<em>necrotic</em>
+      damage on a hit and the curse damage for moving increases to 4d8.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 0
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a melee weapon
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - necrotic
+      - - '0'
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/strike-body-life-soul-green.webp
+    origin: Item.fbuq2es86tqdi79g
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: KcRKtysx3zaMDOVR
+    transfer: false
+    name: Rattled
+    _id: AL5qKtC8p3po6aBF
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!fbuq2es86tqdi79g.AL5qKtC8p3po6aBF'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - weaponry
+      - necrotic
+      - affliction
+    rareSpell: false
+folder: Tw5cqPbIxtfMfhDz
+_id: fbuq2es86tqdi79g
+_key: '!items!fbuq2es86tqdi79g'

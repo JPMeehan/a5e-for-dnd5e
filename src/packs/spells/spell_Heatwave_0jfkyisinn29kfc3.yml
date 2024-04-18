@@ -1,0 +1,120 @@
+folder: 7JSQOMqQquD3x5jj
+name: Heatwave
+type: spell
+img: icons/magic/air/fog-gas-smoke-swirling-orange.webp
+system:
+  description:
+    value: >-
+      <p>You increase the temperature of the air around you, up from cold
+      temperatures to comfortable temperatures, or to extreme heat. If you
+      create extreme heat, all creatures other than you who start their turn in
+      the area or who enter it for the first time in their turn must make a
+      Constitution saving throw, taking 3d6 fire damage and 1 level of fatigue
+      on a failure, or half damage and no fatigue on a success. A creature can
+      only suffer 2 ranks of fatigue from this spell, and suffers no fatigue if
+      acclimated to hot environments or is resistant or immune to fire damage.
+      If a creature reaches the doomed condition due to this fatigue, it will
+      die of heat stroke unless treated or dealt cold damage.</p>
+
+      <p>As an action, you can deactivate the heat, or change the temperature to
+      comfortable or extreme.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> The spell&rsquo;s area
+      increases by 10 feet for every slot level above 5th.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/air/fog-gas-smoke-swirling-orange.webp
+    origin: Item.0jfkyisinn29kfc3
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Fatigue
+    _id: pfyFMRnf01BzLuh9
+    changes:
+      - key: system.attributes.fatigue
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!0jfkyisinn29kfc3.pfyFMRnf01BzLuh9'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+      - nature
+    rareSpell: false
+_id: 0jfkyisinn29kfc3
+_key: '!items!0jfkyisinn29kfc3'

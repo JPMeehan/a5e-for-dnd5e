@@ -26,7 +26,7 @@ system:
     charged: true
 effects:
   - icon: icons/creatures/invertebrates/spider-dotted-green.webp
-    origin: Item.ad4hmr4ib3mdfufc
+    origin: Item.wVsy6Hcf2CyaEd8I
     flags:
       a5e:
         sort: 0
@@ -36,11 +36,11 @@ effects:
     _id: Ab7fJLDUBAGdPofT
     changes:
       - key: system.skills.ste.proficient
-        value: 'true'
+        value: '1'
         mode: 6
         priority: null
       - key: system.skills.prc.proficient
-        value: 'true'
+        value: '1'
         mode: 6
         priority: null
       - key: system.attributes.senses.tremorsense.distance

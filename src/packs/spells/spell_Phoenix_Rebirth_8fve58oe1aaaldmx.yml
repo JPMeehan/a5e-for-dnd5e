@@ -1,0 +1,121 @@
+folder: DMm8aLAHhpqUVDEv
+name: Phoenix Rebirth
+type: spell
+img: icons/magic/fire/projectile-feathers-embers-gold.webp
+system:
+  description:
+    value: >-
+      <p>Fire is the element of destruction, but that destruction brings about
+      rebirth. The mighty phoenix embodies this the best, and this spell
+      harnesses its power. When you cast this spell, your body explodes in an
+      awe inspiring blast of flames. Targets in the area take 11d6 fire damage
+      from the explosion, and then you are reduced to ash.</p>
+
+      <p>At the start of your next turn, you are restored to life from your
+      ashes with 11d6 hit points. You are also cured of any blindness, deafness,
+      and diseases afflicting you, and you can choose to regenerate any missing
+      body parts. This also frees you from the Doomed condition.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> If you cast this spell with a
+      9th-level spell slot, increase the damage dealt and amount of hit points
+      regained by 2d6.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 8
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a tuft of phoenix down feathers
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 2d6
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 11d6
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/projectile-feathers-embers-gold.webp
+    origin: Item.8fve58oe1aaaldmx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: oAu9bobozwjoiHQ3
+        applyToSelf: true
+    transfer: false
+    name: Ash
+    _id: 2lxNntsDTsQRl39k
+    changes:
+      - key: system.attributes.hp.value
+        value: '9999'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!8fve58oe1aaaldmx.2lxNntsDTsQRl39k'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - fire
+      - divine
+      - healing
+      - nature
+    rareSpell: false
+_id: 8fve58oe1aaaldmx
+_key: '!items!8fve58oe1aaaldmx'

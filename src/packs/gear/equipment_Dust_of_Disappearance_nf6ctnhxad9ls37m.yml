@@ -5,12 +5,12 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       This shimmering dust is usually found in a small vial that contains enough
       for a single use. You can use an action to scatter the dust into the air,
       covering you and each creature and object within 10 feet and rendering
       them invisible for 2d4 minutes. This consumes the dust. If an affected
-      creature casts a spell or attacks, the effect ends for that creature. 
+      creature casts a spell or attacks, the effect ends for that creature.
     chat: ''
     unidentified: ''
   source:
@@ -40,6 +40,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: ''

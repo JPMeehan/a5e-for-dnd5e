@@ -1,0 +1,261 @@
+name: Lambert’s Illuminating Weapon
+type: spell
+img: icons/weapons/swords/sword-winged-pink.webp
+system:
+  description:
+    value: >-
+      <p>You thrust your weapon skyward, calling down power from on high.
+      Lightning strikes your weapon and then arcs out to strike your foes. As
+      you cast the spell, make a ranged spell attack against a creature within
+      30 feet. On a hit, the creature takes 5d6 lightning damage.</p>
+
+      <p>For the remainder of the spell&rsquo;s duration, the weapon you
+      provided as a material component deals an extra 1d6 lightning damage.</p>
+
+      <p><strong>Cast At Higher Levels:</strong> When you cast this spell using
+      a spell slot of 6th level or higher, you may choose an additional target
+      for the initial ranged spell attack, and the weapon's extra lightning
+      damage increases by 1d6 for each slot level above 5th.</p>
+
+      <p><strong>Rare Version: <em>Lambert&rsquo;s Illuminating
+      Weapon.&nbsp;</em></strong>The spell instead deals radiant damage, and the
+      dice are increased to d8s.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a melee weapon
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 5d8
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/weapons/swords/sword-winged-pink.webp
+    origin: Item.mxmrq1eyimyqkn0c
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FFZ1OQvCcYqm4JFx
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Lambert’s Illuminating Weapon (5th-Level Spell)
+    _id: VVJJhy2oVABJVNsK
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Lambert’s Illuminating
+          Weapon","formula":"1d8","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/weapons/swords/sword-winged-pink.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Deals an extra 1d8 radiant damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!mxmrq1eyimyqkn0c.VVJJhy2oVABJVNsK'
+  - icon: icons/weapons/swords/sword-winged-pink.webp
+    origin: Item.mxmrq1eyimyqkn0c
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FFZ1OQvCcYqm4JFx
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Lambert’s Illuminating Weapon (6th-Level Spell)
+    _id: H0tRvLZzRtXJZwSt
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Lambert’s Illuminating
+          Weapon","formula":"2d8","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/weapons/swords/sword-winged-pink.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Deals an extra 2d8 radiant damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!mxmrq1eyimyqkn0c.H0tRvLZzRtXJZwSt'
+  - icon: icons/weapons/swords/sword-winged-pink.webp
+    origin: Item.mxmrq1eyimyqkn0c
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FFZ1OQvCcYqm4JFx
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Lambert’s Illuminating Weapon (7th-Level Spell)
+    _id: 3UIg6oOiQsxp7Cjd
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Lambert’s Illuminating
+          Weapon","formula":"3d8","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/weapons/swords/sword-winged-pink.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Deals an extra 3d8 radiant damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!mxmrq1eyimyqkn0c.3UIg6oOiQsxp7Cjd'
+  - icon: icons/weapons/swords/sword-winged-pink.webp
+    origin: Item.mxmrq1eyimyqkn0c
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FFZ1OQvCcYqm4JFx
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Lambert’s Illuminating Weapon (8th-Level Spell)
+    _id: 1jDpb4KIXqplM8jY
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Lambert’s Illuminating
+          Weapon","formula":"4d8","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/weapons/swords/sword-winged-pink.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Deals an extra 4d8 radiant damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!mxmrq1eyimyqkn0c.1jDpb4KIXqplM8jY'
+  - icon: icons/weapons/swords/sword-winged-pink.webp
+    origin: Item.mxmrq1eyimyqkn0c
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FFZ1OQvCcYqm4JFx
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Lambert’s Illuminating Weapon (9th-Level Spell)
+    _id: SnNah2xnoUyU6L49
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Lambert’s Illuminating
+          Weapon","formula":"5d8","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/weapons/swords/sword-winged-pink.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Deals an extra 5d8 radiant damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!mxmrq1eyimyqkn0c.SnNah2xnoUyU6L49'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - lightning
+    rareSpell: true
+folder: jczcRu76oXuTkOlM
+_id: mxmrq1eyimyqkn0c
+_key: '!items!mxmrq1eyimyqkn0c'

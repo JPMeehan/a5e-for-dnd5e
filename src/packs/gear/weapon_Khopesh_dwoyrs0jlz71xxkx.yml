@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/sickles/sickle-wrapped-engraved-green.webp
 effects:
   - icon: icons/weapons/sickles/sickle-wrapped-engraved-green.webp
-    origin: Item.st4dIQfsNOkTEqME
+    origin: Item.QSBDDsAU1ku7Ph9u
     flags:
       a5e:
         sort: 0
@@ -38,8 +38,6 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Light), Dual-Wielding, Finesse</em></p>
-
       <p>This sickleshaped sword uses the statistics of a
       @UUID[Compendium.a5e.a5e-adventuring-gear.Item.4wvjchmo31jngkyk]{Scimitar}.</p><hr><p><b>Defensive:</b>
       This weapon is designed to be used with a shield of the stated degree or

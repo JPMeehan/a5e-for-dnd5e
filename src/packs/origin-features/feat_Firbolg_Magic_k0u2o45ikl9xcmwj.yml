@@ -1,0 +1,67 @@
+name: Firbolg Magic
+type: feat
+img: icons/weapons/axes/axe-broad-purple.webp
+effects: []
+folder: OpVlQm2oviOU6e9w
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use this feature to cast either detect magic or disguise self.
+      Once you cast either, you can’t do so again until you complete a short or
+      long rest. When you cast disguise self, you can vary your height by up to
+      3 feet instead of the normal 1 foot.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: '30'
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: k0u2o45ikl9xcmwj
+_key: '!items!k0u2o45ikl9xcmwj'

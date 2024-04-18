@@ -1,0 +1,117 @@
+name: Protective Command
+type: spell
+img: icons/skills/melee/shield-block-gray-yellow.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:&nbsp;</strong>Marshal class</em></p>
+
+      <p>You can keep your allies&rsquo; guard up, even as you direct their
+      attacks.&nbsp;While this spell is active, whenever you use
+      your&nbsp;@UUID[Compendium.a5e.a5e-class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence} feature, when the affected creature attacks, it gains a bonus to
+      its armor class equal to half your proficiency bonus until the beginning
+      of its next turn.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/melee/shield-block-gray-yellow.webp
+    origin: Item.q1q8ty6qjtg5gsqm
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ukVfg7xUjgYuhSm8
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Increased AC
+    _id: Zq0ICP57QuAuWkNZ
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '@prof/2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!q1q8ty6qjtg5gsqm.Zq0ICP57QuAuWkNZ'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - arcane
+      - protection
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: q1q8ty6qjtg5gsqm
+_key: '!items!q1q8ty6qjtg5gsqm'

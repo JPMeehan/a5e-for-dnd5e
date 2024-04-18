@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/maces/mace-round-studded.webp
 effects:
   - icon: icons/weapons/maces/mace-round-studded.webp
-    origin: Item.ziqpvym197xh68vb
+    origin: Item.l0B5X5mTfa0trl2x
     flags:
       a5e:
         sort: 0
@@ -38,12 +38,11 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Medium)</em></p><hr><p><b>Defensive:</b> This weapon is
-      designed to be used with a shield of the stated degree or lighter (light,
-      medium, or heavy). When you make an attack with this weapon and are using
-      a shield designed for it, you can use a bonus action to either make an
-      attack with your shield or increase your Armor Class by 1 until the start
-      of your next turn.</p>
+      <hr><p><b>Defensive:</b> This weapon is designed to be used with a shield
+      of the stated degree or lighter (light, medium, or heavy). When you make
+      an attack with this weapon and are using a shield designed for it, you can
+      use a bonus action to either make an attack with your shield or increase
+      your Armor Class by 1 until the start of your next turn.</p>
     chat: ''
     unidentified: ''
   source:

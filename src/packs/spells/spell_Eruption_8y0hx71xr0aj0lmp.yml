@@ -1,0 +1,119 @@
+folder: DMm8aLAHhpqUVDEv
+name: Eruption
+type: spell
+img: icons/magic/earth/lava-explosion-orange.webp
+system:
+  description:
+    value: >-
+      <p>A volcanic eruption takes place at a point on the ground within range
+      of your choosing.&nbsp;Creatures in the area take 6d6 fire damage and 6d6
+      bludgeoning damage, and fall prone (they take half damage and do not fall
+      prone on a successful save). Structures in the area take double damage,
+      and the ground becomes difficult terrain. For the next minute, the ground
+      continues to burn with hot rocks, dealing 2d6 fire damage to any creature
+      in contact with the ground who enters or ends their turn in the difficult
+      terrain.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> The damage increases by 2d6 for
+      all types for every slot level above 8th.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 8
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a piece of lava rock or obsidian
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 2d6
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/earth/lava-explosion-orange.webp
+    origin: Item.8y0hx71xr0aj0lmp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jDqLux3l2plPHagb
+    transfer: false
+    name: Prone
+    _id: l6W83c3f69Mtw4G1
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!8y0hx71xr0aj0lmp.l6W83c3f69Mtw4G1'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - earth
+      - fire
+      - nature
+      - terrain
+    rareSpell: false
+_id: 8y0hx71xr0aj0lmp
+_key: '!items!8y0hx71xr0aj0lmp'

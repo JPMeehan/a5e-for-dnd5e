@@ -68,6 +68,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action
@@ -111,7 +112,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
-    origin: Item.csayrhcg78sxego5
+    origin: Item.Waz9XsiKzLTYKtZj
     flags:
       a5e:
         sort: 0

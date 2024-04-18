@@ -1,0 +1,159 @@
+name: Mallet of the Earth
+type: spell
+img: icons/magic/earth/projectile-boulder-dust.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You summon up a massive maul made of packed earth and stone.
+      You are proficient with this weapon. It deals 4d6 magical bludgeoning
+      damage and has the heavy and two-handed properties.</p>
+
+      <p dir="ltr">When attacking with the weapon, you may choose to have it
+      deal 3d6 damage instead of 4d6. If you do so, when you hit a creature that
+      is your size or smaller, it makes a Strength saving throw or is knocked
+      prone.</p>
+
+      <p dir="ltr">Finally, when you make an attack against a prone creature
+      that is your size or smaller, you may choose to end concentration on the
+      spell as part of the attack. After dealing its damage, the maul
+      discorporates into a heavy pile of loose earth that buries the creature
+      alive. A creature so buried is blinded, grappled, and restrained until it
+      uses an action to make a Strength saving throw to free itself. On a
+      failure, it begins suffocating, but may continue to attempt to escape,
+      freeing itself on a success.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 4
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A handful of dirt and stones
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: ''
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6 + @mod
+        - bludgeoning
+      - - 3d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/earth/projectile-boulder-dust.webp
+    origin: Item.ex61y8p8rm6ntine
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Wv5Njzo6FJYhGSd3
+    transfer: false
+    name: Prone
+    _id: GZNlVLvo547ehZH2
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!ex61y8p8rm6ntine.GZNlVLvo547ehZH2'
+  - icon: icons/magic/earth/projectile-boulder-dust.webp
+    origin: Item.ex61y8p8rm6ntine
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Wv5Njzo6FJYhGSd3
+    transfer: false
+    name: Buried
+    _id: JxC1noW9oTAYRuS5
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded","grappled","restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+      - grappled
+      - restrained
+    folder: null
+    _key: '!items.effects!ex61y8p8rm6ntine.JxC1noW9oTAYRuS5'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - earth
+      - nature
+      - weaponry
+    rareSpell: false
+folder: 3HQE3FN5vUCIygDu
+_id: ex61y8p8rm6ntine
+_key: '!items!ex61y8p8rm6ntine'

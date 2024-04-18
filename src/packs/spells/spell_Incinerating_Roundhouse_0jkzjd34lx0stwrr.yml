@@ -1,0 +1,93 @@
+name: Incinerating Roundhouse
+type: spell
+img: icons/magic/fire/blast-jet-stream-embers-red.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You must be able to move in order to cast this spell. You
+      lash out with a kick so terrible in its decisiveness that it sets the very
+      air ablaze. As part of casting the spell, make a melee spell attack
+      against a creature within reach of your unarmed strike. If you hit, you
+      deal bludgeoning damage equal to 1d6 + your spellcasting modifier plus 3d6
+      fire damage. If your unarmed strike normally uses a larger die, use that
+      instead of a d6.</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-4df88659-7fff-c4a3-f906-2555f9b29893">Cast At
+      Higher Levels.&nbsp;</strong>When you cast this spell using a spell slot
+      of 3rd level or higher, the spell does an extra 1d6 fire damage for each
+      spell level above 2nd. If you cast the spell with a spell slot of 5th
+      level or higher, a creature you damage also catches fire and takes 1d6
+      ongoing fire damage at the start of each of its turns until an action is
+      taken to extinguish the flames.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: A shin guard
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+      - unarmed
+    rareSpell: false
+folder: KpVFJJxpHWw9kEfV
+_id: 0jkzjd34lx0stwrr
+_key: '!items!0jkzjd34lx0stwrr'

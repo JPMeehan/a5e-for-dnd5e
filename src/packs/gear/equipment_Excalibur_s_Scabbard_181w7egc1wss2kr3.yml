@@ -5,16 +5,16 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       While wearing this longsword scabbard, you have resistance to piercing and
-      slashing damage from nonmagical weapons. 
+      slashing damage from nonmagical weapons.
     chat: ''
     unidentified: ''
   source:
     book: ''
     license: OGL 1.0a
   quantity: 1
-  weight: ''
+  weight: 0
   price:
     value: 55000
     denomination: gp
@@ -37,6 +37,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: 9k4UVzCiMuqj62ea
 _id: 181w7egc1wss2kr3

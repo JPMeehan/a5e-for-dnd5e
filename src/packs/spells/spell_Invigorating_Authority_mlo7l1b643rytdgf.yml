@@ -1,0 +1,88 @@
+name: Invigorating Authority
+type: spell
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:&nbsp;</strong>Marshal class</em></p>
+
+      <p>Directing your allies bolsters you.&nbsp;While this spell is active,
+      whenever you use
+      your&nbsp;@UUID[Compendium.a5e.a5e-class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence} feature, you are healed for a number of hit points equal to half
+      your proficiency bonus. If you use your
+      @UUID[Compendium.a5e.a5e-class-features.Item.qc8h2qnq0of52qct]{Rallying
+      Surge} feature while this spell is active, you can end this spell early to
+      heal yourself and each of the targets an additional 1d8 hit points.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - divine
+      - movement
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: mlo7l1b643rytdgf
+_key: '!items!mlo7l1b643rytdgf'

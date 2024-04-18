@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/polearms/spear-hooked-spike.webp
 effects:
   - icon: icons/weapons/polearms/spear-hooked-spike.webp
-    origin: Item.u10xjhy1oqp26jmt
+    origin: Item.Ind3nrqxBi7elcUG
     flags:
       a5e:
         sort: 0
@@ -38,13 +38,13 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Heavy), Heavy, Reach (Disadvantage when attacking a
-      target within 5 ft of you)</em></p><hr><p><b>Defensive:</b> This weapon is
-      designed to be used with a shield of the stated degree or lighter (light,
-      medium, or heavy). When you make an attack with this weapon and are using
-      a shield designed for it, you can use a bonus action to either make an
-      attack with your shield or increase your Armor Class by 1 until the start
-      of your next turn.</p>
+      <p>You have disadvantage when using a pike to attack a target within 5 ft
+      of you.</p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p>
     chat: ''
     unidentified: ''
   source:

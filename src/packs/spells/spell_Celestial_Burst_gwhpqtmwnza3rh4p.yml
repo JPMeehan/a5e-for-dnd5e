@@ -1,0 +1,117 @@
+name: Celestial Burst
+type: spell
+img: icons/magic/air/air-pressure-shield-blue.webp
+system:
+  description:
+    value: >-
+      <p>You shoot a comet of cosmic light at a creature or object within range.
+      Make a ranged spell attack against the target. On a hit, the target takes
+      1d8 radiant damage. If the target was an object, it takes no damage and
+      instead emits bright light out to 30 ft. until the end of your next
+      turn.</p>
+
+      <p>This spell&rsquo;s damage increases by 1d8 when you reach 5th level
+      (2d8), 11th level (3d8), and 17th level (4d8).</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d8
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/air/air-pressure-shield-blue.webp
+    origin: Item.gwhpqtmwnza3rh4p
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jy3XiimhPp5Kbj9L
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Light
+    _id: wmr7Gf8AiO0FhPZ7
+    changes:
+      - key: '@token.light.bright'
+        value: '30'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 0
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!gwhpqtmwnza3rh4p.wmr7Gf8AiO0FhPZ7'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - radiant
+    rareSpell: false
+folder: Tw5cqPbIxtfMfhDz
+_id: gwhpqtmwnza3rh4p
+_key: '!items!gwhpqtmwnza3rh4p'

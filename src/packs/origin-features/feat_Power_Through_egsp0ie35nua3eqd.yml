@@ -1,0 +1,67 @@
+folder: n7MBM7lcayeaiQdF
+name: Power Through
+type: feat
+img: icons/tools/hand/pickaxe-steel-white.webp
+system:
+  type:
+    value: background
+    subtype: ''
+  description:
+    value: >-
+      <p>When you fail a saving throw to resist fatigue you can use this trait
+      to immediately reroll that save with advantage, possibly turning that
+      failure into a success. Once you do so, you can&rsquo;t do so again until
+      you complete a long rest.</p>
+
+      <p>Also, whenever you complete a long rest and recover from a level of
+      fatigue, you can instead recover from two levels of fatigue.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: egsp0ie35nua3eqd
+_key: '!items!egsp0ie35nua3eqd'

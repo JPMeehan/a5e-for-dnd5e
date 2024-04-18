@@ -1,0 +1,211 @@
+name: Herculean Force
+type: spell
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+effects:
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Item.6du1i1noxgdx1ch8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: UckjTxXEXuUrkOCJ
+        duration:
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Large Carrying Capacity
+    _id: oEEaL8WmX2vrhsUh
+    changes:
+      - key: system.traits.size
+        value: lg
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!6du1i1noxgdx1ch8.oEEaL8WmX2vrhsUh'
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Item.6du1i1noxgdx1ch8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 12eVdDI9WDV0up8J
+        duration:
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Huge Carrying Capacity
+    _id: CvSmdCeNOYmhaQY6
+    changes:
+      - key: system.traits.size
+        value: huge
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!6du1i1noxgdx1ch8.CvSmdCeNOYmhaQY6'
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Item.6du1i1noxgdx1ch8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: eYc5BTJstnzeh7Hv
+        duration:
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Gargantuan Carrying Capacity
+    _id: q5B7jPs5fjxqnGYc
+    changes:
+      - key: system.traits.size
+        value: grg
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!6du1i1noxgdx1ch8.q5B7jPs5fjxqnGYc'
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Item.6du1i1noxgdx1ch8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: y01ejTD2WpFtzx05
+        duration:
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Titanic Carrying Capacity
+    _id: O8dJyruXaXYZwAXx
+    changes:
+      - key: system.traits.size
+        value: titan
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!6du1i1noxgdx1ch8.O8dJyruXaXYZwAXx'
+folder: KpVFJJxpHWw9kEfV
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - transformation
+      - enhancement
+    rareSpell: false
+system:
+  description:
+    value: >-
+      <p>Your body surges with superhuman might. For the duration of this spell,
+      you count as Large-sized when determining how much weight you can carry.
+      (Your carrying capacity becomes your Strength score × 30 pounds, and you
+      can lift, drag, and push twice that much.) You can also lift, push, and
+      drag any Medium-sized or smaller object, regardless of weight, and throw
+      it up to 10 feet.</p><p><strong>Cast At Higher Levels.</strong> If you
+      cast this spell using a spell slot of 4th level or higher, for each two
+      slot levels above 3rd, increase both the size categories mentioned by one
+      (each increase doubles your carrying capacity), and increase the throwing
+      distance by 5 feet.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A droplet of sweat
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: 6du1i1noxgdx1ch8
+_key: '!items!6du1i1noxgdx1ch8'

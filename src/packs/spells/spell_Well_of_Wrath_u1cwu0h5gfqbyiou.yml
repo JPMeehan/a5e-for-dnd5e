@@ -1,0 +1,187 @@
+folder: riV8qst3SvT2320y
+name: Well of Wrath
+type: spell
+img: icons/creatures/abilities/mouth-teeth-rows-red.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Berserker class</em></p>
+
+      <p>You magically funnel fury into yourself, pushing beyond your normal
+      limits.</p>
+
+      <p>To cast this spell, you must have no remaining uses of
+      @UUID[Compendium.a5e.a5e-class-features.Item.htgvror5v9twusgs]{Rage}, or
+      there must be no limit to the number of times you can Rage.</p>
+
+      <p>As part of the action to cast a spell, you enter a Rage, and you take
+      1d8 damage (which cannot be reduced or prevented in any way). While this
+      Rage lasts, at the beginning of each of your turns you take another 1d4
+      damage (which cannot be reduced or prevented in any way). Also during this
+      Rage, your melee weapon attacks deal an additional 1d4 psychic damage.
+      When your Rage ends, you must make a Wisdom save against your own spell
+      save DC or gain a level of strife.</p>
+
+      <p>If you have unlimited Rage uses (such as in the case of a 20th level
+      Wrathburner berserker), the bonus weapon damage is instead 2d8 psychic
+      damage. No other effects of this special rage apply to you (including the
+      initial and ongoing damage, or risk of strife).</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/abilities/mouth-teeth-rows-red.webp
+    origin: Item.u1cwu0h5gfqbyiou
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: uRj8395xVBYmTAsD
+        applyToSelf: true
+    transfer: false
+    name: Well of Wrath
+    _id: PlIMiUGDe1VJlRS5
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Well of
+          Wrath","formula":"1d4","damageType":"psychic","context":{"attackTypes":["meleeWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/creatures/abilities/mouth-teeth-rows-red.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!u1cwu0h5gfqbyiou.PlIMiUGDe1VJlRS5'
+  - icon: icons/creatures/abilities/mouth-teeth-rows-red.webp
+    origin: Item.u1cwu0h5gfqbyiou
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: uRj8395xVBYmTAsD
+    transfer: false
+    name: Strife
+    _id: G3K91FouTqbnpdDv
+    changes:
+      - key: system.attributes.strife
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!u1cwu0h5gfqbyiou.G3K91FouTqbnpdDv'
+  - icon: icons/creatures/abilities/mouth-teeth-rows-red.webp
+    origin: Item.u1cwu0h5gfqbyiou
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: pXl3R4RhS0RTh8q8
+        applyToSelf: true
+    transfer: false
+    name: Well of Wrath
+    _id: Guk7hXRa4xm7RFQs
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Well of
+          Wrath","formula":"2d8","damageType":"psychic","context":{"attackTypes":["meleeWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/creatures/abilities/mouth-teeth-rows-red.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!u1cwu0h5gfqbyiou.Guk7hXRa4xm7RFQs'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - enhancement
+      - multiclass
+    rareSpell: false
+_id: u1cwu0h5gfqbyiou
+_key: '!items!u1cwu0h5gfqbyiou'

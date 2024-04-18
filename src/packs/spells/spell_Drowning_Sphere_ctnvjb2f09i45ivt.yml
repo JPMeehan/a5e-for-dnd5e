@@ -1,0 +1,219 @@
+folder: 7JSQOMqQquD3x5jj
+name: Drowning Sphere
+type: spell
+img: icons/magic/water/orb-water-bubbles.webp
+system:
+  description:
+    value: >-
+      <p>You conjure a rolling sphere of water at a point within range up to 10
+      feet off the ground. Any creature in the sphere&rsquo;s space must make a
+      Strength saving throw; it can move to the nearest occupied space of its
+      choosing if it succeeds. Huge or larger creatures automatically succeed. A
+      creature fully engulfed is restrained and must hold its breath, taking 2d6
+      bludgeoning and 2d6 psychic damage from the current and pain of holding
+      its breath. At the end of each of its turns, a restrained creature can
+      make another Strength saving throw, swimming free of the sphere on a
+      success.</p>
+
+      <p>The sphere can hold up to four Medium or smaller creatures or one Large
+      creature. If you try to engulf any additional creatures exceeding this
+      amount, choose one or more to be ejected, falling prone beside the
+      sphere.</p>
+
+      <p>As an action, you can direct the sphere to move up to 30 feet. If it
+      moves over an edge, it descends at a rate of 60 feet per round until it is
+      10 feet above the ground again. Any creature restrained by the sphere
+      moves with it. Any creature whose space the sphere enters must make a
+      Strength saving throw or be engulfed and restrained on a failure.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 5
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a pearl worth 100 gp kept inside an oyster shell
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/orb-water-bubbles.webp
+    origin: Item.ctnvjb2f09i45ivt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PL1mBeVilFX0lMsT
+        duration:
+          unit: minutes
+    transfer: false
+    name: Restrained
+    _id: q3O5advtUKtEG13b
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!ctnvjb2f09i45ivt.q3O5advtUKtEG13b'
+  - icon: icons/magic/water/orb-water-bubbles.webp
+    origin: Item.ctnvjb2f09i45ivt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PL1mBeVilFX0lMsT
+    transfer: false
+    name: Prone
+    _id: MSm9Ug32DP7ayJ4e
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!ctnvjb2f09i45ivt.MSm9Ug32DP7ayJ4e'
+  - icon: icons/magic/water/orb-water-bubbles.webp
+    origin: Item.ctnvjb2f09i45ivt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ZpxNnNBF25qUW9ly
+        duration:
+          unit: minutes
+    transfer: false
+    name: Restrained
+    _id: R2AGHyf35tBgPJmh
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!ctnvjb2f09i45ivt.R2AGHyf35tBgPJmh'
+  - icon: icons/magic/water/orb-water-bubbles.webp
+    origin: Item.ctnvjb2f09i45ivt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ZpxNnNBF25qUW9ly
+    transfer: false
+    name: Prone
+    _id: Lsw7h23pRWZ5cRn0
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!ctnvjb2f09i45ivt.Lsw7h23pRWZ5cRn0'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - nature
+      - water
+    rareSpell: false
+_id: ctnvjb2f09i45ivt
+_key: '!items!ctnvjb2f09i45ivt'

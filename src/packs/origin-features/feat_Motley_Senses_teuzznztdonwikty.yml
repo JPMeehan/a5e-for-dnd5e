@@ -21,7 +21,7 @@ system:
     charged: true
 effects:
   - icon: icons/magic/perception/eye-slit-red-orange.webp
-    origin: Item.teuzznztdonwikty
+    origin: Item.tElmNYufgj56LRqz
     flags:
       a5e:
         sort: 0
@@ -31,7 +31,7 @@ effects:
     _id: 09mpgOX7mMoybK7A
     changes:
       - key: system.skills.prc.proficient
-        value: 'true'
+        value: '1'
         mode: 6
         priority: null
       - key: system.skills.prc.expertiseDice

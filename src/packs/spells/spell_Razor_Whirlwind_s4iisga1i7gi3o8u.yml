@@ -1,0 +1,94 @@
+folder: KpVFJJxpHWw9kEfV
+name: Razor Whirlwind
+type: spell
+img: icons/magic/air/wind-tornado-funnel-blue-grey.webp
+system:
+  description:
+    value: >-
+      <p>A 5-foot-diameter whirlwind appears within range, lasting for the
+      duration. It extinguishes nonmagical flames within 20 feet. It also picks
+      up unattended objects within 10 feet weighing 20 pounds or less, and
+      flings them 10 feet in a random direction. You can use a bonus action to
+      move the whirlwind up to 30 feet. It can jump over pits 10 feet wide or
+      obstacles 5 feet tall. If you move the whirlwind into a creature, the
+      whirlwind ends its movement for that turn and the creature makes a
+      Dexterity saving throw, taking 2d6 slashing damage on a failed save, or
+      half as much on a successful one. A creature that ends its turn within 5
+      feet of the whirlwind makes a Dexterity saving throw against the
+      whirlwind&rsquo;s damage.</p>
+
+      <p><strong>Cast at Higher Levels.</strong></p>
+
+      <p>The damage increases by 1d6 for each slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a balled vine of bramble
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - air
+      - nature
+      - storm
+      - weather
+    rareSpell: false
+_id: s4iisga1i7gi3o8u
+_key: '!items!s4iisga1i7gi3o8u'

@@ -109,7 +109,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/equipment/finger/ring-band-notched-gold.webp
-    origin: Item.DyIehx5s8CDTkLUF
+    origin: Item.eQOYEs9KNhbapGfB
     flags:
       a5e:
         sort: 0
@@ -121,6 +121,10 @@ effects:
       - key: system.traits.conditionImmunities
         value: '["frightened"]'
         mode: 2
+        priority: null
+      - key: flags.a5e.deathSaveThreshold
+        value: '13'
+        mode: 6
         priority: null
     disabled: false
     duration:
@@ -136,7 +140,7 @@ effects:
     folder: null
     _key: '!items.effects!gkpu21shq1bhjc5e.EHR8T5ZT2HN0Pvte'
   - icon: icons/equipment/finger/ring-band-notched-gold.webp
-    origin: Item.DyIehx5s8CDTkLUF
+    origin: Item.eQOYEs9KNhbapGfB
     flags:
       a5e:
         sort: 0
@@ -149,6 +153,10 @@ effects:
     changes:
       - key: system.traits.damageResistances
         value: '["poison"]'
+        mode: 2
+        priority: null
+      - key: flags.a5e.deathSaveThreshold
+        value: '2'
         mode: 2
         priority: null
     disabled: false
@@ -164,6 +172,35 @@ effects:
     statuses: []
     folder: null
     _key: '!items.effects!gkpu21shq1bhjc5e.QJJ7ncCX9SEdqEjX'
+  - icon: icons/equipment/finger/ring-band-notched-gold.webp
+    origin: Item.eQOYEs9KNhbapGfB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: CaeJqhzgP3NZJLmB
+        applyToSelf: true
+    transfer: false
+    name: Charge Into Danger
+    _id: r15DlHQHD1WMQTQR
+    changes:
+      - key: flags.a5e.deathSaveThreshold
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!gkpu21shq1bhjc5e.r15DlHQHD1WMQTQR'
 flags: {}
 _id: gkpu21shq1bhjc5e
 _key: '!items!gkpu21shq1bhjc5e'

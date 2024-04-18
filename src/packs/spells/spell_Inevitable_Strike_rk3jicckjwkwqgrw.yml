@@ -1,0 +1,168 @@
+name: Inevitable Strike
+type: spell
+img: icons/magic/fire/dagger-rune-enchant-flame-blue.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Rogue class</em></p>
+
+      <p>You pour raw magical energy into your attack, which hammers the target
+      and spills over into the surrounding area.</p>
+
+      <p>When you deal
+      @UUID[Compendium.a5e.a5e-class-features.Item.4727pnvz5nwn3h23]{Sneak
+      Attack} damage with a melee attack, you may cast this spell as part of the
+      Sneak Attack, transforming the bonus damage from your Sneak Attack into
+      force damage. In addition, depending on the spell slot level used to cast
+      this spell, one of the following additional effects occur:</p>
+
+      <p><strong>1st-level: </strong>The target must make a strength save
+      against your spell save DC or fall prone.</p>
+
+      <p><strong>2nd-level:</strong> The target must make a strength save
+      against your spell save DC or fall prone, and a target within 10 feet
+      (which may be the same target as the initial strike) takes 1d4+1 force
+      damage.</p>
+
+      <p><strong>3rd-level: </strong>the target must make a strength save
+      against your spell save DC or fall prone, and two targets within 10 feet
+      (either or both of which may be the same target as the initial strike)
+      take 1d4+1 force damage.</p>
+
+      <p><strong>4th-level or higher: </strong>The target must make a strength
+      save against your spell save DC or fall prone, and three targets within 10
+      feet (any of which may be the same target as the initial strike) take
+      1d4+1 force damage.</p>
+
+      <p>For the purposes of determining spells cast in a round, this spell
+      counts as having a casting time of one action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + 1
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-blue.webp
+    origin: Item.rk3jicckjwkwqgrw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4yX0wADCMqRNIIJF
+    transfer: false
+    name: Prone
+    _id: sgjkcwuQ9Q4MZsIZ
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!rk3jicckjwkwqgrw.sgjkcwuQ9Q4MZsIZ'
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-blue.webp
+    origin: Item.rk3jicckjwkwqgrw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iPsKrMUzXwXnznrg
+    transfer: false
+    name: Prone
+    _id: p3I0BlG8JiFBsHbI
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!rk3jicckjwkwqgrw.p3I0BlG8JiFBsHbI'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - weaponry
+      - force
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: rk3jicckjwkwqgrw
+_key: '!items!rk3jicckjwkwqgrw'

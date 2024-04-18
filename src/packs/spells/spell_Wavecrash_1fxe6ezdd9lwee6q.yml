@@ -1,0 +1,116 @@
+folder: riV8qst3SvT2320y
+name: Wavecrash
+type: spell
+img: icons/magic/water/pseudopod-teal.webp
+system:
+  description:
+    value: >-
+      <p>You summon a wave of water emanating from your space, shoving creatures
+      and objects away. Creatures in the area are pushed away from you out of
+      the area and fall prone.</p>
+
+      <p>Creatures that succeed their saving throws are pushed 5 feet and do not
+      fall prone, though they may choose to fall prone in their space if they do
+      not wish to be pushed.<br>Unsecured objects within the area are pushed as
+      well. Uncovered non-magical fires are extinguished.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> Increase the area of the spell
+      by 5 feet for every slot level above 1st.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/pseudopod-teal.webp
+    origin: Item.1fxe6ezdd9lwee6q
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Ey6TwrUZkVDqEDC1
+    transfer: false
+    name: Prone
+    _id: 6ozi0XXz4Scmcmwj
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!1fxe6ezdd9lwee6q.6ozi0XXz4Scmcmwj'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - nature
+      - water
+    rareSpell: false
+_id: 1fxe6ezdd9lwee6q
+_key: '!items!1fxe6ezdd9lwee6q'

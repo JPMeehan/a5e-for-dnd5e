@@ -1,0 +1,118 @@
+name: Venomous Sting
+type: spell
+img: icons/creatures/abilities/stinger-poison-green.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">You lash out with poisoned barbs which flood the
+      target&rsquo;s body with toxins. Make a melee spell attack. On a hit, you
+      deal 1d8 poison damage, and the target is poisoned until the start of your
+      next turn.&nbsp;</p>
+
+      <p dir="ltr">This spell&rsquo;s damage increases by 1d8 when you reach 5th
+      level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 0
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d8
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/abilities/stinger-poison-green.webp
+    origin: Item.ne5fiqa3pojgbbhx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: llkIcK0GYiW5TBS2
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Poisoned
+    _id: z6CnHw89qM6D9esI
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    folder: null
+    _key: '!items.effects!ne5fiqa3pojgbbhx.z6CnHw89qM6D9esI'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - nature
+      - poison
+    rareSpell: false
+folder: Tw5cqPbIxtfMfhDz
+_id: ne5fiqa3pojgbbhx
+_key: '!items!ne5fiqa3pojgbbhx'

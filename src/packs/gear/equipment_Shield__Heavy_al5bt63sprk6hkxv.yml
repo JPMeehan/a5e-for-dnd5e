@@ -3,7 +3,7 @@ type: equipment
 img: icons/equipment/shield/heater-steel-gold.webp
 effects:
   - icon: icons/equipment/shield/heater-steel-gold.webp
-    origin: Item.al5bt63sprk6hkxv
+    origin: Item.xWic67ObRrUYGJxG
     flags:
       a5e:
         sort: 0
@@ -39,7 +39,7 @@ effects:
     folder: null
     _key: '!items.effects!al5bt63sprk6hkxv.xufT6e11kUsK9SPh'
   - icon: icons/equipment/shield/heater-steel-gold.webp
-    origin: Item.al5bt63sprk6hkxv
+    origin: Item.xWic67ObRrUYGJxG
     flags:
       a5e:
         sort: 0
@@ -115,6 +115,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: bonusAction

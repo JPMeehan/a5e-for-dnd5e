@@ -1,0 +1,82 @@
+folder: 7IoZEosPrje7wsrr
+name: Skylander
+type: a5e-for-dnd5e.culture
+img: icons/environment/settlement/city-night.webp
+system:
+  description:
+    value: >-
+      <p><span lang="EN">Instead of living with your head in the clouds, you
+      have come down to earth to struggle with the rest of the mortals. Your
+      homeland floats far above the land. It might have been an island wedged in
+      the sky by arcane forces, a forgotten kingdom sequestered in the air for
+      its own protection, or even an ancient flying castle.</span></p>
+
+      <p><span style="text-indent: 36pt; font-size: 10.5pt;">Little is known
+      about your people, and skylander culture varies radically from setting to
+      setting. A great many skylanders are farmers and scholars, just trying to
+      live a peaceful life. Others are pirates and raiders, looking to other
+      aerial (or landbound) resources to plunder. Some skylanders denounce the
+      skypirate lifestyle, others embrace it as the true expression of skylander
+      culture.</span></p>
+
+      <h3><span lang="EN">Skylander Traits</span></h3>
+
+      <p>Characters raised in the skylander culture share a variety of traits in
+      common with one another.</p>
+
+      <p><strong style="mso-bidi-font-weight: normal;"><em><span
+      lang="EN">Aerial Magic.</span></em></strong><span lang="EN"
+      style="text-indent: 9pt; font-size: 10.5pt;"> You know the <em>mage
+      hand</em> cantrip, and when you cast it the hand is invisible, replaced by
+      a faintly glowing wind. You can use this trait once between long rests to
+      cast one spell, chosen from <em>air wave</em>, <em>feather fall</em>, or
+      <em>floating disk</em>. Once you reach 3rd level, you can do so twice
+      between long rests. Your spellcasting ability for these is your choice of
+      Intelligence, Wisdom, or Charisma.</span></p>
+
+      <p><strong style="mso-bidi-font-weight: normal;"><em><span
+      lang="EN">Aerial Privateer.</span></em></strong><span lang="EN"
+      style="text-indent: 9pt; font-size: 10.5pt;"> You are proficient with air
+      vehicles.</span></p>
+
+      <p><strong style="mso-bidi-font-weight: normal;"><em><span
+      lang="EN">Skylander Education.</span></em></strong><span lang="EN"
+      style="text-indent: 9pt; font-size: 10.5pt;"> You are proficient with one
+      skill from Animal Handling, Arcana, Engineering, Medicine, Nature, and
+      Religion. You are also proficient with any one tool of your
+      choice.</span></p>
+
+      <p><strong style="mso-bidi-font-weight: normal;"><em><span
+      lang="EN">Languages.</span></em></strong><span lang="EN"
+      style="text-indent: 9pt; font-size: 10.5pt;"> You can speak, read, write,
+      and sign Common, plus one other.</span></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  advancement:
+    - _id: pN9ZLphavLB9hAdt
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.w70jn45rf8pnohwc
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.fsn872o734hyofw0
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.s606rm0l39f1cw3s
+    - _id: Krwh4nTFXVBokofm
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 1
+effects: []
+flags: {}
+_id: gjejoimv7b9ojf3r
+_key: '!items!gjejoimv7b9ojf3r'

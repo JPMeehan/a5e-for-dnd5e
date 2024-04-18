@@ -1,0 +1,114 @@
+folder: riV8qst3SvT2320y
+name: Dance of War
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Adept class</em></p>
+
+      <p>You magically enhance your movement, becoming supernaturally graceful
+      and agile. Until the spell ends, any time you make an Acrobatics check,
+      Athletics check, Performance (dance) check, or Dexterity saving throw,
+      roll your Martial Arts die and add it to the result.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/movement/trail-streak-zigzag-teal.webp
+    origin: Item.stpj7ctx0wz3hixa
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: i3a9sHPKmnQUL6sA
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Dance of War
+    _id: NXbQuL6lbWZkggl2
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Any time you make an Acrobatics check, Athletics check, Performance
+      (dance) check, or Dexterity saving throw, roll your Martial Arts die and
+      add it to the result.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!stpj7ctx0wz3hixa.NXbQuL6lbWZkggl2'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - enhancement
+      - movement
+      - multiclass
+    rareSpell: false
+_id: stpj7ctx0wz3hixa
+_key: '!items!stpj7ctx0wz3hixa'

@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/swords/swords-short.webp
 effects:
   - icon: icons/weapons/swords/swords-short.webp
-    origin: Item.ElCrLPK9sJzmEaGr
+    origin: Item.A5Zdu8IiERQVtMbc
     flags:
       a5e:
         sort: 0
@@ -35,7 +35,7 @@ effects:
     folder: null
     _key: '!items.effects!xsnwq03ljucz4tke.o3RplnB3d2bgc5Cs'
   - icon: icons/weapons/swords/swords-short.webp
-    origin: Item.ElCrLPK9sJzmEaGr
+    origin: Item.A5Zdu8IiERQVtMbc
     flags:
       a5e:
         sort: 0
@@ -70,10 +70,6 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Medium), Dual-Wielding, Finesse, Parrying</em></p>
-
-      <p>&nbsp;</p>
-
       <p>These use the statistics of
       @UUID[Compendium.a5e.a5e-adventuring-gear.Item.36k2tx29firrtrgl]{Shortswords},
       and are usually wielded in pairs. They have the dual-wielding

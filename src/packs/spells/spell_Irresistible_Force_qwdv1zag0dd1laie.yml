@@ -1,0 +1,183 @@
+folder: riV8qst3SvT2320y
+name: Irresistible Force
+type: spell
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Berserker class</em></p>
+
+      <p>You draw upon magical energy to give yourself the capacity to smash
+      through anything in your path.</p>
+
+      <p>The next time you Rage, you become even more dangerous and difficult to
+      stop than normal. For the duration of that Rage, your weapon attacks'
+      damage type changes to force damage, your movement speed can&rsquo;t be
+      reduced below 15 feet, and you ignore nonmagical difficult terrain. Also,
+      if you would become stunned, you are instead rattled.</p>
+
+      <p>When you stop raging, you gain a level of fatigue and the spell
+      ends.</p>
+
+      <p><strong>Cast at Higher Levels:</strong> If the spell level used to cast
+      this is at least 2nd-level, if you would become frightened, you are
+      instead rattled. If it is at least 3rd-level, if you would become
+      paralyzed, you are instead slowed. If it is at least 4th-level, if you
+      would become petrified, you are instead slowed.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/wounds/anatomy-organ-heart-red.webp
+    origin: Item.qwdv1zag0dd1laie
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HGFhQNeqsYnnjHCg
+        applyToSelf: false
+    transfer: false
+    name: Fatigue
+    _id: m9AEuxWtZiEYYKFb
+    changes:
+      - key: system.attributes.fatigue
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!qwdv1zag0dd1laie.m9AEuxWtZiEYYKFb'
+  - icon: icons/skills/wounds/anatomy-organ-heart-red.webp
+    origin: Item.qwdv1zag0dd1laie
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HGFhQNeqsYnnjHCg
+    transfer: false
+    name: Rattled
+    _id: v9BuNsC3D6vapPio
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!qwdv1zag0dd1laie.v9BuNsC3D6vapPio'
+  - icon: icons/skills/wounds/anatomy-organ-heart-red.webp
+    origin: Item.qwdv1zag0dd1laie
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HGFhQNeqsYnnjHCg
+    transfer: false
+    name: Slowed
+    _id: L8n5R9KEgG7ZaTel
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["slowed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - slowed
+    folder: null
+    _key: '!items.effects!qwdv1zag0dd1laie.L8n5R9KEgG7ZaTel'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - enhancement
+      - weaponry
+      - multiclass
+    rareSpell: false
+_id: qwdv1zag0dd1laie
+_key: '!items!qwdv1zag0dd1laie'

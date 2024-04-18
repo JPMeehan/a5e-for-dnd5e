@@ -1,0 +1,91 @@
+folder: 3HQE3FN5vUCIygDu
+name: Fire Trap
+type: spell
+img: icons/magic/fire/explosion-embers-evade-silhouette.webp
+system:
+  description:
+    value: >-
+      <p>When the object is opened by someone other than you, a fiery
+      5-foot-radius explosion fills the area around the object, dealing 4d10
+      fire damage. When you cast this spell, choose a point on the object for
+      the explosion to originate from. You can choose to set a password to
+      bypass the trap, and you can choose whether or not the object and contents
+      of the object take the damage as well.</p>
+
+      <p>Detecting the trap and disabling the trap rolls checks against your
+      spell DC.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> Increase the fire damage dealt
+      by 1d10 for every slot level above 4th.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 4
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: tinder and oil
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d10
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d10
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+      - nature
+    rareSpell: false
+_id: k4sgnfemy8lloi3k
+_key: '!items!k4sgnfemy8lloi3k'

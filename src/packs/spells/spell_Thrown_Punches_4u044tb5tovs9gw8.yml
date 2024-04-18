@@ -1,0 +1,88 @@
+folder: riV8qst3SvT2320y
+name: Thrown Punches
+type: spell
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Adept class</em></p>
+
+      <p>You imbue your limbs with magic, allowing you to project the force of
+      your attacks.</p>
+
+      <p>When you cast this spell, make a ranged spell attack against a target
+      within range. On a hit, you deal force damage equal to your Martial Arts
+      die + your spellcasting ability modifier.</p>
+
+      <p>Until the spell ends, you may substitute any unarmed strike you would
+      make on your turn with the spell attack above.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - arcane
+      - force
+      - unarmed
+      - multiclass
+    rareSpell: false
+_id: 4u044tb5tovs9gw8
+_key: '!items!4u044tb5tovs9gw8'

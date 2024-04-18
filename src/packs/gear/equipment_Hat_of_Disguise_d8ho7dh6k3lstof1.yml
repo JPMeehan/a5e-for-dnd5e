@@ -5,9 +5,9 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       While wearing this hat, you can use an action to cast disguise self at
-      will. The spell ends if the hat is removed. 
+      will. The spell ends if the hat is removed.
     chat: ''
     unidentified: ''
   source:
@@ -37,6 +37,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action

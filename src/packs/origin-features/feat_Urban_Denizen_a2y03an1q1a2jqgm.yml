@@ -1,66 +1,45 @@
 name: Urban Denizen
 type: feat
-img: icons/environment/settlement/palast.webp
-effects: []
-flags: {}
 system:
   type:
     value: culture
     subtype: ''
   description:
     value: >-
+      <div class="page" title="Page 46">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
       <p>You know your way around big cities, and know how to find people in
       urban locations. You can make an Investigation check to learn the location
-      of (or at the Narrator’s discretion gain a helpful clue to the trail of) a
-      person by discreetly asking around in the right places. The difficulty of
-      the check is DC 15 if the individual is not hiding, or DC 20 if they are
-      trying to conceal their location.</p>
+      of (or at the Narrator&rsquo;s discretion gain a helpful clue to the trail
+      of) a person by discreetly asking around in the right places. The
+      difficulty of the check is DC 15 if the individual is not hiding, or DC 20
+      if they are trying to conceal their location.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
     chat: ''
   source:
-    book: ''
+    book: 'Manual of Adventurous Resources: Complete'
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
-  activation: {}
-  duration: {}
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: null
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+img: icons/environment/settlement/city-night-spire.webp
+effects: []
+flags: {}
 folder: OpVlQm2oviOU6e9w
 _id: a2y03an1q1a2jqgm
 _key: '!items!a2y03an1q1a2jqgm'

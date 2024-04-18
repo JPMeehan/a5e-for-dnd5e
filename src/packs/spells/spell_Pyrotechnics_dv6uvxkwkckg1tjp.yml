@@ -1,0 +1,122 @@
+folder: KpVFJJxpHWw9kEfV
+name: Pyrotechnics
+type: spell
+img: icons/magic/fire/explosion-fireball-medium-orange.webp
+system:
+  description:
+    value: >-
+      <p>You target a nonmagical flame that you can see within range, or a 5-ft
+      cube portion of a nonmagical flame for larger fires. The flame, or that
+      portion of the fire, is extinguished, creating either blinding fireworks
+      or a cloud of smoke.</p>
+
+      <p><strong>Fireworks</strong>: The fire bursts with a bright audible
+      display of colors. Creatures within 10 feet of the fire must make a
+      Constitution saving throw or suffer 2d4 fire damage and be blinded until
+      the end of your next turn.</p>
+
+      <p><strong>Smoke Cloud</strong>: The fire is extinguished and thick dark
+      smoke fills a 20-ft-radius sphere from the fire, moving around corners,
+      heavily obscuring the area. The smoke lingers for 1 minute, unless a
+      strong wind disperses it.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/explosion-fireball-medium-orange.webp
+    origin: Item.dv6uvxkwkckg1tjp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 37bdY0h31qiGck4d
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: dwuTkupqw9j0KijO
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!dv6uvxkwkckg1tjp.dwuTkupqw9j0KijO'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+      - obscurement
+    rareSpell: false
+_id: dv6uvxkwkckg1tjp
+_key: '!items!dv6uvxkwkckg1tjp'

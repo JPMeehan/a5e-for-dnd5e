@@ -1,0 +1,98 @@
+name: Shirou's Sublime Bladeworks
+type: spell
+img: icons/magic/light/swords-light-glowing-white.webp
+system:
+  description:
+    value: >-
+      <p>You reach through a portal to a demiplane of infinite weaponry, and the
+      armaments you pull arc forth like shooting stars. When you cast this
+      spell, make a ranged spell attack against a creature within 30 feet. This
+      attack produces a melee weapon of your choice made of magical energy from
+      that dimension which hurtles at the target. On a hit, the target takes
+      force damage equal to 1d12 + your spellcasting ability
+      modifier.</p><p>Until this spell ends, you can repeat this attack as a
+      bonus action. Each weapon produced is considered an artifact for the
+      purpose of bypassing various magical defenses. Weapons produced by this
+      spell disappear after hitting or missing their target.</p><p><strong>Cast
+      At Higher Levels</strong>: If you cast this spell using a spell slot of
+      6th-level or higher, the damage increases by 1d12 for each slot level
+      above 5th.</p><hr class="a5e-rule u-my-md"><p><strong><em>Shirou's Sublime
+      Bladeworks.</em></strong> Instead of flinging a weapon at a target, you
+      may instead wield it as a melee weapon. Attacking with this weapon is a
+      melee spell attack that deals 1d12 force damage + your Spellcasting
+      ability modifier. It has a range of 5 feet and cannot be disarmed. You can
+      make one attack with the weapon in the same bonus action you pull it
+      forth. You may wield two such weapons at once, but retrieving each
+      requires a separate bonus action. A weapon wielded by you in this way
+      exists until you let go of it, or until the spell ends.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - force
+      - weaponry
+    rareSpell: true
+folder: jczcRu76oXuTkOlM
+_id: dz029i0wrn8tnnvu
+_key: '!items!dz029i0wrn8tnnvu'

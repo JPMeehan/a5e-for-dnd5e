@@ -3,7 +3,7 @@ type: equipment
 img: icons/equipment/shield/heater-embossed-gold.webp
 effects:
   - icon: icons/svg/aura.svg
-    origin: Item.4chrd3ttsqtxj5ow
+    origin: Item.sUIbwUbNgtPy2rE7
     flags:
       a5e:
         sort: 0
@@ -73,6 +73,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: reaction

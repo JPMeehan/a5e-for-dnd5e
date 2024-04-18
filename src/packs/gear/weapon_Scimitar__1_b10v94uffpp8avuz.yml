@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/swords/scimitar-worn-blue.webp
 effects:
   - icon: icons/weapons/swords/scimitar-worn-blue.webp
-    origin: Item.b10v94uffpp8avuz
+    origin: Item.jFRCV5mx35ifklVz
     flags:
       a5e:
         sort: 0
@@ -38,13 +38,11 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Light), Dual-Wielding,
-      Finesse</em></p><hr><p><b>Defensive:</b> This weapon is designed to be
-      used with a shield of the stated degree or lighter (light, medium, or
-      heavy). When you make an attack with this weapon and are using a shield
-      designed for it, you can use a bonus action to either make an attack with
-      your shield or increase your Armor Class by 1 until the start of your next
-      turn.</p>
+      <hr><p><b>Defensive:</b> This weapon is designed to be used with a shield
+      of the stated degree or lighter (light, medium, or heavy). When you make
+      an attack with this weapon and are using a shield designed for it, you can
+      use a bonus action to either make an attack with your shield or increase
+      your Armor Class by 1 until the start of your next turn.</p>
     chat: ''
     unidentified: ''
   source:

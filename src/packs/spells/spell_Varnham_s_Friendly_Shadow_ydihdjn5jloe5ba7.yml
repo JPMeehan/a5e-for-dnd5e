@@ -1,0 +1,161 @@
+name: Varnham’s Friendly Shadow
+type: spell
+img: icons/magic/control/silhouette-hold-change-blue.webp
+effects:
+  - icon: icons/magic/control/silhouette-hold-change-blue.webp
+    origin: Item.ydihdjn5jloe5ba7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: m4G5oiA0mRYvbJoB
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Invisible
+    _id: 5yOvbYYIyzzmhaFi
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - invisible
+    folder: null
+    _key: '!items.effects!ydihdjn5jloe5ba7.5yOvbYYIyzzmhaFi'
+  - icon: icons/magic/control/silhouette-hold-change-blue.webp
+    origin: Item.ydihdjn5jloe5ba7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: m4G5oiA0mRYvbJoB
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Invisible
+    _id: 5uJar0TXf8hW9SiA
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - invisible
+    folder: null
+    _key: '!items.effects!ydihdjn5jloe5ba7.5uJar0TXf8hW9SiA'
+folder: ULrFDUr9XIqKkKnP
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - obscurement
+      - shadow
+    rareSpell: true
+system:
+  description:
+    value: >-
+      <p>You transform into the target's shadow. You enter the creature's space,
+      and become invisible until the spell ends. Casting this spell and entering
+      the creature's space does not cause it to notice you, but you must make a
+      Dexterity (Stealth) or Dexterity (Deception) check as a reaction on the
+      affected creature’s turn to mimic their movements and remain unnoticed.
+      The creature and any creatures friendly to it within 5 feet of its
+      location oppose your Stealth check with their passive Perception scores,
+      but can take the Search action to look for you if they have reason to
+      suspect your presence. You make your checks to remain unnoticed with
+      advantage in dim light and automatically succeed in darkness or magical
+      darkness.&nbsp;&nbsp;</p><p>Anything you wear or carry is invisible as
+      long as it is on your person. As long as the spell lasts, you may
+      automatically move with the creature to remain in its space, and effects
+      that teleport the creature teleport you along with it.</p><p>The spell
+      ends if the creature moves in a way you cannot follow (such as flying or
+      swimming a considerable distance) or if you attack, cast a spell, leave
+      the creature's space, or become noticed by any non-friendly
+      creature.</p><p><strong>Varnham’s Friendly Shadow: </strong>Instead of
+      trying to hide from the creature whose shadow you replace, you can replace
+      the shadow of a willing creature. If you are noticed by an unfriendly
+      creature, the creature you are attached to can attempt a Deception check
+      against that creature’s Insight to help you remain hidden.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 3
+  school: ill
+  properties:
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: scrap of silk
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: skillCheck
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: ydihdjn5jloe5ba7
+_key: '!items!ydihdjn5jloe5ba7'

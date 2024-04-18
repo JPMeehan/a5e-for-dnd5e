@@ -3,7 +3,7 @@ type: equipment
 img: icons/equipment/chest/breastplate-purple.webp
 effects:
   - icon: icons/svg/aura.svg
-    origin: Item.ju0tgi3quxpp5h0r
+    origin: Item.IpWEiGPwDjfwQL5p
     flags:
       a5e:
         sort: 0
@@ -85,6 +85,7 @@ system:
     value: null
     conditions: ''
   strength: 15
+  stealth: false
   proficient: null
   activation:
     type: bonusAction

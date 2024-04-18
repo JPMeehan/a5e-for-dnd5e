@@ -5,11 +5,11 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       This heavy glass bowl weighs 3 pounds and can hold 3 gallons of water.
       While it is filled, you can use an action to summon a water elemental as
       if you had cast the conjure elemental spell. Once used, you must wait
-      until the next dawn to use it again. 
+      until the next dawn to use it again.
     chat: ''
     unidentified: ''
   source:
@@ -39,6 +39,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action

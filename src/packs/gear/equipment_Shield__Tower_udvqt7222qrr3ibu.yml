@@ -3,7 +3,7 @@ type: equipment
 img: icons/equipment/shield/heater-wooden-sword-green.webp
 effects:
   - icon: icons/equipment/shield/heater-wooden-sword-green.webp
-    origin: Item.udvqt7222qrr3ibu
+    origin: Item.3ICnRyBspDQFGI16
     flags:
       a5e:
         sort: 0
@@ -43,7 +43,7 @@ effects:
     folder: null
     _key: '!items.effects!udvqt7222qrr3ibu.lErp8auiYKrtHWMA'
   - icon: icons/equipment/shield/heater-wooden-sword-green.webp
-    origin: Item.udvqt7222qrr3ibu
+    origin: Item.3ICnRyBspDQFGI16
     flags:
       a5e:
         sort: 0
@@ -84,7 +84,7 @@ effects:
     folder: null
     _key: '!items.effects!udvqt7222qrr3ibu.WAJJPmYmySY3jVhd'
   - icon: icons/equipment/shield/heater-wooden-sword-green.webp
-    origin: Item.udvqt7222qrr3ibu
+    origin: Item.3ICnRyBspDQFGI16
     flags:
       a5e:
         sort: 0
@@ -171,6 +171,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: bonusAction

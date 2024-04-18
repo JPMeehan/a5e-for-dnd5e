@@ -1,0 +1,127 @@
+name: Trailblaze
+type: spell
+img: icons/environment/wilderness/terrain-forest-gray.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Ranger class</em></p>
+
+      <p>You cut a path for others to follow, easing the journey for those who
+      come after you.</p>
+
+      <p>Until the spell ends, you leave a magically-cleared trail behind you.
+      While creating the trail neither you nor your companions can use the Cover
+      Tracks activity. The trail must follow a single route; if you backtrack or
+      cross over the path cleared by this spell before the spell ends, its
+      effect is suppressed until you resume travel from its farthest
+      tip.&nbsp;&nbsp;</p>
+
+      <p>The magically cleared trail is 10 feet wide and made from packed soil,
+      and it lasts indefinitely. Non-magical vegetation and hazards are cleared
+      from the path. Subtle warding magic automatically disarms and dispels
+      natural hazards with a save DC less than your spell save DC.&nbsp;</p>
+
+      <p>Those who follow the trail cannot become lost except due to spell
+      effects of 2nd-level and stronger. They also gain an expertise die on
+      Survival checks made while journeying along the trail.&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/environment/wilderness/terrain-forest-gray.webp
+    origin: Item.g6a2e7a15mkh6ua6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: YPuGT8vnY7FEV1S0
+        duration:
+          unit: minutes
+    transfer: false
+    name: Trailblaze
+    _id: ascvCcvSkY45ECJK
+    changes:
+      - key: system.skills.sur.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 1440
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!g6a2e7a15mkh6ua6.ascvCcvSkY45ECJK'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - movement
+      - protection
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: g6a2e7a15mkh6ua6
+_key: '!items!g6a2e7a15mkh6ua6'

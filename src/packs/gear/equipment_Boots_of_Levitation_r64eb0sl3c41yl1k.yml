@@ -5,9 +5,9 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       While wearing these boots, up to 3 times between long rests you can use an
-      action to cast levitate on yourself. 
+      action to cast levitate on yourself.
     chat: ''
     unidentified: ''
   source:
@@ -37,6 +37,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action

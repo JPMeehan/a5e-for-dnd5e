@@ -110,6 +110,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation: {}
   duration: {}
@@ -150,7 +151,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/sundries/books/book-symbol-canterbury-cross.webp
-    origin: Item.v1xovseoolkyfkiy
+    origin: Item.pbr0M6kBlQ6ixpcf
     flags:
       a5e:
         sort: 0
@@ -183,7 +184,7 @@ effects:
     folder: null
     _key: '!items.effects!v1xovseoolkyfkiy.kajsgatdosDF0cBo'
   - icon: icons/sundries/books/book-symbol-canterbury-cross.webp
-    origin: Item.v1xovseoolkyfkiy
+    origin: Item.pbr0M6kBlQ6ixpcf
     flags:
       a5e:
         sort: 0

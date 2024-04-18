@@ -3,7 +3,7 @@ type: equipment
 img: icons/sundries/lights/torch-brown-lit.webp
 effects:
   - icon: icons/sundries/lights/torch-brown-lit.webp
-    origin: Item.7tw73cwd1j8zf3g5
+    origin: Item.k1IY0JaNYdpzk5jo
     flags:
       a5e:
         sort: 0
@@ -78,6 +78,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action

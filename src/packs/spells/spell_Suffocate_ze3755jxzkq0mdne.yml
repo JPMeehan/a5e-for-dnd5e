@@ -1,0 +1,113 @@
+folder: 3HQE3FN5vUCIygDu
+name: Suffocate
+type: spell
+img: icons/magic/water/orb-ice-opaque.webp
+system:
+  description:
+    value: >-
+      <p>You create a swirling bubble of air around the target&rsquo;s head,
+      denying it the ability to speak or take a breath. While under the effect
+      of the spell, a creature cannot spend any exertion points or cast spells
+      with voiced components. At the start of each of the creature&rsquo;s
+      turns, it takes 3d8 psychic damage from the pain, falling unconscious and
+      beginning to suffocate if it reaches 0 hp. At the end of each of its
+      turns, it can repeat the saving throw, ending the effect on a successful
+      saving throw.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 4
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d8
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/orb-ice-opaque.webp
+    origin: Item.ze3755jxzkq0mdne
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 977eB9k6pn5eAopV
+        duration:
+          unit: minutes
+    transfer: false
+    name: Bubble of Air
+    _id: o53FydgroSEoqJJz
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Cannot spend any exertion points or cast spells with voiced
+      components.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ze3755jxzkq0mdne.o53FydgroSEoqJJz'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - air
+      - arcane
+    rareSpell: false
+_id: ze3755jxzkq0mdne
+_key: '!items!ze3755jxzkq0mdne'

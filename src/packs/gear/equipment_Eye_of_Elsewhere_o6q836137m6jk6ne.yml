@@ -92,6 +92,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action
@@ -135,7 +136,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/commodities/biological/eye-red-pink.webp
-    origin: Item.o6q836137m6jk6ne
+    origin: Item.GXZ51w49BwzEI5TN
     flags:
       a5e:
         sort: 0
@@ -179,7 +180,7 @@ effects:
     folder: null
     _key: '!items.effects!o6q836137m6jk6ne.yQMpGqTG1SFoM5SS'
   - icon: icons/commodities/biological/eye-red-pink.webp
-    origin: Item.o6q836137m6jk6ne
+    origin: Item.GXZ51w49BwzEI5TN
     flags:
       a5e:
         sort: 0

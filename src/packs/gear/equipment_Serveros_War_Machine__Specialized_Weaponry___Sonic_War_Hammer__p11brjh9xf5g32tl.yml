@@ -279,6 +279,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: day
@@ -321,7 +322,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/environment/creatures/golem-stone-purple.webp
-    origin: Item.p11brjh9xf5g32tl
+    origin: Item.gpGC0N11rjSwehtA
     flags:
       a5e:
         sort: 0

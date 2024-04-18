@@ -1,0 +1,116 @@
+name: Keep Them Busy
+type: spell
+img: icons/magic/movement/chevrons-down-yellow.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:&nbsp;</strong>Marshal class</em></p>
+
+      <p>You can instruct your allies to hamper your enemies.&nbsp;While this
+      spell is active, whenever an ally affected by
+      your&nbsp;@UUID[Compendium.a5e.a5e-class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence} feature hits a creature with an attack, that creature&rsquo;s
+      speeds are reduced by 5 feet until the end of its next turn.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/movement/chevrons-down-yellow.webp
+    origin: Item.assxcej9n2hwxjhl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: bVhdG4rPZ3ZVP2R2
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Reduce Speed
+    _id: v3BqgcbZNfaXeXcS
+    changes:
+      - key: flags.a5e.effects.movement.allDistances
+        value: '5'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!assxcej9n2hwxjhl.v3BqgcbZNfaXeXcS'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - divine
+      - movement
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: assxcej9n2hwxjhl
+_key: '!items!assxcej9n2hwxjhl'

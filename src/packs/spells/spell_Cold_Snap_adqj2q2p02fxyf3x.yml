@@ -1,0 +1,120 @@
+folder: 7JSQOMqQquD3x5jj
+name: Cold Snap
+type: spell
+img: icons/magic/death/skull-humanoid-worn-teal.webp
+system:
+  description:
+    value: >-
+      <p>You decrease the temperature of the air around you, down from hot
+      temperatures to comfortable temperatures, or to extreme cold. If you
+      create extreme cold, all creatures other than you who start their turn in
+      the area or who enter it for the first time in their turn must make a
+      Constitution saving throw, taking 3d6 <em>cold</em> damage and 1 level of
+      <em>fatigue</em> on a failure, or half damage and no <em>fatigue</em> on a
+      success. A creature can only suffer 2 ranks of <em>fatigue</em> from this
+      spell. If a creature reaches the <em>doomed</em> condition due to this
+      fatigue, it will die of hypothermia unless treated or dealt <em>fire</em>
+      damage.<br>As an action, you can raise or lower the temperature from
+      comfortable to extreme cold.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> The spell&rsquo;s area
+      increases by 10 feet for every slot level above 5th.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/death/skull-humanoid-worn-teal.webp
+    origin: Item.adqj2q2p02fxyf3x
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Fatigue
+    _id: SHBSBjdikHidgss6
+    changes:
+      - key: system.attributes.fatigue
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!adqj2q2p02fxyf3x.SHBSBjdikHidgss6'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - cold
+      - nature
+      - protection
+      - weather
+    rareSpell: false
+_id: adqj2q2p02fxyf3x
+_key: '!items!adqj2q2p02fxyf3x'

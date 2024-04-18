@@ -1,0 +1,66 @@
+folder: Czqb9fe3C11A0mge
+name: Balm of the Redeemed
+type: feat
+img: icons/magic/holy/angel-wings-gray.webp
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>You have a rather different idea of what constitutes
+      &ldquo;hopeless&rdquo; or &ldquo;past help&rdquo; than most people do.
+      Once per long rest you may either remove the Doomed condition from a
+      creature with a touch or cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.0k5zymq9q95l8jwa]{Revivify}
+      with no need for material components.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: zdo8okzd3zgobkzv
+_key: '!items!zdo8okzd3zgobkzv'

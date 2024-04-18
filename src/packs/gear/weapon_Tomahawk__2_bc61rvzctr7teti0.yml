@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/axes/shortaxe-tribal.webp
 effects:
   - icon: icons/weapons/axes/shortaxe-tribal.webp
-    origin: Item.tAF2pPReUpueHsKO
+    origin: Item.jVftAQ54wEcLnmNs
     flags:
       a5e:
         sort: 0
@@ -38,9 +38,6 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Breaker (Wood), Defensive (Light), Dual-Wielding, Simple, Thrown
-      (20/60)</em></p>
-
       <p>A tomahawk uses the statistics of a
       @UUID[Compendium.a5e.a5e-adventuring-gear.Item.h7r1ogzu9fairy71]{Handaxe}.</p><hr><p><b>Breaker:</b>
       This weapon deals double damage to unattended objects, such as doors and

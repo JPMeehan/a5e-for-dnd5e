@@ -221,6 +221,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation: {}
   duration: {}
@@ -261,7 +262,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/creatures/birds/corvid-call-sound-blue.webp
-    origin: Item.m1xt8s5gj83d5vlf
+    origin: Item.8kibo4fpjKrNY7ti
     flags:
       a5e:
         sort: 0
@@ -289,7 +290,7 @@ effects:
     folder: null
     _key: '!items.effects!m1xt8s5gj83d5vlf.fajFaYvVpOS59orv'
   - icon: icons/creatures/birds/corvid-call-sound-blue.webp
-    origin: Item.m1xt8s5gj83d5vlf
+    origin: Item.8kibo4fpjKrNY7ti
     flags:
       a5e:
         sort: 0
@@ -322,7 +323,7 @@ effects:
     folder: null
     _key: '!items.effects!m1xt8s5gj83d5vlf.rGrVRN2PqFeJ8Og5'
   - icon: icons/creatures/birds/corvid-call-sound-blue.webp
-    origin: Item.m1xt8s5gj83d5vlf
+    origin: Item.8kibo4fpjKrNY7ti
     flags:
       a5e:
         sort: 0

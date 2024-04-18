@@ -29,7 +29,7 @@ system:
     charged: true
 effects:
   - icon: icons/environment/wilderness/cave-entrance-mountain-blue.webp
-    origin: Item.ez5ygqhw0sjn4fye
+    origin: Item.Ja47RahTXa2c5db2
     flags:
       a5e:
         sort: 0
@@ -39,7 +39,7 @@ effects:
     _id: 2jBg8Uy32QAfHduu
     changes:
       - key: system.skills.sur.proficient
-        value: 'true'
+        value: '1'
         mode: 6
         priority: null
     disabled: false

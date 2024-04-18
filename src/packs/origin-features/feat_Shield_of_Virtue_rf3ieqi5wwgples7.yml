@@ -1,0 +1,62 @@
+name: Shield of Virtue
+type: feat
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>Your pure soul protects you when it counts. You may spend your
+      inspiration to succeed on a failed saving throw instead.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+img: icons/magic/holy/saint-glass-portrait-halo.webp
+effects: []
+flags: {}
+folder: Czqb9fe3C11A0mge
+_id: rf3ieqi5wwgples7
+_key: '!items!rf3ieqi5wwgples7'

@@ -1,0 +1,248 @@
+name: Unnerving Strike
+type: spell
+img: icons/magic/fire/dagger-rune-enchant-flame-purple.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Rogue class</em></p>
+
+      <p>You amplify your attack to wound not just the target&rsquo;s body, but
+      its mind as well.</p>
+
+      <p>When you deal
+      @UUID[Compendium.a5e.a5e-class-features.Item.4727pnvz5nwn3h23]{Sneak
+      Attack} damage with a melee attack, you may cast this spell as part of the
+      Sneak Attack, transforming the bonus damage from your Sneak Attack into
+      psychic damage. In addition, depending on the spell slot level used to
+      cast this spell, you inflict one of the following sets of conditions on
+      the target until the end of its next turn:</p>
+
+      <p><strong>1st-level: </strong>Rattled.</p>
+
+      <p><strong>2nd-level:</strong> Frightened and rattled.</p>
+
+      <p><strong>3rd-level: </strong>Frightened, rattled, and the target gains a
+      level of strife (to a maximum of 3 levels). The strife persists until
+      removed normally.</p>
+
+      <p><strong>4th-level or higher: </strong>Paralyzed and and the target
+      gains a level of strife (to a maximum of 4 levels). The strife persists
+      until removed normally.</p>
+
+      <p>For the purposes of determining spells cast in a round, this spell
+      counts as having a casting time of one action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-purple.webp
+    origin: Item.qgsq60aib8scvnzg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dLNCBBf3ZUZcoVkv
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    _id: MdVQkUaQJEKNrZMY
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!qgsq60aib8scvnzg.MdVQkUaQJEKNrZMY'
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-purple.webp
+    origin: Item.qgsq60aib8scvnzg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dLNCBBf3ZUZcoVkv
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frightened and Rattled
+    _id: 8xKUSBmPCtn3ZBN6
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled","frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+      - frightened
+    folder: null
+    _key: '!items.effects!qgsq60aib8scvnzg.8xKUSBmPCtn3ZBN6'
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-purple.webp
+    origin: Item.qgsq60aib8scvnzg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dLNCBBf3ZUZcoVkv
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frightened, Rattled, and Strife
+    _id: zcZUH3bvncGW6QMu
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled","frightened"]'
+        mode: 0
+        priority: null
+      - key: system.attributes.strife
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Maximum of 3 levels of Strife. The strife persists until removed
+      normally.</p>
+    statuses:
+      - rattled
+      - frightened
+    folder: null
+    _key: '!items.effects!qgsq60aib8scvnzg.zcZUH3bvncGW6QMu'
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-purple.webp
+    origin: Item.qgsq60aib8scvnzg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dLNCBBf3ZUZcoVkv
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Paralyzed and Strife
+    _id: t1bg7MPvknXLtKk0
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["paralyzed"]'
+        mode: 0
+        priority: null
+      - key: system.attributes.strife
+        value: ''
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Maximum of 4 levels of Strife. The strife persists until removed
+      normally.</p>
+    statuses:
+      - paralyzed
+    folder: null
+    _key: '!items.effects!qgsq60aib8scvnzg.t1bg7MPvknXLtKk0'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - weaponry
+      - fear
+      - psychic
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: qgsq60aib8scvnzg
+_key: '!items!qgsq60aib8scvnzg'

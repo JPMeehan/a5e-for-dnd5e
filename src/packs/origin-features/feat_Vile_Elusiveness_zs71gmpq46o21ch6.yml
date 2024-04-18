@@ -1,0 +1,96 @@
+name: Vile Elusiveness
+type: feat
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>The extraplanar forces of darkness recognize you as one of their own
+      and will aid you in your misdeeds. You may spend inspiration to gain
+      advantage on all checks made to evade the consequences of your actions for
+      an hour. For example, you may gain advantage on an Acrobatics or Athletics
+      check to evade pursuing authorities, a Deception check to convince someone
+      that you were not involved (or pin your misdeeds on someone else), an
+      Investigation check to clean up evidence, and so on.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+img: icons/magic/death/skull-weapon-staff-glow-pink.webp
+effects:
+  - icon: icons/magic/death/skull-weapon-staff-glow-pink.webp
+    origin: Item.c4i8jeU5oSisrdE0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FLp8ksZkRgWJ5kTP
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Vile Elusiveness
+    _id: C60go5vVBEqBXZQw
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on all checks made to evade the consequences of your
+      actions.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!zs71gmpq46o21ch6.C60go5vVBEqBXZQw'
+flags: {}
+folder: Czqb9fe3C11A0mge
+_id: zs71gmpq46o21ch6
+_key: '!items!zs71gmpq46o21ch6'

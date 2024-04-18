@@ -1,0 +1,682 @@
+name: Lavenia’s Concentrated Hex (Warlock)
+type: spell
+img: icons/magic/unholy/barrier-fire-pink.webp
+system:
+  description:
+    value: >-
+      <p>You place a lesser curse on a creature you can see within range
+      <strong>(no save)</strong>. You also gain this as an additional curse
+      option:&nbsp;<br>You choose one effect from the
+      following:</p><ul><li><p>The target is rattled.</p></li><li><p>The
+      target’s speed is reduced by 5 feet.</p></li><li><p>When you deal damage
+      against the target, it takes an additional 1d4 necrotic
+      damage.</p></li><li><p>Each time the target fails a saving throw it falls
+      prone and breaks a nail, taking 1 necrotic damage.</p></li></ul><p>At the
+      Narrator’s discretion you may create a different curse effect with this
+      spell so long as it is weaker than the options above.</p><p>A creature
+      already under a curse, such as your or another creature’s Diabolist Curse
+      or another instance of this spell, cannot be targeted by this
+      spell.</p><p><strong>Special:</strong> Warlocks who know this spell can
+      cast it as a ritual even if they are otherwise unable to cast rituals.
+      When you cast this spell as a ritual, you can instead target a creature
+      you’ve seen within the past 24 hours, as long as they are on the same
+      plane as you. To target this creature, you must also provide a material
+      component strongly associated with that creature—such as a fingernail
+      clipping, lock of hair, or article of clothing—which this spell consumes.
+      When cast as a ritual, this spell instead has a duration of 1 hour (no
+      concentration), and the effects can be as severe as the poisoned condition
+      or indigestion. At the Narrator’s discretion, you can create even more
+      powerful curse effects or longer durations with the use of rare or
+      expensive components, as long as their effects are less than the power of
+      <em>bestow curse</em>.</p><hr class="a5e-rule
+      u-my-md"><p><strong><em>Lavenia’s Concentrated Hex</em></strong>: The
+      spell’s duration is concentration (1 hour); if the target falls
+      unconscious before the duration ends, you can use a bonus action to select
+      a new target within range. You also gain this as an additional curse
+      option:&nbsp;</p><ul><li><p>You deal an extra 1d6 necrotic damage against
+      the target when you deal damage against the target. Also, choose an
+      ability; the target has disadvantage on checks made with that
+      ability</p></li></ul><p></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: puppy-dog tail
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+        duration:
+          unit: hours
+    transfer: false
+    name: Rattled
+    _id: 2ZvAToQbiEilyNbl
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.2ZvAToQbiEilyNbl'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+        duration:
+          unit: hours
+    transfer: false
+    name: Reduce Speed
+    _id: n9fW7lFgpzY6K6aj
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '5'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.n9fW7lFgpzY6K6aj'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Strength Checks
+    _id: mz43KJqDii2Iz56B
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.mz43KJqDii2Iz56B'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Dexterity Checks
+    _id: e16K82pMP51UWyEO
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.dex
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.e16K82pMP51UWyEO'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Constitution Checks
+    _id: SeDrOvAWHjGONzX7
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.con
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.SeDrOvAWHjGONzX7'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Intelligence Checks
+    _id: 9lEOLXaCoVtZRVjJ
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.int
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.9lEOLXaCoVtZRVjJ'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Wisdom Checks
+    _id: ia6EYUx0T0GfAkWO
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.wis
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.ia6EYUx0T0GfAkWO'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Charisma Checks
+    _id: mEyoY2s0P4s61eIy
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.cha
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.mEyoY2s0P4s61eIy'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qnM6Spk3Vhqv1IN1
+    transfer: false
+    name: Prone
+    _id: kJoheHGJn3rw8VPl
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.kJoheHGJn3rw8VPl'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Rattled
+    _id: jcbPpYsJGkRLkx2L
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.jcbPpYsJGkRLkx2L'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Reduce Speed
+    _id: lPDGkxrMPAclaaxc
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '5'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.lPDGkxrMPAclaaxc'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Strength Checks
+    _id: mE6fOMue8V7Ngo8n
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.mE6fOMue8V7Ngo8n'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+    transfer: false
+    name: Prone
+    _id: FRGQsqpG5QAHWPxd
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.FRGQsqpG5QAHWPxd'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Dexterity Checks
+    _id: kd8A6fTf3FFRM7RO
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.dex
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.kd8A6fTf3FFRM7RO'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Constitution Checks
+    _id: BabyV2Oi2pCAwQVm
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.con
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.BabyV2Oi2pCAwQVm'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Intelligence Checks
+    _id: DsK0aBXeQXqSygDc
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.int
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.DsK0aBXeQXqSygDc'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Wisdom Checks
+    _id: nztC8d0EdP2A0oLw
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.wis
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.nztC8d0EdP2A0oLw'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Disadvantage on Charisma Checks
+    _id: Stce1NaGeAkfdWWR
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.cha
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.Stce1NaGeAkfdWWR'
+  - icon: icons/magic/unholy/barrier-fire-pink.webp
+    origin: Item.n4lb1kxbmascpg44
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nUxSvKcvReJ2qyoe
+        duration:
+          unit: hours
+    transfer: false
+    name: Poisoned
+    _id: y1uyGHjGSvVJuDX3
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    folder: null
+    _key: '!items.effects!n4lb1kxbmascpg44.y1uyGHjGSvVJuDX3'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - divine
+      - necrotic
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: n4lb1kxbmascpg44
+_key: '!items!n4lb1kxbmascpg44'

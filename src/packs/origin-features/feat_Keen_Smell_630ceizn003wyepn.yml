@@ -20,34 +20,7 @@ system:
   recharge:
     value: null
     charged: true
-effects:
-  - icon: icons/creatures/mammals/rodent-rat-green.webp
-    origin: Item.630ceizn003wyepn
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Keen Smell
-    _id: bjtWeSdwvBKYUdUp
-    changes:
-      - key: system.skills.prc.proficient
-        value: 'true'
-        mode: 6
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!630ceizn003wyepn.bjtWeSdwvBKYUdUp'
+effects: []
 flags: {}
 _id: 630ceizn003wyepn
 _key: '!items!630ceizn003wyepn'

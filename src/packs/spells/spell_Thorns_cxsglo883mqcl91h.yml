@@ -1,0 +1,88 @@
+folder: KpVFJJxpHWw9kEfV
+name: Thorns
+type: spell
+img: icons/magic/nature/thorns-hand-glow-green.webp
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, sharp thorns sprout from the target&rsquo;s body.
+      A creature within 5 feet of the target that hits the target with a melee
+      attack takes 1d8 piercing damage.</p>
+
+      <p>The thorns can be used as an unarmed melee weapon, dealing 1d8+Str
+      damage on a hit.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> The duration increases to 1
+      hour when using a 4th level slot. The damage increases to 2d8 when using a
+      6th level slot. The duration increases to 8 hours when using an 8th-level
+      slot.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a thorn
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - plants
+      - transformation
+    rareSpell: false
+_id: cxsglo883mqcl91h
+_key: '!items!cxsglo883mqcl91h'

@@ -5,7 +5,7 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       This miniature skeleton holding a knife has been carved out of a human’s
       vertebrae. As an action, you can use the miniature knife to self-inflict
       2d4 damage that ignores all resistances and immunities. When you do so,
@@ -16,7 +16,7 @@ system:
       inanimate state. Alternatively, you can use an action to cover the
       skeleton in blood. When you do so, the skeleton rushes to the nearest lock
       within 10 feet and unlocks it (as per the spell knock) before dissolving
-      into red mist. 
+      into red mist.
     chat: ''
     unidentified: ''
   source:
@@ -46,6 +46,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: 9k4UVzCiMuqj62ea
 _id: p5i3f7pbvfg3wc42

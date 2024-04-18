@@ -3,7 +3,7 @@ type: equipment
 img: icons/equipment/feet/boots-pointed-cloth-green.webp
 effects:
   - icon: icons/equipment/feet/boots-pointed-cloth-green.webp
-    origin: Item.83tqcjoeqznxtq35
+    origin: Item.nsYySFvUkga4UiyG
     flags:
       a5e:
         sort: 0
@@ -33,10 +33,10 @@ effects:
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       These boots cause your steps to make no sound, no matter the material
       stepped upon. While wearing these boots, you gain advantage on Dexterity
-      (Stealth) checks to move silently. 
+      (Stealth) checks to move silently.
     chat: ''
     unidentified: ''
   source:
@@ -66,6 +66,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: 9k4UVzCiMuqj62ea
 _id: 83tqcjoeqznxtq35

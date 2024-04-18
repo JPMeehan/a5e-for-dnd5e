@@ -1,0 +1,67 @@
+name: Dogged Persistence
+type: feat
+img: icons/environment/settlement/palast.webp
+effects: []
+folder: Czqb9fe3C11A0mge
+flags: {}
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>Those who give up rarely change the world. You may spend inspiration to
+      do one of the following (no action required):</p><ul><li><p>Minimize the
+      damage you take from a single attack or other source (such as a fall,
+      spell, or environmental effect) this turn.</p></li><li><p>Treat a long
+      rest you take outside of a haven as if it had been taken inside a haven.
+      </p></li><li><p>Reroll an unsuccessful ability check, taking the new roll
+      if it is better.</p></li><li><p>Restore a spent hit die.</p></li></ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: tvxr78es6ti2nkg1
+_key: '!items!tvxr78es6ti2nkg1'

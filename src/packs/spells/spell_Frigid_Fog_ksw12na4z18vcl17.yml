@@ -1,0 +1,87 @@
+folder: YnFE57i6b3g8tOII
+name: Frigid Fog
+type: spell
+img: icons/magic/nature/tree-spirit-black.webp
+system:
+  description:
+    value: >-
+      <p>You create a heavily obscured area of freezing fog. The fog spreads
+      around corners and can be dispersed by a moderate wind (at least 10 miles
+      per hour). Creatures that enter the area or end their turns within it take
+      3d6 cold damage unless they succeed on a successful Constitution saving
+      throw.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> The spell&rsquo;s area
+      increases by 5 feet and the cold damage increases by 1d6 for every slot
+      level above 3rd.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - cold
+      - obscurement
+      - weather
+    rareSpell: false
+_id: ksw12na4z18vcl17
+_key: '!items!ksw12na4z18vcl17'

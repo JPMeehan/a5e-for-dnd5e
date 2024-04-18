@@ -1,0 +1,249 @@
+name: Vengeful Strike
+type: spell
+img: icons/magic/fire/dagger-rune-enchant-flame-green.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Rogue class</em></p>
+
+      <p>You channel fell energies into your weapon as you strike, cursing the
+      wound you create.</p>
+
+      <p>When you deal
+      @UUID[Compendium.a5e.a5e-class-features.Item.4727pnvz5nwn3h23]{Sneak
+      Attack} damage with a melee attack, you may cast this spell as part of the
+      Sneak Attack, transforming the bonus damage from your Sneak Attack into
+      necrotic damage. In addition, depending on the spell slot level used to
+      cast this spell, you inflict one of the following sets of conditions on
+      the target until the end of its next turn:</p>
+
+      <p><strong>1st-level: </strong>Poisoned.</p>
+
+      <p><strong>2nd-level:</strong> Poisoned and incapacitated.</p>
+
+      <p><strong>3rd-level: </strong>Poisoned, incapacitated, and the creature
+      gains a level of fatigue (up to a maximum of 3). The fatigue persists
+      until removed normally.</p>
+
+      <p><strong>4th-level or higher: </strong>Poisoned, incapacitated, and the
+      creature gains a level of fatigue (up to a maximum of 4). The fatigue must
+      be removed normally.</p>
+
+      <p>For the purposes of determining spells cast in a round, this spell
+      counts as having a casting time of one action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-green.webp
+    origin: Item.i9edek1xzdp4zay9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: pMaeknamlVnnou7G
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Poisoned
+    _id: kAqWv6hoAYMyac8c
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    folder: null
+    _key: '!items.effects!i9edek1xzdp4zay9.kAqWv6hoAYMyac8c'
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-green.webp
+    origin: Item.i9edek1xzdp4zay9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: pMaeknamlVnnou7G
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Poisoned and Incapacitated
+    _id: AWZjbktmspRzUMk8
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned","incapacitated"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+      - incapacitated
+    folder: null
+    _key: '!items.effects!i9edek1xzdp4zay9.AWZjbktmspRzUMk8'
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-green.webp
+    origin: Item.i9edek1xzdp4zay9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: pMaeknamlVnnou7G
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Poisoned, Incapacitated, and Fatigue (3rd-level Spell)
+    _id: LY3thCfJJPjyXjBS
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned","incapacitated"]'
+        mode: 0
+        priority: null
+      - key: system.attributes.fatigue
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Maximum of 3 levels of Fatigue. The fatigue persists until removed
+      normally.</p>
+    statuses:
+      - poisoned
+      - incapacitated
+    folder: null
+    _key: '!items.effects!i9edek1xzdp4zay9.LY3thCfJJPjyXjBS'
+  - icon: icons/magic/fire/dagger-rune-enchant-flame-green.webp
+    origin: Item.i9edek1xzdp4zay9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: pMaeknamlVnnou7G
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Poisoned, Incapacitated, and Fatigue (4th-level Spell)
+    _id: ucBMYQ4AtlcdQ3rF
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned","incapacitated"]'
+        mode: 0
+        priority: null
+      - key: system.attributes.fatigue
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Maximum of 4 levels of Fatigue. The fatigue persists until removed
+      normally.</p>
+    statuses:
+      - poisoned
+      - incapacitated
+    folder: null
+    _key: '!items.effects!i9edek1xzdp4zay9.ucBMYQ4AtlcdQ3rF'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - divine
+      - weaponry
+      - necrotic
+      - arcane
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: i9edek1xzdp4zay9
+_key: '!items!i9edek1xzdp4zay9'

@@ -1,0 +1,120 @@
+folder: riV8qst3SvT2320y
+name: Planar Impact
+type: spell
+img: icons/magic/symbols/runes-star-blue.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Adept class</em></p>
+
+      <p>You infuse your next strike with potent planar energies to punish your
+      enemies and steal their sight. The next time you hit with a melee weapon
+      attack while the spell is active, it deals additional radiant or necrotic
+      damage (your choice) equal to your Martial Arts die. The target must also
+      make a Constitution save against your spell save DC or be blinded until
+      the end of your next turn. The spell then ends.</p>
+
+      <p><strong>Cast at Higher Levels:</strong> The spell deals an additional
+      Martial Arts die of damage for each slot level above 1st.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/symbols/runes-star-blue.webp
+    origin: Item.mq7suxst0efamjpj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: M5fquJDpRDpxIWFE
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: jMiKlN1fxodyQSCf
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!mq7suxst0efamjpj.jMiKlN1fxodyQSCf'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - attack
+      - divine
+      - radiant
+      - multiclass
+    rareSpell: false
+_id: mq7suxst0efamjpj
+_key: '!items!mq7suxst0efamjpj'

@@ -5,7 +5,7 @@ effects: []
 flags: {}
 system:
   description:
-    value: >
+    value: >-
       Step into the room and make a grand entrance! This top hat has embroidered
       figurines of trumpet players in full regalia. By speaking a command word,
       you can cause the figures to magically and loudly herald your arrival by
@@ -17,7 +17,7 @@ system:
 
       has heralded an entrance it can’t be used again for
 
-      10 minutes. 
+      10 minutes.
     chat: ''
     unidentified: ''
   source:
@@ -47,6 +47,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: 9k4UVzCiMuqj62ea
 _id: dw5ytwjd0dpq0sdh

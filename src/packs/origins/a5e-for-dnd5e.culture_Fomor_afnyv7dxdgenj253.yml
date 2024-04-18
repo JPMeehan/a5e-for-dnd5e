@@ -1,0 +1,134 @@
+folder: 7IoZEosPrje7wsrr
+name: Fomor
+type: a5e-for-dnd5e.culture
+img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 41">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>The fomorians (singular: fomor) are a subterranean kingdom of
+      half-giants who consider themselves the one true culture
+      of&nbsp;giantkind. They are known for surface raids, subterranean
+      territory disputes, and astounding underground marble
+      architecture&mdash;especially abandoned cities now infested with
+      aberrations. In what little territory they still control, fomorians live
+      in isolated city-states ruled by hereditary god-kings who promise the
+      people the glory of ages past.</p>
+
+      <p>At the end of the Golden Age of Giants, mortals began worshiping the
+      gods and stopped worshiping the elementals&mdash;and by extension the
+      giants who claimed to be their emissaries. The pro-giant nationalist
+      movement which became the fomorians, looking for a kingdom where they
+      could keep practicing things &ldquo;the way they are,&rdquo; sought to
+      establish a new empire in the Underland... But the denizens of the
+      Underland had different ideas. It was not long before the unified fomor
+      empire was smashed to bits. The city- states which remain are but a shred
+      of what their predecessors had hoped would have formed a great fomorian
+      tapestry.</p>
+
+      <p>The friendliness of fomor enclaves vary, and most could be called
+      insular at best. Some fomor city-states embody the most noble (even if
+      haughty and propagandized) traditions inherited from giantkind. Others are
+      openly xenophobic. Given the proximity and conflict with the aberrations
+      that live in the Underland, some scholars hypothesize that the most
+      vicious fomor groups are those under the influence of (or co-opted
+      entirely by) aboleths and their ilk.</p>
+
+      <p>Both through their own inclination and through aberrant influences,
+      fomorians practice a type of alchemy that mutates their body and enhances
+      their strengths&mdash;most especially a magical capability called
+      &ldquo;the evil eye.&rdquo;</p>
+
+      <p>Fomorians who would consider joining an adventuring party might
+      include: raiders looking for treasure, sages investigating changes to the
+      surface world, seekers on a spiritual quest, diplomats, and survivors of
+      attacks from alien invaders.</p>
+
+      <div class="page" title="Page 41">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <h3>Fomor Traits</h3>
+
+      <p>Characters raised in the fomor culture share a variety of traits in
+      common with one another.</p>
+
+      <p><strong>Ancient Heritor.</strong> You are proficient in History, plus
+      one History specialty of your choice.</p>
+
+      <p>Improved Darkvision. Prolonged exposure to sheer darkness has improved
+      your capacity to see without light. If you do not already have darkvision,
+      you gain darkvision out to 60 feet. If you already have darkvision, the
+      distance improves by 60 feet.</p>
+
+      <p><strong>Magic of the Evil Eye.</strong> You know the cantrip chill
+      touch. Once you reach 3rd level, you can cast bane once per long rest. At
+      5th level, you can cast mental grip once per long rest. You don&rsquo;t
+      need material components for these spells, and when casting them your
+      spellcasting ability is Intelligence, Wisdom, or Charisma (whichever is
+      highest).</p>
+
+      <p><strong>Shadow Giantcraft.</strong> You gain proficiency with both
+      poisoner&rsquo;s kit and smith&rsquo;s tools.</p>
+
+      <p><strong>Languages.</strong> You can speak, read, write, and sign
+      Common, Undercommon, and Giant.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  advancement:
+    - _id: CauwcrB7DSB3IaKq
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.mt10z2lm46q5icvj
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.wad2d4kkq6q7k9yu
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.g2hevdf9w8d1pn1f
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.tbald81d8j9fkbos
+    - _id: awiMuiLplmGyijEs
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:exotic:undercommon
+          - languages:standard:giant
+        choices:
+          pool:
+            - languages:*
+effects: []
+flags: {}
+_id: afnyv7dxdgenj253
+_key: '!items!afnyv7dxdgenj253'

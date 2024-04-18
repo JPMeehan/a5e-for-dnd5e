@@ -1,0 +1,163 @@
+folder: 7JSQOMqQquD3x5jj
+name: Wall of Lightning
+type: spell
+img: icons/magic/lightning/bolts-strike-salvo-blue.webp
+system:
+  description:
+    value: >-
+      <p>You create a wall of continuous vertical bolts of lightning. The wall
+      can rest on a solid surface or be free floating, and be in any orientation
+      of your choosing. The wall can be up to 60 feet long (it does not have to
+      be a straight line; sections of the wall can angle as long as they are
+      contiguous), 20 feet high, and 1 foot thick. The wall blocks sight, and
+      emits bright light out to 120 feet and dim light for an additional 120
+      feet in all directions.</p>
+
+      <p>When the wall appears, each creature in its area must make a Dexterity
+      saving throw, taking 4d8 lightning damage and being blinded for 1 minute
+      on a failed save; it takes half as much damage and is not blinded on a
+      successful save. A blinded creature makes a Constitution saving throw at
+      the end of each of its turns, ending the blindness on itself on a
+      success.</p>
+
+      <p>A creature takes 4d8 lightning damage if it ends its turn within 5 feet
+      of the wall. It also takes this damage the first time it enters the
+      wall&rsquo;s space on a round. A creature ending its turn within 5 feet of
+      the wall must make a Constitution saving throw or be blinded, as
+      above.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> The damage increases by 1d8 for
+      every slot level above 5th.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: heartwood from a lightning-struck tree
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d8
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/lightning/bolts-strike-salvo-blue.webp
+    origin: Item.o965ubffjwes35mo
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Nd3GCYQ3fIyIhodi
+        duration:
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: jzzZyc01JGi8w4Th
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!o965ubffjwes35mo.jzzZyc01JGi8w4Th'
+  - icon: icons/magic/lightning/bolts-strike-salvo-blue.webp
+    origin: Item.o965ubffjwes35mo
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ohUn5GS8vE0kvxMR
+        duration:
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: EOIWgDkhwvkhOkj4
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!o965ubffjwes35mo.EOIWgDkhwvkhOkj4'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - lightning
+    rareSpell: false
+_id: o965ubffjwes35mo
+_key: '!items!o965ubffjwes35mo'

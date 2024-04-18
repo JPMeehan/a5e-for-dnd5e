@@ -5,7 +5,13 @@ effects: []
 flags: {}
 system:
   description:
-    value: ' Expend a dose of curare as part of a melee weapon attack. On a hit, the target takes an additional 2d6 poison damage and must make a Constitution saving throw. On a failed save, the target is paralyzed for one minute. On a successful save it is slowed instead. In either case, the target may repeat the save at the end of each of its turns, ending the effect on a success.</p>'
+    value: >-
+      Expend a dose of curare as part of a melee weapon attack. On a hit, the
+      target takes an additional 2d6 poison damage and must make a Constitution
+      saving throw. On a failed save, the target is paralyzed for one minute. On
+      a successful save it is slowed instead. In either case, the target may
+      repeat the save at the end of each of its turns, ending the effect on a
+      success.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'

@@ -63,6 +63,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: minute
@@ -105,7 +106,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/sundries/books/book-open-brown.webp
-    origin: Item.3ofb4cx7v3is5gx5
+    origin: Item.5jdDBgpQAOHXKV1v
     flags:
       a5e:
         sort: 0
@@ -118,7 +119,7 @@ effects:
     _id: zXvJwsQeRv2gO21a
     changes:
       - key: system.skills.arc.proficient
-        value: 'true'
+        value: '1'
         mode: 6
         priority: null
       - key: system.skills.arc.expertiseDice

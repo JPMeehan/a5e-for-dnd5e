@@ -63,6 +63,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: minute
@@ -105,7 +106,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/sundries/books/book-open-brown.webp
-    origin: Item.53baq72xpot73pmn
+    origin: Item.BXJuMaRH67JJ5azB
     flags:
       a5e:
         sort: 0

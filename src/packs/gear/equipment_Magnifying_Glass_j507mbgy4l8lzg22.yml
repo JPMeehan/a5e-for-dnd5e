@@ -18,7 +18,7 @@ system:
     book: ''
     license: OGL 1.0a
   quantity: 1
-  weight: ''
+  weight: 0
   price:
     value: 25
     denomination: gp
@@ -41,6 +41,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
 folder: VRWG3xL5zF1ktOX6
 _id: j507mbgy4l8lzg22

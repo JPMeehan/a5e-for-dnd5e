@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/axes/shortaxe-engraved-green.webp
 effects:
   - icon: icons/weapons/axes/shortaxe-engraved-green.webp
-    origin: Item.h7r1ogzu9fairy71
+    origin: Item.n3goOQppabBdNrrX
     flags:
       a5e:
         sort: 0
@@ -38,15 +38,14 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Breaker (Wood), Defensive (Light), Dual-Wielding, Simple, Thrown
-      (20/60)</em></p><hr><p><b>Breaker:</b> This weapon deals double damage to
-      unattended objects, such as doors and walls. If this property only applies
-      to a specific type of material, such as wood, it is stated in parenthesis
-      after this property.</p><p><b>Defensive:</b> This weapon is designed to be
-      used with a shield of the stated degree or lighter (light, medium, or
-      heavy). When you make an attack with this weapon and are using a shield
-      designed for it, you can use a bonus action to either make an attack with
-      your shield or increase your Armor Class by 1 until the start of your next
+      <hr><p><b>Breaker:</b> This weapon deals double damage to unattended
+      objects, such as doors and walls. If this property only applies to a
+      specific type of material, such as wood, it is stated in parenthesis after
+      this property.</p><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
       turn.</p>
     chat: ''
     unidentified: ''

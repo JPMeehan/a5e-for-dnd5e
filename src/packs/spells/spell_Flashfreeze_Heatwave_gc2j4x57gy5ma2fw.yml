@@ -1,0 +1,121 @@
+folder: DMm8aLAHhpqUVDEv
+name: Flashfreeze Heatwave
+type: spell
+img: icons/magic/water/ice-crystal-white.webp
+system:
+  description:
+    value: >-
+      <p>Upon casting the spell, you instantly freeze the area, coating
+      everything in a layer of ice. Creatures in the area take 6d6 damage and
+      are restrained. Creatures that make their Constitution save take half
+      damage and are not restrained. The area becomes difficult terrain until
+      the beginning of your next turn.</p>
+
+      <p>On the beginning of your next turn, the area erupts with intense
+      flames, rapidly expanding the super chilled air. Creatures in the area
+      take 6d6 fire damage and are pushed 30 feet away from the center of the
+      sphere. Creatures that make their dexterity save take half damage and are
+      not pushed. If a pushed creature&rsquo;s movement is interrupted by a
+      solid object, the creature and object take 3d6 damage.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> Increase each instance of
+      damage by 1d6 for every slot level above 8th.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 8
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a steel bead previously heated white hot and rapidly cooled in ice
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 6d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/ice-crystal-white.webp
+    origin: Item.gc2j4x57gy5ma2fw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Gb5SqxcEzz6CNl5B
+    transfer: false
+    name: Restrained
+    _id: hwg5N40gboQlZPHG
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!gc2j4x57gy5ma2fw.hwg5N40gboQlZPHG'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - cold
+      - fire
+    rareSpell: false
+_id: gc2j4x57gy5ma2fw
+_key: '!items!gc2j4x57gy5ma2fw'

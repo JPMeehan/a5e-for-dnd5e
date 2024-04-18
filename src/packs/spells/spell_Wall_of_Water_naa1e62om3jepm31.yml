@@ -1,0 +1,92 @@
+folder: YnFE57i6b3g8tOII
+name: Wall of Water
+type: spell
+img: icons/magic/water/water-jet-wave-blue.webp
+system:
+  description:
+    value: >-
+      <p>A thin shimmering wall of water appears at a point you choose. The wall
+      is 1 foot thick and 10 feet high, and either 30 feet long or 20 feet in
+      diameter. The wall&rsquo;s space is difficult terrain.</p>
+
+      <p>Ranged weapon attacks that pass through the wall&rsquo;s space are made
+      at disadvantage. Fire damage is reduced by half if its line of effect
+      passes through the wall. If an effect that deals cold damage passes
+      through the wall, the wall freezes into opaque ice, creating light
+      obscurement (minimum of a 5-foot-square segment). Each 5-foot-square
+      segment has AC 13 and 10 hit points. If reduced to 0 hp, that segment of
+      the wall is destroyed.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a water droplet
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - nature
+      - protection
+      - terrain
+      - utility
+      - water
+    rareSpell: false
+_id: naa1e62om3jepm31
+_key: '!items!naa1e62om3jepm31'

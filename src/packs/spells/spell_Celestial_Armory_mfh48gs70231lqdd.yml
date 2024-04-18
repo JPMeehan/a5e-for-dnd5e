@@ -1,0 +1,94 @@
+name: Celestial Armory
+type: spell
+img: icons/weapons/swords/sword-gold-holy.webp
+system:
+  description:
+    value: >-
+      <p>You reach through a portal to a demiplane of infinite weaponry, and the
+      armaments you pull arc forth like shooting stars. When you cast this
+      spell, make a ranged spell attack against a creature within 30 feet. This
+      attack produces a melee weapon of your choice made of magical energy from
+      that dimension which hurtles at the target. On a hit, the target takes
+      force damage equal to 1d12 + your spellcasting ability modifier.</p>
+
+      <p>Until this spell ends, you can repeat this attack as a bonus action.
+      Each weapon produced is considered an artifact for the purpose of
+      bypassing various magical defenses. Weapons produced by this spell
+      disappear after hitting or missing their target.</p>
+
+      <p><strong>Cast At Higher Levels.</strong>&nbsp;If you cast this spell
+      using a spell slot of 6th-level or higher, the damage increases by 1d12
+      for each slot level above 5th.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d12
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d12 + @mod
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - divine
+      - force
+      - weaponry
+    rareSpell: false
+folder: 7JSQOMqQquD3x5jj
+_id: mfh48gs70231lqdd
+_key: '!items!mfh48gs70231lqdd'

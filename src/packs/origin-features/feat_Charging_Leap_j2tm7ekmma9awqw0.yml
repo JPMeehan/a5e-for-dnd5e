@@ -1,0 +1,67 @@
+name: Charging Leap
+type: feat
+img: icons/consumables/plants/lily-pad-leaf-stem.webp
+effects: []
+folder: OpVlQm2oviOU6e9w
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the Charge maneuver. Once between short or long rests, you can
+      use this trait to Charge without spending exertion. Whenever you use
+      Charge, you can opt to jump the distance you would travel instead of
+      walking, even if it is longer than your maximum long-jump distance.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: j2tm7ekmma9awqw0
+_key: '!items!j2tm7ekmma9awqw0'

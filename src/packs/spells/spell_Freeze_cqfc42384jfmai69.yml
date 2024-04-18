@@ -1,0 +1,144 @@
+folder: KpVFJJxpHWw9kEfV
+name: Freeze
+type: spell
+img: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+system:
+  description:
+    value: >-
+      <p>You create a burst of intense cold and ice at a point you can see. If
+      they fail their save, creature&rsquo;s in the area are grappled as they
+      are encrusted with ice. They are encrusted until they or another creature
+      within reach of it uses an action to make a Strength saving throw to break
+      away the ice.</p>
+
+      <p>If the area of the circle includes the ground, it is also difficult
+      terrain for 1 minute, or until it takes any fire damage. Creatures
+      entering the area or ending their turn there must make Acrobatics checks
+      against your spell save DC or fall prone, slipping on the ice.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a vial of pure melted water
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+    origin: Item.cqfc42384jfmai69
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 1RSkMJm2mx3vcxao
+    transfer: false
+    name: Grappled
+    _id: WscFwbGivAz8AcpS
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["grappled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - grappled
+    folder: null
+    _key: '!items.effects!cqfc42384jfmai69.WscFwbGivAz8AcpS'
+  - icon: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+    origin: Item.cqfc42384jfmai69
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: UXS68iF1b3YpFopd
+    transfer: false
+    name: Prone
+    _id: 5Zaeghw3PE9xyWSI
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!cqfc42384jfmai69.5Zaeghw3PE9xyWSI'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - cold
+      - arcane
+      - nature
+    rareSpell: false
+_id: cqfc42384jfmai69
+_key: '!items!cqfc42384jfmai69'

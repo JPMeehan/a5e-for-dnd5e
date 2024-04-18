@@ -1,0 +1,66 @@
+name: 'Dino-Rite: Hunter'
+type: feat
+img: icons/creatures/reptiles/lizard-iguana-green.webp
+effects: []
+folder: OpVlQm2oviOU6e9w
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Aggressive predators like dilophosaurus and deinonychus. You can use
+      this trait as a bonus action to move your speed toward an enemy you can
+      see or hear. Once you use this trait, you can’t do so again until you
+      complete a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: m7kt9xl1m24auqga
+_key: '!items!m7kt9xl1m24auqga'

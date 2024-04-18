@@ -1,0 +1,148 @@
+folder: 3HQE3FN5vUCIygDu
+name: System Shock
+type: spell
+img: icons/magic/lightning/bolt-strike-creature-pink.webp
+system:
+  description:
+    value: >-
+      <p>You strike a target you can see within range with an arc of lightning
+      that disrupts its nervous system. The target takes 4d8 lightning damage
+      and is paralyzed for 1 round. On a successful Constitution save it takes
+      half damage and is rattled rather than paralyzed.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 4
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a piece of lodestone
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d8
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/lightning/bolt-strike-creature-pink.webp
+    origin: Item.khlohmxjpspq59ug
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: K8MhU5us14h78Uzf
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Paralyzed
+    _id: DwUz53I4OuPKjXUm
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["paralyzed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - paralyzed
+    folder: null
+    _key: '!items.effects!khlohmxjpspq59ug.DwUz53I4OuPKjXUm'
+  - icon: icons/magic/lightning/bolt-strike-creature-pink.webp
+    origin: Item.khlohmxjpspq59ug
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: K8MhU5us14h78Uzf
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    _id: q60AeGOFSMyjXhLB
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!khlohmxjpspq59ug.q60AeGOFSMyjXhLB'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - lightning
+      - nature
+    rareSpell: false
+_id: khlohmxjpspq59ug
+_key: '!items!khlohmxjpspq59ug'

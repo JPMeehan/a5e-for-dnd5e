@@ -3,7 +3,7 @@ type: weapon
 img: icons/weapons/swords/scimitar-guard-wood.webp
 effects:
   - icon: icons/weapons/swords/scimitar-worn-blue.webp
-    origin: Item.nS9z7YrSsJLMAeNQ
+    origin: Item.JITt2k7y6NJg3JQw
     flags:
       a5e:
         sort: 0
@@ -38,8 +38,6 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Light), Dual-Wielding, Finesse</em></p>
-
       <p>A curved broadsword that uses the statistics of a
       @UUID[Compendium.a5e.a5e-adventuring-gear.Item.4wvjchmo31jngkyk]{Scimitar}.</p><hr><p><b>Defensive:</b>
       This weapon is designed to be used with a shield of the stated degree or

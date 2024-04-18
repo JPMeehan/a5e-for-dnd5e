@@ -1,0 +1,89 @@
+folder: 7JSQOMqQquD3x5jj
+name: Dawnlight
+type: spell
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+system:
+  description:
+    value: >-
+      <p>Piercing golden dawnlight radiates down on a spot you can see within
+      range, filling the area with bright light that counts as sunlight.</p>
+
+      <p>When a creature starts its turn in the area or enters the area for the
+      first time on its turn it takes 5d8 radiant damage.</p>
+
+      <p>As a bonus action, you can move the cylinder up to 60 feet to another
+      point within range if you are within 60 feet of it.</p>
+
+      <p><strong>Cast at Higher Levels.</strong> Increase the damage by 1d8 for
+      every slot level above 5th.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a sunstone inlaid in gold worth 100 gp
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - divine
+      - radiant
+    rareSpell: false
+_id: hxeure8g9hpghkk7
+_key: '!items!hxeure8g9hpghkk7'

@@ -172,6 +172,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: bonusAction
@@ -214,7 +215,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/weapons/staves/staff-metal-mask.webp
-    origin: Item.euuvbsr7xstuqazb
+    origin: Item.4IpKr1mRgL8g6ch4
     flags:
       a5e:
         sort: 0
@@ -242,7 +243,7 @@ effects:
     folder: null
     _key: '!items.effects!euuvbsr7xstuqazb.nXLhCQaLogFxiwn5'
   - icon: icons/weapons/staves/staff-metal-mask.webp
-    origin: Item.euuvbsr7xstuqazb
+    origin: Item.4IpKr1mRgL8g6ch4
     flags:
       a5e:
         sort: 0
@@ -271,7 +272,7 @@ effects:
     folder: null
     _key: '!items.effects!euuvbsr7xstuqazb.gT7zOifVuuhnHL3W'
   - icon: icons/weapons/staves/staff-metal-mask.webp
-    origin: Item.euuvbsr7xstuqazb
+    origin: Item.4IpKr1mRgL8g6ch4
     flags:
       a5e:
         sort: 0
@@ -304,83 +305,83 @@ effects:
         mode: 0
         priority: null
       - key: system.skills.acr.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.ani.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.arc.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.ath.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.cul.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.dec.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.eng.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.his.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.ins.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.itm.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.inv.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.med.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.nat.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.prc.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.prf.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.per.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.rel.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.slt.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.ste.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.sur.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.traits.damageVulnerabilities
@@ -414,7 +415,7 @@ effects:
     folder: null
     _key: '!items.effects!euuvbsr7xstuqazb.8kEg9FAs0ynQ8PYH'
   - icon: icons/weapons/staves/staff-metal-mask.webp
-    origin: Item.euuvbsr7xstuqazb
+    origin: Item.4IpKr1mRgL8g6ch4
     flags:
       a5e:
         sort: 0
@@ -475,83 +476,83 @@ effects:
         mode: 6
         priority: null
       - key: system.skills.acr.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.ani.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.arc.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.ath.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.cul.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.dec.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.eng.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.his.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.ins.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.itm.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.inv.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.med.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.nat.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.prc.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.prf.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.per.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.rel.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.slt.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.ste.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.skills.sur.proficient
-        value: 'false'
+        value: '0'
         mode: 6
         priority: null
       - key: system.traits.damageImmunities
@@ -581,7 +582,7 @@ effects:
     folder: null
     _key: '!items.effects!euuvbsr7xstuqazb.bHbWms3DRbcFhOVu'
   - icon: icons/weapons/staves/staff-metal-mask.webp
-    origin: Item.euuvbsr7xstuqazb
+    origin: Item.4IpKr1mRgL8g6ch4
     flags:
       a5e:
         sort: 0

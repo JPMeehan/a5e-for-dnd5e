@@ -1,0 +1,68 @@
+name: 'Dino-Rite: Sharp-Tooth'
+type: feat
+img: icons/creatures/reptiles/lizard-iguana-green.webp
+effects: []
+folder: OpVlQm2oviOU6e9w
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>Fanged tyrants like allosaurus and spinosaurus. You have a bite attack,
+      a natural weapon dealing 1d8 piercing damage. (Your bite uses Strength for
+      attack and damage rolls. This is not an unarmed strike.) Some adherents of
+      this path have a pronounced—even exaggerated—jawline or underbite.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: 1plxe50e2teipdqq
+_key: '!items!1plxe50e2teipdqq'

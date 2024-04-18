@@ -34,6 +34,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action
@@ -78,7 +79,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/consumables/potions/bottle-circular-corked-labeled-green.webp
-    origin: Item.jfy28wbd0wfqxb42
+    origin: Item.WCdZAYruYGlEyDZT
     flags:
       a5e:
         sort: 0

@@ -1,0 +1,82 @@
+name: Elemental Rebound
+type: spell
+img: icons/magic/fire/explosion-flame-blue.webp
+system:
+  description:
+    value: >-
+      <p>You redirect and reflect a portion of incoming elemental energy. You
+      gain resistance to the damage type that triggered this spell, which
+      applies against the incoming damage. The next time you deal damage before
+      this spell ends, one of your targets takes 1d6 damage of the triggering
+      type. Dealing this extra damage ends the spell early.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: Subject to acid, cold, fire, lightning, or thunder damage.
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: generic
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - nature
+      - protection
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: rr50rollubl7627a
+_key: '!items!rr50rollubl7627a'

@@ -1,0 +1,85 @@
+name: Quick Study
+type: spell
+img: icons/skills/trades/academics-book-study-purple.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Ranger class</em></p>
+
+      <p>You magically tap into the stored knowledge of scholars everywhere to
+      gain the information you need to prevail against the foes you face.</p>
+
+      <p>You must cast this spell when you finish a short rest. You may
+      immediately change your
+      @UUID[Compendium.a5e.a5e-class-features.Item.t7ujv9cc4us40fj9]{Studied
+      Adversary} choices as if you had just finished a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - nature
+      - knowledge
+      - multiclass
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: y00vc35wh2kwdoye
+_key: '!items!y00vc35wh2kwdoye'

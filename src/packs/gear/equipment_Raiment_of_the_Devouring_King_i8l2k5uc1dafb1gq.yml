@@ -183,6 +183,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation: {}
   duration: {}
@@ -223,7 +224,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/equipment/neck/pendant-rough-silver-red.webp
-    origin: Item.i8l2k5uc1dafb1gq
+    origin: Item.gRsneSS9AQg3KtJT
     flags:
       a5e:
         sort: 0

@@ -1,0 +1,89 @@
+folder: KpVFJJxpHWw9kEfV
+name: Whispering Wind
+type: spell
+img: icons/magic/air/wind-stream-blue-gray.webp
+system:
+  description:
+    value: >-
+      <p>You choose a point that is familiar to you within range and send a
+      message or sound, as long as there is a clear air path to the target. The
+      message travels as a gentle breeze, traveling between 1 and 6 miles per
+      hour.</p>
+
+      <p>The message you send can be up to twenty-five words, or otherwise be a
+      sound of up to six seconds. When the wind reaches its destination, it
+      delivers its message regardless if anyone is there to hear it. The words
+      cannot activate any magical effects or be used to supply any voiced
+      components.</p>
+
+      <p>Cast at Higher Levels. Increase the spell&rsquo;s range by 2 miles for
+      every slot level above 2nd.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 3
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - air
+      - arcane
+      - communication
+    rareSpell: false
+_id: men9jsj0d9d1u4x0
+_key: '!items!men9jsj0d9d1u4x0'

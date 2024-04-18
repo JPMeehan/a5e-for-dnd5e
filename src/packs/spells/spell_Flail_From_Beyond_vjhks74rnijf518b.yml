@@ -1,0 +1,218 @@
+name: Flail From Beyond
+type: spell
+img: icons/magic/death/projectile-skull-flaming-green.webp
+system:
+  description:
+    value: >-
+      <p>When you cast this spell, the skull you hold forms into the head of a
+      horrible flail shrouded in eldritch energies.&nbsp;As long as you hold the
+      flail, the light level within 10 feet of you drops one step.</p>
+
+      <p>Bright light becomes dim light, dim light becomes darkness, darkness
+      becomes magical darkness.</p>
+
+      <p>You can see through the darkness created by this spell as if it were
+      bright light.</p>
+
+      <hr class="a5e-rule u-my-md">
+
+      <p>The flail is a one-handed weapon with a reach of 15 feet, and the
+      <em>finesse</em>, <em>flamboyant</em>, and <em>parrying immunity</em>
+      properties.</p>
+
+      <p>You can attack with the flail using your spell attack bonus. On a hit,
+      the flail deals 1d8 + your spellcasting ability modifier
+      <em>bludgeoning</em> damage + 1d6 <em>necrotic</em> damage + 1d6
+      <em>psychic</em> damage.</p>
+
+      <p>In addition, while the flail persists, you can use an action to whirl
+      it over your head. The skull emits a horrible, unearthly shriek, forcing
+      all creatures within 30 feet to make a Charisma saving throw or be
+      frightened of you for 1 minute. At the end of each of its turns, a
+      frightened creature can repeat the saving throw, ending the effect on
+      itself on a success.</p>
+
+      <p>You can use an action to command the skull to bite a creature within 15
+      feet. Make a melee weapon attack against the creature. On a hit, the
+      creature takes the flail's damage and is grappled. You can use a bonus
+      action to pull a creature grappled this way 10 feet toward you. The escape
+      DC from the grapple is equal to your spell save DC.</p>
+
+      <p>Finally, you can use an action to end the spell and throw the flail at
+      a space within 40 feet. The flail detonates, dealing 2d6 <em>necrotic</em>
+      and 2d6 <em>psychic</em> damage to creatures in a 10-foot radius (no
+      save).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 4
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: the skull of a humanoid
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 40
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - necrotic
+      - - 2d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/death/projectile-skull-flaming-green.webp
+    origin: Item.vjhks74rnijf518b
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: NKePrV4GBUVVsO6r
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Flamboyant
+    _id: UT9B4cu7E2R7HhQA
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.itm
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.prf
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!vjhks74rnijf518b.UT9B4cu7E2R7HhQA'
+  - icon: icons/magic/death/projectile-skull-flaming-green.webp
+    origin: Item.vjhks74rnijf518b
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: i4NUisRkAOwIWJtZ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Frightened
+    _id: 5yI2IBvHYhSFI90g
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!vjhks74rnijf518b.5yI2IBvHYhSFI90g'
+  - icon: icons/magic/death/projectile-skull-flaming-green.webp
+    origin: Item.vjhks74rnijf518b
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: c4B5g6YkbGwbAGZ1
+    transfer: false
+    name: Grappled
+    _id: LRs7l81317XB2N5n
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["grappled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - grappled
+    folder: null
+    _key: '!items.effects!vjhks74rnijf518b.LRs7l81317XB2N5n'
+flags:
+  a5e:
+    placeTemplate: false
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - necrotic
+      - weaponry
+      - psychic
+    rareSpell: false
+folder: 3HQE3FN5vUCIygDu
+_id: vjhks74rnijf518b
+_key: '!items!vjhks74rnijf518b'

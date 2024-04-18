@@ -160,6 +160,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation: {}
   duration: {}
@@ -200,7 +201,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/commodities/cloth/cloth-bolt-grey.webp
-    origin: Item.slhl0m7khkrf6zyy
+    origin: Item.sWXitGUvnKebJowW
     flags:
       a5e:
         sort: 0

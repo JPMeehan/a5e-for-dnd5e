@@ -1,0 +1,117 @@
+name: Smoking Weapon
+type: spell
+img: icons/skills/melee/strike-weapons-orange.webp
+system:
+  description:
+    value: >-
+      <p>You imbue your weapon with smoldering fury, searing your foes and
+      hiding behind a veil of soot.</p>
+
+      <p>As part of the action to cast this spell, make an attack with your
+      melee weapon. If you hit with the weapon attack it deals normal weapon
+      damage, plus additional 1d6 fire damage and you are lightly obscured by
+      smoke until the beginning of your next turn.</p>
+
+      <p>At 5th level, the target takes an additional 2d6 fire damage on a hit.
+      This increases to 3d6 at level 11 and 4d6 at level 17.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a melee weapon
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/melee/strike-weapons-orange.webp
+    origin: Item.yp1ihjdlz89lr56w
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: tcYNxDN78uzh191Q
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Lightly Obscured
+    _id: 4Y60cAw4Ywa0e6Zc
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!yp1ihjdlz89lr56w.4Y60cAw4Ywa0e6Zc'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - fire
+      - weaponry
+    rareSpell: false
+folder: Tw5cqPbIxtfMfhDz
+_id: yp1ihjdlz89lr56w
+_key: '!items!yp1ihjdlz89lr56w'

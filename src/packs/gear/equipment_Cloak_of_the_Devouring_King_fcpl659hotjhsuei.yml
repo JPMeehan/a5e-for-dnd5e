@@ -65,6 +65,7 @@ system:
     value: null
     conditions: ''
   strength: 0
+  stealth: false
   proficient: null
   activation:
     type: action
@@ -107,7 +108,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/commodities/biological/wing-green.webp
-    origin: Item.fcpl659hotjhsuei
+    origin: Item.krVMRmSKLNA1Jypo
     flags:
       a5e:
         sort: 0

@@ -1,0 +1,318 @@
+name: Bestow Lesser Curse
+type: spell
+img: icons/magic/unholy/hand-marked-pink.webp
+system:
+  description:
+    value: >-
+      <p>You place a lesser curse on a creature you can see within range
+      <strong>(no save).</strong> You choose one effect from the
+      following:</p><ul><li><p>The target is rattled.</p></li><li><p>The
+      target’s speed is reduced by 5 feet.</p></li><li><p>When you deal damage
+      against the target, it takes an additional 1d4 necrotic
+      damage.</p></li><li><p>Each time the target fails a saving throw it falls
+      prone and breaks a nail, taking 1 necrotic damage.</p></li></ul><p>At the
+      Narrator’s discretion you may create a different curse effect with this
+      spell so long as it is weaker than the options above.</p><p>A creature
+      already under a curse, such as your or another creature’s Diabolist Curse
+      or another instance of this spell, cannot be targeted by this
+      spell.</p><p><strong>Special:</strong> Warlocks who know this spell can
+      cast it as a ritual even if they are otherwise unable to cast rituals.
+      When you cast this spell as a ritual, you can instead target a creature
+      you’ve seen within the past 24 hours, as long as they are on the same
+      plane as you. To target this creature, you must also provide a material
+      component strongly associated with that creature—such as a fingernail
+      clipping, lock of hair, or article of clothing—which this spell consumes.
+      When cast as a ritual, this spell instead has a duration of 1 hour (no
+      concentration), and the effects can be as severe as the poisoned condition
+      or indigestion. At the Narrator’s discretion, you can create even more
+      powerful curse effects or longer durations with the use of rare or
+      expensive components, as long as their effects are less than the power of
+      <em>bestow curse</em>.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: puppy-dog tail
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/hand-marked-pink.webp
+    origin: Item.l0qor2e8kesgf97d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Vus1OnEgGL04OuML
+        duration:
+          unit: minutes
+    transfer: false
+    name: Rattled
+    _id: WGgZwBOR9seuMS3b
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!l0qor2e8kesgf97d.WGgZwBOR9seuMS3b'
+  - icon: icons/magic/unholy/hand-marked-pink.webp
+    origin: Item.l0qor2e8kesgf97d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Vus1OnEgGL04OuML
+        duration:
+          unit: minutes
+    transfer: false
+    name: Reduce Speed
+    _id: ACVEgWrYYZ5vOLQ9
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '5'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!l0qor2e8kesgf97d.ACVEgWrYYZ5vOLQ9'
+  - icon: icons/magic/unholy/hand-marked-pink.webp
+    origin: Item.l0qor2e8kesgf97d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Vus1OnEgGL04OuML
+        duration:
+          unit: minutes
+    transfer: false
+    name: Prone
+    _id: p02ubz96j5uKxlmh
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!l0qor2e8kesgf97d.p02ubz96j5uKxlmh'
+  - icon: icons/magic/unholy/hand-marked-pink.webp
+    origin: Item.l0qor2e8kesgf97d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: h3mpXJfMTEPDm1vr
+        duration:
+          unit: hours
+    transfer: false
+    name: Rattled
+    _id: h7cZ2JHhuWMB3tw7
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!l0qor2e8kesgf97d.h7cZ2JHhuWMB3tw7'
+  - icon: icons/magic/unholy/hand-marked-pink.webp
+    origin: Item.l0qor2e8kesgf97d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: h3mpXJfMTEPDm1vr
+        duration:
+          unit: hours
+    transfer: false
+    name: Reduce Speed
+    _id: jT7IlydKFfOGWqZy
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '5'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!l0qor2e8kesgf97d.jT7IlydKFfOGWqZy'
+  - icon: icons/magic/unholy/hand-marked-pink.webp
+    origin: Item.l0qor2e8kesgf97d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: h3mpXJfMTEPDm1vr
+        duration:
+          unit: minutes
+    transfer: false
+    name: Prone
+    _id: qRU1aSG5zHYfSPkR
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!l0qor2e8kesgf97d.qRU1aSG5zHYfSPkR'
+  - icon: icons/magic/unholy/hand-marked-pink.webp
+    origin: Item.l0qor2e8kesgf97d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: h3mpXJfMTEPDm1vr
+        duration:
+          unit: hours
+    transfer: false
+    name: Poisoned
+    _id: BEfT7JXoHVN9igqv
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    folder: null
+    _key: '!items.effects!l0qor2e8kesgf97d.BEfT7JXoHVN9igqv'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - arcane
+      - divine
+      - necrotic
+    rareSpell: false
+folder: riV8qst3SvT2320y
+_id: l0qor2e8kesgf97d
+_key: '!items!l0qor2e8kesgf97d'

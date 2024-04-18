@@ -1,0 +1,127 @@
+folder: riV8qst3SvT2320y
+name: Best Served Cold
+type: spell
+img: icons/magic/light/explosion-star-blue-large.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Association:</strong> Berserker class</em></p>
+
+      <p>You still your hot-blooded fury and strike your enemy with icy,
+      malicious calm.</p>
+
+      <p>The next time you hit with a melee weapon attack while the spell is
+      active, it deals an additional 3d6 cold damage. The target must also make
+      a Constitution saving throw against your spell save DC or have its
+      movement speed halved for 1 minute. The spell then ends.</p>
+
+      <p>The creature may re-attempt the saving throw at the end of each of its
+      turns, ending the effect on a success. Additionally, if the creature takes
+      any fire damage, the effect ends early.</p>
+
+      <p>You cannot cast this spell while raging even if you normally could due
+      to archetype features or feat benefits.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/light/explosion-star-blue-large.webp
+    origin: Item.hhntbfcope8buohk
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: VGpZdhJpLl0mzO14
+        duration:
+          unit: minutes
+    transfer: false
+    name: Reduce Speed
+    _id: 47sA2Lce0seR6hKQ
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '0.5'
+        mode: 1
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!hhntbfcope8buohk.47sA2Lce0seR6hKQ'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - arcane
+      - attack
+      - cold
+      - weaponry
+      - multiclass
+    rareSpell: false
+_id: hhntbfcope8buohk
+_key: '!items!hhntbfcope8buohk'
