@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.2
+
+- Updated data imports from a5e
+
 ## 0.9.1 Better Spells
 
 - Updated data imports from a5e

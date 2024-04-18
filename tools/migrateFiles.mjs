@@ -1579,6 +1579,7 @@ for (const p of packList) {
   const read_file = await fs.readFile(path.join(origin, p), 'utf-8');
   const data = yaml.load(read_file);
   if (data.flags?.core) delete data.flags.core;
+  if (data.system.source === 'strangerSights') continue;
   console.log(data.name);
   switch (data.type) {
     case 'npc':
