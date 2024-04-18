@@ -86,6 +86,7 @@ function mapSource(src) {
     mortalist: 'Mortalist',
     motifClasses: 'System Architecture: Motif Classes',
     mysteriousAndMarvelousMiscellanea: 'Mysterious and Marvelous Miscellanea',
+    ridingParsnip: 'Riding Parsnip',
     secretsOfTheSelkies: 'Secrets of the Selkies',
     sinuousSentinels: 'Sinuous Sentinels',
     spellsFromTheForgottenVault: 'Spells from the Forgotten Vault',
@@ -107,10 +108,11 @@ function mapSource(src) {
     toSaveAKingdom: 'To Save a Kingdom',
     trialsAndTreasures: 'Trials and Treasures',
   };
+  const ORC = ['ridingParsnip'];
   /** @type {import('./types/dnd5e.mjs').SourceField} */
   const source = {
     book: sourceMap[src] ?? '',
-    license: 'OGL 1.0a',
+    license: ORC.includes(src) ? 'ORC' : 'OGL 1.0a',
   };
   if (source.book.includes('#')) {
     const issue = source.book.split('#');
@@ -127,6 +129,8 @@ function mapSource(src) {
  */
 function abbr(word) {
   const map = {
+    spellLevel: 'level',
+    /** Spell Schools */
     abjuration: 'abj',
     conjuration: 'con',
     divination: 'div',
@@ -135,6 +139,7 @@ function abbr(word) {
     illusion: 'ill',
     necromancy: 'nec',
     transmutation: 'trs',
+    /** Item Action Types */
     meleeWeaponAttack: 'mwak',
     rangedWeaponAttack: 'rwak',
     meleeSpellAttack: 'msak',
@@ -142,11 +147,12 @@ function abbr(word) {
     savingThrow: 'save',
     abilityCheck: 'abil',
     temporaryHealing: 'temphp',
-    spellLevel: 'level',
+    /** Ranges */
     fiveFeet: '5',
     short: '30',
     medium: '60',
     long: '120',
+    /** Combat Maneuver Traditions */
     adamantMountain: 'adm',
     arcaneArtillery: 'arcart',
     arcaneKnight: 'arckn',
@@ -170,6 +176,7 @@ function abbr(word) {
     toothAndClaw: 'tac',
     unendingWheel: 'uwh',
     vipersFangs: 'vif',
+    /** Tools */
     alchemistsSupplies: 'alchemist',
     bookbindersKit: '',
     brewersSupplies: 'brewer',
@@ -815,6 +822,78 @@ function weaponType(system) {
 }
 
 /**
+ * Derives the weapon's rarity
+ * @param {string} key
+ * @returns {string}
+ */
+function weaponRarity(key) {
+  const a5eMap = {
+    blowgun: 'simple',
+    club: 'simple',
+    dagger: 'simple',
+    handaxe: 'simple',
+    heavyCrossbow: 'simple',
+    greatclub: 'simple',
+    lightCrossbow: 'simple',
+    mace: 'simple',
+    quarterstaff: 'simple',
+    sickle: 'simple',
+    sling: 'simple',
+    spear: 'simple',
+    bastardSword: 'martial',
+    battleaxe: 'martial',
+    brassKnuckles: 'martial',
+    compositeBow: 'martial',
+    dart: 'martial',
+    duelingDagger: 'martial',
+    flail: 'martial',
+    garotte: 'martial',
+    glaive: 'martial',
+    greataxe: 'martial',
+    greatsword: 'martial',
+    halberd: 'martial',
+    handCrossbow: 'martial',
+    javelin: 'martial',
+    lance: 'martial',
+    lightHammer: 'martial',
+    longbow: 'martial',
+    longsword: 'martial',
+    maul: 'martial',
+    morningstar: 'martial',
+    net: 'martial',
+    pike: 'martial',
+    punchingDagger: 'martial',
+    rapier: 'martial',
+    saber: 'martial',
+    scimitar: 'martial',
+    scythe: 'martial',
+    shortbow: 'martial',
+    shortsword: 'martial',
+    spearThrower: 'martial',
+    throwingDagger: 'martial',
+    trident: 'martial',
+    warhammer: 'martial',
+    warPick: 'martial',
+    whip: 'martial',
+    assassinsGauntlet: 'rare',
+    bootDagger: 'rare',
+    carbine: 'rare',
+    doubleWeapon: 'rare',
+    gearedSlingshot: 'rare',
+    mercurialMaul: 'rare',
+    musket: 'rare',
+    pistol: 'rare',
+    ratchetingCrossbow: 'rare',
+    revolver: 'rare',
+    ringBlade: 'rare',
+    shotgun: 'rare',
+    spikedChain: 'rare',
+    swordPistol: 'rare',
+  };
+  return a5eMap[key] ?? 'martial';
+}
+
+/**
  *
  * @param {string} name
  * @returns {string}
@@ -1223,7 +1302,7 @@ function processGrants(o5e, grants, type) {
         const asi = {
           _id: id,
           type: 'AbilityScoreImprovement',
-          level: 0,
+          level: grant.level ?? 0,
           configuration: {
             points: 1,
             fixed: grant.abilities.base.reduce((acc, curr) => {
@@ -1247,7 +1326,7 @@ function processGrants(o5e, grants, type) {
           const featureGrant = {
             _id: id,
             type: 'ItemGrant',
-            level: 0,
+            level: grant.level ?? 0,
             configuration: {
               items: grant.features.base.map((f) => ({
                 uuid: remapPack(f),
@@ -1261,7 +1340,7 @@ function processGrants(o5e, grants, type) {
           const featureChoice = {
             _id: id,
             type: 'ItemChoice',
-            level: 0,
+            level: grant.level ?? 0,
             configuration: {
               pool: grant.features.options.map((f) => ({
                 uuid: remapPack(f),
@@ -1302,14 +1381,14 @@ function processGrants(o5e, grants, type) {
             o5e.movement[mvmtType] = Number(grant.bonus);
           }
           o5e.movement.hover = grant.context?.isHover;
-        }
+        } else throw 'Movement grant detected on non-heritage';
         break;
       case 'proficiency':
         /** @type {import('./types/dnd5e.mjs').TraitAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
         const skill = {
           _id: id,
           type: 'Trait',
-          level: 0,
+          level: grant.level ?? 0,
           configuration: {
             allowReplacements: false,
             grants: grant.keys.base.map((s) => 'skills:' + s),
@@ -1321,13 +1400,25 @@ function processGrants(o5e, grants, type) {
         };
         o5e.advancement.push(skill);
         break;
-      case 'senses': // none implemented yet
+      case 'senses':
+        if (type === 'heritage') {
+          for (const senseType of grant.senses.base) {
+            o5e.senses[senseType] = Number(grant.bonus);
+          }
+        } // not handling culture or class features yet
         break;
       case 'skills': // none implemented yet
         break;
       case 'trait':
-        const trait = traitGrant(grant.traits, id);
-        o5e.advancement.push(trait);
+        if (grant.traits.traitType === 'creatureTypes') {
+          if (type === 'heritage') {
+            o5e.type.value = grant.traits.base[0];
+          } else throw 'Creature type grant detected on non-heritage';
+        } else {
+          const trait = traitGrant(grant.traits, id);
+          trait.level = grant.level ?? 0;
+          o5e.advancement.push(trait);
+        }
         break;
     }
   }
@@ -1368,14 +1459,20 @@ function traitGrant(traits, id) {
   };
   let prefix = '';
   switch (traits.traitType) {
-    case 'armorTypes': // none implemented yet
+    case 'armorTypes':
       prefix = 'armor:';
+      const armorMap = {
+        light: 'lgt',
+        medium: 'med',
+        heavy: 'hvy',
+        shield: 'shield',
+      };
       trait.configuration = {
         mode: 'default',
         allowReplacements: false,
-        grants: traits.base.map((a) => prefix + a),
+        grants: traits.base.map((a) => prefix + armorMap[a]),
         choices: {
-          pool: traits.options.map((a) => prefix + a),
+          pool: traits.options.map((a) => prefix + armorMap[a]),
           count: traits.total,
         },
       };
@@ -1393,7 +1490,7 @@ function traitGrant(traits, id) {
       };
       break;
     case 'creatureTypes': // none implemented yet
-      break;
+      throw 'Creature Type Grant somehow got into traitGrant';
     case 'damageImmunities': // none implemented yet
       prefix = 'di:';
       trait.configuration = {
@@ -1406,7 +1503,7 @@ function traitGrant(traits, id) {
         },
       };
       break;
-    case 'damageResistances': // none implemented yet
+    case 'damageResistances':
       prefix = 'dr:';
       trait.configuration = {
         mode: 'default',
@@ -1445,7 +1542,8 @@ function traitGrant(traits, id) {
         },
       };
       break;
-    case 'maneuverTraditions': // none implemented yet
+    case 'maneuverTraditions':
+      // TODO: Figure out if it's worth tracking what traditions a character can learn maneuvers from
       break;
     case 'size':
       trait.type = 'Size';
@@ -1463,14 +1561,14 @@ function traitGrant(traits, id) {
         },
       };
       break;
-    case 'weapons': // none implemented yet
+    case 'weapons':
       prefix = 'weapon:';
       trait.configuration = {
         mode: '',
         allowReplacements: false,
-        grants: traits.base.map(),
+        grants: traits.base.map((w) => prefix + mapWeapons(w)),
         choices: {
-          pool: traits.options.map(),
+          pool: traits.options.map((w) => prefix + mapWeapons(w)),
           count: traits.total,
         },
       };
@@ -1521,7 +1619,7 @@ function mapLanguages(lang) {
 }
 
 /**
- *
+ * Maps tools for tool proficiency grants
  * @param {string} tool
  * @returns {string}
  */
@@ -1573,6 +1671,21 @@ function mapTools(tool) {
     woodcarver: 'art:',
   }[abbr(tool)];
   return prefix + abbr(tool);
+}
+
+/**
+ * Maps weapons for weapon proficiency grants
+ * @param {string} a5eWeapon
+ * @returns {string}
+ */
+function mapWeapons(a5eWeapon) {
+  const r = weaponRarity(a5eWeapon);
+  const rarity = {
+    simple: 'sim:',
+    martial: 'mar:',
+    rare: 'rare:',
+  };
+  return rarity[r] + a5eWeapon.toLowerCase();
 }
 
 for (const p of packList) {

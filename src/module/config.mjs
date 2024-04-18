@@ -369,6 +369,50 @@ A5E_CONFIG.DND5E.featureTypes = {
   },
 };
 
+/**
+ * Weapon Handling
+ */
+A5E_CONFIG.DND5E.weaponProficiencies = {
+  rare: 'DND5E.WeaponRareProficiency',
+};
+
+A5E_CONFIG.DND5E.weaponProficienciesMap = {
+  rareM: 'rare',
+  rareR: 'rare',
+};
+
+A5E_CONFIG.DND5E.weaponTypes = {
+  rareM: 'DND5E.WeaponRareM',
+  rareR: 'DND5E.WeaponRareR',
+};
+
+A5E_CONFIG.DND5E.weaponIds = {
+  /** New to a5e */
+  bastardsword: 'Compendium.a5e-for-dnd5e.gear.Item.njbevv8xrgswtyue',
+  brassknuckles: 'Compendium.a5e-for-dnd5e.gear.Item.mr4mo0pjube2aes9',
+  compositebow: 'Compendium.a5e-for-dnd5e.gear.Item.7l5v4m7j55pmc1wf',
+  duelingdagger: 'Compendium.a5e-for-dnd5e.gear.Item.sb8oo04tylbdb607',
+  garotte: 'Compendium.a5e-for-dnd5e.gear.Item.1puyfz1yekdum26e',
+  punchingdagger: 'Compendium.a5e-for-dnd5e.gear.Item.bsvbebbgfnzhh743',
+  saber: 'Compendium.a5e-for-dnd5e.gear.Item.bbowllkalbhk2ndg',
+  scythe: 'Compendium.a5e-for-dnd5e.gear.Item.zyhm36efl89xfdac',
+  spearthrower: '',
+  throwingdagger: 'Compendium.a5e-for-dnd5e.gear.Item.waqd98z0mqohxxz2',
+  assassinsgauntlet: 'Compendium.a5e-for-dnd5e.gear.Item.7v5mvcgc8uubb3l7',
+  bootdagger: 'Compendium.a5e-for-dnd5e.gear.Item.bxm4y00kg8qrugz1',
+  carbine: 'Compendium.a5e-for-dnd5e.gear.Item.dm04nej52elzjlfx',
+  doubleweapon: '',
+  gearedslingshot: 'Compendium.a5e-for-dnd5e.gear.Item.f270hnmd1wlu9mb0',
+  mercurialmaul: 'Compendium.a5e-for-dnd5e.gear.Item.ky37gm57e3li890a',
+  ratchetingcrossbow: 'Compendium.a5e-for-dnd5e.gear.Item.o5jeeze2r4k167r2',
+  revolver: 'Compendium.a5e-for-dnd5e.gear.Item.j3wur37dct9v10we',
+  ringblade: 'Compendium.a5e-for-dnd5e.gear.Item.cydwjacfp6rb0jue',
+  shotgun: 'Compendium.a5e-for-dnd5e.gear.Item.mpzk2e533e6uymn4',
+  spikedchain: 'Compendium.a5e-for-dnd5e.gear.Item.pkt8vntx40q4xeny',
+  swordpistol: 'Compendium.a5e-for-dnd5e.gear.Item.mv682vbjut9nizx1',
+  /** Overriding base system references */
+};
+
 A5E_CONFIG.DND5E.sourceBooks = {
   "Adventurer's Guide": 'Level Up: Advanced 5th Edition by EN Publishing',
   'Trials & Treasures': 'Level Up: Advanced 5th Edition by EN Publishing',
