@@ -672,10 +672,6 @@ function migrateObject(system, name) {
       value: baseAC(system.ac.baseFormula),
       dex: system.ac.maxDex,
     },
-    type: {
-      value: system.shieldCategory ? 'shield' : system.armorCategory,
-      baseItem: '',
-    },
     speed: {
       value: null,
       conditions: '',
@@ -695,7 +691,6 @@ function migrateObject(system, name) {
   };
   /** @type {import('./types/dnd5e.mjs').Tool} */
   const tool = {
-    type: { value: toolType(name), baseItem: '' },
     ability: 'int',
     chatFlavor: '',
     proficient: null,
@@ -704,8 +699,6 @@ function migrateObject(system, name) {
   };
   /** @type {import('./types/dnd5e.mjs').Weapon} */
   const weapon = {
-    type: { value: weaponType(system), baseItem: '' },
-    properties: weaponProperties(system, o5e.description),
     proficient: true,
     documentSubType: 'weapon',
   };
@@ -728,12 +721,19 @@ function migrateObject(system, name) {
     case 'armor':
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      o5e.type = {
+        value: system.armorCategory,
+        baseItem: getBaseItem(name, 'armor'),
+      };
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
-      o5e.type.baseItem = getBaseItem(name, 'armor');
       break;
     case 'clothing':
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      o5e.type = {
+        value: 'clothing',
+        baseItem: '',
+      };
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
       break;
     case 'consumable':
@@ -746,28 +746,46 @@ function migrateObject(system, name) {
     case 'jewelry':
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      o5e.type = {
+        value: 'clothing',
+        baseItem: '',
+      };
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
       break;
     case 'miscellaneous':
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      o5e.type = {
+        value: '',
+        baseItem: '',
+      };
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
       break;
     case 'shield':
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      o5e.type = {
+        value: 'shield',
+        baseItem: getBaseItem(name, 'shield'),
+      };
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
-      o5e.type.baseItem = getBaseItem(name, 'shield');
       break;
     case 'tool':
       Object.assign(o5e, tool);
-      o5e.type.baseItem = getBaseItem(name, 'tool');
+      o5e.type = {
+        value: toolType(system),
+        baseItem: getBaseItem(name, 'tool'),
+      };
       break;
     case 'weapon':
       Object.assign(o5e, weapon);
+      o5e.type = {
+        value: weaponType(system),
+        baseItem: getBaseItem(name, 'weapon'),
+      };
+      o5e.properties = weaponProperties(system, o5e.description);
       Object.assign(o5e, mountable);
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
-      o5e.type.baseItem = getBaseItem(name, 'weapon');
       break;
     default:
       o5e.documentSubType = 'loot';

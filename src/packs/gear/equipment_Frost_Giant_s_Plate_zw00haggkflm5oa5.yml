@@ -87,15 +87,15 @@ system:
     max: null
     dt: null
     conditions: ''
-  type:
-    value: heavy
-    baseItem: plate
   speed:
     value: null
     conditions: ''
   strength: 15
   stealth: false
   proficient: null
+  type:
+    value: heavy
+    baseItem: plate
   activation:
     type: bonusAction
     cost: 1

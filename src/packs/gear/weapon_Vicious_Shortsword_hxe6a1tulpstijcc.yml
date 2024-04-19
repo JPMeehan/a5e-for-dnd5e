@@ -68,6 +68,7 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
+  proficient: true
   type:
     value: martialM
     baseItem: shortsword
@@ -75,7 +76,6 @@ system:
     - fin
     - defensive
     - vicious
-  proficient: true
   armor:
     value: null
   hp:

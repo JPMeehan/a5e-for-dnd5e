@@ -78,15 +78,15 @@ system:
     max: null
     dt: null
     conditions: ''
-  type:
-    value: heavy
-    baseItem: ''
   speed:
     value: null
     conditions: ''
   strength: 15
   stealth: false
   proficient: null
+  type:
+    value: heavy
+    baseItem: ''
   activation:
     type: bonusAction
     cost: 1

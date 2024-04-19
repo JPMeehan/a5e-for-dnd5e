@@ -24,6 +24,7 @@ system:
   equipped: false
   rarity: mundane
   identified: true
+  proficient: true
   type:
     value: martialM
     baseItem: mercurialmaul
@@ -31,7 +32,6 @@ system:
     - hvy
     - two
     - breaker
-  proficient: true
   armor:
     value: null
   hp:

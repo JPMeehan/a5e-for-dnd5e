@@ -32,6 +32,7 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
+  proficient: true
   type:
     value: martialR
     baseItem: sling
@@ -40,7 +41,6 @@ system:
     - lod
     - two
     - vicious
-  proficient: true
   armor:
     value: null
   hp:

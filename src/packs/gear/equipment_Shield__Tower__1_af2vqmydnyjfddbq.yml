@@ -54,15 +54,15 @@ system:
     max: null
     dt: null
     conditions: ''
-  type:
-    value: shield
-    baseItem: tower
   speed:
     value: null
     conditions: ''
   strength: 0
   stealth: false
   proficient: null
+  type:
+    value: shield
+    baseItem: tower
   activation:
     type: action
     cost: 1

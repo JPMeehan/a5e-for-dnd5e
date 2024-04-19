@@ -43,15 +43,15 @@ system:
     max: null
     dt: null
     conditions: ''
-  type:
-    value: ''
-    baseItem: light
   speed:
     value: null
     conditions: ''
   strength: 0
   stealth: false
   proficient: null
+  type:
+    value: shield
+    baseItem: light
   activation:
     type: action
     cost: 1
@@ -92,6 +92,6 @@ system:
     ability: ''
     dc: null
     scaling: spell
-folder: 9k4UVzCiMuqj62ea
+folder: XwBbFlHTpYybz2Hi
 _id: r3yuhyh32ti5ulmm
 _key: '!items!r3yuhyh32ti5ulmm'

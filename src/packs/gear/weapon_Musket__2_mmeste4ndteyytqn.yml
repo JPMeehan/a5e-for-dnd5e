@@ -20,6 +20,7 @@ system:
   equipped: false
   rarity: rare
   identified: true
+  proficient: true
   type:
     value: martialR
     baseItem: ''
@@ -27,7 +28,6 @@ system:
     - hvy
     - lod
     - two
-  proficient: true
   armor:
     value: null
   hp:

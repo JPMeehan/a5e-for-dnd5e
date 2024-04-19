@@ -27,6 +27,7 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
+  proficient: true
   type:
     value: martialR
     baseItem: dagger
@@ -35,7 +36,6 @@ system:
     - fin
     - thr
     - vicious
-  proficient: true
   armor:
     value: null
   hp:

@@ -27,6 +27,7 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
+  proficient: true
   type:
     value: martialR
     baseItem: lighthammer
@@ -34,7 +35,6 @@ system:
     - lgt
     - thr
     - vicious
-  proficient: true
   armor:
     value: null
   hp:

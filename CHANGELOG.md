@@ -1,10 +1,10 @@
 # Changelog
 
-## 0.9.2
+## 0.9.2 Equipment
 
 - Updated data imports from a5e
-- Improved CONFIG support for weapons not found in the base system
-- Improved base type handling
+- Improved CONFIG support for weapons and shields not found in the base system
+- Improved base type handling for weapons, armor, and shields.
 
 ## 0.9.1 Better Spells
 

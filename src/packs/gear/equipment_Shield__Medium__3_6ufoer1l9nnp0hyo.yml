@@ -34,15 +34,15 @@ system:
     max: null
     dt: null
     conditions: ''
-  type:
-    value: shield
-    baseItem: shield
   speed:
     value: null
     conditions: ''
   strength: 0
   stealth: false
   proficient: null
+  type:
+    value: shield
+    baseItem: shield
   activation:
     type: action
     cost: 1

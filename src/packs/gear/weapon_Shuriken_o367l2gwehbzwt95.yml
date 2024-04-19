@@ -30,6 +30,7 @@ system:
   equipped: false
   rarity: mundane
   identified: true
+  proficient: true
   type:
     value: martialR
     baseItem: ''
@@ -37,7 +38,6 @@ system:
     - lgt
     - fin
     - thr
-  proficient: true
   armor:
     value: null
   hp:

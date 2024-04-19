@@ -27,6 +27,7 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
+  proficient: true
   type:
     value: martialM
     baseItem: glaive
@@ -34,7 +35,6 @@ system:
     - rch
     - two
     - vicious
-  proficient: true
   armor:
     value: null
   hp:

@@ -30,6 +30,7 @@ system:
   equipped: false
   rarity: veryRare
   identified: true
+  proficient: true
   type:
     value: martialM
     baseItem: trident
@@ -38,7 +39,6 @@ system:
     - thr
     - ver
     - mnt
-  proficient: true
   armor:
     value: null
   hp:

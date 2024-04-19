@@ -32,6 +32,7 @@ system:
   equipped: false
   rarity: veryRare
   identified: true
+  proficient: true
   type:
     value: simpleR
     baseItem: ''
@@ -39,7 +40,6 @@ system:
     - lgt
     - fin
     - thr
-  proficient: true
   armor:
     value: null
   hp:

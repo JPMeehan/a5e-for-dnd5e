@@ -57,6 +57,7 @@ system:
   equipped: false
   rarity: mundane
   identified: true
+  proficient: true
   type:
     value: simpleR
     baseItem: spear
@@ -64,7 +65,6 @@ system:
     - thr
     - ver
     - defensive
-  proficient: true
   armor:
     value: null
   hp:

@@ -36,6 +36,7 @@ system:
   equipped: false
   rarity: legendary
   identified: true
+  proficient: true
   type:
     value: martialM
     baseItem: saber
@@ -43,7 +44,6 @@ system:
     - fin
     - defensive
     - mnt
-  proficient: true
   armor:
     value: null
   hp:

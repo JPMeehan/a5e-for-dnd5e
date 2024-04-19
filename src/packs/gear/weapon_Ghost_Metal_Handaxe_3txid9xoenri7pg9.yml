@@ -38,6 +38,7 @@ system:
   equipped: false
   rarity: veryRare
   identified: true
+  proficient: true
   type:
     value: simpleM
     baseItem: handaxe
@@ -46,7 +47,6 @@ system:
     - thr
     - breaker
     - defensive
-  proficient: true
   armor:
     value: null
   hp:

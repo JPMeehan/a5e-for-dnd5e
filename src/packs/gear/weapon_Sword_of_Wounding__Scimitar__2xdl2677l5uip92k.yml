@@ -37,6 +37,7 @@ system:
   equipped: false
   rarity: rare
   identified: true
+  proficient: true
   type:
     value: martialM
     baseItem: scimitar
@@ -44,7 +45,6 @@ system:
     - lgt
     - fin
     - defensive
-  proficient: true
   armor:
     value: null
   hp:

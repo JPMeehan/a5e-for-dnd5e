@@ -67,6 +67,7 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
+  proficient: true
   type:
     value: martialM
     baseItem: pike
@@ -75,7 +76,6 @@ system:
     - rch
     - defensive
     - vicious
-  proficient: true
   armor:
     value: null
   hp:

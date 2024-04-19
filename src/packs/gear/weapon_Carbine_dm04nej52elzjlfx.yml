@@ -20,6 +20,7 @@ system:
   equipped: false
   rarity: mundane
   identified: true
+  proficient: true
   type:
     value: martialR
     baseItem: carbine
@@ -27,7 +28,6 @@ system:
     - lod
     - amm
     - two
-  proficient: true
   armor:
     value: null
   hp:

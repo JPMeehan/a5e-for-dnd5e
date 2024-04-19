@@ -23,6 +23,7 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
+  proficient: true
   type:
     value: simpleR
     baseItem: ''
@@ -31,7 +32,6 @@ system:
     - lod
     - amm
     - two
-  proficient: true
   armor:
     value: null
   hp:

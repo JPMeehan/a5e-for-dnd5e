@@ -30,6 +30,7 @@ system:
   equipped: false
   rarity: rare
   identified: true
+  proficient: true
   type:
     value: ''
     baseItem: swordpistol
@@ -37,7 +38,6 @@ system:
     - fin
     - lod
     - amm
-  proficient: true
   armor:
     value: null
   hp:

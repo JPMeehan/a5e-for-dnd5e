@@ -26,6 +26,7 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
+  proficient: true
   type:
     value: simpleR
     baseItem: blowgun
@@ -33,7 +34,6 @@ system:
     - lod
     - amm
     - vicious
-  proficient: true
   armor:
     value: null
   hp:

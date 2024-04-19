@@ -29,15 +29,15 @@ system:
     max: null
     dt: null
     conditions: ''
-  type:
-    value: ''
-    baseItem: ''
   speed:
     value: null
     conditions: ''
   strength: 0
   stealth: false
   proficient: null
+  type:
+    value: clothing
+    baseItem: ''
 effects:
   - icon: icons/equipment/neck/necklace-simple-carved-stone.webp
     origin: Item.DmLDeE7B1p9fdlnS
