@@ -999,7 +999,6 @@ function getBaseItem(name) {
     Dulcimer: 'dulcimer',
     "Carpenter's Tools": 'carpenter',
     /** Weapons */
-
     Battleaxe: 'battleaxe',
     Blowgun: 'blowgun',
     Club: 'club',
