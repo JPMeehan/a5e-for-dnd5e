@@ -401,7 +401,7 @@ A5E_CONFIG.DND5E.weaponIds = {
   assassinsgauntlet: 'Compendium.a5e-for-dnd5e.gear.Item.7v5mvcgc8uubb3l7',
   bootdagger: 'Compendium.a5e-for-dnd5e.gear.Item.bxm4y00kg8qrugz1',
   carbine: 'Compendium.a5e-for-dnd5e.gear.Item.dm04nej52elzjlfx',
-  doubleweapon: '',
+  doubleweapon: 'Compendium.a5e-for-dnd5e.gear.Item.PEWE0X0UegElDRld',
   gearedslingshot: 'Compendium.a5e-for-dnd5e.gear.Item.f270hnmd1wlu9mb0',
   mercurialmaul: 'Compendium.a5e-for-dnd5e.gear.Item.ky37gm57e3li890a',
   ratchetingcrossbow: 'Compendium.a5e-for-dnd5e.gear.Item.o5jeeze2r4k167r2',

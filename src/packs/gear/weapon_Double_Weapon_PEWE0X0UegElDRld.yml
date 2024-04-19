@@ -1,42 +1,43 @@
-name: Vicious Dagger, Dueling
+name: Double Weapon
 type: weapon
-img: icons/weapons/daggers/dagger-straight-thin-black.webp
+img: icons/weapons/polearms/halberd-engraved-black.webp
 effects: []
 flags: {}
 system:
   description:
     value: >-
-      <p><strong>Vicious Weapon:&nbsp;</strong>When you roll a natural 20 on an
-      attack roll using this weapon it deals an extra 2d6 damage of the
-      weapon&rsquo;s type (this extra damage does not
-      double).</p><hr><p><b>Parrying:</b> When you are wielding this weapon and
+      <p>Wielded not unlike a quarterstaff, each side of this weapon has a
+      blade, weighted head, or other injurious implement. Most double weapons
+      are two-bladed swords or double-axes, but there have been gnome warriors
+      known to wield hooked hammers and elvish clades specialized in
+      swordspears. Double weapons use the statistics for whichever weapon is
+      used to attack and are considered to have the dual-wielding and parrying
+      properties.</p><p><b>Parrying:</b> When you are wielding this weapon and
       you are not using a shield, once before your next turn you can gain an
       expertise die to your AC against a single melee attack made against you by
       a creature you can see. You cannot use this property while incapacitated ,
-      paralyzed , rattled , restrained , or stunned.</p><p><b>Vicious:</b> A
-      vicious weapon scores a critical hit on a roll of 19 or 20. If you already
-      have a feature that increases the range of your critical hits, your
-      critical hit range increases by 1 (maximum 17–20).</p>
+      paralyzed , rattled , restrained , or stunned.</p>
     chat: ''
     unidentified: ''
   source:
     book: ''
     license: OGL 1.0a
   quantity: 1
-  weight: 1
+  weight: 3
   price:
-    value: 400
+    value: 150
     denomination: gp
   attunement: 0
   equipped: false
-  rarity: uncommon
+  rarity: mundane
   identified: true
   type:
-    value: martialM
+    value: rareM
+    baseItem: ''
   properties:
     - lgt
-    - fin
-    - vicious
+    - parrying
+    - two
   proficient: true
   armor:
     value: null
@@ -75,13 +76,15 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d8 + @mod
+        - slashing
     versatile: ''
   formula: ''
   save:
     ability: ''
     dc: null
     scaling: spell
-folder: zzy7PcM8aJV9irTn
-_id: 9cxnt97rqheggi89
-_key: '!items!9cxnt97rqheggi89'
+folder: efbKERxtOjiRkqDD
+_id: PEWE0X0UegElDRld
+_key: '!items!PEWE0X0UegElDRld'
