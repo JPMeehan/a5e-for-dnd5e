@@ -3,6 +3,8 @@
 ## 0.9.2
 
 - Updated data imports from a5e
+- Improved CONFIG support for weapons not found in the base system
+- Improved base type handling
 
 ## 0.9.1 Better Spells
 
