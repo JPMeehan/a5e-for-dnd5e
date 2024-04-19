@@ -413,6 +413,20 @@ A5E_CONFIG.DND5E.weaponIds = {
   /** Overriding base system references */
 };
 
+/**
+ * Shields
+ */
+A5E_CONFIG.DND5E.shieldIds = {
+  light: 'Compendium.a5e-for-dnd5e.gear.Item.xy2bn4687azmkadw',
+  shield: 'Compendium.a5e-for-dnd5e.gear.Item.19oc64en7c6kmk1w',
+  heavy: 'Compendium.a5e-for-dnd5e.gear.Item.al5bt63sprk6hkxv',
+  tower: 'Compendium.a5e-for-dnd5e.gear.Item.udvqt7222qrr3ibu',
+};
+
+/**
+ * List of books available as sources.
+ * @enum {string}
+ */
 A5E_CONFIG.DND5E.sourceBooks = {
   "Adventurer's Guide": 'Level Up: Advanced 5th Edition by EN Publishing',
   'Trials & Treasures': 'Level Up: Advanced 5th Edition by EN Publishing',

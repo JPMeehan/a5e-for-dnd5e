@@ -674,7 +674,7 @@ function migrateObject(system, name) {
     },
     type: {
       value: system.shieldCategory ? 'shield' : system.armorCategory,
-      baseItem: getBaseItem(name, 'armor'),
+      baseItem: '',
     },
     speed: {
       value: null,
@@ -695,7 +695,7 @@ function migrateObject(system, name) {
   };
   /** @type {import('./types/dnd5e.mjs').Tool} */
   const tool = {
-    type: { value: toolType(name), baseItem: getBaseItem(name, 'tool') },
+    type: { value: toolType(name), baseItem: '' },
     ability: 'int',
     chatFlavor: '',
     proficient: null,
@@ -704,7 +704,7 @@ function migrateObject(system, name) {
   };
   /** @type {import('./types/dnd5e.mjs').Weapon} */
   const weapon = {
-    type: { value: weaponType(system), baseItem: getBaseItem(name, 'weapon') },
+    type: { value: weaponType(system), baseItem: '' },
     properties: weaponProperties(system, o5e.description),
     proficient: true,
     documentSubType: 'weapon',
@@ -729,6 +729,7 @@ function migrateObject(system, name) {
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      o5e.type.baseItem = getBaseItem(name, 'armor');
       break;
     case 'clothing':
       Object.assign(o5e, mountable);
@@ -756,14 +757,17 @@ function migrateObject(system, name) {
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      o5e.type.baseItem = getBaseItem(name, 'shield');
       break;
     case 'tool':
       Object.assign(o5e, tool);
+      o5e.type.baseItem = getBaseItem(name, 'tool');
       break;
     case 'weapon':
       Object.assign(o5e, weapon);
       Object.assign(o5e, mountable);
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      o5e.type.baseItem = getBaseItem(name, 'weapon');
       break;
     default:
       o5e.documentSubType = 'loot';
@@ -951,7 +955,7 @@ function toolType(name) {
 /**
  *
  * @param {string} name
- * @param {"armor" | "tool" | "weapon"} type
+ * @param {"armor" | "shield" | "tool" | "weapon"} type
  * @returns {string}
  */
 function getBaseItem(name, type) {
@@ -1063,14 +1067,33 @@ function getBaseItem(name, type) {
       Urgosh: 'doubleweapon',
       Nunchaku: 'doubleweapon',
     },
-    armor: {},
+    armor: {
+      Breastplate: 'breastplaste',
+      Hauberk: 'chainmail',
+      'Chain Shirt': 'chainshirt',
+      'Half-Plate': 'halfplate',
+      Hide: 'hide',
+      Brigandine: 'hide',
+      // 'Cloth, Padded': 'leather', // Redundant
+      'Cloth, Padded': 'padded',
+      Plate: 'plate',
+      // '': 'ringmail', // Doesn't exist
+      'Scale Mail': 'scalemail',
+      Splint: 'splint',
+      'Leather, Padded': 'studded',
+    },
+    shield: {
+      Light: 'light',
+      Medium: 'shield',
+      Heavy: 'heavy',
+      Tower: 'tower',
+    },
   };
-  if (nameMap[type][name]) return nameMap[type][name];
+  if (nameMap[type].hasOwnProperty(name)) return nameMap[type][name];
   for (const item of Object.keys(nameMap[type])) {
-    if (name.includes(item)) return nameMap[type][name];
+    if (name.includes(item)) return nameMap[type][item];
   }
   return '';
-  // return nameMap[type][n] ?? '';
 }
 
 /**
