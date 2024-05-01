@@ -1,0 +1,65 @@
+folder: null
+name: Thaumaturgic Student
+type: feat
+img: icons/tools/scribal/lens-grey-red.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have studied both magic and more grounded pursuits extensively and
+      have reaped the benefits of your broad and deep studies with some potent
+      abilities.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>Your Intelligence increases by +1, to a maximum of 20.</li>
+
+      <li>You gain the Read You Like a Spellbook clever scheme, which does not
+      count against your maximum number of clever schemes known. If you already
+      have it, you may choose another instead.</li>
+
+      <li>You select a second Scholarly Excellence option.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Savant level 3, Wizard level 3
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/life/cross-yellow-green.webp
+    origin: Item.485r9eblzt5oorey
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: INT +1
+    _id: QaqChPmX9x5iP218
+    changes:
+      - key: system.abilities.int.value
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!485r9eblzt5oorey.QaqChPmX9x5iP218'
+flags: {}
+_id: 485r9eblzt5oorey
+_key: '!items!485r9eblzt5oorey'

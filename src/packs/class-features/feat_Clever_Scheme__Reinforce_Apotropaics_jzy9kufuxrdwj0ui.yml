@@ -3,6 +3,7 @@ type: feat
 img: icons/consumables/plants/holly-pointy-leaf-green.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -19,7 +20,7 @@ system:
       add an expertise die to your check).</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

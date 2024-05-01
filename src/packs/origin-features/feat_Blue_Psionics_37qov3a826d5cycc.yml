@@ -1,0 +1,70 @@
+name: Blue Psionics
+type: feat
+img: icons/magic/light/projectile-smoke-blue-light.webp
+effects: []
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the mage hand cantrip, and when you cast it the hand is
+      invisible, replaced by a faint blue aura. You can use this trait once
+      between long rests to cast one spell, chosen from charm person, mage
+      armor, or arcane riposte dealing psychic damage. Your spellcasting ability
+      for these is your choice of Intelligence, Wisdom, or Charisma.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take when a creature makes a melee attack against you
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: 37qov3a826d5cycc
+_key: '!items!37qov3a826d5cycc'

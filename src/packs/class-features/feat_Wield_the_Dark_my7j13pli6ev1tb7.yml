@@ -1,0 +1,34 @@
+folder: null
+name: Wield the Dark
+type: feat
+img: icons/magic/unholy/beam-ringed-impact-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 7th level, when you start your turn in an area of darkness
+      or magical darkness, you gain a Darkness die, a d6. You can have only one
+      Darkness die at a time. At any time, you can roll your Darkness die and
+      apply the result to one of the following: your AC against one attack made
+      by a creature you can see, an attack or damage roll you make with a
+      weapon, or a Stealth skill check. You can apply your Darkness die even
+      after&nbsp;<span class="freelinking-link">making an attack
+      roll</span>&nbsp;or after the result of a creature&rsquo;s attack roll is
+      declared.</p>
+
+      <p>At 15th level, your Darkness die increases to a d8.</p>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: my7j13pli6ev1tb7
+_key: '!items!my7j13pli6ev1tb7'

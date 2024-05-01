@@ -1,0 +1,96 @@
+name: Bubble Wand
+type: equipment
+img: icons/skills/ranged/wand-attack-beam-blue.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This slender timber wand has a wooden ring at its tip. The wand has 7
+      charges and regains 1d6+1 charges each dawn. If you expend the last
+      charge, roll a d20. On a 1, the wand bursts into a spray of colorful
+      bubbles and is lost forever.</p><p>While holding the wand, you can use an
+      action to expend its charges and either create a harmless spray of
+      colorful bubbles (1 charge) or cast the dancing lights cantrip (2
+      charges). The dancing lights appear as glowing bubbles.</p><p>When a
+      creature targets you with an attack while you are holding the wand, you
+      can use your reaction to snap it (destroying the wand). You can do this
+      after the roll is made, but before the outcome of the attack is
+      determined. You gain a +5 bonus to AC and a fly speed of 10 ft. as a giant
+      soap bubble coalesces around you. The bubble persists for 1 minute or
+      until you are hit with an attack, at which point it bursts with a loud
+      ‘pop’.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 120
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 9k4UVzCiMuqj62ea
+_id: bewsmjsp40t7h73q
+_key: '!items!bewsmjsp40t7h73q'

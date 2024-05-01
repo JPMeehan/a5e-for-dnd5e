@@ -1,7 +1,6 @@
-folder: null
 name: From Nowhere
 type: feat
-img: icons/creatures/invertebrates/spider-dotted-green.webp
+img: icons/creatures/webs/web-spider-moving-blue.webp
 system:
   type:
     value: class
@@ -25,7 +24,7 @@ system:
     value: null
     charged: true
   activation:
-    type: action
+    type: bonusAction
     cost: 1
   duration: {}
   cover: null
@@ -34,11 +33,11 @@ system:
     value: 1
     width: null
     units: ''
-    type: creature
+    type: self
   range:
-    value: 20
-    long: 60
-    units: ft
+    value: null
+    long: null
+    units: ''
   uses:
     value: null
     max: ''
@@ -48,8 +47,8 @@ system:
     type: ''
     target: null
     amount: null
-  ability: str
-  actionType: rwak
+  ability: null
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -64,6 +63,7 @@ system:
     dc: null
     scaling: spell
 effects: []
+folder: null
 flags: {}
 _id: ghr97cqs65b8t0k1
 _key: '!items!ghr97cqs65b8t0k1'

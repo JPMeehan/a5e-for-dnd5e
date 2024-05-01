@@ -1,0 +1,66 @@
+folder: null
+name: Light Armor (Combat Engineer’s Loadout)
+type: feat
+img: icons/equipment/chest/vest-leather-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-8ee91379-7fff-536e-8b0c-376d62885ad5">Your
+      armor provides you an AC of 12 + your Dexterity modifier. It is designed
+      for stealth and mobility, giving you an expertise die on Acrobatics,
+      Athletics, and Stealth checks.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.zl2novk9rho7mk99
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Light Armor (Combat Engineer’s Loadout)
+    _id: QMzEA8fh8Jpdq3pO
+    changes:
+      - key: system.attributes.ac
+        value: 12+@dex.mod
+        mode: 5
+        priority: null
+      - key: system.skills.acr.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.ath.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.ste.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!zl2novk9rho7mk99.QMzEA8fh8Jpdq3pO'
+flags: {}
+_id: zl2novk9rho7mk99
+_key: '!items!zl2novk9rho7mk99'

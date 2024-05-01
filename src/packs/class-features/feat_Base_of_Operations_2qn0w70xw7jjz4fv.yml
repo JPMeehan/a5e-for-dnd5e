@@ -1,0 +1,30 @@
+name: Base of Operations
+type: feat
+img: icons/environment/settlement/house-city.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your ability to prepare for the worst increases. You gain a free
+      frugal, grade 1 Safe House stronghold in any city you visit. This safe
+      house always counts as a haven, but it is temporary. If you visit a new
+      city, you lose the previous safe house and acquire a new one.</p><p>If you
+      wish, you may pay to make a stronghold acquired this way permanent. It has
+      the normal cost for a stronghold of its size and type. If you do, it is
+      not lost when you relocate to a different city.<br></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: 2qn0w70xw7jjz4fv
+_key: '!items!2qn0w70xw7jjz4fv'

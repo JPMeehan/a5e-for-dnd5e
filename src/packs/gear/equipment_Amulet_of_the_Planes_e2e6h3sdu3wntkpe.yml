@@ -1,0 +1,89 @@
+name: Amulet of the Planes
+type: equipment
+img: icons/equipment/neck/amulet-round-engraved-spiral-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      While wearing this amulet, you can use an action and name a location that
+      you are familiar with on another plane of existence, making a DC 15
+      Intelligence check. On a success you cast the plane shift spell, but on a
+      failure you and every creature and object within a 15-foot radius are
+      transported to a random location determined with a d100 roll. On a 1–60
+      you transport to a random location on the plane you named, or on a 61–100
+      you are transported to a randomly determined plane of existence
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: clothing
+    baseItem: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 9k4UVzCiMuqj62ea
+_id: e2e6h3sdu3wntkpe
+_key: '!items!e2e6h3sdu3wntkpe'

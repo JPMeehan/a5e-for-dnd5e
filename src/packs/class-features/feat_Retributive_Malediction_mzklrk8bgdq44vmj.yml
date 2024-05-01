@@ -1,0 +1,71 @@
+folder: null
+name: Retributive Malediction
+type: feat
+img: icons/magic/unholy/orb-hands-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-da21ce4f-7fff-0dcc-9a02-d91b5ef7e110"
+      dir="ltr">At 18th level, your grasp on the curse has gotten so strong that
+      you can use its power to inflict horrible wrath on your foes. Once per
+      long rest you can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.5txyqck0efgxnnxr]{Inescapable
+      Malady} without material components or a spell slot.&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 7d10
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: mzklrk8bgdq44vmj
+_key: '!items!mzklrk8bgdq44vmj'

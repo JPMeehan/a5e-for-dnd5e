@@ -1,0 +1,45 @@
+name: Block And Tackle
+type: equipment
+img: icons/sundries/survival/climbing-anchor-steel-grey.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>A set of pulleys with a cable threaded through them and a hook to
+      attach to objects, a block and tackle along with a length of rope allows
+      you to hoist up to four times the weight you can normally lift.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  quantity: 1
+  weight: 5
+  price:
+    value: 1
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+folder: VRWG3xL5zF1ktOX6
+_id: sin8h44unxfevg33
+_key: '!items!sin8h44unxfevg33'

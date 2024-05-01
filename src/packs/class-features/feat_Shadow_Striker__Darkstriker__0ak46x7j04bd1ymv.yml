@@ -1,0 +1,75 @@
+folder: null
+name: Shadow Striker (Darkstriker)
+type: feat
+img: icons/magic/light/hand-sparks-smoke-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 11th level, the first time each round you hit with an
+      unarmed attack, the target suffers additional necrotic damage based on the
+      light level. If the target is in bright light, it takes an additional 1d4
+      necrotic damage. If it is in dim light, the damage is 1d6 instead. If it
+      is in darkness, the damage is 1d8, and if it is in magical darkness, the
+      damage is 1d10.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Burning Gloom'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - necrotic
+      - - 1d6
+        - necrotic
+      - - 1d8
+        - necrotic
+      - - 1d10
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 0ak46x7j04bd1ymv
+_key: '!items!0ak46x7j04bd1ymv'

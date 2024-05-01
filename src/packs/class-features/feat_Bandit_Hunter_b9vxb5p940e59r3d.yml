@@ -1,0 +1,27 @@
+folder: null
+name: Bandit Hunter
+type: feat
+img: icons/skills/targeting/crosshair-pointed-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 7th level, when you choose your Studied Adversary, you may
+      specify an organization operating in the area. Members of that
+      organization count as Studied Adversaries in addition to your normal
+      choice.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Byway Defender Archetype, Ranger 7
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: b9vxb5p940e59r3d
+_key: '!items!b9vxb5p940e59r3d'

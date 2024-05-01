@@ -1,0 +1,79 @@
+folder: riV8qst3SvT2320y
+name: Tea Reading
+type: spell
+img: icons/consumables/drinks/tea-jug-glowing-brown-pink.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-0f27787a-7fff-a6fa-b4df-e0cd732b5e7c"
+      dir="ltr">You look to the patterns of tea leaves to divine some aspect of
+      the drinker&rsquo;s immediate future. For the next hour, the creature who
+      drank the tea may reroll one failed ability check of their choosing.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - material
+    - ritual
+  materials:
+    value: an empty mug with spent tea leaves
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+    rareSpell: false
+_id: ylgr0p9ygj9bhea6
+_key: '!items!ylgr0p9ygj9bhea6'

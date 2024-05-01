@@ -1,0 +1,31 @@
+name: Covert Skills
+type: feat
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You learn to blend in wherever you need to, fight with what you have,
+      observe without being observed, and get away cleanly. You gain proficiency
+      with:</p><ul><li><p>Stealth skill</p></li><li><p>Deception
+      skill</p></li><li><p>Culture skill</p></li><li><p>Thieves’
+      Tools</p></li><li><p>Disguise
+      Kit</p></li><li><p>Garrote</p></li><li><p>Improvised
+      Weapons</p></li></ul><p>Improvised weapons are considered adept weapons
+      for you.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: l8n4d3tb4ce17uc5
+_key: '!items!l8n4d3tb4ce17uc5'

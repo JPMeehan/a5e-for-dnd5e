@@ -122,11 +122,10 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants:
-          - tool:disg
-          - tool:thief
+          - skills:disguiseKit
+          - skills:thievesTools
         choices:
           pool: []
           count: 0

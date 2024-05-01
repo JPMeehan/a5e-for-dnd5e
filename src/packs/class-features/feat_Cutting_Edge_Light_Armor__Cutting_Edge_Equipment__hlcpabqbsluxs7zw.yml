@@ -1,0 +1,59 @@
+folder: null
+name: Cutting-Edge Light Armor (Cutting-Edge Equipment)
+type: feat
+img: icons/equipment/chest/vest-leather-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-16c150ff-7fff-d98b-58c5-c3ee6034271b">You
+      gain a climb speed equal to your walking speed and you are permanently
+      under a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kz3xe6ems34f2ubo]{Spider
+      Climb}</span>&nbsp;effect while you are wearing it.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Advanced Armor
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.hlcpabqbsluxs7zw
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Cutting-Edge Light Armor (Cutting-Edge Equipment)
+    _id: IS0ekHFjR6rn0gwB
+    changes:
+      - key: system.attributes.ac
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.attributes.movement.climb.distance
+        mode: 5
+        value: '@movement.walk.distance'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!hlcpabqbsluxs7zw.IS0ekHFjR6rn0gwB'
+flags: {}
+_id: hlcpabqbsluxs7zw
+_key: '!items!hlcpabqbsluxs7zw'

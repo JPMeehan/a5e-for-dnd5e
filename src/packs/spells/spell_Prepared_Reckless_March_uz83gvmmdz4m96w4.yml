@@ -28,8 +28,9 @@ system:
       an expertise die to the Constitution saving throw.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Gate Pass Gazette
     license: OGL 1.0a
+    page: '#15'
   level: 2
   school: trs
   properties:
@@ -55,10 +56,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 4
     width: null
     units: ''
-    type: space
+    type: creature
   range:
     value: 30
     long: null

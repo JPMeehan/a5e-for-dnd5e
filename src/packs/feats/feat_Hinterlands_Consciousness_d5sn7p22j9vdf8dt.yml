@@ -1,0 +1,38 @@
+name: Hinterlands Consciousness
+type: feat
+img: icons/magic/nature/root-vines-face-glow-green.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have attuned your mind to the natural world. You gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li>Your Wisdom score or your Intelligence score increases by +1, to a
+      maximum of 20.</li>
+
+      <li>While you have <em>Psychic Focus</em> active, you treat areas that are
+      lightly obscured as if they were not obscured.</li>
+
+      <li>You may apply basic <em>Psionic Augments</em> to your ranged weapon
+      attacks.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in Esper, 3 levels in Ranger
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: d5sn7p22j9vdf8dt
+_key: '!items!d5sn7p22j9vdf8dt'

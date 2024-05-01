@@ -101,6 +101,12 @@ effects:
         value: '1'
         mode: 2
         priority: null
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Mark of
+          Puissance","formula":"1d4","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/symbols/runes-etched-steel-blade.webp"}
+        mode: 0
+        priority: null
     disabled: false
     duration:
       startTime: null

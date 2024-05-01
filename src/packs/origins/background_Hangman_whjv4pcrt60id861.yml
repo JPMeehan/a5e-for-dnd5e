@@ -86,10 +86,9 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants:
-          - tool:pois
+          - skills:poisonersKit
         choices:
           pool: []
           count: 0

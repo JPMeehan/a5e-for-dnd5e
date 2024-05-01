@@ -1,0 +1,69 @@
+folder: null
+name: Draconic Menace
+type: feat
+img: icons/creatures/eyes/lizard-single-slit-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you take on some of the terrifying aspects of
+      dragonkind. While you are raging, a hostile creature that begins its turn
+      within 10 feet of you must make a Wisdom save against your maneuver DC or
+      be rattled until it moves more than 10 feet away from you or you stop
+      raging. A creature that fails the save by more than 5 is frightened in
+      addition to rattled. A creature that fails the save by more than 10 also
+      gains a level of strife.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: '10'
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: nhqhwjkt0ianbtbi
+_key: '!items!nhqhwjkt0ianbtbi'

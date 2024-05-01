@@ -362,7 +362,7 @@ system:
           '0': 1
     - _id: uu9kRegrZc27CKVT
       type: ItemChoice
-      level: 0
+      level: 10
       configuration:
         pool:
           - uuid: Compendium.undefined.Item.v8nqvrq1n4ieiuve
@@ -372,7 +372,7 @@ system:
         choices:
           '0': 1
   movement:
-    walk: 30
+    walk: 25
     hover: false
 effects: []
 flags: {}

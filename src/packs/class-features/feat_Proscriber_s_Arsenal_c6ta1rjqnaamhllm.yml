@@ -1,0 +1,31 @@
+folder: null
+name: Proscriber's Arsenal
+type: feat
+img: icons/environment/people/spearfighter.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <blockquote>
+
+      <p>You receive training in some additional armaments.</p>
+
+      </blockquote>
+
+      <p>You gain proficiency with <em>light armor</em>, <em>battle books</em>,
+      and two <em>one-handed martial melee weapons</em> of your choice.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Wizard level 2, Proscriber archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: c6ta1rjqnaamhllm
+_key: '!items!c6ta1rjqnaamhllm'

@@ -1,0 +1,82 @@
+name: Undo Calamity
+type: feat
+img: icons/environment/settlement/building-rubble.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 17th level, you can perform a special ritual to give a
+      community a head-start on recovering from a natural disaster, war, monster
+      attack, or other large-scale event. To perform the ritual, you must spend
+      8 hours in uninterrupted work in a single location and it costs 1000 gp in
+      material components. When the ritual completes, you may specify up to
+      1,000 targets of
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pblaa5w3f6tuqxuj]{Mending}
+      effects, up to 50 targets of
+      @UUID[Compendium.a5e.a5e-spells.Item.fe2d3gkhdwtibizq]{Purify Food and
+      Drink} effects, and up to 5
+      @UUID[Compendium.a5e.a5e-spells.Item.tk8q47k7yjntw4c2]{Fabricate}
+      effects.</p>
+
+      <p dir="ltr">In addition, you may choose one structure that has suffered
+      damage, such as an Inn, Tower, or Main Gate and fully repair it using
+      rubble or nearby raw materials. A massive castle, long road, or city walls
+      may only be partially repaired by this ability, subject to Narrator
+      discretion. All of the effects must take place within 1 mile of your
+      position. Once you have used this feature, you can&rsquo;t do so again for
+      7 days.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Archetype Shepherd, Cleric 17
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 8
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_id: jbjocdb9my8yaj18
+_key: '!items!jbjocdb9my8yaj18'

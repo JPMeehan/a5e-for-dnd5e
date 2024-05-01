@@ -1,0 +1,28 @@
+folder: null
+name: Ears for Trouble
+type: feat
+img: icons/creatures/mammals/bat-movement-flying-blue-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 7th level, you have become especially good at detecting
+      the sounds of trouble and distress. You have advantage on Perception
+      checks based on hearing, and the DC of Perception checks to perceive
+      screams, shouts for help, the sounds of combat and other audible
+      indicators of violence or distress are lowered by 5 for you.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Byway Defender Archetype, Ranger 7
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: gnndpl9snif48mo7
+_key: '!items!gnndpl9snif48mo7'

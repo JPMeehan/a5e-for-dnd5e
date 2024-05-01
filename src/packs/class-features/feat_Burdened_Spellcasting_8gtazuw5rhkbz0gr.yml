@@ -1,0 +1,55 @@
+folder: null
+name: Burdened Spellcasting
+type: feat
+img: icons/magic/unholy/hand-weapon-glow-black-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-c13b878b-7fff-d0f1-7b5b-7d50d0965343"
+      dir="ltr">Your strength of personality is the only thing that can hold the
+      curse of your artifact in check and allow you to use its power. Your
+      spellcasting ability is Charisma and you use your Charisma modifier for
+      the purposes of your spellcasting and your bonded artifact feature.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/unholy/hand-weapon-glow-black-green.webp
+    origin: Item.8gtazuw5rhkbz0gr
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Burdened Spellcasting
+    _id: UEMGQWYiqVQXa8AJ
+    changes:
+      - key: system.attributes.spellcasting
+        value: cha
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!8gtazuw5rhkbz0gr.UEMGQWYiqVQXa8AJ'
+flags: {}
+_id: 8gtazuw5rhkbz0gr
+_key: '!items!8gtazuw5rhkbz0gr'

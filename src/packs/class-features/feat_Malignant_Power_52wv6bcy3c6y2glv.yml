@@ -1,0 +1,71 @@
+folder: null
+name: Malignant Power
+type: feat
+img: icons/magic/unholy/hand-light-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-e7f04ffb-7fff-bd39-b98d-d3f9aaf60d69"
+      dir="ltr">At 6th level, you have learned to wrest more power from your
+      artifact&rsquo;s curse, but not without cost. As a bonus action, you can
+      recover spent artifact charges equal to your proficiency bonus, but you
+      take an equal number of d8s of necrotic damage when you do. Once you have
+      used this feature, you can&rsquo;t do so again until you finish a short
+      rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - (@prof)d8
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 52wv6bcy3c6y2glv
+_key: '!items!52wv6bcy3c6y2glv'

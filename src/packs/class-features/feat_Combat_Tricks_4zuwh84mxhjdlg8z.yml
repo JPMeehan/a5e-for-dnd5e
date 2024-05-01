@@ -1,0 +1,30 @@
+folder: null
+name: Combat Tricks
+type: feat
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level, you learn to use your penchant for trickery when the
+      violence starts. You gain an exertion pool equal to your proficiency bonus
+      and learn the
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.1tlg3vkknnt70t9y]{Painful
+      Pickpocket} and
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.in4j4fk4u1drzsay]{Leading Throw}
+      maneuvers.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 4zuwh84mxhjdlg8z
+_key: '!items!4zuwh84mxhjdlg8z'

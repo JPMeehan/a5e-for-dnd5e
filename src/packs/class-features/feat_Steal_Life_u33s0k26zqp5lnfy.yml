@@ -1,0 +1,27 @@
+name: Steal Life
+type: feat
+img: icons/magic/control/energy-stream-link-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at level 10, you learn to steal life from your enemies as you
+      strike them down. Whenever you reduce a creature to 0 hit points, you
+      regain a number of hit points equal to the damage die of your Deadly
+      Strikes</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: u33s0k26zqp5lnfy
+_key: '!items!u33s0k26zqp5lnfy'

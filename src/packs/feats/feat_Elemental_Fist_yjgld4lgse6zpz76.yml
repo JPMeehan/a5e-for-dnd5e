@@ -1,0 +1,82 @@
+folder: null
+name: Elemental Fist
+type: feat
+img: icons/magic/fire/flame-burning-fist-strike.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to merge your mastery of the elements and your mastery
+      of yourself into a harmonious and powerful whole. You gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li>Your Dexterity, Intelligence, Wisdom, or Charisma score increases by
+      1, to a maximum of 20.</li>
+
+      <li>You can change your elementalist spellcasting ability to Wisdom if you
+      desire. Once made, this choice is permanent.</li>
+
+      <li>When you use your <em>Long Step</em> to dash, you can spend a spell
+      point to leave behind a damaging trail of an element you have elemental
+      affinity with in each space you move through. The effect deals a number of
+      d6s of damage of a type your elemental blast can deal equal to your
+      proficiency bonus to creatures that enter an affected space for the first
+      time on their turn or who start their turn there. The trail extends 5 feet
+      up from the surface you moved across and persists until the beginning of
+      your next turn.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Burning Gloom'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in adept, 3 levels in elementalist
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: yjgld4lgse6zpz76
+_key: '!items!yjgld4lgse6zpz76'

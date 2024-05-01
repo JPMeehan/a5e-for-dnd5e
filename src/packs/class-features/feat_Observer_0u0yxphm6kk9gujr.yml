@@ -1,0 +1,25 @@
+name: Observer
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You refine your ability to surveil others. You gain the
+      @UUID[Compendium.a5e.a5e-feats.Item.10xyiadnukdy9xg9]{Intuitive} feat.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: 0u0yxphm6kk9gujr
+_key: '!items!0u0yxphm6kk9gujr'

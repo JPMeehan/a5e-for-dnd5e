@@ -1,0 +1,32 @@
+name: Dense Fur
+type: feat
+img: icons/commodities/leather/fur-brown-gold.webp
+effects: []
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your coat is naturally thick, granting you both physical protection and
+      resistance to the cold. You gain the following benefits:</p>
+
+      <p><strong>Winter Coat.</strong> You gain resistance to cold damage.</p>
+
+      <p><strong>Guard Fur.</strong> Your dense fur includes both a soft inner
+      layer and a coarse, protective outer layer. Your AC equals 12 + your
+      Dexterity modifier, unless your armor provides a higher value. You can
+      still benefit from shields as normal.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: p9lxxgr68is8gf64
+_key: '!items!p9lxxgr68is8gf64'

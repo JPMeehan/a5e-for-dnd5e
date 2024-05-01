@@ -1,0 +1,68 @@
+name: Touch of Winter
+type: feat
+img: icons/magic/water/projectile-icecicle.webp
+effects: []
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the ray of frost cantrip. You can cast burning hands once per
+      long rest, dealing cold damage instead of fire damage. Your spellcasting
+      ability for these spells is your choice of Constitution, Intelligence,
+      Wisdom, or Charisma.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+_id: stvpa35ah7t941ki
+_key: '!items!stvpa35ah7t941ki'

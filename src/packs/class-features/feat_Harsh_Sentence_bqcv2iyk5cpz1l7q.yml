@@ -1,0 +1,67 @@
+name: Harsh Sentence
+type: feat
+img: icons/skills/melee/strike-axe-energy-pink.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain the ability to infuse your attacks with the power of judgment.
+      Once per turn, when you hit a creature with a weapon attack, your attack
+      deals an additional 1d6 psychic damage and the creature’s movement speed
+      is halved.</p><p>At 14th level, this bonus damage increases to 2d6 and the
+      creature is also rattled.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: bqcv2iyk5cpz1l7q
+_key: '!items!bqcv2iyk5cpz1l7q'

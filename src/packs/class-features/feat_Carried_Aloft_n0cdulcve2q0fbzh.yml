@@ -1,0 +1,128 @@
+name: Carried Aloft
+type: feat
+img: icons/magic/lightning/projectile-orb-blue.webp
+effects:
+  - icon: icons/magic/lightning/projectile-orb-blue.webp
+    origin: Item.KindX1bApWUD0fkx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: a99mC1cLREDRgONt
+        applyToSelf: true
+    transfer: false
+    name: Carried Aloft
+    _id: DSCejpPVdmVPSz4Y
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '50'
+        mode: 6
+        priority: null
+      - key: system.attributes.movement.traits.hover
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Beginning at 10th level, your mastery over the power of storms allows
+      you to ride them. While you are outdoors and able to see the clouds or
+      sky, you gain a fly speed of 50 feet and may hover. The benefits from this
+      ability only apply while you are in your natural form or while in a Wild
+      Shape with a fly speed.</p>
+
+      <p>While you are at least 50 feet off the ground, you also gain a
+      thunderbolt attack. This is a ranged spell attack dealing 1d8 lightning
+      damage and 1d8 + your Wisdom modifier of thunder damage. It has a range of
+      150/600 feet (per a ranged weapon) and the damage can be modified by your
+      Thunderstruck ability. At 15th level, the lightning damage increases to
+      2d8.</p>
+
+      <p>While you are at least 50 feet off the ground, you may expend a use of
+      your Wild Shape ability as an action to cause the area within 300 feet of
+      you to be affected by the Heavy Precipitation encounter element (your
+      choice of rain or snow). This effect lasts for 10 minutes or until you end
+      the effect as a bonus action. The weather clears after the effect ends,
+      but the precipitation that falls is real and behaves normally.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!n0cdulcve2q0fbzh.DSCejpPVdmVPSz4Y'
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 10th level, your mastery over the power of storms allows
+      you to ride them. While you are outdoors and able to see the clouds or
+      sky, you gain a fly speed of 50 feet and may hover. The benefits from this
+      ability only apply while you are in your natural form or while in a Wild
+      Shape with a fly speed. </p><p>While you are at least 50 feet off the
+      ground, you also gain a thunderbolt attack. This is a ranged spell attack
+      dealing 1d8 lightning damage and 1d8 + your Wisdom modifier of thunder
+      damage. It has a range of 150/600 feet (per a ranged weapon) and the
+      damage can be modified by your Thunderstruck ability. At 15th level, the
+      lightning damage increases to 2d8.</p><p>While you are at least 50 feet
+      off the ground, you may expend a use of your Wild Shape ability as an
+      action to cause the area within 300 feet of you to be affected by the
+      Heavy Precipitation encounter element (your choice of rain or snow). This
+      effect lasts for 10 minutes or until you end the effect as a bonus action.
+      The weather clears after the effect ends, but the precipitation that falls
+      is real and behaves normally.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: n0cdulcve2q0fbzh
+_key: '!items!n0cdulcve2q0fbzh'

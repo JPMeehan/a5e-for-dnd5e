@@ -1,0 +1,36 @@
+folder: null
+name: Sealed Soul
+type: feat
+img: icons/magic/holy/barrier-shield-winged-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <blockquote>
+
+      <p>You undergo a hardening of your soul.</p>
+
+      </blockquote>
+
+      <p>Your soul cannot be trapped, imprisoned, or destroyed. Any effects that
+      would normally do one of these things simply fail. When you die, your soul
+      goes directly and immediately to its final judgment, preventing <em>Speak
+      with Dead</em> from functioning on your corpse. If you are returned to
+      life with the <em>Reincarnate</em> spell, you return as the same
+      individual you were before the spell was cast, down to scars, tattoos, and
+      other distinguishing marks.&nbsp;</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Wizard level 2, Proscriber archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: p8gt7t87xjh7u7vm
+_key: '!items!p8gt7t87xjh7u7vm'

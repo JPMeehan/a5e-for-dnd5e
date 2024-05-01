@@ -93,7 +93,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Dungeon Delver's Guide
     license: OGL 1.0a
   advancement:
     - _id: rEMCue7sUAuJee1y
@@ -126,10 +126,9 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants:
-          - tool:thief
+          - skills:thievesTools
         choices:
           pool: []
   startingEquipment: []

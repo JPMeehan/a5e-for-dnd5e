@@ -1,0 +1,70 @@
+folder: null
+name: Tactical Timing
+type: feat
+img: icons/skills/movement/arrow-upward-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-5d61fac9-7fff-812a-d22c-c7ad2bec6471"
+      dir="ltr">At 14th level, in response to another creature's movement or
+      action, as a reaction you can direct up to 2 friendly creatures (one of
+      which can be you) to take the Dash action or make a single weapon attack
+      with no action required. Once you have used this feature a number of times
+      equal to your Intelligence modifier, you can&rsquo;t do so again until you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Another creature's movement or action
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: n2akejhk4zejrymq
+_key: '!items!n2akejhk4zejrymq'

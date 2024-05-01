@@ -1,7 +1,6 @@
-folder: null
 name: Ambush Predator
 type: feat
-img: icons/creatures/invertebrates/spider-dotted-green.webp
+img: icons/creatures/invertebrates/spider-skull-green.webp
 system:
   type:
     value: class
@@ -15,9 +14,6 @@ system:
       by an amount equal to your martial arts die. When you use this ability,
       you can spend a number of exertion points up to your proficiency
       bonus.</p>
-
-      <p>[[/r 1d4 #d4 die]] [[/r 1d6 #d6 die]] [[/r 1d8 #d8 die]] [[/r 1d10 #d10
-      die]] [[/r 1d12 #d12 die]]</p>
     chat: ''
   source:
     book: ''
@@ -27,34 +23,46 @@ system:
   recharge:
     value: null
     charged: true
-effects:
-  - icon: icons/creatures/invertebrates/spider-dotted-green.webp
-    origin: Item.YfIhmGZl4FNW72Qk
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Climb
-    _id: Ab7fJLDUBAGdPofT
-    changes:
-      - key: system.attributes.movement.climb.distance
-        value: '30'
-        mode: 2
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!bimndjkzw0l3qy0y.Ab7fJLDUBAGdPofT'
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
 flags: {}
 _id: bimndjkzw0l3qy0y
 _key: '!items!bimndjkzw0l3qy0y'

@@ -1,0 +1,98 @@
+folder: null
+name: Living Shadow (Shadowed)
+type: feat
+img: icons/magic/unholy/hand-light-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-7e574256-7fff-ed4f-4c81-066193443f1c"
+      dir="ltr">At 18th level, while you are in darkness or magical darkness,
+      you are invisible, you are immune to necrotic damage, and the DC of your
+      Affliction school spells increases by 1.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/hand-light-pink.webp
+    origin: Item.pknebms7a0hm4ojn
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 7MWlPsnVeyAhYCvg
+        applyToSelf: true
+    transfer: false
+    name: Living Shadow
+    _id: bpSF3HK7eNZadpFD
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+      - key: system.traits.damageImmunities
+        value: '["necrotic"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - invisible
+    folder: null
+    _key: '!items.effects!pknebms7a0hm4ojn.bpSF3HK7eNZadpFD'
+flags: {}
+_id: pknebms7a0hm4ojn
+_key: '!items!pknebms7a0hm4ojn'

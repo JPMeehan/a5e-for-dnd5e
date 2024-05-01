@@ -1,0 +1,74 @@
+name: 'Connection to the Divine : Shroud of Punishment'
+type: feat
+img: icons/magic/holy/barrier-shield-winged-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 6th level, your dualistic abilities continue to develop.
+      When you chose your path, you designate a number of creatures equal to
+      your proficiency bonus. You and the selected creatures benefit as
+      follows:</p>
+
+      <h3 dir="ltr">Shroud of Punishment</h3>
+
+      <p dir="ltr">If you choose Path of the Dark, whenever you or one of the
+      selected creatures deals damage while within the area of your gloom, you
+      can choose to have the attack deal additional damage equal to your
+      intelligence modifier. This extra damage can only occur once per
+      round.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Archetype Mystic, Esper 6
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_id: 6udq9ze0w83t3wsa
+_key: '!items!6udq9ze0w83t3wsa'

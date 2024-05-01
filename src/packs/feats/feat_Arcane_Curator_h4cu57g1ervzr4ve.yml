@@ -1,0 +1,138 @@
+folder: null
+name: Arcane Curator
+type: feat
+img: icons/skills/trades/mining-pickaxe-stone-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-7a817f9c-7fff-d5b2-02dd-bd1e896ff41a"
+      dir="ltr">You have become a true expert on enchanted items and your
+      familiarity allows you to do things that most cannot with the magic items
+      you wield. You gain the following benefits:</p>
+
+      <ul>
+
+      <li dir="ltr">Your Intelligence or wielder spellcasting ability increases
+      by 1, to a maximum of 20.</li>
+
+      <li dir="ltr" role="presentation">You can attune a 4th magic item.</li>
+
+      <li dir="ltr" role="presentation">Your attunement ending benefit from
+      Antiquity Expert can now be used a number of times equal to half your
+      proficiency bonus between long rests. In addition, when you use it, you
+      can emit a pulse of magical energy that interferes with the magic of
+      others. Hostile creatures within 30 feet of you that are concentrating
+      must make a Wisdom save against your wielder spell save DC or lose
+      concentration.</li>
+
+      <li dir="ltr" role="presentation">As an action, you can spend artifact
+      charges to restore charges to a magic item that has them.&nbsp;
+
+      <ul>
+
+      <li dir="ltr" role="presentation">You can restore a charge to a common
+      item by spending 1 artifact charge.</li>
+
+      <li dir="ltr" role="presentation">You can restore a charge to an uncommon
+      item by spending 2 artifact charges.</li>
+
+      <li dir="ltr" role="presentation">You can restore a charge to a rare item
+      by spending 4 artifact charges.</li>
+
+      <li dir="ltr" role="presentation">You can restore a charge to a very rare
+      item by spending 6 artifact charges.</li>
+
+      <li dir="ltr" role="presentation">You cannot restore charges to legendary
+      items or artifacts this way, and if an item normally has a finite number
+      of charges that do not replenish in any other way (such as in the case of
+      a @UUID[Compendium.a5e.a5e-adventuring-gear.Item.js4qafwc3t10mb4k]{Nine
+      Lives Stealer}), you also cannot restore those charges with this
+      benefit.</li>
+
+      </ul>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: Antiquity Expert feat
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/trades/mining-pickaxe-stone-blue.webp
+    origin: Item.h4cu57g1ervzr4ve
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Arcane Curator
+    _id: vy0Mhg4nyW1ZfCj8
+    changes:
+      - key: system.attributes.attunement.max
+        value: '4'
+        mode: 5
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!h4cu57g1ervzr4ve.vy0Mhg4nyW1ZfCj8'
+flags: {}
+_id: h4cu57g1ervzr4ve
+_key: '!items!h4cu57g1ervzr4ve'

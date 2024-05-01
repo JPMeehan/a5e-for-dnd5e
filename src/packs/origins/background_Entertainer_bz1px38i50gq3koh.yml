@@ -139,27 +139,26 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants:
-          - tool:game:dice
-          - tool:game:chess
-          - tool:game:card
-          - tool:music:bagpipes
-          - tool:music:casaba
-          - tool:music:castanet
-          - tool:music:drum
-          - tool:music:dulcimer
-          - tool:music:flute
-          - tool:music:harp
-          - tool:music:horn
-          - tool:music:lute
-          - tool:music:lyre
-          - tool:music:maraca
-          - tool:music:ocarina
-          - tool:music:panflute
-          - tool:music:trombone
-          - tool:music:viol
+          - skills:diceSet
+          - skills:boardGameSet
+          - skills:playingCardSet
+          - skills:bagpipes
+          - skills:casaba
+          - skills:castanet
+          - skills:drum
+          - skills:dulcimer
+          - skills:flute
+          - skills:harp
+          - skills:horn
+          - skills:lute
+          - skills:lyre
+          - skills:maraca
+          - skills:ocarina
+          - skills:panFlute
+          - skills:trombone
+          - skills:violin
         choices:
           pool: []
           count: 0

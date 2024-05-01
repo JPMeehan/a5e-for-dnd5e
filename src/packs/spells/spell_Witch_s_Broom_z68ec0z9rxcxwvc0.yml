@@ -1,0 +1,84 @@
+folder: Tw5cqPbIxtfMfhDz
+name: Witch’s Broom
+type: spell
+img: icons/tools/hand/broom-straw-brown.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-298f3c66-7fff-30cb-234a-060660145fc3"
+      dir="ltr">You touch a broom and bring it to life. The broom stands and
+      moves on its own, and will follow you unless commanded to stay in place.
+      You may issue basic commands to the broom, such as instructing it on a
+      specific spot that needs cleaning. If no commands are issued, the broom
+      will start to idly clean the immediate area. An animated broom can
+      completely sweep a 10-foot by 10-foot space in 1 minute, thoroughly
+      removing dust, debris, and signs of foot traffic, such as tracks.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 0
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a broom
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+      - utility
+    rareSpell: false
+_id: z68ec0z9rxcxwvc0
+_key: '!items!z68ec0z9rxcxwvc0'

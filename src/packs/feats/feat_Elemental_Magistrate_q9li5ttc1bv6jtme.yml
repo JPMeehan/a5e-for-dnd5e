@@ -1,0 +1,45 @@
+name: Elemental Magistrate
+type: feat
+img: icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to combine the power granted by your elemental
+      abilities and bonded artifact in ways few can fathom, much less
+      emulate.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>You gain a +1 bonus to your choice of your Intelligence, Wisdom, or
+      Charisma score, to a maximum value of 20.</li>
+
+      <li>If a spell appears on both the elemental and wielder lists, you may
+      treat your elementalist levels as wielder levels for the purpose of
+      learning and casting it. For example, if a 4th-level spell appears on both
+      your elementalist and wielder lists, you may learn it if your combined
+      wielder and elementalist levels total at least 13.</li>
+
+      <li>Half your wielder levels count as elementalist levels for the purpose
+      of what Elemental Defense options you have access to.</li>
+
+      <li>While wielding your Bonded Artifact, your elemental blast&rsquo;s
+      range increases by 30 feet.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Curator feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: q9li5ttc1bv6jtme
+_key: '!items!q9li5ttc1bv6jtme'

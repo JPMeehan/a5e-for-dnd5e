@@ -1,0 +1,156 @@
+folder: null
+name: Greater Twisted Affliction (Unmoored)
+type: feat
+img: icons/magic/unholy/projectile-spear-glow-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-dfb07ad6-7fff-5d5c-d15a-8bf6d1b2a34c"
+      dir="ltr">Also at 10th level, you have learned to direct more of the power
+      of your curse outward. What form this takes depends on your Artifact
+      Affliction:</p>
+
+      <ul>
+
+      <li dir="ltr"><strong>Unmoored:</strong> You can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pdvg7c9emjgnib07]{Confusion}
+      without using a spell slot once per long rest.</li>
+
+      <li dir="ltr" role="presentation"><strong>Paranoid:</strong> You can cast
+      @UUID[Compendium.a5e.a5e-spells.Item.4rawhkoa81x8uqs0]{Resilient Sphere}
+      without using a spell slot once per long rest.</li>
+
+      <li dir="ltr" role="presentation"><strong>Troubled:</strong> You can
+      cast@UUID[Compendium.a5e.a5e-spells.Item.6y4rq48okutkormg]{Phantasmal
+      Killer} without using a spell slot once per long rest.</li>
+
+      <li dir="ltr" role="presentation"><strong>Fettered:</strong> You can cast
+      @UUID[Compendium.a5e.a5e-spells.Item.67ex7mn5kkutvnqn]{Black Tentacles}
+      without using a spell slot once per long rest.</li>
+
+      <li dir="ltr" role="presentation"><strong>Gravebound:</strong> You can
+      cast @UUID[Compendium.a5e.a5e-spells.Item.2q65v0xklhfx73to]{Blight}
+      without using a spell slot once per long rest.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '10'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/sonic/projectile-sound-rings-wave.webp
+    origin: Item.vvzwa9l1woi7jwlq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jqb7BKBuOfS5Z1n8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Confused
+    _id: APjUmpvHpUXKHE3q
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["confused"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>At the end of each of its turns, a confused target makes a Wisdom
+      saving throw to end the spell's effects on it.</p>
+    statuses:
+      - confused
+    folder: null
+    _key: '!items.effects!vvzwa9l1woi7jwlq.APjUmpvHpUXKHE3q'
+  - icon: icons/magic/sonic/projectile-sound-rings-wave.webp
+    origin: Item.vvzwa9l1woi7jwlq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jqb7BKBuOfS5Z1n8
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    _id: akprtVe9HKmWcxe3
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!vvzwa9l1woi7jwlq.akprtVe9HKmWcxe3'
+flags: {}
+_id: vvzwa9l1woi7jwlq
+_key: '!items!vvzwa9l1woi7jwlq'

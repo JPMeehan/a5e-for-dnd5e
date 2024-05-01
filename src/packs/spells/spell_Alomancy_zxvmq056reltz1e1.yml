@@ -1,0 +1,86 @@
+folder: KpVFJJxpHWw9kEfV
+name: Alomancy
+type: spell
+img: icons/consumables/food/salt-seasoning-spice-pink.webp
+system:
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-a6a5f413-7fff-ea89-536f-c0f1f8ad7442">You
+      cast a handful of salt into the fire and use the patterns of the flames to
+      divine the moment where you will either help or hinder. If you perform
+      this reading for a friendly creature (including yourself), the next time
+      that creature fails a saving throw or ability check in the next 8 hours,
+      they may immediately reroll the triggering save or check and add your
+      spellcasting modifier to the roll. If you perform this reading for an
+      unfriendly creature and they succeed on a saving throw or ability check,
+      they must immediately reroll the triggering save or check, subtracting
+      your spellcasting modifier from the roll. The triggering creature must use
+      the result of the second roll, even if it is worse.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 2
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a source of flame and a handful of salt
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+    rareSpell: false
+_id: zxvmq056reltz1e1
+_key: '!items!zxvmq056reltz1e1'

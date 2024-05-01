@@ -1,0 +1,38 @@
+name: Elemental Divination
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Starting at 1st level when you choose this archetype, the
+      intercession of elemental forces you call also offer up insights on things
+      to come. When you cast a spell from your archetype spell list of 1st-level
+      or higher, choose a number of targets up to the spell&rsquo;s level,
+      chosen from yourself and friendly creatures you can see or hear within
+      thirty feet of you. Distribute a number of elemental divination dice among
+      these targets totalling the spell&rsquo;s level.</p>
+
+      <p dir="ltr">Creatures can spend your elemental divination dice to add an
+      expertise die on any roll they make. If a creature is subject to your
+      elemental divination more than once, their remaining elemental divination
+      dice stack with the new. All of a character&rsquo;s elemental divination
+      dice disappear 1 minute after the last one they received.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 6m5ge0pdl8325knn
+_key: '!items!6m5ge0pdl8325knn'

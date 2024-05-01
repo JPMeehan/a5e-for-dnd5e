@@ -1,0 +1,100 @@
+folder: null
+name: Shadowed Potency
+type: feat
+img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-11338a31-7fff-44ea-bf01-966fab1319ec">Also
+      at 14th level, you draw strength from the darkness. At the start of your
+      turn, if you are in darkness or magical darkness, you gain temporary hit
+      points equal to your proficiency bonus + your Intelligence modifier and
+      any movement speeds you have increase by 10 feet until the end of your
+      turn. </span></p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof + @mod'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/hand-fire-skeleton-pink.webp
+    origin: Item.npvlfqnz25aiv937
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5i7NjBYLGOoPJ4Lc
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Shadowed Potency
+    _id: tNt5DzATUx2NyCAS
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '10'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!npvlfqnz25aiv937.tNt5DzATUx2NyCAS'
+flags: {}
+_id: npvlfqnz25aiv937
+_key: '!items!npvlfqnz25aiv937'

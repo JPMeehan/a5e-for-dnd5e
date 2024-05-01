@@ -1,0 +1,31 @@
+name: Mushroom Rations
+type: feat
+img: icons/consumables/mushrooms/ovate-thin-blue.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level, you learn to sprout edible mushrooms from any nearby
+      organic material. As an action, as long as there is some dead organic
+      material weighing at least 10 pounds around (including soil, bodies,
+      wooden furniture or tools, etc.) you may spend a use of Wild Shape to
+      create a number of edible mushrooms equal to your proficiency bonus. The
+      mushrooms only stay nutritious for a day, but each counts as a unit of
+      Supply and grants a creature that eats it resistance to poison damage and
+      immunity to the poisoned condition for 8 hours.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: tdw6ndwkbme46zdh
+_key: '!items!tdw6ndwkbme46zdh'

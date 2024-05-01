@@ -1,0 +1,28 @@
+folder: null
+name: Antitoxin Module (Advanced Equipment)
+type: feat
+img: icons/consumables/potions/bottle-conical-corked-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr" role="presentation">The automaton gains three charges which
+      stack with the ones from Autonomous Medic (if applicable). It can spend a
+      charge to neutralize one poison with a DC of 15 or lower in a creature it
+      can touch. It regains all spent charges when you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Upgraded Automaton
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 540bjniwggoejack
+_key: '!items!540bjniwggoejack'

@@ -1,0 +1,95 @@
+folder: null
+name: Upgraded Light Armor (Equipment Upgrade)
+type: feat
+img: icons/equipment/chest/vest-leather-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-b33465f2-7fff-5572-df2a-742af54489a5">Your
+      armor is outfitted with a stealth system. As a bonus action, you can cause
+      yourself to fade from sight, becoming lightly obscured for one minute.
+      Once you have used this ability a number of times equal to your
+      proficiency bonus, you can&rsquo;t do so again until you finish a long
+      rest.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.jqfxdavk1qpiw42z
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Upgraded Light Armor (Equipment Upgrade)
+    _id: 8kkgczzimCx67Thl
+    changes:
+      - key: system.attributes.ac
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!jqfxdavk1qpiw42z.8kkgczzimCx67Thl'
+flags: {}
+_id: jqfxdavk1qpiw42z
+_key: '!items!jqfxdavk1qpiw42z'

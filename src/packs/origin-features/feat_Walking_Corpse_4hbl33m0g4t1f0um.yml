@@ -1,0 +1,27 @@
+name: Walking Corpse
+type: feat
+img: icons/magic/death/undead-zombie-grave-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your creature type is both Humanoid and
+      Undead<strong><em>.</em></strong> You do not need to breathe. When a
+      creature would deal you necrotic damage, at their option they can heal you
+      for that amount instead.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: z476XZt1iG4Mb7VJ
+_id: 4hbl33m0g4t1f0um
+_key: '!items!4hbl33m0g4t1f0um'

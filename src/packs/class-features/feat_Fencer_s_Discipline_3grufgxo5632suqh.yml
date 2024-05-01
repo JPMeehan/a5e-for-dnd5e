@@ -1,0 +1,72 @@
+name: Fencer's Discipline
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your gaze and your weapon strikes become one. Attempts by creatures to
+      use a fear effect or the Intimidate skill on you provoke attacks of
+      opportunity from you. If you hit&nbsp; such a provoking creature with the
+      opportunity attack, the creature must make a Constitution saving throw
+      against your maneuver DC or have the effect immediately
+      canceled.&nbsp;</p><p>You have advantage on checks to penetrate nonverbal
+      deception, such as Intelligence checks to disbelieve illusions and Insight
+      checks to read another creature’s body language.&nbsp;</p><p>Finally, you
+      learn how to replenish yourself even in combat. If you do not make any
+      attacks in a round, at the beginning of your next turn you may roll your
+      martial arts die and regain that much exertion. Once you do, you may not
+      do so again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: 3grufgxo5632suqh
+_key: '!items!3grufgxo5632suqh'

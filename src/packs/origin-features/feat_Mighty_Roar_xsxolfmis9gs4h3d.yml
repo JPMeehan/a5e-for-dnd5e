@@ -1,0 +1,39 @@
+name: Mighty Roar
+type: feat
+img: icons/creatures/abilities/lion-roar-yellow.webp
+effects: []
+folder: z476XZt1iG4Mb7VJ
+flags:
+  a5e:
+    placeTemplate: true
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Channeling your strength and pride, you can drive away enemies with a
+      mighty roar. You gain the following benefits:</p>
+
+      <p><strong>Mighty Roar.</strong> You can unleash your mighty roar as a
+      bonus action. Enemy creatures who can hear you within 10 feet must make a
+      Wisdom saving throw (DC 8 + your proficiency bonus + either your
+      Constitution or Charisma modifier) or become frightened of you for 1
+      minute. Creatures that succeed at this save cannot be affected again by it
+      for 24 hours. Once you use this trait, you can&rsquo;t use it again until
+      you finish a short or long rest.</p>
+
+      <p><em>Foundry Note: configure saving throw DC accordingly.</em></p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: xsxolfmis9gs4h3d
+_key: '!items!xsxolfmis9gs4h3d'

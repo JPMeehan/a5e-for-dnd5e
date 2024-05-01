@@ -1,0 +1,98 @@
+folder: null
+name: Wrathful Distortion
+type: feat
+img: icons/magic/movement/trail-streak-impact-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, your fury becomes so powerful that you can tear reality
+      itself asunder. While raging, you can see into the Ethereal Plane and
+      attack creatures there as if they were on the Material Plane.&nbsp;</p>
+
+      <p>You also learn to take short trips through the Ethereal Plane. While
+      raging, you may spend 3 exertion points to be affected as per the
+      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.kv7igcz0o825new0]{Etherealness}</em>&nbsp;spell
+      until your rage ends.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/movement/trail-streak-impact-blue.webp
+    origin: Item.y6GlT28ZCJ3h1Cti
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 87ooKtFeLoluYUJt
+        applyToSelf: true
+    transfer: false
+    name: Wrathful Distortion
+    _id: RucPsT4fH40zeBXK
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>While raging, you can see into the Ethereal Plane and attack creatures
+      there as if they were on the Material Plane.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!igpys2rjt1swfvdm.RucPsT4fH40zeBXK'
+flags: {}
+_id: igpys2rjt1swfvdm
+_key: '!items!igpys2rjt1swfvdm'

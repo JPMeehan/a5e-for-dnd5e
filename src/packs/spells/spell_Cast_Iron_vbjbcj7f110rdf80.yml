@@ -1,0 +1,87 @@
+folder: Tw5cqPbIxtfMfhDz
+name: Cast Iron
+type: spell
+img: icons/tools/cooking/soup-ladle.webp
+system:
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-68d438f4-7fff-be24-0ccc-4bd2de8f8112">You
+      magically transmute a mundane, harmless household item such as a rolling
+      pin, wooden spoon, or broom into a weapon. For the duration, the item
+      takes on the weapon properties of a club. You are considered proficient
+      with clubs so long as you wield this weapon, it is considered to be a
+      magic weapon for the purposes of overcoming damage resistances, and you
+      may choose to use your Wisdom modifier for calculating your attack and
+      damage rolls with it. The spell automatically ends if you let go of the
+      target or are disarmed.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - material
+  materials:
+    value: non-metal implement
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+      - weaponry
+    rareSpell: false
+_id: vbjbcj7f110rdf80
+_key: '!items!vbjbcj7f110rdf80'

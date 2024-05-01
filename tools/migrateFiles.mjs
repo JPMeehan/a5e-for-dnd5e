@@ -1444,9 +1444,11 @@ function processGrants(o5e, grants, type) {
         break;
       case 'attack': // none implemented yet
         break;
-      case 'damage': // none implemented yet
+      case 'damage': // Active Effect?
         break;
-      case 'expertiseDice': // none implemented yet
+      case 'exertion': // Class property - note that sometimes pool is 1x prof
+        break;
+      case 'expertiseDice': // "Eyes of the Law" give a choice
         break;
       case 'feature':
         if (grant.features.base?.length) {
@@ -1456,7 +1458,7 @@ function processGrants(o5e, grants, type) {
             type: 'ItemGrant',
             level: grant.level ?? 0,
             configuration: {
-              items: grant.features.base.map((f) => ({
+              items: grant.features.base?.map((f) => ({
                 uuid: remapPack(f),
               })),
             },
@@ -1482,6 +1484,8 @@ function processGrants(o5e, grants, type) {
       case 'healing': // none implemented yet
         break;
       case 'initiative': // none implemented yet
+        break;
+      case 'hitPoint': // none implemented yet
         break;
       case 'item':
         if (type === 'background') {
@@ -1521,7 +1525,7 @@ function processGrants(o5e, grants, type) {
             allowReplacements: false,
             grants: grant.keys.base.map((s) => 'skills:' + s),
             choices: {
-              pool: grant.keys.options.map((s) => 'skills:' + s),
+              pool: (grant.keys.options ?? []).map((s) => 'skills:' + s),
               count: grant.keys.total,
             },
           },
@@ -1537,6 +1541,8 @@ function processGrants(o5e, grants, type) {
         break;
       case 'skills': // none implemented yet
         break;
+      case 'skillSpecialty': // AE?
+        break;
       case 'trait':
         if (grant.traits.traitType === 'creatureTypes') {
           if (type === 'heritage') {
@@ -1548,6 +1554,8 @@ function processGrants(o5e, grants, type) {
           o5e.advancement.push(trait);
         }
         break;
+      default:
+        console.warn('Grant of unknown type', grant.grantType);
     }
   }
 }

@@ -1,0 +1,95 @@
+name: Archaic Creed
+type: equipment
+img: icons/sundries/documents/document-writing-pink.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This crumpled vellum scroll is scrawled with an Infernal statement
+      outlining the beliefs of a specific yet unnamed fiend. Whether or not you
+      can read the language, while studying the statement you gain an expertise
+      die on a Religion check made to recall or learn information about fiends.
+      You can’t do so again until you finish a long rest.</p><p>By repeatedly
+      reciting the creed aloud as an action each round for 1 minute, you can
+      cast find familiar, except your familiar takes the form of either an imp
+      or a quasit. The creed is irrevocably absorbed into the familiar’s body
+      and is completely destroyed when the familiar drops to 0 hit
+      points.</p><p><strong>Curse.</strong> The familiar summoned by the creed
+      is cursed. The fiend who wrote the creed can observe you through the
+      summoned familiar, and can command the familiar to take actions while you
+      are asleep or unconscious.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 60
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 9k4UVzCiMuqj62ea
+_id: gd9dd5dnejlnpb7d
+_key: '!items!gd9dd5dnejlnpb7d'

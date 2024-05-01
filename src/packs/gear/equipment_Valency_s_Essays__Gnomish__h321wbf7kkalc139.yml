@@ -37,8 +37,9 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Gate Pass Gazette
     license: OGL 1.0a
+    page: '#15'
   quantity: 1
   weight: 0
   price:
@@ -106,7 +107,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/sundries/books/book-open-brown.webp
-    origin: Item.NNgYBRm3PNf8q8q3
+    origin: Item.h321wbf7kkalc139
     flags:
       a5e:
         sort: 0

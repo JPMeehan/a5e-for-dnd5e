@@ -4,15 +4,10 @@ type: feat
 img: icons/sundries/gaming/playing-cards-grey.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
-      <div class="page" title="Page 14">
-
-      <div class="layoutArea">
-
-      <div class="column">
-
       <p>At 5th level, your reputation grows and gives you an edge in social
       interactions. Choose from the following options:</p>
 
@@ -42,16 +37,6 @@ system:
       out that others might not expect, and learn things they might not intend.
       You gain expertise on Deception and Insight checks made while
       gambling.</p>
-
-      </li>
-
-      </ul>
-
-      </div>
-
-      </div>
-
-      </div>
     chat: ''
   source:
     book: 'System Architecture: Motif Classes'

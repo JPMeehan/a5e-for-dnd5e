@@ -1,0 +1,108 @@
+name: Dirge of Terror
+type: feat
+img: icons/magic/control/debuff-energy-hold-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you learn to emit a terrifying clamor that causes your
+      opponents terrible distress. As an action, you may spend a use of your
+      Bardic Inspiration to play a Dirge of Terror. Enemy creatures in a 15-foot
+      cone must make a <strong>Wisdom save against your spell save DC or take
+      4d6 psychic damage, gain a level of strife and become frightened for one
+      minute.</strong> Creatures that succeed on their Wisdom save take damage
+      as normal, but are not frightened and do not gain levels of strife.</p>
+
+      <p>Creatures that fail by 5 or more suffer a mild heart attack. Such a
+      creature must make a Constitution save against your spell save DC or
+      acquire two levels of fatigue and are stunned until the end of their next
+      turn.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/debuff-energy-hold-pink.webp
+    origin: Item.iW1ovzXrNKo5a830
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Gl0M2lwfIcGJbdrn
+        duration:
+          unit: minutes
+    transfer: false
+    name: Frightened
+    _id: Ga5Su9qho0ehUMyX
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!35808ufj111xsvbs.Ga5Su9qho0ehUMyX'
+flags:
+  a5e:
+    placeTemplate: true
+folder: null
+_id: 35808ufj111xsvbs
+_key: '!items!35808ufj111xsvbs'

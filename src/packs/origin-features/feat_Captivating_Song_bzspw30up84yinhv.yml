@@ -1,0 +1,147 @@
+folder: z476XZt1iG4Mb7VJ
+name: Captivating Song
+type: feat
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 21">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You can use an action to emit a captivating song. Enemy creatures who
+      can hear you within 30 feet must make a Wisdom saving throw (DC 8 + your
+      proficiency bonus + either your Intelligence, Wisdom, or Charisma
+      modifier) or become charmed by you for 1 minute, or until you or an ally
+      deal damage to it. Creatures charmed in this way spend their movement to
+      draw closer to you. Creatures that succeed at this save cannot be affected
+      again by it for 24 hours. Once you use this trait, you can&rsquo;t use it
+      again until you finish a long rest.</p>
+
+      <p><strong>Foundry Note: Will automatically use the highest ability score
+      modifier possible for the Save DC, change if desired.</strong></p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/trades/music-singing-voice-blue.webp
+    origin: Item.bzspw30up84yinhv
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: urtm4UOh53sMrQJa
+        duration:
+          unit: minutes
+    transfer: false
+    name: Charmed (Captivating Song)
+    _id: FYhvibDFgFmbdNFT
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <div class="page" title="Page 21">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <ul>
+
+      <li aria-level="1">A charmed creature can't take any hostile action
+      against the charmer.</li>
+
+      <li aria-level="1">Ability checks the charmer makes to socially interact
+      with the charmed creature have advantage.</li>
+
+      <li aria-level="1">Must move closer to the cause of this condition.</li>
+
+      </ul>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!bzspw30up84yinhv.FYhvibDFgFmbdNFT'
+flags: {}
+_id: bzspw30up84yinhv
+_key: '!items!bzspw30up84yinhv'

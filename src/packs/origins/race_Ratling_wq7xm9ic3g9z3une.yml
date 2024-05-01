@@ -113,11 +113,13 @@ system:
         choices:
           '0': 1
     - _id: 8dTxtLatb5e5R1Br
-      type: ItemGrant
-      level: 0
+      type: ItemChoice
+      level: 10
       configuration:
-        items:
+        pool:
           - uuid: Compendium.undefined.Item.z0423r6oj8c7o3ir
+        choices:
+          '0': 1
   movement:
     walk: 30
     hover: false

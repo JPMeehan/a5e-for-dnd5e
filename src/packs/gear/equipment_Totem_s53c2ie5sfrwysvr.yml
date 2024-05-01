@@ -1,0 +1,46 @@
+name: Totem
+type: equipment
+img: icons/commodities/treasure/totem-wooden-glowing-yellow.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong><em>Nature Focus:</em></strong> These foci typically
+      incorporate furs, feathers, living plants, sacred wood, or the bones or
+      teeth of sacred animals. Staves, wands, wonders, fetishes, or totems are
+      typically used as spellcasting foci by druids and rangers.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+folder: VRWG3xL5zF1ktOX6
+_id: s53c2ie5sfrwysvr
+_key: '!items!s53c2ie5sfrwysvr'

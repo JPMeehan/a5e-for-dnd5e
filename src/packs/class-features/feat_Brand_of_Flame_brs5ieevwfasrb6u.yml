@@ -1,0 +1,160 @@
+name: Brand of Flame
+type: feat
+img: icons/magic/symbols/rune-sigil-red-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Also at 6th level, as a bonus action, you may place a
+      blessing or curse of fire on a creature you can see within 30 feet of you.
+      The blessing or curse lasts for a number of minutes equal to half your
+      proficiency bonus.</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Blessing of Fire.</strong> The
+      creature gains resistance to fire and its melee attacks deal an additional
+      1d6 points of fire damage.&nbsp;</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Curse of Fire.</strong> The
+      creature loses any resistance to fire damage it had, and if it is immune
+      to fire, it is treated as resistant instead. Any time the creature takes
+      fire damage, it also takes an additional 1d6 of ongoing fire damage until
+      it or one of its allies spends an action to extinguish the
+      flames.&nbsp;</p>
+
+      </li>
+
+      </ul>
+
+      <p dir="ltr">You may use Brand of Flame a number of times equal to half
+      your proficiency bonus, regaining all uses on completion of a long
+      rest.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/symbols/rune-sigil-red-orange.webp
+    origin: Item.Kjoe5RcGasHVB4uO
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qvoqFLZkIwLdVrji
+    transfer: false
+    name: Blessing of Fire
+    _id: 1hSVV1OyX19L8MMk
+    changes:
+      - key: system.traits.damageResistances
+        value: '["fire"]'
+        mode: 2
+        priority: null
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Blessing of
+          Fire","formula":"1d6","damageType":"fire","context":{"attackTypes":["meleeWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/svg/upgrade.svg"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The creature gains resistance to fire and its melee attacks deal an
+      additional 1d6 points of fire damage. The blessing lasts for a number of
+      minutes equal to half your proficiency bonus.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!brs5ieevwfasrb6u.1hSVV1OyX19L8MMk'
+  - icon: icons/magic/symbols/rune-sigil-red-orange.webp
+    origin: Item.Kjoe5RcGasHVB4uO
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 0fm09asF41PGf3KY
+    transfer: false
+    name: Curse of Fire
+    _id: nB0ROaVaBE2ndGAc
+    changes:
+      - key: system.traits.damageResistances
+        value: '["fire"]'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>The creature loses any resistance to fire damage it had, and if it is immune to fire, it is treated as resistant instead. Any time the creature takes fire damage, it also takes an additional 1d6 of ongoing fire damage until it or one of its allies spends an action to extinguish the flames.\_</p>\n<p>The curse lasts for a number of minutes equal to half your proficiency bonus.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!brs5ieevwfasrb6u.nB0ROaVaBE2ndGAc'
+flags: {}
+folder: null
+_id: brs5ieevwfasrb6u
+_key: '!items!brs5ieevwfasrb6u'

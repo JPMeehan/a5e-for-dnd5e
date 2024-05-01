@@ -1,0 +1,25 @@
+folder: null
+name: Resolve
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level, your will has been hardened by your time patrolling the
+      wilds. You gain proficiency with Wisdom saving throws.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Byway Defender Archetype, Ranger 11
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 35drd9htnqhc059f
+_key: '!items!35drd9htnqhc059f'

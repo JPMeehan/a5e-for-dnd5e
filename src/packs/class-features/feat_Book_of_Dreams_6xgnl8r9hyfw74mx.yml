@@ -1,0 +1,31 @@
+name: Book of Dreams
+type: feat
+img: icons/sundries/books/book-symbol-triangle-silver-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may select one ritual spell on your spell list and add it to a
+      dream journal. Once per long rest while sleeping or trancing, you may
+      ritually cast one of the spells in your journal. Each time you gain a
+      witch level, you may add another ritual spell you know to the list. In
+      addition, you always have the dream spell prepared, it does not count
+      against the number of prepared spells, and you may ritually cast it even
+      though it does not have the ritual tag, but only while you are sleeping or
+      trancing.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 6xgnl8r9hyfw74mx
+_key: '!items!6xgnl8r9hyfw74mx'

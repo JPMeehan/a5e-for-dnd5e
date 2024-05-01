@@ -1,0 +1,68 @@
+folder: z476XZt1iG4Mb7VJ
+name: Feeding Frenzy
+type: feat
+img: icons/skills/wounds/blood-drip-droplet-red.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use this trait as a bonus action to make a bite attack. If you
+      hit, you regain hit points equal to your Constitution modifier (minimum
+      1). Once you use this trait, you can&rsquo;t do so again until you
+      complete a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - max(@mod, 1)
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: noyxzbioopap1zof
+_key: '!items!noyxzbioopap1zof'

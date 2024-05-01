@@ -1,0 +1,117 @@
+folder: riV8qst3SvT2320y
+name: Pepper Spray
+type: spell
+img: icons/consumables/fruit/pepper-scorpion-chili-red.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-43f4e981-7fff-cdd4-ac38-280f130ff342"
+      dir="ltr">You call upon the fiery oil and seeds of a hot pepper to punish
+      your foes. When a creature hits you with a melee weapon attack, you may
+      use your reaction to conjure forth the natural irritants of a spicy pepper
+      and spray them into your attacker&rsquo;s face. The triggering creature
+      must make a Constitution saving throw versus your spell save DC or become
+      blinded until the start of its next turn.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: Being hit by a melee weapon attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/fruit/pepper-scorpion-chili-red.webp
+    origin: Item.j2wv5raygwcijiar
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: fazZMC5EhLlRpBNf
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: 441VELCjrCLXMYaz
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-22b1d505-7fff-b281-d0e0-2a5e0d1f836a">The
+      creature is blinded until the start of its next turn.</span></p>
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!j2wv5raygwcijiar.441VELCjrCLXMYaz'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - affliction
+      - hearth
+    rareSpell: false
+_id: j2wv5raygwcijiar
+_key: '!items!j2wv5raygwcijiar'

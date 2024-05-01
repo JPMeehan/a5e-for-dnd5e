@@ -1,0 +1,39 @@
+name: Primordial Warden
+type: feat
+img: icons/creatures/abilities/paw-glowing-yellow.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your mastery of the primeval energies of the natural world is virtually
+      unmatched.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>You gain a +1 bonus to your Wisdom score, to a maximum value of
+      20.</li>
+
+      <li>While you are wildshaped, all of your druid levels count as
+      elementalist levels for the purpose of determining the effects of
+      Elemental Defense and your Elemental Blast.</li>
+
+      <li>Your wildshaped forms often take on an elementally-infused appearance,
+      though the details of this are up to you.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Custodian feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: hw8k37suuv98qi8r
+_key: '!items!hw8k37suuv98qi8r'

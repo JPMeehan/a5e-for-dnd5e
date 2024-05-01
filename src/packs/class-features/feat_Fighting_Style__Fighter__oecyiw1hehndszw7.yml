@@ -1,0 +1,95 @@
+name: Fighting Style (Fighter)
+type: feat
+img: icons/skills/melee/sword-shield-stylized-white.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 1st level you adopt a particular style of fighting. Choose one of
+      the following options. You can&rsquo;t take a particular Fighting Style
+      more than once.</p>
+
+      <h2>Archery</h2>
+
+      <p>You gain a +2 bonus to attack rolls with ranged weapons.</p>
+
+      <h2>Battle Ready</h2>
+
+      <p>You can activate up to two combat stances you know without expending
+      any exertion points using the same bonus action. Once you activate a set
+      of combat stances in this way, you can&rsquo;t use this feature again
+      until you finish a rest.</p>
+
+      <h2>Defense</h2>
+
+      <p>You gain a +1 bonus to AC while wearing armor.</p>
+
+      <h2>Dueling</h2>
+
+      <p>You deal an extra 2 damage with melee weapons held in one hand while
+      you aren&rsquo;t wielding another weapon.</p>
+
+      <h2>Great Weapon Fighting</h2>
+
+      <p>When you hit with a versatile or two-handed weapon you are wielding in
+      two hands, you can reroll any 1 or 2 on a damage die. You must use the new
+      roll, even if it is a 1 or 2.</p>
+
+      <h2>Mounted Combatant</h2>
+
+      <p>While mounted, you gain an expertise die on attack rolls against
+      creatures that are Medium or smaller and not mounted. In addition, you
+      gain an expertise die on saving throws made to resist being
+      dismounted.</p>
+
+      <h2>Protection</h2>
+
+      <p>When a creature you can see attacks another target within 5 feet of
+      you, if you are wielding a shield you can use your reaction to hinder the
+      attack, forcing the creature to roll with disadvantage.</p>
+
+      <h2>Technical Fighting</h2>
+
+      <p>Whenever you use a combat maneuver, any damage dealt by attacks using
+      it deals an additional 2 damage, and your maneuver DC increases by 1.</p>
+
+      <h2>Thrown Weapon Fighting</h2>
+
+      <p>Whenever you would make an attack using a weapon with the Thrown
+      property, you can draw the weapon as part of the attack. In addition, your
+      ranged weapon attacks with thrown weapons deal an additional 2 damage.</p>
+
+      <h2>Tireless Fighting</h2>
+
+      <p>Whenever you expend Hit Dice to recover exertion points, you recover 3
+      exertion points per Hit Die expended (instead of 1d4 exertion points as
+      normal).</p>
+
+      <h2>Two-Weapon Fighting</h2>
+
+      <p>While two-weapon fighting, you can add your ability modifier to the
+      damage of the off-hand attack.</p>
+
+      <h2>Unarmed Fighting</h2>
+
+      <p>Your unarmed strikes deal bludgeoning damage equal to 1d6 + your
+      Strength modifier. If you aren&rsquo;t wielding any weapons or a shield,
+      you can strike with both of your hands to deal damage equal to 1d8 + your
+      Strength modifier. If you start your turn grappling a creature, you can
+      deal your basic melee damage to any creature you are grappling.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: oecyiw1hehndszw7
+_key: '!items!oecyiw1hehndszw7'

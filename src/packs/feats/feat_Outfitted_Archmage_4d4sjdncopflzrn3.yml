@@ -1,0 +1,69 @@
+folder: null
+name: Outfitted Archmage
+type: feat
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have become exceptionally powerful from your mixing of artifice and
+      traditional magical scholarship.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>Your Intelligence increases by +1, to a maximum of 20.</li>
+
+      <li>Half of your Wizard levels count as Artificer levels for the purpose
+      of determining your infusion limit.</li>
+
+      <li>You can deactivate an infusion you have active during a short rest to
+      gain an additional use of Arcane Recovery. When you deactivate an infusion
+      this way, your infusion limit decreases by 1 until you finish a long
+      rest.</li>
+
+      <li>The costs (time and materials) for both scribing spells into your
+      spellbook and creating spell inventions are halved.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Spell Builder feat
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/life/cross-yellow-green.webp
+    origin: Item.4d4sjdncopflzrn3
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: INT +1
+    _id: Kv3a4J7YrARH3kSK
+    changes:
+      - key: system.abilities.int.value
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!4d4sjdncopflzrn3.Kv3a4J7YrARH3kSK'
+flags: {}
+_id: 4d4sjdncopflzrn3
+_key: '!items!4d4sjdncopflzrn3'

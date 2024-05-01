@@ -1,0 +1,276 @@
+name: Curare Sweat
+type: feat
+img: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+effects:
+  - icon: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+    origin: Item.z7jwmjgw2qb68gnt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 44zW9Niso0UwQDYT
+        applyToSelf: true
+    transfer: false
+    name: Weapon Coated (Curare Poison)
+    _id: fTElxyOHMmTH1eMN
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The next time you hit with an attack Curare Poison will be applied.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!z7jwmjgw2qb68gnt.fTElxyOHMmTH1eMN'
+  - icon: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+    origin: Item.z7jwmjgw2qb68gnt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: S326TE9OKdTKQjCq
+    transfer: false
+    name: Stunned
+    _id: CZEZUvIEgGcFkZDm
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<ul>\n<li aria-level=\"1\">A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.</li>\n<li aria-level=\"1\">The creature automatically fails Strength and Dexterity\_<span class=\"freelinking-link\">saving throws</span>.</li>\n<li aria-level=\"1\">Attack rolls against the creature have\_<span class=\"freelinking-link\">advantage</span>.</li>\n<li aria-level=\"1\">A creature that is immune to being stunned is immune to being rattled.</li>\n</ul>"
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!z7jwmjgw2qb68gnt.CZEZUvIEgGcFkZDm'
+  - icon: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+    origin: Item.z7jwmjgw2qb68gnt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 44zW9Niso0UwQDYT
+        applyToSelf: true
+    transfer: false
+    name: Weapon Coated (Curare Poison)
+    _id: BRIrhRUhtnQeaL3c
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The next time you hit with an attack Curare Poison will be applied.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!z7jwmjgw2qb68gnt.BRIrhRUhtnQeaL3c'
+  - icon: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+    origin: Item.z7jwmjgw2qb68gnt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: S326TE9OKdTKQjCq
+    transfer: false
+    name: Stunned
+    _id: 9jgu2CCWdrnqTGLM
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<ul>\n<li aria-level=\"1\">A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.</li>\n<li aria-level=\"1\">The creature automatically fails Strength and Dexterity\_<span class=\"freelinking-link\">saving throws</span>.</li>\n<li aria-level=\"1\">Attack rolls against the creature have\_<span class=\"freelinking-link\">advantage</span>.</li>\n<li aria-level=\"1\">A creature that is immune to being stunned is immune to being rattled.</li>\n</ul>"
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!z7jwmjgw2qb68gnt.9jgu2CCWdrnqTGLM'
+  - icon: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+    origin: Item.z7jwmjgw2qb68gnt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dPP3aM0yiNpZP5XW
+    transfer: false
+    name: Stunned
+    _id: 4tqlhpGBoUMYfTt2
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<ul>\n<li aria-level=\"1\">A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.</li>\n<li aria-level=\"1\">The creature automatically fails Strength and Dexterity\_<span class=\"freelinking-link\">saving throws</span>.</li>\n<li aria-level=\"1\">Attack rolls against the creature have\_<span class=\"freelinking-link\">advantage</span>.</li>\n<li aria-level=\"1\">A creature that is immune to being stunned is immune to being rattled.</li>\n</ul>"
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!z7jwmjgw2qb68gnt.4tqlhpGBoUMYfTt2'
+  - icon: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+    origin: Item.z7jwmjgw2qb68gnt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: oEajawdnf2O876DY
+    transfer: false
+    name: Stunned
+    _id: 5Sc8GUPbfkL9h7JA
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<ul>\n<li aria-level=\"1\">A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.</li>\n<li aria-level=\"1\">The creature automatically fails Strength and Dexterity\_<span class=\"freelinking-link\">saving throws</span>.</li>\n<li aria-level=\"1\">Attack rolls against the creature have\_<span class=\"freelinking-link\">advantage</span>.</li>\n<li aria-level=\"1\">A creature that is immune to being stunned is immune to being rattled.</li>\n</ul>"
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!z7jwmjgw2qb68gnt.5Sc8GUPbfkL9h7JA'
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your body is covered in a toxic film called curare sweat, which is a
+      contact poison functioning much like ordinary curare poison. You can use
+      it in one of several ways, and once you do you cannot use your curare
+      sweat again until you complete a short or long rest. You can use your
+      curare sweat to do one of the following:</p>
+
+      <ul>
+
+      <li>
+
+      <p>As a bonus action, you can coat one weapon or piece of ammunition with
+      your curare sweat. The first creature struck by the coated weapon is
+      subject to your curare sweat.</p>
+
+      </li>
+
+      <li>
+
+      <p>When a creature touches you against your will, and the member touching
+      you is not protected by clothing or armor, you can use your reaction to
+      subject the creature to your curare sweat.</p>
+
+      </li>
+
+      <li>
+
+      <p>At the start of your turn, if you are grappling or are grappled by a
+      creature and you are physically touching<strong> </strong>them, you can
+      subject them to your curare sweat.</p>
+
+      </li>
+
+      </ul>
+
+      <p>A creature subject to your curare sweat makes a Constitution saving
+      throw against your curare sweat save DC or else it becomes stunned until
+      the end of its next turn. The save DC for your curare sweat is 8 + your
+      proficiency bonus + your Constitution modifier, or 13, whichever is
+      higher.</p>
+
+      <p><strong>Foundry Note: </strong>Use Coat Weapon or Ammunition when the
+      Curare Sweat is applied to the weapon or ammunition and then Attack with
+      Coated Weapon when you make an attack with the previously Coated weapon or
+      ammunition. Make sure to turn off the Weapon Coated effect after the first
+      successful attack.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+    condition: >-
+      When a creature touches you against your will, and the member touching you
+      is not protected by clothing or armor
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+_id: z7jwmjgw2qb68gnt
+_key: '!items!z7jwmjgw2qb68gnt'

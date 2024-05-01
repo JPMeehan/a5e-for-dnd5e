@@ -1,0 +1,103 @@
+folder: null
+name: Extraplanar Defense
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your time fighting against otherworldly threats has made you especially
+      adept at defending against their attempts to harm you.&nbsp;When you are
+      attacked by an aberration, celestial, fey, fiend, or undead, you may use
+      your reaction to increase your AC by 3, potentially canceling the
+      attack.</p>
+
+      <p>You may also, as an action, create an extraplanar exclusion zone that
+      extends out to 15 feet around yourself. While the zone is active,
+      aberrations, celestials, fey, fiends, and undead must make a Wisdom save
+      (DC equal to 8 + your Intelligence modifier + your proficiency bonus) to
+      enter the zone. If a creature is already within the zone, it must make the
+      same save to stay in it, but need not move further away once it has
+      exited. The zone lasts for 10 minutes. Once you have used this feature,
+      you can&rsquo;t do so again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    origin: Item.dgx6o34a3l7oomi0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Extraplanar Defense
+    _id: Xc6Rood7LeA2ptt1
+    changes:
+      - key: system.attributes.ac
+        mode: 2
+        value: '3'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!dgx6o34a3l7oomi0.Xc6Rood7LeA2ptt1'
+flags: {}
+_id: dgx6o34a3l7oomi0
+_key: '!items!dgx6o34a3l7oomi0'

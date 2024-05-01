@@ -1,0 +1,70 @@
+folder: null
+name: Grave Mist
+type: feat
+img: icons/magic/air/fog-gas-smoke-dense-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 10th level, you gain the ability to conjure up a sinister fog
+      that moves with you. The fog extends 20 feet from you and spreads around
+      corners. You can see through the fog as if it was not there, but other
+      creatures treat everything in the fog as lightly obscured. In addition,
+      creatures in the fog other than you that are immune to necrotic damage are
+      treated as resistant to it instead, creatures resistant to necrotic damage
+      are treated as if they were not resistant, and creatures that are not
+      resistant to necrotic damage are treated as vulnerable. Once you have used
+      this feature a number of times equal to your Wisdom modifier (minimum
+      once), you can&rsquo;t do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: um3g5luf03l59oxo
+_key: '!items!um3g5luf03l59oxo'

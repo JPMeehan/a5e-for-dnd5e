@@ -1,0 +1,31 @@
+name: Coven Casting
+type: feat
+img: icons/magic/unholy/hand-marked-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="MsoNormal" style="margin-bottom: .0001pt;">You may link two
+      other creatures while ritual casting. When the three of you work together
+      tto ritually cast a spell that any of you are capable of ritually casting,
+      you may upcast the spell to the highest level available to you. All three
+      participants must be involved for the entire casting as if tthey were
+      individually performing the ritual, and it takes the full casting time +
+      10 minutes, unless all participants have an ability that reduces ritual
+      casting time.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: g1sgof6ip5m4k4zi
+_key: '!items!g1sgof6ip5m4k4zi'

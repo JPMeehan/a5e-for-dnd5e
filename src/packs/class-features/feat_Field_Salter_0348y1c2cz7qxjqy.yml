@@ -1,0 +1,38 @@
+folder: null
+name: Field Salter
+type: feat
+img: icons/magic/death/grave-tombstone-glow-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, your connection to undeath allows you to forcibly tear
+      the life from the earth. Once a month, you can perform a special ritual
+      requiring you to take 2 levels of fatigue and 2 levels of strife and 8
+      hours of uninterrupted work to blight a wide swath of territory. Upon the
+      successful completion of the ritual, all of the vegetation and creatures
+      weighing less than 5 pounds within a 5-mile radius immediately die and
+      begin decomposing into putrid, toxic ichor. Creatures weighing more than 5
+      pounds must make a Constitution save against your spell save DC or gain a
+      level of fatigue. Nothing will grow in this area again for a year unless
+      it is ritually purified, which takes a 100gp of reagents and a month of
+      8-hour days of ritual work from trained spellcasters per affected square
+      mile. At the Narrator&rsquo;s discretion, other methods such as divine
+      intervention, the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.r6eshb9jaeqc70mp]{Hallow}<em>&nbsp;</em>spell,
+      or similar means may also be able to end the curse.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 0348y1c2cz7qxjqy
+_key: '!items!0348y1c2cz7qxjqy'

@@ -1,0 +1,66 @@
+folder: null
+name: Hidden Paths
+type: feat
+img: icons/magic/movement/portal-vortex-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can teleport a distance up to twice your movement speed to an
+      unoccupied space you can see as a bonus action. Once you have done so a
+      number of times equal to your Intelligence modifier (minimum once) you
+      can&rsquo;t do so again until you finish a short or long rest.&nbsp;</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: yxetgw6xgyj08rzs
+_key: '!items!yxetgw6xgyj08rzs'

@@ -1,0 +1,99 @@
+name: Elemental Steward
+type: feat
+img: icons/magic/symbols/star-rising-purple.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have the ability to control the elements and have also been
+      entrusted with a magical item of considerable power. These things may be
+      related, or it may be coincidence. In either case, you have begun to learn
+      to combine them.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>You gain a +1 bonus to your choice of your Intelligence, Wisdom, or
+      Charisma score, to a maximum value of 20.</li>
+
+      <li>You may use your elementalist spell points and artifact charges
+      interchangeably.</li>
+
+      <li>You gain an additional benefit based on the form your bonded artifact
+      takes:
+
+      <ul>
+
+      <li>If your bonded artifact is a <em>Weapon of Power</em>, it deals an
+      additional d4 of damage on a successful attack. This damage type may be
+      any type you can produce with your Elemental Blast feature.</li>
+
+      <li>If your bonded artifact is an <em>Armor of Power</em>, it is charged
+      with elemental energies. Creatures grappling or grappled by you take 1d6
+      points of damage at the start of their turn. This damage type may be any
+      type you can produce with your Elemental Blast feature.</li>
+
+      <li>If your bonded artifact is a <em>Font of Power</em>, it functions as a
+      spellcasting focus for both your wielder and elementalist spells, and it
+      also allows you finer control over the elements. Choose an additional
+      Elemental Adaptation you qualify for. As long as you have your Artifact of
+      Power in hand, you can use this Elemental Adaptation, and it does not
+      count against your maximum number of Elemental adaptations known.</li>
+
+      </ul>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in Elementalist, 3 levels in Wielder
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: tgwjal9q2nof9ms3
+_key: '!items!tgwjal9q2nof9ms3'

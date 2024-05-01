@@ -1,0 +1,44 @@
+name: Faithful Wanderer
+type: feat
+img: icons/environment/people/commoner.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have carried the word of your god into more exotic and dangerous
+      places and learned from the experience. You gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li>You may choose to have the bonus damage done by <em>Hunter&rsquo;s
+      Target</em> or <em>Trained Accuracy</em> be radiant or necrotic damage
+      when you use those features.</li>
+
+      <li>When you use <em>Channel Divinity</em>, you regain a use of
+      <em>Trained Accuracy</em>.</li>
+
+      <li>Half your cleric levels count as ranger levels for the purpose of
+      gaining the <em>Extra Attack</em> feature.</li>
+
+      <li>You learn&nbsp;<em style="font-size: 10.5pt;">Catch Your
+      Breath</em><span style="font-size: 10.5pt;"> as a bonus maneuver and it
+      does not count against your maneuvers known.</span></li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Circuit Rider feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 6ndje6rvyfhm3wng
+_key: '!items!6ndje6rvyfhm3wng'

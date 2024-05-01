@@ -1,0 +1,82 @@
+name: Spellcasting (Druid)
+type: feat
+img: icons/magic/nature/leaf-juggle-humanoid-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Drawing on the power of nature itself, you can&nbsp;cast spells to
+      shape nature&rsquo;s essence to your will.</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Cantrips</h2>
+
+      <p>At 1st level, you know two cantrips of your choice from the druid spell
+      list. You learn additional druid cantrips of your choice at higher levels,
+      as shown in the Cantrips Known column of the Druid Spells table.</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Preparing and Casting Spells</h2>
+
+      <p>The Druid Spells table shows how many spell slots you have to cast your
+      druid spells. To cast one of these druid spells, you must expend a slot of
+      the spell&rsquo;s level or higher. You regain all expended spell slots
+      when you finish a long rest.</p>
+
+      <p>You prepare the list of druid spells that are available for you to
+      cast, choosing from the druid spell list. When you do so, choose a number
+      of druid spells equal to your Wisdom modifier + your druid level (minimum
+      of one spell). The spells must be of a level for which you have spell
+      slots. Casting spells doesn&rsquo;t remove them from your list of prepared
+      spells.</p>
+
+      <p>You can change your list of prepared spells whenever you finish a long
+      rest by meditating for at least 1 minute per spell level for each spell on
+      your list.</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Spellcasting Ability</h2>
+
+      <p>Wisdom is your spellcasting ability for your druid spells. You use your
+      Wisdom whenever a spell refers to your spellcasting ability. In addition,
+      you use your Wisdom modifier when setting the saving throw DC for a druid
+      spell you cast and when making an attack roll with one.</p>
+
+      <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your
+      Wisdom modifier</p>
+
+      <p><strong>Spell attack modifier</strong> = your proficiency bonus + your
+      Wisdom modifier</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Ritual Casting</h2>
+
+      <p>You can cast a druid spell as a ritual if that spell has the ritual tag
+      and you have the spell prepared.</p>
+
+      <p>&nbsp;</p>
+
+      <h2>Spellcasting Focus</h2>
+
+      <p>You can use a nature focus as a spellcasting focus for your druid
+      spells.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+folder: null
+flags: {}
+_id: 92q69mibuicvsutc
+_key: '!items!92q69mibuicvsutc'

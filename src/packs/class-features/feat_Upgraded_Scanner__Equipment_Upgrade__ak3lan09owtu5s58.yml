@@ -1,0 +1,27 @@
+folder: null
+name: Upgraded Scanner (Equipment Upgrade)
+type: feat
+img: icons/tools/scribal/magnifying-glass.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-b07fceb2-7fff-0823-1e06-d514d2e16bf1">If
+      your automaton has the Autonomous Scanner option, it now performs the
+      Search action automatically on your turn, not requiring an action from
+      you. You must still specify what it&rsquo;s looking for. </span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: ak3lan09owtu5s58
+_key: '!items!ak3lan09owtu5s58'

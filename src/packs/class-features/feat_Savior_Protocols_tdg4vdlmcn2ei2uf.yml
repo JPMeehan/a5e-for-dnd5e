@@ -1,0 +1,33 @@
+folder: null
+name: Savior Protocols
+type: feat
+img: icons/skills/melee/shield-damaged-broken-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-53c2b7aa-7fff-fe1c-a5d2-4014ecd6a424"
+      dir="ltr">At 15th level you&rsquo;ve installed an unshakable instinct to
+      protect their master into your ornithopters. Your ornithopter&rsquo;s gain
+      the following reaction which they take when you are hit by an attack while
+      they are adjacent:</p>
+
+      <p><strong><em>Savior Protocol.</em></strong> The ornithopter dives in to
+      intercept an incoming attack. Any damage or effects that would have been
+      suffered by the ornithopter&rsquo;s creator is taken by the ornithopter
+      instead as if they were the target of the attack.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: tdg4vdlmcn2ei2uf
+_key: '!items!tdg4vdlmcn2ei2uf'

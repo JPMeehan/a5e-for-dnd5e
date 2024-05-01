@@ -1,0 +1,33 @@
+folder: null
+name: Wrathburn
+type: feat
+img: icons/creatures/abilities/bear-roar-bite-brown-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level, you may cast berserker spells while you are raging, but
+      it is taxing for you. Whenever you cast a spell while raging, you take
+      psychic damage equal to the spell’s level, which is applied directly to
+      your hit points, bypassing your rage hit points. You can concentrate on
+      berserker spells while raging, but you take 1 point of psychic damage at
+      the beginning of each round while you do.</p><p>Choose five multiclass
+      spells associated with the berserker class and add them to your berserker
+      spells known. They do not count against your total spells
+      known.</p><p>This trait does not permit you to cast or concentrate on
+      spells from any other sources while raging.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: xetfa8b2z5907g54
+_key: '!items!xetfa8b2z5907g54'

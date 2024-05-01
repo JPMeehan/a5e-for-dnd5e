@@ -1,0 +1,90 @@
+folder: 9k4UVzCiMuqj62ea
+name: Sous Chef Gremlin
+type: equipment
+img: icons/creatures/magical/construct-stone-earth-gray.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-401e74e6-7fff-4fa4-8b45-be5217b83ac5"
+      dir="ltr">This Tiny, ethereal, mottled-brown goblinoid is contained in a
+      spice jar. It wears a stained apron, carries an appropriately-sized set of
+      cooking utensils, and has a perpetually annoyed look on its face.</p>
+
+      <p dir="ltr">Once per day, you may instruct the gremlin to prepare a meal
+      of your choosing. Regardless of what meal you request, the sous chef
+      gremlin only knows how to prepare potato crisps. If you complain about the
+      meal, the gremlin berates you. The gremlin&rsquo;s &ldquo;meal&rdquo;
+      prepared in this way counts as one Supply, but really it&rsquo;s mostly
+      just empty calories.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: t7s8pp43pex60nyx
+_key: '!items!t7s8pp43pex60nyx'

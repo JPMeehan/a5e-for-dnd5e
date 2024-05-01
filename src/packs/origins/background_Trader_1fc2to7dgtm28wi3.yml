@@ -125,14 +125,13 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - tool:undefinedland
-            - tool:undefinedwater
-            - tool:undefinedair
+            - skills:landVehicles
+            - skills:waterVehicles
+            - skills:airVehicles
           count: 1
     - _id: Bv15PEN5Ic5H55NK
       type: Trait

@@ -1,0 +1,143 @@
+folder: ULrFDUr9XIqKkKnP
+name: Letha’s Swarming Sticky Situation
+type: spell
+img: icons/creatures/invertebrates/bee-yellow.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-c5eede6d-7fff-4fb5-58d7-c756c32af8d8"
+      dir="ltr">You magically flood the area with honey, jam, or some other
+      sticky substance. For the duration of the spell, this area counts as
+      difficult terrain and any creature entering the area for the first time
+      must make a Strength saving throw versus your spell save DC or be knocked
+      prone as they slip and fall. While a creature is knocked prone in this
+      way, they are also restrained. Creatures knocked prone may repeat their
+      saving throw at the beginning of their turn and are no longer prone or
+      restrained on a success.</p>
+
+      <p dir="ltr">Creatures that succeed on their Strength saving throw still
+      have whatever limbs that came into contact with the sticky surface covered
+      in the substance. On their turn they may make an Athletics check to adhere
+      themselves to vertical surfaces and climb them, as per the spider climb
+      spell. This effect lasts so long as you are able to maintain
+      concentration. If a creature is adhered to a surface when the spell ends,
+      they immediately fall.</p>
+
+      <p id="docs-internal-guid-d8a70f8c-7fff-f61f-ac0e-8b9f9c4904b4"
+      dir="ltr"><strong>Rare Version:</strong></p>
+
+      <p dir="ltr"><strong>Letha&rsquo;s Swarming Sticky Situation.</strong> The
+      honey or other saccharine liquid you used to entrap your foes also
+      attracts stinging insects. All creatures knocked prone in the area take
+      4d4 piercing damage as bees swarm into the area and attack. This damage
+      persists every round until a creature manages to leave the affected area
+      or the spell ends.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a jar of honey or jam that the spell consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d4
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/food/preserves-jam-jelly-jar-brown-red.webp
+    origin: Item.np3yy82ucehqugq0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: zLduCTliOht3MWsu
+    transfer: false
+    name: Prone and Restrained
+    _id: CuONxIzO0YzGTk5F
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone","restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p id="docs-internal-guid-78bec502-7fff-0f7a-4ff2-528ad6d0086c"
+      dir="ltr">For the duration of the spell, this area counts as difficult
+      terrain and any creature entering the area for the first time must make a
+      Strength saving throw versus your spell save DC or be knocked prone as
+      they slip and fall. While a creature is knocked prone in this way, they
+      are also restrained. Creatures knocked prone may repeat their saving throw
+      at the beginning of their turn and are no longer prone or restrained on a
+      success.</p>
+    statuses:
+      - prone
+      - restrained
+    folder: null
+    _key: '!items.effects!np3yy82ucehqugq0.CuONxIzO0YzGTk5F'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+      - movement
+      - terrain
+    rareSpell: true
+_id: np3yy82ucehqugq0
+_key: '!items!np3yy82ucehqugq0'

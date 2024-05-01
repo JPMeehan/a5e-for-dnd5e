@@ -1,0 +1,103 @@
+folder: null
+name: Hold the Line (Spellguard)
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at level 10, you can draw on additional reserves of magic when you
+      need them most. When you become bloodied, you may use your reaction to
+      immediately recover spell slots as though you had just used your
+      @UUID[Compendium.a5e.a5e-class-features.Item.iqlgotutphoratct]{Arcane
+      Recovery}. Additionally, until you begin your next long rest, any
+      abjuration spells you cast using a spell slot behave as though they were
+      up-cast using a spell slot of one spell-level higher (maximum 9th-level)
+      than the one actually used.</p>
+
+      <p>Once you have used this feature, you cannot use it again until you
+      complete a long rest. Using this feature does not consume your use of
+      Arcane Recovery.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/shield-barrier-deflect-teal.webp
+    origin: Item.E0SwxVNjkyTLOMrh
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: kynMSuvgfNawk0Ot
+        applyToSelf: true
+    transfer: false
+    name: Hold the Line
+    _id: 8wZyTXIkmkwgF78E
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until you begin your next long rest, any abjuration spells you cast
+      using a spell slot behave as though they were up-cast using a spell slot
+      of one spelllevel higher (maximum 9th-level) than the one actually
+      used.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dpgd7ttporu0i7vs.8wZyTXIkmkwgF78E'
+flags: {}
+_id: dpgd7ttporu0i7vs
+_key: '!items!dpgd7ttporu0i7vs'

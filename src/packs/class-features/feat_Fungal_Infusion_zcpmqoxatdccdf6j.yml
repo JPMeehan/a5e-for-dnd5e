@@ -1,0 +1,102 @@
+name: Fungal Infusion
+type: feat
+img: icons/magic/nature/mushrooms-fire-glow-blue.webp
+effects:
+  - icon: icons/magic/nature/mushrooms-fire-glow-blue.webp
+    origin: Item.GNIy5SJDVMAMcjmj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: cyvM6uwbk2qlEOTi
+        duration:
+          unit: minutes
+    transfer: false
+    name: Fungal Infusion
+    _id: GSMHNw3HD5xQhvMa
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["confused"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On a critical hit, your target must make a Constitution saving throw
+      against your spell save DC or become confused for 1 minute. An affected
+      creature can repeat the save at the end of each of its turns, ending the
+      effect on a success.</p>
+    statuses:
+      - confused
+    folder: null
+    _key: '!items.effects!zcpmqoxatdccdf6j.GSMHNw3HD5xQhvMa'
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, you have incorporated fungal colonies into your own
+      physiology. You are resistant to poison damage and immune to the poisoned
+      condition. Your weapon attacks deal an additional 1d4 poison damage. On a
+      critical hit, your target must make a Constitution saving throw against
+      your spell save DC or become confused for 1 minute. An affected creature
+      can repeat the save at the end of each of its turns, ending the effect on
+      a success.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+_id: zcpmqoxatdccdf6j
+_key: '!items!zcpmqoxatdccdf6j'

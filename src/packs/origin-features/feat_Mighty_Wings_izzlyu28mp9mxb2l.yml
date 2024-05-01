@@ -1,0 +1,145 @@
+folder: z476XZt1iG4Mb7VJ
+name: Mighty Wings
+type: feat
+img: icons/creatures/abilities/wing-batlike-white-blue.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 20">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You have a fly speed of 50 feet. To use this speed, you can&rsquo;t be
+      wearing medium or heavy armor, nor can you be encumbered (if using variant
+      encumbrance). Because of your large wing span, while flying you occupy the
+      the space of a Huge-sized creature (15 feet wide). You cannot squeeze
+      through smaller spaces while flying. Due to being a larger target, when
+      you fly, attack rolls against you have advantage until the start of your
+      next turn.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/abilities/wing-batlike-white-blue.webp
+    origin: Item.izzlyu28mp9mxb2l
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: JaiTjJX6Gy0D4mJf
+        applyToSelf: true
+    transfer: false
+    name: Fly Speed
+    _id: JAz9dUiKRa1KQI65
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '50'
+        mode: 2
+        priority: null
+      - key: system.attributes.movement.fly.unit
+        value: feet
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>You have a fly speed of 50 feet.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!izzlyu28mp9mxb2l.JAz9dUiKRa1KQI65'
+  - icon: icons/creatures/abilities/wing-batlike-white-blue.webp
+    origin: Item.izzlyu28mp9mxb2l
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: JaiTjJX6Gy0D4mJf
+        applyToSelf: true
+    transfer: false
+    name: Size Increase
+    _id: WyFGqzdZwWgRh4rP
+    changes:
+      - key: system.traits.size
+        value: huge
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>Because of your large wing span, while flying you occupy the the space of a Huge-sized creature (15 feet wide). You cannot squeeze through smaller spaces while flying.\_</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!izzlyu28mp9mxb2l.WyFGqzdZwWgRh4rP'
+flags: {}
+_id: izzlyu28mp9mxb2l
+_key: '!items!izzlyu28mp9mxb2l'

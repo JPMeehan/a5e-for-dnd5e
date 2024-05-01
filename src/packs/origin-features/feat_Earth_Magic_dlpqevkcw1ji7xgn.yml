@@ -1,0 +1,82 @@
+folder: z476XZt1iG4Mb7VJ
+name: Earth Magic
+type: feat
+img: icons/magic/earth/projectile-boulder-dust.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 13">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You know the arcane muscles cantrip. You can cast earth barrier once
+      per long rest. Your spellcasting ability for these spells is your choice
+      of Constitution, Intelligence, Wisdom, or Charisma.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take when you are targeted with a ranged attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1.5
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: dlpqevkcw1ji7xgn
+_key: '!items!dlpqevkcw1ji7xgn'

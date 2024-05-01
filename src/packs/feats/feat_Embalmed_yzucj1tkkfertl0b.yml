@@ -1,0 +1,112 @@
+name: Embalmed
+type: feat
+img: icons/commodities/cloth/cloth-roll-worn-tan.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p><span style="font-size: 10.5pt;">You have been through the process of
+      living embalming, which is a painful and traumatic process that leaves you
+      in a half-living state regardless of whether you agreed to it. However,
+      the process is not without its advantages.&nbsp;</span>You gain the
+      following benefits and drawbacks:</p>
+
+      <ul>
+
+      <li>
+
+      <p>Whenever you take fire damage, your flammable, solvent-soaked wrappings
+      and papery flesh catch fire dealing 1d10 ongoing fire damage to you until
+      you or another creature spends an action to extinguish the flames. <span
+      style="font-size: 10.5pt;">This damage continues indefinitely unless
+      halted as an action.</span></p>
+
+      </li>
+
+      <li>
+
+      <p>You can hold your breath for a number of minutes equal to your
+      Constitution score, you only need 1 supply per week to survive, and you do
+      not suffer from exposure to environmental extreme heat and extreme
+      cold.</p>
+
+      </li>
+
+      <li>
+
+      <p>You have resistance to necrotic and poison damage.</p>
+
+      </li>
+
+      <li>
+
+      <p>You gain an exertion pool with 3 points of exertion in it if you do not
+      have one or your existing exertion pool increases by 3 points.</p>
+
+      </li>
+
+      <li>
+
+      <p>When you hit with a melee attack, you may spend a point of exertion to
+      deal an additional 1d6 necrotic damage to the target. <span
+      style="font-size: 10.5pt;">You may only use this benefit once per
+      attack.</span></p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Undergo a ritual living embalming—willingly or not
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: yzucj1tkkfertl0b
+_key: '!items!yzucj1tkkfertl0b'

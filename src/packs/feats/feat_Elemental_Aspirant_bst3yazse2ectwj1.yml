@@ -1,0 +1,42 @@
+folder: null
+name: Elemental Aspirant
+type: feat
+img: icons/magic/holy/meditation-chi-focus-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your mastery over both your elemental magic and your own body has
+      grown, allowing you a measure of versatility that is the envy of even
+      other elementalist and adepts. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>When you would gain a <em>Practiced Technique</em> or an <em>Elemental
+      Adaptation</em>, you can choose freely from either list.</li>
+
+      <li>Half your adept levels count as elementalist levels for the purpose of
+      determining the damage dealt by your Elemental Blast feature.</li>
+
+      <li>Half your elementalist levels count as adept levels for the purpose of
+      determining the size of your martial arts die.</li>
+
+      <li>You can use Flurry of Blows after using your Elemental Blast
+      feature.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Burning Gloom'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Fist feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: bst3yazse2ectwj1
+_key: '!items!bst3yazse2ectwj1'

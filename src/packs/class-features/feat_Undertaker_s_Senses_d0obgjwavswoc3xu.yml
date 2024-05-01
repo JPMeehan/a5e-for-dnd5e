@@ -1,0 +1,69 @@
+name: Undertaker’s Senses
+type: feat
+img: icons/tools/hand/shovel-spade-steel-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level when you choose this archetype, you can cast<em>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.jlqrjd03lyl8zb3c]{Detect Evil
+      and Good} </em>without spending spell slots. You can do so a total number
+      of times between long rests equal to your Wisdom modifier. When you cast
+      <em>detect evil and good</em>, you know whether an entity you sense is
+      Undead.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: '30'
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: d0obgjwavswoc3xu
+_key: '!items!d0obgjwavswoc3xu'

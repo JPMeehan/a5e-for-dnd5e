@@ -1,0 +1,64 @@
+name: Stone Hide
+type: feat
+img: icons/magic/defensive/armor-stone-skin.webp
+effects: []
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take damage, you can use your reaction to reduce the damage
+      you take. The damage you take is reduced by 1d12 + your Constitution
+      modifier. You must complete a short or long rest to use this trait
+      again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: a5jc0r3karkeir7w
+_key: '!items!a5jc0r3karkeir7w'

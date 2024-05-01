@@ -1,0 +1,73 @@
+folder: null
+name: Sense for Curses
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-0dccb3f8-7fff-076c-ea1d-e221db11a6d4"
+      dir="ltr">Your extensive time under the burden of your bonded artifact has
+      given you an unusually good sense for curse magic. You can perform a
+      one-hour ritual over a magic item and then make a Charisma check with a DC
+      of 7 for a common item, 10 for an uncommon item, 13 for a rare item, 16
+      for a rare item, or 19 for a legendary item, adding your proficiency bonus
+      to the roll. You cannot use this feature on artifacts. On a success, you
+      learn whether the item is cursed or not. On a failure, you are unable to
+      untangle the item&rsquo;s magic and learn nothing (but are aware of the
+      failure). You can try again with the same item, but must wait a week
+      between attempts.&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: Burdened archetype
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: abil
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: imoislcig93n7d2l
+_key: '!items!imoislcig93n7d2l'

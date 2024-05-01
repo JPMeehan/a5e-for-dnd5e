@@ -1,0 +1,86 @@
+folder: null
+name: Tenacity
+type: feat
+img: icons/skills/melee/hand-grip-staff-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 15th level, your self-sufficiency and sheer toughness can
+      help you get out of the toughest jams. Once per long rest as a bonus
+      action, you can renew yourself. When you do, you gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li dir="ltr">You regain exertion points equal to your Wisdom modifier
+      (minimum 1).</li>
+
+      <li dir="ltr">You heal hit points equal to&nbsp; 1d10 + your ranger
+      level.&nbsp;</li>
+
+      <li dir="ltr">You may attempt to recover a level of fatigue or strife.
+      Roll a d20. If the result is 17 or greater, you remove a single level of
+      fatigue or strife (your choice).</li>
+
+      </ul>
+
+      <p><em>! Foundry note, action consumers current set to -1 (regain 1 use),
+      change this to the wisdom modifier since modifier mods aren't allowed at
+      time of creation.</em></p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Byway Defender Archetype, Ranger 15
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 + @level
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: lxvj0mf2la66xarn
+_key: '!items!lxvj0mf2la66xarn'

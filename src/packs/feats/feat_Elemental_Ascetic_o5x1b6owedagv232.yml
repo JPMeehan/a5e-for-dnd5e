@@ -1,0 +1,83 @@
+folder: null
+name: Elemental Ascetic
+type: feat
+img: icons/magic/nature/root-vine-entangled-hands.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your self-mastery and elemental mastery are now one and the same. You
+      channel your element with the ease and frequency of breathing. You gain
+      the following benefits:</p>
+
+      <ul>
+
+      <li>Your Dexterity, Intelligence, Wisdom, or Charisma score increases by
+      1, to a maximum of 20.</li>
+
+      <li>Your elementalist levels count as adept levels for the purpose of
+      determining what Focus Feature options you can select. You must have the
+      Extra Attack feature to select Additional Attack, however.</li>
+
+      <li>You can use exertion points interchangeably with spell points when
+      casting elementalist spells. You cannot use spell points as a substitute
+      for exertion, however.</li>
+
+      <li>Your attacks with unarmed strikes and adept weapons deal an additional
+      d4 damage of a type your Elemental Blast can deal. If you can deal
+      multiple types of damage with Elemental Blast, you can choose the type of
+      damage each attack deals when it hits.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Burning Gloom'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Aspirant feat
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: o5x1b6owedagv232
+_key: '!items!o5x1b6owedagv232'

@@ -1,0 +1,27 @@
+folder: null
+name: Piercing Darkness
+type: feat
+img: icons/magic/death/undead-skeleton-lich-armor.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Necrotic damage you deal ignores resistance. When you reach 12th level,
+      you treat creatures which ordinarily have immunity to necrotic damage as
+      only having resistance. At 18th level, you ignore immunity to necrotic
+      damage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: dwlc707ldgnrbslq
+_key: '!items!dwlc707ldgnrbslq'

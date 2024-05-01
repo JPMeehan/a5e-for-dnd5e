@@ -1,0 +1,95 @@
+folder: null
+name: Esoteric Archaeologist (Arcana)
+type: feat
+img: icons/skills/trades/mining-pickaxe-stone-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-2e7fff1e-7fff-7fa6-0d86-ef2047620a4b"
+      dir="ltr">Most wielders take the time to learn about their bonded
+      artifact, but you have taken it to a higher level, studying the lore of
+      magic and artifacts in general in an effort to truly learn all you can
+      about the artifact in your care. You gain the following benefits:</p>
+
+      <ul>
+
+      <li dir="ltr">Your Intelligence or wielder spellcasting ability increases
+      by 1, to a maximum of 20.</li>
+
+      <li dir="ltr" role="presentation">Half your scholar levels count as
+      wielder levels for the purpose of gaining the Extra Attack feature.</li>
+
+      <li dir="ltr" role="presentation">Half your wielder levels count as
+      scholar levels for the purpose of gaining the
+      @UUID[Compendium.a5e.a5e-class-features.Item.luapp6zqydhkeemn]{Defensive
+      Studies} feature.</li>
+
+      <li dir="ltr" role="presentation">You gain the
+      @UUID[Compendium.a5e.a5e-class-features.Item.er19pgvauc7g682l]{Artifact
+      Knowledge} scholarly discovery if you do not already have it or another
+      scholarly discovery of your choice if you do.</li>
+
+      <li dir="ltr" role="presentation">Choose one:
+
+      <ul>
+
+      <li dir="ltr" role="presentation">You gain proficiency with the Arcana
+      skill if you do not already have it and an expertise die if you do. You
+      also gain the skill specialty artifacts for the Arcana skill.</li>
+
+      <li dir="ltr" role="presentation">You gain proficiency with the Religion
+      skill if you do not already have it and an expertise die if you do. You
+      also gain the skill specialty relics for the Religion skill.</li>
+
+      </ul>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 Levels in Scholar, 3 Levels in Wielder
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/skills/trades/mining-pickaxe-stone-blue.webp
+    origin: Item.sunz0zdup2d3i8yg
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Esoteric Archaeologist
+    _id: tUucssVFeeVLhFpG
+    changes:
+      - key: system.skills.arc.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.skills.arc.specialties
+        value: Artifacts
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!sunz0zdup2d3i8yg.tUucssVFeeVLhFpG'
+flags: {}
+_id: sunz0zdup2d3i8yg
+_key: '!items!sunz0zdup2d3i8yg'

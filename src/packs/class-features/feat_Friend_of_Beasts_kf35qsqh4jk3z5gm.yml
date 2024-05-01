@@ -1,0 +1,31 @@
+name: Friend of Beasts
+type: feat
+img: icons/magic/nature/wolf-paw-glow-green.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, creatures with the Beast type have a default attitude one
+      step higher than normal toward you. Normally-hostile creatures will be
+      indifferent, and creatures that would normally be indifferent are
+      friendly. In addition, you are continuously under the effect of the
+      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.z5a26lxyh3esw2rl]{Speak
+      with Animals}</em>&nbsp;spell, and you have advantage on checks to
+      persuade Beasts to help you with non-hazardous tasks. This effect does not
+      emit a magic aura.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: kf35qsqh4jk3z5gm
+_key: '!items!kf35qsqh4jk3z5gm'

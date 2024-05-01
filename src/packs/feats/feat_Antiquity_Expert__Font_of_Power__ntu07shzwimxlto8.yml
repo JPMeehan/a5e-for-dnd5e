@@ -1,0 +1,104 @@
+folder: null
+name: Antiquity Expert (Font of Power)
+type: feat
+img: icons/skills/trades/mining-pickaxe-stone-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-2621722c-7fff-202a-8ed5-74ea63307386"
+      dir="ltr">Your scholarship of magic items has progressed, as has your
+      mastery with your bonded artifact, and you have begun to learn the deep
+      lore of enchanted items. You gain the following benefits:</p>
+
+      <ul>
+
+      <li dir="ltr">You learn
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.dgms08g84zdlbr81]{Identify} as
+      a wielder spell. It does not count against your spells known.&nbsp;</li>
+
+      <li dir="ltr" role="presentation">You can attune to a magic item in 1
+      minute instead of an hour. Once you have used this benefit, you
+      can&rsquo;t do so again until you finish a short or long rest.</li>
+
+      <li dir="ltr" role="presentation">You can end your attunement to a magic
+      item other than your bonded artifact as an action to gain artifact charges
+      equal to your Intelligence modifier.&nbsp; Once you have used this
+      benefit, you can&rsquo;t do so again until you finish a long rest.</li>
+
+      <li dir="ltr" role="presentation">You gain an additional benefit based on
+      the nature of your bonded artifact:
+
+      <ul>
+
+      <li dir="ltr" role="presentation">If it is a weapon of power, you learn
+      the @UUID[Compendium.a5e.a5e-spells.Item.7mwrwjjj3mn4yzxr]{Altered Strike}
+      cantrip.&nbsp;</li>
+
+      <li dir="ltr" role="presentation">If it is armor of power, you can spend
+      an artifact charge as a bonus action to give it one of the following
+      properties for one minute: feybane, fortified, or lightweight.</li>
+
+      <li dir="ltr" role="presentation">If it is a font of power, you learn two
+      ritual spells of a level you could cast from any spell list. They count as
+      wielder spells for you and do not count against your spells known.</li>
+
+      </ul>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: Esoteric Archaeologist feat
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: ntu07shzwimxlto8
+_key: '!items!ntu07shzwimxlto8'

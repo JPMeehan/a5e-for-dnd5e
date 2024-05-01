@@ -1,0 +1,99 @@
+name: Stay Dead
+type: feat
+img: icons/magic/death/gallows-hanged-humanoid.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 10, creatures you kill tend to stay dead, even when magic is
+      involved. Whenever you reduce a creature to 0 hit points, it must make a
+      Constitution save against your maneuver DC. A creature that fails has
+      disadvantage on death saving throws until it dies or stabilizes and it
+      cannot be stabilized or healed by the Medicine skill or by magical healing
+      unless it stabilizes on its own. At level 17, creatures affected by this
+      feature also acquire the doomed condition.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/death/gallows-hanged-humanoid.webp
+    origin: Item.xKDIn9vVM7N1tuWY
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: tSxbEKztDs9ltoa0
+    transfer: false
+    name: Staying Dead
+    _id: Ap2M87W13yMEpZQK
+    changes:
+      - key: flags.a5e.effects.rollMode.deathSave
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A creature that fails has disadvantage on death saving throws until it
+      dies or stabilizes and it cannot be stabilized or healed by the Medicine
+      skill or by magical healing unless it stabilizes on its own. At level 17,
+      creatures affected by this feature also acquire the doomed condition.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!nptdbfjlyldlrkkb.Ap2M87W13yMEpZQK'
+flags: {}
+folder: null
+_id: nptdbfjlyldlrkkb
+_key: '!items!nptdbfjlyldlrkkb'

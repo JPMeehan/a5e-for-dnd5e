@@ -1,0 +1,80 @@
+folder: DMm8aLAHhpqUVDEv
+name: Bolstering Reserve
+type: spell
+img: icons/magic/life/heart-cross-strong-flame-green.webp
+system:
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-eef5e85d-7fff-da27-86b1-85cc5e34e949">You
+      call upon your calming energies to heal even the most weary of souls. This
+      may manifest as a soothing song, a heartfelt meal, or simply gentle words.
+      Once the casting time of this spell has concluded, the target creature
+      recovers from all levels of fatigue or strife.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 8
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: feather meal from a couatl feather
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+    rareSpell: false
+_id: zbv5uuv0br9ysrlb
+_key: '!items!zbv5uuv0br9ysrlb'

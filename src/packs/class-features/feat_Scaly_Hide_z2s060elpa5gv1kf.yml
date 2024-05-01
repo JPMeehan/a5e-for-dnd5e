@@ -1,0 +1,93 @@
+folder: null
+name: Scaly Hide
+type: feat
+img: icons/commodities/leather/scales-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, when you are raging, your flesh takes on the
+      thick, protective qualities of dragon scales. While you are raging, any
+      damage you take except psychic damage is reduced by an amount equal to
+      half your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/leather/scales-brown.webp
+    origin: Item.upfW7rVqF6r2gjqN
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ujdn1tphDmP1Sapk
+        applyToSelf: true
+    transfer: false
+    name: Scaly Hide
+    _id: 7DOkcF4aJXrOj2Tw
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Starting at 3rd level, when you are raging, your flesh takes on the
+      thick, protective qualities of dragon scales. While you are raging, any
+      damage you take except psychic damage is reduced by an amount equal to
+      half your proficiency bonus.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!z2s060elpa5gv1kf.7DOkcF4aJXrOj2Tw'
+flags: {}
+_id: z2s060elpa5gv1kf
+_key: '!items!z2s060elpa5gv1kf'

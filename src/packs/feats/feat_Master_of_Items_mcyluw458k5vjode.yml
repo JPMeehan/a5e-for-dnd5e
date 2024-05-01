@@ -1,0 +1,43 @@
+name: Master of Items
+type: feat
+img: icons/commodities/treasure/puzzle-box-glowing-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your studies have unlocked further capabilities for your bonded
+      artifact.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>You gain a +1 bonus to your choice of your Intelligence, Wisdom, or
+      Charisma score, to a maximum value of 20.</li>
+
+      <li>Half your artificer levels count as wielder levels for the purpose of
+      determining your access to artifact whispers.</li>
+
+      <li>Half your wielder levels count as artificer levels for the purpose of
+      determining your infusion limit.</li>
+
+      <li>You may apply a second infusion to your bonded artifact. It observes
+      the same rules as described in Artifact Whisperer, but if both infusions
+      require attunement, it counts against your attunement limit as if it were
+      a single item.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Bonded Innovator feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: mcyluw458k5vjode
+_key: '!items!mcyluw458k5vjode'

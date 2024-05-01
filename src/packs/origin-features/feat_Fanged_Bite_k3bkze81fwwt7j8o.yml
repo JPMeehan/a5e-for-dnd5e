@@ -1,0 +1,75 @@
+name: Fanged Bite
+type: feat
+img: icons/magic/death/mouth-bite-fangs-vampire.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You&rsquo;ve drank from the cup of the blood lords, but your powers are
+      only just awakening. You gain the following benefits:</p>
+
+      <p><strong><em>Fanged Bite</em></strong>. The bite is a natural weapon,
+      which you can use to make unarmed strikes that deal equal to 1d4 piercing
+      damage. Attack and damage rolls with your bite use your choice of
+      Strength, Dexterity, or Constitution modifiers.</p>
+
+      <p><strong>While you or your target are bloodied, you gain an expertise
+      die on these attack rolls.</strong></p>
+
+      <p><strong>Foundry Note: Uupdate modifier to appropriate ability. Set to
+      Strength by default.</strong></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: z476XZt1iG4Mb7VJ
+_id: k3bkze81fwwt7j8o
+_key: '!items!k3bkze81fwwt7j8o'

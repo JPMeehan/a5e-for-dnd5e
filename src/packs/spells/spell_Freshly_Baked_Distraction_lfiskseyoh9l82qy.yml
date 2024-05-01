@@ -1,0 +1,93 @@
+folder: KpVFJJxpHWw9kEfV
+name: Freshly-Baked Distraction
+type: spell
+img: icons/consumables/grains/bread-loaf-orange.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-33f4fc10-7fff-0872-495f-1d70d61da5a5"
+      dir="ltr">You conjure forth the enticing smells of bread, pastries, or
+      some other freshly-baked good in an unoccupied space that you can see
+      within range. Creatures of your choosing who start their turn in the area
+      must make a Wisdom saving throw versus your spell save DC or be enticed to
+      seek out the source of these delicious scents. On a failure, each affected
+      creature moves in the direction of the smell as much as they can. As an
+      action, you may move the area of effect to a different spot within range
+      so long as you maintain concentration. Creatures that can see you or who
+      are currently hostile towards you and your allies make their saves at
+      advantage.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels:</strong></p>
+
+      <p dir="ltr">Increase the area of effect by 10 feet for every level above
+      2nd.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 2
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a loaf of bread, cookie, or other baked good that you break in half
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+      - senses
+    rareSpell: false
+_id: lfiskseyoh9l82qy
+_key: '!items!lfiskseyoh9l82qy'

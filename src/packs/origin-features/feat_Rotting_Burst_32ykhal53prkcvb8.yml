@@ -1,0 +1,76 @@
+name: Rotting Burst
+type: feat
+img: icons/magic/unholy/strike-beam-blood-large-red-green.webp
+effects: []
+flags:
+  a5e:
+    placeTemplate: false
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Someone created you to be a zombie or flesh guardian… but you became
+      something else entirely. You gain the following
+      benefits:</p><p><strong><em>Rotting Burst. </em></strong>You are rotten
+      beneath the surface, with noxious puss aching to burst forth. You can use
+      this trait when you take damage, requiring no action or reaction.
+      Creatures within 5 feet take an amount of acid, necrotic, or poison damage
+      (your choice) equal to your proficiency bonus. Once you use this trait,
+      you can’t use it again until you complete a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof'
+        - acid
+      - - '@prof'
+        - necrotic
+      - - '@prof'
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: z476XZt1iG4Mb7VJ
+_id: 32ykhal53prkcvb8
+_key: '!items!32ykhal53prkcvb8'

@@ -1,0 +1,99 @@
+folder: 7JSQOMqQquD3x5jj
+name: Grease Fire
+type: spell
+img: icons/magic/fire/flame-burning-campfire-rocks.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-00825ea7-7fff-2259-b64f-01b90b52842c"
+      dir="ltr">You summon forth a flood of grease into the specified area,
+      which immediately ignites upon casting. Creatures in the affected area
+      must make a Dexterity saving throw versus your spell save DC, taking [[/r
+      5d8]] fire damage on a failure or half as much on a success.&nbsp; The
+      area flooded by this fiery grease is considered difficult terrain for the
+      duration of the spell and any creatures who remain in the grease
+      automatically take [[/r 3d4]] fire damage at the start of their turn.</p>
+
+      <p dir="ltr">This fire cannot be extinguished through the use of water,
+      and if water is applied to this fire in any way (such as in create or
+      destroy water), it instead causes a fiery explosion in the area grease
+      fire is currently affecting. All creatures within the spell&rsquo;s area
+      of effect must make an additional Dexterity saving throw. On a failure,
+      the affected creatures take [[/r 2d8]] fire damage and [[/r 2d8]] force
+      damage and are knocked prone from the blast. Creatures who succeed take
+      half damage and are not knocked prone.</p>
+
+      <p dir="ltr">This fire persists for 10 rounds and does not require
+      concentration. After 10 rounds have passed, the fire quenches itself and
+      disappears.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a bottle of grease
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - fire
+      - - 2d8
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - fire
+      - hearth
+    rareSpell: false
+_id: r43swpyy3rj9gpun
+_key: '!items!r43swpyy3rj9gpun'

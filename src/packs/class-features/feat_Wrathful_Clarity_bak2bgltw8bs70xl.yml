@@ -1,0 +1,97 @@
+folder: null
+name: Wrathful Clarity
+type: feat
+img: icons/magic/fire/flame-burning-eye.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at level 6, when you enter a rage, you achieve an almost
+      meditative clarity. Your thoughts become clearer, and time seems to flow
+      more slowly. While you rage, you are proficient with Wisdom saving throws
+      and you have advantage on Perception checks.&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/flame-burning-eye.webp
+    origin: Item.9w2VH31Ngd9tojJa
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: awepcs5BISIWDgOK
+        applyToSelf: true
+    transfer: false
+    name: Wrathful Clarity
+    _id: K4WbHzOgMPbDTfuv
+    changes:
+      - key: system.abilities.wis.save.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.prc
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>While you rage, you are proficient with Wisdom saving throws and you have advantage on Perception checks.\_</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!bak2bgltw8bs70xl.K4WbHzOgMPbDTfuv'
+flags: {}
+_id: bak2bgltw8bs70xl
+_key: '!items!bak2bgltw8bs70xl'

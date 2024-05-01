@@ -1,0 +1,97 @@
+folder: YnFE57i6b3g8tOII
+name: Bubble, Bubble
+type: spell
+img: icons/magic/water/orb-water-bubbles-blue.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-89254b68-7fff-0d34-65f1-0fedfb115fb7"
+      dir="ltr">You conjure forth three bubbles of boiling water that spin
+      around your hand. These bubbles are harmless to you and move with you
+      whenever you move. As a bonus action, you may flick your wrist to fling
+      one of these bubbles towards a target within range. If the target is a
+      creature, it must make a Dexterity saving throw versus your spell save DC,
+      taking 2d8 acid damage on a failure or half as much on a success.
+      Additionally, each creature within 5 feet of the target must also make a
+      Dexterity saving throw as the bubble bursts and sprays boiling water in
+      all directions, taking 2d6 acid damage on a failure or half as much on a
+      success. If the target is an unoccupied square, all creatures within 5
+      feet of that square make the Dexterity saving throw and take the 2d6
+      damage as normal. These bubbles remain rotating around you until all of
+      them are used, you lose concentration, or you choose to voluntarily end
+      the spell, at which point they disappear.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels:</strong></p>
+
+      <p dir="ltr">Add one additional bubble for each spell level above 3rd.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - acid
+      - - 2d6
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - acid
+      - hearth
+    rareSpell: false
+_id: 8f64bohm1ekg9670
+_key: '!items!8f64bohm1ekg9670'

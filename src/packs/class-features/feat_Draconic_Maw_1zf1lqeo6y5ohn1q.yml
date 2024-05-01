@@ -1,0 +1,70 @@
+folder: null
+name: Draconic Maw
+type: feat
+img: icons/creatures/abilities/mouth-teeth-long-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, while you are raging, your teeth elongate and strengthen
+      into powerful fangs. You gain a melee bite attack that deals 1d4 + your
+      Strength modifier piercing damage and 1d4 of the damage type done by your
+      Breath Weapon. You are proficient with this attack, it has a reach of 5
+      feet, and you use Strength for its attack roll. When you take the Attack
+      action, you may attack with this bite as a bonus action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 1zf1lqeo6y5ohn1q
+_key: '!items!1zf1lqeo6y5ohn1q'

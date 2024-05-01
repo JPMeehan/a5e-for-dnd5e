@@ -1,0 +1,73 @@
+folder: null
+name: Improvised Trapping
+type: feat
+img: icons/environment/traps/spike-skull-white-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-2825c7b4-7fff-6930-626c-37a348fa6459">Also
+      at 10th level, as a bonus action, you may deploy up to two thrown items
+      such as a flask of
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.4t0m2ttaca5hg2vi]{Alchemist's
+      Fire} or a
+      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.ukcav3i8dudpalir]{Tanglefoot
+      Bag} into up to two spaces within 15 feet of you. If a creature moves into
+      that space, it is affected as if you had hit it with the thrown object.
+      You can deploy the items into the same space or separate spaces as you see
+      fit. You may retrieve an item that hasn't been activated as an action from
+      any adjacent space.</span></p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 6jlxlnioy1nywnwk
+_key: '!items!6jlxlnioy1nywnwk'

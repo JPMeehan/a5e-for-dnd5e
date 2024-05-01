@@ -1,0 +1,70 @@
+folder: null
+name: Killing Touch
+type: feat
+img: icons/magic/death/hand-withered-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level, you learn the most terrifying technique of all, the
+      killing touch. When you hit with a melee attack, you may declare that you
+      are using your killing touch ability. If you do, the creature you struck
+      has fewer than 100 hit points, it is immediately slain. If the creature
+      has 100 hit points or more, your attack deals damage as normal and the
+      creature also takes an additional 50 points of necrotic damage.
+      </p><p>Once you have used this ability, you cannot use it again until you
+      have finished a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '50'
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: axrech3enc8bpnea
+_key: '!items!axrech3enc8bpnea'

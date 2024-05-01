@@ -1,0 +1,87 @@
+folder: riV8qst3SvT2320y
+name: Epicurean Delight
+type: spell
+img: icons/consumables/food/spice-anise-pod.webp
+system:
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-dabe8b50-7fff-551b-ff0a-6d7f8411eb23">You
+      magically enhance the flavor of a dish, intensifying the herbs and spices
+      to cover up the flavor of some additional ingredient. This addition could
+      be poison, a potion&mdash;or the inclusion of vegetables. Any creature who
+      consumes the food must make a Wisdom saving throw versus your spell save
+      DC. On a success they may detect the added ingredient at the
+      Narrator&rsquo;s discretion, and if appropriate, turn hostile. Creatures
+      who fail don&rsquo;t notice the presence of the added ingredient. If a
+      poison or a potion was the added ingredient, the creature then makes any
+      relevant saving throw and experiences the effect of the item as
+      normal.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a pinch of seasoning salt
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+    rareSpell: false
+_id: 7mstn35b46fckw5o
+_key: '!items!7mstn35b46fckw5o'

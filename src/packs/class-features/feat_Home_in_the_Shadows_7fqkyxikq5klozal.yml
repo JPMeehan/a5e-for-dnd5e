@@ -1,0 +1,51 @@
+folder: null
+name: Home in the Shadows
+type: feat
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 3 when you select this archetype, you gain proficiency with
+      shortbows, longbows, and garrotes. They Count as adept weapons for you.
+      You also gain proficiency with the Stealth skill or an expertise die if
+      you are already proficient.&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Burning Gloom'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/unholy/silhouette-robe-evil-glow.webp
+    origin: Item.7fqkyxikq5klozal
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: YBo1M5BKpLEJtOXu
+    transfer: false
+    name: New Effect
+    _id: wA548z8R4CwvzIpy
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!7fqkyxikq5klozal.wA548z8R4CwvzIpy'
+flags: {}
+_id: 7fqkyxikq5klozal
+_key: '!items!7fqkyxikq5klozal'

@@ -1,0 +1,65 @@
+name: Sting of the Elements
+type: feat
+img: icons/magic/light/projectile-beams-salvo-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Beginning at 6th level, whenever a creature with your
+      elemental divination dice makes a damage roll, they can expend elemental
+      divination dice to deal bonus damage to one of their targets. The target
+      takes 1d8 damage per elemental damage die spent in this way, the damage
+      type being the same as your Channel Divinity: Elemental Intervention.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 6lib8s0hlqylm33d
+_key: '!items!6lib8s0hlqylm33d'

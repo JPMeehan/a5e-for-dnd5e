@@ -1,0 +1,182 @@
+folder: null
+name: Improved Kitchen Intention
+type: feat
+img: icons/tools/cooking/pot-camping-iron-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-2b57a1a5-7fff-d3c0-de90-62e72e2ed170"
+      dir="ltr">At 10th level, you have gained greater mastery over your kitchen
+      magic. You gain the following enhancements to choose from when you use
+      your Kitchen Intention ability:</p>
+
+      <p dir="ltr"><strong>Fortification.</strong> This hearty meal enriches
+      your muscles, providing you with greater physical prowess. For the
+      duration, you have advantage on Strength ability checks and saving throws
+      and you count yourself as one Size larger in terms of calculating your
+      carrying capacity.</p>
+
+      <p dir="ltr"><strong>Quickness.</strong> Though this meal is more like a
+      collection of delicious morsels, it gives you the energy to stay light on
+      your feet, even in the heat of battle. You gain an expertise die to your
+      initiative and your base walking speed increases by 10 feet.</p>
+
+      <p><strong>Resilience.</strong> This meal bolsters your resolve, granting
+      you heightened resistance to magical effects. You have advantage on saving
+      throws against spells.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Item.renwa900hbhchko8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: L1uS8Ni4vTMkpfge
+        duration:
+          unit: hours
+    transfer: false
+    name: Fortification
+    _id: eZ2BSzZcmsV0FaN0
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p id="docs-internal-guid-4d49f897-7fff-7aa0-d579-db901405c202"
+      dir="ltr">This hearty meal enriches your muscles, providing you with
+      greater physical prowess. For the duration, you have advantage on Strength
+      ability checks and saving throws and you count yourself as one Size larger
+      in terms of calculating your carrying capacity.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!renwa900hbhchko8.eZ2BSzZcmsV0FaN0'
+  - icon: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+    origin: Item.renwa900hbhchko8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: L1uS8Ni4vTMkpfge
+        duration:
+          unit: hours
+    transfer: false
+    name: Quickness
+    _id: 94NfIPYfgzDTyKe8
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '10'
+        mode: 2
+        priority: null
+      - key: system.attributes.initiative.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p id="docs-internal-guid-8ac5bedf-7fff-b84b-4fd8-361da745c676"
+      dir="ltr">Though this meal is more like a collection of delicious morsels,
+      it gives you the energy to stay light on your feet, even in the heat of
+      battle. You gain an expertise die to your initiative and your base walking
+      speed increases by 10 feet.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!renwa900hbhchko8.94NfIPYfgzDTyKe8'
+  - icon: icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp
+    origin: Item.renwa900hbhchko8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: L1uS8Ni4vTMkpfge
+        duration:
+          unit: hours
+    transfer: false
+    name: Resilience
+    _id: qtokCv9lvHIuEBo4
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-c81f8f0a-7fff-6a18-a89f-6948ff55f5a4">This
+      meal bolsters your resolve, granting you heightened resistance to magical
+      effects. You have advantage on saving throws against spells.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!renwa900hbhchko8.qtokCv9lvHIuEBo4'
+flags: {}
+_id: renwa900hbhchko8
+_key: '!items!renwa900hbhchko8'

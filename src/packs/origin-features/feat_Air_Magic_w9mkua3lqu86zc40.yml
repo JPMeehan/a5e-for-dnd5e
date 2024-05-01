@@ -1,0 +1,84 @@
+folder: z476XZt1iG4Mb7VJ
+name: Air Magic
+type: feat
+img: icons/magic/air/wind-swirl-gray-blue.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 13">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You know the circular breathing and mage hand cantrips. When you cast
+      mage hand, instead of a spectral hand the spell appears as a lightly
+      glowing wind. You can cast levitation once per long rest. Your
+      spellcasting ability for these spells is your choice of Dexterity,
+      Intelligence, Wisdom, or Charisma.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: w9mkua3lqu86zc40
+_key: '!items!w9mkua3lqu86zc40'

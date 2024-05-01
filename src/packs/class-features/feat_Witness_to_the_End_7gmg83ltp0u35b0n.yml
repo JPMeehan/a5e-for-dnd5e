@@ -1,0 +1,32 @@
+name: Witness to the End
+type: feat
+img: icons/magic/perception/eye-winged-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level, you are charged with transitioning those whose time
+      has come. You gain proficiency with martial weapons. You learn
+      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.bpkked98u8mb2q3w]{Chill
+      Touch} </em>and
+      <em>@UUID[Compendium.a5e.a5e-spells.Item.omvngnmoo75is54f]{Spare the
+      Dying}</em>&nbsp;as bonus cantrips. Once between long rests, when you cast
+      <em>@UUID[Compendium.a5e.a5e-spells.Item.bq5bki8n1gfhrqz1]{Ceremony}
+      </em>to perform a funeral or to guide the passing, you can do so without
+      providing material components.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 7gmg83ltp0u35b0n
+_key: '!items!7gmg83ltp0u35b0n'

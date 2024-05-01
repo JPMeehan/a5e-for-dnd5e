@@ -1,0 +1,173 @@
+name: Home Territory
+type: feat
+img: icons/environment/wilderness/altar-hidden.webp
+effects:
+  - icon: icons/environment/wilderness/altar-hidden.webp
+    origin: Item.hU3O29lZKJ6g5cix
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 2e61WNZdmHigjUU4
+        applyToSelf: true
+    transfer: false
+    name: Fatigue
+    _id: MaNkxlBa1QOtBbe5
+    changes:
+      - key: system.attributes.fatigue
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!6eqe5p0r7m5u5q4k.MaNkxlBa1QOtBbe5'
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you may designate a specific location as your home
+      territory. Doing so requires you to have lived there for at least a month
+      and also requires that you perform a magical ritual that takes 8 hours,
+      consumes 200 gold worth of ingredients, and leaves you with a level of
+      fatigue at the end (which may be recovered normally). Your Home Territory
+      is centered on the ritual site and extends out from it a number of miles
+      equal to your proficiency bonus. Once you have designated an area as your
+      home, you gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ppht0do531mq84uw]{Scrying}
+      spell and always have it prepared. It does not count against your maximum
+      number of spells prepared.</p>
+
+      </li>
+
+      <li>
+
+      <p>You are aware of the comings and goings of any creature that speaks at
+      least one language in your Home Territory. You do not know the
+      creatures&rsquo; exact locations, but <em>scrying</em> on them is
+      performed as if you had one of their garments or possessions.</p>
+
+      </li>
+
+      <li>
+
+      <p>You cannot become lost in your Home Territory, and always know how long
+      it will take to travel from one part of it to another (barring the actions
+      of other creatures).</p>
+
+      </li>
+
+      <li>
+
+      <p>Creatures of the Beast, Plant, and Monstrosity types in your Home
+      Territory become more friendly, having their attitude toward you adjusted
+      up by one. Hostile creatures are indifferent, indifferent creatures are
+      friendly, and creatures that are normally friendly become affectionate
+      towards you as long as you treat them with kindness.</p>
+
+      </li>
+
+      <li>
+
+      <p>You ignore non-magical difficult terrain in your Home Territory.</p>
+
+      </li>
+
+      <li>
+
+      <p>You gain a measure of control over the weather in your Home Territory.
+      Once per hour you may adjust one of the conditions in your Home Territory
+      by one step (per
+      the&nbsp;@UUID[Compendium.a5e.a5e-spells.Item.ekzbxzb2pzhffev9]{Control
+      Weather} spell). You may use this benefit a number of times equal to your
+      Intelligence modifier, after which you must finish a long rest before you
+      can use it again.</p>
+
+      </li>
+
+      <li>
+
+      <p>While in your Home Territory, you are under a continuous
+      @UUID[Compendium.a5e.a5e-spells.Item.8j1p6dsp3qfvjprc]{Tree Stride}
+      effect.</p>
+
+      </li>
+
+      <li>
+
+      <p>You may only have one Home Territory at a time, but you may create a
+      new Home Territory whenever you wish, provided you meet the prerequisites.
+      If a given location was previously your Home Territory, you can perform
+      the ritual to reestablish it as your Home Territory immediately upon your
+      return, ignoring the residency duration prerequisite.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: 6eqe5p0r7m5u5q4k
+_key: '!items!6eqe5p0r7m5u5q4k'

@@ -1,0 +1,356 @@
+folder: null
+name: Kitchen Intention
+type: feat
+img: icons/tools/cooking/bowl-steaming-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-2958e2a4-7fff-ac28-d54b-be169050da83"
+      dir="ltr">Also at 2nd level, you may magically imbue the food and drink
+      you craft with your magic, granting you or your allies the benefits of
+      your magical intention and bolstering them physically or mentally. If you
+      spend an hour preparing a meal/drink using your cook&rsquo;s utensils or
+      brewer&rsquo;s supplies, choose one of the following effects (this action
+      may be performed as part of a short or long rest). Creatures who consume
+      this dish benefit from the chosen effect for the next 8 hours:</p>
+
+      <p dir="ltr"><strong>Athleticism.</strong> This rich meal bolsters the
+      body, giving you energy for the coming day. You gain an expertise die to
+      both Athletics and Acrobatics checks for the duration.</p>
+
+      <p dir="ltr"><strong>Endurance.</strong> This light meal fills you with
+      energy to burn without weighing you down. Whenever you would make a
+      Constitution saving throw to resist the fatigue from a forced march, add
+      an expertise die to the roll.</p>
+
+      <p dir="ltr"><strong>Memory.</strong> This meal seeks to nourish the mind
+      as well as the body, letting you recall more information from your
+      studies. Choose a lore skill (Culture, Engineering, History, Nature, or
+      Religion). You gain proficiency in that skill (or a specialty of your
+      choice if you are already proficient) and an expertise die for skill
+      checks using that skill.</p>
+
+      <p dir="ltr">You may impart these benefits to a number of creatures
+      (including yourself) equal to your proficiency bonus per short rest,
+      though you need enough Supply to account for each individual. A creature
+      may only benefit from one of these effects at a time.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/buff-strength-muscle-damage.webp
+    origin: Item.dk43kk6a1ccvw0bp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5OEUQflUe36469Kx
+        duration:
+          unit: hours
+    transfer: false
+    name: Athleticism
+    _id: d21N2I7Xn58LIJ9T
+    changes:
+      - key: system.skills.ath.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.skills.acr.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-262a7eaf-7fff-041f-130d-8463da08f7f3">This
+      rich meal bolsters the body, giving you energy for the coming day. You
+      gain an expertise die to both Athletics and Acrobatics checks for the
+      duration.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dk43kk6a1ccvw0bp.d21N2I7Xn58LIJ9T'
+  - icon: icons/skills/movement/figure-running-gray.webp
+    origin: Item.dk43kk6a1ccvw0bp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5OEUQflUe36469Kx
+        duration:
+          unit: hours
+    transfer: false
+    name: Endurance
+    _id: Vk3c3mf22O36nEoR
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p id="docs-internal-guid-ae05122f-7fff-30c2-bc03-01cd100b59ca"
+      dir="ltr">This light meal fills you with energy to burn without weighing
+      you down. Whenever you would make a Constitution saving throw to resist
+      the fatigue from a forced march, add an expertise die to the roll.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dk43kk6a1ccvw0bp.Vk3c3mf22O36nEoR'
+  - icon: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+    origin: Item.dk43kk6a1ccvw0bp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5OEUQflUe36469Kx
+        duration:
+          unit: hours
+    transfer: false
+    name: Memory (Culture)
+    _id: gN7D1yfcerK5i6Y5
+    changes:
+      - key: system.skills.cul.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-362d507b-7fff-2063-f522-6a3874f6f866">This
+      meal seeks to nourish the mind as well as the body, letting you recall
+      more information from your studies. Choose a lore skill (Culture,
+      Engineering, History, Nature, or Religion). You gain proficiency in that
+      skill (or a specialty of your choice if you are already proficient) and an
+      expertise die for skill checks using that skill.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dk43kk6a1ccvw0bp.gN7D1yfcerK5i6Y5'
+  - icon: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+    origin: Item.dk43kk6a1ccvw0bp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5OEUQflUe36469Kx
+        duration:
+          unit: hours
+    transfer: false
+    name: Memory (Engineering)
+    _id: dAFe2gOOvelNy26V
+    changes:
+      - key: system.skills.eng.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.skills.eng.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-362d507b-7fff-2063-f522-6a3874f6f866">This
+      meal seeks to nourish the mind as well as the body, letting you recall
+      more information from your studies. Choose a lore skill (Culture,
+      Engineering, History, Nature, or Religion). You gain proficiency in that
+      skill (or a specialty of your choice if you are already proficient) and an
+      expertise die for skill checks using that skill.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dk43kk6a1ccvw0bp.dAFe2gOOvelNy26V'
+  - icon: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+    origin: Item.dk43kk6a1ccvw0bp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5OEUQflUe36469Kx
+        duration:
+          type: seconds
+          unit: hours
+    transfer: false
+    name: Memory (History)
+    _id: EyRsDYzL2xbrZk4N
+    changes:
+      - key: system.skills.his.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.skills.his.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-362d507b-7fff-2063-f522-6a3874f6f866">This
+      meal seeks to nourish the mind as well as the body, letting you recall
+      more information from your studies. Choose a lore skill (Culture,
+      Engineering, History, Nature, or Religion). You gain proficiency in that
+      skill (or a specialty of your choice if you are already proficient) and an
+      expertise die for skill checks using that skill.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dk43kk6a1ccvw0bp.EyRsDYzL2xbrZk4N'
+  - icon: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+    origin: Item.dk43kk6a1ccvw0bp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5OEUQflUe36469Kx
+        duration:
+          unit: hours
+    transfer: false
+    name: Memory (Nature)
+    _id: kzC3VuSaY9gYiR8o
+    changes:
+      - key: system.skills.nat.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.skills.nat.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-362d507b-7fff-2063-f522-6a3874f6f866">This
+      meal seeks to nourish the mind as well as the body, letting you recall
+      more information from your studies. Choose a lore skill (Culture,
+      Engineering, History, Nature, or Religion). You gain proficiency in that
+      skill (or a specialty of your choice if you are already proficient) and an
+      expertise die for skill checks using that skill.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dk43kk6a1ccvw0bp.kzC3VuSaY9gYiR8o'
+  - icon: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+    origin: Item.dk43kk6a1ccvw0bp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5OEUQflUe36469Kx
+        duration:
+          unit: hours
+    transfer: false
+    name: Memory (Religion)
+    _id: Mb028mgOdNbnNFjX
+    changes:
+      - key: system.skills.rel.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.skills.rel.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-362d507b-7fff-2063-f522-6a3874f6f866">This
+      meal seeks to nourish the mind as well as the body, letting you recall
+      more information from your studies. Choose a lore skill (Culture,
+      Engineering, History, Nature, or Religion). You gain proficiency in that
+      skill (or a specialty of your choice if you are already proficient) and an
+      expertise die for skill checks using that skill.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dk43kk6a1ccvw0bp.Mb028mgOdNbnNFjX'
+flags: {}
+_id: dk43kk6a1ccvw0bp
+_key: '!items!dk43kk6a1ccvw0bp'

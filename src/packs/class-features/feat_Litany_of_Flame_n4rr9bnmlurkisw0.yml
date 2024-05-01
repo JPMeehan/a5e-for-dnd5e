@@ -1,0 +1,174 @@
+name: Litany of Flame
+type: feat
+img: icons/magic/fire/beam-jet-stream-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 14th level, you learn the Litany of Flame. To use it, you
+      must spend a use of your Wild Shape and an action. Once it has begun, you
+      must concentrate on it like a spell, and you may keep it active for up to
+      10 minutes. While the Litany of Flame is active you gain the following
+      effects:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You continuously chant the Litany,
+      precluding you from casting spells.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You gain immunity to fire damage.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You shed bright light in a 50-foot radius
+      around you and dim light a further 50 feet beyond that. The light is
+      considered daylight.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You gain unlimited use of Brand of
+      Flame.&nbsp;</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You gain the benefits of Eyes of
+      Flame.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">As an action you may cause a creature
+      within 30 feet of you to ignite, taking 3d6 fire damage and 1d6 ongoing
+      fire damage. A creature may spend an action to put the fire out, ending
+      the ongoing damage.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">As a bonus action, you may ignite a
+      10-foot square into flames. It is affected as per the Fire encounter
+      element.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">As a reaction, you may cause a creature
+      within 60 feet of you whose presence you are aware of to be outlined in
+      ghostly flames as if it were affected by
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.z7r6plq6vyesck07]{Faerie Fire}.
+      If you stop chanting or lose concentration, the effect ends.</p>
+
+      </li>
+
+      </ul>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/beam-jet-stream-yellow.webp
+    origin: Item.AxeOhp6Sy1UDH8JL
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nQfkCKwOMIAhPEea
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Litany of Flame
+    _id: OfSaNtMP2N2UAEon
+    changes:
+      - key: system.traits.damageImmunities
+        value: '["fire"]'
+        mode: 2
+        priority: null
+      - key: '@token.light.bright'
+        value: '50'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '50'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p dir=\"ltr\">Once it has begun, you must concentrate on it like a spell, and you may keep it active for up to 10 minutes. While the Litany of Flame is active you gain the following effects:</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You continuously chant the Litany, precluding you from casting spells.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You gain immunity to fire damage.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You shed bright light in a 50-foot radius around you and dim light a further 50 feet beyond that. The light is considered daylight.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You gain unlimited use of Brand of Flame.\_</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You gain the benefits of Eyes of Flame.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">As an action you may cause a creature within 30 feet of you to ignite, taking 3d6 fire damage and 1d6 ongoing fire damage. A creature may spend an action to put the fire out, ending the ongoing damage.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">As a bonus action, you may ignite a 10-foot square into flames. It is affected as per the Fire encounter element.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">As a reaction, you may cause a creature within 60 feet of you whose presence you are aware of to be outlined in ghostly flames as if it were affected by faerie fire.If you stop chanting or lose concentration, the effect ends.</p>\n</li>\n</ul>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!n4rr9bnmlurkisw0.OfSaNtMP2N2UAEon'
+flags: {}
+folder: null
+_id: n4rr9bnmlurkisw0
+_key: '!items!n4rr9bnmlurkisw0'

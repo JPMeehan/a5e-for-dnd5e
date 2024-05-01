@@ -1,0 +1,69 @@
+folder: null
+name: Upgraded Weapon (Equipment Upgrade)
+type: feat
+img: icons/weapons/crossbows/crossbow-golden-bolt.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span
+      id="docs-internal-guid-7a6bbb46-7fff-5adc-de4f-010d18239d6b"></span>If
+      your automaton has the Autonomous Weapon option, it now deals damage equal
+      to 2d8 + your Intelligence modifier and its range increases to
+      150/600.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 150
+    long: 600
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: osqt9a763ujx0jws
+_key: '!items!osqt9a763ujx0jws'

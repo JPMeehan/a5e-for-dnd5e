@@ -1,0 +1,83 @@
+folder: z476XZt1iG4Mb7VJ
+name: Water Magic
+type: feat
+img: icons/magic/water/vortex-water-whirlpool.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 13">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You know the acid splash cantrip. Once you reach 3rd level, you can
+      cast create or destroy water once per long rest. Your spellcasting ability
+      for these spells is your choice of Constitution, Intelligence, Wisdom, or
+      Charisma.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '30'
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: vbg4rehpqtc61743
+_key: '!items!vbg4rehpqtc61743'

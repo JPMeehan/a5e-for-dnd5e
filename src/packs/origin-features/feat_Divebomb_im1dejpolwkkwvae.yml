@@ -1,0 +1,84 @@
+folder: z476XZt1iG4Mb7VJ
+name: Divebomb
+type: feat
+img: icons/creatures/claws/claw-talons-glowing-orange.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 21">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You can use this trait while flying to use the Charge combat maneuver,
+      without expending exertion. After you make your attack, you can continue
+      flying whatever distance remains from the maneuver distance and your
+      flight speed. This movement does not provoke opportunity attacks from the
+      creature you divebomb. Once you use this trait, you cannot use it again
+      until you complete a short or long rest.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: im1dejpolwkkwvae
+_key: '!items!im1dejpolwkkwvae'

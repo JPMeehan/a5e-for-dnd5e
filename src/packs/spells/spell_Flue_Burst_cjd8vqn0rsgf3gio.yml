@@ -1,0 +1,79 @@
+folder: KpVFJJxpHWw9kEfV
+name: Flue Burst
+type: spell
+img: icons/magic/air/fog-gas-smoke-gray.webp
+system:
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-eb7ebf38-7fff-566b-eae8-18d3504a2afd">You
+      toss a handful of ash into the air and&nbsp; obstruct your enemies&rsquo;
+      line of sight, giving you a moment to make a quick getaway. You may move
+      up to half of your movement speed away from enemy creatures. Additionally,
+      one ally within 15 feet of you may also move up to half of their movement
+      speed. This movement does not provoke attacks of opportunity.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 2
+  school: con
+  properties:
+    - material
+  materials:
+    value: a handful of ash
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+      - movement
+    rareSpell: false
+_id: cjd8vqn0rsgf3gio
+_key: '!items!cjd8vqn0rsgf3gio'

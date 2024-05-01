@@ -18,8 +18,9 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Gate Pass Gazette
     license: OGL 1.0a
+    page: '#0'
   quantity: 1
   weight: 0
   price:
@@ -29,11 +30,11 @@ system:
   equipped: false
   rarity: common
   identified: true
+  proficient: true
   type:
     value: ''
     baseItem: ''
   properties: []
-  proficient: true
   armor:
     value: null
   hp:

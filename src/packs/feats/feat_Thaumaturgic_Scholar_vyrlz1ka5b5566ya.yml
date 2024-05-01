@@ -1,0 +1,39 @@
+folder: null
+name: Thaumaturgic Scholar
+type: feat
+img: icons/tools/scribal/magnifying-glass.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your mind is a towering citadel of scholarship and knowledge.&nbsp;You
+      gain the following benefits:</p>
+
+      <ul>
+
+      <li>Your Intelligence increases by +1, to a maximum of 20. If it is
+      already 20, you may increase your Wisdom or Charisma by +1 instead, also
+      to a maximum of 20.</li>
+
+      <li>You gain proficiency with your choice of <em>Alchemist&rsquo;s
+      Supplies</em> or the <em>Herbalist&rsquo;s Kit</em>.</li>
+
+      <li>Your Savant levels count as Wizard levels for the purpose of
+      determining the spell slots you can get back with Arcane Recovery.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Thaumaturgic Student feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: vyrlz1ka5b5566ya
+_key: '!items!vyrlz1ka5b5566ya'

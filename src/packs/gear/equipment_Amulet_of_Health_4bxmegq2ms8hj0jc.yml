@@ -1,0 +1,72 @@
+name: Amulet of Health
+type: equipment
+img: icons/equipment/neck/amulet-heart.webp
+effects:
+  - icon: icons/equipment/neck/amulet-heart.webp
+    origin: Item.4bxmegq2ms8hj0jc
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Amulet of Health
+    _id: xvjBV9zDv9vgBcLe
+    changes:
+      - key: system.abilities.con.value
+        mode: 5
+        value: '19'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!4bxmegq2ms8hj0jc.xvjBV9zDv9vgBcLe'
+flags: {}
+system:
+  description:
+    value: >-
+      Wearing this amulet increases your Constitution score to 19. It has no
+      effect if your Constitution is equal to greater than 19.
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: clothing
+    baseItem: ''
+folder: 9k4UVzCiMuqj62ea
+_id: 4bxmegq2ms8hj0jc
+_key: '!items!4bxmegq2ms8hj0jc'

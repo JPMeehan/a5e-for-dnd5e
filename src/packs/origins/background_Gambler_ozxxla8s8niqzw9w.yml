@@ -125,11 +125,10 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants:
-          - tool:game:dice
-          - tool:game:card
+          - skills:diceSet
+          - skills:playingCardSet
         choices:
           pool: []
           count: 0

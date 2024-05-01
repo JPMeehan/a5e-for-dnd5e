@@ -1,0 +1,64 @@
+folder: null
+name: Unseen Pathways
+type: feat
+img: icons/skills/movement/ball-spinning-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 8, you gain the ability to teleport short distances. As an
+      action, you can teleport up to your walking speed. Once you have used this
+      feature a number of times equal to your Wisdom modifier (minimum once) you
+      can&rsquo;t do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 8ctgo0bmk4sccu0f
+_key: '!items!8ctgo0bmk4sccu0f'

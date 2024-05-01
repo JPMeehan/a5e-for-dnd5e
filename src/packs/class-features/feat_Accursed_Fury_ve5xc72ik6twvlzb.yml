@@ -1,0 +1,129 @@
+folder: null
+name: Accursed Fury
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 6th level you can strain your mind to wring additional power
+      from your artifact. As a bonus action, you suffer a level of strife&nbsp;
+      and for the next minute, the first attack you hit with on each of your
+      turns deals a number of additional d6s of psychic damage equal to half
+      your proficiency bonus. The level of strife persists after the duration
+      ends and must be removed normally. You can&rsquo;t use this ability if you
+      already have 3 or more levels of strife</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - (floor(@prof/2))d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/strike-body-life-soul-purple.webp
+    origin: Item.ve5xc72ik6twvlzb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jSWdEMrKWxdwsuav
+        applyToSelf: true
+    transfer: false
+    name: Strife
+    _id: tZ8CIck7vZsJNkek
+    changes:
+      - key: system.attributes.strife
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ve5xc72ik6twvlzb.tZ8CIck7vZsJNkek'
+  - icon: icons/magic/unholy/strike-body-life-soul-purple.webp
+    origin: Item.ve5xc72ik6twvlzb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jSWdEMrKWxdwsuav
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Accursed Fury
+    _id: Fafh6SrJsgP8WbyV
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-2ff35f08-7fff-a1e0-78e3-94237366b994">The
+      first attack you hit with on each of your turns deals a number of
+      additional d6s of psychic damage equal to half your proficiency
+      bonus.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ve5xc72ik6twvlzb.Fafh6SrJsgP8WbyV'
+flags: {}
+_id: ve5xc72ik6twvlzb
+_key: '!items!ve5xc72ik6twvlzb'

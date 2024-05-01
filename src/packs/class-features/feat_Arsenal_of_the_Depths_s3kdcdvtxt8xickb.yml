@@ -1,0 +1,94 @@
+name: Arsenal of the Depths
+type: feat
+img: icons/magic/water/projectile-arrow-water-ice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Beginning at 6th level, you can treat water as solid ground
+      when it suits you. You are continuously under the effects of the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.qmz47cw7wmy78gyc]{Water Walk}
+      spell, and your swim speed increases by 20 feet.&nbsp;</p>
+
+      <p dir="ltr">You also gain one of the following features:</p>
+
+      <h4 dir="ltr"><strong>Eel Skin</strong></h4>
+
+      <p dir="ltr">Your body stores a potent electrical current. When you are
+      hit by a melee weapon attack, you may use your reaction to deal a number
+      of d8s of lightning damage equal to your proficiency bonus to the
+      attacking creature.&nbsp;</p>
+
+      <h4 dir="ltr"><strong>Aquatic Predator</strong></h4>
+
+      <p dir="ltr">When you use your Wild Shape to transform into a creature
+      with both a bite attack and a swim speed, you gain an expertise die on
+      Stealth and Athletics checks while in the water. <br>In addition, once per
+      turn, you can deal extra damage when you hit a creature with a bite
+      attack. The amount of extra damage is a number of d6s equal to half your
+      proficiency bonus.</p>
+
+      <p dir="ltr">In order to apply this damage, you must not have disadvantage
+      on the attack and your target must be within 5 feet of another enemy of
+      the target who is not incapacitated. Alternatively, you can apply this
+      damage if you have advantage on the attack.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - floor (@prof /2)d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: s3kdcdvtxt8xickb
+_key: '!items!s3kdcdvtxt8xickb'

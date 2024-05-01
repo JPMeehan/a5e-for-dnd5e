@@ -1,0 +1,94 @@
+folder: 9k4UVzCiMuqj62ea
+name: Totem of the Nosy Cat
+type: equipment
+img: icons/creatures/mammals/cat-hunched-glowing-red.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-0e7521c6-7fff-3de7-2c95-c1e21467f32e"
+      dir="ltr">This small, wooden totem is carved in the shape of a house cat.
+      When you speak the command word, the totem turns into a Tiny calico cat
+      who looks up at you expectantly. The cat is friendly to you and your
+      allies and will purr loudly if acknowledged. If you ask the cat its name,
+      it simply replies, &ldquo;Mew?&rdquo;</p>
+
+      <p dir="ltr">As a bonus action, you may command the cat to investigate the
+      area ahead. So long as the cat remains within 100 feet of you, you may use
+      an action to see through the cat&rsquo;s eyes and listen through its ears.
+      The nosy cat has all of the statistics of the cat stat block, though any
+      Perception checks made through its eyes use your modifier (if it is
+      higher). After 10 minutes, or if the cat is reduced to 0 hit points, it
+      reverts back to its totem form and immediately teleports back into your
+      hand. The cat cannot be summoned again in this way until the next day.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 1200
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 2o7w7y713wa2pigu
+_key: '!items!2o7w7y713wa2pigu'

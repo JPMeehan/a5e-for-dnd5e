@@ -1,0 +1,97 @@
+folder: z476XZt1iG4Mb7VJ
+name: Deep Darkvision
+type: feat
+img: icons/creatures/fish/deepsea-creature-glowing-blue.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You can see in dim light within 60 feet of you as if it were bright
+      light, and in darkness as if it were dim light. You can&rsquo;t discern
+      color in darkness, only shades of gray. In addition, your eyes are
+      perfectly adapted for spotting movement at depth, and the radius of your
+      darkvision increases to 120 feet while underwater.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/fish/deepsea-creature-glowing-blue.webp
+    origin: Item.203ztkhgzbej9q6l
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: lsu2Cu1pMnFv1ICM
+        applyToSelf: true
+    transfer: false
+    name: Underwater Darkvision
+    _id: nRKkfclbAjoYRwKQ
+    changes:
+      - key: system.attributes.senses.darkvision.distance
+        value: >-
+          {"comparisonOperator":"<","comparisonValue":"120","positiveValue":"120","negativeValue":"@original"}
+        mode: 7
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your eyes are perfectly adapted for spotting movement at depth, and the
+      radius of your darkvision increases to 120 feet while underwater.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!203ztkhgzbej9q6l.nRKkfclbAjoYRwKQ'
+flags: {}
+_id: 203ztkhgzbej9q6l
+_key: '!items!203ztkhgzbej9q6l'

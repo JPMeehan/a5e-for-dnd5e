@@ -1,0 +1,35 @@
+name: Hands of Flame
+type: feat
+img: icons/magic/fire/flame-burning-hand-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Also at 2nd level, you gain control over fire with a touch.
+      You learn
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.c1qq11be32b3s1qr]{Fire Bolt} as
+      a bonus cantrip, and you gain resistance to fire damage.</p>
+
+      <p dir="ltr">You can also ignite flammable materials by touching them as a
+      bonus action. You may also extinguish up to a 15-foot square of
+      non-magical fire by spending an action to do so. You must be within 5
+      feet&nbsp; of the fire in order to do this. The area you can extinguish
+      grows to 25-foot square at 8th level and 50-foot square at 14th level.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: ax61hhkljgaobvai
+_key: '!items!ax61hhkljgaobvai'

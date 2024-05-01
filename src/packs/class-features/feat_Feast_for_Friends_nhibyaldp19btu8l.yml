@@ -1,0 +1,70 @@
+folder: null
+name: Feast for Friends
+type: feat
+img: icons/consumables/food/bowl-stew-tofu-potato-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-3467270e-7fff-9bff-76c4-cc628ab14e6e">At
+      14th level, you have truly mastered the art of preparing even the most
+      elaborate meals, bringing your allies together and making them stronger.
+      You always have the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.1fhdzbsc3lhg7402]{Heroes'
+      Feast} prepared, and you may cast it without material components or
+      expending a spell slot once per long rest.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: nhibyaldp19btu8l
+_key: '!items!nhibyaldp19btu8l'

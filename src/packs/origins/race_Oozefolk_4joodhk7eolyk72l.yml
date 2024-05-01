@@ -97,12 +97,12 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Dungeon Delver's Guide
     license: OGL 1.0a
   advancement:
     - _id: R43ym2FH2VUktJdf
       type: ItemGrant
-      level: 0
+      level: 1
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.2gvxjotgzlxd8di9
@@ -110,7 +110,7 @@ system:
           - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.71rrfuwva6r4bt7y
     - _id: 2utNCFViSDsGoAgj
       type: ItemChoice
-      level: 0
+      level: 1
       configuration:
         pool:
           - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.81lj5ey8bhtix613
@@ -118,13 +118,13 @@ system:
           - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.gccr8sch65zf5awg
         choices:
           '0': 2
-    - _id: ZkYYK1cfvYUW8QEy
+    - _id: GBOmCv2XY4ZVZp3u
       type: ItemChoice
-      level: 0
+      level: 10
       configuration:
         pool:
           - uuid: Compendium.undefined.Item.4grlmezudnaq4x84
-          - uuid: Item.sKQKvHZrmMFlSCIw
+          - uuid: Compendium.undefined.Item.p3chf43m8397eygr
         choices:
           '0': 1
   movement:

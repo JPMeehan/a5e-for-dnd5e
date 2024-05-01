@@ -1,0 +1,35 @@
+name: 'Connection to Others: Light of Truth'
+type: feat
+img: icons/magic/symbols/chevron-elipse-circle-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 3rd level, your chosen focus on light or dark becomes more
+      powerful.</p>
+
+      <h3 dir="ltr">Light of Truth</h3>
+
+      <p dir="ltr">If you choose Path of the Light, you now emit bright light to
+      a range of 30 feet and dim light to a range of 60 feet. You may suppress
+      this light at will (no action required) and reactivate it as a bonus
+      action. While this light is active, you have advantage on Insight checks
+      against creatures within the area of bright light. In addition, creatures
+      observing illusions within the area of the bright light have advantage on
+      saves to disbelieve them.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Archetype Mystic, Esper 3
+  recharge:
+    value: null
+    charged: true
+effects: []
+folder: null
+flags: {}
+_id: 38z81dbvbqk05u6c
+_key: '!items!38z81dbvbqk05u6c'

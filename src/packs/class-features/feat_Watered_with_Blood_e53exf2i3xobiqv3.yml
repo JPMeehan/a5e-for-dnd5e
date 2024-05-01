@@ -1,0 +1,71 @@
+folder: null
+name: Watered with Blood
+type: feat
+img: icons/magic/unholy/strike-beam-blood-large-red-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, whenever you reduce a creature with blood to 0 hit
+      points in an outdoor setting, you can summon a corrupted creature of grave
+      earth and necrotic vines from a space adjacent to it. Treat this as a free
+      casting of the
+      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.633bpp281x35cz6t]{Conjure
+      Elemental}</em>&nbsp;spell cast with an effective 6th-level spell slot,
+      except it can only conjure an earth elemental, the creature&rsquo;s bonus
+      damage is necrotic, and it has the undead type in addition to the
+      elemental type. Once you have used this feature a number of times equal to
+      your Wisdom modifier (minimum once), you can&rsquo;t do so again until you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: e53exf2i3xobiqv3
+_key: '!items!e53exf2i3xobiqv3'

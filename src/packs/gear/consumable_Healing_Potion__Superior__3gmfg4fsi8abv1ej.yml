@@ -1,0 +1,73 @@
+name: Healing Potion (Superior)
+type: consumable
+img: icons/consumables/potions/potion-flask-corked-shiny-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Requiring rare ingredients, the recipes for these potions are jealously
+      guarded by master herbalists. When you drink the glowing crimson liquid in
+      this vial, you regain 8d4 + 8 hit points.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 550
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 8d4 + 8
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: jUj7oP8VFpreITEL
+_id: 3gmfg4fsi8abv1ej
+_key: '!items!3gmfg4fsi8abv1ej'

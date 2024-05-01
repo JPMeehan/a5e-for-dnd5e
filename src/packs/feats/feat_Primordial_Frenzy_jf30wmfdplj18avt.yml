@@ -1,0 +1,80 @@
+name: Primordial Frenzy
+type: feat
+img: icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>When you rage, you seethe with elemental energies, and woe betide those
+      who would challenge you.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>Half your berserker levels count as elementalist levels for the
+      purpose of what Elemental Defense options you have access to.</li>
+
+      <li>When you rage, choose a damage type your Elemental Blast can deal.
+      While you are raging, you emit an aura of elemental energy around
+      yourself. Creatures that enter or begin their turns within 5 feet of you
+      must make a Constitution save against your spell save DC or take 2d6
+      points of the chosen damage type, or half as much on a successful
+      save.</li>
+
+      <li>While you are raging, your berserker levels count as elementalist
+      levels for the purpose of determining how much damage your Elemental Blast
+      does.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Overflow feat
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: jf30wmfdplj18avt
+_key: '!items!jf30wmfdplj18avt'

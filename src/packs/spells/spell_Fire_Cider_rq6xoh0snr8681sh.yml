@@ -1,0 +1,90 @@
+folder: Tw5cqPbIxtfMfhDz
+name: Fire Cider
+type: spell
+img: icons/consumables/drinks/wine-amphora-clay-gray.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-037c7567-7fff-6bcc-7db2-ce5d69b4a6f6"
+      dir="ltr">You uncork or otherwise open a bottle or jar, unleashing a spray
+      of fiery liquid at your foe. Make a melee spell attack. On a hit, the
+      creature takes [[/r 1d6]] fire damage. At the start of the
+      creature&rsquo;s next turn, they take an additional [[/r 1d4]] ongoing
+      fire damage unless they spend an action to put the fire out.</p>
+
+      <p dir="ltr">This spell&rsquo;s damage increases by 1d6/1d4 when you reach
+      5th level ([[/r 2d6]]/[[/r 2d4]]), 11th level ([[/r 3d6]]/[[/r 3d4]]) and
+      17th level ([[/r 4d6]]/[[/r 4d4]]).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a bottle or jar
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d4
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - fire
+      - - 1d4
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - fire
+      - hearth
+    rareSpell: false
+_id: rq6xoh0snr8681sh
+_key: '!items!rq6xoh0snr8681sh'

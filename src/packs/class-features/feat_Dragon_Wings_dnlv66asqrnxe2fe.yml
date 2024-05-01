@@ -1,0 +1,102 @@
+folder: null
+name: Dragon Wings
+type: feat
+img: icons/commodities/biological/wing-lizard-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 14th level, your rage causes you to sprout a massive set
+      of dragon wings that can carry you aloft. While raging, you gain a fly
+      speed equal to double your walking speed. If you become bloodied while
+      flying, your wings are too damaged to keep you aloft, and you descend as
+      though under the effects of the feather fall spell instead of
+      flying.&nbsp;</p>
+
+      <p>&nbsp;</p>
+
+      <p dir="ltr">In addition, if you already possess the Draconian Wings
+      heritage feature, you no longer suffer fatigue while using your wings. If
+      you become bloodied while flying, your flying speed reduces to 30 feet
+      instead of descending as noted above.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/biological/wing-lizard-green.webp
+    origin: Item.Qyzzyu10oGA8lPTN
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: odUycIStdmHbHllB
+        applyToSelf: true
+    transfer: false
+    name: Dragon Wings
+    _id: sN3K8y11JO7h64Dn
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '@attributes.movement.walk.distance'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p dir=\"ltr\">At 14th level, your rage causes you to sprout a massive set of dragon wings that can carry you aloft. While raging, you gain a fly speed equal to double your walking speed. If you become bloodied while flying, your wings are too damaged to keep you aloft, and you descend as though under the effects of the feather fall spell instead of flying.\_</p>\n<p>\_</p>\n<p dir=\"ltr\">In addition, if you already possess the Draconian Wings heritage feature, you no longer suffer fatigue while using your wings. If you become bloodied while flying, your flying speed reduces to 30 feet instead of descending as noted above.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!dnlv66asqrnxe2fe.sN3K8y11JO7h64Dn'
+flags: {}
+_id: dnlv66asqrnxe2fe
+_key: '!items!dnlv66asqrnxe2fe'

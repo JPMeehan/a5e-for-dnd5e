@@ -1,0 +1,74 @@
+name: Tongue of Flame
+type: feat
+img: icons/magic/symbols/runes-star-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 2nd level when you select this archetype, you gain the
+      blessing of the tongue of fire. You become proficient with the Primordial
+      language and its Ignan dialect, and can read, speak, and sign them. You
+      also gain proficiency in the Insight skill.</p>
+
+      <p dir="ltr">You also gain the power to burn through misunderstandings.
+      You may cast tongues without using a spell slot and without components.
+      Once you have used this feature, you may not do so again until you have
+      finished a long rest. At 8th level, you may use this feature after
+      finishing a short or long rest, and at 14th level, you are considered to
+      have tongues active at all times.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: dclunhqcbimk3vc4
+_key: '!items!dclunhqcbimk3vc4'

@@ -1,0 +1,120 @@
+folder: null
+name: Twisted Affliction (Troubled)
+type: feat
+img: icons/magic/unholy/projectile-spear-glow-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-64d3f256-7fff-b002-69be-a787624054c1"
+      dir="ltr">Finally, at 6th level you have learned to direct some of the
+      power of your curse outward. What form this takes depends on your Artifact
+      Affliction:</p>
+
+      <ul>
+
+      <li dir="ltr"><strong>Unmoored:</strong> You can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.05w9nzp0kvu94k3h]{Mirror Image}
+      without using a spell slot once per long rest.</li>
+
+      <li dir="ltr" role="presentation"><strong>Paranoid:</strong> You can cast
+      @UUID[Compendium.a5e.a5e-spells.Item.i7sh0e2wqmql4cac]{See Invisibility}
+      without using a spell slot once per long rest.</li>
+
+      <li dir="ltr" role="presentation"><strong>Troubled:</strong> You can cast
+      @UUID[Compendium.a5e.a5e-spells.Item.36x8lw8mhfigm7ti]{Enthrall} without
+      using a spell slot once per long rest.</li>
+
+      <li dir="ltr" role="presentation"><strong>Fettered:</strong> You can cast
+      @UUID[Compendium.a5e.a5e-spells.Item.9mdbn49lbvsc3r01]{Deadweight} without
+      using a spell slot once per long rest.</li>
+
+      <li dir="ltr" role="presentation"><strong>Gravebound:</strong> You can
+      cast @UUID[Compendium.a5e.a5e-spells.Item.9eojtnhu5ptcipov]{Ray of
+      Enfeeblement} without using a spell slot once per long rest.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-eye.webp
+    origin: Item.61jfgtajcuyifp7u
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Gxhj5RDuFppzj6yo
+        duration:
+          unit: minutes
+    transfer: false
+    name: Enthralled
+    _id: gLJIbv94rtmHpA0z
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends or a target can no longer hear you, it has
+      disadvantage on Perception checks made to perceive any creature other than
+      you. The spell ends if you are incapacitated or can no longer speak.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!61jfgtajcuyifp7u.gLJIbv94rtmHpA0z'
+flags: {}
+_id: 61jfgtajcuyifp7u
+_key: '!items!61jfgtajcuyifp7u'

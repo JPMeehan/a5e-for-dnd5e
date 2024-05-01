@@ -4,6 +4,7 @@ type: feat
 img: icons/magic/control/buff-strength-muscle-damage-red.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -35,7 +36,7 @@ system:
       again until after you have taken a short rest.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -83,7 +84,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/magic/control/buff-strength-muscle-damage-red.webp
-    origin: Item.jGSMUGUkHK6kUIc4
+    origin: Item.yidk67ticifqe5q5
     flags:
       a5e:
         sort: 0
@@ -114,7 +115,7 @@ effects:
     folder: null
     _key: '!items.effects!yidk67ticifqe5q5.D6ftLjqyrbt7Z4i5'
   - icon: icons/magic/control/buff-strength-muscle-damage-red.webp
-    origin: Item.jGSMUGUkHK6kUIc4
+    origin: Item.yidk67ticifqe5q5
     flags:
       a5e:
         sort: 0

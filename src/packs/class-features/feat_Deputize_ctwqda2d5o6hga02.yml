@@ -1,0 +1,33 @@
+name: Deputize
+type: feat
+img: icons/commodities/treasure/token-gold-cross.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you use your Judicial Review, you and a number of creatures up to
+      your proficiency bonus all gain its benefits.&nbsp;</p><p>The other
+      creatures may ask different questions, but you know what answers they are
+      seeking and must approve them. A creature asking an unapproved question
+      may try again (subject only to your patience), or you may simply deny it
+      access to the benefits of this ability. The ability takes effect for all
+      selected creatures once these conflicts have been resolved.</p><p>In
+      addition, you and the affected creatures all gain a bonus to AC and saving
+      throws equal to half your proficiency bonus for the duration of the
+      effect.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: ctwqda2d5o6hga02
+_key: '!items!ctwqda2d5o6hga02'

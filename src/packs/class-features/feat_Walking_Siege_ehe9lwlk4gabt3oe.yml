@@ -1,0 +1,32 @@
+folder: null
+name: Walking Siege
+type: feat
+img: icons/environment/people/infantry-army.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 14, the sight of you is enough to make fortification engineers
+      despair. Your spells deal double damage to objects and
+      structures.&nbsp;</p>
+
+      <p>Also, when you take the Attack action, you can substitute any number of
+      your attacks with a cantrip of the <em>weaponry </em>school. When you cast
+      two or more cantrips in the same Attack action,&nbsp; you cannot cast any
+      more spells until the end of your turn. You cannot use this feature if you
+      already cast a spell this turn.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: ehe9lwlk4gabt3oe
+_key: '!items!ehe9lwlk4gabt3oe'

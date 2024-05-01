@@ -1,0 +1,33 @@
+name: Feline Fury
+type: feat
+img: icons/creatures/abilities/cougar-roar-rush-orange.webp
+effects: []
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Whether backed into a corner or toying with a wounded foe, never forget
+      that cats aren&rsquo;t truly tame. You gain the following benefits:</p>
+
+      <p><strong>Feline Fury.</strong> When you or your intended target are
+      bloodied, your melee weapon attacks deal bonus damage equal to your
+      proficiency bonus. However, the sting of your fury lessens after the first
+      blow, so after you deal this extra damage to a creature, this trait cannot
+      deal extra damage to it during the same combat.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: qjlj7kbyvwswq242
+_key: '!items!qjlj7kbyvwswq242'

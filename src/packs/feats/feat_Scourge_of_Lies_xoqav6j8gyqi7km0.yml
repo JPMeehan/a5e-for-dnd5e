@@ -1,0 +1,181 @@
+name: Scourge of Lies
+type: feat
+img: icons/magic/light/light-lantern-lit-white.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p><span style="font-size: 10.5pt;">It is nearly impossible to conceal
+      something you are looking for from you, and your prowess at finding the
+      true nature of supernatural threats is a potent reassurance to those you
+      protect.&nbsp;</span>You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You no longer choose which enemy types your
+      @UUID[Compendium.a5e.a5e-class-features.Item.01szspr1nunp0lql]{Divine
+      Sense} detects; it automatically detects all three sets by default. If you
+      have some other benefit that grants you more than three choices, pick
+      three times.</p>
+
+      </li>
+
+      <li>
+
+      <p>You gain the following additional
+      @UUID[Compendium.a5e.a5e-class-features.Item.c6aiq8cd90fo3ry1]{Divine
+      Smite} options:</p>
+
+      </li>
+
+      </ul>
+
+      <ul>
+
+      <li style="list-style-type: none;">
+
+      <ul>
+
+      <li><strong>Purifying Smite.&nbsp;</strong>If a creature you strike with
+      your smite is possessed by another creature or controlled by a parasite,
+      the damage (including the weapon damage from this attack and your sneak
+      attack, if applicable) is done directly to the controlling or possessing
+      creature instead of to the host, which must make a Charisma save against a
+      DC of your spell save DC or half the damage done by the attack (whichever
+      is highest) to remain in the host. A creature that fails is immediately
+      forced out of the host body and stunned until the end of its next turn. If
+      the damage is enough to kill the possessing or controlling creature, it is
+      first ejected and then dies.</li>
+
+      <li><strong>Lunar Smite. </strong>If the creature you strike with your
+      smite is a shapeshifter, it must make a Constitution save against a DC of
+      your spell save DC or half the damage done by the attack (whichever is
+      highest) or revert to its true form. If the space it currently occupies is
+      not large enough to hold its true form, the creature takes a number of d6s
+      of force damage equal to your proficiency bonus and is stunned until the
+      end of its next round.</li>
+
+      </ul>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Breaker of Secrets feat
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/weapons/swords/sword-runed-glowing.webp
+    origin: Item.6cWKVzOtNFHoQcO7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: eF6db6KEp3jsEbso
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Stunned
+    _id: Pb2XFEguN1hFXOzc
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!xoqav6j8gyqi7km0.Pb2XFEguN1hFXOzc'
+  - icon: icons/magic/time/day-night-sun-moon.webp
+    origin: Item.6cWKVzOtNFHoQcO7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 8Ba0ZaxHJdJlZzPi
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Stunned
+    _id: bMJXMohOq0G0om3O
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!xoqav6j8gyqi7km0.bMJXMohOq0G0om3O'
+flags: {}
+folder: null
+_id: xoqav6j8gyqi7km0
+_key: '!items!xoqav6j8gyqi7km0'

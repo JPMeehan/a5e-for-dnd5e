@@ -1,0 +1,40 @@
+name: Psychic Philosopher
+type: feat
+img: icons/magic/holy/meditation-chi-focus-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You mix some inherent psionic power with the supernatural power granted
+      by a higher, divine being such as a god. You gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li>Your Wisdom score or your Intelligence score increases by +1, to a
+      maximum of 20.</li>
+
+      <li>While you have <em>Psychic Focus</em> active, you may roll a die equal
+      to one of your psionic dice and add the result to the hit points healed by
+      spells of the <em>Healing</em> school you cast.</li>
+
+      <li>Half your <em>Cleric</em> levels count as <em>Esper</em> levels for
+      the purpose of gaining access to the <em>Psychometry</em> feature.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in Cleric, 3 levels in Esper
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: vw1ab1v34g87dzk3
+_key: '!items!vw1ab1v34g87dzk3'

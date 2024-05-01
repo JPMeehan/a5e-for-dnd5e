@@ -1,0 +1,118 @@
+folder: null
+name: Critical Twisted Affliction (Gravebound)
+type: feat
+img: icons/magic/unholy/projectile-spear-glow-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-6279ed4a-7fff-d888-30df-67572cca37e8"
+      dir="ltr">Also at 18th level, when you score a critical hit, you can
+      choose to spend two artifact charges to impose one of the following
+      conditions on the target, based on your affliction:</p>
+
+      <ul>
+
+      <li dir="ltr"><strong>Unmoored:</strong> Confused</li>
+
+      <li dir="ltr" role="presentation"><strong>Paranoid:</strong>
+      Frightened</li>
+
+      <li dir="ltr" role="presentation"><strong>Troubled:</strong>&nbsp;
+      Unconscious - the target is asleep and wakes if it takes any damage or an
+      action is taken to shake it awake.</li>
+
+      <li dir="ltr" role="presentation"><strong>Fettered:</strong>
+      Encumbered</li>
+
+      <li dir="ltr" role="presentation"><strong>Gravebound:</strong>
+      Blinded</li>
+
+      </ul>
+
+      <p dir="ltr" role="presentation">The condition lasts for one minute, but
+      the target can make a Constitution save against your spell save DC at the
+      end of each of its turns, ending the condition early on a success.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/projectile-spear-glow-pink.webp
+    origin: Item.zpnu738p28ojz8h7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4Y1lneo8EmRSyyGB
+        duration:
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: tnMwzXTBB7LbjqfA
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!zpnu738p28ojz8h7.tnMwzXTBB7LbjqfA'
+flags: {}
+_id: zpnu738p28ojz8h7
+_key: '!items!zpnu738p28ojz8h7'

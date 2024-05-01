@@ -1,0 +1,29 @@
+name: Dark Magic
+type: feat
+img: icons/magic/death/hand-undead-skeleton-fire-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level when you take this archetype, you tap into some inky well
+      of fell power. Spells of the Necrotic and Undead schools become druid
+      spells for you. You also learn the
+      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.bpkked98u8mb2q3w]{Chill
+      Touch}</em>&nbsp;cantrip, which does not count against your cantrips
+      known.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 1rcv8j4eqd3xs2jb
+_key: '!items!1rcv8j4eqd3xs2jb'

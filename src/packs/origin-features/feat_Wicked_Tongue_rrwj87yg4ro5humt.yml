@@ -1,0 +1,145 @@
+name: Wicked Tongue
+type: feat
+img: icons/commodities/biological/tongue-violet.webp
+effects:
+  - icon: icons/commodities/biological/tongue-violet.webp
+    origin: Item.rrwj87yg4ro5humt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 2wYWawGtWhTcVonx
+    transfer: false
+    name: Wicked Tongue
+    _id: DnT3eKoR2LYlw9zv
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: 2[Wicked Tongue]
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A creature attached to your tongue cannot move further away from you
+      and takes a -2 penalty to AC as long as the tongue is attached.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!rrwj87yg4ro5humt.DnT3eKoR2LYlw9zv'
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 11">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <div class="page" title="Page 11">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You have a long sticky tongue capable of immobilizing your prey or
+      enemies. Your tongue is 10 feet long and is dexterous enough to perform
+      simple actions a hand could perform, though it cannot wield weapons.</p>
+
+      <p>On your turn as an action, you can make a melee attack using your
+      tongue. You are considered proficient with your tongue and may use your
+      Strength or Dexterity modifier for the attack, and it has a melee reach of
+      10 feet. On a hit you deal no damage, but your tongue attaches to the
+      target. A creature attached to your tongue cannot move further away from
+      you and takes a &ndash; 2 penalty to AC as long as the tongue is
+      attached.</p>
+
+      <p>A creature can detach your tongue by succeeding on an opposed Strength
+      (Athletics) check or by dealing slashing damage to the tongue (AC 14).
+      Your tongue is profoundly elastic, so damage to the tongue does not
+      deplete your actual hit points or do lasting harm.</p>
+
+      <p>You cannot move more than 10 feet away from an attached creature, but
+      you can use a bonus action to release your tongue. If forced movement or
+      another effect drives you and the attached creature further than 10 feet
+      apart, your tongue detaches automatically.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: rrwj87yg4ro5humt
+_key: '!items!rrwj87yg4ro5humt'

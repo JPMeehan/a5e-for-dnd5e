@@ -1,0 +1,100 @@
+name: Amulet of the Pleasing Bouquet
+type: equipment
+img: icons/equipment/neck/necklace-floral-wood.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Various schools of magic employ all manner of particularly
+      foul-smelling and noxious substances, nauseating some would-be wizards to
+      the point of illness. These enchanted amulets were created to guard
+      against the various stenches found in their masters’ laboratories and
+      supply closets. Enterprising apprentices quickly saw the value of peddling
+      the enchanted trinkets to the affluent wishing to avoid the stench of the
+      streets however, and now they are commonplace among nobility.</p><p>The
+      most typical of these amulets look like pomanders though dozens of
+      different styles, varieties, and scents are available for sale. While
+      wearing it, you can spend an action and expend 1 charge from the amulet to
+      fill your nostrils with pleasing scents for 1 hour. These scents are
+      chosen by the amulet’s creator at the time of its crafting.</p><p>In more
+      extreme circumstances like a stinking cloud spell or troglodyte’s stench,
+      you can expend 3 charges as a reaction to have advantage on saving throws
+      against the dangerous smell until the end of your next turn.</p><p>The
+      amulet has 3 charges and regains 1d3 charges each dawn. If you expend the
+      last charge, roll a d20. On a or 5 or less, the amulet loses its magic and
+      becomes a mundane item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: clothing
+    baseItem: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 9k4UVzCiMuqj62ea
+_id: obnkubjepwlnrh2c
+_key: '!items!obnkubjepwlnrh2c'

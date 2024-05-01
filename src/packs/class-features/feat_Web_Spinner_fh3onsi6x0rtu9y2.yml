@@ -1,7 +1,6 @@
-folder: null
 name: Web Spinner
 type: feat
-img: icons/creatures/invertebrates/spider-dotted-green.webp
+img: icons/creatures/webs/webthin-blue.webp
 system:
   type:
     value: class
@@ -43,20 +42,20 @@ system:
     value: null
     charged: true
   activation:
-    type: action
+    type: bonusAction
     cost: 1
   duration: {}
   cover: null
   crewed: false
   target:
-    value: 1
+    value: null
     width: null
     units: ''
-    type: creature
+    type: ''
   range:
-    value: 20
-    long: 60
-    units: ft
+    value: null
+    long: null
+    units: ''
   uses:
     value: null
     max: ''
@@ -66,8 +65,8 @@ system:
     type: ''
     target: null
     amount: null
-  ability: str
-  actionType: rwak
+  ability: null
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -82,6 +81,7 @@ system:
     dc: null
     scaling: spell
 effects: []
+folder: null
 flags: {}
 _id: fh3onsi6x0rtu9y2
 _key: '!items!fh3onsi6x0rtu9y2'

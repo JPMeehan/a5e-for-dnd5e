@@ -1,0 +1,98 @@
+name: Vital Strike
+type: feat
+img: icons/skills/wounds/blood-spurt-spray-red.webp
+effects:
+  - icon: icons/skills/wounds/blood-spurt-spray-red.webp
+    origin: Item.k306nv2auvpfdmbx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5l1hpU4QFNsVz63g
+        duration:
+          unit: minutes
+    transfer: false
+    name: Vital Strike
+    _id: gbSJc9fhYI7sWoKZ
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You become the master of a precise, vicious cut in just the right
+      place. Once per round, when you hit a creature with an attack using one of
+      your Fencer’s Arsenal weapons, you may spend 2 exertion points to do
+      ongoing damage to your target equal to your martial arts die, which lasts
+      for 1 minute or until the target uses an action to stanch the wound.
+      Constructs, Undead, and Oozes are not affected by this feature.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!k306nv2auvpfdmbx.gbSJc9fhYI7sWoKZ'
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You become the master of a precise, vicious cut in just the right
+      place. Once per round, when you hit a creature with an attack using one of
+      your Fencer’s Arsenal weapons, you may spend 2 exertion points to do
+      ongoing damage to your target equal to your martial arts die, which lasts
+      for 1 minute or until the target uses an action to stanch the wound.
+      Constructs, Undead, and Oozes are not affected by this feature.</p><p></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: k306nv2auvpfdmbx
+_key: '!items!k306nv2auvpfdmbx'

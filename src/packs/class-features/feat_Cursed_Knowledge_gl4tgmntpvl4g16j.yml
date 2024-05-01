@@ -1,0 +1,56 @@
+folder: null
+name: Cursed Knowledge
+type: feat
+img: icons/sundries/books/book-symbol-spiral-silver-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-3db3195f-7fff-8225-64a3-53d854a94c74"
+      dir="ltr">At 1st level, the curse of your artifact gives you a keen
+      interest in curses in general. You gain proficiency with the Arcana skill
+      or an expertise die if you are already proficient and the forbidden
+      knowledge specialty for it, or another Arcana specialty of your choice if
+      you already have it.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/sundries/books/book-symbol-spiral-silver-blue.webp
+    origin: Item.gl4tgmntpvl4g16j
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Cursed Knowledge
+    _id: rpU9S2BSBzVXf58X
+    changes:
+      - key: system.skills.arc.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!gl4tgmntpvl4g16j.rpU9S2BSBzVXf58X'
+flags: {}
+_id: gl4tgmntpvl4g16j
+_key: '!items!gl4tgmntpvl4g16j'

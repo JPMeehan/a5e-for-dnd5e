@@ -1,0 +1,78 @@
+folder: null
+name: Artifact Affliction (Unmoored)
+type: feat
+img: icons/magic/unholy/projectile-spear-glow-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-8743f0e6-7fff-e823-77f9-616ef1831b0f"
+      dir="ltr">Your artifact is cursed, and while you have learned to cope with
+      it, you have not managed to suppress its effects entirely. When you select
+      this archetype, select one of the following options:</p>
+
+      <ul>
+
+      <li><strong>Unmoored:</strong> You permanently suffer the Bewildered
+      mental stress effect.</li>
+
+      <li><strong>Paranoid:</strong> You permanently suffer the On Edge mental
+      stress effect.</li>
+
+      <li dir="ltr" role="presentation"><strong>Troubled:</strong> You
+      permanently suffer the Sleepless mental stress effect.</li>
+
+      <li dir="ltr" role="presentation"><strong>Fettered:</strong> Your movement
+      speeds are reduced by 10 feet.</li>
+
+      <li dir="ltr" role="presentation"><strong>Gravebound:</strong> When a
+      critical hit is scored against you, make a DC 15 Constitution save. On a
+      failed save, you immediately drop to 0 hit points.</li>
+
+      </ul>
+
+      <p dir="ltr" role="presentation">Your artifact affliction is an inherent
+      part of your bond with your bonded artifact and is unaffected by spells
+      such as
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.l16wg9h1z9s16exb]{Remove
+      Curse},@UUID[Compendium.a5e.a5e-spells.Item.hms9kdl2qoqjjrs4]{Dispel
+      Magic}, and even
+      @UUID[Compendium.a5e.a5e-spells.Item.pe52jryde7ljobzq]{Wish}.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/unholy/projectile-spear-glow-pink.webp
+    origin: Item.o1b2xmajhe638k8g
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Bewildered
+    _id: ajQVZLLLh4eQuD6T
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>A bewildered creature is overwhelmed by trying to\_process a particular event. Its mind begins to play\_tricks, altering its perceptions. A bewildered creature\_has disadvantage on social-based ability checks as\_it struggles to engage with what’s happening. When\_a bewildered creature would succeed on an ability\_check, roll another d20. On a result of 15 or less the\_creature succeeds, but otherwise it fails the ability\_check instead. This could be caused by a temporary\_forgetfulness that leads the creature to forget what\_it was trying to achieve, or in some cases a brief\_hallucination that alters the circumstances in such\_a way that it is unable to succeed.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!o1b2xmajhe638k8g.ajQVZLLLh4eQuD6T'
+flags: {}
+_id: o1b2xmajhe638k8g
+_key: '!items!o1b2xmajhe638k8g'

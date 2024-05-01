@@ -138,10 +138,9 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants:
-          - tool:undefinedland
+          - skills:landVehicles
         choices:
           pool: []
           count: 0

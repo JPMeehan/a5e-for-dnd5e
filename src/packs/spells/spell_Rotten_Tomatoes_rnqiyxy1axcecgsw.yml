@@ -1,0 +1,127 @@
+folder: KpVFJJxpHWw9kEfV
+name: Rotten Tomatoes
+type: spell
+img: icons/consumables/fruit/tomato-ripe-red.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-e753099c-7fff-6f59-7666-bcb28e5c191a"
+      dir="ltr">The tomato in your hand immediately rots and turns soft, making
+      it the perfect explosive projectile. Make a ranged spell attack. On a hit,
+      you fling the tomato at the target, dealing [[/r 2d6]] bludgeoning damage.
+      Additionally, the tomato explodes on impact and its juices flood into the
+      target&rsquo;s eyes, temporarily clouding their vision. The creature is
+      blinded until the end of its next turn.</p>
+
+      <p dir="ltr">If this spell is cast in response to a particularly poor
+      performance, the target creature has disadvantage on Performance checks
+      for the next hour.</p>
+
+      <p dir="ltr"><strong>Cast at Higher Levels:</strong></p>
+
+      <p dir="ltr">Increase the damage by [[/r 1d6]] for every level above
+      2nd.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 2
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a tomato
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/fruit/tomato-ripe-red.webp
+    origin: Item.rnqiyxy1axcecgsw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: F37gkWI34vaMY3jl
+        duration:
+          unit: hours
+    transfer: false
+    name: Poor Performance
+    _id: K7Y5rtDTZHKQsdRe
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.prf
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span id="docs-internal-guid-cc5dcad9-7fff-5708-7776-3fc0a7c38004">If
+      this spell is cast in response to a particularly poor performance, the
+      target creature has disadvantage on Performance checks for the next
+      hour.</span></p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!rnqiyxy1axcecgsw.K7Y5rtDTZHKQsdRe'
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+    rareSpell: false
+_id: rnqiyxy1axcecgsw
+_key: '!items!rnqiyxy1axcecgsw'

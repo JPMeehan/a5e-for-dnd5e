@@ -1,0 +1,85 @@
+folder: 3HQE3FN5vUCIygDu
+name: Tyromancy
+type: spell
+img: icons/creatures/mammals/livestock-cow-green.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-9ce02c1f-7fff-c52b-fce1-4a3433f26669"
+      dir="ltr">You know that the portents of the gods are sometimes given in
+      strange places. You spend 10 minutes adding vinegar to milk from a blessed
+      cow, causing it to curdle and produce patterns from which you can divine
+      the future. Roll a number of d6s equal to your Wisdom modifier. Each
+      result is stored into one curd of the cheese created by this spell. These
+      curds do not spoil for the duration, and if left unused, simply disappear.
+      Whenever you or a creature carrying one of these curds fails a saving
+      throw, ability check, or attack roll, they may immediately consume the
+      curd and add the result of the d6 to the roll.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 4
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: milk from a sacred cow and vinegar
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+    rareSpell: false
+_id: ayvkdtoablds4jn1
+_key: '!items!ayvkdtoablds4jn1'

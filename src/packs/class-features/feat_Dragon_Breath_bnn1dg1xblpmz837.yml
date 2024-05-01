@@ -1,0 +1,70 @@
+folder: null
+name: Dragon Breath
+type: feat
+img: icons/creatures/abilities/dragon-fire-breath-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also beginning at 3rd level, you gain a Breath Weapon as a dragonborn
+      of your level. If you already have a Breath Weapon, you may use it an
+      additional time between rests. While you are raging, your Breath Weapon
+      deals an additional die of damage, and you may choose freely between the
+      line and cone variants.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - (2 + floor((@level + 1) / 5))d6
+        - 'null'
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: bnn1dg1xblpmz837
+_key: '!items!bnn1dg1xblpmz837'

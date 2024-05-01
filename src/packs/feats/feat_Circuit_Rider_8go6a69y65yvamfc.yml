@@ -1,0 +1,56 @@
+name: Circuit Rider
+type: feat
+img: icons/tools/navigation/map-simple-tree.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to supplement your divine power with survival training
+      &hellip; or perhaps it is the other way &lsquo;round. In either case, you
+      can carry the word of your god to remote places, or at least ones that
+      require travel through the wilderness, with less fear than most. You gain
+      the following benefits:</p>
+
+      <ul>
+
+      <li>Your Wisdom score increases by +1, to a maximum of 20.</li>
+
+      <li>You can enhance your training with a boost of divine power. When you
+      use <em>Stride and Seek</em>, you may spend a use of <em>Channel
+      Divinity</em>.
+
+      <ul>
+
+      <li>If you are using <em>Hunter&rsquo;s Target</em>, the bonus damage
+      increases to 2d6.</li>
+
+      <li>If you are using <em>Swift Feet</em>, it lasts for 10 minutes and your
+      movement increases by 5 feet for the duration.</li>
+
+      </ul>
+
+      </li>
+
+      <li>Gain an additional&nbsp;<em>Exploration Knack</em> or <em>Sign of
+      Faith</em> of your choice. It does not count against your maximum number
+      known, and in the future, when you would select a <em>Sign of
+      Faith</em>&nbsp;or <em>Exploration Knack</em>, you can choose from either
+      list.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in Cleric, 3 levels in Ranger
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 8go6a69y65yvamfc
+_key: '!items!8go6a69y65yvamfc'

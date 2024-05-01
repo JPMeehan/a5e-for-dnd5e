@@ -3,6 +3,7 @@ type: feat
 img: icons/magic/unholy/barrier-fire-pink.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -21,7 +22,7 @@ system:
       replace one of these ritual spells with another.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

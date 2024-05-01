@@ -3,6 +3,7 @@ type: feat
 img: icons/svg/item-bag.svg
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -17,7 +18,7 @@ system:
       creature again until you finish a short rest.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

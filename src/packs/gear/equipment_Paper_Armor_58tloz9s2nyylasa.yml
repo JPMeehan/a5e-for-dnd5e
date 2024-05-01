@@ -33,8 +33,9 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Gate Pass Gazette
     license: OGL 1.0a
+    page: '#15'
   quantity: 1
   weight: 0
   price:
@@ -101,7 +102,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/sundries/books/book-embossed-gold-red.webp
-    origin: Item.zr98GZy22OlzggUm
+    origin: Item.58tloz9s2nyylasa
     flags:
       a5e:
         sort: 0

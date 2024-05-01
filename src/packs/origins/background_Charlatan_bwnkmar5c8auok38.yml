@@ -140,11 +140,10 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants:
-          - tool:disg
-          - tool:forg
+          - skills:disguiseKit
+          - skills:forgeryKit
         choices:
           pool: []
           count: 0

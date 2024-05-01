@@ -1,0 +1,101 @@
+name: Pressed Spiderbulb
+type: consumable
+img: icons/commodities/flowers/bouquet-pink.webp
+effects:
+  - icon: icons/commodities/flowers/bouquet-pink.webp
+    origin: Item.cd4i6cm0e8y35iso
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: j7cskYa9vhsoUEUv
+    transfer: false
+    name: Pressed Spiderbulb
+    _id: 49FNBQGy1uB1hMIj
+    changes:
+      - key: system.abilities.dex.save.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    tint: '#ffffff'
+    folder: null
+    _key: '!items.effects!cd4i6cm0e8y35iso.49FNBQGy1uB1hMIj'
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Consuming this dried flower grants you energy and tightens your
+      reflexes, and after you eat it you gain an expertise die on Dexterity
+      saving throws for 1 hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  quantity: 1
+  weight: 10
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: jczlz1TrOcJzDCz6
+_id: cd4i6cm0e8y35iso
+_key: '!items!cd4i6cm0e8y35iso'

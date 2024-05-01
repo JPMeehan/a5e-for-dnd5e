@@ -1,0 +1,46 @@
+name: Holy Vagabond
+type: feat
+img: icons/environment/people/cleric-grey.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You are so at home in the wilds and with the gifts of your divine
+      patron that you have come to think of all the world as a temple. You gain
+      the following benefits:</p>
+
+      <ul>
+
+      <li>Your Wisdom score increases by +1, to a maximum of 20.</li>
+
+      <li>You ignore the speed penalty from all forms of difficult terrain. If
+      there is an additional effect such as damage or requiring a save to avoid
+      falling prone, it affects you as normal.</li>
+
+      <li>When you acquire this feat, choose a creature type from the following
+      list: <em>Aberrations</em>, <em>Celestials</em>, <em>Fey</em>,
+      <em>Fiends</em>, or <em>Undead</em>. The chosen creature type always
+      counts as your studied adversary in addition to your normal choice.</li>
+
+      <li>When you cast a cleric spell, if you have no spell slots remaining,
+      you immediately gain 4 points of exertion and 2 uses of Trained Accuracy.
+      Once you have used this benefit, you can&rsquo;t do so again until you
+      finish a long rest.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Faithful Wanderer feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 9ephpz6v1mecv5dk
+_key: '!items!9ephpz6v1mecv5dk'

@@ -1,0 +1,62 @@
+name: Horned Lord
+type: feat
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Horned Lords get their name from their distinctive helms, which
+      normally feature horns or antlers from wild beasts. They are a bridge
+      between the structures of power that make both the civilized world and the
+      natural world run, and they can utilize these connections to call forth
+      the armies of nature to aid their mortal forces. As one of these powerful
+      figures, you gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You become proficient with metal, light, and medium armor, shields, and
+      helms. You may wear these protective items without violating your druidic
+      oaths or interfering with your druid class features.</p>
+
+      </li>
+
+      <li>
+
+      <p>You gain proficiency with one combat tradition from either Adamant
+      Mountain or Tooth and Claw. For you it counts as a marshal combat
+      tradition.</p>
+
+      </li>
+
+      <li>
+
+      <p>Your
+      @UUID[Compendium.a5e.a5e-class-features.Item.sygit0xifd4lbg3g]{Natural
+      Demeanor} class feature provides both the Leyline Awareness and A Way With
+      Animals benefits. In addition, these benefits also extend to Plant
+      creatures. A Beast or Plant creature encountering you for the first time
+      begins with an attitude toward you one step higher than normal. (Hostile
+      creatures are indifferent, indifferent creatures are friendly, friendly
+      creatures remain friendly.)</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: levels in druid (guardian), 3 levels in marshal, Leyline Awareness
+  recharge:
+    value: null
+    charged: true
+_id: qvtddb1cgnrurz5l
+_key: '!items!qvtddb1cgnrurz5l'

@@ -1,0 +1,76 @@
+name: Shield the Flock
+type: feat
+img: icons/magic/defensive/shield-barrier-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 8th level, you can protect your allies with the sheer
+      power of your faith and care. When you or a friendly creature within 30
+      feet of you are targeted with an attack or harmful spell or effect, you
+      can use your reaction to force the creature that is the source of the
+      attack or harmful spell or effect to make a Wisdom saving throw against
+      your spell save DC. On a failed save, the attacking creature must choose a
+      different target or its attack, effect, or spell is canceled with no
+      effect and the action is wasted. This feature cannot be used against area
+      effects such as an explosion or a dragon&rsquo;s breath weapon. Once you
+      have used this feature a number of times equal to your proficiency bonus,
+      you can&rsquo;t do so again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Archetype Shepherd, Cleric 8
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When you or a friendly creature within 30 feet of you are targeted with an
+      attack or harmful spell or effect
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_id: mmddlpt6uiz7q6d5
+_key: '!items!mmddlpt6uiz7q6d5'

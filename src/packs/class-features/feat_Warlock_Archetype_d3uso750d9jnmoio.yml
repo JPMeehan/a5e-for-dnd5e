@@ -5,6 +5,7 @@ effects: []
 flags: {}
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -17,7 +18,7 @@ system:
       1st level and again at 6th, 10th, and 14th level.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

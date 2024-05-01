@@ -133,14 +133,13 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - tool:game:dice
-            - tool:game:chess
-            - tool:game:card
+            - skills:diceSet
+            - skills:boardGameSet
+            - skills:playingCardSet
           count: 1
     - _id: k2M4kY4vyA6tRrte
       type: Trait

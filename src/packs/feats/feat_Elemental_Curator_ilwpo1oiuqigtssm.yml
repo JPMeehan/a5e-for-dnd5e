@@ -1,0 +1,84 @@
+name: Elemental Curator
+type: feat
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to further combine your elemental prowess with the use
+      of your bonded artifact.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>Half of your elementalist levels count as wielder levels for the
+      purpose of gaining access to the Extra Attack and Spellsword
+      features.</li>
+
+      <li>Half of your wielder levels count as elementalist levels for the
+      purpose of determining the damage done by your elemental blast.</li>
+
+      <li>You can use an element you have affinity for to recharge your Artifact
+      of power in an emergency. If you are out of both artifact charges and
+      spell points, you can rest your bonded artifact in an element you have
+      affinity with for one minute to regain artifact charges equal to your
+      proficiency bonus (air or water must be in motion; the artifact must be
+      held aloft in high winds or submerged in running water to recharge). Once
+      you have used this benefit, you can&rsquo;t do so again until you finish a
+      short or long rest.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Steward feat
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: ilwpo1oiuqigtssm
+_key: '!items!ilwpo1oiuqigtssm'

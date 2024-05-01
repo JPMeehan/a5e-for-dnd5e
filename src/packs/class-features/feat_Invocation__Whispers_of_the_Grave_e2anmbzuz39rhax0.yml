@@ -5,6 +5,7 @@ effects: []
 flags: {}
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -12,7 +13,7 @@ system:
       dead</em>&nbsp;without spending spell points.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

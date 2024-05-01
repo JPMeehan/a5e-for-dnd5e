@@ -10,7 +10,7 @@ system:
     value: <p>While within 5 feet of a solid wall, you gain +2 AC.</p>
     chat: ''
   source:
-    book: ''
+    book: Dungeon Delver's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -56,7 +56,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/magic/earth/barrier-stone-explosion-spiked.webp
-    origin: Item.stSsV0e5pvE31V5O
+    origin: Item.99nhzqkb0ww5wd4g
     flags:
       a5e:
         sort: 0

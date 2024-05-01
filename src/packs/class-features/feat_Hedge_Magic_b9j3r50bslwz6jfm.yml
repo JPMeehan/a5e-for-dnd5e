@@ -1,0 +1,35 @@
+name: Hedge Magic
+type: feat
+img: icons/magic/nature/leaf-elm-sparkle-glow-green.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level you treat spells of the <em>nature&nbsp; </em>school
+      as wizard spells and can copy them into your spellbook for the normal cost
+      in time and money per level. Only other Hedge Mages can copy them from
+      your spellbook, however. You also permanently have the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.6l4bmc7ovgcn2c9k]{Find
+      Familiar} and @UUID[Compendium.a5e.a5e-spells.Item.z5a26lxyh3esw2rl]{Speak
+      with Animals} spells prepared, and they do not count against your maximum
+      number of spells prepared. You may cast them as rituals normally. Finally,
+      you learn
+      the&nbsp;@UUID[Compendium.a5e.a5e-spells.Item.5o1rvwzxmsh5ji9i]{Druidcraft}
+      cantrip, which does not count against your maximum number of cantrips
+      known.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: b9j3r50bslwz6jfm
+_key: '!items!b9j3r50bslwz6jfm'

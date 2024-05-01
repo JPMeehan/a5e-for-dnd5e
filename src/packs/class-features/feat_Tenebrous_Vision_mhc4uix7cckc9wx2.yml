@@ -1,0 +1,32 @@
+folder: null
+name: Tenebrous Vision
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level, you gain darkvision with a range of 60 feet. If you
+      already have darkvision, its range increases by 30 feet instead.</p>
+
+      <p>At level 6 your darkvision can penetrate magical darkness.</p>
+
+      <p>At level 18 darkness, no matter how deep, does nothing to impede your
+      vision. You treat dim light, darkness, and magical darkness as bright
+      light and can read, distinguish colors and so on as normal even with no
+      light available.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Burning Gloom'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: mhc4uix7cckc9wx2
+_key: '!items!mhc4uix7cckc9wx2'

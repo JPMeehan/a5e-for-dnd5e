@@ -5,6 +5,7 @@ effects: []
 flags: {}
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -30,7 +31,7 @@ system:
       no changes to your ability scores.</span></span></span></span></p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''

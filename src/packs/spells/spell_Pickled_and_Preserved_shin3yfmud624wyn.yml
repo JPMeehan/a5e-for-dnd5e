@@ -1,0 +1,82 @@
+folder: riV8qst3SvT2320y
+name: Pickled and Preserved
+type: spell
+img: icons/consumables/food/preserves-jam-jelly-jar-brown-red.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-b392cb95-7fff-3333-f4b9-586852cd8569"
+      dir="ltr">You touch a number of fresh Supply equal to your spellcasting
+      ability modifier, magically warding it against spoilage for an entire
+      year. Supply protected in this manner does not rot or mold, even as a
+      result of environmental hazards, and it is protected against insects and
+      other vermin.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: Supply
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: null
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags:
+  a5e-for-dnd5e:
+    secondarySchools:
+      - hearth
+      - utility
+    rareSpell: false
+_id: shin3yfmud624wyn
+_key: '!items!shin3yfmud624wyn'

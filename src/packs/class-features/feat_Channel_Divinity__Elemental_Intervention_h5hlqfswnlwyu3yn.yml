@@ -1,0 +1,127 @@
+name: 'Channel Divinity: Elemental Intervention'
+type: feat
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Beginning at 2nd level, you can clutch your holy symbol and
+      emit a blast of elemental energy. Enemy creatures within 30 feet make a
+      Constitution saving throw or take damage equal to 2d10 + your cleric
+      level, or half damage on a success. The damage type varies based on your
+      archetype spell list. This power also has an extra effect, likewise
+      determined by your archetype spell list.</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Fire Priest.</strong> Fire
+      damage. Unattended flammable objects within 30 feet of you catch fire.
+      Traps in the area are subject to the fire damage (they automatically fail
+      the save), and magical effects whose spell-level + 10 is less than your
+      spell save DC are dispelled.&nbsp;</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Ice Priest.</strong> Cold damage.
+      Ground within 30 feet of you is caked in frost, becoming difficult terrain
+      for 1 minute. Nonmagical fires in the area are snuffed out.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Plant Priest.</strong> Poison
+      damage. Gnarled brambles burst through the ground within 30 feet of you
+      (unless it is metal thicker than 3 inches or stone thicker than 1 foot),
+      which becomes difficult terrain for 1 minute.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Stone Priest.</strong> Force
+      damage. Creatures who failed their saving throw are knocked prone. The
+      ground becomes cracked and broken within 30 feet of you (unless it is
+      metal thicker than 3 inches or stone thicker than 1 foot), becoming
+      difficult terrain.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong>Storm Priest.</strong> Lightning
+      damage. Creatures wearing metal armor and creatures in trees or in the
+      water have disadvantage on their save. Creatures who fail their save
+      can&rsquo;t take reactions for 1 minute.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation"><strong
+      id="docs-internal-guid-fdf55ee7-7fff-cb1f-0a8e-eabe50b1b299">Water
+      Priest</strong><strong>.</strong> Acid damage. Nonmagical fires within 30
+      feet of you are snuffed out. Traps in the area are subject to the acid
+      damage (they automatically fail the save), and magical effects whose
+      spell-level + 10 is less than your spell save DC are dispelled</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: h5hlqfswnlwyu3yn
+_key: '!items!h5hlqfswnlwyu3yn'

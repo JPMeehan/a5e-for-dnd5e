@@ -129,10 +129,9 @@ system:
       type: Trait
       level: 0
       configuration:
-        mode: tool
         allowReplacements: false
         grants:
-          - tool:herb
+          - skills:herbalismKit
         choices:
           pool: []
           count: 0

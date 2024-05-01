@@ -1,0 +1,25 @@
+folder: null
+name: Upgraded Medic (Equipment Upgrade)
+type: feat
+img: icons/magic/life/heart-glowing-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If your automaton has the Autonomous Medic option, it now heals for 2d8
+      + your Intelligence modifier.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: rwpvk8seuu6sirgr
+_key: '!items!rwpvk8seuu6sirgr'

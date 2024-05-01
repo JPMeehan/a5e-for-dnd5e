@@ -1,0 +1,71 @@
+folder: null
+name: Aquatic Predator
+type: feat
+img: icons/magic/water/projectile-arrow-water-ice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">When you use your Wild Shape to transform into a creature
+      with both a bite attack and a swim speed, you gain an expertise die on
+      Stealth and Athletics checks while in the water.<br>In addition, once per
+      turn, you can deal extra damage when you hit a creature with a bite
+      attack. The amount of extra damage is a number of d6s equal to half your
+      proficiency bonus.</p>
+
+      <p dir="ltr">In order to apply this damage, you must not have disadvantage
+      on the attack and your target must be within 5 feet of another enemy of
+      the target who is not incapacitated. Alternatively, you can apply this
+      damage if you have advantage on the attack.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: godyvmgtfst97q29
+_key: '!items!godyvmgtfst97q29'

@@ -1,0 +1,103 @@
+name: Interdimensional Psionics
+type: feat
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+effects:
+  - icon: icons/magic/unholy/strike-hand-glow-pink.webp
+    origin: Item.fc5sng9j3brgpx1m
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: bFel1O8RT2D5CFOc
+        duration:
+          type: rounds
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Shield
+    _id: aHHw3LCmuzbvEUjG
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: +5[Shield]
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!fc5sng9j3brgpx1m.aHHw3LCmuzbvEUjG'
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the mage hand cantrip, and when you cast it the hand is
+      invisible. Once you reach 3rd level, once per long rest you can cast
+      either jump or shield. At 5th level, once per long rest you can cast
+      either detect thoughts or misty step. Your spellcasting ability for these
+      spells is your choice of Constitution, Intelligence, Wisdom, or
+      Charisma.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      which you take when you are hit by an attack or targeted by the magic
+      missile spell
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: fc5sng9j3brgpx1m
+_key: '!items!fc5sng9j3brgpx1m'

@@ -1,0 +1,28 @@
+name: Thunderstruck
+type: feat
+img: icons/magic/lightning/bolt-forked-large-orange-purple.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 6th level, your storm magic becomes more difficult for
+      creatures to endure. You may choose to deal half the lightning damage done
+      by your spells as radiant damage. In the same way, you may choose to deal
+      half a spell’s cold damage as necrotic, and half a spell’s thunder damage
+      as force.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: vczh34c0ujrodr1g
+_key: '!items!vczh34c0ujrodr1g'

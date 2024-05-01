@@ -1,0 +1,33 @@
+name: 'Mystical gaze: Eye of Darkness'
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Also at 3rd level, your choice of light or dark modifies in a
+      literal sense how you see the world.</p>
+
+      <h3 dir="ltr">Eye of Darkness</h3>
+
+      <p dir="ltr">If you choose Path of Darkness, your vision can penetrate the
+      most tenebrous gloom. Your darkvision can see through magical darkness as
+      it it were normal darkness.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  properties: []
+  requirements: Archetype Mystic, Esper 3
+  recharge:
+    value: null
+    charged: true
+effects: []
+folder: null
+flags: {}
+_id: 3ejps8lcc496dl1w
+_key: '!items!3ejps8lcc496dl1w'

@@ -1,0 +1,47 @@
+folder: null
+name: Arcane Warrior
+type: feat
+img: icons/skills/melee/strike-axe-energy-pink.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have trained to combine skill at arms and spellcraft. You gain the
+      following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>You gain proficiency with the Cutting Omen combat tradition and learn a
+      1st-level maneuver from it that does not count against your maneuvers
+      known.</p>
+
+      </li>
+
+      <li>
+
+      <p>Select two cantrips that require weapon attacks. You learn both
+      cantrips. Your spellcasting ability for them is your choice of
+      Intelligence, Wisdom, or Charisma.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: >-
+    Exertion pool of at least 4 and either the Spellcasting feature, the Magic
+    Wielding feature, or the Pact Magic feature
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 9jj123kiqnaytfwx
+_key: '!items!9jj123kiqnaytfwx'

@@ -1,0 +1,113 @@
+folder: null
+name: Necromantic Shapeshifting
+type: feat
+img: icons/magic/death/undead-bird-skeleton-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, you can take the energy of undeath into yourself. When
+      you use your Wild Shape ability, you can choose to shift into an undead
+      version of one of your normal forms. An undead form has immunity to poison
+      and necrotic damage, darkvision with a range of 60 feet, and gains an
+      expertise die on Intimidation checks, but only receives half the normal
+      amount of healing from magical healing spells, healing potions, and
+      similar effects. It is also vulnerable to radiant damage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/death/undead-bird-skeleton-purple.webp
+    origin: Item.iivNiw1nsGIze0f8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Sko0ysdndFm3xvA0
+        applyToSelf: true
+    transfer: false
+    name: Necromantic Shape
+    _id: nPRmA0fHBBwUa8rS
+    changes:
+      - key: system.traits.damageImmunities
+        value: '["poison","necrotic"]'
+        mode: 2
+        priority: null
+      - key: system.attributes.senses.darkvision.distance
+        value: ''
+        mode: 6
+        priority: 60
+      - key: system.skills.itm.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.traits.damageVulnerabilities
+        value: '["radiant"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>An undead form has immunity to poison and necrotic damage, darkvision
+      with a range of 60 feet, and gains an expertise die on Intimidation
+      checks, but only receives half the normal amount of healing from magical
+      healing spells, healing potions, and similar effects. It is also
+      vulnerable to radiant damage.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!38s2h0tgv85ciwt3.nPRmA0fHBBwUa8rS'
+flags: {}
+_id: 38s2h0tgv85ciwt3
+_key: '!items!38s2h0tgv85ciwt3'

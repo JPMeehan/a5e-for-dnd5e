@@ -9,13 +9,12 @@ system:
   description:
     value: >-
       <p>At 6th level, your very blood becomes anathema to the regenerative
-      abilities of trolls. You gain&nbsp;<span
-      class="freelinking-link">immunity</span> to acid damage. In addition,
+      abilities of trolls. You gain immunity to acid damage. In addition,
       whenever a creature damages you with a bite attack, it takes 3d6 acid
       damage from your acidic blood.</p>
     chat: ''
   source:
-    book: ''
+    book: Dungeon Delver's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -63,7 +62,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/skills/wounds/anatomy-organ-heart-red.webp
-    origin: Item.VTjJebtMG2MCHG2t
+    origin: Item.98cfy8w4lmi24hd0
     flags:
       a5e:
         sort: 0

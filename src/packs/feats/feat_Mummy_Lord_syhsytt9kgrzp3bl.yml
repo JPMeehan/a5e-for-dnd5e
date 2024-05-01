@@ -1,0 +1,112 @@
+name: Mummy Lord
+type: feat
+img: icons/commodities/cloth/ribbon-worn-yellow.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have tapped into the full potential of your new undead form, and
+      you are powerful indeed.&nbsp;You gain the following benefits:</p>
+
+      <ul>
+
+      <li>You can extinguish ongoing fire damage on yourself or a creature
+      within 5 feet of you as a reaction.</li>
+
+      <li>You are immune to necrotic damage.</li>
+
+      <li>You are immune to the charmed and frightened conditions</li>
+
+      <li>When you hit with a melee attack, you may spend a point of exertion to
+      deal an additional 1d6 points of necrotic damage to the target. If you do,
+      the target must make a constitution saving throw with a DC of 8 + your
+      Constitution or Wisdom modifier (choose when you take this feat) + your
+      proficiency bonus.&nbsp;If it fails, it cannot regain hit points for an
+      hour or until
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.l16wg9h1z9s16exb]{Remove Curse}
+      is cast on it.&nbsp;You may combine this with the similar benefit from
+      Embalmed to spend 2 points of exertion and deal 2d6 points of damage in
+      total.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Mummified feat
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/cloth/ribbon-worn-yellow.webp
+    origin: Item.a5TSe1CaDUDj7eqd
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FCCLoJpFzZtik9aG
+        duration:
+          unit: hours
+    transfer: false
+    name: Cursed
+    _id: nBMfmpxi8eQJqejB
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Cannot regain hit points.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!syhsytt9kgrzp3bl.nBMfmpxi8eQJqejB'
+flags: {}
+folder: null
+_id: syhsytt9kgrzp3bl
+_key: '!items!syhsytt9kgrzp3bl'

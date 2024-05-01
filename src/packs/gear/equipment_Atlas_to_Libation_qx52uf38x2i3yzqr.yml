@@ -1,0 +1,94 @@
+name: Atlas to Libation
+type: equipment
+img: icons/tools/navigation/map-marked-red.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This golden-brown parchment has an odd handle-like wooden stave and a
+      seal marked with an ale tankard. As a bonus action, you can break the seal
+      and unfurl the map. When you do so, the map fills in with accurate
+      topography in a 1-mile radius around you. A miniature image of you appears
+      at the map’s center along with a dotted line leading to an X that marks
+      the nearest potable alcohol. The map immediately rolls back up if brought
+      within 50 feet of alcohol or if no alcohol is within 1 mile when the seal
+      is opened.</p><p>Once used in this way, the seal reforms and is usable
+      again after 24 hours. </p><p>Alternatively, you can form a cylinder with
+      the map and grasp it by the handle as an action. If you do so, the map
+      hardens into a tall wooden tankard and magically fills with high quality
+      ale, then loses all magical properties and becomes a mundane object.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 35
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: 9k4UVzCiMuqj62ea
+_id: qx52uf38x2i3yzqr
+_key: '!items!qx52uf38x2i3yzqr'

@@ -1,0 +1,125 @@
+folder: null
+name: Heritor
+type: feat
+img: icons/skills/wounds/blood-cells-vessel-red.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-5df00a56-7fff-3be3-c093-28978d847532"
+      dir="ltr">Your life circumstances are truly exceptional; not only were you
+      born with innate magical abilities, but you also have acquired an
+      artifact, and through experimentation, you have begun to forging both into
+      a unified whole. You gain the following benefits:</p>
+
+      <ul>
+
+      <li dir="ltr">Your Charisma or wielder spellcasting ability increases by
+      1, to a maximum of 20.</li>
+
+      <li dir="ltr" role="presentation">Your bonded artifact functions as a
+      spellcasting focus for your sorcerer spells.</li>
+
+      <li dir="ltr" role="presentation">You gain proficiency with History or an
+      expertise die if you are already proficient. You also gain the legends
+      skill specialty, or a different History skill specialty if you already
+      have it.</li>
+
+      <li dir="ltr" role="presentation">You can spend a sorcery point and an
+      artifact charge as a bonus action to empower your weapon. For the rest of
+      your turn, the weapon deals additional force damage equal to your
+      proficiency bonus and if you score a critical hit, you can recover an
+      artifact charge or sorcery point (your choice). You can only recover a
+      single point this way each turn, regardless of how many critical hits you
+      score.</li>
+
+      <li dir="ltr" role="presentation">You gain the following minor metamagic
+      option. It doesn&rsquo;t count against your metamagic options known:
+      <strong>Wielded Spell</strong></li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 Levels in Sorcerer, 3 Levels in Wielder
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/wounds/blood-cells-vessel-red.webp
+    origin: Item.08cd1a5r1dne38ia
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Heritor
+    _id: A93JSb5aMIoAWCNi
+    changes:
+      - key: system.skills.his.proficient
+        value: 'true'
+        mode: 6
+        priority: null
+      - key: system.skills.his.specialties
+        value: Legends
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!08cd1a5r1dne38ia.A93JSb5aMIoAWCNi'
+flags: {}
+_id: 08cd1a5r1dne38ia
+_key: '!items!08cd1a5r1dne38ia'

@@ -1,0 +1,99 @@
+folder: jUj7oP8VFpreITEL
+name: Tincture of Appetite Stimulation
+type: consumable
+img: icons/consumables/potions/flask-corked-yellow-glow.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-6e593993-7fff-9f3e-e332-a01622c5db50"
+      dir="ltr">This potion comes in a small dropper bottle and contains a dark
+      liquid that smells strongly of cinnamon and black pepper.</p>
+
+      <p dir="ltr">A creature who consumes this tincture becomes ravenous and
+      capable of consuming things that otherwise would make them ill. The
+      creature has advantage on saving throws to resist poison from ingested
+      means for the next hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/consumables/potions/flask-corked-yellow-glow.webp
+    origin: Item.nydlp0tvpun35uz6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: In3uPNdy9CrN1yra
+        duration:
+          unit: hours
+    transfer: false
+    name: Tincture of Appetite Stimulation
+    _id: lP9OltiFNz8QTI9N
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!nydlp0tvpun35uz6.lP9OltiFNz8QTI9N'
+flags: {}
+_id: nydlp0tvpun35uz6
+_key: '!items!nydlp0tvpun35uz6'

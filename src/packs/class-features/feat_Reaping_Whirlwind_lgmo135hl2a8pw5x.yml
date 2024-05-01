@@ -1,0 +1,33 @@
+name: Reaping Whirlwind
+type: feat
+img: icons/magic/air/wind-tornado-cyclone-white.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 14th level, while you are under the effects of Carried Aloft
+      and at least 50 feet off the ground, you may expend 2 uses of Wild Shape
+      to surround yourself with a terrifying whirlwind made of razor-sharp
+      shards. You are surrounded by simultaneous<em>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.u8e2yij8vcq0puxl]{Blade
+      Barrier}</em>&nbsp;and
+      <em>@UUID[Compendium.a5e.a5e-spells.Item.n7v09ab1hwk8cupe]{Wind
+      Wall}</em>&nbsp;effects, each extending 5 feet out from your space. You
+      must concentrate to maintain this effect (as per a spell), and it lasts
+      for up to 10 minutes.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: lgmo135hl2a8pw5x
+_key: '!items!lgmo135hl2a8pw5x'

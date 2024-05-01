@@ -4,12 +4,13 @@ type: feat
 img: icons/magic/defensive/armor-shield-barrier-steel.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: <p>Also at level 6, you gain proficiency in heavy armor.</p>
     chat: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -18,7 +19,7 @@ system:
     charged: true
 effects:
   - icon: icons/magic/defensive/armor-shield-barrier-steel.webp
-    origin: Item.Ex3crdoTT2vdbV5s
+    origin: Item.obfpkl7nyjahvmsl
     flags:
       a5e:
         sort: 0
