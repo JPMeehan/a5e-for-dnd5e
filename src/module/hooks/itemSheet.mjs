@@ -19,14 +19,10 @@ export async function spells(sheet, html, context) {
 
   const props = description.find('ol.properties-list:last-child');
 
-  console.log(props);
-
   if (rare) {
-    console.log('Rare spell');
     props.prepend(`<li>${game.i18n.localize('a5e-for-dnd5e.Spell.Rare')}</li>`);
   }
   if (secondarySelected.length) {
-    console.log(secondarySelected);
     const formatter = game.i18n.getListFormatter({ style: 'narrow' });
     props.append(
       `<li>${formatter.format(

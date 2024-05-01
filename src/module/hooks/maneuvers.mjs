@@ -1,4 +1,4 @@
-import { CUSTOM_SHEETS, moduleID, modulePath, moduleTypes } from '../utils.mjs';
+import { ACTOR_SHEETS, moduleID, modulePath, moduleTypes } from '../utils.mjs';
 const maneuverType = moduleTypes.maneuver;
 
 /**
@@ -10,7 +10,6 @@ const maneuverType = moduleTypes.maneuver;
  */
 export function inlineManeuverDisplay(sheet, html, context) {
   if (!game.user.isGM && sheet.actor.limited) return true;
-  const newCharacterSheet = sheet.constructor.name === CUSTOM_SHEETS.DEFAULT;
   if (context.isCharacter || context.isNPC) {
     const owner = context.actor.isOwner;
     let maneuvers = context.items.filter((i) => i.type === maneuverType);
@@ -74,20 +73,27 @@ export function inlineManeuverDisplay(sheet, html, context) {
         day: 'DND5E.TimeDayAbbr',
       }[maneuver.system.activation.type];
 
-      const itemContext = newCharacterSheet
-        ? {
+      let itemContext = null;
+      switch (sheet.constructor.name) {
+        case ACTOR_SHEETS.DEFAULT:
+          itemContext = {
             activation:
               cost && abbr
                 ? `${cost}${game.i18n.localize(abbr)}`
                 : maneuver.labels.activation,
             preparation: { applicable: false },
-          }
-        : {
+          };
+          break;
+        case ACTOR_SHEETS.LEGACY:
+        case ACTOR_SHEETS.NPC:
+          itemContext = {
             toggleTitle: CONFIG.DND5E.spellPreparationModes.always,
             toggleClass: 'fixed',
           };
+          break;
+      }
 
-      if (newCharacterSheet) {
+      if (sheet.constructor.name === ACTOR_SHEETS.DEFAULT) {
         // Range
         const units = maneuver.system.range?.units;
         if (units && units !== 'none') {
@@ -129,12 +135,19 @@ export function inlineManeuverDisplay(sheet, html, context) {
     for (const i in spellbook) {
       if (spellbook[i] === undefined) delete spellbook[i];
     }
-    const spellList = newCharacterSheet
-      ? html.find('.spells')
-      : html.find('.spellbook');
-    const spellListTemplate = newCharacterSheet
-      ? 'systems/dnd5e/templates/actors/tabs/character-spells.hbs'
-      : 'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs';
+    const spellList =
+      sheet.constructor.name === ACTOR_SHEETS.DEFAULT
+        ? html.find('.spells')
+        : html.find('.spellbook');
+    const spellListTemplate = {
+      [ACTOR_SHEETS.DEFAULT]:
+        'systems/dnd5e/templates/actors/tabs/character-spells.hbs',
+      [ACTOR_SHEETS.LEGACY]:
+        'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs',
+      [ACTOR_SHEETS.NPC]:
+        'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs',
+    }[sheet.constructor.name];
+    if (!spellListTemplate) return;
     renderTemplate(spellListTemplate, context).then((partial) => {
       spellList.html(partial);
       const ep = sheet.actor.getFlag(moduleID, 'ep');
@@ -143,54 +156,64 @@ export function inlineManeuverDisplay(sheet, html, context) {
           ep: ep.value,
           epMax: ep.max,
         };
-        const template = newCharacterSheet
-          ? 'templates/default/ep-partial.hbs'
-          : 'templates/legacy/ep-partial.hbs';
+        const template = {
+          [ACTOR_SHEETS.DEFAULT]: 'templates/default/ep-partial.hbs',
+          [ACTOR_SHEETS.LEGACY]: 'templates/legacy/ep-partial.hbs',
+        }[sheet.constructor.name];
         renderTemplate(modulePath + template, epContext).then(
           (exertionHeader) => {
-            const epTarget = newCharacterSheet
-              ? 'dnd5e-inventory'
-              : '.inventory-list';
+            const epTarget = {
+              [ACTOR_SHEETS.DEFAULT]: 'dnd5e-inventory',
+              [ACTOR_SHEETS.LEGACY]: '.inventory-list',
+            }[sheet.constructor.name];
             spellList.find(epTarget).prepend(exertionHeader);
           }
         );
       }
 
-      if (newCharacterSheet) {
-        spellList
-          .find(`.items-section[data-type="${maneuverType}"]`)
-          .find('.item-header.item-school')
-          .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.TraditionShort'));
+      switch (sheet.constructor.name) {
+        case ACTOR_SHEETS.DEFAULT:
+          spellList
+            .find(`.items-section[data-type="${maneuverType}"]`)
+            .find('.item-header.item-school')
+            .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.TraditionShort'));
 
-        const schoolSlots = spellList.find('.item-detail.item-school');
-        /** @type {Array<{label: string, icon: string}>} */
-        const traditions = Object.values(CONFIG.A5E.MANEUVERS.tradition);
-        for (const div of schoolSlots) {
-          const trad = traditions.find((t) => t.label === div.dataset.tooltip);
-          if (trad) {
-            div.innerHTML = `<dnd5e-icon src="${trad.icon}"></dnd5e-icon>`;
+          const schoolSlots = spellList.find('.item-detail.item-school');
+          /** @type {Array<{label: string, icon: string}>} */
+          const traditions = Object.values(CONFIG.A5E.MANEUVERS.tradition);
+          for (const div of schoolSlots) {
+            const trad = traditions.find(
+              (t) => t.label === div.dataset.tooltip
+            );
+            if (trad) {
+              div.innerHTML = `<dnd5e-icon src="${trad.icon}"></dnd5e-icon>`;
+            }
           }
-        }
 
-        const schoolFilter = spellList.find('item-list-controls .filter-list');
-        schoolFilter.append(
-          Object.values(CONFIG.A5E.MANEUVERS.tradition).map((t) => {
-            `<li><button type="button" class="filter-item">${t.label}</button></li>`;
-          })
-        );
-      } else {
-        const sectionHeader = spellList.find(
-          `.items-header.spellbook-header[data-type="${maneuverType}"]`
-        );
-        sectionHeader
-          .find('.spell-school')
-          .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Tradition'));
-        sectionHeader
-          .find('.spell-action')
-          .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Usage'));
-        sectionHeader
-          .find('.spell-target')
-          .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Target'));
+          const schoolFilter = spellList.find(
+            'item-list-controls .filter-list'
+          );
+          schoolFilter.append(
+            Object.values(CONFIG.A5E.MANEUVERS.tradition).map((t) => {
+              `<li><button type="button" class="filter-item">${t.label}</button></li>`;
+            })
+          );
+          break;
+        case ACTOR_SHEETS.LEGACY:
+        case ACTOR_SHEETS.NPC:
+          const sectionHeader = spellList.find(
+            `.items-header.spellbook-header[data-type="${maneuverType}"]`
+          );
+          sectionHeader
+            .find('.spell-school')
+            .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Tradition'));
+          sectionHeader
+            .find('.spell-action')
+            .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Usage'));
+          sectionHeader
+            .find('.spell-target')
+            .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Target'));
+          break;
       }
       sheet.activateListeners(spellList);
     });
@@ -246,7 +269,8 @@ export function maxExertionPoints(
   const prof = foundry.utils.getProperty(actor, 'system.attributes.prof');
   const max = spellcasting.progression === 'default' ? 2 * prof : 0;
   let ep = actor.getFlag(moduleID, 'ep');
-  if (ep) ep.max = Math.max(max, ep.max);
+  if (ep && foundry.utils.getType(ep) === 'Object')
+    ep.max = Math.max(max, ep.max ?? 0);
   else ep = { value: max, max };
   const flags = {
     [moduleID]: { ep },

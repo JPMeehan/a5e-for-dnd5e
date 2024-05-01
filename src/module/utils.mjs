@@ -1,7 +1,8 @@
-export const CUSTOM_SHEETS = {
+export const ACTOR_SHEETS = {
   LEGACY: 'ActorSheet5eCharacter',
   DEFAULT: 'ActorSheet5eCharacter2',
-  TIDY5E: 'Tidy5eSheet',
+  TIDY5E: 'Tidy5eCharacterSheet',
+  NPC: 'ActorSheet5eNPC',
 };
 
 export const moduleID = 'a5e-for-dnd5e';

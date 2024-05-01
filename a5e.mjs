@@ -2,7 +2,7 @@ import A5E_CONFIG from './src/module/config.mjs';
 import * as DataClasses from './src/module/data/_module.mjs';
 import * as SheetClasses from './src/module/apps/_module.mjs';
 import * as a5eHooks from './src/module/hooks/_module.mjs';
-import { CUSTOM_SHEETS, moduleID, moduleTypes } from './src/module/utils.mjs';
+import { ACTOR_SHEETS, moduleID, moduleTypes } from './src/module/utils.mjs';
 import { _onDialogSubmit } from './src/module/hooks/expertiseDice.mjs';
 
 Hooks.once('init', () => {
@@ -145,14 +145,18 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
   if (!game.user.isGM && app.actor.limited) return;
 
   switch (app.constructor.name) {
-    case CUSTOM_SHEETS.DEFAULT:
+    case ACTOR_SHEETS.DEFAULT:
       a5eHooks.characterSheet.defaultSheet(app, html, context);
       break;
-    case CUSTOM_SHEETS.LEGACY:
+    case ACTOR_SHEETS.LEGACY:
       a5eHooks.characterSheet.legacySheet(app, html, context);
       break;
   }
 });
+// Hooks.on('tidy5e-sheet.renderActorSheet', (app, html, context) => {
+//   if (!game.user.isGM && app.actor.limited) return;
+//   a5eHooks.maneuvers.inlineManeuverDisplay(app, html, context);
+// });
 
 Hooks.on('dnd5e.rollDeathSave', a5eHooks.exhaustion.natOneDeathSave);
 
@@ -184,6 +188,10 @@ Hooks.on('renderItemSheet5e', (sheet, html, context) => {
  */
 
 Hooks.on('renderActorSheet5e', a5eHooks.maneuvers.inlineManeuverDisplay);
+// Hooks.on(
+//   'tidy5e-sheet.renderActorSheet',
+//   a5eHooks.maneuvers.inlineManeuverDisplay
+// );
 
 Hooks.on(
   'dnd5e.computeManeuversProgression',

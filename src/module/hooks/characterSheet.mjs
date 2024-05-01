@@ -236,6 +236,14 @@ function removePrestige(actor, index) {
  * @param {JQuery} html
  * @param {object} context
  */
+export function tidySheet(sheet, html, context) {}
+
+/**
+ *
+ * @param {ActorSheet} sheet
+ * @param {JQuery} html
+ * @param {object} context
+ */
 export function legacySheet(sheet, html, context) {
   const newFeatures = [
     context.features[0],

@@ -1,8 +1,11 @@
 # Changelog
 
-## 0.9.3 Tidy5e
+## 0.9.3 Future Prep
 
-- Added compatibility to tidy5e
+- Began preparing migration scripts for class support
+- Refactored sheet rendering for potential compatibility with Tidy5E
+- Fixed extraneous console logs
+- Fixed a bug where exertion point max would become NaN
 - Updated data imports from a5e
 
 ## 0.9.2 Equipment
