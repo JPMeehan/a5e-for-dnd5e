@@ -31,7 +31,7 @@ switch (targetPack) {
   case 'roll-tables':
     packPath = path.join('src', 'packs', 'tables');
     break;
-  // feats, monsters, spells stay the same
+  // classes, feats, monsters, spells stay the same
 }
 
 let debugInfo = false;
@@ -1291,7 +1291,7 @@ function migrateSpell(system) {
  *
  * @param {import('./types/a5e.mjs').Heritage} system The a5e heritage
  * @param {string} name                               The race's name
- * @returns {import('./types/dnd5e.mjs').Race}        The o5e race
+ * @returns {Heritage}        The o5e race
  */
 function migrateHeritage(system, name) {
   /** @type {Heritage} */
@@ -1317,7 +1317,7 @@ function migrateHeritage(system, name) {
 /**
  *
  * @param {import('./types/a5e.mjs').Background} system The a5e background
- * @returns {import('./types/dnd5e.mjs').Background}    The o5e background
+ * @returns {Background}    The o5e background
  */
 function migrateBackground(system) {
   /** @type {Background} */
@@ -1342,7 +1342,7 @@ function migrateBackground(system) {
 /**
  *
  * @param {import('./types/a5e.mjs').Culture} system The a5e culture
- * @returns {import('./types/dnd5e.mjs').Culture}    The o5e culture
+ * @returns {Culture}    The o5e culture
  */
 function migrateCulture(system) {
   /** @type {Culture} */
@@ -1366,7 +1366,7 @@ function migrateCulture(system) {
 /**
  *
  * @param {import('./types/a5e.mjs').Destiny} system The a5e destiny
- * @returns {import('./types/dnd5e.mjs').Destiny}    The o5e destiny
+ * @returns {Destiny}    The o5e destiny
  */
 function migrateDestiny(system) {
   /** @type {Destiny} */
@@ -1379,6 +1379,21 @@ function migrateDestiny(system) {
     source: mapSource(system.source),
     advancement: [],
   };
+  return o5e;
+}
+
+/**
+ * @typedef {import('./types/dnd5e.mjs').Class5e & import('./types/dnd5e.mjs').ItemDescription} Class5e
+ */
+
+/**
+ *
+ * @param {import('./types/a5e.mjs').ClassA5E} system The a5e class
+ * @returns {import('./types/dnd5e.mjs').Class5e}  The o5e class
+ */
+function migrateClass(system) {
+  /** @type {Class5e} */
+  const o5e = {};
   return o5e;
 }
 
@@ -1845,6 +1860,9 @@ for (const p of packList) {
     case 'destiny':
       data.system = migrateDestiny(data.system);
       data.type = 'a5e-for-dnd5e.destiny';
+      break;
+    case 'class':
+      data.system = migrateClass(data.system);
       break;
   }
   if (!fs.lstat(packPath)) fs.mkdir(packPath);

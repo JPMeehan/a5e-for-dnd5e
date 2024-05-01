@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.3 Tidy5e
+
+- Added compatibility to tidy5e
+- Updated data imports from a5e
+
 ## 0.9.2 Equipment
 
 - Updated data imports from a5e
