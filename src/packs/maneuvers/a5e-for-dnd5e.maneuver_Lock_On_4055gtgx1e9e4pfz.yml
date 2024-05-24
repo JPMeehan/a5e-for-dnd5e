@@ -1,0 +1,68 @@
+name: Lock On
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p><strong>Requirements: </strong>A set of manacles, not wielding a shield
+      or two-handed weapon.</p>
+
+      <p>When a creature up to one size category larger or smaller than you
+      misses you with an attack, you may use your reaction to lock yourself to
+      the creature with the manacles. As long as you and the creature are locked
+      to each other this way, you are considered to be grappling each other. The
+      target must break or escape the manacles as normal to escape the grapple,
+      but you can end it as a bonus action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: a creature misses you with an attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: ekxR5bvpzKgRqxmM
+flags: {}
+_id: 4055gtgx1e9e4pfz
+_key: '!items!4055gtgx1e9e4pfz'

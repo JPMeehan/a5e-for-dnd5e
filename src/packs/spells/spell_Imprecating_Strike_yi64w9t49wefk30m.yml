@@ -4,30 +4,20 @@ img: icons/magic/fire/dagger-rune-enchant-flame-blue-yellow.webp
 system:
   description:
     value: >-
-      <p><em><strong>Association:</strong> Rogue class</em></p>
-
-      <p>You infuse your attack with the power of the heavens, debilitating your
-      target.</p>
-
-      <p>When you deal
+      <p><em><strong>Association:</strong> Rogue class</em></p><p>You infuse
+      your attack with the power of the heavens, debilitating your
+      target.</p><p>When you deal
       @UUID[Compendium.a5e.a5e-class-features.Item.4727pnvz5nwn3h23]{Sneak
       Attack} damage with a melee attack, you may cast this spell as part of the
       Sneak Attack, transforming the bonus damage from your Sneak Attack into
       radiant damage. In addition, depending on the spell slot level used to
       cast this spell, you inflict one of the following sets of conditions on
-      the target until the end of its next turn:</p>
-
-      <p><strong>1st-level: </strong>Rattled.</p>
-
-      <p><strong>2nd-level:</strong> Blinded.</p>
-
-      <p><strong>3rd-level: </strong>Blinded and rattled.</p>
-
-      <p><strong>4th-level or higher: </strong>Blinded, rattled, and
-      stunned.</p>
-
-      <p>For the purposes of determining spells cast in a round, this spell
-      counts as having a casting time of one action.</p>
+      the target until the end of its next turn:</p><p><strong>1st-level:
+      </strong>Rattled.</p><p><strong>2nd-level:</strong>
+      Blinded.</p><p><strong>3rd-level: </strong>Blinded and
+      rattled.</p><p><strong>4th-level or higher: </strong>Blinded, rattled, and
+      stunned.</p><p>For the purposes of determining spells cast in a round,
+      this spell counts as having a casting time of one action.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'

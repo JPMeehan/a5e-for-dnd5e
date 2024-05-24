@@ -1,0 +1,69 @@
+folder: MTjX1YM53zT6AvZI
+name: Selfless Shove
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>As a reaction to an ally within 5 feet of you and no more than one size
+      larger than you being forced to make a saving throw against a harmful
+      effect that targets an area, you may enter your ally&rsquo;s space and
+      shove them in any direction away from you a number of feet equal to 10 + 5
+      for every point of exertion spent on this maneuver, potentially removing
+      them from the area of effect but subjecting you to it. This movement does
+      not provoke opportunity attacks.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 1
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      An ally within 5 feet of you and no more than one size larger than you is
+      forced to make a saving throw against a harmful effect that targets an
+      area
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: q110d1a9beq12ez8
+_key: '!items!q110d1a9beq12ez8'

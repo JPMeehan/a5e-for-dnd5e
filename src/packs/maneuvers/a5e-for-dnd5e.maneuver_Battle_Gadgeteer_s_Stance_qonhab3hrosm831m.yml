@@ -1,0 +1,61 @@
+name: Battle Gadgeteer's Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p>Your gear is stowed for easy access and your hands are blindingly
+      quick. While you remain in this stance, you can ignore the &ldquo;a hand
+      free&rdquo; requirements of other Grinding Cog maneuvers.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 4
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: zZDwqKrbFphxKrOK
+flags: {}
+_id: qonhab3hrosm831m
+_key: '!items!qonhab3hrosm831m'

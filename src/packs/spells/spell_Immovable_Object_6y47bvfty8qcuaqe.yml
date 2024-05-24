@@ -5,15 +5,12 @@ img: icons/magic/defensive/armor-stone-skin.webp
 system:
   description:
     value: >-
-      <p><em><strong>Association:</strong> Adept class</em></p>
-
-      <p>You root yourself in place with supernatural power. Until the spell
-      ends, your speed becomes 0, and you automatically fail Dexterity saving
-      throws. You gain resistance to all damage.</p>
-
-      <p>Also, at the start of each of your turns, roll your Martial Arts die.
-      You gain a bonus to AC equal to the result until the beginning of your
-      next turn..</p>
+      <p><em><strong>Association:</strong> Adept class</em></p><p>You root
+      yourself in place with supernatural power. Until the spell ends, your
+      speed becomes 0, and you automatically fail Dexterity saving throws. You
+      gain resistance to all damage.</p><p>Also, at the start of each of your
+      turns, roll your Martial Arts die. You gain a bonus to AC equal to the
+      result until the beginning of your next turn..</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -108,11 +105,9 @@ effects:
       startTurn: null
     description: >-
       <p>Your speed becomes 0, and you automatically fail Dexterity saving
-      throws. You gain resistance to all damage.</p>
-
-      <p>Also, at the start of each of your turns, roll your Martial Arts die.
-      You gain a bonus to AC equal to the result until the beginning of your
-      next turn.</p>
+      throws. You gain resistance to all damage.</p><p>Also, at the start of
+      each of your turns, roll your Martial Arts die. You gain a bonus to AC
+      equal to the result until the beginning of your next turn.</p>
     statuses: []
     folder: null
     _key: '!items.effects!6y47bvfty8qcuaqe.T2tTuCaOxeVuzGAA'

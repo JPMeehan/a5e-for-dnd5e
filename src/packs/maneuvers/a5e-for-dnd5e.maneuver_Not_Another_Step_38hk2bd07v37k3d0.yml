@@ -1,0 +1,64 @@
+folder: 5FkmrLkbzpHZl8aW
+name: Not Another Step
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>When you activate this maneuver, select an ally you can see within 30
+      feet of you. For 1 minute, hostile creatures must succeed on a Charisma
+      saving throw the first time each round they try to move within 15 feet of
+      your ally. On a failure, they are unable to move closer to your ally until
+      the start of your next turn, but on a success, they become immune to this
+      ability for 24 hours. This effect ends early if you are incapacitated.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 3
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 38hk2bd07v37k3d0
+_key: '!items!38hk2bd07v37k3d0'

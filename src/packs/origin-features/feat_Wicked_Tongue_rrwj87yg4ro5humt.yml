@@ -3,7 +3,7 @@ type: feat
 img: icons/commodities/biological/tongue-violet.webp
 effects:
   - icon: icons/commodities/biological/tongue-violet.webp
-    origin: Item.rrwj87yg4ro5humt
+    origin: Item.DgjUovAxVR9QH0fM
     flags:
       a5e:
         sort: 0
@@ -40,25 +40,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <div class="page" title="Page 11">
+      <p>While all frogfolk use their sticky, arms-length tongue to eat, your
+      tongue is exemplary. Between reach, strength, and stickiness, your tongue
+      is a weapon unto itself. You gain the following benefits:</p>
 
-      <div class="section">
-
-      <div class="layoutArea">
-
-      <div class="column">
-
-      <div class="page" title="Page 11">
-
-      <div class="section">
-
-      <div class="layoutArea">
-
-      <div class="column">
-
-      <p>You have a long sticky tongue capable of immobilizing your prey or
-      enemies. Your tongue is 10 feet long and is dexterous enough to perform
-      simple actions a hand could perform, though it cannot wield weapons.</p>
+      <p><strong>Wicked Tongue. </strong>You have a long sticky tongue capable
+      of immobilizing your prey or enemies. Your tongue is 10 feet long and is
+      dexterous enough to perform simple actions a hand could perform, though it
+      cannot wield weapons.</p>
 
       <p>On your turn as an action, you can make a melee attack using your
       tongue. You are considered proficient with your tongue and may use your
@@ -77,25 +66,9 @@ system:
       you can use a bonus action to release your tongue. If forced movement or
       another effect drives you and the attached creature further than 10 feet
       apart, your tongue detaches automatically.</p>
-
-      </div>
-
-      </div>
-
-      </div>
-
-      </div>
-
-      </div>
-
-      </div>
-
-      </div>
-
-      </div>
     chat: ''
   source:
-    book: 'Manual of Adventurous Resources: Complete'
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''

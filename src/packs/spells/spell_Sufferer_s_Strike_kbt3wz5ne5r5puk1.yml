@@ -5,32 +5,19 @@ img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
   description:
     value: >-
-      <div id="spell-body">
-
-      <div class="field field--name-body field--type-text-with-summary
-      field--label-hidden field--item">
-
       <p>Your weapon thrums with the power of your misery. As part of casting
       this spell, make a melee spell attack against the target. On a hit, you
       deal your weapon damage plus 2d8 force damage. This damage increases by
-      1d8 for each level of&nbsp;<span
-      class="freelinking-link">fatigue</span>&nbsp;and&nbsp;<span
-      class="freelinking-link">strife</span>&nbsp;you are suffering. If your
-      total of your fatigue and strife levels is 3 or more, the target makes a
-      Constitution&nbsp;<span class="freelinking-link">saving throw</span> or
-      suffers one level of fatigue or strife&nbsp;(your choice).</p>
-
-      <p><strong>Cast at Higher Levels. </strong>The base damage of this spell
-      increases by 1d8 for every two spell slot levels above 2nd. You can
-      inflict an additional level of&nbsp;<span
-      class="freelinking-link">fatigue</span>&nbsp;or&nbsp;<span
-      class="freelinking-link">strife</span>&nbsp;when you reach 11th level and
-      17th level. These levels must be either all fatigue&nbsp;or all
+      1d8 for each level
+      of&nbsp;fatigue</span>&nbsp;and&nbsp;strife</span>&nbsp;you are suffering.
+      If your total of your fatigue and strife levels is 3 or more, the target
+      makes a Constitution&nbsp;saving throw or suffers one level of fatigue or
+      strife&nbsp;(your choice).</p><p><strong>Cast at Higher Levels.
+      </strong>The base damage of this spell increases by 1d8 for every two
+      spell slot levels above 2nd. You can inflict an additional level
+      of&nbsp;<span>fatigue&nbsp;or&nbsp;<span>strife&nbsp;when you reach 11th
+      level and 17th level. These levels must be either all fatigue&nbsp;or all
       strife.</p>
-
-      </div>
-
-      </div>
     chat: ''
   source:
     book: Gate Pass Gazette

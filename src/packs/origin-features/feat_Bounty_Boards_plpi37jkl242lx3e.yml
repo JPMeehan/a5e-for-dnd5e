@@ -1,0 +1,72 @@
+name: Bounty Boards
+type: feat
+img: icons/sundries/documents/document-sealed-signatures-red.webp
+effects: []
+folder: n7MBM7lcayeaiQdF
+flags: {}
+system:
+  type:
+    value: background
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the common procedures for finding information on wanted
+      people. When you are in a community such as a settlement or a district of
+      a large city, you can spend 1 hour gathering leads on bounties. You learn
+      about one of the following: a villainous threat to this community, a
+      wanted small-time criminal, the identity of a local crime group, a noble
+      looking for “a trustworthy employee,” or a commoner wronged by any of
+      these. You can express which you prefer, but the information you find is
+      determined by the Narrator. Whatever person or group you learn about, you
+      get a lead on their location and some assurance of payment for your
+      work.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: plpi37jkl242lx3e
+_key: '!items!plpi37jkl242lx3e'

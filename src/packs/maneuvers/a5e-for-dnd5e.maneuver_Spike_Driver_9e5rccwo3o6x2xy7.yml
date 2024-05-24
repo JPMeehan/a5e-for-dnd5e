@@ -1,0 +1,69 @@
+folder: T4eCBAeaZR4u3qf8
+name: Spike Driver
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong> A piercing melee weapon, a
+      hammer, a hand free</p>
+
+      <p dir="ltr">Immediately after hitting a target with a melee weapon that
+      deals piercing damage, you may strike the pommel or haft with the hammer,
+      driving the weapon further into the target. The target takes an additional
+      1d6 points of piercing damage, and you treat the initial attack roll as if
+      you had rolled a result 2 better on the d20 (to a maximum of 20)
+      potentially turning it into a critical hit.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 5
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 9e5rccwo3o6x2xy7
+_key: '!items!9e5rccwo3o6x2xy7'

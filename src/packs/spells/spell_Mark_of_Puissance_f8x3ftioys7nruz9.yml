@@ -6,16 +6,12 @@ system:
   description:
     value: >-
       <p>You place a magical mark on a creature or yourself granting&nbsp;power
-      to fight and win against your foes.</p>
-
-      <p>When you cast this spell, the target gains 4 points or exertion, may
-      remove a level of fatigue or strife, and gains 20 temporary hit
-      points.</p>
-
-      <p>In addition, while the mark remains visible, the target sheds dim light
-      in a 5-foot area, gains a +2 bonus to AC, has an expertise die on
-      Intimidation checks, and their weapon attacks deal an additional 1d4
-      points of radiant damage.</p>
+      to fight and win against your foes.</p><p>When you cast this spell, the
+      target gains 4 points or exertion, may remove a level of fatigue or
+      strife, and gains 20 temporary hit points.</p><p>In addition, while the
+      mark remains visible, the target sheds dim light in a 5-foot area, gains a
+      +2 bonus to AC, has an expertise die on Intimidation checks, and their
+      weapon attacks deal an additional 1d4 points of radiant damage.</p>
     chat: ''
   source:
     book: Spells from the Forgotten Vault
@@ -118,12 +114,10 @@ effects:
       startTurn: null
     description: >-
       <p>The target gains 4 points or exertion, may remove a level of fatigue or
-      strife, and gains 20 temporary hit points.</p>
-
-      <p>In addition, while the mark remains visible, the target sheds dim light
-      in a 5-foot area, gains a +2 bonus to AC, has an expertise die on
-      Intimidation checks, and their weapon attacks deal an additional 1d4
-      points of radiant damage.</p>
+      strife, and gains 20 temporary hit points.</p><p>In addition, while the
+      mark remains visible, the target sheds dim light in a 5-foot area, gains a
+      +2 bonus to AC, has an expertise die on Intimidation checks, and their
+      weapon attacks deal an additional 1d4 points of radiant damage.</p>
     statuses: []
     folder: null
     _key: '!items.effects!f8x3ftioys7nruz9.T1g2kNYMcFwQdzSA'

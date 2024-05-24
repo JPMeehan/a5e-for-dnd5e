@@ -1,0 +1,89 @@
+folder: L3wBa4GzvUOu2dsY
+name: Patient Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>If you do not move on your turn, you gain an additional reaction. You
+      must use this reaction before the start of your next turn.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 4
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/shield-barrier-deflect-gold.webp
+    origin: Item.SnSHsJwwZCBSz8tc
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xQQbhraU6YXPqGvQ
+        duration:
+          type: ''
+        applyToSelf: true
+    transfer: false
+    name: Patient Stance
+    _id: GM5ICdCBlCPJFieO
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>If you do not move on your turn, you gain an additional reaction. You
+      must use this reaction before the start of your next turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!366e45hcq0wywftr.GM5ICdCBlCPJFieO'
+flags: {}
+_id: 366e45hcq0wywftr
+_key: '!items!366e45hcq0wywftr'

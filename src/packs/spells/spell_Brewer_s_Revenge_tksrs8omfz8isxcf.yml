@@ -11,23 +11,18 @@ system:
       hour. Choose one of the following effects. A creature who consumes the
       beverage must succeed on a Constitution saving throw versus your spell
       save DC or gain that effect. The effect lasts for 1 minute, after which
-      the creature returns to normal:</p>
-
-      <p dir="ltr"><strong>Hiccups.</strong> The target creature is overcome
-      with hiccups for the next minute. All spells that require a verbal
-      component are cast at disadvantage. If the spell requires the target to
-      make a saving throw against it, that save is made with advantage.</p>
-
-      <p dir="ltr"><strong>Unsteady.</strong> The creature&rsquo;s speed is
-      halved as they are unable to walk in a straight line, no matter how hard
-      they try. They also have disadvantage on initiative rolls.</p>
-
-      <p dir="ltr"><strong>Cross-Eyed.</strong> The creature&rsquo;s vision goes
-      blurry, making it harder for them to see straight. Melee attack rolls are
-      made at disadvantage.</p>
-
-      <p dir="ltr">If a creature can see you touch their beverage as a part of
-      casting this spell, they make their save at advantage.</p>
+      the creature returns to normal:</p><p dir="ltr"><strong>Hiccups.</strong>
+      The target creature is overcome with hiccups for the next minute. All
+      spells that require a verbal component are cast at disadvantage. If the
+      spell requires the target to make a saving throw against it, that save is
+      made with advantage.</p><p dir="ltr"><strong>Unsteady.</strong> The
+      creature&rsquo;s speed is halved as they are unable to walk in a straight
+      line, no matter how hard they try. They also have disadvantage on
+      initiative rolls.</p><p dir="ltr"><strong>Cross-Eyed.</strong> The
+      creature&rsquo;s vision goes blurry, making it harder for them to see
+      straight. Melee attack rolls are made at disadvantage.</p><p dir="ltr">If
+      a creature can see you touch their beverage as a part of casting this
+      spell, they make their save at advantage.</p>
     chat: ''
   source:
     book: ''
@@ -110,12 +105,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p><span id="docs-internal-guid-7aa97139-7fff-061c-5838-74788add7be9">The
-      target creature is overcome with hiccups for the next minute. All spells
-      that require a verbal component are cast at disadvantage. If the spell
-      requires the target to make a saving throw against it, that save is made
-      with advantage.</span></p>
+    description: ''
     statuses: []
     folder: null
     _key: '!items.effects!tksrs8omfz8isxcf.t1feBKT3W7JD6fo4'
@@ -165,11 +155,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p><span id="docs-internal-guid-ef05a98b-7fff-8d79-86d3-e44ee296cb6a">The
-      creature’s speed is halved as they are unable to walk in a straight line,
-      no matter how hard they try. They also have disadvantage on initiative
-      rolls.</span></p>
+    description: ''
     statuses: []
     folder: null
     _key: '!items.effects!tksrs8omfz8isxcf.3lCtDLtw7VQM76ZT'
@@ -203,10 +189,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p><span id="docs-internal-guid-c9039a7b-7fff-7d21-0d39-02c098fea908">The
-      creature’s vision goes blurry, making it harder for them to see straight.
-      Melee attack rolls are made at disadvantage.</span></p>
+    description: ''
     statuses: []
     folder: null
     _key: '!items.effects!tksrs8omfz8isxcf.MvWmRJzOj3U6jzib'

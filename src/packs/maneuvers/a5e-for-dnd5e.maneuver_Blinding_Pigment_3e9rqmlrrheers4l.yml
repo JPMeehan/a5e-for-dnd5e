@@ -1,0 +1,69 @@
+folder: K2wSC07mOMbZloJN
+name: Blinding Pigment
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong> A paint pot or oil flask, a
+      hand free</p>
+
+      <p dir="ltr">Make a ranged weapon attack against a target within 15 feet
+      of you with the paint pot or oil flask, expending it. On a hit, the target
+      takes bludgeoning damage equal to 1d6 + your Dexterity modifier, is
+      affected as if you had splashed them with the paint pot normally, and must
+      make a Constitution save against your maneuver DC or be blinded until the
+      end of its next turn.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 2
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 15
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 3e9rqmlrrheers4l
+_key: '!items!3e9rqmlrrheers4l'

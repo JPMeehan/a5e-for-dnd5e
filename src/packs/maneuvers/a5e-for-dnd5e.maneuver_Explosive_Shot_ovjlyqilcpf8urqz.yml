@@ -1,0 +1,66 @@
+name: Explosive Shot
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p><strong>Requirements:&nbsp;</strong>A bag of ball bearings, a ranged
+      weapon ready to fire.</p>
+
+      <p>You hastily pack your shot with ball bearings (expending the bag) and
+      fire it. Hit or miss, creatures within 5 feet of your target must make a
+      Dexterity save against your maneuver DC or take piercing damage equal to
+      half the damage done by your shot. (If the shot misses, roll damage as if
+      it had hit to determine the damage from this maneuver.)</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+folder: ekxR5bvpzKgRqxmM
+flags: {}
+_id: ovjlyqilcpf8urqz
+_key: '!items!ovjlyqilcpf8urqz'

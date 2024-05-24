@@ -1,0 +1,139 @@
+folder: z476XZt1iG4Mb7VJ
+name: Into Mist (Half-Giant)
+type: feat
+img: icons/skills/movement/ball-spinning-blue.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your magic is that of people who prefer to remain unseen&mdash;perhaps
+      a gift passed to you by a gnomish ancestor. You gain the following
+      benefits:</p>
+
+      <p><strong>Into Mist. </strong>As a bonus action, or as a reaction
+      immediately after taking damage, you can turn invisible. The invisibility
+      lasts until the end of your next turn, and it ends early if you attack,
+      deal damage, cast a spell, or force a creature to make a saving throw.
+      Once you use this trait, you must finish a short or long rest before doing
+      so again.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: taking damage
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/movement/ball-spinning-blue.webp
+    origin: Item.5EEaKtS4SWxfmC6A
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: cmeDFJjLvbiSvdMa
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Invisible
+    _id: MxtzeopqgjeTxrxm
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: "<ul>\n<li>An invisible creature is impossible to see without the aid of magic or a special sense (it gains no benefits from this condition against creatures still able to see it).</li>\n<li>An invisible creature is heavily obscured for the purpose of hiding.\_</li>\n<li>An invisible creature's location can be detected by noises it makes or tracks it leaves.</li>\n<li>Attack rolls against an invisible creature are made with disadvantage .</li>\n<li>An invisible creature makes attack rolls with advantage .</li>\n</ul>"
+    statuses:
+      - invisible
+    folder: null
+    _key: '!items.effects!78z2weqc4dx3b308.MxtzeopqgjeTxrxm'
+  - icon: icons/skills/movement/ball-spinning-blue.webp
+    origin: Item.5EEaKtS4SWxfmC6A
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dwXKK99E897rLD2a
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Invisible
+    _id: 4zJNr6OwkXTT67sn
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: "<ul>\n<li>An invisible creature is impossible to see without the aid of magic or a special sense (it gains no benefits from this condition against creatures still able to see it).</li>\n<li>An invisible creature is heavily obscured for the purpose of hiding.\_</li>\n<li>An invisible creature's location can be detected by noises it makes or tracks it leaves.</li>\n<li>Attack rolls against an invisible creature are made with disadvantage .</li>\n<li>An invisible creature makes attack rolls with advantage .</li>\n</ul>"
+    statuses:
+      - invisible
+    folder: null
+    _key: '!items.effects!78z2weqc4dx3b308.4zJNr6OwkXTT67sn'
+flags: {}
+_id: 78z2weqc4dx3b308
+_key: '!items!78z2weqc4dx3b308'

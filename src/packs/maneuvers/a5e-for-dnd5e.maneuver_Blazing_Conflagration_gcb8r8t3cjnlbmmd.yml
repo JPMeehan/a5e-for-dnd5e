@@ -1,0 +1,74 @@
+folder: T4eCBAeaZR4u3qf8
+name: Blazing Conflagration
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong> A hand free, an oil flask, a
+      flask of alchemist&rsquo;s fire</p>
+
+      <p dir="ltr">You throw the oil and alchemist&rsquo;s fire together at a
+      square you can see within 30 feet (expending both). They shatter at the
+      same time, splashing blazing liquid everywhere, instantly igniting
+      unattended flammable objects in the affected area. Creatures within 5 feet
+      of the selected square must make a Dexterity save against your Maneuver DC
+      or take 4d6 points of fire damage and suffer 1d6 points of ongoing fire
+      damage which persists for a minute or until an affected creature uses its
+      action to make a DC 14 Dexterity save to extinguish the flames or is
+      doused with at least 1 gallon of water. Creatures that succeed on their
+      initial Dexterity save take half damage and do not suffer ongoing
+      damage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 5
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: gcb8r8t3cjnlbmmd
+_key: '!items!gcb8r8t3cjnlbmmd'

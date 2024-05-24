@@ -1,14 +1,15 @@
 name: Circlet of Blasting
 type: equipment
-img: icons/equipment/finger/ring-cabochon-silver-gold-red.webp
+img: >-
+  https://assets.forge-vtt.com/bazaar/core/icons/equipment/finger/ring-cabochon-silver-gold-red.webp
 effects: []
 flags: {}
 system:
   description:
     value: >-
       <p>Once per dawn, while wearing this circlet you can use an action to cast
-      scorching ray. The attack bonus for the spell when cast this way is
-      +5.</p>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.c9itysok7lr2ai51]{Scorching
+      Ray}. The attack bonus for the spell when cast this way is +5.</p>
     chat: ''
     unidentified: ''
   source:
@@ -41,21 +42,21 @@ system:
     value: clothing
     baseItem: ''
   activation:
-    type: action
+    type: special
     cost: 1
     condition: ''
   duration: {}
   cover: null
   crewed: false
   target:
-    value: null
+    value: ''
     width: null
     units: ''
-    type: ''
+    type: creatureOrObject
   range:
-    value: null
+    value: 120
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -66,14 +67,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
-  attackBonus: ''
+  actionType: rsak
+  attackBonus: '5'
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 2d6
+        - fire
     versatile: ''
   formula: ''
   save:

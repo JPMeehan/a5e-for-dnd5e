@@ -1,0 +1,73 @@
+name: Emergency Injunction
+type: feat
+img: icons/sundries/documents/document-sealed-red-tan.webp
+effects: []
+folder: n7MBM7lcayeaiQdF
+flags: {}
+system:
+  type:
+    value: background
+    subtype: ''
+  description:
+    value: >-
+      <p>While in a settlement in which you can communicate with officers of the
+      law, you can spend 1 hour to file an emergency injunction. This injunction
+      compels a specific person to complete or cease a certain action in
+      consistency with the law—such as “stay away from my horse” or “get your
+      horses out of my stable.” The injunction is a legal order which will be
+      enforced by the town guard, and it is considered law for one week after
+      which time the emergency injunction wares out and it must be restored
+      through the normal bureaucratic means.</p><p>Alternatively, you might
+      instead file paperwork formally accusing a person of a crime or granting
+      someone you know bail without payment. You can file no more than 1
+      emergency injunction per week.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: sy4hwojpxmqmbjso
+_key: '!items!sy4hwojpxmqmbjso'

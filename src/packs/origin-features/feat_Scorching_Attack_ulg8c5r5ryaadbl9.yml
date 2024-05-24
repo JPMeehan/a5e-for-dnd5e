@@ -1,0 +1,68 @@
+name: Scorching Attack
+type: feat
+img: icons/magic/earth/lava-stone-fire-yellow.webp
+effects: []
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>As a bonus action, you can boost your damage this turn with the power
+      of fire. Creatures you deal damage to this turn take additional fire
+      damage equal to your proficiency bonus. However, the sting of your temper
+      lessens after the first blow, so after you deal this extra damage to a
+      creature, this trait cannot deal extra damage to it during the same
+      combat.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: ulg8c5r5ryaadbl9
+_key: '!items!ulg8c5r5ryaadbl9'

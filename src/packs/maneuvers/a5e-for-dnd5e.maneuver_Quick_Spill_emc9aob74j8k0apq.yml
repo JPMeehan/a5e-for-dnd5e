@@ -5,14 +5,9 @@ img: icons/consumables/fruit/tomato-ripe-red.webp
 system:
   description:
     value: >-
-      <p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w
-      x y z ab ac ae af ag ah ai aj ak" dir="ltr">With daring-do and practiced
-      grace you seamlessly fling an obstacle across the floor with surprising
-      swiftness. With some extra effort, you can distract from the violent
-      intent.</span></p>
-
-      <p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w
-      x y z ab ac ae af ag ah ai aj ak" dir="ltr">You spread
+      <p>With daring-do and practiced grace you seamlessly fling an obstacle
+      across the floor with surprising swiftness. With some extra effort, you
+      can distract from the violent intent.</p><p>You spread
       @UUID[Compendium.a5e.a5e-adventuring-gear.Item.g7kjz2fok0p8yzrh]{Ball
       Bearings},
       @UUID[Compendium.a5e.a5e-adventuring-gear.Item.txxm6r8vc8v7i81a]{Caltrops},
@@ -21,8 +16,7 @@ system:
       saving throw with advantage (or normally if you spend an additional 1
       exertion). On a failure against ball bearings or oil the creature falls
       prone , or on a failure against caltrops it takes 1d4 piercing damage that
-      reduces its Speed by 10 feet until it regains at least 1 hit
-      point.</span></p>
+      reduces its Speed by 10 feet until it regains at least 1 hit point.</p>
     chat: ''
   source:
     book: Gate Pass Gazette

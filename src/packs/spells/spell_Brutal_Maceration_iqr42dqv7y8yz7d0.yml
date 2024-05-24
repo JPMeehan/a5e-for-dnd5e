@@ -5,17 +5,16 @@ img: icons/skills/wounds/blood-cells-disease-green.webp
 system:
   description:
     value: >-
-      <p><span id="docs-internal-guid-62db1b0a-7fff-3b8e-771e-9d546ee07f61">You
-      magically target the internal fluids of a creature, causing them to turn
-      caustic and begin to melt the flesh from their bones. The target creature
-      must make a Constitution saving throw versus your spell save DC. On a
-      failure, the target takes [[/r 10d8+30]] acid damage. The target may
-      repeat the saving throw at the start of each of its turns. On a success,
-      the spell ends. On each successive failure, the creature takes an
-      additional [[/r 4d8]] acid damage. If the creature fails its saving throw
-      three times in a row, or if it is reduced to 0 hit points as a result of
-      this spell, its flesh is completely dissolved and it collapses into a heap
-      of bones.</span></p>
+      <p>You magically target the internal fluids of a creature, causing them to
+      turn caustic and begin to melt the flesh from their bones. The target
+      creature must make a Constitution saving throw versus your spell save DC.
+      On a failure, the target takes 10d8+30 acid damage. The target may repeat
+      the saving throw at the start of each of its turns. On a success, the
+      spell ends. On each successive failure, the creature takes an additional
+      4d8 acid damage. If the creature fails its saving throw three times in a
+      row, or if it is reduced to 0 hit points as a result of this spell, it
+      dies as its flesh is completely dissolved and it collapses into a heap of
+      bones.</p>
     chat: ''
   source:
     book: ''

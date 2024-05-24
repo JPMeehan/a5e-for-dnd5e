@@ -1,0 +1,70 @@
+folder: zZDwqKrbFphxKrOK
+name: Suffocating Sap
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong> A hand free, a tanglefoot
+      bag</p>
+
+      <p dir="ltr">Make a ranged weapon attack against a creature within 15 feet
+      with the tanglefoot bag, expending it. On a hit, the contents cover the
+      creature&rsquo;s head. The target is blinded and cannot breathe while its
+      head is covered this way, and must either make a Strength save as an
+      action against your maneuver DC or an allied creature can make a Medicine
+      check as an action with the same DC to free its head from the sap. A
+      creature that doesn&rsquo;t need to breathe is still blinded. The sap can
+      also be removed by damaging it as per the normal use of a tanglefoot
+      bag.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 4
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 6ttndspb7deamylv
+_key: '!items!6ttndspb7deamylv'

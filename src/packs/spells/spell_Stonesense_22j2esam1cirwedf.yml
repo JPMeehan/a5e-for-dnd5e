@@ -5,17 +5,14 @@ system:
   description:
     value: >-
       <p>You imbue the target with a preternatural understanding of stone. The
-      target gains tremorsense out to a distance of 60 feet.</p>
-
-      <p>Whenever the target makes a History check related to the origin of
-      stonework, it is considered proficient in the History skill and gains an
-      expertise die on the check. If the target already has the Stonecunning
-      trait, it makes the check with advantage.</p>
-
-      <p>Additionally, if the target is underground, it can make a DC 10
-      Intelligence check to correctly determine the distance between itself and
-      the surface, or to perfectly recall any path it has traveled in the past
-      week.</p>
+      target gains tremorsense out to a distance of 60 feet.</p><p>Whenever the
+      target makes a History check related to the origin of stonework, it is
+      considered proficient in the History skill and gains an expertise die on
+      the check. If the target already has the Stonecunning trait, it makes the
+      check with advantage.</p><p>Additionally, if the target is underground, it
+      can make a DC 10 Intelligence check to correctly determine the distance
+      between itself and the surface, or to perfectly recall any path it has
+      traveled in the past week.</p>
     chat: ''
   source:
     book: Dungeon Delver's Guide
@@ -103,17 +100,14 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The target gains tremorsense out to a distance of 60 feet.</p>
-
-      <p>Whenever the target makes a History check related to the origin of
-      stonework, it is considered proficient in the History skill and gains an
-      expertise die on the check. If the target already has the Stonecunning
-      trait, it makes the check with advantage.</p>
-
-      <p>Additionally, if the target is underground, it can make a DC 10
-      Intelligence check to correctly determine the distance between itself and
-      the surface, or to perfectly recall any path it has traveled in the past
-      week.</p>
+      <p>The target gains tremorsense out to a distance of 60
+      feet.</p><p>Whenever the target makes a History check related to the
+      origin of stonework, it is considered proficient in the History skill and
+      gains an expertise die on the check. If the target already has the
+      Stonecunning trait, it makes the check with advantage.</p><p>Additionally,
+      if the target is underground, it can make a DC 10 Intelligence check to
+      correctly determine the distance between itself and the surface, or to
+      perfectly recall any path it has traveled in the past week.</p>
     statuses: []
     folder: null
     _key: '!items.effects!22j2esam1cirwedf.fq3x71S2Kb6t2Fw6'

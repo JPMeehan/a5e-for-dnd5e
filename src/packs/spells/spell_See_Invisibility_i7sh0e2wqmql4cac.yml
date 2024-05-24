@@ -1,7 +1,36 @@
 name: See Invisibility
 type: spell
 img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
-effects: []
+effects:
+  - icon: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+    origin: Item.gZpOhXyf4YKiT4G1
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: z5EgqaR0d2k2zjMn
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: See Invisibility
+    _id: fYuJTPoCL6WdRyjC
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You can see invisible creatures and objects, and you can see into the
+      Ethereal Plane. Ethereal creatures and objects appear translucent.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!i7sh0e2wqmql4cac.fYuJTPoCL6WdRyjC'
 flags:
   a5e-for-dnd5e:
     secondarySchools:
@@ -61,7 +90,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

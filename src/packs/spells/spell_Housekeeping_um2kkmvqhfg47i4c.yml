@@ -4,11 +4,6 @@ img: icons/environment/settlement/house-woods.webp
 system:
   description:
     value: >-
-      <div id="spell-body">
-
-      <div class="field field--name-body field--type-text-with-summary
-      field--label-hidden field--item">
-
       <p>When you cast this spell, select a 10-foot square section within range.
       If it is a hard, treated, or manufactured surface (such as wood, fabric,
       leather, stone, glass, or metal) it becomes spotlessly clean. Any foreign
@@ -17,17 +12,10 @@ system:
       the surface clean and sanitary. This cleaning makes it impossible to track
       a creature through the affected areas via mundane means, but the utter
       cleanliness may itself be suspicious. The spell has no effect on non-solid
-      surfaces such as dirt, sand, or mud.</p>
-
-      <p><strong style="font-size: 10.5pt;">Cast at Higher Levels:
-      </strong><span style="font-size: 10.5pt;">You may select an additional
+      surfaces such as dirt, sand, or mud.</p><p><strong style="font-size:
+      10.5pt;">Cast at Higher Levels: </strong>You may select an additional
       5-foot square for each slot level above 1st. Each square must touch
-      another square along one side and all squares must be within
-      range.</span></p>
-
-      </div>
-
-      </div>
+      another square along one side and all squares must be within range.</p>
     chat: ''
   source:
     book: Gate Pass Gazette

@@ -1,0 +1,89 @@
+name: Bodyguard Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>Instead of half cover, you provide three-quarters cover to allies
+      within 5 feet of you.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 1
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/shield-barrier-deflect-gold.webp
+    origin: Item.DFx4MjNr4VPBHRGS
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: E0dFIJ9HppOJOo3Y
+        applyToSelf: true
+        duration:
+          type: ''
+    transfer: false
+    name: Bodyguard Stance
+    _id: 4t4U9jiEs8Erqkps
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Instead of half cover, you provide three-quarters cover to allies
+      within 5 feet of you.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!sxieh9ljsafzz2e6.4t4U9jiEs8Erqkps'
+folder: MTjX1YM53zT6AvZI
+flags: {}
+_id: sxieh9ljsafzz2e6
+_key: '!items!sxieh9ljsafzz2e6'

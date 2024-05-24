@@ -4,13 +4,10 @@ img: icons/equipment/shield/heater-embossed-gold.webp
 system:
   description:
     value: >-
-      <p><em><strong>Association:</strong> Ranger class</em></p>
-
-      <p>You draw upon your research of a specific class of enemy and ward
-      yourself against their attacks.</p>
-
-      <p>Until the spell ends, you gain a +2 bonus to AC against attacks made by
-      your
+      <p><em><strong>Association:</strong> Ranger class</em></p><p>You draw upon
+      your research of a specific class of enemy and ward yourself against their
+      attacks.</p><p>Until the spell ends, you gain a +2 bonus to AC against
+      attacks made by your
       @UUID[Compendium.a5e.a5e-class-features.Item.t7ujv9cc4us40fj9]{Studied
       Adversary}. You also gain an expertise die on saving throws against
       effects your Studied Adversaries control.</p>
@@ -98,7 +95,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: "<p>Gain a +2 bonus to AC against attacks made by your Studied Adversaries.\_</p>\n<p>Gain anexpertise die on saving throws against effects your Studied Adversaries control.</p>"
+    description: "<p>Gain a +2 bonus to AC against attacks made by your Studied Adversaries.\_</p><p>Gain anexpertise die on saving throws against effects your Studied Adversaries control.</p>"
     statuses: []
     folder: null
     _key: '!items.effects!80os8qp2wb385wf0.Bl5C8JyCzCmMbFPz'

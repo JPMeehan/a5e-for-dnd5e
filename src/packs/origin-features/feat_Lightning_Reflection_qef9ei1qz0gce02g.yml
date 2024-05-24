@@ -1,0 +1,72 @@
+name: Lightning Reflection
+type: feat
+img: icons/magic/lightning/bolt-strike-blue.webp
+effects: []
+folder: z476XZt1iG4Mb7VJ
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>If you would be dealt lightning damage, you can use your reaction to
+      deflect it to a creature you can see within 30 feet (Dexterity save
+      halves). The DC for this trait is 8 + your proficiency modifier + your
+      choice of Constitution, Intelligence, Wisdom, or Charisma modifier. If the
+      target is the one who dealt you lightning damage, they automatically fail
+      their saving throw. Once you use this trait, you can&rsquo;t use it again
+      until you complete a short or long rest.</p><p><strong>Foundry Note: Will
+      automatically use the highest ability score modifier for the Save DC,
+      change if desired.</strong></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you take lightning damage
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+_id: qef9ei1qz0gce02g
+_key: '!items!qef9ei1qz0gce02g'

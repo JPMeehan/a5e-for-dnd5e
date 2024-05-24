@@ -10,11 +10,9 @@ system:
       spell ends. A creature restrained by the hands can use a bonus action to
       make a Strength saving throw to escape, ending the spell early on a
       success. On a failure, the target takes 1d8 necrotic damage. When the
-      spell ends, the hands withdraw into the wall.</p>
-
-      <p><em><strong>Cast at Higher Levels.</strong></em> The spell&rsquo;s
-      initial damage and damage on a failed escape attempt increase by 1d8 per
-      slot level above 1st.</p>
+      spell ends, the hands withdraw into the wall.</p><p><em><strong>Cast at
+      Higher Levels.</strong></em> The spell&rsquo;s initial damage and damage
+      on a failed escape attempt increase by 1d8 per slot level above 1st.</p>
     chat: ''
   source:
     book: Dungeon Delver's Guide
@@ -104,7 +102,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: "<p>\_A creature restrained by the hands can use a bonus action to make a Strength saving throw to escape, ending the spell early on a success. On a failure, the target takes 1d8 necrotic damage. When the spell ends, the hands withdraw into the wall.</p>\n<p><em><strong>Cast at Higher Levels.</strong></em> The spell’s initial damage and damage on a failed escape attempt increase by 1d8 per slot level above 1st.</p>"
+    description: "<p>\_A creature restrained by the hands can use a bonus action to make a Strength saving throw to escape, ending the spell early on a success. On a failure, the target takes 1d8 necrotic damage. When the spell ends, the hands withdraw into the wall.</p><p><em><strong>Cast at Higher Levels.</strong></em> The spell’s initial damage and damage on a failed escape attempt increase by 1d8 per slot level above 1st.</p>"
     statuses:
       - restrained
     folder: null

@@ -7,26 +7,16 @@ system:
       <p>You imagine a creature you can see within range in a deconstructed and
       simplified form. The target must make a Charisma saving throw . On a
       failed save, the target becomes a barely recognizable, abstracted version
-      of itself until the spell ends.</p>
-
-      <p>An abstracted creature&rsquo;s speed is halved, it takes a &minus;2
-      penalty to AC and Dexterity saving throws, and it can&rsquo;t use
-      reactions. On its turn, it can use either an action or a bonus action, not
-      both. Regardless of the creature&rsquo;s abilities or magic items, it
-      can&rsquo;t make more than one melee or ranged attack during its turn.</p>
-
-      <p>At the end of each of its turns, an abstracted target repeats the
-      saving throw to end the spell&rsquo;s effect on it.</p>
-
-      <p><strong>Cast at Higher Levels.&nbsp;</strong>You can choose one
-      additional target for each slot level above 2nd.</p>
-
-      <div class="spell-source rules-source">
-
-      <div class="field field--name-field-spell-source
-      field--type-entity-reference field--label-inline">&nbsp;</div>
-
-      </div>
+      of itself until the spell ends.</p><p>An abstracted creature&rsquo;s speed
+      is halved, it takes a &minus;2 penalty to AC and Dexterity saving throws,
+      and it can&rsquo;t use reactions. On its turn, it can use either an action
+      or a bonus action, not both. Regardless of the creature&rsquo;s abilities
+      or magic items, it can&rsquo;t make more than one melee or ranged attack
+      during its turn.</p><p>At the end of each of its turns, an abstracted
+      target repeats the saving throw to end the spell&rsquo;s effect on
+      it.</p><p><strong>Cast at Higher Levels.&nbsp;</strong>You can choose one
+      additional target for each slot level above
+      2nd.</p><div><div>&nbsp;</div></div>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -121,10 +111,9 @@ effects:
       and Dexterity saving throws, and it can’t use reactions. On its turn, it
       can use either an action or a bonus action, not both. Regardless of the
       creature’s abilities or magic items, it can’t make more than one melee or
-      ranged attack during its turn.</p>
-
-      <p>At the end of each of its turns, an abstracted target repeats the
-      saving throw to end the spell’s effect on it.</p>
+      ranged attack during its turn.</p><p>At the end of each of its turns, an
+      abstracted target repeats the saving throw to end the spell’s effect on
+      it.</p>
     statuses:
       - slowed
     folder: null

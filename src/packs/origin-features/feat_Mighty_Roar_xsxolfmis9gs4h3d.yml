@@ -11,7 +11,7 @@ system:
     value: race
     subtype: ''
   description:
-    value: >-
+    value: >
       <p>Channeling your strength and pride, you can drive away enemies with a
       mighty roar. You gain the following benefits:</p>
 
@@ -22,13 +22,9 @@ system:
       minute. Creatures that succeed at this save cannot be affected again by it
       for 24 hours. Once you use this trait, you can&rsquo;t use it again until
       you finish a short or long rest.</p>
-
-      <p><em>Foundry Note: configure saving throw DC accordingly.</em></p>
-
-      <p>&nbsp;</p>
     chat: ''
   source:
-    book: 'Manual of Adventurous Resources: Complete'
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''

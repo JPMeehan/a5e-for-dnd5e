@@ -1,0 +1,72 @@
+folder: Czqb9fe3C11A0mge
+name: Homeward Bound
+type: feat
+img: icons/environment/settlement/house-farmland-small.webp
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>Something inside you calls you on, directing you as to the best path to
+      take. You may spend your inspiration to select a location whose existence
+      you are aware of. The Narrator provides you with a substantial hint or
+      bonus that will allow you to reach that destination or overcome obstacles
+      in your way. Often, this will take the form of a Boon or Discovery or an
+      automatic success on a journey activity (regardless of the initial
+      roll).</p>
+
+      <p>Likewise, you may also spend inspiration to automatically succeed
+      against the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.k99eld0oyhiukqbt]{Maze}
+      spell.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: hhxoz0dmsnmfnlkw
+_key: '!items!hhxoz0dmsnmfnlkw'

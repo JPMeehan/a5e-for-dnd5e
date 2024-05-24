@@ -10,18 +10,13 @@ system:
       spell ends. A creature restrained by the hands can use a bonus action to
       make a Strength saving throw to escape, ending the spell early on a
       success. On a failure, the target takes 1d8 necrotic damage. When the
-      spell ends, the hands withdraw into the wall.</p>
-
-      <p><em><strong>Cast at Higher Levels.</strong></em> The spell&rsquo;s
-      initial damage and damage on a failed escape attempt increase by 1d8 per
-      slot level above 1st.</p>
-
-      <hr>
-
-      <p><strong>Rare: Finor&rsquo;s Imprisoning Skeletal Hands.</strong> If you
-      maintain concentration on the spell for the full duration, the target
-      remains trapped by the hands until the magic is dispelled or you dismiss
-      the spell as an action.</p>
+      spell ends, the hands withdraw into the wall.</p><p><em><strong>Cast at
+      Higher Levels.</strong></em> The spell&rsquo;s initial damage and damage
+      on a failed escape attempt increase by 1d8 per slot level above
+      1st.</p><hr><p><strong>Rare: Finor&rsquo;s Imprisoning Skeletal
+      Hands.</strong> If you maintain concentration on the spell for the full
+      duration, the target remains trapped by the hands until the magic is
+      dispelled or you dismiss the spell as an action.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -112,12 +107,10 @@ effects:
     description: >-
       <p>A creature restrained by the hands can use a bonus action to make a
       Strength saving throw to escape, ending the spell early on a success. On a
-      failure, the target takes 1d8 necrotic damage.</p>
-
-      <p><strong>Rare: Finor’s Imprisoning Skeletal Hands.</strong> If you
-      maintain concentration on the spell for the full duration, the target
-      remains trapped by the hands until the magic is dispelled or you dismiss
-      the spell as an action.</p>
+      failure, the target takes 1d8 necrotic damage.</p><p><strong>Rare: Finor’s
+      Imprisoning Skeletal Hands.</strong> If you maintain concentration on the
+      spell for the full duration, the target remains trapped by the hands until
+      the magic is dispelled or you dismiss the spell as an action.</p>
     statuses:
       - restrained
     folder: null

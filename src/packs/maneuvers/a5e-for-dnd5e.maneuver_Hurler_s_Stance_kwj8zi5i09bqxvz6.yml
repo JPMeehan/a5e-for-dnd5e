@@ -1,0 +1,63 @@
+name: Hurler's Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p><strong>Requirement: </strong>Must have a hand free.</p>
+
+      <p>While you remain in this stance and meet the requirement, you can throw
+      items such as alchemist&rsquo;s fire, tanglefoot bags, and acid flasks as
+      a bonus action after you take the Attack action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: ekxR5bvpzKgRqxmM
+flags: {}
+_id: kwj8zi5i09bqxvz6
+_key: '!items!kwj8zi5i09bqxvz6'

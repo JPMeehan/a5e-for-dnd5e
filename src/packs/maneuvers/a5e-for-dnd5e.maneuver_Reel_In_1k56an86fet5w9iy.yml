@@ -1,0 +1,64 @@
+folder: K2wSC07mOMbZloJN
+name: Reel In
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirement:</strong> Rope with grappling hook, not
+      wielding a two-handed weapon or shield.</p>
+
+      <p dir="ltr">You make a ranged weapon attack against a creature of Large
+      size or smaller within 15 feet. On a hit, it must make a Strength save
+      against your maneuver DC or be pulled to the closest space adjacent to you
+      and you can make a weapon attack against it with advantage. A creature
+      that succeeds on its save is pulled off-balance instead. It is treated as
+      flanked and its walking speed is reduced by 5 until the end of its next
+      turn.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 2
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    units: ft
+    type: line
+  range:
+    value: 15
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 1k56an86fet5w9iy
+_key: '!items!1k56an86fet5w9iy'

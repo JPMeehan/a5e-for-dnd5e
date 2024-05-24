@@ -1,0 +1,98 @@
+folder: L3wBa4GzvUOu2dsY
+name: Always Watching
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you gain blindsight and tremorsense to a range of 30
+      feet until the end of your next turn.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 4
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/shield-barrier-deflect-gold.webp
+    origin: Item.loWeaOgngqZcjnIR
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: oeVTxFuOUjDZ1JxK
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Always Watching
+    _id: C2gNB0g5xxFtR4kR
+    changes:
+      - key: system.attributes.senses.blindsight.distance
+        value: '30'
+        mode: 5
+        priority: null
+      - key: system.attributes.senses.tremorsense.distance
+        value: '30'
+        mode: 5
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>As a bonus action, you gain blindsight and tremorsense to a range of 30
+      feet until the end of your next turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!vbilb2xn9d8sj33t.C2gNB0g5xxFtR4kR'
+flags: {}
+_id: vbilb2xn9d8sj33t
+_key: '!items!vbilb2xn9d8sj33t'

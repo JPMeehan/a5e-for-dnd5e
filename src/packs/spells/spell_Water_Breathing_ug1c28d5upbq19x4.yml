@@ -1,7 +1,33 @@
 name: Water Breathing
 type: spell
 img: icons/magic/water/bubbles-air-water-blue.webp
-effects: []
+effects:
+  - icon: icons/magic/water/bubbles-air-water-blue.webp
+    origin: Item.Db16fseBzc7LNGlL
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: mQx5UmJRh6ALfkZ6
+    transfer: false
+    name: Water Breathing
+    _id: sPWe6xVnrjj56v82
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the spell ends, the targets are able to breathe underwater (and
+      still able to respirate normally).</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ug1c28d5upbq19x4.sPWe6xVnrjj56v82'
 flags:
   a5e-for-dnd5e:
     secondarySchools:
@@ -64,7 +90,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

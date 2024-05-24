@@ -9,12 +9,9 @@ system:
   description:
     value: >-
       <p>Long exposure to mycelial spores has improved your ability to
-      resist&nbsp;<span class="freelinking-link">poisons</span>&nbsp;. You
-      have&nbsp;<span
-      class="freelinking-link">advantage</span>&nbsp;on&nbsp;<span
-      class="freelinking-link">saving throws</span>&nbsp;against poison, and you
-      have&nbsp;<span class="freelinking-link">resistance</span> to poison
-      damage.</p>
+      resist&nbsp;poisons</span>&nbsp;. You
+      have&nbsp;advantage</span>&nbsp;on&nbsp;<span>saving throws&nbsp;against
+      poison, and you have&nbsp;<span>resistance to poison damage.</p>
     chat: ''
   source:
     book: Dungeon Delver's Guide
@@ -48,7 +45,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: "<p>Long exposure to mycelial spores has improved your ability to resist\_<span class=\"freelinking-link\">poisons</span>. You have\_<span class=\"freelinking-link\">advantage</span>\_on\_<span class=\"freelinking-link\">saving throws</span>\_against poison, and you have\_<span class=\"freelinking-link\">resistance</span> to poison damage.</p>"
+    description: "<p>Long exposure to mycelial spores has improved your ability to resist\_poisons. You have\_advantage\_on\_<span>saving throws\_against poison, and you have\_<span>resistance to poison damage.</span></span></p>"
     statuses: []
     folder: null
     _key: '!items.effects!t9l1c17vrgbp57x6.J3ojjPrDgJVkEdsM'

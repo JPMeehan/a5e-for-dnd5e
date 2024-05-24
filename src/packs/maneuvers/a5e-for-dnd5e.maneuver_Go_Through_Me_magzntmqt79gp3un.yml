@@ -1,0 +1,64 @@
+folder: mw6GarWTTVisNVKu
+name: Go Through Me
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">When you activate this maneuver, choose an ally within 10
+      feet of you. For 1 minute, that ally cannot be targeted by attacks or
+      harmful spells unless you are incapacitated, although they are not
+      protected from area effects. This effect ends early if you use this
+      maneuver on another creature or move more than 60 feet away from your
+      chosen ally.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 5
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: magzntmqt79gp3un
+_key: '!items!magzntmqt79gp3un'

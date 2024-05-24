@@ -1,0 +1,63 @@
+folder: ekxR5bvpzKgRqxmM
+name: Punishing Ground
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirement:</strong> A bag of caltrops.</p>
+
+      <p dir="ltr">You quickly set yourself up with an impromptu defensive
+      position. Choose two 5-foot squares adjacent to you. Each is covered in
+      caltrops (expending the bag) and you gain the benefits of the Dodge
+      action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 1
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: square
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: bcqbccgmbaszgnpt
+_key: '!items!bcqbccgmbaszgnpt'

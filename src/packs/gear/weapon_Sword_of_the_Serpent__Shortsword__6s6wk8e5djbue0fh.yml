@@ -6,26 +6,24 @@ flags: {}
 system:
   description:
     value: >-
-      <p>You gain a +2 bonus to <span class="freelinking-link">attack and damage
-      rolls</span>&nbsp;made with this magic sword. When you hit with this
-      weapon, you deal an extra 1d6 poison damage. The sword has 3 charges and
-      regains all expended charges at dawn.</p>
-
-      <p>While wielding the sword, you can use an action to expend 1 charge and
-      cast&nbsp;<em><span
-      class="freelinking-link">@UUID[Compendium.a5e-for-dnd5e.spells.Item.95tar7xr3hdp0o92]{Polymorph}</span></em><em>&nbsp;</em>on
-      yourself, transforming into a&nbsp;<span class="freelinking-link">giant
-      poisonous snake</span> . While in this form, you retain your Intelligence,
-      Wisdom, and Charisma scores.</p><hr><p><b>Defensive:</b> This weapon is
-      designed to be used with a shield of the stated degree or lighter (light,
-      medium, or heavy). When you make an attack with this weapon and are using
-      a shield designed for it, you can use a bonus action to either make an
-      attack with your shield or increase your Armor Class by 1 until the start
-      of your next turn.</p><p><b>Parrying:</b> When you are wielding this
-      weapon and you are not using a shield, once before your next turn you can
-      gain an expertise die to your AC against a single melee attack made
-      against you by a creature you can see. You cannot use this property while
-      incapacitated , paralyzed , rattled , restrained , or stunned.</p>
+      <p>You gain a +2 bonus to attack and damage rolls</span>&nbsp;made with
+      this magic sword. When you hit with this weapon, you deal an extra 1d6
+      poison damage. The sword has 3 charges and regains all expended charges at
+      dawn.</p><p>While wielding the sword, you can use an action to expend 1
+      charge and
+      cast&nbsp;<em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.95tar7xr3hdp0o92]{Polymorph}</em><em>&nbsp;</em>on
+      yourself, transforming into a&nbsp;<span>giant poisonous snake . While in
+      this form, you retain your Intelligence, Wisdom, and Charisma
+      scores.</p><hr><p><b>Defensive:</b> This weapon is designed to be used
+      with a shield of the stated degree or lighter (light, medium, or heavy).
+      When you make an attack with this weapon and are using a shield designed
+      for it, you can use a bonus action to either make an attack with your
+      shield or increase your Armor Class by 1 until the start of your next
+      turn.</p><p><b>Parrying:</b> When you are wielding this weapon and you are
+      not using a shield, once before your next turn you can gain an expertise
+      die to your AC against a single melee attack made against you by a
+      creature you can see. You cannot use this property while incapacitated ,
+      paralyzed , rattled , restrained , or stunned.</p>
     chat: ''
     unidentified: ''
   source:

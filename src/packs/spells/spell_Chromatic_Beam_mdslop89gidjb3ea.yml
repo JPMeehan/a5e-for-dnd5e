@@ -5,31 +5,13 @@ img: icons/magic/control/buff-luck-fortune-rainbow.webp
 system:
   description:
     value: >-
-      <div id="spell-body">
-
-      <div class="field field--name-body field--type-text-with-summary
-      field--label-hidden field--item">
-
       <p>You pour prismatic energy into a gemstone refracting the energy until
       it fires off as a chromatic beam in a direction you choose. Choose red
       (fire), orange (acid), yellow (lightning), green (poison), blue (cold), or
       indigo (thunder) for the color of beam you create. Each creature in the
-      area takes 4d8 damage of the chosen type.</p>
-
-      <p><strong>Cast at Higher Levels. </strong><span style="font-size:
-      10.5pt;">The damage increases by 1d8 for each slot level above
-      2nd.</span></p>
-
-      </div>
-
-      </div>
-
-      <div class="spell-source rules-source">
-
-      <div class="field field--name-field-spell-source
-      field--type-entity-reference field--label-inline">&nbsp;</div>
-
-      </div>
+      area takes 4d8 damage of the chosen type.</p><p><strong>Cast at Higher
+      Levels. </strong>The damage increases by 1d8 for each slot level above
+      2nd.</p></div></div><div><div>&nbsp;
     chat: ''
   source:
     book: Gate Pass Gazette

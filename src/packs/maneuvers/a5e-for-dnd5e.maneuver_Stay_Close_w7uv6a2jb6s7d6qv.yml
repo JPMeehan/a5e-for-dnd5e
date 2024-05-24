@@ -1,0 +1,63 @@
+folder: MTjX1YM53zT6AvZI
+name: Stay Close
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>Choose an ally within 5 feet of you when you activate this maneuver.
+      Until the end of your turn, your ally can use their reaction to move up to
+      their speed. They do not need to spend all of their movement at once, but
+      they lose this benefit if they are ever more than 5 feet from you. Their
+      movement may be simultaneous with yours.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 1
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: w7uv6a2jb6s7d6qv
+_key: '!items!w7uv6a2jb6s7d6qv'

@@ -1,0 +1,67 @@
+folder: OpVlQm2oviOU6e9w
+name: 'Secluded Society - Watery Veil:'
+type: feat
+img: icons/magic/water/heart-ice-freeze.webp
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You value your privacy, and do not appreciate those who insert
+      themselves in your affairs.&nbsp;You know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.i4ejucvglhqpfm57]{Fog Cloud}
+      spell, and may cast it once per long rest without a spell slot.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '20'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: vazj8nobmtiyrwib
+_key: '!items!vazj8nobmtiyrwib'

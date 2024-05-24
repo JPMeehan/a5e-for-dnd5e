@@ -232,7 +232,7 @@ function abbr(word) {
  * @param {string} uuid The source UUID
  * @returns {string}    The new UUID
  */
-function fixUUIDrefs(uuid) {
+function fixUUIDrefs(uuid = '') {
   uuid = uuid.replace(
     'Compendium.a5e.a5e-spells',
     'Compendium.a5e-for-dnd5e.spells'

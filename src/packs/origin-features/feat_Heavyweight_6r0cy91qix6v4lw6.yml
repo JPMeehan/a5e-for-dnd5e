@@ -1,0 +1,39 @@
+folder: z476XZt1iG4Mb7VJ
+name: Heavyweight
+type: feat
+img: icons/magic/water/wave-water-blue.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Empowered by both physical bulk and a strong territorial instinct,
+      selkies possessing this gift rarely give way to others. Most common among
+      male selkies who must fight for every ounce of respect among their peers,
+      heavyweights tolerate no rivals. You gain the following trait:</p>
+
+      <p><em><strong>Hold Your Ground.</strong></em> You gain an expertise die
+      on saving throws to resist being knocked prone or subjected to forced
+      movement.</p>
+
+      <p><em><strong>Throw Your Weight Around. </strong></em>When you deal basic
+      melee damage using the
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.md35qozzy2fxy2o6]{Shove},
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.zzg7j7cb0vkgctwi]{Knockdown}, or
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.210ihnnejao46r20]{Overrun}
+      maneuvers, you add your proficiency bonus to the damage. Your maneuver DC
+      for these maneuvers increases by 2.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 6r0cy91qix6v4lw6
+_key: '!items!6r0cy91qix6v4lw6'

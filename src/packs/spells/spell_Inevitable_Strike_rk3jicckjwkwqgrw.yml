@@ -4,38 +4,28 @@ img: icons/magic/fire/dagger-rune-enchant-flame-blue.webp
 system:
   description:
     value: >-
-      <p><em><strong>Association:</strong> Rogue class</em></p>
-
-      <p>You pour raw magical energy into your attack, which hammers the target
-      and spills over into the surrounding area.</p>
-
-      <p>When you deal
+      <p><em><strong>Association:</strong> Rogue class</em></p><p>You pour raw
+      magical energy into your attack, which hammers the target and spills over
+      into the surrounding area.</p><p>When you deal
       @UUID[Compendium.a5e.a5e-class-features.Item.4727pnvz5nwn3h23]{Sneak
       Attack} damage with a melee attack, you may cast this spell as part of the
       Sneak Attack, transforming the bonus damage from your Sneak Attack into
       force damage. In addition, depending on the spell slot level used to cast
-      this spell, one of the following additional effects occur:</p>
-
-      <p><strong>1st-level: </strong>The target must make a strength save
-      against your spell save DC or fall prone.</p>
-
-      <p><strong>2nd-level:</strong> The target must make a strength save
-      against your spell save DC or fall prone, and a target within 10 feet
+      this spell, one of the following additional effects
+      occur:</p><p><strong>1st-level: </strong>The target must make a strength
+      save against your spell save DC or fall
+      prone.</p><p><strong>2nd-level:</strong> The target must make a strength
+      save against your spell save DC or fall prone, and a target within 10 feet
       (which may be the same target as the initial strike) takes 1d4+1 force
-      damage.</p>
-
-      <p><strong>3rd-level: </strong>the target must make a strength save
-      against your spell save DC or fall prone, and two targets within 10 feet
-      (either or both of which may be the same target as the initial strike)
-      take 1d4+1 force damage.</p>
-
-      <p><strong>4th-level or higher: </strong>The target must make a strength
-      save against your spell save DC or fall prone, and three targets within 10
-      feet (any of which may be the same target as the initial strike) take
-      1d4+1 force damage.</p>
-
-      <p>For the purposes of determining spells cast in a round, this spell
-      counts as having a casting time of one action.</p>
+      damage.</p><p><strong>3rd-level: </strong>the target must make a strength
+      save against your spell save DC or fall prone, and two targets within 10
+      feet (either or both of which may be the same target as the initial
+      strike) take 1d4+1 force damage.</p><p><strong>4th-level or higher:
+      </strong>The target must make a strength save against your spell save DC
+      or fall prone, and three targets within 10 feet (any of which may be the
+      same target as the initial strike) take 1d4+1 force damage.</p><p>For the
+      purposes of determining spells cast in a round, this spell counts as
+      having a casting time of one action.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'

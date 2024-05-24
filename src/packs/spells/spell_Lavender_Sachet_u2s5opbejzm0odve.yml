@@ -5,11 +5,10 @@ img: icons/commodities/flowers/bouquet-pink.webp
 system:
   description:
     value: >-
-      <p><span id="docs-internal-guid-dfd23f16-7fff-9700-d65c-cd9b4ca3f012">You
-      carefully bundle together fragrant lavender blossoms to help calm the mind
-      and bolster one&rsquo;s courage. Any creature who has this lavender sachet
-      on their person has advantage on saving throws against fear for the next
-      hour.</span></p>
+      <p>You carefully bundle together fragrant lavender blossoms to help calm
+      the mind and bolster one&rsquo;s courage. Any creature who has this
+      lavender sachet on their person has advantage on saving throws against
+      fear for the next hour.</p>
     chat: ''
   source:
     book: ''
@@ -72,7 +71,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/commodities/flowers/bouquet-pink.webp
-    origin: Item.u2s5opbejzm0odve
+    origin: Item.HREooWFD2vhzVub9
     flags:
       a5e:
         sort: 0
@@ -93,10 +92,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p><span id="docs-internal-guid-69166dd5-7fff-c45e-d701-4e8069a8682e">Any
-      creature who has this lavender sachet on their person has advantage on
-      saving throws against fear for the next hour.</span></p>
+    description: ''
     statuses: []
     folder: null
     _key: '!items.effects!u2s5opbejzm0odve.08LmKpwhgCIjPx97'

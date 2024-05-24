@@ -1,0 +1,74 @@
+folder: glajjwjx26fGvs7H
+name: Brutal Disorientation
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong> A hand free, a flash bomb,
+      ability to attack for bludgeoning damage</p>
+
+      <p dir="ltr">You slam the flash bomb directly into the creature&rsquo;s
+      head as you strike from the other side with a bludgeoning attack. Make a
+      melee weapon attack that deals bludgeoning damage. On a hit, you expend
+      the flash bomb, taking 1d4 points of fire damage, and the target takes an
+      additional 1d6 points of fire damage and must make a Constitution saving
+      throw against your maneuver DC. A creature that fails is blinded, rattled,
+      confused, and poisoned until the end of its next turn. A creature that
+      succeeds is poisoned, rattled, and has disadvantage on Perception checks
+      until the end of its next turn instead.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 3
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - fire
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 21ptnl4kyzc3mydg
+_key: '!items!21ptnl4kyzc3mydg'

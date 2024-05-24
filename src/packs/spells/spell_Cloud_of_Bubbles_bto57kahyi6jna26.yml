@@ -4,13 +4,12 @@ img: icons/magic/water/orb-water-bubbles-blue.webp
 system:
   description:
     value: >-
-      <p dir="ltr">You conjure a cloud of soap bubbles to obscure yourself.</p>
-
-      <p dir="ltr">The cloud of bubbles fills a 10-foot square and remains
-      there, drifting peacefully, for one minute unless dispersed by a strong
-      wind. While the bubbles are present, objects within the square or objects
-      with the square between them and the viewer are lightly obscured. A
-      creature with eyes that enters a square of bubbles or begins its turn in
+      <p dir="ltr">You conjure a cloud of soap bubbles to obscure
+      yourself.</p><p dir="ltr">The cloud of bubbles fills a 10-foot square and
+      remains there, drifting peacefully, for one minute unless dispersed by a
+      strong wind. While the bubbles are present, objects within the square or
+      objects with the square between them and the viewer are lightly obscured.
+      A creature with eyes that enters a square of bubbles or begins its turn in
       one square must make a Constitution saving throw against your spell save
       DC or&nbsp; suffer disadvantage on Perception checks and ranged attacks
       until the beginning of its next turn. Beginning at 5th level, the bubbles
@@ -18,8 +17,6 @@ system:
       damage. This increases to 2d4 at level 11 and 3d4 at level 17. Moving to a
       separate square of bubbles from the same caster does not impose a new
       save.</p>
-
-      <p>&nbsp;</p>
     chat: ''
   source:
     book: Spells from the Forgotten Vault

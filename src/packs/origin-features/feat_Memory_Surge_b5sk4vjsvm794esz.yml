@@ -1,0 +1,25 @@
+name: Memory Surge
+type: feat
+system:
+  type:
+    value: background
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you gain inspiration, you gain an expertise die which you can
+      use on one d20 roll before your next long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+img: icons/magic/control/silhouette-aura-energy.webp
+effects: []
+flags: {}
+folder: n7MBM7lcayeaiQdF
+_id: b5sk4vjsvm794esz
+_key: '!items!b5sk4vjsvm794esz'

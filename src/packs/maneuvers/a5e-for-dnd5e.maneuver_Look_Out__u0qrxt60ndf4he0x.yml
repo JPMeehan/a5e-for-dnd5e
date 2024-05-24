@@ -1,0 +1,65 @@
+folder: 31nwNIRyDF90cr8Z
+name: Look Out!
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>As a reaction to one of your allies within 30 feet of you being
+      targeted by an attack or forced to make a saving throw against a harmful
+      effect you can see, you may grant your ally the ability to immediately use
+      their reaction to take the Dodge action.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 2
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      One of your allies within 30 feet of you is targeted by an attack or
+      forced to make a saving throw against a harmful effect you can see
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: u0qrxt60ndf4he0x
+_key: '!items!u0qrxt60ndf4he0x'

@@ -1,0 +1,57 @@
+folder: z476XZt1iG4Mb7VJ
+name: Beautiful Yet Deadly
+type: feat
+img: icons/creatures/eyes/lizard-single-slit-green.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your body is adorned with beautiful colors, an indication of the toxin
+      you emit. You gain the following benefits:</p>
+
+      <p><strong>Poison Resistance.</strong> You have resistance to poison
+      damage and advantage on saving throws against the poisoned condition.</p>
+
+      <p><strong>Curare Sweat.</strong> Your body is covered in a toxic film
+      called curare sweat, which is a contact poison functioning much like
+      ordinary curare poison. You can use it in one of several ways, and once
+      you do you cannot use your curare sweat again until you complete a short
+      or long rest. You can use your curare sweat to do one of the
+      following:</p>
+
+      <ul>
+
+      <li>As a bonus action, you can coat one weapon or piece of ammunition with
+      your curare sweat. The first creature struck by the coated weapon is
+      subject to your curare sweat.</li>
+
+      <li>When a creature touches you against your will, and the member touching
+      you is not protected by clothing or armor, you can use your reaction to
+      subject the creature to your curare sweat.</li>
+
+      <li>At the start of your turn, if you are grappling or are grappled by a
+      creature and you are physically touching them, you can subject them to
+      your curare sweat.</li>
+
+      </ul>
+
+      <p>A creature subject to your curare sweat makes a Constitution saving
+      throw against your curare sweat save DC or else it becomes stunned until
+      the end of its next turn. The save DC for your curare sweat is 8 + your
+      proficiency bonus + your Constitution modifier, or 13, whichever is
+      higher.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 8hfrgyjs7wtma29i
+_key: '!items!8hfrgyjs7wtma29i'

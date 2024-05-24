@@ -1,0 +1,69 @@
+folder: glajjwjx26fGvs7H
+name: Pry Open
+type: a5e-for-dnd5e.maneuver
+img: icons/commodities/tech/cog-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong> A hand free, a crowbar</p>
+
+      <p dir="ltr">Make a melee weapon attack against a creature within 5 feet
+      of you that is wearing armor. On a hit, you wedge the crowbar into the
+      joints of the armor and pry, snapping straps, distorting plates, and
+      otherwise leaving your target exposed. Your target takes 1d4 points of
+      bludgeoning damage and suffers a -2 penalty to their AC until they spend a
+      minute fixing their armor. A creature can only suffer from one instance of
+      the AC reduction of this ability at a time.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  degree: 3
+  tradition: grc
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: aoema0gu7jtk8ejk
+_key: '!items!aoema0gu7jtk8ejk'

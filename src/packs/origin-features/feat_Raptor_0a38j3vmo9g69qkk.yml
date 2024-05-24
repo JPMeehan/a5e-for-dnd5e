@@ -1,0 +1,35 @@
+folder: z476XZt1iG4Mb7VJ
+name: Raptor
+type: feat
+img: icons/creatures/claws/claw-talons-glowing-orange.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Swooping is bad; for your victims. You gain the following benefits:</p>
+
+      <p><strong>Divebomb.</strong> You can use this trait while flying to use
+      the Charge combat maneuver, without expending exertion. After you make
+      your attack, you can continue flying whatever distance remains from the
+      maneuver distance and your flight speed. This movement does not provoke
+      opportunity attacks from the creature you divebomb. Once you use this
+      trait, you cannot use it again until you complete a short or long
+      rest.</p>
+
+      <p><strong>Eye in the Sky.</strong> You are proficient with Perception,
+      and you gain the farsight specialty.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Fly Speed
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 0a38j3vmo9g69qkk
+_key: '!items!0a38j3vmo9g69qkk'

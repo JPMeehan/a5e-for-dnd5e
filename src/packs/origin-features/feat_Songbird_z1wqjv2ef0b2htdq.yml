@@ -1,0 +1,37 @@
+folder: z476XZt1iG4Mb7VJ
+name: Songbird
+type: feat
+img: icons/creatures/birds/dove-pigeon-flying-white.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>If you listen closely enough, you&rsquo;ll get eaten. You gain the
+      following benefits:</p>
+
+      <p><strong>Birdsong.</strong> You gain proficiency with Performance.</p>
+
+      <p><strong>Captivating Song.</strong> You can use an action to emit a
+      captivating song. Enemy creatures who can hear you within 30 feet must
+      make a Wisdom saving throw (DC 8 + your proficiency bonus + either your
+      Intelligence, Wisdom, or Charisma modifier) or become charmed by you for 1
+      minute, or until you or an ally deal damage to it. Creatures charmed in
+      this way spend their movement to draw closer to you. Creatures that
+      succeed at this save cannot be affected again by it for 24 hours. Once you
+      use this trait, you can&rsquo;t use it again until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: z1wqjv2ef0b2htdq
+_key: '!items!z1wqjv2ef0b2htdq'

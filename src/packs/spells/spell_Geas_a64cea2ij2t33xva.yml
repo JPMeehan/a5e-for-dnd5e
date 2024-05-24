@@ -26,7 +26,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: "<p>You give a command to a target which can understand you. It becomes charmed by you.</p>\n<p>While charmed in this way, it takes 5d10 psychic damage the first time each day that it disobeys your command. Your command can be any course of action or inaction that wouldn't result in the target's death. The spell ends if the command is suicidal or you use an action to dismiss the spell. Alternatively, a\_<em>remove curse</em>,\_<em>greater restoration</em>, or\_<em>wish</em> spell cast on the target using a spell slot at least as high as the slot used to cast this spell also ends it.</p>"
+    description: "<p>You give a command to a target which can understand you. It becomes charmed by you.</p><p>While charmed in this way, it takes 5d10 psychic damage the first time each day that it disobeys your command. Your command can be any course of action or inaction that wouldn't result in the target's death. The spell ends if the command is suicidal or you use an action to dismiss the spell. Alternatively, a\_<em>remove curse</em>,\_<em>greater restoration</em>, or\_<em>wish</em> spell cast on the target using a spell slot at least as high as the slot used to cast this spell also ends it.</p>"
     statuses:
       - charmed
     folder: null

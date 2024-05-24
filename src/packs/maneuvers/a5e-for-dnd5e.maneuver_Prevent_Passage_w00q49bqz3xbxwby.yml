@@ -1,0 +1,71 @@
+folder: L3wBa4GzvUOu2dsY
+name: Prevent Passage
+type: a5e-for-dnd5e.maneuver
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">Until the end of your next turn, you have advantage on saving
+      throws to resist falling prone or being moved against your will, and other
+      creatures have disadvantage on saving throws made to move through your
+      space.&nbsp;</p>
+
+      <p dir="ltr">In addition, until the start of your next turn, your reach
+      extends by 10 feet for the purposes of enemy creatures triggering
+      opportunity attacks, and creatures provoke attacks of opportunity when
+      they enter your threatened area. If you make an opportunity attack against
+      a creature beyond your weapon&rsquo;s normal reach, you may move up to 10
+      feet as part of your reaction to bring the creature within your
+      weapon&rsquo;s range. On a hit, the creature&rsquo;s movement speed is
+      reduced to 0.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  degree: 4
+  tradition: ssn
+  prerequisite: ''
+  properties: []
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: w00q49bqz3xbxwby
+_key: '!items!w00q49bqz3xbxwby'
