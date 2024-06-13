@@ -102,6 +102,13 @@
  */
 
 /**
+ * @typedef GrantSchema
+ * @property {string} uuid
+ * @property {string} limitedReselection
+ * @property {number} selectionLimit
+ */
+
+/**
  * @typedef BaseGrant
  * @property {string} grantType
  * @property {string} label
@@ -159,8 +166,8 @@
  * @typedef FeatureGrant
  * @property {"feature"} grantType
  * @property {object} features
- * @property {string[]} features.base
- * @property {string[]} features.options
+ * @property {GrantSchema[]} features.base
+ * @property {GrantSchema[]} features.options
  * @property {number} features.total
  */
 

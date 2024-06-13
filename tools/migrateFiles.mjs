@@ -1305,6 +1305,12 @@ function migrateHeritage(system, name) {
     source: mapSource(system.source),
     advancement: [],
     movement: {},
+    type: {
+      value: '',
+      subtype: '',
+      swarm: '',
+      custom: '',
+    },
   };
   processGrants(o5e, system.grants, 'heritage');
   return o5e;
@@ -1402,7 +1408,7 @@ function migrateClass(system) {
  * @param {string} uuid
  * @returns {string}
  */
-function remapPack(uuid) {
+function remapPack(uuid = '') {
   const compendiumMap = {
     'a5e.a5e-heritage-features': 'a5e-for-dnd5e.origin-features',
     'a5e.a5e-background-features': 'a5e-for-dnd5e.origin-features',
@@ -1459,7 +1465,7 @@ function processGrants(o5e, grants, type) {
             level: grant.level ?? 0,
             configuration: {
               items: grant.features.base?.map((f) => ({
-                uuid: remapPack(f),
+                uuid: remapPack(f.uuid),
               })),
             },
           };
@@ -1473,7 +1479,7 @@ function processGrants(o5e, grants, type) {
             level: grant.level ?? 0,
             configuration: {
               pool: grant.features.options.map((f) => ({
-                uuid: remapPack(f),
+                uuid: remapPack(f.uuid),
               })),
               choices: { 0: grant.features.total },
             },
