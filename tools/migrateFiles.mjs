@@ -233,9 +233,13 @@ function abbr(word) {
  * @returns {string}    The new UUID
  */
 function fixUUIDrefs(uuid = '') {
-  uuid = uuid.replace(
+  uuid = uuid.replaceAll(
     'Compendium.a5e.a5e-spells',
     'Compendium.a5e-for-dnd5e.spells'
+  );
+  uuid = uuid.replaceAll(
+    'Compendium.a5e.a5e-class-features',
+    'Compendium.a5e-for-dnd5e.class-features'
   );
   return uuid;
 }
