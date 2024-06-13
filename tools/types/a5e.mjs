@@ -363,6 +363,42 @@
  * @property {string} source
  */
 
+/***
+ *
+ * CLASSES
+ *
+ */
+
+/**
+ * @typedef ClassResource
+ * @property {string} name
+ * @property {object} reference
+ * @property {string} type
+ */
+
+/**
+ * @typedef ClassA5E
+ * @property {string} slug
+ * @property {string} description
+ * @property {number} classLevels
+ * @property {object} hp
+ * @property {number} hp.hitDiceSize
+ * @property {number} hp.hitDiceUsed
+ * @property {object} hp.levels
+ * @property {Record<string, Grant>} grants
+ * @property {Array<ClassResource>} resources
+ * @property {string} source
+ * @property {object} spellcasting
+ * @property {object} spellcasting.ability
+ * @property {string} spellcasting.ability.base
+ * @property {string[]} spellcasting.ability.options
+ * @property {string} spellcasting.ability.value
+ * @property {string} spellcasting.ability.casterType
+ * @property {object} spellcasting.ability.knownCantrips
+ * @property {object} spellcasting.ability.knownSpells
+ * @property {string} wealth
+ */
+
 /**
  *
  * OBJECT
