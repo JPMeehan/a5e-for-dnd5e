@@ -1,0 +1,38 @@
+folder: 7IoZEosPrje7wsrr
+name: Selkie Harem
+type: a5e-for-dnd5e.culture
+img: icons/magic/water/heart-ice-freeze.webp
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  advancement:
+    - _id: I7CZuorMejSx8Kjk
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.m9sl3hu6dfgwzefv
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.a9hpsqfcsyttiho6
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.4jfqaung142iysgb
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.232hm2uvn89ume9a
+    - _id: JgY7S3qGZK3JdZxg
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 0
+effects: []
+flags: {}
+_id: ebayl4017rm8qm27
+_key: '!items!ebayl4017rm8qm27'

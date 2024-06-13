@@ -1439,7 +1439,7 @@ function processGrants(o5e, grants, type) {
           level: grant.level ?? 0,
           configuration: {
             points: 1,
-            fixed: grant.abilities.base.reduce((acc, curr) => {
+            fixed: (grant.abilities.base ?? []).reduce((acc, curr) => {
               acc[curr] = Number(grant.bonus);
               return acc;
             }, {}),
@@ -1529,7 +1529,7 @@ function processGrants(o5e, grants, type) {
           level: grant.level ?? 0,
           configuration: {
             allowReplacements: false,
-            grants: grant.keys.base.map((s) => 'skills:' + s),
+            grants: (grant.keys.base ?? []).map((s) => 'skills:' + s),
             choices: {
               pool: (grant.keys.options ?? []).map((s) => 'skills:' + s),
               count: grant.keys.total,

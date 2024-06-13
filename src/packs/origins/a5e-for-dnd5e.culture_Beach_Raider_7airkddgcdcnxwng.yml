@@ -1,0 +1,86 @@
+folder: 7IoZEosPrje7wsrr
+name: Beach Raider
+type: a5e-for-dnd5e.culture
+img: icons/environment/wilderness/cave-entrance-island.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">Coastal communities live in fear of beach raiders, for though
+      their ships may appear quietly over the calm horizon, they bring ruin and
+      destruction to the shores where they make landfall. Many a town has
+      breakfasted peacefully only to have their buildings torched and treasures
+      plundered by noon by these ocean-going marauders. Although tall-tales
+      abound that such pirates are the agents of fiends or the punishment of the
+      gods, for raiders themselves, the terror they bring is a matter of simple
+      economics; in their view, property belongs to those who can keep it, and
+      those who cannot may simply be considered temporary stewards of the
+      property of others.</p>
+
+      <p dir="ltr">Yet beach raiders are more than simple plunderers. For some,
+      raiding is a means of gaining the necessary wealth and prestige to
+      establish themselves in their homelands, where their loved ones depend on
+      what they can send back home. Others seek a new home across the waves, and
+      not only have several respectable kingdoms and empires begun as the
+      conquests of one or more of these fleets, but several new islands and even
+      continents have first been spotted by these expert navigators.</p>
+
+      <p dir="ltr">Characters raised in the beach raider culture share a variety
+      of traits in common with one another.</p>
+
+      <p dir="ltr"><strong>High Seas Sailor.</strong> You have proficiency with
+      water vehicles and navigator&rsquo;s tools, and you gain an expertise die
+      on Survival checks regarding navigable bodies of water.</p>
+
+      <p dir="ltr"><strong>Notorious Terror.</strong> You are proficient in
+      Intimidation, and you gain an expertise die on Intimidation checks while
+      you are within the area described by your Prestige rating.</p>
+
+      <p dir="ltr"><strong>Pillage and Plunder.</strong> You double your
+      Strength score when determining your carrying capacity and the weight you
+      can lift, push, or drag. In addition, you know the approximate market
+      value of any item you can see.</p>
+
+      <p dir="ltr"><strong>Storm the Beach.</strong> You have a swim speed equal
+      to your speed. If you already have a swim speed, it instead increases by
+      10 feet.</p>
+
+      <p dir="ltr"><strong>Languages.</strong> You can speak, read, write, and
+      sign Common and one other language of your choice.</p>
+
+      <h3 dir="ltr">Suggested Archetypes</h3>
+
+      <p dir="ltr">Wayfinder rangers are considered invaluable beach raiders for
+      their navigational prowess, while many a captain has turned Crowned
+      wielder after bonding with some plundered regalia from a foreign
+      throne.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  advancement:
+    - _id: 7HTJ5jPs1UUhJaXW
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.sfat99z2bsbx2jh6
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.vy4qkxby9cwgrc9p
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.ntw8l7ptxobekghl
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.uiszy074ngpqrwm3
+    - _id: wmneAJhvDojLVEaS
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: -1
+effects: []
+flags: {}
+_id: 7airkddgcdcnxwng
+_key: '!items!7airkddgcdcnxwng'

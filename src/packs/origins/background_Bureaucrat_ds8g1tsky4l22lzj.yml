@@ -1,0 +1,122 @@
+folder: efsBCxTIVPrTYqUO
+name: Bureaucrat
+type: background
+img: icons/environment/settlement/house-manor.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">Mayors, magistrates, politicians, functionaries, and other
+      civil servants. When rule of law becomes more than just a monarch&rsquo;s
+      word (such as in the case of constitutional monarchies, democracies, and
+      certain theocracies), the government swells in size as legal documentation
+      demands a workforce of office workers&mdash;as well as elected and
+      appointed officials. Given the diverse and isolated nature of politics in
+      the world of fantasy, the bureaucrat might have limited influence outside
+      their faction&mdash;or they might be highly coveted for their experience
+      and transferable skills.</p>
+
+      <p dir="ltr">Do you consider yourself a servant of the people, or are you
+      the ambitious type with your eyes on the prize of power? Are you the type
+      to seek out institutional change, or do you take pride in &ldquo;minding
+      your business&rdquo; and &ldquo;doing your job?&rdquo; How does one with
+      your status find themselves in the adventuring life? Are you tossed into
+      circumstances beyond your control, or have you lost the good graces of the
+      government?&nbsp;</p>
+
+      <h3 dir="ltr">Bureaucrat Traits</h3>
+
+      <p dir="ltr"><strong>Ability Score Increases:</strong> +1 to Intelligence
+      and one other ability score.</p>
+
+      <p dir="ltr"><strong>Skill Proficiencies:</strong> Culture, and either
+      History, Insight, or Persuasion.</p>
+
+      <p dir="ltr"><strong>Tool Proficiencies:</strong> Calligrapher's
+      supplies</p>
+
+      <p dir="ltr"><strong>Language Proficiencies:</strong> Any two of your
+      choice</p>
+
+      <p dir="ltr"><strong>Suggested Equipment (Cost 30 gold):
+      </strong>Calligrapher&rsquo;s supplies, fine clothes, signet
+      ring&nbsp;</p>
+
+      <p dir="ltr"><strong>Feature: Civil Service.</strong>&nbsp;While in a
+      settlement in which you can establish a connection with the government,
+      you can ply your trade as a civil servant (such as campaigning, performing
+      inspections, meetings with important people, or doing office work) to earn
+      yourself an income granting you a rich lifestyle. While plying your trade
+      in this way, you can Gather Information simultaneously at no
+      penalty.&nbsp;</p>
+
+      <p dir="ltr">Alternatively, when you Gather Information while not plying
+      your trade in this way, you gain advantage on Persuasion, Deception, and
+      Intimidation checks to draw closer to a political faction or movement.</p>
+
+      <p dir="ltr"><strong>Adventures and Advancement.&nbsp;</strong>After
+      enough adventures, you become elected or appointed to a position of
+      increased power. (This may be gratitude expressed by your faction, a
+      restoration to your faction&rsquo;s good graces, or the reward for joining
+      a new faction.) Within your Prestige Center, your Prestige Rating counts
+      as 1 higher, granting you better audiences and influence. You also gain
+      the service of 4 functionaries (inexperienced scribes), who are on your
+      faction&rsquo;s payroll but work for you.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  advancement:
+    - _id: vViFPN68GUFb10ch
+      type: AbilityScoreImprovement
+      level: 1
+      configuration:
+        points: 1
+        fixed:
+          int: 1
+        cap: 1
+    - _id: QbQgtjGaDsAtraaD
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:cul
+        choices:
+          pool:
+            - skills:his
+            - skills:ins
+            - skills:per
+          count: 1
+    - _id: lc0lZPNxUmTi9Mpx
+      type: ItemGrant
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.wqcfyudtp6d0cpu7
+    - _id: aQVusa0eytaCmSNx
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:calligraphersSupplies
+        choices:
+          pool: []
+          count: 0
+    - _id: iphZz8PsHkLctENs
+      type: Trait
+      level: 1
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 2
+  startingEquipment: []
+effects: []
+flags: {}
+_id: ds8g1tsky4l22lzj
+_key: '!items!ds8g1tsky4l22lzj'

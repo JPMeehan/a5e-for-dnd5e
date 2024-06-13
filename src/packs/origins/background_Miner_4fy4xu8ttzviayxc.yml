@@ -1,0 +1,162 @@
+folder: efsBCxTIVPrTYqUO
+name: Miner
+type: background
+img: icons/tools/hand/pickaxe-steel-white.webp
+system:
+  description:
+    value: >-
+      <p class="MsoNormal" style="line-height: normal;"><span lang="EN">Miners
+      bore into the bones of the earth, extracting wealth from below for the
+      world above. In subterranean civilizations&mdash;like those of certain
+      dwarves, gnomes, and elves&mdash;miners also have the key role of breaking
+      ground on new places to live. The work is backbreaking to all but the most
+      hardy laborers, and the dusty conditions can undo even the most rugged
+      miner. Despite the danger, the work is basically honest and the rewards
+      are profound. Gemstones, precious metals, fossil fuels, and unknown magics
+      are said to reside in the dark depths. A deeper darkness also lives there,
+      untouched by sun or air since before the world began... </span></p>
+
+      <p class="MsoNormal" style="line-height: normal;"><span lang="EN">How come
+      you to the mining business? Are you a mining guild member or a prospector?
+      Perhaps a conscript or a prisoner? Is your mine owned by your family, a
+      nearby town, a mining company&mdash;or is the ownership unclear? When you
+      dig, is it a path to freedom&mdash;or to an early grave? Most importantly,
+      how did you escape the trenches of the mine to become an
+      adventurer?</span></p>
+
+      <h3 dir="ltr">Miner Traits</h3>
+
+      <p class="MsoNormal" style="line-height: normal;"><strong
+      style="mso-bidi-font-weight: normal;"><span lang="EN">Ability Score
+      Increases:</span></strong><span lang="EN" style="font-size: 10.5pt;"> +1
+      to Strength and one other ability score.</span></p>
+
+      <p class="MsoNormal" style="line-height: normal;"><strong
+      style="mso-bidi-font-weight: normal;"><span lang="EN">Skill
+      Proficiencies:&nbsp;</span></strong><span lang="EN" style="font-size:
+      10.5pt;">Engineering, and either Nature or Perception.</span></p>
+
+      <p class="MsoNormal" style="line-height: normal;"><strong
+      style="mso-bidi-font-weight: normal;"><span lang="EN">Tool
+      Proficiencies:</span></strong><span lang="EN" style="font-size: 10.5pt;">
+      Either smiths&rsquo; tools or any one artisan&rsquo;s tool.</span></p>
+
+      <p class="MsoNormal" style="line-height: normal;"><strong
+      style="mso-bidi-font-weight: normal;"><span lang="EN">Language
+      Proficiencies:</span></strong><span lang="EN" style="font-size: 10.5pt;">
+      Undercommon</span></p>
+
+      <p class="MsoNormal" style="line-height: normal;"><strong
+      style="mso-bidi-font-weight: normal;"><span lang="EN">Weapon
+      Proficiencies:&nbsp;</span></strong><span lang="EN" style="font-size:
+      10.5pt;">Maul,<strong> </strong>warhammer, war pick.</span></p>
+
+      <p class="MsoNormal" style="line-height: normal;"><strong
+      style="mso-bidi-font-weight: normal;"><span lang="EN">Suggested Equipment
+      (Cost 24 gold):&nbsp;</span></strong><span lang="EN" style="font-size:
+      10.5pt;">Adderwart roots, traveler&rsquo;s clothes, ironwood acorn, sledge
+      hammer, war pick</span></p>
+
+      <p><strong><span lang="EN">Feature: Power Through. </span></strong><span
+      lang="EN">When you fail a saving throw to resist fatigue you can use this
+      trait to immediately reroll that save with advantage, possibly turning
+      that failure into a success. Once you do so, you can&rsquo;t do so again
+      until you complete a long rest.</span></p>
+
+      <p class="MsoNormal" style="line-height: normal;"><span
+      style="text-indent: 36pt; font-size: 10.5pt;">Also, whenever you complete
+      a long rest and recover from a level of fatigue, you can instead recover
+      from two levels of fatigue.</span></p>
+
+      <p><strong><span lang="EN">Adventures and Advancement.
+      </span></strong><span lang="EN">After enough adventures, your hard work is
+      finally recognized and you attain a mine you can call your own. You obtain
+      a Grade 1 mining camp which you can upgrade further at your own
+      expense.<br></span></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  advancement:
+    - _id: M3LdRetotR7idP0a
+      type: AbilityScoreImprovement
+      level: 1
+      configuration:
+        points: 1
+        fixed:
+          str: 1
+        cap: 1
+    - _id: abOAOx9YnrtOSVMt
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:eng
+        choices:
+          pool:
+            - skills:nat
+            - skills:prc
+          count: 1
+    - _id: dORcNib7lPT5ZA70
+      type: ItemGrant
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.qh39dknb5t7xi4tq
+    - _id: kZODvQ4hS1AEryhe
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:alchemistsSupplies
+            - skills:bookbindersKit
+            - skills:brewersSupplies
+            - skills:calligraphersSupplies
+            - skills:carpentersTools
+            - skills:cartographersTools
+            - skills:cobblersTools
+            - skills:cooksUtensils
+            - skills:glassblowersTools
+            - skills:jewelersTools
+            - skills:leatherworkersTools
+            - skills:masonsTools
+            - skills:paintersSupplies
+            - skills:pottersTools
+            - skills:tinkersTools
+            - skills:weaversTools
+            - skills:woodcarversTools
+            - skills:smithsTools
+          count: 1
+    - _id: mUsXJx3WYGL3oMv0
+      type: Trait
+      level: 1
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:exotic:undercommon
+        choices:
+          pool: []
+          count: 0
+    - _id: K6U1TW3oEEfuNkIL
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:maul
+          - skills:warhammer
+          - skills:warPick
+        choices:
+          pool: []
+          count: 0
+  startingEquipment: []
+effects: []
+flags: {}
+_id: 4fy4xu8ttzviayxc
+_key: '!items!4fy4xu8ttzviayxc'

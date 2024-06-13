@@ -1,0 +1,117 @@
+folder: efsBCxTIVPrTYqUO
+name: Barkeep
+type: background
+img: icons/consumables/drinks/alcohol-beer-mug-yellow.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 53">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p dir="ltr">Innkeeps, chefs, baristas, and bartenders. The inns and
+      taverns where barkeeps work are essential to the economy of the fantasy
+      world&mdash;how else will towns attract the adventurers they so
+      desperately need? Of course, your role is also essential for the everyday
+      people, giving them venu to congregate and celebrate, an outlet for their
+      energy. As such, barkeeps are frequently a pillar in their community,
+      becoming a local celebrity for whatever personality they have. Who could
+      forget the charismatic dwarf bartender with their shirt sleeves rolled up,
+      or the hot-headed but motherly halfling who helps everyone feel safe?</p>
+
+      <p dir="ltr">Inns and taverns are some of the best means of income in the
+      world of fantasy&mdash;so why become an adventurer? Does your old
+      establishment still exist, or was it tragically destroyed? Do you still
+      have good relations there, or were you dramatically outcast? How do the
+      skills of your old life apply to you as an adventurer now?</p>
+
+      <h3 dir="ltr">Barkeep Traits</h3>
+
+      <p dir="ltr"><strong>Ability Score Increases:</strong> +1 to your choice
+      of Charisma or Wisdom, plus one other ability score.</p>
+
+      <p dir="ltr"><strong>Skill Proficiencies:</strong> Insight, and either
+      Culture, Perception, or Persuasion.</p>
+
+      <p dir="ltr"><strong>Tool Proficiencies: </strong>Brewer&rsquo;s supplies
+      and cook&rsquo;s utensils.</p>
+
+      <p dir="ltr"><strong>Language Proficiencies:</strong> Any one of your
+      choice.</p>
+
+      <p dir="ltr"><strong>Suggested Equipment (Cost 23 gold):</strong>
+      Brewer&rsquo;s supplies, cook&rsquo;s utensils, traveler&rsquo;s
+      clothes.</p>
+
+      <p dir="ltr"><strong>Feature: Service With a Smile.</strong>&nbsp;When you
+      are in a settlement where you haven't made yourself unpopular, you can ply
+      your trade at a local tavern or inn. As compensation you earn room and
+      board (modest lifestyle) for yourself plus a number of creatures equal to
+      your Wisdom or Charisma modifier (whichever is higher, minimum of 1).
+      While plying your trade in this way, you can Gather Information
+      simultaneously with no penalty.</p>
+
+      <p dir="ltr"><strong>Adventures and Advancement.</strong>&nbsp;After
+      enough adventures, you are rewarded with the deed to your own inn or
+      tavern (or enough money to buy back or rebuild the one you lost). This
+      establishment is a Grade 1 Tavern which you can upgrade further at your
+      own expense.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  advancement:
+    - _id: lxPMq8Md8Hz0wAVw
+      type: AbilityScoreImprovement
+      level: 0
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 6PJo0qP0F5wfpQEs
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:ins
+        choices:
+          pool:
+            - skills:cul
+            - skills:prc
+            - skills:per
+          count: 1
+    - _id: nNHP1YVnOfK2syy5
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.0wrzx1w1jazlmn1w
+    - _id: oJsPvNJ5h23uFzAZ
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:brewersSupplies
+          - skills:cooksUtensils
+        choices:
+          pool: []
+  startingEquipment: []
+effects: []
+flags: {}
+_id: ip5u1dzpx0blxomu
+_key: '!items!ip5u1dzpx0blxomu'

@@ -1,0 +1,147 @@
+folder: efsBCxTIVPrTYqUO
+name: Apothecary
+type: background
+img: icons/magic/nature/root-vine-caduceus-healing.webp
+system:
+  description:
+    value: >-
+      <div class="page" title="Page 52">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>Your trade is the healing arts&mdash;but different cultures each have
+      their own medical traditions. You might be a scholar of&nbsp;medicine
+      (&ldquo;doctor&rdquo;), a medical alchemist, a nurse at a religious
+      institution, a combat medic, or even a &ldquo;witch&rdquo; whose services
+      are poorly understood. You might even be one who has turned their back on
+      healing, using your medical knowledge to undermine mortal lives.</p>
+
+      <div class="page" title="Page 52">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>What is your medical tradition, and who was your teacher? Does your
+      role garner you the respect or ire of your community? Are you called to
+      adventure by your&nbsp; compassion, dire circumstance, or the chance for
+      glory?</p>
+
+      <h3 dir="ltr">Apothecary&nbsp;Traits</h3>
+
+      <div class="page" title="Page 52">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p><strong>Ability Score Increases:</strong> +1 to Wisdom and one other
+      ability score.</p>
+
+      <p><strong>Skill Proficiencies:</strong> Medicine, and either Insight,
+      Nature, or Religion.</p>
+
+      <p><strong>Tool Proficiencies:</strong> Herbalism kit, and either
+      alchemist&rsquo;s supplies or poisoner&rsquo;s kit.</p>
+
+      <p><strong>Suggested Equipment (Cost 47 gold):</strong> Traveler&rsquo;s
+      clothes, healer&rsquo;s satchel (10 uses), herbalism kit, laudanum</p>
+
+      <p><strong>Feature: Housecalls.</strong> When you wear the uniform of your
+      office (such as a doctor&rsquo;s jacket, medic insignia, or a
+      witch&rsquo;s hat), people familiar with your medical tradition recognize
+      you as a member on sight,&nbsp;oftentimes making requests for your healing
+      expertise. Strangers who trust your medical tradition and receive your
+      care will support you with a modest lifestyle.</p>
+
+      <p><strong>Adventures and Advancement.</strong> Oftentimes your clients'
+      medical difficulties emerge from even deeper social and economic problems.
+      An apothecary with power to make change is often quested to cure difficult
+      illnesses and ameliorate dangerous life circumstances.</p>
+
+      <p>After enough life-changing interventions, the people will request you
+      to take on students. You gain the service of 4 apprentices (2
+      inexperiences healers and 2 inexperienced apothecaries), who serve you
+      freely but do expect them you to train them.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  advancement:
+    - _id: KT0dUUIswEFIniFX
+      type: AbilityScoreImprovement
+      level: 0
+      configuration:
+        points: 1
+        fixed:
+          wis: 1
+        cap: 1
+    - _id: 48MZR8ohMOPfcIO2
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:med
+        choices:
+          pool:
+            - skills:ins
+            - skills:nat
+            - skills:rel
+          count: 1
+    - _id: 6x23tEbPAdVgfCLm
+      type: ItemGrant
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.0zk07qiz0vqt7j4v
+    - _id: T0V1gdagAkML04bP
+      type: Trait
+      level: 0
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:herbalismKit
+        choices:
+          pool:
+            - skills:alchemistsSupplies
+            - skills:poisonersKit
+          count: 1
+  startingEquipment: []
+effects: []
+flags: {}
+_id: 0gm8pnvlcltxzhhv
+_key: '!items!0gm8pnvlcltxzhhv'
