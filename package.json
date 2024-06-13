@@ -13,6 +13,7 @@
     "build:css": "sass ./src/styles/index.scss a5e.css",
     "build:js": "rollup -c",
     "build": "npm run build:css && npm run build:js",
+    "checkCollisions": "node ./tools/checkKeyCollisions.mjs",
     "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
     "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"
   },
