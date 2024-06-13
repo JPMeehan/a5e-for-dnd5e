@@ -1,0 +1,487 @@
+name: Elemental Warrior
+type: feat
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Also at 3rd level, you learn to use combat maneuvers. You
+      gain proficiency with 1 tradition, chosen from below as determined by your
+      Elemental Affinity at 3rd level. You learn two maneuvers of your
+      choice.</p>
+
+      <p dir="ltr">You use your maneuvers by spending exertion points, but you
+      do not gain an exertion pool. Instead, you must spend your spell points.
+      The Maneuvers Known column of Table: Myrmidon Maneuvers (below) shows when
+      you learn more maneuvers from a tradition you are proficient with, while
+      the Maneuver degree column shows the highest degree you can select
+      maneuvers from at a given level.</p>
+
+      <p dir="ltr">Additionally, whenever you learn a new maneuver, you can
+      choose one of the maneuvers you know and replace it with another maneuver
+      of the same level from a tradition you are proficient with.</p>
+
+      <p dir="ltr">The traditions for each element are as follows:&nbsp;</p>
+
+      <ul>
+
+      <li dir="ltr"><strong>Air</strong>: Rapid Current or Biting Zephyr</li>
+
+      <li dir="ltr"><strong>Earth</strong>: Adamant Mountain or Razor&rsquo;s
+      Edge</li>
+
+      <li dir="ltr"><strong>Fire</strong>: Tempered Iron or Tooth and Claw</li>
+
+      <li dir="ltr"><strong>Water</strong>: Mirror&rsquo;s Glint or Mist and
+      Shade</li>
+
+      </ul>
+
+      <div dir="ltr" align="left">
+
+      <table><colgroup><col width="36"><col width="69"><col
+      width="63"></colgroup>
+
+      <tbody>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">Level</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">Maneuvers Known</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">Maneuver&nbsp;Degree</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">3rd</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">2</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">1st</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">4th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">1st</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">5th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">1st</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">6th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">1st</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">7th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">4</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">2nd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">8th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">4</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">2nd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">9th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">4</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">2nd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">10th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">5</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">2nd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">11th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">5</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">2nd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">12th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">5</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">2nd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">13th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">6</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3rd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">14th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">6</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3rd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">15th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">6</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3rd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">16th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">7</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3rd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">17th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">7</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3rd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">18th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">7</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">3rd</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">19th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">8</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">4th</p>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td>
+
+      <p dir="ltr">20th</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">8</p>
+
+      </td>
+
+      <td>
+
+      <p dir="ltr">4th</p>
+
+      </td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: ezgsojyftsaunlbi
+_key: '!items!ezgsojyftsaunlbi'

@@ -1,0 +1,30 @@
+name: Tyrannize
+type: feat
+img: icons/creatures/mammals/beast-horned-scaled-glowing-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You draw upon nature&rsquo;s power to become a prime example of one of
+      its children. Whenever you assume a wild shape you may choose to assume
+      the apex form of that wild shape. An apex form is one size category larger
+      than the creature&rsquo;s normal size category (maximum Gargantuan) and
+      any attack made by an apex form wild shape deals an extra 1d8 damage. In
+      addition, while in an apex form wild shape you gain an expertise die on
+      Strength, Dexterity, and Constitution checks and saving throws.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: kv6831uiu0tutlu5
+_key: '!items!kv6831uiu0tutlu5'

@@ -1,0 +1,48 @@
+name: Sentient Artifact
+type: feat
+img: icons/commodities/treasure/figurine-idol.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level you must establish your artifact&rsquo;s features
+      as a sentient magic item. Use the rules for Creating Sentient Magic Items
+      to create your artifact&rsquo;s personality and traits either by working
+      with your narrator or determining the following randomly:</p>
+
+      <ul>
+
+      <li>Wisdom, Intelligence, and Charisma scores.</li>
+
+      <li>A way it communicates to you or others.</li>
+
+      <li>A way it senses its surroundings.</li>
+
+      <li>A personality and potential source of conflict.</li>
+
+      </ul>
+
+      <p>Your bonded artifact is an NPC controlled by the narrator, but your
+      bond is strong and unless you are in conflict with your artifact you are
+      always able to utilize its features and direct any actions it can make.
+      Your artifact acts on your turn in initiative.</p>
+
+      <p>While you are in conflict with your artifact, you cannot cast any
+      wielder spells or use any wielder features that require the use of
+      artifact charges.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: dpn77ttypg7j8e6j
+_key: '!items!dpn77ttypg7j8e6j'

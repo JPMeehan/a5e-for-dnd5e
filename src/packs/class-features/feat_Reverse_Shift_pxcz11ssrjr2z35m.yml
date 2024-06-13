@@ -1,0 +1,68 @@
+folder: null
+name: Reverse Shift
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.l3lr6rwvw7csn6on]{Plane Shift}
+      without material components once between short rests. You can only travel
+      to the ethereal plane, or an elemental plane linked to one of your
+      elemental affinities, and back to the material plane.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 17th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: pxcz11ssrjr2z35m
+_key: '!items!pxcz11ssrjr2z35m'

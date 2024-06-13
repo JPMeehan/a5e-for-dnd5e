@@ -1,0 +1,29 @@
+name: Masked Relic
+type: feat
+img: icons/commodities/treasure/mask-bone-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your bonded artifact is either glamored and disguised or otherwise
+      appears mundane while not in active use. This guise can be seen through by
+      making an Investigation check with a DC equal to 10 + your proficiency
+      bonus + your spellcasting modifier, and it drops temporarily to reveal
+      your artifact&rsquo;s powerful nature whenever you cast a wielder spell
+      through it.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: z7rjte7pkpuwvbbv
+_key: '!items!z7rjte7pkpuwvbbv'

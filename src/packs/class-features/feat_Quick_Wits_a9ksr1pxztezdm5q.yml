@@ -1,0 +1,64 @@
+name: Quick Wits
+type: feat
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 7th level, on your turn you can prepare a trick without
+      spending an action. You can do this a number of times equal to your
+      proficiency bonus. Thereafter, preparing tricks requires the usual bonus
+      action until you complete a short rest.</p>
+    chat: ''
+  source:
+    book: Adventures in ZEITGEIST
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: a9ksr1pxztezdm5q
+_key: '!items!a9ksr1pxztezdm5q'

@@ -1,0 +1,29 @@
+folder: null
+name: Revivifying Waters
+type: feat
+img: icons/magic/water/wave-water-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can
+      cast&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.sgiwn0n20mnf1ddx]{Lesser
+      Restoration} as a Water spell using your spell points. At 17th level, you
+      can
+      cast&nbsp;@UUID[Compendium.a5e.a5e-spells.Item.2fn904xje78xc7de]{Greater
+      Restoration} as a Water spell using your spell points.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Water; 5th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 3l87qk8sakf6da96
+_key: '!items!3l87qk8sakf6da96'

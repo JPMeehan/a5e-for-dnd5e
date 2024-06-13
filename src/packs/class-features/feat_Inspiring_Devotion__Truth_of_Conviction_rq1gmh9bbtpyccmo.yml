@@ -1,6 +1,6 @@
 name: 'Inspiring Devotion: Truth of Conviction'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/holy/angel-wings-gray.webp
 effects: []
 flags: {}
 system:
@@ -23,8 +23,8 @@ system:
     value: null
     charged: true
   activation:
-    type: none
-    cost: ''
+    type: ''
+    cost: 1
     condition: ''
   duration: {}
   cover: null

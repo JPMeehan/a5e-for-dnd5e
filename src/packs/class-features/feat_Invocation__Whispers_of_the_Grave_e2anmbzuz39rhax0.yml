@@ -1,6 +1,6 @@
 name: 'Invocation: Whispers of the Grave'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/death/skeleton-skull-soul-blue.webp
 effects: []
 flags: {}
 system:
@@ -9,14 +9,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 9th level</em></p><p>You can cast&nbsp;<em>speak with
-      dead</em>&nbsp;without spending spell points.</p>
+      <p>You can cast <em>speak with dead</em>&nbsp;without spending spell
+      points.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 9th Level
   recharge:
     value: null
     charged: true

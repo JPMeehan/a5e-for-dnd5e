@@ -1,0 +1,269 @@
+folder: null
+name: Living Typhoon
+type: feat
+img: icons/magic/water/vortex-water-whirlpool.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 14th level, you can open yourself to ocean spirits as a
+      bonus action and surround yourself with a miniature hurricane for 1
+      minute. In this state you gain the following benefits:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Violent wind (or current) surrounds you,
+      creating difficult terrain for creatures within 30 feet.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You gain a flight speed of 60 feet; your
+      swim speed increases to 60 feet.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You gain an expertise die on saving
+      throws against spells and other magical abilities.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You have immunity to one damage type,
+      chosen from acid, cold, fire, lightning, or thunder.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Once on your turn, after you attack or
+      cast a spell, regardless of whether you hit or if the target saved, you
+      can cause one target of that attack or spell to take 2d6 acid, cold,
+      force, lighting, or thunder damage (your choice)</p>
+
+      </li>
+
+      </ul>
+
+      <p dir="ltr">Once you use this feature, you must complete a short or long
+      rest to use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/vortex-water-whirlpool.webp
+    origin: Item.3tWtHPxzPFoMLwUB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iGdaLOetGHVozgJO
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Living Typhoon
+    _id: YR5UHp4xNE4wjfYy
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '60'
+        mode: 6
+        priority: null
+      - key: system.attributes.movement.swim.distance
+        value: '60'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gain an expertise die on saving throws against spells and other magical
+      abilities.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!a3mgcfl941r0ehom.YR5UHp4xNE4wjfYy'
+  - icon: icons/magic/water/vortex-water-whirlpool.webp
+    origin: Item.3tWtHPxzPFoMLwUB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iGdaLOetGHVozgJO
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Acid Immunity
+    _id: ah8SOdGD6vzUvG77
+    changes:
+      - key: system.traits.damageImmunities
+        value: '["acid"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!a3mgcfl941r0ehom.ah8SOdGD6vzUvG77'
+  - icon: icons/magic/water/vortex-water-whirlpool.webp
+    origin: Item.3tWtHPxzPFoMLwUB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iGdaLOetGHVozgJO
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Cold Immunity
+    _id: c1tQgrMcHiJZBRfn
+    changes:
+      - key: system.traits.damageImmunities
+        value: '["cold"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!a3mgcfl941r0ehom.c1tQgrMcHiJZBRfn'
+  - icon: icons/magic/water/vortex-water-whirlpool.webp
+    origin: Item.3tWtHPxzPFoMLwUB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iGdaLOetGHVozgJO
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Fire Immunity
+    _id: SkrVFeHC66BMfIVq
+    changes:
+      - key: system.traits.damageImmunities
+        value: '["fire"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!a3mgcfl941r0ehom.SkrVFeHC66BMfIVq'
+  - icon: icons/magic/water/vortex-water-whirlpool.webp
+    origin: Item.3tWtHPxzPFoMLwUB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iGdaLOetGHVozgJO
+        applyToSelf: false
+        duration:
+          unit: minutes
+    transfer: false
+    name: Lightning Immunity
+    _id: ijFo8fKbbhQJ9Hv4
+    changes:
+      - key: system.traits.damageImmunities
+        value: '["lightning"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!a3mgcfl941r0ehom.ijFo8fKbbhQJ9Hv4'
+flags: {}
+_id: a3mgcfl941r0ehom
+_key: '!items!a3mgcfl941r0ehom'

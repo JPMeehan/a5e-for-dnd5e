@@ -1,14 +1,76 @@
 name: Rage (X/long rest)
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/wounds/injury-face-impact-orange.webp
+effects:
+  - icon: icons/skills/wounds/injury-face-impact-orange.webp
+    origin: Item.eMLkTtfvp4QDSKEE
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LWtrKhHATlDyv3lC
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Rage
+    _id: BUM9Vlpn1Z7rJRzC
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilitySave.str
+        value: '1'
+        mode: 6
+        priority: null
+      - key: system.traits.damageResistances
+        value: '["bludgeoning","piercing","slashing"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>You have advantage on Strength checks and Strength saving throws.</li>
+
+      <li>Every round that you remain in rage, at the start of your turn you
+      gain a number of rage hit points that increases as you gain levels as a
+      berserker, as shown in the Rage Hit Points column of the Berserker table.
+      Whenever you take damage, you reduce your rage hit points first, then your
+      regular hit points. Rage hit points stack each round until your rage ends,
+      at which point they dissipate.</li>
+
+      <li>The maximum number of rage hit points you can have at one time is
+      equal to 5 × your berserker level.</li>
+
+      <li>You have resistance to bludgeoning, piercing, and slashing
+      damage.</li>
+
+      <li>If you are able to cast spells, you can’t cast them or concentrate on
+      them while raging.</li>
+
+      <li>You gain no benefit from temporary hit points.</li>
+
+      </ul>
+    statuses: []
+    folder: null
+    _key: '!items.effects!htgvror5v9twusgs.BUM9Vlpn1Z7rJRzC'
 flags: {}
 system:
   type:
     value: class
     subtype: ''
   description:
-    value: >-
+    value: >
       <p style="box-sizing: border-box; user-select: text; visibility: visible;
       color: #191813;"><span class="fontstyle3" style="box-sizing: border-box;
       user-select: text;">In battle, you give yourself over to the fury within.
@@ -68,6 +130,241 @@ system:
       user-select: text;">Once you have raged the number of times shown for your
       berserker level in the Rages column of the Berserker table, you must
       finish a long rest before you can rage again.</span></p>
+
+      <p style="box-sizing: border-box; user-select: text; visibility: visible;
+      color: #191813;">&nbsp;</p>
+
+      <p><strong>TABLE: BERSERKER</strong></p>
+
+      <table style="width: 43.6519%;" border="1"><colgroup><col style="width:
+      20.9836%;"><col style="width: 31.7679%;"><col style="width:
+      47.5763%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td style="text-align: center;">LEVEL</td>
+
+      <td style="text-align: center;">RAGES</td>
+
+      <td style="text-align: center;">
+
+      <p>RAGE HIT</p>
+
+      <p>POINTS</p>
+
+      </td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">+2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">+2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">+2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">+2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">+2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">+2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">+2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">+2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">+3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">+3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">+3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">12</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">+3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">13</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">+3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">14</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">+3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">15</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">+3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">16</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">+4</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">17</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">+4</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">18</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">+4</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">19</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">+4</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">20</td>
+
+      <td style="text-align: center;">Unlimited</td>
+
+      <td style="text-align: center;">+5</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -85,10 +382,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: ''
+    value: null
     width: null
     units: ''
-    type: self
+    type: ''
   range:
     value: null
     long: null
@@ -103,7 +400,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

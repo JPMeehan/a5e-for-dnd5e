@@ -1,6 +1,6 @@
 name: 'Exceptional Poise: The Opportune Moment'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/movement/arrows-up-trio-red.webp
 system:
   type:
     value: class
@@ -9,10 +9,10 @@ system:
     value: >-
       <p>On your turn, you can take one additional action. You cannot use this
       ability on the first round of combat. After you use this feature, you
-      cannot use it again until you complete a short or long rest .</p>
+      cannot use it again until you complete a short or long rest.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -27,10 +27,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: ''
+    value: null
     width: null
     units: ''
-    type: self
+    type: ''
   range:
     value: null
     long: null

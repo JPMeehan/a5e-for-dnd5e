@@ -1,0 +1,94 @@
+folder: null
+name: Puppet Master
+type: feat
+img: icons/magic/control/control-influence-puppet.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level you can fuel your own personal force of will and sense of
+      determination through the success of your allies. &nbsp;Whenever a
+      creature you have helped gets a critical success on the benefitting roll,
+      you may either gain inspiration or regain an expended hit die. &nbsp;You
+      may only gain each of these benefits once per short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/control/control-influence-puppet.webp
+    origin: Item.zfrbul2yl58jbl4t
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dGu5uq4Q2DL9YZGr
+        applyToSelf: true
+    transfer: false
+    name: Gain Inspiration
+    _id: KFgWmH5RntsEEQAv
+    changes:
+      - key: system.attributes.inspiration
+        value: 'true'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!zfrbul2yl58jbl4t.KFgWmH5RntsEEQAv'
+flags: {}
+_id: zfrbul2yl58jbl4t
+_key: '!items!zfrbul2yl58jbl4t'

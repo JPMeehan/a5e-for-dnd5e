@@ -1,0 +1,70 @@
+folder: null
+name: Slowing Augmentation
+type: feat
+img: icons/magic/time/hourglass-tilted-glowing-gold.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-a3b2a03a-7fff-b0e9-1eb7-9f2bbe753047"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 5; <strong>Element:</strong> Cold or
+      Lightning</span></em></p>
+
+      <p><span id="docs-internal-guid-d6ea9eb5-7fff-1e53-19aa-184bd886732a">By
+      spending 3 spell points, your blast chills or shocks targets who are hit
+      or who fail their save, slowing them for 1 minute. Targets can attempt a
+      Constitution saving throw at the end of each turn to end this
+      effect.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: olhrez8unm9032e0
+_key: '!items!olhrez8unm9032e0'

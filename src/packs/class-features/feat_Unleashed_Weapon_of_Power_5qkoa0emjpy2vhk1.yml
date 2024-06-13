@@ -1,0 +1,66 @@
+name: Unleashed Weapon of Power
+type: feat
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Attacks you make with your weapon of power ignore all resistances and
+      immunities. In addition, once per turn when you hit a target with your
+      weapon of power you may choose to expend one artifact charge to deal an
+      additional 4d6 force damage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d6
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 5qkoa0emjpy2vhk1
+_key: '!items!5qkoa0emjpy2vhk1'

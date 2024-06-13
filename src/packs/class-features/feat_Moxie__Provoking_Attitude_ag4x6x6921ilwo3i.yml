@@ -1,6 +1,6 @@
 name: 'Moxie: Provoking Attitude'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/hand-grip-sword-red.webp
 effects: []
 flags: {}
 system:
@@ -9,12 +9,13 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>You know how to piss people off. You can expend one use of Rage and
+      <p>You know how to piss people off. You can expend one use of
+      @UUID[Compendium.a5e.a5e-class-features.Item.htgvror5v9twusgs]{Rage} and
       choose a creature within 60 feet that can hear or see you. The creature
       makes a Charisma saving throw against your Furious Critical DC. On a
       failure, it makes or accepts a challenge. The nature of this challenge is
-      at the Narrator’s discretion but is usually a duel or opposed check:
-      archery with Dexterity,&nbsp;arm-wrestling with Strength, competing with a
+      at the Narrator&rsquo;s discretion but is usually a duel or opposed check:
+      archery with Dexterity, arm-wrestling with Strength, competing with a
       gaming set, distance running with Constitution, wrestling with Athletics,
       and so on.</p>
     chat: ''
@@ -27,8 +28,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
-    cost: ''
+    type: ''
+    cost: 1
     condition: ''
   duration: {}
   cover: null

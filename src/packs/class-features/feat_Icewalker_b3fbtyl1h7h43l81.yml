@@ -1,0 +1,31 @@
+folder: null
+name: Icewalker
+type: feat
+img: icons/magic/water/tendrils-ice-thorns.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You ignore difficult terrain from ice and snow, and can even
+      walk upon the top of snow. You do not have to make checks or saves to
+      balance on icy surfaces. You gain a Climb speed equal to your speed, but
+      only on icy surfaces. You can move on top of water at half your speed,
+      temporarily freezing the water below your feet; the ice washes away and
+      melts after you pass. If the air temperature is below freezing, you can
+      choose to create a path of ice behind you for others to follow, but the
+      path must remain anchored to a surface, or else it melts in 1 minute.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Focus: Water; 5th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: b3fbtyl1h7h43l81
+_key: '!items!b3fbtyl1h7h43l81'

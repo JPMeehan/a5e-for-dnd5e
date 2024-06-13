@@ -1,0 +1,43 @@
+folder: null
+name: Battle Defense
+type: feat
+img: icons/skills/melee/shield-block-bash-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level, you decide on how best to protect yourself on
+      the battlefield&mdash;relying on barbaric might or encased in weighty
+      armaments. Choose one of the following options.</p>
+
+      <h2>Juggernaut</h2>
+
+      <p>You gain proficiency with heavy armor. In addition, your speed is not
+      reduced by wearing heavy armor, you can still benefit from raging while
+      wearing heavy armor, and you do not count the weight of any worn armor
+      when determining your carrying capacity.</p>
+
+      <h2>Rugged Defense</h2>
+
+      <p>While you are not wearing any armor, your armor class equals 10 + your
+      Dexterity modifier + your Constitution modifier. You can use a shield and
+      still gain this benefit.</p>
+
+      <p>In addition, your speed increases by 5 feet while you aren&rsquo;t
+      wearing heavy armor. At 5th level, your speed increases by an additional 5
+      feet.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 9s8qxfmcfqke6q0c
+_key: '!items!9s8qxfmcfqke6q0c'

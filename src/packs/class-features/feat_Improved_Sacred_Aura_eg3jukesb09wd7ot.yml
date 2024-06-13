@@ -1,7 +1,87 @@
 name: Improved Sacred Aura
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/light/explosion-glow-spiral-yellow.webp
+effects:
+  - icon: icons/magic/light/explosion-glow-spiral-yellow.webp
+    origin: Item.44kRge4bBO950nLZ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: mNraxJ6xWCqCMCul
+    transfer: false
+    name: Aura of Healing
+    _id: zN58i5ttyUgAAqEd
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Whenever you or an ally cast a spell to heal yourself or another ally
+      while both are within your aura, both the spellcaster and target gain
+      additional hit points equal to your Charisma modifier.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!eg3jukesb09wd7ot.zN58i5ttyUgAAqEd'
+  - icon: icons/magic/light/explosion-glow-spiral-yellow.webp
+    origin: Item.44kRge4bBO950nLZ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: mNraxJ6xWCqCMCul
+    transfer: false
+    name: Aura of Overcoming
+    _id: ZkOMUdtjitCqH00E
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Weapon attacks made by allies within your aura are considered magical
+      for the purpose of overcoming damage resistances and immunities.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!eg3jukesb09wd7ot.ZkOMUdtjitCqH00E'
+  - icon: icons/magic/light/explosion-glow-spiral-yellow.webp
+    origin: Item.44kRge4bBO950nLZ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: mNraxJ6xWCqCMCul
+    transfer: false
+    name: Aura of Smiting
+    _id: 1BMmR476ITiNa4CO
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Whenever an ally within your aura scores a critical hit with a weapon
+      attack, they deal additional radiant damage equal to half your herald
+      level.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!eg3jukesb09wd7ot.1BMmR476ITiNa4CO'
 flags: {}
 system:
   type:
@@ -12,15 +92,24 @@ system:
       <p>At 10th level, you gain a more powerful aura that is active alongside
       your Sacred Aura. The range of this aura is the same, and you can only
       have one Improved Sacred Aura active at a time. You can swap your active
-      improved aura upon finishing a long rest.</p><p>Aura of Healing Whenever
-      you or an ally cast a spell to heal yourself or another ally while both
-      are within your aura, both the spellcaster and target gain additional hit
-      points equal to your Charisma modifier.</p><p>Aura of Overcoming Weapon
-      attacks made by allies within your aura are considered magical for the
-      purpose of overcoming damage resistances and immunities.</p><p>Aura of
-      Smiting Whenever an ally within your aura scores a critical hit with a
-      weapon attack, they deal additional radiant damage equal to half your
-      herald level.</p>
+      improved aura upon finishing a long rest.</p>
+
+      <h2>Aura of Healing</h2>
+
+      <p>Whenever you or an ally cast a spell to heal yourself or another ally
+      while both are within your aura, both the spellcaster and target gain
+      additional hit points equal to your Charisma modifier.</p>
+
+      <h2>Aura of Overcoming</h2>
+
+      <p>Weapon attacks made by allies within your aura are considered magical
+      for the purpose of overcoming damage resistances and immunities.</p>
+
+      <h2>Aura of Smiting</h2>
+
+      <p>Whenever an ally within your aura scores a critical hit with a weapon
+      attack, they deal additional radiant damage equal to half your herald
+      level.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -30,6 +119,43 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: eg3jukesb09wd7ot
 _key: '!items!eg3jukesb09wd7ot'

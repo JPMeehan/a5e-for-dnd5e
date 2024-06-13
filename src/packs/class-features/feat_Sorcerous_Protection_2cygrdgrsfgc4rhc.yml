@@ -1,0 +1,36 @@
+name: Sorcerous Protection
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at level 18, you learn the most impressive steel blooded
+      metamagic of all, shaping your spells into a protective carapace that,
+      when broken, bolsters you or punishes your
+      enemies:</p><ul><li><p><strong>Armoring Spell </strong>-<strong>
+      </strong>When you cast a spell, you may spend 4 sorcery points to make it
+      an armoring spell. The casting of the spell is suspended part-way through,
+      and you gain temporary hit points equal to double the spell’s level. When
+      the last of these hit points are lost, the casting of the spell completes
+      (requiring no further action). It is at this point you determine the
+      targets of the spell, if any. Unless it is impossible, the spell must
+      include either you or the source of the triggering damage among its
+      targets or area of effect. You may choose to exclude yourself from a spell
+      with an area, if desired.</p></li></ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 2cygrdgrsfgc4rhc
+_key: '!items!2cygrdgrsfgc4rhc'

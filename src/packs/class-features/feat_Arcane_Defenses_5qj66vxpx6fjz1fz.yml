@@ -1,0 +1,37 @@
+name: Arcane Defenses
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-teal.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level, your training has granted you certain protections
+      against magic. Choose one of the following:</p><h2>Mental
+      Discipline</h2><p>Your mind is sheltered from intrusion. When you fail an
+      Intelligence, Wisdom, or Charisma saving throw, you can choose to succeed
+      instead. You can&rsquo;t do so again until you finish a short or long
+      rest.</p><h2>Mystic Mantle</h2><p>Magic layers upon you into a defensive
+      ward that you can extend to even protect your allies. You and creatures
+      within 10 feet of you have resistance to the damage of
+      spells.</p><h2>Superior Countermagic</h2><p>When you make an ability check
+      as part of casting counterspell or dispel magic, you add your proficiency
+      bonus to the roll.</p><p>In addition, when you cast one of these spells,
+      treat the spell slot level of the spell as one level higher than the
+      actual slot you spent. The slot you use to cast the spell must still be at
+      least 3rd-level.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 5qj66vxpx6fjz1fz
+_key: '!items!5qj66vxpx6fjz1fz'

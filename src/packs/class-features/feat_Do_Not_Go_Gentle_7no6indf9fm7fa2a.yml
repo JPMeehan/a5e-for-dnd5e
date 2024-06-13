@@ -1,0 +1,77 @@
+folder: null
+name: Do Not Go Gentle
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-9d6ed6bd-7fff-2892-f97e-021e672d9df5"
+      dir="ltr">At 14th level, your devotion and fury can protect your allies
+      from death itself. When you touch a living creature at 0 hit points, you
+      may use your action to stabilize it.&nbsp;</p>
+
+      <p dir="ltr">In addition, when you touch a creature who has died within
+      the last minute, you may use your action and expend one use of rage to
+      return them to life at 1 hit point. You cannot restore missing body parts
+      in this way, nor can you return a creature to life if they have died of
+      old age.</p>
+
+      <p dir="ltr">Once you return a creature to life in this way, you must
+      finish a short or long rest to do so again.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '1'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 7no6indf9fm7fa2a
+_key: '!items!7no6indf9fm7fa2a'

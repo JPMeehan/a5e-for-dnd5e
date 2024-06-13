@@ -1,0 +1,72 @@
+folder: null
+name: Chaining Augmentation
+type: feat
+img: icons/magic/lightning/bolt-strike-sparks-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-5524c009-7fff-2083-1600-be7308690152"><strong>Type:</strong>
+      Shape; <strong>Level:</strong> 17</span></em></p>
+
+      <p><span id="docs-internal-guid-6937871c-7fff-6549-cc3e-ef4a2f902e41">By
+      spending 7 spell points, your blast can jump from target to target. Each
+      time you hit a target, the blast jumps to another target within 15-ft. You
+      must make an attack roll for each new target, and the blast deals 1 die
+      less damage for each new target. The chain stops when you miss a target,
+      or when the blast is reduced to 0 dice. You cannot hit a target more than
+      once. Only the initial target needs to be within your blast&rsquo;s
+      range.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: qr6wc4fnrjoq506x
+_key: '!items!qr6wc4fnrjoq506x'

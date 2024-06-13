@@ -1,6 +1,6 @@
 name: Combat Poise
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
 system:
   type:
     value: class
@@ -9,11 +9,35 @@ system:
     value: >-
       <p>Some savants are prepared to bloody their knuckles in a fight, while
       others make a point of staying out of the scrum. At 2nd level, you choose
-      one of the following poises.</p><p><strong>A STEP
-      AHEAD</strong></p><p><strong>COMBAT MANEUVERS</strong></p>
+      one of the following poises.</p>
+
+      <h2>A Step Ahead</h2>
+
+      <p>You have a deft ability to predict your opponents&rsquo; responses and
+      interfere with them. Whenever a creature within your reach that you are
+      aware of attempts to take a reaction, you can expend your reaction for the
+      round to try to disrupt them. That creature must make an Intelligence
+      saving throw against your trick DC. If they fail, their reaction is
+      wasted.</p>
+
+      <h2>Combat Maneuvers</h2>
+
+      <p>You gain the ability to use combat maneuvers. (Combat maneuvers are
+      detailed in the Level Up Adventurer&rsquo;s Guide.) You gain an exertion
+      point pool equal to your proficiency bonus.</p>
+
+      <p>Choose two martial traditions. (Most savants learn maneuvers of the
+      traditions Biting Zephyr, Mist and Shade, Rapid Current, or Sanguine
+      Knot.) Whenever you gain a savant trick, you can instead choose a maneuver
+      from any of your chosen martial traditions.</p>
+
+      <p>You can initially learn maneuvers of the 1st degree. At 7th level you
+      gain access to 2nd degree maneuvers, then at 13th level you can access 3rd
+      degree maneuvers, and finally at 19th level you can access 4th degree
+      maneuvers.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''

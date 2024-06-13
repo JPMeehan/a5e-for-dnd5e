@@ -1,7 +1,36 @@
 name: 'Critical: Blinding Maneuver'
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/wounds/injury-eyes-blood-red.webp
+effects:
+  - icon: icons/skills/wounds/injury-eyes-blood-red.webp
+    origin: Item.Tu047LHMciQzOTjv
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 1sE4fa0Jpg59VN40
+    transfer: false
+    name: Blinded
+    _id: YyGNJ9AuxzGrXbKQ
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!gfj3n6p8nyp2mmxr.YyGNJ9AuxzGrXbKQ'
 flags: {}
 system:
   type:
@@ -48,7 +77,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

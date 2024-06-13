@@ -1,0 +1,33 @@
+folder: null
+name: Coven Mastery
+type: feat
+img: icons/magic/unholy/hands-circle-light-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level you gain the Coven Casting ritual mastery option, or a
+      different ritual mastery option if you already have it. &nbsp;Furthermore,
+      by linking with two other creatures using this ability over a short rest
+      each of the three creatures can regain a spell slot of 5th level or lower.
+      &nbsp;Furthermore, any one of the linked creatures can expend a spell slot
+      in order to allow a different linked creature to regain a spell slot of
+      the same or lower level. &nbsp;Once you have used this benefit you cannot
+      do so again until you finish a long rest. &nbsp;You must have exactly two
+      allies with ritual casting that you can bond with for the full duration of
+      the short rest to use this ability.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 596h3urtghyrac1h
+_key: '!items!596h3urtghyrac1h'

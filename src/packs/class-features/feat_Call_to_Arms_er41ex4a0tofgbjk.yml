@@ -1,7 +1,35 @@
 name: Call to Arms
 type: feat
 img: icons/svg/item-bag.svg
-effects: []
+effects:
+  - icon: icons/svg/item-bag.svg
+    origin: Item.AuNTbpKWJSVi91JW
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: GqcYRA7iuqCLLcxF
+    transfer: false
+    name: Initiative Expertise
+    _id: DFWxG7uevzib6M1P
+    changes:
+      - key: system.attributes.initiative.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!er41ex4a0tofgbjk.DFWxG7uevzib6M1P'
 flags: {}
 system:
   type:
@@ -23,6 +51,43 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: er41ex4a0tofgbjk
 _key: '!items!er41ex4a0tofgbjk'

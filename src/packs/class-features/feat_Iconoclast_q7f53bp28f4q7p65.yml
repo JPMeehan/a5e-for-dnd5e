@@ -1,0 +1,67 @@
+name: Iconoclast
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You are known for doing the unexpected and people love to hear about
+      it. Whenever you arrive in a settlement you are visited by
+      1d4+1&nbsp;bards, scholars, and sages asking for recountings of your
+      recent exploits. In exchange they reach either share a piece of
+      information they think might be relevant to your current quest, or make an
+      Intelligence,&nbsp; Wisdom, or Charisma check (bonus of +5) on your behalf
+      to answer a specific question.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: q7f53bp28f4q7p65
+_key: '!items!q7f53bp28f4q7p65'

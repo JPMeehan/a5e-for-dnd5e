@@ -8,15 +8,11 @@ system:
   description:
     value: >-
       <p>At 1st level you know 3 cantrips of your choice from the Sorcerer spell
-      list.</p>
-
-      <p>Your spellcasting ability modifier for these cantrips and all
-      Spellslinger spells is Charisma.</p>
-
-      <p>The saving throw DC of your spells is 10 +[Proficiency Bonus]
-      +[Charisma modifier]. However when used as a ranged weapon attack, or as
-      part of a combat maneuver, you may use strength or dexterity as
-      normal.</p>
+      list.</p><p>Your spellcasting ability modifier for these cantrips and all
+      Spellslinger spells is Charisma.</p><p>The saving throw DC of your spells
+      is 10 +[Proficiency Bonus] +[Charisma modifier]. However when used as a
+      ranged weapon attack, or as part of a combat maneuver, you may use
+      strength or dexterity as normal.</p>
     chat: ''
   source:
     book: 'System Architecture: Motif Classes'

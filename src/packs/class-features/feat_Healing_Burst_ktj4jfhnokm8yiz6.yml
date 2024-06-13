@@ -1,0 +1,68 @@
+folder: null
+name: Healing Burst
+type: feat
+img: icons/magic/life/heart-cross-strong-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">When you use your Healing Waters adaptation, you can instead
+      target yourself and up to 5 creatures of your choice within 30 ft. of you
+      and heal them 1d4 hp per spell point spent, up to your spell point
+      cap.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Water; Healing Waters adaptation; 11th level'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: ktj4jfhnokm8yiz6
+_key: '!items!ktj4jfhnokm8yiz6'

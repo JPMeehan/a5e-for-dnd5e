@@ -1,0 +1,30 @@
+name: Bale Eye (Growing Strength)
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level your power grows by leaps and bounds. You gain one of the
+      following abilities based on your choice of flesh and bone.</p>
+
+      <p><strong>Bale Eye</strong>: Your bonded power grows significantly. You
+      may now use your baleful gaze in a 30ft cone or a 15ft radius around
+      yourself. In addition, creatures that roll a natural 1 on their saving
+      throw against your bonded power become petrified for 1 minute.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: ckun224p21qly6mj
+_key: '!items!ckun224p21qly6mj'

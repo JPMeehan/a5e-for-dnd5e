@@ -1,7 +1,68 @@
 name: Greater Empowered Smite
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/melee/strike-axe-energy-pink.webp
+effects:
+  - icon: icons/skills/melee/strike-axe-energy-pink.webp
+    origin: Item.572rzHWo6OYdkCmo
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 9XFkCWKy9m8FnF25
+        duration:
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: cPzjNcpqoHUh0W6s
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!p9gkawegqqbxb821.cPzjNcpqoHUh0W6s'
+  - icon: icons/skills/melee/strike-axe-energy-pink.webp
+    origin: Item.572rzHWo6OYdkCmo
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ILQ1sTfIdF2JirDS
+        duration:
+          unit: minutes
+    transfer: false
+    name: Disorienting Smite
+    _id: YGGsYHiZdd6cibgR
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Disadvantage on attack rolls.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!p9gkawegqqbxb821.YGGsYHiZdd6cibgR'
 flags: {}
 system:
   type:
@@ -12,19 +73,28 @@ system:
       <p>At 8th level you learn the following new empowerments for your smites,
       and can use this feature twice at no cost in between long rests.
       Alternatively, you can use an empowered smite by expending a spell slot of
-      1st-level or higher.</p><p>Blinding Smite The target makes a Constitution
-      saving throw. On a failure, it is blinded for 1 minute. At the end of each
-      of its turns, the target can repeat the saving throw, ending the effect on
-      a success.</p><p>Disorienting Smite Your smite instead deals psychic
-      damage and the target makes a Wisdom saving throw. On a failed save, it
-      has disadvantage on attack rolls for 1 minute. At the end of each of its
-      turns the target can repeat the saving throw, ending the effect on a
-      success.</p><p>Taunting Smite The target makes a Wisdom saving throw. On a
-      failed save, it takes an additional 1d6 radiant damage when attacking a
-      creature other than you and cannot make opportunity attacks against anyone
-      but you. This effect lasts up to 1 minute, and the target can repeat the
-      saving throw at the end of each of its turns, ending the effect on a
-      success.</p>
+      1st-level or higher.</p>
+
+      <h2>Blinding Smite</h2>
+
+      <p>The target makes a Constitution saving throw. On a failure, it is
+      blinded for 1 minute. At the end of each of its turns, the target can
+      repeat the saving throw, ending the effect on a success.</p>
+
+      <h2>Disorienting Smite</h2>
+
+      <p>Your smite instead deals psychic damage and the target makes a Wisdom
+      saving throw. On a failed save, it has disadvantage on attack rolls for 1
+      minute. At the end of each of its turns the target can repeat the saving
+      throw, ending the effect on a success.</p>
+
+      <h2>Taunting Smite</h2>
+
+      <p>The target makes a Wisdom saving throw. On a failed save, it takes an
+      additional 1d6 radiant damage when attacking a creature other than you and
+      cannot make opportunity attacks against anyone but you. This effect lasts
+      up to 1 minute, and the target can repeat the saving throw at the end of
+      each of its turns, ending the effect on a success.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -34,6 +104,45 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: generic
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
 folder: null
 _id: p9gkawegqqbxb821
 _key: '!items!p9gkawegqqbxb821'

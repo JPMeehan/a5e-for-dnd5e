@@ -7,22 +7,60 @@ system:
     subtype: ''
   description:
     value: >-
-      <p class="MsoNormal" style="margin-bottom: .0001pt;">At 10th level
-      whenever you cast a spell that summons a beast, plant, elemental, or fey,
-      any creatures summoned gain temporary hit points equal to a roll of a
-      number of d4s equal to your proficiency bonus. If multiple creatures are
-      summoned by one spell, they all gain the same number of temporary hit
-      points. They also gain an expertise die on saving throws and attack
-      rolls.</p>
+      <p>At 10th level whenever you cast a spell that summons a beast, plant,
+      elemental, or fey, any creatures summoned gain temporary hit points equal
+      to a roll of a number of d4s equal to your proficiency bonus. If multiple
+      creatures are summoned by one spell, they all gain the same number of
+      temporary hit points. They also gain an expertise die on saving throws and
+      attack rolls.</p>
     chat: ''
   source:
     book: Mysterious and Marvelous Miscellanea
     license: OGL 1.0a
   properties: []
-  requirements: Level 10 Witch Class; Green Witch archetype
+  requirements: ''
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - (@prof)d4
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null

@@ -1,6 +1,6 @@
 name: 'Invocation: Patron Token'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/commodities/treasure/token-runed-nyd-green.webp
 effects: []
 flags: {}
 system:
@@ -9,15 +9,11 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><span class="fontstyle0" style="box-sizing: border-box; user-select:
-      text; color: #191813; font-family: Signika, sans-serif; font-size:
-      14px;">Your patron gifts you with a patron token.&nbsp;</span><span
-      class="fontstyle0" style="box-sizing: border-box; user-select: text;
-      color: #191813; font-family: Signika, sans-serif; font-size: 14px;">You
-      are unable to sell your patron token, and if you somehow lose it the next
-      time you finish a long rest you discover it on your person. Once your
-      token is consumed, your patron replaces it and you find it on your person
-      the next time you finish a long rest.</span></p>
+      <p>Your patron gifts you with a patron token.&nbsp;You are unable to sell
+      your patron token, and if you somehow lose it the next time you finish a
+      long rest you discover it on your person. Once your token is consumed,
+      your patron replaces it and you find it on your person the next time you
+      finish a long rest.</p>
     chat: ''
   source:
     book: Adventurer's Guide

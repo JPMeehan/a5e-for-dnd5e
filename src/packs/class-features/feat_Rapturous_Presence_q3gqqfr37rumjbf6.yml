@@ -10,10 +10,16 @@ system:
   description:
     value: >-
       <p>Beginning at 9th level, your magic becomes a presence that noticeably
-      bears down on creatures. Choose one of the
-      following:</p><p></p><h4><strong>&nbsp;&nbsp; Larger Than
-      Life</strong></h4><h4>&nbsp;&nbsp;<strong> Nobody’s
-      Fool</strong></h4><h4><strong>&nbsp;&nbsp; Otherworldly</strong></h4>
+      bears down on creatures. Choose one of the following:</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.hx4aiu7396hskpmw]{Presence:
+      Forceful}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.8nzq7fp4sscrqxod]{Presence:
+      Nobody&rsquo;s Fool}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.eqspe6wydegluhcg]{Presence:
+      Otherworldly}</p>
     chat: ''
   source:
     book: Adventurer's Guide

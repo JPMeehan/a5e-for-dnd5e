@@ -1,0 +1,69 @@
+folder: null
+name: Cone Augmentation
+type: feat
+img: icons/magic/water/projectile-beams-salvo-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-ce3a11ee-7fff-c1d9-d7b7-11cc2cf4f53c"><strong>Type:</strong>
+      Shape; <strong>Level:</strong> 1</span></em></p>
+
+      <p><span id="docs-internal-guid-a4a90a84-7fff-e2ce-6fc4-856c4ca59182">By
+      spending 2 spell points, your blast becomes a 15-ft cone, with a range of
+      self, damaging all creatures and objects in the area. Targets must make a
+      Dexterity saving throw, taking half damage on a successful save. For every
+      1 additional spell point you spend, increase the size of the cone by 5
+      ft.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 24ivbqyenvy6mb18
+_key: '!items!24ivbqyenvy6mb18'

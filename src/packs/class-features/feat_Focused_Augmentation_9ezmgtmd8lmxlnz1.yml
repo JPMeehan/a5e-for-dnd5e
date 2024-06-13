@@ -1,0 +1,71 @@
+folder: null
+name: Focused Augmentation
+type: feat
+img: icons/magic/light/beam-rays-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-79168a08-7fff-9a58-5256-daa69b1ac17d"><strong>Type:</strong>
+      Shape; <strong>Level:</strong> 1</span></em></p>
+
+      <p><span id="docs-internal-guid-e99594e1-7fff-e754-4703-0c6522bdce15">By
+      spending 1 spell point, your blast becomes a focused ray, growing more
+      accurate and damaging. You gain a +1d4 expertise die to hit and +1d4 to
+      your damage roll. For every 1 additional spell point you spend, increase
+      the damage bonus by +1d4, and for every 2 additional spell point you
+      spend, increase the expertise die to hit by 1 die size (to a maximum of
+      1d10).</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 9ezmgtmd8lmxlnz1
+_key: '!items!9ezmgtmd8lmxlnz1'

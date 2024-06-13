@@ -1,7 +1,33 @@
 name: 'Battle Hymn: Willful Serenade'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.yEv4c2qOq6EJFIpz
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: imQgmFhEEysgcMYN
+        duration:
+          type: seconds
+    transfer: false
+    name: 'Battle Hymn: Willful Serenade'
+    _id: iJZcmn90XEYtiEEK
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>Until the end of the combat, the target ignores up to 4 levels of\_fatigue or strife it is suffering from (how much of each to ignore is determined by the\_creature).</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!okn7tljq4n6nu8d3.iJZcmn90XEYtiEEK'
 flags: {}
 system:
   type:
@@ -9,12 +35,12 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Until the end of the combat, the creature ignores up to 4 levels of
-      fatigue or strife it is suffering from (how much of each to ignore is
-      determined by the creature).</p>
+      <p>Until the end of the combat, the target ignores up to 4 levels
+      of&nbsp;fatigue or strife it is suffering from (how much of each to ignore
+      is determined by the&nbsp;creature).</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -47,7 +73,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

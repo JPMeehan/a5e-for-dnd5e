@@ -1,7 +1,46 @@
 name: Aim
 type: feat
 img: icons/skills/targeting/crosshair-pointed-orange.webp
-effects: []
+effects:
+  - icon: icons/skills/targeting/crosshair-pointed-orange.webp
+    origin: Item.7kl58aphfakupnn1
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: r8lBLMvwgxZAqYtj
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Aim
+    _id: PAMPXhpcxe92LFia
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.movement.allDistances
+        value: '0'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 0
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gain advantage on the next attack roll you make before the start of
+      your next turn. If you do so, your Speed is reduced to 0 until the end of
+      your turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!7kl58aphfakupnn1.PAMPXhpcxe92LFia'
 flags: {}
 system:
   type:
@@ -25,6 +64,45 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: 7kl58aphfakupnn1
 _key: '!items!7kl58aphfakupnn1'

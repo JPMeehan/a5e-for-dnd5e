@@ -1,0 +1,26 @@
+name: Subdual Spell
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When damage from one of your spells reduces one or more creatures to 0
+      hit points, you can use your reaction and spend 1 sorcery point to
+      stabilize one of the creatures knocked unconscious by it.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ntogu4hl1lbga7gc
+_key: '!items!ntogu4hl1lbga7gc'

@@ -1,0 +1,23 @@
+name: 'Fighting Style: Archery'
+type: feat
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: zwxerg4avwdez81a
+_key: '!items!zwxerg4avwdez81a'

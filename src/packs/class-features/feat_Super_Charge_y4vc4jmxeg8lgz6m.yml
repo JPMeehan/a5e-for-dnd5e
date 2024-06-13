@@ -1,0 +1,81 @@
+folder: null
+name: Super Charge
+type: feat
+img: icons/magic/lightning/bolt-strike-explosion-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 87">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You have nearly become an open gateway to pure, unlimited elemental
+      energy.</p>
+
+      <p>Starting at 15th level, you may use Power Surge without taking damage
+      once per minute.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: y4vc4jmxeg8lgz6m
+_key: '!items!y4vc4jmxeg8lgz6m'

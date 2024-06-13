@@ -9,22 +9,20 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>A dying creature regains hit points equal to your Bardic Inspiration
-      die. Once a creature has benefited from this battle hymn, it can’t benefit
-      from it again until it finishes a long rest.</p>
+      <p>If the target is dying, it regains hit points equal to your
+      Bardic&nbsp;Inspiration die. Once a creature has benefited from this
+      battle hymn, it can&rsquo;t benefit&nbsp;from it again until it finishes a
+      long rest.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
-  activation:
-    type: ''
-    cost: ''
-    condition: ''
+  activation: {}
   duration: {}
   cover: null
   crewed: false
@@ -34,7 +32,7 @@ system:
     units: ''
     type: creature
   range:
-    value: 60
+    value: 30
     long: null
     units: ft
   uses:
@@ -55,7 +53,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d10
+      - - 1d(6+(2*floor(@level/5)))
         - healing
     versatile: ''
   formula: ''

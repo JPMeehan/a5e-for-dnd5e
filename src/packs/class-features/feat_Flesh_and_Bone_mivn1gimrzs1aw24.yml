@@ -1,0 +1,39 @@
+name: Flesh and Bone
+type: feat
+img: icons/magic/defensive/armor-stone-skin.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>The changes the experiments have made do not begin and end at
+      spellcasting, unfortunately. At level 1 your flesh and bone become
+      tougher, and occasionally scaled, providing a bonus to your armor class
+      when you are unarmored. Choose from the following options:</p>
+
+      <ul>
+
+      <li><strong>Stone Eye</strong>: Your AC when not wearing armor is 12 +
+      Dex</li>
+
+      <li><strong>Beastmantle</strong>: Your AC when not wearing armor is 14 +
+      Dex (Maximum 2)</li>
+
+      <li><strong>Shapeshifter</strong>: Your AC when not wearing armor is 12 +
+      Cha</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: mivn1gimrzs1aw24
+_key: '!items!mivn1gimrzs1aw24'

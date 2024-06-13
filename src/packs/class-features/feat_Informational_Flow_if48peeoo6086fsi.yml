@@ -1,0 +1,68 @@
+folder: null
+name: Informational Flow
+type: feat
+img: icons/magic/water/water-drop-swirl-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">By spending 10 minutes quietly meditating while in contact
+      with a body of water, you can project your senses through the water to a
+      distance of 1,000 ft, perceiving things happening near the water. You can
+      focus your senses on one specific place at a time, as if you were there.
+      While you are using this ability, you are unaware at your true
+      location.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Water; Watersense adaptation; 17th level'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: if48peeoo6086fsi
+_key: '!items!if48peeoo6086fsi'

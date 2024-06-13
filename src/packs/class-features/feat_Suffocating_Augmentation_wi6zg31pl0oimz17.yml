@@ -1,0 +1,73 @@
+folder: null
+name: Suffocating Augmentation
+type: feat
+img: icons/magic/air/wind-stream-blue-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-15739a6b-7fff-df7e-de97-bc0df31f75ba"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 17; <strong>Element:</strong> Air or
+      Water</span></em></p>
+
+      <p><span id="docs-internal-guid-6ca396b9-7fff-51fe-65c7-5bd86b53fb8f">By
+      spending 7 spell points, your blast sucks the air from the target&rsquo;s
+      lungs or fills them with water. Creatures hit must succeed a Constitution
+      saving throw or take 1d6 ongoing damage and begin holding their breath;
+      they can repeat this saving throw at the end of each of their turns to
+      regain their breath and end the effect. Non-breathing creatures are immune
+      to this effect. This otherwise follows the rules for drowning and
+      suffocation.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: generic
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: wi6zg31pl0oimz17
+_key: '!items!wi6zg31pl0oimz17'

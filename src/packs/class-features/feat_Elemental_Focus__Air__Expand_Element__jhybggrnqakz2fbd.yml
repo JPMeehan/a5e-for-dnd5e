@@ -1,0 +1,148 @@
+folder: null
+name: 'Elemental Focus: Air (Expand Element)'
+type: feat
+img: icons/magic/lightning/bolt-beam-strike-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-871610b8-7fff-e567-5108-722751463cde">If
+      you choose Elemental Focus for your element, you gain access to a Focused
+      Blast.</span></p>
+
+      <p id="docs-internal-guid-89a77d71-7fff-1d70-d659-03d2f02bc8cc"
+      dir="ltr">You can gain this ability multiple times, but for a different
+      element each time.</p>
+
+      <p dir="ltr">A Focused Blast is a more focused and powerful version of a
+      pure Elemental Blast.. You must possess Elemental Focus in an element to
+      use its Focused Blast. Focused Blasts have different damage types and
+      properties than their basic counterparts.</p>
+
+      <p dir="ltr">&nbsp;</p>
+
+      <p><strong>Table: Focused Blasts</strong></p>
+
+      <table style="width: 100%; height: 84px;" border="1"><colgroup><col
+      style="width: 11.284%;"><col style="width: 22.3735%;"><col style="width:
+      14.5971%;"><col style="width: 51.7453%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Affinity</td>
+
+      <td style="text-align: center; height: 16.8px;">Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Damage</td>
+
+      <td style="text-align: center; height: 16.8px;">Properties</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Air</td>
+
+      <td style="text-align: center; height: 16.8px;">Lightning Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Lightning</td>
+
+      <td style="text-align: left; height: 16.8px;">Shocking: On hit, target
+      loses reaction for 1 round. Gains +1d4 expertise die to hit against
+      targets wearing metal armor or made of metal (or imposes a -1d4 penalty to
+      saves for such targets)</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Affinity in Air
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - round(@level/2)d6 + @mod
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/lightning/bolt-beam-strike-blue.webp
+    origin: Item.QZz9Nq91N1M4OCzl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Ni4aSdblPrHYr6zx
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Shocking
+    _id: SMsoMQ9f0EttNiJ7
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Loses reaction.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!jhybggrnqakz2fbd.SMsoMQ9f0EttNiJ7'
+flags: {}
+_id: jhybggrnqakz2fbd
+_key: '!items!jhybggrnqakz2fbd'

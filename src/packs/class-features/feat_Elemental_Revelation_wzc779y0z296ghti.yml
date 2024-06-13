@@ -1,0 +1,44 @@
+folder: null
+name: Elemental Revelation
+type: feat
+img: icons/magic/symbols/cross-circle-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-c5c8ad3f-7fff-434d-69e0-455d559aaeec"
+      dir="ltr">At 15th level, your deep study of the elements allows you to
+      suddenly surge ahead in power and understanding, far exceeding your normal
+      limits. Choose one of the following spells associated with one of your
+      elemental affinities. You may cast this spell once per long rest without
+      spending spell points. (With the Narrator&rsquo;s approval, you may select
+      a different 6th-level spell appropriate to your element.)</p>
+
+      <p dir="ltr"><strong>Air.</strong>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ul2dm9mm2d9p7v5t]{Reap the
+      Whirlwind}</p>
+
+      <p dir="ltr"><strong>Earth.</strong>
+      @UUID[Compendium.a5e.a5e-spells.Item.7tdh92wr0hnymgvr]{Ravaging Roots}</p>
+
+      <p dir="ltr"><strong>Fire.</strong>
+      @UUID[Compendium.a5e.a5e-spells.Item.ppnrlrscd3djkydd]{Sunbeam}</p>
+
+      <p dir="ltr"><strong>Water.</strong>
+      @UUID[Compendium.a5e.a5e-spells.Item.oxrnnxd894sfb996]{Freezing
+      Sphere}</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: wzc779y0z296ghti
+_key: '!items!wzc779y0z296ghti'

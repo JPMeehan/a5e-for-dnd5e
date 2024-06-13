@@ -1,0 +1,47 @@
+name: Transcendence
+type: feat
+img: icons/magic/earth/construct-stone.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 15th level, your type changes to elemental, your path of
+      transcendence has reached its apex, and you have shed your mortal form.
+      You take on the form of an elemental, becoming made of solid air, earth,
+      fire, water, as appropriate for your element. You no longer need to
+      breathe, drink, eat, or sleep, no longer requiring Supply.</p>
+
+      <p dir="ltr">Additionally, you gain an additional ability based on your
+      element.</p>
+
+      <ul>
+
+      <li dir="ltr"><strong>Air</strong>: You gain immunity to lightning
+      damage.</li>
+
+      <li dir="ltr"><strong>Earth</strong>: You gain immunity to poison
+      damage.</li>
+
+      <li dir="ltr"><strong>Fire</strong>: You gain immunity to fire
+      damage.</li>
+
+      <li dir="ltr"><strong>Water</strong>: You gain immunity to cold
+      damage.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: pmi7bblyyui6xmao
+_key: '!items!pmi7bblyyui6xmao'

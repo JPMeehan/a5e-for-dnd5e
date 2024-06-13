@@ -1,6 +1,6 @@
 name: 'Inspiring Devotion: Reveal Heresy'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/tools/scribal/magnifying-glass.webp
 effects: []
 flags: {}
 system:
@@ -24,8 +24,8 @@ system:
     value: null
     charged: true
   activation:
-    type: none
-    cost: ''
+    type: ''
+    cost: 1
     condition: ''
   duration: {}
   cover: null
@@ -49,7 +49,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -60,7 +60,7 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: cha
     dc: null
     scaling: spell
 folder: null

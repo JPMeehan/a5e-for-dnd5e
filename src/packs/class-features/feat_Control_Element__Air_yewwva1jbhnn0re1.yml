@@ -1,0 +1,102 @@
+folder: null
+name: 'Control Element: Air'
+type: feat
+img: icons/magic/air/fog-gas-smoke-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-b68706a5-7fff-e4c2-5b6b-7857dc5b77d5"
+      dir="ltr">In addition to creating damaging blasts of elemental energy,
+      elementalists are able to command and control elemental material at a
+      distance. As an action, an elementalist can create effects at a range of
+      30 feet, manipulating ambient elemental material to create any of the
+      following effects. You must possess the proper elemental affinity to
+      control an element.</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Elemental material weighing up to 5 lbs
+      per elementalist level can be moved up to 30 feet.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Elemental material up to a cubic foot can
+      be reshaped (such as ice or stone), using your power in place of any
+      required tool proficiencies. Shapes can be made in amorphous elements
+      (like air, fire, or water), but the shapes only hold for as long as you
+      spend an action.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Air can be used to create light breezes,
+      enough to ruffle and move material like paper and leaves, blow out tiny
+      fires, or clear or create smells. You can also move air into a
+      creature&rsquo;s lungs, allowing it to breathe for 1 minute in an
+      environment it otherwise couldn&rsquo;t. You can use air to perform the
+      Knockdown and Shove maneuvers against medium or smaller creatures within
+      range.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: yewwva1jbhnn0re1
+_key: '!items!yewwva1jbhnn0re1'

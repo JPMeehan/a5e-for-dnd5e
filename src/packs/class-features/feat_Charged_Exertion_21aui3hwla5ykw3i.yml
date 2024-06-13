@@ -1,0 +1,32 @@
+name: Charged Exertion
+type: feat
+img: icons/magic/movement/abstract-ribbons-red-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level, you learn that your willpower is linked to the power of
+      your artifact, and that you can draw from it or empower it. At the start
+      of your turn you can spend any number of your bonded artifact&rsquo;s
+      charges, if you do, you gain half that many exertion points (rounded down,
+      up to a maximum equal to your exertion pool).</p>
+
+      <p>Alternatively, at the start of your turn you can spend any number of
+      exertion points, if you do, your bonded artifact regains half that many
+      spent charges (rounded down, up to your artifact charges limit).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 21aui3hwla5ykw3i
+_key: '!items!21aui3hwla5ykw3i'

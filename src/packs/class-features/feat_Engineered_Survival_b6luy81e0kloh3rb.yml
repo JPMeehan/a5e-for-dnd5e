@@ -1,0 +1,69 @@
+folder: null
+name: Engineered Survival
+type: feat
+img: icons/environment/wilderness/camp-improvised.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, you may spend an hour to make a DC 25 engineering check
+      and spend 100gp worth of supplies to create a temporary haven. &nbsp;This
+      structure can accommodate you and up to your proficiency bonus additional
+      medium creatures and lasts 8 hours. &nbsp;You may only attempt this check
+      once per long rest, and on a failure expend half the gold in materials.
+      You may add your Intelligence modifier to checks with hunting snares and
+      fishing traps to see if they gather supply.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: b6luy81e0kloh3rb
+_key: '!items!b6luy81e0kloh3rb'

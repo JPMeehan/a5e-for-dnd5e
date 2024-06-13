@@ -1,0 +1,117 @@
+folder: null
+name: 'Admixtured Blast: Fire and Water (Expand Element)'
+type: feat
+img: icons/magic/water/projectile-ice-impact-stone.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-3b9d0d13-7fff-b373-76db-c463e4ae3e8c">An
+      Admixtured Blast combines the power of two elements into one blast. If you
+      have two or more Elemental Affinities, you gain access to Admixtured
+      Blasts. Admixtured blasts deal two damage types and have their own
+      properties. Admixtured blasts can utilize augments of any of their base
+      elements.</span></p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Admixtured Blasts</strong></p>
+
+      <table style="width: 100%; height: 117.6px;" border="1"><colgroup><col
+      style="width: 16.7315%;"><col style="width: 18.0934%;"><col style="width:
+      22.5877%;"><col style="width: 42.5874%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Affinity</td>
+
+      <td style="text-align: center; height: 16.8px;">Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Damage</td>
+
+      <td style="text-align: center; height: 16.8px;">Properties</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Fire/Water</td>
+
+      <td style="text-align: center; height: 16.8px;">Steam Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Bludgeoning<br>and
+      Fire</td>
+
+      <td style="height: 16.8px;">Blistering: On hit, the target takes an
+      additional 1d6 damage the next time it takes fire damage<br>before the end
+      of your next turn.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - (round(@level/2)d6 + @mod)/2
+        - bludgeoning
+      - - (round(@level/2)d6 + @mod)/2
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 7skfdy1tcvek3hac
+_key: '!items!7skfdy1tcvek3hac'

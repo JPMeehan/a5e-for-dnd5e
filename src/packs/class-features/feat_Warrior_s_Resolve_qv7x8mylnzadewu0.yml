@@ -1,0 +1,66 @@
+name: Warrior's Resolve
+type: feat
+img: icons/magic/control/silhouette-hold-beam-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, your time in the thick of combat has hardened your
+      psyche. You gain immunity to the frightened condition, and you have
+      advantage on saving throws to avoid being charmed or compelled. In
+      addition, during a short rest or upon the completion of a long rest you
+      may spend a hit die to remove one level of fatigue or strife. You may only
+      spend one die this way per rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: qv7x8mylnzadewu0
+_key: '!items!qv7x8mylnzadewu0'

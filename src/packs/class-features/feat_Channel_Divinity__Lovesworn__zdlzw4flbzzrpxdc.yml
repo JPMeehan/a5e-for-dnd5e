@@ -1,0 +1,81 @@
+folder: null
+name: Channel Divinity (Lovesworn)
+type: feat
+img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-95240a5b-7fff-9e13-9d1d-17fa98924c02"
+      dir="ltr">At 3rd level, you gain the following Channel Divinity
+      options.</p>
+
+      <p dir="ltr"><strong>Fidelity.</strong> As an action, you grant a creature
+      you touch immunity to the charmed condition and spells of the compulsion
+      school until the start of your next turn, ending any such effects. Being
+      subject to any of the aforementioned effects cannot prevent you from using
+      this Channel Divinity option.</p>
+
+      <p dir="ltr"><strong>Second Self.</strong> When you cast a spell that
+      targets a creature or are targeted by such a spell, you may use your
+      reaction to also target an additional willing creature within 30 feet of
+      you. Either the original or the additional target must be yourself, and
+      all creatures targeted by the spell must be willing targets or the Channel
+      Divinity fails.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When you cast a spell that targets a creature or are targeted by such a
+      spell
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: zdlzw4flbzzrpxdc
+_key: '!items!zdlzw4flbzzrpxdc'

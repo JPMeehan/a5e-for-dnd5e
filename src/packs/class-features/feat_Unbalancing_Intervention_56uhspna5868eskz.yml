@@ -1,6 +1,6 @@
 name: Unbalancing Intervention
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/shield-block-bash-blue.webp
 system:
   type:
     value: class
@@ -13,13 +13,55 @@ system:
       has disadvantage on its ability check or saving throw.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      A creature within your reach makes a Strength or Dexterity ability check
+      or saving throw
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null

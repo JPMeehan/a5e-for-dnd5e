@@ -1,0 +1,27 @@
+name: Sustained by Death
+type: feat
+img: icons/magic/death/weapon-sword-skull-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Both you and your weapon hunger and can be sustained through death.
+      Whenever you kill a humanoid creature using your weapon of power you are
+      invigorated and fed for the next 24 hours by their passage to the
+      afterlife as if you had consumed a Supply.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Weapon of Power
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: qlogkz51nsca48c2
+_key: '!items!qlogkz51nsca48c2'

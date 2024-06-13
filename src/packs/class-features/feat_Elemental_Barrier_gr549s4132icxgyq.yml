@@ -1,0 +1,71 @@
+folder: null
+name: Elemental Barrier
+type: feat
+img: icons/magic/earth/barrier-stone-brown-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">As an action, you manifest a rough barrier of elemental
+      material that you can control (earth and stone for earth, or water or ice
+      for water). The barrier is a wall (3 ft wide, 5 ft tall, AC 10, 5 hit
+      points per level) that is unable to support more than 5 lbs of weight.
+      Water or ice is translucent, but earthen material is opaque. You can have
+      a number of elemental barriers in existence equal to your spellcasting
+      ability modifier; if you create more than your limit, you choose one of
+      your existing barriers to crumble. Water and ice barriers last only 1
+      minute, unless the ambient temperature is below freezing.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Earth or Water'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: gr549s4132icxgyq
+_key: '!items!gr549s4132icxgyq'

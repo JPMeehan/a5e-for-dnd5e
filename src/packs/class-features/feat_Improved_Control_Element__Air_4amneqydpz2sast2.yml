@@ -1,0 +1,102 @@
+folder: null
+name: 'Improved Control Element: Air'
+type: feat
+img: icons/magic/air/fog-gas-smoke-swirling-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-1c306f48-7fff-29c8-7add-b77ba405fa96"
+      dir="ltr">At 13th level, you gain greater control of your elemental
+      affinities. The range of your Control Elements ability increases to 60
+      feet. You can now perform the following effects as an action, or sustain
+      an effect from the previous round as an action.</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You can move elemental material weighing
+      up to 50 lbs per elementalist level. You can move multiple objects
+      together, as long as they weigh less than your total limit together and
+      fit within a 15 by 15 foot cube.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You can target an elemental creature
+      within range that is no larger than Huge size. The target makes a Strength
+      save against your spell save DC or is moved up to 30 feet in any direction
+      and is restrained (even in mid-air) until the end of your next turn. You
+      cannot move a target beyond your 60 foot control range, or else it is
+      released from your hold.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Air can be used to push creatures of up
+      to Huge size. Choose a creature within range. The target makes a Strength
+      save against your spell DC or is moved up to 30 feet in any direction and
+      is knocked prone. Swirling winds can be used to manipulate light objects
+      weighing less than 5 lbs per elementalist level, moving them up to 30
+      feet, but this movement is not precise.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 4amneqydpz2sast2
+_key: '!items!4amneqydpz2sast2'

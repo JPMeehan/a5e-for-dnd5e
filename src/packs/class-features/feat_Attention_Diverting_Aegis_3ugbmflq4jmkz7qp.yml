@@ -8,12 +8,13 @@ system:
   description:
     value: >-
       <p>When a creature within 30 feet that can sense you makes an attack that
-      isn’t targeting you, you can use your reaction to try to distract the
-      attacker. If it fails a Wisdom saving throw , until your next turn it has
-      disadvantage on all attack rolls it makes that aren’t against you.</p>
+      isn&rsquo;t targeting you, you can use your reaction to try to distract
+      the attacker. If it fails a Wisdom saving throw, until your next turn it
+      has disadvantage on all attack rolls it makes that aren&rsquo;t against
+      you.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -21,8 +22,8 @@ system:
     value: null
     charged: true
   activation:
-    type: reaction
-    cost: null
+    type: ''
+    cost: 1
     condition: >-
       When a creature within 30 feet that can sense you makes an attack that
       isn’t targeting you

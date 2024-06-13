@@ -1,0 +1,115 @@
+folder: null
+name: Gather Energy
+type: feat
+img: icons/magic/fire/flame-burning-hand-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 87">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>You have learned how to draw upon not just your own elemental energy,
+      but the energy of the world around you.</p>
+
+      <p>At 3rd level, you can use your bonus action to gather energy as long as
+      you have a free hand. While held, the gathered energy remains inside or
+      swirling around your hand, creating an obvious visual display, such as a
+      burning fire ball, a swirling wind, a churning mass of rock, or a swirling
+      orb of water. You can expend your gathered energy when you use your action
+      to attack with elemental blast to gain temporary spell points equal to
+      half your proficiency bonus that can only be used toward an elemental
+      blast augmentation. These temporary spell points cannot be used to exceed
+      your spell point casting limit.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/flame-burning-hand-purple.webp
+    origin: Item.bzcOJgTYmueFCOAr
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: B9suC1g4MACBNff8
+        applyToSelf: true
+    transfer: false
+    name: Gather Energy
+    _id: eHhSSkIWxbryJxfz
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ytcsa478xzuifmur.eHhSSkIWxbryJxfz'
+flags: {}
+_id: ytcsa478xzuifmur
+_key: '!items!ytcsa478xzuifmur'

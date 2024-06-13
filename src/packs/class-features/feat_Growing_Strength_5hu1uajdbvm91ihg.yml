@@ -1,0 +1,90 @@
+name: Growing Strength
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level your power grows by leaps and bounds. You gain one of the
+      following abilities based on your choice of flesh and bone.</p>
+
+      <ul>
+
+      <li><strong>Bale Eye</strong>: Your bonded power grows significantly. You
+      may now use your baleful gaze in a 30ft cone or a 15ft radius around
+      yourself. In addition, creatures that roll a natural 1 on their saving
+      throw against your bonded power become petrified for 1 minute.</li>
+
+      <li><strong>King of Beasts</strong>: As an action you can throw your head
+      back to unleash a terrifying roar that is audible up to 300ft away. All
+      creatures within the area must make a Wisdom save against your spell save
+      DC or become frightened for up to 1 minute. Affected creatures may make a
+      Wisdom save at the end of each of their turns to end the effect, and any
+      creature that has been affected by this ability becomes immune for 24
+      hours once they make a successful save. You may use this ability once per
+      short rest, or spend a sorcery point as a bonus action to regain use of
+      it.<br>In addition, your bite attack now deals 2d8 acid damage on a
+      successful hit.</li>
+
+      <li><strong>Changeling</strong>: Your bonded power grows significantly.
+      You may now use it to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.95tar7xr3hdp0o92]{Polymorph} on
+      yourself. When you do so, the spell has no components and does not require
+      concentration.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 60
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 5hu1uajdbvm91ihg
+_key: '!items!5hu1uajdbvm91ihg'

@@ -1,0 +1,27 @@
+name: Silence
+type: feat
+img: icons/commodities/biological/tongue-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>In exchange for speaking only to cast spells, you are able to compel
+      other creatures to action with only a glance. When a creature within 10
+      feet of you makes a Persuasion check, you may add your Wisdom modifier to
+      the result.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: eed5zt51yzu8zbet
+_key: '!items!eed5zt51yzu8zbet'

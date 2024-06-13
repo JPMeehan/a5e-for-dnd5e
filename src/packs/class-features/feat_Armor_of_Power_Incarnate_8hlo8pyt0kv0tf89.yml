@@ -1,0 +1,52 @@
+name: Armor of Power Incarnate
+type: feat
+img: icons/equipment/chest/breastplate-helmet-metal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>While wearing your armor of power you gain resistance to non-magical
+      bludgeoning, piercing, and slashing damage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.FBKkA0cp3VkUms3t
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Armor of Power Incarnate
+    _id: pCDZmSDsr4duoIJk
+    changes:
+      - key: system.traits.damageResistances
+        mode: 2
+        value: non-magical bludgeoning, piercing, and slashing damage
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!8hlo8pyt0kv0tf89.pCDZmSDsr4duoIJk'
+flags: {}
+folder: null
+_id: 8hlo8pyt0kv0tf89
+_key: '!items!8hlo8pyt0kv0tf89'

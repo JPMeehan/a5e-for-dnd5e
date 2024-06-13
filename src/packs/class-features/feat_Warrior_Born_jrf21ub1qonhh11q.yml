@@ -1,0 +1,59 @@
+folder: null
+name: Warrior Born
+type: feat
+img: icons/skills/melee/maneuver-greatsword-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, the ways of combat that have come naturally to you
+      bring new and unexpected lessons. Choose one of the following.</p>
+
+      <h2>Agitate</h2>
+
+      <p>Many battles have taught you how to spot aggressive body language like
+      a pursed eyebrow, tensed temple, or protruding vein, and you&rsquo;ve
+      mastered using these cues to unsettle others outside of combat. Make an
+      Intimidation check opposed by the Insight check of a creature you can see
+      and hear within 20 feet. On a success, you subtly press the creature to
+      act out. What exactly the creature does&mdash;back away quickly, blurt out
+      something compromising, draw a weapon, look towards a concealed or
+      disguised companion, protectively touch something it is carrying&mdash;is
+      at the Narrator&rsquo;s discretion.</p>
+
+      <p>Once you have used this feature, you cannot do so again until you
+      finish a short or long rest.</p>
+
+      <h2>Fearsome Reputation</h2>
+
+      <p>Word spreads of your prodigious strength or how terrifying you can be
+      in battle. Whenever you are in a settlement, at least one commoner
+      approaches you with a modest gift or bribe and beseeches you to help
+      settle a feud, move a large obstacle, or otherwise make use of your
+      impressive might. In addition to their offering, they are eager to tell
+      you about their home and neighbors.</p>
+
+      <h2>Imposing Prowess</h2>
+
+      <p>When an ally you can see and hear makes a Deception or Persuasion
+      check, you can use your reaction to support them with an intimidating
+      display of strength or unsettling glower. Your ally rerolls the check,
+      gaining an expertise die on the roll.</p>
+
+      <p>Once you have used this feature, you cannot do so again until you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: jrf21ub1qonhh11q
+_key: '!items!jrf21ub1qonhh11q'

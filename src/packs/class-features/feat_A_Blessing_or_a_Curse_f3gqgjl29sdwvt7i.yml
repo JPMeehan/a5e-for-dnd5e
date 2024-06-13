@@ -9,20 +9,15 @@ system:
     value: >-
       <p>At 5th level, you gain the ability to manipulate the strands of fortune
       and fate. You may do so a number of times equal to your proficiency bonus,
-      regaining expended uses on a long rest. Choose one of the following:</p>
-
-      <h3>Witch&rsquo;s Blessing</h3>
-
-      <p>When a creature you can see fails an ability check, attack roll, or
-      saving throw, you may use your reaction to apply a bonus equal to 1d4 +
-      your spellcasting ability modifier, potentially changing the result of the
-      roll.</p>
-
-      <h3>Witch&rsquo;s Curse</h3>
-
-      <p>When a creature you can see succeeds on an ability check, attack roll,
-      or saving throws, you may use your reaction to apply a penalty equal to
-      1d4 + your spellcasting ability modifier.</p>
+      regaining expended uses on a long rest. Choose one of the
+      following:</p><h3>Witch&rsquo;s Blessing</h3><p>When a creature you can
+      see fails an ability check, attack roll, or saving throw, you may use your
+      reaction to apply a bonus equal to 1d4 + your spellcasting ability
+      modifier, potentially changing the result of the
+      roll.</p><h3>Witch&rsquo;s Curse</h3><p>When a creature you can see
+      succeeds on an ability check, attack roll, or saving throws, you may use
+      your reaction to apply a penalty equal to 1d4 + your spellcasting ability
+      modifier.</p>
     chat: ''
   source:
     book: Mysterious and Marvelous Miscellanea
@@ -32,48 +27,6 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: reaction
-    cost: 1
-    condition: >-
-      A creature you can see fails an ability check, attack roll, or saving
-      throw
-  duration: {}
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: null
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
 effects: []
 flags: {}
 folder: null

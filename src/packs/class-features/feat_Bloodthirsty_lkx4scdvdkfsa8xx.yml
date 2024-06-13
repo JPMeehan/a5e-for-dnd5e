@@ -1,0 +1,37 @@
+name: Bloodthirsty
+type: feat
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level, you and creatures friendly to you within the area of
+      your Commanding Presence do an additional 1d4 of necrotic damage with
+      their weapon attacks, and any creature reduced to 0 hit points by an
+      affected creature immediately accrues one failed death save.</p>
+
+      <p>In addition, as long as you have at least two allied creatures in the
+      area of your Commanding Presence, you all gain an expertise die on
+      Intimidation checks.</p>
+
+      <p>Finally, you and your allies within your Commanding Presence gain
+      advantage on all attacks made against incapacitated creatures and
+      noncombatants. If ayou or an ally would already have advantage on the
+      attack, you deal an additional 1d4 of necrotic damage instead, which stack
+      with the bonus damage above.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+img: icons/skills/wounds/blood-drip-droplet-red.webp
+effects: []
+flags: {}
+folder: null
+_id: lkx4scdvdkfsa8xx
+_key: '!items!lkx4scdvdkfsa8xx'

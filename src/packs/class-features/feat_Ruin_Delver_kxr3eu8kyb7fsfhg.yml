@@ -1,0 +1,98 @@
+folder: null
+name: Ruin Delver
+type: feat
+img: icons/environment/wilderness/wall-ruins.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level, you also gain proficiency with thieves' tools and weapon
+      proficiency with a whip. &nbsp;If you are already proficient with thieves'
+      tools you gain proficiency with another tool of your choice. &nbsp;If you
+      have detected a trap already, you may make a history check against the
+      disarm DC. &nbsp;If successful, you gain advantage on any checks to disarm
+      the trap. &nbsp;You may also always choose to use Intelligence with
+      thieves' tools checks.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/environment/wilderness/wall-ruins.webp
+    origin: Item.kxr3eu8kyb7fsfhg
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Ruin Delver
+    _id: AgY7ao3rhwdms3gD
+    changes:
+      - key: system.proficiencies.tools
+        value: '["thievesTools"]'
+        mode: 2
+        priority: null
+      - key: system.proficiencies.weapons
+        value: '["whip"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!kxr3eu8kyb7fsfhg.AgY7ao3rhwdms3gD'
+flags: {}
+_id: kxr3eu8kyb7fsfhg
+_key: '!items!kxr3eu8kyb7fsfhg'

@@ -1,0 +1,29 @@
+folder: null
+name: Ride the Lightning
+type: feat
+img: icons/magic/lightning/bolt-forked-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As part of a&nbsp;<em>lightning blast</em> attack, you become a bolt of
+      lightning and travel along with the blast. You appear at the end of the
+      blast&rsquo;s path, adjacent to the blast&rsquo;s target (or final target
+      if it has multiple targets), or at the center of a burst or spread for
+      shape augmentations like burst. This cannot be used with melee blasts or
+      cone shaped blasts.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Focus: Air; Electric Slide adaptation; 17th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 22yw94lxceh50m18
+_key: '!items!22yw94lxceh50m18'

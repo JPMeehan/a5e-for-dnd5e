@@ -25,8 +25,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
-    cost: ''
+    type: ''
+    cost: 1
     condition: ''
   duration: {}
   cover: null
@@ -39,7 +39,7 @@ system:
   range:
     value: null
     long: null
-    units: touch
+    units: ''
   uses:
     value: null
     max: ''

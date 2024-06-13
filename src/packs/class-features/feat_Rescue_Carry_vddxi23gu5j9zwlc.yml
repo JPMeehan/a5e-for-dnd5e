@@ -1,0 +1,40 @@
+name: Rescue Carry
+type: feat
+img: icons/skills/movement/arrows-up-trio-red.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, you learn to safely remove other humanoids from
+      bad situations—conscious or not! As an action, you may lift another
+      willing or unconscious Humanoid of your size category or smaller onto your
+      shoulders. While you are carrying someone this way, you only have one hand
+      free to use a weapon and you may move at your full movement speed, but may
+      not Dash. The creature is considered grappled while you carry it this way,
+      but has advantage on checks to free itself if it wants to.</p><p>You can
+      climb while carrying someone this way, but your climbing speed is
+      halved.</p><p>While swimming along the water’s surface, you can likewise
+      hold another creature of your size category or smaller in such a way that
+      its head remains above water and pull it along with you. While pulling a
+      creature this way, your swim speed is halved. As above, such a creature is
+      considered grappled, but has advantage on checks to free itself if it
+      wants to do so.</p><p>In any of these cases, setting down the person you
+      carry or pulling them onto dry land requires an action. Dropping them
+      unceremoniously (dealing 1d6 of bludgeoning damage if onto a hard surface)
+      can be done as a bonus action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: vddxi23gu5j9zwlc
+_key: '!items!vddxi23gu5j9zwlc'

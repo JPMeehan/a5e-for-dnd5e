@@ -1,0 +1,68 @@
+name: Myrmidon Immortality
+type: feat
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level, the ferocity of your elemental fury knows no bounds. If
+      you are reduced to 0 hp, you can choose to remain at 1 hp and make an
+      Elemental Blast attack as a reaction against the creature or object that
+      reduced you to 0 hp if it is within range. Once you use this ability, you
+      cannot use it again until you complete a short or a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '1'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: jg3zx7f20hl5lg7x
+_key: '!items!jg3zx7f20hl5lg7x'

@@ -1,7 +1,437 @@
 name: Studied Adversary
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/sundries/documents/document-symbol-person-brown.webp
+effects:
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Aberrations)
+    _id: 3ev8adUiEai79CRZ
+    changes:
+      - key: system.proficiencies.languages
+        value: '["deep"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.3ev8adUiEai79CRZ'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Beasts)
+    _id: vUmkxOE90DZ4OdDm
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.vUmkxOE90DZ4OdDm'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Celestials)
+    _id: EhxGtKZ5vNeDW8Dw
+    changes:
+      - key: system.proficiencies.languages
+        value: '["celestial"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.EhxGtKZ5vNeDW8Dw'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Constructs)
+    _id: Coacs4FaMqoZrhJc
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.Coacs4FaMqoZrhJc'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Dragons)
+    _id: 8u7y8e2ZMWhg5M88
+    changes:
+      - key: system.proficiencies.languages
+        value: '["draconic"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.8u7y8e2ZMWhg5M88'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Elementals)
+    _id: EvqNBwQVyFbd0A8q
+    changes:
+      - key: system.proficiencies.languages
+        value: '["primordial"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.EvqNBwQVyFbd0A8q'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Fey)
+    _id: 308nylmE6G5ajoDC
+    changes:
+      - key: system.proficiencies.languages
+        value: '["sylvan"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.308nylmE6G5ajoDC'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Fiends)
+    _id: BlcWn3hhPOA0e09C
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.BlcWn3hhPOA0e09C'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Giants)
+    _id: tkqHnvJ05zq9VlrR
+    changes:
+      - key: system.proficiencies.languages
+        value: '["giant"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.tkqHnvJ05zq9VlrR'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Monstrosities)
+    _id: 86fR82JXOJp4X8J6
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.86fR82JXOJp4X8J6'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Oozes)
+    _id: MQQCJheepMloL7zl
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.MQQCJheepMloL7zl'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Plants)
+    _id: GikHrx66u7p8Vx0M
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.GikHrx66u7p8Vx0M'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Undead)
+    _id: JNVzJ0XQ3qfV62k3
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.JNVzJ0XQ3qfV62k3'
+  - icon: icons/sundries/documents/document-symbol-person-brown.webp
+    origin: Item.t7ujv9cc4us40fj9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ezNP0ByuHJkW521P
+        applyToSelf: false
+    transfer: false
+    name: Studied Adversary (Two Humanoid)
+    _id: jCPOAgulz5sMcXl4
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on Survival checks to track your studied adversaries, as well
+      as on ability checks to recall information about them. You also learn to
+      communicate with basic words in a language of your choice that is spoken
+      by your studied adversaries, if they speak one at all.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!t7ujv9cc4us40fj9.jCPOAgulz5sMcXl4'
 flags: {}
 system:
   type:
@@ -29,6 +459,43 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: t7ujv9cc4us40fj9
 _key: '!items!t7ujv9cc4us40fj9'

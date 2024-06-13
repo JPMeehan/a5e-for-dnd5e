@@ -1,0 +1,65 @@
+name: Truthspeaker
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You&rsquo;ve learned to tap into the fundamental truth that connects
+      all things, at least briefly.</p><p>You may cast the spell legend lore
+      without expending a spell slot and without material components. Once you
+      cast the spell in this way, you cannot do so again for the next 24
+      hours.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_id: qmyarubxrtb7361n
+_key: '!items!qmyarubxrtb7361n'

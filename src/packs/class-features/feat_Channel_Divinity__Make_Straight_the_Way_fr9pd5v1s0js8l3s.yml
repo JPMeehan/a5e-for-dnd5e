@@ -1,0 +1,66 @@
+folder: null
+name: 'Channel Divinity: Make Straight the Way'
+type: feat
+img: icons/skills/movement/arrow-upward-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-9a7b42a5-7fff-7567-cd83-851da24355e8">At
+      2nd level, you may use an action and expend a use of Channel Divinity to
+      clear a 20-foot square or 10-foot by 40-foot line of difficult terrain
+      within 60 feet of you for 10 minutes.</span></p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 40
+    width: 10
+    units: ft
+    type: line
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: fr9pd5v1s0js8l3s
+_key: '!items!fr9pd5v1s0js8l3s'

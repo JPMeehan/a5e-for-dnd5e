@@ -1,0 +1,30 @@
+name: Returning Relic
+type: feat
+img: icons/skills/melee/swords-triple-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Regardless of weight or aerodynamics your relic flies from your
+      fingertips straight as an arrow and magically returns to them. Your weapon
+      of power gains the thrown weapon quality with a range of 30/60. Whenever
+      you make a thrown weapon attack using your weapon of power in this way it
+      magically returns to your hand at the end of the attack. In addition, so
+      long as your weapon of power is within 60 feet you can magically return it
+      to your hand as a bonus action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Melee Weapon of Power
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: tw2vunoidkrc3bnk
+_key: '!items!tw2vunoidkrc3bnk'

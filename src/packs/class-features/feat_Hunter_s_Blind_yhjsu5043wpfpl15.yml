@@ -1,0 +1,70 @@
+name: Hunter's Blind
+type: feat
+img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can spend 10 minutes constructing a natural shelter able to
+      accommodate yourself and up to 9 other creatures of Medium size or
+      smaller. The shelter blends in with its surroundings, and as long as no
+      one moves into or out of it, the shelter is indistinguishable from a
+      natural object. It is designed to allow creatures inside to see out but
+      prevent anyone outside from seeing in.&nbsp;</p><p>The shelter is
+      comfortable and dry, regardless of the weather outside, and counts as a
+      haven.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_id: yhjsu5043wpfpl15
+_key: '!items!yhjsu5043wpfpl15'

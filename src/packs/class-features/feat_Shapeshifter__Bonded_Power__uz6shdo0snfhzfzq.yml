@@ -1,0 +1,77 @@
+name: Shapeshifter (Bonded Power)
+type: feat
+img: icons/magic/symbols/triangle-glow-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level you gain a special ability tied to the experiments
+      that were pressed upon you. Your bonded power must be of the same line as
+      your flesh and bone selection.</p>
+
+      <p><strong>Shapeshifter</strong>: You gain the ability to change your body
+      significantly. As an action you may drastically alter your appearance,
+      including height by up to a foot, weight by up to 50lbs, and heritage. If
+      you attempt to mimic a specific creature you gain advantage on any
+      performance or deception checks based on appearance. You may also choose
+      to instead alter your body to gain a climb or swim speed equal to your
+      normal speed. Any change requires an action and lasts up to an hour,
+      though you may choose to end the effect normally. You may use this ability
+      once per short rest, or expend a sorcery point as a bonus action to
+      recover use of it. This ability does not trigger Detect Magic or similar
+      effects.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: uz6shdo0snfhzfzq
+_key: '!items!uz6shdo0snfhzfzq'

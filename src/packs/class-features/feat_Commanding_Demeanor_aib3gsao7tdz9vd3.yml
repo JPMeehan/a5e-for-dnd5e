@@ -1,0 +1,35 @@
+folder: null
+name: Commanding Demeanor
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 12th level, the lessons you&rsquo;ve learned on the
+      battlefield become useful tools beyond the realm of combat. Choose one of
+      the following:</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.ewjq5pwishp4ur0o]{Demeanor:
+      Calm}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.ggox04rz30vh5c70]{Demeanor:
+      Resolute}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.xez601tr4j8n23of]{Demeanor:
+      Responsive}</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: aib3gsao7tdz9vd3
+_key: '!items!aib3gsao7tdz9vd3'

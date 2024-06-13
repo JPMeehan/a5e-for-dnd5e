@@ -1,0 +1,29 @@
+name: Sidereal Relic
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your relic does not quite belong to this world and it can slip in and
+      out of it easily. You add the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ijh0tu0wgpsp7v6n]{Misty Step}
+      to your list of known wielder spells. In addition, the artifact charge
+      cost for you to cast the spell <em>misty step</em> is reduced by 1
+      (minimum 1).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Font of Power, 7th level
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: pdq2mbjk13sy1v8b
+_key: '!items!pdq2mbjk13sy1v8b'

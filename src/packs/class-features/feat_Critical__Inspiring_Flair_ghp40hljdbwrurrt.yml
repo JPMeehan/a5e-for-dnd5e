@@ -1,6 +1,6 @@
 name: 'Critical: Inspiring Flair'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/weapons-crossed-poleaxes-white.webp
 effects: []
 flags: {}
 system:
@@ -34,8 +34,9 @@ system:
     units: ''
     type: creature
   range:
+    value: null
     long: null
-    units: ft
+    units: ''
   uses:
     value: null
     max: ''

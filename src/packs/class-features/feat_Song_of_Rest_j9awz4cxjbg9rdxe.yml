@@ -9,17 +9,57 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Any creatures able to perceive you performing your art while taking a
-      short rest and rolling hit dice regain an additional 1d8 hit points.</p>
+      <p>When you perform during a short rest,&nbsp;creatures who can perceive
+      your&nbsp;performance regain an additional 1d8 hit&nbsp;points when they
+      expend Hit Dice to&nbsp;regain hit points.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: j9awz4cxjbg9rdxe
 _key: '!items!j9awz4cxjbg9rdxe'

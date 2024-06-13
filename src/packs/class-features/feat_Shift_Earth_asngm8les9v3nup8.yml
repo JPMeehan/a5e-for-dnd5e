@@ -1,0 +1,66 @@
+folder: null
+name: Shift Earth
+type: feat
+img: icons/magic/earth/barrier-stone-brown-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>By spending at least 10 minutes focusing, you can cast
+      the&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.60b7bedzhmv417mj]{Move
+      Earth} spell without spending spell points.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Earth; Shift Earth adaptation; 17th level.'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: asngm8les9v3nup8
+_key: '!items!asngm8les9v3nup8'

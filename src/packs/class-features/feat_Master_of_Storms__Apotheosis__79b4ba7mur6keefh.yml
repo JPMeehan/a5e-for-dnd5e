@@ -1,0 +1,70 @@
+folder: null
+name: Master of Storms (Apotheosis)
+type: feat
+img: icons/magic/lightning/bolt-cloud-sky-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-385f4569-7fff-8ac7-025c-15f0978dab68">You
+      have mastered the elements that make up the power of the weather and
+      storms. You can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ekzbxzb2pzhffev9]{Control
+      Weather}</span>&nbsp;once without expending a spell slot or spell points.
+      Once you use this feature, you must complete a long rest before you can
+      use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Focus in Air and Water
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 79b4ba7mur6keefh
+_key: '!items!79b4ba7mur6keefh'

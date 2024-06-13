@@ -1,0 +1,71 @@
+folder: null
+name: Elemental Sculptor
+type: feat
+img: icons/tools/hand/hammer-mallet-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have refined your elemental control. At a range of 120 ft., you can
+      move up to a 5-ft-cube worth of elemental material up to 5-ft as an
+      action; the type you can control is determined by your Elemental
+      Affinities. You can make ability checks with your spellcasting ability
+      modifier with proficiency in place of tool checks to shape the material,
+      such as making sculptures of ice or stone, shapes of water and fire, or
+      reform clouds. Sturdy material, such as ice or stone, retains its shape as
+      normal, but air, fire, or water does not retain its shape if you do not
+      spend an action each turn controlling it.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: a3in27yz3ewhfrw8
+_key: '!items!a3in27yz3ewhfrw8'

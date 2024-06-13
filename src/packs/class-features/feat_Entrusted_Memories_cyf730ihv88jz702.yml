@@ -1,0 +1,27 @@
+name: Entrusted Memories
+type: feat
+img: icons/commodities/biological/organ-brain-pink-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your bonded artifact recalls some of the skills left dormant by time.
+      Your bonded artifact gains proficiency in 3 skills of your choice. You may
+      select this whisper multiple times, choosing different skills each
+      time.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Entrusted archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: cyf730ihv88jz702
+_key: '!items!cyf730ihv88jz702'

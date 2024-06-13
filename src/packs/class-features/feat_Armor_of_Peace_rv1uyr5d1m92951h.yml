@@ -1,0 +1,30 @@
+name: Armor of Peace
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-triangle-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>The power within your armor can de-escalate and detract from even the
+      thought of aggression.</p>
+
+      <p>You add the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.uell7a5o6fcerke2]{Sanctuary} to
+      your list of known wielder spells. In addition, the artifact charge cost
+      for you to cast the spell sanctuary is reduced by 1 (minimum 1).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Armor of Power
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: rv1uyr5d1m92951h
+_key: '!items!rv1uyr5d1m92951h'

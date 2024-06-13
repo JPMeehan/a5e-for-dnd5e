@@ -1,7 +1,36 @@
 name: 'Critical: Pinning Strike'
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/nature/root-vine-entangled-hands.webp
+effects:
+  - icon: icons/magic/nature/root-vine-entangled-hands.webp
+    origin: Item.2BfYWeTAdxtkRr4d
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: b8c8jPexFxMk338o
+    transfer: false
+    name: Grappled
+    _id: ZcCyVkc4EXKc1dpl
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["grappled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - grappled
+    folder: null
+    _key: '!items.effects!pabojacuzrnq1b19.ZcCyVkc4EXKc1dpl'
 flags: {}
 system:
   type:
@@ -48,7 +77,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -59,7 +88,7 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
 folder: null

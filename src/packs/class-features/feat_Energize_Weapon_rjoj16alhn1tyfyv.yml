@@ -1,0 +1,27 @@
+name: Energize Weapon
+type: feat
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level, weapons you wield become suffused with elemental energy.
+      Whenever you hit a creature with a melee weapon attack, it takes an
+      additional 1d8 points of damage. The damage type is chosen from among the
+      damage types of your Elemental Blasts.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: rjoj16alhn1tyfyv
+_key: '!items!rjoj16alhn1tyfyv'

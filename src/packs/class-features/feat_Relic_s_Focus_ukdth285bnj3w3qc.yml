@@ -1,0 +1,28 @@
+name: Relic's Focus
+type: feat
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 9th level, you&rsquo;ve learned to use your relic&rsquo;s power to
+      maintain your magic when your own focus lapses. Whenever you would lose
+      concentration on a wielder spell due to failing a concentration check, you
+      can expend one of your relic&rsquo;s charges to automatically succeed on
+      that concentration check instead.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: ukdth285bnj3w3qc
+_key: '!items!ukdth285bnj3w3qc'

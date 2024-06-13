@@ -1,0 +1,32 @@
+name: Survivalist
+type: feat
+img: icons/magic/nature/leaf-glow-teal.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>The harsh realities of life on the run require resourcefulness and the
+      treatment of your own injuries. You gain proficiency with the Medicine and
+      Survival skills. You can also carry 3 more units of Supply than
+      normal.</p><p>You are also able to find what you need via dubious means.
+      When you are in a village or near a farm, you can find enough food to
+      subsist indefinitely with no checks required at no cost. The food is often
+      unappetizing or at least bland, but it is safe to eat.</p><p>You are
+      proficient with improvised weapons, and gain an expertise die on Sleight
+      of Hand checks made to hide items on your person.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: 2eodzv6fbvpld33m
+_key: '!items!2eodzv6fbvpld33m'

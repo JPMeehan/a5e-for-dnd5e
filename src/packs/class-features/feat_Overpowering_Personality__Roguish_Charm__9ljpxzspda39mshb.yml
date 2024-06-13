@@ -1,7 +1,39 @@
 name: Overpowering Personality (Roguish Charm)
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+    origin: Item.9ljpxzspda39mshb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Ee6VgYojbsHqw3U6
+        duration:
+          type: seconds
+          unit: hours
+    transfer: false
+    name: Charmed
+    _id: 6JtLkOYlPL3o0iQE
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!9ljpxzspda39mshb.6JtLkOYlPL3o0iQE'
 flags: {}
 system:
   type:
@@ -9,16 +41,13 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Beginning at 18th level, your poise and charm allow you to impose your
-      vision on the world. Choose one of the following options. You must be
-      proficient in a skill in order to gain an expertise die from Overpowering
-      Personality.</p><h3><strong>Roguish Charm</strong></h3><p>You gain an
-      expertise die on Persuasion checks. After you spend a minute in
-      conversation with a creature that is not hostile, you may make a
+      <p>You gain an expertise die on Persuasion checks. After you spend a
+      minute in conversation with a creature that is not hostile, you may make a
       Persuasion check opposed by its Insight. On a success, the creature is
       nonmagically charmed by you for 1 hour. The charm ends early if you or
-      your allies harm the creature. Once you’ve used this feature successfully,
-      you can’t use it again until you finish a long rest.</p>
+      your allies harm the creature. Once you&rsquo;ve used this feature
+      successfully, you can&rsquo;t use it again until you finish a long
+      rest.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -29,8 +58,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
-    cost: ''
+    type: minute
+    cost: 1
     condition: ''
   duration: {}
   cover: null
@@ -54,7 +83,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

@@ -11,25 +11,14 @@ system:
       <p dir="ltr">At 15th level, your self-sufficiency and sheer toughness can
       help you get out of the toughest jams. Once per long rest as a bonus
       action, you can renew yourself. When you do, you gain the following
-      benefits:</p>
-
-      <ul>
-
-      <li dir="ltr">You regain exertion points equal to your Wisdom modifier
-      (minimum 1).</li>
-
-      <li dir="ltr">You heal hit points equal to&nbsp; 1d10 + your ranger
-      level.&nbsp;</li>
-
-      <li dir="ltr">You may attempt to recover a level of fatigue or strife.
-      Roll a d20. If the result is 17 or greater, you remove a single level of
-      fatigue or strife (your choice).</li>
-
-      </ul>
-
-      <p><em>! Foundry note, action consumers current set to -1 (regain 1 use),
-      change this to the wisdom modifier since modifier mods aren't allowed at
-      time of creation.</em></p>
+      benefits:</p><ul><li dir="ltr">You regain exertion points equal to your
+      Wisdom modifier (minimum 1).</li><li dir="ltr">You heal hit points equal
+      to&nbsp; 1d10 + your ranger level.&nbsp;</li><li dir="ltr">You may attempt
+      to recover a level of fatigue or strife. Roll a d20. If the result is 17
+      or greater, you remove a single level of fatigue or strife (your
+      choice).</li></ul><p><em>! Foundry note, action consumers current set to
+      -1 (regain 1 use), change this to the wisdom modifier since modifier mods
+      aren't allowed at time of creation.</em></p>
     chat: ''
   source:
     book: 'Thematic Toolkit: Itinerant'

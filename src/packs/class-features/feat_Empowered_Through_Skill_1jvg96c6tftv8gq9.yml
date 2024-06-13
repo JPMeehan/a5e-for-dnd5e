@@ -1,0 +1,29 @@
+name: Empowered Through Skill
+type: feat
+img: icons/magic/fire/dagger-rune-enchant-flame-teal-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your bonded artifact&rsquo;s power surges whenever you use it artfully,
+      responding to the skills of a worthy wielder. Whenever you critically hit
+      a creature with a weapon or spell attack using your bonded artifact, it
+      regains up to one spent charge. Your artifact only responds to skill used
+      against worthy opponents however, and you do not regain spent charges if
+      the target has a CR lower than &frac14; of your character level.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 1jvg96c6tftv8gq9
+_key: '!items!1jvg96c6tftv8gq9'

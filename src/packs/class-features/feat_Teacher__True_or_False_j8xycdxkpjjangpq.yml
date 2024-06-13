@@ -1,0 +1,74 @@
+folder: null
+name: Teacher, True or False
+type: feat
+img: icons/environment/people/commoner.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level you can grant a number of creatures equal to your
+      Intelligence modifier proficiency in a skill of your choice that you are
+      proficient in when you finish a long rest.&nbsp;</p><p>The expertise die
+      from Guiding Hand increases to 1d6.</p><p>Alternatively, you may also
+      leverage your reputation to give bad advice to lead others to ruin.
+      &nbsp;When you use the help action, you may instead attempt to impose
+      disadvantage on the next ability check or attack roll made within 1 minute
+      by a creature within range that can understand at least one language you
+      know. &nbsp;If the creature is hostile or otherwise disinclined to take
+      your advice and counsel, they are allowed a wisdom save with a DC of 8 +
+      your proficiency modifier + your Intelligence modifier, and on a success
+      are unaffected and immune to this ability for the next 24 hours.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: j8xycdxkpjjangpq
+_key: '!items!j8xycdxkpjjangpq'

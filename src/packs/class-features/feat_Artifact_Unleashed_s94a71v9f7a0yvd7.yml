@@ -1,0 +1,46 @@
+name: Artifact Unleashed
+type: feat
+img: icons/magic/symbols/runes-star-pentagon-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 20th level, your artifact&rsquo;s power has manifested fully and you
+      can access its power unfettered and unrestrained. You gain benefits
+      determined by your bonded artifact&rsquo;s form:</p>
+
+      <h2>Unleashed Weapon of Power</h2>
+
+      <p>Attacks you make with your weapon of power ignore all resistances and
+      immunities. In addition, once per turn when you hit a target with your
+      weapon of power you may choose to expend one artifact charge to deal an
+      additional 4d6 force damage.</p>
+
+      <h2>Unleashed Armor of Power</h2>
+
+      <p>While wearing your armor of power, as an action you can project a
+      shield of impenetrable force that protects you until the start of your
+      next turn by expending three artifact charges. While this shield is
+      projected you are immune to all damage types.</p>
+
+      <h2>Unleashed Font of Power</h2>
+
+      <p>You may cast up to 3 wielder spells with your font of power using a
+      single action so long as each spell has a casting time of action or bonus
+      action. You may resolve these spells in any order.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: s94a71v9f7a0yvd7
+_key: '!items!s94a71v9f7a0yvd7'

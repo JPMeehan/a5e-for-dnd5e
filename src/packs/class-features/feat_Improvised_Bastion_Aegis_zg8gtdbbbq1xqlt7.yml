@@ -1,6 +1,6 @@
 name: Improvised Bastion Aegis
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
 system:
   type:
     value: class
@@ -14,7 +14,7 @@ system:
       take, which protects you only against the triggering hostile act.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -22,7 +22,7 @@ system:
     value: null
     charged: true
   activation:
-    type: reaction
+    type: ''
     cost: 1
     condition: When a creature’s attack, spell, or ability would damage you
   duration: {}

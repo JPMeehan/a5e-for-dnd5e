@@ -1,0 +1,94 @@
+name: Rapid Deployment
+type: feat
+img: icons/svg/item-bag.svg
+effects:
+  - icon: icons/svg/item-bag.svg
+    origin: Item.OlRPgTD5sfRAkUDy
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: mCQs87nqj8eV0BI1
+    transfer: false
+    name: Speed Increase
+    _id: uWCAH5y47lkp5xfA
+    changes:
+      - key: flags.a5e.effects.movement.allDistances
+        value: '20'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!zien83prybb41k7w.uWCAH5y47lkp5xfA'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <h4>After initiative is rolled and until combat ends, your Speed increases
+      by 20 feet, and allies that are able to see or hear you increase their
+      Speed by 20 feet.</h4>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: zien83prybb41k7w
+_key: '!items!zien83prybb41k7w'

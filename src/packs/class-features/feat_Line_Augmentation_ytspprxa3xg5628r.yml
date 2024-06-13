@@ -1,0 +1,70 @@
+folder: null
+name: Line Augmentation
+type: feat
+img: icons/magic/fire/beam-jet-stream-trails-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-548cd743-7fff-402a-3347-3b762b29080f"><strong>Type:</strong>
+      Shape; <strong>Level:</strong> 5</span></em></p>
+
+      <p><span id="docs-internal-guid-d5b2af08-7fff-ad52-ce7a-0befcd717d0e">By
+      spending 3 spell points, your blast becomes a 60-ft line, with a range of
+      self, damaging all creatures and objects in the area. Targets make a
+      Dexterity saving throw, taking half damage on a successful save. For every
+      1 additional spell point you spend, increase the size of the line by
+      20-ft.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 60
+    width: 5
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: ytspprxa3xg5628r
+_key: '!items!ytspprxa3xg5628r'

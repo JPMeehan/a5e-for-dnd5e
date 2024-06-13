@@ -1,0 +1,93 @@
+folder: null
+name: Siphon Energy
+type: feat
+img: icons/magic/fire/beam-jet-stream-trails-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 87">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p>Elementals are beings of pure elemental energy. Because of their nature
+      and immunities, they can be the bane of elementalists, especially those
+      who share their elemental affinity. But, you have learned to turn their
+      elemental nature against them.</p>
+
+      <p>Starting at 7th level, you can draw elemental energy directly from an
+      elemental, gaining power and damaging them in the process. As an action,
+      choose an elemental creature you can see within 60 feet. The creature must
+      attempt a Constitution save against your spell save DC or take Force
+      damage equal to your basic elemental blast damage. If it succeeds the
+      save, it takes half damage. If it fails the save, you gain a free Gather
+      Energy, except the temporary spell points granted are equal to your full
+      proficiency bonus, and they last until the end of your next turn.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - floor(@level / 2) + @mod
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 0cv7hmjdq2hoos0j
+_key: '!items!0cv7hmjdq2hoos0j'

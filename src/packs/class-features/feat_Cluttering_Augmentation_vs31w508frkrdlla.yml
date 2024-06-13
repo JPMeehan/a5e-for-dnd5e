@@ -1,0 +1,72 @@
+folder: null
+name: Cluttering Augmentation
+type: feat
+img: icons/magic/earth/explosion-lava-stone-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-dacbbf04-7fff-9a99-75a5-1b0f9939af5d"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 5; <strong>Element:</strong>
+      Earth</span></em></p>
+
+      <p><span id="docs-internal-guid-01d9c84e-7fff-ebcb-2b06-10c43dc4e3a7">By
+      spending 3 spell points, your blast leaves behind rocky debris or disrupts
+      the natural rock or earthen floor, creating difficult terrain in the
+      blast&rsquo;s target space. If the space was rock or earth, the difficult
+      terrain lasts until it is manually cleaned or repaired; if it
+      wasn&rsquo;t, then it lasts for 1 minute, or until you use this
+      augmentation again.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: vs31w508frkrdlla
+_key: '!items!vs31w508frkrdlla'

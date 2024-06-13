@@ -1,6 +1,6 @@
 name: 'Invocation: Spellbinding Contract'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/sundries/documents/document-symbol-triangle-pink.webp
 effects: []
 flags: {}
 system:
@@ -9,9 +9,8 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 9th level</em></p><p>You can
-      cast&nbsp;<em>geas&nbsp;</em>once by spending 7 spell points. You cannot
-      do so again until you finish a long rest. If the command of
+      <p>You can cast <em>geas&nbsp;</em>once by spending 7 spell points. You
+      cannot do so again until you finish a long rest. If the command of
       the&nbsp;geas&nbsp;is the stipulation of an agreement to which the target
       consents, the target automatically fails its saving throw against this
       spell.</p>
@@ -20,7 +19,7 @@ system:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 9th level
   recharge:
     value: null
     charged: true

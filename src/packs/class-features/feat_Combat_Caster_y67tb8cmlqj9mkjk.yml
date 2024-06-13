@@ -1,0 +1,31 @@
+name: Combat Caster
+type: feat
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you gain the following metamagic
+      options:</p><ul><li><p><strong>Striking Spell </strong>- When you hit with
+      a melee weapon attack, you may spend 2 sorcery points to cast a spell with
+      a range of touch and a casting time of 1 Action on the target you just
+      struck.</p><p></p></li><li><p><strong>Resilient Spell </strong>- When you
+      cast a spell that requires concentration, you may spend 2 sorcery points
+      to grant yourself advantage on the first concentration check to maintain
+      concentration on it.</p></li></ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: y67tb8cmlqj9mkjk
+_key: '!items!y67tb8cmlqj9mkjk'

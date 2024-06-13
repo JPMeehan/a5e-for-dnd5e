@@ -1,6 +1,6 @@
 name: 'Invocation: Arcane Appropriation'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/commodities/treasure/token-engraved-blue-glowing.webp
 effects: []
 flags: {}
 system:
@@ -9,15 +9,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite</em>: <em>5th level</em></p><p>When you use a magic
-      item, you ignore any requirements related to class, culture, heritage, or
-      level.</p>
+      <p>When you use a magic item, you ignore any requirements related to
+      class, culture, heritage, or level.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 5th Level
   recharge:
     value: null
     charged: true

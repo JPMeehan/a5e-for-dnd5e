@@ -1,0 +1,30 @@
+folder: null
+name: Transformation’s Thunder
+type: feat
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You do not enter your torchbearer form with subtlety, and instead burst
+      out with sound and fury. You add the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.65ksar78lxxp7uol]{Thunderwave}
+      to your list of known wielder spells. In addition, when you use a bonus
+      action to enter your torchbearer form you may choose to cast the spell
+      <em>thunderwave </em>at 1st level without expending any additional
+      artifact charges as a part of the same bonus action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Torchbearer archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 823y4ylhfwsn5rf7
+_key: '!items!823y4ylhfwsn5rf7'

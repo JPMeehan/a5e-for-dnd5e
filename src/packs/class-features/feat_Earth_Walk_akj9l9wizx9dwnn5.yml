@@ -1,0 +1,26 @@
+folder: null
+name: Earth Walk
+type: feat
+img: icons/environment/wilderness/terrain-rocky-ground.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You ignore the speed reductions from difficult terrain from
+      rocks, mud, or uneven terrain (like stairs). You gain expertise on saving
+      throws to resist being moved.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Earth'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: akj9l9wizx9dwnn5
+_key: '!items!akj9l9wizx9dwnn5'

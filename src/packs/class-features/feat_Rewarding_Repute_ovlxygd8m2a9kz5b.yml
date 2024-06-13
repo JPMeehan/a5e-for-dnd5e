@@ -1,0 +1,30 @@
+name: Rewarding Repute
+type: feat
+img: icons/tools/navigation/map-marked-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your deeds have heroically won over the hearts and minds of people
+      everywhere or cowed them into submission. Whenever you visit a settlement,
+      the commoners there tell you all the valuable information they can about
+      their home including nearby ruins, the general environment of nearby
+      wilderness, and how populated the region is. You gain an expertise die on
+      Nature and Survival checks made within 10 miles of any settlement you have
+      visited.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: ovlxygd8m2a9kz5b
+_key: '!items!ovlxygd8m2a9kz5b'

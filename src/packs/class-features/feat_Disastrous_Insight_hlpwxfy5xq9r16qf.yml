@@ -1,0 +1,78 @@
+folder: null
+name: Disastrous Insight
+type: feat
+img: icons/magic/perception/eye-slit-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, your knowledge of past civilizations and the things that
+      ended them gives you insight into how to avoid their pitfalls and face
+      their dangers. You may use a bonus action to make a history check against
+      an aberration, celestial, construct, dragon, elemental, fey, fiend, giant,
+      humanoid, or monstrosity with an intelligence of 8 or higher. &nbsp;The DC
+      of this check is 5 + the CR or level of the creature. &nbsp;On a success,
+      if you chose
+      @UUID[Compendium.a5e.a5e-class-features.Item.okthtwyohmh0eoa5]{Mystic
+      Apprentice} as your Defensive Study, you may add your Intelligence
+      modifier to one damage roll with any cantrip against that target for the
+      next minute. &nbsp;If you chose
+      @UUID[Compendium.a5e.a5e-class-features.Item.v4pkjilh484jph6i]{Precision
+      Strikes}, you instead automatically benefit from it against that creature
+      for the next minute without needing to spend a bonus action. &nbsp;Once
+      you use this ability, you may not do so again until you finish a short or
+      long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: hlpwxfy5xq9r16qf
+_key: '!items!hlpwxfy5xq9r16qf'

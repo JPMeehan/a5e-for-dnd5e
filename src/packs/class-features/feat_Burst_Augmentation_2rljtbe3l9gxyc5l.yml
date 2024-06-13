@@ -1,0 +1,44 @@
+folder: null
+name: Burst Augmentation
+type: feat
+img: icons/magic/fire/explosion-fireball-medium-blue.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <div class="page" title="Page 81">
+
+      <div class="section">
+
+      <div class="layoutArea">
+
+      <div class="column">
+
+      <p><strong>Type</strong>: Shape</p>
+
+      <p>By spending 5 spell points, your blast becomes a 20-ft radius circle
+      within range. Targets must make a Dexterity saving throw, taking half
+      damage on a successful save. For every 1 additional spell point you spend,
+      increase the radius of the circle by 5 ft.</p>
+
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 9th Level
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 2rljtbe3l9gxyc5l
+_key: '!items!2rljtbe3l9gxyc5l'

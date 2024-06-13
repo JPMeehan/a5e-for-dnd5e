@@ -1,0 +1,80 @@
+name: Transmogrifier (Twisted Mutation)
+type: feat
+img: icons/magic/control/silhouette-hold-change-green.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level your power grows as your altered physiology adapts to the
+      life you&rsquo;ve led up to this point. You may choose one of the
+      following abilities and are not bound by your flesh and bone
+      selection.</p>
+
+      <p><strong>Transmogrifier</strong>: Once per short rest you may use your
+      action to transform yourself into a tiny or smaller creature, or an
+      animated object up to medium size as per the spell&rsquo;s functions
+      though you retain your mental attributes and can still perform S
+      components for spellcasting purposes you cannot vocalize. You gain a
+      number of temporary HP equal to the animated object&rsquo;s HP. Once your
+      temporary HP run out you revert to your normal form, though you can choose
+      to end this effect at any time, otherwise it has no duration. Any objects
+      you carry become a part of your new form and do not function.</p>
+
+      <p>In addition, if you possess the shapeshifter bonded power you may use
+      it a number of times per short rest equal to your proficiency bonus, but
+      may still recover a use by expending a sorcery point as a bonus
+      action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: bq6z1c55sta64cu5
+_key: '!items!bq6z1c55sta64cu5'

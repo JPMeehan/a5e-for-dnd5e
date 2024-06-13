@@ -1,0 +1,94 @@
+folder: null
+name: Channel Divinity (Elemental Knight)
+type: feat
+img: icons/magic/fire/flame-burning-fist-strike.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Also at 3rd level, you gain the following two Channel
+      Divinity options.&nbsp;</p>
+
+      <p dir="ltr"><strong>Elemental Weapon.</strong> As an action, you can
+      imbue one weapon that you are holding with energy, using your Channel
+      Divinity. For 1 minute, you add your Charisma modifier to attack rolls
+      made with that weapon (a minimum bonus of +1), changing the damage type
+      the weapon deals to that of your element. The weapon emits bright light in
+      a 20-foot radius and dim light 20 feet beyond that. If the weapon is not
+      already magical, it becomes magical for the duration.</p>
+
+      <p dir="ltr">You can end this effect on your turn (no action required). If
+      you are no longer holding or carrying this weapon, or if you fall
+      unconscious, this effect ends.</p>
+
+      <p dir="ltr"><strong>Rebuke Elementals.</strong> As an action, you present
+      your holy symbol and utter a word of elemental power, using your Channel
+      Divinity.</p>
+
+      <p dir="ltr">Each Elemental within 30 feet of you that can see or hear you
+      must make a successful Wisdom saving throw or be turned for 1 minute or
+      until it takes damage.&nbsp;</p>
+
+      <p dir="ltr">Creatures who fail this save by 5 or more regard you as their
+      master for the duration. While they are under this effect, you may use
+      your action to issue simple commands (no more than a sentence or two)
+      which they are compelled to obey. They will not take any action that is
+      obviously harmful to them, and so will not leap from a great height, jump
+      onto a sword, or purposefully self-inflict any damage. They follow the
+      command until you issue a new one.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 2jd2dynshh5qyj7c
+_key: '!items!2jd2dynshh5qyj7c'

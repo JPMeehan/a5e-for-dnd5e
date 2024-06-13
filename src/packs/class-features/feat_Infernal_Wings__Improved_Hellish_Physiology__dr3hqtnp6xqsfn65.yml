@@ -1,0 +1,69 @@
+name: Infernal Wings (Improved Hellish Physiology)
+type: feat
+img: icons/creatures/unholy/demon-horned-winged-laughing.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you selected Dark Wings for Hellish Physiology, your fly speed
+      increases to 60 feet. When you are flying, as an action you can cause
+      burning embers to fall from your wings to a space below you. These embers
+      deal 1d8 fire damage to any creatures in the space beneath you and ignite
+      any unattended flammable objects or substances.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 0
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: dr3hqtnp6xqsfn65
+_key: '!items!dr3hqtnp6xqsfn65'

@@ -1,7 +1,34 @@
 name: 'Battle Hymn: Song of Clarity'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.vk0Jt5Jt6Zr0dzEu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: e63nPZ8WzIi8yxBZ
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: 'Battle Hymn: Song of Clarity'
+    _id: GHdxDKGoTRyYM3qe
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>At the start of the target’s turn, if it is not at 0 hit points it can expend\_one of its Hit Dice to regain hit points.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!am5r25ebgscf2273.GHdxDKGoTRyYM3qe'
 flags: {}
 system:
   type:
@@ -9,12 +36,11 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At the start of the creature’s turn, if it is not at 0 hit points the
-      creature may expend</p><p>and roll one of its hit dice to regain hit
-      points.</p>
+      <p>At the start of the target&rsquo;s turn, if it is not at 0 hit points
+      it can expend&nbsp;one of its Hit Dice to regain hit points.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -47,7 +73,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

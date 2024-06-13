@@ -1,0 +1,28 @@
+name: Destroy Undead
+type: feat
+img: icons/magic/death/skull-energy-light-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Creatures turned by you of CR 1/2 or less are immediately destroyed,
+      transformed into dust by a blinding flash of light. You can select this
+      option multiple times. Each time you choose it, you are able to destroy
+      more powerful creatures, progressing to CR 1, CR 2, CR 3, and then CR 4
+      each subsequent time you select this option.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: wwk94syro18y9892
+_key: '!items!wwk94syro18y9892'

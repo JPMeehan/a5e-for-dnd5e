@@ -1,0 +1,67 @@
+folder: null
+name: Forceful Augmentation
+type: feat
+img: icons/magic/lightning/bolt-strike-creature-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-83ecdb26-7fff-56ca-dd02-07f1ea9cbd57"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 5</span></em></p>
+
+      <p><span id="docs-internal-guid-82216b33-7fff-a723-9a14-8ac836e5999e">By
+      spending 3 spell points, your blast becomes heavy and forceful, knocking
+      targets prone who are hit or who fail their save.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 1k1a089vy4ei84pq
+_key: '!items!1k1a089vy4ei84pq'

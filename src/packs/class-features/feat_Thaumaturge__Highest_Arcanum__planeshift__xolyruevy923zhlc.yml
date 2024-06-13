@@ -1,6 +1,6 @@
 name: 'Thaumaturge: Highest Arcanum (planeshift)'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/movement/ball-spinning-blue.webp
 effects: []
 flags: {}
 system:
@@ -9,9 +9,9 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>You learn an ultimate exploit in the laws of magic.</p><p>You can
-      cast&nbsp;<em>plane shift</em>&nbsp;without material components once
-      between short rests.</p>
+      <p>You can
+      cast&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.l3lr6rwvw7csn6on]{Plane
+      Shift} without material components once between short rests.</p>
     chat: ''
   source:
     book: Adventurer's Guide

@@ -8,10 +8,11 @@ system:
   description:
     value: >-
       <p>At 1st Level you are given a magical gift in the form of a guide, tutor
-      and aide. you know the Find Familiar spell, you always have it prepared
-      and it doesn't count against your number of prepared spells. In addition,
-      your familiar is blessed with various additional benefits as you level
-      up.</p>
+      and aide. you know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.6l4bmc7ovgcn2c9k]{Find
+      Familiar} spell, you always have it prepared and it doesn't count against
+      your number of prepared spells. In addition, your familiar is blessed with
+      various additional benefits as you level up.</p>
 
       <p>At 1st level, over the course of a short or long rest you may choose to
       feed and empower your familiar. This could be purely magical by meditating
@@ -41,6 +42,43 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null

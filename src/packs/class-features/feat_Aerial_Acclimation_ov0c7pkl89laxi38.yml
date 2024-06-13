@@ -1,0 +1,27 @@
+folder: null
+name: Aerial Acclimation
+type: feat
+img: icons/commodities/materials/feather-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You are acclimated to high altitudes, and do not suffer
+      penalties caused by them (such as hours traveled counting as two in high
+      altitudes), even those above 20,000 feet. You can hold your breath for a
+      number of minutes equal to 5 plus your Constitution modifier.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Air'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: ov0c7pkl89laxi38
+_key: '!items!ov0c7pkl89laxi38'

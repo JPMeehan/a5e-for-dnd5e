@@ -1,0 +1,27 @@
+name: Contingent Spell
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <h4>When you cast a spell, rather than have it go off immediately, you can
+      spend 6 sorcery points and describe an external condition. When that
+      condition occurs before you finish a long rest, you can use your reaction
+      to cast the spell. You can only have one Contingent Spell at a time.</h4>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: p4pkdgwq7cez2qfl
+_key: '!items!p4pkdgwq7cez2qfl'

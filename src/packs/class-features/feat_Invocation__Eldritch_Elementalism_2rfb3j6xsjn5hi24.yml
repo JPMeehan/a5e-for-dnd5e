@@ -1,6 +1,6 @@
 name: 'Invocation: Eldritch Elementalism'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/lightning/bolt-strike-sparks-blue.webp
 effects: []
 flags: {}
 system:
@@ -9,12 +9,10 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><span style="color: #191813; font-family: Signika, sans-serif;
-      font-size: 14px;">When you use your Eldritch Blast, you can spend 1 spell
-      point to choose acid, cold, fire, lightning, necrotic, poison, psychic,
-      radiant, or thunder damage. Until you complete a short or long rest, your
-      Eldritch Blast deals your choice of force damage or the chosen damage
-      type.</span></p>
+      <p>When you use your Eldritch Blast, you can spend 1 spell point to choose
+      acid, cold, fire, lightning, necrotic, poison, psychic, radiant, or
+      thunder damage. Until you complete a short or long rest, your Eldritch
+      Blast deals your choice of force damage or the chosen damage type.</p>
     chat: ''
   source:
     book: Adventurer's Guide

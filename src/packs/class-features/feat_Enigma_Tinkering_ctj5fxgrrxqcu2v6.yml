@@ -1,0 +1,30 @@
+folder: null
+name: Enigma Tinkering
+type: feat
+img: icons/commodities/tech/bulb.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You&rsquo;re a long way from really understanding what you&rsquo;re
+      doing, but with a little work you can temporarily access more magical
+      abilities from your artifact. You may learn a new spell from the wielder
+      spell list you don&rsquo;t currently know of a level you can cast by
+      spending 1 exertion point or artifact charge and 1 minute&rsquo;s work
+      tinkering. You lose any spells you learn in this way whenever you finish a
+      short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: ctj5fxgrrxqcu2v6
+_key: '!items!ctj5fxgrrxqcu2v6'

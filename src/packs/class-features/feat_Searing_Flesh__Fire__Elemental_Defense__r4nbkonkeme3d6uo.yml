@@ -1,0 +1,144 @@
+folder: null
+name: 'Searing Flesh: Fire (Elemental Defense)'
+type: feat
+img: icons/magic/fire/flame-burning-fist-strike.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-ab087d17-7fff-9826-b4a1-a666d0722f3b"
+      dir="ltr">You can defend yourself with searing flesh or protective flames.
+      When you are hit by a melee attack, your attacker takes fire damage from
+      your burning aura equal to your spellcasting ability bonus. You emanate
+      bright light in a 30-foot radius, and dim light for another 30 feet. You
+      can activate and deactivate this ability as an action.</p>
+
+      <p dir="ltr">At 10th level, when a creature is damaged by your Searing
+      Flesh, it must make a Wisdom saving throw against your spell save DC or be
+      frightened of you until the end of its next turn. The base damage of
+      searing flesh increases to 1d6 + your spellcasting ability bonus.</p>
+
+      <p dir="ltr">At 18th level, when a creature is damaged by your Searing
+      Flesh it catches fire. The creature takes 1d8 ongoing fire damage for 1
+      minute; it can continue to make this save to end the effect at the end of
+      its turn, or end the effect with an action on its turn. Also, the base
+      damage of searing flesh increases to 2d6 + your spellcasting ability
+      bonus.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: generic
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/flame-burning-fist-strike.webp
+    origin: Item.JU5T7jAboqJCqG3r
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dEgSc1R7hzElbBdt
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frightened
+    _id: 38mjVXfxPGgSdO3m
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!r4nbkonkeme3d6uo.38mjVXfxPGgSdO3m'
+  - icon: icons/magic/fire/flame-burning-fist-strike.webp
+    origin: Item.JU5T7jAboqJCqG3r
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: RZofVGuVL86sYf1u
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frightened
+    _id: 5dL3MMCaYrWkABBu
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!r4nbkonkeme3d6uo.5dL3MMCaYrWkABBu'
+flags: {}
+_id: r4nbkonkeme3d6uo
+_key: '!items!r4nbkonkeme3d6uo'

@@ -1,0 +1,315 @@
+name: Prayer of Protection
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+effects:
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: Item.11o0z3gvvmyd85m0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LJBYIPNby1GWjBtK
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Prayer of Protection (Cold)
+    _id: RL2jkKgiveGdCBij
+    changes:
+      - key: system.traits.damageResistances
+        value: '["cold"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!11o0z3gvvmyd85m0.RL2jkKgiveGdCBij'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: Item.11o0z3gvvmyd85m0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LJBYIPNby1GWjBtK
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Prayer of Protection (Fire)
+    _id: WCdkmG0pSFVXJPun
+    changes:
+      - key: system.traits.damageResistances
+        value: '["fire"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!11o0z3gvvmyd85m0.WCdkmG0pSFVXJPun'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: Item.11o0z3gvvmyd85m0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LJBYIPNby1GWjBtK
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Prayer of Protection (Force)
+    _id: FFI0IDbBs1rTarID
+    changes:
+      - key: system.traits.damageResistances
+        value: '["force"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!11o0z3gvvmyd85m0.FFI0IDbBs1rTarID'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: Item.11o0z3gvvmyd85m0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LJBYIPNby1GWjBtK
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Prayer of Protection (Lightning)
+    _id: 205QsVRx13cUBGkH
+    changes:
+      - key: system.traits.damageResistances
+        value: '["lightning"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!11o0z3gvvmyd85m0.205QsVRx13cUBGkH'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: Item.11o0z3gvvmyd85m0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LJBYIPNby1GWjBtK
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Prayer of Protection (Necrotic)
+    _id: hKQEoNefwAW4vOPo
+    changes:
+      - key: system.traits.damageResistances
+        value: '["necrotic"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!11o0z3gvvmyd85m0.hKQEoNefwAW4vOPo'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: Item.11o0z3gvvmyd85m0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LJBYIPNby1GWjBtK
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Prayer of Protection (Psychic)
+    _id: FWbFBKdHhFzbnboZ
+    changes:
+      - key: system.traits.damageResistances
+        value: '["psychic"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!11o0z3gvvmyd85m0.FWbFBKdHhFzbnboZ'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: Item.11o0z3gvvmyd85m0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LJBYIPNby1GWjBtK
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Prayer of Protection (Radiant)
+    _id: rh5s6xkfQDFJIBeX
+    changes:
+      - key: system.traits.damageResistances
+        value: '["radiant"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!11o0z3gvvmyd85m0.rh5s6xkfQDFJIBeX'
+  - icon: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: Item.11o0z3gvvmyd85m0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LJBYIPNby1GWjBtK
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Prayer of Protection (Thunder)
+    _id: xR2RoZHgrYDzaMff
+    changes:
+      - key: system.traits.damageResistances
+        value: '["thunder"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!11o0z3gvvmyd85m0.xR2RoZHgrYDzaMff'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>After each long rest choose one damage type from the following list:
+      cold, fire, force, lightning, necrotic, psychic, radiant, or thunder. You
+      gain resistance to this damage type until the end of your next long
+      rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: 11o0z3gvvmyd85m0
+_key: '!items!11o0z3gvvmyd85m0'

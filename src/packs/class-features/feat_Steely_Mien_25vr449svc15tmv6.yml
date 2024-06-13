@@ -1,6 +1,6 @@
 name: Steely Mien
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/control/silhouette-aura-energy.webp
 effects: []
 flags: {}
 system:
@@ -11,9 +11,20 @@ system:
     value: >-
       <p>At 2nd level your combat experience becomes obvious on some subtle
       level, influencing how people perceive you, or perhaps how you see them.
-      Choose one of the following options:</p><p></p><h4><strong>&nbsp;&nbsp;
-      Closed Helm</strong></h4><h4>&nbsp;&nbsp; <strong>Heroic
-      Flair</strong></h4><h4><strong>&nbsp;&nbsp; Watchful Eye</strong></h4>
+      Choose one of the following options:</p><h3 class="Indent1">Closed
+      Helm</h3><p>You have great control over your emotions; your face is an
+      unmoving mask, revealing nothing of what you&rsquo;re thinking. Creatures
+      have&nbsp;disadvantage&nbsp;on Insight checks made against you. In
+      addition, you gain an&nbsp;expertise die&nbsp;on&nbsp;saving
+      throws&nbsp;against
+      being&nbsp;charmed&nbsp;or&nbsp;frightened&nbsp;.</p><h3
+      class="Indent1">Heroic Flair</h3><p>Your victories have emboldened you and
+      you radiate with heroic confidence. You have&nbsp;advantage&nbsp;on
+      Persuasion checks made to influence friendly creatures with a CR lower
+      than your fighter&nbsp;level.</p><h3 class="Indent1">Watchful
+      Eye</h3><p>You are eternally alert and wary, ready for trouble. You
+      have&nbsp;advantage on Insight checks made to determine hostile intent or
+      predict violence, and your passive Perception increases by 5.</p>
     chat: ''
   source:
     book: Adventurer's Guide

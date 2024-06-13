@@ -1,0 +1,34 @@
+name: Weapon of Terror
+type: feat
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, your Weapon of Dread improves, allowing the weapon to
+      absorb the essence of other magical weapons. As an hour-long ritual, you
+      may transfer the properties of a magical weapon in your possession to your
+      Weapon of Dread. Your Weapon of Dread gains the magical properties of that
+      weapon, and the original becomes a mundane weapon of its type. </p><p>You
+      may only absorb the essence of one magic weapon at a time with this
+      feature. If you replace one set of properties with another, the once-magic
+      item whose properties you had previously transferred immediately
+      reacquires them (even if it’s on another plane). If the disenchanted
+      weapon has been destroyed, it magically re-forms in a space adjacent to
+      you as your Weapon of Dread acquires its new properties.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+img: icons/magic/death/weapon-sword-skull-purple.webp
+effects: []
+flags: {}
+folder: null
+_id: 7pae6le95wlexp7w
+_key: '!items!7pae6le95wlexp7w'

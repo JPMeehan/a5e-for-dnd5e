@@ -1,0 +1,38 @@
+folder: null
+name: Open Soul
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-35f6ba40-7fff-ecca-951b-3f6174fd9cc2"
+      dir="ltr">At 7th level, you understand that the foundation of love is
+      mutual trust. You may cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.4rgo85d49qwancup]{Detect
+      Thoughts} without a spell slot. However, when you cast this spell in this
+      way, your target is also able to read your surface thoughts on an initial
+      failed save. Likewise, if you choose to probe deeper into the
+      target&rsquo;s mind and the target fails its saving throw, the target is
+      also able to probe deeper into your mind. If you choose, you may allow a
+      willing target to read your surface thoughts or to probe deeper into your
+      mind without (or before) doing so to them.</p>
+
+      <p dir="ltr">Once a creature succeeds on a saving throw against this
+      ability, it cannot be targeted again for 24 hours unless it is
+      willing.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: jlydhdaw02l2hm9n
+_key: '!items!jlydhdaw02l2hm9n'

@@ -1,6 +1,6 @@
 name: Focused Defense
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/targeting/target-strike-gray.webp
 system:
   type:
     value: class
@@ -13,7 +13,7 @@ system:
       creature has disadvantage on attack rolls against you.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -28,10 +28,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 1
     width: null
     units: ''
-    type: ''
+    type: creature
   range:
     value: 30
     long: null

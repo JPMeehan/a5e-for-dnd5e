@@ -1,0 +1,25 @@
+name: Extra Attack (Ranger)
+type: feat
+img: icons/skills/melee/blade-tips-double-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 5th level you can attack twice, instead of once, whenever you take
+      the Attack action on your turn.</p>
+    chat: ''
+  source:
+    book: 'System Architecture: Motif Classes'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: b7og14wchzvcfesr
+_key: '!items!b7og14wchzvcfesr'

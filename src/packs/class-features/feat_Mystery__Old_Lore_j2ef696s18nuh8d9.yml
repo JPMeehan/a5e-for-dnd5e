@@ -7,23 +7,17 @@ system:
     subtype: ''
   description:
     value: >-
-      <p class="MsoNormal" style="margin-bottom: .0001pt;">Choose Arcana,
-      Nature, or Religion.</p>
-
-      <p class="MsoNormal" style="margin-bottom: .0001pt;">You gain an expertise
-      die on checks made with the given skill and you may also always choose to
-      apply your spellcasting ability modifier to checks with the chose
-      skill.</p>
-
-      <p class="MsoNormal" style="margin-bottom: .0001pt;">You may choose this
-      mystery more than once, but must choose a different skill each
-      time.&nbsp;</p>
+      <p>Choose Arcana, Nature, or Religion.</p><p>You gain an expertise die on
+      checks made with the given skill and you may also always choose to apply
+      your spellcasting ability modifier to checks with the chose
+      skill.</p><p>You may choose this mystery more than once, but must choose a
+      different skill each time.&nbsp;</p>
     chat: ''
   source:
     book: Mysterious and Marvelous Miscellanea
     license: OGL 1.0a
   properties: []
-  requirements: Witch Class
+  requirements: ''
   recharge:
     value: null
     charged: true

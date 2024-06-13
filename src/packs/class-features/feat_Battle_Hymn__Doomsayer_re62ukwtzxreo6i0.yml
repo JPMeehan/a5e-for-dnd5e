@@ -1,17 +1,44 @@
 name: 'Battle Hymn: Doomsayer'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.5bsdjx8VUh7xp5PX
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 9VdbINF0UXPoXE7a
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: 'Battle Hymn: Doomsayer'
+    _id: 3tn3sSNkrjrlvRCm
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The target takes a –1d8 penalty on attack rolls.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!re62ukwtzxreo6i0.3tn3sSNkrjrlvRCm'
 flags: {}
 system:
   type:
     value: class
     subtype: ''
   description:
-    value: <p>The creature takes a –1d8 penalty on attack rolls.</p>
+    value: <p>The target takes a &ndash;1d8 penalty on attack rolls</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -44,7 +71,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

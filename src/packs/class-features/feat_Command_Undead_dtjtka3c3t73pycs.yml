@@ -1,23 +1,21 @@
-folder: null
 name: Command Undead
 type: feat
-img: icons/magic/sonic/scream-wail-shout-teal.webp
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+effects: []
+flags: {}
 system:
   type:
     value: class
     subtype: ''
   description:
     value: >-
-      <p class="preFade fadeIn">At 14th level you become a true master of the
-      undead. You may use a bonus action to command one undead creature which
-      can hear you. The target must make a Charisma saving throw vs. your spell
-      DC. On a failure, the undead creature becomes unable to attack you for one
-      minute, and obeys your commands for the duration. The creature can make a
-      new saving throw at the end of each of its turns, ending the effect on a
-      success.&nbsp;</p>
-
-      <p>Once a creature succeeds in a saving throw against this feature, it
-      becomes immune to the feature for 24 hours.</p>
+      <p>If you choose, creatures you turn instead regard you as their master
+      for the duration. While they are under this effect, you may use your
+      action to issue simple commands (no more than a sentence or two) which
+      they are compelled to obey. They will not take any action that is
+      obviously harmful to them, and so will not leap from a great height, jump
+      onto a sword, or purposefully self-inflict any damage. They follow the
+      command until you issue a new one.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -28,16 +26,16 @@ system:
     value: null
     charged: true
   activation:
-    type: bonusAction
+    type: action
     cost: 1
   duration: {}
   cover: null
   crewed: false
   target:
-    value: 1
+    value: null
     width: null
     units: ''
-    type: creature
+    type: ''
   range:
     value: null
     long: null
@@ -52,7 +50,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -63,10 +61,9 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: cha
+    ability: ''
     dc: null
     scaling: spell
-effects: []
-flags: {}
+folder: null
 _id: dtjtka3c3t73pycs
 _key: '!items!dtjtka3c3t73pycs'

@@ -1,0 +1,79 @@
+folder: null
+name: Incinerating Augmentation
+type: feat
+img: icons/magic/fire/flame-burning-skeleton-explosion.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-cbe73fe8-7fff-b5e8-bb0d-f6052e69a3fc"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 17; <strong>Element:</strong>
+      Fire</span></em></p>
+
+      <p><span id="docs-internal-guid-b941d798-7fff-0224-ddc3-5794bf907680">By
+      spending 7 spell points, the heat of your blast becomes unbearable.
+      Creatures hit must succeed on a Constitution saving throw or take an
+      additional 7d8 fire damage. If a creature is reduced to 0 hp by the blast,
+      it is obliterated, along with anything it was wearing or carrying, leaving
+      behind nothing but fine dust (except for any magic items). Only
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.d4gqwm4bxoklygp6]{True
+      Resurrection} or a
+      @UUID[Compendium.a5e.a5e-spells.Item.pe52jryde7ljobzq]{Wish} spell can
+      restore it to life. An Incinerating Blast automatically obliterates
+      nonmagical objects that are Large-sized or smaller. Larger objects have a
+      10-foot-cube portion obliterated instead.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 7d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: wmzfmeuqqeowv1sr
+_key: '!items!wmzfmeuqqeowv1sr'

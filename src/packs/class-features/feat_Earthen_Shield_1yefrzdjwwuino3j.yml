@@ -1,0 +1,98 @@
+folder: null
+name: Earthen Shield
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-triangle-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">If you have a hand free, you can use an action to manifest a
+      shield from solid stone or metal. This acts as a medium shield. You can
+      use your reaction to sacrifice this shield, as normal, and can use another
+      action on a subsequent round to manifest a new shield.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Earth'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/defensive/shield-barrier-glowing-triangle-green.webp
+    origin: Item.X0K2eLOFIolVK8oh
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: WsEu0cBOrLXrjVJY
+        applyToSelf: true
+    transfer: false
+    name: Earthen Shield
+    _id: Bj0s7jIm7xPl0BFY
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Acts as a medium shield. You can use your reaction to sacrifice this
+      shield, as normal, and can use another action on a subsequent round to
+      manifest a new shield.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!1yefrzdjwwuino3j.Bj0s7jIm7xPl0BFY'
+flags: {}
+_id: 1yefrzdjwwuino3j
+_key: '!items!1yefrzdjwwuino3j'

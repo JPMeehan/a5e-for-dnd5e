@@ -1,0 +1,26 @@
+name: Withstand and Endure
+type: feat
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your toughness is legendary. You gain proficiency with Constitution
+      saving throws. Whenever you succeed on a Constitution saving throw, you
+      regain hit points equal to your Charisma modifier.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: wurwbrq3wjo3svj4
+_key: '!items!wurwbrq3wjo3svj4'

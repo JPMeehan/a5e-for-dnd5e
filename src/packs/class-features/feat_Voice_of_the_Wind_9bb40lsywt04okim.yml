@@ -1,0 +1,68 @@
+folder: null
+name: Voice of the Wind
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use the wind to carry your whispers to any creature of your
+      choice that you can see within 120 ft, as if they were the target of a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.4gcxix2l4zvy9kdu]{Message}
+      spell. Alternatively, as an action, you can cast
+      @UUID[Compendium.a5e.a5e-spells.Item.men9jsj0d9d1u4x0]{Whispering Wind}
+      without expending spell points.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Air; 5th level'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 3
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 9bb40lsywt04okim
+_key: '!items!9bb40lsywt04okim'

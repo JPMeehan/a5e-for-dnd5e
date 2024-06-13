@@ -1,0 +1,26 @@
+folder: null
+name: Chain
+type: feat
+img: icons/magic/control/energy-stream-link-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell that can normally only target a single creature,
+      it can also target up to 2 more creatures within 15 feet of the initial
+      target.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: ud2kh0eb3nb63qw7
+_key: '!items!ud2kh0eb3nb63qw7'

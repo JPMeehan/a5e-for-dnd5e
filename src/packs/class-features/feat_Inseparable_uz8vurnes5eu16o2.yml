@@ -1,0 +1,31 @@
+name: Inseparable
+type: feat
+img: icons/skills/melee/shield-block-fire-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 18th level, your will and that of your artifact are
+      inseparable as is your desire to keep each other safe. So long as you and
+      your bonded artifact are not in conflict, whenever you would take damage
+      you can spend three artifact charges to completely negate that damage. In
+      addition, whenever your artifact is animated and would lose a charge due
+      to taking damage, you may choose to spend a point of exertion instead. You
+      can use this feature a number of times equal to your proficiency bonus,
+      and regain all expended uses whenever you finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: uz8vurnes5eu16o2
+_key: '!items!uz8vurnes5eu16o2'

@@ -1,0 +1,29 @@
+name: Big-Picture Perspective
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your focus on managing information broadens your talent for learning
+      such magicks, even when they would not normally be available to wizards.
+      All divination spells count as wizard spells for you. Only other Advisor
+      wizards can copy them into their spellbook,
+      however.&nbsp;</p><p>Divination rituals you cast also take half as long to
+      cast and have their duration doubled.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: tjv53x568xx6teqf
+_key: '!items!tjv53x568xx6teqf'

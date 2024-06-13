@@ -1,0 +1,71 @@
+folder: null
+name: Wildfire Master (Apotheosis)
+type: feat
+img: icons/magic/air/fog-gas-smoke-swirling-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-3e389b8f-7fff-95a3-72c8-f93eb80df1c0">You
+      have mastered the destructive, wild power of the heat and flames. You are
+      able to cast</span>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.jgf01d6mjuovnsyp]{Incendiary
+      Cloud} once without expending a spell slot. Once you use this feature, you
+      must complete a long rest before you can use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Mastery in Fire
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '20'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 10d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: ufedmkehkigz5c10
+_key: '!items!ufedmkehkigz5c10'

@@ -7,16 +7,17 @@ system:
     subtype: ''
   description:
     value: >-
-      <p class="MsoNormal" style="margin-bottom: .0001pt;">When you select this
-      archetype at 2nd level you add the nature spell school to your list of
-      witch spells. You are also under the constant effect of a <em
-      style="mso-bidi-font-style: normal;">speak with animals</em> spell.</p>
+      <p>When you select this archetype at 2nd level you add the nature spell
+      school to your list of witch spells. You are also under the constant
+      effect of a
+      <span>@UUID[Compendium.a5e-for-dnd5e.spells.Item.z5a26lxyh3esw2rl]{Speak
+      with Animals}</span>&nbsp;spell.</p>
     chat: ''
   source:
     book: Mysterious and Marvelous Miscellanea
     license: OGL 1.0a
   properties: []
-  requirements: Level 2 Witch Class; Green Witch archetype
+  requirements: ''
   recharge:
     value: null
     charged: true

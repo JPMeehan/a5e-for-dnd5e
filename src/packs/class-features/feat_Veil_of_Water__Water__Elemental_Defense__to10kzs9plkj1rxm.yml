@@ -1,0 +1,178 @@
+folder: null
+name: 'Veil of Water: Water (Elemental Defense)'
+type: feat
+img: icons/magic/water/barrier-ice-shield.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-2bf2452d-7fff-417a-c728-33d374a2e8bd"
+      dir="ltr">You are able to protect yourself with a veil of flowing water.
+      As an action, you can activate your veil of water, which grants you a +2
+      bonus to AC (this does not stack with the AC bonus from a shield) and an
+      expertise die on saving throws against fire spells and effects.</p>
+
+      <p dir="ltr">Additionally, when you are hit by a weapon attack, you can
+      use your reaction to add your spellcasting ability bonus to your AC,
+      potentially causing the attack to miss you. This expends your veil of
+      water, which can be reactivated on a subsequent round as an action.</p>
+
+      <p dir="ltr">At 10th level, when you use your veil of water reaction, you
+      gain resistance to fire damage until the start of your next turn. You can
+      use this reaction in response to taking fire damage as well as being
+      targeted by a melee attack, gaining your spellcasting ability bonus to
+      your AC or saving throw bonus.</p>
+
+      <p dir="ltr">At 18th level, when you use your veil of water reaction in
+      response to a melee weapon attack, the triggering attacker must make a
+      Strength saving throw against your spell save DC or be pushed 15 feet.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Taking fire damage as well as being targeted by a melee attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/barrier-ice-shield.webp
+    origin: Item.oy50xxWeETnJg4aJ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ufKl5RF9qzc8iIoi
+        applyToSelf: true
+    transfer: false
+    name: Veil of Water
+    _id: hm5SfrymkxATi7eC
+    changes:
+      - key: system.attributes.ac.changes.bonuses.value
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>+2 bonus to AC (this does not stack with the AC bonus from a shield)
+      and an expertise die on saving throws against fire spells and effects.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!to10kzs9plkj1rxm.hm5SfrymkxATi7eC'
+  - icon: icons/magic/water/barrier-ice-shield.webp
+    origin: Item.oy50xxWeETnJg4aJ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QDjpHgu6plcdYCFB
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Expend Veil
+    _id: 4R6K0tHHpOEusrCU
+    changes:
+      - key: system.traits.damageResistances
+        value: '["fire"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Resistance to fire damage until the start of your next turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!to10kzs9plkj1rxm.4R6K0tHHpOEusrCU'
+  - icon: icons/magic/water/barrier-ice-shield.webp
+    origin: Item.oy50xxWeETnJg4aJ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: eOnpfVPZnxhTZio9
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Expend Veil
+    _id: BYrUYvEJXR3hArRx
+    changes:
+      - key: system.traits.damageResistances
+        value: '["fire"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Resistance to fire damage until the start of your next turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!to10kzs9plkj1rxm.BYrUYvEJXR3hArRx'
+flags: {}
+_id: to10kzs9plkj1rxm
+_key: '!items!to10kzs9plkj1rxm'

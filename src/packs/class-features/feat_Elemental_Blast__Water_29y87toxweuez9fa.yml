@@ -1,0 +1,121 @@
+folder: null
+name: 'Elemental Blast: Water'
+type: feat
+img: icons/magic/water/projectile-icecicle-glowing.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-148d31e1-7fff-9524-e53e-9ecdf28a97cc"
+      dir="ltr">The most basic use of your elemental power is showcased by your
+      ability to lash out with attacks of raw elemental energy. To use your
+      elemental blast, as an action, make a ranged spell attack with a range of
+      60 feet. Your elemental blast deals damage equal to 1d6 + your
+      spellcasting modifier, and the damage dealt is determined by the blast you
+      used.</p>
+
+      <p dir="ltr">The elemental energy fades after the attack, but its effects
+      are left behind (for instance, a fire blast could ignite flammable
+      materials, and an earth blast or a water blast could smother or quench a
+      fire, but an earth blast or water blast will not leave earth or water
+      behind). Each elemental blast power has its own damage type, as seen below
+      in table &ldquo;Basic Elemental Blasts&rdquo; and properties.</p>
+
+      <p dir="ltr">As you gain levels, the number of damage dice your Elemental
+      Blast deals increases, as shown in the Blast Dice column on the
+      Elementalist table. If you later gain a new Elemental Affinity, you gain
+      access to that element&rsquo;s blast as well.</p>
+
+      <p dir="ltr">&nbsp;</p>
+
+      <p dir="ltr"><strong>Table: Basic Elemental Blasts</strong></p>
+
+      <table style="width: 52.1989%;" border="1"><colgroup><col style="width:
+      23.4323%;"><col style="width: 32.6963%;"><col style="width:
+      43.5517%;"></colgroup>
+
+      <thead>
+
+      <tr>
+
+      <td>Affinity</td>
+
+      <td>Blast</td>
+
+      <td>Damage</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td>Water</td>
+
+      <td>Water Blast</td>
+
+      <td>Piercing</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - round(@level/2)d6 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 29y87toxweuez9fa
+_key: '!items!29y87toxweuez9fa'

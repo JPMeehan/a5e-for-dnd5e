@@ -1,0 +1,69 @@
+folder: null
+name: 'Channel Divinity: Sanctify Space'
+type: feat
+img: icons/magic/symbols/star-inverted-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-5d129ad3-7fff-0d87-7541-9371367250d4">At
+      17th level, you may expend one use of your Channel Divinity to cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.r6eshb9jaeqc70mp]{Hallow} spell
+      without material components. When you do so, you may choose up to three
+      effects to apply to the space rather than just one, and the spell only
+      requires 1 hour to cast.</span></p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '60'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 7aq34lsof7qleziz
+_key: '!items!7aq34lsof7qleziz'

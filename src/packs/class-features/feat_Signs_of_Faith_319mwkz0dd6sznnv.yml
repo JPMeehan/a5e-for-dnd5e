@@ -1,6 +1,6 @@
 name: Signs of Faith
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
 effects: []
 flags: {}
 system:
@@ -11,21 +11,49 @@ system:
     value: >-
       <p>At 3rd level, you gain a sign of faith of your choice. Signs of faith
       are detailed below. The Signs Known column of the Cleric table shows when
-      you gain new signs.</p><p></p><h3><strong>&nbsp;&nbsp; Ancestral
-      Guidance</strong></h3><h3><strong>&nbsp;&nbsp; Compassionate
-      Nurse</strong></h3><h3><strong>&nbsp;&nbsp; Faithful
-      Historian</strong></h3><h3><strong>&nbsp;&nbsp; Gentle
-      Healer</strong></h3><h3><strong>&nbsp;&nbsp; Graceful
-      Fall</strong></h3><h3><strong>&nbsp;&nbsp; Monastic
-      Austerity</strong></h3><h3><strong>&nbsp;&nbsp; Numinous
-      Awareness</strong></h3><h3><strong>&nbsp;&nbsp;
-      Premonition</strong></h3><h3><strong>&nbsp;&nbsp;
-      Preservation</strong></h3><h3><strong>&nbsp;&nbsp; Righteous
-      Path</strong></h3><h3><strong>&nbsp;&nbsp; Soothing
-      Words</strong></h3><h3><strong>&nbsp;&nbsp; Supernal
-      Intuition</strong></h3><h3><strong>&nbsp;&nbsp;
-      Theologian</strong></h3><h3><strong>&nbsp;&nbsp; Voice of
-      Doom</strong></h3>
+      you gain new signs.</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.6kzmg45wnogy6iou]{Sign:
+      Ancestral Guidance}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.g6a1o4tbjveaozkp]{Sign:
+      Compassionate Nurse}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.xss4rkpb71f1smk7]{Sign:
+      Faithful Historian}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.m3dahmy78vgo72dz]{Sign:
+      Gentle Healer}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.ywgb4owso6p7kr4y]{Sign:
+      Graceful Fall}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.tphbbbo1br3947s5]{Sign:
+      Monastic Austerity}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.81n4z635runuqyj2]{Sign:
+      Numinous Awareness}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.p3kung5mqpo30nbi]{Sign:
+      Premonition}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.ebtoci79m9il4ch0]{Sign:
+      Preservation}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.e91o1vderqaxj3tv]{Sign:
+      Righteous Path}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.qw1f9214fvizlpeq]{Sign:
+      Soothing Words}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.m4jrv8tyamavztxn]{Sign:
+      Supernal Intuition}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.ynpjbhceiz2nzppw]{Sign:
+      Theologian}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.pygn02ew91g1531z]{Sign:
+      Voice of Doom}</p>
     chat: ''
   source:
     book: Adventurer's Guide

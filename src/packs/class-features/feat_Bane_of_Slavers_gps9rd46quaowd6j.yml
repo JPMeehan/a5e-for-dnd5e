@@ -1,0 +1,29 @@
+name: Bane of Slavers
+type: feat
+img: icons/skills/melee/strike-blade-knife-orange-blue.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your Divine Smite becomes deadlier to oppressors. Choose a number of
+      organizations up to half your proficiency bonus. Members of these
+      organizations, plus any creature involved in the slave trade as a supplier
+      or customer, any creature with the Evil alignment trait, and any Fiend all
+      take an additional die of damage from your Divine Smite. You may change
+      the chosen organizations when you complete a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: gps9rd46quaowd6j
+_key: '!items!gps9rd46quaowd6j'

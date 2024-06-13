@@ -1,6 +1,6 @@
 name: Menacing Flourish
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
 system:
   type:
     value: class
@@ -13,7 +13,7 @@ system:
       frightened of you.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -46,7 +46,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -60,7 +60,38 @@ system:
     ability: wis
     dc: null
     scaling: spell
-effects: []
+effects:
+  - icon: icons/magic/death/skull-horned-worn-fire-blue.webp
+    origin: Item.H4cPumxaH4ntNCdT
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: oTnOBS7Y4cOOhboE
+        duration:
+          unit: minutes
+    transfer: false
+    name: Frightened
+    _id: dJdVS0I2VIgtS0RH
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!2q7459x9jok76w5a.dJdVS0I2VIgtS0RH'
 flags: {}
 folder: null
 _id: 2q7459x9jok76w5a

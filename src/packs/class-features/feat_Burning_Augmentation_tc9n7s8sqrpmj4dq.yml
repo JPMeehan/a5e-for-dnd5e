@@ -1,0 +1,73 @@
+folder: null
+name: Burning Augmentation
+type: feat
+img: icons/magic/fire/flame-burning-creature-skeleton.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-93fe3baa-7fff-a4f8-b4da-3321f918049e"
+      dir="ltr"><em><strong>Type:</strong> Substance; <strong>Level:</strong> 1;
+      <strong>Element:</strong> Fire</em></p>
+
+      <p dir="ltr">By spending 1 spell point, your blast ignites the target
+      space or blast's area, causing it to burn for 1 round. Creatures that end
+      their turn there or who move into the space take 1d6 fire damage. For
+      every 1 additional spell point you spend, increase the fire damage by
+      +1d6. Alternatively, for 1 additional spell point, you can extend the
+      duration by 1 round. If the area is particularly flammable, it will ignite
+      as normal.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: tc9n7s8sqrpmj4dq
+_key: '!items!tc9n7s8sqrpmj4dq'

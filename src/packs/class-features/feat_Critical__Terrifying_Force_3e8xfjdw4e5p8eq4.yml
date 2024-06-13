@@ -1,7 +1,36 @@
 name: 'Critical: Terrifying Force'
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
+effects:
+  - icon: icons/magic/death/skull-horned-worn-fire-blue.webp
+    origin: Item.id1UwSsEiKjTRJ8K
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: exW8IgWIkqy1O7f5
+    transfer: false
+    name: Frightened
+    _id: Gpf9VsVc7jvsnXPO
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!3e8xfjdw4e5p8eq4.Gpf9VsVc7jvsnXPO'
 flags: {}
 system:
   type:
@@ -34,11 +63,11 @@ system:
     value: null
     width: null
     units: ''
-    type: space
+    type: ''
   range:
-    value: 60
+    value: null
     long: null
-    units: ft
+    units: self
   uses:
     value: null
     max: ''
@@ -49,7 +78,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

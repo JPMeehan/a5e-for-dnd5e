@@ -1,0 +1,30 @@
+name: 'Invocation: Eldritch Smash'
+type: feat
+img: icons/skills/melee/strike-flail-destructive-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em>Prerequisite: Pact of the Blade</em></p><p>Whenever you hit a
+      creature with a weapon attack using your pact weapon, you can use this
+      invocation to deliver an eldritch smackdown that deals an additional 1d8
+      force damage. This damage increases to 2d8 at 5th level, 3d8 at 9th level,
+      4d8 at 13th level, 5d8 at 17th level, and 6d8 at 19th
+      level.&nbsp;</p><p>Once you use this invocation, you must complete a short
+      or long rest to use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: a63ofnwebzcm4r37
+_key: '!items!a63ofnwebzcm4r37'

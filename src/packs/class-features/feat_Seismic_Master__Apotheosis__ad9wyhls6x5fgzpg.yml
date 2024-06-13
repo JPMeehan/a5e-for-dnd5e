@@ -1,0 +1,160 @@
+folder: null
+name: Seismic Master (Apotheosis)
+type: feat
+img: icons/magic/earth/projectile-stone-landslide.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-bc56dea6-7fff-1735-7b7a-6f54f1cf50b6">You
+      have mastered the tremendous power of the earth. You are able to cast
+      </span>@UUID[Compendium.a5e-for-dnd5e.spells.Item.lekm98iu8ilkj7wl]{Earthquake}
+      once without expending a spell slot. Once you use this feature, you must
+      complete a long rest before you can use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Mastery in Earth
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 5d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/earth/projectile-stone-landslide.webp
+    origin: Item.lekm98iu8ilkj7wl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ClyoEJ1EYeCO9nDm
+        duration:
+          unit: minutes
+    transfer: false
+    name: Buried
+    _id: rau1jFawSICs4WQt
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!ad9wyhls6x5fgzpg.rau1jFawSICs4WQt'
+  - icon: icons/magic/earth/projectile-stone-landslide.webp
+    origin: Item.lekm98iu8ilkj7wl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: kilThNPmiIAYHCTE
+        duration:
+          unit: minutes
+    transfer: false
+    name: Buried
+    _id: CiPY4kJhPg0wAvZf
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!ad9wyhls6x5fgzpg.CiPY4kJhPg0wAvZf'
+  - icon: icons/magic/earth/projectile-stone-landslide.webp
+    origin: Item.lekm98iu8ilkj7wl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: tCaeluji1w9ubvm1
+        duration:
+          unit: minutes
+    transfer: false
+    name: Buried
+    _id: HwT4xDIO9sipNLWs
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!ad9wyhls6x5fgzpg.HwT4xDIO9sipNLWs'
+flags: {}
+_id: ad9wyhls6x5fgzpg
+_key: '!items!ad9wyhls6x5fgzpg'

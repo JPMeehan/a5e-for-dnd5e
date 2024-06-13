@@ -1,0 +1,72 @@
+folder: null
+name: Smooth Sailing
+type: feat
+img: icons/magic/water/wave-water-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 6th level, you gain resistance to your choice of either
+      cold, lightning, or thunder damage.</p>
+
+      <p dir="ltr">Additionally, whenever a creature you see within 10 feet of
+      your Drowner&rsquo;s Curse target or within 10 feet of your Aquatic
+      Servant takes damage, you can use your reaction to reduce that damage by
+      an amount equal to your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      A creature you see within 10 feet of your Drowner’s Curse target or within
+      10 feet of your Aquatic Servant takes damage
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 4hejsvj6nqdh3te7
+_key: '!items!4hejsvj6nqdh3te7'

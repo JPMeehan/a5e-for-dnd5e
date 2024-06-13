@@ -1,0 +1,25 @@
+name: 'Fighting Style: Two-Weapon Fighting'
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-white-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you engage in two-weapon fighting, you can add your ability
+      modifier to the damage of the off-hand attack.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 9zvkq81vujefa1y3
+_key: '!items!9zvkq81vujefa1y3'

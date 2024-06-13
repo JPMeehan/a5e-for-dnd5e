@@ -1,7 +1,71 @@
 name: 'Battle Hymn: Bring Low the Foe'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.8nm9FtYDCSRy5vJR
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: DgOjl1hEqJX8s0vm
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: 'Battle Hymn: Bring Low the Foe'
+    _id: d9oFh6tOsbGhOS9B
+    changes:
+      - key: flags.a5e.effects.bonuses.abilities
+        value: >-
+          {"label":"Battle Hymn: Bring Low the
+          Foe","formula":"-1d8","damageType":"","context":{"abilities":["str","dex","con","int","wis","cha"],"types":["save"],"requiresProficiency":false},"default":true,"img":"icons/svg/upgrade.svg"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target takes a –1d8 penalty to saving throws. In addition, it is
+      rattled for 1d4 rounds after the battle hymn ends.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!79ivma6eqd6hx1p2.d9oFh6tOsbGhOS9B'
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.8nm9FtYDCSRy5vJR
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: DgOjl1hEqJX8s0vm
+    transfer: false
+    name: Rattled
+    _id: tUSRX5lzZUTfIu9y
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>It is\_rattled for 1d4 rounds after the battle hymn ends.</p>"
+    statuses:
+      - rattled
+    folder: null
+    _key: '!items.effects!79ivma6eqd6hx1p2.tUSRX5lzZUTfIu9y'
 flags: {}
 system:
   type:
@@ -9,11 +73,11 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>The creature takes a –1d8 penalty on saving throws. In addition, it is
-      rattled for 1d4 rounds after the battle hymn ends.</p>
+      <p>The target takes a &ndash;1d8 penalty to saving throws. In addition, it
+      is&nbsp;rattled for 1d4 rounds after the battle hymn ends.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -46,7 +110,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

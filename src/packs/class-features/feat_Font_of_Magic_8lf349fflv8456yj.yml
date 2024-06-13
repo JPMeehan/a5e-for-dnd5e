@@ -7,22 +7,84 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 2nd level, you’ve begun to understand the well of power within you
-      that you draw from to cast your magics. Up until now, it’s just been
-      something abstract, maybe hardly understood, but now you can use it in a
-      precise manner to fuel your magics. It grants you a new resource in the
-      form of Sorcery Points, as well as a way to use them.</p><h3>Sorcery
-      Points</h3><p>You have 2 Sorcery Points, and you gain more as you reach
-      higher levels, as shown in the Sorcery Points column of the Sorcerer
-      table. You can never have more Sorcery Points than shown on the table for
-      your level. You regain all spent Sorcery Points when you finish a long
-      rest.</p><h3>Flexible Casting</h3><p>You can use your Sorcery Points to
-      gain additional spell slots, or sacrifice spell slots to gain additional
-      Sorcery Points.&nbsp;</p><p><strong>Conversion. </strong>You can transform
-      unexpended Sorcery Points into one spell slot, or vice versa, as a bonus
-      action. The Creating Spell Slots table shows the cost of creating a spell
-      slot of a given level, or the value of sacrificing a spell slot for
-      Sorcery Points.&nbsp;You cannot convert spells of 6th-level or higher.</p>
+      <p>At 2nd level, you&rsquo;ve begun to understand the well of power within
+      you that you draw from to cast your magics. Up until now, it&rsquo;s just
+      been something abstract, maybe hardly understood, but now you can use it
+      in a precise manner to fuel your magics. It grants you a new resource in
+      the form of Sorcery Points, as well as a way to use them.</p>
+
+      <h3>Sorcery Points</h3>
+
+      <p>You have 2 Sorcery Points, and you gain more as you reach higher
+      levels, as shown in the Sorcery Points column of the Sorcerer table. You
+      can never have more Sorcery Points than shown on the table for your level.
+      You regain all spent Sorcery Points when you finish a long rest.</p>
+
+      <h3>Flexible Casting</h3>
+
+      <p>You can use your Sorcery Points to gain additional spell slots, or
+      sacrifice spell slots to gain additional Sorcery Points.&nbsp;</p>
+
+      <p><strong>Conversion. </strong>You can transform unexpended Sorcery
+      Points into one spell slot, or vice versa, as a bonus action. The Creating
+      Spell Slots table shows the cost of creating a spell slot of a given
+      level, or the value of sacrificing a spell slot for Sorcery
+      Points.&nbsp;You cannot convert spells of 6th-level or higher.</p>
+
+      <p><strong>Table: Creating Spell Slots</strong></p>
+
+      <table style="width: 100%; height: 83.9845px;" border="1"><colgroup><col
+      style="width: 46.0348%;"><col style="width: 53.7718%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Spell Slot Level</td>
+
+      <td style="height: 16.7969px;">Sorcery Point Cost</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">4ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
     chat: ''
   source:
     book: Adventurer's Guide

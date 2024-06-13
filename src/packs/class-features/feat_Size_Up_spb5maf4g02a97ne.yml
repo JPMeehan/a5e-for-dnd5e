@@ -1,0 +1,27 @@
+name: Size Up
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your combat experience against a wide variety of foes has given you a
+      good eye for evaluating threats. You can use a bonus action to determine
+      the CR of a creature you can see within 200 feet, and that creature’s
+      maneuver DC.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: spb5maf4g02a97ne
+_key: '!items!spb5maf4g02a97ne'

@@ -1,0 +1,28 @@
+folder: null
+name: Fire's Warmth
+type: feat
+img: icons/magic/fire/flame-burning-campfire-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Fire is the element of destruction, but it is also an element
+      of nurturing warmth. You gain proficiency in Persuasion. If you are
+      already proficient in it, you instead gain an expertise die. Additionally,
+      allies within 30 feet of you gain an expertise die on their saving throws
+      against the Frightened condition, as your presence boosts confidence.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Fire; 6th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: fs2mbqouf2jo9b08
+_key: '!items!fs2mbqouf2jo9b08'

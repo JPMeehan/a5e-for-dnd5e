@@ -1,6 +1,6 @@
 name: 'Grand Battle Hymns: Magic Never Dies'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/time/arrows-circling-green.webp
 effects: []
 flags: {}
 system:
@@ -9,11 +9,12 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Allies within 30 feet of you regain up to 5 levels of spell slots, or
-      if they have no spell slots, gain 30 temporary hit points.</p>
+      <p>When you activate&nbsp;this hymn, each ally within 30 feet
+      regains&nbsp;up to five levels worth of spell slots or&nbsp;gains 30
+      temporary hit points.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''

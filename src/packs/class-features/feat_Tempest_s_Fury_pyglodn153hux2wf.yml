@@ -1,0 +1,103 @@
+folder: null
+name: Tempest's Fury
+type: feat
+img: icons/magic/lightning/bolt-strike-explosion-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you add the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.idachh0qpbbyne7c]{Lightning
+      Bolt} spell to your witch spell list. You always have the
+      @UUID[Compendium.a5e.a5e-spells.Item.3nmwxsj7cjtdaroy]{Geyserblast},
+      @UUID[Compendium.a5e.a5e-spells.Item.4d34soddujdw26u3]{Scalding Steam},
+      @UUID[Compendium.a5e.a5e-spells.Item.idachh0qpbbyne7c]{Lightning Bolt},
+      and @UUID[Compendium.a5e.a5e-spells.Item.n8hfh0nriroypyz0]{Steal Breath}
+      spells prepared, they do not count against your number of witch spells
+      prepared, and you may cast each of these once per long rest at the lowest
+      spell level without expending a spell slot.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/air/wind-stream-blue-gray.webp
+    origin: Item.pyglodn153hux2wf
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: GukD18uBi6tsnnKs
+        duration:
+          unit: hours
+    transfer: false
+    name: Stolen Breath
+    _id: R5DMBkBwlunrUM2H
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p dir="ltr">The target must hold their breath or begin drowning. If they
+      take damage they must make a concentration check to hold their breath.
+      Creatures that do not breathe are immune to this spell.</p><p
+      dir="ltr">Creatures that die from the effects of this spell have water
+      filling their lungs and throat.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!pyglodn153hux2wf.R5DMBkBwlunrUM2H'
+flags: {}
+_id: pyglodn153hux2wf
+_key: '!items!pyglodn153hux2wf'

@@ -1,0 +1,29 @@
+name: Bonded Fortitude
+type: feat
+img: icons/magic/life/heart-cross-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>In emergencies when your own fortitude fails you can pull from the
+      wellspring of power within your bonded artifact. Whenever you would fail a
+      Constitution saving throw or gain a level of fatigue you can expend every
+      remaining artifact charge instead. If you do, your bonded artifact cannot
+      regain charges for the next 24 hours. You cannot use this feature if you
+      have no artifact charges remaining.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: lju0fnvhfp7i2epd
+_key: '!items!lju0fnvhfp7i2epd'

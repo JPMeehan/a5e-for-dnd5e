@@ -1,0 +1,27 @@
+name: Charged Maneuvers
+type: feat
+img: icons/skills/melee/hand-grip-sword-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>A little arcane power can take your physical skills to a masterclass.
+      Whenever you perform a combat maneuver that forces one or more targets to
+      save against your combat maneuver DC, you can spend 2 artifact charges to
+      increase that DC by 2.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: sjpsgrmiiztc146n
+_key: '!items!sjpsgrmiiztc146n'

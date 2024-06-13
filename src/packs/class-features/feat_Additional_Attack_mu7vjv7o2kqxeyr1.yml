@@ -9,14 +9,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Requirement: 11th level</em></p><p>You can attack three times,
-      instead of twice, when you take the Attack action.</p>
+      <p>You can attack three times, instead of twice, when you take the Attack
+      action.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 11th Level
   recharge:
     value: null
     charged: true

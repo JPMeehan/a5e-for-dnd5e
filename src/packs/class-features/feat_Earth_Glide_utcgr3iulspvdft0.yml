@@ -1,0 +1,26 @@
+folder: null
+name: Earth Glide
+type: feat
+img: icons/magic/earth/barrier-stone-brown-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You gain a burrow Speed equal to half your Speed. You can
+      burrow through nonmagical, unworked earth and stone without disturbing it.
+      You do not leave a tunnel behind you.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Earth; 11th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: utcgr3iulspvdft0
+_key: '!items!utcgr3iulspvdft0'

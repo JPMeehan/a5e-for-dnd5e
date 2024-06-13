@@ -1,0 +1,68 @@
+name: Claws of Darkness (Hellish Physiology)
+type: feat
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your finger nails lengthen and sharpen into fearsome talons. You can
+      make unarmed attacks with these claws, which have the finesse and vicious
+      properties, dealing 1d8 slashing damage. With these claws only, you can
+      make two attacks rather than one when you take the Attack action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8+@mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: iv60pv3a0hmuzutb
+_key: '!items!iv60pv3a0hmuzutb'

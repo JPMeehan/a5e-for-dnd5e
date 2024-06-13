@@ -1,0 +1,27 @@
+name: Hero
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Inspiring tales of your victories have won you friends in high places.
+      Nobles and royalty treat you as an equal, granting you free lodging, food,
+      and a place upon their court for a number of days up to your marshal
+      level.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: na45pnq2h6jabw6g
+_key: '!items!na45pnq2h6jabw6g'

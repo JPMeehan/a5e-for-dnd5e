@@ -1,0 +1,26 @@
+name: Feedback Loop
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever a creature uses your Commanding Presence and successfully hits
+      their target, you gain a reaction. You must use this reaction before the
+      start of your next turn or it is lost.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 13b3xtqwl1jb16zt
+_key: '!items!13b3xtqwl1jb16zt'

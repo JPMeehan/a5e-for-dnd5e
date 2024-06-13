@@ -1,0 +1,98 @@
+name: Enigmatic Training
+type: feat
+img: icons/commodities/treasure/puzzle-cube.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your artifact is an intellectually challenging puzzle you find other
+      challenges easier to parse after you make a breakthrough. Whenever you use
+      your enigma tinkering or unlock potential features to learn a spell or
+      relic art, you gain an expertise die on all Intelligence checks for the
+      next hour (this ability does not stack with itself).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Enigmatist archetype
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/commodities/treasure/puzzle-cube.webp
+    origin: Item.GXurgEm6mX2Zf6oG
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nsFdeHjFpHWnrUkZ
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Enigmatic Training
+    _id: gqo8kZWhxfHTNZut
+    changes:
+      - key: system.abilities.int.check.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gain an expertise die on all Intelligence checks for the next hour
+      (this ability does not stack with itself).</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!xqowsq7cklo291ze.gqo8kZWhxfHTNZut'
+flags: {}
+folder: null
+_id: xqowsq7cklo291ze
+_key: '!items!xqowsq7cklo291ze'

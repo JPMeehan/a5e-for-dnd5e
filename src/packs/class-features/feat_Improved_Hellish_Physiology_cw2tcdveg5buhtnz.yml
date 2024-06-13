@@ -1,0 +1,43 @@
+name: Improved Hellish Physiology
+type: feat
+img: icons/creatures/unholy/demon-fire-horned-winged-roar.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, your fiendish physiological traits become more powerful.
+      You gain one of the following benefits based on your choice of Hellish
+      Physiology</p>
+
+      <h2>Infernal Wings</h2>
+
+      <p>If you selected Dark Wings for Hellish Physiology, your fly speed
+      increases to 60 feet. When you are flying, as an action you can cause
+      burning embers to fall from your wings to a space below you. These embers
+      deal 1d8 fire damage to any creatures in the space beneath you and ignite
+      any unattended flammable objects or substances.</p>
+
+      <h2>Tenebrous Claws</h2>
+
+      <p>You seem to swallow the light around you, decreasing the ambient light
+      level by 1 step (from bright light to dim light, from dim light to
+      darkness, and from darkness to magical darkness). You can suppress this
+      darkness at will (no action required). Your claws now deal an additional
+      1d6 points of necrotic damage if you are in darkness or magical
+      darkness.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: cw2tcdveg5buhtnz
+_key: '!items!cw2tcdveg5buhtnz'

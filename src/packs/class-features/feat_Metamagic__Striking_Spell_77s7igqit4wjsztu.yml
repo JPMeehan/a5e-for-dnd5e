@@ -1,0 +1,26 @@
+name: 'Metamagic: Striking Spell'
+type: feat
+img: icons/magic/control/energy-stream-link-spiral-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you hit with a melee weapon attack, you may spend 2 sorcery points
+      to cast a spell with a range of touch and a casting time of 1 Action on
+      the target you just struck.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 77s7igqit4wjsztu
+_key: '!items!77s7igqit4wjsztu'

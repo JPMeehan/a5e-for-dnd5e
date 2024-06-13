@@ -1,0 +1,176 @@
+folder: null
+name: Wild Experimentation
+type: feat
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, even if you don&rsquo;t know how to work your
+      artifact you can still press a few buttons and see what happens. As a
+      bonus action you can perform a wild experiment using your artifact, if you
+      do, expend 2 charges and roll 1d8 on the following table to determine the
+      results:</p>
+
+      <p><strong>Table: Wild Experiment</strong></p>
+
+      <table style="width: 100%; border-width: 1px; border-color: #000000;
+      border-style: solid;" border="1"><colgroup><col style="width:
+      7.35684%;"><col style="width: 92.6432%;"></colgroup>
+
+      <tbody>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">d8</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">Result</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">1</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0,
+      0);"><strong>Cascade.</strong> Expend 2 more charges and immediately roll
+      twice more on this table (ignore this result if there are fewer than 2
+      charges remaining). You may resolve each result in order.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">2</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0,
+      0);"><strong>Overload.</strong> You and all creatures within 10 feet of
+      you must make a Constitution saving throw and take a number of d6 force
+      damage equal to your proficiency bonus on a failed save, and half as much
+      on a successful one.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">3</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0,
+      0);"><strong>Backfire.</strong> You are launched 30 feet in a random
+      direction and you and any creature or object you impact take 3d6
+      bludgeoning damage.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">4</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0,
+      0);"><strong>Dud.</strong> The combination you entered or the technique
+      you tried yielded nothing other than wasting charges.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">5</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0,
+      0);"><strong>Invigorating Power.</strong> You feel invigorated. For the
+      next minute, the exertion point cost of any combat maneuvers you perform
+      are reduced by 1 (minimum 1).</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">6</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);"><strong>Arcane
+      Power.</strong> The artifact hums with power. For the next minute, the
+      charge cost of any wielder spells you cast are reduced by 1 (minimum
+      1).</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">7</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0,
+      0);"><strong>Unexpected Result.</strong> Randomly choose a 1st level
+      wielder spell from the wielder spell list and immediately cast it. You
+      know this randomly chosen 1st level spell until you finish a short or long
+      rest.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0, 0);">8</td>
+
+      <td style="border-width: 1px; border-color: rgb(0, 0,
+      0);"><strong>Success!</strong> You may immediately cast a wielder spell
+      you know of your choice at the highest level you have access to without
+      expending any charges.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: re2fsc9zb95ucoi3
+_key: '!items!re2fsc9zb95ucoi3'

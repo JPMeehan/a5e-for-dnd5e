@@ -1,0 +1,27 @@
+folder: null
+name: World-Wanderer
+type: feat
+img: icons/skills/movement/arrows-up-trio-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a climbing speed and a swimming speed equal to your speed, or
+      increase these speeds by 10 feet if you already have them. In addition,
+      your speed is only reduced by 5 feet instead of halved when crawling,
+      squeezing, or traversing difficult terrain.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: xgz8vewcqrcctbn4
+_key: '!items!xgz8vewcqrcctbn4'

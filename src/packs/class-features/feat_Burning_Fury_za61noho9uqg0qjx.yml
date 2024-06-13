@@ -1,0 +1,31 @@
+folder: null
+name: Burning Fury
+type: feat
+img: icons/magic/fire/flame-burning-embers-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You can harness the primal fear of fire. You gain proficiency
+      in Intimidation. If you were already proficient, you instead gain an
+      expertise die. You suffer no penalties for attempting to use Intimidation
+      on creatures that do not share a language with you, or who have no
+      language, as the fear of fire transcends all language. Additionally, when
+      you are under the effect of the Frightened condition, you make your attack
+      rolls against the subject of your fear with advantage rather than
+      disadvantage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Fire; 5th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: za61noho9uqg0qjx
+_key: '!items!za61noho9uqg0qjx'

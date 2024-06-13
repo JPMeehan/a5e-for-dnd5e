@@ -1,0 +1,38 @@
+name: Hellish Physiology
+type: feat
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, your appearance becomes more fiendish. Choose one of the
+      following options:</p>
+
+      <h2>Fiery Wings</h2>
+
+      <p>You sprout a pair of wings (with an appearance chosen by you when you
+      select this option). Your wings grant you a fly speed equal to your
+      walking speed. Creatures grappling you take 1d4 points of fire damage.</p>
+
+      <h2>Claws of Darkness</h2>
+
+      <p>Your finger nails lengthen and sharpen into fearsome talons. You can
+      make unarmed attacks with these claws, which have the finesse and vicious
+      properties, dealing 1d8 slashing damage. With these claws only, you can
+      make two attacks rather than one when you take the Attack action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 2f6uk9bin71497vx
+_key: '!items!2f6uk9bin71497vx'

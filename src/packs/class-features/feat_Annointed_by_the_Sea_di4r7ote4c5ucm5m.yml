@@ -1,0 +1,103 @@
+folder: null
+name: Annointed by the Sea
+type: feat
+img: icons/magic/water/wave-water-explosion.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take this archetype at 2nd level you add all spells of the
+      water school to your list of witch spells.<br>You may also cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.yav7747ibqje7nzm]{Alter Self}
+      spell at will without expending a spell slot even if it isn't prepared,
+      but only choosing the Amphibious option when doing so, and you may turn
+      the benefits on and off for the duration as an action instead of being
+      able to choose a different one. &nbsp;When you do so, the same benefits
+      apply to your familiar.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/nature/wolf-paw-glow-orange.webp
+    origin: Item.di4r7ote4c5ucm5m
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ySZylPhaiJJirvkM
+        duration:
+          unit: hours
+    transfer: false
+    name: Amphibian
+    _id: FmHZFYE5AMA1X6HX
+    changes:
+      - key: system.attributes.movement.swim.distance
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your body takes on aquatic adaptations. You can breathe underwater
+      normally and gain a swimming speed equal to your base Speed.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!di4r7ote4c5ucm5m.FmHZFYE5AMA1X6HX'
+flags: {}
+_id: di4r7ote4c5ucm5m
+_key: '!items!di4r7ote4c5ucm5m'

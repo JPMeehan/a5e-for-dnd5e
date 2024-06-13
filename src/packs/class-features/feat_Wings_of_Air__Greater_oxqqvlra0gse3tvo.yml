@@ -1,0 +1,128 @@
+folder: null
+name: Wings of Air, Greater
+type: feat
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Your Fly speed increases to double your speed. As an action,
+      you can reduce your Fly speed back to your speed and instead grant all
+      allies within 30 feet of you a Fly speed equal to their speed (or 20 feet,
+      whichever is greater); both effects last for 1 minute, and using the
+      action a further time resets the duration to 1 minute.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Air; Wings of Air adaptation; 17th level'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/holy/angel-winged-humanoid-blue.webp
+    origin: Item.OITBcOLggQvBYxwS
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: CSoktB5cWFjIxgPB
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Reduce Flying Speed
+    _id: 7JI7tAAKtHnZoGFY
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: '@movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!oxqqvlra0gse3tvo.7JI7tAAKtHnZoGFY'
+  - icon: icons/magic/holy/angel-winged-humanoid-blue.webp
+    origin: Item.OITBcOLggQvBYxwS
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: CSoktB5cWFjIxgPB
+        duration:
+          unit: minutes
+    transfer: false
+    name: Grant Flying Speed
+    _id: a7KubQDvw2XuZeH9
+    changes:
+      - key: system.attributes.movement.fly.distance
+        value: max(@movement.walk.distance,20)
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!oxqqvlra0gse3tvo.a7KubQDvw2XuZeH9'
+flags: {}
+_id: oxqqvlra0gse3tvo
+_key: '!items!oxqqvlra0gse3tvo'

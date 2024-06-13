@@ -1,0 +1,69 @@
+name: Evolving Inferno
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell of 1st-level or higher that deals fire damage,
+      you can spend 1 sorcery point to store some of the energy of the spell as
+      a flame you hold in one hand. You can use an action to throw this flame,
+      making a ranged spell attack against a target you can see within 30 feet.
+      On a hit, the creature takes [[/r 1d8 #fire]] fire damage per level of the
+      spell cast to trigger this effect. The flame lasts for up to 1 minute or
+      until it is&nbsp;thrown.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: yvzk1tzuwtnioiiw
+_key: '!items!yvzk1tzuwtnioiiw'

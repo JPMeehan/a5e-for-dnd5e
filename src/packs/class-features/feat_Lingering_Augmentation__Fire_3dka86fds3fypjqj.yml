@@ -1,0 +1,74 @@
+folder: null
+name: 'Lingering Augmentation: Fire'
+type: feat
+img: icons/magic/fire/explosion-embers-evade-silhouette.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-e3cae755-7fff-059f-8401-07f0594a9c74"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 5; <strong>Element:</strong>
+      Fire</span></em></p>
+
+      <p><span id="docs-internal-guid-52c65750-7fff-d084-b270-0865634182af">By
+      spending 3 spell points, your blast clings to targets who are hit or who
+      fail their save, dealing 1d6 ongoing damage of the same type for 1 minute.
+      Targets may attempt a saving throw (Dex for Fire, Con for Cold or
+      Lightning) to end the effect at the end of their turn, or they can end it
+      automatically as an action. For every 2 additional spell points you spend,
+      increase the ongoing damage by +1d6.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 3dka86fds3fypjqj
+_key: '!items!3dka86fds3fypjqj'

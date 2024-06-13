@@ -1,0 +1,37 @@
+folder: null
+name: Advanced Battle Defense
+type: feat
+img: icons/skills/melee/shield-block-bash-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>By 7th level you have doubled down on your battle defense style. Choose
+      one of the following.</p>
+
+      <h2>Enhanced Vitality</h2>
+
+      <p>Choose Intelligence, Wisdom, or Charisma. When you make the chosen
+      saving throw against an effect that deals half damage on a success, you
+      can choose to instead make a Constitution saving throw.</p>
+
+      <h2>Preternatural Agility</h2>
+
+      <p>You can evade danger to an unbelievable degree. When you make a
+      Dexterity saving throw against an effect that deals half damage on a
+      success, you take no damage on a success and half damage on a failure.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 5gz1xepkt48d2alg
+_key: '!items!5gz1xepkt48d2alg'

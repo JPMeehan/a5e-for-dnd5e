@@ -1,0 +1,69 @@
+name: Magic Divining Rod
+type: feat
+img: icons/tools/navigation/compass-chain-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your artifact tends towards sources of powerful magic like a compass
+      points towards the true north. As an action you can use your artifact as a
+      magical divining rod, if you do, it points in the direction of the nearest
+      powerful source of magic on the plane. Magical power sources that could
+      draw your artifact include but are not limited to: spellcasters capable of
+      performing 9th level spells, leyline convergences, artifact-tier magic
+      items, gods, or ancient dragons.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: yqnnbfgjhsnvqnyu
+_key: '!items!yqnnbfgjhsnvqnyu'

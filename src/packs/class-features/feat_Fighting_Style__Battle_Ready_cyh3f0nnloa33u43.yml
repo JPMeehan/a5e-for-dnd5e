@@ -1,0 +1,27 @@
+name: 'Fighting Style: Battle Ready'
+type: feat
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may activate up to 2 combat stances you know without expending any
+      exertion points using the same bonus action. Once you&nbsp; activate a set
+      of combat stances in this way you can’t use this feature again until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: cyh3f0nnloa33u43
+_key: '!items!cyh3f0nnloa33u43'

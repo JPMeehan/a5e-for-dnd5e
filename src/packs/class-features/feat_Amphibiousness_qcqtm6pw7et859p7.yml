@@ -1,0 +1,26 @@
+folder: null
+name: Amphibiousness
+type: feat
+img: icons/magic/water/bubbles-air-water-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You gain the amphibious trait, allowing you to breathe
+      underwater as well as in air. You are also immune to the effects of deep
+      water, such the pressure and penalties on actions.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Water'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: qcqtm6pw7et859p7
+_key: '!items!qcqtm6pw7et859p7'

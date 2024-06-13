@@ -13,12 +13,11 @@ system:
       cone must make a <strong>Wisdom save against your spell save DC or take
       4d6 psychic damage, gain a level of strife and become frightened for one
       minute.</strong> Creatures that succeed on their Wisdom save take damage
-      as normal, but are not frightened and do not gain levels of strife.</p>
-
-      <p>Creatures that fail by 5 or more suffer a mild heart attack. Such a
-      creature must make a Constitution save against your spell save DC or
-      acquire two levels of fatigue and are stunned until the end of their next
-      turn.</p>
+      as normal, but are not frightened and do not gain levels of
+      strife.</p><p>Creatures that fail by 5 or more suffer a mild heart attack.
+      Such a creature must make a Constitution save against your spell save DC
+      or acquire two levels of fatigue and are stunned until the end of their
+      next turn.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -70,7 +69,7 @@ system:
     scaling: spell
 effects:
   - icon: icons/magic/control/debuff-energy-hold-pink.webp
-    origin: Item.iW1ovzXrNKo5a830
+    origin: Item.35808ufj111xsvbs
     flags:
       a5e:
         sort: 0

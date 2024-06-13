@@ -1,0 +1,96 @@
+folder: null
+name: Control Element
+type: feat
+img: icons/magic/symbols/squares-3d-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>In addition to creating damaging blasts of elemental energy,
+      elementalists are able to command and control elemental material at a
+      distance. As an action, an elementalist can create effects at a range of
+      30 feet, manipulating ambient elemental material to create any of the
+      following effects. You must possess the proper elemental affinity to
+      control an element.</p>
+
+      <ul>
+
+      <li>Elemental material weighing up to 5 lbs per elementalist level can be
+      moved up to 30 feet.</li>
+
+      <li>Elemental material up to a cubic foot can be reshaped (such as ice or
+      stone), using your power in place of any required tool proficiencies.
+      Shapes can be made in amorphous elements (like air, fire, or water), but
+      the shapes only hold for as long as you spend an action.</li>
+
+      <li>Air can be used to create light breezes, enough to ruffle and move
+      material like paper and leaves, blow out tiny fires, or clear or create
+      smells. You can also move air into a creature&rsquo;s lungs, allowing it
+      to breathe for 1 minute in an environment it otherwise couldn&rsquo;t. You
+      can use air to perform the Knockdown and Shove maneuvers against medium or
+      smaller creatures within range.</li>
+
+      <li>Earth can be used to shift stone and earth. A 5-ft square of soil can
+      be dug, deposited 5 feet away. A 5- foot-square section of earth or stone
+      can be made into difficult terrain, or a 5-foot-square section of earth or
+      stone difficult terrain can be smoothed into normal terrain. Breaking rock
+      can be attempted as an action using your spellcasting ability modifier
+      with proficiency as if it were a Strength check, or you can deal damage to
+      an inanimate earthen object as an action to deal your earth blast damage
+      to it. Earth can be used to perform the Grapple, Knockdown, and Shove
+      maneuvers against targets in contact with earth or stone, engulfing,
+      shaking, or pushing them with the earth.</li>
+
+      <li>Fire can be used to ignite flammable material. It can be used to
+      expand a fire up to 5-feet, provided fuel is present. It can extinguish
+      flames as large as a 5-foot cube, or a 5-foot cubic portion. You can
+      create and hold a flame in your hand without burning yourself.</li>
+
+      <li>Water can be used to stop or change the flow of water in a
+      5-foot-cube, though the currents aren&rsquo;t fast enough to hurt
+      anything. You can cause a 5-ft square section of ground to grow slick or
+      icy, requiring Acrobatics checks against your spell save DC to move
+      through at regular speed. You can freeze a 5-ft square section of water as
+      long as there are no creatures in it; the water unfreezes after an hour.
+      You can also provide water for a water breathing creature so that it can
+      breathe for 1 minute in an environment it otherwise couldn&rsquo;t. Water
+      can be used to perform the Knockdown or Shove maneuvers against targets
+      near water, or to Grapple or Knockdown targets standing on the ground by
+      coating the floor with ice.</li>
+
+      </ul>
+
+      <h2>Indirect Elemental Blast</h2>
+
+      <p>If there is a source of elemental material within your Control Elements
+      range, you can use your control element ability and use it as a point of
+      origin for your elemental blast. The target of your attack must be within
+      range of the elemental material, and the origin must be a significant
+      source of elemental material: still air is not sufficient, for instance,
+      but wind is; a candle isn&rsquo;t, but a roaring campfire is; soil
+      isn&rsquo;t, but rocks are.</p>
+
+      <p>The elemental blast is resolved as normal, but the line of effect is
+      drawn from the source of elemental material, redirecting wind, throwing a
+      rock, causing a flame to leap, or launching a jet from a body of water.
+      This may be used to bypass cover, or potentially launch surprise attacks.
+      If the original elemental matter is small, such as a campfire or a bucket
+      of water, it is snuffed out or used up by the attack. A solid object, like
+      a rock, must be within your Command Elements weight limit, and the
+      material takes damage equal to half your elemental blast when it hits its
+      target.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: rosj8xvi8bstdegy
+_key: '!items!rosj8xvi8bstdegy'

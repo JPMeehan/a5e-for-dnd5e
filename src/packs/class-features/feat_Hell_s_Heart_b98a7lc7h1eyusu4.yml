@@ -1,0 +1,27 @@
+name: Hell's Heart
+type: feat
+img: icons/magic/unholy/orb-hands-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level, you learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.m9gqrt6cl7ch144c]{Heart of Dis}
+      spell. It does not count against your spells known and you can cast it
+      without material components.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: b98a7lc7h1eyusu4
+_key: '!items!b98a7lc7h1eyusu4'

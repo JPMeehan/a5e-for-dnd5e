@@ -1,0 +1,27 @@
+name: Refracting Spell
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell that involves a spell attack roll and targets
+      only a single creature, you can spend an additional 2 sorcery points. If
+      the spell hits, a creature within 5 feet of the original target takes half
+      the spell’s damage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 9uk7rimf2oiyyuxt
+_key: '!items!9uk7rimf2oiyyuxt'

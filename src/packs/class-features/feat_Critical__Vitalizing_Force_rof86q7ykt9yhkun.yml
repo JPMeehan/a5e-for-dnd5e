@@ -1,7 +1,38 @@
 name: 'Critical: Vitalizing Force'
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/movement/feet-winged-sandals-tan.webp
+effects:
+  - icon: icons/skills/movement/feet-winged-sandals-tan.webp
+    origin: Item.3Jb1alaEXLBZCnlt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4RfMDe87SKXNmZgc
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Vitalizing Force
+    _id: db63eI1JIPjhZF5o
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '20'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!rof86q7ykt9yhkun.db63eI1JIPjhZF5o'
 flags: {}
 system:
   type:
@@ -36,7 +67,7 @@ system:
   range:
     value: null
     long: null
-    units: self
+    units: ''
   uses:
     value: null
     max: ''
@@ -47,7 +78,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

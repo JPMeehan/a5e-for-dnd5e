@@ -1,0 +1,82 @@
+name: Ancestral Talents
+type: feat
+img: icons/magic/light/swords-light-glowing-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 10th level, your artifact bestows your innate physical
+      prowess and mental faculties with the talents of those that came before.
+      Whenever you enter your torch bearer form, choose either your combat
+      maneuvers or wielder spells. The DC of your selection is increased by 2
+      for as long as you remain in your torch bearer form.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.sOrJ9PLJ4aSlcppa
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: 'Torch Bearer Form: Ancestral Talents (Maneuver DC)'
+    _id: qNLuZQ9lxt8hmySu
+    changes:
+      - key: system.bonuses.maneuverDC
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!5dlgk2hsd7t3dbq5.qNLuZQ9lxt8hmySu'
+  - icon: icons/svg/aura.svg
+    origin: Item.sOrJ9PLJ4aSlcppa
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: 'Torch Bearer Form: Ancestral Talents (Wielder Spell DC)'
+    _id: tzQ2KJwKSGtdfDiX
+    changes:
+      - key: system.bonuses.spellDC
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!5dlgk2hsd7t3dbq5.tzQ2KJwKSGtdfDiX'
+flags: {}
+folder: null
+_id: 5dlgk2hsd7t3dbq5
+_key: '!items!5dlgk2hsd7t3dbq5'

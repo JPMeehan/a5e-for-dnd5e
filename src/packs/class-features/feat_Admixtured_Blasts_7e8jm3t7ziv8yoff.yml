@@ -1,0 +1,144 @@
+folder: null
+name: Admixtured Blasts
+type: feat
+img: icons/magic/light/projectile-smoke-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>An Admixtured Blast combines the power of two elements into one blast.
+      If you have two or more Elemental Affinities, you gain access to
+      Admixtured Blasts. Admixtured blasts deal two damage types (each damage
+      type deals half the total damage) and have their own properties.
+      Admixtured blasts can utilize augments of any of their base elements.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Admixtured Blasts</strong></p>
+
+      <table style="width: 100%; height: 117.6px;" border="1"><colgroup><col
+      style="width: 16.7315%;"><col style="width: 18.0934%;"><col style="width:
+      22.5877%;"><col style="width: 42.5874%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Affinity</td>
+
+      <td style="text-align: center; height: 16.8px;">Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Damage</td>
+
+      <td style="text-align: center; height: 16.8px;">Properties</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Air/Earth</td>
+
+      <td style="text-align: center; height: 16.8px;">Sand Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Slashing
+      and<br>Piercing</td>
+
+      <td style="height: 16.8px;">Irritating: On hit, target suffers
+      disadvantage on Perception checks for 1 round.</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Air/Fire</td>
+
+      <td style="text-align: center; height: 16.8px;">Plasma Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Bludgeoning<br>and
+      Fire</td>
+
+      <td style="height: 16.8px;">Dazzling: On hit, target suffers disadvantage
+      on next attack roll.</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Air/Water</td>
+
+      <td style="text-align: center; height: 16.8px;">Storm Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Bludgeoning<br>and
+      Piercing</td>
+
+      <td style="height: 16.8px;">Pushing: On hit, target is pushed 10
+      feet.</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Earth/ Fire</td>
+
+      <td style="text-align: center; height: 16.8px;">Lava Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Bludgeoning<br>and
+      Fire</td>
+
+      <td style="height: 16.8px;">Searing: On hit, target ignites, taking 1d6
+      persistent fire damage on the start of its next turn.<br>Particularly
+      flammable targets may continue to burn.</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Earth/Water</td>
+
+      <td style="text-align: center; height: 16.8px;">Ooze Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Acid
+      and<br>Bludgeoning</td>
+
+      <td style="height: 16.8px;">Slowing: On hit, the target's speeds are
+      reduced by 10 ft.</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">Fire/Water</td>
+
+      <td style="text-align: center; height: 16.8px;">Steam Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Bludgeoning<br>and
+      Fire</td>
+
+      <td style="height: 16.8px;">Blistering: On hit, the target takes an
+      additional 1d6 damage the next time it takes fire damage<br>before the end
+      of your next turn.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 7e8jm3t7ziv8yoff
+_key: '!items!7e8jm3t7ziv8yoff'

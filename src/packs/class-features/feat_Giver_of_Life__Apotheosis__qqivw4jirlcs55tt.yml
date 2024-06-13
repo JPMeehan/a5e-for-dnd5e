@@ -1,0 +1,74 @@
+folder: null
+name: Giver of Life (Apotheosis)
+type: feat
+img: icons/magic/life/heart-cross-strong-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-702f4d6b-7fff-a72b-bada-9e8d333e5844"
+      dir="ltr"><span
+      id="docs-internal-guid-58af9b4c-7fff-8491-ab8d-7f33da9f6762">You have
+      mastered the ability to convert elemental energy into the energy of life.
+      You can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.rcodaq0qz6lz0vop]{Mass
+      Heal}</span>&nbsp;once without expending a spell slot or spell points.
+      Once you use this feature, you must complete a long rest before you can
+      use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Mastery in Water, and the Healing Waters adaptation
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '700'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: qqivw4jirlcs55tt
+_key: '!items!qqivw4jirlcs55tt'

@@ -1,0 +1,25 @@
+folder: null
+name: Cold Acclimation
+type: feat
+img: icons/magic/water/ice-crystal-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You gain resistance to cold damage. Additionally, your inner
+      cool makes you naturally adapted to hot and cold climates.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Water'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: dky70qe19ncjra1r
+_key: '!items!dky70qe19ncjra1r'

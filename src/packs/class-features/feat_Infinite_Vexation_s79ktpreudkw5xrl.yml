@@ -1,0 +1,30 @@
+name: Infinite Vexation
+type: feat
+img: icons/magic/unholy/energy-smoke-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your mind is constantly filled with the infinitely vexing puzzles of
+      your artifact, the minds of others simply aren&rsquo;t prepared. You add
+      the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.vyneq4c6bdvado50]{Searing
+      Equation} to your list of known wielder spells. In addition, the artifact
+      charge cost for you to cast the spell searing equation is reduced by 1
+      (minimum 1).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Enigmatist archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: s79ktpreudkw5xrl
+_key: '!items!s79ktpreudkw5xrl'

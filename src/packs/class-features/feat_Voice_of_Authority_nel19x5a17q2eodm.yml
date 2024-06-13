@@ -1,0 +1,29 @@
+folder: null
+name: Voice of Authority
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your artifact empowers your natural authority, and others feel
+      compelled to obey your words. You add the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bs1zn1s8ewwa4tfx]{Command}
+      spell to your list of known wielder spells. In addition, the artifact
+      charge cost for you to cast the spell command is reduced by 1 (minimum
+      1).</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: Crowned archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: nel19x5a17q2eodm
+_key: '!items!nel19x5a17q2eodm'

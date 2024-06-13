@@ -1,7 +1,45 @@
 name: Undaunted
 type: feat
 img: icons/environment/wilderness/mine-interior-dungeon-door.webp
-effects: []
+effects:
+  - icon: icons/environment/wilderness/mine-interior-dungeon-door.webp
+    origin: Item.781o4evp4C5YLbLO
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FtrdSRuv8siHWpqZ
+        duration:
+          type: rounds
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Undaunted
+    _id: s162fdLVK2ur9uHa
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.all
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gain advantage on ability checks and attack rolls until the end of your
+      next turn.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!o1y67idftch7m18s.s162fdLVK2ur9uHa'
 flags: {}
 system:
   type:
@@ -23,6 +61,46 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Exploring a place which you have never been to before
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: o1y67idftch7m18s
 _key: '!items!o1y67idftch7m18s'

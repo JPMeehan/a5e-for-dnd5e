@@ -1,0 +1,25 @@
+name: 'Fighting Style: Technical Fighting'
+type: feat
+img: icons/skills/melee/strike-sword-blood-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you use a combat maneuver any damage dealt by attacks using it
+      deal an additional 2 damage, and your maneuver DC increases by 1.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: c1yqulmuae4cej6i
+_key: '!items!c1yqulmuae4cej6i'

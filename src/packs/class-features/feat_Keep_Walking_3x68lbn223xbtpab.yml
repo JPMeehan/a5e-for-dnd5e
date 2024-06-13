@@ -1,0 +1,28 @@
+name: Keep Walking
+type: feat
+img: icons/skills/movement/feet-spurred-boots-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can motivate your allies to keep going even when they are tired and
+      hungry. Once between long rests, you can choose a number of allies equal
+      to twice your<br>proficiency bonus who can hear or understand you. Each
+      ally can travel an additional hour before needing to make a Constitution
+      saving throw for a forced march.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 3x68lbn223xbtpab
+_key: '!items!3x68lbn223xbtpab'

@@ -1,0 +1,99 @@
+name: Chimeric (True Power)
+type: feat
+img: icons/creatures/magical/humanoid-silhouette-glowing-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level your transformation has finally reached its peak. You
+      gain one of the following abilities based on what you chose for your
+      twisted mutation.</p>
+
+      <p><strong>Chimeric</strong>: Your fly speed increases to 120ft and you
+      gain a Wing Buffet attack as an action. All creatures in a 20ft cone must
+      make a Strength save or take 4d8+Str bludgeoning damage and be knocked
+      prone and pushed 15ft away from you. On a successful save they take half
+      damage and are not knocked prone.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d8+@mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/svg/aura.svg
+    origin: Item.TBLdKazp7R1BQnVd
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Chimeric
+    _id: BXU2rCn2hVo5F8yo
+    changes:
+      - key: system.attributes.movement.fly.distance
+        mode: 5
+        value: '120'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!z5gr89rgp4raqwmp.BXU2rCn2hVo5F8yo'
+flags: {}
+folder: null
+_id: z5gr89rgp4raqwmp
+_key: '!items!z5gr89rgp4raqwmp'

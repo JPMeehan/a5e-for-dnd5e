@@ -1,0 +1,27 @@
+name: Reliable Spell
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you roll a 4 or lower on a spell attack, you can spend 1 sorcery
+      point to reroll the attack. You can use Reliable Spell even if you have
+      already used a different Metamagic option during the casting of the
+      spell.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: xcinp371fc7xz18b
+_key: '!items!xcinp371fc7xz18b'

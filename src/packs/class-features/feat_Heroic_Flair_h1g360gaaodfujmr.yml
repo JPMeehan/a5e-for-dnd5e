@@ -1,0 +1,26 @@
+name: Heroic Flair
+type: feat
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your victories have emboldened you and you radiate with heroic
+      confidence. You have advantage on Persuasion checks made to influence
+      friendly creatures with a CR lower than your fighter level.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: h1g360gaaodfujmr
+_key: '!items!h1g360gaaodfujmr'

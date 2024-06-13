@@ -1,7 +1,36 @@
 name: 'Defense: Rugged Defense'
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/melee/maneuver-daggers-paired-orange.webp
+effects:
+  - icon: icons/skills/melee/maneuver-daggers-paired-orange.webp
+    origin: Item.mlDpwyeDoON6S8k7
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Rugged Defense
+    _id: FxK9JKVxqhn6TCW2
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '5'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your speed increases by 5 feet while you aren’t wearing heavy armor. At
+      5th level, your speed increases by an additional 5 feet.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!j2n9an7ozhbs1hlp.FxK9JKVxqhn6TCW2'
 flags: {}
 system:
   type:

@@ -1,0 +1,29 @@
+name: Infamous
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you arrive in a settlement, after you reveal who you are common
+      folk hurry to get out of your way, and when you corner a commoner to ask
+      about something local they rapidly tell you whatever details they think
+      you might want to know.</p>
+
+      <p>In addition, you gain an expertise die on Intimidation checks.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: mjac2ayzhfefxap0
+_key: '!items!mjac2ayzhfefxap0'

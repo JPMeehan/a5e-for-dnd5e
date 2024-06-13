@@ -1,0 +1,31 @@
+name: Changeling (Growing Strength)
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level your power grows by leaps and bounds. You gain one of the
+      following abilities based on your choice of flesh and bone.</p>
+
+      <p><strong>Changeling</strong>: Your bonded power grows significantly. You
+      may now use it to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.95tar7xr3hdp0o92]{Polymorph} on
+      yourself. When you do so, the spell has no components and does not require
+      concentration.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: ajj2ywc9f2vtws2b
+_key: '!items!ajj2ywc9f2vtws2b'

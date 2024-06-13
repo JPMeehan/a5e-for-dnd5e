@@ -1,0 +1,27 @@
+folder: null
+name: Trail of Flames
+type: feat
+img: icons/magic/fire/barrier-wall-flame-ring-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you use the Dash or Sprint action, you leave behind a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.1b2ean5arnl3tob0]{Wall of Fire}
+      in the spaces you left (as the spell). The flames last until the beginning
+      of your next turn.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Fire; 17th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: gcsp4w4ub95m5010
+_key: '!items!gcsp4w4ub95m5010'

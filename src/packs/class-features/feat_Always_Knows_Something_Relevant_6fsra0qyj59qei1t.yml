@@ -1,0 +1,28 @@
+name: Always Knows Something Relevant
+type: feat
+img: icons/skills/social/diplomacy-handshake.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may, at the beginning of a social interaction, make an Intelligence
+      (Investigation) check against a DC of 15 + the other creature's Wisdom
+      modifier. If successful, your scholarly studies have granted insight into
+      this situation, and you may gain advantage on one ability check made as
+      part of this interaction.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 6fsra0qyj59qei1t
+_key: '!items!6fsra0qyj59qei1t'

@@ -1,0 +1,69 @@
+name: Spark of Power
+type: feat
+img: icons/magic/light/explosion-star-small-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your bonded artifact sparks and lashes out with barely contained
+      energies. When you select this relic art choose one of the following
+      damage types: acid, cold, fire, lightning, necrotic, psychic, or radiant.
+      Once per turn when you deal damage to a target with a weapon attack or
+      spell attack using your bonded artifact you can choose to deal an
+      additional d6 damage of the chosen type. You may select this relic art
+      multiple times and choose a different damage type each time. If you do,
+      you may select any of your chosen damage types when you choose to deal
+      additional damage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: v0vgfc587umfa2zo
+_key: '!items!v0vgfc587umfa2zo'

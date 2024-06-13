@@ -1,0 +1,28 @@
+name: Commander's Expertise
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever a creature uses your Commanding Presence to make an attack or
+      use a combat maneuver, it gains an expertise die. If the combat maneuver
+      has a save DC, it increases by an amount equal to the result of the
+      expertise die. This expertise die can be increased to a maximum of a
+      d12.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: gsmpjk3z9wdxyk1w
+_key: '!items!gsmpjk3z9wdxyk1w'

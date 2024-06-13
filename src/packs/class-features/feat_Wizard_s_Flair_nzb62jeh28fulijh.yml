@@ -1,0 +1,187 @@
+folder: null
+name: Wizard’s Flair
+type: feat
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 9th level, you have created a flair that you use when casting
+      spells. Choose a flair from the options below. When you finish a long
+      rest, you may replace your flair with another.</p><p>Whenever you cast a
+      spell of 1st-level or higher, you can choose to cast it with your flair.
+      You can do so again when you finish a short or long rest.</p><h2>Awe and
+      Wonder</h2><p>Choose one creature affected by the spell. It must succeed
+      on a Wisdom saving throw or be charmed by you until the end of its next
+      turn. While charmed in this way, it is incapacitated, has a movement speed
+      of 0, and does nothing but stare blankly at the dazzling effects of your
+      magic. If it takes any damage or is forced to make another saving throw,
+      the charm effect ends.</p><h2>Terror</h2><p>Choose one creature within 30
+      feet that can see you when you cast the spell. It must succeed on a Wisdom
+      saving throw or become frightened of you until the end of its next turn.
+      While frightened in this way, it starts its turn by using its full
+      movement to get away from you in the most direct manner possible, avoiding
+      obvious hazards along the way.</p><h2>Brilliance</h2><p>Choose one
+      creature within 30 feet that can see you when you cast the spell. It must
+      succeed on a Constitution saving throw or be blinded until the end of its
+      next turn.</p><h2>Warding</h2><p>After casting the spell, until the start
+      of your next turn, a creature who attempts to attack you must make a
+      Wisdom saving throw. On a failure, it must choose a new target or waste
+      its attack.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/symbols/ring-circle-smoke-blue.webp
+    origin: Item.nzb62jeh28fulijh
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: JlpcTR75xZ6aJmxh
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Charmed
+    _id: A1huDcnJwW3Owc4M
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed","incapacitated"]'
+        mode: 0
+        priority: null
+      - key: flags.a5e.effects.movement.allDistances
+        value: '0'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Incapacitated, has a movement speed of 0, and does nothing but stare
+      blankly at the dazzling effects of your magic.</p>
+    statuses:
+      - charmed
+      - incapacitated
+    folder: null
+    _key: '!items.effects!nzb62jeh28fulijh.A1huDcnJwW3Owc4M'
+  - icon: icons/magic/symbols/ring-circle-smoke-blue.webp
+    origin: Item.nzb62jeh28fulijh
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: s3G6JxDZcD1o8bh0
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frightened
+    _id: ZQkRKXa2AU7cGkir
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Starts its turn by using its full movement to get away from you in the
+      most direct manner possible, avoiding obvious hazards along the way.</p>
+    statuses:
+      - frightened
+    folder: null
+    _key: '!items.effects!nzb62jeh28fulijh.ZQkRKXa2AU7cGkir'
+  - icon: icons/magic/symbols/ring-circle-smoke-blue.webp
+    origin: Item.nzb62jeh28fulijh
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4oJyQpk2tCY6YBjU
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinded
+    _id: T9K1nvt19biiL0Kt
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    folder: null
+    _key: '!items.effects!nzb62jeh28fulijh.T9K1nvt19biiL0Kt'
+flags: {}
+_id: nzb62jeh28fulijh
+_key: '!items!nzb62jeh28fulijh'

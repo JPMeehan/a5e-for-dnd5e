@@ -1,0 +1,31 @@
+folder: null
+name: Ice Path
+type: feat
+img: icons/magic/water/tendrils-ice-growth.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">When you move on your turn, you can choose to freeze the air
+      ahead of you, creating a path of ice like a wall. The ice path can go up
+      or down at a maximum angle of 45 degrees; moving upwards costs double your
+      movement, and you get a bonus to your speed downwards equal to the
+      downward angle of the slope. Each 10 ft section of the path has AC 12 and
+      30 hit points, and it is vulnerable to fire damage. If a section of the
+      path is destroyed, the path collapses. Ice created with this adaptation
+      melts after 1 minute, unless the air temperature is below freezing.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Focus: Water; Icewalker adaptation; 17th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: vwqpabplkeawo82x
+_key: '!items!vwqpabplkeawo82x'

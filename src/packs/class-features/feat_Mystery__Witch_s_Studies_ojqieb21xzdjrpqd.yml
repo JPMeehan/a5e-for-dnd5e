@@ -7,15 +7,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p class="MsoNormal" style="margin-bottom: .0001pt;">You may choose a
-      wizard's Elective Study. You may choose this mystery a second time stating
-      at 13th level.</p>
+      <p>You may choose a wizard's Elective Study. You may choose this mystery a
+      second time starting at 13th level.</p>
     chat: ''
   source:
     book: Mysterious and Marvelous Miscellanea
     license: OGL 1.0a
   properties: []
-  requirements: Level 7 Witch Class
+  requirements: 7th Level
   recharge:
     value: null
     charged: true

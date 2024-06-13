@@ -1,0 +1,117 @@
+folder: null
+name: All Hail
+type: feat
+img: icons/magic/control/debuff-chains-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-1119b942-7fff-111d-e74a-38116d84c228"
+      dir="ltr">At 18th level, your authority is unquestionable and pervasive.
+      Once per long rest, you may cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.9pyk9fklr2xff0ue]{Dominate
+      Monster}, and it is considered a wielder spell for you.</p>
+
+      <p dir="ltr">In addition, your Prestige bonus increases by 1.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/mammals/bat-giant-tattered-purple.webp
+    origin: Item.4sritBwOCG2PrXeQ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 51vOW5drPMkegroj
+        duration:
+          unit: hours
+    transfer: false
+    name: Dominated
+    _id: SXgyEHxq87H3mGCW
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Until the charmed condition ends, you establish a telepathic link with
+      it while you are on the same plane. You may issue commands through this
+      link and the target does its best to obey. No action is required to issue
+      commands, which can be a simple and general course of action such as
+      "Attack that target, " "Go over there, " or "Bring me that object."
+      Without commands the target only defends itself. The target continues to
+      follow a command until its task is complete.</p>
+
+      <p>You can use your action to assume direct control of the target. Until
+      the end of your next turn, you decide all of the target's actions and it
+      does nothing you do not allow it to. While a target is directly controlled
+      in this way, you can also cause it to use a reaction, but this requires
+      you to use your own reaction as well.</p>
+
+      <p>Each time the target takes damage, it makes a new saving throw against
+      the spell, ending the spell on a success.</p>
+    statuses:
+      - charmed
+    folder: null
+    _key: '!items.effects!kvk0t1zs34aeswhz.SXgyEHxq87H3mGCW'
+flags: {}
+_id: kvk0t1zs34aeswhz
+_key: '!items!kvk0t1zs34aeswhz'

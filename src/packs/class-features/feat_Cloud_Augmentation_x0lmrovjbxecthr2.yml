@@ -1,0 +1,72 @@
+folder: null
+name: Cloud Augmentation
+type: feat
+img: icons/magic/air/fog-gas-smoke-dense-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-785a9d35-7fff-a52a-7d42-6cb6d801c8ab"><strong>Type:</strong>
+      Shape; <strong>Level:</strong> 9</span></em></p>
+
+      <p><span id="docs-internal-guid-4a6869a1-7fff-f06c-ff45-e4a429a1424e">By
+      spending 5 spell points, your blast manifests as a 10-ft radius circle
+      cloud at a point in range, dealing half damage to any creature that enters
+      the area or starts their turn inside it. The cloud lightly obscures the
+      area, blocking sight. The cloud has a duration of concentration (up to 1
+      minute), but you must spend an action each round to maintain it. For every
+      1 additional spell point spent, increase the radius of the cloud by 5
+      ft.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: x0lmrovjbxecthr2
+_key: '!items!x0lmrovjbxecthr2'

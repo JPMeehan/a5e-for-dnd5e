@@ -1,0 +1,28 @@
+folder: null
+name: More Like A Demand
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you give someone &ldquo;helpful advice,&rdquo; you expect it to be
+      followed. You add the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ml9ls27u9ncms8ko]{Suggestion}
+      to your list of known wielder spells. In addition, the artifact charge
+      cost for you to cast the spell suggestion is reduced by 1 (minimum 1).</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: Crowned archetype, 7th level
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 3p17v38tj6xp6i69
+_key: '!items!3p17v38tj6xp6i69'

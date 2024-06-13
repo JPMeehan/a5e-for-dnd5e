@@ -9,24 +9,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><span class="fontstyle1"><span class="fontstyle0">Starting at 14th
-      level, your experience in battle lets you help your companions more
-      easily. You can use the Help action as a bonus action. In
-      addition,</span>&nbsp;<span class="fontstyle0">when you take the Help
-      action choose one of the following effects:</span></span></p>
-
-      <ul>
-
-      <li><span class="fontstyle1">You end the frightened condition on one
-      creature within 30 feet of you that can hear or see you.</span></li>
-
-      <li><span class="fontstyle1">You grant one creature within 5 feet of you
-      temporary hit points equal to your Charisma modifier.</span></li>
-
-      <li><span class="fontstyle1">You touch a living creature that has 0 hit
-      points. The creature regains 1 hit point.</span></li>
-
-      </ul>
+      <p>Starting at 14th level, your experience in battle lets you help your
+      companions more easily. You can use the Help action as a bonus action. In
+      addition,&nbsp;when you take the Help action choose one of the following
+      effects:</p><ul><li>You end the frightened condition on one creature
+      within 30 feet of you that can hear or see you.</li><li>You grant one
+      creature within 5 feet of you temporary hit points equal to your Charisma
+      modifier.</li><li>You touch a living creature that has 0 hit points. The
+      creature regains 1 hit point.</li></ul>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -36,6 +26,45 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '1'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: ywoe5wghb18ujal4
 _key: '!items!ywoe5wghb18ujal4'

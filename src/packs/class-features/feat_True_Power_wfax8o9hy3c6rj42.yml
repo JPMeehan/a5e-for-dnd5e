@@ -1,0 +1,42 @@
+name: True Power
+type: feat
+img: icons/creatures/magical/humanoid-silhouette-glowing-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level your transformation has finally reached its peak. You
+      gain one of the following abilities based on what you chose for your
+      twisted mutation.</p>
+
+      <ul>
+
+      <li><strong>Stonegaze</strong>: Your stone eye twisted mutation becomes a
+      60ft cone.</li>
+
+      <li><strong>Chimeric</strong>: Your fly speed increases to 120ft and you
+      gain a Wing Buffet attack as an action. All creatures in a 20ft cone must
+      make a Strength save or take 4d8+Str bludgeoning damage and be knocked
+      prone and pushed 15ft away from you. On a successful save they take half
+      damage and are not knocked prone.</li>
+
+      <li><strong>Mimic</strong>: You may use your transmogrifier twisted
+      mutation to become an animated object up to huge size.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: wfax8o9hy3c6rj42
+_key: '!items!wfax8o9hy3c6rj42'

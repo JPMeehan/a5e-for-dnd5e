@@ -1,0 +1,70 @@
+folder: null
+name: Thundering Augmentation
+type: feat
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-57d2a73e-7fff-5986-8b59-dec1fa3de651"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 1; <strong>Elements:</strong>
+      Air</span></em></p>
+
+      <p><span id="docs-internal-guid-f11cb2c4-7fff-b76b-b875-3118321e6aa2">By
+      spending 2 spell points, your blast manifests with a thundering boom,
+      audible up to 100 feet away. Targets who are hit or who fail their save
+      are deafened for 1 minute, but they can attempt a Constitution saving
+      throw at the end of each of their turns to end the effect.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: r5nlds19vzgwir52
+_key: '!items!r5nlds19vzgwir52'

@@ -1,7 +1,34 @@
 name: 'Battle Hymn: Call to Arms'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.VSBvptAzLWTOKqY0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: T9mQYmm50UQ6by7t
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: 'Battle Hymn: Call to Arms'
+    _id: NHiF2YuZEdpv57JP
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>The target can roll one additional weapon damage die with its weapon\_attacks. If the target makes at least one weapon attack on its turn and misses with all\_attacks, you can sustain this battle hymn for 1 round without expending a use of\_Bardic Inspiration.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!w809qy93c5f33t2x.NHiF2YuZEdpv57JP'
 flags: {}
 system:
   type:
@@ -9,13 +36,13 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>The creature can roll one additional weapon damage die on its weapon
-      attacks. If the creature makes weapon attacks on its next turn and misses,
-      you can sustain this battle hymn for 1 round without expending a use of
-      Bardic Inspiration.</p>
+      <p>The target can roll one additional weapon damage die with its
+      weapon&nbsp;attacks. If the target makes at least one weapon attack on its
+      turn and misses with all&nbsp;attacks, you can sustain this battle hymn
+      for 1 round without expending a use of&nbsp;Bardic Inspiration.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -48,7 +75,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

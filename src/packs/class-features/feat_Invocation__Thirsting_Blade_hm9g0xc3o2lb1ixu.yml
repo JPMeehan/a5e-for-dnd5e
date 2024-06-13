@@ -1,6 +1,6 @@
 name: 'Invocation: Thirsting Blade'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/wounds/blood-drip-droplet-red.webp
 effects: []
 flags: {}
 system:
@@ -9,24 +9,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p style="box-sizing: border-box; user-select: text; margin: 0.5em 0px;
-      color: #191813; font-family: Signika, sans-serif; font-size: 14px;"><span
-      class="fontstyle1" style="box-sizing: border-box; user-select: text;"><em
-      style="box-sizing: border-box; user-select: text;">Prerequisite</em>:<em
-      style="box-sizing: border-box; user-select: text;">&nbsp;5th level, Pact
-      of the Blade feature</em>&nbsp;</span></p>
-
-      <p style="box-sizing: border-box; user-select: text; margin: 0.5em 0px;
-      color: #191813; font-family: Signika, sans-serif; font-size: 14px;"><span
-      class="fontstyle1" style="box-sizing: border-box; user-select: text;">You
-      can attack with your pact weapon twice, instead of once, whenever you take
-      the Attack action on your turn.</span></p>
+      <p>You can attack with your pact weapon twice, instead of once, whenever
+      you take the Attack action on your turn.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 5th level, Pact of the Blade feature
   recharge:
     value: null
     charged: true

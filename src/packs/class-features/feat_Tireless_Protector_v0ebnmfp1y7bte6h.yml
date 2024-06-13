@@ -1,0 +1,35 @@
+name: Tireless Protector
+type: feat
+img: icons/environment/people/infantry-armored.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You refine your existing training to better respond to threats. You
+      gain the
+      <em>@UUID[Compendium.a5e.a5e-class-features.Item.gps1jbpps9trpk1w]{Watchful
+      Eye}</em>&nbsp;trait of the
+      <em>@UUID[Compendium.a5e.a5e-class-features.Item.25vr449svc15tmv6]{Steely
+      Mien}</em>&nbsp;feature. If you already have it, select a second option.
+      You also gain proficiency in the Perception and Insight skills or if you
+      are already proficient, you gain an expertise die.</p>
+
+      <p>Furthermore, as an action you can spend a point of exertion to ignore a
+      number of levels of fatigue equal to your proficiency bonus for 1
+      hour.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: v0ebnmfp1y7bte6h
+_key: '!items!v0ebnmfp1y7bte6h'

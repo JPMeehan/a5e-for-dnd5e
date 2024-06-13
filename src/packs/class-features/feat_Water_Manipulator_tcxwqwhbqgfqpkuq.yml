@@ -1,0 +1,29 @@
+folder: null
+name: Water Manipulator
+type: feat
+img: icons/magic/water/water-hand.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.3xgx2cprxhoocscj]{Control
+      Water} spell without spending spell points, except any effect you create
+      only lasts for 1 round unless you spend an action every turn maintaining
+      it. You can cast <em>control water</em> with your spell points as
+      normal.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Water; 17th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: tcxwqwhbqgfqpkuq
+_key: '!items!tcxwqwhbqgfqpkuq'

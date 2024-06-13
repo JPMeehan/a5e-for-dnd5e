@@ -1,0 +1,125 @@
+name: Battlefield Maestro
+type: feat
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, you gain supernatural influence over the flow of combat.
+      As a reaction when you see a creature within 30 feet make an attack roll
+      (including yourself), you can choose to grant advantage or impose
+      disadvantage. After using this feature a number of times equal to your
+      spellcasting ability modifier, you cannot do so again until you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: See a creature within 30 feet make an attack roll (including yourself)
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/melee/maneuver-sword-katana-yellow.webp
+    origin: Item.y13FYPfNCsWKNa1U
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Qjdo983bU68P1p6v
+    transfer: false
+    name: Advantage
+    _id: Ol41LJNEjmxAu5l5
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!mm5s17svrk9cqgo7.Ol41LJNEjmxAu5l5'
+  - icon: icons/skills/melee/maneuver-sword-katana-yellow.webp
+    origin: Item.y13FYPfNCsWKNa1U
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Qjdo983bU68P1p6v
+    transfer: false
+    name: Disadvantage
+    _id: N4tif6AhjJMwFga5
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!mm5s17svrk9cqgo7.N4tif6AhjJMwFga5'
+flags: {}
+folder: null
+_id: mm5s17svrk9cqgo7
+_key: '!items!mm5s17svrk9cqgo7'

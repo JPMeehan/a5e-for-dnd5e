@@ -1,0 +1,30 @@
+name: Living Fortress
+type: feat
+img: icons/skills/melee/shield-block-gray-yellow.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You become an almost impenetrable barrier for those you would keep from
+      harm. As a bonus action, you may designate a number of creatures you can
+      see equal to your Wisdom modifier (minimum 1) as your charges. Whenever
+      one of those creatures is within 10 feet of you and is subject to an
+      attack, you may spend 1 exertion to move adjacent to the creature and
+      activate your <em>Get Behind Me</em> ability. You need not expend your
+      reaction to use <em>Get Behind Me</em> when activated this way.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: 9x9zdsno3lqstoft
+_key: '!items!9x9zdsno3lqstoft'

@@ -1,6 +1,6 @@
 name: Mindful Reason Aegis
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/commodities/biological/organ-brain-pink-purple.webp
 system:
   type:
     value: class
@@ -13,7 +13,7 @@ system:
       aegis.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -21,17 +21,17 @@ system:
     value: null
     charged: true
   activation:
-    type: reaction
+    type: ''
     cost: 1
     condition: When you would fail an Intelligence or Wisdom saving throw
   duration: {}
   cover: null
   crewed: false
   target:
-    value: ''
+    value: null
     width: null
     units: ''
-    type: self
+    type: ''
   range:
     value: null
     long: null

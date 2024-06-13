@@ -1,0 +1,110 @@
+folder: null
+name: Jewel of the Depths
+type: feat
+img: icons/magic/water/water-elemental-blue-teeth.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 10th level, your patron reveals to you a secret long lost
+      to arcanists of the surface world. Choose one spell from the following:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.67ex7mn5kkutvnqn]{Black
+      Tentacles},
+      @UUID[Compendium.a5e.a5e-spells.Item.2q65v0xklhfx73to]{Blight},@UUID[Compendium.a5e.a5e-spells.Item.6y4rq48okutkormg]{Phantasmal
+      Killer}, or @UUID[Compendium.a5e.a5e-spells.Item.rvp7imtsq1ilkj8h]{Tearful
+      Sonnet}. This is a warlock spell for you, it does not count against your
+      spells known.</p>
+
+      <p dir="ltr">Once between long rests, you can use this feature to cast the
+      chosen spell without spending spell points. Damage can&rsquo;t break your
+      concentration on this spell. You also gain one benefit from the
+      following:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You gain temporary hit points equal to
+      your warlock level.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You teleport to a location you can see
+      within 60 feet.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Water falls as rain that extinguishes
+      exposed flames within 60 feet.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">A
+      @UUID[Compendium.a5e.a5e-spells.Item.i4ejucvglhqpfm57]{Fog Cloud} effect
+      comes into being as though cast by you, although it does not require
+      concentration.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '20'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: h83q9tb42q6obyxz
+_key: '!items!h83q9tb42q6obyxz'

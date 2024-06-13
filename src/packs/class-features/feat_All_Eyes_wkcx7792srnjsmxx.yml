@@ -1,0 +1,71 @@
+name: All Eyes
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Performance and Persuasion checks. In
+      addition, you can use your magic to make your presence known. As a bonus
+      action, you can spend 1 sorcery point to put out a subtle pulse that
+      causes all creatures within 60&nbsp;feet to take notice of you, allowing
+      you to speak and be heard even in the midst of chaos. During combat, this
+      notice lasts only a split second—not long enough to distract, but allowing
+      you to make a Charisma check as part of the bonus action used to activate
+      this feature.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: wkcx7792srnjsmxx
+_key: '!items!wkcx7792srnjsmxx'

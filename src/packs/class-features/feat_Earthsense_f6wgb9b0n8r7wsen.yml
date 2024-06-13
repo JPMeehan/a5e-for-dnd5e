@@ -1,0 +1,67 @@
+folder: null
+name: Earthsense
+type: feat
+img: icons/environment/wilderness/terrain-forest-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>By focusing for 10 minutes while sitting quietly in contact with
+      natural earth or stone, you can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pdwrag8eq7r0ldcp]{Commune with
+      Nature}.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Earth; 17th level; Adaptations: Tremorsense'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: f6wgb9b0n8r7wsen
+_key: '!items!f6wgb9b0n8r7wsen'

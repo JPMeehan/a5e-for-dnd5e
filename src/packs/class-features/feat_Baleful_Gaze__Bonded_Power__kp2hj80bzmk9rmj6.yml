@@ -1,0 +1,71 @@
+name: Baleful Gaze (Bonded Power)
+type: feat
+img: icons/magic/symbols/triangle-glow-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level you gain a special ability tied to the experiments
+      that were pressed upon you. Your bonded power must be of the same line as
+      your flesh and bone selection.</p>
+
+      <p><strong>Baleful Gaze</strong>: As an action you may attempt to stun all
+      creatures in a 15ft cone. Creatures in the area must make a Constitution
+      save against your spell DC. On a failure they are stunned until the
+      beginning of their next turn. You may use this ability once per short
+      rest, or expend a sorcery point as a bonus action to recover use of
+      it.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: kp2hj80bzmk9rmj6
+_key: '!items!kp2hj80bzmk9rmj6'

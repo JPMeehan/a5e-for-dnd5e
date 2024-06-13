@@ -1,0 +1,29 @@
+name: Retinue
+type: feat
+img: icons/environment/people/commoner.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your position affords you a staff of your own. You gain two followers
+      chosen from the following
+      list:</p><ul><li><p>Apothecary</p></li><li><p>Bodyguard</p></li><li><p>Cryptographer</p></li><li><p>Diviner</p></li><li><p>Operative</p></li><li><p>Interpreter</p></li><li><p>Sage</p></li></ul><p>If
+      one of these followers leaves your service or perishes, you may choose
+      another follower of one of the types on this list to replace them after a
+      week has passed.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: vi51xb6esbf2dhcj
+_key: '!items!vi51xb6esbf2dhcj'

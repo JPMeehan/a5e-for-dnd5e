@@ -1,6 +1,6 @@
 name: 'Critical: Mighty Blow'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/wounds/bone-broken-marrow-red.webp
 effects: []
 flags: {}
 system:
@@ -9,10 +9,6 @@ system:
     subtype: ''
   description:
     value: >-
-      <p style="box-sizing: border-box; user-select: text; visibility: visible;
-      color: #191813;"><em style="box-sizing: border-box; user-select:
-      text;">Prerequisite: 6th level</em></p>
-
       <p style="box-sizing: border-box; user-select: text; visibility: visible;
       color: #191813;"><span class="fontstyle3" style="box-sizing: border-box;
       user-select: text;">You know how to hit so it hurts the most. You can roll
@@ -24,12 +20,12 @@ system:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 6th level
   recharge:
     value: null
     charged: true
   activation:
-    type: ''
+    type: special
     cost: ''
     condition: ''
   duration: {}

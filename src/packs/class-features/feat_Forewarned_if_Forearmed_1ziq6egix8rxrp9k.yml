@@ -1,0 +1,33 @@
+name: Forewarned if Forearmed
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p class="p1">Also at 20th level your vast swaths of knowledge leave
+      you&nbsp;ready for almost anything. You are under the constant
+      effects&nbsp;of a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kbdluu7o446n2opz]{Foresight}
+      spell.</p>
+
+      <p class="p1">In addition you regain the use of
+      @UUID[Compendium.a5e.a5e-class-features.Item.jet01i63abb2v66h]{Measure
+      Twice, Cut Once} after a successful use whenever you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+folder: null
+flags: {}
+_id: 1ziq6egix8rxrp9k
+_key: '!items!1ziq6egix8rxrp9k'

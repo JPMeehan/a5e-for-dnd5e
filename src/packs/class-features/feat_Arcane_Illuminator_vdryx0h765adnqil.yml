@@ -1,0 +1,28 @@
+name: Arcane Illuminator
+type: feat
+img: icons/magic/light/orb-shadow-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your artifact&rsquo;s presence causes magic to surge with power and
+      reveal itself. You add the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kaye34nheyrit487]{Detect Magic}
+      to your list of known wielder spells and you may cast it using only a
+      single artifact charge.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: vdryx0h765adnqil
+_key: '!items!vdryx0h765adnqil'

@@ -29,8 +29,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
-    cost: ''
+    type: minute
+    cost: 1
     condition: ''
   duration: {}
   cover: null

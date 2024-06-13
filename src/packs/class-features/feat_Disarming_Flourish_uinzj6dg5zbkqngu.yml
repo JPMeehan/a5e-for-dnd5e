@@ -1,6 +1,6 @@
 name: Disarming Flourish
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/weapons/swords/sword-guard-steel-green.webp
 system:
   type:
     value: class
@@ -8,13 +8,13 @@ system:
   description:
     value: >-
       <p>When you hit a creature with a melee attack, you can attempt to disarm
-      it. If it fails a Strength saving throw , its grip is loosened, and the
+      it. If it fails a Strength saving throw, its grip is loosened, and the
       creature cannot make use of the item until it spends a bonus action or
       attack on its turn to regain a solid hold. If the creature has
       disadvantage on the save and fails both rolls, it drops the item.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''

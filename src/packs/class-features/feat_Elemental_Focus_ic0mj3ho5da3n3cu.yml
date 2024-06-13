@@ -1,0 +1,129 @@
+folder: null
+name: Elemental Focus
+type: feat
+img: icons/skills/targeting/target-strike-triple-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you choose Elemental Focus for your element, you gain access to a
+      Focused Blast, shown below.</p>
+
+      <p>You can gain this ability multiple times, but for a different element
+      each time.</p>
+
+      <p>A Focused Blast is a more focused and powerful version of a pure
+      Elemental Blast. You must possess Elemental Focus in an element to use its
+      Focused Blast. Focused Blasts have different damage types and properties
+      than their basic counterparts, as shown in the table below:</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Focused Blasts</strong></p>
+
+      <table style="width: 100%; height: 84px;" border="1"><colgroup><col
+      style="width: 11.284%;"><col style="width: 22.3735%;"><col style="width:
+      14.5971%;"><col style="width: 51.7453%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Affinity</td>
+
+      <td style="text-align: center; height: 16.8px;">Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Damage</td>
+
+      <td style="text-align: center; height: 16.8px;">Properties</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Air</td>
+
+      <td style="text-align: center; height: 16.8px;">Lightning Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Lightning</td>
+
+      <td style="text-align: left; height: 16.8px;">Shocking: On hit, target
+      loses reaction for 1 round. Gains +1d4 expertise die to hit against
+      targets wearing metal armor or made of metal (or imposes a -1d4 penalty to
+      saves for such targets)</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Earth</td>
+
+      <td style="text-align: center; height: 16.8px;">Metal Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Variable*</td>
+
+      <td style="text-align: left; height: 16.8px;">
+
+      <p>Variable Damage: Damage can be bludgeoning, piercing, or slashing, and
+      can be treated as any metal (like silver or adamantine).</p>
+
+      <p>Penetrating: Deals double damage to objects.</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Fire</td>
+
+      <td style="text-align: center; height: 16.8px;">Whitefire Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Radiant</td>
+
+      <td style="text-align: left; height: 16.8px;">
+
+      <p>Searing: On hit, target ignites, taking 1d6 persistent fire damage on
+      the start of its next turn.</p>
+
+      <p>Particularly flammable targets may continue to burn</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Water</td>
+
+      <td style="text-align: center; height: 16.8px;">Cold Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Cold</td>
+
+      <td style="text-align: left; height: 16.8px;">Slowing: On hit, the
+      target's speeds are reduced by 10 ft.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Affinity in the chosen element
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: ic0mj3ho5da3n3cu
+_key: '!items!ic0mj3ho5da3n3cu'

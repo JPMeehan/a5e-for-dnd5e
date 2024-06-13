@@ -1,6 +1,6 @@
 name: 'Invocation: Deep Patronage'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/symbols/runes-star-orange-purple.webp
 effects: []
 flags: {}
 system:
@@ -9,15 +9,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 11th level</em></p><p>Choose an additional patron
-      expanded spell list. You learn all the spells on that list and they do not
-      count against your spells known.</p>
+      <p>Choose an additional patron expanded spell list. You learn all the
+      spells on that list and they do not count against your spells known.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 11th Level
   recharge:
     value: null
     charged: true

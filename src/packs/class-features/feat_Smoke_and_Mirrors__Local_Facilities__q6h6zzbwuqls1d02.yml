@@ -1,0 +1,29 @@
+name: Smoke and Mirrors (Local Facilities)
+type: feat
+img: icons/environment/settlement/house-city.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have an established network of safehouses that you can draw upon.
+      Any time you spend at least a week in a new city, you can establish a
+      Grade 1 or 2 safe house<strong> </strong>stronghold in the city at half
+      cost. Any City Bolt Hole you purchase is also at half-cost. You can also
+      establish a new City Bolt Hole over a number of hours equal to (7 - your
+      proficiency bonus).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: q6h6zzbwuqls1d02
+_key: '!items!q6h6zzbwuqls1d02'

@@ -1,0 +1,25 @@
+folder: null
+name: Heat Acclimation
+type: feat
+img: icons/magic/fire/flame-burning-yellow-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You gain resistance to fire damage. Additionally, your inner
+      heat makes you naturally adapted to hot and cold climates.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Fire'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: qehhw2uaxvctt47i
+_key: '!items!qehhw2uaxvctt47i'

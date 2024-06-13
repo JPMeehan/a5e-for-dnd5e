@@ -1,0 +1,30 @@
+name: Veteran Slayer (Holy Protection)
+type: feat
+img: icons/magic/holy/barrier-shield-winged-cross.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, you shrug off the curses of your chosen prey.</p><p>You
+      are immune to effects that would change your shape or creature type, such
+      as lycanthropy, polymorph effects, and a vampire’s bite.</p><hr
+      class="a5e-rule u-my-md"><p>Once per long rest, you may use the Turn
+      Undead feature as a cleric of your level, but it&nbsp; affects creatures
+      of your Studied Adversary type rather than Undead. <em>(If you have chosen
+      Undead as your studied adversary, it affects them as normal.)</em></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: wtxthsx6s2h8d9ir
+_key: '!items!wtxthsx6s2h8d9ir'

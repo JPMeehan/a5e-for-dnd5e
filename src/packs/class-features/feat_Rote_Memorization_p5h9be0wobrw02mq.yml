@@ -1,0 +1,68 @@
+folder: null
+name: Rote Memorization
+type: feat
+img: icons/sundries/documents/document-writing-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose one cantrip which has a casting time of 1 action and
+      doesn&rsquo;t deal damage. You can cast that cantrip as a bonus action
+      without any seen or material components a number of times equal to your
+      proficiency bonus. You regain all expended uses of this feature when you
+      finish a long rest, and can switch the cantrip associated with this
+      feature each time you gain a wizard level.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: p5h9be0wobrw02mq
+_key: '!items!p5h9be0wobrw02mq'

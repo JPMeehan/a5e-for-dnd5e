@@ -1,6 +1,6 @@
 name: Empowered Turning
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/movement/arrows-up-trio-red.webp
 effects: []
 flags: {}
 system:
@@ -12,11 +12,25 @@ system:
       <p>At 5th level your greater entity grants you improved ways to turn
       undead or other abhorrent beings. You gain this feature again at 8th,
       11th, 14th, and 17th level. Each time you gain Empowered Turning, choose
-      one of the following:</p><p>&nbsp;</p><h4><strong>&nbsp;&nbsp; Command
-      Undead</strong></h4><h4><strong>&nbsp;&nbsp; Destroy
-      Undead</strong></h4><p>&nbsp;<strong>&nbsp;&nbsp; Turn
-      Ideology</strong></p><h4><strong>&nbsp;&nbsp; Turn
-      Supernatural</strong></h4>
+      one of the following:</p><h2>Command Undead</h2><p>If you choose,
+      creatures you turn instead regard you as their master for the duration.
+      While they are under this effect, you may use your action to issue simple
+      commands (no more than a sentence or two) which they are compelled to
+      obey. They will not take any action that is obviously harmful to them, and
+      so will not leap from a great height, jump onto a sword, or purposefully
+      self-inflict any damage. They follow the command until you issue a new
+      one.</p><h2>Destroy Undead</h2><p>Creatures turned by you of CR 1/2 or
+      less are immediately destroyed, transformed into dust by a blinding flash
+      of light. You can select this option multiple times. Each time you choose
+      it, you are able to destroy more powerful creatures, progressing to CR 1,
+      CR 2, CR 3, and then CR 4 each subsequent time you select this
+      option.</p><h2>Turn Ideology</h2><p>Choose one of the following: Chaotic,
+      Evil, Good, or Lawful. When you use Turn Undead, you can also choose to
+      affect creatures with the chosen alignment trait. You can select this
+      option multiple times.</p><h2>Turn Supernatural</h2><p>Choose a creature
+      type from celestial, elemental, fey, or fiend. When you use Turn Undead,
+      you can also choose to affect creatures of that type. You can select this
+      option multiple times.</p>
     chat: ''
   source:
     book: Adventurer's Guide

@@ -1,0 +1,29 @@
+name: Warding Symbols
+type: feat
+img: icons/magic/symbols/runes-triangle-magenta.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level you pick up a little magic to help you even the
+      odds.</p><p>You learn the spells <em>alarm</em>, <em>forbiddance</em>, and
+      <em>gentle repose</em> and may cast them as rituals.</p><p>You also can
+      cast the spells <em>guards and wards</em>, <em>magic circle</em>, and
+      <em>remove curse</em> once each per long rest without needing a spell
+      slot.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: p9992hzf9cgop9qv
+_key: '!items!p9992hzf9cgop9qv'

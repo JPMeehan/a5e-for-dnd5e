@@ -1,0 +1,146 @@
+folder: null
+name: 'Elemental Focus: Water (Expand Element)'
+type: feat
+img: icons/magic/water/projectile-ice-snowball.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-871610b8-7fff-e567-5108-722751463cde">If
+      you choose Elemental Focus for your element, you gain access to a Focused
+      Blast.</span></p>
+
+      <p id="docs-internal-guid-89a77d71-7fff-1d70-d659-03d2f02bc8cc"
+      dir="ltr">You can gain this ability multiple times, but for a different
+      element each time.</p>
+
+      <p dir="ltr">A Focused Blast is a more focused and powerful version of a
+      pure Elemental Blast.. You must possess Elemental Focus in an element to
+      use its Focused Blast. Focused Blasts have different damage types and
+      properties than their basic counterparts.</p>
+
+      <p dir="ltr">&nbsp;</p>
+
+      <p><strong>Table: Focused Blasts</strong></p>
+
+      <table style="width: 100%; height: 84px;" border="1"><colgroup><col
+      style="width: 11.284%;"><col style="width: 22.3735%;"><col style="width:
+      14.5971%;"><col style="width: 51.7453%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Affinity</td>
+
+      <td style="text-align: center; height: 16.8px;">Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Damage</td>
+
+      <td style="text-align: center; height: 16.8px;">Properties</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: left; height: 16.8px;">Water</td>
+
+      <td style="text-align: center; height: 16.8px;">Cold Blast</td>
+
+      <td style="text-align: center; height: 16.8px;">Cold</td>
+
+      <td style="text-align: left; height: 16.8px;">Slowing: On hit, the
+      target's speeds are reduced by 10 ft.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Affinity in Water
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - round(@level/2)d6 + @mod
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/projectile-ice-snowball.webp
+    origin: Item.1n2Ci2rtlJIH9Yan
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Slowing
+    _id: 9MiQEIdgDgKP8dLd
+    changes:
+      - key: flags.a5e.effects.movement.allDistances
+        value: '10'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Speeds are reduced by 10 ft.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!vsfbu4bv6ui8hgo2.9MiQEIdgDgKP8dLd'
+flags: {}
+_id: vsfbu4bv6ui8hgo2
+_key: '!items!vsfbu4bv6ui8hgo2'

@@ -1,7 +1,63 @@
 name: Stride and Seek (Hunter's Target)
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/targeting/crosshair-pointed-orange.webp
+effects:
+  - icon: icons/skills/targeting/crosshair-pointed-orange.webp
+    origin: Item.yuncbhlz6js1w4t4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 6nIMkEWZElls5fgZ
+        duration:
+          unit: hours
+    transfer: false
+    name: Quarry
+    _id: eJp8RSGhP05Gj5DC
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!yuncbhlz6js1w4t4.eJp8RSGhP05Gj5DC'
+  - icon: icons/skills/targeting/crosshair-pointed-orange.webp
+    origin: Item.yuncbhlz6js1w4t4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 6nIMkEWZElls5fgZ
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Hunter’s Target
+    _id: yorFJmwZWCnRPMdX
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gain a +1 bonus to weapon attack rolls against the creature, and your
+      weapon attacks against it deal an extra 1d6 damage. In addition, you have
+      advantage on Perception and Survival checks you make to find it.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!yuncbhlz6js1w4t4.yorFJmwZWCnRPMdX'
 flags: {}
 system:
   type:
@@ -9,19 +65,15 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Your wilderness survival instincts guide your physical and mental
-      training. You gain one of the following features at 2nd level. You gain
-      the other feature when you reach 5th level in this
-      class.</p><h3><strong>HUNTER’S TARGET</strong></h3><p>You can use your
-      bonus action to focus your attention on a specific enemy. Choose a
-      creature you can see within 90 feet to mark as your quarry. For 1 hour,
-      you are focused on this creature. You gain a +1 bonus to weapon attack
-      rolls against the creature, and your weapon attacks against it deal an
-      extra 1d6 damage. In addition, you have advantage on Perception and
-      Survival checks you make to find it. If the creature drops to 0 hit points
-      before the hour ends, you can use a bonus action to mark a new
-      quarry.&nbsp;</p><p>Once you use this feature, you can’t use it again
-      until you finish a short or long rest.</p>
+      <p>You can use your bonus action to focus your attention on a specific
+      enemy. Choose a creature you can see within 90 feet to mark as your
+      quarry. For 1 hour, you are focused on this creature. You gain a +1 bonus
+      to weapon attack rolls against the creature, and your weapon attacks
+      against it deal an extra 1d6 damage. In addition, you have advantage on
+      Perception and Survival checks you make to find it. If the creature drops
+      to 0 hit points before the hour ends, you can use a bonus action to mark a
+      new quarry.&nbsp;</p><p>Once you use this feature, you can&rsquo;t use it
+      again until you finish a short or long rest.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -34,7 +86,6 @@ system:
   activation:
     type: bonusAction
     cost: 1
-    condition: ''
   duration: {}
   cover: null
   crewed: false

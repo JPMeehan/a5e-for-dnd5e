@@ -1,0 +1,27 @@
+folder: null
+name: Intense Spell
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell that deals damage, before rolling damage or
+      determining the result of any of the spell&rsquo;s attack rolls or saving
+      throws, you can spend sorcery points equal to the spell&rsquo;s level. If
+      you do, the spell deals its maximum possible damage to one target.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 7dpsv85pornhtpm7
+_key: '!items!7dpsv85pornhtpm7'

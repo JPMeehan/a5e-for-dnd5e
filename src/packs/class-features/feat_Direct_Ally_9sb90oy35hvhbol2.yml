@@ -1,6 +1,6 @@
 name: Direct Ally
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/control/energy-stream-link-teal.webp
 system:
   type:
     value: class
@@ -10,19 +10,58 @@ system:
       <p>You identify an opening an ally can take advantage of. You can spend an
       action and choose an ally that can understand you, then choose a target.
       If that ally hits that target with an attack before the start of your next
-      turn, their attack deals an extra 1d8 damage. </p><p>The bonus dice
-      increase to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
-      After you use this trick, you can choose the same ally again, but cannot
-      choose the same target for the rest of the encounter.</p>
+      turn, their attack deals an extra 1d8 damage.&nbsp;The bonus dice increase
+      to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level. After you
+      use this trick, you can choose the same ally again, but cannot choose the
+      same target for the rest of the encounter.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null

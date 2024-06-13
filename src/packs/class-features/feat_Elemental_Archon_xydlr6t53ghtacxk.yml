@@ -1,0 +1,75 @@
+folder: null
+name: Elemental Archon
+type: feat
+img: icons/magic/fire/elemental-fire-flying.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 20th level, you epitomize how the element you&rsquo;ve
+      studied is the embodiment of your ideology. As an action, you can wreathe
+      yourself in your element. This elemental wreath lasts for 1 minute. It
+      extends in a 10-foot radius, emanates bright light in a 25-foot radius,
+      and dim light 25 feet beyond that. Whenever a creature starts its turn in
+      the elemental wreath or enters it for the first time this turn, the
+      creature takes 20 damage of the same type as your element.</p>
+
+      <p dir="ltr">In addition, for the duration, you have immunity to your
+      element, and resistance to the other two.</p>
+
+      <p dir="ltr">Once you use this feature, you can't use it again until you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: xydlr6t53ghtacxk
+_key: '!items!xydlr6t53ghtacxk'

@@ -1,20 +1,21 @@
 name: Sweeping Stride
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/movement/trail-streak-pink.webp
 system:
   type:
     value: class
     subtype: ''
   description:
     value: >-
-      <p>When you move at least 10 feet and enter a space adjacent to a creature
-      no more than one size larger than you, you can try to trip it. If the
-      creature fails a Dexterity saving throw , it falls prone . If it succeeds,
-      instead your movement ends in the space you entered to use this
-      ability.</p>
+      <p>When you stand up, or when you move at least 10 feet and enter a space
+      adjacent to a creature no more than one size larger than you, you can try
+      to trip it. If the creature fails a Dexterity saving throw, it falls
+      prone. If it succeeds, instead your movement ends in the space you entered
+      to use this ability. If you used this ability while standing up, you
+      remain prone.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -47,7 +48,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -61,7 +62,36 @@ system:
     ability: dex
     dc: null
     scaling: spell
-effects: []
+effects:
+  - icon: icons/magic/movement/trail-streak-pink.webp
+    origin: Item.3tYOIv83jKtara4U
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: KcJkydfU33MIVY4A
+    transfer: false
+    name: Prone
+    _id: 1hM5tuUpOzM26FbW
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!nd9r8bgj96om9rl2.1hM5tuUpOzM26FbW'
 flags: {}
 folder: null
 _id: nd9r8bgj96om9rl2

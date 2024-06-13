@@ -1,0 +1,25 @@
+name: Delayed Spell
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you ready a spell, you can spend 1 sorcery point. The spell can be
+      held for up to 1 minute, instead of 1 turn.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: p6uqyvrtpc0n9c26
+_key: '!items!p6uqyvrtpc0n9c26'

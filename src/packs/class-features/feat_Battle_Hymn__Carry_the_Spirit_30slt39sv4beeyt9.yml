@@ -1,17 +1,48 @@
 name: 'Battle Hymn: Carry the Spirit'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.I4HVtWrxKM41EnVx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Hqzngm9D97GIFTHg
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: 'Battle Hymn: Carry the Spirit'
+    _id: XzgndcGfBgooEZxP
+    changes:
+      - key: flags.a5e.effects.rollMode.abilitySave.all
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The target gains advantage on saving throws.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!30slt39sv4beeyt9.XzgndcGfBgooEZxP'
 flags: {}
 system:
   type:
     value: class
     subtype: ''
   description:
-    value: <p>The creature gains advantage on saving throws.</p>
+    value: <p>The target gains advantage on saving throws.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -44,7 +75,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

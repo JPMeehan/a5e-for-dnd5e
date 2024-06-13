@@ -1,0 +1,25 @@
+folder: null
+name: Earth Climb
+type: feat
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You gain a climb Speed equal to your Speed when climbing on
+      earth or stone, including natural or worked stone and brick.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Earth; 5th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: jvrik678o9efkh64
+_key: '!items!jvrik678o9efkh64'

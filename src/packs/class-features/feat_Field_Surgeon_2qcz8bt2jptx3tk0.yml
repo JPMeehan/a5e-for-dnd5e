@@ -1,0 +1,33 @@
+name: Field Surgeon
+type: feat
+img: icons/consumables/potions/potion-round-corked-glowing-green.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 7th level, your knowledge of wilderness medicine improves. You
+      gain an expertise die on Medicine checks. For you, expertise dice in
+      Medicine can be upgraded from d8 to d10, exceeding the usual limit on
+      expertise dice.</p><p>Also, each medical Exploration Knack you know
+      becomes more potent:</p><p><strong>Healing Salves.</strong> The number of
+      hit points healed increases from 1d4 to 1d6.</p><p><strong>Herbal
+      Bitters.</strong> The bitters last for 48 hours before losing potency and
+      the effects persist for 8 hours rather than 4.</p><p><strong>Poisons and
+      Antidotes.</strong> You can make two doses of antitoxin rather than
+      one.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: 2qcz8bt2jptx3tk0
+_key: '!items!2qcz8bt2jptx3tk0'

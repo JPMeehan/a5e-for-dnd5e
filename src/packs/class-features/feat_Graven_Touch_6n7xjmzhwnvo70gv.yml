@@ -1,0 +1,31 @@
+name: Graven Touch
+type: feat
+img: icons/magic/unholy/hand-marked-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 3rd level, your Lay on Hands ability no longer works as it
+      did before. Your Lay on Hands ability can restore hit points to undead
+      creatures (including yourself), but healing is now only half as efficient
+      as it once was; you must spend 2 points to heal a point of damage, and you
+      must spend 7 to cure a disease or neutralize a poison. However, you can
+      now spend 5 points to deal an additional 1d8 points of necrotic damage
+      when hit with a weapon attack. This may not be combined with Divine Smite,
+      and you cannot spend more than 5 points per turn on this feature.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 6n7xjmzhwnvo70gv
+_key: '!items!6n7xjmzhwnvo70gv'

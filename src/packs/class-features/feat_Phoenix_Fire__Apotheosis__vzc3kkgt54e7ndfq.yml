@@ -1,0 +1,127 @@
+folder: null
+name: Phoenix Fire (Apotheosis)
+type: feat
+img: icons/magic/fire/elemental-fire-flying.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span
+      id="docs-internal-guid-5c16e776-7fff-347c-777e-71e6eb4a926e">Unlike other
+      masters of fire, you know that fire&rsquo;s destruction is how nature
+      clears space for rebirth. You are able to
+      cast</span>&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.8fve58oe1aaaldmx]{Phoenix
+      Rebirth}&nbsp; once without expending a spell slot. Once you use this
+      feature, you must complete a long rest before you can use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Mastery in Fire
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 11d6
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/projectile-feathers-embers-gold.webp
+    origin: Item.8fve58oe1aaaldmx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: iEU332tZcAGD1ICb
+        applyToSelf: true
+    transfer: false
+    name: Ash
+    _id: 3Ly91PDB0fJL3zvM
+    changes:
+      - key: system.attributes.hp.value
+        value: '9999'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!vzc3kkgt54e7ndfq.3Ly91PDB0fJL3zvM'
+  - icon: icons/magic/fire/projectile-feathers-embers-gold.webp
+    origin: Item.8fve58oe1aaaldmx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dNDj85cJvIZatWz8
+        applyToSelf: true
+    transfer: false
+    name: Ash
+    _id: etMZtOTeGn8gOKqa
+    changes:
+      - key: system.attributes.hp.value
+        value: '9999'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!vzc3kkgt54e7ndfq.etMZtOTeGn8gOKqa'
+flags: {}
+_id: vzc3kkgt54e7ndfq
+_key: '!items!vzc3kkgt54e7ndfq'

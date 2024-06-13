@@ -1,0 +1,73 @@
+name: Divine Intervention
+type: feat
+img: icons/magic/light/projectile-flare-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 10th level, you can use an action to call on your deity to
+      intervene on your behalf when your need is great. Describe the assistance
+      you seek and roll percentile dice. If you roll a number equal to or lower
+      than your cleric level, your deity intervenes. The Narrator chooses the
+      nature of the intervention; the effect of any cleric spell or cleric
+      archetype spell would be appropriate. If your deity intervenes, you can’t
+      use this feature again for 7 days. Otherwise, you can use it again after
+      you finish a long rest.</p><p>After each failed divine intervention roll,
+      add 1 to the number required to succeed until it is a success, at which
+      point it resets to your cleric level or below.</p><p>At 20th level, your
+      call for intervention succeeds automatically, no roll required.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: h9wmhmum9efcfjjn
+_key: '!items!h9wmhmum9efcfjjn'

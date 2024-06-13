@@ -1,0 +1,36 @@
+name: Cold Flesh
+type: feat
+img: icons/magic/unholy/hand-claw-fire-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Finally, at 3rd level you begin to transform into an undead creature
+      yourself. Choose one of the following options:</p>
+
+      <ul>
+
+      <li><strong>Path of the Mummy</strong>: you gain the Embalmed feat.</li>
+
+      <li><strong>Path of the Revenant</strong>: you gain the Vendetta
+      feat.</li>
+
+      <li><strong>Path of the Vampire</strong>: you gain the Newblood feat.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 9tmsliz14cwb4t6r
+_key: '!items!9tmsliz14cwb4t6r'

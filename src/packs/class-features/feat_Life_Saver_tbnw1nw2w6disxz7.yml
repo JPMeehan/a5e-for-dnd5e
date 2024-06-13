@@ -1,0 +1,30 @@
+name: Life Saver
+type: feat
+img: icons/magic/life/heart-red-blue.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level, if you can get to them in time, there’s virtually nobody
+      you can’t save. You learn the <em>spare the dying</em> cantrip.
+      Additionally, once per long rest, you may cast <em>revivify</em> without
+      material components. If you have already used this feature, you may use it
+      again a number of times equal to half your proficiency bonus, but you
+      require one use of a healer’s kit to do so (it is consumed in the
+      process).</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: tbnw1nw2w6disxz7
+_key: '!items!tbnw1nw2w6disxz7'

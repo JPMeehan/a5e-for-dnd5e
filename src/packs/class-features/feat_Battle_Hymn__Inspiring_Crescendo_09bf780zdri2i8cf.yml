@@ -1,7 +1,36 @@
 name: 'Battle Hymn: Inspiring Crescendo'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.kFdPBW3jvICTeuhS
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: sSjFdieQtguFSk8P
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: 'Battle Hymn: Inspiring Crescendo'
+    _id: n1ETf3MuTDPZXkI1
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target gains a 1d6 expertise die on ability checks. Unlike normal,
+      this expertise die can be as high as a d12.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!09bf780zdri2i8cf.n1ETf3MuTDPZXkI1'
 flags: {}
 system:
   type:
@@ -9,11 +38,11 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>The creature gains a 1d6 expertise die on ability checks. Unlike
-      normal, this expertise die can be as high as a d12.</p>
+      <p>The target gains a 1d6 expertise die on ability checks.
+      Unlike&nbsp;normal, this expertise die can be as high as a d12.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -46,7 +75,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

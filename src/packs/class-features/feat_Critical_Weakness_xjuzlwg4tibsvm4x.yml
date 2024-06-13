@@ -1,0 +1,66 @@
+folder: null
+name: Critical Weakness
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 17th level, you can focus your mind to identify any
+      enemy&rsquo;s weaknesses. Once per rest, you can use a bonus action to
+      choose one creature you can see within 60 feet and expose a flaw in its
+      defenses. Until the end of your next turn, any creature that can hear or
+      see you has advantage on attack rolls made against that creature, and
+      their attacks and spells deal an extra 6 damage to it.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: xjuzlwg4tibsvm4x
+_key: '!items!xjuzlwg4tibsvm4x'

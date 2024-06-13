@@ -1,0 +1,67 @@
+folder: null
+name: Magnetism, Greater
+type: feat
+img: icons/commodities/metal/ingot-stamped-steel-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As an action, you learn
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.0xo9oc6s6mrh77ci]{Telekinesis}
+      as an Earth spell without expending spell points, but it only works on
+      objects made primarily of metal or creatures carrying or wearing
+      metal.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Focus: Earth; Magnetism adaptation; 17th level'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: str
+  actionType: abil
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: zs42d7zzhycgl5ei
+_key: '!items!zs42d7zzhycgl5ei'

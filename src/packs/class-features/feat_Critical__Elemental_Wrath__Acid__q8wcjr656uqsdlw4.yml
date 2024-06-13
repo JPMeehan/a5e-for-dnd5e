@@ -1,7 +1,38 @@
 name: 'Critical: Elemental Wrath (Acid)'
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+effects:
+  - icon: icons/magic/symbols/elements-air-earth-fire-water.webp
+    origin: Item.tnClNZYWjGe0PJiX
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ll3YIXp9mezuQ68C
+        applyToSelf: true
+    transfer: false
+    name: Elemental Wrath (Acid)
+    _id: LQwoO8iHw2SPyaCg
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Elemental Wrath
+          (Acid)","formula":"1d6","damageType":"acid","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/symbols/elements-air-earth-fire-water.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!q8wcjr656uqsdlw4.LQwoO8iHw2SPyaCg'
 flags: {}
 system:
   type:
@@ -58,16 +89,14 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts:
-      - - 1d6
-        - acid
+    parts: []
     versatile: ''
   formula: ''
   save:

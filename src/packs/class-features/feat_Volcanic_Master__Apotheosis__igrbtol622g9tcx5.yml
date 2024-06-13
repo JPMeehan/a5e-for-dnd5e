@@ -1,0 +1,128 @@
+folder: null
+name: Volcanic Master (Apotheosis)
+type: feat
+img: icons/magic/earth/lava-explosion-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-702f4d6b-7fff-a72b-bada-9e8d333e5844"
+      dir="ltr"><span
+      id="docs-internal-guid-fc68f87b-7fff-70c0-ca42-0de6dad0617f">By focusing
+      on the powers of earth and fire, you have mastered the powers of lava. You
+      can cast
+      </span>@UUID[Compendium.a5e-for-dnd5e.spells.Item.8y0hx71xr0aj0lmp]{Eruption}
+      once without expending a spell slot or spell points. Once you use this
+      feature, you must complete a long rest before you can use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Focus in Earth and Fire
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/earth/lava-explosion-orange.webp
+    origin: Item.8y0hx71xr0aj0lmp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xQhOMWZNeDD66dgA
+    transfer: false
+    name: Prone
+    _id: YFsrf3yjqtIrgg79
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!igrbtol622g9tcx5.YFsrf3yjqtIrgg79'
+  - icon: icons/magic/earth/lava-explosion-orange.webp
+    origin: Item.8y0hx71xr0aj0lmp
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 9mDseR7Fk7MZuOx9
+    transfer: false
+    name: Prone
+    _id: WZaejpgY4IU3JKSV
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!igrbtol622g9tcx5.WZaejpgY4IU3JKSV'
+flags: {}
+_id: igrbtol622g9tcx5
+_key: '!items!igrbtol622g9tcx5'

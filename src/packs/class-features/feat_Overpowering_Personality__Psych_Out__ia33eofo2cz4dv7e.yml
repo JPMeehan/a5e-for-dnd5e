@@ -1,6 +1,6 @@
 name: Overpowering Personality (Psych Out)
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
 effects: []
 flags: {}
 system:
@@ -9,16 +9,12 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Beginning at 18th level, your poise and charm allow you to impose your
-      vision on the world. Choose one of the following options. You must be
-      proficient in a skill in order to gain an expertise die from Overpowering
-      Personality.</p><h3><strong>Psych Out</strong></h3><p>You gain an
-      expertise die on Intimidation checks. As an action, you can make an
-      Intimidation check opposed by the Charisma check of a creature that can
-      see you. On a success, the next attack roll or opposed ability check you
-      make against that creature within the next 10 minutes is made with
-      advantage. Once you’ve failed an opposed Intimidation check, you can’t use
-      this feature again until you finish a long rest.</p>
+      <p>You gain an expertise die on Intimidation checks. As an action, you can
+      make an Intimidation check opposed by the Charisma check of a creature
+      that can see you. On a success, the next attack roll or opposed ability
+      check you make against that creature within the next 10 minutes is made
+      with advantage. Once you&rsquo;ve failed an opposed Intimidation check,
+      you can&rsquo;t use this feature again until you finish a long rest.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -29,8 +25,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
-    cost: ''
+    type: action
+    cost: 1
     condition: ''
   duration: {}
   cover: null
@@ -53,8 +49,8 @@ system:
     type: ''
     target: null
     amount: null
-  ability: null
-  actionType: null
+  ability: cha
+  actionType: abil
   attackBonus: ''
   chatFlavor: ''
   critical:

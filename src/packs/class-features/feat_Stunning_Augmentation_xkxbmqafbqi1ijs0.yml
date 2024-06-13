@@ -1,0 +1,70 @@
+folder: null
+name: Stunning Augmentation
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-ed321422-7fff-7040-453a-b06829e47043"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 5; <strong>Element:</strong>
+      Lightning</span></em></p>
+
+      <p><span id="docs-internal-guid-3d4b9aaf-7fff-d421-c02c-aa3177bfd86d">By
+      spending 3 spell points, your blast shocks targets who are hit or who fail
+      their initial save. Targets who are hit or who fail their initial save are
+      stunned for 1 round. If you spend 7 spell points, the target is paralyzed
+      instead of stunned.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: xkxbmqafbqi1ijs0
+_key: '!items!xkxbmqafbqi1ijs0'

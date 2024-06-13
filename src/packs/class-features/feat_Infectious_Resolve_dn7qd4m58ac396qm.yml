@@ -1,7 +1,75 @@
 name: Infectious Resolve
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+effects:
+  - icon: icons/magic/unholy/strike-hand-glow-pink.webp
+    origin: Item.dTVpmUEAabGtH5Zu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 7GItybN2hQIR3rsg
+    transfer: false
+    name: All In
+    _id: WkgcS3E5EnkM4VVe
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.meleeWeaponAttack
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.attack.rangedWeaponAttack
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"All
+          In","formula":"1d8","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/unholy/strike-hand-glow-pink.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target gains advantage on its next weapon attack, and deals an
+      extra 1d8 radiant damage on a hit.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dn7qd4m58ac396qm.WkgcS3E5EnkM4VVe'
+  - icon: icons/magic/unholy/strike-hand-glow-pink.webp
+    origin: Item.dTVpmUEAabGtH5Zu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 7GItybN2hQIR3rsg
+        duration:
+          unit: minutes
+    transfer: false
+    name: Iron Will
+    _id: pP4lak5j5duKo6Yb
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>As long as you are conscious the target gains advantage on Wisdom
+      saving throws made against spells and other magical effects.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!dn7qd4m58ac396qm.pP4lak5j5duKo6Yb'
 flags: {}
 system:
   type:
@@ -10,16 +78,21 @@ system:
   description:
     value: >-
       <p>Starting at 14th level, you can use your action to touch one willing
-      creature (or yourself) and choose one of the following
-      effects.</p><p><strong>All In.</strong> <em>The target gains advantage on
-      its next weapon attack, and deals an extra 1d8 radiant damage on a
-      hit.</em></p><p><strong>Iron Will.</strong> <em>For the next minute, as
-      long as you are conscious the target gains advantage on Wisdom saving
-      throws made against spells and other magical
-      effects.</em></p><p><strong>Walk It Off.</strong> <em>One spell or
-      condition affecting the target ends.</em></p><p>Once you have used this
-      feature a number of times equal to your Charisma modifier, you cannot do
-      so again until you finish a long rest.</p>
+      creature (or yourself) and choose one of the following effects.</p>
+
+      <p><em><strong>All In.</strong></em> The target gains advantage on its
+      next weapon attack, and deals an extra 1d8 radiant damage on a hit.</p>
+
+      <p><em><strong>Iron Will.</strong></em> For the next minute, as long as
+      you are conscious the target gains advantage on Wisdom saving throws made
+      against spells and other magical effects.</p>
+
+      <p><em><strong>Walk It Off.</strong></em> One spell or condition affecting
+      the target ends.</p>
+
+      <p>Once you have used this feature a number of times equal to your
+      Charisma modifier, you cannot do so again until you finish a long
+      rest.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -30,8 +103,8 @@ system:
     value: null
     charged: true
   activation:
-    type: ''
-    cost: ''
+    type: action
+    cost: 1
     condition: ''
   duration: {}
   cover: null
@@ -55,7 +128,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

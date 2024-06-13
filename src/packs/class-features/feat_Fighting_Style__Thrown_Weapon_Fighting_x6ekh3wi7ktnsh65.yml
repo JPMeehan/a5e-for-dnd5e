@@ -1,0 +1,26 @@
+name: 'Fighting Style: Thrown Weapon Fighting'
+type: feat
+img: icons/skills/ranged/dagger-thrown-jeweled-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Whenever you would make an attack using a weapon with the Thrown
+      property you may draw the weapon as part of the attack. In addition, your
+      ranged weapon attacks with thrown weapons deal an additional 2 damage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: x6ekh3wi7ktnsh65
+_key: '!items!x6ekh3wi7ktnsh65'

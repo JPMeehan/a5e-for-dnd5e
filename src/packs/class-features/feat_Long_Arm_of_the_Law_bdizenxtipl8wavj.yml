@@ -1,0 +1,31 @@
+name: Long Arm of the Law
+type: feat
+img: icons/skills/targeting/crosshair-pointed-orange.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You become adept at ensuring those you are hunting do not escape. Once
+      per turn at your option, you can spend 1 exertion to gain one of the
+      following benefits until the end of the turn:</p><ul><li><p>Triple the
+      range of any thrown weapon you use</p></li><li><p>Increase&nbsp; the DC of
+      non-lethal poisons you create by 2 points (to a maximum of your maneuver
+      DC)</p></li><li><p>Gain&nbsp; advantage on Perception and Investigation
+      checks to find secret doors or compartments, concealed weapons, and
+      creatures attempting to hide from you with Stealth.</p></li></ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: bdizenxtipl8wavj
+_key: '!items!bdizenxtipl8wavj'

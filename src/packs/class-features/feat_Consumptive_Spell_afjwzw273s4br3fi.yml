@@ -1,0 +1,27 @@
+name: Consumptive Spell
+type: feat
+img: icons/svg/item-bag.svg
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <h4>When you cast a spell that deals damage, you can spend 4 sorcery
+      points. You, or a creature within 10 feet of you, regain hit points equal
+      to half the damage roll for the spell. If you roll damage multiple times
+      for a spell, you only restore hit points from the first roll.</h4>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: afjwzw273s4br3fi
+_key: '!items!afjwzw273s4br3fi'

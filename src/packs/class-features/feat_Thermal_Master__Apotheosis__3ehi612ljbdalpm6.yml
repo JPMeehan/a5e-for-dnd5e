@@ -1,0 +1,127 @@
+folder: null
+name: Thermal Master (Apotheosis)
+type: feat
+img: icons/magic/fire/explosion-flame-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-4a8b596a-7fff-1116-6eb8-6d808a462583">You
+      have mastered the opposing forces of fire and ice, fusing them into pure
+      power. You can
+      cast&nbsp;</span>@UUID[Compendium.a5e-for-dnd5e.spells.Item.gc2j4x57gy5ma2fw]{Flashfreeze
+      Heatwave}&nbsp; once without expending a spell slot or spell points. Once
+      you use this feature, you must complete a long rest before you can use it
+      again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Focus in Fire and Water
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 6d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/ice-crystal-white.webp
+    origin: Item.gc2j4x57gy5ma2fw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: mcipCwwQxIU6jbeu
+    transfer: false
+    name: Restrained
+    _id: L2PcPxoZtrpgM76k
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!3ehi612ljbdalpm6.L2PcPxoZtrpgM76k'
+  - icon: icons/magic/water/ice-crystal-white.webp
+    origin: Item.gc2j4x57gy5ma2fw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: DRaoagGIA0b6Kf5N
+    transfer: false
+    name: Restrained
+    _id: Q0DCqkSTZokRtDJj
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!3ehi612ljbdalpm6.Q0DCqkSTZokRtDJj'
+flags: {}
+_id: 3ehi612ljbdalpm6
+_key: '!items!3ehi612ljbdalpm6'

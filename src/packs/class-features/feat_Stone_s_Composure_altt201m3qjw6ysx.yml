@@ -1,0 +1,27 @@
+folder: null
+name: Stone's Composure
+type: feat
+img: icons/environment/wilderness/carved-standing-stone.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You gain proficiency in Insight. If you are already
+      proficient in it, you instead gain an expertise die. You also gain an
+      expertise die to resist any attempt to intimidate you or read your
+      emotions, and on saves against the frightened condition.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Earth; 5th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: altt201m3qjw6ysx
+_key: '!items!altt201m3qjw6ysx'

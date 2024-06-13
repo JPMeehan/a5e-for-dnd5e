@@ -1,6 +1,6 @@
 name: Tactical Advantage (Nature's Shadow)
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/creatures/magical/humanoid-silhouette-dashing-blue.webp
 effects: []
 flags: {}
 system:
@@ -8,10 +8,7 @@ system:
     value: class
     subtype: ''
   description:
-    value: >-
-      <p>At 14th level you gain a third studied adversary. In addition, you can
-      choose one of the following ranger tactics:&nbsp;</p><h3><strong>NATURE’S
-      SHADOW</strong></h3><p>You gain an expertise die on Stealth checks.</p>
+    value: <p>You gain an expertise die on Stealth checks.</p>
     chat: ''
   source:
     book: Adventurer's Guide

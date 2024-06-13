@@ -1,0 +1,31 @@
+name: Hidey Hole
+type: feat
+img: icons/environment/settlement/house-city.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at level 3, once you have spent 24 hours in a new city, you can
+      choose to acquire a grade 1 frugal Safehouse stronghold for free. You may
+      only have one of these strongholds in any given city, but if one is
+      discovered by your enemies, you can replace it after another 24 hours. You
+      may have a maximum number of safehouses acquired by this feature equal to
+      your proficiency bonus (each in a different community). If desired, you
+      can decommission a safehouse over the course of 1 hour (clearing out
+      possessions and removing clues) to set one up in a new location.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: 1sf2zyachhpuze10
+_key: '!items!1sf2zyachhpuze10'

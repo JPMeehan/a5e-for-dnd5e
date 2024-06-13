@@ -1,6 +1,6 @@
 name: Holy Exemplar
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/life/cross-yellow-green.webp
 effects: []
 flags: {}
 system:
@@ -25,6 +25,45 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '100'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: 6s1lhuxjy6b485jo
 _key: '!items!6s1lhuxjy6b485jo'

@@ -1,6 +1,6 @@
 name: 'Thaumaturge: Highest Arcanum (contemplation)'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/holy/meditation-chi-focus-blue.webp
 effects: []
 flags: {}
 system:
@@ -9,9 +9,9 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>You learn an ultimate exploit in the laws of magic. </p><p>Once per
-      day, you can spend 1 minute in arcane contemplation to regain your spent
-      spell points.</p>
+      <p>You can spend 1 minute in arcane contemplation to regain all expended
+      spell points. Once you have used this feature, you must finish a long rest
+      before you can do so again.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -21,6 +21,45 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: minute
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: chshm3m7je487do0
 _key: '!items!chshm3m7je487do0'

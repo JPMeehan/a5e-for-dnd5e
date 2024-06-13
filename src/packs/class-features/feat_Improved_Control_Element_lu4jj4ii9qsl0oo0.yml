@@ -1,0 +1,76 @@
+folder: null
+name: Improved Control Element
+type: feat
+img: icons/magic/symbols/squares-3d-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 13th level, you gain greater control of your elemental affinities.
+      The range of your Control Elements ability increases to 60 feet. You can
+      now perform the following effects as an action, or sustain an effect from
+      the previous round as an action.</p>
+
+      <ul>
+
+      <li>You can move elemental material weighing up to 50 lbs per elementalist
+      level. You can move multiple objects together, as long as they weigh less
+      than your total limit together and fit within a 15 by 15 foot cube.</li>
+
+      <li>You can target an elemental creature within range that is no larger
+      than Huge size. The target makes a Strength save against your spell save
+      DC or is moved up to 30 feet in any direction and is restrained (even in
+      mid-air) until the end of your next turn. You cannot move a target beyond
+      your 60 foot control range, or else it is released from your hold.</li>
+
+      <li>Air can be used to push creatures of up to Huge size. Choose a
+      creature within range. The target makes a Strength save against your spell
+      DC or is moved up to 30 feet in any direction and is knocked prone.
+      Swirling winds can be used to manipulate light objects weighing less than
+      5 lbs per elementalist level, moving them up to 30 feet, but this movement
+      is not precise.</li>
+
+      <li>Earth can be used to grab creatures of up to Huge size. Choose a
+      creature within range. The target makes a Strength save against your spell
+      DC or is restrained until it breaks free. It can turn 15 by 15 foot
+      sections of stone or earth ground into difficult terrain.</li>
+
+      <li>Fire can be used to move or expand fires. A 15 by 15 foot cube portion
+      of fire, or a fire that fits within the area, can be moved up to 30 feet,
+      or a fire can be expanded by a 15 by 15 foot portion. If there is no fuel
+      present in the new area, the fire burns as long as you spend an action
+      each round to maintain it. While you maintain it, the fire&rsquo;s damage
+      increases to 1d6 times your Elemental Blast dice; otherwise it uses the
+      fire&rsquo;s own damage dice. A 15 by 15 foot section of fire, or other
+      hot material such as lava, can be cooled to ambient temperature, by moving
+      the heat away from it, snuffing out fires and cooling portions of lava
+      into stone.</li>
+
+      <li>Water can be used to make 15 by 15 ft sections of ground slick.
+      Creatures that attempt to move at full speed through the area must make a
+      Dexterity save against your spell save DC or fall prone. Water can also be
+      used to make waves to push a target creature of up to Huge size within
+      range of you and the source of water. The target makes a Strength save
+      against your spell DC or is moved up to 30 feet in any direction away from
+      the water.</li>
+
+      <li>You can use control element to finely manipulate objects made of
+      elemental material that you have Affinity with, like opening a stone door,
+      or moving ink to write without a pen.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: lu4jj4ii9qsl0oo0
+_key: '!items!lu4jj4ii9qsl0oo0'

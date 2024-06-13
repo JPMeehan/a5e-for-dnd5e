@@ -1,0 +1,25 @@
+name: 'Fighting Style: Dueling'
+type: feat
+img: icons/skills/melee/sword-twirl-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you are wielding a melee weapon in one hand and no other weapons,
+      you gain a +2 bonus to damage rolls with that weapon.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 3nhippsahwv78m11
+_key: '!items!3nhippsahwv78m11'

@@ -1,0 +1,80 @@
+name: Rising Phoenix
+type: feat
+img: icons/magic/fire/flame-burning-campfire-rocks.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you learn the secret of the phoenix and the newday sun.
+      When you are knocked unconscious (even if you would be killed outright),
+      you can use this feature to automatically stabilize and to emit a fiery
+      eruption, creating a zone of immolation within 30 feet of you. While this
+      effect is active, taking damage does not cause you to accumulate death
+      save failures.</p>
+
+      <p>At the start of your next two turns, creatures in the immolation zone
+      other than those you designate take fire or radiant damage (your choice
+      once per round) equal to 2d8 + your spellcasting ability modifier.</p>
+
+      <p>At the start of your third turn of this effect, you regain half your
+      hit points + 1, and you may stand from prone (this spends no movement).
+      Any damage to your weapons and clothing are repaired, and you and your
+      gear are all cleaned.</p>
+
+      <p>Once you use this feature, you can&rsquo;t do so again until you
+      complete a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - round(@attributes.hp.baseMax/2) + 1
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: 8d26ubg1hfktcxht
+_key: '!items!8d26ubg1hfktcxht'

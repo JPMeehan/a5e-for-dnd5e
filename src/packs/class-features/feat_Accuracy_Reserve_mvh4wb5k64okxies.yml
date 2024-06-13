@@ -1,0 +1,100 @@
+folder: null
+name: Accuracy Reserve
+type: feat
+img: icons/skills/targeting/crosshair-bars-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you have not moved since the beginning of your last turn, you gain a
+      +1 bonus to weapon attack rolls until the end of your turn. You lose this
+      bonus if you move.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/skills/targeting/crosshair-bars-yellow.webp
+    origin: Item.mvh4wb5k64okxies
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: umrEevTSTycYx3N4
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Accuracy Reserve
+    _id: nP7E14lwHxNIOIVW
+    changes:
+      - key: flags.a5e.effects.bonuses.attacks
+        value: >-
+          {"label":"Accuracy
+          Reserve","formula":"1","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"spellLevels":[],"requiresProficiency":false},"default":true,"img":"icons/skills/targeting/crosshair-bars-yellow.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>If you have not moved since the beginning of your last turn, you gain a
+      +1 bonus to weapon attack rolls until the end of your turn. You lose this
+      bonus if you move.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!mvh4wb5k64okxies.nP7E14lwHxNIOIVW'
+flags: {}
+_id: mvh4wb5k64okxies
+_key: '!items!mvh4wb5k64okxies'

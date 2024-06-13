@@ -1,0 +1,40 @@
+folder: null
+name: 'Elder Companion: Fire'
+type: feat
+img: icons/magic/fire/elemental-fire-flying.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-7ed590df-7fff-ca4e-c1e2-d62cef8daab3"
+      dir="ltr">As you grow in power, so does your elemental companion.</p>
+
+      <p dir="ltr">At 11th level, your elemental companion grows to large size,
+      though you can reduce it to medium or small or back again to large as an
+      action. It gains another +1 hp per level, and its Hit Dice increase to
+      d10&rsquo;s. Additionally, as an action while it is large sized, you are
+      able to use your action to command your elemental companion to use its
+      Elder ability, shown below.</p>
+
+      <p dir="ltr"><strong>Fire, Wildfire:</strong> Your elemental companion
+      moves up to half its Speed without provoking opportunity attacks. It can
+      enter the spaces of hostile creatures, but not end its movement there.
+      When a creature shares its space with the elemental for the first time
+      during this movement, the creature makes a Dexterity saving throw against
+      your spell save DC. On a failure, it takes your fire blast damage, or half
+      damage on a success.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: klzlb65rlceweoh6
+_key: '!items!klzlb65rlceweoh6'

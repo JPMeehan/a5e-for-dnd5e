@@ -1,0 +1,36 @@
+name: Will of the Divine
+type: feat
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 18th level, your presence bolsters your allies with divine
+      power. You and a number of additional creatures that you select up to you
+      Charisma modifier gain the following benefits: </p><ul><li><p>While inside
+      the radius of your Commanding Presence, the first time on each of its
+      turns that the creature hits with a weapon attack, it deals an additional
+      1d8 radiant or necrotic damage (your choice when you acquire this
+      benefit).</p></li><li><p>Creatures you selected also gain resistance to
+      the same type of energy that is added to their attacks as long as they
+      remain inside the radius of your Commanding Presence.</p></li></ul><p>You
+      may change the selected creatures as a bonus action.</p><p>Additionally,
+      while inside the radius of your Commanding Presence, hostile creatures are
+      outlined in a faerie fire effect. The effect vanishes if the creature
+      leaves the area.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
+effects: []
+flags: {}
+folder: null
+_id: spen1mkj2pczrvtn
+_key: '!items!spen1mkj2pczrvtn'

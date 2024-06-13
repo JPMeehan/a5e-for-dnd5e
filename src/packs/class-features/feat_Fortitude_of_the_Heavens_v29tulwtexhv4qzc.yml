@@ -1,0 +1,68 @@
+name: Fortitude of the Heavens
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, whenever you complete a short or long rest, you gain
+      temporary hit points equal to your warlock level + your spellcasting
+      ability modifier.&nbsp;When you do, you grant half as many temporary hit
+      points to up to five creatures you can see.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classes.warlock.level + @mod'
+        - temphp
+      - - round((@classes.warlock.level + @mod)/2)
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_id: v29tulwtexhv4qzc
+_key: '!items!v29tulwtexhv4qzc'

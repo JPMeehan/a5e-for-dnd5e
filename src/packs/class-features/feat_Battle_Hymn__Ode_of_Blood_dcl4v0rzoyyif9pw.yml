@@ -1,7 +1,34 @@
 name: 'Battle Hymn: Ode of Blood'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.P6vXOE7ZeqoGMaIb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: VbueG5JU8gaIbAyC
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: 'Battle Hymn: Ode of Blood'
+    _id: Oz86SvIns37QdbxU
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 3
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>\_If the target is dying, it continues making death saving throws but regains consciousness for up to 3 rounds. The target falls unconscious again if it\_takes damage, and it dies if it fails its last death saving throw. Once a creature has\_benefited from this battle hymn, it can’t benefit from it again until it finishes a rest.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!dcl4v0rzoyyif9pw.Oz86SvIns37QdbxU'
 flags: {}
 system:
   type:
@@ -9,14 +36,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>If the creature is dying, it continues making death saving throws but
-      stops being incapacitated for up to 3 rounds. The creature becomes
-      incapacitated if it takes any damage, and it dies if it fails its last
-      death saving throw. Once a creature has benefited from this battle hymn,
-      it can’t benefit from it again until it finishes a short or long rest.</p>
+      <p>&nbsp;If the target is dying, it continues making death saving throws
+      but regains consciousness for up to 3 rounds. The target falls unconscious
+      again if it&nbsp;takes damage, and it dies if it fails its last death
+      saving throw. Once a creature has&nbsp;benefited from this battle hymn, it
+      can&rsquo;t benefit from it again until it finishes a rest.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -49,7 +76,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

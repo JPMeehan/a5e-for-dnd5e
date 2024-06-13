@@ -1,7 +1,39 @@
 name: 'Critical: Dazzling Prowess'
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/light/explosion-impact-purple.webp
+effects:
+  - icon: icons/magic/light/explosion-impact-purple.webp
+    origin: Item.hTTgSTxwQDk3YNXo
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: uOxn1vVFURYJAfQO
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Stunned
+    _id: 8fDbY7URzGgsGoyv
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - stunned
+    folder: null
+    _key: '!items.effects!t2m2snx1qdjvuju8.8fDbY7URzGgsGoyv'
 flags: {}
 system:
   type:
@@ -9,16 +41,15 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 6th level</em></p><p>Your show of martial skill is so
-      stunning that the target can only gape. When you score a critical hit, the
-      target makes a Wisdom saving throw or is stunned until the end of your
-      next turn.</p>
+      <p>Your show of martial skill is so stunning that the target can only
+      gape. When you score a critical hit, the target makes a Wisdom saving
+      throw or is stunned until the end of your next turn.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 6th level
   recharge:
     value: null
     charged: true
@@ -48,7 +79,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

@@ -1,7 +1,46 @@
 name: Familiar Terain
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/environment/settlement/scarecrow.webp
+effects:
+  - icon: icons/environment/settlement/scarecrow.webp
+    origin: Item.rk0whcv6vbpbdjl1
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QnB3f8b3PLZVOLey
+    transfer: false
+    name: Familiar Terain
+    _id: HyKupmYUXgbIL2Lz
+    changes:
+      - key: flags.a5e.effects.bonuses.skills
+        value: >-
+          {"label":"Familiar
+          Terain","formula":"2","damageType":"","context":{"skills":["prc"],"requiresProficiency":false,"passiveOnly":true},"default":true,"img":"icons/environment/settlement/scarecrow.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul><li><p>Difficult terrain doesn’t slow your group’s
+      travel.</p></li><li><p>Your group can’t become lost except by magical
+      means.</p></li><li><p>Even when you are engaged in another activity while
+      traveling you remain alert to danger. Your passive Perception increases by
+      2.</p></li><li><p>If you are traveling alone, you can move stealthily at a
+      normal pace.</p></li><li><p>When you Hunt and Gather, you find twice as
+      much Supply as you normally would.</p></li><li><p>While tracking other
+      creatures, you also learn their exact number, their sizes, and how long
+      ago they passed through the area.</p></li></ul>
+    statuses: []
+    folder: null
+    _key: '!items.effects!rk0whcv6vbpbdjl1.HyKupmYUXgbIL2Lz'
 flags: {}
 system:
   type:
@@ -32,6 +71,43 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: rk0whcv6vbpbdjl1
 _key: '!items!rk0whcv6vbpbdjl1'

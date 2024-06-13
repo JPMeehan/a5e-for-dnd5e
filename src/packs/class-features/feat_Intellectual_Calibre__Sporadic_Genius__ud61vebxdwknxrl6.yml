@@ -7,15 +7,12 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 7th level, your attitudes and academic manners have cemented how you
-      and your intellect are perceived by your peers.</p><h3><strong>Sporadic
-      Genius</strong></h3><p>You’re known for sudden bursts of insight and
-      people listen to your fervorous insights. When you or another creature you
-      can see within 30 feet of you makes an ability check or a saving throw,
-      you can use your reaction to add your Intelligence modifier to the roll.
-      You can use this feature a number of times equal to your Intelligence
-      modifier (minimum of once). You regain all expended uses when you finish a
-      long rest.</p>
+      <p>You&rsquo;re known for sudden bursts of insight and people listen to
+      your fervorous insights. When you or another creature you can see within
+      30 feet of you makes an ability check or a saving throw, you can use your
+      reaction to add your Intelligence modifier to the roll. You can use this
+      feature a number of times equal to your Intelligence modifier (minimum of
+      once). You regain all expended uses when you finish a long rest.</p>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -26,6 +23,48 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      when you or another creature you can see within 30 feet of you makes an
+      ability check or a saving throw
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null

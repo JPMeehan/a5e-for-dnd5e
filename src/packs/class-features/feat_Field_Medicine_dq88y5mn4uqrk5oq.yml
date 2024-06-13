@@ -1,0 +1,29 @@
+name: Field Medicine
+type: feat
+img: icons/magic/life/cross-worn-green.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 3, you receive specialized medical training that allows you to
+      treat common injuries and ailments even in the heart of the wilds. You
+      gain proficiency with the Medicine skill.</p><p>You also learn one of the
+      following Exploration Knacks, and it does not count against your maximum
+      Knacks known: Healing Salves, Herbal Bitters, or Poisons and
+      Antidotes.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: dq88y5mn4uqrk5oq
+_key: '!items!dq88y5mn4uqrk5oq'

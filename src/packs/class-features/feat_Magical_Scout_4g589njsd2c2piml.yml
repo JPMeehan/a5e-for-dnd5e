@@ -1,0 +1,96 @@
+name: Magical Scout
+type: feat
+img: icons/magic/unholy/beams-impact-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your torch bearer form is a bit frilly, lacey, and perhaps even pink.
+      The transformation is very distracting as it involves a lot of posing
+      while your wardrobe changes and colorful magic swirls around you. Any
+      creature that witnesses you enter your torch bearer form makes all
+      Perception checks to notice anything but you at disadvantage until you
+      leave your torch bearer form.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Torchbearer archetype
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/unholy/beams-impact-pink.webp
+    origin: Item.cmHbwPN5d58qvjfN
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: J7dnQuyYOXphGIDf
+    transfer: false
+    name: Magical Scout
+    _id: zyOeNiKuWcYmAy9p
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.prc
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Makes all Perception checks to notice anything but you at disadvantage
+      until you leave your torch bearer form.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!4g589njsd2c2piml.zyOeNiKuWcYmAy9p'
+flags: {}
+folder: null
+_id: 4g589njsd2c2piml
+_key: '!items!4g589njsd2c2piml'

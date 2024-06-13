@@ -3,7 +3,7 @@ type: feat
 img: icons/magic/control/hypnosis-mesmerism-eye.webp
 effects:
   - icon: icons/magic/control/hypnosis-mesmerism-eye.webp
-    origin: Item.5wrw48ctsb9sm48o
+    origin: Item.Ks8wesP5RTbij3Rl
     flags:
       a5e:
         sort: 0
@@ -25,11 +25,25 @@ effects:
       startTime: null
       seconds: null
       combat: null
-      rounds: null
+      rounds: 1
       turns: 1
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <ul>
+
+      <li>A stunned creature is incapacitated (see the condition), can't move,
+      and can speak only falteringly.</li>
+
+      <li>The creature automatically fails Strength and Dexterity saving
+      throws.</li>
+
+      <li>Attack rolls against the creature have advantage.</li>
+
+      <li>A creature that is immune to being stunned is immune to being
+      rattled.</li>
+
+      </ul>
     statuses:
       - stunned
     folder: null

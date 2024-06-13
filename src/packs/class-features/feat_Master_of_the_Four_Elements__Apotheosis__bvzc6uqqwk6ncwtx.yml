@@ -1,0 +1,31 @@
+folder: null
+name: Master of the Four Elements (Apotheosis)
+type: feat
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-702f4d6b-7fff-a72b-bada-9e8d333e5844"
+      dir="ltr">You have mastered the four base elements, and discovered that
+      through them all the other elements can be created. You can freely apply
+      your augments to any blast, regardless of element requirements.</p>
+
+      <p dir="ltr">Additionally, you gain a bonus adaptation. This adaptation
+      can be chosen from any that you qualify from, and you can freely retrain
+      it for another you qualify for during a short or a long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Affinity in Air, Earth, Fire, and Water
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: bvzc6uqqwk6ncwtx
+_key: '!items!bvzc6uqqwk6ncwtx'

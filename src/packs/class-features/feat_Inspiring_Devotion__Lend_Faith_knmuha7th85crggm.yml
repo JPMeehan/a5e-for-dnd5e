@@ -1,6 +1,6 @@
 name: 'Inspiring Devotion: Lend Faith'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/control/energy-stream-link-large-white.webp
 effects: []
 flags: {}
 system:
@@ -23,8 +23,8 @@ system:
     value: null
     charged: true
   activation:
-    type: none
-    cost: ''
+    type: ''
+    cost: 1
     condition: ''
   duration: {}
   cover: null

@@ -1,0 +1,101 @@
+folder: null
+name: Smoke Storm
+type: feat
+img: icons/magic/air/fog-gas-smoke-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr"><span style="font-size: 10.5pt;">As an action, choose an open
+      flame within 120 feet, snuffing it out (or up to a 10-ft by 10-ft portion
+      of it in the case of large fires) and transform it into a cloud of acrid
+      smoke. The cloud blocks vision like
+      </span>@UUID[Compendium.a5e-for-dnd5e.spells.Item.i4ejucvglhqpfm57]{Fog
+      Cloud}<span style="font-size: 10.5pt;">, and all creatures within the
+      smoke must succeed on a Constitution saving throw or be poisoned;
+      creatures poisoned by the smoke can repeat the saving throw at the end of
+      each of their turns, ending the poisoned condition with a successful
+      saving throw.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Fire; 5th level'
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/air/fog-gas-smoke-gray.webp
+    origin: Item.rubP1CS3wapOJMRz
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: MTnN8eBNgkWQFhV2
+    transfer: false
+    name: Poisoned
+    _id: 2oXAVbE0WmyCKWZp
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - poisoned
+    folder: null
+    _key: '!items.effects!3uty2q8wjkfrq2vr.2oXAVbE0WmyCKWZp'
+flags: {}
+_id: 3uty2q8wjkfrq2vr
+_key: '!items!3uty2q8wjkfrq2vr'

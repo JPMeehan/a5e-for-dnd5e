@@ -1,6 +1,6 @@
 name: 'Thaumaturge: Aura of Anathema'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/unholy/barrier-fire-pink.webp
 effects: []
 flags: {}
 system:
@@ -9,15 +9,11 @@ system:
     subtype: ''
   description:
     value: >-
-      <p style="margin: 0.5em 0px; font-family: Signika, sans-serif; font-size:
-      14px;"><span class="fontstyle1">Hostile creatures within 120 feet gain
-      vulnerability to necrotic damage. A creature withresistance to necrotic
-      damage instead loses its resistance, and a creature immune to necrotic
-      damage instead replaces that immunity with resistance.</span></p>
-
-      <p style="margin: 0.5em 0px; font-family: Signika, sans-serif; font-size:
-      14px;"><span class="fontstyle1">Whenever you finish a long rest, you can
-      choose a different damage type for your aura.</span></p>
+      <p>Hostile creatures within 120 feet gain vulnerability to necrotic
+      damage. A creature with resistance to necrotic damage instead loses its
+      resistance, and a creature immune to necrotic damage instead replaces that
+      immunity with resistance.</p><p>Whenever you finish a long rest, you can
+      choose a different damage type for your aura.</p>
     chat: ''
   source:
     book: Adventurer's Guide

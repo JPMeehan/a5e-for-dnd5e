@@ -1,0 +1,97 @@
+name: Blizzard
+type: feat
+img: icons/svg/item-bag.svg
+effects:
+  - icon: icons/svg/item-bag.svg
+    origin: Item.zeAlaW9zdHV8jltq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: joed7pA5tmHWngEI
+    transfer: false
+    name: Chilled
+    _id: EfgAzIDJB3ChE3Hd
+    changes:
+      - key: flags.a5e.effects.movement.allDistances
+        value: 10[Chilled]
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Movement speeds is reduced by 10 feet for a number of rounds equal to
+      the level of the spell (minimum 1 round).</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!uomiic3ffqqucfo5.EfgAzIDJB3ChE3Hd'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell that deals cold damage, you can spend 1 sorcery
+      point and choose one creature you can see. If that creature takes cold
+      damage from the spell, it is also chilled, reducing its movement speeds by
+      10 feet for a number of rounds equal to the level of the spell (minimum 1
+      round).</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: uomiic3ffqqucfo5
+_key: '!items!uomiic3ffqqucfo5'

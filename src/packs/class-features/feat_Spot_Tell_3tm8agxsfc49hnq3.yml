@@ -1,0 +1,28 @@
+folder: null
+name: Spot Tell
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Insight checks. Whenever a creature makes
+      a Deception check opposed by your Insight check and you win the opposed
+      check, you also learn to recognize signs that the target is bluffing. For
+      the next 24 hours, you have advantage on Insight checks made against the
+      target.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 3tm8agxsfc49hnq3
+_key: '!items!3tm8agxsfc49hnq3'

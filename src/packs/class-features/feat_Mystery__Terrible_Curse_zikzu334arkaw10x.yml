@@ -7,17 +7,16 @@ system:
     subtype: ''
   description:
     value: >-
-      <p class="MsoNormal" style="margin-bottom: .0001pt;">When using a
-      Witch&rsquo;s Curse to curse a target, the penalty increases to d8 + your
-      spellcasting ability modifier. If the Witch&rsquo;s Curse causes a
-      creature to fail on the roll, they are rattled until the end of their next
-      turn.</p>
+      <p>When using a Witch&rsquo;s Curse to curse a target, the penalty
+      increases to d8 + your spellcasting ability modifier. If the Witch&rsquo;s
+      Curse causes a creature to fail on the roll, they are rattled until the
+      end of their next turn.</p>
     chat: ''
   source:
     book: Mysterious and Marvelous Miscellanea
     license: OGL 1.0a
   properties: []
-  requirements: Level 5 Witch Class; Witch’s Curse feature
+  requirements: 5th Level; Witch’s Curse feature
   recharge:
     value: null
     charged: true

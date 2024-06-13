@@ -1,0 +1,33 @@
+name: Divine Infusion
+type: feat
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <blockquote><p>At 1st level, you can modify your damaging spells to use
+      divine energies.</p></blockquote><hr class="a5e-rule u-my-md"><p>When you
+      cast a spell of 1st level or higher that does damage measured in a number
+      of dice, you can swap any number of those dice out for an equal number of
+      the next size down that do radiant or necrotic damage (your choice on a
+      per-die basis) instead.</p><p>If the spell already measures its damage in
+      <strong>d4</strong>s, it cannot be modified this way.</p><p>For example,
+      you could substitute one of the <strong>d8</strong>s of thunder damage
+      from a <em>thunderwave</em> spell with a <strong>d6</strong> of radiant
+      damage instead.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 8ypdo7nkp187fmzw
+_key: '!items!8ypdo7nkp187fmzw'

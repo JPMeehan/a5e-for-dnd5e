@@ -1,0 +1,125 @@
+folder: null
+name: Master of the Winds (Apotheosis)
+type: feat
+img: icons/magic/air/air-smoke-casting.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-1e642fad-7fff-d812-ba66-f590b83a515a">You
+      have mastered the power of air. You are able to cast</span>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ajxs7v7usfte05qe]{Tornado} once
+      without expending a spell slot. Once you use this feature, you must
+      complete a long rest before you can use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Elemental Mastery in Air
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/air/wind-tornado-cyclone-white.webp
+    origin: Item.ajxs7v7usfte05qe
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: huGwjLQLqrGv21q4
+    transfer: false
+    name: Lifted
+    _id: dhX657Hb9kDL6Guw
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!3vyb3h71h6zj88ov.dhX657Hb9kDL6Guw'
+  - icon: icons/magic/air/wind-tornado-cyclone-white.webp
+    origin: Item.ajxs7v7usfte05qe
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: RD5n74RcVYASji3P
+    transfer: false
+    name: Lifted
+    _id: ZVT9eoAU9CoXOEfT
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - restrained
+    folder: null
+    _key: '!items.effects!3vyb3h71h6zj88ov.ZVT9eoAU9CoXOEfT'
+flags: {}
+_id: 3vyb3h71h6zj88ov
+_key: '!items!3vyb3h71h6zj88ov'

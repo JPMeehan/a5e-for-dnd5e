@@ -1,0 +1,26 @@
+name: Conditioned Armor
+type: feat
+img: icons/equipment/chest/breastplate-leather-brown-belted.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your armor constantly works to keep you alive and comfortable. While
+      wearing your armor of power you are immune to the effects of extreme cold
+      and extreme heat.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Armor of Power
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: e5i14593gf4f4ad6
+_key: '!items!e5i14593gf4f4ad6'

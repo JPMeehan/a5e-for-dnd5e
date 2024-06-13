@@ -1,6 +1,6 @@
 name: 'Developed Poise: Rational Maneuvers'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/commodities/biological/organ-brain-pink.webp
 system:
   type:
     value: class
@@ -11,14 +11,43 @@ system:
       maneuvers.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
   recharge:
     value: null
     charged: true
-effects: []
+effects:
+  - icon: icons/commodities/biological/organ-brain-pink.webp
+    origin: Item.f5g5Ou8cri2Lh9cw
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Rational Maneuvers
+    _id: 8iaBL1QiQnzUwGen
+    changes:
+      - key: system.attributes.maneuverDC
+        value: 8 + @prof + @int.mod
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You can use your Intelligence bonus to calculate the DCs of your basic
+      maneuvers and combat maneuvers.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!hqq8ujnm9s83hyn3.8iaBL1QiQnzUwGen'
 flags: {}
 folder: null
 _id: hqq8ujnm9s83hyn3

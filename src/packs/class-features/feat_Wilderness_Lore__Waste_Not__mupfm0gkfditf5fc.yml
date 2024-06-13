@@ -1,6 +1,6 @@
 name: Wilderness Lore (Waste Not)
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/commodities/biological/shell-tan.webp
 effects: []
 flags: {}
 system:
@@ -9,13 +9,11 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 12th level, your knowledge of wilderness lore deepens. Choose one of
-      the following options:</p><h3><strong>WASTE NOT</strong></h3><p>With 10
-      minutes work you can scavenge valuable cuts from the corpse of a beast,
-      dragon, monstrosity, or plant that has a CR of 1 or higher and has died
-      within the last hour. If sold to a collector, druid, or other naturalist,
-      this notable component is worth an amount of gold equal to 5 × the
-      creature’s CR.</p>
+      <p>With 10 minutes work you can scavenge valuable cuts from the corpse of
+      a beast, dragon, monstrosity, or plant that has a CR of 1 or higher and
+      has died within the last hour. If sold to a collector, druid, or other
+      naturalist, this notable component is worth an amount of gold equal to 5
+      &times; the creature&rsquo;s CR.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -25,6 +23,45 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: minute
+    cost: 10
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: mupfm0gkfditf5fc
 _key: '!items!mupfm0gkfditf5fc'

@@ -1,0 +1,70 @@
+folder: null
+name: Binding Augmentation
+type: feat
+img: icons/magic/control/debuff-chains-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-6cbd96d2-7fff-94da-8ce7-ce210eeb1c2e"><strong>Type:</strong>
+      Substance; <strong>Level:</strong> 9; <strong>Element:</strong> Cold or
+      Earth</span></em></p>
+
+      <p><span id="docs-internal-guid-9fd48b45-7fff-109e-a22b-6210292b0cac">By
+      spending 5 spell points, your blast encases targets who are hit or who
+      fail their save in earth or ice, grappling them for 1 minute, or until
+      they succeed an escape check against your spell DC. If you spend 7 spell
+      points, targets are restrained instead.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: skillCheck
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: ithqy31adjjixeqs
+_key: '!items!ithqy31adjjixeqs'

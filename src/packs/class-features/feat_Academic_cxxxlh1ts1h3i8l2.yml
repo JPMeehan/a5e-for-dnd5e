@@ -1,0 +1,31 @@
+folder: null
+name: Academic
+type: feat
+img: icons/sundries/books/book-rounded-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You&rsquo;ve got a whole lot of book smarts. You gain 4 specialties
+      from Arcana, Culture, Engineering, History, Nature, and Religion. Unlike
+      normal, academic specialties may be taken twice (increasing the
+      specialty&rsquo;s expertise die to 1d6).</p>
+
+      <p>In addition, when you use either Deception or Persuasion to make a
+      point related to an academic specialty, you gain your expertise die from
+      the specialty and use Intelligence for your ability check.&nbsp;</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: cxxxlh1ts1h3i8l2
+_key: '!items!cxxxlh1ts1h3i8l2'

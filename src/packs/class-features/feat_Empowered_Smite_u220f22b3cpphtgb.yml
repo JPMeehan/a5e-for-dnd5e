@@ -1,7 +1,74 @@
 name: Empowered Smite
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/melee/strike-axe-energy-pink.webp
+effects:
+  - icon: icons/skills/melee/strike-axe-energy-pink.webp
+    origin: Item.gr9CzCkcULpMlkRU
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: A1PywhxSf3xlGdXf
+        duration:
+          unit: minutes
+    transfer: false
+    name: Marking Smite
+    _id: vvZvwbiXZrsqVdtJ
+    changes:
+      - key: '@token.light.bright'
+        value: '5'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '10'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Shed bright light for 5 feet, and dim light for an additional 5 feet.
+      The effect lasts for up to 1 minute, or until you target another creature
+      with a weapon attack. As long as the effect lasts, the target gains no
+      benefit from invisibility and has disadvantage on checks made to hide.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!u220f22b3cpphtgb.vvZvwbiXZrsqVdtJ'
+  - icon: icons/skills/melee/strike-axe-energy-pink.webp
+    origin: Item.gr9CzCkcULpMlkRU
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: V5S1M9S7W7MoHu2z
+    transfer: false
+    name: Prone
+    _id: yhgN7UKeGtUZtZcn
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - prone
+    folder: null
+    _key: '!items.effects!u220f22b3cpphtgb.yhgN7UKeGtUZtZcn'
 flags: {}
 system:
   type:
@@ -13,23 +80,34 @@ system:
       your smites. Whenever you would use your Divine Smite feature, you can
       choose one of the following effects. Once you have used this feature you
       can't do so again until you finish a long rest. Alternatively, you can
-      empower a smite by expending a spell slot of 1st-level or
-      higher.</p><p>Some empowerments require your target to make a saving throw
-      to resist some of the empowerments effects. The DC for these saving throws
-      is the same as your herald spell save DC.</p><p>Igniting Smite Your smite
-      instead deals fire damage, and the target must make a Constitution saving
-      throw at the start of each of its turns or take 1d6 fire damage. On a
-      successful save, it takes no damage and the fire is extinguished. The fire
-      can also be put out as an action or by the environment, and extinguishes
-      itself after 1 minute.</p><p>Marking Smite Your smite causes the target to
-      shed bright light for 5 feet, and dim light for an additional 5 feet. The
-      effect lasts for up to 1 minute, or until you target another creature with
-      a weapon attack. As long as the effect lasts, the target gains no benefit
-      from invisibility and has disadvantage on checks made to
-      hide.</p><p>Repelling Smite Your smite instead deals force damage, and the
-      target must make a Strength saving throw or be pushed back 10 feet and
-      knocked prone. On a successful save, the target is knocked back only 5
-      feet and is not knocked prone.</p>
+      empower a smite by expending a spell slot of 1st-level or higher.</p>
+
+      <p>Some empowerments require your target to make a saving throw to resist
+      some of the empowerments effects. The DC for these saving throws is the
+      same as your herald spell save DC.</p>
+
+      <h2>Igniting Smite</h2>
+
+      <p>Your smite instead deals fire damage, and the target must make a
+      Constitution saving throw at the start of each of its turns or take 1d6
+      fire damage. On a successful save, it takes no damage and the fire is
+      extinguished. The fire can also be put out as an action or by the
+      environment, and extinguishes itself after 1 minute.</p>
+
+      <h2>Marking Smite</h2>
+
+      <p>Your smite causes the target to shed bright light for 5 feet, and dim
+      light for an additional 5 feet. The effect lasts for up to 1 minute, or
+      until you target another creature with a weapon attack. As long as the
+      effect lasts, the target gains no benefit from invisibility and has
+      disadvantage on checks made to hide.</p>
+
+      <h2>Repelling Smite</h2>
+
+      <p>Your smite instead deals force damage, and the target must make a
+      Strength saving throw or be pushed back 10 feet and knocked prone. On a
+      successful save, the target is knocked back only 5 feet and is not knocked
+      prone.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -39,6 +117,45 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
 folder: null
 _id: u220f22b3cpphtgb
 _key: '!items!u220f22b3cpphtgb'

@@ -1,0 +1,27 @@
+folder: null
+name: Binding
+type: feat
+img: icons/magic/control/debuff-chains-ropes-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>After you have affected a creature with a spell that has a duration and
+      it is able to end the spell&rsquo;s effect on itself with a successful
+      saving throw, it must succeed on that saving throw twice to end the
+      effect.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: pobgth4e4tbk9xq6
+_key: '!items!pobgth4e4tbk9xq6'

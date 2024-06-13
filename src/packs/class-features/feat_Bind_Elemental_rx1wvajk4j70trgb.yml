@@ -1,0 +1,102 @@
+folder: null
+name: Bind Elemental
+type: feat
+img: icons/creatures/magical/spirit-earth-stone-magma-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span
+      id="docs-internal-guid-97cda387-7fff-854e-24d8-d2c5c31c2a9b">Starting at
+      9th level, an elementalist can use their power over the elements to
+      attempt to bind an elemental. As an action, you may target an elemental
+      creature you can see within range of your Control Elements ability. The
+      elemental makes a Constitution saving throw against your spell save DC,
+      becoming paralyzed for 1 minute if it fails. It repeats this saving throw
+      at the end of each of its turns. Once an elemental succeeds this save, it
+      becomes immune to your control element ability for 24 hours.</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/creatures/magical/spirit-earth-stone-magma-yellow.webp
+    origin: Item.ZygFuyiKZBqxCJWt
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qK6PAH58dW83iUU2
+        duration:
+          unit: minutes
+    transfer: false
+    name: Paralyzed
+    _id: CJOGTzMvpuaFDIVc
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["paralyzed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - paralyzed
+    folder: null
+    _key: '!items.effects!rx1wvajk4j70trgb.CJOGTzMvpuaFDIVc'
+flags: {}
+_id: rx1wvajk4j70trgb
+_key: '!items!rx1wvajk4j70trgb'

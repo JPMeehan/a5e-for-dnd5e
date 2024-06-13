@@ -1,0 +1,66 @@
+folder: null
+name: Tricky Interrogation
+type: feat
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Deception checks. When you ask a yes or no
+      question to a creature you can see, you can make a Deception check opposed
+      by the target&rsquo;s Deception check. On a success, you learn whether the
+      target believes the answer to be yes or no, even if they didn&rsquo;t
+      reply. On a failure, you can&rsquo;t use Tricky Interrogation against that
+      target for 24 hours.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: skillCheck
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: ly7hi2roqys6lz9n
+_key: '!items!ly7hi2roqys6lz9n'

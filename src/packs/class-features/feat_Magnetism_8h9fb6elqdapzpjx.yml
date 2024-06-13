@@ -1,0 +1,31 @@
+folder: null
+name: Magnetism
+type: feat
+img: icons/commodities/metal/ingot-iron.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You can use the Disarm, Grapple, Knockdown, and Shove
+      maneuvers at a range of 60 feet, but only targeting metal objects or
+      creatures made of or wearing significant amounts of metal (such as metal
+      armor). When using Shove, you can choose to move the creature in any
+      direction. When used against a creature, the normal size category
+      restrictions are ignored. If you disarm a creature, you can pull the item
+      to yourself as long as it weighs less than 5 lbs per level, otherwise it
+      falls in the creature&rsquo;s space</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Focus: Earth; 5th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 8h9fb6elqdapzpjx
+_key: '!items!8h9fb6elqdapzpjx'

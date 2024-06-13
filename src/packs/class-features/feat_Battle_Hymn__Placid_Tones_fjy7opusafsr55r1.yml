@@ -1,7 +1,34 @@
 name: 'Battle Hymn: Placid Tones'
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - icon: icons/skills/trades/music-notes-sound-blue.webp
+    origin: Item.WKxBYokGwfmE975x
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 9rCM5a3Q69pO7XEk
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: 'Battle Hymn: Placid Tones'
+    _id: UqhJFCA1yMTLMXLA
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>The target gains an expertise die on Intelligence, Wisdom, and\_Charisma checks.</p>"
+    statuses: []
+    folder: null
+    _key: '!items.effects!fjy7opusafsr55r1.UqhJFCA1yMTLMXLA'
 flags: {}
 system:
   type:
@@ -9,11 +36,11 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>The creature gains an expertise die on Intelligence, Wisdom, and
-      Charisma checks.</p>
+      <p>The target gains an expertise die on Intelligence, Wisdom,
+      and&nbsp;Charisma checks.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -46,7 +73,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

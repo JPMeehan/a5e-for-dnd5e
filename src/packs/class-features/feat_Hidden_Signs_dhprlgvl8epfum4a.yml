@@ -1,0 +1,68 @@
+folder: null
+name: Hidden Signs
+type: feat
+img: icons/magic/unholy/hands-circle-light-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Sleight of Hand checks. You can use body
+      language and hidden hand signals to communicate a short message to some
+      observers while hiding it from others. Make a Sleight of Hand check
+      opposed by the Insight checks of observers from whom you want to hide your
+      communication. On a success, a creature is not aware that you sent a
+      message. On a failure, the creature is aware that you signaled but
+      doesn&rsquo;t know the content of your message. If you fail by 5 or more,
+      the creature learns your message.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: skillCheck
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: dhprlgvl8epfum4a
+_key: '!items!dhprlgvl8epfum4a'

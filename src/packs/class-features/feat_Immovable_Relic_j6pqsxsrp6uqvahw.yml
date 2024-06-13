@@ -1,0 +1,29 @@
+name: Immovable Relic
+type: feat
+img: icons/magic/control/debuff-chains-orb-movement-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your artifact is bonded to you and stubbornly refuses to budge for
+      other creatures. Other creatures find that your bonded artifact is fixed
+      magically in place when they attempt to interact with it. Your bonded
+      artifact obeys the laws of gravity but otherwise can hold up to 8,000
+      pounds of weight. A creature can use an action to make a DC 30 Strength
+      check, moving your bonded artifact up to 10 feet on a success.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: j6pqsxsrp6uqvahw
+_key: '!items!j6pqsxsrp6uqvahw'

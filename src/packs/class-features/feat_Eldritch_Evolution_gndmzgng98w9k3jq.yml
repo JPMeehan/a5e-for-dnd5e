@@ -1,6 +1,6 @@
 name: Eldritch Evolution
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
 effects: []
 flags: {}
 system:
@@ -9,19 +9,26 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 6th level, you gain a bonus invocation — one which represents your
-      growth in the lethal lore behind Eldritch Blast. Choose one invocation
-      from the following list: </p><ul><li><p>Agonizing
-      Blast</p></li><li><p>Eldritch Bind</p></li><li><p>Eldritch
-      Elementalism</p></li><li><p>Eldritch Grasp</p></li><li><p>Eldritch
-      Prism</p></li><li><p>Eldritch Riposte</p></li><li><p>Eldritch
-      Severance</p></li><li><p>Eldritch Spear</p></li><li><p>Eldritch Squall,
-      </p></li><li><p>Eldritch Tentacle</p></li><li><p>Repelling
-      Blast</p></li><li><p>Versatile Blast</p></li></ul><p>You gain another
-      bonus invocation in this way at 12th level and again at 18th level. When
-      you gain a level in this class, you can choose one of the bonus
-      invocations you know and replace it with another&nbsp;bonus invocation
-      from this list that you could learn at that level.</p>
+      <p>At 6th level, you gain a bonus invocation &mdash; one which represents
+      your growth in the lethal lore behind Eldritch Blast. Choose one
+      invocation from the following
+      list:</p><ul><li><p>@UUID[Compendium.a5e.a5e-class-features.Item.lvtuj41ptzajgdgs]{Agonizing
+      Blast}</p></li><li><p>@UUID[Compendium.a5e.a5e-class-features.Item.rwq3hvmko9d0uzow]{Eldritch
+      Bind}</p></li><li><p>@UUID[Compendium.a5e.a5e-class-features.Item.2rfb3j6xsjn5hi24]{Eldritch
+      Elementalism}</p></li><li><p>@UUID[Compendium.a5e.a5e-class-features.Item.gxe8tx6gip6p084g]{Eldritch
+      Grasp}</p></li><li><p>@UUID[Compendium.a5e.a5e-class-features.Item.aofamk2y5aaaz8vh]{Eldritch
+      Prism}</p></li><li><p>@UUID[Compendium.a5e.a5e-class-features.Item.xppbvyx8tyja6pje]{Eldritch
+      Riposte}</p></li><li><p>@UUID[Compendium.a5e.a5e-class-features.Item.2z2znzdrh0odfyif]{Eldritch
+      Severance}</p></li><li>@UUID[Compendium.a5e.a5e-class-features.Item.fom8y3nobmkjhius]{Eldritch
+      Spear}</li><li>@UUID[Compendium.a5e.a5e-class-features.Item.06hw3ebdcpq2fzgi]{Eldritch
+      Squall}</li><li>@UUID[Compendium.a5e.a5e-class-features.Item.q3w500g29z8pkwoq]{Eldritch
+      Tentacle}</li><li>@UUID[Compendium.a5e.a5e-class-features.Item.1yyq4vdsrc45u5t3]{Repelling
+      Blast}</li><li>@UUID[Compendium.a5e.a5e-class-features.Item.fqmwv2z4fabmfzsz]{Versatile
+      Blast}</li></ul><p>You gain another bonus invocation in this way at 12th
+      level and again at 18th level. When you gain a level in this class, you
+      can choose one of the bonus invocations you know and replace it with
+      another&nbsp;bonus invocation from this list that you could learn at that
+      level.</p>
     chat: ''
   source:
     book: Adventurer's Guide

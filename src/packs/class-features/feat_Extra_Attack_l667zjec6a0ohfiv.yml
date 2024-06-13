@@ -1,0 +1,29 @@
+name: Extra Attack
+type: feat
+img: icons/skills/melee/swords-parry-block-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 7th level you can attack twice, instead of once, whenever
+      you take the Attack action on your turn.</p>
+
+      <p dir="ltr">Additionally, whenever you use your action to attack with
+      Elemental Blast or cast an elementalist spell, you can make one weapon
+      attack as a bonus action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: l667zjec6a0ohfiv
+_key: '!items!l667zjec6a0ohfiv'

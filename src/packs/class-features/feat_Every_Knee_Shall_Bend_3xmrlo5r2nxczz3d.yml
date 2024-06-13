@@ -1,0 +1,36 @@
+folder: null
+name: Every Knee Shall Bend
+type: feat
+img: icons/magic/control/debuff-energy-snare-purple-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-b8c9c48c-7fff-ff23-f236-75e4cc6851d1"
+      dir="ltr">At 6th level, you are able to more effectively exercise your
+      will using your relic&rsquo;s power. When you cast a wielder spell that
+      affects creatures with a certain number of hit points, for the purposes of
+      determining which creatures are affected by the spell you may consider
+      each creature the spell could effect to have its hit points reduced by a
+      number equal to 10 times the level of the spell, down to a minimum of 1
+      hit point.</p>
+
+      <p dir="ltr">In addition, if you use your Issue Edicts feature to modify a
+      spell that would otherwise target a specific number of creatures, you may
+      instead choose to affect a 10-foot radius circle centered on a point you
+      choose within range.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 3xmrlo5r2nxczz3d
+_key: '!items!3xmrlo5r2nxczz3d'

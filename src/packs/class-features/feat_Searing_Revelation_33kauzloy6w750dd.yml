@@ -1,0 +1,79 @@
+name: Searing Revelation
+type: feat
+img: icons/magic/fire/flame-burning-yellow-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take this archetype at 1st level, you draw too close to the
+      secrets of the light, transforming your mind with agonizing glory. You
+      learn two bonus cantrips of your choice from
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.gwhpqtmwnza3rh4p]{Celestial
+      Burst}, @UUID[Compendium.a5e.a5e-spells.Item.ljixftygfhi0sfsf]{Guidance},
+      @UUID[Compendium.a5e.a5e-spells.Item.bqavvq6ju5ti8hr3]{Light}, and
+      @UUID[Compendium.a5e.a5e-spells.Item.tvtm60k5wxyki9qc]{Sacred
+      Flame}.&nbsp;Additionally, choose one of the following:</p>
+
+      <h2><strong>Celestial Curse</strong></h2>
+
+      <p>You can use a bonus action to place a curse on a creature you can see
+      within 30 feet. The curse lasts for 1 minute, and ends early if the target
+      dies, you die, or you become incapacitated.&nbsp;The curse has the
+      following effects:</p>
+
+      <p>When you deal damage against the cursed creature, it takes an
+      additional 1d4 radiant damage. This bonus increases by 1d4 at 10th level,
+      and again at 15th and 20th level.</p>
+
+      <p>Upon placing the curse, your patron fills you with a spirit of
+      perseverance. You gain temporary hit points equal to spellcasting ability
+      modifier + your warlock level (minimum 1). If you already have temporary
+      hit points when you use this feature, you instead increase your temporary
+      hit points by this amount.</p>
+
+      <p>Once you have used this feature, you can&rsquo;t use it again until you
+      finish a short or long rest.</p>
+
+      <h2><strong>Secret of Life</strong></h2>
+
+      <div class="editor-content tjs-editor-content svelte-1vyshng">
+
+      <p>Your patron&rsquo;s revelation grants you knowledge of a lifegiving
+      secret. You gain a pool of solace dice, which represents your
+      patron&rsquo;s help in accessing the shreds of magical grace which suffuse
+      the multiverse. Your solace dice pool contains a number of d6s equal to 1
+      + your warlock level.</p>
+
+      <p>As a bonus action, you can heal a creature you can see within 60 feet.
+      Spend solace dice up to an amount equal to your spellcasting ability
+      modifier (minimum 1). Roll these dice; the creature regains that many hit
+      points.</p>
+
+      <p>Alternatively, when you hit a creature with a weapon or spell attack,
+      before rolling for damage you learn whether or not that creature has
+      temporary hit points. You can immediately expend solace dice up to an
+      amount equal to your spellcasting ability modifier (minimum 1), roll those
+      dice, and remove from the creature a number of temporary hit points equal
+      to double that total.</p>
+
+      <p>You regain any spent solace dice when you complete a long rest.</p>
+
+      </div>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: 33kauzloy6w750dd
+_key: '!items!33kauzloy6w750dd'

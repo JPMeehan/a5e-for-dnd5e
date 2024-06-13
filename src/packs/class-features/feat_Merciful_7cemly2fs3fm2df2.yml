@@ -1,0 +1,32 @@
+name: Merciful
+type: feat
+img: icons/environment/people/cleric-orange.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <div>
+
+      <div>In exchange for forgoing bloodshed&mdash;torture, attacking
+      unconscious creatures, and dealing lethal wounds to creatures you reduce
+      to 0 hit points&mdash;you are yourself granted mercy. When you have
+      already succeeded on two death saving throws, you have advantage on death
+      saving throws.</div>
+
+      </div>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 7cemly2fs3fm2df2
+_key: '!items!7cemly2fs3fm2df2'

@@ -1,0 +1,31 @@
+name: Always Watching
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may spend a bonus action to create an <em>arcane eye</em> effect
+      with the following modifications:&nbsp;</p><ul><li><p>The eye does not
+      require concentration and lasts indefinitely unless attacked or dismissed
+      by you (requiring no action). If the eye is destroyed or dismissed, you
+      may create another, requiring another bonus
+      action.&nbsp;</p></li><li><p>The eye has normal hearing as well as
+      sight.</p></li></ul><p>You can use this feature at will, but you can only
+      create one of these effects at a time.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: n3vlwevwdsgrsdf8
+_key: '!items!n3vlwevwdsgrsdf8'

@@ -1,0 +1,68 @@
+name: Quick Reaction Force
+type: feat
+img: icons/skills/movement/feet-winged-boots-brown.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have become practiced at responding to threats quickly. You can don
+      or doff armor in half the normal time, and you gain advantage on
+      initiative checks.&nbsp;</p><p>You may also use the Dash action as a bonus
+      action. Once you have done so a number of times equal to your proficiency
+      bonus, you can’t do so again until you have finished a short or long
+      rest.</p><p><br></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_id: 43bgxjd5807s1gty
+_key: '!items!43bgxjd5807s1gty'

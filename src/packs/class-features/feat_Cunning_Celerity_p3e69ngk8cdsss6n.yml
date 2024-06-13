@@ -1,6 +1,6 @@
 name: Cunning Celerity
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
 effects: []
 flags: {}
 system:
@@ -22,6 +22,43 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: p3e69ngk8cdsss6n
 _key: '!items!p3e69ngk8cdsss6n'

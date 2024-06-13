@@ -1,6 +1,6 @@
 name: 'Combat Poise: A Step Ahead'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/strike-blade-scimitar-blue-red.webp
 system:
   type:
     value: class
@@ -15,7 +15,7 @@ system:
       wasted.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -27,7 +27,7 @@ system:
     cost: 1
     condition: >-
       Whenever a creature within your reach that you are aware of attempts to
-      take a reaction,
+      take a reaction
   duration: {}
   cover: null
   crewed: false

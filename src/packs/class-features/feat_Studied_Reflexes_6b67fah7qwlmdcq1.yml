@@ -1,0 +1,71 @@
+folder: null
+name: Studied Reflexes
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level your sense for danger reaches a&nbsp;preternatural level.
+      Whenever you are forced to make&nbsp;a dexterity save against an area
+      effect, you may use&nbsp;your reaction to move half your movement
+      speed&nbsp;without provoking an attack of opportunity. If you&nbsp;end
+      your movement outside of the affected area, you&nbsp;are unaffected. If
+      you do not, you still have advantage&nbsp;on the save. Once you use this
+      ability, you may not do&nbsp;so again until you finish a long rest unless
+      you expend&nbsp;inspiration.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Forced to make a dexterity save against an area effect
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: 6b67fah7qwlmdcq1
+_key: '!items!6b67fah7qwlmdcq1'

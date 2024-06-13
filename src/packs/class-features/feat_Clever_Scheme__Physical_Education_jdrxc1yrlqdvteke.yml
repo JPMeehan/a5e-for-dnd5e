@@ -10,10 +10,10 @@ system:
       <p>Once per hour, when you succeed on an Acrobatics or Athletics check to
       climb, swim, or jump you can offer advice and encouragement to your
       allies. For the next minute, each ally who attempts a check to traverse
-      the same area gains an expertise die .</p>
+      the same area gains an expertise die.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -21,8 +21,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
-    cost: null
+    type: ''
+    cost: 1
     condition: ''
   duration: {}
   cover: null

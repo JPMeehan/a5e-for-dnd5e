@@ -1,0 +1,29 @@
+name: Ominous Insight
+type: feat
+img: icons/commodities/biological/organ-brain-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you know, you&nbsp;know, you know? When you fail an Arcana,
+      History, Nature, or Religion check, you can attempt to draw on your magics
+      to find an answer and reroll the check. On a failure, your attempt clouds
+      your mind and you have disadvantage on Intelligence checks until you
+      finish a short rest. While suffering this disadvantage, you can’t use
+      Ominous Insight again.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+folder: null
+_id: 4a4ryjvfe14305t7
+_key: '!items!4a4ryjvfe14305t7'

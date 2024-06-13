@@ -1,0 +1,118 @@
+name: Celestial Curse
+type: feat
+img: icons/magic/fire/flame-burning-eye.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use a bonus action to place a curse on a creature you can see
+      within 30 feet. The curse lasts for 1 minute, and ends early if the target
+      dies, you die, or you become incapacitated.</p>
+
+      <p>The curse has the following effects:</p>
+
+      <ul>
+
+      <li>
+
+      <p>When you deal damage against the cursed creature, it takes an
+      additional 1d4 radiant damage. This bonus increases by 1d4 at 10th level,
+      and again at 15th and 20th level.</p>
+
+      </li>
+
+      <li>
+
+      <p>Upon placing the curse, your patron fills you with a spirit of
+      perseverance. You gain temporary hit points equal to spellcasting ability
+      modifier + your warlock level (minimum 1). If you already have temporary
+      hit points when you use this feature, you instead increase your temporary
+      hit points by this amount.</p>
+
+      </li>
+
+      </ul>
+
+      <p>Once you have used this feature, you can&rsquo;t use it again until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/fire/flame-burning-eye.webp
+    origin: Item.FGs6Aa7fzQBiuwj7
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: oZgJ7lN9XSpIGV5n
+        duration:
+          unit: minutes
+    transfer: false
+    name: Celestial Curse
+    _id: XjIbXSMRoXRu05Yw
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!ba6f465sx0sxd62j.XjIbXSMRoXRu05Yw'
+flags: {}
+folder: null
+_id: ba6f465sx0sxd62j
+_key: '!items!ba6f465sx0sxd62j'

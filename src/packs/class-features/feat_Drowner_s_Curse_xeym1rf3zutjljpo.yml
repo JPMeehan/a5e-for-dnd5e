@@ -1,0 +1,179 @@
+folder: null
+name: Drowner’s Curse
+type: feat
+img: icons/magic/water/projectile-water-rings.webp
+system:
+  type:
+    subtype: ''
+  description:
+    value: >-
+      <p>You can use a bonus action to place a curse on a creature you can see
+      within 30 feet. The curse lasts for 1 minute, and ends early if the target
+      dies, you die, or you become incapacitated. The curse has the following
+      effects:</p>
+
+      <p>Choose cold or piercing damage. When you deal damage against the cursed
+      creature, it takes an additional 1d4 damage of the chosen type. This bonus
+      increases by 1d4 at 10th level, and again at 15th and 20th level.</p>
+
+      <p>The cursed creature&rsquo;s speed is reduced by half, and they have
+      disadvantage on Strength, Dexterity, and Constitution checks. They halve
+      the duration they can hold their breath and they double the rate at which
+      they sink.</p>
+
+      <p>Once you have used this feature, you can&rsquo;t use it again until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonusAction
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - cold
+      - - 1d4
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/magic/water/projectile-water-rings.webp
+    origin: Item.Tz1t0HFM1XlIXCYZ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: afy665nn08yyIPAW
+        duration:
+          unit: minutes
+    transfer: false
+    name: Drowner’s Curse (Cold)
+    _id: 6EqQBQVIklKGdH2Z
+    changes:
+      - key: flags.a5e.effects.movement.allDistances
+        value: '0.5'
+        mode: 1
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.dex
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.con
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When the caster deals damage to the cursed creature, it takes an
+      additional 1d4 cold damage. This bonus increases by 1d4 at 10th level, and
+      again at 15th and 20th level.</p>
+
+      <p>Speed is reduced by half, and disadvantage on Strength, Dexterity, and
+      Constitution checks. Halve the duration they can hold their breath and
+      they double the rate at which they sink.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!xeym1rf3zutjljpo.6EqQBQVIklKGdH2Z'
+  - icon: icons/magic/water/projectile-water-rings.webp
+    origin: Item.Tz1t0HFM1XlIXCYZ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: afy665nn08yyIPAW
+        duration:
+          unit: minutes
+    transfer: false
+    name: Drowner’s Curse (Piercing)
+    _id: HeCDj8Nb0pbA1Wqp
+    changes:
+      - key: flags.a5e.effects.movement.allDistances
+        value: '0.5'
+        mode: 1
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.dex
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilityCheck.con
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When the caster deals damage to the cursed creature, it takes an
+      additional 1d4 piercing damage. This bonus increases by 1d4 at 10th level,
+      and again at 15th and 20th level.</p>
+
+      <p>Speed is reduced by half, and disadvantage on Strength, Dexterity, and
+      Constitution checks. Halve the duration they can hold their breath and
+      they double the rate at which they sink.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!xeym1rf3zutjljpo.HeCDj8Nb0pbA1Wqp'
+flags: {}
+_id: xeym1rf3zutjljpo
+_key: '!items!xeym1rf3zutjljpo'

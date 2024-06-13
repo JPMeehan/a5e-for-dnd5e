@@ -1,6 +1,6 @@
 name: 'Invocation: Writhing Void'
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/unholy/orb-swirling-pink.webp
 effects: []
 flags: {}
 system:
@@ -9,15 +9,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 7th level</em></p><p>You learn the&nbsp;<em>black
-      tentacles</em>&nbsp;spell, and the spell doesn’t count against your number
-      of spells known.</p>
+      <p>You learn the <em>black tentacles</em>&nbsp;spell, and the spell
+      doesn&rsquo;t count against your number of spells known.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 7th level
   recharge:
     value: null
     charged: true

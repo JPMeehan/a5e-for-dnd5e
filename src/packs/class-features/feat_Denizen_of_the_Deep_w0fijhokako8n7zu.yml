@@ -1,0 +1,30 @@
+folder: null
+name: Denizen of the Deep
+type: feat
+img: icons/magic/water/elemental-water.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You are at one with the water. You are able to walk on water
+      as if it were land, though choppy water counts as difficult terrain. Your
+      swim speed increases to twice your Speed, and moving in running water
+      imposes no penalty upon you. You take no penalties for attacking
+      underwater either.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: >-
+    Elemental Affinity: Water; Amphibiousness, Waterdancer adaptations, 11th
+    level
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: w0fijhokako8n7zu
+_key: '!items!w0fijhokako8n7zu'

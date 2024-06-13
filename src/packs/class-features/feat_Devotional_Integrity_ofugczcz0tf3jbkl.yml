@@ -1,0 +1,101 @@
+name: Devotional Integrity
+type: feat
+img: icons/skills/social/trading-justice-scale-gold.webp
+effects:
+  - icon: icons/skills/social/trading-justice-scale-gold.webp
+    origin: Item.ofugczcz0tf3jbkl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 98MMz5OOsgpoxkkG
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Devotional Integrity
+    _id: XmQmUj2HRqA1Mpk6
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["rattled"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When an action you take is honest and non-violent, until the end of
+      your turn you are immune to the rattled condition and you do not suffer
+      disadvantage or penalties on Intelligence, Wisdom, or Charisma checks made
+      as part of that action.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!ofugczcz0tf3jbkl.XmQmUj2HRqA1Mpk6'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You adhere to a strict code of morality and ethics. When an action you
+      take is honest and non-violent, until the end of your turn you are immune
+      to the rattled condition and you do not suffer disadvantage or penalties
+      on Intelligence, Wisdom, or Charisma checks made as part of that
+      action.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_id: ofugczcz0tf3jbkl
+_key: '!items!ofugczcz0tf3jbkl'

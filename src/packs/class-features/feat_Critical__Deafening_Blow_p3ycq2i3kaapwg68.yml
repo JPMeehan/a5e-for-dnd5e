@@ -1,7 +1,36 @@
 name: 'Critical: Deafening Blow'
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+effects:
+  - icon: icons/magic/sonic/explosion-shock-wave-teal.webp
+    origin: Item.pR57dzVKYyFjJbBS
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: g9OHQC9XMdPFF1lQ
+    transfer: false
+    name: Deafened
+    _id: iS3fgSubwzdIKpnW
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - deafened
+    folder: null
+    _key: '!items.effects!p3ycq2i3kaapwg68.iS3fgSubwzdIKpnW'
 flags: {}
 system:
   type:
@@ -51,7 +80,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:

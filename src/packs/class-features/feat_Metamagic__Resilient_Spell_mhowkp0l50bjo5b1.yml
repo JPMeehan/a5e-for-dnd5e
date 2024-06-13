@@ -1,0 +1,26 @@
+name: 'Metamagic: Resilient Spell'
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell that requires concentration, you may spend 2
+      sorcery points to grant yourself advantage on the first concentration
+      check to maintain concentration on it.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: mhowkp0l50bjo5b1
+_key: '!items!mhowkp0l50bjo5b1'

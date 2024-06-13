@@ -1,21 +1,28 @@
+folder: null
 name: Channel Divinity
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
-flags: {}
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
   type:
     value: class
     subtype: ''
   description:
     value: >-
-      <p>Your oath allows you to channel the divine for more magical effects
-      than just casting spells. Each Channel Divinity option granted by your
-      oath explains how to use it. Whenever you use your Channel Divinity, you
-      choose which option to use. Once you have used this feature you can't do
-      so again until you finish a short or long rest.</p><p>Some Channel
-      Divinity options require saving throws. When using such an effect, the DC
-      for the saving throw equals your herald spell save DC.</p>
+      <p>At 2nd level, you are able to channel the energy of your greater entity
+      directly, and use it for a variety of magical effects. You start with two
+      of these effects:
+      @UUID[Compendium.a5e.a5e-class-features.Item.zhuf06durl8bnmh3]{Turn
+      Undead} and an additional effect dependent on your chosen Cleric
+      Archetype. Some archetypes provide additional uses of Channel Divinity as
+      your cleric level increases, detailed under the heading of your chosen
+      archetypes.</p><p>You may choose which Channel Divinity effect to create
+      each time you use this feature. You must then finish a short or long rest
+      before you&rsquo;re able to Channel Divinity again.</p><p>Some Channel
+      Divinity effects require saving throws. The DC for this is the same as
+      your cleric spell save DC.</p><p>From 6th level you can use your Channel
+      Divinity twice between rests, and beginning at 18th level you can use it
+      three times between rests. Finishing a short or long rest regains your
+      expended uses.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -25,6 +32,7 @@ system:
   recharge:
     value: null
     charged: true
-folder: null
+effects: []
+flags: {}
 _id: s4iiatrup3e3virw
 _key: '!items!s4iiatrup3e3virw'

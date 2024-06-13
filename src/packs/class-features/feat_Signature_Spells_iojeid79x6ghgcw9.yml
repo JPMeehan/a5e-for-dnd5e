@@ -1,6 +1,6 @@
 name: Signature Spells
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/unholy/hands-cloud-light-pink.webp
 effects: []
 flags: {}
 system:
@@ -10,17 +10,17 @@ system:
   description:
     value: >-
       <p>At 5th level, you have developed your spellcasting skill and honed it
-      into spells that you consider to be your Signature Spells. </p><p>Choose
+      into spells that you consider to be your Signature Spells.</p><p>Choose
       one 1st-level wizard spell that is in your spellbook. You always have this
-      spell prepared, it doesn’t count toward your maximum prepared spells, and
-      you can cast this spell at its lowest level without expending a spell
-      slot. </p><p>Once you have cast a Signature Spell in this way, you must
-      finish a short or long rest before you can do so again. </p><p>At higher
-      levels, you gain additional Signature Spells, each of which you can cast
-      once between rests. At 11th level, you can choose one 2nd-level Signature
-      Spell. At 17th level, you can choose one 3rd-level Signature Spell. Each
-      time you gain a level in this class, you can replace one of your Signature
-      Spells with another of the same level.</p>
+      spell prepared, it doesn&rsquo;t count toward your maximum prepared
+      spells, and you can cast this spell at its lowest level without expending
+      a spell slot.&nbsp;Once you have cast a Signature Spell in this way, you
+      must finish a short or long rest before you can do so again.</p><p>At
+      higher levels, you gain additional Signature Spells, each of which you can
+      cast once between rests. At 11th level, you can choose one 2nd-level
+      Signature Spell. At 17th level, you can choose one 3rd-level Signature
+      Spell. Each time you gain a level in this class, you can replace one of
+      your Signature Spells with another of the same level.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -30,6 +30,43 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: iojeid79x6ghgcw9
 _key: '!items!iojeid79x6ghgcw9'

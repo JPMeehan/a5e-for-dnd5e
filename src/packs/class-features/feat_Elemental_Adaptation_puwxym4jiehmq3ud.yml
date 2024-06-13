@@ -1,0 +1,39 @@
+name: Elemental Adaptation
+type: feat
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 3rd level, become adapted to living within your element.
+      You gain a bonus adaptation chosen from below, matching your 1st level
+      Elemental Affinity choice. This choice is hereafter referred to as
+      &ldquo;your element.&rdquo;</p>
+
+      <ul>
+
+      <li dir="ltr"><strong>Earth</strong>: Earthwalk</li>
+
+      <li dir="ltr"><strong>Air</strong>: Aerial Acclimation</li>
+
+      <li dir="ltr"><strong>Fire</strong>: Heat Acclimation</li>
+
+      <li><strong> Water</strong>: Amphibiousness</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: puwxym4jiehmq3ud
+_key: '!items!puwxym4jiehmq3ud'

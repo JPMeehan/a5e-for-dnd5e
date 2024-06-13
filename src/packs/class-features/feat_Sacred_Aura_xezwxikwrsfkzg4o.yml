@@ -1,7 +1,92 @@
 name: Sacred Aura
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/light/explosion-glow-spiral-yellow.webp
+effects:
+  - icon: icons/magic/light/explosion-glow-spiral-yellow.webp
+    origin: Item.PlvSiUCF6rKfAkeV
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: s9LfjFsJQ2pAuPjA
+        applyToSelf: false
+    transfer: false
+    name: Aura of Courage
+    _id: pSapLrJumPi6xXb4
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["frightened"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>You and allies within range cannot be frightened.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!xezwxikwrsfkzg4o.pSapLrJumPi6xXb4'
+  - icon: icons/magic/light/explosion-glow-spiral-yellow.webp
+    origin: Item.PlvSiUCF6rKfAkeV
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: s9LfjFsJQ2pAuPjA
+        applyToSelf: false
+    transfer: false
+    name: Aura of Resistance
+    _id: uX7rl7dTkPhPQIkk
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You and allies within range of your aura gain a bonus on saving throws
+      equal to your Charisma modifier (+1).</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!xezwxikwrsfkzg4o.uX7rl7dTkPhPQIkk'
+  - icon: icons/magic/light/explosion-glow-spiral-yellow.webp
+    origin: Item.PlvSiUCF6rKfAkeV
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: s9LfjFsJQ2pAuPjA
+        applyToSelf: false
+    transfer: false
+    name: Aura of Willpower
+    _id: 2GqbhdJ58dSJUqhH
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["charmed"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>You and allies within range cannot be charmed.</p>
+    statuses: []
+    folder: null
+    _key: '!items.effects!xezwxikwrsfkzg4o.2GqbhdJ58dSJUqhH'
 flags: {}
 system:
   type:
@@ -14,13 +99,20 @@ system:
       must be conscious for you and your allies to benefit from it. You can have
       only one of the following auras active at a time, and can change which
       aura is active whenever you finish a long rest. At 18th level, the range
-      of all auras increases to 30 feet.</p><p><strong><em>Aura of
-      Courage</em></strong><em> You and allies within range cannot be
-      frightened.</em></p><p><strong>Aura of Resistance</strong><em> You and
-      allies within range of your aura gain a bonus on saving throws equal to
-      your Charisma modifier (+1).</em></p><p><strong>Aura of
-      Willpower</strong><em> You and allies within range cannot be
-      charmed.</em></p>
+      of all auras increases to 30 feet.</p>
+
+      <h2>Aura of Courage</h2>
+
+      <p>You and allies within range cannot be frightened.</p>
+
+      <h2>Aura of Resistance</h2>
+
+      <p>You and allies within range of your aura gain a bonus on saving throws
+      equal to your Charisma modifier (+1).</p>
+
+      <h2>Aura of Willpower</h2>
+
+      <p>You and allies within range cannot be charmed.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -30,6 +122,43 @@ system:
   recharge:
     value: null
     charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: xezwxikwrsfkzg4o
 _key: '!items!xezwxikwrsfkzg4o'

@@ -1,0 +1,33 @@
+name: Go To Ground
+type: feat
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can flee to a new location without leaving a trail. To do so, you
+      must spend 24 hours preparing (cleaning out your residence, covering up
+      your paper trail, planting false clues, and so on) and then promptly
+      depart the location. Your trail goes completely cold, confounding even
+      those concretely aware of your previous location with the multiple
+      conflicting sets of evidence you left behind. Fleeing in this way grants
+      you an expertise die and advantage on Deception checks to conceal your
+      destination, point of departure, and personal identity for three days
+      after your departure. Once you have used this feature, you must wait a
+      week before you can use it again.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: jn16ymeb4qc5lf1b
+_key: '!items!jn16ymeb4qc5lf1b'

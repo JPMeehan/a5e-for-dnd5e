@@ -1,0 +1,29 @@
+name: Back-Alley Lethality
+type: feat
+img: icons/skills/melee/strike-axe-red.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency in one of the following combat traditions of your
+      choice:</p><ul><li><p>Adamant Mountain</p></li><li><p>Mist and
+      Shade</p></li><li><p>Mirror’s Glint</p></li></ul><p>When you gain this
+      feature you can choose one of the maneuvers you know and replace it with
+      another maneuver of the same degree or lower from your newly chosen combat
+      tradition.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+_id: jg32nqvcv0flba67
+_key: '!items!jg32nqvcv0flba67'

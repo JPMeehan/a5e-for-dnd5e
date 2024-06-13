@@ -1,0 +1,28 @@
+folder: null
+name: Duality
+type: feat
+img: icons/magic/holy/yin-yang-balance-symbol.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you cast a spell that requires concentration while already
+      concentrating on another spell, you can maintain concentration on both
+      spells simultaneously. If you&rsquo;re forced to make a Constitution
+      saving throw to maintain concentration, the minimum DC is 10 + the
+      combined levels of the two spells. On a failure, both spells end.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: bw42mxqobispsqz9
+_key: '!items!bw42mxqobispsqz9'

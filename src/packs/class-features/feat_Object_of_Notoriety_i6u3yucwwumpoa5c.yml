@@ -1,0 +1,30 @@
+name: Object of Notoriety
+type: feat
+img: icons/commodities/treasure/crown-gold-laurel-wreath.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 4th level the presence of your bonded artifact has not gone
+      unnoticed and your relic gives you a certain amount of gravitas. When you
+      gain this feature, your prestige rating increases by 1. In addition,
+      whenever you fail a prestige check you may immediately roll [[/r 1d4]] and
+      add it to the result, potentially turning a failure into a success. If you
+      succeed on a prestige check in this way, the character has heard of your
+      bonded artifact, but not you.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+folder: null
+_id: i6u3yucwwumpoa5c
+_key: '!items!i6u3yucwwumpoa5c'

@@ -1,0 +1,70 @@
+folder: null
+name: Aura Augmentation
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><em><span
+      id="docs-internal-guid-7d130b09-7fff-da5b-630d-6a51beed3938"><strong>Type:</strong>
+      Shape; <strong>Level:</strong> 13</span></em></p>
+
+      <p><span id="docs-internal-guid-1bebde15-7fff-4cad-331a-f5535cb56ddc">By
+      spending 6 spell points, your blast manifests as an aura in a 5-ft radius
+      around you. Any creature that enters the area or starts their turn in the
+      area must make a Constitution saving throw, taking half your blast damage
+      on a failed save. The aura&rsquo;s duration is concentration (up to 1
+      minute).</span></p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: atofjtysvtljs9z5
+_key: '!items!atofjtysvtljs9z5'

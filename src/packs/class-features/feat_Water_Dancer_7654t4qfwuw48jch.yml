@@ -1,0 +1,26 @@
+folder: null
+name: Water Dancer
+type: feat
+img: icons/magic/water/water-jet-wave-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">By sliding on a layer of water, you can grant yourself a
+      +10-ft bonus to your speed on land. If you are in water, you instead use
+      the currents to gain a Swim speed equal to your speed.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: 'Elemental Affinity: Water; 5th level'
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 7654t4qfwuw48jch
+_key: '!items!7654t4qfwuw48jch'
