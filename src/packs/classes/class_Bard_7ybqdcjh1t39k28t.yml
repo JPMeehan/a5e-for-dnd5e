@@ -1,0 +1,431 @@
+name: Bard
+type: class
+img: icons/tools/instruments/lute-gold-brown.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Bard</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      9.68992%;"><col style="width: 12.9845%;"><col style="width:
+      50.7643%;"><col style="width: 13.7706%;"><col style="width:
+      12.7907%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">Level</td>
+
+      <td style="height: 33.5938px;">Prof.<br>Bonus</td>
+
+      <td style="height: 33.5938px;">Features</td>
+
+      <td style="height: 33.5938px;">Battle<br>Hymns</td>
+
+      <td style="height: 33.5938px;">Tricks<br>Known</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.ttee3cjugnnohcyn]{Art
+      Specialty},
+      @UUID[Compendium.a5e.a5e-class-features.Item.m7siz0z3rlng8h20]{Bardic
+      Inspiration},
+      @UUID[Compendium.a5e.a5e-class-features.Item.3qc1rqk8rwvl8van]{Battle
+      Hymn},
+      @UUID[Compendium.a5e.a5e-class-features.Item.hnco2mcq8qjhysqu]{Spellcasting
+      (Bard)}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.fzmi41u2jx3mxtji]{Adventuring
+      Tricks},
+      @UUID[Compendium.a5e.a5e-class-features.Item.rccaky1q9jd9v7xn]{Jack-of-All-Trades},
+      @UUID[Compendium.a5e.a5e-class-features.Item.mkmyxui8l9llh4ql]{Varied
+      Expertise}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Bard Archetype Feature</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Ability Score Improvement,
+      @UUID[Compendium.a5e.a5e-class-features.Item.6vy9t8q4cq53nw8v]{Bardic
+      Legend (1st)},
+      @UUID[Compendium.a5e.a5e-class-features.Item.n1y7l6usa4j8sjnn]{Battle Hymn
+      Focus}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.m7siz0z3rlng8h20]{Bardic
+      Inspiration (d8)}, Key Change, Renewed Inspiration</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Bard Archetype Feature,
+      @UUID[Compendium.a5e.a5e-class-features.Item.dybu9qjwezqh3r5l]{Prestigious},
+      @UUID[Compendium.a5e.a5e-class-features.Item.mkmyxui8l9llh4ql]{Varied
+      Expertise}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.6vy9t8q4cq53nw8v]{Bardic
+      Legend (2nd)},
+      @UUID[Compendium.a5e.a5e-class-features.Item.1zensmbiduq06vqm]{Maestro}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Ability Score Improvement,
+      @UUID[Compendium.a5e.a5e-class-features.Item.qp4y5b36beo1vr46]{Battle Hymn
+      Specialization}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.m7siz0z3rlng8h20]{Bardic
+      Inspiration (d10)},
+      @UUID[Compendium.a5e.a5e-class-features.Item.mkmyxui8l9llh4ql]{Varied
+      Expertise}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.hd5w4jpsyvtkunwg]{Art
+      Mastery},
+      @UUID[Compendium.a5e.a5e-class-features.Item.6vy9t8q4cq53nw8v]{Bardic
+      Legend (3rd)}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Ability Score Improvement,
+      @UUID[Compendium.a5e.a5e-class-features.Item.qp4y5b36beo1vr46]{Battle Hymn
+      Specialization}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.7m2n3wg6wrvitzxd]{Universal
+      Trick}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Bard Archetype Feature,
+      @UUID[Compendium.a5e.a5e-class-features.Item.mkmyxui8l9llh4ql]{Varied
+      Expertise}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.m7siz0z3rlng8h20]{Bardic
+      Inspiration (d12)}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">
+
+      <p>4</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Ability Score Improvement,
+      @UUID[Compendium.a5e.a5e-class-features.Item.7m2n3wg6wrvitzxd]{Universal
+      Trick}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.hd5w4jpsyvtkunwg]{Art
+      Mastery},
+      @UUID[Compendium.a5e.a5e-class-features.Item.rn3whyw0usa6t2cm]{Grand
+      Battle Hymns}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.mkmyxui8l9llh4ql]{Varied
+      Expertise}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Ability Score Improvement,
+      @UUID[Compendium.a5e.a5e-class-features.Item.7m2n3wg6wrvitzxd]{Universal
+      Trick}</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.cle0kfe4bl9jj1v1]{Virtuoso}</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice:</strong> 1d8 per bard level</p>
+
+      <p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your
+      Constitution modifier per bard level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor:</strong> Light armor Weapons: Simple weapons, hand
+      crossbows, longswords, rapiers, shortswords</p>
+
+      <p><strong>Tools:</strong> Two musical instruments of your choice, or one
+      musical instrument and any other tool</p>
+
+      <p><strong>Saving Throws:</strong> Dexterity, Charisma Skills: Choose any
+      three</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 135 gp. You can select your own gear or choose
+      one of the following equipment packages. Also consult the Suggested
+      Equipment section of your chosen background.</p>
+
+      <ul>
+
+      <li><strong>Agitator's Set (Cost 111 gp):</strong> Dagger, hand crossbow
+      and quiver with 20 bolts, padded cloth, entertainer's pack, flute</li>
+
+      <li><strong>Ambassador's Set (Cost 91 gp):</strong> Longsword, shortbow
+      with 20 arrows, padded leather, diplomat's pack, violin</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: cha
+    progression: fullCaster
+  wealth: '135'
+effects: []
+folder: null
+flags: {}
+_id: 7ybqdcjh1t39k28t
+_key: '!items!7ybqdcjh1t39k28t'

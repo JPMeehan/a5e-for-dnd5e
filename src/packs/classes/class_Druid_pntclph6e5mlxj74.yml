@@ -1,0 +1,416 @@
+name: Druid
+type: class
+img: icons/magic/nature/root-vines-face-glow-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Druid</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      12.3936%;"><col style="width: 10.2176%;"><col style="width:
+      49.8581%;"><col style="width: 16.6528%;"><col style="width:
+      10.878%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="text-align: center; height: 33.5938px;">Level</td>
+
+      <td style="text-align: center; height:
+      33.5938px;">Proficiency<br>Bonus</td>
+
+      <td style="text-align: center; height: 33.5938px;">Features</td>
+
+      <td style="text-align: center; height: 33.5938px;">Wild
+      Shapes<br>Known</td>
+
+      <td style="text-align: center; height: 33.5938px;">Secrets<br>Known</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.0ummig34seznbvnq]{Druidic
+      Training}
+      @UUID[Compendium.a5e.a5e-class-features.Item.tv37v168w5e89vdv]{Secrets of
+      Nature}
+      @UUID[Compendium.a5e.a5e-class-features.Item.92q69mibuicvsutc]{Spellcasting}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Druid Archetype
+      @UUID[Compendium.a5e.a5e-class-features.Item.n3fwfhqf1bkyjqux]{Nature's
+      Bond} @UUID[Compendium.a5e.a5e-class-features.Item.3jdfihvtbyhbv9ez]{Wild
+      Shape}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.sygit0xifd4lbg3g]{Natural
+      Demeanor}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.3jdfihvtbyhbv9ez]{Wild Shape
+      Improvement}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Druid Archetype Feature</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.l3qkjox9faldupcy]{Druidic
+      Lore}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.3jdfihvtbyhbv9ez]{Wild Shape
+      Improvement}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.zvtlcriqwdlzar7u]{Ferocity
+      or Serentiy}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Druid Archetype Feature</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.86p2i6t3jepq1c3q]{Improved
+      Natural Bond}</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.3jdfihvtbyhbv9ez]{Wild Shape
+      Improvement}</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Druid Archetype Feature</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.8b9mc93q0f5wxsnk]{Harmonize
+      or Tyrannize}</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.3jdfihvtbyhbv9ez]{Wild Shape
+      Improvement}</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.y5r5pal11p8i9laz]{Greater
+      Natural Bond}</td>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Archdruid
+      @UUID[Compendium.a5e.a5e-class-features.Item.3jdfihvtbyhbv9ez]{Wild Shape
+      Improvement}</td>
+
+      <td style="text-align: center;">12</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice: </strong>1d8 per druid level</p>
+
+      <p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d8 (or 5) + your
+      Constitution modifier per druid level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor:</strong> Light armor, medium armor, shields (you are
+      never proficient with metal armors or shields)</p>
+
+      <p><strong>Weapons:</strong> Blowguns, clubs, daggers, darts, javelins,
+      maces, quarterstaffs, scimitars, scythes, sickles, slings, spears</p>
+
+      <p><strong>Tools:</strong> Herbalism kit</p>
+
+      <p><strong>Saving Throws:</strong> Strength, Wisdom</p>
+
+      <p><strong>Skills:</strong> Choose two from Arcana, Animal Handling,
+      Insight, Medicine, Perception, Religion, and Survival</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 115 gold which you can spend on your
+      character's starting weapons, armor, and adventuring gear. You can select
+      your own gear or choose one of the following equipment packages. Also
+      consult the Suggested Equipment section of your chosen background</p>
+
+      <ul>
+
+      <li><strong>Hermit's Set (Cost 107 gold): </strong>Quarterstaff, hide,
+      light shield, herbalism kit, priest's pack, focus tattoo (nature focus),
+      tent (one person), healer's satchel</li>
+
+      <li><strong>Forager's Set (Cost 98 gold): </strong>Blowgun with 50
+      needles, sickle, padded leather, explorer's pack, healer's satchel,
+      herbalism kit, ironwood acorn, poisoner's kit, staff (nature focus)</li>
+
+      <li><strong>Survivor's Set (Cost 114 gold): </strong>4 javelins, spear,
+      bone breastplate, medium shield, explorer's pack, hunting trap, totem
+      (nature focus)</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: wis
+    progression: fullCaster
+  wealth: 115 gp
+effects: []
+folder: null
+flags: {}
+_id: pntclph6e5mlxj74
+_key: '!items!pntclph6e5mlxj74'

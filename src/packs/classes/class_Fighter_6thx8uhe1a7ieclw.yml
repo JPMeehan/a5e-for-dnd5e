@@ -1,0 +1,476 @@
+name: Fighter
+type: class
+img: icons/skills/melee/swords-parry-block-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Fighter</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      10.4651%;"><col style="width: 10.7148%;"><col style="width: 41.417%;"><col
+      style="width: 12.5969%;"><col style="width: 12.7907%;"><col style="width:
+      12.0155%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="text-align: center;">Level</td>
+
+      <td style="text-align: center;">Prof.<br>Bonus</td>
+
+      <td style="text-align: center;">Features</td>
+
+      <td style="text-align: center;">Knacks<br>Known</td>
+
+      <td style="text-align: center;">Maneuvers<br>Known</td>
+
+      <td style="text-align: center;">Maneuver<br>Degree</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.oecyiw1hehndszw7]{Fighting
+      Style}
+      @UUID[Compendium.a5e.a5e-class-features.Item.7u56921oqddvb7wh]{Combat
+      Maneuvers }
+      @UUID[Compendium.a5e.a5e-class-features.Item.aoob3efbsim0yj6c]{Soldiering
+      Knacks}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.25vr449svc15tmv6]{Steely
+      Mien}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.en70nzkwimtjzkf3]{Maneuver
+      Specialization} Martial Archetype</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.ocxdmv7zscmck9ak]{Reserves
+      (1)}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.g4s2uymxnkn0y0yf]{Extra
+      Attack}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.akcpgwxdtkzp0290]{Martial
+      Lore}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.en70nzkwimtjzkf3]{Maneuver
+      Specialization} Martial Archetype Feature</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.ocxdmv7zscmck9ak]{Reserves
+      (2)}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.7vvqy990w8pxatdy]{Indomitable
+      (one use)}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Martial Archetype Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.75v5b46ey8mlgovp]{Reputation}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.g4s2uymxnkn0y0yf]{Extra
+      Attack(2)}
+      @UUID[Compendium.a5e.a5e-class-features.Item.en70nzkwimtjzkf3]{Maneuver
+      Specialization}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.ocxdmv7zscmck9ak]{Reserves
+      (3)}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.7vvqy990w8pxatdy]{Indomitable
+      (two use)}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">12</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.xsgws8d96b82gmcb]{War's
+      Toll}</p>
+
+      </td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">13</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.en70nzkwimtjzkf3]{Maneuver
+      Specialization} Martial Archetype Feature</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">13</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Ability Score Improvement,
+      @UUID[Compendium.a5e.a5e-class-features.Item.ocxdmv7zscmck9ak]{Reserves
+      (4)}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">14</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.7vvqy990w8pxatdy]{Indomitable
+      (three use)}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">15</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Martial Archetype Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.vh4d1qw05cc4627a]{Martial
+      Legacy}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">16</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">16</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.fmi26567l1kcvdes]{Warmaster}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">17</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p class="Indent1"><strong>Hit Dice:</strong> 1d10 per fighter level</p>
+
+      <p class="Indent1"><strong>Hit Points at 1st Level:</strong> 10 + your
+      Constitution modifier</p>
+
+      <p class="Indent1"><strong>Hit Points at Higher Levels:</strong> 1d10 (or
+      6) + your Constitution modifier per fighter level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p class="Indent1"><strong>Armor:</strong> Light armor, medium armor,
+      heavy armor, shields</p>
+
+      <p class="Indent1"><strong>Weapons:</strong> Simple weapons, martial
+      weapons</p>
+
+      <p class="Indent1"><strong>Tools:</strong> None</p>
+
+      <p class="Indent1"><strong>Saving Throws:</strong> Strength,
+      Constitution</p>
+
+      <p class="Indent1"><strong>Skills:</strong> Choose two from Acrobatics,
+      Animal Handling, Athletics, History, Insight, Intimidation, Perception,
+      and Survival</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 140 gold which you can spend on your
+      character's starting weapons, armor, and adventuring gear. You can select
+      your own gear or choose one of the following equipment packages. Also
+      consult the Suggested Equipment section of your chosen background.</p>
+
+      <ul>
+
+      <li><strong>Brigand's Set: (Cost 114 gold):</strong> 2 dueling daggers,
+      garrotte, rapier, 5 throwing daggers, leather brigandine, burglar's pack,
+      vial of basic poison</li>
+
+      <li><strong>Guard's Set (Cost 107 gold):</strong> Longbow and 20 arrows,
+      pike, shortsword, medium shield, padded leather, backpack, bell, lantern
+      (standard), manacles, signal whistle</li>
+
+      <li><strong>Scout's Set (Cost 117 gold):</strong> Greatsword, 4 javelins,
+      hide, medium shield, climbing gear, explorer's pack</li>
+
+      <li><strong>Squire's Set (Cost 128 gold):</strong> shortbow and 20 arrows,
+      shortsword, leather brigandine, pony with padded cloth barding, sewing
+      kit, smith&rsquo;s tools</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d10
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: none
+    progression: none
+  wealth: 140 gp
+effects: []
+folder: null
+flags: {}
+_id: 6thx8uhe1a7ieclw
+_key: '!items!6thx8uhe1a7ieclw'

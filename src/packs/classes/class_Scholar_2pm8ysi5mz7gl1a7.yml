@@ -1,0 +1,73 @@
+name: Scholar
+type: class
+img: icons/sundries/scrolls/scroll-writing-brown-gold.webp
+system:
+  description:
+    value: >-
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice:</strong> 1d8 per scholar level</p>
+
+      <p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d8 (or 5) + your
+      Constitution&nbsp;modifier per scholar level after first</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor:</strong> Light armor</p>
+
+      <p><strong>Weapons:</strong> Simple weapons</p>
+
+      <p><strong>Tools:</strong> Choose one from an artisan's tool, a
+      musical&nbsp;instrument, or a miscellaneous tool.</p>
+
+      <p><strong>Saving Throws:</strong> Intelligence, Wisdom</p>
+
+      <p><strong>Skills:</strong> Choose four from Animal Handling, Arcana,
+      Culture,&nbsp;Engineering, History, Insight, Investigation,
+      Medicine,&nbsp;Nature, and Perception</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 100gp which you can spend on
+      your&nbsp;character&rsquo;s starting weapons, armor, and adventuring
+      gear.&nbsp;You can select your own gear or choose one of the
+      following&nbsp;equipment packages. Also consult the Suggested
+      Equipment&nbsp;section of your chosen background.</p>
+
+      <ul>
+
+      <li><strong>Academic's Set (Cost 63gp):</strong> Quarterstaff, padded
+      cloth armor, abacus, clothes (fine), scholar's pack</li>
+
+      <li><strong>Scholar's Set (Cost 58gp):</strong> Dagger, padded cloth
+      armor, clothes (travelers), ink (1-ounce bottle), diary, a crowbar, a
+      hammer, 10 pitons, and an explorer's pack</li>
+
+      <li><strong>Physician's Set (Cost 91gp):</strong> Dagger, padded cloth
+      armor, backpack, clothes (common), healer's satchel (10 uses), 10
+      bandages, and medicinal salve (3 uses)</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: none
+    progression: none
+  wealth: 100 gp
+effects: []
+folder: null
+flags: {}
+_id: 2pm8ysi5mz7gl1a7
+_key: '!items!2pm8ysi5mz7gl1a7'

@@ -1,0 +1,396 @@
+folder: null
+name: Sorcerer
+type: class
+img: icons/magic/fire/flame-burning-fist-strike.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Sorcerer</strong></p>
+
+      <table style="border-width: 1px; width: 100%;" border="1"><colgroup><col
+      style="width: 9.10853%;"><col style="width: 14.1473%;"><col style="width:
+      10.6589%;"><col style="width: 50.1964%;"><col style="width:
+      15.8888%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="text-align: center;">Level</td>
+
+      <td style="text-align: center;">Proficiency<br>Bonus</td>
+
+      <td style="text-align: center;">Sorcery<br>Points</td>
+
+      <td style="text-align: center;">Features</td>
+
+      <td style="text-align: center;">Innovations<br>Known</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">Sorcerer Archetype
+      @UUID[Compendium.a5e.a5e-class-features.Item.whx7ar38i1nr1js4]{Spellcasting
+      (Sorcerer)}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.8lf349fflv8456yj]{Font
+      of Magic}
+      @UUID[Compendium.a5e.a5e-class-features.Item.h2tobazibq72ybdo]{Manifestation}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.a39b0sdy2grpw5sn]{Latent
+      Power}
+      @UUID[Compendium.a5e.a5e-class-features.Item.q162ah61o4pgc1dd]{Metamagic}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.7jxnq4in81dmi93t]{Arcane
+      Innovations}</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">Additional Metamagics</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.huephhrybue9iiws]{Arcane
+      Refinement} Sorcerer Archetype Feature</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.q3gqqfr37rumjbf6]{Rapturous
+      Presence}</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">Additional Metamagics</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">12</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.3cccwpqerr3v215w]{Evolving
+      Manifestation}</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">13</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">14</td>
+
+      <td style="text-align: center;">Sorcerer Archetype Feature</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">15</td>
+
+      <td style="text-align: center;">Additional Metamagics
+      @UUID[Compendium.a5e.a5e-class-features.Item.s1ii8g1x1bdgoc0v]{Major
+      Metamagic}</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">16</td>
+
+      <td style="text-align: center;">Ability Score Improvement&nbsp;</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">17</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">18</td>
+
+      <td style="text-align: center;">Sorcerer Archetype Feature</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">19</td>
+
+      <td style="text-align: center;">Ability Score Improvement, Additional
+      Metamagics</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">20</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.tj2fyu1ttwk6sfxc]{Arcane
+      Clutch}
+      @UUID[Compendium.a5e.a5e-class-features.Item.pvgi4rdr5rptetgp]{Explosive
+      Magics}</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice:</strong> 1d6 per sorcerer level</p>
+
+      <p><strong>Hit Points at 1st Level: </strong>6 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d6 (or 4) + your
+      Constitution modifier per sorcerer level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor:</strong> None</p>
+
+      <p><strong>Weapons: </strong>Daggers, darts, light crossbows,
+      quarterstaffs, slings&nbsp;</p>
+
+      <p><strong>Tools: </strong>None</p>
+
+      <p><strong>Saving Throws: </strong>Constitution, Charisma</p>
+
+      <p><strong>Skills: </strong>Choose two from Arcana, Deception, Insight,
+      Intimidation, Performance, Persuasion, and Religion</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 100 gp. You can select your own gear or choose
+      one of the following equipment packages. Also consult the Suggested
+      Equipment section of your chosen background.</p>
+
+      <p><strong>Light Traveler&rsquo;s Set (Cost 37 gp):</strong> Quarterstaff,
+      sling and 20 sling bullets, component pouch, explorer&rsquo;s pack</p>
+
+      <p><strong>Troublemaker&rsquo;s Set (Cost 71 gp): </strong>2 daggers,
+      light crossbow and quiver with 20 bolts, explorer&rsquo;s pack, wand
+      arcane focus</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d6
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: cha
+    progression: fullCaster
+  wealth: '100'
+effects: []
+flags: {}
+_id: tygcb1c1g66ak81n
+_key: '!items!tygcb1c1g66ak81n'

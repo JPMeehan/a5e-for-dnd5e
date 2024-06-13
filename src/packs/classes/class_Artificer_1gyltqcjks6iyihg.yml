@@ -1,0 +1,547 @@
+name: Artificer
+type: class
+img: icons/consumables/potions/flask-corked-blue-glow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Artificer</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      8.16993%;"><col style="width: 9.15033%;"><col style="width:
+      20.9014%;"><col style="width: 13.2489%;"><col style="width:
+      11.4379%;"><col style="width: 12.4183%;"><col style="width:
+      11.2745%;"><col style="width: 13.3987%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="text-align: center; height: 33.5938px;">Level</td>
+
+      <td style="text-align: center; height: 33.5938px;">Prof.<br>Bonus</td>
+
+      <td style="text-align: center; height: 33.5938px;">Features</td>
+
+      <td style="text-align: center; height:
+      33.5938px;">Field<br>Discoveries</td>
+
+      <td style="text-align: center; height: 33.5938px;">Infusion<br>Limit</td>
+
+      <td style="text-align: center; height: 33.5938px;">Cantrips<br>Known</td>
+
+      <td style="text-align: center; height: 33.5938px;">Spells<br>Prepared</td>
+
+      <td style="text-align: center; height: 33.5938px;">Maximum<br>Spell
+      Level</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.303s4yjiebebbvtu]{Artificial
+      Spellcasting}
+      @UUID[Compendium.a5e.a5e-class-features.Item.3egg0nejohe4mql3]{Craftsman}
+      @UUID[Compendium.a5e.a5e-class-features.Item.f2syblzgm6at7i7q]{Tactical
+      Chemistry}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.a0crlxtekzpnf6sy]{Field
+      Discoveries}
+      @UUID[Compendium.a5e.a5e-class-features.Item.qgjbangzwrpldex1]{Schematics}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Artificer Archetype</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.8b655ktn2ya33ty2]{Omnitools}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Artificer Archetype Feature</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.omzf9ci0u2n9t78z]{Battlefield
+      Smithing}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.8344n8to469p2u9q]{Intellectual
+      Calibre}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Artificer Archetype Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.nkax3gnm65ajrbwp]{Reliable
+      Spell Inventions}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.hqdm18drcn2fmoyf]{Trinket
+      Master}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.pckq0dgz9f1i3ic8]{Advanced
+      Tactical Chemistry}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.m0e9lj5tv5bwguqa]{Marvel
+      of Innovation}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.5aet8ax1hmeb74dd]{Technological
+      Attunement}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Artificer Archetype Feature</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.1at0l92yrr53jher]{Hotfixer}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.dwgw8mwutwau2fm6]{Infusion
+      Recharge}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.trac6h3khbwt3svt]{Magical
+      Automaton}</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice:</strong> 1d8 per artificer level</p>
+
+      <p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d8 (or 5) + your
+      Constitution modifier per artificer level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor: </strong>Light armor, medium armor, shields&nbsp;</p>
+
+      <p><strong>Weapons: </strong>Simple weapons, darts, geared slingshots,
+      hand crossbows, heavy crossbows, light crossbows, light hammers, throwing
+      daggers</p>
+
+      <p><strong>Tools: </strong>Thieves' tools, tinker's tools, one type of
+      artisan's tools or smith&rsquo;s tools</p>
+
+      <p><strong>Saving Throws: </strong>Constitution, Intelligence</p>
+
+      <p><strong>Skills: </strong>Engineering, and choose three from Arcana,
+      Culture, History, Investigation, Medicine, Nature, Perception, Sleight of
+      Hand</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 180 gold which you can spend on your
+      character&rsquo;s starting weapons, armor, and adventuring gear. You can
+      select your own gear or choose one of the following equipment packages.
+      Also consult the Suggested Equipment section of your chosen
+      background.</p>
+
+      <ul>
+
+      <li><strong>Blacksmith&rsquo;s Package (cost 158 gp): </strong>Mace, scale
+      mail, heavy shield, acid (vial), chain (10 feet), dungeoneer&rsquo;s pack,
+      portable ram, sledgehammer, smith&rsquo;s tools, whetstone.</li>
+
+      <li><strong>Locksmith&rsquo;s Package (cost 160 gp): </strong>Dagger, 2
+      throwing daggers, leather brigandine, acid (vial), burglar&rsquo;s pack,
+      caltrops (bag of 20), lock, steel mirror, thieves&rsquo; tools,
+      tinker&rsquo;s tools.</li>
+
+      <li><strong>Scientist&rsquo;s Package (cost 173 gp): </strong>Light
+      crossbow and quiver with 20 bolts, 2 light hammers, leather brigandine,
+      abacus, alchemist&rsquo;s supplies, ball bearings (bag of 1,000), 10
+      pieces of chalk, common clothes, healer&rsquo;s satchel, lantern
+      (standard), merchant&rsquo;s scale, oil flask, scholar&rsquo;s pack.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: int
+    progression: artificerA5e
+  wealth: '180'
+effects: []
+folder: null
+flags: {}
+_id: 1gyltqcjks6iyihg
+_key: '!items!1gyltqcjks6iyihg'

@@ -1,0 +1,510 @@
+folder: null
+name: Herald
+type: class
+img: icons/magic/holy/barrier-shield-winged-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Herald<br></strong></p>
+
+      <table style="width: 95.565%;" border="1"><colgroup><col style="width:
+      6.75068%;"><col style="width: 7.61862%;"><col style="width:
+      35.7786%;"><col style="width: 7.23287%;"><col style="width:
+      8.77588%;"><col style="width: 9.16232%;"><col style="width:
+      10.6875%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 47.6px;">
+
+      <td style="text-align: center; height: 47.6px;">Level</td>
+
+      <td style="text-align: center; height: 47.6px;">Prof.<br>Bonus</td>
+
+      <td style="text-align: center; height: 47.6px;">Features</td>
+
+      <td style="text-align: center; height: 47.6px;">Lessons<br>Known</td>
+
+      <td style="text-align: center; height: 47.6px;">
+
+      <p>Smite</p>
+
+      <p>Damage</p>
+
+      </td>
+
+      <td style="text-align: center; height: 47.6px;">Maneuvers<br>Known</td>
+
+      <td style="text-align: center; height: 47.6px;">Maneuver<br>Degree</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.01szspr1nunp0lql]{Divine
+      Sense} @UUID[Compendium.a5e.a5e-class-features.Item.my42mip0qc35rcp2]{Lay
+      on Hands}
+      @UUID[Compendium.a5e.a5e-class-features.Item.71l0zmi8bryu6ssx]{Spellcasting
+      (Herald)}</td>
+
+      <td style="text-align: center;">-</td>
+
+      <td style="text-align: center;">-</td>
+
+      <td style="text-align: center;">-</td>
+
+      <td style="text-align: center;">-</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.j0kinls7be97oxsw]{Combat
+      Maneuvers (Herald)}
+      @UUID[Compendium.a5e.a5e-class-features.Item.c6aiq8cd90fo3ry1]{Divine
+      Smite}</td>
+
+      <td style="text-align: center;">-</td>
+
+      <td style="text-align: center;">1d8</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1st</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.zj2p68ex28alzo9i]{Divine
+      Lessons} Herald Archetype</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">1d8</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1st</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
+      @UUID[Compendium.a5e.a5e-class-features.Item.u220f22b3cpphtgb]{Empowered
+      Smite}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">1d8</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">1st</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.b6bbf481xmj9mi6u]{Extra
+      Attack (Herald)}
+      @UUID[Compendium.a5e.a5e-class-features.Item.ul62twmxrrc072yg]{Heraldic
+      Sermon}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2d8</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">1st</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.xezwxikwrsfkzg4o]{Sacred
+      Aura}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2d8</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">1st</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Archetype Feature</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2d8</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
+      @UUID[Compendium.a5e.a5e-class-features.Item.p9gkawegqqbxb821]{Greater
+      Empowered Smite}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2d8</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.2td6srku3ln8qasl]{Inspiring
+      Devotion}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3d8</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.eg3jukesb09wd7ot]{Improved
+      Sacred Aura}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3d8</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.ldib2glh1r8ufnzj]{Divine
+      Warrior}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3d8</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      </tr>
+
+      <tr style="height: 50.4px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
+      @UUID[Compendium.a5e.a5e-class-features.Item.qaiz9fwowbfzsm8y]{Divine
+      Recovery}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3d8</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">-</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4d8</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.dn7qd4m58ac396qm]{Infectious
+      Resolve}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4d8</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Archetype Feature</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4d8</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">4d8</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">-</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5d8</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Aura Improvements</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5d8</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">6d8</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4th</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Archetype Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.6s1lhuxjy6b485jo]{Holy
+      Exemplar}</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">6d8</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4th</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice: </strong>1d10 per herald level&nbsp;</p>
+
+      <p><strong>Hit Points at 1st Level: 10</strong> + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d10 (or 6) + your
+      Constitution modifier per herald level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor:&nbsp;</strong>Light armor, medium armor, heavy armor,
+      shields</p>
+
+      <p><strong>Weapons:&nbsp;</strong>Simple weapons, martial weapons</p>
+
+      <p><strong>Saving Throws:&nbsp;</strong>Wisdom, Charisma</p>
+
+      <p><strong>Skills:&nbsp;</strong>Choose two from Athletics, Acrobatics,
+      History, Insight, Intimidation, Medicine, Persuasion, and Religion</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 200 gold which you can spend on your
+      character&rsquo;s starting weapons, armor, and adventuring gear. You can
+      select your own gear or choose one of the following equipment packages.
+      Also consult the Suggested Equipment section of your chosen
+      background.</p>
+
+      <ul>
+
+      <li><strong>Blessed Explorer&rsquo;s Set (Cost 189 gold):</strong> Handaxe
+      (4), hauberk, priest&rsquo;s pack</li>
+
+      <li><strong>Divine Warrior&rsquo;s Set (Cost 200 gold):</strong>
+      Longsword, hauberk, medium shield, explorer&rsquo;s pack</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d10
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: cha
+    progression: halfCasterWithFirstLevel
+  wealth: '200'
+effects: []
+flags: {}
+_id: jaxdq1hah0d634sr
+_key: '!items!jaxdq1hah0d634sr'

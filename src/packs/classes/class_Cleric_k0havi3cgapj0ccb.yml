@@ -1,0 +1,374 @@
+folder: null
+name: Cleric
+type: class
+img: icons/commodities/treasure/token-gold-cross.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Cleric</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      12.3729%;"><col style="width: 19.8305%;"><col style="width:
+      49.8124%;"><col style="width: 17.8147%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="text-align: center;">Level</td>
+
+      <td style="text-align: center;">Proficiency Bonus</td>
+
+      <td style="text-align: center;">Features</td>
+
+      <td style="text-align: center;">Signs Known</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Cleric Archetype
+      @UUID[Compendium.a5e.a5e-class-features.Item.orhewvz33vmmkfc5]{Defensive
+      Blessing}
+      @UUID[Compendium.a5e.a5e-class-features.Item.l9kvw4n809k17gsy]{Sacred
+      Call}
+      @UUID[Compendium.a5e.a5e-class-features.Item.axllcphld6abmm1p]{Spellcasting}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2<strong>ⁿᵈ</strong></td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Cleric Archetype Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.s4iiatrup3e3virw]{Channel
+      Divinity}
+      @UUID[Compendium.a5e.a5e-class-features.Item.0dwsf82gco1j8ghu]{Principles
+      of Devotion}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.319mwkz0dd6sznnv]{Signs
+      of Faith}</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.nghsyyxk1mmuud2x]{Sacred
+      Office}</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.zezsezm2e0azb3ty]{Empowered
+      Turning}</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Cleric Archetype Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.s4iiatrup3e3virw]{Channel
+      Divinity}</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Ability Score Improvement, Cleric
+      Archetype Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.zezsezm2e0azb3ty]{Empowered
+      Turning}</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.98ceg9uqvmr74u1z]{Sacred
+      Presence}</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.2jlxytgjvgjnafvr]{Providence}</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.zezsezm2e0azb3ty]{Empowered
+      Turning}</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.zezsezm2e0azb3ty]{Empowered
+      Turning}</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Cleric Archetype Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.zezsezm2e0azb3ty]{Empowered
+      Turning}</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.s4iiatrup3e3virw]{Channel
+      Divinity}</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.cmpu5ulgmrnpa0wx]{Avatar
+      of Faith}</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice: </strong>1d8 per cleric level</p>
+
+      <p><strong>Hit Points at 1st Level: </strong>8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d8 (or 5) + your
+      Constitution modifier per cleric level after first</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor: </strong>None</p>
+
+      <p><strong>Weapons: </strong>Simple weapons</p>
+
+      <p><strong>Tools:</strong> Choose one from herbalism kit, an artisan tool,
+      or a musical instrument</p>
+
+      <p><strong>Saving Throws:</strong> Wisdom, and either Intelligence or
+      Charisma</p>
+
+      <p><strong>Skills:</strong> Choose two from Culture, History, Insight,
+      Medicine, Persuasion, and Religion</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 125 gold which you can spend on your
+      character's starting weapons, armor, and adventuring gear. You can select
+      your own gear or choose one of the following equipment packages. Also
+      consult the Suggested Equipment section of your chosen background.</p>
+
+      <ul>
+
+      <li><strong>Holy Warrior's Set (Cost 122 gold):</strong> Longbow and
+      quiver with 20 arrows, mace, scale mail, explorer's pack, reliquary divine
+      focus (holy symbol)</li>
+
+      <li><strong>Righteous Combat Set (Cost 87 gold):</strong> 4 javelins,
+      warhammer, 5 wooden stakes, chain shirt, medium shield, emblem divine
+      focus (holy symbol), explorer's pack</li>
+
+      <li><strong>Spiritual Protector's Set (Cost 90 gold):</strong>
+      Quarterstaff, 2 flasks of holy water, padded leather, healer's satchel,
+      amulet divine focus (holy symbol), priest's pack</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: wis
+    progression: fullCaster
+  wealth: '125'
+effects: []
+flags: {}
+_id: k0havi3cgapj0ccb
+_key: '!items!k0havi3cgapj0ccb'

@@ -1400,12 +1400,22 @@ function migrateDestiny(system) {
 function migrateClass(system) {
   /** @type {Class5e} */
   const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: '',
+      unidentified: '',
+    },
+    source: mapSource(system.source),
+    startingEquipment: [],
     identifier: system.slug,
     levels: system.classLevels,
     hitDice: 'd' + system.hp.hitDiceSize,
     hitDiceUsed: system.hp.hitDiceUsed,
     advancement: [],
-    spellcasting: {},
+    spellcasting: {
+      ability: system.spellcasting.ability.base,
+      progression: system.spellcasting.casterType,
+    },
     wealth: system.wealth,
   };
   return o5e;

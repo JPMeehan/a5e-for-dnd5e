@@ -1,0 +1,364 @@
+folder: null
+name: Wizard
+type: class
+img: icons/weapons/wands/wand-carved-stone-shard.webp
+system:
+  description:
+    value: >-
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      11.0465%;"><col style="width: 12.4233%;"><col style="width:
+      62.1891%;"><col style="width: 14.3411%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="text-align: center;">Level</td>
+
+      <td style="text-align: center;">Prof.<br>Bonus</td>
+
+      <td style="text-align: center;">Features</td>
+
+      <td style="text-align: center;">Studies<br>Known</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.z4jrcpyixdtczw8r]{Spellcasting}
+      @UUID[Compendium.a5e.a5e-class-features.Item.iqlgotutphoratct]{Arcane
+      Recovery}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Wizard Archetype</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.szxgzc4zmt9zam9f]{Scholarly
+      Excellence}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Ability Score Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.1u4hyjbgjmvl22js]{Elective
+      Studies}</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.iojeid79x6ghgcw9]{Signature
+      Spells (1ˢᵗ-level)}</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Wizard Archetype Feature</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.aap4al37tcw2f7o6]{Spell
+      Study}</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.nzb62jeh28fulijh]{Wizard&rsquo;s
+      Flair}</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Wizard Archetype Feature</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.iojeid79x6ghgcw9]{Signature
+      Spells (2ⁿᵈ-level)}</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.mzxxtpgwqysuu768]{Bestow
+      Magics}</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Wizard Archetype Feature</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.5qj66vxpx6fjz1fz]{Arcane
+      Defenses}</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.iojeid79x6ghgcw9]{Signature
+      Spells (3ʳᵈ-level)}</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.qbv1libonkv9g5aq]{Spell
+      Intensity}</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.5d4jtdca7omu0gt2]{Archmage}</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice: </strong>1d6 per wizard level</p>
+
+      <p><strong>Hit Points at 1st Level: </strong>6 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d6 (or 4) + your
+      Constitution modifier per wizard level after first</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor: None</strong></p>
+
+      <p><strong>Weapons: </strong>Daggers, darts, sickles, slings, and
+      quarterstaffs</p>
+
+      <p><strong>Tools:&nbsp;</strong>One artisan's tool of your choice from
+      alchemist&rsquo;s supplies, calligrapher's supplies, or cartographer's
+      tools</p>
+
+      <p><strong>Saving Throws:&nbsp;</strong>Intelligence, Wisdom</p>
+
+      <p><strong>Skills:&nbsp;</strong>Choose two from Arcana, History, Insight,
+      Investigation, Medicine, and Religion</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 100gp which you can spend on your character's
+      starting weapons, armor, and adventuring gear. You can select your own
+      gear or choose one of the following equipment packages. Also consult the
+      Suggested Equipment section of your chosen background.</p>
+
+      <ul>
+
+      <li><strong>Arcane Investigator's Set (Cost 81 gold):</strong> Dagger,
+      backpack, 4 candles, chalk, clothes (common), component pouch, spellbook,
+      2 vials</li>
+
+      <li><strong>Mage Scholar's Set (Cost 89 gold):</strong> Quarterstaff,
+      abacus, clothes (fine), ink (1-ounce bottle), ink pen, orb arcane focus,
+      10 sheets of parchment, sack, spellbook</li>
+
+      <li><strong>Traveling Mage's Set (Cost 86 gold):</strong> Quarterstaff,
+      backpack, bedroll, clothes (traveler's), component pouch, flask of oil,
+      lantern (hooded), mess tin, spellbook</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d6
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: int
+    progression: fullCaster
+  wealth: '100'
+effects: []
+flags: {}
+_id: pw15lrv0yjqke57t
+_key: '!items!pw15lrv0yjqke57t'

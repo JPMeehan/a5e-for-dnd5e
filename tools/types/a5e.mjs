@@ -393,9 +393,9 @@
  * @property {string} spellcasting.ability.base
  * @property {string[]} spellcasting.ability.options
  * @property {string} spellcasting.ability.value
- * @property {string} spellcasting.ability.casterType
- * @property {object} spellcasting.ability.knownCantrips
- * @property {object} spellcasting.ability.knownSpells
+ * @property {string} spellcasting.casterType
+ * @property {object} spellcasting.knownCantrips
+ * @property {object} spellcasting.knownSpells
  * @property {string} wealth
  */
 

@@ -1,0 +1,623 @@
+folder: null
+name: Elementalist
+type: class
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Elementalist</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      8.34236%;"><col style="width: 10.9426%;"><col style="width:
+      44.4191%;"><col style="width: 5.85178%;"><col style="width:
+      7.69231%;"><col style="width: 4.87541%;"><col style="width:
+      4.65872%;"><col style="width: 4.55038%;"><col style="width:
+      8.66739%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">Level</td>
+
+      <td style="height: 33.5938px;">Prof.<br>Bonus</td>
+
+      <td style="height: 33.5938px;">Features</td>
+
+      <td style="height: 33.5938px;">
+
+      <p>Blast</p>
+
+      <p>Dice</p>
+
+      </td>
+
+      <td style="height: 33.5938px;">
+
+      <p>Augments</p>
+
+      <p>Known</p>
+
+      </td>
+
+      <td>
+
+      <p>Spells</p>
+
+      <p>Known</p>
+
+      </td>
+
+      <td>
+
+      <p>Spell</p>
+
+      <p>Points</p>
+
+      </td>
+
+      <td>
+
+      <p>Spell</p>
+
+      <p>Level</p>
+
+      </td>
+
+      <td>
+
+      <p>Adaptations</p>
+
+      </td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.5gs37uy2tqb15ot2]{Elemental
+      Affinity}
+      @UUID[Compendium.a5e.a5e-class-features.Item.yat3qie7unmhp88r]{Spellcasting
+      (Elementalist)}
+      @UUID[Compendium.a5e.a5e-class-features.Item.uit7l3mc64l5h8h1]{Elemental
+      Blast}
+      @UUID[Compendium.a5e.a5e-class-features.Item.rosj8xvi8bstdegy]{Control
+      Element}
+      @UUID[Compendium.a5e.a5e-class-features.Item.hq7hm9sw7qgavvga]{Elemental
+      Defense}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">-</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1st</td>
+
+      <td style="text-align: center;">-</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.smfymy9fz19sc0hh]{Augments}
+      @UUID[Compendium.a5e.a5e-class-features.Item.l8yj9brt80jxrqj0]{Adaptations}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">1st</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Elementalist Archetype</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">1st</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">1st</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.z2q6kb24eks8nfy5]{Expand
+      Element}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.qi2lr8r488mf01un]{Elemental
+      Evolution}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Archetype feature</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">2nd</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.rx1wvajk4j70trgb]{Bind
+      Elemental}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.hq7hm9sw7qgavvga]{Elemental
+      Defense}</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">12</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.1crnox672gxav694]{Improved
+      Expand Element} Archetype feature</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">13</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">14</td>
+
+      <td style="text-align: center;">3rd</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.lu4jj4ii9qsl0oo0]{Improved
+      Control Element}</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">15</td>
+
+      <td style="text-align: center;">4th</td>
+
+      <td style="text-align: center;">7</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.qi2lr8r488mf01un]{Elemental
+      Evolution}</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">16</td>
+
+      <td style="text-align: center;">4th</td>
+
+      <td style="text-align: center;">7</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Archetype feature</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">17</td>
+
+      <td style="text-align: center;">4th</td>
+
+      <td style="text-align: center;">8</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">18</td>
+
+      <td style="text-align: center;">4th</td>
+
+      <td style="text-align: center;">8</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.6cdgfoktap5bxuwz]{Greater
+      Expand Element}</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">19</td>
+
+      <td style="text-align: center;">5th</td>
+
+      <td style="text-align: center;">9</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.hq7hm9sw7qgavvga]{Elemental
+      Defense}</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">20</td>
+
+      <td style="text-align: center;">5th</td>
+
+      <td style="text-align: center;">9</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">21</td>
+
+      <td style="text-align: center;">5th</td>
+
+      <td style="text-align: center;">10</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.y9gs6ip5tyelpxgh]{Apotheosis}</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">22</td>
+
+      <td style="text-align: center;">5th</td>
+
+      <td style="text-align: center;">10</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice:</strong> 1d8 per elementalist level</p>
+
+      <p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your
+      Constitution modifier per elementalist level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor:</strong> Light armor</p>
+
+      <p><strong>Weapons:</strong> Simple weapons</p>
+
+      <p><strong>Tools:</strong> None</p>
+
+      <p><strong>Saving Throws:</strong> Charisma, Constitution</p>
+
+      <p><strong>Skills:</strong> Choose two skills from Arcana, Athletics,
+      Insight, Intimidation, Nature, Persuasion, and Survival</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 100 gp. You can select your own gear or choose
+      one of the following equipment packages. Also consult the Suggested
+      Equipment section of your chosen background.</p>
+
+      <ul>
+
+      <li><strong>Burned Exile&rsquo;s Set (Cost 33 gold):</strong> Handaxe,
+      dagger, padded leather armor, totem, explorer&rsquo;s pack</li>
+
+      <li><strong>Self-Taught Mage&rsquo;s Set (Cost 52 gold):</strong> Dagger,
+      padded cloth armor, staff, scholar&rsquo;s pack</li>
+
+      <li><strong>Reluctant Empowered&rsquo;s Set (Cost 38 gold):</strong>
+      Spear, dagger, padded leather armor, wand, explorer&rsquo;s pack</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: none
+    progression: elementalist
+  wealth: '100'
+effects: []
+flags: {}
+_id: 5srmhn9wigfqsav4
+_key: '!items!5srmhn9wigfqsav4'

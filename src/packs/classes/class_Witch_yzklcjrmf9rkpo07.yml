@@ -1,0 +1,382 @@
+name: Witch
+type: class
+img: icons/tools/cooking/cauldron-empty.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: The Witch</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      12.9845%;"><col style="width: 11.075%;"><col style="width: 48.2273%;"><col
+      style="width: 27.7132%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">Level</td>
+
+      <td style="height: 33.5938px;">Prof.<br>Bonus</td>
+
+      <td style="height: 33.5938px;">Features</td>
+
+      <td style="height: 33.5938px;">Magical Mysteries<br>Known</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.dice2o2bv8tsynlt]{Witch's
+      Familiar}
+      @UUID[Compendium.a5e.a5e-class-features.Item.9qbeuh6ddmny8ezv]{Spellcasting}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.qc31gfu9bjee9s0d]{Witch
+      Archetype}
+      @UUID[Compendium.a5e.a5e-class-features.Item.rx9h6syyexdx88xo]{Witch
+      Magic}</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.vmkfr5u0neendp2v]{Magical
+      Mysteries}
+      @UUID[Compendium.a5e.a5e-class-features.Item.xwc5t6d36zhw7kp3]{Otherworldly
+      Defense}</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.f3gqgjl29sdwvt7i]{A
+      Blessing or a Curse}
+      @UUID[Compendium.a5e.a5e-class-features.Item.9xnbz4ye27kxob0y]{Witch&rsquo;s
+      Brew}</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Archetype Feature</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.booj6izdxt9v1ysb]{Ritual
+      Mastery}</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Archetype Feature</td>
+
+      <td style="text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.vgx9qhqph9937nov]{Bewitching
+      Personality}</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">7</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">Archetype Feature</td>
+
+      <td style="text-align: center;">7</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.cdhxn05f8c9k96g7]{Third
+      Eye}</td>
+
+      <td style="text-align: center;">8</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">8</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">9</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.booj6izdxt9v1ysb]{Ritual
+      Mastery}</td>
+
+      <td style="text-align: center;">9</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
+
+      <td style="text-align: center;">10</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.xteh2jo4x9kgc3mn]{High
+      Priest of Magic}</td>
+
+      <td style="text-align: center;">10</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice: </strong>1d6 per witch level</p>
+
+      <p><strong>Hit Points at 1st Level: </strong>6 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d6 (or 4) + your
+      Constitution modifier per witch level after first</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor: </strong>Light armor</p>
+
+      <p><strong>Weapons: </strong>Daggers, darts, sickles, slings, and
+      quarterstaffs</p>
+
+      <p><strong>Tools: </strong>Choose one from an artisan's tool, a musical
+      instrument, an herbalism kit, or a poisoner's kit</p>
+
+      <p><strong>Saving Throws: </strong>Wisdom and either Intelligence or
+      Charisma</p>
+
+      <p><strong>Skills: </strong>Choose two from Animal Handling, Arcana,
+      Deception, History, Insight, intimidation, Medicine, Nature, Persuasion,
+      or Religion</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 100gp which you can spend on your character's
+      starting weapons, armor, and adventuring gear. You can select your own
+      gear or choose one of the following equipment packages. Also consult the
+      Suggested Equipment section of your chosen background.</p>
+
+      <ul>
+
+      <li><strong>Arcane Student's Set (Cost 89gp):</strong> Quarterstaff,
+      abacus, clothes (fine), ink (1-ounce bottle), ink pen, orb arcane focus,
+      10 sheets of parchment, sack, spellbook</li>
+
+      <li><strong>Magical Acolyte's Set (77gp): </strong>Quarterstaff, dagger 2
+      flasks of holy water, healer's satchel, amulet divine focus, priest's
+      pack</li>
+
+      <li><strong>Wandering Witch's Set (38 gold):</strong> Quarterstaff, sling
+      and 20 sling bullets, clothe's (traveler's) component pouch, explorer's
+      pack</li>
+
+      <li><strong>Wild Witch's Set (88 gold):</strong> Quarterstaff, clothes
+      (common), herbalism kit, priest's pack, focus tattoo (nature focus), tent
+      (one person), tinder box, healer's satchel</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d6
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: none
+    progression: fullCaster
+  wealth: 100 gp
+effects: []
+folder: null
+flags: {}
+_id: yzklcjrmf9rkpo07
+_key: '!items!yzklcjrmf9rkpo07'

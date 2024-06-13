@@ -1,0 +1,585 @@
+folder: null
+name: Warlock
+type: class
+img: icons/magic/symbols/circled-gem-pink.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Warlock</strong></p>
+
+      <table style="width: 100%; height: 369.532px;" border="1"><colgroup><col
+      style="width: 8.52713%;"><col style="width: 9.10928%;"><col style="width:
+      15.3093%;"><col style="width: 12.4031%;"><col style="width:
+      10.0775%;"><col style="width: 9.68992%;"><col style="width:
+      8.52713%;"><col style="width: 11.0465%;"><col style="width:
+      15.3101%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="height: 33.5938px; text-align: center;">Level</td>
+
+      <td style="height: 33.5938px; text-align: center;">Prof.<br>Bonus</td>
+
+      <td style="height: 33.5938px; text-align: center;">Features</td>
+
+      <td style="height: 33.5938px; text-align: center;">Cantrips<br>Known</td>
+
+      <td style="height: 33.5938px; text-align: center;">Spells<br>Known</td>
+
+      <td style="height: 33.5938px; text-align: center;">Spell<br>Points</td>
+
+      <td style="height: 33.5938px; text-align: center;">Spell<br>Level</td>
+
+      <td style="height: 33.5938px; text-align: center;">Secrets<br>Known</td>
+
+      <td style="height: 33.5938px; text-align:
+      center;">Invocations<br>Known</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+2</td>
+
+      <td style="height: 16.7969px; text-align: center;">Warlock Archetype
+      @UUID[Compendium.a5e.a5e-class-features.Item.qy3yd3sj6bivq21o]{Pact Magic}
+      @UUID[Compendium.a5e.a5e-class-features.Item.ulmcmf3ofmpzmgzf]{Eldritch
+      Blast}</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+2</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.ccymzytvxost335r]{Eldritch
+      Invocations}
+      @UUID[Compendium.a5e.a5e-class-features.Item.o1ed6xk84ghmzmdo]{Secrets of
+      Arcana}</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+2</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.9m8p73ihwnicm2zi]{Pact
+      Boon}</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">4ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+2</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.yrcfetjokyci4xk2]{Invocation
+      of the Courts (1)}</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+3</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.0q5qeigzy5bv2zrq]{Extra
+      Blast}</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      <td style="height: 16.7969px; text-align: center;">10</td>
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">6ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+3</td>
+
+      <td style="height: 16.7969px; text-align: center;">Warlock Archetype
+      Feature
+      @UUID[Compendium.a5e.a5e-class-features.Item.gndmzgng98w9k3jq]{Eldritch
+      Evolution (1)}</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      <td style="height: 16.7969px; text-align: center;">11</td>
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">7ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+3</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      <td style="height: 16.7969px; text-align: center;">12</td>
+
+      <td style="height: 16.7969px; text-align: center;">4ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">8ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+3</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">9</td>
+
+      <td style="height: 16.7969px; text-align: center;">13</td>
+
+      <td style="height: 16.7969px; text-align: center;">4ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">9ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+4</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">10</td>
+
+      <td style="height: 16.7969px; text-align: center;">14</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">10ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+4</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.yrcfetjokyci4xk2]{Invocation
+      of the Courts (2)} Warlock Archetype Feature</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">11</td>
+
+      <td style="height: 16.7969px; text-align: center;">17</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">11ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+4</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">11</td>
+
+      <td style="height: 16.7969px; text-align: center;">21</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">12ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+4</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.gndmzgng98w9k3jq]{Eldritch
+      Evolution (2)}</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">12</td>
+
+      <td style="height: 16.7969px; text-align: center;">22</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">13ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+5</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">12</td>
+
+      <td style="height: 16.7969px; text-align: center;">24</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">14ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+5</td>
+
+      <td style="height: 16.7969px; text-align: center;">Warlock Archetype
+      Feature</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">13</td>
+
+      <td style="height: 16.7969px; text-align: center;">25</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">15ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+5</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">13</td>
+
+      <td style="height: 16.7969px; text-align: center;">26</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">16ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+5</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.yrcfetjokyci4xk2]{Invocation
+      of the Courts (3)}</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">14</td>
+
+      <td style="height: 16.7969px; text-align: center;">27</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">17ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+6</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">14</td>
+
+      <td style="height: 16.7969px; text-align: center;">28</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">18ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+6</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.gndmzgng98w9k3jq]{Eldritch
+      Evolution (3)}</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">15</td>
+
+      <td style="height: 16.7969px; text-align: center;">29</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">19ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+6</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement&nbsp;</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">15</td>
+
+      <td style="height: 16.7969px; text-align: center;">30</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">20ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+6</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.dciuxu9yx5f8risp]{Dread
+      Thaumaturge}</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">16</td>
+
+      <td style="height: 16.7969px; text-align: center;">31</td>
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice: </strong>1d8 per warlock level</p>
+
+      <p><strong>Hit Points at 1st Level: </strong>8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d8 (or 5) + your
+      Constitution modifier per warlock level after first</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor:&nbsp;</strong>Light armor</p>
+
+      <p><strong>Weapons: </strong>Simple weapons</p>
+
+      <p><strong>Tools:&nbsp;</strong>Game set (cards)</p>
+
+      <p><strong>Saving Throws:&nbsp;</strong>Intelligence, Wisdom</p>
+
+      <p><strong>Skills:&nbsp;</strong>Choose two skills from Arcana, Deception,
+      History, Intimidation, Investigation, Nature, and Religion</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 110 gold which you can spend on your
+      character&rsquo;s starting weapons, armor, and adventuring gear. You can
+      select your own gear or choose one of the following equipment packages.
+      Also consult the Suggested Equipment section of your chosen
+      background.</p>
+
+      <ul>
+
+      <li><strong>Heretical Scholar&rsquo;s Set (Cost 73 gold): </strong>Dagger,
+      sickle, padded cloth, grimoire arcane focus, scholar&rsquo;s pack</li>
+
+      <li><strong>Inconspicuous Civilian&rsquo;s Set (Cost 61 gold):
+      </strong>Quarterstaff, padded cloth, crystal arcane focus, dice set,
+      explorer&rsquo;s pack, laudanum</li>
+
+      <li><strong>Shadowy Scoundrel&rsquo;s Set (Cost 103 gold): </strong>2
+      daggers, light crossbow and quiver with 20 bolts, padded leather,
+      component pouch, dungeoneer&rsquo;s pack</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: none
+    progression: warlockA5e
+  wealth: '110'
+effects: []
+flags: {}
+_id: jxhhglbrdpsgnqm5
+_key: '!items!jxhhglbrdpsgnqm5'

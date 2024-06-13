@@ -1,0 +1,508 @@
+folder: null
+name: Rogue
+type: class
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Rogue</strong></p>
+
+      <table style="width: 100%; height: 369.532px;" border="1"><colgroup><col
+      style="width: 9.49612%;"><col style="width: 8.52713%;"><col style="width:
+      32.5581%;"><col style="width: 11.0465%;"><col style="width:
+      9.88372%;"><col style="width: 14.5349%;"><col style="width:
+      13.9535%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 33.5938px;">
+
+      <td style="height: 33.5938px; text-align: center;">Level</td>
+
+      <td style="height: 33.5938px; text-align: center;">Prof.<br>Bonus</td>
+
+      <td style="height: 33.5938px; text-align: center;">Features</td>
+
+      <td style="height: 33.5938px; text-align: center;">Sneak<br>Attack</td>
+
+      <td style="height: 33.5938px; text-align: center;">Tricks<br>Known</td>
+
+      <td style="height: 33.5938px; text-align: center;">Maneuvers<br>Known</td>
+
+      <td style="height: 33.5938px; text-align: center;">Maneuver<br>Degree</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+2</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.o2eh10mg3xh9tbu3]{Skill
+      Tricks}
+      @UUID[Compendium.a5e.a5e-class-features.Item.4727pnvz5nwn3h23]{Sneak
+      Attack}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 1d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      <td style="height: 16.7969px; text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+2</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.7veh3gwrd4dercti]{Combat
+      Maneuvers}
+      @UUID[Compendium.a5e.a5e-class-features.Item.m0l76nf5hlm54bck]{Combat
+      Tactic}
+      @UUID[Compendium.a5e.a5e-class-features.Item.d8k1x28y4vn6h3q5]{Cunning
+      Action}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 1d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">1</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+2</td>
+
+      <td style="height: 16.7969px; text-align: center;">Rogue Archetype</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 2d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">4ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+2</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.byt94a4v23q90413]{Innocent
+      Facade}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 2d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">2</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">5ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+3</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.7kl58aphfakupnn1]{Aim}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 3d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">6ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+3</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.e5mepl86zsavxhrp]{Self-Preservation}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 3d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">3</td>
+
+      <td style="height: 16.7969px; text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">7ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+3</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.1sefig5jtx2injy0]{Improved
+      Critical}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 4d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">8ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+3</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.0k3qurx2exzg127v]{Shrewd
+      Judgement}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 4d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">9ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+4</td>
+
+      <td style="height: 16.7969px; text-align: center;">Rogue Archetype
+      Feature</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 5d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      <td style="height: 16.7969px; text-align: center;">4</td>
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">10ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+4</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.p5l9usj384rd1qaf]{Low
+      Profile}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 5d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">11ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+4</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.p3e69ngk8cdsss6n]{Cunning
+      Celerity}
+      @UUID[Compendium.a5e.a5e-class-features.Item.mc153rkyv5li85dh]{Expert
+      Talent}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 6d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">12ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+4</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.e5mepl86zsavxhrp]{Self-Preservation}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 6d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      <td style="height: 16.7969px; text-align: center;">5</td>
+
+      <td style="height: 16.7969px; text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">13ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+5</td>
+
+      <td style="height: 16.7969px; text-align: center;">Rogue Archetype
+      Feature</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 7d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">14ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+5</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.mfqnpwmprkj1dex6]{Guarded
+      Aspect}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 7d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">15ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+5</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.04nkloa9suebak6h]{Elusive}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 8d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      <td style="height: 16.7969px; text-align: center;">6</td>
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">16ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+5</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 8d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">17ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+6</td>
+
+      <td style="height: 16.7969px; text-align: center;">Rogue Archetype
+      Feature</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 9d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">9</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">18ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+6</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.bb311rj7pwhnt5m6]{Overpowering
+      Personality}
+      @UUID[Compendium.a5e.a5e-class-features.Item.e5mepl86zsavxhrp]{Self-Preservation}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 9d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">9</td>
+
+      <td style="height: 16.7969px; text-align: center;">7</td>
+
+      <td style="height: 16.7969px; text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">19ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+6</td>
+
+      <td style="height: 16.7969px; text-align: center;">Ability Score
+      Improvement&nbsp;</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 10d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">10</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      <td style="height: 16.7969px; text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px; text-align: center;">20ᵗʰ</td>
+
+      <td style="height: 16.7969px; text-align: center;">+6</td>
+
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.d1ftr7sy3mpmm7ev]{Grand
+      Larcenist}</td>
+
+      <td style="height: 16.7969px; text-align: center;">[[/r 10d6]]</td>
+
+      <td style="height: 16.7969px; text-align: center;">10</td>
+
+      <td style="height: 16.7969px; text-align: center;">8</td>
+
+      <td style="height: 16.7969px; text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice: </strong>1d8 per rogue level</p>
+
+      <p><strong>Hit Points at 1st Level: </strong>8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d8 (or 5) + your
+      Constitution modifier per rogue level after first</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor: </strong>Light armor</p>
+
+      <p><strong>Weapons:&nbsp;</strong>Simple weapons, dueling daggers, hand
+      crossbows, rapiers, sabres, shortswords, throwing daggers</p>
+
+      <p><strong>Tools:&nbsp;</strong>Disguise kit, poisoner&rsquo;s kit,
+      thieves&rsquo; tools</p>
+
+      <p><strong>Saving Throws:&nbsp;</strong>Dexterity, Intelligence</p>
+
+      <p><strong>Skills:&nbsp;</strong>Choose four from Acrobatics, Athletics,
+      Culture, Deception, Engineering, Insight, Intimidation, Investigation,
+      Perception, Performance, Persuasion, Sleight of Hand, and Stealth</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 125 gold which you can spend on your
+      character&rsquo;s starting weapons, armor, and adventuring gear. You can
+      select your own gear or choose one of the following equipment packages.
+      Also consult the Suggested Equipment section of your chosen
+      background.</p>
+
+      <ul>
+
+      <li><strong>Skulker&rsquo;s Set (Cost 91 gold): </strong>2 daggers,
+      shortbow and quiver with 20 arrows, shortsword, padded leather,
+      explorer&rsquo;s pack, thieves&rsquo; tools</li>
+
+      <li><strong>Swashbuckler&rsquo;s Set (Cost 92 gold): </strong>Saber, sling
+      and 20 sling bullets, 2 throwing daggers, padded leather, burglar&rsquo;s
+      pack, thieves&rsquo; tools</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: none
+    progression: none
+  wealth: '125'
+effects: []
+flags: {}
+_id: sig6ojunphj2a082
+_key: '!items!sig6ojunphj2a082'

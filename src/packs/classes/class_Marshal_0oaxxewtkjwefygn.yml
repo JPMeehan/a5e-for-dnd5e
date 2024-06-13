@@ -1,0 +1,546 @@
+name: Marshal
+type: class
+img: icons/weapons/swords/greatsword-crossguard-barbed.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Marshal</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      19.9612%;"><col style="width: 8.91473%;"><col style="width:
+      10.0775%;"><col style="width: 15.5039%;"><col style="width:
+      11.2403%;"><col style="width: 12.7907%;"><col style="width:
+      11.6279%;"><col style="width: 9.68992%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">Level</td>
+
+      <td style="text-align: center;">Prof.<br>Bonus</td>
+
+      <td style="text-align: center;">Features</td>
+
+      <td style="text-align: center;">Commanding<br>Presence</td>
+
+      <td style="text-align: center;">Followers</td>
+
+      <td style="text-align: center;">Maneuvers<br>Known</td>
+
+      <td style="text-align: center;">Maneuver<br>Degree</td>
+
+      <td style="text-align: center;">Lessons<br>Known</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence}
+      @UUID[Compendium.a5e.a5e-class-features.Item.qc8h2qnq0of52qct]{Rallying
+      Surge}</td>
+
+      <td style="text-align: center;">10 feet</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.h304oinq0hfhg56y]{Combat
+      Maneuvers}
+      @UUID[Compendium.a5e.a5e-class-features.Item.n6ss7hf32xkiqxqx]{Lessons of
+      War}</td>
+
+      <td style="text-align: center;">10 feet</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Marshal Archetype
+      @UUID[Compendium.a5e.a5e-class-features.Item.cvkikpppbrw11411]{Mark
+      Foe}</td>
+
+      <td style="text-align: center;">10 feet</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">10 feet</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.5el685zm5ggve3sf]{Combat
+      Directives}
+      @UUID[Compendium.a5e.a5e-class-features.Item.glbhnd16q6qmysjh]{Extra
+      Attack}
+      @UUID[Compendium.a5e.a5e-class-features.Item.ugkefg2rmcgqh9bn]{Followers}</td>
+
+      <td style="text-align: center;">20 feet</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">1</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.er41ex4a0tofgbjk]{Call
+      to Arms}
+      @UUID[Compendium.a5e.a5e-class-features.Item.n706mca2whprmh74]{Martial
+      Renown}
+      @UUID[Compendium.a5e.a5e-class-features.Item.zocbk6ee62nyzfuw]{Versatile
+      Exploration}</td>
+
+      <td style="text-align: center;">20 feet</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Marshal Archetype Feature</td>
+
+      <td style="text-align: center;">20 feet</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">20 feet</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.sapxpqore3a2d8n2]{Spur
+      Ally}</td>
+
+      <td style="text-align: center;">20 feet</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.h1u1ohw7r1erg9cr]{Expanded
+      Directives}
+      @UUID[Compendium.a5e.a5e-class-features.Item.drsdy93qkiuyk7jv]{Rouse the
+      Troops}</td>
+
+      <td style="text-align: center;">30 feet</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.glbhnd16q6qmysjh]{Extra
+      Attack (2)}</td>
+
+      <td style="text-align: center;">30 feet</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">30 feet</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.pe75gctv6xbrzzno]{Dauntless}
+      @UUID[Compendium.a5e.a5e-class-features.Item.8mqtpdstwwedaxwq]{Stronghold}</td>
+
+      <td style="text-align: center;">30 feet</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.ywoe5wghb18ujal4]{Advantageous
+      Action}</td>
+
+      <td style="text-align: center;">30 feet</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">15ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">+5</td>
+
+      <td style="text-align: center; height: 16.7969px;">Marshal Archetype
+      Feature</td>
+
+      <td style="text-align: center; height: 16.7969px;">45 feet</td>
+
+      <td style="text-align: center; height: 16.7969px;">3</td>
+
+      <td style="text-align: center; height: 16.7969px;">9</td>
+
+      <td style="text-align: center; height: 16.7969px;">4ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">16ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">+5</td>
+
+      <td style="text-align: center; height: 16.7969px;">Ability Score
+      Improvement
+      @UUID[Compendium.a5e.a5e-class-features.Item.al4g04mcme58duv3]{Greater
+      Stronghold}</td>
+
+      <td style="text-align: center; height: 16.7969px;">45 feet</td>
+
+      <td style="text-align: center; height: 16.7969px;">3</td>
+
+      <td style="text-align: center; height: 16.7969px;">9</td>
+
+      <td style="text-align: center; height: 16.7969px;">5ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">17ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">+6</td>
+
+      <td style="text-align: center; height:
+      16.7969px;">@UUID[Compendium.a5e.a5e-class-features.Item.xjuzlwg4tibsvm4x]{Critical
+      Weakness}</td>
+
+      <td style="text-align: center; height: 16.7969px;">45 feet</td>
+
+      <td style="text-align: center; height: 16.7969px;">3</td>
+
+      <td style="text-align: center; height: 16.7969px;">10</td>
+
+      <td style="text-align: center; height: 16.7969px;">5ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">4</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">18ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">+6</td>
+
+      <td style="text-align: center; height:
+      16.7969px;">@UUID[Compendium.a5e.a5e-class-features.Item.4v2jndud3a1cj6h6]{Impressive
+      Reputation} Marshal Archetype Feature</td>
+
+      <td style="text-align: center; height: 16.7969px;">45 feet</td>
+
+      <td style="text-align: center; height: 16.7969px;">3</td>
+
+      <td style="text-align: center; height: 16.7969px;">10</td>
+
+      <td style="text-align: center; height: 16.7969px;">5ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">19ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">+6</td>
+
+      <td style="text-align: center; height: 16.7969px;">Ability Score
+      Improvement</td>
+
+      <td style="text-align: center; height: 16.7969px;">45 feet</td>
+
+      <td style="text-align: center; height: 16.7969px;">3</td>
+
+      <td style="text-align: center; height: 16.7969px;">11</td>
+
+      <td style="text-align: center; height: 16.7969px;">5ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">20ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">+6</td>
+
+      <td style="text-align: center; height:
+      16.7969px;">@UUID[Compendium.a5e.a5e-class-features.Item.kvc59z8sg7dq3z3f]{Legendary
+      Commander}
+      @UUID[Compendium.a5e.a5e-class-features.Item.2bv3gkrbblfgpe31]{Supreme
+      Stronghold}</td>
+
+      <td style="text-align: center; height: 16.7969px;">60 feet</td>
+
+      <td style="text-align: center; height: 16.7969px;">3</td>
+
+      <td style="text-align: center; height: 16.7969px;">11</td>
+
+      <td style="text-align: center; height: 16.7969px;">5ᵗʰ</td>
+
+      <td style="text-align: center; height: 16.7969px;">5</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice:</strong> 1d10 per marshal level</p>
+
+      <p><strong>Hit Points at 1st Level: </strong>10 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d10 (or 6) + your
+      Constitution modifier per marshal level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor: </strong>Light armor, medium armor, heavy armor,
+      shields</p>
+
+      <p><strong>Weapons: </strong>Simple weapons, martial weapons</p>
+
+      <p><strong>Tools: </strong>None</p>
+
+      <p><strong>Saving Throws: </strong>Wisdom, Charisma</p>
+
+      <p><strong>Skills: </strong>Choose two from Athletics, History, Insight,
+      Intimidation, Medicine, Perception, and Persuasion</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 200 gp. You can select your own gear or choose
+      one of the following equipment packages. Also consult the Suggested
+      Equipment section of your chosen background.</p>
+
+      <p><strong>Skirmisher&rsquo;s Set (Cost 193 gp):</strong> 6 javelins,
+      longsword, hauberk, light shield, explorer&rsquo;s pack</p>
+
+      <p><strong>Soldier&rsquo;s Set (Cost 111 gp):</strong> Battleaxe,
+      scimitar, 2 spears, longbow and quiver with 20 arrows, padded leather,
+      dungeoneer&rsquo;s pack</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d10
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: none
+    progression: none
+  wealth: '200'
+effects: []
+folder: null
+flags: {}
+_id: 0oaxxewtkjwefygn
+_key: '!items!0oaxxewtkjwefygn'

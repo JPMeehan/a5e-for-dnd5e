@@ -1,0 +1,577 @@
+name: Adept
+type: class
+img: icons/skills/melee/unarmed-punch-fist.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Adept</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      5.46747%;"><col style="width: 6.11071%;"><col style="width:
+      7.23636%;"><col style="width: 33.2873%;"><col style="width:
+      10.9349%;"><col style="width: 8.36202%;"><col style="width:
+      8.20121%;"><col style="width: 10.6133%;"><col style="width:
+      9.64848%;"></colgroup>
+
+      <thead>
+
+      <tr>
+
+      <td style="text-align: center;">Level</td>
+
+      <td style="text-align: center;">Prof.<br>Bonus</td>
+
+      <td style="text-align: center;">Martial<br>Arts</td>
+
+      <td style="text-align: center;">Features</td>
+
+      <td style="text-align: center;">Techniques<br>Known</td>
+
+      <td style="text-align: center;">Focus<br>Features</td>
+
+      <td style="text-align: center;">Bonus<br>Exertion</td>
+
+      <td style="text-align: center;">Maneuvers<br>Known</td>
+
+      <td style="text-align: center;">Maneuver<br>Degree</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">
+
+      <p>1d4</p>
+
+      </td>
+
+      <td style="text-align: center;">
+
+      <p>@UUID[Compendium.a5e.a5e-class-features.Item.wqcltzuwqink2dq5]{Adroit
+      Defense}&nbsp;
+      @UUID[Compendium.a5e.a5e-class-features.Item.sjprqaclatqthzlh]{Martial
+      Arts}</p>
+
+      </td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">1d4</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.pcm01sl6ypp5j0zz]{Combat
+      Maneuvers}&nbsp;
+      @UUID[Compendium.a5e.a5e-class-features.Item.7898s0y00p4be1fw]{Exertion
+      Focus}&nbsp;
+      @UUID[Compendium.a5e.a5e-class-features.Item.ec1turlvb2g9ivgd]{Practiced
+      Techniques}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">1d4</td>
+
+      <td style="text-align: center;">Adept Archetype&nbsp;
+      @UUID[Compendium.a5e.a5e-class-features.Item.ous46a876n9yrgqi]{Battlefield
+      Etiquette}&nbsp;
+      @UUID[Compendium.a5e.a5e-class-features.Item.k9a86qhku4stw0kg]{Focus
+      Feature}</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1ˢᵗ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      <td style="text-align: center;">+2</td>
+
+      <td style="text-align: center;">1d4</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">1d6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.nzvdvnq1bf86p3eb]{Extra
+      Attack}</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">1</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">6ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">1d6</td>
+
+      <td style="text-align: center;">Adept Archetype Feature</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">7ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">1d6</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.u729rb1wfnlm6blo]{Empty
+      Mind}</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">2ⁿᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">8ᵗʰ</td>
+
+      <td style="text-align: center;">+3</td>
+
+      <td style="text-align: center;">1d6</td>
+
+      <td style="text-align: center;">Ability Score Improvements</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">9ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">1d6</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">10ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">1d6</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">11ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">1d8</td>
+
+      <td style="text-align: center;">Adept Archetype Feature</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">5</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">12ᵗʰ</td>
+
+      <td style="text-align: center;">+4</td>
+
+      <td style="text-align: center;">1d8</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">3ʳᵈ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">13ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">1d8</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.g4v2e5tdwp4nc84o]{Acquired
+      Knowledge}</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">11</td>
+
+      <td style="text-align: center;">6</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">14ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">1d8</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">12</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">15ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">1d8</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.6n9s9xjyovuwubmt]{Great
+      Reputation}</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">13</td>
+
+      <td style="text-align: center;">7</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">16ᵗʰ</td>
+
+      <td style="text-align: center;">+5</td>
+
+      <td style="text-align: center;">1d10</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">14</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">4ᵗʰ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">17ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">1d10</td>
+
+      <td style="text-align: center;">Adept Archetype Feature</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">15</td>
+
+      <td style="text-align: center;">8</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">18ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">1d10</td>
+
+      <td style="text-align: center;">&mdash;</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">16</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">19ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">1d10</td>
+
+      <td style="text-align: center;">Ability Score Improvement</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">17</td>
+
+      <td style="text-align: center;">9</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">20ᵗʰ</td>
+
+      <td style="text-align: center;">+6</td>
+
+      <td style="text-align: center;">1d10</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e.a5e-class-features.Item.erkupn5aotw8mkx2]{Grandmaster}</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">18</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">10</td>
+
+      <td style="text-align: center;">5ᵗʰ</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h3>Hit Points</h3>
+
+      <p><strong>Hit Dice: </strong>1d8 per adept level&nbsp;</p>
+
+      <p><strong>Hit Points at 1st Level: </strong>8 + your Constitution
+      modifier</p>
+
+      <p><strong>Hit Points at Higher Levels: </strong>1d8 (or 5) + your
+      Constitution modifier per adept level after 1st</p>
+
+      <h3>Proficiencies</h3>
+
+      <p><strong>Armor: </strong>None</p>
+
+      <p><strong>Weapons: </strong>Simple weapons, punching daggers,
+      shortswords, throwing daggers&nbsp;</p>
+
+      <p><strong>Tools: </strong>Choose one type of artisan&rsquo;s tools or one
+      musical instrument</p>
+
+      <p><strong>Saving Throws: </strong>Strength, Dexterity&nbsp;</p>
+
+      <p><strong>Skills: </strong>Choose two from Acrobatics, Athletics,
+      History, Insight, Perception, Religion, and Stealth</p>
+
+      <h3>Equipment</h3>
+
+      <p>You begin the game with 30 gp. You can select your own gear or choose
+      one of the following equipment packages. Also consult the Suggested
+      Equipment section of your chosen background.</p>
+
+      <ul>
+
+      <li><strong>Dungeoneer&rsquo;s Set (Cost 18 gp): </strong>Quarterstaff, 10
+      darts, dungeoneer&rsquo;s pack</li>
+
+      <li><strong>Explorer&rsquo;s Set (Cost 25 gp): </strong>Shortsword, 10
+      darts, explorer&rsquo;s pack</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  startingEquipment: []
+  identifier: ''
+  levels: 1
+  hitDice: d8
+  hitDiceUsed: 0
+  advancement: []
+  spellcasting:
+    ability: none
+    progression: none
+  wealth: '30'
+effects: []
+folder: null
+flags: {}
+_id: wm7zgz8ck5c3e7c0
+_key: '!items!wm7zgz8ck5c3e7c0'
