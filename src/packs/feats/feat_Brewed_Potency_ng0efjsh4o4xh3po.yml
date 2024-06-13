@@ -1,0 +1,36 @@
+folder: null
+name: Brewed Potency
+type: feat
+img: icons/consumables/potions/bottle-conical-fumes-green.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>In your attempts to perfect your trancing draughts, you have gained
+      deeper levels of mastery of herbs, helpful and harmful. &nbsp;You gain the
+      following benefits:</p><ul><li>You gain the Witch's Brew ability if you do
+      not already have it. &nbsp;If you do, half your berserker levels count as
+      witch levels for the purposes of it.</li><li>You gain proficiency with
+      poisoner's kit if you did not already have it, or an expertise die on
+      checks made with it if you do.</li><li>When you enter an ecstatic rage you
+      may expend a spell slot of first level or higher to magically manifest a
+      noxious magical poison on one or two weapons you are holding, provided
+      they deal piercing or slashing damage. &nbsp;While your ecstatic rage
+      lasts as long as you are holding these weapons, they deal an additional
+      1d4 bonus poison damage or 1d8 if the weapon is wielded with two
+      hands.</li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Ecstatic feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: ng0efjsh4o4xh3po
+_key: '!items!ng0efjsh4o4xh3po'

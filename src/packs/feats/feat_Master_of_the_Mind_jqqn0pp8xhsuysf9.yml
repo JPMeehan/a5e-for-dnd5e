@@ -1,0 +1,67 @@
+folder: null
+name: Master of the Mind
+type: feat
+img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your understanding of psionics is unparalleled, and combined with your
+      use of them has permanently altered your consciousness. &nbsp;You gain the
+      following benefits:</p><ul><li>Whenever you roll high enough on a psi die
+      to regain one while at your maximum number, you gain
+      inspiration.</li><li>You gain an expertise die on all intelligence,
+      wisdom, and charisma saving throws.</li><li>You gain a bonus exertion pool
+      equal to your intelligence modifier. &nbsp;These exertion points may only
+      be spend on awakened mind maneuvers. &nbsp;It refills on short rest just
+      like your standard exertion pool.</li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Expanded Mind feat
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+    origin: Item.jqqn0pp8xhsuysf9
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Master of the Mind
+    _id: KwBFarNTVvLMcpbc
+    changes:
+      - key: system.abilities.int.save.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.abilities.wis.save.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.abilities.cha.save.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!jqqn0pp8xhsuysf9.KwBFarNTVvLMcpbc'
+flags: {}
+_id: jqqn0pp8xhsuysf9
+_key: '!items!jqqn0pp8xhsuysf9'

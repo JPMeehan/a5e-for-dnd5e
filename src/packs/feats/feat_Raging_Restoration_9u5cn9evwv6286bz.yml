@@ -1,0 +1,30 @@
+folder: null
+name: Raging Restoration
+type: feat
+img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>As your psychic rage lashes out, you have learned to instinctually
+      direct the bodies of those affected to heal and repair themselves. You
+      gain the following benefits:</p><ul><li>When you use Raging Projection to
+      grant a creature temporary or rage hit points, instead of Mind Strike you
+      may also use your Chirurgury power on the same target.</li><li>If you
+      would be reduced to 0 hit points while raging, you may immediately use a
+      reaction to target yourself with the Chirurgury power.</li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Nexus of Psionic Fury feat and chirugeon archetype
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 9u5cn9evwv6286bz
+_key: '!items!9u5cn9evwv6286bz'

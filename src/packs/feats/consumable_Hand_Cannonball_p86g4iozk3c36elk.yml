@@ -1,0 +1,30 @@
+folder: null
+name: Hand Cannonball
+type: consumable
+img: icons/weapons/ammunition/shot-round-brown.webp
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: ammo
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+_id: p86g4iozk3c36elk
+_key: '!items!p86g4iozk3c36elk'

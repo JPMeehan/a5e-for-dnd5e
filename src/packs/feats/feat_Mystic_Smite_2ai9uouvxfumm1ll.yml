@@ -1,0 +1,41 @@
+folder: null
+name: Mystic Smite
+type: feat
+img: icons/weapons/swords/sword-winged-pink.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You are particularly adept in using magic to alter and empower your
+      divine smites, gaining the following benefits:</p><ul><li>When you use
+      divine smite, you may expend a spell slot of 1st-level or higher. &nbsp;If
+      you do so, you increase the damage by 1d8 per spell level to maximum of
+      the smite damage of a herald of your herald+witch level.</li><li>You may
+      apply an Empowered Smite effect to a divine smite even if you do not have
+      that ability by expending a spell of first level or higher.</li><li>You
+      also gain the following additional empowered smite
+      options:<ul><li>Bewitching Smite- Your smite instead deals psychic damage,
+      and on hit the target must make a Wisdom saving throw or be charmed by you
+      for 1 minute. This ends early if you or an ally deals damage to
+      them.</li><li>Bewildering Smite- Your smite instead deals psychic damage,
+      and on hit the target must make a Charisma saving throw or be confused for
+      1 minute. &nbsp;They may repeat this save at the end of each of their
+      turns, ending the effect on a success.</li><li>Withering Smite- Your smite
+      instead deals necrotic damage, and on hit the target must make a
+      Constitution saving throw or have its hit points maximum reduced by the
+      damage of the smite.</li></ul></li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Witch-Knight feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: 2ai9uouvxfumm1ll
+_key: '!items!2ai9uouvxfumm1ll'

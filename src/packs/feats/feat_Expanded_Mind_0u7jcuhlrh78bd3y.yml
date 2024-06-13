@@ -1,0 +1,62 @@
+folder: null
+name: Expanded Mind
+type: feat
+img: icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You studies have granted you even greater knowledge of psionic secrets,
+      granting the following benefits:</p><ul><li>You gain a +1 bonus to your
+      Intelligence score to a maximum value of 20.</li><li>You immediately learn
+      an additional psionic power of your choice. &nbsp;You must qualify for
+      this power as normal.</li><li>Half your scholar levels count as esper
+      levels for the purpose of your psionic reservoir.<br>Whenever a scholar
+      ability requires you to expend a hit die, you may expend a psi die
+      instead. &nbsp;Unlike normal such a psi die is always lost on being
+      used.</li><li>When activating an augment on a psionic power, you may
+      expend a hit die instead of a psi die. &nbsp;If an augment requires more
+      than one psi die, only one of them may be replaced by a hit die.</li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Psionic Expert feat
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/svg/item-bag.svg
+    origin: Item.0u7jcuhlrh78bd3y
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Expanded Mind
+    _id: ClmmV3aXWMlUgHEf
+    changes:
+      - key: system.abilities.int.value
+        value: >-
+          {"comparisonOperator":"<","comparisonValue":"20","positiveValue":"5","negativeValue":"20"}
+        mode: 7
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!0u7jcuhlrh78bd3y.ClmmV3aXWMlUgHEf'
+flags: {}
+_id: 0u7jcuhlrh78bd3y
+_key: '!items!0u7jcuhlrh78bd3y'

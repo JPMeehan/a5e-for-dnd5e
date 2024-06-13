@@ -1,0 +1,37 @@
+folder: null
+name: Oath of Magic
+type: feat
+img: icons/magic/symbols/star-rising-purple.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You have come to fully embody your mystical oath, and for your
+      dedication magic answers your call. &nbsp;You gain the following
+      additional benefits:</p><ul><li>You may prepare witch or herald spells of
+      any level you have spell slots for, even if they are higher spell level
+      than your current level allows as long as they are of a level the class
+      preparing them could potentially cast. &nbsp;Such higher level spells must
+      be from your herald archetype bonus spell school(s), your witch's magic
+      bonus spell schools, or any bonus spell schools or individual bonus spells
+      from your witch archetype. &nbsp;A class may still only prepare spells
+      from its own list.</li><li>You may add half your witch levels to your
+      herald level for the purpose of what spell slots you may use to gain a
+      temporary exertion pool.</li><li>You gain the herald Divine Recovery
+      feature if you do not already have it. &nbsp;If you do, you may use it
+      proficiency bonus times per long rest.</li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Mystic Smite feat
+  recharge:
+    value: null
+    charged: true
+effects: []
+flags: {}
+_id: rlme4c99x8myty23
+_key: '!items!rlme4c99x8myty23'

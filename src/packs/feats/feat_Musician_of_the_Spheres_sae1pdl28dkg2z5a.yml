@@ -1,0 +1,88 @@
+folder: null
+name: Musician of the Spheres
+type: feat
+img: icons/skills/trades/music-notes-sound-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your practice and studies have attuned you to the music of the spheres,
+      the cosmic song that echoes throughout creation and beyond, painting all
+      the riotous colors within in a never ending mystical dance. You gain the
+      following benefits:</p><ul><li>When you use a battle hymn by expending a
+      spell slot, it lasts a number of rounds equal to your charisma modifier
+      rather than one round. &nbsp;You may choose new targets for an ongoing
+      battle hymn at the start of your turn or anytime before the start of your
+      next turn, but once chosen for a round they cannot be changed.</li><li>You
+      may cast one of the following spells once per long rest without expending
+      a spell
+      slot:@UUID[Compendium.a5e-for-dnd5e.spells.Item.5ijl5b1goq9774l3]{Teleport},@UUID[Compendium.a5e.a5e-spells.Item.l3lr6rwvw7csn6on]{Plane
+      Shift}, or @UUID[Compendium.a5e.a5e-spells.Item.j6guc3gcg18fn8rz]{Planar
+      Ally}. &nbsp;In the case of plane shift you do not require the listed
+      material component when casting it in this way but must instead research a
+      tune or note attuned to the plane you wish to shift to using the research
+      downtime activity and the Arcana skill, which counts as secret knowledge.
+      &nbsp;In the case of planar ally you may make either a performance or
+      musical instrument check with a DC of 5+the creature's CR for tasks
+      measured in minutes, 10+the creature's CR for tasks measured in hours, or
+      15+the creature's CR for tasks measured in days. &nbsp;If the check is
+      successful, you may use it in place of the payment of the spell. &nbsp;The
+      chosen check must be one connected to an Art Specialty you are currently
+      benefiting from, and you may only replace payment in this way one time
+      each for the three spans of time, and when doing so the service lasts for
+      exactly 1 minute, 1 hour, or 1 day respectively.</li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Maestro of the Mystic Arts feat
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_id: sae1pdl28dkg2z5a
+_key: '!items!sae1pdl28dkg2z5a'

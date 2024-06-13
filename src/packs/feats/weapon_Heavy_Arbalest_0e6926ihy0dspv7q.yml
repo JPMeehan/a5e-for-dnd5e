@@ -1,0 +1,109 @@
+folder: null
+name: Heavy Arbalest
+type: weapon
+img: icons/weapons/artillery/ballista-wood-green.webp
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 50
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  proficient: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - lod
+    - amm
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 140
+    long: 480
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d10 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/weapons/artillery/ballista-wood-green.webp
+    origin: Item.Oty9FQRodZSOxCW1
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Yg5CVu88frZe7m8I
+        applyToSelf: true
+    transfer: false
+    name: Deployed
+    _id: Fl1SP8Ct1p2odQxF
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '@original/2'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!0e6926ihy0dspv7q.Fl1SP8Ct1p2odQxF'
+flags: {}
+_id: 0e6926ihy0dspv7q
+_key: '!items!0e6926ihy0dspv7q'

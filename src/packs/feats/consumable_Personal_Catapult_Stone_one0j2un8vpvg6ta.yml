@@ -1,0 +1,30 @@
+folder: null
+name: Personal Catapult Stone
+type: consumable
+img: icons/commodities/stone/ore-chunk-brown.webp
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 1
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: ammo
+    subtype: ''
+  uses:
+    autoDestroy: false
+effects: []
+flags: {}
+_id: one0j2un8vpvg6ta
+_key: '!items!one0j2un8vpvg6ta'

@@ -1,0 +1,76 @@
+folder: null
+name: Holistic Mastery
+type: feat
+img: icons/magic/holy/meditation-chi-focus-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your practice and study has unlocked new synergies between physical and
+      mental ability, granting the following benefits:</p><ul><li>Your Exertion
+      Pool increases by an amount equal to your intelligence modifier. &nbsp;Any
+      time you would need to expend a hit die to activate a Scholar ability, you
+      may spend 2 exertion instead. &nbsp;In addition, when you spend a minute
+      to expend a hit die to regain exertion, you can increase the amount
+      regained by your intelligence modifier. &nbsp;</li><li>You also gain your
+      choice of
+      @UUID[Compendium.a5e.a5e-class-features.Item.v4pkjilh484jph6i]{Precision
+      Strikes} or
+      @UUID[Compendium.a5e.a5e-class-features.Item.okthtwyohmh0eoa5]{Mystic
+      Apprentice} scholar abilities. &nbsp;If you choose Mystic Apprentice, you
+      also gain your choice of
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ljixftygfhi0sfsf]{Guidance},
+      @UUID[Compendium.a5e.a5e-spells.Item.ser51pqchqdb1zqu]{Circular
+      Breathing}, or
+      @UUID[Compendium.a5e.a5e-spells.Item.u0ez2czg763i77kl]{Calculate} as an
+      additional cantrip known, on top of those normally gained by the ability.
+      &nbsp;If you choose Precision Strikes, then 1/2 adept levels count as
+      scholar levels to determine bonus damage. You may activate it as part of
+      the same bonus action used for
+      @UUID[Compendium.a5e.a5e-class-features.Item.0ga9dnbgpq466btw]{Flurry of
+      Blows} or
+      @UUID[Compendium.a5e.a5e-class-features.Item.toaxt1l34b9u4a8y]{Patient
+      Defense}, and if you have Mystic Apprentice you can activate Flurry of
+      Blows after using an action to attack with a cantrip.</li></ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Enlightened Mind feat
+  recharge:
+    value: null
+    charged: true
+effects:
+  - icon: icons/magic/holy/meditation-chi-focus-blue.webp
+    origin: Item.oiiprot6c2q3sa2y
+    flags:
+      a5e:
+        sort: 0
+        transferType: permanent
+    transfer: false
+    name: Holistic Mastery
+    _id: LotsoTF8c9a9eNxb
+    changes:
+      - key: system.attributes.exertion.max
+        value: '@int.mod'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!oiiprot6c2q3sa2y.LotsoTF8c9a9eNxb'
+flags: {}
+_id: oiiprot6c2q3sa2y
+_key: '!items!oiiprot6c2q3sa2y'

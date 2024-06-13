@@ -1,0 +1,117 @@
+folder: null
+name: Ratcheting Heavy Arbalest
+type: weapon
+img: icons/weapons/artillery/ballista-wood-green.webp
+system:
+  description:
+    value: >-
+      <p>&nbsp;This functions as a heavy arbalest, except it may preload up to
+      15 shots at a time. &nbsp;Loading it takes an action, and while so loaded
+      it may fire as if it did not have the loading property.
+      &nbsp;Alternatively, you may expend all preloaded bolts in one round as an
+      action. &nbsp;If you do so, you create a 90 ft cone. &nbsp;Creatures that
+      enter that cone or start their turn in it must make a dexterity saving
+      throw, taking 2d10 on a failed save or half on a success, and the area of
+      the cone is difficult terrain until the start of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 100
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  proficient: true
+  type:
+    value: martialR
+    baseItem: ''
+  properties:
+    - lod
+    - amm
+    - two
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d10
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - icon: icons/weapons/artillery/ballista-wood-green.webp
+    origin: Item.FEvpdME5EdmPPEkk
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Yg5CVu88frZe7m8I
+        applyToSelf: true
+    transfer: false
+    name: Deployed
+    _id: AEDsV0Pqdhg0IzkV
+    changes:
+      - key: system.attributes.movement.walk.distance
+        value: '@original/2'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    folder: null
+    _key: '!items.effects!2umpzox9jojp6wvd.AEDsV0Pqdhg0IzkV'
+flags: {}
+_id: 2umpzox9jojp6wvd
+_key: '!items!2umpzox9jojp6wvd'
