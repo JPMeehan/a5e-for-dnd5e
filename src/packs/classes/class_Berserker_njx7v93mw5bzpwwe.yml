@@ -548,7 +548,180 @@ system:
   levels: 1
   hitDice: d12
   hitDiceUsed: 0
-  advancement: []
+  advancement:
+    - _id: iluMrcA2fyctCTUa
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:light
+          - skills:medium
+          - skills:shield
+        choices:
+          pool: []
+          count: 0
+    - _id: oIdKtqpngKnJd7kC
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:blowgun
+          - skills:club
+          - skills:dagger
+          - skills:handaxe
+          - skills:heavyCrossbow
+          - skills:greatclub
+          - skills:lightCrossbow
+          - skills:mace
+          - skills:quarterstaff
+          - skills:sickle
+          - skills:sling
+          - skills:spear
+          - skills:bastardSword
+          - skills:battleaxe
+          - skills:brassKnuckles
+          - skills:compositeBow
+          - skills:dart
+          - skills:duelingDagger
+          - skills:flail
+          - skills:garotte
+          - skills:glaive
+          - skills:greataxe
+          - skills:greatsword
+          - skills:halberd
+          - skills:handCrossbow
+          - skills:javelin
+          - skills:lance
+          - skills:lightHammer
+          - skills:longbow
+          - skills:longsword
+          - skills:maul
+          - skills:morningstar
+          - skills:net
+          - skills:pike
+          - skills:punchingDagger
+          - skills:rapier
+          - skills:saber
+          - skills:scimitar
+          - skills:scythe
+          - skills:shortbow
+          - skills:shortsword
+          - skills:spearThrower
+          - skills:throwingDagger
+          - skills:trident
+          - skills:warhammer
+          - skills:warPick
+          - skills:whip
+        choices:
+          pool: []
+          count: 0
+    - _id: A3I1gSDRVcTu6uIy
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:str
+          - skills:con
+        choices:
+          pool: []
+          count: 0
+    - _id: 0YmrPVBbUF0YR6Eh
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:ani
+            - skills:ath
+            - skills:itm
+            - skills:nat
+            - skills:prc
+            - skills:ste
+            - skills:sur
+          count: 4
+    - _id: uvOL7ZVe5Yh1e40f
+      type: ItemGrant
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.e588dy6ef1q49kq2
+          - uuid: Compendium.undefined.Item.htgvror5v9twusgs
+          - uuid: Compendium.undefined.Item.9s8qxfmcfqke6q0c
+    - _id: 4MC1SE8oDsL1m2oN
+      type: ItemGrant
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.zrs8vkf574mvulkg
+          - uuid: Compendium.undefined.Item.jx8ahep4je8esb92
+          - uuid: Compendium.undefined.Item.9txksq0xfe5sgspl
+    - _id: 6Kr3ak4ydetxo284
+      type: ItemGrant
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.gn4kg877sckxtfn9
+          - uuid: Compendium.undefined.Item.jrf21ub1qonhh11q
+    - _id: mXjLpo5P1CZk9jlH
+      type: ItemGrant
+      level: 5
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.ncx1gkqpz5dypxx8
+          - uuid: Compendium.undefined.Item.q1v63h8j4a87n3t0
+    - _id: z4KuPaM3nqnlR0yC
+      type: ItemGrant
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.irccnw9xj2ds9t79
+    - _id: Coch1CzhpJhH1BuL
+      type: ItemGrant
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.5gz1xepkt48d2alg
+    - _id: a0QLOWS28dwfRMY8
+      type: ItemGrant
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.crfexgkjgjp5fcm0
+    - _id: dhJOetfXAwq6frS7
+      type: ItemGrant
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.8qpi6h8l8g3a52b1
+    - _id: 8Na2xxIxq33SOflP
+      type: ItemGrant
+      level: 13
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.6tvh98uofh8t7an9
+    - _id: EzMQ4cc4cnJlWBPJ
+      type: ItemGrant
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.ysuu60w7hjdplhyk
+    - _id: B0iis9tQqvztjZVb
+      type: ItemGrant
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.1hlys25939krcp58
+    - _id: GeYDXLYCyniqedTB
+      type: ItemGrant
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.4udjcfge83gs304g
   spellcasting:
     ability: none
     progression: none

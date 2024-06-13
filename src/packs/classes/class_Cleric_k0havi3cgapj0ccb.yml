@@ -363,7 +363,148 @@ system:
   levels: 1
   hitDice: d8
   hitDiceUsed: 0
-  advancement: []
+  advancement:
+    - _id: qA37Lvr1FiK7U57z
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:blowgun
+          - skills:club
+          - skills:dagger
+          - skills:handaxe
+          - skills:heavyCrossbow
+          - skills:greatclub
+          - skills:lightCrossbow
+          - skills:mace
+          - skills:quarterstaff
+          - skills:sickle
+          - skills:sling
+          - skills:spear
+        choices:
+          pool: []
+          count: 0
+    - _id: KRyziTZOrq26K5Wv
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:alchemistsSupplies
+            - skills:bookbindersKit
+            - skills:brewersSupplies
+            - skills:calligraphersSupplies
+            - skills:carpentersTools
+            - skills:cartographersTools
+            - skills:cobblersTools
+            - skills:cooksUtensils
+            - skills:glassblowersTools
+            - skills:jewelersTools
+            - skills:leatherworkersTools
+            - skills:masonsTools
+            - skills:paintersSupplies
+            - skills:pottersTools
+            - skills:tinkersTools
+            - skills:weaversTools
+            - skills:woodcarversTools
+            - skills:bagpipes
+            - skills:casaba
+            - skills:castanet
+            - skills:drum
+            - skills:dulcimer
+            - skills:flute
+            - skills:harp
+            - skills:horn
+            - skills:lute
+            - skills:lyre
+            - skills:maraca
+            - skills:ocarina
+            - skills:panFlute
+            - skills:trombone
+            - skills:violin
+            - skills:herbalismKit
+          count: 1
+    - _id: eHm9JupOcjAEbSnw
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:wis
+        choices:
+          pool:
+            - skills:int
+            - skills:cha
+          count: 1
+    - _id: OkIE15EAvk3HSCfB
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:cul
+            - skills:his
+            - skills:ins
+            - skills:med
+            - skills:per
+            - skills:rel
+          count: 2
+    - _id: OdHwcpeBrppsU0ms
+      type: ItemGrant
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.orhewvz33vmmkfc5
+          - uuid: Compendium.undefined.Item.l9kvw4n809k17gsy
+          - uuid: Compendium.undefined.Item.axllcphld6abmm1p
+    - _id: t6GSEa6ybgBEzYrN
+      type: ItemGrant
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.0dwsf82gco1j8ghu
+          - uuid: Compendium.undefined.Item.s4iiatrup3e3virw
+    - _id: 8wuhZ4a5dL72x4FV
+      type: ItemGrant
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.319mwkz0dd6sznnv
+    - _id: HjXcBzM09rWHksku
+      type: ItemGrant
+      level: 4
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.nghsyyxk1mmuud2x
+    - _id: iqR3ao1t0TR87U5w
+      type: ItemGrant
+      level: 5
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.zezsezm2e0azb3ty
+    - _id: hOsMavJlRYZBQcDw
+      type: ItemGrant
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.98ceg9uqvmr74u1z
+    - _id: XyobD4cB71ULHMUC
+      type: ItemGrant
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.2jlxytgjvgjnafvr
+    - _id: aU6mU5qLaSPnIuye
+      type: ItemGrant
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.cmpu5ulgmrnpa0wx
   spellcasting:
     ability: wis
     progression: fullCaster

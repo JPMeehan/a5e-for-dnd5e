@@ -61,7 +61,171 @@ system:
   levels: 1
   hitDice: d8
   hitDiceUsed: 0
-  advancement: []
+  advancement:
+    - _id: rMCTkDL3cIIM0wrK
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:light
+        choices:
+          pool: []
+          count: 0
+    - _id: hNinQz1bky6JaP4Z
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:blowgun
+          - skills:club
+          - skills:dagger
+          - skills:handaxe
+          - skills:heavyCrossbow
+          - skills:greatclub
+          - skills:lightCrossbow
+          - skills:mace
+          - skills:quarterstaff
+          - skills:sickle
+          - skills:sling
+          - skills:spear
+        choices:
+          pool: []
+          count: 0
+    - _id: 6sXtCJKPsnCKZdcd
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:alchemistsSupplies
+            - skills:bookbindersKit
+            - skills:brewersSupplies
+            - skills:calligraphersSupplies
+            - skills:carpentersTools
+            - skills:cartographersTools
+            - skills:cobblersTools
+            - skills:cooksUtensils
+            - skills:glassblowersTools
+            - skills:jewelersTools
+            - skills:leatherworkersTools
+            - skills:masonsTools
+            - skills:paintersSupplies
+            - skills:pottersTools
+            - skills:tinkersTools
+            - skills:weaversTools
+            - skills:woodcarversTools
+            - skills:bagpipes
+            - skills:casaba
+            - skills:castanet
+            - skills:drum
+            - skills:dulcimer
+            - skills:flute
+            - skills:harp
+            - skills:horn
+            - skills:lute
+            - skills:lyre
+            - skills:maraca
+            - skills:ocarina
+            - skills:panFlute
+            - skills:trombone
+            - skills:violin
+            - skills:disguiseKit
+            - skills:forgeryKit
+            - skills:herbalismKit
+            - skills:navigatorsTools
+            - skills:poisonersKit
+            - skills:sewingKit
+            - skills:smithsTools
+            - skills:thievesTools
+          count: 1
+    - _id: sYO9xJzdQnAro7G3
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:int
+          - skills:wis
+        choices:
+          pool: []
+          count: 0
+    - _id: nWMicz4eDPX4lP38
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:ani
+            - skills:arc
+            - skills:cul
+            - skills:eng
+            - skills:his
+            - skills:ins
+            - skills:inv
+            - skills:med
+            - skills:nat
+            - skills:prc
+          count: 4
+    - _id: kEBJSEgs8ftLC4NS
+      type: ItemGrant
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.msqiaadyn4lilf8b
+          - uuid: Compendium.undefined.Item.tewtrkn7vxsjss5j
+          - uuid: Compendium.undefined.Item.hwvg960u7r646yx2
+    - _id: HZvtKURAkESz8I75
+      type: ItemGrant
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.h0m9k6nhgdo4aiu2
+          - uuid: Compendium.undefined.Item.y3hiwasiwid8gz1u
+    - _id: xI9mCiX0PFnSsvIb
+      type: ItemGrant
+      level: 5
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.jet01i63abb2v66h
+          - uuid: Compendium.undefined.Item.8mnttob3hnqjywzq
+    - _id: YPviza5Z3tg017Oq
+      type: ItemGrant
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.luapp6zqydhkeemn
+    - _id: RY819kpSIinYw4w2
+      type: ItemGrant
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.m36tik3n2m6qa4ci
+    - _id: 20Zt9xbvD1Vbo8Ci
+      type: ItemGrant
+      level: 13
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.ka6y3igvu8kz3y1v
+    - _id: 64QvmHYJwR9Gevsv
+      type: ItemGrant
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.9wln6kiazm9wl7mw
+          - uuid: Compendium.undefined.Item.e1igphq3svnvagl4
+    - _id: q7h7Q7Gw6FImUy4z
+      type: ItemGrant
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.nkvadgg6nsrvscat
+          - uuid: Compendium.undefined.Item.1ziq6egix8rxrp9k
   spellcasting:
     ability: none
     progression: none

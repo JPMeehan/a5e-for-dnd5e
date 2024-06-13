@@ -353,7 +353,125 @@ system:
   levels: 1
   hitDice: d6
   hitDiceUsed: 0
-  advancement: []
+  advancement:
+    - _id: VrINCvOufZZdjYwP
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:dagger
+          - skills:sling
+          - skills:quarterstaff
+          - skills:dart
+        choices:
+          pool: []
+          count: 0
+    - _id: IYEQRQivf6lRsHHB
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:alchemistsSupplies
+            - skills:calligraphersSupplies
+            - skills:cartographersTools
+          count: 1
+    - _id: 20T5bgD6D9HUblRG
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:int
+          - skills:wis
+        choices:
+          pool: []
+          count: 0
+    - _id: vbPsOWwGMVfN3edr
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:arc
+            - skills:his
+            - skills:ins
+            - skills:inv
+            - skills:med
+            - skills:rel
+          count: 2
+    - _id: hbqSHr3iNLx4dDYM
+      type: ItemGrant
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.z4jrcpyixdtczw8r
+          - uuid: Compendium.undefined.Item.iqlgotutphoratct
+    - _id: 7S4WTFEqbziSLhW1
+      type: ItemGrant
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.szxgzc4zmt9zam9f
+    - _id: Om6nFovHqsfKiQIo
+      type: ItemGrant
+      level: 4
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.1u4hyjbgjmvl22js
+    - _id: FTNlYwP0wzw4skUG
+      type: ItemGrant
+      level: 5
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.iojeid79x6ghgcw9
+    - _id: KTizN33fT3uywehy
+      type: ItemGrant
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.aap4al37tcw2f7o6
+    - _id: DDruZn5BUDK0uh67
+      type: ItemGrant
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.nzb62jeh28fulijh
+    - _id: E75PMObZ8lTF0kuv
+      type: ItemGrant
+      level: 13
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.mzxxtpgwqysuu768
+    - _id: Q4DCWOwbHkMCmiNI
+      type: ItemGrant
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.5qj66vxpx6fjz1fz
+    - _id: qXiDIK724Qqf8DP2
+      type: ItemGrant
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.qbv1libonkv9g5aq
+    - _id: 72k5JfFC5r5ILDC2
+      type: ItemGrant
+      level: 19
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.zdivfoqxcey624ql
+    - _id: tWyAeEQF0KRBGfJv
+      type: ItemGrant
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.5d4jtdca7omu0gt2
   spellcasting:
     ability: int
     progression: fullCaster

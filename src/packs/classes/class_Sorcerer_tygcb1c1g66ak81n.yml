@@ -385,7 +385,105 @@ system:
   levels: 1
   hitDice: d6
   hitDiceUsed: 0
-  advancement: []
+  advancement:
+    - _id: kfuy8tmH46PMJm5R
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:dagger
+          - skills:quarterstaff
+          - skills:lightCrossbow
+          - skills:sling
+          - skills:dart
+        choices:
+          pool: []
+          count: 0
+    - _id: 6Gi5O40vuHICduXx
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants:
+          - skills:con
+          - skills:cha
+        choices:
+          pool: []
+          count: 0
+    - _id: n3Du9456vN5s48CM
+      type: Trait
+      level: 1
+      configuration:
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - skills:arc
+            - skills:dec
+            - skills:ins
+            - skills:itm
+            - skills:prf
+            - skills:per
+            - skills:rel
+          count: 2
+    - _id: 903n1Bgqsq5wLFvy
+      type: ItemGrant
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.whx7ar38i1nr1js4
+    - _id: 2zpkVnJH543PwyD9
+      type: ItemGrant
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.8lf349fflv8456yj
+          - uuid: Compendium.undefined.Item.h2tobazibq72ybdo
+    - _id: noTCnHuPvBEHH34G
+      type: ItemGrant
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.a39b0sdy2grpw5sn
+          - uuid: Compendium.undefined.Item.q162ah61o4pgc1dd
+    - _id: lTl5m2pqvnr6EC5A
+      type: ItemGrant
+      level: 4
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.7jxnq4in81dmi93t
+    - _id: pT3SRKUnVL2GC7Xz
+      type: ItemGrant
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.huephhrybue9iiws
+    - _id: bvPInBMgo7tOcP6W
+      type: ItemGrant
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.q3gqqfr37rumjbf6
+    - _id: l7PkxoyZj25HtlvU
+      type: ItemGrant
+      level: 12
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.3cccwpqerr3v215w
+    - _id: YfHxUSNtoJFW6UFB
+      type: ItemGrant
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.s1ii8g1x1bdgoc0v
+    - _id: Za0rde8BQap8QPRj
+      type: ItemGrant
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.undefined.Item.tj2fyu1ttwk6sfxc
+          - uuid: Compendium.undefined.Item.pvgi4rdr5rptetgp
   spellcasting:
     ability: cha
     progression: fullCaster

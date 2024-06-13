@@ -1422,6 +1422,7 @@ function migrateClass(system) {
     },
     wealth: system.wealth,
   };
+  processGrants(o5e, system.grants, 'class');
   return o5e;
 }
 
