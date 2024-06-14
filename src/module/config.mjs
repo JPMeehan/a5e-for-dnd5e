@@ -239,7 +239,7 @@ const A5E_CONFIG = {
       disg: 'Compendium.a5e-for-dnd5e.gear.Item.3906eejw1gtmziv1',
       drum: 'Compendium.a5e-for-dnd5e.gear.Item.3sli49o1u8f23qqy',
       dulcimer: 'Compendium.a5e-for-dnd5e.gear.Item.xpqiy7mlahmq42b4',
-      flute: 'Compendium.a5e-for-dnd5e.gear.Item.xpqiy7mlahmq42b4',
+      flute: 'Compendium.a5e-for-dnd5e.gear.Item.xlgxl1qcmsjtixxu',
       forg: 'Compendium.a5e-for-dnd5e.gear.Item.uwrm02lk6beqqt92',
       glassblower: 'Compendium.a5e-for-dnd5e.gear.Item.j741azczxb9ra2q6',
       harp: 'Compendium.a5e-for-dnd5e.gear.Item.paxo8qi1p7cpxq5w',
