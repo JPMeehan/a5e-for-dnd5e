@@ -1471,9 +1471,9 @@ function processGrants(o5e, grants, type) {
         };
         o5e.advancement.push(asi);
         break;
-      case 'attack': // none implemented yet
+      case 'attack': // Active Effect
         break;
-      case 'damage': // Active Effect?
+      case 'damage': // Active Effect
         break;
       case 'exertion': // Class property - note that sometimes pool is 1x prof
         break;
@@ -1514,7 +1514,7 @@ function processGrants(o5e, grants, type) {
         break;
       case 'initiative': // none implemented yet
         break;
-      case 'hitPoint': // none implemented yet
+      case 'hitPoint': // Active Effect
         break;
       case 'item':
         if (type === 'background') {
@@ -1561,6 +1561,8 @@ function processGrants(o5e, grants, type) {
         };
         o5e.advancement.push(skill);
         break;
+      case 'rollOverride': // AE? MIDI?
+        break;
       case 'senses':
         if (type === 'heritage') {
           for (const senseType of grant.senses.base) {
@@ -1568,9 +1570,9 @@ function processGrants(o5e, grants, type) {
           }
         } // not handling culture or class features yet
         break;
-      case 'skills': // none implemented yet
+      case 'skill': // Active Effect
         break;
-      case 'skillSpecialty': // AE?
+      case 'skillSpecialty': // Active Effect
         break;
       case 'trait':
         if (grant.traits.traitType === 'creatureTypes') {

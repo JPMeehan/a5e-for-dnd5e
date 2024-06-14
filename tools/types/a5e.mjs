@@ -229,6 +229,18 @@
  */
 
 /**
+ * @typedef RollOverrideGrant
+ * @property {"rollOverride"} grantType
+ * @property {object} keys
+ * @property {string[]} keys.base
+ * @property {string[]} keys.options
+ * @property {number} keys.total
+ * @property {number} rollMode
+ * @property {string} rollOverrideType
+ * @property {string} label
+ */
+
+/**
  * @typedef SensesGrant
  * @property {"senses"} grantType
  * @property {object} senses
@@ -243,7 +255,7 @@
 
 /**
  * @typedef SkillGrant
- * @property {"skills"} grantType
+ * @property {"skill"} grantType
  * @property {object} skills
  * @property {string[]} skills.base
  * @property {string[]} skills.options
