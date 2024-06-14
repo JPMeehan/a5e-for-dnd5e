@@ -1517,7 +1517,7 @@ function processGrants(o5e, grants, type) {
       case 'hitPoint': // Active Effect
         break;
       case 'item':
-        if (type === 'background') {
+        if (['background', 'class'].includes(type)) {
           /** @type {import('./types/dnd5e.mjs').EquipmentEntryData[]} */
           const items = o5e.startingEquipment;
           if (grant.items.base?.length) {
