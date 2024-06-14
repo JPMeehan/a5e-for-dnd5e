@@ -178,7 +178,7 @@ function abbr(word) {
     vipersFangs: 'vif',
     /** Tools */
     alchemistsSupplies: 'alchemist',
-    bookbindersKit: '',
+    bookbindersKit: 'book',
     brewersSupplies: 'brewer',
     calligraphersSupplies: 'calligrapher',
     carpentersTools: 'carpenter',
