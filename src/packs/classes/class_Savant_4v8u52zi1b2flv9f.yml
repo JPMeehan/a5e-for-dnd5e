@@ -447,19 +447,8 @@ system:
         mode: default
         allowReplacements: false
         grants:
-          - weapon:sim:blowgun
-          - weapon:sim:club
-          - weapon:sim:dagger
-          - weapon:sim:handaxe
-          - weapon:sim:heavycrossbow
-          - weapon:sim:greatclub
-          - weapon:sim:lightcrossbow
-          - weapon:sim:mace
-          - weapon:sim:quarterstaff
-          - weapon:sim:sickle
-          - weapon:sim:sling
-          - weapon:sim:spear
           - weapon:mar:improvised weapons
+          - weapon:sim:*
         choices: []
     - _id: PrOxjarZX1tVbN2o
       type: Trait

@@ -439,22 +439,11 @@ system:
         mode: default
         allowReplacements: false
         grants:
-          - weapon:sim:blowgun
-          - weapon:sim:club
-          - weapon:sim:dagger
-          - weapon:sim:handaxe
-          - weapon:sim:heavycrossbow
-          - weapon:sim:greatclub
-          - weapon:sim:lightcrossbow
-          - weapon:sim:mace
-          - weapon:sim:quarterstaff
-          - weapon:sim:sickle
-          - weapon:sim:sling
-          - weapon:sim:spear
           - weapon:mar:handcrossbow
           - weapon:mar:longsword
           - weapon:mar:rapier
           - weapon:mar:shortsword
+          - weapon:sim:*
         choices: []
     - _id: 3OYRq9HF3MCZR0aA
       type: Trait
@@ -493,26 +482,7 @@ system:
         grants: []
         choices:
           - pool:
-              - skills:acr
-              - skills:ani
-              - skills:arc
-              - skills:ath
-              - skills:cul
-              - skills:dec
-              - skills:eng
-              - skills:his
-              - skills:ins
-              - skills:itm
-              - skills:inv
-              - skills:med
-              - skills:nat
-              - skills:prc
-              - skills:prf
-              - skills:per
-              - skills:rel
-              - skills:slt
-              - skills:ste
-              - skills:sur
+              - skills:*
             count: 3
     - _id: FAS2kWInIvPWIGWk
       type: ItemGrant

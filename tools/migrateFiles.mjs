@@ -1640,6 +1640,34 @@ function profConfig(keys, proficiencyType) {
     weapon: mapWeapons,
   }[proficiencyType];
 
+  const parseAny = (grants, prefix, threshold) => {
+    const test = grants.filter((g) => g.startsWith(prefix));
+    if (test.length > threshold)
+      return grants.filter((g) => !g.startsWith(prefix)).concat(prefix + '*');
+    return grants;
+  };
+
+  const reduceGrants = (grants) => {
+    switch (proficiencyType) {
+      case 'savingThrow':
+        if (grants.length === 6) return ['saves:*'];
+        break;
+      case 'skill':
+        if (grants.length > 15) return ['skills:*'];
+        break;
+      case 'tool':
+        grants = parseAny(grants, 'tool:art:', 10);
+        grants = parseAny(grants, 'tool:music:', 10);
+        grants = parseAny(grants, 'tool:game:', 2);
+        break;
+      case 'weapon':
+        grants = parseAny(grants, 'weapon:sim:', 8);
+        grants = parseAny(grants, 'weapon:mar:', 12);
+        break;
+    }
+    return grants;
+  };
+
   const config = {
     mode: 'default',
     allowReplacements: false,
@@ -1647,38 +1675,14 @@ function profConfig(keys, proficiencyType) {
     choices: [],
   };
 
-  config.grants = Array.from(new Set(config.grants));
+  config.grants = reduceGrants(config.grants);
 
   if (keys.total) {
     let pool = Array.from(
       new Set((keys.options ?? []).map((k) => prefix + callback(k)) ?? [])
     );
 
-    switch (proficiencyType) {
-      case 'savingThrow':
-        if (keys.total === 6) pool = ['saves:*'];
-        break;
-      case 'skill':
-        if (keys.total > 15) pool = ['skills:*'];
-        break;
-      case 'tool':
-        const arts = pool.filter((t) => t.startsWith('tool:art:'));
-        if (arts.length > 10)
-          pool = pool
-            .filter((t) => !t.startsWith('tool:art:'))
-            .concat(['tool:art:*']);
-        const music = pool.filter((t) => t.startsWith('tool:music:'));
-        if (music.length > 10)
-          pool = pool
-            .filter((t) => !t.startsWith('tool:music:'))
-            .concat(['tool:music:*']);
-        const gaming = pool.filter((t) => t.startsWith('tool:game:'));
-        if (gaming.length >= 3)
-          pool = pool
-            .filter((t) => !t.startsWith('tool:game:'))
-            .concat(['tool:game:*']);
-        break;
-    }
+    pool = reduceGrants(pool);
 
     config.choices.push({
       pool: pool,

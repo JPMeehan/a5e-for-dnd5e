@@ -523,53 +523,8 @@ system:
         mode: default
         allowReplacements: false
         grants:
-          - weapon:sim:blowgun
-          - weapon:sim:club
-          - weapon:sim:dagger
-          - weapon:sim:handaxe
-          - weapon:sim:heavycrossbow
-          - weapon:sim:greatclub
-          - weapon:sim:lightcrossbow
-          - weapon:sim:mace
-          - weapon:sim:quarterstaff
-          - weapon:sim:sickle
-          - weapon:sim:sling
-          - weapon:sim:spear
-          - weapon:mar:bastardsword
-          - weapon:mar:battleaxe
-          - weapon:mar:brassknuckles
-          - weapon:mar:compositebow
-          - weapon:mar:dart
-          - weapon:mar:duelingdagger
-          - weapon:mar:flail
-          - weapon:mar:garotte
-          - weapon:mar:glaive
-          - weapon:mar:greataxe
-          - weapon:mar:greatsword
-          - weapon:mar:halberd
-          - weapon:mar:handcrossbow
-          - weapon:mar:javelin
-          - weapon:mar:lance
-          - weapon:mar:lighthammer
-          - weapon:mar:longbow
-          - weapon:mar:longsword
-          - weapon:mar:maul
-          - weapon:mar:morningstar
-          - weapon:mar:net
-          - weapon:mar:pike
-          - weapon:mar:punchingdagger
-          - weapon:mar:rapier
-          - weapon:mar:saber
-          - weapon:mar:scimitar
-          - weapon:mar:scythe
-          - weapon:mar:shortbow
-          - weapon:mar:shortsword
-          - weapon:mar:spearthrower
-          - weapon:mar:throwingdagger
-          - weapon:mar:trident
-          - weapon:mar:warhammer
-          - weapon:mar:warpick
-          - weapon:mar:whip
+          - weapon:sim:*
+          - weapon:mar:*
         choices: []
     - _id: Y0wDrYTmVrkuuWMq
       type: Trait

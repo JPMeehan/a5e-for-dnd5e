@@ -58,25 +58,7 @@ system:
           - skills:rel
         choices:
           - pool:
-              - skills:acr
-              - skills:ani
-              - skills:arc
-              - skills:ath
-              - skills:cul
-              - skills:dec
-              - skills:eng
-              - skills:his
-              - skills:ins
-              - skills:itm
-              - skills:inv
-              - skills:med
-              - skills:nat
-              - skills:prc
-              - skills:prf
-              - skills:per
-              - skills:slt
-              - skills:ste
-              - skills:sur
+              - skills:*
             count: 1
     - _id: UHQDMShUvouatH9q
       type: ItemGrant

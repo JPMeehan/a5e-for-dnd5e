@@ -85,10 +85,8 @@ system:
         mode: default
         allowReplacements: false
         grants:
-          - tool:game:dice
-          - tool:game:chess
-          - tool:game:card
           - tool:thief
+          - tool:game:*
         choices: []
     - _id: ZIb2fuyo9RdoPLsW
       type: ItemGrant

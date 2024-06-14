@@ -82,26 +82,7 @@ system:
         grants: []
         choices:
           - pool:
-              - skills:acr
-              - skills:ani
-              - skills:arc
-              - skills:ath
-              - skills:cul
-              - skills:dec
-              - skills:eng
-              - skills:his
-              - skills:ins
-              - skills:itm
-              - skills:inv
-              - skills:med
-              - skills:nat
-              - skills:prc
-              - skills:prf
-              - skills:per
-              - skills:rel
-              - skills:slt
-              - skills:ste
-              - skills:sur
+              - skills:*
             count: 2
     - _id: LOBPdwpR6VyU4QG3
       type: Trait
