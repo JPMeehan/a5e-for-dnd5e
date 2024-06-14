@@ -1636,10 +1636,12 @@ function profConfig(keys, proficiencyType) {
     mode: 'default',
     allowReplacements: false,
     grants: (keys.base ?? []).map((k) => prefix + callback(k)) ?? [],
-    choices: {
-      pool: (keys.options ?? []).map((k) => prefix + callback(k)) ?? [],
-      count: keys.total,
-    },
+    choices: [
+      {
+        pool: (keys.options ?? []).map((k) => prefix + callback(k)) ?? [],
+        count: keys.total,
+      },
+    ],
   };
 }
 

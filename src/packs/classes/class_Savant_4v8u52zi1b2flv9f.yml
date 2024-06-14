@@ -458,8 +458,8 @@ system:
           - weapon:sim:spear
           - weapon:mar:improvised weapons
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: PrOxjarZX1tVbN2o
       type: Trait
       level: 1
@@ -468,51 +468,51 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:art:alchemist
-            - tool:undefined
-            - tool:art:brewer
-            - tool:art:calligrapher
-            - tool:art:carpenter
-            - tool:art:cartographer
-            - tool:art:cobbler
-            - tool:art:cook
-            - tool:art:glassblower
-            - tool:art:jeweler
-            - tool:art:leatherworker
-            - tool:art:mason
-            - tool:art:painter
-            - tool:art:potter
-            - tool:art:tinker
-            - tool:art:weaver
-            - tool:art:woodcarver
-            - tool:game:dice
-            - tool:game:chess
-            - tool:game:card
-            - tool:music:bagpipes
-            - tool:music:casaba
-            - tool:music:castanet
-            - tool:music:drum
-            - tool:music:dulcimer
-            - tool:music:flute
-            - tool:music:harp
-            - tool:music:horn
-            - tool:music:lute
-            - tool:music:lyre
-            - tool:music:maraca
-            - tool:music:ocarina
-            - tool:music:panflute
-            - tool:music:trombone
-            - tool:music:viol
-            - tool:disg
-            - tool:forg
-            - tool:herb
-            - tool:navg
-            - tool:pois
-            - tool:art:sew
-            - tool:art:smith
-            - tool:thief
-          count: 1
+          - pool:
+              - tool:art:alchemist
+              - tool:undefined
+              - tool:art:brewer
+              - tool:art:calligrapher
+              - tool:art:carpenter
+              - tool:art:cartographer
+              - tool:art:cobbler
+              - tool:art:cook
+              - tool:art:glassblower
+              - tool:art:jeweler
+              - tool:art:leatherworker
+              - tool:art:mason
+              - tool:art:painter
+              - tool:art:potter
+              - tool:art:tinker
+              - tool:art:weaver
+              - tool:art:woodcarver
+              - tool:game:dice
+              - tool:game:chess
+              - tool:game:card
+              - tool:music:bagpipes
+              - tool:music:casaba
+              - tool:music:castanet
+              - tool:music:drum
+              - tool:music:dulcimer
+              - tool:music:flute
+              - tool:music:harp
+              - tool:music:horn
+              - tool:music:lute
+              - tool:music:lyre
+              - tool:music:maraca
+              - tool:music:ocarina
+              - tool:music:panflute
+              - tool:music:trombone
+              - tool:music:viol
+              - tool:disg
+              - tool:forg
+              - tool:herb
+              - tool:navg
+              - tool:pois
+              - tool:art:sew
+              - tool:art:smith
+              - tool:thief
+            count: 1
     - _id: VooZiOk8nXTNmOxR
       type: Trait
       level: 1
@@ -523,8 +523,8 @@ system:
           - saves:dex
           - saves:int
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: E41mmCl6fKSKtik8
       type: Trait
       level: 1
@@ -533,19 +533,19 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:arc
-            - skills:cul
-            - skills:dec
-            - skills:eng
-            - skills:ins
-            - skills:inv
-            - skills:med
-            - skills:prc
-            - skills:prf
-            - skills:per
-            - skills:slt
-          count: 3
+          - pool:
+              - skills:arc
+              - skills:cul
+              - skills:dec
+              - skills:eng
+              - skills:ins
+              - skills:inv
+              - skills:med
+              - skills:prc
+              - skills:prf
+              - skills:per
+              - skills:slt
+            count: 3
     - _id: uyrjdHC9KmMVKpoH
       type: ItemGrant
       level: 1

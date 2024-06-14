@@ -71,10 +71,10 @@ system:
         grants:
           - skills:ste
         choices:
-          pool:
-            - skills:dec
-            - skills:inv
-          count: 1
+          - pool:
+              - skills:dec
+              - skills:inv
+            count: 1
     - _id: B2gH8HIm1eWYlOMu
       type: ItemGrant
       level: 0
@@ -90,10 +90,10 @@ system:
         grants:
           - tool:thief
         choices:
-          pool:
-            - tool:disg
-            - tool:forg
-          count: 1
+          - pool:
+              - tool:disg
+              - tool:forg
+            count: 1
   startingEquipment: []
 effects: []
 flags: {}

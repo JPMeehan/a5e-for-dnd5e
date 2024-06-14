@@ -77,10 +77,10 @@ system:
           - skills:cul
           - skills:his
         choices:
-          pool:
-            - skills:ani
-            - skills:per
-          count: 1
+          - pool:
+              - skills:ani
+              - skills:per
+            count: 1
     - _id: y7uULHy4C0KpktZh
       type: Trait
       level: 0
@@ -89,11 +89,11 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:game:dice
-            - tool:game:chess
-            - tool:game:card
-          count: 1
+          - pool:
+              - tool:game:dice
+              - tool:game:chess
+              - tool:game:card
+            count: 1
     - _id: k2M4kY4vyA6tRrte
       type: Trait
       level: 0

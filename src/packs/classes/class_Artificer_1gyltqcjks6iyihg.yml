@@ -548,8 +548,8 @@ system:
           - armor:hvy
           - armor:shield
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: 5nnwM62vnfQDgvBJ
       type: Trait
       level: 1
@@ -575,8 +575,8 @@ system:
           - weapon:mar:throwingdagger
           - weapon:rare:gearedslingshot
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: LSdQIr5TLN58Lb38
       type: Trait
       level: 1
@@ -587,26 +587,26 @@ system:
           - tool:art:tinker
           - tool:thief
         choices:
-          pool:
-            - tool:art:alchemist
-            - tool:undefined
-            - tool:art:brewer
-            - tool:art:calligrapher
-            - tool:art:carpenter
-            - tool:art:cartographer
-            - tool:art:cobbler
-            - tool:art:cook
-            - tool:art:glassblower
-            - tool:art:jeweler
-            - tool:art:leatherworker
-            - tool:art:mason
-            - tool:art:painter
-            - tool:art:potter
-            - tool:art:tinker
-            - tool:art:weaver
-            - tool:art:woodcarver
-            - tool:art:smith
-          count: 1
+          - pool:
+              - tool:art:alchemist
+              - tool:undefined
+              - tool:art:brewer
+              - tool:art:calligrapher
+              - tool:art:carpenter
+              - tool:art:cartographer
+              - tool:art:cobbler
+              - tool:art:cook
+              - tool:art:glassblower
+              - tool:art:jeweler
+              - tool:art:leatherworker
+              - tool:art:mason
+              - tool:art:painter
+              - tool:art:potter
+              - tool:art:tinker
+              - tool:art:weaver
+              - tool:art:woodcarver
+              - tool:art:smith
+            count: 1
     - _id: tnGmbH01jvBZWhpN
       type: Trait
       level: 1
@@ -617,8 +617,8 @@ system:
           - saves:con
           - saves:int
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: XHY67tzVoB05w5zJ
       type: Trait
       level: 1
@@ -628,16 +628,16 @@ system:
         grants:
           - skills:eng
         choices:
-          pool:
-            - skills:arc
-            - skills:cul
-            - skills:his
-            - skills:inv
-            - skills:med
-            - skills:nat
-            - skills:prc
-            - skills:slt
-          count: 3
+          - pool:
+              - skills:arc
+              - skills:cul
+              - skills:his
+              - skills:inv
+              - skills:med
+              - skills:nat
+              - skills:prc
+              - skills:slt
+            count: 3
     - _id: d6OUiCa2VbjF21Mk
       type: ItemGrant
       level: 1

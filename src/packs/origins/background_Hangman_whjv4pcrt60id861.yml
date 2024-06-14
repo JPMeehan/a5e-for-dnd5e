@@ -66,11 +66,11 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:itm
-            - skills:med
-            - skills:prf
-          count: 2
+          - pool:
+              - skills:itm
+              - skills:med
+              - skills:prf
+            count: 2
     - _id: 1MFPMrmjOEzfJC1K
       type: Trait
       level: 0
@@ -80,8 +80,8 @@ system:
         grants:
           - tool:pois
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
   startingEquipment: []
 effects: []
 flags: {}

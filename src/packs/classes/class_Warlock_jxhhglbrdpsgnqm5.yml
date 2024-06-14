@@ -585,8 +585,8 @@ system:
         grants:
           - armor:lgt
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: G5F7IgnrYwsbWn3S
       type: Trait
       level: 1
@@ -607,8 +607,8 @@ system:
           - weapon:sim:sling
           - weapon:sim:spear
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: pIMhpn4LlNDKa5Xd
       type: Trait
       level: 1
@@ -618,8 +618,8 @@ system:
         grants:
           - tool:game:card
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: 4yUS8iaQ5Wfi8Whd
       type: Trait
       level: 1
@@ -630,8 +630,8 @@ system:
           - saves:int
           - saves:wis
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: fyIq2tAjvgSr3Ayn
       type: Trait
       level: 1
@@ -640,15 +640,15 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:arc
-            - skills:dec
-            - skills:his
-            - skills:itm
-            - skills:inv
-            - skills:nat
-            - skills:rel
-          count: 2
+          - pool:
+              - skills:arc
+              - skills:dec
+              - skills:his
+              - skills:itm
+              - skills:inv
+              - skills:nat
+              - skills:rel
+            count: 2
     - _id: yTa6DhFdrgpoLLSJ
       type: ItemGrant
       level: 1

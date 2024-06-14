@@ -75,10 +75,10 @@ system:
         grants:
           - skills:ath
         choices:
-          pool:
-            - skills:ani
-            - skills:itm
-          count: 1
+          - pool:
+              - skills:ani
+              - skills:itm
+            count: 1
     - _id: HllVezvQjndoR9lj
       type: Trait
       level: 0
@@ -87,11 +87,11 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:game:dice
-            - tool:game:chess
-            - tool:game:card
-          count: 1
+          - pool:
+              - tool:game:dice
+              - tool:game:chess
+              - tool:game:card
+            count: 1
     - _id: XFyAMVmPFk4qtCQ6
       type: Trait
       level: 0

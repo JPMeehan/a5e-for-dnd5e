@@ -96,10 +96,10 @@ system:
         grants:
           - skills:eng
         choices:
-          pool:
-            - skills:nat
-            - skills:prc
-          count: 1
+          - pool:
+              - skills:nat
+              - skills:prc
+            count: 1
     - _id: dORcNib7lPT5ZA70
       type: ItemGrant
       level: 1
@@ -114,26 +114,26 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:art:alchemist
-            - tool:undefined
-            - tool:art:brewer
-            - tool:art:calligrapher
-            - tool:art:carpenter
-            - tool:art:cartographer
-            - tool:art:cobbler
-            - tool:art:cook
-            - tool:art:glassblower
-            - tool:art:jeweler
-            - tool:art:leatherworker
-            - tool:art:mason
-            - tool:art:painter
-            - tool:art:potter
-            - tool:art:tinker
-            - tool:art:weaver
-            - tool:art:woodcarver
-            - tool:art:smith
-          count: 1
+          - pool:
+              - tool:art:alchemist
+              - tool:undefined
+              - tool:art:brewer
+              - tool:art:calligrapher
+              - tool:art:carpenter
+              - tool:art:cartographer
+              - tool:art:cobbler
+              - tool:art:cook
+              - tool:art:glassblower
+              - tool:art:jeweler
+              - tool:art:leatherworker
+              - tool:art:mason
+              - tool:art:painter
+              - tool:art:potter
+              - tool:art:tinker
+              - tool:art:weaver
+              - tool:art:woodcarver
+              - tool:art:smith
+            count: 1
     - _id: mUsXJx3WYGL3oMv0
       type: Trait
       level: 1
@@ -156,8 +156,8 @@ system:
           - weapon:mar:warhammer
           - weapon:mar:warpick
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
   startingEquipment: []
 effects: []
 flags: {}

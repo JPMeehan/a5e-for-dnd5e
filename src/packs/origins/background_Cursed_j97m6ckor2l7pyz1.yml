@@ -52,11 +52,11 @@ system:
         grants:
           - skills:prc
         choices:
-          pool:
-            - skills:arc
-            - skills:nat
-            - skills:rel
-          count: 1
+          - pool:
+              - skills:arc
+              - skills:nat
+              - skills:rel
+            count: 1
     - _id: 9yJcN0oeMTmRU6zM
       type: ItemGrant
       level: 0

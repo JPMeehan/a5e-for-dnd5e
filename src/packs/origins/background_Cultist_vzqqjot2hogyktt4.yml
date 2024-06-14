@@ -80,10 +80,10 @@ system:
         grants:
           - skills:rel
         choices:
-          pool:
-            - skills:arc
-            - skills:dec
-          count: 1
+          - pool:
+              - skills:arc
+              - skills:dec
+            count: 1
     - _id: sR8pMGmsYySzxXGE
       type: Trait
       level: 0

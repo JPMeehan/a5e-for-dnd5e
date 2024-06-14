@@ -72,10 +72,10 @@ system:
         grants:
           - skills:dec
         choices:
-          pool:
-            - skills:ins
-            - skills:slt
-          count: 1
+          - pool:
+              - skills:ins
+              - skills:slt
+            count: 1
     - _id: yXBWmFyk7Bo9r20m
       type: Trait
       level: 0
@@ -86,8 +86,8 @@ system:
           - tool:game:dice
           - tool:game:card
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
   startingEquipment: []
 effects: []
 flags: {}

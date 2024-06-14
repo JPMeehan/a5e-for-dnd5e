@@ -507,8 +507,8 @@ system:
         grants:
           - armor:lgt
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: qAVa677yfFiM7pIJ
       type: Trait
       level: 1
@@ -535,8 +535,8 @@ system:
           - weapon:mar:shortbow
           - weapon:mar:throwingdagger
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: 7FDjfN4rvOxQtR6H
       type: Trait
       level: 1
@@ -548,8 +548,8 @@ system:
           - tool:pois
           - tool:thief
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: LlpjDk5tdI56apsI
       type: Trait
       level: 1
@@ -560,8 +560,8 @@ system:
           - saves:dex
           - saves:int
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: aSSWw4gLllnbebtT
       type: Trait
       level: 1
@@ -570,21 +570,21 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:acr
-            - skills:ath
-            - skills:cul
-            - skills:dec
-            - skills:eng
-            - skills:ins
-            - skills:itm
-            - skills:inv
-            - skills:prc
-            - skills:prf
-            - skills:per
-            - skills:slt
-            - skills:ste
-          count: 4
+          - pool:
+              - skills:acr
+              - skills:ath
+              - skills:cul
+              - skills:dec
+              - skills:eng
+              - skills:ins
+              - skills:itm
+              - skills:inv
+              - skills:prc
+              - skills:prf
+              - skills:per
+              - skills:slt
+              - skills:ste
+            count: 4
     - _id: D3IGfHbYZhpQdFLf
       type: ItemGrant
       level: 1

@@ -90,11 +90,11 @@ system:
         grants:
           - skills:ins
         choices:
-          pool:
-            - skills:cul
-            - skills:prc
-            - skills:per
-          count: 1
+          - pool:
+              - skills:cul
+              - skills:prc
+              - skills:per
+            count: 1
     - _id: nNHP1YVnOfK2syy5
       type: ItemGrant
       level: 0
@@ -111,7 +111,7 @@ system:
           - tool:art:brewer
           - tool:art:cook
         choices:
-          pool: []
+          - pool: []
   startingEquipment: []
 effects: []
 flags: {}

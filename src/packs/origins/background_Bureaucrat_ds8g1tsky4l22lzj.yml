@@ -84,11 +84,11 @@ system:
         grants:
           - skills:cul
         choices:
-          pool:
-            - skills:his
-            - skills:ins
-            - skills:per
-          count: 1
+          - pool:
+              - skills:his
+              - skills:ins
+              - skills:per
+            count: 1
     - _id: lc0lZPNxUmTi9Mpx
       type: ItemGrant
       level: 1
@@ -104,8 +104,8 @@ system:
         grants:
           - tool:art:calligrapher
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: iphZz8PsHkLctENs
       type: Trait
       level: 1

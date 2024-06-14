@@ -366,8 +366,8 @@ system:
           - weapon:sim:quarterstaff
           - weapon:mar:dart
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: IYEQRQivf6lRsHHB
       type: Trait
       level: 1
@@ -376,11 +376,11 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:art:alchemist
-            - tool:art:calligrapher
-            - tool:art:cartographer
-          count: 1
+          - pool:
+              - tool:art:alchemist
+              - tool:art:calligrapher
+              - tool:art:cartographer
+            count: 1
     - _id: 20T5bgD6D9HUblRG
       type: Trait
       level: 1
@@ -391,8 +391,8 @@ system:
           - saves:int
           - saves:wis
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: vbPsOWwGMVfN3edr
       type: Trait
       level: 1
@@ -401,14 +401,14 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:arc
-            - skills:his
-            - skills:ins
-            - skills:inv
-            - skills:med
-            - skills:rel
-          count: 2
+          - pool:
+              - skills:arc
+              - skills:his
+              - skills:ins
+              - skills:inv
+              - skills:med
+              - skills:rel
+            count: 2
     - _id: hbqSHr3iNLx4dDYM
       type: ItemGrant
       level: 1

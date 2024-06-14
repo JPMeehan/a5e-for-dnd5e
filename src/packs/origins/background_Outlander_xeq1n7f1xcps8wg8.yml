@@ -66,10 +66,10 @@ system:
         grants:
           - skills:sur
         choices:
-          pool:
-            - skills:ath
-            - skills:itm
-          count: 1
+          - pool:
+              - skills:ath
+              - skills:itm
+            count: 1
     - _id: zQYeEAsszXDjug2R
       type: Trait
       level: 0
@@ -79,8 +79,8 @@ system:
         grants:
           - tool:herb
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: 7hGt33SbKReHCgsp
       type: Trait
       level: 0

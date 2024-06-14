@@ -417,8 +417,8 @@ system:
           - armor:med
           - armor:shield
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: v2OBh3wOOwxbK1CC
       type: Trait
       level: 1
@@ -439,8 +439,8 @@ system:
           - weapon:mar:scimitar
           - weapon:mar:scythe
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: 2bRVBcw8sdB0nioE
       type: Trait
       level: 1
@@ -450,8 +450,8 @@ system:
         grants:
           - tool:herb
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: eLXBY1YofW0j8YAN
       type: Trait
       level: 1
@@ -462,8 +462,8 @@ system:
           - saves:str
           - saves:wis
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: f3HNXCXq4naMV2yO
       type: Trait
       level: 1
@@ -479,8 +479,8 @@ system:
           - skills:rel
           - skills:sur
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: RNW2KttjZEycYGmB
       type: ItemGrant
       level: 1

@@ -74,10 +74,10 @@ system:
         grants:
           - skills:nat
         choices:
-          pool:
-            - skills:ani
-            - skills:sur
-          count: 1
+          - pool:
+              - skills:ani
+              - skills:sur
+            count: 1
     - _id: LUGBGA1LLdAAoyh5
       type: Trait
       level: 0
@@ -87,8 +87,8 @@ system:
         grants:
           - tool:undefinedland
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
   startingEquipment: []
 effects: []
 flags: {}

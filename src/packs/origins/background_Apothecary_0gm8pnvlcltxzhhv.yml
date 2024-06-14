@@ -118,11 +118,11 @@ system:
         grants:
           - skills:med
         choices:
-          pool:
-            - skills:ins
-            - skills:nat
-            - skills:rel
-          count: 1
+          - pool:
+              - skills:ins
+              - skills:nat
+              - skills:rel
+            count: 1
     - _id: 6x23tEbPAdVgfCLm
       type: ItemGrant
       level: 0
@@ -138,10 +138,10 @@ system:
         grants:
           - tool:herb
         choices:
-          pool:
-            - tool:art:alchemist
-            - tool:pois
-          count: 1
+          - pool:
+              - tool:art:alchemist
+              - tool:pois
+            count: 1
   startingEquipment: []
 effects: []
 flags: {}

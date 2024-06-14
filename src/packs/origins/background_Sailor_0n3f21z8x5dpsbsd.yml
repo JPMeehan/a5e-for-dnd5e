@@ -70,10 +70,10 @@ system:
         grants:
           - skills:ath
         choices:
-          pool:
-            - skills:acr
-            - skills:prc
-          count: 1
+          - pool:
+              - skills:acr
+              - skills:prc
+            count: 1
     - _id: IbFTRGwJOYzEuU9D
       type: Trait
       level: 0
@@ -84,8 +84,8 @@ system:
           - tool:navg
           - tool:undefinedwater
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: h8V602vJ4whembGS
       type: ItemGrant
       level: 0

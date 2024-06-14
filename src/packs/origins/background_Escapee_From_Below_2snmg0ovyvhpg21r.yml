@@ -73,10 +73,10 @@ system:
         grants:
           - skills:ste
         choices:
-          pool:
-            - skills:prc
-            - skills:sur
-          count: 1
+          - pool:
+              - skills:prc
+              - skills:sur
+            count: 1
     - _id: mopAN3tKypJKXyKS
       type: ItemGrant
       level: 0
@@ -92,7 +92,7 @@ system:
         grants:
           - tool:thief
         choices:
-          pool: []
+          - pool: []
   startingEquipment: []
 effects: []
 flags: {}

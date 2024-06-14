@@ -380,8 +380,8 @@ system:
         grants:
           - armor:lgt
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: 6SqJ7xeCsxjbFuxY
       type: Trait
       level: 1
@@ -395,8 +395,8 @@ system:
           - weapon:sim:quarterstaff
           - weapon:mar:dart
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: Fxu6RU1VldR8PB1C
       type: Trait
       level: 1
@@ -405,42 +405,42 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:art:alchemist
-            - tool:undefined
-            - tool:art:brewer
-            - tool:art:calligrapher
-            - tool:art:carpenter
-            - tool:art:cartographer
-            - tool:art:cobbler
-            - tool:art:cook
-            - tool:art:glassblower
-            - tool:art:jeweler
-            - tool:art:leatherworker
-            - tool:art:mason
-            - tool:art:painter
-            - tool:art:potter
-            - tool:art:tinker
-            - tool:art:weaver
-            - tool:art:woodcarver
-            - tool:music:bagpipes
-            - tool:music:casaba
-            - tool:music:castanet
-            - tool:music:drum
-            - tool:music:dulcimer
-            - tool:music:flute
-            - tool:music:harp
-            - tool:music:horn
-            - tool:music:lute
-            - tool:music:lyre
-            - tool:music:maraca
-            - tool:music:ocarina
-            - tool:music:panflute
-            - tool:music:trombone
-            - tool:music:viol
-            - tool:herb
-            - tool:pois
-          count: 1
+          - pool:
+              - tool:art:alchemist
+              - tool:undefined
+              - tool:art:brewer
+              - tool:art:calligrapher
+              - tool:art:carpenter
+              - tool:art:cartographer
+              - tool:art:cobbler
+              - tool:art:cook
+              - tool:art:glassblower
+              - tool:art:jeweler
+              - tool:art:leatherworker
+              - tool:art:mason
+              - tool:art:painter
+              - tool:art:potter
+              - tool:art:tinker
+              - tool:art:weaver
+              - tool:art:woodcarver
+              - tool:music:bagpipes
+              - tool:music:casaba
+              - tool:music:castanet
+              - tool:music:drum
+              - tool:music:dulcimer
+              - tool:music:flute
+              - tool:music:harp
+              - tool:music:horn
+              - tool:music:lute
+              - tool:music:lyre
+              - tool:music:maraca
+              - tool:music:ocarina
+              - tool:music:panflute
+              - tool:music:trombone
+              - tool:music:viol
+              - tool:herb
+              - tool:pois
+            count: 1
     - _id: NiWJbYbiWhhXoPoZ
       type: Trait
       level: 1
@@ -450,10 +450,10 @@ system:
         grants:
           - saves:wis
         choices:
-          pool:
-            - saves:int
-            - saves:cha
-          count: 1
+          - pool:
+              - saves:int
+              - saves:cha
+            count: 1
     - _id: 9fHDLkOGUgfFVE7D
       type: Trait
       level: 1
@@ -462,18 +462,18 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:ani
-            - skills:arc
-            - skills:dec
-            - skills:his
-            - skills:ins
-            - skills:itm
-            - skills:med
-            - skills:nat
-            - skills:per
-            - skills:rel
-          count: 2
+          - pool:
+              - skills:ani
+              - skills:arc
+              - skills:dec
+              - skills:his
+              - skills:ins
+              - skills:itm
+              - skills:med
+              - skills:nat
+              - skills:per
+              - skills:rel
+            count: 2
     - _id: 6JE7WzQZYjtotQ9q
       type: ItemGrant
       level: 1

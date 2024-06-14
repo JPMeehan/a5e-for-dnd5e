@@ -74,10 +74,10 @@ system:
         grants:
           - skills:sur
         choices:
-          pool:
-            - skills:prf
-            - skills:his
-          count: 1
+          - pool:
+              - skills:prf
+              - skills:his
+            count: 1
     - _id: VZ1gkEQffpGDOVcL
       type: Trait
       level: 0

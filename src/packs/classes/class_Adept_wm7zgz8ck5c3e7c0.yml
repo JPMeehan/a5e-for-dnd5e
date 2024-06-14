@@ -589,8 +589,8 @@ system:
           - weapon:mar:shortsword
           - weapon:mar:throwingdagger
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: HvAxZ2CkCJIukNaM
       type: Trait
       level: 1
@@ -599,40 +599,40 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:art:alchemist
-            - tool:undefined
-            - tool:art:brewer
-            - tool:art:calligrapher
-            - tool:art:carpenter
-            - tool:art:cartographer
-            - tool:art:cobbler
-            - tool:art:cook
-            - tool:art:glassblower
-            - tool:art:jeweler
-            - tool:art:leatherworker
-            - tool:art:mason
-            - tool:art:painter
-            - tool:art:potter
-            - tool:art:tinker
-            - tool:art:weaver
-            - tool:art:woodcarver
-            - tool:music:bagpipes
-            - tool:music:casaba
-            - tool:music:castanet
-            - tool:music:drum
-            - tool:music:dulcimer
-            - tool:music:flute
-            - tool:music:harp
-            - tool:music:horn
-            - tool:music:lute
-            - tool:music:lyre
-            - tool:music:maraca
-            - tool:music:ocarina
-            - tool:music:panflute
-            - tool:music:trombone
-            - tool:music:viol
-          count: 1
+          - pool:
+              - tool:art:alchemist
+              - tool:undefined
+              - tool:art:brewer
+              - tool:art:calligrapher
+              - tool:art:carpenter
+              - tool:art:cartographer
+              - tool:art:cobbler
+              - tool:art:cook
+              - tool:art:glassblower
+              - tool:art:jeweler
+              - tool:art:leatherworker
+              - tool:art:mason
+              - tool:art:painter
+              - tool:art:potter
+              - tool:art:tinker
+              - tool:art:weaver
+              - tool:art:woodcarver
+              - tool:music:bagpipes
+              - tool:music:casaba
+              - tool:music:castanet
+              - tool:music:drum
+              - tool:music:dulcimer
+              - tool:music:flute
+              - tool:music:harp
+              - tool:music:horn
+              - tool:music:lute
+              - tool:music:lyre
+              - tool:music:maraca
+              - tool:music:ocarina
+              - tool:music:panflute
+              - tool:music:trombone
+              - tool:music:viol
+            count: 1
     - _id: Hw6LetFqRelVnTIa
       type: Trait
       level: 1
@@ -643,8 +643,8 @@ system:
           - saves:str
           - saves:dex
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: sYuv2vTxv4Qple4T
       type: Trait
       level: 1
@@ -653,15 +653,15 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:acr
-            - skills:ath
-            - skills:his
-            - skills:ins
-            - skills:prc
-            - skills:ste
-            - skills:rel
-          count: 2
+          - pool:
+              - skills:acr
+              - skills:ath
+              - skills:his
+              - skills:ins
+              - skills:prc
+              - skills:ste
+              - skills:rel
+            count: 2
     - _id: J0JYuKKdOgfPEgcm
       type: ItemGrant
       level: 1

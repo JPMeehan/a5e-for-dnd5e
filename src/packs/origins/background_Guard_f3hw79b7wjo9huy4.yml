@@ -74,10 +74,10 @@ system:
         grants:
           - skills:itm
         choices:
-          pool:
-            - skills:ath
-            - skills:inv
-          count: 1
+          - pool:
+              - skills:ath
+              - skills:inv
+            count: 1
     - _id: vFfDe2HE1xZiepfE
       type: ItemGrant
       level: 0

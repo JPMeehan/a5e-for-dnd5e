@@ -67,11 +67,11 @@ system:
         grants:
           - skills:per
         choices:
-          pool:
-            - skills:cul
-            - skills:dec
-            - skills:ins
-          count: 1
+          - pool:
+              - skills:cul
+              - skills:dec
+              - skills:ins
+            count: 1
     - _id: Qb9xxwWz8XLXqPbU
       type: Trait
       level: 0
@@ -80,11 +80,11 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:undefinedland
-            - tool:undefinedwater
-            - tool:undefinedair
-          count: 1
+          - pool:
+              - tool:undefinedland
+              - tool:undefinedwater
+              - tool:undefinedair
+            count: 1
     - _id: Bv15PEN5Ic5H55NK
       type: Trait
       level: 0

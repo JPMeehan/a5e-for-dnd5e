@@ -547,8 +547,8 @@ system:
           - armor:hvy
           - armor:shield
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: 7C2ODJftb1dK4UQI
       type: Trait
       level: 1
@@ -604,8 +604,8 @@ system:
           - weapon:mar:warpick
           - weapon:mar:whip
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: VyLqPCV7bdC3DNcG
       type: Trait
       level: 1
@@ -614,8 +614,8 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: ZdLck5cWl6aIa2dZ
       type: Trait
       level: 1
@@ -626,8 +626,8 @@ system:
           - saves:wis
           - saves:cha
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: zGfY1rgBYyj5Fq2V
       type: Trait
       level: 1
@@ -636,15 +636,15 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:ath
-            - skills:his
-            - skills:ins
-            - skills:itm
-            - skills:med
-            - skills:prc
-            - skills:per
-          count: 2
+          - pool:
+              - skills:ath
+              - skills:his
+              - skills:ins
+              - skills:itm
+              - skills:med
+              - skills:prc
+              - skills:per
+            count: 2
     - _id: G0ephdMGLhjV1cC1
       type: ItemGrant
       level: 1

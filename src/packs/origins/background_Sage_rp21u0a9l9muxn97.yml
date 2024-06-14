@@ -74,12 +74,12 @@ system:
         grants:
           - skills:his
         choices:
-          pool:
-            - skills:arc
-            - skills:cul
-            - skills:eng
-            - skills:rel
-          count: 1
+          - pool:
+              - skills:arc
+              - skills:cul
+              - skills:eng
+              - skills:rel
+            count: 1
     - _id: 98CfpFWZfOW862lo
       type: Trait
       level: 0

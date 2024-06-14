@@ -94,10 +94,10 @@ system:
         grants:
           - skills:rel
         choices:
-          pool:
-            - skills:ins
-            - skills:per
-          count: 1
+          - pool:
+              - skills:ins
+              - skills:per
+            count: 1
     - _id: CuzkbJb6kn57Nvoz
       type: ItemGrant
       level: 0

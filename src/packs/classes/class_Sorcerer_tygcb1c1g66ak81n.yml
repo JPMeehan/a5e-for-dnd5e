@@ -399,8 +399,8 @@ system:
           - weapon:sim:sling
           - weapon:mar:dart
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: 6Gi5O40vuHICduXx
       type: Trait
       level: 1
@@ -411,8 +411,8 @@ system:
           - saves:con
           - saves:cha
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: n3Du9456vN5s48CM
       type: Trait
       level: 1
@@ -421,15 +421,15 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:arc
-            - skills:dec
-            - skills:ins
-            - skills:itm
-            - skills:prf
-            - skills:per
-            - skills:rel
-          count: 2
+          - pool:
+              - skills:arc
+              - skills:dec
+              - skills:ins
+              - skills:itm
+              - skills:prf
+              - skills:per
+              - skills:rel
+            count: 2
     - _id: 903n1Bgqsq5wLFvy
       type: ItemGrant
       level: 1

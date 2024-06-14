@@ -62,10 +62,10 @@ system:
         grants:
           - skills:sur
         choices:
-          pool:
-            - skills:itm
-            - skills:ste
-          count: 1
+          - pool:
+              - skills:itm
+              - skills:ste
+            count: 1
     - _id: FVsT7zuJwkPZYjbo
       type: Trait
       level: 0
@@ -74,28 +74,28 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:art:alchemist
-            - tool:undefined
-            - tool:art:brewer
-            - tool:art:calligrapher
-            - tool:art:carpenter
-            - tool:art:cartographer
-            - tool:art:cobbler
-            - tool:art:cook
-            - tool:art:glassblower
-            - tool:art:jeweler
-            - tool:art:leatherworker
-            - tool:art:mason
-            - tool:art:painter
-            - tool:art:potter
-            - tool:art:tinker
-            - tool:art:weaver
-            - tool:art:woodcarver
-            - tool:undefinedland
-            - tool:undefinedwater
-            - tool:undefinedair
-          count: 1
+          - pool:
+              - tool:art:alchemist
+              - tool:undefined
+              - tool:art:brewer
+              - tool:art:calligrapher
+              - tool:art:carpenter
+              - tool:art:cartographer
+              - tool:art:cobbler
+              - tool:art:cook
+              - tool:art:glassblower
+              - tool:art:jeweler
+              - tool:art:leatherworker
+              - tool:art:mason
+              - tool:art:painter
+              - tool:art:potter
+              - tool:art:tinker
+              - tool:art:weaver
+              - tool:art:woodcarver
+              - tool:undefinedland
+              - tool:undefinedwater
+              - tool:undefinedair
+            count: 1
     - _id: 6GTYlq2CzyYObkrz
       type: ItemGrant
       level: 0

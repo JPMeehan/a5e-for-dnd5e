@@ -81,10 +81,10 @@ system:
         grants:
           - skills:dec
         choices:
-          pool:
-            - skills:prc
-            - skills:sur
-          count: 1
+          - pool:
+              - skills:prc
+              - skills:sur
+            count: 1
     - _id: gE9MTiqrRVy561Oz
       type: ItemGrant
       level: 0
@@ -100,7 +100,7 @@ system:
         grants:
           - tool:disg
         choices:
-          pool: []
+          - pool: []
   startingEquipment: []
 effects: []
 flags: {}

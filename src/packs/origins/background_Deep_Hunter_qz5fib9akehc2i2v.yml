@@ -77,10 +77,10 @@ system:
         grants:
           - skills:sur
         choices:
-          pool:
-            - skills:nat
-            - skills:ste
-          count: 1
+          - pool:
+              - skills:nat
+              - skills:ste
+            count: 1
     - _id: DvJi44h6RnXw1vJU
       type: ItemGrant
       level: 0
@@ -96,7 +96,7 @@ system:
         grants:
           - tool:art:leatherworker
         choices:
-          pool: []
+          - pool: []
   startingEquipment: []
 effects: []
 flags: {}

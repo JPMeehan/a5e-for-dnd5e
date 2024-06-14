@@ -70,10 +70,10 @@ system:
         grants:
           - skills:rel
         choices:
-          pool:
-            - skills:arc
-            - skills:his
-          count: 1
+          - pool:
+              - skills:arc
+              - skills:his
+            count: 1
     - _id: 5GP1LUXsUoLZFlB4
       type: ItemGrant
       level: 1

@@ -71,10 +71,10 @@ system:
         grants:
           - skills:rel
         choices:
-          pool:
-            - skills:med
-            - skills:sur
-          count: 1
+          - pool:
+              - skills:med
+              - skills:sur
+            count: 1
     - _id: rkRr5SgopBp4uyzd
       type: Trait
       level: 0
@@ -84,8 +84,8 @@ system:
         grants:
           - tool:herb
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: JfFGq5MO3RlBaZp1
       type: ItemGrant
       level: 0

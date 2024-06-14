@@ -471,8 +471,8 @@ system:
           - armor:lgt
           - armor:shield
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: L7t8lepOW0Re6K37
       type: Trait
       level: 1
@@ -528,8 +528,8 @@ system:
           - weapon:mar:warpick
           - weapon:mar:whip
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: tAOcgWUVkDppJY1S
       type: Trait
       level: 1
@@ -538,26 +538,26 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:music:bagpipes
-            - tool:music:casaba
-            - tool:music:castanet
-            - tool:music:drum
-            - tool:music:dulcimer
-            - tool:music:flute
-            - tool:music:harp
-            - tool:music:horn
-            - tool:music:lute
-            - tool:music:lyre
-            - tool:music:maraca
-            - tool:music:ocarina
-            - tool:music:panflute
-            - tool:music:trombone
-            - tool:music:viol
-            - tool:herb
-            - tool:navg
-            - tool:pois
-          count: 1
+          - pool:
+              - tool:music:bagpipes
+              - tool:music:casaba
+              - tool:music:castanet
+              - tool:music:drum
+              - tool:music:dulcimer
+              - tool:music:flute
+              - tool:music:harp
+              - tool:music:horn
+              - tool:music:lute
+              - tool:music:lyre
+              - tool:music:maraca
+              - tool:music:ocarina
+              - tool:music:panflute
+              - tool:music:trombone
+              - tool:music:viol
+              - tool:herb
+              - tool:navg
+              - tool:pois
+            count: 1
     - _id: VUdNyHBeyr2CrhQ7
       type: Trait
       level: 1
@@ -568,8 +568,8 @@ system:
           - saves:str
           - saves:dex
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: l1gTZBPtrUZqLIVO
       type: Trait
       level: 1
@@ -578,16 +578,16 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - skills:ani
-            - skills:ath
-            - skills:ins
-            - skills:inv
-            - skills:nat
-            - skills:prc
-            - skills:ste
-            - skills:sur
-          count: 3
+          - pool:
+              - skills:ani
+              - skills:ath
+              - skills:ins
+              - skills:inv
+              - skills:nat
+              - skills:prc
+              - skills:ste
+              - skills:sur
+            count: 3
     - _id: Ex5ktsy2hmqxtp5b
       type: ItemGrant
       level: 1

@@ -79,10 +79,10 @@ system:
         grants:
           - skills:his
         choices:
-          pool:
-            - skills:inv
-            - skills:rel
-          count: 1
+          - pool:
+              - skills:inv
+              - skills:rel
+            count: 1
     - _id: kvlZoz1HdH1qCTYi
       type: ItemGrant
       level: 0
@@ -98,8 +98,8 @@ system:
         grants:
           - tool:art:cartographer
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: K4JDiB9lAbyXcQhr
       type: Trait
       level: 0

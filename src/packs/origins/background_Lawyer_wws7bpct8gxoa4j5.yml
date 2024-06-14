@@ -78,11 +78,11 @@ system:
         grants:
           - skills:cul
         choices:
-          pool:
-            - skills:his
-            - skills:ins
-            - skills:per
-          count: 1
+          - pool:
+              - skills:his
+              - skills:ins
+              - skills:per
+            count: 1
     - _id: UvR8DexnS71GyrCR
       type: ItemGrant
       level: 1

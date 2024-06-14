@@ -85,12 +85,12 @@ system:
         grants:
           - skills:itm
         choices:
-          pool:
-            - skills:dec
-            - skills:ins
-            - skills:inv
-            - skills:ste
-          count: 1
+          - pool:
+              - skills:dec
+              - skills:ins
+              - skills:inv
+              - skills:ste
+            count: 1
     - _id: YGRtMRgOzxi5XKWV
       type: ItemGrant
       level: 1
@@ -105,11 +105,11 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:game:dice
-            - tool:game:chess
-            - tool:game:card
-          count: 1
+          - pool:
+              - tool:game:dice
+              - tool:game:chess
+              - tool:game:card
+            count: 1
     - _id: pN0zMkffUrPRGjxF
       type: Trait
       level: 1
@@ -118,10 +118,10 @@ system:
         allowReplacements: false
         grants: []
         choices:
-          pool:
-            - tool:thief
-            - tool:pois
-          count: 1
+          - pool:
+              - tool:thief
+              - tool:pois
+            count: 1
     - _id: qxt97xObpzckUuRi
       type: Trait
       level: 1

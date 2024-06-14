@@ -67,10 +67,10 @@ system:
         grants:
           - skills:slt
         choices:
-          pool:
-            - skills:dec
-            - skills:ste
-          count: 1
+          - pool:
+              - skills:dec
+              - skills:ste
+            count: 1
     - _id: pXaB2DQ4G4wx6AKG
       type: Trait
       level: 0
@@ -81,8 +81,8 @@ system:
           - tool:disg
           - tool:thief
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
     - _id: ZAmqcPUFH81Gr4V9
       type: ItemGrant
       level: 0

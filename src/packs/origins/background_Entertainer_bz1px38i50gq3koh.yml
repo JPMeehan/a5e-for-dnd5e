@@ -75,11 +75,11 @@ system:
         grants:
           - skills:prf
         choices:
-          pool:
-            - skills:acr
-            - skills:cul
-            - skills:per
-          count: 1
+          - pool:
+              - skills:acr
+              - skills:cul
+              - skills:per
+            count: 1
     - _id: qIXdWxEwwsho8lbJ
       type: Trait
       level: 0
@@ -106,8 +106,8 @@ system:
           - tool:music:trombone
           - tool:music:viol
         choices:
-          pool: []
-          count: 0
+          - pool: []
+            count: 0
   startingEquipment: []
 effects: []
 flags: {}
