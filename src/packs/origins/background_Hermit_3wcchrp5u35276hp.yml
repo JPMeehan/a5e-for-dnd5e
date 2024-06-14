@@ -83,9 +83,7 @@ system:
         allowReplacements: false
         grants:
           - tool:herb
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: JfFGq5MO3RlBaZp1
       type: ItemGrant
       level: 0

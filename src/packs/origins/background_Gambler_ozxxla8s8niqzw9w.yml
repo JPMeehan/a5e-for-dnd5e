@@ -85,9 +85,7 @@ system:
         grants:
           - tool:game:dice
           - tool:game:card
-        choices:
-          - pool: []
-            count: 0
+        choices: []
   startingEquipment: []
 effects: []
 flags: {}

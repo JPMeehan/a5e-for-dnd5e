@@ -457,9 +457,7 @@ system:
           - weapon:sim:sling
           - weapon:sim:spear
           - weapon:mar:improvised weapons
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: PrOxjarZX1tVbN2o
       type: Trait
       level: 1
@@ -522,9 +520,7 @@ system:
         grants:
           - saves:dex
           - saves:int
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: E41mmCl6fKSKtik8
       type: Trait
       level: 1

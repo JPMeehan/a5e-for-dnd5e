@@ -97,9 +97,7 @@ system:
         allowReplacements: false
         grants:
           - tool:art:cartographer
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: K4JDiB9lAbyXcQhr
       type: Trait
       level: 0

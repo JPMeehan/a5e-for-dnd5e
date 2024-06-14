@@ -547,9 +547,7 @@ system:
           - armor:med
           - armor:hvy
           - armor:shield
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: 5nnwM62vnfQDgvBJ
       type: Trait
       level: 1
@@ -574,9 +572,7 @@ system:
           - weapon:mar:lighthammer
           - weapon:mar:throwingdagger
           - weapon:rare:gearedslingshot
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: LSdQIr5TLN58Lb38
       type: Trait
       level: 1
@@ -616,9 +612,7 @@ system:
         grants:
           - saves:con
           - saves:int
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: XHY67tzVoB05w5zJ
       type: Trait
       level: 1

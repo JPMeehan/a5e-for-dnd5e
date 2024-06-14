@@ -99,8 +99,7 @@ system:
         allowReplacements: false
         grants:
           - tool:disg
-        choices:
-          - pool: []
+        choices: []
   startingEquipment: []
 effects: []
 flags: {}

@@ -379,9 +379,7 @@ system:
         allowReplacements: false
         grants:
           - armor:lgt
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: 6SqJ7xeCsxjbFuxY
       type: Trait
       level: 1
@@ -394,9 +392,7 @@ system:
           - weapon:sim:sickle
           - weapon:sim:quarterstaff
           - weapon:mar:dart
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: Fxu6RU1VldR8PB1C
       type: Trait
       level: 1

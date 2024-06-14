@@ -155,9 +155,7 @@ system:
           - weapon:mar:maul
           - weapon:mar:warhammer
           - weapon:mar:warpick
-        choices:
-          - pool: []
-            count: 0
+        choices: []
   startingEquipment: []
 effects: []
 flags: {}

@@ -91,9 +91,7 @@ system:
         grants:
           - tool:disg
           - tool:forg
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: Vs3PHqBZQhm5BBGW
       type: ItemGrant
       level: 0

@@ -588,9 +588,7 @@ system:
           - weapon:mar:punchingdagger
           - weapon:mar:shortsword
           - weapon:mar:throwingdagger
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: HvAxZ2CkCJIukNaM
       type: Trait
       level: 1
@@ -642,9 +640,7 @@ system:
         grants:
           - saves:str
           - saves:dex
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: sYuv2vTxv4Qple4T
       type: Trait
       level: 1

@@ -78,9 +78,7 @@ system:
         allowReplacements: false
         grants:
           - tool:herb
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: 7hGt33SbKReHCgsp
       type: Trait
       level: 0

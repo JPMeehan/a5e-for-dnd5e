@@ -398,9 +398,7 @@ system:
           - weapon:sim:lightcrossbow
           - weapon:sim:sling
           - weapon:mar:dart
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: 6Gi5O40vuHICduXx
       type: Trait
       level: 1
@@ -410,9 +408,7 @@ system:
         grants:
           - saves:con
           - saves:cha
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: n3Du9456vN5s48CM
       type: Trait
       level: 1

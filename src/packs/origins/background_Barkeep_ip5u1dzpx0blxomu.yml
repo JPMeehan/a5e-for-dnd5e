@@ -110,8 +110,7 @@ system:
         grants:
           - tool:art:brewer
           - tool:art:cook
-        choices:
-          - pool: []
+        choices: []
   startingEquipment: []
 effects: []
 flags: {}

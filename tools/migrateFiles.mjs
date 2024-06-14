@@ -1632,17 +1632,20 @@ function profConfig(keys, proficiencyType) {
     weapon: mapWeapons,
   }[proficiencyType];
 
-  return {
+  const config = {
     mode: 'default',
     allowReplacements: false,
     grants: (keys.base ?? []).map((k) => prefix + callback(k)) ?? [],
-    choices: [
-      {
-        pool: (keys.options ?? []).map((k) => prefix + callback(k)) ?? [],
-        count: keys.total,
-      },
-    ],
+    choices: [],
   };
+
+  if (keys.total) {
+    config.choices.push({
+      pool: (keys.options ?? []).map((k) => prefix + callback(k)) ?? [],
+      count: keys.total,
+    });
+  }
+  return config;
 }
 
 /** @typedef {import('./types/dnd5e.mjs').TraitAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} TraitAdvancement */

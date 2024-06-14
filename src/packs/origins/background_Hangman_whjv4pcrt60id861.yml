@@ -79,9 +79,7 @@ system:
         allowReplacements: false
         grants:
           - tool:pois
-        choices:
-          - pool: []
-            count: 0
+        choices: []
   startingEquipment: []
 effects: []
 flags: {}

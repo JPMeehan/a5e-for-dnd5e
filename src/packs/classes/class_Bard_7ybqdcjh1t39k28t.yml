@@ -428,9 +428,7 @@ system:
         allowReplacements: false
         grants:
           - armor:lgt
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: jLrmJ9nKz5D2k6vr
       type: Trait
       level: 1
@@ -454,9 +452,7 @@ system:
           - weapon:mar:longsword
           - weapon:mar:rapier
           - weapon:mar:shortsword
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: 3OYRq9HF3MCZR0aA
       type: Trait
       level: 1
@@ -516,9 +512,7 @@ system:
         grants:
           - saves:dex
           - saves:cha
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: 2xJvCqO5zpCNG3Tt
       type: Trait
       level: 1

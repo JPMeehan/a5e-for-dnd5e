@@ -86,9 +86,7 @@ system:
         allowReplacements: false
         grants:
           - tool:undefinedland
-        choices:
-          - pool: []
-            count: 0
+        choices: []
   startingEquipment: []
 effects: []
 flags: {}

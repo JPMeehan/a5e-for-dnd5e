@@ -383,9 +383,7 @@ system:
           - weapon:sim:sickle
           - weapon:sim:sling
           - weapon:sim:spear
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: KRyziTZOrq26K5Wv
       type: Trait
       level: 1

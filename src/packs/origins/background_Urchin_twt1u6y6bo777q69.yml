@@ -80,9 +80,7 @@ system:
         grants:
           - tool:disg
           - tool:thief
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: ZAmqcPUFH81Gr4V9
       type: ItemGrant
       level: 0

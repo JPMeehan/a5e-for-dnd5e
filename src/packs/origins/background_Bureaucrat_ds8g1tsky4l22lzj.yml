@@ -103,9 +103,7 @@ system:
         allowReplacements: false
         grants:
           - tool:art:calligrapher
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: iphZz8PsHkLctENs
       type: Trait
       level: 1

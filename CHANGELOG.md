@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0 Classes
+
+- Added classes to class compendiums
+- Updated data imports from a5e, alongside many fixes to advancements on origins
+
 ## 0.9.3 Future Prep
 
 - Began preparing migration scripts for class support

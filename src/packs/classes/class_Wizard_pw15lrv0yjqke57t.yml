@@ -365,9 +365,7 @@ system:
           - weapon:sim:sling
           - weapon:sim:quarterstaff
           - weapon:mar:dart
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: IYEQRQivf6lRsHHB
       type: Trait
       level: 1
@@ -390,9 +388,7 @@ system:
         grants:
           - saves:int
           - saves:wis
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: vbPsOWwGMVfN3edr
       type: Trait
       level: 1

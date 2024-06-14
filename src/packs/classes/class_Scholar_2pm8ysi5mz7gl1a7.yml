@@ -70,9 +70,7 @@ system:
         allowReplacements: false
         grants:
           - armor:lgt
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: hNinQz1bky6JaP4Z
       type: Trait
       level: 1
@@ -92,9 +90,7 @@ system:
           - weapon:sim:sickle
           - weapon:sim:sling
           - weapon:sim:spear
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: 6sXtCJKPsnCKZdcd
       type: Trait
       level: 1
@@ -154,9 +150,7 @@ system:
         grants:
           - saves:int
           - saves:wis
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: nWMicz4eDPX4lP38
       type: Trait
       level: 1

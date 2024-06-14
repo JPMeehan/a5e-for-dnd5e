@@ -512,9 +512,7 @@ system:
           - armor:med
           - armor:hvy
           - armor:shield
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: z1zrXHBC1xaejD8I
       type: Trait
       level: 1
@@ -569,9 +567,7 @@ system:
           - weapon:mar:warhammer
           - weapon:mar:warpick
           - weapon:mar:whip
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: Y0wDrYTmVrkuuWMq
       type: Trait
       level: 1
@@ -581,9 +577,7 @@ system:
         grants:
           - saves:wis
           - saves:cha
-        choices:
-          - pool: []
-            count: 0
+        choices: []
     - _id: fFcVesHvtlCIwsZR
       type: Trait
       level: 1
