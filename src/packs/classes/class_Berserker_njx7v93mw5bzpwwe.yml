@@ -543,7 +543,19 @@ system:
   source:
     book: ''
     license: OGL 1.0a
-  startingEquipment: []
+  startingEquipment:
+    - _id: YShVv0lqvkDvC2DC0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.d9api5kzm8udtv9d
+      count: 0
+      type: linked
+      group: ''
+    - _id: YShVv0lqvkDvC2DC1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.c1e6un51n45mql9g
+      count: 0
+      type: linked
+      group: ''
   identifier: ''
   levels: 1
   hitDice: d12

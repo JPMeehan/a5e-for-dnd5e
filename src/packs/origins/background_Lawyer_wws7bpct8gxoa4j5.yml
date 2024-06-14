@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Lawyer
 type: background
 img: icons/sundries/documents/document-sealed-red-tan.webp
@@ -93,7 +93,37 @@ system:
     - _id: 29HCPHOt9P2Cwf7P
       type: Trait
       level: 1
-  startingEquipment: []
+  startingEquipment:
+    - _id: uqNjbsS8gPIqMjze0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.ito6po17oo0fjtag
+      count: 0
+      type: linked
+      group: ''
+    - _id: uqNjbsS8gPIqMjze1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.fs1g83t1y18hflen
+      count: 0
+      type: linked
+      group: ''
+    - _id: uqNjbsS8gPIqMjze2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.32eyx6xvcv2xuqvo
+      count: 0
+      type: linked
+      group: ''
+    - _id: uqNjbsS8gPIqMjze3
+      sort: 40000
+      key: Compendium.a5e-for-dnd5e.gear.Item.82kz4htg65yqk0rq
+      count: 0
+      type: linked
+      group: ''
+    - _id: uqNjbsS8gPIqMjze4
+      sort: 50000
+      key: Compendium.a5e-for-dnd5e.gear.Item.vvvc3ailsmr450pw
+      count: 0
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: wws7bpct8gxoa4j5

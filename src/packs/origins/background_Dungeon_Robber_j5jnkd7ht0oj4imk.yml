@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Dungeon Robber
 type: background
 img: icons/environment/wilderness/mine-interior-dungeon-door.webp
@@ -110,7 +110,31 @@ system:
           pool:
             - languages:*
           count: 6
-  startingEquipment: []
+  startingEquipment:
+    - _id: 6dA0Ds5RSYa6hSdu0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.sohtdauxox9im0vr
+      count: 0
+      type: linked
+      group: ''
+    - _id: 6dA0Ds5RSYa6hSdu1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.4mvvj8bsvzn33b28
+      count: 0
+      type: linked
+      group: ''
+    - _id: 6dA0Ds5RSYa6hSdu2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: 0
+      type: linked
+      group: ''
+    - _id: 6dA0Ds5RSYa6hSdu3
+      sort: 40000
+      key: Compendium.a5e-for-dnd5e.gear.Item.vqseoqiptkqkux3k
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: j5jnkd7ht0oj4imk

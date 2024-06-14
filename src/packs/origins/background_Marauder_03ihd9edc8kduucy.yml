@@ -87,9 +87,27 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.7uhcfq3mt4vsnsbd
-  startingEquipment: []
+  startingEquipment:
+    - _id: dtoiJuRatup1SgRx0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: 0
+      type: linked
+      group: ''
+    - _id: dtoiJuRatup1SgRx1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.f0o7tjfis6wm3x82
+      count: 0
+      type: linked
+      group: ''
+    - _id: dtoiJuRatup1SgRx2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.jk11dj3y8qcdosej
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
-folder: efsBCxTIVPrTYqUO
+folder: null
 _id: 03ihd9edc8kduucy
 _key: '!items!03ihd9edc8kduucy'

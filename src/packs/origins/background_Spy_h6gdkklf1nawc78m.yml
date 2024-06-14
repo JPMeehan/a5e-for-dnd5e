@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Spy
 type: background
 img: icons/magic/perception/shadow-stealth-eyes-purple.webp
@@ -95,7 +95,31 @@ system:
               - tool:disg
               - tool:forg
             count: 1
-  startingEquipment: []
+  startingEquipment:
+    - _id: mnXweaYgETaTCOin0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: 0
+      type: linked
+      group: ''
+    - _id: mnXweaYgETaTCOin1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.3k3o90tq7gclpuem
+      count: 0
+      type: linked
+      group: ''
+    - _id: mnXweaYgETaTCOin2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.vzmgutyegssa2akj
+      count: 0
+      type: linked
+      group: ''
+    - _id: mnXweaYgETaTCOin3
+      sort: 40000
+      key: Compendium.a5e-for-dnd5e.gear.Item.txxm6r8vc8v7i81a
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: h6gdkklf1nawc78m

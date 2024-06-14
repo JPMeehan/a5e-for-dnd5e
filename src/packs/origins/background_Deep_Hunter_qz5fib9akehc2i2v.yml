@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Deep Hunter
 type: background
 img: icons/environment/wilderness/terrain-forest-gray.webp
@@ -97,7 +97,25 @@ system:
         grants:
           - tool:art:leatherworker
         choices: []
-  startingEquipment: []
+  startingEquipment:
+    - _id: AEVarstK54LH6QwP0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.1r51u7tt4h98vhc0
+      count: 0
+      type: linked
+      group: ''
+    - _id: AEVarstK54LH6QwP1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: 0
+      type: linked
+      group: ''
+    - _id: AEVarstK54LH6QwP2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.5phxxco5a853etuy
+      count: '2'
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: qz5fib9akehc2i2v

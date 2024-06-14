@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Bounty Hunter
 type: background
 img: icons/skills/targeting/crosshair-pointed-orange.webp
@@ -132,7 +132,37 @@ system:
           pool:
             - languages:*
           count: 1
-  startingEquipment: []
+  startingEquipment:
+    - _id: EmJ2rc6VcLFPPCnA0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: 0
+      type: linked
+      group: ''
+    - _id: EmJ2rc6VcLFPPCnA1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.3k3o90tq7gclpuem
+      count: 0
+      type: linked
+      group: ''
+    - _id: EmJ2rc6VcLFPPCnA2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.udzib5bt3pd6jhu6
+      count: 0
+      type: linked
+      group: ''
+    - _id: EmJ2rc6VcLFPPCnA3
+      sort: 40000
+      key: Compendium.a5e-for-dnd5e.gear.Item.ws12a41dokkaqi8a
+      count: 0
+      type: linked
+      group: ''
+    - _id: EmJ2rc6VcLFPPCnA4
+      sort: 50000
+      key: Compendium.a5e-for-dnd5e.gear.Item.8u3v0q3jr3ov8u6l
+      count: 0
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: euqwgj6lduwnk9v3

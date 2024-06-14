@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Haunted
 type: background
 img: icons/magic/death/skull-energy-light-white.webp
@@ -78,7 +78,55 @@ system:
           pool:
             - languages:*
           count: 2
-  startingEquipment: []
+  startingEquipment:
+    - _id: hMvHsUbOW7Fc5cC40
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.pwgkdtzl4t3n9xrr
+      count: 2
+      type: linked
+      group: ''
+    - _id: hMvHsUbOW7Fc5cC41
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.b3mp5vnum8ibhum9
+      count: 0
+      type: linked
+      group: ''
+    - _id: hMvHsUbOW7Fc5cC42
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.lb7tdxfzjci1f43y
+      count: 5
+      type: linked
+      group: ''
+    - _id: hMvHsUbOW7Fc5cC43
+      sort: 40000
+      key: Compendium.a5e-for-dnd5e.gear.Item.32eyx6xvcv2xuqvo
+      count: 0
+      type: linked
+      group: ''
+    - _id: hMvHsUbOW7Fc5cC44
+      sort: 50000
+      key: Compendium.a5e-for-dnd5e.gear.Item.82kz4htg65yqk0rq
+      count: 0
+      type: linked
+      group: ''
+    - _id: hMvHsUbOW7Fc5cC45
+      sort: 60000
+      key: Compendium.a5e-for-dnd5e.gear.Item.otm5w9ewo7r2bu8t
+      count: 10
+      type: linked
+      group: ''
+    - _id: hMvHsUbOW7Fc5cC46
+      sort: 70000
+      key: Compendium.a5e-for-dnd5e.gear.Item.1r51u7tt4h98vhc0
+      count: 5
+      type: linked
+      group: ''
+    - _id: hMvHsUbOW7Fc5cC47
+      sort: 80000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: tm2hxr362b5n8oui

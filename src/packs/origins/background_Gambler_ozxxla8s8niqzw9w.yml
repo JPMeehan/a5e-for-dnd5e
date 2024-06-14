@@ -87,9 +87,27 @@ system:
           - tool:game:dice
           - tool:game:card
         choices: []
-  startingEquipment: []
+  startingEquipment:
+    - _id: 2mgdu7mE3QgUYvjC0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.fs1g83t1y18hflen
+      count: 0
+      type: linked
+      group: ''
+    - _id: 2mgdu7mE3QgUYvjC1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.8immo7012y7uj9u7
+      count: 0
+      type: linked
+      group: ''
+    - _id: 2mgdu7mE3QgUYvjC2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.nzk5o2pu6bk18d67
+      count: 0
+      type: linked
+      group: ''
 effects: []
 flags: {}
-folder: efsBCxTIVPrTYqUO
+folder: null
 _id: ozxxla8s8niqzw9w
 _key: '!items!ozxxla8s8niqzw9w'

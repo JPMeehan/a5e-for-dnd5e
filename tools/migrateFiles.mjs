@@ -1529,15 +1529,15 @@ function processGrants(o5e, grants, type) {
           /** @type {import('./types/dnd5e.mjs').EquipmentEntryData[]} */
           const items = o5e.startingEquipment;
           if (grant.items.base?.length) {
-            items.concat(
-              grant.items.base.map((itemGrant, i) =>
+            items.push(
+              ...grant.items.base.map((itemGrant, i) =>
                 equipmentEntry(itemGrant, i, id)
               )
             );
           }
           if (grant.items.options?.length) {
-            items.concat(
-              grant.items.options.map((itemGrant, i) =>
+            items.push(
+              ...grant.items.options.map((itemGrant, i) =>
                 equipmentEntry(itemGrant, i, id)
               )
             );

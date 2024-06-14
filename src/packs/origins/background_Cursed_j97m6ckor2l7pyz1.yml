@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Cursed
 type: background
 img: icons/magic/unholy/orb-swirling-teal.webp
@@ -75,7 +75,25 @@ system:
           pool:
             - languages:*
           count: 2
-  startingEquipment: []
+  startingEquipment:
+    - _id: Gyxq426m3n7w7nWT0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.pwgkdtzl4t3n9xrr
+      count: 4
+      type: linked
+      group: ''
+    - _id: Gyxq426m3n7w7nWT1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.jk11dj3y8qcdosej
+      count: 0
+      type: linked
+      group: ''
+    - _id: Gyxq426m3n7w7nWT2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: j97m6ckor2l7pyz1

@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Bureaucrat
 type: background
 img: icons/environment/settlement/house-manor.webp
@@ -116,7 +116,25 @@ system:
           pool:
             - languages:*
           count: 2
-  startingEquipment: []
+  startingEquipment:
+    - _id: w5LjgDcMGW8imn5D0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.popojwgmea9u6cfb
+      count: 0
+      type: linked
+      group: ''
+    - _id: w5LjgDcMGW8imn5D1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.fs1g83t1y18hflen
+      count: 0
+      type: linked
+      group: ''
+    - _id: w5LjgDcMGW8imn5D2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.vvvc3ailsmr450pw
+      count: 0
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: ds8g1tsky4l22lzj

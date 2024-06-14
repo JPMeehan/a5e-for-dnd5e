@@ -626,7 +626,25 @@ system:
   source:
     book: 'Manual of Adventurous Resources: Complete'
     license: OGL 1.0a
-  startingEquipment: []
+  startingEquipment:
+    - _id: PKFnARMJ6bEqdFCL0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.lc3rar1sjraoztg8
+      count: 0
+      type: linked
+      group: ''
+    - _id: PKFnARMJ6bEqdFCL1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.2al1rbg44y4bdprv
+      count: 0
+      type: linked
+      group: ''
+    - _id: PKFnARMJ6bEqdFCL2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.5j8rir76zfk09sm7
+      count: 0
+      type: linked
+      group: ''
   identifier: ''
   levels: 1
   hitDice: d8

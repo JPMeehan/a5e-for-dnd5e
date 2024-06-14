@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Imposter
 type: background
 img: icons/skills/social/diplomacy-handshake.webp
@@ -101,7 +101,19 @@ system:
         grants:
           - tool:disg
         choices: []
-  startingEquipment: []
+  startingEquipment:
+    - _id: 8KtfQdiGh6HLlxKr0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.w9t45o2j9aqx1qmp
+      count: 0
+      type: linked
+      group: ''
+    - _id: 8KtfQdiGh6HLlxKr1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.3906eejw1gtmziv1
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: m6r5rzje4w4bhf5x

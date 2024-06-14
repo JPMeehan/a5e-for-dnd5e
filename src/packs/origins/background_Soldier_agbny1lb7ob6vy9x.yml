@@ -102,9 +102,21 @@ system:
           pool:
             - languages:*
           count: 1
-  startingEquipment: []
+  startingEquipment:
+    - _id: owhCb1ItyNc5rmcz0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.w9t45o2j9aqx1qmp
+      count: 0
+      type: linked
+      group: ''
+    - _id: owhCb1ItyNc5rmcz1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.pwgkdtzl4t3n9xrr
+      count: '7'
+      type: linked
+      group: ''
 effects: []
 flags: {}
-folder: efsBCxTIVPrTYqUO
+folder: null
 _id: agbny1lb7ob6vy9x
 _key: '!items!agbny1lb7ob6vy9x'

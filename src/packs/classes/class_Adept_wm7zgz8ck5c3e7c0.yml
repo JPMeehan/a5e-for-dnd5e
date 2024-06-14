@@ -560,7 +560,19 @@ system:
   source:
     book: ''
     license: OGL 1.0a
-  startingEquipment: []
+  startingEquipment:
+    - _id: uwd6IxdP2M26BCq20
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.tm8ugh49ag7vdfuw
+      count: 0
+      type: linked
+      group: ''
+    - _id: uwd6IxdP2M26BCq21
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.d94u0mer0lymn2cq
+      count: 0
+      type: linked
+      group: ''
   identifier: ''
   levels: 1
   hitDice: d8

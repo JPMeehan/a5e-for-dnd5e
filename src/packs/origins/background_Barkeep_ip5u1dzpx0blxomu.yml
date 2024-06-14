@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Barkeep
 type: background
 img: icons/consumables/drinks/alcohol-beer-mug-yellow.webp
@@ -112,7 +112,25 @@ system:
           - tool:art:brewer
           - tool:art:cook
         choices: []
-  startingEquipment: []
+  startingEquipment:
+    - _id: 9xUqeNavzP54ZaiO0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.ruq1b4eccxrfve48
+      count: 0
+      type: linked
+      group: ''
+    - _id: 9xUqeNavzP54ZaiO1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.1zqyltv6xs3hqrqk
+      count: 0
+      type: linked
+      group: ''
+    - _id: 9xUqeNavzP54ZaiO2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: ip5u1dzpx0blxomu

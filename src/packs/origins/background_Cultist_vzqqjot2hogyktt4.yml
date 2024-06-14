@@ -96,9 +96,33 @@ system:
           pool:
             - languages:*
           count: 1
-  startingEquipment: []
+  startingEquipment:
+    - _id: NDnOXOUWvrMNH7eA0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.gq2nddbv35cshykz
+      count: 0
+      type: linked
+      group: ''
+    - _id: NDnOXOUWvrMNH7eA1
+      sort: 20000
+      key: Compendium.a5e.dnd5e-items.le22tnpcahrphad0
+      count: 0
+      type: linked
+      group: ''
+    - _id: NDnOXOUWvrMNH7eA2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.14bjydsg9yfp4vwk
+      count: 0
+      type: linked
+      group: ''
+    - _id: NDnOXOUWvrMNH7eA3
+      sort: 40000
+      key: Compendium.a5e-for-dnd5e.gear.7tw73cwd1j8zf3g5
+      count: '5'
+      type: linked
+      group: ''
 effects: []
 flags: {}
-folder: efsBCxTIVPrTYqUO
+folder: null
 _id: vzqqjot2hogyktt4
 _key: '!items!vzqqjot2hogyktt4'

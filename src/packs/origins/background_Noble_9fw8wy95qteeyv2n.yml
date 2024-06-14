@@ -104,9 +104,21 @@ system:
           pool:
             - languages:*
           count: 1
-  startingEquipment: []
+  startingEquipment:
+    - _id: jhaIArjbd6cm4V540
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.fs1g83t1y18hflen
+      count: 0
+      type: linked
+      group: ''
+    - _id: jhaIArjbd6cm4V541
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.vvvc3ailsmr450pw
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
-folder: efsBCxTIVPrTYqUO
+folder: null
 _id: 9fw8wy95qteeyv2n
 _key: '!items!9fw8wy95qteeyv2n'

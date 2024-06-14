@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Caretaker
 type: background
 img: icons/tools/hand/broom-straw-brown.webp
@@ -107,7 +107,13 @@ system:
               - tool:music:*
               - tool:game:*
             count: 2
-  startingEquipment: []
+  startingEquipment:
+    - _id: 0V0GBAg12sQkrZZ30
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.fs1g83t1y18hflen
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: 2p36c0xfnea0e8es

@@ -1,4 +1,4 @@
-folder: efsBCxTIVPrTYqUO
+folder: null
 name: Apothecary
 type: background
 img: icons/magic/nature/root-vine-caduceus-healing.webp
@@ -143,7 +143,31 @@ system:
               - tool:art:alchemist
               - tool:pois
             count: 1
-  startingEquipment: []
+  startingEquipment:
+    - _id: weqo2dsQ4AZk4r2p0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.yd87og78egvpztx3
+      count: 0
+      type: linked
+      group: ''
+    - _id: weqo2dsQ4AZk4r2p1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.067o6hjosd8nrjs8
+      count: 0
+      type: linked
+      group: ''
+    - _id: weqo2dsQ4AZk4r2p2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.3muu012tsfb455sa
+      count: 0
+      type: linked
+      group: ''
+    - _id: weqo2dsQ4AZk4r2p3
+      sort: 40000
+      key: Compendium.a5e-for-dnd5e.gear.Item.x9t8xc1kffdnm5nz
+      count: null
+      type: linked
+      group: ''
 effects: []
 flags: {}
 _id: 0gm8pnvlcltxzhhv

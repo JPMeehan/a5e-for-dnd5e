@@ -530,7 +530,25 @@ system:
   source:
     book: ''
     license: OGL 1.0a
-  startingEquipment: []
+  startingEquipment:
+    - _id: DeW2ejp8NHNA8jLh0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.60vba9ty9935433l
+      count: 0
+      type: linked
+      group: ''
+    - _id: DeW2ejp8NHNA8jLh1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.t9zv3k6oxbpm6uz4
+      count: 0
+      type: linked
+      group: ''
+    - _id: DeW2ejp8NHNA8jLh2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.bubdf5o8fd7p4jx7
+      count: 0
+      type: linked
+      group: ''
   identifier: ''
   levels: 1
   hitDice: d8
