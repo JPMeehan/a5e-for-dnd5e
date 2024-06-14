@@ -1492,6 +1492,7 @@ function processGrants(o5e, grants, type) {
           const featureGrant = {
             _id: id,
             type: 'ItemGrant',
+            title: 'Features',
             level: grant.level ?? 0,
             configuration: {
               items: grant.features.base?.map((f) => ({
