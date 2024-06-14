@@ -1437,6 +1437,7 @@ function remapPack(uuid = '') {
     'a5e.a5e-background-features': 'a5e-for-dnd5e.origin-features',
     'a5e.a5e-culture-features': 'a5e-for-dnd5e.origin-features',
     'a5e.a5e-destiny-features': 'a5e-for-dnd5e.origin-features',
+    'a5e.a5e-class-features': 'a5e-for-dnd5e.class-features',
     'a5e.a5e-adventuring-gear': 'a5e-for-dnd5e.gear',
   };
   return uuid.replace(
@@ -1639,11 +1640,15 @@ function profConfig(keys, proficiencyType) {
     choices: [],
   };
 
+  config.grants = Array.from(new Set(config.grants));
+
   if (keys.total) {
     config.choices.push({
       pool: (keys.options ?? []).map((k) => prefix + callback(k)) ?? [],
       count: keys.total,
     });
+
+    config.choices[0].pool = Array.from(new Set(config.choices[0].pool));
   }
   return config;
 }
