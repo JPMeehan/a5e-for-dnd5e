@@ -1415,7 +1415,13 @@ function migrateClass(system) {
     levels: system.classLevels,
     hitDice: 'd' + system.hp.hitDiceSize,
     hitDiceUsed: system.hp.hitDiceUsed,
-    advancement: [],
+    advancement: [
+      {
+        _id: 'FRxVq2gmJq6bNazt',
+        title: 'Hit Points',
+        type: 'HitPoints',
+      },
+    ],
     spellcasting: {
       ability: system.spellcasting.ability.base,
       progression: system.spellcasting.casterType,
