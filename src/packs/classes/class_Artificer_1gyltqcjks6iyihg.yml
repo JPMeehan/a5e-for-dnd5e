@@ -540,12 +540,13 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:light
-          - skills:medium
-          - skills:heavy
-          - skills:shield
+          - armor:lgt
+          - armor:med
+          - armor:hvy
+          - armor:shield
         choices:
           pool: []
           count: 0
@@ -553,25 +554,26 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:blowgun
-          - skills:club
-          - skills:dagger
-          - skills:handaxe
-          - skills:heavyCrossbow
-          - skills:greatclub
-          - skills:lightCrossbow
-          - skills:mace
-          - skills:quarterstaff
-          - skills:sickle
-          - skills:sling
-          - skills:spear
-          - skills:dart
-          - skills:handCrossbow
-          - skills:lightHammer
-          - skills:throwingDagger
-          - skills:gearedSlingshot
+          - weapon:sim:blowgun
+          - weapon:sim:club
+          - weapon:sim:dagger
+          - weapon:sim:handaxe
+          - weapon:sim:heavycrossbow
+          - weapon:sim:greatclub
+          - weapon:sim:lightcrossbow
+          - weapon:sim:mace
+          - weapon:sim:quarterstaff
+          - weapon:sim:sickle
+          - weapon:sim:sling
+          - weapon:sim:spear
+          - weapon:mar:dart
+          - weapon:mar:handcrossbow
+          - weapon:mar:lighthammer
+          - weapon:mar:throwingdagger
+          - weapon:rare:gearedslingshot
         choices:
           pool: []
           count: 0
@@ -579,39 +581,41 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:tinkersTools
-          - skills:thievesTools
+          - tool:art:tinker
+          - tool:thief
         choices:
           pool:
-            - skills:alchemistsSupplies
-            - skills:bookbindersKit
-            - skills:brewersSupplies
-            - skills:calligraphersSupplies
-            - skills:carpentersTools
-            - skills:cartographersTools
-            - skills:cobblersTools
-            - skills:cooksUtensils
-            - skills:glassblowersTools
-            - skills:jewelersTools
-            - skills:leatherworkersTools
-            - skills:masonsTools
-            - skills:paintersSupplies
-            - skills:pottersTools
-            - skills:tinkersTools
-            - skills:weaversTools
-            - skills:woodcarversTools
-            - skills:smithsTools
+            - tool:art:alchemist
+            - tool:undefined
+            - tool:art:brewer
+            - tool:art:calligrapher
+            - tool:art:carpenter
+            - tool:art:cartographer
+            - tool:art:cobbler
+            - tool:art:cook
+            - tool:art:glassblower
+            - tool:art:jeweler
+            - tool:art:leatherworker
+            - tool:art:mason
+            - tool:art:painter
+            - tool:art:potter
+            - tool:art:tinker
+            - tool:art:weaver
+            - tool:art:woodcarver
+            - tool:art:smith
           count: 1
     - _id: tnGmbH01jvBZWhpN
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:con
-          - skills:int
+          - saves:con
+          - saves:int
         choices:
           pool: []
           count: 0
@@ -619,6 +623,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:eng

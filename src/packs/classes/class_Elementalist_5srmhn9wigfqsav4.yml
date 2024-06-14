@@ -617,9 +617,10 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:light
+          - armor:lgt
         choices:
           pool: []
           count: 0
@@ -627,20 +628,21 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:blowgun
-          - skills:club
-          - skills:dagger
-          - skills:handaxe
-          - skills:heavyCrossbow
-          - skills:greatclub
-          - skills:lightCrossbow
-          - skills:mace
-          - skills:quarterstaff
-          - skills:sickle
-          - skills:sling
-          - skills:spear
+          - weapon:sim:blowgun
+          - weapon:sim:club
+          - weapon:sim:dagger
+          - weapon:sim:handaxe
+          - weapon:sim:heavycrossbow
+          - weapon:sim:greatclub
+          - weapon:sim:lightcrossbow
+          - weapon:sim:mace
+          - weapon:sim:quarterstaff
+          - weapon:sim:sickle
+          - weapon:sim:sling
+          - weapon:sim:spear
         choices:
           pool: []
           count: 0
@@ -648,10 +650,11 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:cha
-          - skills:con
+          - saves:cha
+          - saves:con
         choices:
           pool: []
           count: 0
@@ -659,6 +662,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:

@@ -358,12 +358,13 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:dagger
-          - skills:sling
-          - skills:quarterstaff
-          - skills:dart
+          - weapon:sim:dagger
+          - weapon:sim:sling
+          - weapon:sim:quarterstaff
+          - weapon:mar:dart
         choices:
           pool: []
           count: 0
@@ -371,22 +372,24 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - skills:alchemistsSupplies
-            - skills:calligraphersSupplies
-            - skills:cartographersTools
+            - tool:art:alchemist
+            - tool:art:calligrapher
+            - tool:art:cartographer
           count: 1
     - _id: 20T5bgD6D9HUblRG
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:int
-          - skills:wis
+          - saves:int
+          - saves:wis
         choices:
           pool: []
           count: 0
@@ -394,6 +397,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:

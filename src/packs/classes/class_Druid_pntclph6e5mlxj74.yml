@@ -410,11 +410,12 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:light
-          - skills:medium
-          - skills:shield
+          - armor:lgt
+          - armor:med
+          - armor:shield
         choices:
           pool: []
           count: 0
@@ -422,20 +423,21 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:blowgun
-          - skills:club
-          - skills:dagger
-          - skills:mace
-          - skills:quarterstaff
-          - skills:sickle
-          - skills:sling
-          - skills:spear
-          - skills:dart
-          - skills:javelin
-          - skills:scimitar
-          - skills:scythe
+          - weapon:sim:blowgun
+          - weapon:sim:club
+          - weapon:sim:dagger
+          - weapon:sim:mace
+          - weapon:sim:quarterstaff
+          - weapon:sim:sickle
+          - weapon:sim:sling
+          - weapon:sim:spear
+          - weapon:mar:dart
+          - weapon:mar:javelin
+          - weapon:mar:scimitar
+          - weapon:mar:scythe
         choices:
           pool: []
           count: 0
@@ -443,9 +445,10 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:herbalismKit
+          - tool:herb
         choices:
           pool: []
           count: 0
@@ -453,10 +456,11 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:str
-          - skills:wis
+          - saves:str
+          - saves:wis
         choices:
           pool: []
           count: 0
@@ -464,6 +468,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:arc

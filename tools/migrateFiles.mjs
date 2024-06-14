@@ -1545,21 +1545,15 @@ function processGrants(o5e, grants, type) {
         } else throw 'Movement grant detected on non-heritage';
         break;
       case 'proficiency':
+        if (grant.proficiencyType === 'tradition') continue;
         /** @type {import('./types/dnd5e.mjs').TraitAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
-        const skill = {
+        const proficiency = {
           _id: id,
           type: 'Trait',
           level: grant.level ?? 0,
-          configuration: {
-            allowReplacements: false,
-            grants: (grant.keys.base ?? []).map((s) => 'skills:' + s),
-            choices: {
-              pool: (grant.keys.options ?? []).map((s) => 'skills:' + s),
-              count: grant.keys.total,
-            },
-          },
+          configuration: profConfig(grant.keys, grant.proficiencyType),
         };
-        o5e.advancement.push(skill);
+        o5e.advancement.push(proficiency);
         break;
       case 'rollOverride': // AE? MIDI?
         break;
@@ -1609,6 +1603,46 @@ function equipmentEntry(itemGrant, i, id) {
   };
 }
 
+/**
+ * Derives proficiency grant configuration
+ * Used for both ProficiencyGrant as well as TraitGrant
+ * @param {import('./types/a5e.mjs').ProficiencyGrant["keys"]} keys
+ * @param {import('./types/a5e.mjs').profType} proficiencyType
+ */
+function profConfig(keys, proficiencyType) {
+  const prefix = {
+    armor: 'armor:',
+    savingThrow: 'saves:',
+    skill: 'skills:',
+    tool: 'tool:',
+    weapon: 'weapon:',
+  }[proficiencyType];
+
+  const callback = {
+    armor: (a) =>
+      ({
+        light: 'lgt',
+        medium: 'med',
+        heavy: 'hvy',
+        shield: 'shield',
+      }[a]),
+    savingThrow: (s) => s,
+    skill: (s) => s,
+    tool: mapTools,
+    weapon: mapWeapons,
+  }[proficiencyType];
+
+  return {
+    mode: 'default',
+    allowReplacements: false,
+    grants: keys.base.map((k) => prefix + callback(k)) ?? [],
+    choices: {
+      pool: keys.options.map((k) => prefix + callback(k)) ?? [],
+      count: keys.total,
+    },
+  };
+}
+
 /** @typedef {import('./types/dnd5e.mjs').TraitAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} TraitAdvancement */
 
 /**
@@ -1627,22 +1661,7 @@ function traitGrant(traits, id) {
   let prefix = '';
   switch (traits.traitType) {
     case 'armorTypes':
-      prefix = 'armor:';
-      const armorMap = {
-        light: 'lgt',
-        medium: 'med',
-        heavy: 'hvy',
-        shield: 'shield',
-      };
-      trait.configuration = {
-        mode: 'default',
-        allowReplacements: false,
-        grants: traits.base.map((a) => prefix + armorMap[a]),
-        choices: {
-          pool: traits.options.map((a) => prefix + armorMap[a]),
-          count: traits.total,
-        },
-      };
+      trait.configuration = profConfig(traits, 'armor');
       break;
     case 'conditionImmunities': // none implemented yet
       prefix = 'ci:';
@@ -1717,28 +1736,10 @@ function traitGrant(traits, id) {
       trait.configuration = { sizes: traits.base.concat(traits.options) };
       break;
     case 'tools':
-      prefix = 'tool:';
-      trait.configuration = {
-        mode: 'tool',
-        allowReplacements: false,
-        grants: traits.base?.map((t) => prefix + mapTools(t)) ?? [],
-        choices: {
-          pool: traits.options?.map((t) => prefix + mapTools(t)) ?? [],
-          count: traits.total,
-        },
-      };
+      trait.configuration = profConfig(traits, traits.traitType);
       break;
     case 'weapons':
-      prefix = 'weapon:';
-      trait.configuration = {
-        mode: '',
-        allowReplacements: false,
-        grants: traits.base.map((w) => prefix + mapWeapons(w)),
-        choices: {
-          pool: traits.options.map((w) => prefix + mapWeapons(w)),
-          count: traits.total,
-        },
-      };
+      trait.configuration = profConfig(traits, traits.traitType);
       break;
   }
   return trait;

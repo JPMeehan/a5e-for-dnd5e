@@ -502,9 +502,10 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:light
+          - armor:lgt
         choices:
           pool: []
           count: 0
@@ -512,26 +513,27 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:blowgun
-          - skills:club
-          - skills:dagger
-          - skills:handaxe
-          - skills:heavyCrossbow
-          - skills:greatclub
-          - skills:lightCrossbow
-          - skills:mace
-          - skills:quarterstaff
-          - skills:sickle
-          - skills:sling
-          - skills:spear
-          - skills:duelingDagger
-          - skills:handCrossbow
-          - skills:rapier
-          - skills:saber
-          - skills:shortbow
-          - skills:throwingDagger
+          - weapon:sim:blowgun
+          - weapon:sim:club
+          - weapon:sim:dagger
+          - weapon:sim:handaxe
+          - weapon:sim:heavycrossbow
+          - weapon:sim:greatclub
+          - weapon:sim:lightcrossbow
+          - weapon:sim:mace
+          - weapon:sim:quarterstaff
+          - weapon:sim:sickle
+          - weapon:sim:sling
+          - weapon:sim:spear
+          - weapon:mar:duelingdagger
+          - weapon:mar:handcrossbow
+          - weapon:mar:rapier
+          - weapon:mar:saber
+          - weapon:mar:shortbow
+          - weapon:mar:throwingdagger
         choices:
           pool: []
           count: 0
@@ -539,11 +541,12 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:disguiseKit
-          - skills:poisonersKit
-          - skills:thievesTools
+          - tool:disg
+          - tool:pois
+          - tool:thief
         choices:
           pool: []
           count: 0
@@ -551,10 +554,11 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:dex
-          - skills:int
+          - saves:dex
+          - saves:int
         choices:
           pool: []
           count: 0
@@ -562,6 +566,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:

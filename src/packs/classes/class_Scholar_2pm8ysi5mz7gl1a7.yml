@@ -66,9 +66,10 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:light
+          - armor:lgt
         choices:
           pool: []
           count: 0
@@ -76,20 +77,21 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:blowgun
-          - skills:club
-          - skills:dagger
-          - skills:handaxe
-          - skills:heavyCrossbow
-          - skills:greatclub
-          - skills:lightCrossbow
-          - skills:mace
-          - skills:quarterstaff
-          - skills:sickle
-          - skills:sling
-          - skills:spear
+          - weapon:sim:blowgun
+          - weapon:sim:club
+          - weapon:sim:dagger
+          - weapon:sim:handaxe
+          - weapon:sim:heavycrossbow
+          - weapon:sim:greatclub
+          - weapon:sim:lightcrossbow
+          - weapon:sim:mace
+          - weapon:sim:quarterstaff
+          - weapon:sim:sickle
+          - weapon:sim:sling
+          - weapon:sim:spear
         choices:
           pool: []
           count: 0
@@ -97,59 +99,61 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - skills:alchemistsSupplies
-            - skills:bookbindersKit
-            - skills:brewersSupplies
-            - skills:calligraphersSupplies
-            - skills:carpentersTools
-            - skills:cartographersTools
-            - skills:cobblersTools
-            - skills:cooksUtensils
-            - skills:glassblowersTools
-            - skills:jewelersTools
-            - skills:leatherworkersTools
-            - skills:masonsTools
-            - skills:paintersSupplies
-            - skills:pottersTools
-            - skills:tinkersTools
-            - skills:weaversTools
-            - skills:woodcarversTools
-            - skills:bagpipes
-            - skills:casaba
-            - skills:castanet
-            - skills:drum
-            - skills:dulcimer
-            - skills:flute
-            - skills:harp
-            - skills:horn
-            - skills:lute
-            - skills:lyre
-            - skills:maraca
-            - skills:ocarina
-            - skills:panFlute
-            - skills:trombone
-            - skills:violin
-            - skills:disguiseKit
-            - skills:forgeryKit
-            - skills:herbalismKit
-            - skills:navigatorsTools
-            - skills:poisonersKit
-            - skills:sewingKit
-            - skills:smithsTools
-            - skills:thievesTools
+            - tool:art:alchemist
+            - tool:undefined
+            - tool:art:brewer
+            - tool:art:calligrapher
+            - tool:art:carpenter
+            - tool:art:cartographer
+            - tool:art:cobbler
+            - tool:art:cook
+            - tool:art:glassblower
+            - tool:art:jeweler
+            - tool:art:leatherworker
+            - tool:art:mason
+            - tool:art:painter
+            - tool:art:potter
+            - tool:art:tinker
+            - tool:art:weaver
+            - tool:art:woodcarver
+            - tool:music:bagpipes
+            - tool:music:casaba
+            - tool:music:castanet
+            - tool:music:drum
+            - tool:music:dulcimer
+            - tool:music:flute
+            - tool:music:harp
+            - tool:music:horn
+            - tool:music:lute
+            - tool:music:lyre
+            - tool:music:maraca
+            - tool:music:ocarina
+            - tool:music:panflute
+            - tool:music:trombone
+            - tool:music:viol
+            - tool:disg
+            - tool:forg
+            - tool:herb
+            - tool:navg
+            - tool:pois
+            - tool:art:sew
+            - tool:art:smith
+            - tool:thief
           count: 1
     - _id: sYO9xJzdQnAro7G3
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:int
-          - skills:wis
+          - saves:int
+          - saves:wis
         choices:
           pool: []
           count: 0
@@ -157,6 +161,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:

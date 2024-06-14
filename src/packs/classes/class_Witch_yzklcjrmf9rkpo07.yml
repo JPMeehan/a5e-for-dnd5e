@@ -375,9 +375,10 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:light
+          - armor:lgt
         choices:
           pool: []
           count: 0
@@ -385,13 +386,14 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:dagger
-          - skills:sling
-          - skills:sickle
-          - skills:quarterstaff
-          - skills:dart
+          - weapon:sim:dagger
+          - weapon:sim:sling
+          - weapon:sim:sickle
+          - weapon:sim:quarterstaff
+          - weapon:mar:dart
         choices:
           pool: []
           count: 0
@@ -399,61 +401,64 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - skills:alchemistsSupplies
-            - skills:bookbindersKit
-            - skills:brewersSupplies
-            - skills:calligraphersSupplies
-            - skills:carpentersTools
-            - skills:cartographersTools
-            - skills:cobblersTools
-            - skills:cooksUtensils
-            - skills:glassblowersTools
-            - skills:jewelersTools
-            - skills:leatherworkersTools
-            - skills:masonsTools
-            - skills:paintersSupplies
-            - skills:pottersTools
-            - skills:tinkersTools
-            - skills:weaversTools
-            - skills:woodcarversTools
-            - skills:bagpipes
-            - skills:casaba
-            - skills:castanet
-            - skills:drum
-            - skills:dulcimer
-            - skills:flute
-            - skills:harp
-            - skills:horn
-            - skills:lute
-            - skills:lyre
-            - skills:maraca
-            - skills:ocarina
-            - skills:panFlute
-            - skills:trombone
-            - skills:violin
-            - skills:herbalismKit
-            - skills:poisonersKit
+            - tool:art:alchemist
+            - tool:undefined
+            - tool:art:brewer
+            - tool:art:calligrapher
+            - tool:art:carpenter
+            - tool:art:cartographer
+            - tool:art:cobbler
+            - tool:art:cook
+            - tool:art:glassblower
+            - tool:art:jeweler
+            - tool:art:leatherworker
+            - tool:art:mason
+            - tool:art:painter
+            - tool:art:potter
+            - tool:art:tinker
+            - tool:art:weaver
+            - tool:art:woodcarver
+            - tool:music:bagpipes
+            - tool:music:casaba
+            - tool:music:castanet
+            - tool:music:drum
+            - tool:music:dulcimer
+            - tool:music:flute
+            - tool:music:harp
+            - tool:music:horn
+            - tool:music:lute
+            - tool:music:lyre
+            - tool:music:maraca
+            - tool:music:ocarina
+            - tool:music:panflute
+            - tool:music:trombone
+            - tool:music:viol
+            - tool:herb
+            - tool:pois
           count: 1
     - _id: NiWJbYbiWhhXoPoZ
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:wis
+          - saves:wis
         choices:
           pool:
-            - skills:int
-            - skills:cha
+            - saves:int
+            - saves:cha
           count: 1
     - _id: 9fHDLkOGUgfFVE7D
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:

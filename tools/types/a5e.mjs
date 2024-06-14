@@ -218,6 +218,8 @@
  * @property {boolean} context.isHover
  */
 
+/** @typedef {'armor' | 'savingThrow' | 'skill' | 'tradition' | 'tool' | 'weapon'} profType */
+
 /**
  * @typedef ProficiencyGrant
  * @property {"proficiency"} grantType
@@ -225,7 +227,7 @@
  * @property {string[]} keys.base
  * @property {string[]} keys.options
  * @property {number} keys.total
- * @property {string} proficiencyType
+ * @property {profType} proficiencyType
  */
 
 /**

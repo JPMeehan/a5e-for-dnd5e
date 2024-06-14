@@ -390,13 +390,14 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:dagger
-          - skills:quarterstaff
-          - skills:lightCrossbow
-          - skills:sling
-          - skills:dart
+          - weapon:sim:dagger
+          - weapon:sim:quarterstaff
+          - weapon:sim:lightcrossbow
+          - weapon:sim:sling
+          - weapon:mar:dart
         choices:
           pool: []
           count: 0
@@ -404,10 +405,11 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:con
-          - skills:cha
+          - saves:con
+          - saves:cha
         choices:
           pool: []
           count: 0
@@ -415,6 +417,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
