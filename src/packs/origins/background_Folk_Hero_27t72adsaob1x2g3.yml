@@ -68,6 +68,7 @@ system:
         cap: 1
     - _id: CmxKOOZKU0W9aXlc
       type: ItemGrant
+      title: Features
       level: 0
       configuration:
         items:
@@ -94,26 +95,10 @@ system:
         grants: []
         choices:
           - pool:
-              - tool:art:alchemist
-              - tool:art:book
-              - tool:art:brewer
-              - tool:art:calligrapher
-              - tool:art:carpenter
-              - tool:art:cartographer
-              - tool:art:cobbler
-              - tool:art:cook
-              - tool:art:glassblower
-              - tool:art:jeweler
-              - tool:art:leatherworker
-              - tool:art:mason
-              - tool:art:painter
-              - tool:art:potter
-              - tool:art:tinker
-              - tool:art:weaver
-              - tool:art:woodcarver
               - tool:undefinedland
               - tool:undefinedwater
               - tool:undefinedair
+              - tool:art:*
             count: 2
   startingEquipment: []
 effects: []

@@ -93,6 +93,7 @@ system:
             count: 1
     - _id: YGRtMRgOzxi5XKWV
       type: ItemGrant
+      title: Features
       level: 1
       configuration:
         items:
@@ -106,9 +107,7 @@ system:
         grants: []
         choices:
           - pool:
-              - tool:game:dice
-              - tool:game:chess
-              - tool:game:card
+              - tool:game:*
             count: 1
     - _id: pN0zMkffUrPRGjxF
       type: Trait

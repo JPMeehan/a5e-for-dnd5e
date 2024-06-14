@@ -83,6 +83,7 @@ system:
             count: 2
     - _id: pm1s8mrrJ9zT6lkG
       type: ItemGrant
+      title: Features
       level: 0
       configuration:
         items:
@@ -96,49 +97,15 @@ system:
         grants: []
         choices:
           - pool:
-              - tool:art:alchemist
-              - tool:art:book
-              - tool:art:brewer
-              - tool:art:calligrapher
-              - tool:art:carpenter
-              - tool:art:cartographer
-              - tool:art:cobbler
-              - tool:art:cook
-              - tool:art:glassblower
-              - tool:art:jeweler
-              - tool:art:leatherworker
-              - tool:art:mason
-              - tool:art:painter
-              - tool:art:potter
-              - tool:art:tinker
-              - tool:art:weaver
-              - tool:art:woodcarver
-              - tool:game:dice
-              - tool:game:chess
-              - tool:game:card
-              - tool:music:bagpipes
-              - tool:music:casaba
-              - tool:music:castanet
-              - tool:music:drum
-              - tool:music:dulcimer
-              - tool:music:flute
-              - tool:music:harp
-              - tool:music:horn
-              - tool:music:lute
-              - tool:music:lyre
-              - tool:music:maraca
-              - tool:music:ocarina
-              - tool:music:panflute
-              - tool:music:trombone
-              - tool:music:viol
               - tool:disg
               - tool:forg
               - tool:herb
               - tool:navg
               - tool:pois
-              - tool:art:sew
-              - tool:art:smith
               - tool:thief
+              - tool:art:*
+              - tool:music:*
+              - tool:game:*
             count: 2
   startingEquipment: []
 effects: []

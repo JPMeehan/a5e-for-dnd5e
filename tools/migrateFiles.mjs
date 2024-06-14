@@ -1650,12 +1650,40 @@ function profConfig(keys, proficiencyType) {
   config.grants = Array.from(new Set(config.grants));
 
   if (keys.total) {
+    let pool = Array.from(
+      new Set((keys.options ?? []).map((k) => prefix + callback(k)) ?? [])
+    );
+
+    switch (proficiencyType) {
+      case 'savingThrow':
+        if (keys.total === 6) pool = ['saves:*'];
+        break;
+      case 'skill':
+        if (keys.total > 15) pool = ['skills:*'];
+        break;
+      case 'tool':
+        const arts = pool.filter((t) => t.startsWith('tool:art:'));
+        if (arts.length > 10)
+          pool = pool
+            .filter((t) => !t.startsWith('tool:art:'))
+            .concat(['tool:art:*']);
+        const music = pool.filter((t) => t.startsWith('tool:music:'));
+        if (music.length > 10)
+          pool = pool
+            .filter((t) => !t.startsWith('tool:music:'))
+            .concat(['tool:music:*']);
+        const gaming = pool.filter((t) => t.startsWith('tool:game:'));
+        if (gaming.length >= 3)
+          pool = pool
+            .filter((t) => !t.startsWith('tool:game:'))
+            .concat(['tool:game:*']);
+        break;
+    }
+
     config.choices.push({
-      pool: (keys.options ?? []).map((k) => prefix + callback(k)) ?? [],
+      pool: pool,
       count: keys.total,
     });
-
-    config.choices[0].pool = Array.from(new Set(config.choices[0].pool));
   }
   return config;
 }

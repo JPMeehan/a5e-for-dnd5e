@@ -587,24 +587,7 @@ system:
           - tool:thief
         choices:
           - pool:
-              - tool:art:alchemist
-              - tool:art:book
-              - tool:art:brewer
-              - tool:art:calligrapher
-              - tool:art:carpenter
-              - tool:art:cartographer
-              - tool:art:cobbler
-              - tool:art:cook
-              - tool:art:glassblower
-              - tool:art:jeweler
-              - tool:art:leatherworker
-              - tool:art:mason
-              - tool:art:painter
-              - tool:art:potter
-              - tool:art:tinker
-              - tool:art:weaver
-              - tool:art:woodcarver
-              - tool:art:smith
+              - tool:art:*
             count: 1
     - _id: tnGmbH01jvBZWhpN
       type: Trait

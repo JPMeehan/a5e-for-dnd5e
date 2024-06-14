@@ -538,24 +538,10 @@ system:
         grants: []
         choices:
           - pool:
-              - tool:music:bagpipes
-              - tool:music:casaba
-              - tool:music:castanet
-              - tool:music:drum
-              - tool:music:dulcimer
-              - tool:music:flute
-              - tool:music:harp
-              - tool:music:horn
-              - tool:music:lute
-              - tool:music:lyre
-              - tool:music:maraca
-              - tool:music:ocarina
-              - tool:music:panflute
-              - tool:music:trombone
-              - tool:music:viol
               - tool:herb
               - tool:navg
               - tool:pois
+              - tool:music:*
             count: 1
     - _id: VUdNyHBeyr2CrhQ7
       type: Trait

@@ -63,6 +63,7 @@ system:
         cap: 1
     - _id: DRjAbwCgdX7AipcQ
       type: ItemGrant
+      title: Features
       level: 0
       configuration:
         items:
@@ -90,9 +91,7 @@ system:
         grants: []
         choices:
           - pool:
-              - tool:game:dice
-              - tool:game:chess
-              - tool:game:card
+              - tool:game:*
             count: 1
     - _id: k2M4kY4vyA6tRrte
       type: Trait
