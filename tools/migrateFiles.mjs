@@ -777,7 +777,7 @@ function migrateObject(system, name) {
     case 'tool':
       Object.assign(o5e, tool);
       o5e.type = {
-        value: toolType(system),
+        value: toolType(name),
         baseItem: getBaseItem(name, 'tool'),
       };
       break;
