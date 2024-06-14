@@ -62,6 +62,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
@@ -74,9 +75,10 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:poisonersKit
+          - tool:pois
         choices:
           pool: []
           count: 0

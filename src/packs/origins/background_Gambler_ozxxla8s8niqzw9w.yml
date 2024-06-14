@@ -67,6 +67,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:dec
@@ -79,10 +80,11 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:diceSet
-          - skills:playingCardSet
+          - tool:game:dice
+          - tool:game:card
         choices:
           pool: []
           count: 0

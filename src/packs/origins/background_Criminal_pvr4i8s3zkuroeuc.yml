@@ -69,6 +69,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:ste
@@ -81,12 +82,13 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:diceSet
-          - skills:boardGameSet
-          - skills:playingCardSet
-          - skills:thievesTools
+          - tool:game:dice
+          - tool:game:chess
+          - tool:game:card
+          - tool:thief
         choices:
           pool: []
           count: 0

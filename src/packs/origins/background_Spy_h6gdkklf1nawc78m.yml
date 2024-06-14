@@ -66,6 +66,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:ste
@@ -84,13 +85,14 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:thievesTools
+          - tool:thief
         choices:
           pool:
-            - skills:disguiseKit
-            - skills:forgeryKit
+            - tool:disg
+            - tool:forg
           count: 1
   startingEquipment: []
 effects: []

@@ -73,6 +73,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:cul

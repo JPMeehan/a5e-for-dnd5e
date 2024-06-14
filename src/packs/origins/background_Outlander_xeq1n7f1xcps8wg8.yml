@@ -61,6 +61,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:sur
@@ -73,9 +74,10 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:herbalismKit
+          - tool:herb
         choices:
           pool: []
           count: 0

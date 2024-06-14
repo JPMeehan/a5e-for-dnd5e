@@ -43,6 +43,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:per
@@ -55,28 +56,29 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - skills:alchemistsSupplies
-            - skills:bookbindersKit
-            - skills:brewersSupplies
-            - skills:calligraphersSupplies
-            - skills:carpentersTools
-            - skills:cartographersTools
-            - skills:cobblersTools
-            - skills:cooksUtensils
-            - skills:glassblowersTools
-            - skills:jewelersTools
-            - skills:leatherworkersTools
-            - skills:masonsTools
-            - skills:paintersSupplies
-            - skills:pottersTools
-            - skills:tinkersTools
-            - skills:weaversTools
-            - skills:woodcarversTools
-            - skills:smithsTools
+            - tool:art:alchemist
+            - tool:undefined
+            - tool:art:brewer
+            - tool:art:calligrapher
+            - tool:art:carpenter
+            - tool:art:cartographer
+            - tool:art:cobbler
+            - tool:art:cook
+            - tool:art:glassblower
+            - tool:art:jeweler
+            - tool:art:leatherworker
+            - tool:art:mason
+            - tool:art:painter
+            - tool:art:potter
+            - tool:art:tinker
+            - tool:art:weaver
+            - tool:art:woodcarver
+            - tool:art:smith
           count: 1
     - _id: e0iP6DMT9QnmKd5f
       type: ItemGrant

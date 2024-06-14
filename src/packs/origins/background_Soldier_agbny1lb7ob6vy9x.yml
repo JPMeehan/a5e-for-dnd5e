@@ -70,6 +70,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:ath
@@ -82,13 +83,14 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - skills:diceSet
-            - skills:boardGameSet
-            - skills:playingCardSet
+            - tool:game:dice
+            - tool:game:chess
+            - tool:game:card
           count: 1
     - _id: XFyAMVmPFk4qtCQ6
       type: Trait

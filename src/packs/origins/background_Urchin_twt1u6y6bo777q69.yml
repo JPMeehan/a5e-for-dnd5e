@@ -62,6 +62,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:slt
@@ -74,10 +75,11 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:disguiseKit
-          - skills:thievesTools
+          - tool:disg
+          - tool:thief
         choices:
           pool: []
           count: 0

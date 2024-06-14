@@ -76,6 +76,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:dec
@@ -94,9 +95,10 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:disguiseKit
+          - tool:disg
         choices:
           pool: []
   startingEquipment: []

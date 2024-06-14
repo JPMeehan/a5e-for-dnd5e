@@ -73,6 +73,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:dec
@@ -85,10 +86,11 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:disguiseKit
-          - skills:forgeryKit
+          - tool:disg
+          - tool:forg
         choices:
           pool: []
           count: 0

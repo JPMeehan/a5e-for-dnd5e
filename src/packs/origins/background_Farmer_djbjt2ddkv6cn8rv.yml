@@ -69,6 +69,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:nat
@@ -81,9 +82,10 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:landVehicles
+          - tool:undefinedland
         choices:
           pool: []
           count: 0

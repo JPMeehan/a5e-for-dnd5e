@@ -71,6 +71,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:cul
@@ -84,13 +85,14 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - skills:diceSet
-            - skills:boardGameSet
-            - skills:playingCardSet
+            - tool:game:dice
+            - tool:game:chess
+            - tool:game:card
           count: 1
     - _id: k2M4kY4vyA6tRrte
       type: Trait

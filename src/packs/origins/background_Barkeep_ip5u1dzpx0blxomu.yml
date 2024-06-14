@@ -85,6 +85,7 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:ins
@@ -104,10 +105,11 @@ system:
       type: Trait
       level: 0
       configuration:
+        mode: default
         allowReplacements: false
         grants:
-          - skills:brewersSupplies
-          - skills:cooksUtensils
+          - tool:art:brewer
+          - tool:art:cook
         choices:
           pool: []
   startingEquipment: []

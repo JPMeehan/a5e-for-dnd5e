@@ -80,6 +80,7 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants:
           - skills:itm
@@ -100,24 +101,26 @@ system:
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - skills:diceSet
-            - skills:boardGameSet
-            - skills:playingCardSet
+            - tool:game:dice
+            - tool:game:chess
+            - tool:game:card
           count: 1
     - _id: pN0zMkffUrPRGjxF
       type: Trait
       level: 1
       configuration:
+        mode: default
         allowReplacements: false
         grants: []
         choices:
           pool:
-            - skills:thievesTools
-            - skills:poisonersKit
+            - tool:thief
+            - tool:pois
           count: 1
     - _id: qxt97xObpzckUuRi
       type: Trait
