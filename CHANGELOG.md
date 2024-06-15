@@ -3,6 +3,7 @@
 ## 1.0.0 Classes
 
 - Added classes to class compendiums
+- Added Destiny features as advancements; the fulfillment features are set to the automatic level of 16
 - Updated data imports from a5e, alongside many fixes to advancements on origins
 
 ## 0.9.3 Future Prep

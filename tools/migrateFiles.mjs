@@ -223,6 +223,10 @@ function abbr(word) {
     landVehicles: 'land',
     waterVehicles: 'water',
     airVehicles: 'air',
+    /** Spellcasting Progressions */
+    fullCaster: 'full',
+    halfCasterWithFirstLevel: 'herald',
+    warlockA5e: 'pact',
   };
   return map[word] ?? word;
 }
@@ -1453,7 +1457,7 @@ function migrateClass(system) {
     ],
     spellcasting: {
       ability: system.spellcasting.ability.base,
-      progression: system.spellcasting.casterType,
+      progression: abbr(system.spellcasting.casterType),
     },
     wealth: system.wealth,
   };
