@@ -85,7 +85,28 @@ system:
   source:
     book: 'Manual of Adventurous Resources: Complete'
     license: OGL 1.0a
-  advancement: []
+  advancement:
+    - _id: sourceOfInspirat
+      type: ItemGrant
+      title: Source of Inspiration
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.y1qqcs50iqjh63eu
+    - _id: inspirationFeatu
+      type: ItemGrant
+      title: Inspiration Feature
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.zs71gmpq46o21ch6
+    - _id: fulfillmentFeatu
+      type: ItemGrant
+      title: Fulfillment Feature
+      level: 16
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.5x273px7arx9z8y0
 effects: []
 flags: {}
 _id: asfn5b75vpx3ws9v

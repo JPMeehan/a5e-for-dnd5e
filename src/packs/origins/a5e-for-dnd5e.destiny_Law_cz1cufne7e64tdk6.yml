@@ -71,7 +71,28 @@ system:
   source:
     book: Mysterious and Marvelous Miscellanea
     license: OGL 1.0a
-  advancement: []
+  advancement:
+    - _id: sourceOfInspirat
+      type: ItemGrant
+      title: Source of Inspiration
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.u8aqg2ks1mkw700k
+    - _id: inspirationFeatu
+      type: ItemGrant
+      title: Inspiration Feature
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.phaedwauqgb51bqe
+    - _id: fulfillmentFeatu
+      type: ItemGrant
+      title: Fulfillment Feature
+      level: 16
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.kqqonq6icshia4b3
 effects: []
 flags: {}
 folder: 81MMD8Y0RY1EyBiv

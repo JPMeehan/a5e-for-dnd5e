@@ -51,7 +51,28 @@ system:
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
-  advancement: []
+  advancement:
+    - _id: sourceOfInspirat
+      type: ItemGrant
+      title: Source of Inspiration
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.rxxlhtutffiycivg
+    - _id: inspirationFeatu
+      type: ItemGrant
+      title: Inspiration Feature
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.lxzbr56uq9fu6ahh
+    - _id: fulfillmentFeatu
+      type: ItemGrant
+      title: Fulfillment Feature
+      level: 16
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.32tp6ral4q4te0pr
 effects: []
 flags: {}
 folder: 81MMD8Y0RY1EyBiv

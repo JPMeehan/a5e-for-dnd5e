@@ -1387,8 +1387,37 @@ function migrateDestiny(system) {
       unidentified: '',
     },
     source: mapSource(system.source),
-    advancement: [],
+    advancement: [
+      {
+        _id: 'sourceOfInspirat',
+        type: 'ItemGrant',
+        title: 'Source of Inspiration',
+        level: 0,
+        configuration: {
+          items: [{ uuid: remapPack(system.sourceOfInspiration) }],
+        },
+      },
+      {
+        _id: 'inspirationFeatu',
+        type: 'ItemGrant',
+        title: 'Inspiration Feature',
+        level: 0,
+        configuration: {
+          items: [{ uuid: remapPack(system.inspirationFeature) }],
+        },
+      },
+      {
+        _id: 'fulfillmentFeatu',
+        type: 'ItemGrant',
+        title: 'Fulfillment Feature',
+        level: 16,
+        configuration: {
+          items: [{ uuid: remapPack(system.fulfillmentFeature) }],
+        },
+      },
+    ],
   };
+
   return o5e;
 }
 

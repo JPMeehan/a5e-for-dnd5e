@@ -56,7 +56,28 @@ system:
     book: Gate Pass Gazette
     license: OGL 1.0a
     page: '#16'
-  advancement: []
+  advancement:
+    - _id: sourceOfInspirat
+      type: ItemGrant
+      title: Source of Inspiration
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.ajj7qlll51czwa4g
+    - _id: inspirationFeatu
+      type: ItemGrant
+      title: Inspiration Feature
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.f5wn52y7ped0sm8y
+    - _id: fulfillmentFeatu
+      type: ItemGrant
+      title: Fulfillment Feature
+      level: 16
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.chbi2fgqgi9rgo9g
 effects: []
 folder: 81MMD8Y0RY1EyBiv
 flags: {}
