@@ -38,14 +38,13 @@ flags: {}
 system:
   description:
     value: >-
-      <p>This
-      @UUID[Compendium.a5e.a5e-adventuring-gear.Item.ehrht446maas96sf]{Spear}
-      and @UUID[Compendium.a5e.a5e-adventuring-gear.Item.h7r1ogzu9fairy71]{Axe}
-      double weapon can be used as either.</p><hr><p><b>Breaker:</b> This weapon
-      deals double damage to unattended objects, such as doors and walls. If
-      this property only applies to a specific type of material, such as wood,
-      it is stated in parenthesis after this property.</p><p><b>Defensive:</b>
-      This weapon is designed to be used with a shield of the stated degree or
+      <p>This @UUID[Compendium.a5e-for-dnd5e.gear.Item.ehrht446maas96sf]{Spear}
+      and @UUID[Compendium.a5e-for-dnd5e.gear.Item.h7r1ogzu9fairy71]{Axe} double
+      weapon can be used as either.</p><hr><p><b>Breaker:</b> This weapon deals
+      double damage to unattended objects, such as doors and walls. If this
+      property only applies to a specific type of material, such as wood, it is
+      stated in parenthesis after this property.</p><p><b>Defensive:</b> This
+      weapon is designed to be used with a shield of the stated degree or
       lighter (light, medium, or heavy). When you make an attack with this
       weapon and are using a shield designed for it, you can use a bonus action
       to either make an attack with your shield or increase your Armor Class by

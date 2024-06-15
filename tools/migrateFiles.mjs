@@ -241,6 +241,10 @@ function fixUUIDrefs(uuid = '') {
     'Compendium.a5e.a5e-class-features',
     'Compendium.a5e-for-dnd5e.class-features'
   );
+  uuid = uuid.replaceAll(
+    'Compendium.a5e.a5e-adventuring-gear',
+    'Compendium.a5e-for-dnd5e.gear'
+  );
   return uuid;
 }
 
@@ -1466,7 +1470,6 @@ function migrateClass(system) {
 }
 
 function resolveSpellcastingProgression(slug, casterType) {
-  console.log(slug, casterType);
   if (
     ['adept', 'berserker', 'fighter', 'marshal', 'ranger', 'rogue'].includes(
       slug
