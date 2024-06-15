@@ -1635,7 +1635,7 @@ function processGrants(o5e, grants, type) {
  */
 function equipmentEntry(itemGrant, i, id) {
   return {
-    _id: id + i,
+    _id: id.slice(0, 15) + i,
     sort: (i + 1) * 10000,
     key: remapPack(itemGrant.uuid),
     count: itemGrant.quantityOverride ?? null,
