@@ -223,10 +223,6 @@ function abbr(word) {
     landVehicles: 'land',
     waterVehicles: 'water',
     airVehicles: 'air',
-    /** Spellcasting Progressions */
-    fullCaster: 'full',
-    halfCasterWithFirstLevel: 'herald',
-    warlockA5e: 'pact',
   };
   return map[word] ?? word;
 }
@@ -1457,12 +1453,37 @@ function migrateClass(system) {
     ],
     spellcasting: {
       ability: system.spellcasting.ability.base,
-      progression: abbr(system.spellcasting.casterType),
+      progression: resolveSpellcastingProgression(
+        system.slug,
+        system.spellcasting.casterType
+      ),
     },
     wealth: system.wealth,
   };
+
   processGrants(o5e, system.grants, 'class');
   return o5e;
+}
+
+function resolveSpellcastingProgression(slug, casterType) {
+  console.log(slug, casterType);
+  if (
+    ['adept', 'berserker', 'fighter', 'marshal', 'ranger', 'rogue'].includes(
+      slug
+    )
+  )
+    return 'martial';
+  else if (['scholar'].includes(slug)) return slug;
+  else
+    return (
+      {
+        /** Spellcasting Progressions */
+        fullCaster: 'full',
+        halfCasterWithFirstLevel: 'herald',
+        warlockA5e: 'pact',
+        wielder: 'wielder',
+      }[casterType] ?? 'none'
+    );
 }
 
 /**

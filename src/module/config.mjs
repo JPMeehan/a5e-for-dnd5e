@@ -271,8 +271,10 @@ const A5E_CONFIG = {
       stance: 'a5e-for-dnd5e.Stance',
     },
     spellProgression: {
-      default: 'a5e-for-dnd5e.Maneuver.Progression.default',
+      martial: 'a5e-for-dnd5e.Maneuver.Progression.martial',
       herald: 'a5e-for-dnd5e.Maneuver.Progression.herald',
+      scholar: 'a5e-for-dnd5e.Maneuver.Progression.scholar',
+      wielder: 'a5e-for-dnd5e.Maneuver.Progression.wielder',
     },
     spellcastingTypes: {
       leveled: {
@@ -286,8 +288,14 @@ const A5E_CONFIG = {
       maneuvers: {
         label: 'a5e-for-dnd5e.Maneuver.Label',
         progression: {
-          default: {
-            label: 'a5e-for-dnd5e.Maneuver.Progression.default',
+          martial: {
+            label: 'a5e-for-dnd5e.Maneuver.Progression.martial',
+          },
+          scholar: {
+            label: 'a5e-for-dnd5e.Maneuver.Progression.scholar',
+          },
+          wielder: {
+            label: 'a5e-for-dnd5e.Maneuver.Progression.wielder',
           },
         },
       },

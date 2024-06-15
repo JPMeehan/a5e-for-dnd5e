@@ -262,12 +262,16 @@ export function maxExertionPoints(
   count
 ) {
   if (
-    spellcasting.type !== 'maneuvers' &&
-    spellcasting.progression !== 'herald'
+    spellcasting.type !== 'maneuvers' ||
+    ['herald', 'wielder'].includes(spellcasting.progression)
   )
     return true;
   const prof = foundry.utils.getProperty(actor, 'system.attributes.prof');
-  const max = spellcasting.progression === 'default' ? 2 * prof : 0;
+  const max =
+    {
+      martial: 2 * prof,
+      scholar: prof,
+    }[spellcasting.progression] ?? 0;
   let ep = actor.getFlag(moduleID, 'ep');
   if (ep && foundry.utils.getType(ep) === 'Object')
     ep.max = Math.max(max, ep.max ?? 0);
