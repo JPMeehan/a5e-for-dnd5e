@@ -1331,9 +1331,10 @@ function migrateHeritage(system, name) {
 /**
  *
  * @param {import('./types/a5e.mjs').Background} system The a5e background
+ * @param {string} name The background's name
  * @returns {Background}    The o5e background
  */
-function migrateBackground(system) {
+function migrateBackground(system, name) {
   /** @type {Background} */
   const o5e = {
     description: {
@@ -1356,9 +1357,10 @@ function migrateBackground(system) {
 /**
  *
  * @param {import('./types/a5e.mjs').Culture} system The a5e culture
+ * @param {string} name The culture's name
  * @returns {Culture}    The o5e culture
  */
-function migrateCulture(system) {
+function migrateCulture(system, name) {
   /** @type {Culture} */
   const o5e = {
     description: {
@@ -1380,9 +1382,10 @@ function migrateCulture(system) {
 /**
  *
  * @param {import('./types/a5e.mjs').Destiny} system The a5e destiny
+ * @param {string} name The destiny's name
  * @returns {Destiny}    The o5e destiny
  */
-function migrateDestiny(system) {
+function migrateDestiny(system, name) {
   /** @type {Destiny} */
   const o5e = {
     description: {
@@ -1432,9 +1435,10 @@ function migrateDestiny(system) {
 /**
  *
  * @param {import('./types/a5e.mjs').ClassA5E} system The a5e class
+ * @param {string} name The name of the class
  * @returns {import('./types/dnd5e.mjs').Class5e}  The o5e class
  */
-function migrateClass(system) {
+function migrateClass(system, name) {
   /** @type {Class5e} */
   const o5e = {
     description: {
@@ -1458,7 +1462,7 @@ function migrateClass(system) {
     spellcasting: {
       ability: system.spellcasting.ability.base,
       progression: resolveSpellcastingProgression(
-        system.slug,
+        system.slug || name.toLowerCase(),
         system.spellcasting.casterType
       ),
     },
@@ -1997,18 +2001,18 @@ for (const p of packList) {
       data.type = 'race';
       break;
     case 'background':
-      data.system = migrateBackground(data.system);
+      data.system = migrateBackground(data.system, data.name);
       break;
     case 'culture':
-      data.system = migrateCulture(data.system);
+      data.system = migrateCulture(data.system, data.name);
       data.type = 'a5e-for-dnd5e.culture';
       break;
     case 'destiny':
-      data.system = migrateDestiny(data.system);
+      data.system = migrateDestiny(data.system, data.name);
       data.type = 'a5e-for-dnd5e.destiny';
       break;
     case 'class':
-      data.system = migrateClass(data.system);
+      data.system = migrateClass(data.system, data.name);
       break;
   }
   if (!fs.lstat(packPath)) fs.mkdir(packPath);
