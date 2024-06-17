@@ -74,8 +74,8 @@ effects:
     name: Necromantic Shape
     _id: nPRmA0fHBBwUa8rS
     changes:
-      - key: system.traits.damageImmunities
-        value: '["poison","necrotic"]'
+      - key: system.traits.di.value
+        value: poison
         mode: 2
         priority: null
       - key: system.attributes.senses.darkvision.distance

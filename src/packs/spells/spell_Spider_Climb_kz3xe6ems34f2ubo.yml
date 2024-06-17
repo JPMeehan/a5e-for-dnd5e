@@ -15,7 +15,7 @@ effects:
     name: Spider Climb
     _id: sQU8HDpxkEceCdQe
     changes:
-      - key: system.attributes.movement.climb.distance
+      - key: system.attributes.movement.climb
         value: '@attributes.movement.walk.distance'
         mode: 6
         priority: null

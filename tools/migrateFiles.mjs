@@ -1995,9 +1995,19 @@ function migrateEffects(effects) {
     const statuses = [];
     for (const change of effect.changes) {
       let parsed = null;
-      if (change.value.startsWith('{')) parsed = JSON.parse(change.value);
+      if (change.value.startsWith('{') || change.value.startsWith('[')) {
+        parsed = JSON.parse(change.value);
+      }
       if (parsed) console.log(parsed);
-      if (change.key in effectMap) change.key = effectMap[change.key];
+      if (change.key in effectMap) {
+        change.key = effectMap[change.key];
+        if (
+          change.key.match(/system\.traits\.\w\w\.value/) &&
+          parsed instanceof Array
+        ) {
+          change.value = parsed[0];
+        }
+      }
       if (
         change.key === 'flags.a5e.effects.statusConditions' &&
         parsed instanceof Array

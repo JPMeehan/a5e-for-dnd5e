@@ -30,8 +30,8 @@ effects:
     name: Psychic Resistance
     _id: 486725VgGyPrrWRs
     changes:
-      - key: system.traits.damageResistances
-        value: '["psychic"]'
+      - key: system.traits.dr.value
+        value: psychic
         mode: 2
         priority: null
       - key: system.abilities.int.save.proficient

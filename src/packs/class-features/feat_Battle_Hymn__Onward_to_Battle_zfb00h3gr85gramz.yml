@@ -16,27 +16,27 @@ effects:
     name: 'Battle Hymn: Onward to Battle'
     _id: FvshcvojJNSh34sy
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: >-
           {"comparisonOperator":">","comparisonValue":"0","positiveValue":"@original+40","negativeValue":"0"}
         mode: 7
         priority: null
-      - key: system.attributes.movement.climb.distance
+      - key: system.attributes.movement.climb
         value: >-
           {"comparisonOperator":">","comparisonValue":"0","positiveValue":"@original+40","negativeValue":"0"}
         mode: 7
         priority: null
-      - key: system.attributes.movement.burrow.distance
+      - key: system.attributes.movement.burrow
         value: >-
           {"comparisonOperator":">","comparisonValue":"0","positiveValue":"@original+40","negativeValue":"0"}
         mode: 7
         priority: null
-      - key: system.attributes.movement.fly.distance
+      - key: system.attributes.movement.fly
         value: >-
           {"comparisonOperator":">","comparisonValue":"0","positiveValue":"@original+40","negativeValue":"0"}
         mode: 7
         priority: null
-      - key: system.attributes.movement.swim.distance
+      - key: system.attributes.movement.swim
         value: >-
           {"comparisonOperator":">","comparisonValue":"0","positiveValue":"@original+40","negativeValue":"0"}
         mode: 7

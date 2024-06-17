@@ -15,7 +15,7 @@ effects:
     name: Amphibian
     _id: aWJvZ7khnOwjuaSx
     changes:
-      - key: system.attributes.movement.swim.distance
+      - key: system.attributes.movement.swim
         value: '@attributes.movement.walk.distance'
         mode: 6
         priority: null
@@ -149,8 +149,8 @@ effects:
         value: '["undead"]'
         mode: 6
         priority: null
-      - key: system.traits.damageImmunities
-        value: '["poison"]'
+      - key: system.traits.di.value
+        value: poison
         mode: 2
         priority: null
     disabled: false
@@ -183,7 +183,7 @@ effects:
     name: Wings
     _id: W1p5BbOSgISqDkXG
     changes:
-      - key: system.attributes.movement.fly.distance
+      - key: system.attributes.movement.fly
         value: '@attributes.movement.walk.distance'
         mode: 6
         priority: null

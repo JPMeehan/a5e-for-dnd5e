@@ -12,8 +12,8 @@ effects:
     name: Hellish Resistance
     _id: TZtAR71r1MiXA6GY
     changes:
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 2
         priority: null
     disabled: false

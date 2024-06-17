@@ -24,8 +24,8 @@ effects:
         value: '20'
         mode: 6
         priority: null
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 2
         priority: null
     disabled: false
@@ -63,8 +63,8 @@ effects:
         value: '20'
         mode: 6
         priority: null
-      - key: system.traits.damageResistances
-        value: '["cold"]'
+      - key: system.traits.dr.value
+        value: cold
         mode: 2
         priority: null
     disabled: false

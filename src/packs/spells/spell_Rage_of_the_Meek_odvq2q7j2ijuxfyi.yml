@@ -16,8 +16,8 @@ effects:
     name: Rage of the Meek
     _id: oleoyEThfpP2nn2I
     changes:
-      - key: system.traits.damageResistances
-        value: '["bludgeoning, piercing, and slashing damage from nonmagical weapons"]'
+      - key: system.traits.dr.value
+        value: bludgeoning, piercing, and slashing damage from nonmagical weapons
         mode: 2
         priority: null
     disabled: false

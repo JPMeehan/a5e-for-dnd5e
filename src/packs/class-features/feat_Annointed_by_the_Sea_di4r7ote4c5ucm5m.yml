@@ -79,7 +79,7 @@ effects:
     name: Amphibian
     _id: FmHZFYE5AMA1X6HX
     changes:
-      - key: system.attributes.movement.swim.distance
+      - key: system.attributes.movement.swim
         value: '@attributes.movement.walk.distance'
         mode: 6
         priority: null

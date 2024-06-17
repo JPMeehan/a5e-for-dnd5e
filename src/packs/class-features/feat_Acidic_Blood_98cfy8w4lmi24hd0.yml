@@ -71,8 +71,8 @@ effects:
     name: Acid immunity
     _id: IjqbgZpj9nozsK7F
     changes:
-      - key: system.traits.damageImmunities
-        value: '["acid"]'
+      - key: system.traits.di.value
+        value: acid
         mode: 2
         priority: null
     disabled: false

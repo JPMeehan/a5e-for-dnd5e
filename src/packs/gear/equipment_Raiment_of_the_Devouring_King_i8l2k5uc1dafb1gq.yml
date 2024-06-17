@@ -180,8 +180,8 @@ effects:
         value: '["poisoned","Aging","Diseased"]'
         mode: 2
         priority: null
-      - key: system.traits.damageImmunities
-        value: '["poison"]'
+      - key: system.traits.di.value
+        value: poison
         mode: 2
         priority: null
     disabled: false

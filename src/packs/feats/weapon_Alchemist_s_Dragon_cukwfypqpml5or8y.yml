@@ -96,7 +96,7 @@ effects:
     name: Deployed
     _id: AEDsV0Pqdhg0IzkV
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '@original/2'
         mode: 6
         priority: null

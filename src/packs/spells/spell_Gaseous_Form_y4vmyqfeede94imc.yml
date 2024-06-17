@@ -15,16 +15,16 @@ effects:
     name: Gaseous Form
     _id: d7zjOFHwtMtfNE8u
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '1'
         mode: 6
         priority: null
-      - key: system.attributes.movement.fly.distance
+      - key: system.attributes.movement.fly
         value: '10'
         mode: 6
         priority: null
-      - key: system.traits.damageResistances
-        value: '["Nonmagical damage"]'
+      - key: system.traits.dr.value
+        value: Nonmagical damage
         mode: 2
         priority: null
       - key: flags.a5e.effects.rollMode.abilitySave.str

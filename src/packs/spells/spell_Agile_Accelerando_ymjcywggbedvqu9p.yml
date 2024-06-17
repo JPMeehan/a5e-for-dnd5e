@@ -16,23 +16,23 @@ effects:
     name: Agile Accelerando (Round 1)
     _id: 6jr6X6lQo0sFcCtI
     changes:
-      - key: system.attributes.movement.burrow.distance
+      - key: system.attributes.movement.burrow
         value: '2'
         mode: 1
         priority: null
-      - key: system.attributes.movement.climb.distance
+      - key: system.attributes.movement.climb
         value: '2'
         mode: 1
         priority: null
-      - key: system.attributes.movement.fly.distance
+      - key: system.attributes.movement.fly
         value: '2'
         mode: 1
         priority: null
-      - key: system.attributes.movement.swim.distance
+      - key: system.attributes.movement.swim
         value: '2'
         mode: 1
         priority: null
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '2'
         mode: 1
         priority: null

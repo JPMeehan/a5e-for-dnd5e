@@ -80,7 +80,7 @@ effects:
     name: Dragon Wings
     _id: sN3K8y11JO7h64Dn
     changes:
-      - key: system.attributes.movement.fly.distance
+      - key: system.attributes.movement.fly
         value: '@attributes.movement.walk.distance'
         mode: 2
         priority: null

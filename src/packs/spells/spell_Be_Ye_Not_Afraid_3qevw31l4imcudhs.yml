@@ -113,16 +113,16 @@ effects:
     name: Be Ye Not Afraid
     _id: oXwkfaBAlPr169XO
     changes:
-      - key: system.attributes.movement.fly.distance
+      - key: system.attributes.movement.fly
         value: '120'
         mode: 6
         priority: null
-      - key: system.attributes.movement.traits.hover
+      - key: system.attributes.movement.hover
         value: 'true'
         mode: 6
         priority: null
-      - key: system.traits.damageImmunities
-        value: '["radiant","fire","poison"]'
+      - key: system.traits.di.value
+        value: radiant
         mode: 2
         priority: null
       - key: system.traits.conditionImmunities

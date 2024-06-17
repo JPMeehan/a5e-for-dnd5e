@@ -70,8 +70,8 @@ effects:
     name: Deadly Strikes
     _id: skk7dZegGcrGwspM
     changes:
-      - key: system.traits.damageResistances
-        value: '["necrotic"]'
+      - key: system.traits.dr.value
+        value: necrotic
         mode: 2
         priority: null
       - key: flags.a5e.effects.bonuses.damage

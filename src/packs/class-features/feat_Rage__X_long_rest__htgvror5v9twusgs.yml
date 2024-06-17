@@ -24,8 +24,8 @@ effects:
         value: '1'
         mode: 6
         priority: null
-      - key: system.traits.damageResistances
-        value: '["bludgeoning","piercing","slashing"]'
+      - key: system.traits.dr.value
+        value: bludgeoning
         mode: 2
         priority: null
     disabled: false

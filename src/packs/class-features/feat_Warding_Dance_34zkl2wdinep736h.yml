@@ -17,8 +17,8 @@ effects:
     name: Warding Dance
     _id: ZB2FFDOkPAz0lWQi
     changes:
-      - key: system.traits.damageResistances
-        value: '["bludgeoning","piercing","slashing"]'
+      - key: system.traits.dr.value
+        value: bludgeoning
         mode: 2
         priority: null
     disabled: false

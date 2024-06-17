@@ -31,7 +31,7 @@ effects:
     name: Necrotic Resistance
     _id: G4mCaZJKXFce00Wy
     changes:
-      - key: system.traits.damageResistances
+      - key: system.traits.dr.value
         value: necrotic
         mode: 2
         priority: null

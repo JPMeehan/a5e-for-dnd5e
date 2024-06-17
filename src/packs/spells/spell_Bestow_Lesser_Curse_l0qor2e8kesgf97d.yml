@@ -134,7 +134,7 @@ effects:
     name: Reduce Speed
     _id: ACVEgWrYYZ5vOLQ9
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '5'
         mode: 3
         priority: null
@@ -226,7 +226,7 @@ effects:
     name: Reduce Speed
     _id: jT7IlydKFfOGWqZy
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '5'
         mode: 3
         priority: null

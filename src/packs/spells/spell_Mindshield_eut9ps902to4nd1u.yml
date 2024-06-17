@@ -15,8 +15,8 @@ effects:
     name: Mindshield
     _id: QwxVLuOkkUcHrb7o
     changes:
-      - key: system.traits.damageResistances
-        value: '["psychic"]'
+      - key: system.traits.dr.value
+        value: psychic
         mode: 2
         priority: null
     disabled: false

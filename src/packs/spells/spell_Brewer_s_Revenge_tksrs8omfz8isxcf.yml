@@ -122,23 +122,23 @@ effects:
     name: Unsteady
     _id: 3lCtDLtw7VQM76ZT
     changes:
-      - key: system.attributes.movement.burrow.distance
+      - key: system.attributes.movement.burrow
         value: '0.5'
         mode: 1
         priority: null
-      - key: system.attributes.movement.climb.distance
+      - key: system.attributes.movement.climb
         value: '0.5'
         mode: 1
         priority: null
-      - key: system.attributes.movement.fly.distance
+      - key: system.attributes.movement.fly
         value: '0.5'
         mode: 1
         priority: null
-      - key: system.attributes.movement.swim.distance
+      - key: system.attributes.movement.swim
         value: '0.5'
         mode: 1
         priority: null
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '0.5'
         mode: 1
         priority: null

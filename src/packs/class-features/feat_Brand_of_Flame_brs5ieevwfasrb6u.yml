@@ -100,8 +100,8 @@ effects:
     name: Blessing of Fire
     _id: 1hSVV1OyX19L8MMk
     changes:
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 2
         priority: null
       - key: flags.a5e.effects.bonuses.damage
@@ -137,8 +137,8 @@ effects:
     name: Curse of Fire
     _id: nB0ROaVaBE2ndGAc
     changes:
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 3
         priority: null
     disabled: false

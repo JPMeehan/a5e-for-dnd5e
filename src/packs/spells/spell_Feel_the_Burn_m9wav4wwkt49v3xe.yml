@@ -86,8 +86,8 @@ effects:
     name: Feel the Burn
     _id: AD8nB36sx7asGlE3
     changes:
-      - key: system.traits.damageResistances
-        value: '["cold"]'
+      - key: system.traits.dr.value
+        value: cold
         mode: 2
         priority: null
     disabled: false

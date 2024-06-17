@@ -43,8 +43,8 @@ effects:
     name: Armor of Power (Radiant)
     _id: zrqctINIZ4wCn6KJ
     changes:
-      - key: system.traits.damageImmunities
-        value: '["radiant"]'
+      - key: system.traits.di.value
+        value: radiant
         mode: 2
         priority: null
     disabled: false
@@ -72,8 +72,8 @@ effects:
     name: Armor of Power (Necrotic)
     _id: GXb8g59AMezl1O6w
     changes:
-      - key: system.traits.damageImmunities
-        value: '["necrotic"]'
+      - key: system.traits.di.value
+        value: necrotic
         mode: 2
         priority: null
     disabled: false

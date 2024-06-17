@@ -75,8 +75,8 @@ effects:
         value: '["invisible"]'
         mode: 0
         priority: null
-      - key: system.traits.damageImmunities
-        value: '["necrotic"]'
+      - key: system.traits.di.value
+        value: necrotic
         mode: 2
         priority: null
     disabled: false

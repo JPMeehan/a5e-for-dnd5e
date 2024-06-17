@@ -203,7 +203,7 @@ effects:
     name: Resistance
     _id: gT7zOifVuuhnHL3W
     changes:
-      - key: system.traits.damageResistances
+      - key: system.traits.dr.value
         value: ''
         mode: 2
         priority: null
@@ -338,8 +338,8 @@ effects:
         value: '["bludgeoning"]'
         mode: 2
         priority: null
-      - key: system.traits.damageImmunities
-        value: '["poison"]'
+      - key: system.traits.di.value
+        value: poison
         mode: 2
         priority: null
       - key: system.traits.conditionImmunities
@@ -421,7 +421,7 @@ effects:
         value: 'false'
         mode: 6
         priority: null
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '20'
         mode: 6
         priority: null
@@ -505,8 +505,8 @@ effects:
         value: '0'
         mode: 6
         priority: null
-      - key: system.traits.damageImmunities
-        value: '["poison"]'
+      - key: system.traits.di.value
+        value: poison
         mode: 2
         priority: null
       - key: system.traits.conditionImmunities

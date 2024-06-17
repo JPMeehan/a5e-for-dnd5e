@@ -128,7 +128,7 @@ effects:
     name: 'Torch Bearer Form: Movement'
     _id: NCzbBANtWpYvT9bU
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         mode: 2
         value: '10'
         priority: null

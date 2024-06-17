@@ -89,8 +89,8 @@ effects:
     name: Ice Armour
     _id: IVj4mYGtXn1rAS9X
     changes:
-      - key: system.traits.damageResistances
-        value: '["cold"]'
+      - key: system.traits.dr.value
+        value: cold
         mode: 2
         priority: null
       - key: system.attributes.ac.changes.bonuses.value

@@ -77,7 +77,7 @@ effects:
     name: Blinded
     _id: wIrEeKizn1i910qR
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '0.5'
         mode: 1
         priority: null
@@ -113,7 +113,7 @@ effects:
     name: Deafened
     _id: 8vWJ5oGL42EGzvLe
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '0.5'
         mode: 1
         priority: null

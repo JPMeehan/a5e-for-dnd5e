@@ -78,8 +78,8 @@ effects:
     name: Poison Resistance
     _id: 1EFAQ52a2kghOpzL
     changes:
-      - key: system.traits.damageResistances
-        value: '["poison"]'
+      - key: system.traits.dr.value
+        value: poison
         mode: 2
         priority: null
     disabled: false
@@ -105,8 +105,8 @@ effects:
     name: Cold Adapted
     _id: rnIk53irzzvQMSC1
     changes:
-      - key: system.traits.damageResistances
-        value: '["cold"]'
+      - key: system.traits.dr.value
+        value: cold
         mode: 2
         priority: null
     disabled: false
@@ -132,8 +132,8 @@ effects:
     name: Heat Adapted
     _id: LCBQ4stp8ySZAbpe
     changes:
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 2
         priority: null
     disabled: false
@@ -187,7 +187,7 @@ effects:
     name: Amphibious
     _id: 1P5vdP23zJzmTmaR
     changes:
-      - key: system.attributes.movement.swim.distance
+      - key: system.attributes.movement.swim
         value: '30'
         mode: 2
         priority: null
@@ -214,7 +214,7 @@ effects:
     name: Arboreal
     _id: E2wCeTF70M4nrhIg
     changes:
-      - key: system.attributes.movement.climb.distance
+      - key: system.attributes.movement.climb
         value: '30'
         mode: 2
         priority: null

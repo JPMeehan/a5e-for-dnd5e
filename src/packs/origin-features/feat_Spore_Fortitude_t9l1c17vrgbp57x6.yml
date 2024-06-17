@@ -32,8 +32,8 @@ effects:
     name: Poison Resistance
     _id: J3ojjPrDgJVkEdsM
     changes:
-      - key: system.traits.damageResistances
-        value: '["poison"]'
+      - key: system.traits.dr.value
+        value: poison
         mode: 2
         priority: null
     disabled: false

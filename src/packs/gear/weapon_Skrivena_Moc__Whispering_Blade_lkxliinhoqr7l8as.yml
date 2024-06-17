@@ -44,8 +44,8 @@ effects:
     name: Attached
     _id: FsVHl5QDQEXtvIcU
     changes:
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 2
         priority: null
       - key: system.proficiencies.weapons

@@ -12,7 +12,7 @@ effects:
     name: Osseous Plate
     _id: kEq0dPbVbI5w6l0N
     changes:
-      - key: system.traits.damageResistances
+      - key: system.traits.dr.value
         mode: 2
         value: necrotic
         priority: null
@@ -20,7 +20,7 @@ effects:
         mode: 2
         value: bludgeoning
         priority: null
-      - key: system.traits.damageResistances
+      - key: system.traits.dr.value
         mode: 2
         value: poison
         priority: null

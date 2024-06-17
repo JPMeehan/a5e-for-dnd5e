@@ -124,8 +124,8 @@ effects:
     name: Expend Veil
     _id: 4R6K0tHHpOEusrCU
     changes:
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 2
         priority: null
     disabled: false
@@ -156,8 +156,8 @@ effects:
     name: Expend Veil
     _id: BYrUYvEJXR3hArRx
     changes:
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 2
         priority: null
     disabled: false

@@ -31,7 +31,7 @@ effects:
     name: Speed Boost
     _id: e6uWrkA5iMBBmUd1
     changes:
-      - key: system.attributes.movement.walk.distance
+      - key: system.attributes.movement.walk
         value: '10'
         mode: 2
         priority: null

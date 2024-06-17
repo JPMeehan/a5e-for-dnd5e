@@ -32,7 +32,7 @@ effects:
     name: 'Torch Bearer Form: Ancestral Talents (Maneuver DC)'
     _id: qNLuZQ9lxt8hmySu
     changes:
-      - key: system.bonuses.maneuverDC
+      - key: flags.a5e-for-dnd5e.maneuverDC
         value: '2'
         mode: 2
         priority: null
@@ -59,7 +59,7 @@ effects:
     name: 'Torch Bearer Form: Ancestral Talents (Wielder Spell DC)'
     _id: tzQ2KJwKSGtdfDiX
     changes:
-      - key: system.bonuses.spellDC
+      - key: system.bonuses.spell.dc
         value: '2'
         mode: 2
         priority: null

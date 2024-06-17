@@ -81,8 +81,8 @@ effects:
     name: Damage Resistances
     _id: lcVownLLljKq6Prh
     changes:
-      - key: system.traits.damageResistances
-        value: '["bludgeoning","piercing","slashing","acid","necrotic","poison"]'
+      - key: system.traits.dr.value
+        value: bludgeoning
         mode: 2
         priority: null
     disabled: false

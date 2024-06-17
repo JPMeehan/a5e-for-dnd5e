@@ -15,8 +15,8 @@ effects:
     name: Mind Blank
     _id: RBAh2Q7IrMLfxazw
     changes:
-      - key: system.traits.damageImmunities
-        value: '["psychic"]'
+      - key: system.traits.di.value
+        value: psychic
         mode: 2
         priority: null
       - key: system.traits.conditionImmunities

@@ -91,8 +91,8 @@ effects:
     name: Master of the Family Tree
     _id: YzX0SOuEc5ACG6iK
     changes:
-      - key: system.traits.damageResistances
-        value: '["psychic"]'
+      - key: system.traits.dr.value
+        value: psychic
         mode: 2
         priority: null
     disabled: false

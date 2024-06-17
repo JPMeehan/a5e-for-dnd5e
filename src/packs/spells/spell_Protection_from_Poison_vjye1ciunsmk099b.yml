@@ -15,8 +15,8 @@ effects:
     name: Protection from Poison
     _id: qPau3CSpppzHRDbG
     changes:
-      - key: system.traits.damageResistances
-        value: '["poison"]'
+      - key: system.traits.dr.value
+        value: poison
         mode: 2
         priority: null
     disabled: false

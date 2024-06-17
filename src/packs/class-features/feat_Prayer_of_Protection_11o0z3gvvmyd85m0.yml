@@ -16,8 +16,8 @@ effects:
     name: Prayer of Protection (Cold)
     _id: RL2jkKgiveGdCBij
     changes:
-      - key: system.traits.damageResistances
-        value: '["cold"]'
+      - key: system.traits.dr.value
+        value: cold
         mode: 2
         priority: null
     disabled: false
@@ -47,8 +47,8 @@ effects:
     name: Prayer of Protection (Fire)
     _id: WCdkmG0pSFVXJPun
     changes:
-      - key: system.traits.damageResistances
-        value: '["fire"]'
+      - key: system.traits.dr.value
+        value: fire
         mode: 2
         priority: null
     disabled: false
@@ -78,8 +78,8 @@ effects:
     name: Prayer of Protection (Force)
     _id: FFI0IDbBs1rTarID
     changes:
-      - key: system.traits.damageResistances
-        value: '["force"]'
+      - key: system.traits.dr.value
+        value: force
         mode: 2
         priority: null
     disabled: false
@@ -109,8 +109,8 @@ effects:
     name: Prayer of Protection (Lightning)
     _id: 205QsVRx13cUBGkH
     changes:
-      - key: system.traits.damageResistances
-        value: '["lightning"]'
+      - key: system.traits.dr.value
+        value: lightning
         mode: 2
         priority: null
     disabled: false
@@ -140,8 +140,8 @@ effects:
     name: Prayer of Protection (Necrotic)
     _id: hKQEoNefwAW4vOPo
     changes:
-      - key: system.traits.damageResistances
-        value: '["necrotic"]'
+      - key: system.traits.dr.value
+        value: necrotic
         mode: 2
         priority: null
     disabled: false
@@ -171,8 +171,8 @@ effects:
     name: Prayer of Protection (Psychic)
     _id: FWbFBKdHhFzbnboZ
     changes:
-      - key: system.traits.damageResistances
-        value: '["psychic"]'
+      - key: system.traits.dr.value
+        value: psychic
         mode: 2
         priority: null
     disabled: false
@@ -202,8 +202,8 @@ effects:
     name: Prayer of Protection (Radiant)
     _id: rh5s6xkfQDFJIBeX
     changes:
-      - key: system.traits.damageResistances
-        value: '["radiant"]'
+      - key: system.traits.dr.value
+        value: radiant
         mode: 2
         priority: null
     disabled: false
@@ -233,8 +233,8 @@ effects:
     name: Prayer of Protection (Thunder)
     _id: xR2RoZHgrYDzaMff
     changes:
-      - key: system.traits.damageResistances
-        value: '["thunder"]'
+      - key: system.traits.dr.value
+        value: thunder
         mode: 2
         priority: null
     disabled: false

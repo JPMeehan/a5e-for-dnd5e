@@ -143,8 +143,8 @@ effects:
     name: Litany of Flame
     _id: OfSaNtMP2N2UAEon
     changes:
-      - key: system.traits.damageImmunities
-        value: '["fire"]'
+      - key: system.traits.di.value
+        value: fire
         mode: 2
         priority: null
       - key: '@token.light.bright'

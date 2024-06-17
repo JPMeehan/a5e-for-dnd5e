@@ -38,7 +38,7 @@ effects:
     name: Burrowing Speed
     _id: pt4iMNXfm2SQOQbZ
     changes:
-      - key: system.attributes.movement.burrow.distance
+      - key: system.attributes.movement.burrow
         value: '15'
         mode: 2
         priority: null

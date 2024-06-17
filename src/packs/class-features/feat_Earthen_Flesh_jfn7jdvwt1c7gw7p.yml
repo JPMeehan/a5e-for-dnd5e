@@ -61,8 +61,8 @@ effects:
     name: Non-Magical Blugeoning Resistance
     _id: 9Bizwon5orYeXcer
     changes:
-      - key: system.traits.damageResistances
-        value: '["Non-Magical Bludgeoning"]'
+      - key: system.traits.dr.value
+        value: Non-Magical Bludgeoning
         mode: 2
         priority: null
     disabled: false
@@ -88,8 +88,8 @@ effects:
     name: Non-Magical Piercing Resistance
     _id: upUCPcyHUt5c9tiG
     changes:
-      - key: system.traits.damageResistances
-        value: '["Non-Magical Piercing"]'
+      - key: system.traits.dr.value
+        value: Non-Magical Piercing
         mode: 2
         priority: null
     disabled: false
@@ -115,8 +115,8 @@ effects:
     name: Non-Magical Slashing Resistance
     _id: 7WPXVf4VGQsAOhVH
     changes:
-      - key: system.traits.damageResistances
-        value: '["Non-Magical Slashing"]'
+      - key: system.traits.dr.value
+        value: Non-Magical Slashing
         mode: 2
         priority: null
     disabled: false

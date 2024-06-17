@@ -12,8 +12,8 @@ effects:
     name: Divine Protection
     _id: 4xRYT16mJkMFXmBK
     changes:
-      - key: system.traits.damageResistances
-        value: '["radiant"]'
+      - key: system.traits.dr.value
+        value: radiant
         mode: 2
         priority: null
     disabled: false

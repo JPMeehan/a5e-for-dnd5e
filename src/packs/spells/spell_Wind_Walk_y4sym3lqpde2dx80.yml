@@ -13,12 +13,12 @@ effects:
     name: Cloud form
     _id: 9HTihRW6cAtGO5Zz
     changes:
-      - key: system.attributes.movement.fly.distance
+      - key: system.attributes.movement.fly
         value: '300'
         mode: 6
         priority: null
-      - key: system.traits.damageResistances
-        value: '["nonmagical weapons"]'
+      - key: system.traits.dr.value
+        value: nonmagical weapons
         mode: 2
         priority: null
     disabled: false
