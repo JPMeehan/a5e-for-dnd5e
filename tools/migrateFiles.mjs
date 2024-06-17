@@ -1966,6 +1966,49 @@ function mapWeapons(a5eWeapon) {
   return rarity[r] + a5eWeapon.toLowerCase();
 }
 
+/**
+ * Migrates the effects array
+ * @param {Array<import('./types/core.mjs').ActiveEffectData>} effects
+ */
+function migrateEffects(effects) {
+  const flagPath = 'flags.a5e-for-dnd5e';
+  const effectMap = {
+    'system.attributes.strife': `${flagPath}.stress`,
+    'system.bonuses.spellDC': 'system.bonuses.spell.dc',
+    'system.bonuses.maneuverDC': `${flagPath}.maneuverDC`,
+    'system.attributes.movement.walk.distance':
+      'system.attributes.movement.walk',
+    'system.attributes.movement.climb.distance':
+      'system.attributes.movement.climb',
+    'system.attributes.movement.burrow.distance':
+      'system.attributes.movement.burrow',
+    'system.attributes.movement.fly.distance': 'system.attributes.movement.fly',
+    'system.attributes.movement.swim.distance':
+      'system.attributes.movement.swim',
+    'system.attributes.movement.traits.hover':
+      'system.attributes.movement.hover',
+    'system.traits.damageImmunities': 'system.traits.di.value',
+    'system.traits.damageResistances': 'system.traits.dr.value',
+  };
+
+  for (const effect of effects) {
+    const statuses = [];
+    for (const change of effect.changes) {
+      let parsed = null;
+      if (change.value.startsWith('{')) parsed = JSON.parse(change.value);
+      if (parsed) console.log(parsed);
+      if (change.key in effectMap) change.key = effectMap[change.key];
+      if (
+        change.key === 'flags.a5e.effects.statusConditions' &&
+        parsed instanceof Array
+      ) {
+        statuses.push(...parsed);
+      }
+    }
+    effect.statuses = statuses;
+  }
+}
+
 for (const p of packList) {
   const read_file = await fs.readFile(path.join(origin, p), 'utf-8');
   const data = yaml.load(read_file);
@@ -2015,6 +2058,7 @@ for (const p of packList) {
       data.system = migrateClass(data.system, data.name);
       break;
   }
+  if (data.effects) migrateEffects(data.effects);
   if (!fs.lstat(packPath)) fs.mkdir(packPath);
   const fileOutPath = data.type + '_' + p;
   await fs.writeFile(
