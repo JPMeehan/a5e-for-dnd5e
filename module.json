@@ -175,13 +175,24 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
     {
       "name": "Level Up: Advanced 5th Edition",
       "sorting": "a",
-      "packs": ["rules", "tables"],
+      "packs": ["rules", "tables", "macros"],
       "color": "#CD853F",
       "folders": [
         {

@@ -1,0 +1,23 @@
+name: Maneuver Specialization
+type: script
+scope: global
+author: NDuhvzj89yA7WSBP
+img: icons/skills/melee/strike-sword-slashing-red.webp
+command: "if (!actor) return ui.notifications.warn(\"Please select an actor first!\")\n\ndata = {\n  name: \"Maneuver Specialization\",\n  icon: \"icons/skills/melee/strike-sword-slashing-red.webp\",\n  flags: { dnd5e: { type: \"enchantment\" }},\n  origin: \"Compendium.a5e-for-dnd5e.class-features.Item.en70nzkwimtjzkf3\",\n  changes: [\n    {\n\t  key: 'system.consume.amount',\n\t  mode: 2,\n\t  value: -1\n    },\n    {\n\t  key: 'system.consume.amount',\n\t  mode: 4,\n\t  value: -1\n    },\n\t{\n\t\tkey: 'flags.a5e-for-dnd5e.specialized',\n\t\tmode: 2,\n\t\tvalue: 'true'\n\t}\n  ]\n}\n\nitemId = await Dialog.confirm({\n\ttitle: \"Maneuver Specialization\",\n\tcontent: `<span>Choose a maneuver to specialize in: </span><select name=\"maneuver\">${\n\t\tHandlebars.helpers.selectOptions(actor.items.filter(i => i.type === 'a5e-for-dnd5e.maneuver'), \n\t\t{ hash: { nameAttr: \"_id\", labelAttr: \"name\", sort: true }} )}</select>`,\n\tyes: html => html.find('[name=\"maneuver\"]')[0].value,\n\tno: () => { console.warn(\"No maneuver selected!\"); return false }\n})\n\nif (!itemId) return;\n\nitem = actor.items.get(itemId);\n\nawait item.createEmbeddedDocuments(\"ActiveEffect\", [data])\n\nitem.sheet.render(true)"
+folder: null
+ownership:
+  default: 0
+  NDuhvzj89yA7WSBP: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1718430737550
+  modifiedTime: 1718950630812
+  lastModifiedBy: NDuhvzj89yA7WSBP
+_id: OtVekNXcFMlbcTco
+sort: 0
+_key: '!macros!OtVekNXcFMlbcTco'
+
