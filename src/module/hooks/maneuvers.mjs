@@ -150,26 +150,6 @@ export function inlineManeuverDisplay(sheet, html, context) {
     if (!spellListTemplate) return;
     renderTemplate(spellListTemplate, context).then((partial) => {
       spellList.html(partial);
-      const ep = sheet.actor.getFlag(moduleID, 'ep');
-      if (ep && context.isCharacter) {
-        const epContext = {
-          ep: ep.value,
-          epMax: ep.max,
-        };
-        const template = {
-          [ACTOR_SHEETS.DEFAULT]: 'templates/default/ep-partial.hbs',
-          [ACTOR_SHEETS.LEGACY]: 'templates/legacy/ep-partial.hbs',
-        }[sheet.constructor.name];
-        renderTemplate(modulePath + template, epContext).then(
-          (exertionHeader) => {
-            const epTarget = {
-              [ACTOR_SHEETS.DEFAULT]: 'dnd5e-inventory',
-              [ACTOR_SHEETS.LEGACY]: '.inventory-list',
-            }[sheet.constructor.name];
-            spellList.find(epTarget).prepend(exertionHeader);
-          }
-        );
-      }
 
       switch (sheet.constructor.name) {
         case ACTOR_SHEETS.DEFAULT:

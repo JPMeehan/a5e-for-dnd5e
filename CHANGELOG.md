@@ -4,6 +4,7 @@
 
 - Added classes to class compendiums
 - [BREAKING] Changed the value of the "Default Maneuvers" progression from `default` to `martial` to reduce risk of name collision with other modules
+- [BREAKING] Refactored maneuvers to leverage dnd5e's built in Item Charges consumption method
 - Added Destiny features as advancements; the fulfillment features are set to the automatic level of 16
 - Updated data imports from a5e, alongside many fixes to advancements on origins
 
