@@ -193,16 +193,16 @@ Hooks.on('renderActorSheet5e', a5eHooks.maneuvers.inlineManeuverDisplay);
 //   a5eHooks.maneuvers.inlineManeuverDisplay
 // );
 
-Hooks.on(
-  'dnd5e.computeManeuversProgression',
-  a5eHooks.maneuvers.maxExertionPoints
-);
+// Hooks.on(
+//   'dnd5e.computeManeuversProgression',
+//   a5eHooks.maneuvers.maxExertionPoints
+// );
 
-Hooks.on('dnd5e.preRestCompleted', a5eHooks.maneuvers.resetEP);
+// Hooks.on('dnd5e.preRestCompleted', a5eHooks.maneuvers.resetEP);
 
-Hooks.on(
-  'dnd5e.preItemUsageConsumption',
-  a5eHooks.maneuvers.disableConsumeResourceCheck
-);
+// Hooks.on(
+//   'dnd5e.preItemUsageConsumption',
+//   a5eHooks.maneuvers.disableConsumeResourceCheck
+// );
 
-Hooks.on('dnd5e.itemUsageConsumption', a5eHooks.maneuvers.handleEPConsumption);
+// Hooks.on('dnd5e.itemUsageConsumption', a5eHooks.maneuvers.handleEPConsumption);

@@ -79,6 +79,10 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
     this.labels.ep = this.usesExertion ? 'a5e-for-dnd5e.Maneuver.EP' : '';
   }
 
+  prepareFinalData() {
+    this.prepareFinalActivatedEffectData();
+  }
+
   /* -------------------------------------------- */
   /*  Getters                                     */
   /* -------------------------------------------- */
