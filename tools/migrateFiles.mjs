@@ -541,6 +541,7 @@ function migrateFeature(system) {
     if (grant?.grantType === 'exertion') {
       o5e.activation.type = o5e.activation?.type ?? 'none';
       o5e.uses.per = 'sr';
+      o5e.uses.prompt = false;
       switch (grant.poolType) {
         case 'doubleProf':
           o5e.uses.max = '2 * @prof';

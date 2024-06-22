@@ -34,6 +34,7 @@ system:
   uses:
     per: sr
     max: '@prof'
+    prompt: false
 effects: []
 flags: {}
 folder: null
