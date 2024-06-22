@@ -34,6 +34,11 @@ system:
     type: special
     cost: ''
     condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -46,11 +51,6 @@ system:
     value: 60
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

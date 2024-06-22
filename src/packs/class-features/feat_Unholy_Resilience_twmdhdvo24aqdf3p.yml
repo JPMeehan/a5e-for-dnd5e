@@ -18,6 +18,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 img: icons/magic/unholy/strike-body-explode-disintegrate.webp
 effects: []
 flags: {}

@@ -23,6 +23,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/sundries/books/book-symbol-spiral-silver-blue.webp
     origin: Item.gl4tgmntpvl4g16j

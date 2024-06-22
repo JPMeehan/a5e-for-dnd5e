@@ -31,6 +31,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/magic/acid/dissolve-pool-bubbles.webp
     origin: Item.u8un34edg2fyn5a9

@@ -35,6 +35,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: none
+  uses:
+    per: sr
+    max: 2 * @prof
 folder: null
 _id: h304oinq0hfhg56y
 _key: '!items!h304oinq0hfhg56y'

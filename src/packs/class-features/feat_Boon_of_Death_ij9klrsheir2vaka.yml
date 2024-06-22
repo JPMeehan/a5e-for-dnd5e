@@ -57,6 +57,11 @@ system:
     type: reaction
     cost: 1
     condition: When you reduce a living creature to 0 hit points
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -69,11 +74,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

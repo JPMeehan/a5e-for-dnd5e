@@ -22,6 +22,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/creatures/invertebrates/spider-dotted-green.webp
     origin: Item.ad4hmr4ib3mdfufc

@@ -35,6 +35,11 @@ system:
     condition: >-
       When a creature that you can see within 60 feet makes an ability check,
       attack roll, or damage roll.
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -47,11 +52,6 @@ system:
     value: 60
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

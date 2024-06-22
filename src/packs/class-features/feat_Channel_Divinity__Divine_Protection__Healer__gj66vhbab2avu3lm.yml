@@ -26,6 +26,11 @@ system:
     condition: >-
       When one or more allies within 30 feet would take damage from an attack,
       effect, or spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -38,11 +43,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

@@ -263,6 +263,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: none
+  uses:
+    per: sr
+    max: 2 * @prof
 effects: []
 flags: {}
 _id: bbqczy5u6mq4eeu1

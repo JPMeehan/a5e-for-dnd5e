@@ -33,6 +33,11 @@ system:
     condition: >-
       When you or a friendly creature within 30 feet of you are targeted with an
       attack or harmful spell or effect
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -45,11 +50,6 @@ system:
     value: 30
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

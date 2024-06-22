@@ -29,6 +29,11 @@ system:
     condition: >-
       when you or another creature you can see within 30 feet of you makes an
       ability check or a saving throw
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -41,11 +46,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

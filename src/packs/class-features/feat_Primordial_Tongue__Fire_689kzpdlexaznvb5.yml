@@ -30,6 +30,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/svg/aura.svg
     origin: Item.3qhHzEyiHO9phEG0

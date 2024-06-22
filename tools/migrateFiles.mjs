@@ -523,11 +523,34 @@ function migrateFeature(system) {
       value: null,
       charged: true,
     },
+    // simplifies null checking
+    activation: {
+      type: null,
+    },
+    uses: {
+      per: null,
+      max: null,
+    },
   };
 
   if (system.concentration) o5e.properties.push('concentration');
 
   for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+
+  for (const grant of Object.values(system.grants ?? {})) {
+    if (grant?.grantType === 'exertion') {
+      o5e.activation.type = o5e.activation?.type ?? 'none';
+      o5e.uses.per = 'sr';
+      switch (grant.poolType) {
+        case 'doubleProf':
+          o5e.uses.max = '2 * @prof';
+          break;
+        case 'prof':
+          o5e.uses.max = '@prof';
+          break;
+      }
+    }
+  }
 
   return o5e;
 }

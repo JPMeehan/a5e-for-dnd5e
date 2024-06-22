@@ -70,6 +70,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: none
+  uses:
+    per: sr
+    max: 2 * @prof
 folder: null
 _id: zrs8vkf574mvulkg
 _key: '!items!zrs8vkf574mvulkg'

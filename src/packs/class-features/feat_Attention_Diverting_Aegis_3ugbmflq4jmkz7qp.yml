@@ -27,6 +27,11 @@ system:
     condition: >-
       When a creature within 30 feet that can sense you makes an attack that
       isn’t targeting you
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -39,11 +44,6 @@ system:
     value: 30
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

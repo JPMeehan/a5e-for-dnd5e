@@ -261,6 +261,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: none
+  uses:
+    per: sr
+    max: null
 effects: []
 flags: {}
 _id: jx1xyb0xpdel8wjf

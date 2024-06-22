@@ -30,6 +30,11 @@ system:
     condition: >-
       A creature you see within 10 feet of your Drowner’s Curse target or within
       10 feet of your Aquatic Servant takes damage
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -42,11 +47,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

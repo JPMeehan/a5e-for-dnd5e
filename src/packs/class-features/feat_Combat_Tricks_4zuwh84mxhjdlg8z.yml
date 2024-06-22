@@ -24,6 +24,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: none
+  uses:
+    per: sr
+    max: '@prof'
 effects: []
 flags: {}
 _id: 4zuwh84mxhjdlg8z

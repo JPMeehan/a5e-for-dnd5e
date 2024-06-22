@@ -35,6 +35,11 @@ system:
   activation:
     type: bonus
     cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -47,11 +52,6 @@ system:
     value: 10
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

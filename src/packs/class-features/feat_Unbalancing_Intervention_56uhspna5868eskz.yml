@@ -26,6 +26,11 @@ system:
     condition: >-
       A creature within your reach makes a Strength or Dexterity ability check
       or saving throw
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -38,11 +43,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

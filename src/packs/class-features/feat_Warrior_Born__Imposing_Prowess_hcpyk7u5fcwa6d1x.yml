@@ -27,6 +27,11 @@ system:
     type: reaction
     cost: 1
     condition: When an ally you can see and hear makes a Deception or Persuasion check
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -39,11 +44,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

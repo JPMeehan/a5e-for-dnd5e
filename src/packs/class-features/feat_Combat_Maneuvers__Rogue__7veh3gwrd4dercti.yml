@@ -110,6 +110,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: none
+  uses:
+    per: sr
+    max: 2 * @prof
 folder: null
 _id: 7veh3gwrd4dercti
 _key: '!items!7veh3gwrd4dercti'

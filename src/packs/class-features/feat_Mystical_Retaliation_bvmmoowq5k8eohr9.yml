@@ -31,6 +31,11 @@ system:
     type: reaction
     cost: 1
     condition: Hit by an attack from a creature you can see within 120 feet
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -43,11 +48,6 @@ system:
     value: 120
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

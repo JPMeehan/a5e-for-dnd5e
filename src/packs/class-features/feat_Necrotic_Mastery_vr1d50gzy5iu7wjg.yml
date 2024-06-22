@@ -20,6 +20,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/magic/death/undead-skeleton-lich-armor.webp
     origin: Item.vr1d50gzy5iu7wjg

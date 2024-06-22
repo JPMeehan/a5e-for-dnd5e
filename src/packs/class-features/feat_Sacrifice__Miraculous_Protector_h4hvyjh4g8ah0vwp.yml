@@ -26,6 +26,11 @@ system:
     type: reaction
     cost: 1
     condition: An ally takes a critical hit
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -37,11 +42,6 @@ system:
   range:
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null
