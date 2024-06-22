@@ -262,7 +262,7 @@ function migrateAction(action, system) {
   /** @type {Action} */
   const activation = {
     activation: {
-      type: action?.activation?.type,
+      type: action?.activation?.type?.replace('bonusAction', 'bonus'),
       cost: action?.activation?.cost,
       condition: action?.activation?.reactionTrigger,
     },

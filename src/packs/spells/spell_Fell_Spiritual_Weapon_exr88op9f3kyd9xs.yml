@@ -77,7 +77,7 @@ system:
     mode: level
     formula: 1d8
   activation:
-    type: bonusAction
+    type: bonus
     cost: 1
     condition: ''
   duration: {}
