@@ -34,7 +34,6 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
         required: false,
         label: 'a5e-for-5e.Maneuver.Prerequisite',
       }),
-      // There's
       properties: new fields.SetField(new fields.StringField()),
     });
   }
@@ -110,12 +109,9 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   }
 
   /**
-   * @param {object} consume        Effect's resource consumption.
-   * @param {string} consume.type   Type of resource to consume
-   * @param {string} consume.target Item ID or resource key path of resource to consume.
-   * @returns {boolean}     Returns true if it spends psi points as a resource
+   * @returns {boolean}     Returns true if it spends exertion points as a resource
    */
   get usesExertion() {
-    return this.consume.type === 'flags' && this.consume.target === 'ep';
+    return this.consume.type === 'charges';
   }
 }

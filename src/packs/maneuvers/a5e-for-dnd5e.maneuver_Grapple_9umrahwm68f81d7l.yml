@@ -35,6 +35,10 @@ system:
   tradition: ''
   prerequisite: ''
   properties: []
+  consume:
+    type: charges
+    target: null
+    amount: 0
   activation:
     type: action
     cost: 1
@@ -56,10 +60,6 @@ system:
     max: ''
     per: null
     recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
   ability: null
   actionType: save
   attackBonus: ''

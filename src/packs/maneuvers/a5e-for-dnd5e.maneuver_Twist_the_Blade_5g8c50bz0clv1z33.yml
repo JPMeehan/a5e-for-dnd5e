@@ -17,6 +17,10 @@ system:
   tradition: rze
   prerequisite: ''
   properties: []
+  consume:
+    type: charges
+    target: null
+    amount: 2
   activation:
     type: reaction
     cost: 1
@@ -38,10 +42,6 @@ system:
     max: ''
     per: null
     recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
   ability: null
   actionType: null
   attackBonus: ''

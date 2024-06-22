@@ -621,11 +621,19 @@ function migrateManeuver(system) {
     tradition: abbr(system.tradition),
     prerequisite: system.prerequisite,
     properties: [],
+    consume: {
+      type: '',
+      target: null,
+      amount: null,
+    },
   };
 
   if (system.concentration) o5e.properties.push('concentration');
 
   for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+
+  o5e.consume.amount = system.exertionCost;
+  o5e.consume.type = 'charges';
 
   return o5e;
 }
