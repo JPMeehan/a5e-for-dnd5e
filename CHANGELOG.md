@@ -5,8 +5,11 @@
 - Added classes to class compendiums
 - [BREAKING] Changed the value of the "Default Maneuvers" progression from `default` to `martial` to reduce risk of name collision with other modules
 - [BREAKING] Refactored maneuvers to leverage dnd5e's built in Item Charges consumption method
+- Added a macro to apply Maneuver Mastery as an enchantment
 - Added Destiny features as advancements; the fulfillment features are set to the automatic level of 16
 - Updated data imports from a5e, alongside many fixes to advancements on origins
+- Added mapping to translate most active effect change keys
+- Fixed many in-text references
 
 ## 0.9.3 Future Prep
 
