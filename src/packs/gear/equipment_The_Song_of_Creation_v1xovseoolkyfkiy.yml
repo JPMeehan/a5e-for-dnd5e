@@ -164,16 +164,12 @@ effects:
     name: The Song of Creation
     _id: Idbv5mr0OYjhQjpY
     changes:
-      - key: flags.a5e.effects.bonuses.attacks
-        value: >-
-          {"context":{"attackTypes":["meleeSpellAttack"]},"formula":"3","label":"Melee
-          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+      - key: system.bonuses.msak.attack
+        value: '3'
         mode: 0
         priority: null
-      - key: flags.a5e.effects.bonuses.attacks
-        value: >-
-          {"context":{"attackTypes":["rangedSpellAttack"]},"formula":"3","label":"Ranged
-          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+      - key: system.bonuses.rsak.attack
+        value: '3'
         mode: 0
         priority: null
       - key: system.bonuses.spell.dc

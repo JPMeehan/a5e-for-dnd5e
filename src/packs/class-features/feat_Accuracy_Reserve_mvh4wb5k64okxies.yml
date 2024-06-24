@@ -73,10 +73,8 @@ effects:
     name: Accuracy Reserve
     _id: nP7E14lwHxNIOIVW
     changes:
-      - key: flags.a5e.effects.bonuses.attacks
-        value: >-
-          {"label":"Accuracy
-          Reserve","formula":"1","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"spellLevels":[],"requiresProficiency":false},"default":true,"img":"icons/skills/targeting/crosshair-bars-yellow.webp"}
+      - key: system.bonuses.mwak.attack
+        value: '1'
         mode: 0
         priority: null
     disabled: false

@@ -213,6 +213,11 @@ system:
     condition: >-
       When a creature touches you against your will, and the member touching you
       is not protected by clothing or armor
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -225,11 +230,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

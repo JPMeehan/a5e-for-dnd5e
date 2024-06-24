@@ -15,7 +15,7 @@ effects:
     name: Shield of Faith
     _id: rn8UmOgiwz7XSl09
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '2'
         mode: 2
         priority: null
@@ -45,7 +45,7 @@ effects:
     name: Shield of Faith
     _id: 8crYdLZe3fSU0G5y
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '3'
         mode: 2
         priority: null
@@ -75,7 +75,7 @@ effects:
     name: Shield of Faith
     _id: y72YmzRWy8ZdLg9c
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '4'
         mode: 2
         priority: null

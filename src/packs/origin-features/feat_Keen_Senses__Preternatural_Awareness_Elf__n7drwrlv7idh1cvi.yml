@@ -12,9 +12,9 @@ effects:
     name: Keen Senses
     _id: 4x5TUICeM8w41q48
     changes:
-      - key: system.skills.prc.proficient
+      - key: system.skills.prc.value
         value: '1'
-        mode: 6
+        mode: 5
         priority: null
     disabled: false
     duration:
@@ -46,6 +46,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 folder: z476XZt1iG4Mb7VJ
 _id: n7drwrlv7idh1cvi
 _key: '!items!n7drwrlv7idh1cvi'

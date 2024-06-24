@@ -105,9 +105,9 @@ effects:
     name: Expertise
     _id: zXvJwsQeRv2gO21a
     changes:
-      - key: system.skills.med.proficient
+      - key: system.skills.med.value
         value: '1'
-        mode: 6
+        mode: 5
         priority: null
       - key: system.skills.med.expertiseDice
         value: '1'

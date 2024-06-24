@@ -38,13 +38,13 @@ effects:
     name: Lurking Spider
     _id: Ab7fJLDUBAGdPofT
     changes:
-      - key: system.skills.ste.proficient
+      - key: system.skills.ste.value
         value: '1'
-        mode: 6
+        mode: 5
         priority: null
-      - key: system.skills.prc.proficient
+      - key: system.skills.prc.value
         value: '1'
-        mode: 6
+        mode: 5
         priority: null
       - key: system.attributes.senses.tremorsense.distance
         value: '10'

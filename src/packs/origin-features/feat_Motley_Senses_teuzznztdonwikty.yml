@@ -19,6 +19,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/magic/perception/eye-slit-red-orange.webp
     origin: Item.teuzznztdonwikty
@@ -30,9 +35,9 @@ effects:
     name: Motley Senses
     _id: 09mpgOX7mMoybK7A
     changes:
-      - key: system.skills.prc.proficient
+      - key: system.skills.prc.value
         value: '1'
-        mode: 6
+        mode: 5
         priority: null
       - key: system.skills.prc.expertiseDice
         value: '1'

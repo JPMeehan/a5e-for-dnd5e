@@ -53,7 +53,7 @@ effects:
     name: Plant In Ground
     _id: WAJJPmYmySY3jVhd
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '2'
         mode: 2
         priority: null
@@ -98,7 +98,7 @@ effects:
     name: Defensive AC
     _id: NWAnbLxHgxeEiMS3
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '1'
         mode: 2
         priority: null

@@ -16,17 +16,13 @@ effects:
         mode: 2
         value: '2'
         priority: null
-      - key: flags.a5e.effects.bonuses.attacks
+      - key: system.bonuses.msak.attack
         mode: 0
-        value: >-
-          {"context":{"attackTypes":["meleeSpellAttack"]},"formula":"2","label":"Melee
-          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+        value: '2'
         priority: null
-      - key: flags.a5e.effects.bonuses.attacks
+      - key: system.bonuses.rsak.attack
         mode: 0
-        value: >-
-          {"context":{"attackTypes":["rangedSpellAttack"]},"formula":"2","label":"Ranged
-          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+        value: '2'
         priority: null
     disabled: false
     duration:

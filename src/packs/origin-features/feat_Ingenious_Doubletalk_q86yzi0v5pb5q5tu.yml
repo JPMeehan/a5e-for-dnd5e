@@ -31,6 +31,11 @@ system:
     condition: >-
       Whenever you or a friendly creature you can hear fails a Deception or a
       Persuasion check.
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -43,11 +48,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

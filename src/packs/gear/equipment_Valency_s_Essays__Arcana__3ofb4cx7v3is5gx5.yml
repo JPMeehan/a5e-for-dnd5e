@@ -105,9 +105,9 @@ effects:
     name: Expertise
     _id: zXvJwsQeRv2gO21a
     changes:
-      - key: system.skills.arc.proficient
+      - key: system.skills.arc.value
         value: '1'
-        mode: 6
+        mode: 5
         priority: null
       - key: system.skills.arc.expertiseDice
         value: '1'

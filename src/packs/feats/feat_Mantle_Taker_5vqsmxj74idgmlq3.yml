@@ -39,6 +39,11 @@ system:
     type: reaction
     cost: 1
     condition: Attack being made against an allied creature
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -51,11 +56,6 @@ system:
     value: 30
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null
@@ -91,7 +91,7 @@ effects:
     name: AC -1
     _id: XNAh5y2DSu8f6ckK
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '1'
         mode: 3
         priority: null
@@ -123,7 +123,7 @@ effects:
     name: AC -2
     _id: x96GKhXF98FV77bc
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '2'
         mode: 3
         priority: null
@@ -155,7 +155,7 @@ effects:
     name: AC +1
     _id: 2ka7RPad9bDUW0zp
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '1'
         mode: 2
         priority: null
@@ -187,7 +187,7 @@ effects:
     name: AC +2
     _id: 4iZaMYMpL7iT8ssP
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '2'
         mode: 2
         priority: null

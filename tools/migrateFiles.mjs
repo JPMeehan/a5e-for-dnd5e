@@ -2021,6 +2021,14 @@ function migrateEffects(effects) {
       'system.attributes.movement.hover',
     'system.traits.damageImmunities': 'system.traits.di.value',
     'system.traits.damageResistances': 'system.traits.dr.value',
+    'system.attributes.ac.changes.bonuses.value': 'system.attributes.ac.bonus',
+  };
+
+  const attackBonuses = {
+    meleeWeaponAttack: 'system.bonuses.mwak.attack',
+    meleeSpellAttack: 'system.bonuses.msak.attack',
+    rangedWeaponAttack: 'system.bonuses.rwak.attack',
+    rangedSpellAttack: 'system.bonuses.rsak.attack',
   };
 
   for (const effect of effects) {
@@ -2039,6 +2047,14 @@ function migrateEffects(effects) {
         ) {
           change.value = parsed[0];
         }
+      }
+      if (change.key === 'flags.a5e.effects.bonuses.attacks') {
+        change.key = attackBonuses[parsed?.context?.attackTypes[0]];
+        change.value = parsed?.formula;
+      }
+      if (change.key?.match(/system.skills.\w+.proficient/)) {
+        change.key = change.key.replace('proficient', 'value');
+        change.mode = 5;
       }
       if (
         change.key === 'flags.a5e.effects.statusConditions' &&

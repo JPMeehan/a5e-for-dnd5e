@@ -18,9 +18,8 @@ effects:
           {"context":{"abilities":["str","dex","con","int","wis","cha"],"types":["save"],"requiresProficiency":false},"formula":"1d4[Bless]","label":"Bless","default":true,"img":"icons/magic/life/heart-cross-strong-flame-purple-orange.webp"}
         mode: 0
         priority: null
-      - key: flags.a5e.effects.bonuses.attacks
-        value: >-
-          {"context":{"attackTypes":["meleeSpellAttack","meleeWeaponAttack","rangedWeaponAttack","rangedSpellAttack"]},"formula":"1d4[Bless]","label":"Bless","img":"icons/magic/life/heart-cross-strong-flame-purple-orange.webp","default":true}
+      - key: system.bonuses.msak.attack
+        value: 1d4[Bless]
         mode: 0
         priority: null
     disabled: false

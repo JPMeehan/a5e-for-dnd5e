@@ -12,9 +12,9 @@ effects:
     name: Arcane Sensitivity
     _id: MG6lLtyFTv5KEwIr
     changes:
-      - key: system.skills.arc.proficient
+      - key: system.skills.arc.value
         value: '1'
-        mode: 6
+        mode: 5
         priority: null
     disabled: false
     duration:
@@ -46,6 +46,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 folder: z476XZt1iG4Mb7VJ
 _id: gt3u39fxdtwt721o
 _key: '!items!gt3u39fxdtwt721o'

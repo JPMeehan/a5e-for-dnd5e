@@ -40,6 +40,11 @@ system:
   activation:
     type: bonus
     cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -52,11 +57,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null
@@ -87,9 +87,9 @@ effects:
     name: Heritor
     _id: A93JSb5aMIoAWCNi
     changes:
-      - key: system.skills.his.proficient
+      - key: system.skills.his.value
         value: 'true'
-        mode: 6
+        mode: 5
         priority: null
       - key: system.skills.his.specialties
         value: Legends

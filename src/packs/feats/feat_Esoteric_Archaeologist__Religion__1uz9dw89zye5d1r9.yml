@@ -40,6 +40,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/skills/trades/mining-pickaxe-stone-blue.webp
     origin: Item.1uz9dw89zye5d1r9
@@ -51,9 +56,9 @@ effects:
     name: Esoteric Archaeologist
     _id: tUucssVFeeVLhFpG
     changes:
-      - key: system.skills.rel.proficient
+      - key: system.skills.rel.value
         value: 'true'
-        mode: 6
+        mode: 5
         priority: null
       - key: system.skills.rel.specialties
         value: Relics

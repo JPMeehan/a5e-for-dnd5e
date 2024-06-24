@@ -24,6 +24,11 @@ system:
     type: reaction
     cost: 1
     condition: which you take when you are targeted with a ranged attack
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -36,11 +41,6 @@ system:
     value: 30
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

@@ -16,7 +16,7 @@ effects:
     name: AC +1
     _id: o3RplnB3d2bgc5Cs
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '1'
         mode: 2
         priority: null
@@ -48,7 +48,7 @@ effects:
     name: AC +1
     _id: p3De6mXqbzuFUVGq
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '1'
         mode: 2
         priority: null

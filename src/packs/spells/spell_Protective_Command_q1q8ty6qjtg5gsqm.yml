@@ -86,7 +86,7 @@ effects:
     name: Increased AC
     _id: Zq0ICP57QuAuWkNZ
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: '@prof/2'
         mode: 2
         priority: null

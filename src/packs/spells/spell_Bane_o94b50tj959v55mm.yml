@@ -19,29 +19,21 @@ effects:
           {"context":{"abilities":["str","dex","con","int","wis","cha"],"types":["save"],"requiresProficiency":false},"formula":"-1d4","label":"Ability
           Bonus","default":true}
         priority: null
-      - key: flags.a5e.effects.bonuses.attacks
+      - key: system.bonuses.msak.attack
         mode: 0
-        value: >-
-          {"context":{"attackTypes":["meleeSpellAttack"]},"formula":"-1d4","label":"Melee
-          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+        value: '-1d4'
         priority: null
-      - key: flags.a5e.effects.bonuses.attacks
+      - key: system.bonuses.mwak.attack
         mode: 0
-        value: >-
-          {"context":{"attackTypes":["meleeWeaponAttack"]},"formula":"-1d4","label":"Melee
-          Weapon Attack","img":"icons/svg/upgrade.svg","default":true}
+        value: '-1d4'
         priority: null
-      - key: flags.a5e.effects.bonuses.attacks
+      - key: system.bonuses.rsak.attack
         mode: 0
-        value: >-
-          {"context":{"attackTypes":["rangedSpellAttack"]},"formula":"-1d4","label":"Ranged
-          Spell Attack","img":"icons/svg/upgrade.svg","default":true}
+        value: '-1d4'
         priority: null
-      - key: flags.a5e.effects.bonuses.attacks
+      - key: system.bonuses.rwak.attack
         mode: 0
-        value: >-
-          {"context":{"attackTypes":["rangedWeaponAttack"]},"formula":"-1d4","label":"Ranged
-          Weapon Attack","img":"icons/svg/upgrade.svg","default":true}
+        value: '-1d4'
         priority: null
     disabled: false
     duration:

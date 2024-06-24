@@ -17,6 +17,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/svg/item-bag.svg
     origin: Item.x1xmjwvuwomxklc3

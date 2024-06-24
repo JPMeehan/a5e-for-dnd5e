@@ -34,7 +34,14 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: none
+  uses:
+    value: null
+    max: ''
+    per: sr
+    recovery: ''
+    prompt: false
   duration: {}
   cover: null
   crewed: false
@@ -47,11 +54,6 @@ system:
     value: 5
     long: null
     units: ft
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

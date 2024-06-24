@@ -13,7 +13,7 @@ effects:
     name: Wicked Tongue
     _id: DnT3eKoR2LYlw9zv
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: 2[Wicked Tongue]
         mode: 3
         priority: null
@@ -78,6 +78,11 @@ system:
   activation:
     type: bonus
     cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -90,11 +95,6 @@ system:
     value: null
     long: null
     units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

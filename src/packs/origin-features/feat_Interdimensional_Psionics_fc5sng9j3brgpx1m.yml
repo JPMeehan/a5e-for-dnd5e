@@ -17,7 +17,7 @@ effects:
     name: Shield
     _id: aHHw3LCmuzbvEUjG
     changes:
-      - key: system.attributes.ac.changes.bonuses.value
+      - key: system.attributes.ac.bonus
         value: +5[Shield]
         mode: 2
         priority: null
@@ -63,6 +63,11 @@ system:
     condition: >-
       which you take when you are hit by an attack or targeted by the magic
       missile spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
   duration: {}
   cover: null
   crewed: false
@@ -75,11 +80,6 @@ system:
     value: null
     long: null
     units: self
-  uses:
-    value: null
-    max: ''
-    per: null
-    recovery: ''
   consume:
     type: ''
     target: null

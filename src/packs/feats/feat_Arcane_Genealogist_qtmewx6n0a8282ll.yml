@@ -45,6 +45,11 @@ system:
   recharge:
     value: null
     charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
 effects:
   - icon: icons/sundries/documents/document-tree-brown.webp
     origin: Item.qtmewx6n0a8282ll
@@ -56,9 +61,9 @@ effects:
     name: Arcane Genealogist
     _id: G5jaIGIlCaQoynU0
     changes:
-      - key: system.skills.his.proficient
+      - key: system.skills.his.value
         value: 'true'
-        mode: 6
+        mode: 5
         priority: null
       - key: system.skills.his.specialties
         value: Genealogy
