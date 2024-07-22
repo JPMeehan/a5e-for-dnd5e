@@ -1,4 +1,4 @@
-import { ACTOR_SHEETS, moduleID, modulePath, moduleTypes } from '../utils.mjs';
+import { ACTOR_SHEETS, moduleTypes } from '../utils.mjs';
 const maneuverType = moduleTypes.maneuver;
 
 /**
@@ -17,7 +17,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
       maneuvers,
       sheet._filters.spellbook.properties
     );
-    if (!maneuvers.length && !hasExertionPool(sheet.actor)) return true;
+    if (!maneuvers.length) return true;
     const levels = context.system.spells;
     const spellbook = context.spellbook;
     const levelOffset = spellbook.length - 1;
