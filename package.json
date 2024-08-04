@@ -9,7 +9,7 @@
     "build:origins": "npm run build:A5Eto5E -- heritages && npm run build:A5Eto5E -- backgrounds && npm run build:A5Eto5E -- cultures && npm run build:A5Eto5E -- destinies && node ./tools/folderBuild/origins.mjs",
     "build:classes": "npm run build:A5Eto5E -- classFeatures && npm run build:A5Eto5E -- classes",
     "build:feats": "npm run build:A5Eto5E -- feats",
-    "build:all": "npm run build:spells && npm run build:gear && npm run build:maneuvers && npm run build:originFeatures && npm run build:origins && npm run build:classes && npm run build:feats",
+    "build:packs": "npm run build:spells && npm run build:gear && npm run build:maneuvers && npm run build:originFeatures && npm run build:origins && npm run build:classes && npm run build:feats",
     "build:css": "sass ./src/styles/index.scss a5e.css",
     "build:js": "rollup -c",
     "build": "npm run build:css && npm run build:js",

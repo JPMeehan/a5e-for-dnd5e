@@ -3,6 +3,7 @@
 ## 1.1.0 Archetypes
 
 - Increased minimum version to Foundry v12 and D&D 3.3
+- Fixed bug with sheet display of maneuvers in D&D 3.3
 
 ## 1.0.0 Classes
 
