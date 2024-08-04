@@ -145,10 +145,10 @@ Hooks.on('renderActorSheet5eCharacter', (app, html, context) => {
   if (!game.user.isGM && app.actor.limited) return;
 
   switch (app.constructor.name) {
-    case ACTOR_SHEETS.DEFAULT:
+    case ACTOR_SHEETS.DEFAULT_PC:
       a5eHooks.characterSheet.defaultSheet(app, html, context);
       break;
-    case ACTOR_SHEETS.LEGACY:
+    case ACTOR_SHEETS.LEGACY_PC:
       a5eHooks.characterSheet.legacySheet(app, html, context);
       break;
   }

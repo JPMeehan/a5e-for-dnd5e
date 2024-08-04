@@ -75,7 +75,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
 
       let itemContext = null;
       switch (sheet.constructor.name) {
-        case ACTOR_SHEETS.DEFAULT:
+        case ACTOR_SHEETS.DEFAULT_PC:
           itemContext = {
             activation:
               cost && abbr
@@ -84,8 +84,8 @@ export function inlineManeuverDisplay(sheet, html, context) {
             preparation: { applicable: false },
           };
           break;
-        case ACTOR_SHEETS.LEGACY:
-        case ACTOR_SHEETS.NPC:
+        case ACTOR_SHEETS.LEGACY_PC:
+        case ACTOR_SHEETS.LEGACY_NPC:
           itemContext = {
             toggleTitle: CONFIG.DND5E.spellPreparationModes.always,
             toggleClass: 'fixed',
@@ -93,7 +93,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
           break;
       }
 
-      if (sheet.constructor.name === ACTOR_SHEETS.DEFAULT) {
+      if (sheet.constructor.name === ACTOR_SHEETS.DEFAULT_PC) {
         // Range
         const units = maneuver.system.range?.units;
         if (units && units !== 'none') {
@@ -136,15 +136,17 @@ export function inlineManeuverDisplay(sheet, html, context) {
       if (spellbook[i] === undefined) delete spellbook[i];
     }
     const spellList =
-      sheet.constructor.name === ACTOR_SHEETS.DEFAULT
+      sheet.constructor.name === ACTOR_SHEETS.DEFAULT_PC
         ? html.find('.spells')
         : html.find('.spellbook');
     const spellListTemplate = {
-      [ACTOR_SHEETS.DEFAULT]:
-        'systems/dnd5e/templates/actors/tabs/character-spells.hbs',
-      [ACTOR_SHEETS.LEGACY]:
+      [ACTOR_SHEETS.DEFAULT_PC]:
+        'systems/dnd5e/templates/actors/tabs/creature-spells.hbs',
+      [ACTOR_SHEETS.DEFAULT_NPC]:
+        'systems/dnd5e/templates/actors/tabs/creature-spells.hbs',
+      [ACTOR_SHEETS.LEGACY_PC]:
         'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs',
-      [ACTOR_SHEETS.NPC]:
+      [ACTOR_SHEETS.LEGACY_NPC]:
         'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs',
     }[sheet.constructor.name];
     if (!spellListTemplate) return;
@@ -152,7 +154,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
       spellList.html(partial);
 
       switch (sheet.constructor.name) {
-        case ACTOR_SHEETS.DEFAULT:
+        case ACTOR_SHEETS.DEFAULT_PC:
           spellList
             .find(`.items-section[data-type="${maneuverType}"]`)
             .find('.item-header.item-school')
@@ -179,8 +181,8 @@ export function inlineManeuverDisplay(sheet, html, context) {
             })
           );
           break;
-        case ACTOR_SHEETS.LEGACY:
-        case ACTOR_SHEETS.NPC:
+        case ACTOR_SHEETS.LEGACY_PC:
+        case ACTOR_SHEETS.LEGACY_NPC:
           const sectionHeader = spellList.find(
             `.items-header.spellbook-header[data-type="${maneuverType}"]`
           );
