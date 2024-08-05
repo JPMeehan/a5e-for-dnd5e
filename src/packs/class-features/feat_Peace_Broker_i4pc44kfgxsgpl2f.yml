@@ -13,8 +13,9 @@ system:
       and Persuasion. If you are already proficient with either skill, you
       instead gain an expertise die. In addition, you gain the reading emotions
       specialty in Insight and the peacemaking specialty in Persuasion. Finally,
-      you learn the friends cantrip, or another bard cantrip if you already know
-      it.</span></p>
+      you learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.uyp8lageqgau1a4h]{Friends}
+      cantrip, or another bard cantrip if you already know it.</span></p>
     chat: ''
   source:
     book: Secrets of the Selkies
@@ -31,5 +32,12 @@ system:
     max: null
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722135058263
+  modifiedTime: 1722135143910
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: i4pc44kfgxsgpl2f
 _key: '!items!i4pc44kfgxsgpl2f'

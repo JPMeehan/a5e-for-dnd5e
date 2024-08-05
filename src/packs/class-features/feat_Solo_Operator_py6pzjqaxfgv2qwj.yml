@@ -11,21 +11,47 @@ system:
   description:
     value: >-
       <p>You become much more formidable than your unassuming appearance would
-      suggest. You gain the following benefits:</p><ul><li><p>Improvised weapons
-      you wield do 1d12 of base damage, but can only be used for 4 successful
-      attacks before they break and become useless.</p></li><li><p>You learn the
-      <em>Catch Your Breath</em> maneuver, which does not count against your
-      maneuvers known.</p></li><li><p>If you are not being observed and have a
-      disguise kit, you can change your appearance as a bonus action, by quickly
-      changing clothing, throwing on a wig, or making some other fast,
-      non-magical alteration to your appearance, imposing disadvantage on checks
-      to recognize you based on your previous appearance.</p></li><li><p>Once
-      per turn, you can deal extra weapon damage when you hit a creature with a
-      weapon attack, dealing an extra 2d8 points of damage. In order to apply
-      this damage, you must not have disadvantage on the attack and your target
-      must be within 5 feet of another enemy of the target who is not
+      suggest. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>Improvised weapons you wield do 1d12 of base damage, but can only be
+      used for 4 successful attacks before they break and become useless.</p>
+
+      </li>
+
+      <li>
+
+      <p>You learn the
+      @UUID[Compendium.a5e.a5e-maneuvers.Item.b2vpnjt7cmqngkjd]{Catch Your
+      Breath} maneuver, which does not count against your maneuvers known.</p>
+
+      </li>
+
+      <li>
+
+      <p>If you are not being observed and have a disguise kit, you can change
+      your appearance as a bonus action, by quickly changing clothing, throwing
+      on a wig, or making some other fast, non-magical alteration to your
+      appearance, imposing disadvantage on checks to recognize you based on your
+      previous appearance.</p>
+
+      </li>
+
+      <li>
+
+      <p>Once per turn, you can deal extra weapon damage when you hit a creature
+      with a weapon attack, dealing an extra 2d8 points of damage. In order to
+      apply this damage, you must not have disadvantage on the attack and your
+      target must be within 5 feet of another enemy of the target who is not
       incapacitated. Alternatively, you can apply this additional damage if you
-      have advantage on the attack.</p></li></ul>
+      have advantage on the attack.</p>
+
+      </li>
+
+      </ul>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -35,7 +61,9 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: bonus
+    cost: 1
   uses:
     value: null
     max: ''
@@ -72,5 +100,12 @@ system:
     ability: ''
     dc: null
     scaling: spell
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722198002652
+  modifiedTime: 1722198213329
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: py6pzjqaxfgv2qwj
 _key: '!items!py6pzjqaxfgv2qwj'

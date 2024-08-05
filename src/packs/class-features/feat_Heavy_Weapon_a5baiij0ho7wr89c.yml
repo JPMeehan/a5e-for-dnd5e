@@ -1,0 +1,37 @@
+folder: null
+name: Heavy Weapon
+type: feat
+img: icons/skills/melee/hand-grip-sword-white-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Select a weapon with the two- handed property. It gains the parrying
+      immunity&nbsp;property and deals an additional 1d4 points of damage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722204030425
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: a5baiij0ho7wr89c
+_key: '!items!a5baiij0ho7wr89c'

@@ -1,0 +1,37 @@
+folder: null
+name: Eyes of the Storm
+type: feat
+img: icons/magic/lightning/bolt-strike-clouds-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-8a30d19f-7fff-f454-94ad-bafa055e6e1c">You
+      can accurately predict the next 24 hours of non-magical weather in your
+      current location, and you have advantage on checks to navigate, find
+      shelter, or hunt/gather in fog or inclement weather (e.g. heavy
+      precipitation or strong winds).</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Hurricane Manifestation
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: aRbVeitro706KFgM
+_key: '!items!aRbVeitro706KFgM'

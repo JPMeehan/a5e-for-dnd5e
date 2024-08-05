@@ -7,16 +7,17 @@ system:
   description:
     value: >-
       <p>At 10th level, you become better with the implements of death and can
-      add additional options to your repertoire. You can use Headsman’s Cut with
-      a battle axe or bastard sword as well as a greataxe or greatsword. You can
-      still only apply the bonus damage to a single weapon. If you have a shield
-      or weapon in your other hand, you quickly skewer the severed head on your
-      weapon, which cannot be wielded normally until you spend a bonus action to
-      knock the head off (treat it as a club while the head is attached). The
-      bonus damage from Headsman’s Cut now applies whether you are raging or
-      not, and while you are raging, you deal an additional 1d6 points of
-      necrotic damage with a single weapon associated with the Headsman’s Cut
-      feature.</p>
+      add additional options to your repertoire. You can use
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.5u9ryymp8zndum2i]{Headsman&rsquo;s
+      Cut} with a battle axe or bastard sword as well as a greataxe or
+      greatsword. You can still only apply the bonus damage to a single weapon.
+      If you have a shield or weapon in your other hand, you quickly skewer the
+      severed head on your weapon, which cannot be wielded normally until you
+      spend a bonus action to knock the head off (treat it as a club while the
+      head is attached). The bonus damage from Headsman&rsquo;s Cut now applies
+      whether you are raging or not, and while you are raging, you deal an
+      additional 1d6 points of necrotic damage with a single weapon associated
+      with the Headsman&rsquo;s Cut feature.</p>
     chat: ''
   source:
     book: 'Thematic Toolkit: Judge, Jury, and Executioner'
@@ -27,13 +28,54 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/skills/melee/hand-grip-axe-strike-orange.webp
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722535211192
+  modifiedTime: 1722540982679
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: hk8hvy3pz3kuxnva
 _key: '!items!hk8hvy3pz3kuxnva'

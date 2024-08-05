@@ -1,0 +1,113 @@
+folder: null
+name: Channel Divinity (Grave Knight)
+type: feat
+img: icons/magic/death/skeleton-skull-soul-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level when you choose this archetype, you gain the following
+      Channel Divinity option.</p>
+
+      <p><em><strong>Enervating Field.</strong></em> As an action, you call upon
+      your power to drain the life from the living around you. Each living
+      creature within 30 feet of you must make a Constitution save against your
+      spell save DC or have their movement Speed halved until the end of their
+      next turn.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.Ugd9xeRq5w5GNBhu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Jmvr4MwA1Y3GVBq8
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Enervating Field
+    img: icons/magic/death/skeleton-skull-soul-blue.webp
+    _id: bOvK4OXsM1mBUuCW
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        value: '0.5'
+        mode: 1
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Movement Speed halved until the end of their next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!b5l66gzv1bcjdtsf.bOvK4OXsM1mBUuCW'
+flags: {}
+_id: b5l66gzv1bcjdtsf
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!b5l66gzv1bcjdtsf'

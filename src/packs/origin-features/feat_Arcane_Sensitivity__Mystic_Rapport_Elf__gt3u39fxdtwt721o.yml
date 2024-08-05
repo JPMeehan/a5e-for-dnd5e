@@ -2,8 +2,7 @@ name: Arcane Sensitivity (Mystic Rapport Elf)
 type: feat
 img: icons/magic/symbols/runes-star-pentagon-magenta.webp
 effects:
-  - icon: icons/magic/symbols/runes-star-pentagon-magenta.webp
-    origin: Item.gt3u39fxdtwt721o
+  - origin: Item.9H5Fj9ZPmx8gj9LF
     flags:
       a5e:
         sort: 0
@@ -28,7 +27,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!gt3u39fxdtwt721o.MG6lLtyFTv5KEwIr'
 flags: {}
 system:
@@ -53,4 +60,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: gt3u39fxdtwt721o
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!gt3u39fxdtwt721o'

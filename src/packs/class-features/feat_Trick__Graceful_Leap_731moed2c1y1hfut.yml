@@ -9,17 +9,16 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 13th level, d8 expertise die on Acrobatics checks
-      </em></p><p>Your expertise die on Acrobatics checks increases to d10. As a
-      bonus action, you can jump up to half your move speed horizontally and up
-      to 10 feet vertically. Opportunity attacks provoked by this movement are
-      made with disadvantage.</p>
+      <p>Your expertise die on Acrobatics checks increases to d10. As a bonus
+      action, you can jump up to half your move speed horizontally and up to 10
+      feet vertically. Opportunity attacks provoked by this movement are made
+      with disadvantage.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 13th level, d8 expertise die on Acrobatics checks
   recharge:
     value: null
     charged: true
@@ -65,4 +64,8 @@ system:
     scaling: spell
 folder: null
 _id: 731moed2c1y1hfut
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!731moed2c1y1hfut'

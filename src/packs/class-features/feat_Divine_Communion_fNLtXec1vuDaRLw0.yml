@@ -1,0 +1,113 @@
+folder: null
+name: Divine Communion
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Through intense cultivation, the secrets of the world lay bare before
+      you. While in your meditative state, your tremorsense and blindsight
+      increase by 30 feet, and you may spend 2 exertion to cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bs3wnsid88tbup6c]{Divination}
+      spell without needing material components.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: 9th Level, Spiritual Communion
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.8lBuIyyhTFIELicq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 343U6mbouiRGstKn
+        applyToSelf: true
+    transfer: false
+    name: Meditative State
+    _id: 3oejp982ktIaRhgc
+    changes:
+      - key: system.attributes.senses.tremorsense.distance
+        value: '60'
+        mode: 2
+        priority: null
+      - key: system.attributes.senses.blindsight.distance
+        value: '60'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    img: icons/magic/holy/meditation-chi-focus-blue.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!fNLtXec1vuDaRLw0.3oejp982ktIaRhgc'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: fNLtXec1vuDaRLw0
+_key: '!items!fNLtXec1vuDaRLw0'

@@ -1,0 +1,107 @@
+folder: null
+name: Blessings of War
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your faith has a martial aspect and you can bless the weapons of the
+      faithful. When you finish a long rest, you can touch a weapon and bless
+      it. Until the start of your next long rest, the first time the weapon
+      blessed this way would break, it does not break and loses the blessing
+      instead. If the wielder of the weapon has an exertion pool and it is
+      empty, they can also dismiss the blessing as a bonus action to recover 1
+      point of exertion.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.SbEZenwQs59oFZnq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: NFaZd7HeFwe1wNWh
+    transfer: false
+    name: Blessed Weapon
+    img: icons/skills/melee/weapons-crossed-swords-yellow.webp
+    _id: cX2kxbcdziTTHuRe
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The first time the weapon blessed this way would break, it does not
+      break and loses the blessing instead. If the wielder of the weapon has an
+      exertion pool and it is empty, they can also dismiss the blessing as a
+      bonus action to recover 1 point of exertion.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    folder: null
+    _key: '!items.effects!WBn1sda3CoQrxSOr.cX2kxbcdziTTHuRe'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: WBn1sda3CoQrxSOr
+_key: '!items!WBn1sda3CoQrxSOr'

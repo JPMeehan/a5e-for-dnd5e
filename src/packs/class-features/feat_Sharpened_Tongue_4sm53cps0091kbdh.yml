@@ -8,9 +8,10 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Also at 11th level, you regain the use of Quips at the end of a short
-      or long rest. In addition, you gain an expertise die on Intimidation
-      checks.</p>
+      <p>Also at 11th level, you regain the use of
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.gsh7gffkk3bvtyte]{Quips}
+      at the end of a short or long rest. In addition, you gain an expertise die
+      on Intimidation checks.</p>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -27,8 +28,7 @@ system:
     per: null
     max: null
 effects:
-  - icon: icons/creatures/unholy/demon-fire-horned-mask.webp
-    origin: Item.4sm53cps0091kbdh
+  - origin: Item.phxJyJmOmMKaJc4i
     flags:
       a5e:
         sort: 0
@@ -52,8 +52,29 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: null
+      modifiedTime: 1722395565599
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/creatures/unholy/demon-fire-horned-mask.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!4sm53cps0091kbdh.GPaSjjESCBsUn9cV'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722395565548
+  modifiedTime: 1722395590677
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 4sm53cps0091kbdh
 _key: '!items!4sm53cps0091kbdh'

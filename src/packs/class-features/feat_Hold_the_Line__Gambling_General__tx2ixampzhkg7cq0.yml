@@ -1,0 +1,47 @@
+folder: null
+name: Hold the Line (Gambling General)
+type: feat
+img: icons/environment/people/infantry-army.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level, choose one of the following.</p>
+
+      <h2>Stand Firm</h2>
+
+      <p>While you are conscious, when an ally within your Commanding Presence
+      would make a saving throw against an effect that deals half damage on a
+      success, that ally can choose to make the saving throw with disadvantage.
+      If they do and the saving throw succeeds, the ally takes no damage
+      instead.</p>
+
+      <h2>Stand Strong</h2>
+
+      <p>While you are conscious, when an ally within your Commanding Presence
+      is hit by a melee weapon attack, they can use their reaction to make a
+      melee weapon attack against the creature that attacked them.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: tx2ixampzhkg7cq0
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!tx2ixampzhkg7cq0'

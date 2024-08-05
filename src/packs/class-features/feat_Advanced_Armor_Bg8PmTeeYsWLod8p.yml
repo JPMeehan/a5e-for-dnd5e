@@ -1,0 +1,53 @@
+folder: null
+name: Advanced Armor
+type: feat
+img: icons/equipment/chest/breastplate-banded-steel-grey.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You continue to upgrade your armor, which gains an option based on its
+      type:</p>
+
+      <p><strong>Advanced Light Armor: </strong>The armor&rsquo;s stealth system
+      improves. As a bonus action, you can become invisible until the beginning
+      of your next turn. Once you have used this feature a number of times equal
+      to your Intelligence modifier (minimum once) you can&rsquo;t do so again
+      until you finish a short or long rest.</p>
+
+      <p><strong>Advanced Medium Armor: </strong>The armor now includes a helmet
+      with a protective breathing mask. You have advantage on saves against
+      inhaled poisons and toxins and may hold your breath for an additional
+      minute before you begin suffocating.</p>
+
+      <p><strong>Advanced Heavy Armor: </strong>The armor includes a set of
+      strength enhancers. When calculating what you can push, drag, or lift,
+      your size is considered one step larger. This stacks with the Orc
+      heritage&rsquo;s Heavy Lifter feature and similar features.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Upgraded Armor
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722220470553
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: Bg8PmTeeYsWLod8p
+_key: '!items!Bg8PmTeeYsWLod8p'

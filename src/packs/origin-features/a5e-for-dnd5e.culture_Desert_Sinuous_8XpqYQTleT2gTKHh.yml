@@ -1,0 +1,58 @@
+folder: null
+name: Desert Sinuous
+type: a5e-for-dnd5e.culture
+img: icons/environment/wilderness/terrain-rocky-ground.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Desert Arsenal:</strong></em> You are proficient with
+      scimitars, sabers, nets, spears, and light shields.</p>
+
+      <p><em><strong>Efficient Metabolism.</strong></em> You require half as
+      much Supply as normal for a creature your size.</p>
+
+      <p><em><strong>Sand Mover.</strong></em> You are unaffected by difficult
+      terrain caused by fine sand, grit, gravel, and other loose (but dry)
+      earthen surfaces.</p>
+
+      <p><em><strong>Heat Adapted.</strong></em> You are resistant to fire
+      damage.</p>
+
+      <p><em><strong>Languages.</strong></em> You can speak, read, write, and
+      sign Common and Ignan.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  advancement:
+    - _id: 1EVL0vDoDbWKnjjr
+      type: ItemGrant
+      title: Features
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.qvAsRmT398StmkbW
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.BepJIATIvJCxVsIy
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.i8v5Uued2mWHrAcy
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.kBDREkQt2qsB3uQp
+    - _id: zkPifVCthDQNvphI
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+          - languages:exotic:primordial:ignan
+        choices:
+          pool:
+            - languages:*
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 8XpqYQTleT2gTKHh
+_key: '!items!8XpqYQTleT2gTKHh'

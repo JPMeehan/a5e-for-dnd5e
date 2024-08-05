@@ -1,0 +1,56 @@
+name: Esoteric Talent
+type: feat
+img: icons/sundries/books/book-embossed-bound-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 2nd level, you gain one of the following benefits, which
+      represents a minor talent you&rsquo;ve picked up over the course of your
+      studies.</p>
+
+      <h2>Bend Magic</h2>
+
+      <p>When you cast a wizard spell with an instantaneous duration that deals
+      damage to an area, you can choose a number of creatures equal to your
+      Intelligence modifier in the area that you can see. The chosen creatures
+      take no damage from the spell.</p>
+
+      <h2>Flash of Insight</h2>
+
+      <p>You can use a bonus action to roll a d20, record the result, and choose
+      a creature you can see within 30 feet. The next time that creature makes
+      an attack roll, ability check, or saving throw, it takes that d20 result
+      instead of rolling. If you use this feature again before finishing a short
+      rest, you must sacrifice a spell slot of 1st-level or higher to do so.</p>
+
+      <h2>Quick Step</h2>
+
+      <p>After you cast a wizard spell of 1st-level or higher, you can
+      immediately move up to 15 feet without provoking opportunity attacks or
+      spending any of your normal movement.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_id: pa6w34p60rl5jhxx
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!pa6w34p60rl5jhxx'

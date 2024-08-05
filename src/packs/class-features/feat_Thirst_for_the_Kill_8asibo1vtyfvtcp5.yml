@@ -1,6 +1,6 @@
 name: Thirst for the Kill
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/maneuver-greatsword-yellow.webp
 effects: []
 flags: {}
 system:
@@ -23,8 +23,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
-    cost: ''
+    type: ''
+    cost: 1
     condition: ''
   uses:
     value: null
@@ -63,5 +63,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722362923482
+  modifiedTime: 1722362990892
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 8asibo1vtyfvtcp5
 _key: '!items!8asibo1vtyfvtcp5'

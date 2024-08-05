@@ -9,16 +9,15 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 13th level, d8 expertise die on Athletics checks
-      </em></p><p>Your expertise die on Athletics checks increases to d10. When
-      using the Dash action, you ignore difficult terrain and don’t fall on
-      slippery surfaces.</p>
+      <p>Your expertise die on Athletics checks increases to d10. When using the
+      Dash action, you ignore difficult terrain and don&rsquo;t fall on slippery
+      surfaces.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 13th level, d8 expertise die on Athletics checks
   recharge:
     value: null
     charged: true
@@ -29,4 +28,8 @@ system:
     max: null
 folder: null
 _id: zkrj7xq9p88ddnne
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!zkrj7xq9p88ddnne'

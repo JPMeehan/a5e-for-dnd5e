@@ -2,8 +2,7 @@ name: Fearless (Halfling)
 type: feat
 img: icons/creatures/abilities/lion-roar-yellow.webp
 effects:
-  - icon: icons/creatures/abilities/lion-roar-yellow.webp
-    origin: Item.0vpqtserwzohp6ap
+  - origin: Item.ErWvuW46jfMJySxf
     flags:
       a5e:
         sort: 0
@@ -28,7 +27,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/creatures/abilities/lion-roar-yellow.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!0vpqtserwzohp6ap.lj2fxPIUQJVUt1vl'
 flags: {}
 system:
@@ -57,4 +64,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: 0vpqtserwzohp6ap
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!0vpqtserwzohp6ap'

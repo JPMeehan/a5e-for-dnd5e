@@ -52,7 +52,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - '@classResources.martial-arts'
+        - bludgeoning
     versatile: ''
   formula: ''
   save:
@@ -60,5 +62,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721839112373
+  modifiedTime: 1721839161340
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 21xzi3mvza1wopzc
 _key: '!items!21xzi3mvza1wopzc'

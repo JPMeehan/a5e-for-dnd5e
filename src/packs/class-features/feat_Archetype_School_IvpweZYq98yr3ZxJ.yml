@@ -1,0 +1,32 @@
+name: Archetype School
+type: feat
+img: icons/magic/movement/trail-streak-impact-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>Add the movement school of magic to your list of herald spells.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: IvpweZYq98yr3ZxJ
+_key: '!items!IvpweZYq98yr3ZxJ'

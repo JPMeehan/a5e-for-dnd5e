@@ -26,18 +26,21 @@ system:
 
       <li>Your movement speed increases by 10 feet.</li>
 
-      <li>Whenever you take the attack action while in your torch bearer form,
-      you may make one basic maneuver in addition to your attacks.</li>
+      <li>Beginning at level 5, whenever you take the attack action while in
+      your torchbearer form, you may make one basic maneuver in addition to your
+      attacks. The basic maneuver does not benefit from bonus Strength damage,
+      but otherwise functions normally.</li>
 
       </ul>
 
-      <p>Whenever you begin your turn in your torch bearer form, you
-      automatically spend your choice of either 1 exertion point or 1 artifact
-      charge, and you revert to your normal form if you have no remaining
-      exertion points or artifact charges to spend. You can also revert into
-      your normal form as a bonus action, and you revert automatically if killed
-      or knocked unconscious. Any clothing you are wearing merges into your new
-      form. Clothing that merges with you retains its effects and features.</p>
+      <p>Whenever you begin your turn in your Torch Bearer form, you
+      automatically spend your choice of either 2 exertion points, 2 artifact
+      charges, or 1 exertion point and 1 artiact charge, and you revert to your
+      normal form if you have insufficient remaining exertion points or artifact
+      charges to spend. You can also revert into your normal form as a bonus
+      action, and you revert automatically if killed or knocked unconscious. Any
+      clothing you are wearing merges into your new form. Clothing that merges
+      with you retains its effects and features.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -87,8 +90,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/svg/aura.svg
-    origin: Item.vvpkQGXUtnGEzMBA
+  - origin: Item.qAyGVq15IQjK7oyx
     flags:
       a5e:
         sort: 0
@@ -116,10 +118,23 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721639825503
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!ur9p3u29rbiubmbf.HWh6mPWkszYmDzmb'
-  - icon: icons/svg/aura.svg
-    origin: Item.vvpkQGXUtnGEzMBA
+  - origin: Item.qAyGVq15IQjK7oyx
     flags:
       a5e:
         sort: 0
@@ -143,10 +158,23 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721639825503
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!ur9p3u29rbiubmbf.NCzbBANtWpYvT9bU'
-  - icon: icons/svg/aura.svg
-    origin: Item.vvpkQGXUtnGEzMBA
+  - origin: Item.qAyGVq15IQjK7oyx
     flags:
       a5e:
         sort: 0
@@ -190,9 +218,30 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721639825503
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!ur9p3u29rbiubmbf.0nVhgp5rBAfhyXcE'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721639825446
+  modifiedTime: 1721639887908
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: ur9p3u29rbiubmbf
 _key: '!items!ur9p3u29rbiubmbf'

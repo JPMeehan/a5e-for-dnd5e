@@ -10,18 +10,25 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>You become a master at defending yourself against incoming attacks.
-      While wielding one of your Fencer’s Arsenal weapons, when you use your
-      reaction to perform a parry, opportunity attack, or a combat maneuver, you
-      can use this feature to do so without expending your reaction, up to a
-      number of times equal to your proficiency bonus each round. You pay
-      exertion costs normally, and any of these actions after the first without
-      an exertion cost instead costs 1 exertion.&nbsp;</p><p>If you use a
-      reaction to perform any other task (such as casting a spell), you cannot
-      use this feature until the beginning of your next turn; likewise, if you
-      use this feature you cannot use your reaction other than to perform a
-      parry, opportunity attack, or combat maneuver until the beginning of your
-      next turn.</p>
+      <p>Beginning at 11th level, you become a master at defending yourself
+      against incoming attacks.</p>
+
+      <p>You may use a Fencer&rsquo;s Arsenal weapon's parrying ability as a
+      reaction with this feature, and when using this feature, the once per turn
+      limitation of a parrying weapon is ignored.</p>
+
+      <p>While wielding one of your Fencer&rsquo;s Arsenal weapons, when you
+      would use your reaction to perform a parry, opportunity attack, or a
+      combat maneuver, you can use this feature to do so without expending your
+      reaction, up to a number of times equal to your proficiency bonus each
+      round. You pay exertion costs normally, and any of these actions after the
+      first without an exertion cost instead costs 1 exertion.</p>
+
+      <p>If you use a reaction to perform any other task (such as casting a
+      spell), you cannot use this feature until the beginning of your next turn;
+      likewise, if you use this feature you cannot use your reaction other than
+      to perform a parry, opportunity attack, or combat maneuver until the
+      beginning of your next turn.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -31,10 +38,49 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722180338936
+  modifiedTime: 1722180490081
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 2nigtxlzkh3qk9rf
 _key: '!items!2nigtxlzkh3qk9rf'

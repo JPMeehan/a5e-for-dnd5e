@@ -2,8 +2,7 @@ name: Greater Empowered Smite
 type: feat
 img: icons/skills/melee/strike-axe-energy-pink.webp
 effects:
-  - icon: icons/skills/melee/strike-axe-energy-pink.webp
-    origin: Item.572rzHWo6OYdkCmo
+  - origin: Item.9oUtAGxGQ28y0pZa
     flags:
       a5e:
         sort: 0
@@ -31,10 +30,23 @@ effects:
     description: ''
     statuses:
       - blinded
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721853368499
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/melee/strike-axe-energy-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!p9gkawegqqbxb821.cPzjNcpqoHUh0W6s'
-  - icon: icons/skills/melee/strike-axe-energy-pink.webp
-    origin: Item.572rzHWo6OYdkCmo
+  - origin: Item.9oUtAGxGQ28y0pZa
     flags:
       a5e:
         sort: 0
@@ -61,6 +73,20 @@ effects:
       startTurn: null
     description: <p>Disadvantage on attack rolls.</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721853368499
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/melee/strike-axe-energy-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!p9gkawegqqbxb821.YGGsYHiZdd6cibgR'
 flags: {}
@@ -135,7 +161,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 2d8
+      - - '@classResources.divine-smite-damage'
         - radiant
     versatile: ''
   formula: ''
@@ -144,5 +170,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721853368431
+  modifiedTime: 1721853563281
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: p9gkawegqqbxb821
 _key: '!items!p9gkawegqqbxb821'

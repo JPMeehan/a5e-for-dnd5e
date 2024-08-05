@@ -1,0 +1,37 @@
+name: Peek at the Deck
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also beginning at level 3, all spells from the
+      d<em>ivination&nbsp;</em>school are treated as bard spells for you.</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Master of Ceremonies'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722116902755
+  modifiedTime: 1722117010981
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 1nt202bw0a6j2cm3
+_key: '!items!1nt202bw0a6j2cm3'

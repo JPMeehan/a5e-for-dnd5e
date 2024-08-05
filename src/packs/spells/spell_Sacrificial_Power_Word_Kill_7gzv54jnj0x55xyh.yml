@@ -28,6 +28,10 @@ effects:
     description: "<p>For the next\_8 hours, the first time you would drop to 0 hit\_points or be outright killed, you instead drop to\_1 hit point.</p>"
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!7gzv54jnj0x55xyh.Rxm7KqQEsByqGDQ0'
 flags:
   a5e-for-dnd5e:
@@ -108,4 +112,8 @@ system:
     scaling: spell
 folder: x4DhzmvgyEmZSOsn
 _id: 7gzv54jnj0x55xyh
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!7gzv54jnj0x55xyh'

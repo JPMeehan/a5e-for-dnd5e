@@ -1,0 +1,55 @@
+folder: null
+name: Augmented Trapmaking
+type: feat
+img: icons/sundries/misc/pet-collar-spiked-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 9th level, you learn one of the following trap capabilities. When
+      using Trapmaking to create a trap, you can choose to augment it with the
+      new capability, which is triggered when your trap damages a creature.</p>
+
+      <h2>Immobilization Trap</h2>
+
+      <p>The target is caught in the jaws of the trap. The target&rsquo;s
+      movement speed is reduced to 0. A creature can use an action or legendary
+      action to make a DC 13 Strength check, freeing itself or another creature
+      on a success. Building this trap requires a hunting trap, which can be
+      recovered after the trap is triggered.</p>
+
+      <h2>Poison Trap</h2>
+
+      <p>You add a contact or injury poison to the trap, which consumes the
+      poison. The victim of the trap is affected by the poison.</p>
+
+      <h2>Vial Trap</h2>
+
+      <p>You add a vial of liquid, such as acid or alchemists&rsquo; fire, to
+      the trap, which consumes the liquid. Each creature within 5 feet when the
+      trap is triggered makes a Dexterity saving throw. On a failure, the
+      creature is splashed with the liquid.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: adwy409a3dlo79yu
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!adwy409a3dlo79yu'

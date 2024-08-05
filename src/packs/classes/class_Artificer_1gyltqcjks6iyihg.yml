@@ -219,9 +219,9 @@ system:
 
       <td style="text-align: center;">+4</td>
 
-      <td style="text-align: center;">Artificer Archetype Feature
-      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.nkax3gnm65ajrbwp]{Reliable
-      Spell Inventions}</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pckq0dgz9f1i3ic8]{Advanced
+      Tactical Chemistry}</td>
 
       <td style="text-align: center;">3</td>
 
@@ -264,8 +264,8 @@ system:
       <td style="text-align: center;">+4</td>
 
       <td style="text-align:
-      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pckq0dgz9f1i3ic8]{Advanced
-      Tactical Chemistry}</td>
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nkax3gnm65ajrbwp]{Reliable
+      Spell Inventions}</td>
 
       <td style="text-align: center;">4</td>
 
@@ -528,8 +528,9 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Gate Pass Gazette
     license: OGL 1.0a
+    page: '#0'
   startingEquipment:
     - _id: DeW2ejp8NHNA8jL0
       sort: 10000
@@ -566,7 +567,6 @@ system:
         grants:
           - armor:lgt
           - armor:med
-          - armor:hvy
           - armor:shield
         choices: []
     - _id: 5nnwM62vnfQDgvBJ
@@ -669,7 +669,7 @@ system:
       level: 9
       configuration:
         items:
-          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nkax3gnm65ajrbwp
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pckq0dgz9f1i3ic8
     - _id: HHCuMmeXA1tAXy0y
       type: ItemGrant
       title: Features
@@ -683,7 +683,7 @@ system:
       level: 11
       configuration:
         items:
-          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pckq0dgz9f1i3ic8
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nkax3gnm65ajrbwp
     - _id: ytytFJWG1qsShA5E
       type: ItemGrant
       title: Features
@@ -719,6 +719,76 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.trac6h3khbwt3svt
+    - _id: lVAjVdAF4PeS7ZWV
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: e7e9OKxQm3OZLnMI
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: tTJHtn6hXZyIyasO
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 9oqiIemizvbnzk2c
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: bNSIs4BkCpshnXfr
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: VtxJHBlgmsA5SkPy
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: O6inai2Nqk59a9kM
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 7uZ6o005HM99pqSk
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: ZUkLiLOS0ZwA5qJa
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: yz3ygI9iZ0Vxn2QS
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: int
     progression: none
@@ -726,5 +796,12 @@ system:
 effects: []
 folder: null
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722259134190
+  modifiedTime: 1722259222815
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 1gyltqcjks6iyihg
 _key: '!items!1gyltqcjks6iyihg'

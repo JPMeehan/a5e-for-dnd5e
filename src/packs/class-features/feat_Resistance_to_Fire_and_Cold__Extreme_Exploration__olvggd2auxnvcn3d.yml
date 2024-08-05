@@ -1,0 +1,32 @@
+folder: null
+name: Resistance to Fire and Cold (Extreme Exploration)
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>You gain resistance to fire and cold damage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: olvggd2auxnvcn3d
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!olvggd2auxnvcn3d'

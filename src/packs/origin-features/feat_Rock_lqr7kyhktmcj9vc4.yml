@@ -24,34 +24,11 @@ system:
   uses:
     per: null
     max: null
-effects:
-  - icon: icons/magic/earth/construct-stone.webp
-    origin: Item.lqr7kyhktmcj9vc4
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Petrification Immunity
-    _id: tO1qgbc3X3jMdDSR
-    changes:
-      - key: system.traits.conditionImmunities
-        value: '["petrified"]'
-        mode: 2
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!lqr7kyhktmcj9vc4.tO1qgbc3X3jMdDSR'
+effects: []
 flags: {}
 _id: lqr7kyhktmcj9vc4
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!lqr7kyhktmcj9vc4'

@@ -2,8 +2,7 @@ name: Beacon of Hope
 type: spell
 img: icons/magic/holy/prayer-hands-glowing-yellow.webp
 effects:
-  - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
-    origin: Item.j0bnvt8trarh7yi7
+  - origin: Item.7cUFyXU2xcIzSlB6
     flags:
       a5e:
         sort: 0
@@ -35,7 +34,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!j0bnvt8trarh7yi7.xg8HNqC7uYv33svs'
 flags:
   a5e-for-dnd5e:
@@ -46,10 +53,14 @@ flags:
 system:
   description:
     value: >-
-      <p>The targets are filled with hope and vitality.</p><p>Until the spell
-      ends, each target gains advantage on Wisdom saving throws and death saving
-      throws, and when a target receives healing it regains the maximum number
-      of hit points possible.</p>
+      <p><em><strong>Targets:&nbsp;</strong></em><em>any number of
+      creatures</em></p>
+
+      <p>The targets are filled with hope and vitality.</p>
+
+      <p>Until the spell ends, each target gains advantage on Wisdom saving
+      throws and death saving throws, and when a target receives healing it
+      regains the maximum number of hit points possible.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -79,10 +90,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: ''
+    value: null
     width: null
     units: ''
-    type: creature
+    type: ''
   range:
     value: 30
     long: null
@@ -113,4 +124,8 @@ system:
     scaling: spell
 folder: YnFE57i6b3g8tOII
 _id: j0bnvt8trarh7yi7
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!j0bnvt8trarh7yi7'

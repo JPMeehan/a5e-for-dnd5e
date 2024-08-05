@@ -1,0 +1,75 @@
+folder: n7MBM7lcayeaiQdF
+name: Mentor’s Aptitude
+type: feat
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
+system:
+  type:
+    value: background
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die with one of the skills or tools you gained
+      from this background. When a friendly creature within 60 feet of you fails
+      a check using the chosen skill or tool while making a check that requires
+      more than an action to complete, you can use a reaction to grant that
+      creature a reroll. The creature must use the new roll, even if it is
+      worse.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      Friendly creature fails a check using the chosen skill or tool while
+      making a check that requires more than an action to complete
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 7fDmvwo28CW0KGHw
+_key: '!items!7fDmvwo28CW0KGHw'

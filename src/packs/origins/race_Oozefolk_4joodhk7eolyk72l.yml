@@ -92,6 +92,13 @@ system:
           - uuid: Compendium.undefined.Item.p3chf43m8397eygr
         choices:
           '0': 1
+    - _id: sn2MobiRmLbPYFyU
+      type: Size
+      level: 1
+      configuration:
+        sizes:
+          - sm
+          - med
   movement:
     walk: 30
     hover: false
@@ -103,4 +110,8 @@ system:
 effects: []
 flags: {}
 _id: 4joodhk7eolyk72l
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!4joodhk7eolyk72l'

@@ -33,6 +33,10 @@ effects:
       - blinded
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!6q34ttse78toj5x0.tey9cUNf8o3CHPA6'
   - icon: icons/magic/sonic/explosion-shock-sound-wave.webp
     origin: Item.6q34ttse78toj5x0
@@ -65,6 +69,10 @@ effects:
       - deafened
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!6q34ttse78toj5x0.0lA7vqfoDvlNfBe1'
 flags:
   a5e-for-dnd5e:
@@ -143,4 +151,8 @@ system:
     scaling: spell
 folder: KpVFJJxpHWw9kEfV
 _id: 6q34ttse78toj5x0
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!6q34ttse78toj5x0'

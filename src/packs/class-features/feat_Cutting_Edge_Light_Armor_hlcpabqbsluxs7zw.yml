@@ -1,0 +1,83 @@
+folder: null
+name: Cutting-Edge Light Armor
+type: feat
+img: icons/equipment/chest/vest-leather-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a Climb speed equal to your walking speed and you are
+      permanently under a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kz3xe6ems34f2ubo]{Spider Climb}
+      effect while you are wearing it.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Advanced Armor
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects:
+  - origin: Item.tB0tbORP0UB4wy4v
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Cutting-Edge Light Armor (Cutting-Edge Equipment)
+    _id: IS0ekHFjR6rn0gwB
+    changes:
+      - key: system.attributes.ac
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.attributes.movement.climb
+        mode: 5
+        value: '@movement.walk.distance'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722222442725
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!hlcpabqbsluxs7zw.IS0ekHFjR6rn0gwB'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722222442690
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: hlcpabqbsluxs7zw
+_key: '!items!hlcpabqbsluxs7zw'

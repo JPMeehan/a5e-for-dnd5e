@@ -28,8 +28,7 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: special
+  activation: {}
   uses:
     value: null
     max: ''
@@ -46,7 +45,7 @@ system:
   range:
     value: null
     long: null
-    units: self
+    units: ''
   consume:
     type: ''
     target: null
@@ -59,7 +58,9 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - '@classResources.martial-arts'
+        - necrotic
     versatile: ''
   formula: ''
   save:
@@ -69,5 +70,12 @@ system:
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722136243103
+  modifiedTime: 1722136466541
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 8bk8h43twd96uxp0
 _key: '!items!8bk8h43twd96uxp0'

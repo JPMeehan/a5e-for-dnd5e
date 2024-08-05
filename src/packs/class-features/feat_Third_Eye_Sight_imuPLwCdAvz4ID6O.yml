@@ -1,0 +1,222 @@
+folder: null
+name: Third-Eye Sight
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">You use an action to trace the outline of an eye on your
+      forehead with your finger. The outline glows faintly for 4 hours or until
+      you dismiss it as a bonus action. Each time you use this feature choose
+      one effect which lasts for the duration:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You have darkvision out to 60 feet.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You cast directional light: bright light
+      out to a 30-foot cone and dim light out to a 90-foot cone. You can use a
+      bonus action to turn the light off or on.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">You touch the forehead of one willing
+      creature that has eyes and connect with it for the duration. While
+      connected, you can use an action to focus on the creature, becoming&nbsp;
+      blind to your own surroundings and seeing through the creature&rsquo;s
+      eyes instead, gaining any special, vision-based senses it has.&nbsp; You
+      must use your action each turn to maintain this connection. If you or the
+      creature travel more than 1 mile apart from one another, your connection
+      breaks, ending this feature early.</p>
+
+      </li>
+
+      </ul>
+
+      <p dir="ltr">Once you use this feature, you cannot do so again until you
+      complete a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.OyF70GW7B6DYFxi2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4kyHFVwslRyr1yIJ
+        duration:
+          unit: hours
+    transfer: false
+    name: Darkvision
+    img: icons/magic/perception/third-eye-blue-red.webp
+    _id: qIp55BApEbiE3ZtG
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.darkvision.distance
+        value: '60'
+        mode: 5
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 14400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    folder: null
+    _key: '!items.effects!imuPLwCdAvz4ID6O.qIp55BApEbiE3ZtG'
+  - origin: Item.OyF70GW7B6DYFxi2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4kyHFVwslRyr1yIJ
+        duration:
+          unit: hours
+    transfer: false
+    name: Directional Light
+    img: icons/magic/perception/third-eye-blue-red.webp
+    _id: NnHBIceRitjc7k48
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '30'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '90'
+        mode: 6
+        priority: null
+      - key: '@token.light.angle'
+        value: '60'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 14400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    folder: null
+    _key: '!items.effects!imuPLwCdAvz4ID6O.NnHBIceRitjc7k48'
+  - origin: Item.OyF70GW7B6DYFxi2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4kyHFVwslRyr1yIJ
+        duration:
+          unit: hours
+    transfer: false
+    name: Connect
+    img: icons/magic/perception/third-eye-blue-red.webp
+    _id: 8cli8aH9z5NSGVNN
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 14400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    folder: null
+    _key: '!items.effects!imuPLwCdAvz4ID6O.8cli8aH9z5NSGVNN'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: imuPLwCdAvz4ID6O
+_key: '!items!imuPLwCdAvz4ID6O'

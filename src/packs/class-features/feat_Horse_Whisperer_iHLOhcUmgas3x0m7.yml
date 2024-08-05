@@ -1,0 +1,74 @@
+folder: null
+name: Horse Whisperer
+type: feat
+img: icons/creatures/mammals/unicorn-horned-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You share a kinship with the strong and the swift, and you easily ride
+      together and share each other's burdens. You gain an expertise die on
+      Animal Handling checks regarding horses and other pack animals.</p>
+
+      <p>In addition, you can spend 10 minutes bonding with any mount. You treat
+      mounts you bond with in this way as if they had the loyal and willing
+      mount traits while you are bonded with them. When you bond with a mount
+      you lose any previous bonds with other mounts made in this way.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: iHLOhcUmgas3x0m7
+_key: '!items!iHLOhcUmgas3x0m7'

@@ -2,8 +2,7 @@ name: Dried Yewclaw Bark
 type: consumable
 img: icons/consumables/plants/leaf-stem-tree-bud-green-brown.webp
 effects:
-  - icon: icons/consumables/plants/leaf-stem-tree-bud-green-brown.webp
-    origin: Item.1wsowojgg8hcd5wi
+  - origin: Item.SjbVwmJy6DGqHbZs
     flags:
       a5e:
         sort: 0
@@ -11,6 +10,7 @@ effects:
         duration:
           unit: hours
         actionId: HQBjc9Xo0LGAHKnA
+        applyToSelf: false
     transfer: false
     name: Dried Yewclaw Bark
     _id: PioiinfhcPVDWypr
@@ -28,10 +28,21 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>Eating strips of this dried yellow bark calms and clarifies the mind,
+      and after consuming this bark you gain an expertise die on Intelligence
+      saving throws for 1 hour.</p>
     statuses: []
     tint: '#ffffff'
+    img: icons/consumables/plants/leaf-stem-tree-bud-green-brown.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!1wsowojgg8hcd5wi.PioiinfhcPVDWypr'
 flags: {}
 system:
@@ -98,4 +109,8 @@ system:
     scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: 1wsowojgg8hcd5wi
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!1wsowojgg8hcd5wi'

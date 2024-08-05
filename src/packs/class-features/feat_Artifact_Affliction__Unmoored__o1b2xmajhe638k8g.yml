@@ -43,8 +43,7 @@ system:
     per: null
     max: null
 effects:
-  - icon: icons/magic/unholy/projectile-spear-glow-pink.webp
-    origin: Item.o1b2xmajhe638k8g
+  - origin: Item.zXSPDRrxXPVW00PJ
     flags:
       a5e:
         sort: 0
@@ -64,8 +63,21 @@ effects:
       startTurn: null
     description: "<p>A bewildered creature is overwhelmed by trying to\_process a particular event. Its mind begins to play\_tricks, altering its perceptions. A bewildered creature\_has disadvantage on social-based ability checks as\_it struggles to engage with what’s happening. When\_a bewildered creature would succeed on an ability\_check, roll another d20. On a result of 15 or less the\_creature succeeds, but otherwise it fails the ability\_check instead. This could be caused by a temporary\_forgetfulness that leads the creature to forget what\_it was trying to achieve, or in some cases a brief\_hallucination that alters the circumstances in such\_a way that it is unable to succeed.</p>"
     statuses: []
+    img: icons/magic/unholy/projectile-spear-glow-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!o1b2xmajhe638k8g.ajQVZLLLh4eQuD6T'
 flags: {}
 _id: o1b2xmajhe638k8g
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!o1b2xmajhe638k8g'

@@ -1,0 +1,32 @@
+folder: null
+name: Swimming and Climbing (Extreme Exploration)
+type: feat
+img: icons/environment/wilderness/island.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>You gain a swimming speed and climbing speed equal to your Speed.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: gkd2bpbxqagelcsn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!gkd2bpbxqagelcsn'

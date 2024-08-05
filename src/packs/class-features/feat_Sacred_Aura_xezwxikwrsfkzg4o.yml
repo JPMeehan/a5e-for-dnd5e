@@ -30,6 +30,10 @@ effects:
     description: <p>You and allies within range cannot be frightened.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!xezwxikwrsfkzg4o.pSapLrJumPi6xXb4'
   - icon: icons/magic/light/explosion-glow-spiral-yellow.webp
     origin: Item.PlvSiUCF6rKfAkeV
@@ -57,6 +61,10 @@ effects:
       equal to your Charisma modifier (+1).</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!xezwxikwrsfkzg4o.uX7rl7dTkPhPQIkk'
   - icon: icons/magic/light/explosion-glow-spiral-yellow.webp
     origin: Item.PlvSiUCF6rKfAkeV
@@ -86,6 +94,10 @@ effects:
     description: <p>You and allies within range cannot be charmed.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!xezwxikwrsfkzg4o.2GqbhdJ58dSJUqhH'
 flags: {}
 system:
@@ -161,4 +173,8 @@ system:
     scaling: spell
 folder: null
 _id: xezwxikwrsfkzg4o
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!xezwxikwrsfkzg4o'

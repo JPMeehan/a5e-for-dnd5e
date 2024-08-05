@@ -1,0 +1,74 @@
+folder: null
+name: Teleportation Module
+type: feat
+img: icons/magic/movement/chevrons-down-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr" role="presentation">As a bonus action on your turn, you can
+      teleport to an empty space adjacent to your automaton. Once you have used
+      this ability a number of times equal to your Intelligence modifier
+      (minimum once) you can&rsquo;t do so again until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Advanced Automaton
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonus
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722222802480
+  modifiedTime: 1722222934622
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: nq6zlzprei9vbuu8
+_key: '!items!nq6zlzprei9vbuu8'

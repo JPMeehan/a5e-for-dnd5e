@@ -1,6 +1,6 @@
 name: Contingent Spell
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/sundries/misc/lock-steel-blue.webp
 effects: []
 flags: {}
 system:
@@ -23,10 +23,52 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: reaction
+    cost: 1
+    condition: External condition
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721921209570
+  modifiedTime: 1721921359861
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: p4pkdgwq7cez2qfl
 _key: '!items!p4pkdgwq7cez2qfl'

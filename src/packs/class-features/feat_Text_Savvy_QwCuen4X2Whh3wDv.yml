@@ -1,0 +1,41 @@
+folder: null
+name: Text Savvy
+type: feat
+img: icons/magic/symbols/runes-carved-stone-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span
+      id="docs-internal-guid-6d31f5cc-7fff-7992-75fc-ec6b5d96f220">Whenever you
+      cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.my7wwb844zvxcv4o]{Comprehend
+      Languages}, the range at which you can understand written languages
+      extends to 60 feet, you can read 10 times faster than you would normally
+      be able to, and you gain an expertise die on Insight checks made to
+      understand and interpret written information. These benefits last for the
+      duration of the spell.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: able to cast comprehend languages
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: QwCuen4X2Whh3wDv
+_key: '!items!QwCuen4X2Whh3wDv'

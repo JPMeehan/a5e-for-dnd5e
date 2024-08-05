@@ -1,0 +1,78 @@
+folder: jczlz1TrOcJzDCz6
+name: Signal Plume
+type: consumable
+img: icons/magic/light/beam-rays-orange-large.webp
+system:
+  description:
+    value: >-
+      <p>This small clay pot is packed with alchemical ingredients that, when
+      ignited as an action, create a massive, vibrantly-colored plume of smoke
+      filled with reflective particles. The plume lasts for 30 minutes and can
+      be seen up to 3 miles away in the daytime. Even at night, the reflective
+      particles make it possible to see one up to a mile away as long as there
+      is a light source such as the moon to reflect off the plume, but this
+      requires a DC 12 Perception check.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0.5
+  price:
+    value: 1
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: skillCheck
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 75L7v0EZju6ddFNm
+_key: '!items!75L7v0EZju6ddFNm'

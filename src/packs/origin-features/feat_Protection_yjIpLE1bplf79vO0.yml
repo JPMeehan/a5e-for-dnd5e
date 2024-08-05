@@ -1,0 +1,67 @@
+folder: Czqb9fe3C11A0mge
+name: Protection
+type: feat
+img: icons/magic/control/debuff-chains-orb-movement-blue.webp
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-912770ea-7fff-0ff0-e1fc-de6537622302">You
+      derive inspiration from keeping things safe from harm, or implementing
+      protective measures to prevent disasters in the future.</span></p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: yjIpLE1bplf79vO0
+_key: '!items!yjIpLE1bplf79vO0'

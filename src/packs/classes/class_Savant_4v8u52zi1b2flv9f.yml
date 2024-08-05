@@ -56,8 +56,8 @@ system:
 
       <td style="text-align: center; height: 100.8px;">+2</td>
 
-      <td style="text-align: center; height:
-      100.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.n7klqdcmvsqul77g]{Adroit
+      <td style="text-align: center; height: 100.8px;">Archetype
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.n7klqdcmvsqul77g]{Adroit
       Defense (Savant)}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.kpv6b5gtpam7cylb]{Clever
       Schemes}
@@ -429,7 +429,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Adventures in ZEITGEIST
     license: OGL 1.0a
   startingEquipment:
     - _id: RSv6IxnZX1IUHxj0
@@ -441,7 +441,7 @@ system:
     - _id: RSv6IxnZX1IUHxj1
       sort: 20000
       key: Compendium.a5e-for-dnd5e.gear.Item.n7gshon73brh3gv2
-      count: null
+      count: 0
       type: linked
       group: ''
   identifier: ''
@@ -573,13 +573,12 @@ system:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.f30ljspjy6d44ywq
     - _id: OLrSgEXraj1RubrM
-      type: ItemChoice
+      type: ItemGrant
+      title: Features
       level: 13
       configuration:
-        pool:
+        items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.31uvhl7cngfcia85
-        choices:
-          '0': 0
     - _id: EMcKutCi8zgQS2i8
       type: ItemGrant
       title: Features
@@ -588,13 +587,12 @@ system:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.x6lhfpalcln2p2jr
     - _id: Bt3Xid6J6Mji1Dct
-      type: ItemChoice
+      type: ItemGrant
+      title: Features
       level: 18
       configuration:
-        pool:
+        items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4fq841b0b76y9ep8
-        choices:
-          '0': 0
     - _id: 9GZXosED8BFXf0Ze
       type: ItemGrant
       title: Features
@@ -602,11 +600,88 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mt8j4lz2olaw9cyg
+    - _id: XiiFJ9Xy91TPxNlY
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 09JpkDuUbZMKvBBM
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: tRLd0MKgSj2Bj4c2
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 12L4ptOKnB3UrAiY
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: TCxQSTf81CwFFyMM
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Lav47cT5ZlOapVzI
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: BFgRL3X2pSAaBnx0
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: DHcTTYvbWV7yC6yU
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: EnrmdarTYrIVaedd
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: NP3iihO30OmiqGSF
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: none
     progression: none
   wealth: '125'
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722027326397
+  modifiedTime: 1722027553437
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 4v8u52zi1b2flv9f
 _key: '!items!4v8u52zi1b2flv9f'

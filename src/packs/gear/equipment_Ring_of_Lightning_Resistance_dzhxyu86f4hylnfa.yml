@@ -1,7 +1,42 @@
 name: Ring of Lightning Resistance
 type: equipment
 img: icons/equipment/finger/ring-cabochon-gold-blue.webp
-effects: []
+effects:
+  - origin: Item.Vx7hN03179WAIY6f
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Ring of Lightning Resistance
+    img: icons/equipment/finger/ring-cabochon-gold-blue.webp
+    _id: 6X0Wlv14HSHCfMkA
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: lightning
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!dzhxyu86f4hylnfa.6X0Wlv14HSHCfMkA'
 flags: {}
 system:
   description:
@@ -41,4 +76,8 @@ system:
     baseItem: ''
 folder: 9k4UVzCiMuqj62ea
 _id: dzhxyu86f4hylnfa
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!dzhxyu86f4hylnfa'

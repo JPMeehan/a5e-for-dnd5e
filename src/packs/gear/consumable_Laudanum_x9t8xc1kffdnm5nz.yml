@@ -11,6 +11,11 @@ system:
       concoction in this vial you recover a level of strife. Roll 1d10. On a 1,
       you gain a short-term mental stress effect. Once a creature benefits from
       laudanum, it cannot do so again until it finishes a long rest.</p>
+
+      <p><strong>Foundry Note:</strong> This item has both a quantity consumer
+      and an item uses consumer. The Item uses consumer reflects the once per
+      day limit use of Laudanum while the quantity consumer reflects how many
+      Laudanum your character is carrying.</p>
     chat: ''
     unidentified: ''
   source:
@@ -29,7 +34,46 @@ system:
     value: potion
     subtype: ''
   uses:
-    autoDestroy: false
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: x9t8xc1kffdnm5nz
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!x9t8xc1kffdnm5nz'

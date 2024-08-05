@@ -1,0 +1,37 @@
+folder: null
+name: Upgraded Weapon
+type: feat
+img: icons/skills/melee/blade-tips-triple-steel.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your custom weapon deals an additional 1d4 of damage (for a total of
+      2d4 if it is heavy).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722219850606
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: OOJ4INOMAINO9soC
+_key: '!items!OOJ4INOMAINO9soC'

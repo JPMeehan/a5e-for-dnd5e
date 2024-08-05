@@ -28,6 +28,10 @@ effects:
     description: "<p>When the target benefits from your Bardic Inspiration, it rolls the\_Bardic Inspiration die twice and uses the higher result.</p>"
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vim6c3olnci1dubs.9dTw1sBWD2V5kBbb'
 flags: {}
 system:
@@ -89,4 +93,8 @@ system:
     scaling: spell
 folder: null
 _id: vim6c3olnci1dubs
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!vim6c3olnci1dubs'

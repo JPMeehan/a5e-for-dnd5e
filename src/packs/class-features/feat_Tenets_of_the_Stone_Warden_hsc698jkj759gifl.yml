@@ -1,0 +1,53 @@
+folder: null
+name: Tenets of the Stone Warden
+type: feat
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>All stone wardens hold similar tenets, regardless of the deity they
+      serve.</p>
+
+      <ul>
+
+      <li><strong>Enduring Stone</strong>. Those you defend must be able to
+      trust in your resilience.</li>
+
+      <li><strong>Stable as Stone.</strong> You must be consistent, dependable,
+      and fair in your dealings. Let no hint of caprice or pique cloud your
+      judgment, but cleave to what is right.</li>
+
+      <li><strong>Strong as Stone.</strong> You must be willing to shoulder far
+      more than your &ldquo;share&rdquo; to walk this path.</li>
+
+      <li><strong>Will of Stone, Not Heart of Stone.</strong> You must be
+      incorruptible, implacable, and uncompromising, but this must be tempered
+      with empathy and compassion. Strength without goodness is worse than
+      weakness.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: hsc698jkj759gifl
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!hsc698jkj759gifl'

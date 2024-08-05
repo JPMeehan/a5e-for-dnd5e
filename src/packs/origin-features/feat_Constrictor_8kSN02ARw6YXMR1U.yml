@@ -1,0 +1,48 @@
+folder: z476XZt1iG4Mb7VJ
+name: Constrictor
+type: feat
+img: icons/creatures/reptiles/snake-poised-white.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Some sinuous have exceptionally muscular tails and heavy, armored
+      scales. They tend to also have muscular torsos and scales on their upper
+      bodies. You have the following traits:</p>
+
+      <p><em><strong>Scales.</strong></em> You have tough, plate-like scales.
+      While you aren&rsquo;t wearing armor, your AC equals 13 + your Dexterity
+      modifier. You can use a shield and still gain this benefit.</p>
+
+      <p><em><strong>Constrict.</strong></em> You gain an expertise die on
+      checks to initiate or maintain a grapple on creatures of Medium size or
+      smaller, which can be coiled around as part of the grapple. Once per turn
+      as a bonus action, you can squeeze a grappled creature in your coils,
+      dealing bludgeoning damage equal to 2d4 + your Strength modifier. In
+      addition, your hands remain free when you are grappling another creature.
+      You cannot use your climb speed from Sinuous Physiology while using this
+      trait. You cannot coil around creatures of Large or larger size.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 8kSN02ARw6YXMR1U
+_key: '!items!8kSN02ARw6YXMR1U'

@@ -2,8 +2,7 @@ name: Vicious Pike
 type: weapon
 img: icons/weapons/polearms/spear-hooked-spike.webp
 effects:
-  - icon: icons/weapons/polearms/spear-hooked-spike.webp
-    origin: Item.f0g1fh4txr6htggi
+  - origin: Item.6z5V0VAHV4klL4QK
     flags:
       a5e:
         sort: 0
@@ -32,7 +31,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/weapons/polearms/spear-hooked-spike.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!f0g1fh4txr6htggi.Lfgy559EtlC4KF80'
 flags: {}
 system:
@@ -117,6 +124,8 @@ system:
     parts:
       - - 1d10 + @mod
         - piercing
+      - - 2d6
+        - piercing
     versatile: ''
   formula: ''
   save:
@@ -125,4 +134,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: f0g1fh4txr6htggi
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!f0g1fh4txr6htggi'

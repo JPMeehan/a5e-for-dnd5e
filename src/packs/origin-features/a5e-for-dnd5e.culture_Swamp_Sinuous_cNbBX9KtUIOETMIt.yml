@@ -1,0 +1,54 @@
+folder: null
+name: Swamp Sinuous
+type: a5e-for-dnd5e.culture
+img: icons/magic/nature/root-vines-silhouette-teal.webp
+system:
+  description:
+    value: >-
+      <p><em><strong>Cultured and Creative.</strong></em> You gain proficiency
+      with a musical instrument and a toolkit of your choice.</p>
+
+      <p><em><strong>Swamp Swimmer.</strong></em> You gain a swim speed equal to
+      your walking speed and you have advantage on stealth checks in water.</p>
+
+      <p><em><strong>Hardy and Resolute.</strong></em> You gain an expertise die
+      on saving throws against poison, disease, and effects that would cause you
+      to become frightened.</p>
+
+      <p><em><strong>Languages.</strong></em> You can speak, read, write, and
+      sign Common and two additional languages of your choice.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  advancement:
+    - _id: pqddEnWTArtKHsgZ
+      type: ItemGrant
+      title: Features
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.Z4JHgz6TPPbCKNd6
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.HTSgEsBdh15jeNfy
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.sef6gN5cVm0L0DLk
+    - _id: FGTNqBFS5jcoxyY9
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 2
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: cNbBX9KtUIOETMIt
+_key: '!items!cNbBX9KtUIOETMIt'

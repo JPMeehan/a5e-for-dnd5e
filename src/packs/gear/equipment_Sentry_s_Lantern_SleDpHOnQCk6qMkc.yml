@@ -1,0 +1,132 @@
+folder: VRWG3xL5zF1ktOX6
+name: Sentry's Lantern
+type: equipment
+img: icons/sundries/lights/lantern-iron-lit-yellow.webp
+system:
+  description:
+    value: >-
+      <p>This heavy, tripod-mounted, hooded lantern ignites when the hood is
+      raised as an action. It casts bright light to a range of 90 feet and dim
+      light for a further 90 feet. When folded for transport it is a bulky
+      item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 50
+  price:
+    value: 30
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.BaMpz3fFqIVJiE7l
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: MC3DPOtqUy7koqvl
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Light
+    img: icons/sundries/lights/lantern-iron-lit-yellow.webp
+    _id: 4MKJ5RAQn6it2BY1
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '90'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '180'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    folder: null
+    _key: '!items.effects!SleDpHOnQCk6qMkc.4MKJ5RAQn6it2BY1'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: SleDpHOnQCk6qMkc
+_key: '!items!SleDpHOnQCk6qMkc'

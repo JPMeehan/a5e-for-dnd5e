@@ -1,0 +1,37 @@
+folder: null
+name: Musical Savant
+type: feat
+img: icons/tools/instruments/harp-lap-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on checks with any musical instrument you are
+      proficient in (including any musical instrument proficiencies you gain in
+      the future). You may learn or teach an instrument proficiency in half the
+      usual time using the Train downtime activity and suffer no penalties for
+      not having a tutor.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: Aq4SZc4AAfxipr00
+_key: '!items!Aq4SZc4AAfxipr00'

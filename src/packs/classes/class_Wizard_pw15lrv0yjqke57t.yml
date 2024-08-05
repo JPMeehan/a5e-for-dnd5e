@@ -74,8 +74,10 @@ system:
 
       <td style="text-align: center;">+2</td>
 
-      <td style="text-align: center;">Ability Score Improvement
-      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.1u4hyjbgjmvl22js]{Elective
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score
+      Improvement}@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1u4hyjbgjmvl22js]{Elective
       Studies}</td>
 
       <td style="text-align: center;">1</td>
@@ -128,7 +130,9 @@ system:
 
       <td style="text-align: center;">+3</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">2</td>
 
@@ -180,7 +184,9 @@ system:
 
       <td style="text-align: center;">+4</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">3</td>
 
@@ -232,7 +238,9 @@ system:
 
       <td style="text-align: center;">+5</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">4</td>
 
@@ -272,7 +280,9 @@ system:
 
       <td style="text-align: center;">+6</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">4</td>
 
@@ -504,11 +514,88 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5d4jtdca7omu0gt2
+    - _id: Llp8szZQDhNzc6eL
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 7cFSMdTUiyt8Duwc
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: KFAyzRKJpj8EsBGq
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: TOpfsmYAut6kdI23
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Gnr1aHkbMF2g9bpY
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: J3mWn5s6rCjRrLT3
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: SYTnjttK8hvIIpGT
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: ECwj3xCk69AFNazg
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Bsf6KNoK1N0OK1w2
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: wVga0LtniK1VtYQu
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: int
     progression: full
   wealth: '100'
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722027333486
+  modifiedTime: 1722027685853
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: pw15lrv0yjqke57t
 _key: '!items!pw15lrv0yjqke57t'

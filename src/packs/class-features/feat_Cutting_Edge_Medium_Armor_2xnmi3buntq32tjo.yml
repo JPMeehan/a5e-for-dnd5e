@@ -1,0 +1,84 @@
+folder: null
+name: Cutting-Edge Medium Armor
+type: feat
+img: icons/equipment/chest/breastplate-sculpted-grey.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your armor now includes various measures to prevent you from succumbing
+      to the worst that supernatural foes can dish out. You gain immunity to the
+      petrified condition and make saving throws to avoid the confused,
+      frightened, incapacitated, paralyzed, and slowed conditions with
+      advantage.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Advanced Armor
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects:
+  - origin: Item.NJkWw0U8U3155GlB
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Cutting-Edge Medium Armor (Cutting-Edge Equipment)
+    _id: R4q1tYcxtvGZRW3X
+    changes:
+      - key: system.attributes.ac
+        value: '1'
+        mode: 2
+        priority: null
+      - key: system.traits.conditionImmunities
+        mode: 2
+        value: Petrified
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722222532268
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!2xnmi3buntq32tjo.R4q1tYcxtvGZRW3X'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722222532216
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 2xnmi3buntq32tjo
+_key: '!items!2xnmi3buntq32tjo'

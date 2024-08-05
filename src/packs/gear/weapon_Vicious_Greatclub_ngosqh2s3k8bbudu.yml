@@ -79,6 +79,8 @@ system:
         - bludgeoning
       - - 1d10 + @mod
         - bludgeoning
+      - - 2d6
+        - bludgeoning
     versatile: ''
   formula: ''
   save:
@@ -87,4 +89,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: ngosqh2s3k8bbudu
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ngosqh2s3k8bbudu'

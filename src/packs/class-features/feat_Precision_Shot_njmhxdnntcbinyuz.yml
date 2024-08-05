@@ -7,11 +7,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 17th level you can use the Stunning Strike and Paralyzing Strike
-      focus features with ranged weapon attacks. If you do not already possess
-      both of these focus features, you gain one of them, which does not count
-      against your number of focus features known. If you already possess both
-      of them, you learn a different focus feature of your choice.</p>
+      <p>At 17th level you can use the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.5wrw48ctsb9sm48o]{Stunning
+      Strike} and
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.n37frzy7ja5gyo33]{Paralyzing
+      Strike} focus features with ranged weapon attacks. If you do not already
+      possess both of these focus features, you gain one of them, which does not
+      count against your number of focus features known. If you already possess
+      both of them, you learn a different focus feature of your choice.</p>
     chat: ''
   source:
     book: Mysterious and Marvelous Miscellanea
@@ -29,5 +32,12 @@ system:
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722150132008
+  modifiedTime: 1722150214570
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: njmhxdnntcbinyuz
 _key: '!items!njmhxdnntcbinyuz'

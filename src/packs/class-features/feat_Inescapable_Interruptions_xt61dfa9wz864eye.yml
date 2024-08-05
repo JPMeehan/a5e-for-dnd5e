@@ -9,20 +9,31 @@ system:
   description:
     value: >-
       <p>Starting at 6th level, you know how to strike in order to disrupt
-      concentration at the expense of your other adept techniques.</p><p>Once
-      per turn, when a creature you can see within 60 feet of you casts a spell,
-      you can spend an exertion point to make a Wisdom (Perception) or Wisdom
-      (Insight) against their spell save DC. On a success, you gain the
+      concentration at the expense of your other adept techniques.</p>
+
+      <p>Once per turn, when a creature you can see within 60 feet of you casts
+      a spell, you can spend an exertion point to make a Wisdom (Perception) or
+      Wisdom (Insight) against their spell save DC. On a success, you gain the
       following effects when you take the Attack action against this
-      creature:</p><ul><li>You gain an expertise dice for those attack
-      rolls.</li><li>On a hit, the target&rsquo;s DC for the concentration
-      checks uses your Combat Maneuver DC, or half the damage received,
-      whichever is higher.</li><li>On a hit, the target has disadvantage on
-      checks made to maintain concentration, but has advantage on checks made to
-      resist effects from your Focus Features (such as
-      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.6ke5eufijnme1uzi]{Stunning
-      Strike}).</li></ul><p>These effects last either for one minute, until you
-      choose to end it, or until you use this feature on a different target.</p>
+      creature:</p>
+
+      <ul>
+
+      <li>You gain an expertise dice for those attack rolls.</li>
+
+      <li>On a hit, the target&rsquo;s DC for the concentration checks uses your
+      Combat Maneuver DC, or half the damage received, whichever is higher.</li>
+
+      <li>On a hit, the target has disadvantage on checks made to maintain
+      concentration, but has advantage on checks made to resist effects from
+      your Focus Features (such as
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.5wrw48ctsb9sm48o]{Stunning
+      Strike}).</li>
+
+      </ul>
+
+      <p>These effects last either for one minute, until you choose to end it,
+      or until you use this feature on a different target.</p>
     chat: ''
   source:
     book: ''
@@ -42,14 +53,14 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 1
     width: null
     units: ''
-    type: ''
+    type: creature
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   consume:
     type: ''
     target: null
@@ -70,8 +81,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/skills/melee/hand-grip-staff-teal.webp
-    origin: Item.xt61dfa9wz864eye
+  - origin: Item.inLVZEFNgUK6JTJa
     flags:
       a5e:
         sort: 0
@@ -93,11 +103,35 @@ effects:
       startRound: null
       startTurn: null
     description: >-
+      <p>Target’s DC for the concentration checks uses your Combat Maneuver DC,
+      or half the damage received, whichever is higher.</p>
+
       <p>Disadvantage on checks made to maintain concentration, but has
       advantage on checks made to resist effects from Focus Features.</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: null
+      modifiedTime: 1722523691973
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/melee/hand-grip-staff-teal.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!xt61dfa9wz864eye.d8KhFCm1Mfs13NSX'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722523558812
+  modifiedTime: 1722523614460
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: xt61dfa9wz864eye
 _key: '!items!xt61dfa9wz864eye'

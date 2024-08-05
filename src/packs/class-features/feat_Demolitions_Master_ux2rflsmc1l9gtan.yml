@@ -1,22 +1,31 @@
 name: Demolitions Master
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/weapons/thrown/bomb-timer.webp
 system:
   type:
     value: class
     subtype: ''
   description:
     value: >-
-      <p>At 15th level you’ve become a veteran of a field with a low life
+      <p>At 15th level you&rsquo;ve become a veteran of a field with a low life
       expectancy. You may be missing your eyebrows or a few fingers, but you
       know how to survive when the bombs are going off around you and how to
-      “safely” create some of the biggest explosions technology is capable of.
-      You gain the following benefits. </p><p>You gain resistance to fire and
-      force damage, and immunity to the deafened condition.</p><p>You may
-      simultaneously set up to a number of items equal to your proficiency bonus
-      when using Precision Explosives. Items set in this way always explode
-      simultaneously.</p><p>Your alchemical grenades and items made using
-      Tactical Chemistry deal twice as much damage to objects and vehicles.</p>
+      &ldquo;safely&rdquo; create some of the biggest explosions technology is
+      capable of. You gain the following benefits.</p>
+
+      <p>You gain resistance to fire and force damage, and immunity to the
+      deafened condition.</p>
+
+      <p>You may simultaneously set up to a number of items equal to your
+      proficiency bonus when using
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.dtfx81pcvwj3fnev]{Precision
+      Explosives}. Items set in this way always explode simultaneously.</p>
+
+      <p>Your
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.xo9lrlqmwlsr7j09]{Alchemical
+      Grenades} and items made using
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.f2syblzgm6at7i7q]{Tactical
+      Chemistry} deal twice as much damage to objects and vehicles.</p>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -35,5 +44,12 @@ system:
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722274956936
+  modifiedTime: 1722275073179
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: ux2rflsmc1l9gtan
 _key: '!items!ux2rflsmc1l9gtan'

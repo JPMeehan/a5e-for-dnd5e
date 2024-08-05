@@ -123,6 +123,10 @@ effects:
     statuses:
       - restrained
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ywon9rejcclo6t4c.E0ITLiA8nGySp1lz'
   - icon: icons/environment/wilderness/terrain-rocky-ground.webp
     origin: Item.ywon9rejcclo6t4c
@@ -152,6 +156,10 @@ effects:
     statuses:
       - restrained
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ywon9rejcclo6t4c.KryCLWO8ZICLlrxu'
 flags:
   a5e-for-dnd5e:
@@ -161,4 +169,8 @@ flags:
       - terrain
     rareSpell: false
 _id: ywon9rejcclo6t4c
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ywon9rejcclo6t4c'

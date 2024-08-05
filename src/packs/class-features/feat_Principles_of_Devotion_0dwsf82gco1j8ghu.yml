@@ -1,8 +1,6 @@
 name: Principles of Devotion
 type: feat
 img: icons/sundries/scrolls/scroll-magical-yellow.webp
-effects: []
-flags: {}
 system:
   type:
     value: class
@@ -69,6 +67,12 @@ system:
   uses:
     per: null
     max: null
+effects: []
 folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _id: 0dwsf82gco1j8ghu
 _key: '!items!0dwsf82gco1j8ghu'

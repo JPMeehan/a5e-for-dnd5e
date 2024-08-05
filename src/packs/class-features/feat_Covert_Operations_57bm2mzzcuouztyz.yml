@@ -1,0 +1,48 @@
+name: Covert Operations
+type: feat
+img: icons/magic/unholy/barrier-shield-glowing-pink.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, choose one of the following:</p>
+
+      <h2>Hidden Assault</h2>
+
+      <p>Friendly creatures within the range of your Commanding Presence ignore
+      Stealth penalties from armor they wear.</p>
+
+      <h2>Concealed Forces</h2>
+
+      <p>Over the course of 10 minutes, you may brief a number of creatures
+      equal to your proficiency bonus. For one hour, as long as those creatures
+      do not make attacks or cast spells with seen components, those creatures
+      gain advantage on all checks to avoid notice or to appear not
+      out-of-place. As long as these creatures share a language, they gain
+      advantage on Deception checks to conceal messages that they sign to one
+      another.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+_id: 57bm2mzzcuouztyz
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!57bm2mzzcuouztyz'

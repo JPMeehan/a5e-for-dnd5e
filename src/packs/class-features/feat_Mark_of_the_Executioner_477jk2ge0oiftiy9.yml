@@ -28,8 +28,57 @@ system:
     per: null
     max: null
 img: icons/equipment/head/hood-simple-leather-brown.webp
-effects: []
+effects:
+  - origin: Item.QGr5Pw9iB0T7OAgp
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Mark of the Executioner
+    img: icons/equipment/head/hood-simple-leather-brown.webp
+    _id: yXFtTITJVVHg5uXo
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.itm.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>While wearing your Mark of the Executioner, your expertise die in
+      Intimidation increases by one step, to a maximum of 1d10.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722534398849
+      modifiedTime: 1722534421628
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!477jk2ge0oiftiy9.yXFtTITJVVHg5uXo'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722534252150
+  modifiedTime: 1722534276175
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 477jk2ge0oiftiy9
 _key: '!items!477jk2ge0oiftiy9'

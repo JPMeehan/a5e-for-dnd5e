@@ -11,9 +11,6 @@ system:
     value: >-
       <p>When you deal basic melee damage with a basic maneuver, you can deal
       additional damage equal to your martial arts die.</p>
-
-      <p><strong>Foundry Note:</strong> Make sure to update the damage grant as
-      your Martial Arts Dice increases.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -64,5 +61,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721839855372
+  modifiedTime: 1721839897011
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 3j38fj9c72aaukeu
 _key: '!items!3j38fj9c72aaukeu'

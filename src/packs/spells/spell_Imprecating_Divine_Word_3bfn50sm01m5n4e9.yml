@@ -32,6 +32,10 @@ effects:
     statuses:
       - deafened
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!3bfn50sm01m5n4e9.rnztvfPTLtjTp3O8'
   - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
     origin: Item.3bfn50sm01m5n4e9
@@ -64,6 +68,10 @@ effects:
       - blinded
       - deafened
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!3bfn50sm01m5n4e9.H4ocizG6o9Ll9ksV'
   - icon: icons/magic/holy/prayer-hands-glowing-yellow.webp
     origin: Item.3bfn50sm01m5n4e9
@@ -97,6 +105,10 @@ effects:
       - deafened
       - stunned
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!3bfn50sm01m5n4e9.eOscshLCLDAt9p3u'
 flags:
   a5e-for-dnd5e:
@@ -182,4 +194,8 @@ system:
     scaling: spell
 folder: ybSOtxUcdcb5Rzdc
 _id: 3bfn50sm01m5n4e9
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!3bfn50sm01m5n4e9'

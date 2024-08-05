@@ -25,8 +25,7 @@ system:
     per: null
     max: null
 effects:
-  - icon: icons/creatures/invertebrates/spider-dotted-green.webp
-    origin: Item.9f94pqszx8fhotll
+  - origin: Item.AShbMDDSFex7VK2t
     flags:
       a5e:
         sort: 0
@@ -50,8 +49,29 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722269324114
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/creatures/invertebrates/spider-dotted-green.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!9f94pqszx8fhotll.Ab7fJLDUBAGdPofT'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722269324055
+  modifiedTime: 1722269350988
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 9f94pqszx8fhotll
 _key: '!items!9f94pqszx8fhotll'

@@ -1,7 +1,42 @@
 name: Ring of Radiant Resistance
 type: equipment
 img: icons/equipment/finger/ring-band-engraved-spirals-gold.webp
-effects: []
+effects:
+  - origin: Item.ZIX9vndfDc5yTU66
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Ring of Radiant Resistance
+    img: icons/equipment/finger/ring-band-engraved-spirals-gold.webp
+    _id: 3MtUE2O7guv7t1Uy
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: radiant
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!tr6by6rc5r9jc5nx.3MtUE2O7guv7t1Uy'
 flags: {}
 system:
   description:
@@ -41,4 +76,8 @@ system:
     baseItem: ''
 folder: 9k4UVzCiMuqj62ea
 _id: tr6by6rc5r9jc5nx
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!tr6by6rc5r9jc5nx'

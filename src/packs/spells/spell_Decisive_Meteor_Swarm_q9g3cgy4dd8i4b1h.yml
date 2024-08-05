@@ -34,6 +34,10 @@ effects:
       - prone
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!q9g3cgy4dd8i4b1h.Dg1eJ0V2SR2fQNtz'
   - icon: icons/magic/earth/projectiles-magma-stone-orange.webp
     origin: Item.q9g3cgy4dd8i4b1h
@@ -68,6 +72,10 @@ effects:
       - stunned
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!q9g3cgy4dd8i4b1h.n2mrbhqhIjS9GS7M'
 flags:
   a5e-for-dnd5e:
@@ -156,4 +164,8 @@ system:
     scaling: spell
 folder: x4DhzmvgyEmZSOsn
 _id: q9g3cgy4dd8i4b1h
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!q9g3cgy4dd8i4b1h'

@@ -114,7 +114,9 @@ system:
 
       <td style="text-align: center;">+2</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">10 feet</td>
 
@@ -205,7 +207,9 @@ system:
 
       <td style="text-align: center;">+3</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">20 feet</td>
 
@@ -293,7 +297,9 @@ system:
 
       <td style="text-align: center;">+4</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">30 feet</td>
 
@@ -378,8 +384,9 @@ system:
 
       <td style="text-align: center; height: 16.7969px;">+5</td>
 
-      <td style="text-align: center; height: 16.7969px;">Ability Score
-      Improvement
+      <td style="text-align: center; height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.al4g04mcme58duv3]{Greater
       Stronghold}</td>
 
@@ -445,8 +452,9 @@ system:
 
       <td style="text-align: center; height: 16.7969px;">+6</td>
 
-      <td style="text-align: center; height: 16.7969px;">Ability Score
-      Improvement</td>
+      <td style="text-align: center; height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center; height: 16.7969px;">45 feet</td>
 
@@ -527,7 +535,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   startingEquipment:
     - _id: 0wWGbxXqZX4ZlyD0
@@ -638,6 +646,7 @@ system:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5el685zm5ggve3sf
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.glbhnd16q6qmysjh
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ugkefg2rmcgqh9bn
     - _id: yBrxa8SGCFsN1CNe
       type: ItemGrant
       title: Features
@@ -712,6 +721,77 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kvc59z8sg7dq3z3f
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2bv3gkrbblfgpe31
+    - _id: hkd3uZV5Vc4LMj5r
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: ABQfCaNDULRbK8Yb
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: OdgnBV3Q35XvSUgB
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 9BH6R3eYprZpC8iX
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: TEv8YKQpsY9k4Vxq
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: NjMJuZ0m5eAiNu0E
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: buHwJ42q5sqM5YRC
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: EcGc989mIWlHf6wj
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: TBz6zMdNdqkh0oWG
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: vTqj54lOD9JX9DyI
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: none
     progression: martial
@@ -719,5 +799,12 @@ system:
 effects: []
 folder: null
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722027304171
+  modifiedTime: 1722027488155
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 0oaxxewtkjwefygn
 _key: '!items!0oaxxewtkjwefygn'

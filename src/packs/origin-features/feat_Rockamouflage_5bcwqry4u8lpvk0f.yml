@@ -26,34 +26,11 @@ system:
   uses:
     per: null
     max: null
-effects:
-  - icon: icons/magic/earth/barrier-stone-brown-green.webp
-    origin: Item.5bcwqry4u8lpvk0f
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Stealth Proficency
-    _id: Ob32mrdlSx96yRDy
-    changes:
-      - key: system.skills.ste.value
-        value: '1'
-        mode: 5
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!5bcwqry4u8lpvk0f.Ob32mrdlSx96yRDy'
+effects: []
 flags: {}
 _id: 5bcwqry4u8lpvk0f
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!5bcwqry4u8lpvk0f'

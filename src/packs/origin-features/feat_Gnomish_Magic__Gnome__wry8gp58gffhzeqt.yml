@@ -9,8 +9,10 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>You know the minor illusion cantrip. Your spellcasting ability for this
-      spell is Intelligence, Wisdom, or Charisma (whichever is highest)</p>
+      <p>You know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.4oruofw2q7gso9hq]{Minor
+      Illusion} cantrip. Your spellcasting ability for this spell is
+      Intelligence, Wisdom, or Charisma (whichever is highest)</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -27,4 +29,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: wry8gp58gffhzeqt
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!wry8gp58gffhzeqt'

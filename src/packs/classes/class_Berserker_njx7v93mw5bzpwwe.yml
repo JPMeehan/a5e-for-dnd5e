@@ -541,7 +541,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   startingEquipment:
     - _id: YShVv0lqvkDvC2D0
@@ -702,11 +702,88 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4udjcfge83gs304g
+    - _id: 0RtmNIzGxuTyFEHx
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: l4XqyArmH2QqLyqJ
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 50VyyRGGHAEzd8Ax
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: dKeYS3Qng0ZXEsaF
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: lq0TxJuxpuHTWOqd
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: F1W4gvugqDYCGbCG
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: SCzH5ToX4lM9wTE8
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: TpJd8jLHT0czwwPv
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Pw4nCK0eohvknsuX
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: SAA4EwntN0DSVzKJ
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: none
     progression: martial
   wealth: '120'
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722027286717
+  modifiedTime: 1722027356758
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: njx7v93mw5bzpwwe
 _key: '!items!njx7v93mw5bzpwwe'

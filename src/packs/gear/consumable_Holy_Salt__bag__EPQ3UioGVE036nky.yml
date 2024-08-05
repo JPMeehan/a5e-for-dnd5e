@@ -1,0 +1,80 @@
+folder: jczlz1TrOcJzDCz6
+name: Holy Salt (bag)
+type: consumable
+img: icons/consumables/grains/sack-grain-open-white.webp
+system:
+  description:
+    value: >-
+      <p>This bag of consecrated salt can be spread onto up to 2 spaces adjacent
+      to the user as an action. Undead, fiends, and aberrations treat a space
+      covered with holy salt as difficult terrain and take 2d4 points of radiant
+      damage the first time on a turn they enter such a space or when they start
+      their turn there. The salt retains its potency for up to 8 hours. Adding
+      another application of holy salt to a space already occupied by holy salt
+      resets the duration, but produces no additional effect.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 25
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: 5
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: EPQ3UioGVE036nky
+_key: '!items!EPQ3UioGVE036nky'

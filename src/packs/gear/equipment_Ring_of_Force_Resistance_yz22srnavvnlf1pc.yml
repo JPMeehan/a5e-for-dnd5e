@@ -1,7 +1,42 @@
 name: Ring of Force Resistance
 type: equipment
 img: icons/equipment/finger/ring-band-engraved-silver.webp
-effects: []
+effects:
+  - origin: Item.T1pExJk01AMNuBWK
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Ring of Force Resistance
+    img: icons/equipment/finger/ring-band-engraved-silver.webp
+    _id: zrzSWcPXZCfZ6rsj
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: force
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!yz22srnavvnlf1pc.zrzSWcPXZCfZ6rsj'
 flags: {}
 system:
   description:
@@ -41,4 +76,8 @@ system:
     baseItem: ''
 folder: 9k4UVzCiMuqj62ea
 _id: yz22srnavvnlf1pc
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!yz22srnavvnlf1pc'

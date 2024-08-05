@@ -2,8 +2,7 @@ name: Keen Senses (Preternatural Awareness Elf)
 type: feat
 img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 effects:
-  - icon: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
-    origin: Item.n7drwrlv7idh1cvi
+  - origin: Item.UlwzeEj5OCO62oij
     flags:
       a5e:
         sort: 0
@@ -28,7 +27,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!n7drwrlv7idh1cvi.4x5TUICeM8w41q48'
 flags: {}
 system:
@@ -53,4 +60,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: n7drwrlv7idh1cvi
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!n7drwrlv7idh1cvi'

@@ -1,0 +1,40 @@
+folder: z476XZt1iG4Mb7VJ
+name: Supernatural Origin
+type: feat
+img: icons/consumables/eggs/egg-broken-blue.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You know a cantrip from the following list:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.mocigztrqyoks506]{Mage Hand},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.uy8he1yquaiym6y8]{Prestidigitation},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.omvngnmoo75is54f]{Spare the
+      Dying}, or
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.eiek2vbzwijd0qac]{Thaumaturgy}.
+      Your spellcasting ability score for this cantrip is Intelligence, Wisdom,
+      or Charisma (whichever is highest).</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: OHtTBEVDw5H9bcTC
+_key: '!items!OHtTBEVDw5H9bcTC'

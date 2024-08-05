@@ -1,0 +1,56 @@
+name: Refined Learning
+type: feat
+img: icons/skills/trades/academics-book-study-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, you&rsquo;ve developed an impressive expertise in spells
+      of your chosen school. Choose one of the following benefits:</p>
+
+      <h2>Arcane Armor</h2>
+
+      <p>When you cast a wizard spell of 1st-level or higher, you store some of
+      its magic to protect yourself, gaining temporary hit points equal to twice
+      the level of the spell, or three times the spell&rsquo;s level if the
+      spell is from your chosen school. Instead of gaining these temporary hit
+      points yourself, you can use your reaction to grant them to a creature
+      within 30 feet.</p>
+
+      <h2>Energy Retention</h2>
+
+      <p>When you expend a spell slot of 2nd-level or higher to cast a wizard
+      spell from your chosen school, you regain one expended spell slot. The
+      regained spell slot must be of a level no more than half the level of the
+      expended spell slot.</p>
+
+      <h2>War Magic</h2>
+
+      <p>When you deal damage with a wizard spell from your chosen school, you
+      deal additional damage equal to your Intelligence modifier on the first
+      damage roll for that spell.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_id: oj0ce5wn17mvh81k
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!oj0ce5wn17mvh81k'

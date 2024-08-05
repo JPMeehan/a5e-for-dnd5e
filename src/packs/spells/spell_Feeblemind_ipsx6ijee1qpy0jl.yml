@@ -33,6 +33,10 @@ effects:
     description: "<p>The creature's Intelligence and Charisma scores are both reduced to 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way, but it is still able to recognize, follow, and even protect its allies.</p><p>At the end of every 30 days, the creature can repeat its saving throw against this spell, ending it on a success.</p><p><em>Greater restoration</em>,\_<em>heal</em>, or\_<em>wish</em> can also be used to end the spell.</p>"
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ipsx6ijee1qpy0jl.NrMcf4r6QaZCHLy8'
 flags:
   a5e-for-dnd5e:
@@ -116,4 +120,8 @@ system:
     scaling: spell
 folder: DMm8aLAHhpqUVDEv
 _id: ipsx6ijee1qpy0jl
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ipsx6ijee1qpy0jl'

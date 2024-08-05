@@ -9,8 +9,13 @@ system:
     value: >-
       <p>At 14th level, you learn to persevere even in the harshest
       circumstances. All concentration checks to maintain your Battle Hymns or
-      bard spells are made with advantage.</p><p>You also learn a second Sign of
-      Faith from the cleric class.</p><p></p>
+      bard spells are made with advantage.</p>
+
+      <p>You also learn a second
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.319mwkz0dd6sznnv]{Sign
+      of Faith} from the cleric class.</p>
+
+      <p>&nbsp;</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -28,5 +33,12 @@ system:
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722261553587
+  modifiedTime: 1722261597001
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: sqhm5dboimid3hu4
 _key: '!items!sqhm5dboimid3hu4'

@@ -1,0 +1,38 @@
+name: Dark Magic
+type: feat
+img: icons/magic/death/hand-undead-skeleton-fire-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 3rd level, you become especially good at veiling your presence
+      in a variety of ways. All spells of the <em>obscurement </em>school count
+      as bard spells for you.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722260208751
+  modifiedTime: 1722260328473
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: P3UFRgsflfvfFxKP
+_key: '!items!P3UFRgsflfvfFxKP'

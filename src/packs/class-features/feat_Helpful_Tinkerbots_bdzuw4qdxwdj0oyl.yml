@@ -15,16 +15,19 @@ system:
       action, you can perform the Help action using a tiny tinkerbot that you
       found a use for. You can perform the Help action in this way a number of
       times equal to your proficiency bonus and you regain all spent uses
-      whenever you finish a long rest.&nbsp;&nbsp;</p><p dir="ltr">In addition,
-      you can create mechanical versions of creatures with the Beast creature
-      type of CR 0 using Tactical Chemistry by spending 10 gp worth of
-      mechanical components in addition to a use of your Tactical Chemistry
-      feature. Creatures you create in this way instead have the Construct
-      creature type instead of any other creature types, and will follow the
-      first order you give them upon their creation to the best of their
-      abilities. After which they will behave normally as if they were real
-      creatures. Mechanical creatures you create in this way power down and fall
-      apart after 1 hour but otherwise remain until destroyed.</p>
+      whenever you finish a long rest.&nbsp;&nbsp;</p>
+
+      <p dir="ltr">In addition, you can create mechanical versions of creatures
+      with the Beast creature type of CR 0 using
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.f2syblzgm6at7i7q]{Tactical
+      Chemistry} by spending 10 gp worth of mechanical components in addition to
+      a use of your Tactical Chemistry feature. Creatures you create in this way
+      instead have the Construct creature type instead of any other creature
+      types, and will follow the first order you give them upon their creation
+      to the best of their abilities. After which they will behave normally as
+      if they were real creatures. Mechanical creatures you create in this way
+      power down and fall apart after 1 hour but otherwise remain until
+      destroyed.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -35,11 +38,52 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722259041695
+  modifiedTime: 1722259685476
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: bdzuw4qdxwdj0oyl
 _key: '!items!bdzuw4qdxwdj0oyl'

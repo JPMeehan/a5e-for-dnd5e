@@ -115,6 +115,10 @@ effects:
       - charmed
       - incapacitated
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!nzb62jeh28fulijh.A1huDcnJwW3Owc4M'
   - icon: icons/magic/symbols/ring-circle-smoke-blue.webp
     origin: Item.nzb62jeh28fulijh
@@ -149,6 +153,10 @@ effects:
     statuses:
       - frightened
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!nzb62jeh28fulijh.ZQkRKXa2AU7cGkir'
   - icon: icons/magic/symbols/ring-circle-smoke-blue.webp
     origin: Item.nzb62jeh28fulijh
@@ -181,7 +189,15 @@ effects:
     statuses:
       - blinded
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!nzb62jeh28fulijh.T9K1nvt19biiL0Kt'
 flags: {}
 _id: nzb62jeh28fulijh
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!nzb62jeh28fulijh'

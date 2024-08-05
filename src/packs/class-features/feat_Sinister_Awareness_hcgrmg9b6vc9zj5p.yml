@@ -49,14 +49,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: effect
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - '@classResources.martial-arts'
+        - necrotic
     versatile: ''
   formula: ''
   save:
@@ -64,8 +66,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/perception/silhouette-stealth-shadow.webp
-    origin: Item.hcgrmg9b6vc9zj5p
+  - origin: Item.egjKPDPBiWHwHhvj
     flags:
       a5e:
         sort: 0
@@ -93,8 +94,29 @@ effects:
       startTurn: null
     description: "<p>You may spend 4 exertion points to gain Truesight with a range of 30 feet for one minute. While this ability is active, you may attack creatures on the Ethereal Plane (such as ghosts or creatures under an\_<em>etheralness\_</em>effect).</p><p>While this ability is active, you can use this awareness to perceive the flow of life force through creatures and disrupt it with your strikes. Attacks you make with adept weapons or your unarmed strikes do additional necrotic damage equal to your martial arts die.\_</p>"
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722199056168
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/perception/silhouette-stealth-shadow.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!hcgrmg9b6vc9zj5p.32LU6FBQfvJ3AOfo'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722199056138
+  modifiedTime: 1722199173874
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: hcgrmg9b6vc9zj5p
 _key: '!items!hcgrmg9b6vc9zj5p'

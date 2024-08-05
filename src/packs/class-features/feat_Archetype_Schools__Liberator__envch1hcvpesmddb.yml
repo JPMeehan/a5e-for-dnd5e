@@ -1,0 +1,32 @@
+name: Archetype Schools (Liberator)
+type: feat
+img: icons/magic/movement/trail-streak-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>Add the movement school of magic to your list of herald spells.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: envch1hcvpesmddb
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!envch1hcvpesmddb'

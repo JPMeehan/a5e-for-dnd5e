@@ -1,0 +1,49 @@
+folder: null
+name: Sealer’s Rituals
+type: feat
+img: icons/sundries/scrolls/scroll-runed-brown-grey.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-17fbb611-7fff-5d64-235d-370e69f75111"
+      dir="ltr">At 15th level, you gain access to powerful sealing magicks. You
+      can cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.j6k8ct3ih2drnfqg]{Forbiddance},
+      <em>guards &amp; wards</em>, and
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.w431uss5pcnropb4]{Symbol}
+      spells once (each) per long rest. In addition,
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ab4ea4v5j547diyf]{Private
+      Sanctum} is added to the herald list for you.</p>
+
+      <p dir="ltr">Finally, you always have the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.zc250942nlox9vyk]{Counterspell},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.hms9kdl2qoqjjrs4]{Dispel
+      Magic}, and
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.l16wg9h1z9s16exb]{Remove Curse}
+      spells prepared (they do not count against your limit of prepared
+      spells).</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: Y0smlcrqZaTXisFq
+_key: '!items!Y0smlcrqZaTXisFq'

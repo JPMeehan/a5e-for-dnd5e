@@ -4,6 +4,7 @@ type: feat
 img: icons/skills/social/diplomacy-peace-alliance.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -12,9 +13,11 @@ system:
       grant a creature a bardic inspiration die, it gains resistance to psychic
       damage until the die is spent or lost.</p>
 
-      <p dir="ltr">In addition, you learn the greater restoration spell, or
-      another bard spell if you already know it. You may expend a use of bardic
-      inspiration in place of the material component required by the spell.</p>
+      <p dir="ltr">In addition, you learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.2fn904xje78xc7de]{Greater
+      Restoration} spell, or another bard spell if you already know it. You may
+      expend a use of bardic inspiration in place of the material component
+      required by the spell.</p>
     chat: ''
   source:
     book: Secrets of the Selkies
@@ -31,5 +34,12 @@ system:
     max: null
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722135402177
+  modifiedTime: 1722135441205
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: cjounrgb65ka8i0t
 _key: '!items!cjounrgb65ka8i0t'

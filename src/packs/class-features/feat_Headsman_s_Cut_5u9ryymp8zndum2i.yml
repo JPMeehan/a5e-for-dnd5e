@@ -25,14 +25,147 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/skills/melee/strike-axe-blood-red.webp
-effects: []
+effects:
+  - origin: Item.pIE0zfRoR9nzjDFu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HgeOdgFKQUG1UlCC
+        applyToSelf: true
+    transfer: false
+    name: Headsman’s Cut
+    img: icons/skills/melee/strike-axe-blood-red.webp
+    _id: SJDLr0sSd1ofncPC
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Headsman’s
+          Cut","formula":"@prof","damageType":"slashing","context":{"attackTypes":["meleeWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/skills/melee/strike-axe-blood-red.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When you enter a rage, choose a greataxe or greatsword you are
+      wielding. The chosen weapon does additional slashing damage equal to your
+      proficiency bonus until your rage ends.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722534724411
+      modifiedTime: 1722534818329
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!5u9ryymp8zndum2i.SJDLr0sSd1ofncPC'
+  - origin: Item.pIE0zfRoR9nzjDFu
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HgeOdgFKQUG1UlCC
+    transfer: false
+    name: Cut Down
+    img: icons/skills/melee/hand-grip-axe-strike-orange.webp
+    _id: PXjW8iqg3jBOtQOY
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Cut
+          Down","formula":"1d6","damageType":"necrotic","context":{"attackTypes":["meleeWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/skills/melee/hand-grip-axe-strike-orange.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The bonus damage from Headsman’s Cut now applies whether you are raging
+      or not, and while you are raging, you deal an additional 1d6 points of
+      necrotic damage with a single weapon associated with the Headsman’s Cut
+      feature.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722541030269
+      modifiedTime: 1722541089182
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!5u9ryymp8zndum2i.PXjW8iqg3jBOtQOY'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722534440881
+  modifiedTime: 1722541030304
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 5u9ryymp8zndum2i
 _key: '!items!5u9ryymp8zndum2i'

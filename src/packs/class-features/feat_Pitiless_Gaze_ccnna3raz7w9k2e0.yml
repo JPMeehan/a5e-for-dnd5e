@@ -1,6 +1,6 @@
 name: Pitiless Gaze
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
 effects: []
 flags: {}
 system:
@@ -10,8 +10,8 @@ system:
   description:
     value: >-
       <p>Starting at 14th level, when a creature within 5 feet of you hits you
-      with a melee attack while you are raging, the attacker takes [[/r 1d6
-      #psychic]] psychic damage as they quail before your raw fury.</p>
+      with a melee attack while you are raging, the attacker takes 1d6 psychic
+      damage as they quail before your raw fury.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -21,11 +21,52 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722363063676
+  modifiedTime: 1722363116863
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: ccnna3raz7w9k2e0
 _key: '!items!ccnna3raz7w9k2e0'

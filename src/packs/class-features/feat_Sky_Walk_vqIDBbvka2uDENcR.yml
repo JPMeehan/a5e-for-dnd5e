@@ -1,0 +1,38 @@
+folder: null
+name: Sky Walk
+type: feat
+img: icons/skills/movement/feet-winged-boots-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-779527e2-7fff-7d14-abb1-253bfbe51161"
+      dir="ltr">You can use
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.sozmwhrm3xam8jqf]{Magnetic
+      Step} at your normal Speed and can step on thin air as if it were solid
+      ground. If you end your turn in the air, you immediately fall unless you
+      have some other way to support yourself.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Magnetic Step Innovation
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: vqIDBbvka2uDENcR
+_key: '!items!vqIDBbvka2uDENcR'

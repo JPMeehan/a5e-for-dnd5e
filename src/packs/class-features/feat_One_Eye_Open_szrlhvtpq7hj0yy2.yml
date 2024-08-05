@@ -23,13 +23,54 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: reaction
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/magic/perception/third-eye-blue-red.webp
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722095642376
+  modifiedTime: 1722095683171
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: szrlhvtpq7hj0yy2
 _key: '!items!szrlhvtpq7hj0yy2'

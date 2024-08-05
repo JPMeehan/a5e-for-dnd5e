@@ -24,9 +24,87 @@ system:
     value: potion
     subtype: ''
   uses:
-    autoDestroy: false
-effects: []
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.x5tNQKTJMewt7KGx
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: bmnAROpHPpPDuDQL
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Potion of Resistance (Fire)
+    img: icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp
+    _id: hTrEPXLrIgODmXsv
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: fire
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!yj9tanlm17skmnd1.hTrEPXLrIgODmXsv'
 flags: {}
 folder: jUj7oP8VFpreITEL
 _id: yj9tanlm17skmnd1
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!yj9tanlm17skmnd1'

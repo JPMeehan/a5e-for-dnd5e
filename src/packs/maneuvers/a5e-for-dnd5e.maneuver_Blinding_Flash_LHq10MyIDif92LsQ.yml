@@ -1,0 +1,113 @@
+folder: IvsGxN4Ps1GX3egB
+name: Blinding Flash
+type: a5e-for-dnd5e.maneuver
+img: icons/weapons/swords/sword-winged-pink.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong><em> you must be wielding a
+      silvered weapon or a shield polished to a reflective sheen and you must
+      have a spell of the radiant school prepared and sufficient resources to
+      cast it.</em></p>
+
+      <p dir="ltr">In response to being targeted by a melee attack, you can use
+      your reaction to create a brilliant flash of light off your weapon or
+      shield. The attacking creature must make a Constitution saving throw or be
+      blinded until the end of its turn, which occurs swiftly enough to impose
+      disadvantage on the triggering attack (possibly causing it to miss).</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  degree: 3
+  tradition: sst
+  prerequisite: ''
+  properties: []
+  consume:
+    type: charges
+    target: null
+    amount: 1
+  activation:
+    type: reaction
+    cost: 1
+    condition: targeted by a melee attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.pYbxRHc8dkGWIcaU
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: DTZolv4PVgxaFL3t
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinding Flash
+    _id: RIUDTdOiTI1szcT8
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - blinded
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    img: icons/weapons/swords/sword-winged-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!LHq10MyIDif92LsQ.RIUDTdOiTI1szcT8'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: LHq10MyIDif92LsQ
+_key: '!items!LHq10MyIDif92LsQ'

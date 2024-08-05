@@ -1,0 +1,41 @@
+folder: null
+name: Advanced Weapon
+type: feat
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If your weapon does not have the Upgraded option for its type, it gains
+      that now. If it does have that option, it instead gains the following
+      one:</p>
+
+      <p><strong>Advanced Weapon: </strong>Your weapon gains the Vicious
+      property.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Upgraded Weapon
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722221781059
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vHGRMZTxEuoA7EvL
+_key: '!items!vHGRMZTxEuoA7EvL'

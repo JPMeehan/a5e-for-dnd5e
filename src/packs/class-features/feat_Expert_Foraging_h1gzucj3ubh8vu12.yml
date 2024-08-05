@@ -1,0 +1,74 @@
+name: Expert Foraging
+type: feat
+img: icons/environment/wilderness/terrain-forest-gray.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Once between long rests, you can take 1 minute to collect a number of
+      edible, non-poisonous plants and grubs equal to your proficiency bonus. A
+      creature can use its action to eat up to 5 plants or grubs, each of which
+      restores 1 hit point. The grubs die and spoil 1 hour after being
+      collected.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721933779328
+  modifiedTime: 1721933838989
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: h1gzucj3ubh8vu12
+_key: '!items!h1gzucj3ubh8vu12'

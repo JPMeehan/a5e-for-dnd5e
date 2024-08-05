@@ -61,15 +61,14 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/death/gallows-hanged-humanoid.webp
-    origin: Item.SVdhXFTDjHXAPEpx
+  - origin: Item.38BIzujaX89bQ4eh
     flags:
       a5e:
         sort: 0
         transferType: onUse
         actionId: tSxbEKztDs9ltoa0
     transfer: false
-    name: Staying Dead
+    name: Death Save Disadvantage (Staying Dead)
     _id: Ap2M87W13yMEpZQK
     changes:
       - key: flags.a5e.effects.rollMode.deathSave
@@ -88,12 +87,76 @@ effects:
     description: >-
       <p>A creature that fails has disadvantage on death saving throws until it
       dies or stabilizes and it cannot be stabilized or healed by the Medicine
-      skill or by magical healing unless it stabilizes on its own. At level 17,
-      creatures affected by this feature also acquire the doomed condition.</p>
+      skill or by magical healing unless it stabilizes on its own.</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: null
+      modifiedTime: 1722345243901
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/death/gallows-hanged-humanoid.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!nptdbfjlyldlrkkb.Ap2M87W13yMEpZQK'
+  - origin: Item.38BIzujaX89bQ4eh
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: tSxbEKztDs9ltoa0
+    transfer: false
+    name: Doomed (Staying Alive)
+    img: icons/magic/death/gallows-hanged-humanoid.webp
+    _id: dW4nddRN9lzj8ZuU
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["doomed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>At level 17, creatures affected by this feature also acquire the doomed
+      condition.</p>
+    tint: '#ffffff'
+    statuses:
+      - doomed
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: null
+      modifiedTime: 1722345243901
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!nptdbfjlyldlrkkb.dW4nddRN9lzj8ZuU'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722345243796
+  modifiedTime: 1722346966816
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: nptdbfjlyldlrkkb
 _key: '!items!nptdbfjlyldlrkkb'

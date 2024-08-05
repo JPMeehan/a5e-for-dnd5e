@@ -9,9 +9,8 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 13th level, d8 expertise die on Perception checks
-      </em></p><p>Your expertise die on Perception checks increases to d10. You
-      don’t have disadvantage on Perception checks from being in lightly
+      <p>Your expertise die on Perception checks increases to d10. You
+      don&rsquo;t have disadvantage on Perception checks from being in lightly
       obscured areas. If you have darkvision, you treat darkness and dim light
       as if it were bright light.</p>
     chat: ''
@@ -19,7 +18,7 @@ system:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 13th level, d8 expertise die on Perception checks
   recharge:
     value: null
     charged: true
@@ -30,4 +29,8 @@ system:
     max: null
 folder: null
 _id: vpjy24qtc7eydt4n
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!vpjy24qtc7eydt4n'

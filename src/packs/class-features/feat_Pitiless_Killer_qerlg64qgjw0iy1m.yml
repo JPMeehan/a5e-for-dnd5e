@@ -10,17 +10,24 @@ system:
       menace and horror, and you are nearly impossible to sway from your task.
       While you are raging, you are immune to the confused and frightened
       conditions. Also while raging, you have advantage on saves to avoid the
-      charmed, rattled, and stunned conditions. You can now use Headsman’s Cut,
-      Public Spectacle and Cut Down with any melee weapon that deals slashing
-      damage. You can still only apply the bonus damage to a single weapon.
-      Creatures that fail their save against Public Spectacle now suffer a level
-      of strife in addition to the other effects. If this would result in the
-      creature having more levels of strife than your proficiency bonus, it does
-      not gain the level of strife.</p><p>In addition, you have dealt so much
-      death that it is reluctant to collect you. If you would acquire the Doomed
-      condition, you may make a DC 15 Constitution saving throw. On a success,
-      you do not acquire the condition and you recover a level of fatigue and a
-      level of strife from the thrill of cheating death.</p>
+      charmed, rattled, and stunned conditions. You can now use
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.5u9ryymp8zndum2i]{Headsman&rsquo;s
+      Cut},
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.dhbdn3wj7ejjcb9m]{Public
+      Spectacle} , and
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.hk8hvy3pz3kuxnva]{Cut
+      Down} with any melee weapon that deals slashing damage. You can still only
+      apply the bonus damage to a single weapon. Creatures that fail their save
+      against Public Spectacle now suffer a level of strife in addition to the
+      other effects. If this would result in the creature having more levels of
+      strife than your proficiency bonus, it does not gain the level of
+      strife.</p>
+
+      <p>In addition, you have dealt so much death that it is reluctant to
+      collect you. If you would acquire the Doomed condition, you may make a DC
+      15 Constitution saving throw. On a success, you do not acquire the
+      condition and you recover a level of fatigue and a level of strife from
+      the thrill of cheating death.</p>
     chat: ''
   source:
     book: 'Thematic Toolkit: Judge, Jury, and Executioner'
@@ -30,14 +37,143 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/skills/melee/maneuver-greatsword-yellow.webp
-effects: []
+effects:
+  - origin: Item.hGrzx43mbR7CWFGJ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: hXrwlhcuc8orS13m
+        applyToSelf: true
+    transfer: false
+    name: Pitiless Killer
+    img: icons/skills/melee/maneuver-greatsword-yellow.webp
+    _id: jwHsQLJoUemoRM6L
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["confused","frightened"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>While you are raging, you are immune to the confused and frightened
+      conditions. Also while raging, you have advantage on saves to avoid the
+      charmed, rattled, and stunned conditions.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722541138808
+      modifiedTime: 1722541936758
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!qerlg64qgjw0iy1m.jwHsQLJoUemoRM6L'
+  - origin: Item.hGrzx43mbR7CWFGJ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: hXrwlhcuc8orS13m
+    transfer: false
+    name: Public Spectacle
+    img: icons/skills/social/intimidation-impressing.webp
+    _id: YaLUwkw6uqDX0AVQ
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e-for-dnd5e.stress
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Creatures that fail their save against Public Spectacle now suffer a
+      level of strife in addition to the other effects. If this would result in
+      the creature having more levels of strife than your proficiency bonus, it
+      does not gain the level of strife.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722541998899
+      modifiedTime: 1722542045180
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!qerlg64qgjw0iy1m.YaLUwkw6uqDX0AVQ'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722541123879
+  modifiedTime: 1722542069786
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: qerlg64qgjw0iy1m
 _key: '!items!qerlg64qgjw0iy1m'

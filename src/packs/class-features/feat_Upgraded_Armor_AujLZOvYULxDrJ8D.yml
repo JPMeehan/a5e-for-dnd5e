@@ -1,0 +1,53 @@
+folder: null
+name: Upgraded Armor
+type: feat
+img: icons/skills/movement/arrow-upward-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You improve your armor. Its AC increases by +1 and you gain an
+      additional ability based on the variety of armor it is.</p>
+
+      <p><strong>Upgraded Light Armor: </strong>Your armor is outfitted with a
+      stealth system. As a bonus action, you can cause yourself to fade from
+      sight, becoming lightly obscured for one minute. Once you have used this
+      ability a number of times equal to your proficiency bonus, you can&rsquo;t
+      do so again until you finish a long rest.</p>
+
+      <p><strong>Upgraded Medium Armor: </strong>Your armor is outfitted with a
+      movement enhancement system. Your walking speed increases by 10 feet while
+      wearing your armor.</p>
+
+      <p><strong>Upgraded Heavy Armor: </strong>Your armor is equipped with an
+      automatic medical system and stabilizers. The armor now automatically ends
+      ongoing damage on you after it has triggered once and you have advantage
+      on saving throws to avoid being moved against your will or knocked
+      prone.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722204468702
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: AujLZOvYULxDrJ8D
+_key: '!items!AujLZOvYULxDrJ8D'

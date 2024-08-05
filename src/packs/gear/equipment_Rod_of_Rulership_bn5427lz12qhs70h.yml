@@ -1,7 +1,46 @@
 name: Rod of Rulership
 type: equipment
 img: icons/weapons/staves/staff-obsidian.webp
-effects: []
+effects:
+  - origin: Item.jqAi0LrDoZxOrOSv
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: WVbVRxERAWLJ1kfd
+        duration:
+          unit: hours
+    transfer: false
+    name: Charmed
+    img: icons/weapons/staves/staff-obsidian.webp
+    _id: ejDC5cpefe21mRBx
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>A creature charmed by you regards you as its trusted leader.</p>
+    tint: '#ffffff'
+    statuses:
+      - charmed
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!bn5427lz12qhs70h.ejDC5cpefe21mRBx'
 flags: {}
 system:
   description:
@@ -55,9 +94,9 @@ system:
     value: null
     width: null
     units: ''
-    type: creature
+    type: ''
   range:
-    value: '120'
+    value: 120
     long: null
     units: ft
   uses:
@@ -70,7 +109,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -86,4 +125,8 @@ system:
     scaling: spell
 folder: 9k4UVzCiMuqj62ea
 _id: bn5427lz12qhs70h
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!bn5427lz12qhs70h'

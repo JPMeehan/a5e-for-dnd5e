@@ -1,0 +1,50 @@
+name: Channel Divinity (Inquisitor)
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level when you choose this archetype, you gain the following two
+      Channel Divinity options.</p>
+
+      <h2>Compelling Inquiry</h2>
+
+      <p>When questioning a creature with which you share a language, you can
+      use your Channel Divinity to compel it to speak the truth. The creature
+      makes a Constitution saving throw or finds itself unable to be dishonest
+      for 1 minute. Regardless of whether it succeeds or fails, you know the
+      outcome of the saving throw.</p>
+
+      <h2>Inquisitorial Challenge</h2>
+
+      <p>As a bonus action, you can use your Channel Divinity to issue a
+      challenge of combat to one creature you can see within 30 feet. The
+      creature makes a Wisdom saving throw. On a failed save, the creature
+      can&rsquo;t move more than 30 feet away from you and has disadvantage on
+      attacks against creatures other than you for 1 minute.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: mxmm8ingc9r4uoag
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!mxmm8ingc9r4uoag'

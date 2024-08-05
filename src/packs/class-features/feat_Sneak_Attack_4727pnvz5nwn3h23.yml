@@ -59,45 +59,17 @@ system:
     value: null
     charged: true
   activation:
-    type: ''
-    cost: ''
-    condition: ''
+    type: null
   uses:
-    value: null
-    max: ''
     per: null
-    recovery: ''
-  duration: {}
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: null
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    max: null
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721853982503
+  modifiedTime: 1721854052458
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 4727pnvz5nwn3h23
 _key: '!items!4727pnvz5nwn3h23'

@@ -1,0 +1,37 @@
+folder: z476XZt1iG4Mb7VJ
+name: Magical Sense
+type: feat
+img: icons/magic/symbols/question-stone-yellow.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kaye34nheyrit487]{Detect Magic}
+      spell and can always cast it as a ritual. Your spellcasting ability score
+      for this spell is Intelligence, Wisdom, or Charisma (whichever is
+      highest).</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: bWRQOUgLvxmTF2P2
+_key: '!items!bWRQOUgLvxmTF2P2'

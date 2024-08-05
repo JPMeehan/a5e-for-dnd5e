@@ -20,7 +20,7 @@ system:
     book: Adventurer's Guide
     license: OGL 1.0a
   quantity: 1
-  weight: 1
+  weight: 0.5
   price:
     value: 75
     denomination: gp
@@ -32,7 +32,46 @@ system:
     value: potion
     subtype: ''
   uses:
-    autoDestroy: false
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: jpdzbf6ave90ugpq
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!jpdzbf6ave90ugpq'

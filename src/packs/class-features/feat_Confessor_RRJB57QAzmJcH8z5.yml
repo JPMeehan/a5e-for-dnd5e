@@ -1,0 +1,39 @@
+folder: null
+name: Confessor
+type: feat
+img: icons/environment/people/commoner.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>People tend to trust you and want to open up to you, even without
+      prompting. At the Narrator&rsquo;s discretion, characters you talk to will
+      often volunteer details about their lives and their struggles. You have an
+      expertise die on Insight checks and gain the Insight skill specialty of
+      reading emotions. In addition, when taking the Gather Information downtime
+      activity of the Gossip journey activity, you can choose to roll Insight
+      instead of Investigation or Persuasion for the check.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: RRJB57QAzmJcH8z5
+_key: '!items!RRJB57QAzmJcH8z5'

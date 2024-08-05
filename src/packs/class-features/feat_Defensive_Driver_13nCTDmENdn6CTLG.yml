@@ -1,0 +1,72 @@
+folder: null
+name: Defensive Driver
+type: feat
+img: icons/environment/settlement/wagon.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency with a type of vehicle, or an expertise die if you
+      are already proficient. You may spend 1 exertion to reroll a failed
+      ability check related to vehicular activity, such as tool checks to repair
+      a vehicle, Acrobatics checks to keep balance on a moving vehicle, or
+      Animal Handling checks to calm animals drawing a vehicle. Likewise, if you
+      are piloting a vehicle, you may spend 2 exertion to reroll a saving throw
+      made by the vehicle. In both cases, you may choose whether to use the new
+      roll or the original.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 13nCTDmENdn6CTLG
+_key: '!items!13nCTDmENdn6CTLG'

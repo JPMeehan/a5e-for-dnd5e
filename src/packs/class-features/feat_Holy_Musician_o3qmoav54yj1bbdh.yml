@@ -8,10 +8,14 @@ system:
   description:
     value: >-
       <p>At 6th level, your connection to the divine strengthens. All spells
-      from the divine school count as bard spells for you.</p><p>In addition,
-      you learn one of the cleric’s Signs of Faith. For the purpose of that
-      feature and its prerequisites, your bard levels count as cleric
-      levels.</p><p></p>
+      from the <em>divine </em>school count as bard spells for you.</p>
+
+      <p>In addition, you learn one of the cleric&rsquo;s
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.319mwkz0dd6sznnv]{Signs
+      of Faith}. For the purpose of that feature and its prerequisites, your
+      bard levels count as cleric levels.</p>
+
+      <p>&nbsp;</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -29,5 +33,12 @@ system:
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722261281051
+  modifiedTime: 1722261542613
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: o3qmoav54yj1bbdh
 _key: '!items!o3qmoav54yj1bbdh'

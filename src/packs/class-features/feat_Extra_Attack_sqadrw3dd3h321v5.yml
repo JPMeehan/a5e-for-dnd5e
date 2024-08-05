@@ -1,0 +1,37 @@
+name: Extra Attack
+type: feat
+img: icons/skills/melee/blade-tips-double-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 5th level you can attack twice, instead of once, whenever you take
+      the Attack action on your turn.</p>
+    chat: ''
+  source:
+    book: Field Engineer
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722105977853
+  modifiedTime: 1722105987003
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: sqadrw3dd3h321v5
+_key: '!items!sqadrw3dd3h321v5'

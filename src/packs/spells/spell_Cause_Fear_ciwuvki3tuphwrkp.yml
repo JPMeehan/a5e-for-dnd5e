@@ -101,6 +101,10 @@ effects:
       - frightened
       - rattled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ciwuvki3tuphwrkp.H7nxaiyQeHGfmXLm'
   - icon: icons/magic/control/fear-fright-monster-red.webp
     origin: Item.ciwuvki3tuphwrkp
@@ -132,6 +136,10 @@ effects:
     statuses:
       - rattled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ciwuvki3tuphwrkp.itg4jEDeN8FiHdN9'
 flags:
   a5e-for-dnd5e:
@@ -140,4 +148,8 @@ flags:
       - fear
     rareSpell: false
 _id: ciwuvki3tuphwrkp
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ciwuvki3tuphwrkp'

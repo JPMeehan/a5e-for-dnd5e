@@ -1,0 +1,68 @@
+folder: IvsGxN4Ps1GX3egB
+name: Radiant Arc
+type: a5e-for-dnd5e.maneuver
+img: icons/weapons/swords/sword-winged-pink.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">When you deal radiant damage with a melee weapon attack, you
+      can use your reaction to deal 1d6 points of radiant damage to 2 other
+      targets within 10 feet of the original target.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  degree: 3
+  tradition: sst
+  prerequisite: ''
+  properties: []
+  consume:
+    type: charges
+    target: null
+    amount: 1
+  activation:
+    type: reaction
+    cost: 1
+    condition: deal radiant damage with a melee weapon attack
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 2
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6[Radiant Arc]
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: tf5oRoPjZKXh3KZi
+_key: '!items!tf5oRoPjZKXh3KZi'

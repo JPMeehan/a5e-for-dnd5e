@@ -2,8 +2,7 @@ name: Vicious Longsword
 type: weapon
 img: icons/weapons/swords/greatsword-blue.webp
 effects:
-  - icon: icons/weapons/swords/greatsword-blue.webp
-    origin: Item.gr6g1t0eziazi53i
+  - origin: Item.4opW9XkvGXKYZC9x
     flags:
       a5e:
         sort: 0
@@ -32,7 +31,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/weapons/swords/greatsword-blue.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!gr6g1t0eziazi53i.Llj5xb79gCEj7iz8'
 flags: {}
 system:
@@ -114,6 +121,8 @@ system:
     parts:
       - - 1d8 + @mod
         - slashing
+      - - 2d6
+        - slashing
     versatile: ''
   formula: ''
   save:
@@ -122,4 +131,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: gr6g1t0eziazi53i
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!gr6g1t0eziazi53i'

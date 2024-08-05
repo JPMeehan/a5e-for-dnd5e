@@ -1,6 +1,6 @@
 name: Monstrous Minion
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/creatures/magical/construct-face-stone-pink.webp
 system:
   type:
     value: class
@@ -94,13 +94,52 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722277694641
+  modifiedTime: 1722277817550
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: vb6mv2txn8mceh0j
 _key: '!items!vb6mv2txn8mceh0j'

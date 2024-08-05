@@ -1,6 +1,6 @@
 name: Delayed Spell
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/time/hourglass-tilted-gray.webp
 effects: []
 flags: {}
 system:
@@ -20,11 +20,50 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721855802675
+  modifiedTime: 1721921123809
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: p6uqyvrtpc0n9c26
 _key: '!items!p6uqyvrtpc0n9c26'

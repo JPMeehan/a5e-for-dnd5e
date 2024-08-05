@@ -1,0 +1,51 @@
+folder: null
+name: Tenets of the Black Knight
+type: feat
+img: icons/skills/trades/academics-merchant-scribe.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>All black knights hold similar tenets, regardless of any master they
+      serve.</p>
+
+      <ul>
+
+      <li><strong>Survival.</strong> Do what you must to live and fight another
+      day.</li>
+
+      <li><strong>Practicality.</strong> If it&rsquo;s stupid and it works,
+      it&rsquo;s not stupid. Get the job done and seize power where you can find
+      it. Worry about what others think later, if at all.</li>
+
+      <li><strong>Prowess.</strong> Keep your skills and weapons sharp. You
+      never know when you will need them.</li>
+
+      <li><strong>Menace.</strong> If it is not possible to be both, it is
+      better to be feared than loved.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: 28d0t1ooo2dnr8a6
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!28d0t1ooo2dnr8a6'

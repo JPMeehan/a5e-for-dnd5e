@@ -1,7 +1,47 @@
 name: Boon of War
 type: feat
 img: icons/skills/melee/hand-grip-staff-blue.webp
-effects: []
+effects:
+  - origin: Item.qvAPwbVZdQfDiNLU
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qSYjMHbXuh0SkjIm
+        applyToSelf: true
+    transfer: false
+    name: Boon of War
+    img: icons/skills/melee/hand-grip-staff-blue.webp
+    _id: ND5NPOMvLE5FUytr
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your next successful melee weapon attack deals additional damage equal
+      to your martial arts die plus your proficiency bonus.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: 1722287152209
+      modifiedTime: 1722287165816
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!5kmhat5ucxhvi6s4.ND5NPOMvLE5FUytr'
 flags: {}
 system:
   type:
@@ -48,7 +88,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -63,5 +103,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722287058140
+  modifiedTime: 1722287152247
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 5kmhat5ucxhvi6s4
 _key: '!items!5kmhat5ucxhvi6s4'

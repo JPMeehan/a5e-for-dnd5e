@@ -1,0 +1,97 @@
+name: 'Warlock Expanded Spell List: Brutality'
+type: feat
+img: icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <table style="width: 100%; height: 83.9845px;" border="1"><colgroup><col
+      style="width: 9.97377%;"><col style="width: 90.0262%;"></colgroup>
+
+      <tbody>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px;"><strong>Level 1</strong></td>
+
+      <td style="height:
+      16.7969px;">&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.0kpv3zgzqfpixay9]{Force
+      Punch},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.6y4rq48okutkormg]{Phantasmal
+      Killer}</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px;"><strong>Level 3</strong></td>
+
+      <td style="height:
+      16.7969px;">&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.ap6klied8mqbclvn]{Enlarge/Reduce},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.r3olvzsqtktkjwv2]{Invigorated
+      Strikes}</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px;"><strong>Level 5</strong></td>
+
+      <td style="height:
+      16.7969px;">&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.jnjcp9k4sgs8m62j]{Crushing
+      Haymaker},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.j4dxhregibkcte2j]{Vampiric
+      Touch}</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px;"><strong>Level 7</strong></td>
+
+      <td style="height:
+      16.7969px;">&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.lnbcwy44k19g4bbu]{Fire
+      Shield}, @UUID[Compendium.a5e-for-dnd5e.spells.Item.odvq2q7j2ijuxfyi]{Rage
+      of the Meek}</td>
+
+      </tr>
+
+      <tr style="height: 16.7969px;">
+
+      <td style="height: 16.7969px;"><strong>Level 9</strong></td>
+
+      <td style="height:
+      16.7969px;">&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.momwpn4ig7s6bg63]{Arcane
+      Hand}, @UUID[Compendium.a5e-for-dnd5e.spells.Item.tmhbscn1twt2yghy]{Storm
+      Kick}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+folder: null
+flags: {}
+_id: 36tu9kmum5ix08ci
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!36tu9kmum5ix08ci'

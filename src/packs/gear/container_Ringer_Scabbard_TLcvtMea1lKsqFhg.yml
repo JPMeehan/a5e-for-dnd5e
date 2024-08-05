@@ -1,0 +1,45 @@
+folder: EExYg2tBT0B0X2e9
+name: Ringer Scabbard
+type: container
+img: icons/weapons/swords/greatsword-crossguard-embossed-gold.webp
+system:
+  description:
+    value: >-
+      <p>This scabbard has a strip of metal close to the mouth that the weapon
+      (typically a sword or dagger) can be rubbed against as it is drawn,
+      creating a loud, metallic ring. Drawing a weapon this way gives you
+      expertise on a single Intimidation check against creatures that witness
+      you doing so. You can only gain this bonus against a creature once per
+      day.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 1
+  price:
+    value: 5
+    denomination: sp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: TLcvtMea1lKsqFhg
+_key: '!items!TLcvtMea1lKsqFhg'

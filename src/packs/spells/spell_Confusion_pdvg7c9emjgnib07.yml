@@ -34,6 +34,10 @@ effects:
     statuses:
       - confused
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!pdvg7c9emjgnib07.2wGiliUjJKlBJYp3'
   - icon: icons/magic/sonic/projectile-sound-rings-wave.webp
     origin: Item.pdvg7c9emjgnib07
@@ -66,6 +70,10 @@ effects:
     statuses:
       - rattled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!pdvg7c9emjgnib07.gJe691nLuizKcGEa'
 flags:
   a5e-for-dnd5e:
@@ -147,4 +155,8 @@ system:
     scaling: spell
 folder: 3HQE3FN5vUCIygDu
 _id: pdvg7c9emjgnib07
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!pdvg7c9emjgnib07'

@@ -4,6 +4,7 @@ type: feat
 img: icons/magic/fire/explosion-fireball-medium-blue.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -46,4 +47,8 @@ system:
 effects: []
 flags: {}
 _id: 2rljtbe3l9gxyc5l
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!2rljtbe3l9gxyc5l'

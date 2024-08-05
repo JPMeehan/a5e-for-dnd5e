@@ -23,7 +23,9 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: bonus
+    cost: 1
   uses:
     value: null
     max: ''
@@ -33,14 +35,14 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 1
     width: null
     units: ''
-    type: ''
+    type: creature
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   consume:
     type: ''
     target: null
@@ -63,4 +65,8 @@ system:
 effects: []
 flags: {}
 _id: xjuzlwg4tibsvm4x
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!xjuzlwg4tibsvm4x'

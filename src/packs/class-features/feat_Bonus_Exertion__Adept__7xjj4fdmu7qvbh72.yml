@@ -21,10 +21,15 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: none
   uses:
-    per: null
+    per: sr
     max: null
+    prompt: false
 folder: null
 _id: 7xjj4fdmu7qvbh72
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!7xjj4fdmu7qvbh72'

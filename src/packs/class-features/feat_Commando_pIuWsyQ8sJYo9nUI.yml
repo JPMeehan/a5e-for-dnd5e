@@ -1,0 +1,74 @@
+folder: null
+name: Commando
+type: feat
+img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency with a
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.gqei4i287bd3smhh]{Sewing Kit}, or
+      an expertise die if you are already proficient. By spending 1 hour (which
+      may be part of a short or long rest) with a suit of bone, cloth, hide, or
+      leather armor, you may give it the camouflaged property for a particular
+      type of terrain. This modification lasts for 1 week unless you spend
+      another hour to replace or reinforce the modification, which resets the
+      remaining time.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: pIuWsyQ8sJYo9nUI
+_key: '!items!pIuWsyQ8sJYo9nUI'

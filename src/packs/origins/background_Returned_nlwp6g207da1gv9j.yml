@@ -84,8 +84,20 @@ system:
     - _id: wEK4eJICSNxqABHz
       type: Trait
       level: 1
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          pool:
+            - languages:*
+          count: 1
   startingEquipment: []
 effects: []
 flags: {}
 _id: nlwp6g207da1gv9j
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!nlwp6g207da1gv9j'

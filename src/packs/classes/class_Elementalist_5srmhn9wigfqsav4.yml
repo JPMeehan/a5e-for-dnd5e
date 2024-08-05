@@ -623,7 +623,7 @@ system:
     - _id: 5aVt7N6D5owk74o2
       sort: 30000
       key: Compendium.a5e-for-dnd5e.gear.Item.ubk6ql04bxyh6e5a
-      count: null
+      count: 0
       type: linked
       group: ''
   identifier: ''
@@ -747,11 +747,88 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.y9gs6ip5tyelpxgh
+    - _id: 00K8e7SxYWXLFMik
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Db0zKQF6PEuBxh7a
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: WSmXeMtizPnUBMQo
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: NxikFTCcww8AXXcg
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: m9BxbyY2zNER0V2Z
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: LcBaAkCXqj40KgYo
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 4E04H5yaUbkr8IcG
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Woj2DeY34qvw9G2q
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: sCBQVOx2kH7WGHYH
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 8LCIR2K0JF89xtCQ
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: none
     progression: none
   wealth: '100'
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722027294176
+  modifiedTime: 1722027416464
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 5srmhn9wigfqsav4
 _key: '!items!5srmhn9wigfqsav4'

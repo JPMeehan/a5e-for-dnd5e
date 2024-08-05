@@ -77,6 +77,8 @@ system:
     parts:
       - - 1d4 + @mod
         - bludgeoning
+      - - 2d6
+        - bludgeoning
     versatile: ''
   formula: ''
   save:
@@ -85,4 +87,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: f5fzazhtiqw91yk5
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!f5fzazhtiqw91yk5'

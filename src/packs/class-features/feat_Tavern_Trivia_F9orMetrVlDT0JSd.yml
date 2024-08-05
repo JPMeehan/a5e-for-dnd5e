@@ -1,0 +1,38 @@
+folder: null
+name: Tavern Trivia
+type: feat
+img: icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span
+      id="docs-internal-guid-5baa807c-7fff-60b6-76e4-d109d949273a">Whenever you
+      make an ability check with one of the following skills and you are not
+      proficient with it, you add half your proficiency bonus: Arcana, Culture,
+      Engineering, History, Nature, and Religion. This bonus does not stack with
+      the Bard ability Jack of all Trades.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: F9orMetrVlDT0JSd
+_key: '!items!F9orMetrVlDT0JSd'

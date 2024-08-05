@@ -1,0 +1,72 @@
+folder: null
+name: First Aid
+type: feat
+img: icons/magic/nature/root-vine-caduceus-healing.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span
+      id="docs-internal-guid-282c8e02-7fff-d494-be82-967bf7d48921">During a
+      short rest, you can give special care to a wounded creature (including
+      yourself) by spending 10 minutes and one use of a healer&rsquo;s satchel.
+      A creature treated in this way regains 1 additional hit point per hit die
+      it rolls during the short rest.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: m7ciEha97sCmxjU6
+_key: '!items!m7ciEha97sCmxjU6'

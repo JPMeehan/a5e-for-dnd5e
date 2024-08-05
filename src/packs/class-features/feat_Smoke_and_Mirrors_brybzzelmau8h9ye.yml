@@ -1,0 +1,50 @@
+name: Smoke and Mirrors
+type: feat
+img: icons/magic/air/air-pressure-shield-blue.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level, choose one of the following:</p>
+
+      <h2>Masters of Surveillance</h2>
+
+      <p>As an action, designate a number of creatures up to your proficiency
+      bonus within range of your Commanding Presence. You and the creatures you
+      designate gain advantage on Perception and Investigation checks for one
+      hour. Once you have used this ability, you may not use it again until you
+      finish a short or long rest.</p>
+
+      <h2>Local Facilities</h2>
+
+      <p>You have an established network of safehouses that you can draw upon.
+      Any time you spend at least a week in a new city, you can establish a
+      Grade 1 or 2 Safe House stronghold in the city at half cost. Any Urban
+      Bolt Hole you purchase is also at half-cost.You can also establish a new
+      Urban Bolt Hole over a number of hours equal to 7 - your proficiency
+      bonus.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+_id: brybzzelmau8h9ye
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!brybzzelmau8h9ye'

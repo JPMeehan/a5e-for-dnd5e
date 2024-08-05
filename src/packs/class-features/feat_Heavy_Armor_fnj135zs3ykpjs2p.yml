@@ -1,0 +1,113 @@
+folder: null
+name: Heavy Armor
+type: feat
+img: icons/equipment/chest/breastplate-layered-leather-studded-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your armor provides you an AC of 17. It is designed for maximum
+      protection and also provides you with temporary hit points equal to your
+      proficiency bonus which regenerate at the beginning of each of your
+      turns.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@prof'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.8xgj03ImGfmGzFlK
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Heavy Armor (Combat Engineer’s Loadout)
+    _id: R3hs7OI77kYNOnLx
+    changes:
+      - key: system.attributes.ac
+        mode: 5
+        value: '17'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722203905921
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!fnj135zs3ykpjs2p.R3hs7OI77kYNOnLx'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722203905859
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: fnj135zs3ykpjs2p
+_key: '!items!fnj135zs3ykpjs2p'

@@ -1,0 +1,38 @@
+folder: null
+name: Cutting-Edge Weapon
+type: feat
+img: icons/skills/melee/strike-weapons-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose two first-level combat maneuvers that cost no more than 1
+      exertion. While wielding your weapon, you can use these maneuvers at will
+      without spending exertion.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Advanced Weapon
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722222682229
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 3qM6jDID37aOoZOG
+_key: '!items!3qM6jDID37aOoZOG'

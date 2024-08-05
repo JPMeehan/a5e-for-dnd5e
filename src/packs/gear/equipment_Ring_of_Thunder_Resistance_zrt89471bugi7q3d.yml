@@ -1,7 +1,42 @@
 name: Ring of Thunder Resistance
 type: equipment
 img: icons/equipment/finger/ring-band-studded.webp
-effects: []
+effects:
+  - origin: Item.pMpDpXlTDFWKXeDN
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Ring of Thunder Resistance
+    img: icons/equipment/finger/ring-band-studded.webp
+    _id: roa3qVnLjsDTOvnl
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: thunder
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!zrt89471bugi7q3d.roa3qVnLjsDTOvnl'
 flags: {}
 system:
   description:
@@ -41,4 +76,8 @@ system:
     baseItem: ''
 folder: 9k4UVzCiMuqj62ea
 _id: zrt89471bugi7q3d
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!zrt89471bugi7q3d'

@@ -82,7 +82,9 @@ system:
 
       <td style="text-align: center;">+2</td>
 
-      <td style="text-align: center;">Ability Score Improvement
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.nghsyyxk1mmuud2x]{Sacred
       Office}</td>
 
@@ -136,8 +138,9 @@ system:
 
       <td style="text-align: center;">+3</td>
 
-      <td style="text-align: center;">Ability Score Improvement, Cleric
-      Archetype Feature
+      <td style="text-align: center;">Cleric Archetype Feature
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.zezsezm2e0azb3ty]{Empowered
       Turning}</td>
 
@@ -192,7 +195,9 @@ system:
 
       <td style="text-align: center;">+4</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">3</td>
 
@@ -242,7 +247,9 @@ system:
 
       <td style="text-align: center;">+5</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">4</td>
 
@@ -282,7 +289,9 @@ system:
 
       <td style="text-align: center;">+6</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">4</td>
 
@@ -495,11 +504,88 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cmpu5ulgmrnpa0wx
+    - _id: mpHDkdoArKkz9gQH
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: l97d20GvWPfNQe3P
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: X3ukAG8W7RadBJWh
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Hsfzo17OLZCbm629
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: FLFTKu9GsaMBOlYk
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: kqM5FnmdOGmoqh84
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: p4zPcBBvcDBrjgfF
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: v0wOFD71HD9m38Ih
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: EuGu6CSgBnIw0wXm
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: IUUbzpNSSzG7WdOR
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: wis
     progression: full
   wealth: '125'
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722027291057
+  modifiedTime: 1722027375484
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: k0havi3cgapj0ccb
 _key: '!items!k0havi3cgapj0ccb'

@@ -1,0 +1,41 @@
+name: Bonus Proficiencies and Specialties
+type: feat
+img: icons/skills/trades/academics-merchant-scribe.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at 3rd level, choose 3 of the following
+      skills: Arcana, Culture, Engineering, History, Medicine, Nature, Religion.
+      You gain proficiency with the chosen skills. In addition, you gain 3
+      additional specialties, and you gain another specialty whenever your
+      proficiency bonus increases. These bonus specialties must be in Arcana,
+      Culture, Engineering, History, Medicine, Nature, or Religion.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722288012882
+  modifiedTime: 1722288093552
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: n1alqchllk0hikar
+_key: '!items!n1alqchllk0hikar'

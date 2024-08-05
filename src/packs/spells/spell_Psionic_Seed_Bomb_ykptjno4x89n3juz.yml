@@ -3,9 +3,7 @@ type: spell
 img: >-
   https://assets.forge-vtt.com/bazaar/core/icons/magic/nature/seed-acorn-glowing-green.webp
 effects:
-  - icon: >-
-      https://assets.forge-vtt.com/bazaar/core/icons/magic/nature/seed-acorn-glowing-green.webp
-    origin: Item.ykptjno4x89n3juz
+  - origin: Item.5TeWxH8VG6YN0a4w
     flags:
       a5e:
         sort: 0
@@ -34,11 +32,19 @@ effects:
     description: ''
     statuses:
       - blinded
-    folder: null
-    _key: '!items.effects!ykptjno4x89n3juz.sf5k7sDn5SyctJMh'
-  - icon: >-
+    img: >-
       https://assets.forge-vtt.com/bazaar/core/icons/magic/nature/seed-acorn-glowing-green.webp
-    origin: Item.ykptjno4x89n3juz
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!ykptjno4x89n3juz.sf5k7sDn5SyctJMh'
+  - origin: Item.5TeWxH8VG6YN0a4w
     flags:
       a5e:
         sort: 0
@@ -67,7 +73,17 @@ effects:
     description: ''
     statuses:
       - grappled
+    img: >-
+      https://assets.forge-vtt.com/bazaar/core/icons/magic/nature/seed-acorn-glowing-green.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ykptjno4x89n3juz.L1yFHu1rSRECEVjY'
 flags:
   a5e-for-dnd5e:
@@ -146,7 +162,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: effect
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -164,4 +180,8 @@ system:
     scaling: spell
 folder: EkkxXAsn0xjh7IWp
 _id: ykptjno4x89n3juz
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ykptjno4x89n3juz'

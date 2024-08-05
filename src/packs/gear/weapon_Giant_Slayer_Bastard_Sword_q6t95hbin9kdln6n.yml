@@ -43,18 +43,15 @@ system:
     max: null
     dt: null
     conditions: ''
-  activation:
-    type: ''
-    cost: ''
-    condition: ''
+  activation: {}
   duration: {}
   cover: null
   crewed: false
   target:
-    value: 1
+    value: null
     width: null
     units: ''
-    type: creatureOrObject
+    type: ''
   range:
     value: null
     long: null
@@ -69,26 +66,24 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: mwak
-  attackBonus: '+1'
+  actionType: null
+  attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts:
-      - - 1d8 + @mod + 1
-        - slashing
-      - - 1d10 + @mod + 1
-        - slashing
-      - - 2d6
-        - slashing
+    parts: []
     versatile: ''
   formula: ''
   save:
-    ability: str
+    ability: ''
     dc: null
     scaling: spell
 folder: zzy7PcM8aJV9irTn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _id: q6t95hbin9kdln6n
 _key: '!items!q6t95hbin9kdln6n'

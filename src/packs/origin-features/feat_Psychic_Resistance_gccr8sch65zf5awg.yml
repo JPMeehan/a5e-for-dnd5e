@@ -24,38 +24,11 @@ system:
   uses:
     per: null
     max: null
-effects:
-  - icon: icons/creatures/slimes/bubbling-purple.webp
-    origin: Item.gccr8sch65zf5awg
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Psychic Resistance
-    _id: 486725VgGyPrrWRs
-    changes:
-      - key: system.traits.dr.value
-        value: psychic
-        mode: 2
-        priority: null
-      - key: system.abilities.int.save.proficient
-        value: 'true'
-        mode: 6
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!gccr8sch65zf5awg.486725VgGyPrrWRs'
+effects: []
 flags: {}
 _id: gccr8sch65zf5awg
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!gccr8sch65zf5awg'

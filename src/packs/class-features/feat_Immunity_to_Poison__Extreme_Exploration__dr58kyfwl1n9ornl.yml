@@ -1,0 +1,33 @@
+folder: null
+name: Immunity to Poison (Extreme Exploration)
+type: feat
+img: >-
+  icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>You gain immunity to poison.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: dr58kyfwl1n9ornl
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!dr58kyfwl1n9ornl'

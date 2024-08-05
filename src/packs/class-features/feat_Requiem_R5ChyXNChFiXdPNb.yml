@@ -1,0 +1,70 @@
+folder: null
+name: Requiem
+type: feat
+img: icons/environment/settlement/graveyard-tombstone-night.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can perform a 10 minute song over a corpse as part of a special
+      ceremony. Make a DC 15 Performance check; on a success you learn whether
+      the target died of natural causes, by accident, or was murdered. You may
+      learn other details at the Narrator&rsquo;s discretion.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: R5ChyXNChFiXdPNb
+_key: '!items!R5ChyXNChFiXdPNb'

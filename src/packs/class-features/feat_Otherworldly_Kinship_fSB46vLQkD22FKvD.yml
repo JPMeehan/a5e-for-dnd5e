@@ -1,0 +1,71 @@
+folder: null
+name: Otherworldly Kinship
+type: feat
+img: icons/creatures/magical/spirit-undead-horned-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Choose one of the following creature types: aberrations, celestials,
+      elementals, fey, fiends, or undead. You can always choose to use Charisma
+      on Insight checks against creatures of the chosen type, and you can always
+      understand what they say or choose to make yourself understood by them,
+      even if you do not otherwise share a language. In addition, you may spend
+      1 sorcery point to gain these benefits against another one of the listed
+      creature types for 1 hour.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: fSB46vLQkD22FKvD
+_key: '!items!fSB46vLQkD22FKvD'

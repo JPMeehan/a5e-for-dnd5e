@@ -1,0 +1,50 @@
+folder: null
+name: Tenets of the Scholar Knight
+type: feat
+img: icons/sundries/documents/blueprint-axe.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>All scholar knights hold similar tenets, regardless of the deity they
+      serve.</p>
+
+      <ul>
+
+      <li><strong>Rigor. </strong>Be sure you know what you know. Go beyond
+      quick answers and surface information.</li>
+
+      <li><strong>Integrity.</strong> The truth, however inconvenient or
+      distasteful, is still better than a lie.</li>
+
+      <li><strong>Excellence. </strong>Keep your skills, both mental and
+      physical, sharp through training and practice.</li>
+
+      <li><strong>Curiosity. </strong>No matter how much you know, it can always
+      be more. Cultivate a curious mind.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: D3WqLJcOWH93Gmq1
+_key: '!items!D3WqLJcOWH93Gmq1'

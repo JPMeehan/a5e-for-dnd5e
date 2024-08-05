@@ -1,0 +1,54 @@
+name: Specialized Mastery
+type: feat
+img: icons/skills/trades/academics-book-study-runes.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you&rsquo;ve reached the pinnacle of your chosen magics.
+      Choose one of the following benefits:</p>
+
+      <h2>Battle Hardiness</h2>
+
+      <p>When concentrating on a wizard spell from your chosen school, you
+      reduce incoming bludgeoning, piercing, and slashing damage by an amount
+      equal to the level of the spell.</p>
+
+      <h2>Heightened Potency</h2>
+
+      <p>When you cast a wizard spell from your chosen school, it is always
+      treated as though it were cast with a spell slot one level higher (maximum
+      9th-level) than the one you used, so long as you expended a spell slot to
+      cast it. The slot you use to cast the spell must still be at least equal
+      to the level of the spell.</p>
+
+      <h2>Precise Understanding</h2>
+
+      <p>When you see a creature cast a spell from your chosen school, you
+      automatically know what spell it&rsquo;s casting. You also have advantage
+      on saving throws against spells.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_id: 9ffz5gjqpmqoulm6
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!9ffz5gjqpmqoulm6'

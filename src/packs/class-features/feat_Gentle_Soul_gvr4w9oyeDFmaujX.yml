@@ -1,0 +1,41 @@
+folder: null
+name: Gentle Soul
+type: feat
+img: icons/creatures/birds/dove-pigeon-flying-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your nature may intimidate your enemies, but never your friends.
+      Children and animals, as well as the very old, instinctually trust you,
+      and you gain an expertise die on Persuasion and Animal Handling checks
+      against them.</p>
+
+      <p>Additionally, when you take this knack, you gain one minor skill or
+      hobby, such as whittling, whistling, cooking, or knitting. When you make a
+      Persuasion or Animal Handling check where you can apply that minor skill
+      or hobby, your expertise die increases to 1d6.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: gvr4w9oyeDFmaujX
+_key: '!items!gvr4w9oyeDFmaujX'

@@ -3,6 +3,7 @@ type: feat
 img: icons/magic/light/orb-hands-humanoid-yellow.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -29,4 +30,8 @@ effects: []
 flags: {}
 folder: null
 _id: z8es2pf2xsp4olyh
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!z8es2pf2xsp4olyh'

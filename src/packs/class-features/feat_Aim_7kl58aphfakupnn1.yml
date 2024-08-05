@@ -2,8 +2,7 @@ name: Aim
 type: feat
 img: icons/skills/targeting/crosshair-pointed-orange.webp
 effects:
-  - icon: icons/skills/targeting/crosshair-pointed-orange.webp
-    origin: Item.7kl58aphfakupnn1
+  - origin: Item.OeJvDskoc4qjBmlX
     flags:
       a5e:
         sort: 0
@@ -39,6 +38,20 @@ effects:
       your next turn. If you do so, your Speed is reduced to 0 until the end of
       your turn.</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721854113608
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/targeting/crosshair-pointed-orange.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!7kl58aphfakupnn1.PAMPXhpcxe92LFia'
 flags: {}
@@ -104,5 +117,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721854113578
+  modifiedTime: 1721854136604
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 7kl58aphfakupnn1
 _key: '!items!7kl58aphfakupnn1'

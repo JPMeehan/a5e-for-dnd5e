@@ -1,0 +1,52 @@
+folder: null
+name: Keeper of Sacred Mysteries
+type: feat
+img: icons/sundries/scrolls/scroll-writing-orange-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Your religious training or practice includes producing
+      beautiful calligraphy and illuminations of sacred texts, but also the
+      heavy responsibility of hiding the secrets of your faith in those same
+      texts. You gain proficiency with calligrapher&rsquo;s tools.</p>
+
+      <p dir="ltr">In addition, when writing religious texts you can encode
+      hidden meanings or messages into the text. The apparent text (which
+      usually contains more standard religious instruction and wisdom) must be
+      at least four times longer than the hidden message.</p>
+
+      <p dir="ltr">Other creatures who are strongly affiliated with your faith
+      such as other clerics of the same tradition or the supernatural servants
+      of your higher power can find and read the message automatically with no
+      check required, and you can do the same with similarly-hidden wisdom or
+      messages from them.</p>
+
+      <p dir="ltr">Creatures from outside your faith or tradition can spend a
+      minute to make a Religion check against your spell save DC to detect the
+      presence of a hidden message, and are able to read the hidden message if
+      they succeed by 5 or more.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 6nH91rGyPL1IuUKj
+_key: '!items!6nH91rGyPL1IuUKj'

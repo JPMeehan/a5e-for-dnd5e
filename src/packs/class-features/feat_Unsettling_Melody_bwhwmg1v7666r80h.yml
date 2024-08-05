@@ -25,7 +25,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
+    type: ''
+    cost: 1
   uses:
     value: null
     max: ''
@@ -63,8 +64,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/sonic/bell-alarm-red-purple.webp
-    origin: Item.bwhwmg1v7666r80h
+  - origin: Item.mbvmQdOXHcdCJnSt
     flags:
       a5e:
         sort: 0
@@ -73,7 +73,7 @@ effects:
         duration:
           unit: minutes
     transfer: false
-    name: Unsettling Melody
+    name: Rattled
     _id: c5TWTQxrruGPLL1A
     changes:
       - key: flags.a5e.effects.statusConditions
@@ -89,17 +89,33 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p>The creature makes a Wisdom save against your spell save DC, gaining
-      the rattled condition for one minute on a failed save. The creature can
-      repeat the save at the end of each of its rounds, ending the effect on a
-      success. A creature may only be affected by one instance of this effect at
-      a time.</p>
+    description: ''
     statuses:
       - rattled
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722260396125
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/sonic/bell-alarm-red-purple.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!bwhwmg1v7666r80h.c5TWTQxrruGPLL1A'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722260337503
+  modifiedTime: 1722260430800
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: bwhwmg1v7666r80h
 _key: '!items!bwhwmg1v7666r80h'

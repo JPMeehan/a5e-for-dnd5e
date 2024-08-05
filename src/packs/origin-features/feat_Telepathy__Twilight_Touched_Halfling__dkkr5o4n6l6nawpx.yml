@@ -2,8 +2,7 @@ name: Telepathy (Twilight-Touched Halfling)
 type: feat
 img: icons/magic/control/silhouette-aura-energy.webp
 effects:
-  - icon: icons/magic/control/silhouette-aura-energy.webp
-    origin: Item.dkkr5o4n6l6nawpx
+  - origin: Item.WRUq0W5n29lngnQ8
     flags:
       a5e:
         sort: 0
@@ -28,7 +27,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/magic/control/silhouette-aura-energy.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!dkkr5o4n6l6nawpx.WoGNKYUfr2fUPvw2'
 flags: {}
 system:
@@ -57,4 +64,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: dkkr5o4n6l6nawpx
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!dkkr5o4n6l6nawpx'

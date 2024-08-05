@@ -1,0 +1,74 @@
+folder: null
+name: Cliffhanger
+type: feat
+img: icons/environment/wilderness/terrain-rocks-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-12ab5193-7fff-5004-2715-dc858b0cb6ef">When
+      you start falling, you can use your reaction to make a Strength or
+      Dexterity saving throw against the DC of whatever effect caused you to
+      fall, or a DC of 10 if there is no obvious DC. On a success, you reach out
+      and grab a ledge that can support your weight (if one is available) and
+      stop falling. If you do not have an open hand to grab the ledge, you can
+      drop an item you are holding as part of this reaction.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Start falling
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: VISfysVOli05uCw9
+_key: '!items!VISfysVOli05uCw9'

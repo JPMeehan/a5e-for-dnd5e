@@ -8,30 +8,62 @@ system:
     subtype: ''
   description:
     value: >-
-      <h3 id="docs-internal-guid-80cd056b-7fff-3d32-774d-612c0492fc0b"
-      dir="ltr">Advanced Armor</h3><p dir="ltr"><em><strong>Prerequisite:
-      </strong>Upgraded Armor</em></p><p dir="ltr">You continue to upgrade your
-      armor, which gains an option based on its type:</p><ul><li
-      dir="ltr"><strong>Advanced Light Armor</strong></li><li
-      dir="ltr"><strong>Advanced Medium Armor</strong></li><li
-      dir="ltr"><strong>Advanced Heavy Armor</strong></li></ul><h3
-      id="docs-internal-guid-47bef989-7fff-83ab-54f1-bdd3e8255fc2"
-      dir="ltr">Advanced Weapon</h3><p
-      dir="ltr"><em><strong>Prerequisite:</strong> Upgraded Weapon</em></p><p
-      dir="ltr">If your weapon does not have the Upgraded option for its type,
-      it gains that now. If it does have that option, it instead gains the
-      following one instead:</p><ul><li
-      id="docs-internal-guid-80cd056b-7fff-3d32-774d-612c0492fc0b"
-      dir="ltr"><strong>Advanced Weapon:</strong> Your weapon gains the
-      <em>Vicious </em>property.</li></ul><h3
-      id="docs-internal-guid-db2fe54a-7fff-7ed3-22ea-cbd053a5510c"
-      dir="ltr">Advanced Automaton</h3><p
-      dir="ltr"><em><strong>Prerequisite:</strong> Upgraded Automaton</em></p><p
-      dir="ltr">You further upgrade your automaton. Its AC increases to 15, its
-      hit points increase to 50, and you add one of the following
-      options:</p><ul><li dir="ltr"><strong>Antitoxin Module</strong></li><li
-      dir="ltr"><strong>Targeting Module</strong></li><li
-      dir="ltr"><strong>Flight Module</strong></li></ul>
+      <p>At 9th level, you continue to upgrade your gear. Choose one of the
+      following options or one of the upgraded options from level 5:</p>
+
+      <h2>Advanced Armor</h2>
+
+      <p><em><strong>Prerequisite: </strong>Upgraded Armor</em></p>
+
+      <p>You continue to upgrade your armor, which gains an option based on its
+      type:</p>
+
+      <p><strong>Advanced Light Armor: </strong>The armor&rsquo;s stealth system
+      improves. As a bonus action, you can become invisible until the beginning
+      of your next turn. Once you have used this feature a number of times equal
+      to your Intelligence modifier (minimum once) you can&rsquo;t do so again
+      until you finish a short or long rest.</p>
+
+      <p><strong>Advanced Medium Armor: </strong>The armor now includes a helmet
+      with a protective breathing mask. You have advantage on saves against
+      inhaled poisons and toxins and may hold your breath for an additional
+      minute before you begin suffocating.</p>
+
+      <p><strong>Advanced Heavy Armor: </strong>The armor includes a set of
+      strength enhancers. When calculating what you can push, drag, or lift,
+      your size is considered one step larger. This stacks with the Orc
+      heritage&rsquo;s Heavy Lifter feature and similar features.</p>
+
+      <h2>Advanced Weapon</h2>
+
+      <p><em><strong>Prerequisite: </strong>Upgraded Weapon</em></p>
+
+      <p>If your weapon does not have the Upgraded option for its type, it gains
+      that now. If it does have that option, it instead gains the following
+      one:</p>
+
+      <p><strong>Advanced Weapon: </strong>Your weapon gains the Vicious
+      property.</p>
+
+      <h2>Advanced Automaton</h2>
+
+      <p><em><strong>Prerequisite: </strong>Upgraded Automaton</em></p>
+
+      <p>You further upgrade your automaton. Its AC increases to 15, its hit
+      points increase to 50, and you add one of the following options:</p>
+
+      <p><strong>Antitoxin Module: </strong>The automaton gains three charges
+      which stack with the ones from Autonomous Medic (if applicable). It can
+      spend a charge to neutralize one poison with a DC of 15 or lower in a
+      creature it can touch. It regains all spent charges when you finish a
+      short or long rest.</p>
+
+      <p><strong>Targeting Module: </strong>On its turn as an action, the
+      automaton can highlight a target within 30 feet, granting an expertise die
+      to creatures targeting it with attacks.</p>
+
+      <p><strong>Flight Module: </strong>The automaton gains a fly speed of 40
+      feet.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -48,5 +80,12 @@ system:
     max: null
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722220300938
+  modifiedTime: 1722224009190
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: ife0r3ghj3ojxk69
 _key: '!items!ife0r3ghj3ojxk69'

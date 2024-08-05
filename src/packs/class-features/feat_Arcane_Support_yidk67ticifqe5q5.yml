@@ -21,7 +21,7 @@ system:
       again until after you have taken a short rest.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -98,6 +98,10 @@ effects:
     statuses: []
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!yidk67ticifqe5q5.D6ftLjqyrbt7Z4i5'
   - icon: icons/magic/control/buff-strength-muscle-damage-red.webp
     origin: Item.yidk67ticifqe5q5
@@ -140,7 +144,15 @@ effects:
     statuses: []
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!yidk67ticifqe5q5.CrlWLxb5hPhF9fmS'
 flags: {}
 _id: yidk67ticifqe5q5
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!yidk67ticifqe5q5'

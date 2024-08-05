@@ -1,0 +1,66 @@
+name: Embrace of Death
+type: feat
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take this archetype at 1st level, your knowledge of
+      necromantic magics far exceeds most, and your prolonged presence around
+      said magic has had a profound effect on you. You gain proficiency in
+      religion, as well as the undead speacialty.</p>
+
+      <p>Furthermore, whenever you use your Eldritch Blast feature, you may
+      choose to deal necrotic damage instead of force damage.</p>
+
+      <p>You also choose one of the following:</p>
+
+      <h2>Deathly Curse</h2>
+
+      <p>You can use a bonus action to place a curse on a creature you can see
+      within 30ft. The curse lasts 1 minute, ending early if the creature dies,
+      you die, or you become incapacitated.</p>
+
+      <p>When you deal damage against the cursed creature, it takes an
+      additional 1 d4 necrotic damage. This bonus increases by 1d4 at 10th
+      level, and again at 15th and 10th level.</p>
+
+      <p>You gain a pool of necrosis dice, which begins empty. When the cursed
+      creature fails a saving throw, add one necrosis die to this pool. You can
+      spend a necrosis die whenever you deal damage with your Eldritch Blast, or
+      a spell of 1st level or higher that deals necrotic damage, to deal an
+      additional 1d4 necrotic damage. The pool disappears when you finish a
+      short or long rest.</p>
+
+      <p>Once you have used this feature, you can't use it again until you
+      finish a short or long rest.</p>
+
+      <h2>Undead Resilience</h2>
+
+      <p>You gain resistance to necrotic and poison damage, as well as an
+      expertise die on saving throws against poison.</p>
+    chat: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 2IwQXqgyqOEIxsqI
+_key: '!items!2IwQXqgyqOEIxsqI'

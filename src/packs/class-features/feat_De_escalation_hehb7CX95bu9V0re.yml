@@ -1,0 +1,39 @@
+folder: null
+name: De-escalation
+type: feat
+img: icons/skills/social/diplomacy-peace-alliance.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-94728b25-7fff-2ac1-4e46-05524f8abc8d"
+      dir="ltr">Strategically, it&rsquo;s sometimes best to avoid conflict
+      altogether&mdash;if you can. You gain an expertise die when negotiating
+      with hostile creatures that can understand you. If there is a group of
+      hostile creatures, such as a gang of bandits, you automatically succeed on
+      any checks made to tell which of them is the leader (if they are
+      present).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: hehb7CX95bu9V0re
+_key: '!items!hehb7CX95bu9V0re'

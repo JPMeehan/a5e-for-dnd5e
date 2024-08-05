@@ -17,12 +17,14 @@ system:
       attacks against you as it can. If the creature failed its saving throw by
       5 or more, it has disadvantage on these attack rolls. Additionally, you do
       not have to spend exertion to use
-      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.toaxt1l34b9u4a8y]{Patient
-      Defense} while a creature is under this effect.</p><p>The effects of this
-      feature end after the creature hits you with an attack, when you attack a
-      different creature, or if the creature is unable to attack you. Once you
-      have used this feature a number of times equal to your Wisdom modifier,
-      you cannot do so again until you finish a long rest.</p>
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.w24z3b4ki0c5pusd]{Focused
+      Defense} while a creature is under this effect.</p>
+
+      <p>The effects of this feature end after the creature hits you with an
+      attack, when you attack a different creature, or if the creature is unable
+      to attack you. Once you have used this feature a number of times equal to
+      your Wisdom modifier, you cannot do so again until you finish a long
+      rest.</p>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -56,7 +58,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -70,7 +72,94 @@ system:
     ability: wis
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.TxgI9JQdPtGNP3D0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: XXT4DXitkaRu2n2g
+    transfer: false
+    name: Compelled
+    img: icons/magic/control/mouth-smile-deception-purple.webp
+    _id: 7UUPTP0dY2uRmOrs
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On its turn, the creature moves towards you and makes as many attacks
+      against you as it can.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722394967585
+      modifiedTime: 1722394993390
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!gsh7gffkk3bvtyte.7UUPTP0dY2uRmOrs'
+  - origin: Item.TxgI9JQdPtGNP3D0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: XXT4DXitkaRu2n2g
+    transfer: false
+    name: Failed By 5 Or More
+    img: icons/magic/control/mouth-smile-deception-purple.webp
+    _id: urCsNFb2wPKa5EMB
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>It has disadvantage on these attack rolls.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722394996026
+      modifiedTime: 1722395025797
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!gsh7gffkk3bvtyte.urCsNFb2wPKa5EMB'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722394777423
+  modifiedTime: 1722394996059
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: gsh7gffkk3bvtyte
 _key: '!items!gsh7gffkk3bvtyte'

@@ -1,6 +1,6 @@
 name: Pinpoint Maneuvering
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/tools/fasteners/pin-spiked.webp
 system:
   type:
     value: class
@@ -27,12 +27,56 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: reaction
+    cost: 1
+    condition: >-
+      An attack hits a vehicle you’re driving or a collision occurs involving a
+      vehicle you are driving
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722276100949
+  modifiedTime: 1722277085844
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: uyqu2yy46hrf78qz
 _key: '!items!uyqu2yy46hrf78qz'

@@ -1,0 +1,93 @@
+folder: null
+name: Trickster Spells
+type: feat
+img: icons/sundries/gaming/playing-cards-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr"><strong>Table: Trickster Spells</strong></p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      12.4488%;"><col style="width: 87.5512%;"></colgroup>
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align: center;">1</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.vemj08hawvmf44ya]{Disguise
+      Self} @UUID[Compendium.a5e-for-dnd5e.spells.Item.1046kzuqvlnjtk0x]{Silent
+      Image}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">3</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.fb72lq1m92o0d70a]{Arcanist's
+      Magic Aura}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pzn6tyro9kivey8y]{Magic
+      Mouth}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">5</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.zc250942nlox9vyk]{Counterspell}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.6yuzn2ix28wkvduc]{Hypnotic
+      Pattern}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">7</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.1sp8qzuofkjmunsd]{Arcane
+      Eye}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.1k3940gaxkcoqofp]{Hallucinatory
+      Terrain}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">9</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.jo2vztvypvhqxh5u]{Dream}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.r1uc1w5fal5xfe6a]{Seeming}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: cw3mf5kchz56z37e
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!cw3mf5kchz56z37e'

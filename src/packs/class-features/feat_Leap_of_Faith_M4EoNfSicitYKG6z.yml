@@ -1,0 +1,35 @@
+folder: null
+name: Leap of Faith
+type: feat
+img: icons/skills/movement/arrow-upward-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your long jump distance increases by 10 feet and your high jumps are
+      increased by 5 feet. You only need 5 feet of movement to initiate a long
+      jump.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: M4EoNfSicitYKG6z
+_key: '!items!M4EoNfSicitYKG6z'

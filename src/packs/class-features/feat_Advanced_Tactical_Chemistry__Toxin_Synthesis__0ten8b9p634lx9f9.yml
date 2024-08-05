@@ -1,0 +1,42 @@
+name: Advanced Tactical Chemistry (Toxin Synthesis)
+type: feat
+img: icons/skills/toxins/bottle-open-vapors-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You&rsquo;ve learned the subtleties of toxins and can now rapidly
+      produce foul and deadly substances. You can create the following
+      additional items using your Tactical Chemistry feature:</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.gear.b368613h5uld90d3]{Curare
+      (vial)}</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.gear.svwd5a8s1rr1dm90]{Poison, potent
+      (vial)}</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: 0ten8b9p634lx9f9
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!0ten8b9p634lx9f9'

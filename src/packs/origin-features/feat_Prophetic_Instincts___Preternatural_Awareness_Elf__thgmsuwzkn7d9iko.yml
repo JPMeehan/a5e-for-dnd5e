@@ -2,8 +2,7 @@ name: Prophetic Instincts  (Preternatural Awareness Elf)
 type: feat
 img: icons/magic/perception/orb-crystal-ball-scrying.webp
 effects:
-  - icon: icons/magic/perception/orb-crystal-ball-scrying.webp
-    origin: Item.thgmsuwzkn7d9iko
+  - origin: Item.ZOG9jqP3BdGmlbEf
     flags:
       a5e:
         sort: 0
@@ -28,7 +27,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/magic/perception/orb-crystal-ball-scrying.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!thgmsuwzkn7d9iko.WxRLYJ3eV2O7RMTY'
 flags: {}
 system:
@@ -56,4 +63,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: thgmsuwzkn7d9iko
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!thgmsuwzkn7d9iko'

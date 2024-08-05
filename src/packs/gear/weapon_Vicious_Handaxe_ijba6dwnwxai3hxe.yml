@@ -2,8 +2,7 @@ name: Vicious Handaxe
 type: weapon
 img: icons/weapons/axes/shortaxe-engraved-green.webp
 effects:
-  - icon: icons/weapons/axes/shortaxe-engraved-green.webp
-    origin: Item.ijba6dwnwxai3hxe
+  - origin: Item.Xf2I72nRXBVkCsPT
     flags:
       a5e:
         sort: 0
@@ -32,7 +31,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/weapons/axes/shortaxe-engraved-green.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ijba6dwnwxai3hxe.2pzcilmmaypkTG8n'
 flags: {}
 system:
@@ -120,6 +127,8 @@ system:
     parts:
       - - 1d6 + min(@mod,0)
         - slashing
+      - - 2d6
+        - slashing
     versatile: ''
   formula: ''
   save:
@@ -128,4 +137,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: ijba6dwnwxai3hxe
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ijba6dwnwxai3hxe'

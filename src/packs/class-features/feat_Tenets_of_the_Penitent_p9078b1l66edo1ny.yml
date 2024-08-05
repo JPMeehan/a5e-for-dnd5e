@@ -1,0 +1,53 @@
+folder: null
+name: Tenets of the Penitent
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>All penitents hold similar tenets, regardless of any master they
+      serve.</p>
+
+      <ul>
+
+      <li><strong>Atonement. </strong>You can&rsquo;t undo the past, but that
+      does not mean you cannot put a lot of good into the world to balance
+      it.</li>
+
+      <li><strong>Forgiveness</strong>. If you can fall, so can others. If you
+      can be better, so can others. Never forget this. Never ignore it.</li>
+
+      <li><strong>Compassion.</strong> You know better than most what can happen
+      when people are at their worst. Strive to create circumstances where they
+      can be at their best instead.</li>
+
+      <li><strong>Wisdom.</strong> Sometimes the cost of saving someone will be
+      too high. Do not sacrifice the lives and safety of innocents in an attempt
+      to sway the truly wicked.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: p9078b1l66edo1ny
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!p9078b1l66edo1ny'

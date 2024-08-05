@@ -72,7 +72,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d8
+      - - 1d8 + @mod
         - bludgeoning
     versatile: ''
   formula: ''
@@ -82,4 +82,8 @@ system:
     scaling: spell
 folder: Tw5cqPbIxtfMfhDz
 _id: zaeerhaj7ici4dtd
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!zaeerhaj7ici4dtd'

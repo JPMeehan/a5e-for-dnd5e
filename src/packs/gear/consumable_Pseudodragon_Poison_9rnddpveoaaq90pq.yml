@@ -99,6 +99,10 @@ effects:
       - poisoned
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!9rnddpveoaaq90pq.5UaBqRqzFKFk9i84'
   - icon: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
     origin: Item.9rnddpveoaaq90pq
@@ -132,7 +136,15 @@ effects:
       - unconscious
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!9rnddpveoaaq90pq.VJX92GJWQmf5eruK'
 flags: {}
 _id: 9rnddpveoaaq90pq
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!9rnddpveoaaq90pq'

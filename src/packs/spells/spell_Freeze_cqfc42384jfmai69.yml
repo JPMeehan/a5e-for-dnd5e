@@ -102,6 +102,10 @@ effects:
     statuses:
       - grappled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!cqfc42384jfmai69.WscFwbGivAz8AcpS'
   - icon: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
     origin: Item.cqfc42384jfmai69
@@ -131,6 +135,10 @@ effects:
     statuses:
       - prone
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!cqfc42384jfmai69.5Zaeghw3PE9xyWSI'
 flags:
   a5e-for-dnd5e:
@@ -140,4 +148,8 @@ flags:
       - nature
     rareSpell: false
 _id: cqfc42384jfmai69
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!cqfc42384jfmai69'

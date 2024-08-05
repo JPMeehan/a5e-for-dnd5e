@@ -1,7 +1,89 @@
 name: Into Mist (Gnome)
 type: feat
 img: icons/magic/air/fog-gas-smoke-dense-white.webp
-effects: []
+effects:
+  - origin: Item.P9Yo5fISC9tPo3k0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: hlEemutoj3xs0TmJ
+        duration:
+          type: rounds
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Invisible
+    img: icons/magic/air/fog-gas-smoke-dense-white.webp
+    _id: 4aKHtpDl8tfpdsSF
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - invisible
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!7dxkmsoz4cqjqnjp.4aKHtpDl8tfpdsSF'
+  - origin: Item.P9Yo5fISC9tPo3k0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: gbUOoaaiXq5E7iLG
+        duration:
+          type: rounds
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Invisible
+    img: icons/magic/air/fog-gas-smoke-dense-white.webp
+    _id: XuBfayLm1EIyUGtN
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - invisible
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!7dxkmsoz4cqjqnjp.XuBfayLm1EIyUGtN'
 flags: {}
 system:
   type:
@@ -24,10 +106,49 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: reaction
+    cost: 1
+    condition: Taking damage
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: z476XZt1iG4Mb7VJ
 _id: 7dxkmsoz4cqjqnjp
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!7dxkmsoz4cqjqnjp'

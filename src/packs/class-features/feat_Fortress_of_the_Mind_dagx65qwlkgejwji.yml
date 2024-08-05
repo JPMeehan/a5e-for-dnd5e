@@ -1,0 +1,41 @@
+folder: null
+name: Fortress of the Mind
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level you are under the permanent effect of a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.wad0cgw4tcdbuvbr]{Mind Blank}
+      spell which cannot be dispelled, though it is suppressed by an antimagic
+      field. Your exertion pool also increases by an amount equal to your
+      intelligence modifier.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: none
+  uses:
+    per: sr
+    max: null
+    prompt: false
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722151042464
+  modifiedTime: 1722151096963
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: dagx65qwlkgejwji
+_key: '!items!dagx65qwlkgejwji'

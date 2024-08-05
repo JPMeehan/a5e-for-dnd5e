@@ -2,8 +2,7 @@ name: Fairy Cap
 type: consumable
 img: icons/consumables/mushrooms/convex-spotted-orange-white.webp
 effects:
-  - icon: icons/consumables/mushrooms/convex-spotted-orange-white.webp
-    origin: Item.ktsrqn3m6ifjry80
+  - origin: Item.8nRDqcD9vvexDxgk
     flags:
       a5e:
         sort: 0
@@ -28,10 +27,21 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>Consuming this small red mushroom cap removes inhibitions and creates
+      confidence, and after you eat it you gain an expertise die on Charisma
+      saving throws for 1 hour.</p>
     statuses: []
     tint: '#ffffff'
+    img: icons/consumables/mushrooms/convex-spotted-orange-white.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ktsrqn3m6ifjry80.LmqYAPiHJsG6Hgx4'
 flags: {}
 system:
@@ -98,4 +108,8 @@ system:
     scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: ktsrqn3m6ifjry80
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ktsrqn3m6ifjry80'

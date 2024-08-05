@@ -1,0 +1,40 @@
+folder: null
+name: Body Double
+type: feat
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-641243c5-7fff-2918-6660-e65e77f54985">Your
+      expertise die on checks using a disguise kit increases to 1d10. In
+      addition, you have a special inexperienced follower called a Body Double
+      who looks identical to you and who can attend public gatherings in your
+      stead, providing you a valuable alibi and acting as a decoy. If your Body
+      Double dies, you can hire a new one for 500 gp, though you may only have
+      one Body Double at a time. This follower does not count against your
+      normal limit. </span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: 13th level, d8 expertise die on checks with disguise kit
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 8nwQ4GP7Yn6Vpbup
+_key: '!items!8nwQ4GP7Yn6Vpbup'

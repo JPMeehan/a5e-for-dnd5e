@@ -1,0 +1,37 @@
+folder: null
+name: Ecclesial Speech
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your faith has a stronger than normal focus on language as a component
+      of its religious training. You learn two languages from the following
+      list: Abyssal, Celestial, Infernal, and Primordial. In addition, you learn
+      Ecclesial Speech, which is a secret language known only to other members
+      of your faith or order with its own spoken, written, and signed forms.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: kklmljFmTBvDxUM1
+_key: '!items!kklmljFmTBvDxUM1'

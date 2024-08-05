@@ -1,0 +1,35 @@
+folder: null
+name: Flight Module
+type: feat
+img: icons/creatures/birds/raptor-hawk-flying.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>The automaton gains a fly speed of 40 feet.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Upgraded Automaton
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722221960092
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: lc287e2tr2gb8kmz
+_key: '!items!lc287e2tr2gb8kmz'

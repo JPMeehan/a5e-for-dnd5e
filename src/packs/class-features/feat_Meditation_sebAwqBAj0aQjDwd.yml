@@ -1,0 +1,148 @@
+folder: null
+name: Meditation
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you remain stationary for 1 minute while out of combat, you can
+      enter a meditative state that grants advantage on perception checks made
+      to perceive with senses other than sight. Additionally, If you remain in
+      this state for an additional 10 minutes, you can reduce your strife by up
+      to one level for 4 hours. Moving from your space or entering combat ends
+      the state.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.qxLhWjov48vVByon
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 1CyKh4LpVkW4zdMI
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Meditative State
+    _id: kHidXPsotTBzBF7C
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.prc
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    img: icons/magic/control/silhouette-aura-energy.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!sebAwqBAj0aQjDwd.kHidXPsotTBzBF7C'
+  - origin: Item.qxLhWjov48vVByon
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: VywWhhYaZI1XZ6m2
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Deeper Meditative State
+    _id: 7PBU71Ewu8aExdNY
+    changes:
+      - key: flags.a5e-for-dnd5e.stress
+        value: '1'
+        mode: 3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 14400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    img: icons/magic/control/silhouette-aura-energy.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!sebAwqBAj0aQjDwd.7PBU71Ewu8aExdNY'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: sebAwqBAj0aQjDwd
+_key: '!items!sebAwqBAj0aQjDwd'

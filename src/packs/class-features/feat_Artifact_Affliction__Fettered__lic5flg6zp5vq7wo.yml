@@ -43,8 +43,7 @@ system:
     per: null
     max: null
 effects:
-  - icon: icons/magic/unholy/projectile-spear-glow-pink.webp
-    origin: Item.lic5flg6zp5vq7wo
+  - origin: Item.haGIDITLETc04jN8
     flags:
       a5e:
         sort: 0
@@ -68,8 +67,21 @@ effects:
       startTurn: null
     description: <p>Your movement speeds are reduced by 10 feet.</p>
     statuses: []
+    img: icons/magic/unholy/projectile-spear-glow-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!lic5flg6zp5vq7wo.ajQVZLLLh4eQuD6T'
 flags: {}
 _id: lic5flg6zp5vq7wo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!lic5flg6zp5vq7wo'

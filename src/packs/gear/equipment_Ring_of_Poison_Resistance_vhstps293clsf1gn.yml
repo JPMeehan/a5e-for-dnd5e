@@ -1,7 +1,42 @@
 name: Ring of Poison Resistance
 type: equipment
 img: icons/equipment/finger/ring-stone-snake-gold.webp
-effects: []
+effects:
+  - origin: Item.TWMrZgMLjwRbnqod
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Ring of Poison Resistance
+    img: icons/equipment/finger/ring-stone-snake-gold.webp
+    _id: 1Ljgzil6XyLQi8oZ
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: poison
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!vhstps293clsf1gn.1Ljgzil6XyLQi8oZ'
 flags: {}
 system:
   description:
@@ -41,4 +76,8 @@ system:
     baseItem: ''
 folder: 9k4UVzCiMuqj62ea
 _id: vhstps293clsf1gn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!vhstps293clsf1gn'

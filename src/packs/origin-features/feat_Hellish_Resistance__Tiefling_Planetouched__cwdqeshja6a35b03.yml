@@ -2,8 +2,7 @@ name: Hellish Resistance (Tiefling Planetouched)
 type: feat
 img: icons/magic/defensive/shield-barrier-glowing-triangle-red.webp
 effects:
-  - icon: icons/magic/defensive/shield-barrier-glowing-triangle-red.webp
-    origin: Item.cwdqeshja6a35b03
+  - origin: Item.gbwKJ6q6mRUDTb53
     flags:
       a5e:
         sort: 0
@@ -28,7 +27,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/magic/defensive/shield-barrier-glowing-triangle-red.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!cwdqeshja6a35b03.TZtAR71r1MiXA6GY'
 flags: {}
 system:
@@ -53,4 +60,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: cwdqeshja6a35b03
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!cwdqeshja6a35b03'

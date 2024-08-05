@@ -2,8 +2,7 @@ name: Vicious Morningstar
 type: weapon
 img: icons/weapons/maces/mace-round-studded.webp
 effects:
-  - icon: icons/weapons/maces/mace-round-studded.webp
-    origin: Item.iynt0zgdmzgl3fna
+  - origin: Item.5E43txAD6zmQQly3
     flags:
       a5e:
         sort: 0
@@ -32,7 +31,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/weapons/maces/mace-round-studded.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!iynt0zgdmzgl3fna.uyPf3aBTu6Dbjl7v'
 flags: {}
 system:
@@ -114,6 +121,8 @@ system:
     parts:
       - - 1d8 + @mod
         - bludgeoning
+      - - 2d6
+        - bludgeoning
     versatile: ''
   formula: ''
   save:
@@ -122,4 +131,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: iynt0zgdmzgl3fna
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!iynt0zgdmzgl3fna'

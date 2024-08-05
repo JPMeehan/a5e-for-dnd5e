@@ -30,7 +30,10 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: reaction
+    cost: 1
+    condition: Falling
   uses:
     value: null
     max: ''
@@ -53,7 +56,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: effect
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -68,19 +71,20 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/consumables/mushrooms/conical-bell-green.webp
-    origin: Item.xjszjodeumkeqwqg
+  - origin: Item.IR0MBmJbsnkJ0HO3
     flags:
       a5e:
-        sort: 5
-        transferType: passive
+        sort: 4
+        transferType: onUse
+        actionId: bG9C0kc2ZUrkq4G7
+        applyToSelf: false
     transfer: false
-    name: Poison Resistance
-    _id: 1EFAQ52a2kghOpzL
+    name: Amphibious
+    _id: VyKVCm34qo6KTwKK
     changes:
-      - key: system.traits.dr.value
-        value: poison
-        mode: 2
+      - key: system.attributes.movement.swim
+        value: '@movement.walk.distance'
+        mode: 6
         priority: null
     disabled: false
     duration:
@@ -91,19 +95,72 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>You can breathe underwater and gain a swim speed equal to your walking
+      speed.</p>
     statuses: []
+    img: icons/consumables/mushrooms/umbontae-bumpy-purple.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
-    _key: '!items.effects!xjszjodeumkeqwqg.1EFAQ52a2kghOpzL'
-  - icon: icons/consumables/mushrooms/ovate-blue.webp
-    origin: Item.xjszjodeumkeqwqg
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!xjszjodeumkeqwqg.VyKVCm34qo6KTwKK'
+  - origin: Item.IR0MBmJbsnkJ0HO3
     flags:
       a5e:
-        sort: 2
-        transferType: passive
+        sort: 0
+        transferType: onUse
+        actionId: bG9C0kc2ZUrkq4G7
+    transfer: false
+    name: Arboreal
+    img: icons/consumables/mushrooms/umbontae-bumpy-purple.webp
+    _id: 2mg8XT5r3MucLaRP
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.climb
+        value: '@movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain a climb speed equal to your walking speed. When you fall, you
+      can use your reaction to float gently to the ground, taking no damage from
+      the fall.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!xjszjodeumkeqwqg.2mg8XT5r3MucLaRP'
+  - origin: Item.IR0MBmJbsnkJ0HO3
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: bG9C0kc2ZUrkq4G7
     transfer: false
     name: Cold Adapted
-    _id: rnIk53irzzvQMSC1
+    img: icons/consumables/mushrooms/umbontae-bumpy-purple.webp
+    _id: 8s5YAf1eXJhn4DdU
+    type: base
+    system: {}
     changes:
       - key: system.traits.dr.value
         value: cold
@@ -118,19 +175,28 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: <p>You gain resistance to cold damage.</p>
+    tint: '#ffffff'
     statuses: []
+    sort: 0
     folder: null
-    _key: '!items.effects!xjszjodeumkeqwqg.rnIk53irzzvQMSC1'
-  - icon: icons/consumables/mushrooms/campanulate-bell-shiny-red.webp
-    origin: Item.xjszjodeumkeqwqg
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!xjszjodeumkeqwqg.8s5YAf1eXJhn4DdU'
+  - origin: Item.IR0MBmJbsnkJ0HO3
     flags:
       a5e:
-        sort: 3
-        transferType: passive
+        sort: 0
+        transferType: onUse
+        actionId: bG9C0kc2ZUrkq4G7
     transfer: false
     name: Heat Adapted
-    _id: LCBQ4stp8ySZAbpe
+    img: icons/consumables/mushrooms/umbontae-bumpy-purple.webp
+    _id: OoYsI7pU60CbFI0n
+    type: base
+    system: {}
     changes:
       - key: system.traits.dr.value
         value: fire
@@ -145,94 +211,22 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: <p>You gain resistance to fire damage.</p>
+    tint: '#ffffff'
     statuses: []
+    sort: 0
     folder: null
-    _key: '!items.effects!xjszjodeumkeqwqg.LCBQ4stp8ySZAbpe'
-  - icon: icons/svg/item-bag.svg
-    origin: Item.xjszjodeumkeqwqg
-    flags:
-      a5e:
-        sort: 4
-        transferType: onUse
-        actionId: bG9C0kc2ZUrkq4G7
-    transfer: false
-    name: New Effect
-    _id: VyKVCm34qo6KTwKK
-    changes:
-      - key: ''
-        mode: null
-        value: ''
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!xjszjodeumkeqwqg.VyKVCm34qo6KTwKK'
-  - icon: icons/consumables/mushrooms/campanulate-bell-shiny-blue.webp
-    origin: Item.xjszjodeumkeqwqg
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Amphibious
-    _id: 1P5vdP23zJzmTmaR
-    changes:
-      - key: system.attributes.movement.swim
-        value: '30'
-        mode: 2
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!xjszjodeumkeqwqg.1P5vdP23zJzmTmaR'
-  - icon: icons/consumables/mushrooms/bell-shiitake-brown.webp
-    origin: Item.xjszjodeumkeqwqg
-    flags:
-      a5e:
-        sort: 1
-        transferType: passive
-    transfer: false
-    name: Arboreal
-    _id: E2wCeTF70M4nrhIg
-    changes:
-      - key: system.attributes.movement.climb
-        value: '30'
-        mode: 2
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!xjszjodeumkeqwqg.E2wCeTF70M4nrhIg'
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!xjszjodeumkeqwqg.OoYsI7pU60CbFI0n'
 flags:
   a5e:
     sortMode: 1
 _id: xjszjodeumkeqwqg
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!xjszjodeumkeqwqg'

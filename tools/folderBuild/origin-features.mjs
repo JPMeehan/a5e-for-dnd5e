@@ -96,7 +96,7 @@ for (const d of yamlPack) {
   }
 
   const targetFolder = outerFolders.find(
-    (f) => f.type === data.system.type.value
+    (f) => f.type === data.system.type?.value
   );
   if (!targetFolder) {
     console.log(d);

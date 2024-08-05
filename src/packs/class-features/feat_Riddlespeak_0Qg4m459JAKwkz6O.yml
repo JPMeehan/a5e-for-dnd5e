@@ -1,0 +1,76 @@
+folder: null
+name: Riddlespeak
+type: feat
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-eb0e590e-7fff-bd8b-5bd9-f61500fe86db">You
+      gain an expertise die on Intelligence checks made to solve riddles and
+      puzzles. In addition, you can easily avoid speaking directly by cloaking
+      your meaning in wordplay and allusions, allowing you to hide a short
+      message within other speech or writing. Most creatures will take your
+      words at face value, but suspicious creatures may make an Intelligence
+      (Insight) check against your spell save DC to notice that you have hidden
+      a message in your words. On a success of 5 or more, they also learn your
+      hidden meaning. When you use this ability, you may include specific tells
+      and points of reference in your riddlespeak to allow creatures you choose
+      and with whom you are familiar to automatically succeed on the
+      check.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: skillCheck
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 0Qg4m459JAKwkz6O
+_key: '!items!0Qg4m459JAKwkz6O'

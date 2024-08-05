@@ -10,7 +10,7 @@ system:
     value: <p>Also at level 6, you gain proficiency in heavy armor.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -50,7 +50,15 @@ effects:
     statuses: []
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!obfpkl7nyjahvmsl.R8vWlIlMrcEiWFXM'
 flags: {}
 _id: obfpkl7nyjahvmsl
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!obfpkl7nyjahvmsl'

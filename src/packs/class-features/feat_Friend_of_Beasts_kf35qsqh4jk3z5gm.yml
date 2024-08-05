@@ -14,10 +14,10 @@ system:
       step higher than normal toward you. Normally-hostile creatures will be
       indifferent, and creatures that would normally be indifferent are
       friendly. In addition, you are continuously under the effect of the
-      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.z5a26lxyh3esw2rl]{Speak
-      with Animals}</em>&nbsp;spell, and you have advantage on checks to
-      persuade Beasts to help you with non-hazardous tasks. This effect does not
-      emit a magic aura.</p>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.z5a26lxyh3esw2rl]{Speak with
+      Animals}&nbsp;spell, and you have advantage on checks to persuade Beasts
+      to help you with non-hazardous tasks. This effect does not emit a magic
+      aura.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -32,5 +32,12 @@ system:
   uses:
     per: null
     max: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722260838878
+  modifiedTime: 1722260880233
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: kf35qsqh4jk3z5gm
 _key: '!items!kf35qsqh4jk3z5gm'

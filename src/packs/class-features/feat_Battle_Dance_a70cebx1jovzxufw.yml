@@ -2,8 +2,7 @@ name: Battle Dance
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
 effects:
-  - icon: icons/skills/trades/music-notes-sound-blue.webp
-    origin: Item.0gbop1jkRu5rs5GD
+  - origin: Item.uNPwqkFFkTosMn91
     flags:
       a5e:
         sort: 0
@@ -32,6 +31,20 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721838812986
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/trades/music-notes-sound-blue.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!a70cebx1jovzxufw.AGvkVrGZnrMhV85w'
 flags: {}
@@ -82,14 +95,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: mwak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - '@classResources.martial-arts + @mod'
+        - bludgeoning
     versatile: ''
   formula: ''
   save:
@@ -97,5 +112,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721838812964
+  modifiedTime: 1721838967131
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: a70cebx1jovzxufw
 _key: '!items!a70cebx1jovzxufw'

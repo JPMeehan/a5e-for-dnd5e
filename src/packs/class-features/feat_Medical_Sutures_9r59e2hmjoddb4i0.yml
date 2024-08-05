@@ -1,6 +1,6 @@
 name: Medical Sutures
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/wounds/injury-stapled-flesh-tan.webp
 system:
   type:
     value: class
@@ -33,12 +33,53 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: hour
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722278002498
+  modifiedTime: 1722278063957
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 9r59e2hmjoddb4i0
 _key: '!items!9r59e2hmjoddb4i0'

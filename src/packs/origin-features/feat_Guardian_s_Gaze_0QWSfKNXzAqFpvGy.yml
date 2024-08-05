@@ -1,0 +1,70 @@
+folder: Czqb9fe3C11A0mge
+name: Guardian’s Gaze
+type: feat
+img: icons/magic/control/debuff-chains-orb-movement-blue.webp
+system:
+  type:
+    value: destiny
+    subtype: ''
+  description:
+    value: >-
+      <p>Your vigilance and commitment to preservation can make a huge
+      difference in moments when it counts, albeit at the cost of your own
+      safety. When a friendly creature or precious object within 15 feet of you
+      would be harmed by an attack or some detrimental effect, you can spend
+      your inspiration (no action required) to cause that attack or effect to
+      target you instead.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 15
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 0QWSfKNXzAqFpvGy
+_key: '!items!0QWSfKNXzAqFpvGy'

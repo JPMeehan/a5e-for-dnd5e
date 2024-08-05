@@ -8,49 +8,478 @@ system:
     subtype: ''
   description:
     value: >-
-      <h2>Cantrips</h2><p>At 3rd level, you know two cantrips of your choice
-      from the warlock spell list. You learn an additional cantrip at 10th
-      level.</p><h2>Spells Known of 1st-Level or Higher</h2><p>You know two
-      1st-level spells of your choice from the warlock spell list. The spells
-      count as ranger spells for you.</p><p>The Spells Known column of the Ruin
-      Strider table shows when you learn more warlock spells of your choice.
-      Each of these spells must be of a level that you are able to cast. For
-      instance, when you reach 7th level in this class, you can learn one new
-      spell of 1st or 2nd-level.</p><p>Additionally, when you gain a level in
-      this class, you can choose one of the warlock spells you know and replace
-      it with another spell from the warlock spell list, which also must be of a
-      level of which you can cast.</p><h2>Spell Points</h2><p>The Ruin Strider
-      Spellcasting table shows how many spell points you have to cast your
-      spells of 1st level and higher.</p><p>To cast one of your Ruin Strider
-      spells of 1st-level or higher, you must spend a number of spell points
-      dependent on the spell&rsquo;s level.</p><p>You can also cast a spell you
-      know at a higher spell level by spending the appropriate number of spell
-      points. The maximum spell level you can cast is shown in the Spell Level
-      column of the Ruin Strider table. You regain all expended spell points
-      when you finish a short or long rest.</p><h2>Ruin Strider
-      Spells</h2><p>You learn an additional spell when you reach certain levels
-      in this class, as shown in the Ruin Strider Spells table. The spell counts
-      as a ranger spell for you, but it doesn't count against the number of
-      ranger spells you know.</p><table style="width: 100%;"
-      border="1"><colgroup><col style="width: 13.8263%;"><col style="width:
-      86.1737%;"></colgroup><tbody><tr><td><strong>Ranger
-      Level</strong></td><td><strong>Additional Spells
-      Known</strong></td></tr><tr><td>3rd</td><td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.my7wwb844zvxcv4o]{Comprehend
+      <h2>Cantrips</h2>
+
+      <p>At 3rd level, you know two cantrips of your choice from the warlock
+      spell list. You learn an additional cantrip at 10th level.</p>
+
+      <h2>Spells Known of 1st-Level or Higher</h2>
+
+      <p>You know two 1st-level spells of your choice from the warlock spell
+      list. The spells count as ranger spells for you.</p>
+
+      <p>The Spells Known column of the Ruin Strider table shows when you learn
+      more warlock spells of your choice. Each of these spells must be of a
+      level that you are able to cast. For instance, when you reach 7th level in
+      this class, you can learn one new spell of 1st or 2nd-level.</p>
+
+      <p>Additionally, when you gain a level in this class, you can choose one
+      of the warlock spells you know and replace it with another spell from the
+      warlock spell list, which also must be of a level of which you can
+      cast.</p>
+
+      <h2>Spell Points</h2>
+
+      <p>The Ruin Strider Spellcasting table shows how many spell points you
+      have to cast your spells of 1st level and higher.</p>
+
+      <p>To cast one of your Ruin Strider spells of 1st-level or higher, you
+      must spend a number of spell points dependent on the spell&rsquo;s
+      level.</p>
+
+      <table style="border-width: 1px; margin-left: auto; margin-right: auto;
+      width: 100%; height: 84px;" border="1"><colgroup><col style="width:
+      40.7767%;"><col style="width: 59.0291%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Spell Level</td>
+
+      <td style="height: 16.8px;">Spell Points Cost</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.8px; text-align: center;">
+
+      <td style="height: 16.8px;">1st</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      </tr>
+
+      <tr style="height: 16.8px; text-align: center;">
+
+      <td style="height: 16.8px;">2nd</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      </tr>
+
+      <tr style="height: 16.8px; text-align: center;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      </tr>
+
+      <tr style="height: 16.8px; text-align: center;">
+
+      <td style="height: 16.8px;">4th</td>
+
+      <td style="height: 16.8px;">6</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>You can also cast a spell you know at a higher spell level by spending
+      the appropriate number of spell points. The maximum spell level you can
+      cast is shown in the Spell Level column of the Ruin Strider table. You
+      regain all expended spell points when you finish a short or long rest.</p>
+
+      <p><strong>Table: Ruin Strider</strong></p>
+
+      <table style="width: 100%; height: 198.8px;" border="1"><colgroup><col
+      style="width: 17.8641%;"><col style="width: 24.8544%;"><col style="width:
+      21.7476%;"><col style="width: 18.4466%;"><col style="width:
+      16.8932%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 47.6px;">
+
+      <td style="height: 47.6px;">Level</td>
+
+      <td style="height: 47.6px;">
+
+      <p>Cantrips</p>
+
+      <p>Known</p>
+
+      </td>
+
+      <td style="height: 47.6px;">
+
+      <p>Spells</p>
+
+      <p>Known</p>
+
+      </td>
+
+      <td style="height: 47.6px;">
+
+      <p>Spell</p>
+
+      <p>Points</p>
+
+      </td>
+
+      <td style="height: 47.6px;">
+
+      <p>Spell</p>
+
+      <p>Level</p>
+
+      </td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1st</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">4th</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1st</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">5th</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">1st</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">6th</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">1st</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">7th</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">2nd</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">8th</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">2nd</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">9th</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">6</td>
+
+      <td style="height: 16.8px;">2nd</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">10th</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">6</td>
+
+      <td style="height: 16.8px;">2nd</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">11th</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">7</td>
+
+      <td style="height: 16.8px;">2nd</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>12th</td>
+
+      <td>3</td>
+
+      <td>5</td>
+
+      <td>7</td>
+
+      <td>2nd</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>13th</td>
+
+      <td>3</td>
+
+      <td>6</td>
+
+      <td>8</td>
+
+      <td>3rd</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>3</td>
+
+      <td>6</td>
+
+      <td>8</td>
+
+      <td>3rd</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>3</td>
+
+      <td>6</td>
+
+      <td>9</td>
+
+      <td>3rd</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>16th</td>
+
+      <td>3</td>
+
+      <td>7</td>
+
+      <td>9</td>
+
+      <td>3rd</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>3</td>
+
+      <td>7</td>
+
+      <td>10</td>
+
+      <td>3rd</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>3</td>
+
+      <td>7</td>
+
+      <td>10</td>
+
+      <td>3rd</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>19th</td>
+
+      <td>3</td>
+
+      <td>8</td>
+
+      <td>11</td>
+
+      <td>4th</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>20th</td>
+
+      <td>3</td>
+
+      <td>8</td>
+
+      <td>11</td>
+
+      <td>4th</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h2>Ruin Strider Spells</h2>
+
+      <p>You learn an additional spell when you reach certain levels in this
+      class, as shown in the Ruin Strider Spells table. The spell counts as a
+      ranger spell for you, but it doesn't count against the number of ranger
+      spells you know.</p>
+
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      13.8263%;"><col style="width: 86.1737%;"></colgroup>
+
+      <tbody>
+
+      <tr>
+
+      <td><strong>Ranger Level</strong></td>
+
+      <td><strong>Additional Spells Known</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.my7wwb844zvxcv4o]{Comprehend
       Languages},
-      @UUID[Compendium.a5e-for-dnd5e.spells.Item.cvrja4dkrr0zoerp]{Entangle}</td></tr><tr><td>7th</td><td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.bt04eqvuxnv602cp]{Spike
-      Growth}</td></tr><tr><td>13th</td><td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.hms9kdl2qoqjjrs4]{Dispel
-      Magic}</td></tr><tr><td>19th</td><td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.3zt20n8mf29x3eju]{Death
-      Ward}</td></tr></tbody></table><h2>Spellcasting Ability</h2><p>The manner
-      in which you have obtained your powers is defined by the means used to
-      uncover those secrets: through deduction, intuition or willpower. Choose
-      Intelligence, Wisdom, or Charisma to be your spellcasting ability. Once
-      you make this choice, you cannot change it. You use the chosen ability
-      whenever a spell refers to your spellcasting ability. In addition, you use
-      that ability modifier when setting the saving throw DC for a ranger spell
-      you cast and when making an attack roll with one.</p><p><strong>Spell save
-      DC</strong> = 8 + your proficiency bonus + your chosen ability
-      modifier</p><p><strong>Spell attack modifier</strong> = your proficiency
-      bonus + your chosen ability modifier</p>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.cvrja4dkrr0zoerp]{Entangle}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.bt04eqvuxnv602cp]{Spike
+      Growth}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>13th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.hms9kdl2qoqjjrs4]{Dispel
+      Magic}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>19th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.3zt20n8mf29x3eju]{Death
+      Ward}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h2>Spellcasting Ability</h2>
+
+      <p>The manner in which you have obtained your powers is defined by the
+      means used to uncover those secrets: through deduction, intuition or
+      willpower. Choose Intelligence, Wisdom, or Charisma to be your
+      spellcasting ability. Once you make this choice, you cannot change it. You
+      use the chosen ability whenever a spell refers to your spellcasting
+      ability. In addition, you use that ability modifier when setting the
+      saving throw DC for a ranger spell you cast and when making an attack roll
+      with one.</p>
+
+      <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your
+      chosen ability modifier</p>
+
+      <p><strong>Spell attack modifier</strong> = your proficiency bonus + your
+      chosen ability modifier</p>
     chat: ''
   source:
     book: ''
@@ -68,4 +497,8 @@ system:
 effects: []
 flags: {}
 _id: 6aewhrs1gs92mo7g
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!6aewhrs1gs92mo7g'

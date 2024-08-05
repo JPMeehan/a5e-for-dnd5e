@@ -2,8 +2,7 @@ name: Empowered Smite
 type: feat
 img: icons/skills/melee/strike-axe-energy-pink.webp
 effects:
-  - icon: icons/skills/melee/strike-axe-energy-pink.webp
-    origin: Item.gr9CzCkcULpMlkRU
+  - origin: Item.dZxzGnll6Rmr5YNY
     flags:
       a5e:
         sort: 0
@@ -38,10 +37,23 @@ effects:
       with a weapon attack. As long as the effect lasts, the target gains no
       benefit from invisibility and has disadvantage on checks made to hide.</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721853138198
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/melee/strike-axe-energy-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!u220f22b3cpphtgb.vvZvwbiXZrsqVdtJ'
-  - icon: icons/skills/melee/strike-axe-energy-pink.webp
-    origin: Item.gr9CzCkcULpMlkRU
+  - origin: Item.dZxzGnll6Rmr5YNY
     flags:
       a5e:
         sort: 0
@@ -67,6 +79,20 @@ effects:
     description: ''
     statuses:
       - prone
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721853138198
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/melee/strike-axe-energy-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!u220f22b3cpphtgb.yhgN7UKeGtUZtZcn'
 flags: {}
@@ -148,7 +174,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d8
+      - - '@classResources.divine-smite-damage'
         - force
     versatile: ''
   formula: ''
@@ -157,5 +183,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721853138128
+  modifiedTime: 1721853298115
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: u220f22b3cpphtgb
 _key: '!items!u220f22b3cpphtgb'

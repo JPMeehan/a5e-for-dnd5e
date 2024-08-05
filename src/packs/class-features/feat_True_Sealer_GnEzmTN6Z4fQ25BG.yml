@@ -1,0 +1,37 @@
+folder: null
+name: True Sealer
+type: feat
+img: icons/magic/control/debuff-chains-ropes-net-red-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-12895066-7fff-1ec4-076f-c08df7bf1ffe">At
+      20th level you learn the most powerful ability of the sealers: once per
+      long rest you can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.tglbndo1acl9he78]{Imprisonment}
+      </span>as a ritual.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: GnEzmTN6Z4fQ25BG
+_key: '!items!GnEzmTN6Z4fQ25BG'

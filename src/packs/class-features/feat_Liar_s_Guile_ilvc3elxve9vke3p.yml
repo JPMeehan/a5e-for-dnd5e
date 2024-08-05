@@ -26,35 +26,12 @@ system:
   uses:
     per: null
     max: null
-effects:
-  - icon: icons/svg/aura.svg
-    origin: Item.12KtwuhVajIJ5THF
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Liar's Guile
-    _id: jmWeC1fvyvrpL5kD
-    changes:
-      - key: system.skills.dec.value
-        mode: 5
-        value: 'true'
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!ilvc3elxve9vke3p.jmWeC1fvyvrpL5kD'
+effects: []
 flags: {}
 folder: null
 _id: ilvc3elxve9vke3p
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ilvc3elxve9vke3p'

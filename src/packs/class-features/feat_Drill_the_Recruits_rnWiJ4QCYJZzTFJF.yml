@@ -1,0 +1,74 @@
+folder: null
+name: Drill the Recruits
+type: feat
+img: icons/environment/people/infantry-army.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can spend 10 minutes instructing another creature in the use of a
+      tool or skill you have proficiency with to give them proficiency on the
+      next check they make using that tool or skill within the next hour.
+      Alternatively, you can simultaneously give this instruction to a number of
+      creatures no more than twice your proficiency bonus, in which case they
+      all gain proficiency on the next group check they make using that tool or
+      skill within the next hour. Once a creature benefits from this bonus, it
+      cannot do so again until it completes a short or long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: rnWiJ4QCYJZzTFJF
+_key: '!items!rnWiJ4QCYJZzTFJF'

@@ -28,7 +28,9 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   uses:
     value: null
     max: ''
@@ -38,46 +40,51 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
-    width: null
-    units: ''
-    type: ''
+    value: 30
+    width: 5
+    units: ft
+    type: line
   range:
     value: null
     long: null
-    units: ''
+    units: self
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: effect
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d4 + @mod
+        - bludgeoning
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/earth/construct-stone.webp
-    origin: Item.bdxw1stm6pqbbqf3
+  - origin: Item.FklTHO8ePa5lyNdF
     flags:
       a5e:
         sort: 0
         transferType: onUse
-        actionId: xAZy2nS4T0rzOq4J
+        actionId: nwBiF49ZXX45LQCP
+        applyToSelf: true
     transfer: false
-    name: Boulder Speed
-    _id: 7AbkKRK4L9x3g2wo
+    name: Curled
+    img: icons/magic/earth/construct-stone.webp
+    _id: 92MbvmeH6BFc6gCI
+    type: base
+    system: {}
     changes:
-      - key: system.attributes.movement.walk
+      - key: flags.a5e.effects.movement.allDistances
         value: '0'
         mode: 6
         priority: null
@@ -90,10 +97,23 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>While in boulder form your Speed is reduced to 0, and you cannot use a
+      shield, make attacks, use your arms, or cast spells with seen
+      components.</p>
+    tint: '#ffffff'
     statuses: []
+    sort: 0
     folder: null
-    _key: '!items.effects!bdxw1stm6pqbbqf3.7AbkKRK4L9x3g2wo'
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!bdxw1stm6pqbbqf3.92MbvmeH6BFc6gCI'
 flags: {}
 _id: bdxw1stm6pqbbqf3
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!bdxw1stm6pqbbqf3'

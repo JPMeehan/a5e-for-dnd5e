@@ -1,0 +1,72 @@
+folder: jczlz1TrOcJzDCz6
+name: Swampwillow Bark
+type: consumable
+img: icons/commodities/wood/bark-beige.webp
+system:
+  description:
+    value: >-
+      <p>This medicinal tea helps the body fight against fevers and acts as a
+      pain reliever. Consuming a dose of swampillow bark gives advantage on
+      saves against disease for 8 hours.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 10
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 7Sy6cFGfngbsqaDq
+_key: '!items!7Sy6cFGfngbsqaDq'

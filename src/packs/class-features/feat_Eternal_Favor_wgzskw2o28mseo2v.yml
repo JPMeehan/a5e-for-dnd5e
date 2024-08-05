@@ -2,8 +2,7 @@ name: Eternal Favor
 type: feat
 img: icons/commodities/treasure/medal-ribbon-gold-blue.webp
 effects:
-  - icon: icons/commodities/treasure/medal-ribbon-gold-blue.webp
-    origin: Item.wgzskw2o28mseo2v
+  - origin: Item.Q1iwnmmBqM9BL517
     flags:
       a5e:
         sort: 0
@@ -27,6 +26,20 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722287177690
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/commodities/treasure/medal-ribbon-gold-blue.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!wgzskw2o28mseo2v.blyGXJA8FRgSJX18'
 flags: {}
@@ -39,11 +52,16 @@ system:
       <p>At 17th level, you gain a token from the gods. While you are wearing
       the token, you are immune to fatigue and the blinded, deafened, and
       poisoned conditions. In addition, you can spend 1 exertion to use your
-      Blessed Prowess feature on any ability check, and you don&rsquo;t need to
-      spend exertion to use Sacred Boons. Finally, when you roll initiative, you
-      can roll your martial arts die and regain that much exertion.</p><p>If
-      your Eternal Favor token is destroyed, the gods bestow another token upon
-      you after you complete an arduous task to prove you are still worthy.</p>
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.6akzshlvm3o5gggj]{Blessed
+      Prowess} feature on any ability check, and you don&rsquo;t need to spend
+      exertion to use
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.f4jzt1u42quvlwtx]{Sacred
+      Boons}. Finally, when you roll initiative, you can roll your martial arts
+      die and regain that much exertion.</p>
+
+      <p>If your Eternal Favor token is destroyed, the gods bestow another token
+      upon you after you complete an arduous task to prove you are still
+      worthy.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -53,11 +71,50 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722287177661
+  modifiedTime: 1722287293729
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: wgzskw2o28mseo2v
 _key: '!items!wgzskw2o28mseo2v'

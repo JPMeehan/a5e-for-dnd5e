@@ -30,6 +30,10 @@ effects:
       Fey, Fiend, or Undead.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!8sawwvnsbxo6lutj.b6Pnhw0PsubhU4WS'
   - icon: icons/creatures/magical/spirit-undead-ghost-purple.webp
     origin: Item.8sawwvnsbxo6lutj
@@ -58,6 +62,10 @@ effects:
       means short of a wish spell.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!8sawwvnsbxo6lutj.O8uzCCvVzb5Zp370'
   - icon: icons/creatures/magical/spirit-undead-ghost-purple.webp
     origin: Item.8sawwvnsbxo6lutj
@@ -89,6 +97,10 @@ effects:
     statuses:
       - frightened
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!8sawwvnsbxo6lutj.Wq95JYVeTKcbdbnJ'
 folder: riV8qst3SvT2320y
 flags:
@@ -197,4 +209,8 @@ system:
     dc: null
     scaling: spell
 _id: 8sawwvnsbxo6lutj
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!8sawwvnsbxo6lutj'

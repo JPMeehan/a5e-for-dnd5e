@@ -1,7 +1,49 @@
 name: Leveling Charge
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/movement/trail-streak-pink.webp
+effects:
+  - origin: Item.rl0UdhtnEIkBolMq
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 4rHKJVOgK1K8rf5b
+    transfer: false
+    name: Prone
+    img: icons/magic/movement/trail-streak-pink.webp
+    _id: i9nmdgCcIQElsCLb
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - prone
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722362164733
+      modifiedTime: 1722362176998
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!6bp4938ilp4rluou.i9nmdgCcIQElsCLb'
 flags: {}
 system:
   type:
@@ -25,10 +67,51 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722362021838
+  modifiedTime: 1722362199237
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 6bp4938ilp4rluou
 _key: '!items!6bp4938ilp4rluou'

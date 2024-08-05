@@ -2,8 +2,7 @@ name: Pressed Spiderbulb
 type: consumable
 img: icons/commodities/flowers/bouquet-pink.webp
 effects:
-  - icon: icons/commodities/flowers/bouquet-pink.webp
-    origin: Item.cd4i6cm0e8y35iso
+  - origin: Item.caI9Csa2hIppc8CB
     flags:
       a5e:
         sort: 0
@@ -28,10 +27,21 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>Consuming this dried flower grants you energy and tightens your
+      reflexes, and after you eat it you gain an expertise die on Dexterity
+      saving throws for 1 hour.</p>
     statuses: []
     tint: '#ffffff'
+    img: icons/commodities/flowers/bouquet-pink.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!cd4i6cm0e8y35iso.49FNBQGy1uB1hMIj'
 flags: {}
 system:
@@ -46,7 +56,7 @@ system:
     book: Adventurer's Guide
     license: OGL 1.0a
   quantity: 1
-  weight: 10
+  weight: 0
   price:
     value: 10
     denomination: gp
@@ -98,4 +108,8 @@ system:
     scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: cd4i6cm0e8y35iso
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!cd4i6cm0e8y35iso'

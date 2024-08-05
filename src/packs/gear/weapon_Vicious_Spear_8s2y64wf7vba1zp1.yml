@@ -2,8 +2,7 @@ name: Vicious Spear
 type: weapon
 img: icons/weapons/polearms/spear-flared-wrapped.webp
 effects:
-  - icon: icons/weapons/polearms/spear-flared-wrapped.webp
-    origin: Item.8s2y64wf7vba1zp1
+  - origin: Item.QBRMIxMNMmkRPm7o
     flags:
       a5e:
         sort: 0
@@ -32,7 +31,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/weapons/polearms/spear-flared-wrapped.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!8s2y64wf7vba1zp1.CzoRKz1aFF2zbPZy'
 flags: {}
 system:
@@ -124,4 +131,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: 8s2y64wf7vba1zp1
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!8s2y64wf7vba1zp1'

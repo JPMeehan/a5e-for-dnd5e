@@ -1,0 +1,39 @@
+folder: null
+name: Rodent Heart
+type: feat
+img: icons/creatures/mammals/rodent-rat-diseaed-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You share a kinship with the small and furry, and share their nervous
+      energy and penchant for small spaces. You can move through spaces one size
+      smaller than your own without squeezing.</p>
+
+      <p>In addition, your flight reflex is so high-tuned that you may move
+      normally while surprised, but you can only take the dash action, and you
+      still cannot take other actions or reactions when surprised as normal.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: LcXlvf1aONuVCOwC
+_key: '!items!LcXlvf1aONuVCOwC'

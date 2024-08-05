@@ -2,8 +2,7 @@ name: Torch
 type: equipment
 img: icons/sundries/lights/torch-brown-lit.webp
 effects:
-  - icon: icons/sundries/lights/torch-brown-lit.webp
-    origin: Item.7tw73cwd1j8zf3g5
+  - origin: Item.ZXkkcOKKjIC2hDRI
     flags:
       a5e:
         sort: 0
@@ -40,7 +39,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/sundries/lights/torch-brown-lit.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!7tw73cwd1j8zf3g5.iswsGw5aTV3nSNGd'
 flags: {}
 system:
@@ -81,7 +88,7 @@ system:
     value: ''
     baseItem: ''
   activation:
-    type: action
+    type: ''
     cost: 1
     condition: ''
   duration: {}
@@ -126,4 +133,8 @@ system:
     scaling: spell
 folder: VRWG3xL5zF1ktOX6
 _id: 7tw73cwd1j8zf3g5
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!7tw73cwd1j8zf3g5'

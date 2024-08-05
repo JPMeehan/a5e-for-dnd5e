@@ -1,0 +1,78 @@
+folder: null
+name: Thoughtsense
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-2935f0e3-7fff-175e-297a-8f913087026c"
+      dir="ltr">You are subtly aware of the presence of nearby thinking
+      creatures.&nbsp; You can use an action to scan for thinking creatures
+      within 30 ft that you can&rsquo;t see.&nbsp; This can only detect
+      creatures with an intelligence of 4 or higher and that speak or understand
+      at least one language.&nbsp; If you detect the presence of a creature in
+      this way, you gain an expertise die on Perception checks made to locate
+      them. The ability penetrates most barriers but is blocked by 2 feet of
+      stone, 2 inches of common metal, or a thin sheet of lead.</p>
+
+      <p dir="ltr">You also have an expertise die on perception checks made to
+      avoid being surprised by qualifying creatures.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: 11th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: k4xMDhH6X88feUM3
+_key: '!items!k4xMDhH6X88feUM3'

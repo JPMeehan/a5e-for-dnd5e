@@ -1,0 +1,39 @@
+name: Bonus Proficiencies
+type: feat
+img: icons/tools/hand/spinning-wheel-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at 3rd level, you gain proficiency with
+      the sewing kit and leatherworker’s tools. If you already had any of these
+      proficiencies you gain an expertise die with that type of tool instead</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722277375462
+  modifiedTime: 1722277508552
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: x51vcbl5emhx40rr
+_key: '!items!x51vcbl5emhx40rr'

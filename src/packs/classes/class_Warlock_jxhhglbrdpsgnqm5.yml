@@ -125,8 +125,9 @@ system:
 
       <td style="height: 16.7969px; text-align: center;">+2</td>
 
-      <td style="height: 16.7969px; text-align: center;">Ability Score
-      Improvement
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.yrcfetjokyci4xk2]{Invocation
       of the Courts (1)}</td>
 
@@ -221,8 +222,9 @@ system:
 
       <td style="height: 16.7969px; text-align: center;">+3</td>
 
-      <td style="height: 16.7969px; text-align: center;">Ability Score
-      Improvement</td>
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="height: 16.7969px; text-align: center;">3</td>
 
@@ -312,8 +314,9 @@ system:
 
       <td style="height: 16.7969px; text-align: center;">+4</td>
 
-      <td style="height: 16.7969px; text-align: center;">Ability Score
-      Improvement
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.gndmzgng98w9k3jq]{Eldritch
       Evolution (2)}</td>
 
@@ -404,8 +407,9 @@ system:
 
       <td style="height: 16.7969px; text-align: center;">+5</td>
 
-      <td style="height: 16.7969px; text-align: center;">Ability Score
-      Improvement
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.yrcfetjokyci4xk2]{Invocation
       of the Courts (3)}</td>
 
@@ -475,8 +479,9 @@ system:
 
       <td style="height: 16.7969px; text-align: center;">+6</td>
 
-      <td style="height: 16.7969px; text-align: center;">Ability Score
-      Improvement&nbsp;</td>
+      <td style="height: 16.7969px; text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}&nbsp;</td>
 
       <td style="height: 16.7969px; text-align: center;">4</td>
 
@@ -568,7 +573,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   startingEquipment:
     - _id: lEKZG7XMZPLkLLW0
@@ -621,9 +626,11 @@ system:
       configuration:
         mode: default
         allowReplacements: false
-        grants:
-          - tool:game:card
-        choices: []
+        grants: []
+        choices:
+          - pool:
+              - tool:game:*
+            count: 1
     - _id: 4yUS8iaQ5Wfi8Whd
       type: Trait
       level: 1
@@ -702,11 +709,88 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dciuxu9yx5f8risp
+    - _id: ZbcsNyifDeYIeAmZ
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: mutCd6NLHguFLM4S
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: WXJkp8hsVH6lOZ4P
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: rk025VcNGI6xi2I9
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 4kNS863hxMMfHnBQ
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: qHNLKCDYfE030i85
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: d96JThQgGXiD5KdL
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: LSKc1VEPtih7rnaO
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: PW7zrsxXaJbcZWKx
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: UCI28l1PsaMoTHRQ
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: none
     progression: pact
   wealth: '110'
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722027329311
+  modifiedTime: 1722027609696
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: jxhhglbrdpsgnqm5
 _key: '!items!jxhhglbrdpsgnqm5'

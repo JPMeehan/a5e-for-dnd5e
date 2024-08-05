@@ -55,13 +55,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d4
-        - bludgeoning
-      - - 1d6
-        - bludgeoning
-      - - 1d8
-        - bludgeoning
-      - - 1d10
+      - - '@classResources.martial-arts'
         - bludgeoning
     versatile: ''
   formula: ''
@@ -70,5 +64,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721839652784
+  modifiedTime: 1721839690701
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 2u56zuxp8t3ch366
 _key: '!items!2u56zuxp8t3ch366'

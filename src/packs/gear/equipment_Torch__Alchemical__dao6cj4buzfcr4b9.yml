@@ -1,7 +1,92 @@
 name: Torch (Alchemical)
 type: equipment
 img: icons/sundries/lights/torch-white.webp
-effects: []
+effects:
+  - origin: Item.e1OEzVhRgGgzSOE4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PpLBS3C2ZudfkEnu
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Light
+    img: icons/sundries/lights/torch-white.webp
+    _id: YUXxYA5MM79LVumS
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '10'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '20'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!dao6cj4buzfcr4b9.YUXxYA5MM79LVumS'
+  - origin: Item.e1OEzVhRgGgzSOE4
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PpLBS3C2ZudfkEnu
+        duration:
+          unit: hours
+    transfer: false
+    name: Underwater
+    img: icons/sundries/lights/torch-white.webp
+    _id: Yhh6hVl9XE4hMYpP
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '0'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '5'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!dao6cj4buzfcr4b9.Yhh6hVl9XE4hMYpP'
 flags: {}
 system:
   description:
@@ -43,6 +128,47 @@ system:
   type:
     value: ''
     baseItem: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: VRWG3xL5zF1ktOX6
 _id: dao6cj4buzfcr4b9
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!dao6cj4buzfcr4b9'

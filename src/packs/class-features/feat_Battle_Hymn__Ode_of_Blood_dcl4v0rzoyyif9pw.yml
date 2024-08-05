@@ -28,6 +28,10 @@ effects:
     description: "<p>\_If the target is dying, it continues making death saving throws but regains consciousness for up to 3 rounds. The target falls unconscious again if it\_takes damage, and it dies if it fails its last death saving throw. Once a creature has\_benefited from this battle hymn, it can’t benefit from it again until it finishes a rest.</p>"
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!dcl4v0rzoyyif9pw.Oz86SvIns37QdbxU'
 flags: {}
 system:
@@ -92,4 +96,8 @@ system:
     scaling: spell
 folder: null
 _id: dcl4v0rzoyyif9pw
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!dcl4v0rzoyyif9pw'

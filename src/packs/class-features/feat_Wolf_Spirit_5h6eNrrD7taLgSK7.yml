@@ -1,0 +1,74 @@
+folder: null
+name: Wolf Spirit
+type: feat
+img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You share a kinship with the wolves, and find it hard to resist howling
+      at the moon. You gain an expertise die on Animal Handling checks regarding
+      wolves and other canine creatures.</p>
+
+      <p>In addition, you gain the ability to howl like a wolf as an action.
+      This wolf howl is magically amplified, and is audible up to a range of 5
+      miles. This howl can carry information in Druidic, and can be understood
+      by wolves, canines, and other creatures that can understand Druidic.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 5
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 5h6eNrrD7taLgSK7
+_key: '!items!5h6eNrrD7taLgSK7'

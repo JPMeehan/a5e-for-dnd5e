@@ -20,7 +20,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
+    type: ''
+    cost: 1
   uses:
     value: null
     max: ''
@@ -37,7 +38,7 @@ system:
   range:
     value: null
     long: null
-    units: self
+    units: ''
   consume:
     type: ''
     target: null
@@ -51,7 +52,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d4+@prof
+      - - '@classResources.martial-arts + @prof'
         - temphp
     versatile: ''
   formula: ''
@@ -62,5 +63,12 @@ system:
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722135703288
+  modifiedTime: 1722135788657
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 6yz4iqstgcpic2nl
 _key: '!items!6yz4iqstgcpic2nl'

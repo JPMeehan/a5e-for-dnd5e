@@ -1,0 +1,46 @@
+name: Channel Divinity (Green Knight)
+type: feat
+img: icons/magic/nature/leaf-drip-light-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level when you choose this archetype, you gain the following two
+      Channel Divinity options.</p>
+
+      <h2>Blessing of Nature</h2>
+
+      <p>For the next hour, you have advantage on Persuasion checks made to
+      influence druids and beasts. Alternatively, you can end the blessing early
+      to gain advantage on a Survival check made to find Supply or a haven in
+      the wilderness.</p>
+
+      <h2>Rely on Nature</h2>
+
+      <p>When you fail a Nature or Survival check, you can use your reaction to
+      succeed instead.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: 6adhlw3mitbhka1h
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!6adhlw3mitbhka1h'

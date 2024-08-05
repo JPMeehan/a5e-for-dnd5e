@@ -2,8 +2,7 @@ name: Boon of Death
 type: feat
 img: icons/magic/death/grave-tombstone-glow-teal.webp
 effects:
-  - icon: icons/magic/death/grave-tombstone-glow-teal.webp
-    origin: Item.ij9klrsheir2vaka
+  - origin: Item.clZ5eexyMLzdrunL
     flags:
       a5e:
         sort: 0
@@ -31,6 +30,20 @@ effects:
       startTurn: null
     description: <p>Advantage on death saving throws.</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722286860935
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/death/grave-tombstone-glow-teal.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!ij9klrsheir2vaka.2ZL7d41UtckiGrHv'
 flags: {}
@@ -87,13 +100,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d4 +@prof
-        - temphp
-      - - 1d6 +@prof
-        - temphp
-      - - 1d8 +@prof
-        - temphp
-      - - 1d8 +@prof
+      - - '@classResources.martial-arts + @prof'
         - temphp
     versatile: ''
   formula: ''
@@ -102,5 +109,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722286860884
+  modifiedTime: 1722286908728
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: ij9klrsheir2vaka
 _key: '!items!ij9klrsheir2vaka'

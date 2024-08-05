@@ -1,0 +1,51 @@
+folder: null
+name: Tenets of the Gloryseeker
+type: feat
+img: icons/sundries/misc/ladder-improvised.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>All gloryseekers follow similar tenets.</p>
+
+      <ul>
+
+      <li><strong>Death or Glory. </strong>You must be willing to put everything
+      on the line. A death in glory is better than a life in shame.</li>
+
+      <li><strong>My Name will Live On.</strong> You must craft a legacy for
+      yourself, not only performing great deeds but ensuring those deeds are
+      known, and your fame will outlive you.</li>
+
+      <li><strong>Beneath You.</strong> Do not sully yourself with mundane and
+      ordinary tasks, except where absolutely necessary.</li>
+
+      <li><strong>Eternal Drive.</strong> Never be satisfied, and do not rest on
+      your laurels. Always strive to better yourself and seek out new
+      accomplishments.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: f2lseeuzig5x0do1
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!f2lseeuzig5x0do1'

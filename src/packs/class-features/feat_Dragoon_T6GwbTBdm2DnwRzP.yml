@@ -1,0 +1,39 @@
+folder: null
+name: Dragoon
+type: feat
+img: icons/environment/creatures/horse-tan.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Even if you don&rsquo;t currently own a mount, you have grown up around
+      horses and other beasts of burden and know how to handle them and keep
+      them calm in almost any situation&mdash;even in the heat of battle. You
+      gain proficiency in Animal Handling, or an expertise die if you were
+      already proficient. Mounts and pack animals in the service of you or your
+      allies that are within the range of your Commanding Presence have
+      advantage on saving throws made to resist fear.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: T6GwbTBdm2DnwRzP
+_key: '!items!T6GwbTBdm2DnwRzP'

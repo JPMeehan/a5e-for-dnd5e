@@ -1,7 +1,52 @@
 name: Cunning Words
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/control/mouth-smile-deception-purple.webp
+effects:
+  - origin: Item.W3utkj73fBu7JNLI
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 6EwYo5q7viFtTl2U
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    img: icons/magic/control/mouth-smile-deception-purple.webp
+    _id: DO1gSdRPYX3BgjoH
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 0
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - rattled
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: 1722288211550
+      modifiedTime: 1722288240083
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!xrdb2npz5mq1wnfu.DO1gSdRPYX3BgjoH'
 flags: {}
 system:
   type:
@@ -34,7 +79,7 @@ system:
     cost: 1
     condition: >-
       When a creature that you can see within 60 feet makes an ability check,
-      attack roll, or damage roll.
+      attack roll, or damage roll
   uses:
     value: null
     max: ''
@@ -57,7 +102,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -72,5 +117,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722288113769
+  modifiedTime: 1722288211593
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: xrdb2npz5mq1wnfu
 _key: '!items!xrdb2npz5mq1wnfu'

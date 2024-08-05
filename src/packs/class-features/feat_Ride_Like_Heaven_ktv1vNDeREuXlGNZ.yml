@@ -1,0 +1,40 @@
+folder: null
+name: Ride Like Heaven
+type: feat
+img: icons/commodities/leather/ring-leather.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Animal Handling checks, and you can
+      channel healing power into your mount, soothing tired muscles and calming
+      its pounding heart, allowing it to briefly exceed its normal limits. While
+      riding a mount, you can spend 10
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.my42mip0qc35rcp2]{Lay
+      on Hands} points to allow your mount to move at a gallop speed for an
+      additional hour. Once a given mount has been affected by this feature, it
+      cannot be again until it has finished a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: ktv1vNDeREuXlGNZ
+_key: '!items!ktv1vNDeREuXlGNZ'

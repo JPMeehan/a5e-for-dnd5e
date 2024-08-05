@@ -1,0 +1,37 @@
+folder: null
+name: Artillery Engineer
+type: feat
+img: icons/sundries/documents/blueprint-shield.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-0f3ad5b9-7fff-9663-0cc7-40a6742e5d15">You
+      have spent long hours studying blueprints for siege weaponry and have
+      learned how they work. You gain proficiency in Engineering, or an
+      expertise die if you are already proficient. Additionally, you gain the
+      siegecraft specialty in Engineering. </span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: U3vTobgHTULNyWkr
+_key: '!items!U3vTobgHTULNyWkr'

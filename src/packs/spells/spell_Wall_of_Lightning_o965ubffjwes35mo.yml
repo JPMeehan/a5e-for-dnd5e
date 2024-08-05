@@ -115,6 +115,10 @@ effects:
     statuses:
       - blinded
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!o965ubffjwes35mo.jzzZyc01JGi8w4Th'
   - icon: icons/magic/lightning/bolts-strike-salvo-blue.webp
     origin: Item.o965ubffjwes35mo
@@ -146,6 +150,10 @@ effects:
     statuses:
       - blinded
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!o965ubffjwes35mo.EOIWgDkhwvkhOkj4'
 flags:
   a5e-for-dnd5e:
@@ -155,4 +163,8 @@ flags:
       - lightning
     rareSpell: false
 _id: o965ubffjwes35mo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!o965ubffjwes35mo'

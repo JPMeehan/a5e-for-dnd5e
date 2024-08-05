@@ -1,0 +1,139 @@
+folder: null
+name: Mind over Matter
+type: feat
+img: icons/magic/control/debuff-energy-hold-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at 3rd level your mental discipline
+      allows you to psionically enhance your physical prowess. Any time an adept
+      feature makes reference to your Wisdom modifier, you can instead use your
+      Intelligence modifier.<span style="mso-spacerun: yes;">&nbsp; </span>You
+      can also use your Intelligence modifier in place of your Strength or
+      Dexterity modifier when calculating your maneuver DC.</p>
+
+      <p>Lastly when you use the Flurry of Blows, Long Step, or Patient Defense
+      abilities, you gain an additional benefit.</p>
+
+      <h2>Flurry of Blows</h2>
+
+      <p>You deal additional psychic damage equal to your Intelligence modifier
+      with your Flurry of Blows attacks.</p>
+
+      <h2>Long Step</h2>
+
+      <p>You increase your total movement speed by an amount equal to 5 x your
+      Intelligence modifier.<span style="mso-spacerun: yes;">&nbsp; </span>This
+      bonus is added after all other modifications to your movement speed and is
+      not multiplied by dashing, the haste spell, or other similar effects.</p>
+
+      <h2>Patient Defense</h2>
+
+      <p>You can use your reaction when you would be hit by an attack to
+      increase your AC against that attack by an amount equal to your
+      Intelligence modifier.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: When you would be hit by an attack
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.6rdJ7cK6ZHAamBls
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 0m0gNDh3hhQJz8Gx
+        applyToSelf: true
+    transfer: false
+    name: Long Step
+    img: icons/magic/control/debuff-energy-hold-yellow.webp
+    _id: 3iEAW1asRFtPWTyH
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        value: 5 * @int.mod
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: 1722150679377
+      modifiedTime: 1722150705096
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!8il5rxgy2n496avf.3iEAW1asRFtPWTyH'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722150515259
+  modifiedTime: 1722150754568
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 8il5rxgy2n496avf
+_key: '!items!8il5rxgy2n496avf'

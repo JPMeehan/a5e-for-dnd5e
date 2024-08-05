@@ -1,0 +1,114 @@
+name: Healer Spells
+type: feat
+img: icons/magic/life/cross-area-circle-green-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <table style="width: 100%; height: 134.4px;" border="1"><colgroup><col
+      style="width: 17.5282%;"><col style="width: 82.4718%;"></colgroup>
+
+      <thead>
+
+      <tr style="height: 16.8px;">
+
+      <td style="height: 16.8px;">Cleric Level</td>
+
+      <td style="height: 16.8px;">Spells</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 50.4px;">
+
+      <td style="height: 50.4px;">1</td>
+
+      <td style="height:
+      50.4px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.1vo427vjnzgzb5z2]{Cure
+      Wounds}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.zzv2xb2kvvcyci4i]{Healing
+      Word}</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.sgiwn0n20mnf1ddx]{Lesser
+      Restoration}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.n7bcmq63al484n6k]{Prayer of
+      Healing}</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.j0bnvt8trarh7yi7]{Beacon
+      of Hope} @UUID[Compendium.a5e-for-dnd5e.spells.Item.ubzeov7qutgmtecs]{Mass
+      Healing Word}</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="height: 16.8px;">7</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.odvq2q7j2ijuxfyi]{Rage
+      of the Meek}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.rvp7imtsq1ilkj8h]{Tearful
+      Sonnet}</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="height: 16.8px;">9</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.c2mhqi8hbsck0pdy]{Flame
+      Strike}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.2fn904xje78xc7de]{Greater
+      Restoration}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721933382929
+  modifiedTime: 1721933605440
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: aen55f0xxu4yrnte
+_key: '!items!aen55f0xxu4yrnte'

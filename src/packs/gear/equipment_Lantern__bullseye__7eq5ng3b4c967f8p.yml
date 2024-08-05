@@ -1,7 +1,54 @@
 name: Lantern (bullseye)
 type: equipment
 img: icons/sundries/lights/lantern-bullseye-signal-copper.webp
-effects: []
+effects:
+  - origin: Item.VDKfzVgLHrt32KCv
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: kx62MAxlrMJKrd9g
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Light
+    img: icons/sundries/lights/lantern-bullseye-signal-copper.webp
+    _id: Fb70vShRhw4ppRXb
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '60'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '120'
+        mode: 6
+        priority: null
+      - key: '@token.light.angle'
+        value: '60'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 21600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!7eq5ng3b4c967f8p.Fb70vShRhw4ppRXb'
 flags: {}
 system:
   description:
@@ -40,6 +87,47 @@ system:
   type:
     value: ''
     baseItem: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: VRWG3xL5zF1ktOX6
 _id: 7eq5ng3b4c967f8p
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!7eq5ng3b4c967f8p'

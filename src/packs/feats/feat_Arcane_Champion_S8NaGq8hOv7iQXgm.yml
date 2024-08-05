@@ -1,0 +1,55 @@
+name: Arcane Champion
+type: feat
+img: icons/magic/symbols/runes-triangle-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>You combine the scholarship of a wizard with the commitment of a
+      herald. This is a difficult path tread by few, but you have embarked on
+      it. You gain the following benefits:</p>
+
+      <ul>
+
+      <li>Your Strength, Intelligence or Charisma score increases by 1, to a
+      maximum of 20.</li>
+
+      <li>When you use
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.iqlgotutphoratct]{Arcane
+      Recovery}, you also regain a number of
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.my42mip0qc35rcp2]{Lay
+      on Hands} points equal to your herald level.</li>
+
+      <li>You can cast a herald spell as a ritual if that spell has the ritual
+      tag and you have the spell prepared.</li>
+
+      <li>You gain proficiency with the Arcana and Religion skills. If you are
+      already proficient, you gain an expertise die instead. You also gain a
+      skill specialty of your choice with each skill.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: 3 levels in herald, 3 levels in wizard
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: S8NaGq8hOv7iQXgm
+_key: '!items!S8NaGq8hOv7iQXgm'

@@ -1,7 +1,205 @@
 name: Art Specialty
 type: feat
 img: icons/skills/trades/music-notes-sound-blue.webp
-effects: []
+effects:
+  - origin: Item.6uJ6g4W0lx23FUwg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QPxFD61CPI9bEKLy
+        duration:
+          type: seconds
+          unit: hours
+    transfer: false
+    name: 'Art Specialty: Percussion'
+    img: icons/skills/trades/music-notes-sound-blue.webp
+    _id: MG2T8lgyzzHWQwiD
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Any instrument played by being struck or scraped (either by other
+      instruments or against each other) qualifies as a percussion instrument.
+      When you cast a bard spell from the sound school using a percussion
+      instrument as your spell focus, double the spell's range. A sound spell
+      that has a range of Touch increases its range to 30 feet.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!ttee3cjugnnohcyn.MG2T8lgyzzHWQwiD'
+  - origin: Item.6uJ6g4W0lx23FUwg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QPxFD61CPI9bEKLy
+        duration:
+          type: seconds
+          unit: hours
+    transfer: false
+    name: 'Art Specialty: String Instruments'
+    img: icons/skills/trades/music-notes-sound-blue.webp
+    _id: UhqieoB3JEADYuYv
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>String instruments are played by plucking and twanging strings. When
+      using a string instrument as a spell focus, whenever you cast a bard spell
+      from the movement or teleportation school, you can target an additional
+      creature within 15 feet of you.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!ttee3cjugnnohcyn.UhqieoB3JEADYuYv'
+  - origin: Item.6uJ6g4W0lx23FUwg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QPxFD61CPI9bEKLy
+        duration:
+          type: seconds
+          unit: hours
+    transfer: false
+    name: 'Art Specialty: Visual'
+    img: icons/skills/trades/music-notes-sound-blue.webp
+    _id: jiy6DLKlCcz4lW8Q
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>There are many ways to undertake a visual performance, whether through
+      illustration, illusion magic, or legerdemain. When using visual art as a
+      spell focus, whenever you cast a bard spell, you can make one ally that
+      can see you the point of origin of that spell. You must be able to see any
+      targets of the spell.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!ttee3cjugnnohcyn.jiy6DLKlCcz4lW8Q'
+  - origin: Item.6uJ6g4W0lx23FUwg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QPxFD61CPI9bEKLy
+        duration:
+          type: seconds
+          unit: hours
+    transfer: false
+    name: 'Art Specialty: Voice'
+    img: icons/skills/trades/music-notes-sound-blue.webp
+    _id: ktIhe6gnsammg0CX
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When using this musical art as a spell focus, you have advantage on
+      checks made to maintain concentration on a bard spell.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!ttee3cjugnnohcyn.ktIhe6gnsammg0CX'
+  - origin: Item.6uJ6g4W0lx23FUwg
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QPxFD61CPI9bEKLy
+        duration:
+          type: seconds
+          unit: hours
+    transfer: false
+    name: 'Art Specialty: Wind Instruments'
+    img: icons/skills/trades/music-notes-sound-blue.webp
+    _id: AiLqd85aXmIzcF1z
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Any instrument played by passing air through it qualifies as a wind
+      instrument. When you cast a bard spell using a wind instrument as a spell
+      focus, you can make a Deception or Performance check as a part of casting
+      the spell. Creatures with a passive Insight score equal to or less than
+      the result of your check do not see or hear you cast the spell. Once you
+      have used this feature three times, you cannot do so again until you
+      finish a long rest.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!ttee3cjugnnohcyn.AiLqd85aXmIzcF1z'
 flags: {}
 system:
   type:
@@ -40,16 +238,17 @@ system:
       to see any targets of the&nbsp;spell.</p>
 
       <p><strong>Voice (Humming, Insults, Oration, </strong><strong>Singing).
-      </strong>When using this musical art as&nbsp;a spell focus, you have
-      advantage on&nbsp;checks made to maintain concentration on&nbsp;a bard
-      spell.<br>Wind Instruments (Bagpipes, Flute,&nbsp;Horn, Ocarina,
-      Trombone). Any&nbsp;instrument played by passing air through
-      it&nbsp;qualifies as a wind instrument. When you&nbsp;cast a bard spell
-      using a wind instrument&nbsp;as a spell focus, you can make
-      a&nbsp;Deception or Performance check as a part&nbsp;of casting the spell.
-      Creatures with a&nbsp;passive Insight score equal to or less than&nbsp;the
-      result of your check do not see or hear&nbsp;you cast the spell. Once you
-      have used&nbsp;this feature three times, you can&rsquo;t d</p>
+      </strong>When using this musical art as a spell focus, you have advantage
+      on checks made to maintain concentration on a bard spell.</p>
+
+      <p><strong>Wind Instruments (Bagpipes, Flute, Horn, Ocarina,
+      Trombone).</strong> Any instrument played by passing air through it
+      qualifies as a wind instrument. When you cast a bard spell using a wind
+      instrument as a spell focus, you can make a Deception or Performance check
+      as a part of casting the spell. Creatures with a passive Insight score
+      equal to or less than the result of your check do not see or hear you cast
+      the spell. Once you have used this feature three times, you cannot do so
+      again until you finish a long rest.</p>
     chat: ''
   source:
     book: ''
@@ -59,11 +258,47 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: skillCheck
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
 _id: ttee3cjugnnohcyn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ttee3cjugnnohcyn'

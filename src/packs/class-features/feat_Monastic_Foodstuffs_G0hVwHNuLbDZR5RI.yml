@@ -1,0 +1,43 @@
+folder: null
+name: Monastic Foodstuffs
+type: feat
+img: icons/consumables/grains/bread-loaf-boule-rustic-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You come from a religious order that creates some kind of foodstuff as
+      part of monastic practice. Common variations on this theme are bread,
+      cheese, beer, and wine, but it can be almost anything. You gain
+      proficiency with brewer&rsquo;s supplies and cook&rsquo;s tools. In
+      addition, your order has carefully created and maintained a small
+      collection of secret recipes. Trade goods you produce with cook&rsquo;s
+      tools or brewer&rsquo;s supplies have double their usual value. Finally,
+      your culinary knowledge is refined enough that you can identify spices and
+      other foodstuffs by appearance and smell and can tell cheap or fake
+      imitations from the genuine article without the need for an ability
+      check.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: G0hVwHNuLbDZR5RI
+_key: '!items!G0hVwHNuLbDZR5RI'

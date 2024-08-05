@@ -10,8 +10,9 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Also at level 3, all spells of the nature school count as bard spells
-      for you.</p>
+      <p>Also at level 3, when you would learn a new bard spell, you may select
+      it from the bard list or the <em>nature </em>school. Spells from the
+      nature school selected this way count as Bard spells for you.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -26,5 +27,12 @@ system:
   uses:
     per: null
     max: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722260781446
+  modifiedTime: 1722260831177
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: bd99oz08csvib2yq
 _key: '!items!bd99oz08csvib2yq'

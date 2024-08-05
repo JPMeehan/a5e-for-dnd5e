@@ -1,0 +1,74 @@
+folder: null
+name: Studied Mediation
+type: feat
+img: icons/skills/social/diplomacy-unity-alliance.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-0b118357-7fff-7ae7-cea6-9b8fd6c992b8">If a
+      creature other than you makes a Deception, Intimidation, or Persuasion
+      check while communicating with one of your studied adversaries, you can
+      use your reaction to make the same check. You can replace their roll with
+      your own, potentially changing the outcome.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      A creature other than you makes a Deception, Intimidation, or Persuasion
+      check while communicating with one of your studied adversaries
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: DYArgOYakrgKhZy3
+_key: '!items!DYArgOYakrgKhZy3'

@@ -94,6 +94,10 @@ effects:
     description: <p>You have a fly speed of 50 feet.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!izzlyu28mp9mxb2l.JAz9dUiKRa1KQI65'
   - icon: icons/creatures/abilities/wing-batlike-white-blue.webp
     origin: Item.izzlyu28mp9mxb2l
@@ -123,7 +127,15 @@ effects:
     description: "<p>Because of your large wing span, while flying you occupy the the space of a Huge-sized creature (15 feet wide). You cannot squeeze through smaller spaces while flying.\_</p>"
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!izzlyu28mp9mxb2l.WyFGqzdZwWgRh4rP'
 flags: {}
 _id: izzlyu28mp9mxb2l
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!izzlyu28mp9mxb2l'

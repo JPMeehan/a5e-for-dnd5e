@@ -1,6 +1,6 @@
 name: Evolving Hurricane
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/air/air-burst-spiral-large-blue.webp
 effects: []
 flags: {}
 system:
@@ -24,10 +24,7 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: ''
-    cost: 1
-    condition: ''
+  activation: {}
   uses:
     value: null
     max: ''
@@ -65,5 +62,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721857452736
+  modifiedTime: 1721857517266
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: m5djvkyry5ftz5hu
 _key: '!items!m5djvkyry5ftz5hu'

@@ -1,0 +1,83 @@
+name: Forbidden Lore
+type: feat
+img: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you take this archetype at level 1, your studies and interaction
+      with forbidden lore and fallen divinity grants you power of your own. You
+      gain proficiency in Arcana with a skill specialization in Forbidden Lore
+      and gain one of the following:</p>
+
+      <h2>Vestigialist&rsquo;s Curse</h2>
+
+      <p>You can use a bonus action to place a curse on a creature you can see
+      within 30 feet. The curse lasts for 1 minute, and ends early if the target
+      dies, you die, or you become incapacitated.</p>
+
+      <p>The curse has the following effects:</p>
+
+      <p>Choose radiant damage or necrotic damage. When you deal damage against
+      the cursed creature, it takes an additional 1d4 damage of the chosen type.
+      This bonus increases by 1d4 at 10th level, and again at 15th and 20th
+      level.</p>
+
+      <p>You gain a pool of vestige dice, which begins empty. Each vestige die
+      represents a flashes of supernatural knowledge granted by your patron.
+      When the cursed creature ends its turn under the effects of one or more of
+      the Charmed, Confused, Frightened, or Rattled conditions, add one vestige
+      die to this pool. You can spend a vestige die when making an Arcana,
+      History, or Religion check to gain a 1d4 bonus, or when making a death
+      save or concentration check to gain a 1d4 bonus. The pool disappears when
+      you finish a short or long rest.</p>
+
+      <h2>Lost Knowledge</h2>
+
+      <p>You gain proficiency with the Religion skill and gain the skill
+      specialty of your choice of cults or prophecy. You also gain proficiency
+      with the History skill and gain the skill specialty of either legends or
+      genealogy. You also learn the following spells at the following levels,
+      and they do not count against your spells known:</p>
+
+      <p>1st level:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.z7r6plq6vyesck07]{Faerie
+      Fire}</p>
+
+      <p>3rd level:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.wbbjargj0lf23adk]{Moonbeam}</p>
+
+      <p>5th level:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.l0xg2yboy5z633pr]{Venomous
+      Succor}</p>
+
+      <p>7th level:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.8zkp58t1apo10fqk]{Banishment}</p>
+
+      <p>9th level:
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.r6eshb9jaeqc70mp]{Hallow}</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Cultist'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: J6kt3PPjwcmC4FLT
+_key: '!items!J6kt3PPjwcmC4FLT'

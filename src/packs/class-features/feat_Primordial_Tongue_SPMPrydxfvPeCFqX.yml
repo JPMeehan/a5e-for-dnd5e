@@ -1,0 +1,80 @@
+folder: null
+name: Primordial Tongue
+type: feat
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-fdc4133a-7fff-bd30-4db9-ae4309fcc1b4"
+      dir="ltr">Also at 3rd level, your close trafficking with elementals has
+      taught you their language. You gain a bonus language, depending on your
+      Elemental Affinity; if you later gain more Elemental Affinities, you learn
+      those languages as well.</p>
+
+      <p dir="ltr"><strong>Air:</strong> Auran</p>
+
+      <p dir="ltr"><strong>Earth:</strong> Terran</p>
+
+      <p dir="ltr"><strong>Fire:</strong> Ignan</p>
+
+      <p><strong>Water:</strong> Aquan</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects:
+  - origin: Item.t5E1my08ebNih80g
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+    transfer: false
+    name: Primordial Tongue
+    _id: 31yfMirstr5fMHCu
+    changes:
+      - key: system.proficiencies.languages
+        value: Auran
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!SPMPrydxfvPeCFqX.31yfMirstr5fMHCu'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: SPMPrydxfvPeCFqX
+_key: '!items!SPMPrydxfvPeCFqX'

@@ -44,13 +44,13 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: self
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -58,7 +58,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d8
+      - - 2d8
         - thunder
     versatile: ''
   formula: ''
@@ -66,7 +66,59 @@ system:
     ability: con
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.bjNdSEkx807mdz45
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: wqM64OeM4wspgSRL
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Deafened
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    _id: DKJzW8VtTgTbpxAA
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["deafened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - deafened
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: 1722270227724
+      modifiedTime: 1722270242373
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!btfhban7qf2ai4lz.DKJzW8VtTgTbpxAA'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722270163129
+  modifiedTime: 1722270227775
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: btfhban7qf2ai4lz
 _key: '!items!btfhban7qf2ai4lz'

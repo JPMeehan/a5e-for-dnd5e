@@ -1,6 +1,6 @@
 name: Evolving Venom
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/acid/dissolve-pool-bubbles.webp
 effects: []
 flags: {}
 system:
@@ -11,9 +11,9 @@ system:
     value: >-
       <p>When you cast a spell that deals poison damage, you can spend 1 sorcery
       point and choose one creature you can see. If the target creature takes
-      poison damage from the spell, it takes [[/r 2d6 #ongoing poison]] ongoing
-      poison damage for 1 minute or until a creature uses an action to treat the
-      victim (requiring a Medicine check against your spell save DC).</p>
+      poison damage from the spell, it takes 2d6 ongoing poison damage for 1
+      minute or until a creature uses an action to treat the victim (requiring a
+      Medicine check against your spell save DC).</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -23,10 +23,7 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: ''
-    cost: 1
-    condition: ''
+  activation: {}
   uses:
     value: null
     max: ''
@@ -36,13 +33,14 @@ system:
   cover: null
   crewed: false
   target:
-    value: 0
+    value: null
     width: null
     units: ''
-    type: creature
+    type: ''
   range:
+    value: null
     long: null
-    units: ft
+    units: ''
   consume:
     type: ''
     target: null
@@ -65,5 +63,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721857655776
+  modifiedTime: 1721857754940
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 32j20t2dhaivos46
 _key: '!items!32j20t2dhaivos46'

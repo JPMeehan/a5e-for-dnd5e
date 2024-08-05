@@ -36,13 +36,13 @@ system:
   cover: null
   crewed: false
   target:
-    value: 1
+    value: 2
     width: null
     units: ''
     type: creature
   range:
-    value: 20
-    long: null
+    value: 10
+    long: 20
     units: ft
   consume:
     type: ''
@@ -57,7 +57,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1 + @mod
+      - - '@classResources.martial-arts + @mod'
         - bludgeoning
     versatile: ''
   formula: ''
@@ -68,5 +68,12 @@ system:
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722149168436
+  modifiedTime: 1722149400926
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: w3hakmlsnoouzdqj
 _key: '!items!w3hakmlsnoouzdqj'

@@ -1,7 +1,44 @@
 name: Lavender Paste
 type: consumable
 img: icons/consumables/potions/potion-bottle-labeled-stopped-purple.webp
-effects: []
+effects:
+  - origin: Item.p505zZtJ2xNgtkRN
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 2Iy0v1jbNJ0aTfDf
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Mosquito Netting (Lavender Paste)
+    img: icons/consumables/potions/potion-bottle-labeled-stopped-purple.webp
+    _id: bHi6W3T5A8g1BW19
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This paste provides protection from small insects while sleeping in
+      jungles, swamps, or similar environments.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!lamxdxcl7gqxy5zt.bHi6W3T5A8g1BW19'
 flags: {}
 system:
   description:
@@ -17,9 +54,9 @@ system:
     book: Adventurer's Guide
     license: OGL 1.0a
   quantity: 1
-  weight: 1
+  weight: 0.5
   price:
-    value: 35
+    value: 10
     denomination: gp
   attunement: 0
   equipped: false
@@ -29,7 +66,46 @@ system:
     value: potion
     subtype: ''
   uses:
-    autoDestroy: false
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: lamxdxcl7gqxy5zt
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!lamxdxcl7gqxy5zt'

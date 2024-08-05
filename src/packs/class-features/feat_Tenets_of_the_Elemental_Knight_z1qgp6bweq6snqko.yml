@@ -1,0 +1,51 @@
+folder: null
+name: Tenets of the Elemental Knight
+type: feat
+img: icons/skills/trades/academics-merchant-scribe.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Elemental knights hold similar tenets, reflecting the noble pursuit of
+      the scholarly knight.</p>
+
+      <ul>
+
+      <li><strong>Live Responsibly.</strong> Your life has consequences. Seek
+      righteousness in all things.</li>
+
+      <li><strong>Study Courageously.</strong> Learn everything you can. No fact
+      of the matter has power over the faith in your heart.</li>
+
+      <li><strong>Serve With Integrity.</strong> Always question why and for
+      whom you lift your blade. Always back the true cause of justice.</li>
+
+      <li><strong>Act Decisively.</strong> Build contingencies and outplan
+      enemies, but never let these distract you from your chance at
+      victory.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: z1qgp6bweq6snqko
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!z1qgp6bweq6snqko'

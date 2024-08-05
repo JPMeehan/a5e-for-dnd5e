@@ -1,0 +1,47 @@
+folder: null
+name: A Blade, Yet Not a Blade
+type: feat
+img: icons/weapons/swords/sword-flanged-lightning.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may use your pact weapon as a spellcasting focus for warlock
+      spells, and the following eldritch invocations can be used on attacks with
+      your pact weapon in addition to
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ulmcmf3ofmpzmgzf]{Eldritch
+      Blast}:
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.gxe8tx6gip6p084g]{Eldritch
+      Grasp},
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.2rfb3j6xsjn5hi24]{Eldritch
+      Elementalism} (applying only to the bludgeoning, piercing, and slashing
+      damage of the weapon itself, not bonus damage of other types form magic
+      weapons or class abilities),
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.q3w500g29z8pkwoq]{Eldritch
+      Tentacle}, and
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.1yyq4vdsrc45u5t3]{Repelling
+      Blast}.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Pact of the Blade, 7th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: kCZ19gjwxlD98oOY
+_key: '!items!kCZ19gjwxlD98oOY'

@@ -1,0 +1,78 @@
+folder: null
+name: Channel Divinity (Sealer)
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">Finally at 3rd level, you gain the following two Channel
+      Divinity options.</p>
+
+      <h3 dir="ltr">Sealer&rsquo;s Erudition</h3>
+
+      <p dir="ltr">When you fail an Arcana or Religion check, you can use your
+      reaction to succeed instead.</p>
+
+      <h3 dir="ltr">Sealer&rsquo;s Versatility</h3>
+
+      <p>As a bonus action, you can change the option of your Divine Sense to a
+      different one.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonus
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: uzGG8a2TlqZcNfBC
+_key: '!items!uzGG8a2TlqZcNfBC'

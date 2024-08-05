@@ -1,0 +1,39 @@
+folder: null
+name: Shepherd of Glades
+type: feat
+img: icons/environment/wilderness/tree-spruce.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You feel at home in the woodland and even in the darkest forest you
+      know the safest pastures and calmest glades in which to rest your head.
+      When you take the scout journey activity while traveling through
+      grasslands, hills, forests, or jungles, on a success or critical success
+      you additionally locate a safe glade. Safe glades you find in this way
+      count as havens. You may only use this ability once per region, but you
+      can always relocate safe glades you have found in the past.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: zHU2xSLEkbLjeuxG
+_key: '!items!zHU2xSLEkbLjeuxG'

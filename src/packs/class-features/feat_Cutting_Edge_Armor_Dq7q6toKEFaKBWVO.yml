@@ -1,0 +1,54 @@
+folder: null
+name: Cutting-Edge Armor
+type: feat
+img: icons/equipment/chest/breastplate-layered-gilded-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your armor&rsquo;s AC increases by 1, and you gain an additional
+      feature based on its type:</p>
+
+      <p><strong>Cutting-Edge Light Armor: </strong>You gain a Climb speed equal
+      to your walking speed and you are permanently under a spider climb effect
+      while you are wearing it.</p>
+
+      <p><strong>Cutting-Edge Medium Armor: </strong>Your armor now includes
+      various measures to prevent you from succumbing to the worst that
+      supernatural foes can dish out. You gain immunity to the petrified
+      condition and make saving throws to avoid the confused, frightened,
+      incapacitated, paralyzed, and slowed conditions with advantage.</p>
+
+      <p><strong>Cutting-Edge Heavy Armor: </strong>Your armor now protects your
+      allies as well as you and has anti- magic countermeasures incorporated.
+      Friendly creatures your size or smaller can use you to provide 3/4th
+      cover. Your armor is also immune to magical spells and effects that target
+      it specifically such as the heat metal spell or a rust monster&rsquo;s
+      antennae.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Advanced Armor
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722222386528
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: Dq7q6toKEFaKBWVO
+_key: '!items!Dq7q6toKEFaKBWVO'

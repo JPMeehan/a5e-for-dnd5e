@@ -1,0 +1,59 @@
+name: Ingrained Vitality
+type: feat
+img: icons/magic/nature/plant-sproud-hands-dirt-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, choose one of the following or gain an additional Primal
+      Vitality feature you haven&rsquo;t previously selected.</p>
+
+      <h2>Deathly Nectar</h2>
+
+      <p><em>Prerequisite: Insidious Nectar</em></p>
+
+      <p>The additional poison damage dealt by your Insidious Nectar feature
+      increases to 1d8. In addition, spells you cast and attacks by you or
+      creatures you&rsquo;ve summoned or transformed into ignore resistance to
+      poison damage and treat immunity to poison damage as resistance
+      instead.</p>
+
+      <h2>Overgrown Summons</h2>
+
+      <p><em>Prerequisite: Plant Bond</em></p>
+
+      <p>Plant creatures you summon gain a +2 bonus to AC and attack rolls.</p>
+
+      <h2>Verdant Beguiler</h2>
+
+      <p><em>Prerequisite: Verdant Beauty</em></p>
+
+      <p>When you emit charming spores using your Verdant Beauty feature, you
+      can choose to affect the target as per the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ml9ls27u9ncms8ko]{Suggestion}
+      spell.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_id: s0edunb3a4ja9zh1
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!s0edunb3a4ja9zh1'

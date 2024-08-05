@@ -1,0 +1,71 @@
+name: Celestial Legacy
+type: feat
+img: icons/magic/life/heart-cross-strong-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You know the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ljixftygfhi0sfsf]{Guidance}
+      cantrip. In addition, you can use an action to touch a willing creature
+      and restore a number of hit points equal to your level. Once you use this
+      trait, you must finish a long rest before doing so again.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@level'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: z476XZt1iG4Mb7VJ
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: d19n2n37zicsatgc
+_key: '!items!d19n2n37zicsatgc'

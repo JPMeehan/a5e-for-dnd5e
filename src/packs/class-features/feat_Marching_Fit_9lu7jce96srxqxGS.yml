@@ -1,0 +1,77 @@
+folder: null
+name: Marching Fit
+type: feat
+img: icons/equipment/feet/shoes-collared-leather-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-cc692563-7fff-a2a9-1c79-a25649ec6339"
+      dir="ltr">Keeping soldiers&rsquo; feet in marching shape starts with the
+      right footwear. You gain proficiency in cobbler&rsquo;s tools. By spending
+      1 hour (which may be part of a short or long rest) with cobbler&rsquo;s
+      tools and a pair of mundane boots or other footwear, you may temporarily
+      modify them to suit one form of difficult terrain, such as slick ice or
+      deep mud. While these boots are worn, the wearer&rsquo;s movement is not
+      impeded by the difficult terrain selected at the time of construction.
+      This modification lasts for 1 week unless you spend another hour to
+      replace or reinforce the modification, which resets the remaining
+      time.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 9lu7jce96srxqxGS
+_key: '!items!9lu7jce96srxqxGS'

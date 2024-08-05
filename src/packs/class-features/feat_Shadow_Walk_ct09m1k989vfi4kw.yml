@@ -2,8 +2,7 @@ name: Shadow Walk
 type: feat
 img: icons/creatures/abilities/wing-batlike-purple-blue.webp
 effects:
-  - icon: icons/creatures/abilities/wing-batlike-purple-blue.webp
-    origin: Item.mjo0FUeNfCqpzAlV
+  - origin: Item.bki8bcq2tVrjN4tX
     flags:
       a5e:
         sort: 0
@@ -32,6 +31,20 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721520137862
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/creatures/abilities/wing-batlike-purple-blue.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!ct09m1k989vfi4kw.BYYy75Rz7jK8aCPA'
 flags: {}
@@ -95,5 +108,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721520137817
+  modifiedTime: 1721520137817
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: ct09m1k989vfi4kw
 _key: '!items!ct09m1k989vfi4kw'

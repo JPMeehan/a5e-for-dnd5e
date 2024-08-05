@@ -1,0 +1,79 @@
+folder: null
+name: Guiding Will
+type: feat
+img: icons/tools/navigation/map-marked-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-8bb9c0aa-7fff-1853-80d8-a0ad934c4bf0">You
+      have an expertise die on checks made to avoid becoming lost.</span></p>
+
+      <p id="docs-internal-guid-5646d418-7fff-e53e-8d89-231232b6ed69"
+      dir="ltr">You may also cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.c16b46enmxlur04y]{Find the
+      Path} spell at will without expending spell points.&nbsp; When doing so it
+      does not require concentration and lasts until you visit the chosen
+      location or until you cast it again rather than 24 hours.</p>
+
+      <p dir="ltr">In addition, you may choose a specific immovable location you
+      have not been to before.&nbsp; Once you have used this option, you may not
+      do so again until you have visited the chosen location.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: 11th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: self
+  range:
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: YpA1lhoAac52oQBD
+_key: '!items!YpA1lhoAac52oQBD'

@@ -1,0 +1,53 @@
+name: Superior Talent
+type: feat
+img: icons/skills/movement/arrow-upward-blue.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 10th level, you&rsquo;ve discovered even greater ways to use your
+      magic to your advantage. Choose one of the following benefits:</p>
+
+      <h2>Perfect Control</h2>
+
+      <p>When concentrating on a wizard spell of your chosen school, you only
+      need to roll to maintain concentration when you take damage from an
+      attack, effect, or spell equal to or greater than your Intelligence score
+      + your wizard level.</p>
+
+      <h2>Secondary Learning</h2>
+
+      <p>Choose a second school to count as your Scholarly Specialty, and an
+      additional feature from either Esoteric Talent or Refined Learning.</p>
+
+      <h2>Splinter Spell</h2>
+
+      <p>When you cast a wizard spell from your chosen school that only affects
+      one creature, you can have it affect an additional creature within range.
+      Once you have used this feature, you cannot do so again until you finish a
+      short or long rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_id: ugmgvqlx5rh0qlo4
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!ugmgvqlx5rh0qlo4'

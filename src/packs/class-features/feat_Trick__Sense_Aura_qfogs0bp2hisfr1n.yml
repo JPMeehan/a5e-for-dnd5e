@@ -9,17 +9,16 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 13th level, d8 expertise die on Investigation checks
-      </em></p><p>Your expertise die on Investigation checks increases to d10.
-      You can make an Investigation check to find magical traps. Additionally,
-      you can spend 10 minutes to sense whether an object or creature you can
-      see bears magic. This feature is nonmagical</p>
+      <p>Your expertise die on Investigation checks increases to d10. You can
+      make an Investigation check to find magical traps. Additionally, you can
+      spend 10 minutes to sense whether an object or creature you can see bears
+      magic. This feature is nonmagical</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 13th level, d8 expertise die on Investigation checks
   recharge:
     value: null
     charged: true
@@ -30,4 +29,8 @@ system:
     max: null
 folder: null
 _id: qfogs0bp2hisfr1n
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!qfogs0bp2hisfr1n'

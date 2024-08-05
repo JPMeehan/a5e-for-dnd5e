@@ -1,34 +1,7 @@
 name: Tough (Carven)
 type: feat
 img: icons/skills/trades/construction-mason-stonecutter-sculpture.webp
-effects:
-  - icon: icons/skills/trades/construction-mason-stonecutter-sculpture.webp
-    origin: Item.h0lg9twoatb8eqzn
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Tough
-    _id: Iq9jOFwvdgnQ6Bl3
-    changes:
-      - key: system.attributes.hp.baseMax
-        value: '@level'
-        mode: 2
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!h0lg9twoatb8eqzn.Iq9jOFwvdgnQ6Bl3'
+effects: []
 flags: {}
 system:
   type:
@@ -53,5 +26,12 @@ system:
     per: null
     max: null
 folder: OpVlQm2oviOU6e9w
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722524173770
+  modifiedTime: 1722524173770
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: h0lg9twoatb8eqzn
 _key: '!items!h0lg9twoatb8eqzn'

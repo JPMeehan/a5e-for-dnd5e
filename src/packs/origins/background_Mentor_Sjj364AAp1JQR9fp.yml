@@ -1,0 +1,192 @@
+folder: efsBCxTIVPrTYqUO
+name: Mentor
+type: background
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
+system:
+  description:
+    value: >-
+      <p id="docs-internal-guid-f9a79b20-7fff-024b-85b2-fbd16c6365c7"
+      dir="ltr"><strong>Ability Score Increases:</strong> +1 to Intelligence and
+      one other ability score.</p>
+
+      <p dir="ltr"><strong>Skill Proficiencies:</strong> Two chosen from
+      Culture, Engineering, History, and Performance</p>
+
+      <p dir="ltr"><strong>Tools:</strong> One artisan toolset and one musical
+      instrument</p>
+
+      <p dir="ltr"><strong>Suggested Equipment (Cost 36 gold):</strong> Robes,
+      book (blank), ink and pen</p>
+
+      <p dir="ltr"><em><strong>Feature: Mentor&rsquo;s
+      Aptitud.</strong></em>&nbsp;You gain an expertise die with one of the
+      skills or tools you gained from this background. When a friendly creature
+      within 60 feet of you fails a check using the chosen skill or tool while
+      making a check that requires more than an action to complete, you can use
+      a reaction to grant that creature a reroll. The creature must use the new
+      roll, even if it is worse.</p>
+
+      <p dir="ltr"><em><strong>Adventures and Advancement:</strong></em> As you
+      teach others and help them grow, you may be granted greater responsibility
+      and prestige, which can provide you with a Moderate lifestyle as long as
+      you maintain a teaching schedule of a couple of sessions per week.</p>
+
+      <h3 dir="ltr"><strong>Mentor Connections</strong></h3>
+
+      <ol>
+
+      <li dir="ltr" role="presentation">The student who has become a mentor in
+      their own right and comes to you for guidance.</li>
+
+      <li dir="ltr" role="presentation">The former pupil who thinks you were
+      full of it and seeks to expose you.</li>
+
+      <li dir="ltr" role="presentation">The fellow mentor you relied on for
+      support.</li>
+
+      <li dir="ltr" role="presentation">Your own teacher, now very old.</li>
+
+      <li dir="ltr" role="presentation">The promising student who returns to
+      visit from time to time.</li>
+
+      <li dir="ltr" role="presentation">The creator of a new teaching method who
+      is constantly pestering you for feedback.</li>
+
+      <li dir="ltr" role="presentation">The fellow mentor with a style different
+      than yours, probably a rival.</li>
+
+      <li dir="ltr" role="presentation">The parent, sibling, or significant
+      other of a student who pressured you to give them special treatment.</li>
+
+      <li dir="ltr" role="presentation">The practitioner of the skill you taught
+      that you enjoyed comparing thoughts with.</li>
+
+      <li dir="ltr" role="presentation">The mysterious patron who sponsored your
+      teaching but never partook of it.</li>
+
+      </ol>
+
+      <h3 dir="ltr"><strong>Mentor Mementos</strong></h3>
+
+      <ol>
+
+      <li dir="ltr" role="presentation">Your faithful old abacus that you have
+      used for many years.</li>
+
+      <li dir="ltr" role="presentation">A letter of recommendation from one of
+      your own mentors.</li>
+
+      <li dir="ltr" role="presentation">Your formal credentials certifying your
+      expertise.</li>
+
+      <li dir="ltr" role="presentation">A journal you&rsquo;ve kept of students
+      over the years.</li>
+
+      <li dir="ltr" role="presentation">Your faithful old tools, books, or
+      instrument that you use to teach.</li>
+
+      <li dir="ltr" role="presentation">A drinking vessel proclaiming your merit
+      as a teacher.</li>
+
+      <li dir="ltr" role="presentation">The manuscript for a new educational
+      text you have been working on.</li>
+
+      <li dir="ltr" role="presentation">An obsolete textbook that you still
+      treasure.</li>
+
+      <li dir="ltr" role="presentation">A collection of research notes.</li>
+
+      <li dir="ltr" role="presentation">A set of formal clothing or jewelry that
+      indicates your station as an educator.</li>
+
+      </ol>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  advancement:
+    - _id: s1EbrMoodGjBngeZ
+      type: AbilityScoreImprovement
+      level: 1
+      configuration:
+        points: 1
+        fixed:
+          int: 1
+        cap: 1
+    - _id: WFytT8mIUbyzgWN5
+      type: Trait
+      level: 1
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - pool:
+              - skills:cul
+              - skills:eng
+              - skills:his
+              - skills:prf
+            count: 2
+    - _id: tHtJPagiwU4n7JsR
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.7fDmvwo28CW0KGHw
+    - _id: RluG1BlpjCanuQnL
+      type: Trait
+      level: 1
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - pool:
+              - tool:art:*
+            count: 1
+    - _id: QSQ6wi9Qtl4BFAUa
+      type: Trait
+      level: 1
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - pool:
+              - tool:music:*
+            count: 1
+  startingEquipment:
+    - _id: Brb1yErN3cuJovQ0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.14bjydsg9yfp4vwk
+      count: 0
+      type: linked
+      group: ''
+    - _id: Brb1yErN3cuJovQ1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.ito6po17oo0fjtag
+      count: 0
+      type: linked
+      group: ''
+    - _id: Brb1yErN3cuJovQ2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.32eyx6xvcv2xuqvo
+      count: 0
+      type: linked
+      group: ''
+    - _id: Brb1yErN3cuJovQ3
+      sort: 40000
+      key: Compendium.a5e-for-dnd5e.gear.Item.82kz4htg65yqk0rq
+      count: 0
+      type: linked
+      group: ''
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: Sjj364AAp1JQR9fp
+_key: '!items!Sjj364AAp1JQR9fp'

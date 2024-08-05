@@ -2,8 +2,7 @@ name: Adept Speed
 type: feat
 img: icons/skills/movement/figure-running-gray.webp
 effects:
-  - icon: icons/skills/movement/figure-running-gray.webp
-    origin: Item.QVbK58sT8WotmDEO
+  - origin: Item.HrByIAWavWywIoKX
     flags:
       a5e:
         sort: 0
@@ -27,6 +26,20 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: null
+      modifiedTime: 1722396441156
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/movement/figure-running-gray.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!p8s9ju0b8doe7iqc.GkPm7xNUuL1VzVVJ'
 flags: {}
@@ -54,5 +67,12 @@ system:
     per: null
     max: null
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722396441103
+  modifiedTime: 1722396444855
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: p8s9ju0b8doe7iqc
 _key: '!items!p8s9ju0b8doe7iqc'

@@ -1,0 +1,83 @@
+folder: null
+name: Living Shadow
+type: feat
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 17, when you are in darkness or magical darkness you become
+      semi-intangible and can walk through solid objects. You cannot exit into a
+      space in bright or dim light, and if you end your turn inside a solid
+      object you take 1d10 force damage and are shunted into the nearest empty
+      space within 10 feet that is in darkness or magical darkness. If no
+      eligible spaces exist, you take 4d10 force damage and 2d10 radiant damage
+      instead and are ejected into the nearest empty space. If you use this
+      feature while Gloombringer is active, you use the adjusted light level
+      from Gloombringer to determine the validity of the exit point (effectively
+      allowing you to exit anywhere there is not bright light).</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Burning Gloom'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10
+        - force
+      - - 4d10
+        - force
+      - - 2d10
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722029673972
+  modifiedTime: 1722029829397
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: mfldsnevx7dnityh
+_key: '!items!mfldsnevx7dnityh'

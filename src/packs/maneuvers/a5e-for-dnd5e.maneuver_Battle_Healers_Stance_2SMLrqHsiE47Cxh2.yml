@@ -1,0 +1,72 @@
+folder: Ik9Kg4e8NW6dAxVb
+name: Battle Healers Stance
+type: a5e-for-dnd5e.maneuver
+img: icons/weapons/swords/sword-winged-pink.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong><em><strong> </strong>a spell
+      of the healing school of 1st level or higher prepared and a spell slot or
+      sufficient resources available to cast it. If you lose the ability to cast
+      the spell (such as by spending the spell slot or sufficient points to make
+      it unavailable for casting) this stance ends immediately</em></p>
+
+      <p dir="ltr">The first time you deal damage with a melee weapon attack
+      against a creature with a CR equal to half your character level or greater
+      each turn, you or a conscious ally within 30 feet of you is healed a
+      number of hit points equal to half your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  degree: 1
+  tradition: sst
+  prerequisite: ''
+  properties: []
+  consume:
+    type: charges
+    target: null
+    amount: 2
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - floor(@prof/2)[Battle Healer Stance]
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 2SMLrqHsiE47Cxh2
+_key: '!items!2SMLrqHsiE47Cxh2'

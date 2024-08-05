@@ -1,0 +1,59 @@
+folder: null
+name: Ancestral Guardian
+type: a5e-for-dnd5e.culture
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp
+system:
+  description:
+    value: >-
+      <p>Characters raised in the ancestral guardian culture share a variety of
+      traits in common with one another.</p>
+
+      <p><em><strong>Long Watch.</strong></em> You gain proficiency with the
+      Perception skill. You also gain an expertise die on saves to avoid
+      suffering levels of fatigue.</p>
+
+      <p><em><strong>Sentry&rsquo;s Arsenal.</strong></em> You gain proficiency
+      with a single martial or rare weapon of your choice and light armor. The
+      choice of weapon often reflects specialized armaments needed to keep some
+      specific threat in or out.</p>
+
+      <p><em><strong>B.S. Detector. </strong></em>You gain proficiency in the
+      Insight skill with a skill specialty of sensing motives.</p>
+
+      <p><em><strong>Languages.</strong></em> You can speak, read, write, and
+      sign Common and an additional language of your choice.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  advancement:
+    - _id: NwMzLkpOh1YBXodU
+      type: ItemGrant
+      title: Features
+      level: 0
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.YBgR0GwZ8lQOuOZz
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.eJ3UCBwgiSltKpYQ
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.xfx86ldh5OCFUljW
+    - _id: 4BXbbVLuP7wKJvSs
+      type: Trait
+      level: 0
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          pool:
+            - languages:*
+          count: 1
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: V5aiQlyRy6dumNBm
+_key: '!items!V5aiQlyRy6dumNBm'

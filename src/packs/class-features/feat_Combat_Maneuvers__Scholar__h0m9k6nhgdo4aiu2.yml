@@ -31,12 +31,17 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: none
   uses:
-    per: null
-    max: null
+    per: sr
+    max: '@prof'
+    prompt: false
 effects: []
 flags: {}
 folder: null
 _id: h0m9k6nhgdo4aiu2
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!h0m9k6nhgdo4aiu2'

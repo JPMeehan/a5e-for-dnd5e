@@ -1,0 +1,38 @@
+folder: null
+name: Arcane Vigilance
+type: feat
+img: icons/magic/symbols/runes-star-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.begb5jdvo5i1zjtu]{Alarm} spell,
+      which becomes a sorcerer spell for you, and you may cast it as a ritual.
+      When you cast this spell, you can choose a number of creatures equal to
+      your proficiency bonus that you can see who will hear the silent alarm
+      when it goes off.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: vEKBPM8XYY4AxTvU
+_key: '!items!vEKBPM8XYY4AxTvU'

@@ -1,7 +1,49 @@
 name: Whirling Winds
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/air/wind-tornado-cyclone-purple-pink.webp
+effects:
+  - origin: Item.wBoO8lI4BEopoVIv
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FhzzNkP78Ww5zK0Q
+        applyToSelf: true
+    transfer: false
+    name: Half-Cover
+    img: icons/magic/air/wind-tornado-cyclone-purple-pink.webp
+    _id: H5n53iGTcUCEnelC
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>+2 to AC, Dexterity saving throws, and ability checks made to hide</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722374636199
+      modifiedTime: 1722374705047
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!f41mri24smndjesd.H5n53iGTcUCEnelC'
 flags: {}
 system:
   type:
@@ -25,11 +67,50 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722374471215
+  modifiedTime: 1722374636251
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: f41mri24smndjesd
 _key: '!items!f41mri24smndjesd'

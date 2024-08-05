@@ -1,0 +1,41 @@
+folder: null
+name: Blend Into Crowd
+type: feat
+img: icons/environment/people/commoner.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You easily fit in wherever you go. You gain proficiency with Stealth.
+      If you are already proficient with Stealth, you instead gain an expertise
+      die. In addition, in any urban environment, such as a city estate, guard
+      barracks, or guild hall, people just assume you belong, and so you
+      automatically succeed on any check to impersonate a basic worker, servant,
+      or low level member of an organization and are granted any privileges and
+      access such a person would have unless there is an obvious reason you
+      don&rsquo;t belong (such as being the wrong creature type or the
+      organization being so small that everyone knows each other by name).</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: cuov2wyI0EAwBogN
+_key: '!items!cuov2wyI0EAwBogN'

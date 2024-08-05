@@ -1,0 +1,83 @@
+folder: null
+name: Cutting-Edge Heavy Armor
+type: feat
+img: icons/equipment/chest/breastplate-layered-leather-studded-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><strong> </strong>Your armor now protects your allies as well as you
+      and has anti- magic countermeasures incorporated. Friendly creatures your
+      size or smaller can use you to provide 3/4th cover. Your armor is also
+      immune to magical spells and effects that target it specifically such as
+      the @UUID[Compendium.a5e-for-dnd5e.spells.Item.p647d38olyr3pr52]{Heat
+      Metal} spell or a
+      @UUID[Compendium.a5e.a5e-monsters.Actor.ij6vscpo52mumjt2]{Rust Monster's}
+      antennae.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Advanced Armor
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects:
+  - origin: Item.K5cxWXTXHSGMrER8
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Cutting-Edge Heavy Armor (Cutting-Edge Equipment)
+    _id: hH3p36pe5HKd8f9S
+    changes:
+      - key: system.attributes.ac
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722222576856
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!kkmh0ks3h0mgxux2.hH3p36pe5HKd8f9S'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722222576807
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: kkmh0ks3h0mgxux2
+_key: '!items!kkmh0ks3h0mgxux2'

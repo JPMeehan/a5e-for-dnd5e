@@ -1,0 +1,70 @@
+folder: null
+name: Part the Veil
+type: feat
+img: icons/magic/air/fog-gas-smoke-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at 1st level, you begin to learn how to
+      manipulate the powers and energies of death. You learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.omvngnmoo75is54f]{Spare the
+      Dying} cantrip, which does not count against your number of cantrips
+      known. Choose one of the following:</p>
+
+      <h2>Death Curse</h2>
+
+      <p>You can use a bonus action to place a curse on a creature you can see
+      within 30 feet. The curse lasts for 1 minute, and ends early if the target
+      dies, you die, or you become incapacitated.</p>
+
+      <p>The curse has the following effects:</p>
+
+      <ul>
+
+      <li>When you deal damage against to cursed creature, it takes additional
+      1d4 necrotic damage. This bonus increases by 1d4 at 10th level, and again
+      at 15th and 20th level.</li>
+
+      <li>When that creature is reduced to 0 hit points, it dies, the curse
+      ends, and you regain hit points equal to 1d8+your warlock level.</li>
+
+      </ul>
+
+      <p>Once you have used this ability, you cannot use it again until you
+      finish a short or long rest.</p>
+
+      <h2>Mortal Defiance</h2>
+
+      <p>You can cast spare the dying as a bonus action. In addition, when you
+      are reduced to 0 hit points as a reaction you may cast spare the dying on
+      yourself.</p>
+
+      <p>When you cast spare the dying on another creature that is actually
+      dying, you regain hit points equal to 1d8 + you Charisma modifier.</p>
+
+      <p>You have advantage on saving throws against poison and disease.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: 4n3su1ryrzh31mdi
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!4n3su1ryrzh31mdi'

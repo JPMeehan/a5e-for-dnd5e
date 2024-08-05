@@ -1,0 +1,90 @@
+name: Tail Blade
+type: weapon
+img: icons/weapons/daggers/dagger-curved-gold.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This wicked blade can be worn at the end of a creature&rsquo;s tail and
+      deals 1d6 + ability modifier slashing damage. It is considered a finesse
+      weapon. When wearing a tail blade, you can make a melee weapon attack with
+      disadvantage as a bonus action, even when your hands are full. You must
+      have a tail to use a tail blade.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 2
+  price:
+    value: 15
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  proficient: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - lgt
+    - fin
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + min(@mod,0)
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: efbKERxtOjiRkqDD
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: cFqM92Aa6maBTZcQ
+_key: '!items!cFqM92Aa6maBTZcQ'

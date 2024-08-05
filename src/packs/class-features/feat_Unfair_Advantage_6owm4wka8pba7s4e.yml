@@ -1,0 +1,46 @@
+folder: null
+name: Unfair Advantage
+type: feat
+img: icons/skills/social/trading-injustice-scale-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you choose this archetype at 3rd level, choose one of the
+      following options.</p>
+
+      <h2>Backstab</h2>
+
+      <p>Whenever you deal sneak attack damage with a melee weapon, you roll d8s
+      instead of d6s for your sneak attack damage.</p>
+
+      <h2>Deuces Wild</h2>
+
+      <p>When you roll a natural 2 on the d20 roll on an attack roll or ability
+      check, you can reroll it. You must use the second roll. Also, you can
+      reroll any sneak attack damage die on which you roll a 2. You must use the
+      second roll.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: 6owm4wka8pba7s4e
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!6owm4wka8pba7s4e'

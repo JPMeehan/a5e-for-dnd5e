@@ -1,7 +1,42 @@
 name: Ring of Fire Resistance
 type: equipment
 img: icons/equipment/finger/ring-inlay-red.webp
-effects: []
+effects:
+  - origin: Item.hzlQXYpKTezuBmog
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Ring of Fire Resistance
+    img: icons/equipment/finger/ring-inlay-red.webp
+    _id: vkhWOZWQfIBP4G37
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: fire
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!g5zmq3o1e954pdj5.vkhWOZWQfIBP4G37'
 flags: {}
 system:
   description:
@@ -39,4 +74,8 @@ system:
     baseItem: ''
 folder: 9k4UVzCiMuqj62ea
 _id: g5zmq3o1e954pdj5
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!g5zmq3o1e954pdj5'

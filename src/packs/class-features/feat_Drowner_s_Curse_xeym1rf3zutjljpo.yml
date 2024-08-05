@@ -4,6 +4,7 @@ type: feat
 img: icons/magic/water/projectile-water-rings.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -124,6 +125,10 @@ effects:
       they double the rate at which they sink.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!xeym1rf3zutjljpo.6EqQBQVIklKGdH2Z'
   - icon: icons/magic/water/projectile-water-rings.webp
     origin: Item.Tz1t0HFM1XlIXCYZ
@@ -173,7 +178,15 @@ effects:
       they double the rate at which they sink.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!xeym1rf3zutjljpo.HeCDj8Nb0pbA1Wqp'
 flags: {}
 _id: xeym1rf3zutjljpo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!xeym1rf3zutjljpo'

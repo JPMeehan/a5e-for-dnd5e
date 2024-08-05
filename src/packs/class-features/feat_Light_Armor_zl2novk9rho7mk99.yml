@@ -1,0 +1,90 @@
+folder: null
+name: Light Armor
+type: feat
+img: icons/equipment/chest/vest-leather-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your armor provides you an AC of 12 + your Dexterity modifier. It is
+      designed for stealth and mobility, giving you an expertise die on
+      Acrobatics, Athletics, and Stealth checks.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects:
+  - origin: Item.kAFoCkrFDGb3zR4d
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Light Armor (Combat Engineer’s Loadout)
+    _id: QMzEA8fh8Jpdq3pO
+    changes:
+      - key: system.attributes.ac
+        value: 12+@dex.mod
+        mode: 5
+        priority: null
+      - key: system.skills.acr.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.ath.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.ste.expertiseDice
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722200344345
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!zl2novk9rho7mk99.QMzEA8fh8Jpdq3pO'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722200344290
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: zl2novk9rho7mk99
+_key: '!items!zl2novk9rho7mk99'

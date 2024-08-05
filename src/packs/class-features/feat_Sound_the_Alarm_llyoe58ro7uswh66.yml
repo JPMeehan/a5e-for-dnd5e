@@ -22,13 +22,55 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: reaction
+    cost: 1
+    condition: Seeing something that you deem suspicious or being attacked
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/magic/sonic/scream-wail-shout-teal.webp
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722095376088
+  modifiedTime: 1722095454028
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: llyoe58ro7uswh66
 _key: '!items!llyoe58ro7uswh66'

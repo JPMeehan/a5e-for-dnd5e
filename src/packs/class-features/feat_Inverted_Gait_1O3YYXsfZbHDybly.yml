@@ -1,0 +1,36 @@
+folder: null
+name: Inverted Gait
+type: feat
+img: icons/creatures/webs/web-spider-glowing-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-2aa0be59-7fff-1c49-08a9-afd21bf6bdbd">You
+      are under the permanent effect of a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kz3xe6ems34f2ubo]{Spider Climb}
+      spell.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: 7th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 1O3YYXsfZbHDybly
+_key: '!items!1O3YYXsfZbHDybly'

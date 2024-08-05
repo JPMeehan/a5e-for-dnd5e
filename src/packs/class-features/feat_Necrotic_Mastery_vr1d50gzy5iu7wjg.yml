@@ -13,7 +13,7 @@ system:
       gain&nbsp;resistance&nbsp;to necrotic damage.</p>
     chat: ''
   source:
-    book: Adventurer's Guide
+    book: ''
     license: OGL 1.0a
   properties: []
   requirements: ''
@@ -53,7 +53,15 @@ effects:
     statuses: []
     tint: '#ffffff'
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vr1d50gzy5iu7wjg.G4mCaZJKXFce00Wy'
 flags: {}
 _id: vr1d50gzy5iu7wjg
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!vr1d50gzy5iu7wjg'

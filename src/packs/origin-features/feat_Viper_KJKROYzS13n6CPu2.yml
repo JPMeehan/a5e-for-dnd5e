@@ -1,0 +1,52 @@
+folder: z476XZt1iG4Mb7VJ
+name: Viper
+type: feat
+img: icons/creatures/reptiles/snake-fangs-bite-green-yellow.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Some sinuous have dagger-like fangs and venom sacs. These sinuous are
+      likely to have viper-like physical traits such as a cobra&rsquo;s hood or
+      a rattle on the end of their tail. You have the following traits:</p>
+
+      <p><em><strong>Venomous Bite.</strong></em> You have a venomous bite. As
+      an action, you can attack with your bite (which is considered a finesse
+      weapon) dealing piercing damage equal to 1d4 + ability modifier and poison
+      damage equal to 1d4 + your proficiency bonus.</p>
+
+      <p><em><strong>Rapid Bite.</strong></em> You can also bite much faster,
+      forgoing the opportunity to inject venom. You may make a bite attack as a
+      bonus action, dealing 1d4 points of piercing damage + your ability
+      modifier (but no poison).</p>
+
+      <p><em><strong>Poison Resistance.</strong></em> You are resistant to
+      poison damage and have advantage on saves to avoid the poisoned
+      condition.</p>
+
+      <p><em><strong>Menacing Viper.</strong></em> You gain proficiency with the
+      Intimidation skill.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: KJKROYzS13n6CPu2
+_key: '!items!KJKROYzS13n6CPu2'

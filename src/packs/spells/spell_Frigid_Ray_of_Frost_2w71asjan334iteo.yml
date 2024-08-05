@@ -32,6 +32,10 @@ effects:
     description: ''
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!2w71asjan334iteo.i4bWmHzg2OE6Ddvk'
   - icon: icons/magic/water/projectile-icecicle-glowing.webp
     origin: Item.2w71asjan334iteo
@@ -68,6 +72,10 @@ effects:
     statuses:
       - rattled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!2w71asjan334iteo.AL14b1NHwiT31LRk'
 flags:
   a5e-for-dnd5e:
@@ -152,4 +160,8 @@ system:
     scaling: spell
 folder: VZdnSJFGeDzlfocC
 _id: 2w71asjan334iteo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!2w71asjan334iteo'

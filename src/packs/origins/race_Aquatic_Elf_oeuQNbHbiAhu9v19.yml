@@ -1,0 +1,127 @@
+folder: rjiZIRtAlDCKQxwG
+name: Aquatic Elf
+type: race
+img: icons/magic/water/water-hand.webp
+system:
+  identifier: aquatic-elf
+  description:
+    value: >-
+      <h2>Aquatic Elf Traits</h2>
+
+      <p>Aquatic elves have much in common with merfolk, even culturally.</p>
+
+      <p><strong>Age. </strong>Aquatic elves age at a similar rate as humans.
+      Demigods live among the aquatic elves, and their scions can live for
+      centuries.</p>
+
+      <p><strong>Size. </strong>Your size is Medium.</p>
+
+      <p><strong>Speed. </strong>You have a base walking speed and a swim speed
+      of 30 feet.</p>
+
+      <p><strong>Amphibious. </strong>You can breathe both air and water.</p>
+
+      <p><strong>Deep Darkvision. </strong>You can see in dim light within 60
+      feet of you as if it were bright light, and in darkness as if it were dim
+      light. You can&rsquo;t discern color in darkness, only shades of gray. In
+      addition, your eyes are perfectly adapted for spotting movement at depth,
+      and the radius of your darkvision increases to 120 feet while
+      underwater.</p>
+
+      <p><strong>Deep Sea Explorer. </strong>You are adapted to survive the
+      environmental pressures of the deepest oceans and even the Elemental Plane
+      of Water.</p>
+
+      <p><strong>Oceanic Solidarity. </strong>You can communicate with aquatic
+      Beasts. You have advantage on Charisma checks made during these
+      interactions.</p>
+
+      <p><strong>Fey Ancestry.</strong> You gain an expertise die on saving
+      throws against being charmed, and magic can&rsquo;t put you to sleep.</p>
+
+      <p><strong>Trance.</strong> Elves don&rsquo;t need to sleep. Instead, they
+      meditate deeply, remaining conscious (the Common word for such meditation
+      is &ldquo;trance.&rdquo;) While meditating, you can dream after a fashion;
+      such dreams are actually mental exercises that became reflexive through
+      years of practice. When you take a long rest, you spend 4 hours in your
+      trance state (instead of sleeping for 6 hours). During the trance you
+      suffer no penalty to passive Perception. A long rest remains 8 hours for
+      you as normal, and the remainder of the time must be filled only with
+      light activity.</p>
+
+      <h2>Merfolk Paragon</h2>
+
+      <p>When you reach 10th level, you are an exemplar of the elvenfolk. You
+      gain one paragon gift from the following list.</p>
+
+      <h3>Envoy of Abundance</h3>
+
+      <p>Water you create magically, such as through the create or destroy water
+      spell, is potable. When you cast the ceremony&nbsp;spell, you have the
+      additional option to revitalize 1 acre of land, restoring nutrients to it
+      as though it had been left to rest for 1 year. You can use this trait to
+      these spells each once between long rests without spending material
+      components. Your spellcasting ability is your choice of Intelligence,
+      Wisdom, or Charisma.</p>
+
+      <h3>Darting Marlin</h3>
+
+      <p>Your swim speed improves by 30 feet.</p>
+
+      <h3>Guardian of the Darkest Depths</h3>
+
+      <p>The ranges of your Deep Darkvision double.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  advancement:
+    - _id: 8rlxofPDhE8nTgMH
+      type: Size
+      level: 1
+      configuration:
+        sizes:
+          - med
+    - _id: dcDJeO5C5ISh8rcD
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.6fk07ik3f0vnb0t3
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.203ztkhgzbej9q6l
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.zscbb5yppp8vuzlc
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.5ny5ftsjlv9na846
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.ydypugu78pg7zkxe
+          - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.6p5blmxyd9d628r0
+    - _id: ZIpnoSG8CZevwstC
+      type: ItemChoice
+      level: 10
+      configuration:
+        pool:
+          - uuid: Compendium.undefined.Item.cde4gkjk5a3sig8a
+          - uuid: Compendium.undefined.Item.ptmxnw1xk0ae3oqm
+          - uuid: Compendium.undefined.Item.oryuhbv76jerzk9i
+        choices:
+          '0': 1
+  movement:
+    walk: 30
+    swim: 30
+    hover: false
+  type:
+    value: ''
+    subtype: ''
+    swarm: ''
+    custom: ''
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721645243035
+  modifiedTime: 1721645409949
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: oeuQNbHbiAhu9v19
+_key: '!items!oeuQNbHbiAhu9v19'

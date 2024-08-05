@@ -8,16 +8,25 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Also at 17th level, choose one of the following:</p><ul><li>Your speed
-      increases as though you had taken the
-      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.fpml2kpfccpvvzia]{Adept
-      Speed} technique.</li><li>You gain the
-      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.s8p9yns6gqrjvsbd]{Instant
-      Step} technique as long as you meet the prerequisites).</li><li>You only
-      need to spend 2 exertion to use the Instant Step technique (if you have
-      previously chosen it).</li></ul><p>Additionally, once per short rest when
-      you would gain a level of fatigue, you can choose not to gain that level
-      of fatigue.</p>
+      <p>Also at 17th level, choose one of the following:</p>
+
+      <ul>
+
+      <li>Your speed increases as though you had taken the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.p8s9ju0b8doe7iqc]{Adept
+      Speed} technique.</li>
+
+      <li>You gain
+      the@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ynwao8axcql4dq47]{Instant
+      Step} technique (as long as you meet the prerequisites).</li>
+
+      <li>You only need to spend 2 exertion to use the Instant Step technique
+      (if you have previously chosen it).</li>
+
+      </ul>
+
+      <p>Additionally, once per short rest when you would gain a level of
+      fatigue, you can choose not to gain that level of fatigue.</p>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -67,5 +76,12 @@ system:
     scaling: spell
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722396388453
+  modifiedTime: 1722396512656
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 3ms386myb1kfqr51
 _key: '!items!3ms386myb1kfqr51'

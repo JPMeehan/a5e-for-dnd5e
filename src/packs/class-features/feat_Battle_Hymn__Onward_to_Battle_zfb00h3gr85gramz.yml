@@ -53,6 +53,10 @@ effects:
     description: <p>The target’s Speed increases by 40 feet.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!zfb00h3gr85gramz.FvshcvojJNSh34sy'
 flags: {}
 system:
@@ -112,4 +116,8 @@ system:
     scaling: spell
 folder: null
 _id: zfb00h3gr85gramz
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!zfb00h3gr85gramz'

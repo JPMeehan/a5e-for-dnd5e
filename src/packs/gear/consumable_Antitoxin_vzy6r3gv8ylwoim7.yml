@@ -1,7 +1,45 @@
 name: Antitoxin
 type: consumable
 img: icons/consumables/potions/flask-ornate-skull-green.webp
-effects: []
+effects:
+  - origin: Item.QWazl5SJ4x1X3ivS
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 8sfQo8WjZVnnqHzU
+        applyToSelf: false
+        duration:
+          unit: hours
+    transfer: false
+    name: Antitoxin
+    img: icons/consumables/potions/flask-ornate-skull-green.webp
+    _id: OyvX3q2eB0J536xe
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Consuming the dark bitter liquid in this vial removes the poisoned
+      condition and you gain advantage on saving throws against poison for 1
+      hour.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!vzy6r3gv8ylwoim7.OyvX3q2eB0J536xe'
 flags: {}
 system:
   description:
@@ -27,7 +65,46 @@ system:
     value: potion
     subtype: ''
   uses:
-    autoDestroy: false
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: vzy6r3gv8ylwoim7
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!vzy6r3gv8ylwoim7'

@@ -1,0 +1,55 @@
+folder: null
+name: Tenets of the Lovesworn
+type: feat
+img: icons/magic/life/heart-cross-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-a6ea03e8-7fff-cef4-10b1-8f49d5142a17">All
+      Lovesworn hold similar tenets, regardless of the object of their
+      devotion.</span></p>
+
+      <ul>
+
+      <li><span
+      id="docs-internal-guid-a6ea03e8-7fff-cef4-10b1-8f49d5142a17"><strong>As
+      You Wish.</strong> No task is too great, nor too small, in the service of
+      those you love.</span></li>
+
+      <li><span
+      id="docs-internal-guid-a6ea03e8-7fff-cef4-10b1-8f49d5142a17"><strong>Ever
+      Faithful.</strong> Within the bounds of your conscience, you never break
+      trust with a loved one.<br><strong>Selfless.</strong> You always prefer
+      the good of those you love, even at your own expense.</span></li>
+
+      <li><span
+      id="docs-internal-guid-a6ea03e8-7fff-cef4-10b1-8f49d5142a17"><strong>Thick
+      and Thin.</strong> You share in both the bounties and the sufferings of
+      those you love.</span></li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: qd8ynl8zupmxrwai
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!qd8ynl8zupmxrwai'

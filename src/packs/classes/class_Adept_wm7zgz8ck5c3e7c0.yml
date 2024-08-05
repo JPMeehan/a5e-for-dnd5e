@@ -136,7 +136,9 @@ system:
 
       <td style="text-align: center;">1d4</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align: center;">Ability Score
+      Improvement<br>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.7xjj4fdmu7qvbh72]{Bonus
+      Exertion (Adept)}</td>
 
       <td style="text-align: center;">2</td>
 
@@ -558,7 +560,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   startingEquipment:
     - _id: uwd6IxdP2M26BCq0
@@ -692,6 +694,83 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.erkupn5aotw8mkx2
+    - _id: ufUm7ECR4V2ZGTwH
+      type: ItemGrant
+      title: Features
+      level: 4
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7xjj4fdmu7qvbh72
+    - _id: lbbxtXmb3etv9uLM
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: c2R3pYeeKvMf5hsg
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: IC5gUHNoqnj2g1hi
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: XnHr3CusMlC3fNEg
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: hTOzX24bves3MDOZ
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: ruMsAePvi4DJ4Hsq
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: aJP9yO7cokHUMREm
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 5SRSrZZsLCzAe7hI
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Sh57UMESZSxyw4C7
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: qPhFwgKD4LwzQYc0
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: none
     progression: martial
@@ -699,5 +778,12 @@ system:
 effects: []
 folder: null
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722026800161
+  modifiedTime: 1722027224452
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: wm7zgz8ck5c3e7c0
 _key: '!items!wm7zgz8ck5c3e7c0'

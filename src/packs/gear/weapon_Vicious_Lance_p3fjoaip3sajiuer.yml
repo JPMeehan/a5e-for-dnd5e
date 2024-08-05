@@ -2,8 +2,7 @@ name: Vicious Lance
 type: weapon
 img: icons/weapons/polearms/spear-flared-gold.webp
 effects:
-  - icon: icons/weapons/polearms/spear-flared-gold.webp
-    origin: Item.p3fjoaip3sajiuer
+  - origin: Item.p9oCKrmVN9eTNu1M
     flags:
       a5e:
         sort: 0
@@ -32,18 +31,27 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/weapons/polearms/spear-flared-gold.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!p3fjoaip3sajiuer.Yw7Mh6TxboywP22H'
 flags: {}
 system:
   description:
     value: >-
-      <p><em>Defensive (Medium), Reach</em></p><hr class="a5e-rule
-      u-my-md"><p>You have disadvantage when you use a lance to attack a target
-      within 5 feet of you. If you are not mounted, you must use two hands to
-      wield the lance.</p><p><strong>Vicious Weapon:&nbsp;</strong>When you roll
-      a natural 20 on an attack roll using this weapon it deals an extra 2d6
-      damage of the weapon&rsquo;s type (this extra damage does not
+      <p>You have disadvantage when you use a lance to attack a target within 5
+      feet of you. If you are not mounted, you must use two hands to wield the
+      lance.</p>
+
+      <p><strong>Vicious Weapon:&nbsp;</strong>When you roll a natural 20 on an
+      attack roll using this weapon it deals an extra 2d6 damage of the
+      weapon&rsquo;s type (this extra damage does not
       double).</p><hr><p><b>Defensive:</b> This weapon is designed to be used
       with a shield of the stated degree or lighter (light, medium, or heavy).
       When you make an attack with this weapon and are using a shield designed
@@ -118,6 +126,8 @@ system:
     parts:
       - - 1d12 + @mod
         - piercing
+      - - 2d6
+        - piercing
     versatile: ''
   formula: ''
   save:
@@ -126,4 +136,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: p3fjoaip3sajiuer
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!p3fjoaip3sajiuer'

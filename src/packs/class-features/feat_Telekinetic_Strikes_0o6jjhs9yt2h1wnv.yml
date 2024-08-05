@@ -1,0 +1,73 @@
+folder: null
+name: Telekinetic Strikes
+type: feat
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level you can spend one exertion point per attack to increase
+      the range of your unarmed strikes to 30 feet.<span style="mso-spacerun:
+      yes;">&nbsp; </span>At<span style="mso-spacerun: yes;">&nbsp; </span>18th
+      level this increases to 60 feet.<span style="mso-spacerun: yes;">&nbsp;
+      </span>You can also spend an exertion point to use the Disarm, Knockdown,
+      and Shove basic maneuvers at the same range.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722150760336
+  modifiedTime: 1722150811771
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 0o6jjhs9yt2h1wnv
+_key: '!items!0o6jjhs9yt2h1wnv'

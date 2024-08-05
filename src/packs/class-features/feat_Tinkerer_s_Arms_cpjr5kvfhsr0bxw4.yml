@@ -1,0 +1,38 @@
+folder: null
+name: Tinkerer's Arms
+type: feat
+img: icons/tools/hand/lockpicks-steel-grey.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr" role="presentation">The automaton gains a set of built-in
+      thieves&rsquo; tools and can use them with a bonus equal to your
+      proficiency bonus + your Intelligence modifier at your direction.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Advanced Automaton
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722222796604
+  modifiedTime: 1722222902378
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: cpjr5kvfhsr0bxw4
+_key: '!items!cpjr5kvfhsr0bxw4'

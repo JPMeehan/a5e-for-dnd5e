@@ -92,7 +92,9 @@ system:
 
       <td style="text-align: center;">+2</td>
 
-      <td style="text-align: center;">Ability Score Improvement
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3jdfihvtbyhbv9ez]{Wild
       Shape Improvement}</td>
 
@@ -152,7 +154,9 @@ system:
 
       <td style="text-align: center;">+3</td>
 
-      <td style="text-align: center;">Ability Score Improvement
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3jdfihvtbyhbv9ez]{Wild
       Shape Improvement}</td>
 
@@ -214,7 +218,9 @@ system:
 
       <td style="text-align: center;">+4</td>
 
-      <td style="text-align: center;">Ability Score Improvement
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3jdfihvtbyhbv9ez]{Wild
       Shape Improvement}</td>
 
@@ -274,7 +280,9 @@ system:
 
       <td style="text-align: center;">+5</td>
 
-      <td style="text-align: center;">Ability Score Improvement
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3jdfihvtbyhbv9ez]{Wild
       Shape Improvement}</td>
 
@@ -320,7 +328,9 @@ system:
 
       <td style="text-align: center;">+6</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">11</td>
 
@@ -400,7 +410,25 @@ system:
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
-  startingEquipment: []
+  startingEquipment:
+    - _id: bJkoX5xPsM2jD1O0
+      sort: 10000
+      key: Compendium.a5e-for-dnd5e.gear.Item.gh0dpxp8hcakdu31
+      count: 0
+      type: linked
+      group: ''
+    - _id: bJkoX5xPsM2jD1O1
+      sort: 20000
+      key: Compendium.a5e-for-dnd5e.gear.Item.kcedc2rpwmc69lzr
+      count: 0
+      type: linked
+      group: ''
+    - _id: bJkoX5xPsM2jD1O2
+      sort: 30000
+      key: Compendium.a5e-for-dnd5e.gear.Item.949ur70qvyuei7qt
+      count: 0
+      type: linked
+      group: ''
   identifier: ''
   levels: 1
   hitDice: d8
@@ -465,15 +493,17 @@ system:
       configuration:
         mode: default
         allowReplacements: false
-        grants:
-          - skills:arc
-          - skills:ani
-          - skills:ins
-          - skills:med
-          - skills:prc
-          - skills:rel
-          - skills:sur
-        choices: []
+        grants: []
+        choices:
+          - pool:
+              - skills:arc
+              - skills:ani
+              - skills:ins
+              - skills:med
+              - skills:prc
+              - skills:rel
+              - skills:sur
+            count: 2
     - _id: RNW2KttjZEycYGmB
       type: ItemGrant
       title: Features
@@ -494,7 +524,7 @@ system:
     - _id: LTxIT1FlHLU5733T
       type: ItemGrant
       title: Features
-      level: 1
+      level: 3
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sygit0xifd4lbg3g
@@ -540,6 +570,76 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wozif3chwfacegc5
+    - _id: jQCKIYEdEVrh7AhG
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: SV1gvRndbZXa9uIo
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: MXvGFZM0xJU0Ox5y
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: NqngOMaZpr5FBwhi
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 9khn6waxBBL8GaQM
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: HXgQ9i0AGB5MJTYZ
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: Keu6wOG3h9C0pOH4
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: lw6yFGd5MDadQQDC
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: LJfPj25zVXcilOYc
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: wECtwVUN8XT2Jomr
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: wis
     progression: full
@@ -547,5 +647,12 @@ system:
 effects: []
 folder: null
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722104357299
+  modifiedTime: 1722104436183
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: pntclph6e5mlxj74
 _key: '!items!pntclph6e5mlxj74'

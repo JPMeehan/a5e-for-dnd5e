@@ -1,0 +1,55 @@
+name: Instinctual Defense
+type: feat
+img: icons/magic/nature/barrier-shield-wood-vines.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At level 11, your training hunting down dangerous and unique quarry has
+      caused you to develop targeted defenses against their abilities. Choose
+      one of the following.</p>
+
+      <h2>Evasion</h2>
+
+      <p>When you make a Dexterity saving throw against an effect that deals
+      half damage on a success, you take no damage on a success and half damage
+      on a failure.</p>
+
+      <h2>Adaptive Defense</h2>
+
+      <p>You have an expertise die on saving throws to avoid or escape being
+      grappled, restrained, or knocked prone. In addition, the first time since
+      the start of your turn that you are hit by an attack, you gain a +3 bonus
+      to AC against any further attacks from that specific creature until the
+      start of your next turn.</p>
+
+      <h2>Innured Constitution</h2>
+
+      <p>You are immune to poison damage and the poisoned condition. This has
+      also bolstered your general constitution, granting an expertise die on all
+      saving throws against disease.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: w3o9xnkuhvfrl7qb
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!w3o9xnkuhvfrl7qb'

@@ -1,0 +1,128 @@
+folder: null
+name: Arcane Defense
+type: feat
+img: icons/equipment/shield/kite-wooden-oak-glow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level, your defensive abilities also improve with some help from
+      your magical studies.</p>
+
+      <p>If you have the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.mcvhe4g4bv9jt22k]{Brutal
+      Defense} feature, you can spend 2 exertion points to infuse your armor
+      with crackling magical energy for a minute. While this ability is active,
+      a creature that hits you with a melee attack must make a Constitution
+      saving throw against your spell save DC. A creature that fails the save
+      takes force damage equal to your martial arts die.</p>
+
+      <p>If you have the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.zh0pv154q6abroh6]{Agile
+      Defense} ability, you instead may instead use Flurry of Blows, Long Step,
+      or Patient Defense after casting a spell with a casting time of one
+      action.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classResources.martial-arts'
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.KbWiYzLv2JZluN2Z
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: rzfCv8eEmazkGXb0
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Magical Energy
+    img: icons/equipment/shield/kite-wooden-oak-glow.webp
+    _id: oVQq73objA6q9jey
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A creature that hits you with a melee attack must make a Constitution
+      saving throw against your spell save DC. A creature that fails the save
+      takes force damage equal to your martial arts die.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: 1722198823666
+      modifiedTime: 1722198856250
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!mm5dihabhmf01vr6.oVQq73objA6q9jey'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722198688478
+  modifiedTime: 1722198955323
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: mm5dihabhmf01vr6
+_key: '!items!mm5dihabhmf01vr6'

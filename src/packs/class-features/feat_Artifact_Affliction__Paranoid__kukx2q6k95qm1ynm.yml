@@ -43,8 +43,7 @@ system:
     per: null
     max: null
 effects:
-  - icon: icons/magic/unholy/projectile-spear-glow-pink.webp
-    origin: Item.kukx2q6k95qm1ynm
+  - origin: Item.QD3TTt0tTzeQqurM
     flags:
       a5e:
         sort: 0
@@ -80,8 +79,21 @@ effects:
       startTurn: null
     description: "<p>A creature that is on edge is hyperaware of its\_surroundings and unable to fully relax. An on\_edge creature has advantage on Perception and\_initiative checks, but disadvantage on all other\_ability checks as it is distracted, unable to take\_its mind off the dangers that could potentially\_lurk around every corner.</p>"
     statuses: []
+    img: icons/magic/unholy/projectile-spear-glow-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!kukx2q6k95qm1ynm.ajQVZLLLh4eQuD6T'
 flags: {}
 _id: kukx2q6k95qm1ynm
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!kukx2q6k95qm1ynm'

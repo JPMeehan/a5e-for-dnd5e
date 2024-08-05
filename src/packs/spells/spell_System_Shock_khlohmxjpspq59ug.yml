@@ -103,6 +103,10 @@ effects:
     statuses:
       - paralyzed
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!khlohmxjpspq59ug.DwUz53I4OuPKjXUm'
   - icon: icons/magic/lightning/bolt-strike-creature-pink.webp
     origin: Item.khlohmxjpspq59ug
@@ -135,6 +139,10 @@ effects:
     statuses:
       - rattled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!khlohmxjpspq59ug.q60AeGOFSMyjXhLB'
 flags:
   a5e-for-dnd5e:
@@ -145,4 +153,8 @@ flags:
       - nature
     rareSpell: false
 _id: khlohmxjpspq59ug
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!khlohmxjpspq59ug'

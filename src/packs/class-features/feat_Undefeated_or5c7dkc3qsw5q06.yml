@@ -54,13 +54,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d4
-        - temphp
-      - - 1d6
-        - temphp
-      - - 1d8
-        - temphp
-      - - 1d10
+      - - '@classResources.martial-arts'
         - temphp
     versatile: ''
   formula: ''
@@ -69,5 +63,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721839910107
+  modifiedTime: 1721839986609
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: or5c7dkc3qsw5q06
 _key: '!items!or5c7dkc3qsw5q06'

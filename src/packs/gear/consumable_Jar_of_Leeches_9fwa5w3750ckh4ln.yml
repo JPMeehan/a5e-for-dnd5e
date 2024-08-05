@@ -1,7 +1,42 @@
 name: Jar of Leeches
 type: consumable
 img: icons/consumables/food/soup-broth-bowl-tentacle.webp
-effects: []
+effects:
+  - origin: Item.bVtodnYj9UyIMlfW
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: F88edt6ev053GUxr
+    transfer: false
+    name: Ongoing Damage (Jar of Leeches)
+    img: icons/consumables/food/soup-broth-bowl-tentacle.webp
+    _id: wfeFA8FnA2AE3YQ6
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On a hit, if the target is a Large or smaller creature it takes 1d4
+      ongoing damage. A creature can end this damage by using its action to
+      remove the leeches.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!9fwa5w3750ckh4ln.wfeFA8FnA2AE3YQ6'
 flags: {}
 system:
   description:
@@ -35,7 +70,48 @@ system:
     value: potion
     subtype: ''
   uses:
-    autoDestroy: false
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creatureOrObject
+  range:
+    value: 20
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: 9fwa5w3750ckh4ln
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!9fwa5w3750ckh4ln'

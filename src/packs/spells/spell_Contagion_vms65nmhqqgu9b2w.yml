@@ -42,6 +42,10 @@ effects:
     statuses:
       - blinded
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vms65nmhqqgu9b2w.620EdzDHUhDMu2p9'
   - icon: icons/magic/unholy/projectile-smoke-tendril-green.webp
     origin: Item.vms65nmhqqgu9b2w
@@ -78,6 +82,10 @@ effects:
       for an ability check, attack roll, or saving throw.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vms65nmhqqgu9b2w.Agu5YKXnjdi80zu7'
   - icon: icons/magic/unholy/projectile-smoke-tendril-green.webp
     origin: Item.vms65nmhqqgu9b2w
@@ -114,6 +122,10 @@ effects:
       and becomes vulnerable to all damage.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vms65nmhqqgu9b2w.21BDIEPla3WvNI4W'
   - icon: icons/magic/unholy/projectile-smoke-tendril-green.webp
     origin: Item.vms65nmhqqgu9b2w
@@ -156,6 +168,10 @@ effects:
     statuses:
       - confused
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vms65nmhqqgu9b2w.QhWTXJ19aFboBR0i'
   - icon: icons/magic/unholy/projectile-smoke-tendril-green.webp
     origin: Item.vms65nmhqqgu9b2w
@@ -198,6 +214,10 @@ effects:
     statuses:
       - rattled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vms65nmhqqgu9b2w.YstCGexkspeNGWtb'
   - icon: icons/magic/unholy/projectile-smoke-tendril-green.webp
     origin: Item.vms65nmhqqgu9b2w
@@ -235,6 +255,10 @@ effects:
       damage, the target is stunned until the end of its next turn.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vms65nmhqqgu9b2w.ioMXHnqag0BLLbRP'
 flags:
   a5e-for-dnd5e:
@@ -332,4 +356,8 @@ system:
     scaling: spell
 folder: 7JSQOMqQquD3x5jj
 _id: vms65nmhqqgu9b2w
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!vms65nmhqqgu9b2w'

@@ -1,0 +1,35 @@
+name: Archetype Schools (Elemental Knight)
+type: feat
+img: icons/magic/symbols/squares-3d-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Add one school from the following to your list of herald spells: fire,
+      cold, or lightning. This choice, as a damage type, is referred to below as
+      &ldquo;your element.&rdquo;</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: cgkj79vz8phs1q9e
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!cgkj79vz8phs1q9e'

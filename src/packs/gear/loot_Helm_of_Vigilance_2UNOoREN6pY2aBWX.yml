@@ -1,0 +1,190 @@
+folder: KgQ6CdIvGHXxQ3wz
+name: Helm of Vigilance
+type: loot
+img: icons/equipment/head/helm-barbute-brass-steel.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr">This helm has 6 charges and regains 1d4 every day at dawn.
+      While wearing the helm, you gain an expertise die on Perception checks.
+      Additionally, you can spend one or more charges as an action to gain one
+      of the following benefits:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">1 charge: Darkvision with a range of 60
+      feet for one hour. If you already have darkvision, its range increases by
+      30 feet instead.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">2 charges: you can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.i7sh0e2wqmql4cac]{See
+      Invisibility} without a spell slot or material components.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">3 charges: you can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.1sp8qzuofkjmunsd]{Arcane Eye}
+      without a spell slot or material components.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">4 charges: you can cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.5za0gne3ylcdk11z]{True Seeing}
+      without a spell slot or material components.&nbsp;</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 30000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+effects:
+  - origin: Item.E21vuvE8HQoFkOcb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: A6MTXN8VAnB4KjeC
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Invisibility
+    _id: 2z7hVXdU5T4luoLm
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - invisible
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    img: icons/equipment/head/helm-barbute-brass-steel.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!2UNOoREN6pY2aBWX.2z7hVXdU5T4luoLm'
+  - origin: Item.E21vuvE8HQoFkOcb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: n64pZexVhC89MhWI
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: True Seeing
+    _id: fSz9cXj76y665LqC
+    changes:
+      - key: system.attributes.senses.truesight.distance
+        value: >-
+          {"comparisonOperator":"<","comparisonValue":"120","positiveValue":"120","negativeValue":"@original"}
+        mode: 7
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>This allows a creature to see in normal or magical darkness, perceive invisible creatures and objects, automatically detect illusions and succeed on its saving throw against them, and\_perceive the original form of a shapechanger or\_creature that is transformed by magic. A creature\_with truesight can also see into the Ethereal Plane.</p>"
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    img: icons/equipment/head/helm-barbute-brass-steel.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!2UNOoREN6pY2aBWX.fSz9cXj76y665LqC'
+  - origin: Item.E21vuvE8HQoFkOcb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: M2y6kLe7NGB5QDk2
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Darkvision
+    _id: uPHSnzmEYjq1KqP5
+    changes:
+      - key: system.attributes.senses.darkvision.distance
+        value: >-
+          {"comparisonOperator":">","comparisonValue":"0","positiveValue":"(@original
+          + 30)","negativeValue":"60"}
+        mode: 7
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    img: icons/equipment/head/helm-barbute-brass-steel.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!2UNOoREN6pY2aBWX.uPHSnzmEYjq1KqP5'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 2UNOoREN6pY2aBWX
+_key: '!items!2UNOoREN6pY2aBWX'

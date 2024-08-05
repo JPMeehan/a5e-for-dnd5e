@@ -25,8 +25,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
-    cost: ''
+    type: ''
+    cost: 1
     condition: ''
   uses:
     value: null
@@ -50,14 +50,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: heal
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - '@mod'
+        - healing
     versatile: ''
   formula: ''
   save:
@@ -65,5 +67,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722362756587
+  modifiedTime: 1722362861013
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: mqzkrnulkjr3553o
 _key: '!items!mqzkrnulkjr3553o'

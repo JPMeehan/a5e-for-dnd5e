@@ -1,9 +1,8 @@
 name: Blizzard
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/water/projectiles-ice-faceted-salvo-blue.webp
 effects:
-  - icon: icons/svg/item-bag.svg
-    origin: Item.zeAlaW9zdHV8jltq
+  - origin: Item.GJHshKDdPuFIqcIu
     flags:
       a5e:
         sort: 0
@@ -30,6 +29,20 @@ effects:
       <p>Movement speeds is reduced by 10 feet for a number of rounds equal to
       the level of the spell (minimum 1 round).</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721855001751
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/svg/item-bag.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!uomiic3ffqqucfo5.EfgAzIDJB3ChE3Hd'
 flags: {}
@@ -93,5 +106,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721855001725
+  modifiedTime: 1721855434671
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: uomiic3ffqqucfo5
 _key: '!items!uomiic3ffqqucfo5'

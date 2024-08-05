@@ -1,0 +1,53 @@
+name: Elemental Priest Spells
+type: feat
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you choose this archetype at 1st-level, your archetype spells are
+      selected from one of several lists, chosen from below. Your choice of
+      archetype spell list affects other features from this archetype.</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.syb8nisb6v88livi]{Fire
+      Priest Spells}</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.33aq5ynzpnxdp22l]{Stone
+      Priest Spells}</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.g6lcpnpq20n0e6ut]{Storm
+      Priest Spells}</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.avwc54sujfr7521l]{Water
+      Priest Spells}</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1iw9mzo3n5a6qkmh]{Ice
+      Priest Spells}</p>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nokvq8ql84ywz8eg]{Plant
+      Priest Spells}</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: pimb5afdzua0obrg
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!pimb5afdzua0obrg'

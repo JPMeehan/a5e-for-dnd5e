@@ -3,6 +3,7 @@ type: feat
 img: icons/magic/defensive/armor-stone-skin.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -41,4 +42,8 @@ effects: []
 flags: {}
 folder: null
 _id: mivn1gimrzs1aw24
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!mivn1gimrzs1aw24'

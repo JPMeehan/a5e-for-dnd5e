@@ -116,16 +116,6 @@ system:
       configuration:
         items:
           - uuid: Compendium.a5e-for-dnd5e.origin-features.Item.zviislarfa78nemm
-    - _id: 3GD3wVVIT3QLCzAD
-      type: ItemChoice
-      level: 10
-      configuration:
-        pool:
-          - uuid: Compendium.undefined.Item.qb599o74wfjczvn7
-          - uuid: Compendium.undefined.Item.7urchbv3furi3g1o
-          - uuid: Compendium.undefined.Item.jfq4on77hu8czmy3
-        choices:
-          '0': 1
   movement:
     walk: 30
     hover: false
@@ -138,4 +128,8 @@ effects: []
 folder: rjiZIRtAlDCKQxwG
 flags: {}
 _id: m95jkl37hhc5u52x
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!m95jkl37hhc5u52x'

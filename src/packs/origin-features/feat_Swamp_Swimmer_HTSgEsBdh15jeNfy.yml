@@ -1,0 +1,69 @@
+folder: OpVlQm2oviOU6e9w
+name: Swamp Swimmer
+type: feat
+img: icons/magic/nature/root-vines-silhouette-teal.webp
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain a swim speed equal to your walking speed and you have
+      advantage on stealth checks in water.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects:
+  - origin: Item.UsiO0J2tD3f76LtC
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: In Water
+    _id: OA5e81MX26yWaPBL
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    img: icons/magic/nature/root-vines-silhouette-teal.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!HTSgEsBdh15jeNfy.OA5e81MX26yWaPBL'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: HTSgEsBdh15jeNfy
+_key: '!items!HTSgEsBdh15jeNfy'

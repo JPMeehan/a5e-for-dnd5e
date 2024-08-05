@@ -1,0 +1,70 @@
+folder: I42sQs8PvIITk2qs
+name: Turning Strike
+type: a5e-for-dnd5e.maneuver
+img: icons/weapons/swords/sword-winged-pink.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirements:</strong> <em>ability to turn at least
+      one creature type, a use of Channel Divinity available</em></p>
+
+      <p dir="ltr">Make a melee weapon attack against a creature. On a hit, it
+      takes normal weapon damage and is also affected as if you had used
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.zhuf06durl8bnmh3]{Turn
+      Undead} on it (forcing a save and the usual results from that save as
+      normal, but using the higher of your maneuver or spell save DC). This does
+      not expend your use of Channel Divinity, but it also does not affect any
+      other creatures.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  degree: 2
+  tradition: sst
+  prerequisite: ''
+  properties: []
+  consume:
+    type: charges
+    target: null
+    amount: 1
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: Jv1b27aNUnVu8eHX
+_key: '!items!Jv1b27aNUnVu8eHX'

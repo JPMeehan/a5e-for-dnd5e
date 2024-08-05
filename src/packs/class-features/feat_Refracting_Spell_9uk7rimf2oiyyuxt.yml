@@ -1,6 +1,6 @@
 name: Refracting Spell
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/control/energy-stream-link-blue.webp
 effects: []
 flags: {}
 system:
@@ -22,11 +22,50 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721856467989
+  modifiedTime: 1721856513542
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 9uk7rimf2oiyyuxt
 _key: '!items!9uk7rimf2oiyyuxt'

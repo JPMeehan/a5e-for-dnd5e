@@ -1,0 +1,37 @@
+folder: null
+name: Outland Gourmand
+type: feat
+img: icons/tools/cooking/pot-camping-iron-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-50350d66-7fff-9383-4c2a-b2cf6339b7c0">Even
+      hardtack looks appetizing when prepared by you. You gain proficiency in
+      cook's utensils, or an expertise die if you are already proficient.
+      Additionally, you gain advantage on checks made to use the Cook journey
+      activity.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: sqic0f9htx5ehsBq
+_key: '!items!sqic0f9htx5ehsBq'

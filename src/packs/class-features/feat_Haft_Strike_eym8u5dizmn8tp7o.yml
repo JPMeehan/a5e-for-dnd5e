@@ -20,13 +20,57 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
+    condition: ''
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + min(@mod,0)
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/skills/melee/hand-grip-staff-teal.webp
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722095228045
+  modifiedTime: 1722095370830
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: eym8u5dizmn8tp7o
 _key: '!items!eym8u5dizmn8tp7o'

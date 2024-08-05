@@ -1,0 +1,72 @@
+folder: null
+name: Wanderer’s Devotion
+type: feat
+img: icons/magic/holy/saint-glass-portrait-halo.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain an expertise die on Religion checks. You may treat a holy
+      relic (small idol, totem, prayer beads) as if it were a sacred site for
+      the purposes of the Religious Devotion downtime activity. Additionally,
+      you can perform the Religious Devotion downtime activity in only an hour
+      by using a special ritual. Once you use this ritual, you cannot do so
+      again for one week.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Religious Training
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: m7jDUtQ8yK7p84Ia
+_key: '!items!m7jDUtQ8yK7p84Ia'

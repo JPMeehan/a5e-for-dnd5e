@@ -1,0 +1,37 @@
+folder: null
+name: Spirit Binder
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-23717102-7fff-ebff-b53b-118f8ab3a10a">You
+      learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pbtje70pd17ouy83]{Spirit
+      Guardians} spell, and the spell doesn't count against your number of
+      spells known.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: 5th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: Q854G61El0smXs6t
+_key: '!items!Q854G61El0smXs6t'

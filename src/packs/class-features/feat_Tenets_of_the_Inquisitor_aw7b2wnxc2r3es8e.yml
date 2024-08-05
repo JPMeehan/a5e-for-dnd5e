@@ -1,0 +1,51 @@
+name: Tenets of the Inquisitor
+type: feat
+img: icons/magic/perception/eye-tendrils-web-purple.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>All inquisitors hold similar tenets, regardless of the deity they
+      serve.</p>
+
+      <ul>
+
+      <li><strong>Have Faith. </strong>Have faith in yourself, your actions, and
+      above all the order which you serve.</li>
+
+      <li><strong>Loyalty Above All.</strong> Your word is your bond, and
+      loyalty is an integral part of who you are.</li>
+
+      <li><strong>Question Everyone. </strong>All outside of your order should
+      be regarded as potential heretics, lest worldly connections prevent you
+      from carrying out your duty.</li>
+
+      <li><strong>Without Mercy.</strong> You must pass judgment without mercy
+      as you carry out divine retribution.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_id: aw7b2wnxc2r3es8e
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!aw7b2wnxc2r3es8e'

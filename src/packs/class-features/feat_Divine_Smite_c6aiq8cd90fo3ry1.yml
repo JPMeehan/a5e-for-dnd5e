@@ -58,7 +58,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d8
+      - - '@classResources.divine-smite-damage'
         - radiant
     versatile: ''
   formula: ''
@@ -67,5 +67,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721853022795
+  modifiedTime: 1721853089408
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: c6aiq8cd90fo3ry1
 _key: '!items!c6aiq8cd90fo3ry1'

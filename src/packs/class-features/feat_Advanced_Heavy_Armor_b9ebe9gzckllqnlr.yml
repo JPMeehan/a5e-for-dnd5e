@@ -1,0 +1,39 @@
+folder: null
+name: Advanced Heavy Armor
+type: feat
+img: icons/equipment/chest/breastplate-layered-leather-studded-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>The armor includes a set of strength enhancers. When calculating what
+      you can push, drag, or lift, your size is considered one step larger. This
+      stacks with the Orc heritage&rsquo;s Heavy Lifter feature and similar
+      features.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: Upgraded Armor
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722221719013
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: b9ebe9gzckllqnlr
+_key: '!items!b9ebe9gzckllqnlr'

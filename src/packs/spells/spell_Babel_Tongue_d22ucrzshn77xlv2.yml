@@ -109,6 +109,10 @@ effects:
       effect for itself on a success.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!d22ucrzshn77xlv2.vCfVmnmtpPyDol2P'
   - icon: icons/magic/control/hypnosis-mesmerism-swirl.webp
     origin: Item.d22ucrzshn77xlv2
@@ -145,6 +149,10 @@ effects:
       Intelligence ability checks and saves for one minute instead.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!d22ucrzshn77xlv2.7yD1AjSAxgxFqV2x'
 flags:
   a5e-for-dnd5e:
@@ -155,4 +163,8 @@ flags:
       - communication
     rareSpell: false
 _id: d22ucrzshn77xlv2
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!d22ucrzshn77xlv2'

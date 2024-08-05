@@ -1,7 +1,42 @@
 name: Ring of Acid Resistance
 type: equipment
 img: icons/equipment/finger/ring-cabochon-silver-gold-green.webp
-effects: []
+effects:
+  - origin: Item.fLEWdTcGDjV6cVgv
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Ring of Acid Resistance
+    img: icons/equipment/finger/ring-cabochon-silver-gold-green.webp
+    _id: btTY6MRTnP80seyA
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: acid
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!2b47oq9t1t38i022.btTY6MRTnP80seyA'
 flags: {}
 system:
   description:
@@ -41,4 +76,8 @@ system:
     baseItem: ''
 folder: 9k4UVzCiMuqj62ea
 _id: 2b47oq9t1t38i022
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!2b47oq9t1t38i022'

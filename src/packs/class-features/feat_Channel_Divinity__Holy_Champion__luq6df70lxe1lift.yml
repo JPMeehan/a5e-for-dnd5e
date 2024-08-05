@@ -1,0 +1,49 @@
+name: Channel Divinity (Holy Champion)
+type: feat
+img: icons/magic/sonic/explosion-impact-shock-wave.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level when you choose this archetype, you gain the following two
+      Channel Divinity options.</p>
+
+      <h2>Negative Energy Flood</h2>
+
+      <p>As an action, you can use your Channel Divinity to unleash a flood of
+      negative energy on your foes. Creatures you choose within 30 feet of you
+      make a Constitution saving throw. On a failed save, a creature takes 2d8
+      necrotic damage and is pushed back 5 feet. On a success, it takes half
+      damage and isn&rsquo;t pushed back.</p>
+
+      <h2>Positive Energy Flood</h2>
+
+      <p>As a bonus action, you can use your Channel Divinity to send out a
+      flood of positive energy to heal your allies. Creatures you choose
+      (including yourself) within 30 feet regain hit points equal to your
+      proficiency bonus + your Charisma modifier.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: luq6df70lxe1lift
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!luq6df70lxe1lift'

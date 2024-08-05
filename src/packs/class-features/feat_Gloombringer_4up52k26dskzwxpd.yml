@@ -64,8 +64,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/svg/item-bag.svg
-    origin: Item.4up52k26dskzwxpd
+  - origin: Item.dYza4rrhkRukNkOL
     flags:
       a5e:
         sort: 0
@@ -87,10 +86,33 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>Bright light becomes dim light, dim light becomes darkness, and
+      darkness becomes magical darkness.</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722029558951
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/light/orbs-hand-gray.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!4up52k26dskzwxpd.QiYJcelAKFXhHf4V'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722029464448
+  modifiedTime: 1722029572487
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 4up52k26dskzwxpd
 _key: '!items!4up52k26dskzwxpd'

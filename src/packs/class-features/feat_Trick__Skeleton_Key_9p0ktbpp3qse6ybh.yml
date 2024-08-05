@@ -9,17 +9,16 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 13th level, d8 expertise die with thieves’ tools
-      </em></p><p>Your expertise die on checks made with thieves’ tools
-      increases to d10. As part of successfully picking a lock, you can alter
-      the lock so that it opens to a key in your possession in addition to, or
-      instead of, whatever keys previously opened it.</p>
+      <p>Your expertise die on checks made with thieves&rsquo; tools increases
+      to d10. As part of successfully picking a lock, you can alter the lock so
+      that it opens to a key in your possession in addition to, or instead of,
+      whatever keys previously opened it.</p>
     chat: ''
   source:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 13th level, d8 expertise die with thieves’ tools
   recharge:
     value: null
     charged: true
@@ -30,4 +29,8 @@ system:
     max: null
 folder: null
 _id: 9p0ktbpp3qse6ybh
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!9p0ktbpp3qse6ybh'

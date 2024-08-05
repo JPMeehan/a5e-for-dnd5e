@@ -2,8 +2,7 @@ name: Vital Strike
 type: feat
 img: icons/skills/wounds/blood-spurt-spray-red.webp
 effects:
-  - icon: icons/skills/wounds/blood-spurt-spray-red.webp
-    origin: Item.k306nv2auvpfdmbx
+  - origin: Item.Aj5mksOl2d0SjHrd
     flags:
       a5e:
         sort: 0
@@ -32,6 +31,20 @@ effects:
       for 1 minute or until the target uses an action to stanch the wound.
       Constructs, Undead, and Oozes are not affected by this feature.</p>
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722180143711
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/wounds/blood-spurt-spray-red.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!k306nv2auvpfdmbx.gbSJc9fhYI7sWoKZ'
 folder: null
@@ -80,7 +93,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: effect
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -94,5 +107,12 @@ system:
     ability: ''
     dc: null
     scaling: spell
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722180143665
+  modifiedTime: 1722180252784
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: k306nv2auvpfdmbx
 _key: '!items!k306nv2auvpfdmbx'

@@ -37,14 +37,14 @@ system:
   cover: null
   crewed: false
   target:
-    value: 1
+    value: null
     width: null
     units: ''
-    type: self
+    type: ''
   range:
     value: null
     long: null
-    units: self
+    units: ''
   consume:
     type: ''
     target: null
@@ -65,8 +65,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/sonic/scream-wail-shout-teal.webp
-    origin: Item.2jhudvd0bx6rqlh8
+  - origin: Item.hJIF0GweePD4fd5t
     flags:
       a5e:
         sort: 0
@@ -95,8 +94,29 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722270067092
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!2jhudvd0bx6rqlh8.x9Bvn9oirP8cyepB'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722270067061
+  modifiedTime: 1722270112631
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 2jhudvd0bx6rqlh8
 _key: '!items!2jhudvd0bx6rqlh8'

@@ -1,0 +1,71 @@
+folder: null
+name: All Tied Up
+type: feat
+img: icons/magic/nature/root-vines-knot-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p><span id="docs-internal-guid-a4f0ea09-7fff-8eaf-5f08-b6897975b524">As
+      an action, you can undo a single knot you made in a cordage while holding
+      it, regardless of the distance. Creatures other than you have disadvantage
+      on skill checks and saving throws on untying your knots or escaping
+      bondage made by you.</span></p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: NABzoadfdB4nDNWd
+_key: '!items!NABzoadfdB4nDNWd'

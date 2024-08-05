@@ -1,6 +1,6 @@
 name: Second Chorus
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/tools/instruments/harp-lap-brown.webp
 effects: []
 flags: {}
 system:
@@ -29,7 +29,7 @@ system:
   activation:
     type: reaction
     cost: 1
-    condition: When you see a spell cast on an ally within 30 feet.
+    condition: When you see a spell cast on an ally within 30 feet
   uses:
     value: null
     max: ''
@@ -42,7 +42,7 @@ system:
     value: 1
     width: null
     units: ''
-    type: creature
+    type: self
   range:
     value: 30
     long: null
@@ -67,5 +67,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722310701019
+  modifiedTime: 1722310840054
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: lmn4a7buo8a6193f
 _key: '!items!lmn4a7buo8a6193f'

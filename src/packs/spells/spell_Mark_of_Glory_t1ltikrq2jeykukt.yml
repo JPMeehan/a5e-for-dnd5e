@@ -105,6 +105,10 @@ effects:
       thick.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!t1ltikrq2jeykukt.mIHNd7Fqk9W1NwP6'
   - icon: icons/commodities/treasure/crown-gold-laurel-wreath.webp
     origin: Item.t1ltikrq2jeykukt
@@ -137,6 +141,10 @@ effects:
     description: ''
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!t1ltikrq2jeykukt.lKN75NPQ3n5bJzim'
 flags:
   a5e-for-dnd5e:
@@ -149,4 +157,8 @@ flags:
       - displacement
     rareSpell: false
 _id: t1ltikrq2jeykukt
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!t1ltikrq2jeykukt'

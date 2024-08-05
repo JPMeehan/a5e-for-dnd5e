@@ -129,6 +129,10 @@ effects:
     description: ''
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vjhks74rnijf518b.UT9B4cu7E2R7HhQA'
   - icon: icons/magic/death/projectile-skull-flaming-green.webp
     origin: Item.vjhks74rnijf518b
@@ -160,6 +164,10 @@ effects:
     statuses:
       - frightened
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vjhks74rnijf518b.5yI2IBvHYhSFI90g'
   - icon: icons/magic/death/projectile-skull-flaming-green.webp
     origin: Item.vjhks74rnijf518b
@@ -189,6 +197,10 @@ effects:
     statuses:
       - grappled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!vjhks74rnijf518b.LRs7l81317XB2N5n'
 flags:
   a5e:
@@ -202,4 +214,8 @@ flags:
     rareSpell: false
 folder: 3HQE3FN5vUCIygDu
 _id: vjhks74rnijf518b
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!vjhks74rnijf518b'

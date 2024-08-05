@@ -1,0 +1,42 @@
+folder: null
+name: Component Collector
+type: feat
+img: icons/skills/trades/academics-investigation-study-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-d654b830-7fff-5529-7a79-8998ed978d07"
+      dir="ltr">You have a nose for finding spell components. You have advantage
+      on checks made to use the Gather Components journey activity. On a
+      success, you also find additional components worth an amount of gold equal
+      to you Intelligence modifier (minimum of 1), or twice that amount on a
+      critical success.</p>
+
+      <p dir="ltr">(REMINDER: T&amp;T specifies that you can roll with
+      disadvantage when Gathering Components to find a specific component
+      you&rsquo;re looking for worth less than 100 gold.)</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: YXwC3C4zl26UaYx3
+_key: '!items!YXwC3C4zl26UaYx3'

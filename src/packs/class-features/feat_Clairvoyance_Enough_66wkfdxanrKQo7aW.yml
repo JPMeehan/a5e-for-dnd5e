@@ -1,0 +1,77 @@
+folder: null
+name: Clairvoyance Enough
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-b2bdab86-7fff-ffc2-a75a-35a3df8a21c5"
+      dir="ltr">You cast your gaze inward, and a hidden place reveals itself to
+      you. Name a specific, immovable location on the same plane that you are
+      seeking and spend 1 sorcery point. After 10 minutes of continuous focus,
+      you know the distance and direction of the location from your current
+      position.</p>
+
+      <p dir="ltr">By spending an additional sorcery point you also learn of one
+      previously unknown obstacle that stands between you and the destination.
+      At the Narrator&rsquo;s discretion, information about this obstacle may
+      range from cryptic or crystal clear. Spending any additional points on
+      subsequent uses of this feature does not reveal any additional obstacles
+      but may yield new information about the obstacle.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 66wkfdxanrKQo7aW
+_key: '!items!66wkfdxanrKQo7aW'

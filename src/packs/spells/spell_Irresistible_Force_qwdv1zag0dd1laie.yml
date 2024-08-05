@@ -106,6 +106,10 @@ effects:
     description: ''
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!qwdv1zag0dd1laie.m9AEuxWtZiEYYKFb'
   - icon: icons/skills/wounds/anatomy-organ-heart-red.webp
     origin: Item.qwdv1zag0dd1laie
@@ -135,6 +139,10 @@ effects:
     statuses:
       - rattled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!qwdv1zag0dd1laie.v9BuNsC3D6vapPio'
   - icon: icons/skills/wounds/anatomy-organ-heart-red.webp
     origin: Item.qwdv1zag0dd1laie
@@ -164,6 +172,10 @@ effects:
     statuses:
       - slowed
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!qwdv1zag0dd1laie.L8n5R9KEgG7ZaTel'
 flags:
   a5e-for-dnd5e:
@@ -174,4 +186,8 @@ flags:
       - multiclass
     rareSpell: false
 _id: qwdv1zag0dd1laie
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!qwdv1zag0dd1laie'

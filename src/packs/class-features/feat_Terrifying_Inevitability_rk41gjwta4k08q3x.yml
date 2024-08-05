@@ -1,7 +1,100 @@
 name: Terrifying Inevitability
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/movement/portal-vortex-orange.webp
+effects:
+  - origin: Item.POaFvSBtOffmSxTB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: rhrTzpdzny8tS8os
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frightened
+    img: icons/magic/movement/portal-vortex-orange.webp
+    _id: JR9j92wp76ipZX8d
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A frightened creature has disadvantage on ability checks and attack
+      rolls while it is able to see the source of its fear.</li>
+
+      <li>A frightened creature can't willingly move closer to the source of its
+      fear.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722362474083
+      modifiedTime: 1722362540419
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!rk41gjwta4k08q3x.JR9j92wp76ipZX8d'
+  - origin: Item.POaFvSBtOffmSxTB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: rhrTzpdzny8tS8os
+        duration:
+          unit: hours
+    transfer: false
+    name: Immue to Terrifying Inevitability
+    img: icons/magic/movement/portal-vortex-orange.webp
+    _id: moKS53eKJJnzYmwv
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722362558652
+      modifiedTime: 1722362581164
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!rk41gjwta4k08q3x.moKS53eKJJnzYmwv'
 flags: {}
 system:
   type:
@@ -34,7 +127,6 @@ system:
   activation:
     type: bonus
     cost: 1
-    condition: ''
   uses:
     value: null
     max: ''
@@ -44,20 +136,20 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 1
     width: null
     units: ''
-    type: ''
+    type: creature
   range:
-    value: null
+    value: 10
     long: null
-    units: ''
+    units: ft
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -72,5 +164,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722362366284
+  modifiedTime: 1722362558697
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: rk41gjwta4k08q3x
 _key: '!items!rk41gjwta4k08q3x'

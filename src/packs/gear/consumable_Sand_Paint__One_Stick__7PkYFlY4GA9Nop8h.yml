@@ -1,0 +1,73 @@
+folder: jczlz1TrOcJzDCz6
+name: Sand Paint (One Stick)
+type: consumable
+img: icons/tools/cooking/mortar-black.webp
+system:
+  description:
+    value: >-
+      <p>These long hollow rods are filled with a dye that stains and clings to
+      sand particles. They are used mostly for temporary messages and guide
+      marks. Under normal circumstances, sand paint lasts for about a day before
+      becoming illegible.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0.5
+  price:
+    value: 3
+    denomination: cp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 7PkYFlY4GA9Nop8h
+_key: '!items!7PkYFlY4GA9Nop8h'

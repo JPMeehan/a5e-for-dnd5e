@@ -32,6 +32,10 @@ effects:
     statuses:
       - grappled
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!zt95xbbaugmq23yv.X2cwUFdaLApblSHM'
   - icon: icons/magic/unholy/strike-beam-blood-large-red-blue.webp
     origin: Item.zt95xbbaugmq23yv
@@ -65,6 +69,10 @@ effects:
       - deafened
       - restrained
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!zt95xbbaugmq23yv.cALeUw9v4ArkT9Qt'
 flags:
   a5e-for-dnd5e:
@@ -167,4 +175,8 @@ system:
     scaling: spell
 folder: hp7XyogTunXDH7Ig
 _id: zt95xbbaugmq23yv
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!zt95xbbaugmq23yv'

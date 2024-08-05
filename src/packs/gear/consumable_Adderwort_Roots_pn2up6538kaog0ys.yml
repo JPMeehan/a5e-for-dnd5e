@@ -2,8 +2,7 @@ name: Adderwort Roots
 type: consumable
 img: icons/consumables/plants/dried-bundle-wrapped-stems-sticks-brown.webp
 effects:
-  - icon: icons/consumables/plants/dried-bundle-wrapped-stems-sticks-brown.webp
-    origin: Item.pn2up6538kaog0ys
+  - origin: Item.NE3656u6sFzq5xmh
     flags:
       a5e:
         sort: 0
@@ -28,10 +27,21 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>Chewing these dark roots bolsters your body’s natural defenses, and
+      after you eat it you gain an expertise die on Constitution saving throws
+      for 1 hour.</p>
     statuses: []
     tint: '#ffffff'
+    img: icons/consumables/plants/dried-bundle-wrapped-stems-sticks-brown.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!pn2up6538kaog0ys.V6RtQh7mtpjwoKEn'
 flags: {}
 system:
@@ -98,4 +108,8 @@ system:
     scaling: spell
 folder: jczlz1TrOcJzDCz6
 _id: pn2up6538kaog0ys
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!pn2up6538kaog0ys'

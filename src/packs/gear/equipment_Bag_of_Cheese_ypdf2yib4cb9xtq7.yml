@@ -1,0 +1,54 @@
+name: Bag of Cheese
+type: equipment
+img: icons/consumables/food/cheese-cube-orange.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p>This item is often bought from apprentice wizards with an adventurer’s
+      first reward from questing. It is a yellow bag with the word “cheese”
+      embroidered on it (in Common). Any food you put in this bag becomes
+      cheese, but retains its original taste and condition—a moldy and dirty
+      loaf of bread becomes a moldy and dirty piece of cheese. Any non-food
+      items develop a distinctly cheesy aroma.</p><p>Alternatively, you can turn
+      the bag inside out, transforming it into 1 Supply worth of any type of
+      mundane cheese.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: 5
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  armor:
+    value: .nan
+    dex: 0
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: null
+  type:
+    value: ''
+    baseItem: ''
+folder: 9k4UVzCiMuqj62ea
+_id: ypdf2yib4cb9xtq7
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!ypdf2yib4cb9xtq7'

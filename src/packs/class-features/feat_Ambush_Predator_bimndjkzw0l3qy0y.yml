@@ -23,8 +23,7 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: none
+  activation: {}
   uses:
     value: null
     max: ''
@@ -64,5 +63,12 @@ system:
 effects: []
 folder: null
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722269360255
+  modifiedTime: 1722269533041
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: bimndjkzw0l3qy0y
 _key: '!items!bimndjkzw0l3qy0y'

@@ -58,17 +58,21 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/unholy/projectile-spear-glow-pink.webp
-    origin: Item.9TA2RuJCijDXZ809
+  - origin: Item.7E5S9dVFmCYAny67
     flags:
       a5e:
         sort: 0
         transferType: onUse
-        actionId: OzldlIE2l9gXPneQ
+        actionId: RWVh1uIJZBIuAFmc
         applyToSelf: true
+        duration:
+          unit: minutes
     transfer: false
-    name: Deadly Strikes
-    _id: skk7dZegGcrGwspM
+    name: Deathrager
+    img: icons/magic/unholy/projectile-spear-glow-pink.webp
+    _id: ZFGXBb8fP6z9alzu
+    type: base
+    system: {}
     changes:
       - key: system.traits.dr.value
         value: necrotic
@@ -76,28 +80,42 @@ effects:
         priority: null
       - key: flags.a5e.effects.bonuses.damage
         value: >-
-          {"label":"Deadly
-          Strikes","formula":"1d6","damageType":"","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/svg/upgrade.svg"}
+          {"label":"Deadly Strikes
+          Damage","formula":"@classResources.deadly-strikes","damageType":"necrotic","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/unholy/projectile-spear-glow-pink.webp"}
         mode: 0
         priority: null
     disabled: false
     duration:
       startTime: null
-      seconds: null
+      seconds: 60
       combat: null
       rounds: null
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p>Beginning at level 3, your rage infuses you with the power of death.
-      While you are raging, you have resistance to necrotic damage and your
-      weapon attacks deal an additional 1d6 necrotic damage. This increases to
-      1d8 at level 9 and 1d10 at level 15.</p>
+    description: "<p>While you are raging, you have resistance to necrotic damage and your weapon attacks deal an additional 1d6 necrotic damage. This increases to 1d8 at level 9 and 1d10 at level 15.\_</p>"
+    tint: '#ffffff'
     statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: null
+      modifiedTime: 1722345417277
+      lastModifiedBy: Glw114cHAVexdKTu
     folder: null
-    _key: '!items.effects!euhgi1z3dp69tlvn.skk7dZegGcrGwspM'
+    _key: '!items.effects!euhgi1z3dp69tlvn.ZFGXBb8fP6z9alzu'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722345243697
+  modifiedTime: 1722346966816
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: euhgi1z3dp69tlvn
 _key: '!items!euhgi1z3dp69tlvn'

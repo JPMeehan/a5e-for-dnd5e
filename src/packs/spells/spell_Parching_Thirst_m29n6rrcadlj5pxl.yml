@@ -108,6 +108,10 @@ effects:
     description: ''
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!m29n6rrcadlj5pxl.YmvfbuZp3yIFGCbA'
   - icon: icons/skills/toxins/poison-skull-herbs-bottle-pink.webp
     origin: Item.m29n6rrcadlj5pxl
@@ -138,6 +142,10 @@ effects:
     description: ''
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!m29n6rrcadlj5pxl.60oNrDiloM7Jr15F'
 flags:
   a5e-for-dnd5e:
@@ -147,4 +155,8 @@ flags:
       - fire
     rareSpell: false
 _id: m29n6rrcadlj5pxl
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!m29n6rrcadlj5pxl'

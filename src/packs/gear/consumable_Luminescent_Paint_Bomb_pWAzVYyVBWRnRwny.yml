@@ -1,0 +1,117 @@
+folder: jczlz1TrOcJzDCz6
+name: Luminescent Paint Bomb
+type: consumable
+img: icons/tools/cooking/mortar-black.webp
+system:
+  description:
+    value: >-
+      <p>You can use an action to throw this fragile clay pot up to 20 feet,
+      where it shatters, splashing luminescent paint over a 5-foot radius.
+      Creatures in the radius must make a DC 13 Dexterity saving throw or be
+      unable to benefit from invisibility and suffer disadvantage on Stealth
+      checks until 10 minutes is taken to scrub the paint off. Affected
+      creatures also cast dim light in a 5-foot radius.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 60
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 20
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.FkgieOdqoRbuS9lj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 6vfEWH8GjWJjc0L6
+    transfer: false
+    name: Luminescent Paint Bomb
+    _id: uX9YtNgILm7pWh4f
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '10'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    img: icons/tools/cooking/mortar-black.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!pWAzVYyVBWRnRwny.uX9YtNgILm7pWh4f'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: pWAzVYyVBWRnRwny
+_key: '!items!pWAzVYyVBWRnRwny'

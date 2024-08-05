@@ -24,9 +24,87 @@ system:
     value: potion
     subtype: ''
   uses:
-    autoDestroy: false
-effects: []
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.ItbDd55dEWZk3BAj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 5nzQ7DPrv6YodSIf
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Potion of Resistance (Cold)
+    img: icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp
+    _id: 8ZyJmzLxd5l5eFOH
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: cold
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!xfi8yqqupij4ebfn.8ZyJmzLxd5l5eFOH'
 flags: {}
 folder: jUj7oP8VFpreITEL
 _id: xfi8yqqupij4ebfn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!xfi8yqqupij4ebfn'

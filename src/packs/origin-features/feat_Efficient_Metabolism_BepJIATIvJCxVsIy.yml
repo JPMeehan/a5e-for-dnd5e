@@ -1,0 +1,32 @@
+folder: OpVlQm2oviOU6e9w
+name: Efficient Metabolism
+type: feat
+img: icons/environment/wilderness/terrain-rocky-ground.webp
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: <p>You require half as much Supply as normal for a creature your size.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: BepJIATIvJCxVsIy
+_key: '!items!BepJIATIvJCxVsIy'

@@ -1,0 +1,40 @@
+folder: null
+name: Great Artists Steal
+type: feat
+img: icons/skills/trades/academics-merchant-scribe.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency with checks using a
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.uwrm02lk6beqqt92]{Forgery Kit}.
+      If you are already proficient with checks using a forgery kit, you instead
+      gain an expertise die. In addition, your prestige increases by 1 as you
+      claim other great artists&rsquo; work as your own while maintaining
+      plausible deniability with the general public. Of course, you may draw the
+      ire from the artists you steal from or those who closely follow their
+      work.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: RozmrwrAA4KsOtjw
+_key: '!items!RozmrwrAA4KsOtjw'

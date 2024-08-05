@@ -1,0 +1,35 @@
+folder: n7MBM7lcayeaiQdF
+name: Trap Spotter
+type: feat
+img: icons/environment/settlement/graveyard-tombstone-night.webp
+system:
+  type:
+    value: background
+    subtype: ''
+  description:
+    value: >-
+      <p>You have developed an excellent sense for where security measures are
+      located inside of a structure. You gain an expertise die on Investigation
+      or Perception checks to spot traps, alarms, and secret doors.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: MBRthtayef74iTzs
+_key: '!items!MBRthtayef74iTzs'

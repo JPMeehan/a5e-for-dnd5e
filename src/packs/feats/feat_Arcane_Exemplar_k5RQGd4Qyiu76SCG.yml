@@ -1,0 +1,98 @@
+name: Arcane Exemplar
+type: feat
+img: icons/magic/symbols/runes-star-blue.webp
+system:
+  type:
+    value: feat
+    subtype: ''
+  description:
+    value: >-
+      <p>Your prowess with your two disciplines increases, and you have begun to
+      learn to truly weave them into a cohesive whole. You gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li>Your Strength, Intelligence or Charisma score increases by 1, to a
+      maximum of 20.</li>
+
+      <li>You can spend an hour performing a special magical ritual on a martial
+      melee weapon. If you do, you attune to the weapon, and it gains the
+      following features:
+
+      <ul>
+
+      <li>The weapon always counts as a spellcasting focus for you.</li>
+
+      <li>It gains the Breaker, Parrying, and Vicious properties.</li>
+
+      <li>While you are wielding the weapon, you have
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.jaj686a9y3t0an5y]{Spiritual
+      Weapon} prepared as your choice of a wizard or herald spell. It does not
+      count against your spells prepared.</li>
+
+      </ul>
+
+      </li>
+
+      <li>When you would gain a new Divine Lesson or Elective Study, you can
+      choose freely from either list.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: Arcane Champion feat
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: k5RQGd4Qyiu76SCG
+_key: '!items!k5RQGd4Qyiu76SCG'

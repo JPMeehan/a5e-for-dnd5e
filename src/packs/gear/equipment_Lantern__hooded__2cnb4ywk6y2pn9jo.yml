@@ -1,7 +1,93 @@
 name: Lantern (hooded)
 type: equipment
 img: icons/sundries/lights/lantern-iron-yellow.webp
-effects: []
+effects:
+  - origin: Item.tITVlaFfKCJgWouA
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: EKAkBGHMAuPuiTS0
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Full Light
+    img: icons/sundries/lights/lantern-iron-yellow.webp
+    _id: xqeZDgm01IgFtS4n
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '30'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '60'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 21600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!2cnb4ywk6y2pn9jo.xqeZDgm01IgFtS4n'
+  - origin: Item.tITVlaFfKCJgWouA
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: nNYoMASCBmxkUNnU
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Lower Hood
+    img: icons/sundries/lights/lantern-iron-yellow.webp
+    _id: MubN5IGOQsTTxMA1
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '0'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '5'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 21600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    _key: '!items.effects!2cnb4ywk6y2pn9jo.MubN5IGOQsTTxMA1'
 flags: {}
 system:
   description:
@@ -41,6 +127,49 @@ system:
   type:
     value: ''
     baseItem: ''
+  activation:
+    type: action
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: VRWG3xL5zF1ktOX6
 _id: 2cnb4ywk6y2pn9jo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!2cnb4ywk6y2pn9jo'

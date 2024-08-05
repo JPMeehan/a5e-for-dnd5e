@@ -1,0 +1,39 @@
+folder: null
+name: Message in Dreams
+type: feat
+img: icons/magic/holy/angel-wings-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can come to others in dreams, conveying the word of your faith. You
+      always have the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.jo2vztvypvhqxh5u]{Dream} spell
+      prepared, and it is considered a cleric spell for you. You can cast it as
+      part of taking a long rest without using material components or a spell
+      slot. When you cast the spell in this way, you must be the messenger and
+      cannot terrorize the target.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: 9th level
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: roo0wXFvm9FvPq5k
+_key: '!items!roo0wXFvm9FvPq5k'

@@ -7,7 +7,9 @@ system:
     value: class
     subtype: ''
   description:
-    value: ''
+    value: >-
+      <p>Also at 3rd level, your combat training grants you proficiency with
+      martial weapons and heavy armor.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -23,8 +25,7 @@ system:
     per: null
     max: null
 effects:
-  - icon: icons/svg/aura.svg
-    origin: Item.55kqixin5l76jfy0
+  - origin: Item.AGyILVF4h2A68iyr
     flags:
       a5e:
         sort: 0
@@ -52,8 +53,29 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: null
+      modifiedTime: 1722199541666
+      lastModifiedBy: Glw114cHAVexdKTu
     folder: null
     _key: '!items.effects!55kqixin5l76jfy0.nFeuRjGV90SKHBPn'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722199541621
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 55kqixin5l76jfy0
 _key: '!items!55kqixin5l76jfy0'

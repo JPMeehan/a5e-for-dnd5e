@@ -32,6 +32,10 @@ effects:
     statuses:
       - blinded
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!q6he0io45yq84te0.yB2ydIrWq5nBr8gO'
   - icon: icons/magic/light/beams-rays-orange-purple-large.webp
     origin: Item.q6he0io45yq84te0
@@ -63,6 +67,10 @@ effects:
     statuses:
       - confused
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!q6he0io45yq84te0.EcTmM9N1iIquQRjo'
 flags:
   a5e-for-dnd5e:
@@ -151,4 +159,8 @@ system:
     scaling: spell
 folder: tV0pWb0LhH7T2MPb
 _id: q6he0io45yq84te0
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!q6he0io45yq84te0'

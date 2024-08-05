@@ -11,7 +11,9 @@ system:
     value: >-
       <p>At 11th level your bond has grown and you are able to summon forth far
       greater nature spirits. As an action, you can expend a use of Wild Shape
-      to cast the conjure animals spell.</p>
+      to cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.xe7t43c42bkhxihe]{Conjure
+      Animals} spell.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -22,10 +24,52 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
+    condition: ''
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721852237969
+  modifiedTime: 1721852254642
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 86p2i6t3jepq1c3q
 _key: '!items!86p2i6t3jepq1c3q'

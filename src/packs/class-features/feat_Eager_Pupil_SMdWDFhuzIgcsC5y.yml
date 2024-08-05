@@ -1,0 +1,99 @@
+folder: null
+name: Eager Pupil
+type: feat
+img: icons/skills/trades/academics-study-reading-book.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-fcbaf624-7fff-1dc4-8984-9e41fecd6949"
+      dir="ltr">You are quick of study and always on the lookout for new
+      teachers. You require only half the usual gold and time to perform the
+      Research downtime activity. In addition, after speaking with a person for
+      at least 1 minute, you can use an action to make either an Insight or
+      Arcana check against their passive Deception. On a success, you learn the
+      following information about them:</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Whether they have a higher Intelligence
+      score than yourself.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Which lore skills (Arcana, Culture,
+      Engineering, History, Nature, and Religion) they are proficient in, if
+      any.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Whether they have class levels in the
+      warlock or wizard class.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: SMdWDFhuzIgcsC5y
+_key: '!items!SMdWDFhuzIgcsC5y'

@@ -1,6 +1,6 @@
 name: Evolving Blizzard
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp
 effects: []
 flags: {}
 system:
@@ -12,8 +12,8 @@ system:
       <p>When you cast a spell of 1st-level or higher that deals cold damage,
       you can spend 1 sorcery point to gain 1d6 temporary hit points per level
       of the spell cast. While you have these temporary hit points and a
-      creature hits you with a melee weapon attack, the attacker takes [[/r 1d10
-      #cold]] cold damage. These temporary hit points last for 1 hour.</p>
+      creature hits you with a melee weapon attack, the attacker takes 1d10 cold
+      damage. These temporary hit points last for 1 hour.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -23,10 +23,7 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: ''
-    cost: ''
-    condition: ''
+  activation: {}
   uses:
     value: null
     max: ''
@@ -66,5 +63,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721856993190
+  modifiedTime: 1721857346157
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: pzs0gjz3n2dtiu4j
 _key: '!items!pzs0gjz3n2dtiu4j'

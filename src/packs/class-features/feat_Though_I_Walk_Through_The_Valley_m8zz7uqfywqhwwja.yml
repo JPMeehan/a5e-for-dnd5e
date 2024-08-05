@@ -4,6 +4,7 @@ type: feat
 img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -31,4 +32,8 @@ system:
 effects: []
 flags: {}
 _id: m8zz7uqfywqhwwja
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!m8zz7uqfywqhwwja'

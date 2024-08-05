@@ -4,16 +4,18 @@ type: feat
 img: icons/skills/social/peace-luck-insult.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
       <p id="docs-internal-guid-9246a01b-7fff-56a8-604e-c11687c0b406"
       dir="ltr">At 6th level, you have a knack for de-escalating conflict. You
-      learn the calm emotions spell, or another bard spell if you already know
-      it. When you cast this spell, it affects all creature types except for
-      constructs and undead, although at the Narrator&rsquo;s discretion it may
-      affect undead who are driven by strong emotions such as revenants and
-      wraiths.&nbsp;</p>
+      learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.hnvt4tnuww6o4vvi]{Calm
+      Emotions} spell, or another bard spell if you already know it. When you
+      cast this spell, it affects all creature types except for constructs and
+      undead, although at the Narrator&rsquo;s discretion it may affect undead
+      who are driven by strong emotions such as revenants and wraiths.&nbsp;</p>
 
       <p dir="ltr">In addition, when you affect a creature with this spell, you
       may choose to suppress one level of strife or the confused condition for
@@ -41,5 +43,12 @@ system:
     max: null
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722135346556
+  modifiedTime: 1722135396667
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: w1adodzglybmzph3
 _key: '!items!w1adodzglybmzph3'

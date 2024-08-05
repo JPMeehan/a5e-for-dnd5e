@@ -11,17 +11,20 @@ flags:
 system:
   description:
     value: >-
-      <p>A transparent sphere of force encloses the target.</p><p>The sphere is
-      weightless and just large enough for the target to fit inside. The sphere
-      can be destroyed without harming anyone inside by being dealt at least 15
-      force damage at once or by being targeted with a dispel magic spell cast
-      using a 4th-level or higher spell slot. The sphere is immune to all other
-      damage, and no spell effects, physical objects, or anything else can pass
-      through, though a target can breathe while inside it. The target cannot be
-      damaged by any attacks or effects originating from outside the sphere, and
-      the target cannot damage anything outside of it.</p><p>The target can use
-      an action to roll the sphere at half its Speed. Similarly, the sphere can
-      be picked up and moved by other creatures.</p>
+      <p>A transparent sphere of force encloses the target.</p>
+
+      <p>The sphere is weightless and just large enough for the target to fit
+      inside. The sphere can be destroyed without harming anyone inside by
+      dispel magic cast using a spell slot of at least 4th-level or by being
+      dealt at least 15 force damage in one round by a single attack or from a
+      single effect. The sphere is immune to all other damage, and no spell
+      effects, physical objects, or anything else can pass through, though a
+      target can breathe while inside it. The target cannot be damaged by any
+      attacks or effects originating from outside the sphere, and the target
+      cannot damage anything outside of it.</p>
+
+      <p>The target can use an action to roll the sphere at half its Speed.
+      Similarly, the sphere can be picked up and moved by other creatures.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -85,5 +88,12 @@ system:
     dc: null
     scaling: spell
 folder: 3HQE3FN5vUCIygDu
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721934322175
+  modifiedTime: 1721934346566
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 4rawhkoa81x8uqs0
 _key: '!items!4rawhkoa81x8uqs0'

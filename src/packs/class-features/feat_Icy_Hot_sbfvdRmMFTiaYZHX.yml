@@ -1,0 +1,160 @@
+folder: null
+name: Icy Hot
+type: feat
+img: icons/creatures/magical/spirit-mischief-fire-ice-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-797109e1-7fff-98cf-0ce1-c3e824f0bc33"
+      dir="ltr">You gain one of the following features based on your
+      manifestation energy. You can spend 1 sorcery point to share the benefits
+      of the feature with all creatures within 10 feet for 1 hour.</p>
+
+      <ul>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Calm, Cool, Collected (Blizzard). You are
+      resistant to heat for the purposes of overcoming hot weather and extremely
+      high temperatures.</p>
+
+      </li>
+
+      <li dir="ltr" aria-level="1">
+
+      <p dir="ltr" role="presentation">Hot Blooded (Inferno). You are resistant
+      to cold for the purposes of overcoming cold weather and extremely low
+      temperatures.</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Blizzard or Inferno Manifestation
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.pRXnibaHEeQuu6Po
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: GGVg81M0OxjH2oOG
+        duration:
+          unit: hours
+    transfer: false
+    name: Calm, Cool, Collected (Blizzard)
+    img: icons/creatures/magical/spirit-mischief-fire-ice-blue.webp
+    _id: 1Gc3djra2V6W5UnI
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Resistant to heat for the purposes of overcoming hot weather and
+      extremely high temperatures.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    folder: null
+    _key: '!items.effects!sbfvdRmMFTiaYZHX.1Gc3djra2V6W5UnI'
+  - origin: Item.pRXnibaHEeQuu6Po
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: GGVg81M0OxjH2oOG
+        duration:
+          unit: hours
+    transfer: false
+    name: Hot Blooded (Inferno)
+    img: icons/creatures/magical/spirit-mischief-fire-ice-blue.webp
+    _id: nDEx4VzfozXegevH
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Resistant to cold for the purposes of overcoming cold weather and
+      extremely low temperatures.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    folder: null
+    _key: '!items.effects!sbfvdRmMFTiaYZHX.nDEx4VzfozXegevH'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: sbfvdRmMFTiaYZHX
+_key: '!items!sbfvdRmMFTiaYZHX'

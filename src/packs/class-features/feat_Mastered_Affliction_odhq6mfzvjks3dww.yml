@@ -1,0 +1,55 @@
+folder: null
+name: Mastered Affliction
+type: feat
+img: icons/magic/unholy/projectile-spear-glow-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-512d42c1-7fff-e003-eafb-38be67b19b27"
+      dir="ltr">At 14th level, while you realize that you will never be free of
+      your artifact&rsquo;s curse, you are so accustomed to it that attempts to
+      make it worse skate off of you. You gain one of the following benefits
+      based on your chosen affliction:</p><ul><li
+      dir="ltr"><strong>Unmoored:</strong> You are immune to the Confused
+      condition.</li><li dir="ltr"
+      role="presentation"><strong>Paranoid:</strong> You are immune to the
+      Frightened condition.</li><li dir="ltr"
+      role="presentation"><strong>Troubled:</strong> You cannot be put to sleep
+      magically and you are immune to being harmed or terrorized in your dreams
+      (such as with the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.jo2vztvypvhqxh5u]{Dream}
+      spell). You also ignore the effects of having one level of fatigue, though
+      if you gain a second, both (and any additional) levels affect you
+      normally.</li><li dir="ltr" role="presentation"><strong>Fettered:</strong>
+      You are immune to the Slowed condition.</li><li dir="ltr"
+      role="presentation"><strong>Gravebound:</strong> If you are killed, a
+      spellcaster does not have to spend material component costs to raise you
+      from the dead with
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.0k5zymq9q95l8jwa]{Revivify},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.9zhsri19dkhm9mcf]{Raise Dead},
+      or similar magic.</li></ul>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: odhq6mfzvjks3dww
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!odhq6mfzvjks3dww'

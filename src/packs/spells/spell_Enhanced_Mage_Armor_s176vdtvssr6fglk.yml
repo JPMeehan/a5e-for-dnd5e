@@ -2,8 +2,7 @@ name: Enhanced Mage Armor
 type: spell
 img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 effects:
-  - icon: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
-    origin: Item.s176vdtvssr6fglk
+  - origin: Item.tyVK7WxU9hvsARJ8
     flags:
       a5e:
         sort: 0
@@ -12,11 +11,11 @@ effects:
         duration:
           unit: hours
     transfer: false
-    name: Mage Armor
+    name: Enhanced Mage Armor
     _id: xILhsp6xwaUWS7YT
     changes:
-      - key: system.attributes.ac.value
-        value: 10 + @prof + @dex.mod
+      - key: system.attributes.ac.baseFormula
+        value: 10 + @prof[Proficiency Bonus] + @dex.mod[Dexterity Modifier]
         mode: 6
         priority: null
     disabled: false
@@ -31,6 +30,19 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.328'
+      systemId: a5e
+      systemVersion: 0.19.17
+      createdTime: null
+      modifiedTime: 1721175655055
+      lastModifiedBy: SkNEzSES7ahAJz45
+    img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
     _key: '!items.effects!s176vdtvssr6fglk.xILhsp6xwaUWS7YT'
 flags:
@@ -42,14 +54,19 @@ flags:
 system:
   description:
     value: >-
+      <p><strong>Target:&nbsp;</strong>A willing, unarmored creature</p>
+
       <p>Until the spell ends, the target is protected by a shimmering magical
       force. Its AC becomes 13 + its Dexterity modifier. The spell ends if the
-      target dons armor, or if you use an action to dismiss
-      it.</p><p><strong><em>Cast at Higher Levels.</em></strong> The target
-      gains 5 temporary hit points for each slot level above 1st. The temporary
-      hit points last for the spell's duration.</p><p><strong><em>Rare:</em>
-      Enhanced Mage Armor.</strong> The&nbsp;target&rsquo;s AC becomes 10 +
-      your&nbsp;proficiency bonus + its Dexterity modifier.</p>
+      target dons armor, or if you use an action to dismiss it.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The target gains 5
+      temporary hit points for each slot level above 1st. The temporary hit
+      points last for the spell's duration.</p>
+
+      <p><strong><em>Rare:</em> Enhanced Mage Armor.</strong>
+      The&nbsp;target&rsquo;s AC becomes 10 + your&nbsp;proficiency bonus + its
+      Dexterity modifier.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -114,5 +131,12 @@ system:
     dc: null
     scaling: spell
 folder: fJv2r2A8kfCAKTCg
+_stats:
+  coreVersion: '12.328'
+  systemId: a5e
+  systemVersion: 0.19.17
+  createdTime: 1721175572042
+  modifiedTime: 1721175761920
+  lastModifiedBy: SkNEzSES7ahAJz45
 _id: s176vdtvssr6fglk
 _key: '!items!s176vdtvssr6fglk'

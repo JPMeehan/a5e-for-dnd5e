@@ -1,0 +1,71 @@
+folder: I42sQs8PvIITk2qs
+name: Stabilizing Critical
+type: a5e-for-dnd5e.maneuver
+img: icons/weapons/swords/sword-winged-pink.webp
+system:
+  description:
+    value: >-
+      <p dir="ltr"><strong>Requirement: </strong><em>you must have a spell of
+      the healing school prepared and sufficient resources to cast it.</em></p>
+
+      <p dir="ltr">When you score a critical hit, you may use your reaction to
+      heal an unconscious creature making death saves within 30 feet of you a
+      number of hit points equal to 1d4 + your Charisma modifier.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  degree: 2
+  tradition: sst
+  prerequisite: ''
+  properties: []
+  consume:
+    type: charges
+    target: null
+    amount: 0
+  activation:
+    type: reaction
+    cost: 1
+    condition: critical hit
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4[Stabilizing Critical] + @mod[Charisma Modifier]
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: HYwUT0AcoIGGS5h1
+_key: '!items!HYwUT0AcoIGGS5h1'

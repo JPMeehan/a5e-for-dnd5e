@@ -64,8 +64,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/environment/people/commoner.webp
-    origin: Item.wtxrw1d6kjpxnhjw
+  - origin: Item.AY9c1JF9FxadPw1C
     flags:
       a5e:
         sort: 0
@@ -93,8 +92,29 @@ effects:
       startTurn: null
     description: ''
     statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: null
+      modifiedTime: 1722527525972
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/environment/people/commoner.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
     _key: '!items.effects!wtxrw1d6kjpxnhjw.Pxf6ZQ61Z1dNrN2P'
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722527525942
+  modifiedTime: 1722527608455
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: wtxrw1d6kjpxnhjw
 _key: '!items!wtxrw1d6kjpxnhjw'

@@ -1,0 +1,92 @@
+folder: null
+name: Birdsinger
+type: feat
+img: icons/creatures/birds/birds-flock-fly-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You share a kinship with the feathered and taloned, and the chorus of
+      morning birdsong is akin to your daily news. You gain an expertise die on
+      Animal Handling checks regarding birds and other feathered creatures.</p>
+
+      <p>In addition, at dawn you can spend 10 minutes and join the chorus of
+      morning birdsong and converse about local events. If you do, you learn the
+      following information regarding the area of the surrounding 5 mile
+      radius:</p>
+
+      <ul>
+
+      <li>Any notable locations that differ greatly from the surroundings in the
+      area.</li>
+
+      <li>Any unusual movements of creatures within the last 24 hours within the
+      area.</li>
+
+      <li>Any predators or other threats to birds within the area.</li>
+
+      <li>Any other notable events within the area that would be visible from
+      the air within the last 24 hours.</li>
+
+      </ul>
+
+      <p>To use this ability there must be birds or other forms of avian life
+      common to the area.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: A Way With Animals
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 10
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: AUJopS2d6aSBh4lJ
+_key: '!items!AUJopS2d6aSBh4lJ'

@@ -1,0 +1,38 @@
+folder: null
+name: All Creatures Great and Small
+type: feat
+img: icons/creatures/mammals/rabbit-movement-glowing-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have an affinity for animals and they tend to trust you. You can
+      always use Wisdom for Animal Handling checks and if a creature of the
+      Beast type would normally be indifferent to you, it is friendly instead.
+      This has no effect on creatures that would normally be hostile, even if
+      you have a similar feature or benefit that would make a hostile creature
+      indifferent.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Cannot have the Severity principle of devotion
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 6HKW0dLLytH0ndWq
+_key: '!items!6HKW0dLLytH0ndWq'

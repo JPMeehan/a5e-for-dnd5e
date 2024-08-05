@@ -16,11 +16,11 @@ system:
   quantity: 1
   weight: 8
   price:
-    value: 250
+    value: 150
     denomination: gp
   attunement: 0
   equipped: false
-  rarity: common
+  rarity: uncommon
   identified: true
   armor:
     value: 14
@@ -41,4 +41,8 @@ system:
     baseItem: chainshirt
 folder: TqzM6GRsfHr13lsw
 _id: a7co003lm8u6v222
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!a7co003lm8u6v222'

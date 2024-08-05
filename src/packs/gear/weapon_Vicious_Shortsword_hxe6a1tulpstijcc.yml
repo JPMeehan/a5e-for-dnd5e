@@ -2,8 +2,7 @@ name: Vicious Shortsword
 type: weapon
 img: icons/weapons/swords/shortsword-guard-brass.webp
 effects:
-  - icon: icons/weapons/swords/shortsword-guard-brass.webp
-    origin: Item.hxe6a1tulpstijcc
+  - origin: Item.RfzoCsKq6flcWPJc
     flags:
       a5e:
         sort: 0
@@ -32,7 +31,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/weapons/swords/shortsword-guard-brass.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!hxe6a1tulpstijcc.o3RplnB3d2bgc5Cs'
 flags: {}
 system:
@@ -122,4 +129,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: hxe6a1tulpstijcc
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!hxe6a1tulpstijcc'

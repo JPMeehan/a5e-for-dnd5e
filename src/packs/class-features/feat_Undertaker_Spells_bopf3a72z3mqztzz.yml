@@ -1,0 +1,98 @@
+name: Undertaker Spells
+type: feat
+img: icons/tools/hand/shovel-spade-steel-white.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr"><strong>Table: Undertaker&nbsp;Spells</strong></p>
+
+      <table style="width: 100%; height: 151.2px;" border="1"><colgroup><col
+      style="width: 12.4488%;"><col style="width: 87.5512%;"></colgroup>
+
+      <tbody>
+
+      <tr style="height: 50.4px;">
+
+      <td style="text-align: center; height: 50.4px;">1</td>
+
+      <td style="height:
+      50.4px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.4colmy0s3zjs0hy8]{Detect
+      Poison and Disease}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.wa2nd43b9dvkh1yu]{Protection
+      from Evil and Good}</td>
+
+      </tr>
+
+      <tr style="height: 50.4px;">
+
+      <td style="text-align: center; height: 50.4px;">3</td>
+
+      <td style="height:
+      50.4px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.724qyfqw7qcpe1ol]{Gentle
+      Repose} @UUID[Compendium.a5e-for-dnd5e.spells.Item.9eojtnhu5ptcipov]{Ray
+      of Enfeeblement}</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">5</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.xs292gklnxyaeuyx]{Animate
+      Dead}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.0k5zymq9q95l8jwa]{Revivify}</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">7</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.2q65v0xklhfx73to]{Blight}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.3zt20n8mf29x3eju]{Death
+      Ward}</td>
+
+      </tr>
+
+      <tr style="height: 16.8px;">
+
+      <td style="text-align: center; height: 16.8px;">9</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.spells.Item.10a7cken5ktbtnus]{Antilife
+      Shell} @UUID[Compendium.a5e-for-dnd5e.spells.Item.9zhsri19dkhm9mcf]{Raise
+      Dead}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_id: bopf3a72z3mqztzz
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!bopf3a72z3mqztzz'

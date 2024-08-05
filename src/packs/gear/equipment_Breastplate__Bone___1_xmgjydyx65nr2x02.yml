@@ -14,11 +14,11 @@ system:
   quantity: 1
   weight: 10
   price:
-    value: 200
+    value: 500
     denomination: gp
   attunement: 0
   equipped: false
-  rarity: common
+  rarity: uncommon
   identified: true
   armor:
     value: 15
@@ -39,4 +39,8 @@ system:
     baseItem: breastplaste
 folder: TqzM6GRsfHr13lsw
 _id: xmgjydyx65nr2x02
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!xmgjydyx65nr2x02'

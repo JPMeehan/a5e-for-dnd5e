@@ -1,0 +1,42 @@
+folder: z476XZt1iG4Mb7VJ
+name: Winged Serpent
+type: feat
+img: icons/creatures/reptiles/dragon-winged-blue.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Some sinuous take strongly after their couatl progenitors and grow
+      feathered wings. These sinuous are more likely than most to have colorful
+      scales and feathers on other parts of their bodies such as a feathered
+      crest on their heads or shoulders. You have the following trait:</p>
+
+      <p><em><strong>Flight.</strong></em> You have a fly speed of 30 feet. To
+      use this speed, you can&rsquo;t be wearing medium or heavy armor. Whenever
+      you spend 3 full consecutive rounds airborne without landing, you gain a
+      level of fatigue. Any fatigue gained in this way is removed upon finishing
+      a short or long rest.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: S0u8hZrQQj2pCDEx
+_key: '!items!S0u8hZrQQj2pCDEx'

@@ -41,6 +41,10 @@ effects:
       extra 1d8 radiant damage on a hit.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!dn7qd4m58ac396qm.WkgcS3E5EnkM4VVe'
   - icon: icons/magic/unholy/strike-hand-glow-pink.webp
     origin: Item.dTVpmUEAabGtH5Zu
@@ -69,6 +73,10 @@ effects:
       saving throws made against spells and other magical effects.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!dn7qd4m58ac396qm.pP4lak5j5duKo6Yb'
 flags: {}
 system:
@@ -144,4 +152,8 @@ system:
     scaling: spell
 folder: null
 _id: dn7qd4m58ac396qm
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!dn7qd4m58ac396qm'

@@ -1,0 +1,137 @@
+folder: null
+name: Power of the Mind
+type: feat
+img: icons/magic/control/debuff-energy-hold-levitate-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 11th level when you use the Flurry of Blows, Long Step, or Patient
+      Defense abilities you can spend an exertion point to gain an additional
+      benefit.</p>
+
+      <h2>Flurry of Blows</h2>
+
+      <p>When you make a flurry of blows attack and miss, you can spend an
+      exertion point to increase your attack bonus by an amount equal to your
+      Intelligence modifier, potentially turning a miss into a hit.<span
+      style="mso-spacerun: yes;">&nbsp; </span>You can only use this ability
+      once per attack.</p>
+
+      <h2>Long Step</h2>
+
+      <p>You can spend an exertion point to gain a fly speed equal to your
+      walking speed until the end of your turn.</p>
+
+      <h2>Patient Defense</h2>
+
+      <p>When you use your reaction to increase your AC when hit by a melee
+      attack as per Mind over Matter and this causes the attack to miss, you can
+      spend an exertion point to deal force damage to the target equal to aroll
+      of your martial arts die + your Intelligence modifier.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classResources.martial-arts + @mod'
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.BNtJLKt3Kj076YA8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 6AAv5PjUTXCieGEn
+        applyToSelf: true
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Long Step
+    img: icons/magic/control/debuff-energy-hold-levitate-yellow.webp
+    _id: 6KfnTi9TILeoPHY6
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        value: '@attributes.movement.walk.distance'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: 1722150901875
+      modifiedTime: 1722150933663
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vjvzb2tnbsfljttb.6KfnTi9TILeoPHY6'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722150825227
+  modifiedTime: 1722151037691
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vjvzb2tnbsfljttb
+_key: '!items!vjvzb2tnbsfljttb'

@@ -9,9 +9,8 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 13th level, d8 expertise die on Stealth checks
-      </em></p><p>Your expertise die on Stealth checks increases to d10. You
-      have a passive Stealth score of 10 plus your Dexterity modifier plus your
+      <p>Your expertise die on Stealth checks increases to d10. You have a
+      passive Stealth score of 10 plus your Dexterity modifier plus your
       proficiency bonus. When you have not attempted to hide from a creature but
       are not visible to it and not making noise, you are considered hidden,
       using your passive Stealth score.</p>
@@ -20,7 +19,7 @@ system:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 13th level, d8 expertise die on Stealth checks
   recharge:
     value: null
     charged: true
@@ -31,4 +30,8 @@ system:
     max: null
 folder: null
 _id: d88src1dbg45kygw
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!d88src1dbg45kygw'

@@ -25,34 +25,11 @@ system:
   uses:
     per: null
     max: null
-effects:
-  - icon: icons/svg/item-bag.svg
-    origin: Item.yi40liju52iwgk5e
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Long Legs
-    _id: PV1UEZcNLZO53NdC
-    changes:
-      - key: system.attributes.movement.walk
-        value: '40'
-        mode: 6
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _key: '!items.effects!yi40liju52iwgk5e.PV1UEZcNLZO53NdC'
+effects: []
 flags: {}
 _id: yi40liju52iwgk5e
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!yi40liju52iwgk5e'

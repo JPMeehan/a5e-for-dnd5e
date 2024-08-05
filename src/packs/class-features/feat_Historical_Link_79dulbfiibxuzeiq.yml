@@ -8,10 +8,11 @@ system:
   description:
     value: >-
       <p>At 6th level, your study into the old tales has turned up some useful
-      tricks. You learn an additional battle hymn of a level that you could
-      normally perform. Whenever you finish a short or long rest, you may
-      exchange this battle hymn for a different one of a level you could
-      normally perform.</p>
+      tricks. You learn an additional
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3qc1rqk8rwvl8van]{Battle
+      Hymn} of a level that you could normally perform. Whenever you finish a
+      short or long rest, you may exchange this battle hymn for a different one
+      of a level you could normally perform.</p>
     chat: ''
   source:
     book: 'Thematic Toolkit: Storyteller'
@@ -29,5 +30,12 @@ system:
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722134631879
+  modifiedTime: 1722134687036
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 79dulbfiibxuzeiq
 _key: '!items!79dulbfiibxuzeiq'

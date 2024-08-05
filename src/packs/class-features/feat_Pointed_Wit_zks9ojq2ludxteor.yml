@@ -1,0 +1,52 @@
+folder: null
+name: Pointed Wit
+type: feat
+img: icons/magic/control/voodoo-doll-pain-damage-tan.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 13th level, choose one of the following options.</p>
+
+      <h2>Conversational Parry</h2>
+
+      <p>You can reroll a failed Deception check and use the second result. Once
+      you use this feature, you can&rsquo;t do so again until you finish a
+      rest.</p>
+
+      <h2>Disarming Manner</h2>
+
+      <p>You have advantage on ability checks made to make peace or end
+      hostility.</p>
+
+      <h2>Verbal Riposte</h2>
+
+      <p>When a creature threatens you or attempts an Intimidation check against
+      you, you can use your reaction to make an Intimidation check against the
+      creature with advantage. On a success, the creature is frightened of you
+      for 1 minute. Once you use this feature, you can&rsquo;t use it again
+      until you finish a rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: zks9ojq2ludxteor
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!zks9ojq2ludxteor'

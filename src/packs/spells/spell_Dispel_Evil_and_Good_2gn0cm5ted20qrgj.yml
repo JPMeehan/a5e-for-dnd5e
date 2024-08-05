@@ -28,6 +28,10 @@ effects:
     description: "<p>Until the spell ends, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you.</p><p>You can end the spell early by using an action to do either of the following.</p><ul><li><p><strong>Mental Resistance:</strong>\_Choose up to 3 friendly creatures within 60 feet. Each of those creatures that is charmed, frightened, or possessed by a celestial, elemental, fey, fiend, or undead may make an immediate saving throw with advantage against the condition or possession, ending it on a success.</p></li><li><p><strong>Retribution:</strong> Make a melee spell attack against a celestial, elemental, fey, fiend, or undead within reach. On a hit, the creature takes 7d8 radiant or necrotic damage (your choice) and is stunned until the beginning of your next turn.</p></li></ul>"
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!2gn0cm5ted20qrgj.I6pMooPwSuSE9EP2'
 flags:
   a5e-for-dnd5e:
@@ -123,4 +127,8 @@ system:
     scaling: spell
 folder: 7JSQOMqQquD3x5jj
 _id: 2gn0cm5ted20qrgj
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!2gn0cm5ted20qrgj'

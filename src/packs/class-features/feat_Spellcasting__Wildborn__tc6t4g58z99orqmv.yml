@@ -1,0 +1,439 @@
+folder: null
+name: Spellcasting (Wildborn)
+type: feat
+img: icons/magic/nature/beam-hand-leaves-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you reach 3rd level, you gain the ability to cast spells.</p>
+
+      <h2>Cantrips</h2>
+
+      <p>At 3rd level, you learn two cantrips of your choice from the druid
+      spell list. These spells count as ranger spells for you. You learn an
+      additional cantrip at 10th level.</p>
+
+      <h2>Spell Slots</h2>
+
+      <p>To cast a ranger spell, you must expend a spell slot of the
+      spell&rsquo;s level or higher. The Wildborn Spellcasting table shows how
+      many spell slots you have to cast your ranger spells. You regain all
+      expended spell slots when you finish a long rest.</p>
+
+      <p><strong>Table: Wildborn Spellcasting</strong></p>
+
+      <table border="1"><colgroup><col><col><col><col><col><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>
+
+      <p>Cantrips</p>
+
+      <p>Known</p>
+
+      </td>
+
+      <td>
+
+      <p>Spells</p>
+
+      <p>Known</p>
+
+      </td>
+
+      <td>1st</td>
+
+      <td>2nd</td>
+
+      <td>3rd</td>
+
+      <td>4th</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>2</td>
+
+      <td>3</td>
+
+      <td>2</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>4th</td>
+
+      <td>2</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>5th</td>
+
+      <td>2</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>2</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>2</td>
+
+      <td>5</td>
+
+      <td>4</td>
+
+      <td>2</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>8th</td>
+
+      <td>2</td>
+
+      <td>6</td>
+
+      <td>4</td>
+
+      <td>2</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>9th</td>
+
+      <td>2</td>
+
+      <td>6</td>
+
+      <td>4</td>
+
+      <td>2</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>3</td>
+
+      <td>7</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>3</td>
+
+      <td>8</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>12th</td>
+
+      <td>3</td>
+
+      <td>8</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>13th</td>
+
+      <td>3</td>
+
+      <td>9</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>2</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>3</td>
+
+      <td>10</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>2</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>3</td>
+
+      <td>10</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>2</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>16th</td>
+
+      <td>3</td>
+
+      <td>11</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>3</td>
+
+      <td>11</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>3</td>
+
+      <td>11</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>3</td>
+
+      <td>-</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>19th</td>
+
+      <td>3</td>
+
+      <td>12</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>3</td>
+
+      <td>1</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>20th</td>
+
+      <td>3</td>
+
+      <td>13</td>
+
+      <td>4</td>
+
+      <td>3</td>
+
+      <td>3</td>
+
+      <td>1</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h2>Spells Known of 3rd-Level and Higher</h2>
+
+      <p>At 3rd level, you learn your choice of two 1st-level spells from the
+      druid spell list. Consult the Spells Known column of the Wildborn
+      Spellcasting table to see when you can learn more druid spells. Each of
+      these spells must be of a level for which you have spell slots. Spells
+      learned in this way count as ranger spells for you.</p>
+
+      <p>Additionally, when you gain a ranger level, you can replace a ranger
+      spell you know with another from the druid spell list, as long as it is of
+      a level for which you have spell slots.</p>
+
+      <h2>Spellcasting Ability</h2>
+
+      <p>Wisdom is your spellcasting ability for your ranger spells. You use
+      your Wisdom whenever a spell refers to your spellcasting ability. In
+      addition, you use your Wisdom modifier to set the attack bonus and saving
+      throw DC for your ranger spells, as follows:</p>
+
+      <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your
+      Wisdom modifier</p>
+
+      <p><strong>Spell attack modifier</strong> = your proficiency bonus + your
+      Wisdom modifier</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: tc6t4g58z99orqmv
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!tc6t4g58z99orqmv'

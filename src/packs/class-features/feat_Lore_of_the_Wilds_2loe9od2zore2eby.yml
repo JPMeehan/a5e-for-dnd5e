@@ -12,9 +12,9 @@ system:
     value: >-
       <p>At 3rd level when you select this archetype, you become closer to the
       natural world. You learn the
-      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.6l4bmc7ovgcn2c9k]{Find
-      Familiar}</em>&nbsp;spell, which does not count against your spells known.
-      You also gain proficiency with the Nature skill, and with scythes.</p>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.6l4bmc7ovgcn2c9k]{Find
+      Familiar}&nbsp;spell, which does not count against your spells known. You
+      also gain proficiency with the Nature skill, and with scythes.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -29,5 +29,12 @@ system:
   uses:
     per: null
     max: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722260699452
+  modifiedTime: 1722260772229
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: 2loe9od2zore2eby
 _key: '!items!2loe9od2zore2eby'

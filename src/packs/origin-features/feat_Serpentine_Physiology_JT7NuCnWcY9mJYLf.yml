@@ -1,0 +1,82 @@
+folder: z476XZt1iG4Mb7VJ
+name: Serpentine Physiology
+type: feat
+img: icons/creatures/reptiles/serpent-horned-green.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>Your lower body has the shape of a massive, powerful snake. This grants
+      you the following advantages:</p>
+
+      <ul>
+
+      <li>You are immune to the Prone condition while in contact with the
+      ground. If you are knocked prone while flying, you fall as normal.</li>
+
+      <li>You can scale a tree, pillar, or other vertical structure of roughly
+      cylindrical shape as long as it is no more than 5 feet in diameter or less
+      than 1 by coiling around it and slithering your way up. You have a climb
+      speed equal to half your walking speed while doing this, and your hands
+      remain free while you do so.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects:
+  - origin: Item.8dNzeIulrnTmlPfP
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: On The Ground
+    _id: vN4WQ4SdewRygAUl
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["prone"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
+    img: icons/creatures/reptiles/snake-fangs-bite-green.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!JT7NuCnWcY9mJYLf.vN4WQ4SdewRygAUl'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: JT7NuCnWcY9mJYLf
+_key: '!items!JT7NuCnWcY9mJYLf'

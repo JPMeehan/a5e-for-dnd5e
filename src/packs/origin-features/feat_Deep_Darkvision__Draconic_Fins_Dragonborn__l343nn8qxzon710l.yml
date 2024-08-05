@@ -2,8 +2,7 @@ name: Deep Darkvision (Draconic Fins Dragonborn)
 type: feat
 img: icons/magic/light/explosion-star-small-teal-purple.webp
 effects:
-  - icon: icons/magic/light/explosion-star-small-teal-purple.webp
-    origin: Item.l343nn8qxzon710l
+  - origin: Item.GrGWZ2JnCFgMF0Vs
     flags:
       a5e:
         sort: 0
@@ -28,7 +27,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/magic/light/explosion-star-small-teal-purple.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!l343nn8qxzon710l.YwEd1ZLBjnU4yGEO'
 flags: {}
 system:
@@ -58,4 +65,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: l343nn8qxzon710l
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!l343nn8qxzon710l'

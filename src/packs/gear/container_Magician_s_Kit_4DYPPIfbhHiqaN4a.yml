@@ -1,0 +1,54 @@
+name: Magician’s Kit
+type: container
+img: icons/weapons/wands/wand-star-white.webp
+system:
+  description:
+    value: >-
+      <p>Has 10 charges (weighs 3 lbs. and costs 25 gp to fully restock, which
+      can be done wherever you can purchase a component pouch or otherwise
+      gather spell components), which you can use to fake the casting of up to
+      5th-level evocation spells with instantaneous effects and conjuration
+      spells where you can provide what is being summoned (e.g. faking
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.6l4bmc7ovgcn2c9k]{Find
+      Familiar} to pull a rabbit out of a hat). To fake the casting of a spell
+      you can use an action to make a Sleight of Hand check with a DC equal to
+      20 + twice the spell level and expend a number of charges from your
+      magician&rsquo;s kit equal to the spell level (cantrips use no charges).
+      People who disbelieve you can make an Arcana or Religion check opposed by
+      your original roll. The faked spell has no effect beyond looking and
+      sounding like the real spell. At the Narrator&rsquo;s discretion, you can
+      attempt higher level spells or spells from other schools of magic, but
+      they require additional preparation and cost to pull off.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  quantity: 1
+  weight: 3
+  price:
+    value: 25
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  capacity:
+    type: weight
+    value: null
+    weightless: false
+  currency:
+    cp: 0
+    sp: 0
+    ep: 0
+    gp: 0
+    pp: 0
+effects: []
+folder: EExYg2tBT0B0X2e9
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 4DYPPIfbhHiqaN4a
+_key: '!items!4DYPPIfbhHiqaN4a'

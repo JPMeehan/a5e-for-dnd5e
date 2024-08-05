@@ -2,8 +2,7 @@ name: Mage Armor
 type: spell
 img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 effects:
-  - icon: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
-    origin: Item.ip8c3zrbrngrx1oe
+  - origin: Item.dC7iPbrxbq01V0uS
     flags:
       a5e:
         sort: 0
@@ -11,12 +10,13 @@ effects:
         actionId: p54IchHbLju7Y4vP
         duration:
           unit: hours
+        applyToSelf: false
     transfer: false
     name: Mage Armor
     _id: xILhsp6xwaUWS7YT
     changes:
-      - key: system.attributes.ac.value
-        value: 13 + @dex.mod
+      - key: system.attributes.ac.baseFormula
+        value: 13 + @dex.mod[Dexterity Modifier]
         mode: 6
         priority: null
     disabled: false
@@ -31,6 +31,19 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.328'
+      systemId: a5e
+      systemVersion: 0.19.17
+      createdTime: null
+      modifiedTime: 1721175697737
+      lastModifiedBy: SkNEzSES7ahAJz45
+    img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
     _key: '!items.effects!ip8c3zrbrngrx1oe.xILhsp6xwaUWS7YT'
 flags:
@@ -42,12 +55,15 @@ flags:
 system:
   description:
     value: >-
+      <p><strong>Target:&nbsp;</strong>A willing, unarmored creature</p>
+
       <p>Until the spell ends, the target is protected by a shimmering magical
       force. Its AC becomes 13 + its Dexterity modifier. The spell ends if the
-      target dons armor, or if you use an action to dismiss
-      it.</p><p><strong><em>Cast at Higher Levels.</em></strong> The target
-      gains 5 temporary hit points for each slot level above 1st. The temporary
-      hit points last for the spell's duration.</p>
+      target dons armor, or if you use an action to dismiss it.</p>
+
+      <p><strong><em>Cast at Higher Levels.</em></strong> The target gains 5
+      temporary hit points for each slot level above 1st. The temporary hit
+      points last for the spell's duration.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -77,10 +93,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: ''
+    value: null
     width: null
     units: ''
-    type: creature
+    type: space
   range:
     value: null
     long: null
@@ -112,5 +128,12 @@ system:
     dc: null
     scaling: spell
 folder: riV8qst3SvT2320y
+_stats:
+  coreVersion: '12.328'
+  systemId: a5e
+  systemVersion: 0.19.17
+  createdTime: 1721175536026
+  modifiedTime: 1721176178010
+  lastModifiedBy: SkNEzSES7ahAJz45
 _id: ip8c3zrbrngrx1oe
 _key: '!items!ip8c3zrbrngrx1oe'

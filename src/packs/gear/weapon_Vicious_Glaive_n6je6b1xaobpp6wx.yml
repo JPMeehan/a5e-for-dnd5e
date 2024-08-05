@@ -78,6 +78,8 @@ system:
     parts:
       - - 1d10 + @mod
         - slashing
+      - - 2d6
+        - slashing
     versatile: ''
   formula: ''
   save:
@@ -86,4 +88,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: n6je6b1xaobpp6wx
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!n6je6b1xaobpp6wx'

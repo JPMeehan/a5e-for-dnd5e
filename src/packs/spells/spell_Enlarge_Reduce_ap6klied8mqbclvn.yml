@@ -44,6 +44,10 @@ effects:
       Its weapons also enlarge, dealing an extra 1d4 damage.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ap6klied8mqbclvn.fB0ob8QMcMyug2fP'
   - icon: icons/magic/control/silhouette-grow-shrink-blue.webp
     origin: Item.ap6klied8mqbclvn
@@ -88,6 +92,10 @@ effects:
       damage (its attacks deal a minimum of 1 damage).</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ap6klied8mqbclvn.6tEfvkxFPUZJ1Uwx'
 flags:
   a5e-for-dnd5e:
@@ -184,4 +192,8 @@ system:
     scaling: spell
 folder: KpVFJJxpHWw9kEfV
 _id: ap6klied8mqbclvn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ap6klied8mqbclvn'

@@ -1,0 +1,53 @@
+folder: null
+name: Veteran Slayer
+type: feat
+img: icons/skills/melee/strike-stake-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 7th level, you shrug off the curses of your chosen prey. You are
+      immune to effects that would change your shape or creature type, such as
+      lycanthropy, polymorph effects, and a vampire&rsquo;s bite. You also gain
+      one of the following features:</p>
+
+      <h2>Onto Your Tricks</h2>
+
+      <p>You also have advantage on saves to resist being charmed, compelled, or
+      frightened by your Studied Adversary.</p>
+
+      <h2>Customized Arsenal</h2>
+
+      <p>You gain proficiency with up to two rare weapons, and either the
+      poisoner&rsquo;s kit or the herbalist's kit.</p>
+
+      <h2>Holy Protection</h2>
+
+      <p>Once per long rest, you may use the Turn Undead feature as a cleric of
+      your level, but it affects creatures of your Studied Adversary type rather
+      than Undead. (If you have chosen Undead as your studied adversary, it
+      affects them as normal.)</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_id: 7wpqw5reafp07zzo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!7wpqw5reafp07zzo'

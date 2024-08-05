@@ -1,0 +1,74 @@
+folder: z476XZt1iG4Mb7VJ
+name: Venomous Bite (Viper)
+type: feat
+img: icons/creatures/abilities/fang-tooth-poison-green.webp
+system:
+  type:
+    value: race
+    subtype: ''
+  description:
+    value: >-
+      <p>You have a venomous bite. As an action, you can attack with your bite
+      (which is considered a finesse weapon) dealing piercing damage equal to
+      1d4 + ability modifier and poison damage equal to 1d4 + your proficiency
+      bonus.</p>
+    chat: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - piercing
+      - - 1d4 + @prof
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: JB2QPK5AvdhPGljr
+_key: '!items!JB2QPK5AvdhPGljr'

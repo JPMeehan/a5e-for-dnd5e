@@ -20,7 +20,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
+    type: ''
+    cost: 1
   uses:
     value: null
     max: ''
@@ -30,10 +31,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: 1
+    value: null
     width: null
     units: ''
-    type: creature
+    type: ''
   range:
     value: null
     long: null
@@ -43,7 +44,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -57,8 +58,57 @@ system:
     ability: ''
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.oyUfpf4zQWnIu9Zb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: B8DkiLsrBhDMSNT4
+    transfer: false
+    name: Restrained
+    img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    _id: iFkF0QSpWW4AJ5IC
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - restrained
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.19
+      createdTime: 1722149120416
+      modifiedTime: 1722149142379
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!zh9dfygratrztdrm.iFkF0QSpWW4AJ5IC'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722149092199
+  modifiedTime: 1722149162817
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: zh9dfygratrztdrm
 _key: '!items!zh9dfygratrztdrm'

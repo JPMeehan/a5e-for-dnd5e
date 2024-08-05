@@ -111,6 +111,10 @@ effects:
       cannot cast other spells and lose the use of your hands.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ev4w0zu167obx70z.QRC9SUIQeUfTAl4s'
   - icon: icons/creatures/abilities/wing-batlike-white-blue.webp
     origin: Item.ev4w0zu167obx70z
@@ -148,6 +152,10 @@ effects:
       walking speed.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ev4w0zu167obx70z.EIQRQl7z8bpZuJyV'
   - icon: icons/creatures/abilities/wing-batlike-white-blue.webp
     origin: Item.ev4w0zu167obx70z
@@ -180,6 +188,10 @@ effects:
       air and water and have a swimming speed equal to your walking speed.</p>
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ev4w0zu167obx70z.rNfRR11EY0OFl8sh'
 flags:
   a5e-for-dnd5e:
@@ -190,4 +202,8 @@ flags:
       - shapechanging
     rareSpell: false
 _id: ev4w0zu167obx70z
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ev4w0zu167obx70z'

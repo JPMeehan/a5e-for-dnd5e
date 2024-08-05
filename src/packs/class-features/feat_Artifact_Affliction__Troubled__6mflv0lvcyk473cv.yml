@@ -43,8 +43,7 @@ system:
     per: null
     max: null
 effects:
-  - icon: icons/magic/unholy/projectile-spear-glow-pink.webp
-    origin: Item.6mflv0lvcyk473cv
+  - origin: Item.NDPof8wigUg0tLz1
     flags:
       a5e:
         sort: 0
@@ -64,8 +63,21 @@ effects:
       startTurn: null
     description: "<p>A sleepless creature is unsettled by its encounter\_and struggles to relax in order to sufficiently rest.\_Whenever a sleepless creature takes a long rest, it\_makes a DC 15 Wisdom saving throw to quiet its\_mind or only gains the benefits of a short rest.\_During rests where a sleepless creature has failed its Wisdom save, it has advantage on Perception\_checks made to detect danger.</p>"
     statuses: []
+    img: icons/magic/unholy/projectile-spear-glow-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!6mflv0lvcyk473cv.ajQVZLLLh4eQuD6T'
 flags: {}
 _id: 6mflv0lvcyk473cv
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!6mflv0lvcyk473cv'

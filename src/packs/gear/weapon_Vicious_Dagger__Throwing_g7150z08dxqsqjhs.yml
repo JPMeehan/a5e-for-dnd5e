@@ -79,6 +79,8 @@ system:
     parts:
       - - 1d4 + min(@mod,0)
         - piercing
+      - - 2d6
+        - piercing
     versatile: ''
   formula: ''
   save:
@@ -87,4 +89,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: g7150z08dxqsqjhs
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!g7150z08dxqsqjhs'

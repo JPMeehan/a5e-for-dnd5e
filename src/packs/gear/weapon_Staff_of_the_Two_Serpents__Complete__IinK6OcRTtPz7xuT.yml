@@ -1,0 +1,145 @@
+name: Staff of the Two Serpents (Complete)
+type: weapon
+img: icons/weapons/staves/staff-forest-spiral.webp
+effects: []
+flags: {}
+system:
+  description:
+    value: >-
+      <p dir="ltr">This staff depicts a naga and a couatl spiraled around a
+      central pillar in the manner of a caduceus. Atop the staff is an empty
+      setting the size of a human&rsquo;s skull. If the missing piece (the Skull
+      of the Celestial Viper) is recovered, the value of the staff increases to
+      100,000 gp and it gains additional capabilities as indicated below.</p>
+
+      <p dir="ltr">You gain a +1 bonus to attack and damage rolls made with this
+      magic staff. The staff has the finesse property.</p>
+
+      <p dir="ltr">While you are attuned to and wielding the staff, you have
+      access to the following spells. You may cast the cantrips as normal. For
+      the spells of first-level or higher, you can cast each one once per long
+      rest without spending a spell slot. If you are a spellcaster and have the
+      ability to cast spells of the spell&rsquo;s level, you may also cast them
+      as if you knew the spells and had them prepared. They do not count against
+      your spells known or prepared. You use the highest of your Intelligence,
+      Wisdom, or Charisma modifier as your spellcasting ability for these
+      spells.</p>
+
+      <p
+      dir="ltr"><strong>Cantrips:&nbsp;</strong>@UUID[Compendium.a5e-for-dnd5e.spells.Item.zaeerhaj7ici4dtd]{Shillelagh}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.omvngnmoo75is54f]{Spare the
+      Dying}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ne5fiqa3pojgbbhx]{Venomous
+      Sting}</p>
+
+      <p
+      dir="ltr"><strong>1st-level:&nbsp;</strong>@UUID[Compendium.a5e-for-dnd5e.spells.Item.0tqlw209xugpzidv]{Corpse
+      Explosion}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.zzv2xb2kvvcyci4i]{Healing Word}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pt7w1als0wlajqek]{Swarm
+      Strike}</p>
+
+      <p
+      dir="ltr"><strong>2nd-level:&nbsp;</strong>@UUID[Compendium.a5e-for-dnd5e.spells.Item.6q34ttse78toj5x0]{Blindness/Deafness}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.sgiwn0n20mnf1ddx]{Lesser
+      Restoration}</p>
+
+      <p
+      dir="ltr"><strong>3rd-level:&nbsp;</strong>@UUID[Compendium.a5e-for-dnd5e.spells.Item.bfkoxk0m52fhckqi]{Cobra's
+      Spit}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.l0xg2yboy5z633pr]{Venomous
+      Succor}</p>
+
+      <p dir="ltr">In addition to the capabilities listed above, the
+      staff&rsquo;s attack and damage bonus increases to +2 and it deals 1d4
+      points of radiant and 1d4 points of poison damage on a hit.</p>
+
+      <p dir="ltr">The staff counts as a spellcasting focus for all of your
+      spellcasting classes.</p>
+
+      <p dir="ltr">If you know any Viper&rsquo;s Fangs maneuvers, you always
+      count as having a dose of basic poison handy for satisfying the
+      requirements of those maneuvers.&nbsp;</p>
+
+      <p dir="ltr">Finally, add the following spell to the ones listed
+      above:</p>
+
+      <p dir="ltr"><strong
+      id="docs-internal-guid-860e8ba3-7fff-10f6-5890-da3b9a9bf7f6">4th-level:&nbsp;</strong>@UUID[Compendium.a5e-for-dnd5e.spells.Item.opvatwpboqmqplsa]{Vosrath's
+      Pestilent Flail}</p><hr><p><b>Parrying:</b> When you are wielding this
+      weapon and you are not using a shield, once before your next turn you can
+      gain an expertise die to your AC against a single melee attack made
+      against you by a creature you can see. You cannot use this property while
+      incapacitated , paralyzed , rattled , restrained , or stunned.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  quantity: 1
+  weight: 4
+  price:
+    value: 100000
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  proficient: true
+  type:
+    value: simpleM
+    baseItem: ''
+  properties:
+    - fin
+    - two
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: zzy7PcM8aJV9irTn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: IinK6OcRTtPz7xuT
+_key: '!items!IinK6OcRTtPz7xuT'

@@ -112,6 +112,10 @@ effects:
     statuses:
       - prone
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ex61y8p8rm6ntine.GZNlVLvo547ehZH2'
   - icon: icons/magic/earth/projectile-boulder-dust.webp
     origin: Item.ex61y8p8rm6ntine
@@ -143,6 +147,10 @@ effects:
       - grappled
       - restrained
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!ex61y8p8rm6ntine.JxC1noW9oTAYRuS5'
 flags:
   a5e-for-dnd5e:
@@ -153,4 +161,8 @@ flags:
     rareSpell: false
 folder: 3HQE3FN5vUCIygDu
 _id: ex61y8p8rm6ntine
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ex61y8p8rm6ntine'

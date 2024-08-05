@@ -1,0 +1,79 @@
+folder: null
+name: Tome of Forbidden Knowledge
+type: feat
+img: icons/sundries/books/book-face-black.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-7d162c22-7fff-7840-8585-daa357c4be3a"
+      dir="ltr">Your Book Of Shadows serves as a masterwork book on a plethora
+      of eldritch secrets. By spending 1 hour reading your Book of Shadows
+      (which may be part of a short or long rest), you may select a number of
+      specialties in Arcana, History, and/or Religion equal to half your
+      spellcasting ability modifier (minimum of 1) and gain an expertise die on
+      checks made regarding the chosen specialties. Each time you study the book
+      in this manner, you may replace any or all of these selections with new
+      ones.</p>
+
+      <p dir="ltr">In addition, while you have access to your Book of Shadows
+      you may perform the research downtime activity without needing access to a
+      library.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: Pact of the Tome
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: hbltOsV1D29Q9f4w
+_key: '!items!hbltOsV1D29Q9f4w'

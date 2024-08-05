@@ -2,8 +2,7 @@ name: Burrow (Burrowing Claws Halfling)
 type: feat
 img: icons/commodities/claws/claw-bear-brown.webp
 effects:
-  - icon: icons/commodities/claws/claw-bear-brown.webp
-    origin: Item.wgrnnqsykg0qx666
+  - origin: Item.KxWmGamVaaM01wyx
     flags:
       a5e:
         sort: 0
@@ -28,7 +27,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/commodities/claws/claw-bear-brown.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!wgrnnqsykg0qx666.7PRDg0KDEdWcGPPN'
 flags: {}
 system:
@@ -59,4 +66,8 @@ system:
     max: null
 folder: z476XZt1iG4Mb7VJ
 _id: wgrnnqsykg0qx666
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!wgrnnqsykg0qx666'

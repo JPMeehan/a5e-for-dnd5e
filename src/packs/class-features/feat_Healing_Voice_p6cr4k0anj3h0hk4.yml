@@ -23,15 +23,57 @@ system:
   source:
     book: 'Manual of Adventurous Resources: Complete'
     license: OGL 1.0a
-  properties: []
+  properties:
+    - concentration
   requirements: ''
   recharge:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722260885412
+  modifiedTime: 1722260979687
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: p6cr4k0anj3h0hk4
 _key: '!items!p6cr4k0anj3h0hk4'

@@ -3,6 +3,7 @@ type: feat
 img: icons/magic/control/silhouette-hold-change-green.webp
 system:
   type:
+    value: class
     subtype: ''
   description:
     value: >-
@@ -59,8 +60,16 @@ effects:
     description: ''
     statuses: []
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!hut8dgrb3ygbfkhh.s74PLGD8o3rAEhWj'
 flags: {}
 folder: null
 _id: hut8dgrb3ygbfkhh
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!hut8dgrb3ygbfkhh'

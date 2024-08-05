@@ -1,0 +1,41 @@
+name: Bonus Proficiency and Specialties
+type: feat
+img: icons/tools/instruments/drum-hand-tan.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at 3rd level, you gain proficiency with
+      Culture and Performance. If you are already proficient with either skill,
+      you instead gain an expertise die. In addition, you gain additional
+      specialties equal to your proficiency bonus, and you gain another
+      specialty whenever your proficiency bonus increases. These bonus
+      specialties must be in Culture or Performance.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722308212311
+  modifiedTime: 1722308256708
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 4evbExIeNkkzb278
+_key: '!items!4evbExIeNkkzb278'

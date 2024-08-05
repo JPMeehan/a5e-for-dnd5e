@@ -1,0 +1,117 @@
+name: Roaring Pause
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+effects:
+  - origin: Item.sGMLyRorrwxRi2b6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: dh4eWUSW4DP3kNR8
+    transfer: false
+    name: Roaring Pause
+    _id: YnNKCp8SXUybzTyP
+    changes:
+      - key: flags.a5e.effects.rollMode.initiative
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Gain advantage on your initiative roll.</p>
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721846785266
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!y91st6ugbq3tety6.YnNKCp8SXUybzTyP'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When initiative is rolled you can expend one use of
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.htgvror5v9twusgs]{Rage}
+      to make an Intimidation check (DC 8 + number of creatures that rolled
+      initiative) to briefly unveil the boundless fury within in a furious roar.
+      On a success each creature stops what it is doing and can only make
+      statements and a Deception, Intimidation, or Persuasion check on its turn.
+      On a success by 5 or more initiative is rerolled, and you choose a number
+      of creatures equal to your Constitution modifier to gain advantage on
+      their initiative roll.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721846785238
+  modifiedTime: 1721846823436
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: y91st6ugbq3tety6
+_key: '!items!y91st6ugbq3tety6'

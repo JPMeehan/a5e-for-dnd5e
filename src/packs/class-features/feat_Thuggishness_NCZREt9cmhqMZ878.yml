@@ -1,0 +1,69 @@
+folder: null
+name: Thuggishness
+type: feat
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency with the Intimidation skill. When you are
+      interacting with a creature within 30 feet of you, you can spend 1
+      exertion to learn the following facts: the creature&rsquo;s CR, its
+      highest or lowest ability score (your choice), and its general inclination
+      toward violence.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: NCZREt9cmhqMZ878
+_key: '!items!NCZREt9cmhqMZ878'

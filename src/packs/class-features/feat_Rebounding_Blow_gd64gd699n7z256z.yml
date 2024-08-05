@@ -1,6 +1,6 @@
 name: Rebounding Blow
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
 effects: []
 flags: {}
 system:
@@ -46,7 +46,7 @@ system:
   range:
     value: null
     long: null
-    units: self
+    units: ''
   consume:
     type: ''
     target: null
@@ -67,5 +67,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722362594397
+  modifiedTime: 1722362629010
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: gd64gd699n7z256z
 _key: '!items!gd64gd699n7z256z'

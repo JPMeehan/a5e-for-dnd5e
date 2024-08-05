@@ -6,15 +6,15 @@ flags: {}
 system:
   description:
     value: >-
-      <hr class="a5e-rule u-my-md"><p>When you use this weapon to make an attack
-      against a creature that is not a construct or undead and roll a natural
-      20, the creature takes an extra 3d6 necrotic damage and you gain an amount
-      of temporary hit points equal to the necrotic damage
-      dealt.</p><hr><p><b>Defensive:</b> This weapon is designed to be used with
-      a shield of the stated degree or lighter (light, medium, or heavy). When
-      you make an attack with this weapon and are using a shield designed for
-      it, you can use a bonus action to either make an attack with your shield
-      or increase your Armor Class by 1 until the start of your next turn.</p>
+      <p>When you use this weapon to make an attack against a creature that is
+      not a construct or undead and roll a natural 20, the creature takes an
+      extra 3d6 necrotic damage and you gain an amount of temporary hit points
+      equal to the necrotic damage dealt.</p><hr><p><b>Defensive:</b> This
+      weapon is designed to be used with a shield of the stated degree or
+      lighter (light, medium, or heavy). When you make an attack with this
+      weapon and are using a shield designed for it, you can use a bonus action
+      to either make an attack with your shield or increase your Armor Class by
+      1 until the start of your next turn.</p>
     chat: ''
     unidentified: ''
   source:
@@ -27,7 +27,7 @@ system:
     denomination: gp
   attunement: 0
   equipped: false
-  rarity: common
+  rarity: rare
   identified: true
   proficient: true
   type:
@@ -89,4 +89,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: ukuckvx58gsp33hd
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!ukuckvx58gsp33hd'

@@ -1,0 +1,72 @@
+folder: null
+name: Sorcerous Ways
+type: feat
+img: icons/tools/navigation/map-simple-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-5a6391f9-7fff-0ce2-7ea2-26a4cae4181b"
+      dir="ltr">While traveling, you can spend 1 sorcery point per hour (up to a
+      maximum of 4 hours) to shorten the distance between point A and point B.
+      The distance you and your party cover at a normal travel pace or slower is
+      doubled.&nbsp;</p>
+
+      <p dir="ltr">Once you use this feature, you may not do so again until you
+      complete a long rest.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 61pPGVuiH0co9Ywc
+_key: '!items!61pPGVuiH0co9Ywc'

@@ -11,36 +11,632 @@ system:
     value: >-
       <p>Sanctioned by the highest powers, you can cast spells to enact sacred
       miracles. See Spells Rules for the general rules of spellcasting and the
-      Spells Listing for the cleric spell list.</p><h2>Cantrips</h2><p>At 1st
-      level, you know three cantrips of your choice from the cleric spell list.
-      You learn additional cleric cantrips of your choice at higher levels, as
-      shown in the Cantrips Known column of the Cleric Spells table. In addition
-      to these, you also know the
+      Spells Listing for the cleric spell list.</p>
+
+      <h2>Cantrips</h2>
+
+      <p>At 1st level, you know three cantrips of your choice from the cleric
+      spell list. You learn additional cleric cantrips of your choice at higher
+      levels, as shown in the Cantrips Known column of the Cleric Spells table.
+      In addition to these, you also know the
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.eiek2vbzwijd0qac]{Thaumaturgy}
-      cantrip.</p><h2>Preparing and Casting Spells</h2><p>The Cleric Spells
-      table shows how many spell slots you have to cast your cleric spells. To
-      cast one of these cleric spells, you must expend a slot of the
-      spell&rsquo;s level or higher. You regain all expended spell slots when
-      you finish a long rest.</p><p>You prepare the list of cleric spells that
-      are available for you to cast, choosing from the cleric spell list. When
-      you do so, choose a number of cleric spells equal to your Wisdom modifier
-      + your cleric level (minimum of one spell). The spells must be of a level
-      for which you have spell slots.</p><p>Casting spells doesn&rsquo;t remove
-      them from your list of prepared spells.</p><p>You can change your list of
-      prepared spells whenever you finish a long rest by meditating for at least
-      1 minute per spell level for each spell on your list.</p><h2>Spellcasting
-      Ability</h2><p>Wisdom is your spellcasting ability for your cleric spells.
-      You use your Wisdom whenever a spell refers to your spellcasting ability.
-      In addition, you use your Wisdom modifier when setting the saving throw DC
-      for a cleric spell you cast and when making an attack roll with
-      one.</p><p><strong>Spell save DC</strong> = 8 + your proficiency bonus +
-      your Wisdom modifier</p><p><strong>Spell attack modifier</strong> = your
-      proficiency bonus + your Wisdom modifier</p><p style="text-align:
-      center;">&nbsp;</p><h2>Ritual Casting</h2><p>You can cast a cleric spell
-      as a ritual if that spell has the ritual tag and you have the spell
-      prepared. You can also cast the ceremony spell as a ritual whether you
-      have the spell prepared or not.</p><h2>Spellcasting Focus</h2><p>You can
-      use a holy symbol as a spellcasting focus for your cleric spells.</p>
+      cantrip.</p>
+
+      <h2>Preparing and Casting Spells</h2>
+
+      <p>The Cleric Spells table shows how many spell slots you have to cast
+      your cleric spells. To cast one of these cleric spells, you must expend a
+      slot of the spell&rsquo;s level or higher. You regain all expended spell
+      slots when you finish a long rest.</p>
+
+      <p>You prepare the list of cleric spells that are available for you to
+      cast, choosing from the cleric spell list. When you do so, choose a number
+      of cleric spells equal to your Wisdom modifier + your cleric level
+      (minimum of one spell). The spells must be of a level for which you have
+      spell slots.</p>
+
+      <p>Casting spells doesn&rsquo;t remove them from your list of prepared
+      spells.</p>
+
+      <p>You can change your list of prepared spells whenever you finish a long
+      rest by meditating for at least 1 minute per spell level for each spell on
+      your list.</p>
+
+      <p><strong>Table: Cleric Spells</strong></p>
+
+      <table style="width: 100%; height: 383.6px;" border="1"><colgroup><col
+      style="width: 13.6187%;"><col style="width: 18.8716%;"><col style="width:
+      6.80934%;"><col style="width: 8.56031%;"><col style="width: 7.7821%;"><col
+      style="width: 7.393%;"><col style="width: 7.393%;"><col style="width:
+      7.393%;"><col style="width: 7.393%;"><col style="width: 7.393%;"><col
+      style="width: 7.393%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 47.6px;">
+
+      <td style="height: 47.6px;">Level</td>
+
+      <td style="height: 47.6px;">
+
+      <p>Cantrips</p>
+
+      <p>Known</p>
+
+      </td>
+
+      <td style="height: 47.6px;">1st</td>
+
+      <td style="height: 47.6px;">2nd</td>
+
+      <td style="height: 47.6px;">3rd</td>
+
+      <td style="height: 47.6px;">4th</td>
+
+      <td style="height: 47.6px;">5th</td>
+
+      <td style="height: 47.6px;">6th</td>
+
+      <td style="height: 47.6px;">7th</td>
+
+      <td style="height: 47.6px;">8th</td>
+
+      <td style="height: 47.6px;">9th</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">1st</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">2nd</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">4th</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">5th</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">6th</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">7th</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">8th</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">9th</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">10th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">11th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">12th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">13th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">14th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">15th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">16th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">-</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">17th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">18th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">19th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">20th</td>
+
+      <td style="height: 16.8px;">5</td>
+
+      <td style="height: 16.8px;">4</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">3</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">2</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      <td style="height: 16.8px;">1</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <h2>Spellcasting Ability</h2>
+
+      <p>Wisdom is your spellcasting ability for your cleric spells. You use
+      your Wisdom whenever a spell refers to your spellcasting ability. In
+      addition, you use your Wisdom modifier when setting the saving throw DC
+      for a cleric spell you cast and when making an attack roll with one.</p>
+
+      <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your
+      Wisdom modifier</p>
+
+      <p><strong>Spell attack modifier</strong> = your proficiency bonus + your
+      Wisdom modifier</p>
+
+      <h2>Ritual Casting</h2>
+
+      <p>You can cast a cleric spell as a ritual if that spell has the ritual
+      tag and you have the spell prepared. You can also cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bq5bki8n1gfhrqz1]{Ceremony}
+      spell as a ritual whether you have the spell prepared or not.</p>
+
+      <h2>Spellcasting Focus</h2>
+
+      <p>You can use a holy symbol as a spellcasting focus for your cleric
+      spells.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -57,4 +653,8 @@ system:
     max: null
 folder: null
 _id: axllcphld6abmm1p
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!axllcphld6abmm1p'

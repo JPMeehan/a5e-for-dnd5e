@@ -1,0 +1,76 @@
+folder: null
+name: Built in a Day
+type: feat
+img: icons/skills/trades/construction-carpentry-hammer.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency with
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.zn52h9g28j8i3v0j]{Carpenter's
+      Tools}, or an expertise die if you are already proficient. With the
+      appropriate tools and access to raw materials, you can quickly construct
+      simple wooden structures, such as a log bridge, barricade, or perch. A
+      medium structure takes you 10 minutes to build, a large structure takes 1
+      hour, and a huge structure takes 8 hours. These structures are crude and
+      improvised, and fall into disrepair and become unusable after 24 hours
+      unless you spend an equal amount of time again to maintain them each
+      day.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 8
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: LyO7NEnyDYtpDh1o
+_key: '!items!LyO7NEnyDYtpDh1o'

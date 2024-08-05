@@ -1,6 +1,6 @@
 name: Slaying Momentum
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/strike-axe-red.webp
 effects: []
 flags: {}
 system:
@@ -56,7 +56,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d10 + @mod
+      - - '@classResources.bardic-inspiration-die + @mod'
         - healing
     versatile: ''
   formula: ''
@@ -65,5 +65,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722310851565
+  modifiedTime: 1722310903521
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: de2d0zgfhup8tip4
 _key: '!items!de2d0zgfhup8tip4'

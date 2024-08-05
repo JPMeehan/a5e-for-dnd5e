@@ -1,0 +1,77 @@
+name: Furious Momentum
+type: feat
+img: icons/skills/melee/strike-axe-blood-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Seizing on the fervor of a well-struck blow, you use your fury to fight
+      all the harder. When you score a critical hit, the next melee weapon
+      attack you make before the end of your next turn is a&nbsp;critical hit on
+      a roll of 17–20. Once you have used this feature, you cannot do so again
+      until you have finished a short rest. Alternatively, you can expend one
+      use of Rage to use this feature. The effects of this Furious Critical can
+      be combined with any other.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721846543641
+  modifiedTime: 1721846630686
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 2osamyz9vwylbtw5
+_key: '!items!2osamyz9vwylbtw5'

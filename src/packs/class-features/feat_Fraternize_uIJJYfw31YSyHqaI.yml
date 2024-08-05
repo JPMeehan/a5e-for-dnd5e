@@ -1,0 +1,75 @@
+folder: null
+name: Fraternize
+type: feat
+img: icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency in the Culture skill, or an expertise die if you
+      are already proficient. If you spend 1 hour in a given community (such as
+      a small town, noble&rsquo;s court, or criminal underworld) listening,
+      talking and getting to know people, you learn the prevailing feelings and
+      major happenings in the community, including any important recent or
+      upcoming events, common gossip, important figures and rivalries, and
+      general attitudes of the members. At the Narrator's discretion, you may
+      receive more or less information depending on how the inhabitants of the
+      settlement perceive you.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: uIJJYfw31YSyHqaI
+_key: '!items!uIJJYfw31YSyHqaI'

@@ -1,0 +1,70 @@
+folder: null
+name: Dragon Touched
+type: feat
+img: icons/magic/defensive/armor-stone-skin.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at 1st level, you gain a boon of
+      draconic power. Choose a damage type as your draconic damage type: fire,
+      cold, lightning, acid, or poison. Once chosen this cannot be changed.
+      Select one of the following:</p>
+
+      <h2>Dragon Curse</h2>
+
+      <p>You can use a bonus action to curse a creature within 30 feet. The
+      curse lasts for 1 minute, and ends early if the target dies, you die, or
+      you become incapacitated. The curse has the following effects:</p>
+
+      <ul>
+
+      <li>When you deal damage against to cursed creature, it takes additional
+      1d4 damage of your draconic damage type. This bonus increases by 1d4 at
+      10th level, and again at 15th and 20th level.</li>
+
+      <li>The cursed creature has disadvantage on saving throws against fear and
+      the breath weapons of dragons.</li>
+
+      </ul>
+
+      <p>Once you have used this ability, you cannot use it again until you
+      finish a short or long rest.</p>
+
+      <h2>Draconic Breath</h2>
+
+      <p>You may use an action to breath out a 15 foot cone or 5 foot wide 30
+      long foot line. You choose the shape of this breath when you gain this
+      ability and cannot change it. Creatures in the area must make a Dexterity
+      saving throw against your warlock spell save DC or take 2d6 damage of your
+      draconic damage type on a failure or half damage on a success. If your
+      draconic damage type is cold or poison, they must instead make a
+      Constitution saving throw. This damage increases by 1d6 at 10th level, and
+      again at 15th and 20th level. At 14th level the area increases to a 30
+      foot cone or a 5 foot wide, 60 foot long line. You can use this attack a
+      number of times equal to your proficiency bonus and regain all expended
+      uses when you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: dKLiIZ3QeNYxp3Qj
+_key: '!items!dKLiIZ3QeNYxp3Qj'

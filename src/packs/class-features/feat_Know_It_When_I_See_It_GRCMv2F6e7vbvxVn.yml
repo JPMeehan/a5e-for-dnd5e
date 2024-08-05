@@ -1,0 +1,37 @@
+folder: null
+name: Know It When I See It
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have learned to separate the genuinely dangerous from the merely
+      transgressive and provocative. You gain proficiency with the Arcana skill
+      or an expertise die if you are already proficient. You also gain the
+      Arcana skill specialties aberrations and forbidden lore. You can always
+      use Charisma when making Arcana checks.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: GRCMv2F6e7vbvxVn
+_key: '!items!GRCMv2F6e7vbvxVn'

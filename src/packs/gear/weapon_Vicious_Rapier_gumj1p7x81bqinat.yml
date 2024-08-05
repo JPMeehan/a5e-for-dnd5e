@@ -2,8 +2,7 @@ name: Vicious Rapier
 type: weapon
 img: icons/weapons/swords/swords-sharp-worn.webp
 effects:
-  - icon: icons/weapons/swords/swords-sharp-worn.webp
-    origin: Item.gumj1p7x81bqinat
+  - origin: Item.6bZfgRpMOJWqU9Fw
     flags:
       a5e:
         sort: 0
@@ -32,7 +31,15 @@ effects:
     description: ''
     statuses: []
     tint: '#ffffff'
+    img: icons/weapons/swords/swords-sharp-worn.webp
+    type: base
+    system: {}
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!gumj1p7x81bqinat.fNsg1fB0AQvNW0yM'
 flags: {}
 system:
@@ -115,6 +122,8 @@ system:
     parts:
       - - 1d8 + @mod
         - piercing
+      - - 2d6
+        - piercing
     versatile: ''
   formula: ''
   save:
@@ -123,4 +132,8 @@ system:
     scaling: spell
 folder: zzy7PcM8aJV9irTn
 _id: gumj1p7x81bqinat
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!gumj1p7x81bqinat'

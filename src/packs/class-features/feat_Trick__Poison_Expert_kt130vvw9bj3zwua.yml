@@ -9,8 +9,7 @@ system:
     subtype: ''
   description:
     value: >-
-      <p><em>Prerequisite: 13th level, d8 expertise die with poisoner’s kit
-      </em></p><p>Your expertise die on checks made with the poisoner’s kit
+      <p>Your expertise die on checks made with the poisoner&rsquo;s kit
       increases to d10. You can add this expertise die to saving throws made
       against poison. Choose a poison from Chapter 7: Maladies in Trials &amp;
       Treasures. You are immune to the effects of this poison.</p>
@@ -19,7 +18,7 @@ system:
     book: Adventurer's Guide
     license: OGL 1.0a
   properties: []
-  requirements: ''
+  requirements: 13th level, d8 expertise die with poisoner’s kit
   recharge:
     value: null
     charged: true
@@ -30,4 +29,8 @@ system:
     max: null
 folder: null
 _id: kt130vvw9bj3zwua
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!kt130vvw9bj3zwua'

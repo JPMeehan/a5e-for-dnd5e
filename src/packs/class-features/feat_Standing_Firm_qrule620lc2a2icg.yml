@@ -1,7 +1,48 @@
 name: Standing Firm
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/social/intimidation-impressing.webp
+effects:
+  - origin: Item.FCBjOgAKchYefhFe
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: y57Kf1GkTar7STEu
+    transfer: false
+    name: Standing Firm
+    img: icons/skills/social/intimidation-impressing.webp
+    _id: s56juDzvWMyIEjHG
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.rollMode.attack.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Disadvantage on the attack roll.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: 1722362301684
+      modifiedTime: 1722362323708
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!qrule620lc2a2icg.s56juDzvWMyIEjHG'
 flags: {}
 system:
   type:
@@ -23,10 +64,54 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: reaction
+    cost: 1
+    condition: >-
+      A creature you can see attacks a target other than you that is within 5
+      feet of you, and if you are wearing heavy armor
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722362212124
+  modifiedTime: 1722362301722
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: qrule620lc2a2icg
 _key: '!items!qrule620lc2a2icg'

@@ -1,6 +1,6 @@
 name: Evolving Corrosion
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/acid/dissolve-bone-white.webp
 effects: []
 flags: {}
 system:
@@ -11,10 +11,10 @@ system:
     value: >-
       <p>When you cast a spell of 1st-level or higher that deals acid damage,
       you can spend 1 sorcery point to create a 10-foot radius pool of acid
-      centered on either the target of the spell or the spell’s point of origin.
-      The area is difficult terrain, and when a creature ends its turn in the
-      area it takes [[/r 2d8 #acid]] acid damage. The pool remains for 1 minute
-      or until you use a bonus action to dismiss it.</p>
+      centered on either the target of the spell or the spell&rsquo;s point of
+      origin. The area is difficult terrain, and when a creature ends its turn
+      in the area it takes 2d8 acid damage. The pool remains for 1 minute or
+      until you use a bonus action to dismiss it.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -24,10 +24,7 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: ''
-    cost: 1
-    condition: ''
+  activation: {}
   uses:
     value: null
     max: ''
@@ -42,9 +39,9 @@ system:
     units: ''
     type: ''
   range:
-    value: '10'
+    value: null
     long: null
-    units: ft
+    units: ''
   consume:
     type: ''
     target: null
@@ -67,5 +64,12 @@ system:
     dc: null
     scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721857358468
+  modifiedTime: 1721857449406
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: hyc3bjf8ppsa42ly
 _key: '!items!hyc3bjf8ppsa42ly'

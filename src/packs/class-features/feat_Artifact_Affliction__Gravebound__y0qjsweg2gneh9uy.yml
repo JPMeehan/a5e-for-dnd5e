@@ -75,8 +75,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/unholy/projectile-spear-glow-pink.webp
-    origin: Item.y0qjsweg2gneh9uy
+  - origin: Item.TasrCAHLXhPcQ9oh
     flags:
       a5e:
         sort: 0
@@ -98,8 +97,21 @@ effects:
       <p>When a critical hit is scored against you, make a DC 15 Constitution
       save. On a failed save, you immediately drop to 0 hit points.</p>
     statuses: []
+    img: icons/magic/unholy/projectile-spear-glow-pink.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
     folder: null
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.17
     _key: '!items.effects!y0qjsweg2gneh9uy.ajQVZLLLh4eQuD6T'
 flags: {}
 _id: y0qjsweg2gneh9uy
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
 _key: '!items!y0qjsweg2gneh9uy'

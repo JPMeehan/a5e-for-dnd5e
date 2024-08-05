@@ -1,7 +1,46 @@
 name: Virtuoso
 type: feat
 img: icons/tools/instruments/lute-gold-brown.webp
-effects: []
+effects:
+  - origin: Item.lBAsKkZ8ipNp3N97
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PXKotuWb21UPfWWT
+        duration:
+          unit: hours
+    transfer: false
+    name: Charmed
+    img: icons/tools/instruments/lute-gold-brown.webp
+    _id: Faord3cWTZ49D58d
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 518400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>A charmed creature regards you as a friendly acquaintance.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.329'
+      systemId: a5e
+      systemVersion: 0.19.18
+      createdTime: null
+      modifiedTime: 1721841617920
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!cle0kfe4bl9jj1v1.Faord3cWTZ49D58d'
 flags: {}
 system:
   type:
@@ -25,11 +64,12 @@ system:
       additional use of Bardic Inspiration.</p>
 
       <p>If your epic performance lasts at least 1 minute, when the performance
-      ends each charmed creature you choose is affected by a mass suggestion
-      spell cast at 9th level. Creatures do not make saving throws to resist
-      this effect. The commands you give a charmed creature are not obvious, and
-      other creatures must make an Insight check contested by your Performance
-      check to notice that you are doing anything more than giving a
+      ends each charmed creature you choose is affected by a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kk4zbky96t1rhkl1]{Mass
+      Suggestion} spell cast at 9th level. Creatures do not make saving throws
+      to resist this effect. The commands you give a charmed creature are not
+      obvious, and other creatures must make an Insight check contested by your
+      Performance check to notice that you are doing anything more than giving a
       performance. You can give each creature its own set of commands but can
       give out only six different sets of commands.&nbsp;</p>
 
@@ -45,10 +85,51 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 50
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
 folder: null
+_stats:
+  coreVersion: '12.329'
+  systemId: a5e
+  systemVersion: 0.19.18
+  createdTime: 1721841617890
+  modifiedTime: 1721841736632
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: cle0kfe4bl9jj1v1
 _key: '!items!cle0kfe4bl9jj1v1'

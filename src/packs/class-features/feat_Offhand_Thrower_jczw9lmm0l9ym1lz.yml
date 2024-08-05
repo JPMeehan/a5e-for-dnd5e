@@ -7,9 +7,12 @@ system:
   description:
     value: >-
       <p>Also at 11th level, while wielding a glaive, halberd, or pike, you can
-      ready and throw a thrown weapon or item (such as a vial of alchemist’s
-      fire or a tanglefoot bag) as part of the attack action on your turn. This
-      throw is in addition to your normal attacks with the attack action.</p>
+      ready and throw a thrown weapon or item (such as a vial of
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.4t0m2ttaca5hg2vi]{Alchemist's
+      Fire} or a
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.ukcav3i8dudpalir]{Tanglefoot
+      Bag}) as part of the attack action on your turn. This throw is in addition
+      to your normal attacks with the attack action.</p>
     chat: ''
   source:
     book: 'Thematic Toolkit: Scrapper'
@@ -28,5 +31,12 @@ img: icons/skills/ranged/daggers-thrown-salvo-orange.webp
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722095688128
+  modifiedTime: 1722095750475
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: jczw9lmm0l9ym1lz
 _key: '!items!jczw9lmm0l9ym1lz'

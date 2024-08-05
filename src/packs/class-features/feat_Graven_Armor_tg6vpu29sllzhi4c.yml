@@ -13,15 +13,20 @@ system:
       yourself. This grants you a pool of temporary hit points equal to twice
       your berserker level. When you begin your Rage, you can opt either to end
       these temporary hit points early (shredding the armor as you do) or allow
-      them to persist into your Rage (unlike normal temporary hit points). You
-      do not benefit from Rage Hit Points while the Graven armor persists. If
-      your Graven Armor temporary hit points are lost while raging, you gain
-      your Rage Hit Points at the start of your next turn.</p><p>This feature
-      comes with downsides. While you have temporary hit points from this
-      feature, the stench of death hangs around you, giving you disadvantage on
-      Persuasion and Deception checks. Attempts to find or track you by smell
-      while you have temporary hit points from this feature are made with
-      advantage.</p><p><br></p>
+      them to persist into your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.htgvror5v9twusgs]{Rage}
+      (unlike normal temporary hit points). You do not benefit from Rage Hit
+      Points while the Graven armor persists. If your Graven Armor temporary hit
+      points are lost while raging, you gain your Rage Hit Points at the start
+      of your next turn.</p>
+
+      <p>This feature comes with downsides. While you have temporary hit points
+      from this feature, the stench of death hangs around you, giving you
+      disadvantage on Persuasion and Deception checks. Attempts to find or track
+      you by smell while you have temporary hit points from this feature are
+      made with advantage.</p>
+
+      <p>&nbsp;</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -31,13 +36,101 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-effects: []
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.O2FzEO9ZfE1P2qYb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: IifN31erdHZ76Gz1
+        applyToSelf: true
+    transfer: false
+    name: Graven Armor
+    img: icons/equipment/shield/kite-decorative-steel-claws.webp
+    _id: BjChEPVMS8iPahLT
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.per
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.dec
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The stench of death hangs around you, giving you disadvantage on
+      Persuasion and Deception checks. Attempts to find or track you are made
+      with advantage.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.20
+      createdTime: null
+      modifiedTime: 1722345243864
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!tg6vpu29sllzhi4c.BjChEPVMS8iPahLT'
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722345243782
+  modifiedTime: 1722346966816
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: tg6vpu29sllzhi4c
 _key: '!items!tg6vpu29sllzhi4c'

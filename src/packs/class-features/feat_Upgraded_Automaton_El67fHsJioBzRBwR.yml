@@ -1,0 +1,55 @@
+folder: null
+name: Upgraded Automaton
+type: feat
+img: icons/commodities/tech/levers-colored.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You improve your automaton. Its armor class increases to 14, its hit
+      points increase to 35, and you choose one of the following upgrades. You
+      can only upgrade a function your automaton already possesses.</p>
+
+      <p><strong>Upgraded Medic:</strong> If your automaton has the Autonomous
+      Medic option, it now heals for 2d8 + your Intelligence modifier.</p>
+
+      <p><strong>Upgraded Weapon:</strong> If your automaton has the Autonomous
+      Weapon option, it now deals damage equal to 2d8 + your Intelligence
+      modifier and its range increases to 150/600.</p>
+
+      <p><strong>Upgraded Scanner:</strong> If your automaton has the Autonomous
+      Scanner option, it now performs the Search action automatically on your
+      turn, not requiring an action from you. You must still specify what
+      it&rsquo;s looking for.</p>
+
+      <p><strong>Additional Automaton Function:</strong> Your automaton gains a
+      second set of capabilities. For example, if you had selected the
+      Autonomous Weapon option at level 5, you could select the Autonomous Medic
+      option now.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722220021554
+  modifiedTime: 1722222870419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: El67fHsJioBzRBwR
+_key: '!items!El67fHsJioBzRBwR'

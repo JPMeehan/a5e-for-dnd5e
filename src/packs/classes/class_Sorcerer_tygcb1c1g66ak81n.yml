@@ -90,7 +90,9 @@ system:
 
       <td style="text-align: center;">4</td>
 
-      <td style="text-align: center;">Ability Score Improvement
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.7jxnq4in81dmi93t]{Arcane
       Innovations}</td>
 
@@ -150,7 +152,9 @@ system:
 
       <td style="text-align: center;">8</td>
 
-      <td style="text-align: center;">Ability Score Improvement</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}</td>
 
       <td style="text-align: center;">2</td>
 
@@ -208,7 +212,9 @@ system:
 
       <td style="text-align: center;">12</td>
 
-      <td style="text-align: center;">Ability Score Improvement
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3cccwpqerr3v215w]{Evolving
       Manifestation}</td>
 
@@ -268,7 +274,9 @@ system:
 
       <td style="text-align: center;">16</td>
 
-      <td style="text-align: center;">Ability Score Improvement&nbsp;</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement}&nbsp;</td>
 
       <td style="text-align: center;">4</td>
 
@@ -310,8 +318,9 @@ system:
 
       <td style="text-align: center;">19</td>
 
-      <td style="text-align: center;">Ability Score Improvement, Additional
-      Metamagics</td>
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.izdnt7eqytkwgb1d]{Ability
+      Score Improvement} Additional Metamagics</td>
 
       <td style="text-align: center;">4</td>
 
@@ -378,7 +387,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: ''
+    book: Adventurer's Guide
     license: OGL 1.0a
   startingEquipment:
     - _id: O1PyQhHm0pYQ5T20
@@ -507,11 +516,88 @@ system:
         items:
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tj2fyu1ttwk6sfxc
           - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pvgi4rdr5rptetgp
+    - _id: YO8u0kApqG82IS51
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: 1c0Qn3ySs1BxVPH6
+      type: AbilityScoreImprovement
+      level: 4
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: MJbbvfB1s85IRYvP
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: qydusHiZ1kMEAkKF
+      type: AbilityScoreImprovement
+      level: 8
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: MwSr5T1c2ccw5k8d
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: rRxfpZrDEge2xWFZ
+      type: AbilityScoreImprovement
+      level: 12
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: cnOXZF6HetpXjQFE
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: LtnCBTJ9VT8fYNGn
+      type: AbilityScoreImprovement
+      level: 16
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: lyeiOzESTU5orWfY
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
+    - _id: vnK3g1GyRZYJBskm
+      type: AbilityScoreImprovement
+      level: 19
+      configuration:
+        points: 1
+        fixed: {}
+        cap: 1
   spellcasting:
     ability: cha
     progression: full
   wealth: '100'
 effects: []
 flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722027764986
+  modifiedTime: 1722027782353
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: tygcb1c1g66ak81n
 _key: '!items!tygcb1c1g66ak81n'

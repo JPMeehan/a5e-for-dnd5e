@@ -1,0 +1,103 @@
+folder: null
+name: Breathless
+type: feat
+img: icons/magic/air/weather-wind-gust.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You can spend a minute respirating normally and focusing on your
+      breath. For the following hour you do not need to breathe.</p>
+    chat: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: minute
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.HpRb3zYygfOuE4gG
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: zoPgYm2AeSTfVOZq
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Breathless
+    img: icons/magic/air/weather-wind-gust.webp
+    _id: Y5LtGeLs1lbRtBtg
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>You do not need to breathe.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '12'
+      systemId: a5e
+      systemVersion: 0.19.16
+    folder: null
+    _key: '!items.effects!6vx2gkRTrvJ0c47O.Y5LtGeLs1lbRtBtg'
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.16
+_id: 6vx2gkRTrvJ0c47O
+_key: '!items!6vx2gkRTrvJ0c47O'

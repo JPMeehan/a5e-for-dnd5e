@@ -1,6 +1,6 @@
 name: Precision Explosives
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/fire/beam-strike-whip-red.webp
 system:
   type:
     value: class
@@ -8,27 +8,56 @@ system:
   description:
     value: >-
       <p>At 9th level you learn the fine art of causing explosions when you mean
-      to cause explosions. Whenever you arm an alchemical grenade or use
-      Tactical Chemistry to create an alchemist’s fire, black powder charge,
-      smoke bomb, or tanglefoot bag, you can use an action to set it in an
-      unoccupied space in one of the following
-      ways.</p><ul><li><p><strong><em>Set Trigger</em></strong>. You attach the
-      item to anobject or surface and choose a specific mechanical action that
-      triggers it, such as an attached chest being opened, or the<br>wheels of
-      an attached wagon turning. When triggered the item explodes and its
-      effects occur.</p></li><li><p><strong><em>Timed Explosion</em>.</strong>
-      When setting this item you choose an amount of time up to 1 hour. The item
-      explodes and its effects occur at the chosen time.
-      </p></li><li><p><strong><em>Vibration Sensitive</em></strong>. After this
-      item is set, it explodes and its effects occur the next time a Small-sized
-      or larger object or creature other than you moves within 5 feet of it.
-      </p></li></ul><p>If an item set using this feature is normally thrown, any
-      creature within 5 feet of it when it explodes is treated as if it were hit
-      by the item. If an item set in this way normally has an area of effect,
-      that area is centered where the item was set.</p><p>You may also set
-      alchemist’s fires, black powder charges, smoke bombs, and tanglefoot bags
-      not created using Tactical Chemistry at the cost of 5 gold in materials
-      per item set in this way. </p>
+      to cause explosions. Whenever you arm an
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.xo9lrlqmwlsr7j09]{Alchemical
+      Grenade} or use
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.f2syblzgm6at7i7q]{Tactical
+      Chemistry} to create an
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.4t0m2ttaca5hg2vi]{Alchemist's
+      Fire}, @UUID[Compendium.a5e-for-dnd5e.gear.Item.yrsiymhg2jgu9vdd]{Black
+      Powder Charge},
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.erxssofi2jlptyv7]{Smoke bomb}, or
+      @UUID[Compendium.a5e-for-dnd5e.gear.Item.ukcav3i8dudpalir]{Tanglefoot
+      Bag}, you can use an action to set it in an unoccupied space in one of the
+      following ways.</p>
+
+      <ul>
+
+      <li>
+
+      <p><strong><em>Set Trigger</em></strong>. You attach the item to anobject
+      or surface and choose a specific mechanical action that triggers it, such
+      as an attached chest being opened, or the<br>wheels of an attached wagon
+      turning. When triggered the item explodes and its effects occur.</p>
+
+      </li>
+
+      <li>
+
+      <p><strong><em>Timed Explosion</em>.</strong> When setting this item you
+      choose an amount of time up to 1 hour. The item explodes and its effects
+      occur at the chosen time.</p>
+
+      </li>
+
+      <li>
+
+      <p><strong><em>Vibration Sensitive</em></strong>. After this item is set,
+      it explodes and its effects occur the next time a Small-sized or larger
+      object or creature other than you moves within 5 feet of it.</p>
+
+      </li>
+
+      </ul>
+
+      <p>If an item set using this feature is normally thrown, any creature
+      within 5 feet of it when it explodes is treated as if it were hit by the
+      item. If an item set in this way normally has an area of effect, that area
+      is centered where the item was set.</p>
+
+      <p>You may also set alchemist&rsquo;s fires, black powder charges, smoke
+      bombs, and tanglefoot bags not created using Tactical Chemistry at the
+      cost of 5 gold in materials per item set in this way.</p>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -40,12 +69,53 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722274764478
+  modifiedTime: 1722274913911
+  lastModifiedBy: Glw114cHAVexdKTu
 _id: dtfx81pcvwj3fnev
 _key: '!items!dtfx81pcvwj3fnev'

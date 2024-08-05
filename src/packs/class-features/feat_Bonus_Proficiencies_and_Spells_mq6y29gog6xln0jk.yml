@@ -1,0 +1,44 @@
+name: Bonus Proficiencies and Spells
+type: feat
+img: icons/magic/nature/instrument-recorder-leaves.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at level 3, you gain proficiency with
+      the History, Culture, and Religion skills. If you are already proficient
+      in any of these skills, you gain an expertise die to any that apply. You
+      also learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.zaeerhaj7ici4dtd]{Shillelagh}
+      cantrip and the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bq5bki8n1gfhrqz1]{Ceremony}
+      spell. Both count as Bard spells for you, but neither counts against your
+      cantrips or spells known.&nbsp;</p>
+    chat: ''
+  source:
+    book: 'Thematic Toolkit: Storyteller'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722134503288
+  modifiedTime: 1722134568372
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: mq6y29gog6xln0jk
+_key: '!items!mq6y29gog6xln0jk'
