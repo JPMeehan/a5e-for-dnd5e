@@ -1732,8 +1732,9 @@ function processGrants(o5e, grants, type) {
  * @returns {import('./types/dnd5e.mjs').EquipmentEntryData}
  */
 function equipmentEntry(itemGrant, i, id) {
+  const _id = i > 9 ? id.slice(0, 14) + i : id.slice(0, 15) + i
   return {
-    _id: id.slice(0, 15) + i,
+    _id,
     sort: (i + 1) * 10000,
     key: remapPack(itemGrant.uuid),
     count: itemGrant.quantityOverride ?? null,
