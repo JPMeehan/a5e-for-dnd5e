@@ -1,0 +1,117 @@
+name: Imbued
+type: subclass
+img: icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Imbued<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tkpycmvcnz9pm08u]{Archetype
+      Spells: Imbued}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mivn1gimrzs1aw24]{Flesh
+      and Bone}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.lcyq0w7859n85353]{Bonded
+      Power}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jxgdg83gdunedomk]{Twisted
+      Mutation}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5hu1uajdbvm91ihg]{Growing
+      Strength}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wfax8o9hy3c6rj42]{True
+      Power}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tkpycmvcnz9pm08u
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mivn1gimrzs1aw24
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.lcyq0w7859n85353
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jxgdg83gdunedomk
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5hu1uajdbvm91ihg
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wfax8o9hy3c6rj42
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: 5ozujj0tscmn46b8
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!5ozujj0tscmn46b8'

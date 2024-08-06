@@ -1,0 +1,115 @@
+name: Byway Defender
+type: subclass
+img: icons/environment/wilderness/arch-stone.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Byway Defender<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ztc4rw1bmy0oj2qk]{Map
+      the Territory}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.yyony0x82nre36c1]{Road
+      Knight}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gnndpl9snif48mo7]{Ears
+      for Trouble}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.b9vxb5p940e59r3d]{Bandit
+      Hunter}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.35drd9htnqhc059f]{Resolve}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.lxvj0mf2la66xarn]{Tenacity}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ztc4rw1bmy0oj2qk
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.yyony0x82nre36c1
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gnndpl9snif48mo7
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.b9vxb5p940e59r3d
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.35drd9htnqhc059f
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.lxvj0mf2la66xarn
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: s45HbjdmT4PN6Nzd
+_key: '!items!s45HbjdmT4PN6Nzd'

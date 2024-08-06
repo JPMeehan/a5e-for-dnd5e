@@ -1,0 +1,157 @@
+name: Vox
+type: subclass
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Vox<br></strong></p>
+
+      <table style="width: 100.008%; height: 184.778px;"
+      border="1"><colgroup><col style="width: 6.18182%;"><col style="width:
+      93.6364%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">Level</td>
+
+      <td style="height: 16.798px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 33.5961px;">
+
+      <td style="text-align: center; height: 33.5961px;">1st</td>
+
+      <td style="text-align: center; height:
+      33.5961px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vpwiv1hk2wq51yfn]{Compelling
+      Communication}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.i4t1x0cziw80oqkl]{Bonus
+      Proficiencies (Vox)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5961px;">
+
+      <td style="height: 33.5961px;">2nd</td>
+
+      <td style="height:
+      33.5961px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.6l1kxtl583q9giub]{Ear
+      for Languages}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.tde88mv3dbruvyti]{Weapon
+      of Choice}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">6th</td>
+
+      <td style="height:
+      16.798px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.66qdm84hz3ye9wzt]{Hypnotic
+      Vox}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5961px;">
+
+      <td style="height: 33.5961px;">11th</td>
+
+      <td style="height:
+      33.5961px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.zwp0cxo4ocgrpv56]{When
+      You Put It That Way}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5961px;">
+
+      <td style="height: 33.5961px;">14th</td>
+
+      <td style="height:
+      33.5961px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.33bysvbcwyfaxuve]{Attentive
+      Polyglot}</td>
+
+      </tr>
+
+      <tr style="height: 16.798px;">
+
+      <td style="height: 16.798px; text-align: center;">17th</td>
+
+      <td style="height: 16.798px; text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.sdg624w6ms78lwss]{Killing
+      Word}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventures in ZEITGEIST
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: savant
+  advancement:
+    - _id: 8X9ZwnLD04GwMKJi
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vpwiv1hk2wq51yfn
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.i4t1x0cziw80oqkl
+    - _id: 67IKHV0XUvDkzuUA
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.6l1kxtl583q9giub
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tde88mv3dbruvyti
+    - _id: jQW5wj84zrgwRAi9
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.66qdm84hz3ye9wzt
+    - _id: cEvOvRWKjFHScA6r
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.zwp0cxo4ocgrpv56
+    - _id: Gjrs5FOYk6ke45wk
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.33bysvbcwyfaxuve
+    - _id: yec73UVxYWruk4Ex
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sdg624w6ms78lwss
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 9khfad5nhhkydebo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!9khfad5nhhkydebo'

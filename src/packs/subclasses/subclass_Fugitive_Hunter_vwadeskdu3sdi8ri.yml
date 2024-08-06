@@ -1,0 +1,112 @@
+name: Fugitive Hunter
+type: subclass
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Fugitive Hunter<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.agqwzy03rb2a7vgp]{Hunter's
+      Contract}&nbsp;
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.vxf08tpqoqaz02p7]{Live
+      Capture}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bdizenxtipl8wavj]{Long
+      Arm of the Law}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0j88t2l0aijb7acr]{Incorruptible}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.q0yr05s4un8rqe37]{Inescapable}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.agqwzy03rb2a7vgp
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vxf08tpqoqaz02p7
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bdizenxtipl8wavj
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0j88t2l0aijb7acr
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.q0yr05s4un8rqe37
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: vwadeskdu3sdi8ri
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!vwadeskdu3sdi8ri'

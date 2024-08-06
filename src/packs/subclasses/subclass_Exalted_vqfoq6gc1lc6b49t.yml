@@ -1,0 +1,117 @@
+name: Exalted
+type: subclass
+img: icons/magic/holy/saint-glass-portrait-halo.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Exalted<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5c7m4qwnis663acx]{Archetype
+      Spells: Exalted}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.kzeln9rhpydh287k]{Sacred
+      Knowledge}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8ypdo7nkp187fmzw]{Divine
+      Infusion}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.l7wexrn8yp57nw7v]{Consecrated
+      Awe}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mrprtdrc4mjtrubt]{Celestial
+      Wings}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ya8d143z74chaxp7]{Wrath
+      From On High}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kzeln9rhpydh287k
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8ypdo7nkp187fmzw
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5c7m4qwnis663acx
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.l7wexrn8yp57nw7v
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mrprtdrc4mjtrubt
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ya8d143z74chaxp7
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: vqfoq6gc1lc6b49t
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!vqfoq6gc1lc6b49t'

@@ -1,0 +1,139 @@
+name: Warpriest
+type: subclass
+img: icons/weapons/maces/mace-round-studded.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Warpriest<br></strong></p>
+
+      <table style="width: 100%; height: 100.781px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">1st</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.reeosn98j2xf2z7t]{Warpriest
+      Spells (Warpriest)}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ouqdpypu5bh5wu3t]{Boon
+      of the Protector (Warpriest)}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mz4xjnmnuymd145p]{Fighting
+      Fit (Warpriest)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">2nd</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.xfnxiy8m9m9npuj0]{Channel
+      Divinity: Blessed Proficiency (Warpriest)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">6th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8v1xiqfirnw79e6c]{Clerical
+      Precision (Warpriest)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">8th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.t2jwd2b3ekrsnnn0]{Boon
+      of Fury (Warpriest)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">17th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8xv6er20ncu49fj3]{Boon
+      of Resistance (Warpriest)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: cleric
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.reeosn98j2xf2z7t
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ouqdpypu5bh5wu3t
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mz4xjnmnuymd145p
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xfnxiy8m9m9npuj0
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8v1xiqfirnw79e6c
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 8
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.t2jwd2b3ekrsnnn0
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8xv6er20ncu49fj3
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: e9t5lbc72foelytp
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!e9t5lbc72foelytp'

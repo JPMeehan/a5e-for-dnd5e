@@ -1,0 +1,114 @@
+name: Wishmaster
+type: subclass
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Wishmaster<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c]{Expanded
+      Spell List}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.pv8eui5t0mf2z52p]{Seal
+      of the Pact}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.rvgu03gqktekjb8l]{Wrath
+      of the Genie}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bxm5eiif393royrp]{Elemental
+      Ward}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.qd6ekv3da8c8tx1k]{Lesser
+      Wish}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: warlock
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pv8eui5t0mf2z52p
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.rvgu03gqktekjb8l
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bxm5eiif393royrp
+    - _id: 1yIj5BOldbQmDsaB
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.qd6ekv3da8c8tx1k
+  spellcasting:
+    ability: none
+    progression: pact
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: gw9S0VelGSRoemAK
+_key: '!items!gw9S0VelGSRoemAK'

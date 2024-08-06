@@ -1,0 +1,119 @@
+folder: null
+name: Gray Watcher
+type: subclass
+img: icons/magic/death/bones-crossed-gray.webp
+system:
+  description:
+    value: >-
+      <p>Gray watchers are witches that stand astride the gates between life and
+      death. Equal parts healers and killers, they are masters of positive and
+      negative energy alike. No mere necromancers, they are still willing to and
+      capable of treating with, controlling, or destroying the undead, and often
+      do all three in equal measure.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Gray Watcher<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.rhlud44x2frat85y]{Bound
+      Spirit (Gray Watcher)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.cfg5vlv8vf6gli5h]{Sanctuary
+      from Death (Gray Watcher)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0s61lopa4cfn52zx]{Straddle
+      the Veil (Gray Watcher)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.7uwtwycneihbjdpw]{Recall
+      the Soul (Gray Watcher)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: witch
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.rhlud44x2frat85y
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cfg5vlv8vf6gli5h
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0s61lopa4cfn52zx
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7uwtwycneihbjdpw
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: xl1n62jlcbielkcz
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!xl1n62jlcbielkcz'

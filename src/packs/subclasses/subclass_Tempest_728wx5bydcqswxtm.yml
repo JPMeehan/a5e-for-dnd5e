@@ -1,0 +1,119 @@
+name: Tempest
+type: subclass
+img: icons/magic/lightning/bolt-forked-large-orange-purple.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Tempest</strong></p>
+
+      <table style="width: 100%; height: 83.9845px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">3rd</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.yna0872v2fpkz51j]{Touched
+      by Thunder}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">6th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.f41mri24smndjesd]{Whirling
+      Winds}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">10th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.whe3yk203mqvy174]{Forceful
+      Gale}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">14th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nzo8gz0k1olfedm5]{Perfect
+      Storm}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: berserker
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.yna0872v2fpkz51j
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.f41mri24smndjesd
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.whe3yk203mqvy174
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nzo8gz0k1olfedm5
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722373893714
+  modifiedTime: 1722375840647
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 728wx5bydcqswxtm
+_key: '!items!728wx5bydcqswxtm'

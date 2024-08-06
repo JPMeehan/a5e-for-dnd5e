@@ -1,0 +1,130 @@
+name: Arcane Sniper
+type: subclass
+img: icons/skills/targeting/crosshair-triple-strike-orange.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Arcane Sniper<br></strong></p>
+
+      <table style="width: 100%; height: 134.4px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tgqiq3reekh2yj7c]{Arcane
+      Marksman}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.JDy3nhRYda017iFV]{Spellcasting}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">7th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jmagznmgxhszd6hd]{Eldritch
+      Ranger}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.owzvzhvedpql55rw]{Arcane
+      Ammunition}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.7omyfps3c0uug5l5]{Bottomless
+      Quiver}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">11th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1xcw4easyx7hc8a4]{Hardened
+      Mind}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.jojxlhd743rxagte]{Expanded
+      Arcane Ammunition}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">15th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.3s5hih1c2nupyx1x]{Supreme
+      Arcane Ammunition}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.kswu0otmau9zgpj5]{Mobile
+      Sniper}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Arcane Sniper
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tgqiq3reekh2yj7c
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.JDy3nhRYda017iFV
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jmagznmgxhszd6hd
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.owzvzhvedpql55rw
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7omyfps3c0uug5l5
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jojxlhd743rxagte
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1xcw4easyx7hc8a4
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3s5hih1c2nupyx1x
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kswu0otmau9zgpj5
+  spellcasting:
+    ability: int
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 0wZJNYQqGZwomOF1
+_key: '!items!0wZJNYQqGZwomOF1'

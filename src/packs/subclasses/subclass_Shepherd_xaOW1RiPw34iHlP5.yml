@@ -1,0 +1,139 @@
+name: Shepherd
+type: subclass
+img: icons/creatures/mammals/livestock-sheep-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Shepherd<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0oxmiql8dmaojzbf]{Shepherd
+      Spells}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.4pi86zz4s8mdm9i0]{Community
+      Leader}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.366e4afw5qyigtd4]{Helpful
+      Magic}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5htxs9p1afu6e5vg]{Helping
+      Hand}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gvunb03htv4smfru]{Get
+      Things Done}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.7k4axdkotmo3kolx]{Here
+      I Am, Send Me}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>8th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mmddlpt6uiz7q6d5]{Shield
+      the Flock}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td style="text-align: center;">17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jbjocdb9my8yaj18]{Undo
+      Calamity}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.4uhizup6t1ookfnm]{Go
+      and Do Likewise}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Itinerant'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: cleric
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0oxmiql8dmaojzbf
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4pi86zz4s8mdm9i0
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.366e4afw5qyigtd4
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5htxs9p1afu6e5vg
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gvunb03htv4smfru
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7k4axdkotmo3kolx
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 8
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mmddlpt6uiz7q6d5
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jbjocdb9my8yaj18
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4uhizup6t1ookfnm
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: xaOW1RiPw34iHlP5
+_key: '!items!xaOW1RiPw34iHlP5'

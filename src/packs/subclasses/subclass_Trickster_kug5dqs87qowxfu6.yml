@@ -1,0 +1,140 @@
+name: Trickster
+type: subclass
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Trickster<br></strong></p>
+
+      <table style="width: 100%; height: 100.781px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">1st</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.cw3mf5kchz56z37e]{Trickster
+      Spells}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.qbj5c5vj8eixv7hm]{Basic
+      Tricks}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4zuwh84mxhjdlg8z]{Combat
+      Tricks}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">2nd</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8oqvfxexi1ft5vhf]{Channel
+      Divinity: Up My Sleeve}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">6th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5vu145ypo42upudi]{Takes
+      One to Know One}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">8th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8ctgo0bmk4sccu0f]{Unseen
+      Pathways}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">17th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5rvw15bunz436lio]{Blank
+      Slate}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: cleric
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.qbj5c5vj8eixv7hm
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4zuwh84mxhjdlg8z
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cw3mf5kchz56z37e
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8oqvfxexi1ft5vhf
+    - _id: x9agwGjHyAni2XfY
+      type: ItemChoice
+      level: 6
+      configuration:
+        pool:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5vu145ypo42upudi
+        choices:
+          '0': 0
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 8
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8ctgo0bmk4sccu0f
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5rvw15bunz436lio
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: kug5dqs87qowxfu6
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!kug5dqs87qowxfu6'

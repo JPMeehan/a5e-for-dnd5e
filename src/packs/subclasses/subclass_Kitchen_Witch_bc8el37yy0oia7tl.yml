@@ -1,0 +1,128 @@
+folder: null
+name: Kitchen Witch
+type: subclass
+img: icons/skills/trades/baking-bread-rolls-green.webp
+system:
+  description:
+    value: >-
+      <p>A kitchen witch is an unusual breed of witch, one who eschews
+      traditional spellcasting components to instead channel their magical
+      energy into the nourishing power of food and drink. To them, the hearth
+      and kitchen are a sacred space, and their stove (or cauldron, as the case
+      may be) is the altar upon which they work their magic. Their grimoires are
+      full of recipes, many of which were handed down through the generations,
+      and indeed some kitchen witches keep these &ldquo;spells&rdquo; not in a
+      book but written on small cards and other slips of paper tucked safely
+      away in a little wooden box. Whether it is baking bread, simmering soups,
+      or brewing beer, a kitchen witch has a meal on their mind that will
+      nourish body and soul.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Kitchen Witch<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.byyfh8ugrjy0h8u3]{Bonus
+      Proficiencies (Kitchen Witch)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.dk43kk6a1ccvw0bp]{Kitchen
+      Intention}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4gs3kam39nmuzjxh]{Baked
+      in a Pie}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.renwa900hbhchko8]{Improved
+      Kitchen Intention}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nhibyaldp19btu8l]{Feast
+      for Friends}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: witch
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.byyfh8ugrjy0h8u3
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dk43kk6a1ccvw0bp
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4gs3kam39nmuzjxh
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.renwa900hbhchko8
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nhibyaldp19btu8l
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: bc8el37yy0oia7tl
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!bc8el37yy0oia7tl'

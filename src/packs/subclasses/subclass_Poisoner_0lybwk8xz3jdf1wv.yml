@@ -1,0 +1,113 @@
+name: Poisoner
+type: subclass
+img: icons/consumables/potions/potion-labeled-poison-white.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Poisoner<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5nffwp7hlpj0wg4r]{Poisonous
+      Expertise}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.zte89vkvn7fm9gq0]{Combat
+      Poisoner}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>9th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jbanpoo5svzbc1me]{Toxic
+      Essence}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>13th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.x5fv8do5epmih2k9]{Virulence}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1rjubkz36x0hih01]{Poisonous
+      Carrier}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: rogue
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5nffwp7hlpj0wg4r
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.zte89vkvn7fm9gq0
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jbanpoo5svzbc1me
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 13
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.x5fv8do5epmih2k9
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1rjubkz36x0hih01
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 0lybwk8xz3jdf1wv
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!0lybwk8xz3jdf1wv'

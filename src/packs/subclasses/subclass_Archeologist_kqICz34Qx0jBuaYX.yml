@@ -1,0 +1,130 @@
+name: Archeologist
+type: subclass
+img: icons/tools/hand/shovel-spade-steel-grey.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Archeologist<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.oelmmqexz8nts7t0]{Historical
+      Savant}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.kxr3eu8kyb7fsfhg]{Ruin
+      Delver}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0go3wy6xeff8djju]{Dangerous
+      Investigations}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.hlpwxfy5xq9r16qf]{Disastrous
+      Insight}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jg14w05gx3vled1i]{Lessons
+      of History}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.6b67fah7qwlmdcq1]{Studied
+      Reflexes}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: scholar
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.oelmmqexz8nts7t0
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kxr3eu8kyb7fsfhg
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0go3wy6xeff8djju
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hlpwxfy5xq9r16qf
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jg14w05gx3vled1i
+    - _id: LYPcxUKTetW0PIny
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.6b67fah7qwlmdcq1
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: kqICz34Qx0jBuaYX
+_key: '!items!kqICz34Qx0jBuaYX'

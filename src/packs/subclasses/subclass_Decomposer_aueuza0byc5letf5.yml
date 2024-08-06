@@ -1,0 +1,121 @@
+name: Decomposer
+type: subclass
+img: icons/magic/death/skull-poison-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Decomposer<br></strong></p>
+
+      <table style="width: 100%; height: 158.172px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 57.3906px;">
+
+      <td style="height: 57.3906px;">2nd</td>
+
+      <td style="height: 57.3906px;">
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0bur9q3aatxs5cpv]{Life
+      at the Bottom}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.uh3w20ghozle5px5]{In
+      The Cracks}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">6th</td>
+
+      <td style="height:
+      33.5938px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.zrcepca19alawkhc]{Decomposing
+      Touch}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">10th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.3l6r2fw44nxlqkdp]{Virulent}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">14th</td>
+
+      <td style="height:
+      33.5938px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vxn7556itoousmay]{Vermin
+      Master}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: druid
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0bur9q3aatxs5cpv
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.uh3w20ghozle5px5
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.zrcepca19alawkhc
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3l6r2fw44nxlqkdp
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vxn7556itoousmay
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: aueuza0byc5letf5
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!aueuza0byc5letf5'

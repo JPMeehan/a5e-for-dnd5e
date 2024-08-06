@@ -1,0 +1,122 @@
+name: Stitcher
+type: subclass
+img: icons/skills/trades/textiles-stitching-leather-brown.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Stitcher<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.x51vcbl5emhx40rr]{Bonus
+      Proficiencies (Stitcher)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.up5umwhcjk3asc3s]{Stitcher
+      Spells}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.vb6mv2txn8mceh0j]{Monstrous
+      Minion}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>5th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9r59e2hmjoddb4i0]{Medical
+      Sutures}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>9th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.htbxvk4m2guq09ke]{Advanced
+      Grafting}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.yayhgt524z4c96od]{It&rsquo;s
+      Alive!}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  identifier: ''
+  classIdentifier: artificer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.x51vcbl5emhx40rr
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.up5umwhcjk3asc3s
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vb6mv2txn8mceh0j
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 5
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9r59e2hmjoddb4i0
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.htbxvk4m2guq09ke
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.yayhgt524z4c96od
+  spellcasting:
+    ability: int
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 0nnly9dlmhphbbzg
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!0nnly9dlmhphbbzg'

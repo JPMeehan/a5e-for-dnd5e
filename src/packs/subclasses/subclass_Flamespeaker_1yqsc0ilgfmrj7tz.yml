@@ -1,0 +1,123 @@
+name: Flamespeaker
+type: subclass
+img: icons/magic/fire/elemental-fire-humanoid.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Flamespeaker<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dclunhqcbimk3vc4]{Tongue
+      of Flame}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ax61hhkljgaobvai]{Hands
+      of Flame}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ktdxllc0v98bw9ju]{Eyes
+      of Flame}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.brs5ieevwfasrb6u]{Brand
+      of Flame}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mz6miayc0bgma6m7]{Planar
+      Flame}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.n4rr9bnmlurkisw0]{Litany
+      of Flame}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: druid
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dclunhqcbimk3vc4
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ax61hhkljgaobvai
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ktdxllc0v98bw9ju
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.brs5ieevwfasrb6u
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mz6miayc0bgma6m7
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.n4rr9bnmlurkisw0
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: 1yqsc0ilgfmrj7tz
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!1yqsc0ilgfmrj7tz'

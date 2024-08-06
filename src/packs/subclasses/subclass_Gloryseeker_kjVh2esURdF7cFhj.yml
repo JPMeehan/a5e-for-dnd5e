@@ -1,0 +1,119 @@
+name: Gloryseeker
+type: subclass
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Gloryseeker<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.f2lseeuzig5x0do1]{Tenets
+      of the Gloryseeker}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.sjsuf731pdmcjoad]{Archetype
+      Schools (Herald: Gloryseeker)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ll982msnwu00v8vu]{Channel
+      Divinity (Herald: Gloryseeker)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.kfgkpc4gzcgkntoy]{Renowned}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.x4eapbfyys81xmwv]{Driven
+      by Success}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wnkqnnd0kjdxr5e5]{No
+      Guts, No Glory}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>20th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.re5wja2597pn7onb]{Living
+      Legend}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sjsuf731pdmcjoad
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ll982msnwu00v8vu
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kfgkpc4gzcgkntoy
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.f2lseeuzig5x0do1
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.x4eapbfyys81xmwv
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wnkqnnd0kjdxr5e5
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.re5wja2597pn7onb
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: kjVh2esURdF7cFhj
+_key: '!items!kjVh2esURdF7cFhj'

@@ -1,0 +1,119 @@
+name: Dragonblooded
+type: subclass
+img: icons/commodities/leather/scales-brown.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Dragonblooded</strong></p>
+
+      <table style="width: 100%; height: 134.375px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 50.3906px;">
+
+      <td style="height: 50.3906px;">3rd</td>
+
+      <td style="height:
+      50.3906px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.z2s060elpa5gv1kf]{Scaly
+      Hide}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bnn1dg1xblpmz837]{Dragon
+      Breath}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">6th</td>
+
+      <td style="height:
+      33.5938px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1zf1lqeo6y5ohn1q]{Draconic
+      Maw}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">10th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nhqhwjkt0ianbtbi]{Draconic
+      Menace}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">14th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dnlv66asqrnxe2fe]{Dragon
+      Wings}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: berserker
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.z2s060elpa5gv1kf
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bnn1dg1xblpmz837
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1zf1lqeo6y5ohn1q
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nhqhwjkt0ianbtbi
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dnlv66asqrnxe2fe
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 1ldta52ncu5fpws7
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!1ldta52ncu5fpws7'

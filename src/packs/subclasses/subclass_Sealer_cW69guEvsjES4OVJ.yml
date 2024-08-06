@@ -1,0 +1,126 @@
+name: Sealer
+type: subclass
+img: icons/magic/symbols/cross-circle-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Sealer<br></strong></p>
+
+      <table style="width: 100%; height: 84px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.K6Zk8Zg59rxyKshM]{Tenets
+      of the Sealer}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.wzwxTncBBiaNJSvK]{Archetype
+      School (Herald: Sealer)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.9NldFgcgMwOKTJrs]{Knowledgeable}@UUID[Compendium.a5e-for-dnd5e.class-features.Item.egqekWLnK2hgZt2C]{Sealer&rsquo;s
+      Tools}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.uzGG8a2TlqZcNfBC]{Channel
+      Divinity (Sealer)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">7th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5GPYdjkNJ2eUJjG0]{Sealed
+      Mind}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">15th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.Y0smlcrqZaTXisFq]{Sealer&rsquo;s
+      Rituals}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">20th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.GnEzmTN6Z4fQ25BG]{True
+      Sealer}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Sinuous Sentinels
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.K6Zk8Zg59rxyKshM
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wzwxTncBBiaNJSvK
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9NldFgcgMwOKTJrs
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.egqekWLnK2hgZt2C
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.uzGG8a2TlqZcNfBC
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5GPYdjkNJ2eUJjG0
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.Y0smlcrqZaTXisFq
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.GnEzmTN6Z4fQ25BG
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: cW69guEvsjES4OVJ
+_key: '!items!cW69guEvsjES4OVJ'

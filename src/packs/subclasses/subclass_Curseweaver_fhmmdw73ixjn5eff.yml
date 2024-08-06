@@ -1,0 +1,136 @@
+name: Curseweaver
+type: subclass
+img: icons/skills/trades/textiles-knitting-yarn-red.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Curseweaver<br></strong></p>
+
+      <table style="width: 100%; height: 105.359px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 21.375px;">
+
+      <td style="height: 21.375px;">3rd</td>
+
+      <td style="height:
+      21.375px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dxgvsvdy919k24ns]{Spellcasting
+      (Curseweaver)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.llpc02i31ab2q92y]{Put
+      on a Show}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">7th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.3zpoa06qh7yrj349]{Effigy
+      of Scorn (Curseweaver)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">11th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8p8srlupa4o52fpy]{Baleful
+      Stare (Curseweaver)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">15th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9qgrk4zc6ho40jfx]{Malignant
+      Revival (Curseweaver)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">18th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1bumweyhep19uamu]{Crushing
+      Presence (Curseweaver)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Master of Ceremonies'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: marshal
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dxgvsvdy919k24ns
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.llpc02i31ab2q92y
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3zpoa06qh7yrj349
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8p8srlupa4o52fpy
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9qgrk4zc6ho40jfx
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1bumweyhep19uamu
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: fhmmdw73ixjn5eff
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!fhmmdw73ixjn5eff'

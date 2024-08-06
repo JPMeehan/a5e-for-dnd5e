@@ -1,0 +1,134 @@
+name: Crowned
+type: subclass
+img: icons/commodities/treasure/crown-gold-satin-gems-red.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Crowned<br></strong></p>
+
+      <table style="width: 100.008%;" border="1"><colgroup><col style="width:
+      16.0457%;"><col style="width: 84.0636%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dsr4v3mxhgoufa7m]{Crowned
+      Spellcasting}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.eo4z15c87wdp6xke]{Crowned
+      Spells}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.42mhgw3fyzsul8bi]{Issue
+      Edicts}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.3xmrlo5r2nxczz3d]{Every
+      Knee Shall Bend}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1agvboac3s7y9zbx]{Recognized
+      Authority}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.hubjlo010qquoug9]{Rebuke
+      Rebels}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.kvk0t1zs34aeswhz]{All
+      Hail}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: wielder
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3xmrlo5r2nxczz3d
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1agvboac3s7y9zbx
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hubjlo010qquoug9
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kvk0t1zs34aeswhz
+    - _id: WTDr7AxGKQBpkxLP
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dsr4v3mxhgoufa7m
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.eo4z15c87wdp6xke
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.42mhgw3fyzsul8bi
+  spellcasting:
+    ability: cha
+    progression: wielder
+effects: []
+folder: null
+flags: {}
+_id: eghkk4o8ivbvxta3
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!eghkk4o8ivbvxta3'

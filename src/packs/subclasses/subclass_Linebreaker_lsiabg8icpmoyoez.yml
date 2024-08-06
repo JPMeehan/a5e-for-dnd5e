@@ -1,0 +1,117 @@
+name: Linebreaker
+type: subclass
+img: icons/environment/people/cavalry.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Linebreaker<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bshwnaf6ac4vl1gj]{Hard
+      Charger}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ik427pttg98uj2mt]{Mounted
+      Wrath}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nmee1ubcugy6kwoo]{Morale
+      Smasher}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.gm32hs9rf5lc7if3]{Splintering
+      Impact}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.s1d7wjoydkevprqc]{Thundering
+      Steps}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ktq0moq0wsbem929]{Scattering
+      Charge}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Thunder of War'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: berserker
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bshwnaf6ac4vl1gj
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ik427pttg98uj2mt
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nmee1ubcugy6kwoo
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gm32hs9rf5lc7if3
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.s1d7wjoydkevprqc
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ktq0moq0wsbem929
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: lsiabg8icpmoyoez
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!lsiabg8icpmoyoez'

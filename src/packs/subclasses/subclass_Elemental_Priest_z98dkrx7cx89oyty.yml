@@ -1,0 +1,135 @@
+name: Elemental Priest
+type: subclass
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Elemental Priest<br></strong></p>
+
+      <table style="width: 100%; height: 100.781px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">1st</td>
+
+      <td style="height: 16.7969px;">
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pimb5afdzua0obrg]{Elemental
+      Priest Spells}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.6m5ge0pdl8325knn]{Elemental
+      Divination}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.by9yv1q04hk8vbvy]{Gift
+      of the Ancients}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">2nd</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.h5hlqfswnlwyu3yn]{Channel
+      Divinity: Elemental Intervention}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">6th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.6lib8s0hlqylm33d]{Sting
+      of the Elements}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">8th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.spypwmjb85zgmwi9]{Fury
+      of the Old Ways}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">17th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9rerp5zvugy6p5q2]{Unity
+      of the Elements}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: cleric
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.6m5ge0pdl8325knn
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.by9yv1q04hk8vbvy
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pimb5afdzua0obrg
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.h5hlqfswnlwyu3yn
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.6lib8s0hlqylm33d
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9rerp5zvugy6p5q2
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: z98dkrx7cx89oyty
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!z98dkrx7cx89oyty'

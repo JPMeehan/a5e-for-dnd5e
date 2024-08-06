@@ -1,0 +1,114 @@
+name: Pyromancer
+type: subclass
+img: icons/magic/fire/barrier-wall-explosion-orange.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Pyromancer<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dol3gtshpoc1zwts]{Cleansing
+      Fire}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.e3txkqcder8mbjgr]{Rituals
+      of Fire}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nkpqjpqg617gcnm8]{Clinging
+      Flames}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.07viiop1wc4iuz69]{Blazing
+      Mastery}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.07zjz84275cpgaax]{Offerings
+      in Kind}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: wizard
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dol3gtshpoc1zwts
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.e3txkqcder8mbjgr
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nkpqjpqg617gcnm8
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.07viiop1wc4iuz69
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.07zjz84275cpgaax
+  spellcasting:
+    ability: int
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: 85pl0vu7ijs1kflz
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!85pl0vu7ijs1kflz'

@@ -1,0 +1,116 @@
+name: Agent of the Magus
+type: subclass
+img: icons/magic/symbols/rune-sigil-white-pink.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Agent of the Magus<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.cysfgqxsqxdu6pcx]{Warlock
+      Expanded Spell List: The Magus}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.hle5fwv7dzrlycdw]{Twisting
+      Fate}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.v9hytn6rr5o5baeo]{Tricks
+      of the Trade}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.oxpl51scv3hbmdg5]{Mind's
+      Eye}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ndq45wlmxn81m4c5]{Fate
+      Reversal}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pta3ivx5d5mpk3om]{Misdirection}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: warlock
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cysfgqxsqxdu6pcx
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hle5fwv7dzrlycdw
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.v9hytn6rr5o5baeo
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.oxpl51scv3hbmdg5
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ndq45wlmxn81m4c5
+    - _id: 1yIj5BOldbQmDsaB
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pta3ivx5d5mpk3om
+  spellcasting:
+    ability: cha
+    progression: pact
+effects: []
+folder: null
+flags: {}
+_id: 5fwashy0tuaq8hei
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!5fwashy0tuaq8hei'

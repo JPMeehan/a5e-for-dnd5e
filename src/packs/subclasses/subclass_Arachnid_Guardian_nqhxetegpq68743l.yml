@@ -1,0 +1,119 @@
+folder: null
+name: Arachnid Guardian
+type: subclass
+img: icons/creatures/invertebrates/spider-web-black.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Arachnid Guardian<br></strong></p>
+
+      <table style="width: 100%; height: 134.4px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 50.4px;">
+
+      <td style="height: 50.4px;">3rd</td>
+
+      <td style="height:
+      50.4px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.kwzadonnhisqhs2d]{Guardian's
+      Arsenal}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ad4hmr4ib3mdfufc]{Lurking
+      Spider}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">6th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9f94pqszx8fhotll]{Wall
+      Crawler}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">11th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bimndjkzw0l3qy0y]{Ambush
+      Predator}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">17th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.fh3onsi6x0rtu9y2]{Web
+      Spinner}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: adept
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kwzadonnhisqhs2d
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ad4hmr4ib3mdfufc
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9f94pqszx8fhotll
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bimndjkzw0l3qy0y
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fh3onsi6x0rtu9y2
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: nqhxetegpq68743l
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!nqhxetegpq68743l'

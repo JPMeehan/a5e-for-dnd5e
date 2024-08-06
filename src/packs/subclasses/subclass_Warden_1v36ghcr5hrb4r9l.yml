@@ -1,0 +1,114 @@
+name: Warden
+type: subclass
+img: icons/skills/social/diplomacy-peace-alliance.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Warden<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.aqe46n6cxima436a]{Organized
+      Training}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.riawi75dfnh2co5h]{Saddled
+      Up}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8ztob1a6ek945kba]{Skillful
+      Execution}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bqali42wn5gnso6f]{Decisive
+      Mind}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dri4hnyylucw1gbb]{Riding
+      Out}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.aqe46n6cxima436a
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.riawi75dfnh2co5h
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8ztob1a6ek945kba
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bqali42wn5gnso6f
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dri4hnyylucw1gbb
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 1v36ghcr5hrb4r9l
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!1v36ghcr5hrb4r9l'

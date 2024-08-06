@@ -1,0 +1,114 @@
+name: Diabolist
+type: subclass
+img: icons/creatures/unholy/demon-fanged-horned-yellow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Diabolist<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c]{Expanded
+      Spell List}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ew4y1nx846ekyy9j]{Sanguine
+      Contract}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.7p7274t4xzsvat1v]{Dogs
+      of Hell}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.q4ekt46njqgnh5t8]{Blasphemous
+      Act}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2ohgi9lyab1iwb1e]{Hurl
+      Through Hell}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: warlock
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ew4y1nx846ekyy9j
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7p7274t4xzsvat1v
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.q4ekt46njqgnh5t8
+    - _id: 1yIj5BOldbQmDsaB
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2ohgi9lyab1iwb1e
+  spellcasting:
+    ability: none
+    progression: pact
+effects: []
+folder: null
+flags: {}
+_id: m0psz0wotpir3iss
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!m0psz0wotpir3iss'

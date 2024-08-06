@@ -1,0 +1,120 @@
+name: Wildborn
+type: subclass
+img: icons/creatures/abilities/fangs-teeth-bite.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Wildborn<br></strong></p>
+
+      <table style="width: 100%; height: 134.4px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tc6t4g58z99orqmv]{Spellcasting
+      (Wildborn)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">7th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.cjcjptw7u7rku3iz]{Nature's
+      Wellspring}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">11th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.zikznx6tlw8wjh6y]{Hardy
+      Resilience}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">15th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gjf9i7yn6rumktus]{Naturally
+      Attuned}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>&nbsp;</p>
+
+      <h2>&nbsp;</h2>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tc6t4g58z99orqmv
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cjcjptw7u7rku3iz
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.zikznx6tlw8wjh6y
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gjf9i7yn6rumktus
+  spellcasting:
+    ability: wis
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: bglr8cwiu16252tx
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!bglr8cwiu16252tx'

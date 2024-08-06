@@ -1,0 +1,117 @@
+name: Blighter
+type: subclass
+img: icons/magic/nature/plant-vines-skull-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Blighter<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wf5s502jbujgjrx1]{Commune
+      With Dead}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.cz77t6xx4pl871n0]{Blighted
+      Shape}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.wpl3f782nhorkubn]{Blighted
+      Knowledge}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bw8ylcl03ruxfc0v]{Blighted
+      Infliction}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.oki8yg8od6rftpzp]{Combined
+      Strengths}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.n9bfithy8pj80vv7]{Nature
+      Compels}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Ace's Adventuring Guide to Necromancy
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: druid
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wf5s502jbujgjrx1
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cz77t6xx4pl871n0
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wpl3f782nhorkubn
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bw8ylcl03ruxfc0v
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.oki8yg8od6rftpzp
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.n9bfithy8pj80vv7
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: l1V5pl6XFpak6Whq
+_key: '!items!l1V5pl6XFpak6Whq'

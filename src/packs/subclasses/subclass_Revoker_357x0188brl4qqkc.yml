@@ -1,0 +1,128 @@
+name: Revoker
+type: subclass
+img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Revoker<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ja5512qz6db4u6al]{Choose
+      Your Fate}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.bquuq896rt8fg7l3]{Unbound
+      Heroism}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.c405ddp0gudtc5gz]{Tenets
+      of the Revoker}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.igu93jzph4chl7tt]{Archetype
+      School (Herald: Revoker)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3juypkg5zdlk14ke]{Channel
+      Divinity (Herald: Revoker)}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8u62mh3edvqdeiyh]{Divergent
+      Wisdom}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bs8wg2phuwwbe79s]{Manifest
+      Destiny}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>20th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ddaz7o770nlamkb3]{True
+      Calling}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.c405ddp0gudtc5gz
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.igu93jzph4chl7tt
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3juypkg5zdlk14ke
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ja5512qz6db4u6al
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bquuq896rt8fg7l3
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8u62mh3edvqdeiyh
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bs8wg2phuwwbe79s
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ddaz7o770nlamkb3
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 357x0188brl4qqkc
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!357x0188brl4qqkc'

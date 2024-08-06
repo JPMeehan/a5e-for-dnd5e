@@ -1,0 +1,120 @@
+folder: null
+name: Enchanter
+type: subclass
+img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+system:
+  description:
+    value: >-
+      <p>Enchanters are witches who specialize in magic that manipulates,
+      controls, or befuddles the mind. While they can be benevolent and use
+      their powers for good, those enchanters who do turn to darker motivations
+      and aims are among the most terrifying of their kind, so much so that
+      their reputation tends to bleed over and affect all enchanters, and indeed
+      all witches.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Enchanter<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.fsqh122ypb7kyvct]{Enchanting
+      Presence (Enchanter)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5j0mc7xa7zycpro7]{Snare
+      Unwary Minds (Enchanter)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4xj6y6xmihk3ubkj]{Fascination
+      (Enchanter)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.q209wi494b8e72lx]{Molder
+      of Hearts and Minds (Enchanter)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: witch
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fsqh122ypb7kyvct
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5j0mc7xa7zycpro7
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4xj6y6xmihk3ubkj
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.q209wi494b8e72lx
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: vrnp0nwtnil4ejgt
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!vrnp0nwtnil4ejgt'

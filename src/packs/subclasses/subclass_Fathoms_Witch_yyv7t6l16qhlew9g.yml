@@ -1,0 +1,121 @@
+folder: null
+name: Fathoms Witch
+type: subclass
+img: icons/magic/water/wave-water-rolling-blue.webp
+system:
+  description:
+    value: >-
+      <p>Fathoms witches are those who see magic as an ever flowing current, a
+      river of power and knowledge and secrets that ever runs around and through
+      all things, ebbing and flowing like the tide, and with depths beyond the
+      fathoming of mortals. They are at home amidst the seas, able to shape
+      their bodies to better be at home in the waters, and like the waters of
+      the world excel at the duality of creation and destruction, giving and
+      taking life.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Fathoms Witch<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.di4r7ote4c5ucm5m]{Annointed
+      by the Sea}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dyh86uoow3heb2in]{Water's
+      Balm}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9yw2wgpsngf8k2dp]{Embrace
+      of the Deeps}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pyglodn153hux2wf]{Tempest's
+      Fury}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: witch
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.di4r7ote4c5ucm5m
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dyh86uoow3heb2in
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9yw2wgpsngf8k2dp
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pyglodn153hux2wf
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: yyv7t6l16qhlew9g
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!yyv7t6l16qhlew9g'

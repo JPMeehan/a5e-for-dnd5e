@@ -1,0 +1,117 @@
+name: Channeler
+type: subclass
+img: icons/magic/lightning/bolt-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Channeler<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ytcsa478xzuifmur]{Gather
+      Energy}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.g4iz1nrutsj4u4uf]{Augmentation
+      Master}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0cv7hmjdq2hoos0j]{Siphon
+      Energy}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.i35618b8gy834p15]{Power
+      Surge}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.z5dtxnmdlx83rzd5]{Power
+      Overflow}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.y4vc4jmxeg8lgz6m]{Super
+      Charge}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: elementalist
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ytcsa478xzuifmur
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.g4iz1nrutsj4u4uf
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0cv7hmjdq2hoos0j
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.i35618b8gy834p15
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.z5dtxnmdlx83rzd5
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.y4vc4jmxeg8lgz6m
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: JczScIFWZemzckUt
+_key: '!items!JczScIFWZemzckUt'

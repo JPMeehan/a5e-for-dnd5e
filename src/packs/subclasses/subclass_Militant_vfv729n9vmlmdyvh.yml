@@ -1,0 +1,130 @@
+name: Militant
+type: subclass
+img: icons/environment/people/infantry-army.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Militant<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2bp6magmourttn5m]{Universal
+      Arsenal}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.p2kny5ikbkozx0ew]{Varied
+      Traditions}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.xvopg3mqytmh4ofk]{Lightning
+      Hands}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.t4nw03qc74c16tk1]{Advanced
+      Training}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.t7zb5yq6178898yg]{Lethal
+      Versatility}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5gw62owybwlkd11q]{Master
+      of the Arsenal}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Scrapper'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: fighter
+  advancement:
+    - _id: STXXgRIQiakn7d1y
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2bp6magmourttn5m
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.p2kny5ikbkozx0ew
+    - _id: HguWfQ9P8GYA2baj
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xvopg3mqytmh4ofk
+    - _id: hMFdfJWxcX4K3yLs
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.t4nw03qc74c16tk1
+    - _id: YRSnqqIkfFnpkkw1
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.t7zb5yq6178898yg
+    - _id: 3dPpB10hbdcMSqLj
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5gw62owybwlkd11q
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: vfv729n9vmlmdyvh
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!vfv729n9vmlmdyvh'

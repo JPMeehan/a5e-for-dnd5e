@@ -1,0 +1,125 @@
+folder: null
+name: Blade Dancer
+type: subclass
+img: icons/skills/melee/strike-weapons-orange.webp
+system:
+  description:
+    value: >-
+      <p>More than an ordinary swordsman, a blade dancer combines peak physical
+      conditioning with absolute mastery of the sword. Some are rakish, dashing
+      swashbucklers, as quick with a joke or an acrobatic trick as they are with
+      a blade. Others are hardened, cold-hearted killers who waste not the
+      slightest movement as they viciously cut their opponents down.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Blade Dancer<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gex79n4hb1iauzxd]{Fencer's
+      Arsenal}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.n1ogezce1xic5g1c]{Swordsman's
+      Honor}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.k306nv2auvpfdmbx]{Vital
+      Strike}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.fn4rmbxhnyhb2z4r]{Flash
+      of Steel (Blade Dancer)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2nigtxlzkh3qk9rf]{Wall
+      of Steel}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.3grufgxo5632suqh]{Fencer's
+      Discipline}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: adept
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gex79n4hb1iauzxd
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.n1ogezce1xic5g1c
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.k306nv2auvpfdmbx
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fn4rmbxhnyhb2z4r
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2nigtxlzkh3qk9rf
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3grufgxo5632suqh
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: dfu86jlcrqcrnveo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!dfu86jlcrqcrnveo'

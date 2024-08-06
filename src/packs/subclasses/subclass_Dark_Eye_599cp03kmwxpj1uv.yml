@@ -1,0 +1,130 @@
+name: Dark Eye
+type: subclass
+img: icons/creatures/eyes/humanoid-single-blind.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Dark Eye<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.sq01n7dx69mwe0a1]{Uncanny
+      Awareness (Dark Eye)}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.uztzu54e0zooiksl]{Spellcasting
+      (Dark Eye)}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>9th</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.kjjpsjovw5iqxtsb]{Lead
+      the Target}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.cetna9j0cm87qwcj]{Eyes
+      of Darkness}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>13th</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.yb2u9svz8snm0y95]{Eyes
+      Everywhere}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.kh84rr75xc1c2ip2]{Inescapable
+      Gaze}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: rogue
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.uztzu54e0zooiksl
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sq01n7dx69mwe0a1
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cetna9j0cm87qwcj
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kjjpsjovw5iqxtsb
+    - _id: x9agwGjHyAni2XfY
+      type: ItemChoice
+      level: 13
+      configuration:
+        pool:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.yb2u9svz8snm0y95
+        choices:
+          '0': 0
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kh84rr75xc1c2ip2
+  spellcasting:
+    ability: int
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 599cp03kmwxpj1uv
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!599cp03kmwxpj1uv'

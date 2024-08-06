@@ -31,6 +31,9 @@ switch (targetPack) {
   case 'roll-tables':
     packPath = path.join('src', 'packs', 'tables');
     break;
+  case 'archetypes':
+    packPath = path.join('src', 'packs', 'subclasses')
+    break;
   // classes, feats, monsters, spells stay the same
 }
 
@@ -1505,6 +1508,41 @@ function migrateClass(system, name) {
   return o5e;
 }
 
+/**
+ * @typedef {import('./types/dnd5e.mjs').Subclass5e & import('./types/dnd5e.mjs').ItemDescription} Subclass5e
+ */
+
+/**
+ *
+ * @param {import('./types/a5e.mjs').Archetype} system The a5e class
+ * @param {string} name The name of the class
+ * @returns {Subclass5e}  The o5e class
+ */
+function migrateArchetype(system, name) {
+  /** @type {Subclass5e} */
+  const o5e = {
+    description: {
+      value: fixUUIDrefs(system.description),
+      chat: '',
+      unidentified: '',
+    },
+    source: mapSource(system.source),
+    identifier: system.slug,
+    classIdentifier: system.class,
+    advancement: [],
+    spellcasting: {
+      ability: system.spellcasting.ability.base,
+      progression: resolveSpellcastingProgression(
+        system.slug || name.toLowerCase(),
+        system.spellcasting.casterType
+      ),
+    },
+  };
+
+  processGrants(o5e, system.grants, 'archetype');
+  return o5e;
+}
+
 function resolveSpellcastingProgression(slug, casterType) {
   if (
     ['adept', 'berserker', 'fighter', 'marshal', 'ranger', 'rogue'].includes(
@@ -2114,6 +2152,10 @@ for (const p of packList) {
       break;
     case 'class':
       data.system = migrateClass(data.system, data.name);
+      break;
+    case 'archetype':
+      data.system = migrateArchetype(data.system, data.name);
+      data.type = 'subclass'
       break;
   }
   if (data.effects) migrateEffects(data.effects);

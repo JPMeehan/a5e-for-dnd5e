@@ -1,0 +1,128 @@
+folder: null
+name: Rustic Witch
+type: subclass
+img: icons/skills/trades/textiles-knitting-yarn-red.webp
+system:
+  description:
+    value: >-
+      <p>The rustic witch often takes the role of a village elder, even if their
+      age would not normally earn them that title. They specialize in herb lore,
+      monitoring or even manipulating the weather, and the ceremonies and folk
+      beliefs that bind a community together, dispensing wisdom, guidance, and
+      magical blessings alike. The communities and villages they serve are often
+      isolated from the outside world, without access to larger or more formal
+      organizations that serve the wider world such as arcane universities,
+      organized druidic circles, or major temples, and the rustic witch steps in
+      to fill this void. Such witches are rarely part of a larger organization,
+      instead taking on a single apprentice to train to take over when they are
+      gone.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Rustic Witch</strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.oe6r3qmpwyc6yn15]{Herb
+      Lore (Rustic Witch)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.hz933bxxwb8fawiu]{Weather
+      Watcher (Rustic Witch)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.191zpfodkunvplpc]{Communal
+      Blessings (Rustic Witch)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.l9c5w7d8rctihswf]{Greater
+      Wisdom (Rustic Witch)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.k33uibwhgdqo907k]{Weather
+      Mastery (Rustic Witch)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: witch
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.oe6r3qmpwyc6yn15
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hz933bxxwb8fawiu
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.191zpfodkunvplpc
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.l9c5w7d8rctihswf
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.k33uibwhgdqo907k
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: kxmektecyybk6mb6
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!kxmektecyybk6mb6'

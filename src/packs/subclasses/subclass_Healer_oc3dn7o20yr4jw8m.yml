@@ -1,0 +1,137 @@
+name: Healer
+type: subclass
+img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Healer<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.aen55f0xxu4yrnte]{Healer
+      Spells (Healer)}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.h2phw1a27rnm4dca]{Heal
+      Up (Healer)}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.o5fqxgoamakj3hxi]{Small
+      Mercy (Healer)}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.eajd6uqgfemjpso5]{Better
+      Than Cure (Healer)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.exeelnbxlwqvdde2]{Healing
+      Aura (Healer)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>8th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vh8yjlnjit7wcdpu]{Balance
+      in All Things (Healer)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td style="text-align: center;">17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gj66vhbab2avu3lm]{Channel
+      Divinity: Divine Protection (Healer)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: cleric
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.aen55f0xxu4yrnte
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.h2phw1a27rnm4dca
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.o5fqxgoamakj3hxi
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.eajd6uqgfemjpso5
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.exeelnbxlwqvdde2
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 8
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vh8yjlnjit7wcdpu
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gj66vhbab2avu3lm
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: oc3dn7o20yr4jw8m
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!oc3dn7o20yr4jw8m'

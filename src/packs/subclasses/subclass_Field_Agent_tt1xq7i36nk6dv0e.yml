@@ -1,0 +1,128 @@
+folder: null
+name: Field Agent
+type: subclass
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  description:
+    value: >-
+      <p>Some adepts put their training to use less in fights or athletic
+      combinations and more in the clandestine world of spies and criminals.
+      Because adepts are less dependent on weapons, armor, and other equipment
+      than most other adventurers, they enjoy some unique advantages to their
+      tradecraft. They are especially talented in the vitally important
+      abilities needed to blend into crowds, pass through weapons checks and
+      remain dangerous on the other side, and quickly escape from pursuers
+      through superior athleticism.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Field Agent<br></strong></p>
+
+      <table style="width: 100%; height: 84px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.l8n4d3tb4ce17uc5]{Covert
+      Skills}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">6th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.v6y0e553htfxa1la]{Freerunner}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.0u0yxphm6kk9gujr]{Observer}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">11th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jn16ymeb4qc5lf1b]{Go
+      To Ground}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">17th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.py6pzjqaxfgv2qwj]{Solo
+      Operator}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: adept
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.l8n4d3tb4ce17uc5
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.v6y0e553htfxa1la
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0u0yxphm6kk9gujr
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jn16ymeb4qc5lf1b
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.py6pzjqaxfgv2qwj
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: tt1xq7i36nk6dv0e
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!tt1xq7i36nk6dv0e'

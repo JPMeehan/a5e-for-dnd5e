@@ -1,0 +1,139 @@
+name: Ecclesiarch
+type: subclass
+img: icons/magic/light/beam-strike-village-yellow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Ecclesiarch<br></strong></p>
+
+      <table style="width: 100%; height: 100.781px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">3rd</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.c29ypjg6r0n28k23]{Ordained
+      Commission}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ivpbnftf3nf3v0xy]{Spellcasting
+      (Ecclesiarch)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">7th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.lr1aou5qoxysho1b]{Mystical
+      Command}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.os8915dwg6rgqvrt]{Sacred
+      Resilience}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">11th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8kvbp291gy6u60f3]{Temple
+      Builder}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">15th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gp3yokxki4lobslt]{Hallowed
+      Defense}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">18th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.spen1mkj2pczrvtn]{Will
+      of the Divine}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: marshal
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.c29ypjg6r0n28k23
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ivpbnftf3nf3v0xy
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.lr1aou5qoxysho1b
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.os8915dwg6rgqvrt
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8kvbp291gy6u60f3
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gp3yokxki4lobslt
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.spen1mkj2pczrvtn
+  spellcasting:
+    ability: wis
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: wum04td9n1b89rej
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!wum04td9n1b89rej'

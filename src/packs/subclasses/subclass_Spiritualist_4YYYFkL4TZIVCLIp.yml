@@ -1,0 +1,120 @@
+name: Spiritualist
+type: subclass
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Spiritualist<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c]{Expanded
+      Spell List}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.kwybym0fbi8y15k3]{See
+      You On the Other Side (Spiritualist)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.102dwrc90k56k6d2]{Sense
+      the Departed (Spiritualist)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.mnj8cdlmzznhrsv1]{Channeler
+      (Spiritualist)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0nidiym24wtl7xes]{Ghostly
+      Protection (Spiritualist)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.s9q3x28ybq7028rz]{Ghostly
+      Sight (Spiritualist)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wn95koc6smr9v0id]{Ghostly
+      Stride (Spiritualist)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Spiritualist
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: warlock
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kwybym0fbi8y15k3
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.102dwrc90k56k6d2
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mnj8cdlmzznhrsv1
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0nidiym24wtl7xes
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.s9q3x28ybq7028rz
+    - _id: 1yIj5BOldbQmDsaB
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wn95koc6smr9v0id
+  spellcasting:
+    ability: cha
+    progression: pact
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 4YYYFkL4TZIVCLIp
+_key: '!items!4YYYFkL4TZIVCLIp'

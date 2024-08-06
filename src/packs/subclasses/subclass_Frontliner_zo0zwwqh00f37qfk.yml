@@ -1,0 +1,136 @@
+name: Frontliner
+type: subclass
+img: icons/commodities/treasure/crown-gold-laurel-wreath.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Frontliner<br></strong></p>
+
+      <table style="width: 100%; height: 134.375px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 50.3906px;">
+
+      <td style="height: 50.3906px;">3rd</td>
+
+      <td style="height:
+      50.3906px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0gpthjeeb1o8vnms]{Toughness
+      and Grit}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">7th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.xt9trm6zn2ahecrl]{Rub
+      Some Dirt On It}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">11th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wurwbrq3wjo3svj4]{Withstand
+      and Endure}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.1fprxvaqj5yo2do2]{Fearless
+      Charge}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">15th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.g8uh789vp5vqa1wp]{Stay
+      With Us}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="text-align: center; height: 16.7969px;">18th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9dnzxmtslxdy3e9v]{Hero
+      to the Troops}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: marshal
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0gpthjeeb1o8vnms
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xt9trm6zn2ahecrl
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wurwbrq3wjo3svj4
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1fprxvaqj5yo2do2
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.g8uh789vp5vqa1wp
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9dnzxmtslxdy3e9v
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: zo0zwwqh00f37qfk
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!zo0zwwqh00f37qfk'

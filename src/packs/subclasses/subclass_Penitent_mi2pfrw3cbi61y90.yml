@@ -1,0 +1,123 @@
+name: Penitent
+type: subclass
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Penitent<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.p9078b1l66edo1ny]{Tenets
+      of the Penitent}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.10lovb7lfbsroo06]{Archetype
+      Schools (Penitent)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.8mu9fvjgh1a6qqja]{Channel
+      Divinity (Penitent)}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.h2oo3abkk4o4la6f]{Resolve
+      of the Penitent}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1xs77ic89toi4kul]{Undeniable
+      Remorse}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>20th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2i15uxb4y3vaw6fc]{Make
+      Things Right}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8mu9fvjgh1a6qqja
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.p9078b1l66edo1ny
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.10lovb7lfbsroo06
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.h2oo3abkk4o4la6f
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1xs77ic89toi4kul
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2i15uxb4y3vaw6fc
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: mi2pfrw3cbi61y90
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!mi2pfrw3cbi61y90'

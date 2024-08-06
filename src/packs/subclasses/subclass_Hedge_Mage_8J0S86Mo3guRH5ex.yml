@@ -1,0 +1,130 @@
+name: Hedge Mage
+type: subclass
+img: icons/equipment/head/hat-pointed-leather-red.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Hedge Mage<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.hjei0q3qm8ullsr8]{Arcane
+      Savant}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.b8ezxx71iu6yn1kw]{Spellcasting
+      (Scholar: Hedge Mage)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.z0y7dzur79mi6a3y]{Elective
+      Studies (Scholar)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.o97hjogodlgknfxa]{Knowledgable
+      Recovery}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4qvtmxy0868hrowf]{Magical
+      Wards}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pnok9eodmdijkvq2]{Superior
+      Mind}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: scholar
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hjei0q3qm8ullsr8
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.b8ezxx71iu6yn1kw
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.z0y7dzur79mi6a3y
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.o97hjogodlgknfxa
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4qvtmxy0868hrowf
+    - _id: LYPcxUKTetW0PIny
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pnok9eodmdijkvq2
+  spellcasting:
+    ability: int
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 8J0S86Mo3guRH5ex
+_key: '!items!8J0S86Mo3guRH5ex'

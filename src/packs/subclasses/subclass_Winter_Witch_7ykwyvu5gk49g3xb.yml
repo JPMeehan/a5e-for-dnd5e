@@ -1,0 +1,121 @@
+folder: null
+name: Winter Witch
+type: subclass
+img: icons/magic/water/snowflake-ice-purple.webp
+system:
+  description:
+    value: >-
+      <p>Winter Witches are those who draw upon the depths of winter for their
+      magic. A time of darkness, cold, even death, their magic reflects this,
+      and it gives them something of a sinister reputation. This is not entirely
+      deserved though. While some are wicked tyrants who terrorize those who
+      enter their domains, many winter witches instead take up this path in
+      order to provide others with shelter and guidance in the depths of winter,
+      to aid in their survival.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Winter Witch<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gl1dw1pyzome8yvg]{Heart
+      of Winter (Winter Witch)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.cygkfhmzk2gt2il7]{Winter&rsquo;s
+      Home (Winter Witch)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pn4br8gluhjgk8nh]{Ice
+      will Suffice (Winter Witch)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.j6utxo5mnto102u7]{Frozen
+      Fury (Winter Witch)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: witch
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gl1dw1pyzome8yvg
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cygkfhmzk2gt2il7
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pn4br8gluhjgk8nh
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.j6utxo5mnto102u7
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: 7ykwyvu5gk49g3xb
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!7ykwyvu5gk49g3xb'

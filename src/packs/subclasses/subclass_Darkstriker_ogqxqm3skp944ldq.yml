@@ -1,0 +1,113 @@
+folder: null
+name: Darkstriker
+type: subclass
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Darkstriker<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.7fqkyxikq5klozal]{Home
+      in the Shadows}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.mhc4uix7cckc9wx2]{Tenebrous
+      Vision}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4up52k26dskzwxpd]{Gloombringer}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0ak46x7j04bd1ymv]{Shadow
+      Striker (Darkstriker)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mfldsnevx7dnityh]{Living
+      Shadow (Darkstriker)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Burning Gloom'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: adept
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7fqkyxikq5klozal
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mhc4uix7cckc9wx2
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4up52k26dskzwxpd
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0ak46x7j04bd1ymv
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mfldsnevx7dnityh
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: ogqxqm3skp944ldq
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!ogqxqm3skp944ldq'

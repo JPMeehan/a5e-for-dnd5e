@@ -1,0 +1,112 @@
+name: Steel Blooded
+type: subclass
+img: icons/skills/melee/blade-tip-chipped-blood-red.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Steel Blooded<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0qavxvwlo7jz7tlr]{Archetype
+      Spells: Steel Blooded}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.q8ftc4yt50o2ul0g]{Combat
+      Maneuverers (Steel Blooded)}&nbsp;
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.xurlveb06ct9glyc]{Innate
+      Warrior}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>Extra Attack</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.y67tb8cmlqj9mkjk]{Combat
+      Caster}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.9cl3efuhybolalqg]{Sorcerous
+      Maneuvers}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2cygrdgrsfgc4rhc]{Sorcerous
+      Protection}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.q8ftc4yt50o2ul0g
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xurlveb06ct9glyc
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0qavxvwlo7jz7tlr
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9cl3efuhybolalqg
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.y67tb8cmlqj9mkjk
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2cygrdgrsfgc4rhc
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: vpoc90osarzbymes
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!vpoc90osarzbymes'

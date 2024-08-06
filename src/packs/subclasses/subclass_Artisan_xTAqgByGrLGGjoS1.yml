@@ -1,0 +1,129 @@
+name: Artisan
+type: subclass
+img: icons/tools/hand/hammer-and-nail.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Artisan<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.fitob4wq08b1spqy]{Tool
+      Savant}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.a0igmyixpdwerm0r]{Master
+      of Your Trade}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4a8gjnwr2tyt5vxj]{Practical
+      Applications}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.b3r1os1t1n9whenz]{Power
+      of Creation}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.u10p1oltgokukpdz]{Attuned
+      to the Craft}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.fqt5bu8kstcs1g4w]{Masterpiece}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: scholar
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fitob4wq08b1spqy
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.a0igmyixpdwerm0r
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4a8gjnwr2tyt5vxj
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.b3r1os1t1n9whenz
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.u10p1oltgokukpdz
+    - _id: LYPcxUKTetW0PIny
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fqt5bu8kstcs1g4w
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: xTAqgByGrLGGjoS1
+_key: '!items!xTAqgByGrLGGjoS1'

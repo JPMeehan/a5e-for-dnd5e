@@ -1,0 +1,101 @@
+name: Minstrel
+type: subclass
+img: icons/skills/trades/music-notes-sound-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Minstrel<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4evbExIeNkkzb278]{Bonus
+      Proficiency and Specialties}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.981uwmytiyqn10ts]{Better
+      Bardic Inspiration}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.z4e04sbwshoarh1t]{Endless
+      Legends}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.iveorul038inzciv]{Act
+      of Unison}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: bard
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.981uwmytiyqn10ts
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4evbExIeNkkzb278
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.z4e04sbwshoarh1t
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.iveorul038inzciv
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722309038228
+  modifiedTime: 1722345158459
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: kl2lt0yq03bn3ke5
+_key: '!items!kl2lt0yq03bn3ke5'

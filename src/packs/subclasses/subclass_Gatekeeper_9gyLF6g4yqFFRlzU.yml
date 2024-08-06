@@ -1,0 +1,117 @@
+name: Gatekeeper
+type: subclass
+img: icons/environment/settlement/city-gate.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Conqueror<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5xdars9op82iuw12]{Tenets
+      of the Gatekeeper}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.4t4y0mgxoify43g9]{Archetype
+      Schools (Herald: Gatekeeper)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.zc0qmj18n2qz22vj]{Channel
+      Divinity (Herald: Gatekeeper)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.i58jy3gg8yo4mtdl]{Smite
+      the Unwelcome}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wp5ia9ghvdg43lbe]{Spiritual
+      Fortress}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>20th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0ffl41r1uj2arfzn]{Warden
+      of the Outer Gates}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4t4y0mgxoify43g9
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.zc0qmj18n2qz22vj
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5xdars9op82iuw12
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.i58jy3gg8yo4mtdl
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wp5ia9ghvdg43lbe
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0ffl41r1uj2arfzn
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 9gyLF6g4yqFFRlzU
+_key: '!items!9gyLF6g4yqFFRlzU'

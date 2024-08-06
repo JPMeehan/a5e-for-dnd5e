@@ -1,0 +1,120 @@
+name: Deathrager
+type: subclass
+img: icons/equipment/head/mask-carved-wood-pink.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Deathrager</strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.euhgi1z3dp69tlvn]{Deadly
+      Strikes}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ia07k0stgnlt0z5b]{Death
+      Mask}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tg6vpu29sllzhi4c]{Graven
+      Armor}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nptdbfjlyldlrkkb]{Stay
+      Dead}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.u33s0k26zqp5lnfy]{Steal
+      Life}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0i1rxcpjwwj4xv3u]{Undead
+      Armor}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: berserker
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.euhgi1z3dp69tlvn
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ia07k0stgnlt0z5b
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tg6vpu29sllzhi4c
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nptdbfjlyldlrkkb
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.u33s0k26zqp5lnfy
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0i1rxcpjwwj4xv3u
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.20
+  createdTime: 1722345445362
+  modifiedTime: 1722346966816
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 8y5ayobo6e1gbfy0
+_key: '!items!8y5ayobo6e1gbfy0'

@@ -1,0 +1,120 @@
+name: Shadowed
+type: subclass
+img: icons/magic/unholy/silhouette-robe-evil-power.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Shadowed<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.uf6pc5eoo3ophrg3]{Archetype
+      Spells: Shadowed}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.9s0w3g66yg5y1l12]{Shadow
+      Sight}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.xal01rpl5qqp74v4]{Maledictor&rsquo;s
+      Resistance}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bunmn9htoa5c9cqg]{Form
+      of Shadow}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ci2zh9cvjrps2mud]{Pathways
+      of Shadow}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.npvlfqnz25aiv937]{Shadowed
+      Potency}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pknebms7a0hm4ojn]{Living
+      Shadow (Shadowed)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Carry the Darkness'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9s0w3g66yg5y1l12
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xal01rpl5qqp74v4
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.uf6pc5eoo3ophrg3
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bunmn9htoa5c9cqg
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ci2zh9cvjrps2mud
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.npvlfqnz25aiv937
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pknebms7a0hm4ojn
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: 6lfkktjdmfxs54sk
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!6lfkktjdmfxs54sk'

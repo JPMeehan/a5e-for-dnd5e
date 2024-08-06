@@ -1,0 +1,115 @@
+name: Courtier
+type: subclass
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Courtier<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wjcob8ne1wb0nd9q]{Bonus
+      Expertise (Courtier)}&nbsp;
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.2tu8kmb37gr5ipk0]{Unreadable
+      Moves}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>9th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.q0yqhv3ox89w72mq]{Unflappable
+      Mind}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>13th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.g15avx7d6b7me7bo]{Diplomatic
+      Conversationalist}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.aoake7qpjqvv790k]{Improved
+      Unreadable Moves}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#3'
+  identifier: ''
+  classIdentifier: rogue
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2tu8kmb37gr5ipk0
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wjcob8ne1wb0nd9q
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.q0yqhv3ox89w72mq
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 13
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.g15avx7d6b7me7bo
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.aoake7qpjqvv790k
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: lrqvdlp3tg24gg2s
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!lrqvdlp3tg24gg2s'

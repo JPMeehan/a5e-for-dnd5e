@@ -1,0 +1,115 @@
+name: Stoneheart
+type: subclass
+img: icons/creatures/magical/construct-golem-stone-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Stoneheart<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.8l9di9ethcewmt0u]{Stone
+      Heart Spells}&nbsp;
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.jfn7jdvwt1c7gw7p]{Earthen
+      Flesh}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ddu0pihhqqq4n3nk]{Stone
+      Strider}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ds4bs0vzbf7h7ekt]{Quake}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1f8i9zaar6o1dlwd]{Glide}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2goowfw0sbi5etp7]{Heart
+      of the Mountain}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8l9di9ethcewmt0u
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jfn7jdvwt1c7gw7p
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ddu0pihhqqq4n3nk
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ds4bs0vzbf7h7ekt
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1f8i9zaar6o1dlwd
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2goowfw0sbi5etp7
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: zl5tr3rh0uog7s1k
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!zl5tr3rh0uog7s1k'

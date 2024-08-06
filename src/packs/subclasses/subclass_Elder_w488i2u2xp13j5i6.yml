@@ -1,0 +1,117 @@
+name: Elder
+type: subclass
+img: icons/magic/nature/tree-spirit-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Elder<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.clgrxmenkkrs1ang]{Natural
+      Theology}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.p2w0y2albpoqb8wc]{Leyline
+      Siphon}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.on9zopszoxtlo7ot]{Magical
+      Understanding}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.2dyrrpqa6tglz7te]{Mystical
+      Insight}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.19b3f4m2z6i6letz]{Blackwing
+      Messenger}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.6rgo2gii03blmjw8]{Sacred
+      Space}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Storyteller'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: druid
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.clgrxmenkkrs1ang
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.p2w0y2albpoqb8wc
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.on9zopszoxtlo7ot
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2dyrrpqa6tglz7te
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.19b3f4m2z6i6letz
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.6rgo2gii03blmjw8
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: w488i2u2xp13j5i6
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!w488i2u2xp13j5i6'

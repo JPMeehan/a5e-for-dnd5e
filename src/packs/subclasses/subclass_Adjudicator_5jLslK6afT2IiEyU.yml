@@ -1,0 +1,114 @@
+name: Adjudicator
+type: subclass
+img: icons/skills/social/trading-justice-scale-yellow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Adjudicator<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c]{Expanded
+      Spell List}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.pitm64asgpaa2yit]{Higher
+      Law}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.zdt841kthsjz8ju8]{Law
+      Library}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.rqp3xozpfcpj782f]{Establish
+      Precedent}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ko03mhtnhmtppt3a]{Lay
+      Down the Law}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Judge, Jury, and Executioner'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: warlock
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pitm64asgpaa2yit
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.zdt841kthsjz8ju8
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.rqp3xozpfcpj782f
+    - _id: 1yIj5BOldbQmDsaB
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ko03mhtnhmtppt3a
+  spellcasting:
+    ability: cha
+    progression: pact
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: 5jLslK6afT2IiEyU
+_key: '!items!5jLslK6afT2IiEyU'

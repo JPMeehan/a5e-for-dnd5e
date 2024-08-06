@@ -1,0 +1,114 @@
+name: Martialist
+type: subclass
+img: icons/skills/melee/maneuver-daggers-paired-orange.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Martialist<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c]{Expanded
+      Spell List}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.t8i8yg785og1i10t]{Eldritch
+      Armament}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mm5s17svrk9cqgo7]{Battlefield
+      Maestro}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.qv7x8mylnzadewu0]{Warrior's
+      Resolve}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ykqdhitu9lfck3ya]{Eldritch
+      Armor}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: warlock
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.t8i8yg785og1i10t
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9z7flr4asm95pk3c
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mm5s17svrk9cqgo7
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.qv7x8mylnzadewu0
+    - _id: 1yIj5BOldbQmDsaB
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ykqdhitu9lfck3ya
+  spellcasting:
+    ability: none
+    progression: pact
+effects: []
+folder: null
+flags: {}
+_id: 4gz0zdfhs8nvadsn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!4gz0zdfhs8nvadsn'

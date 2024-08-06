@@ -1,0 +1,119 @@
+name: Arcanist
+type: subclass
+img: icons/magic/lightning/barrier-shield-crackling-orb-pink.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Arcanist<br></strong></p>
+
+      <table style="width: 100%; height: 100.8px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">2nd</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ix2p3372ecr4xgco]{Scholarly
+      Specialty}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.pa6w34p60rl5jhxx]{Esoteric
+      Talent}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">6th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.oj0ce5wn17mvh81k]{Refined
+      Learning}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">10th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ugmgvqlx5rh0qlo4]{Superior
+      Talent}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">14th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9ffz5gjqpmqoulm6]{Specialized
+      Mastery}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: wizard
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ix2p3372ecr4xgco
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pa6w34p60rl5jhxx
+    - _id: hw0njN0Ybkc0g2dP
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.oj0ce5wn17mvh81k
+    - _id: 6a52EuSSgXbKOHy5
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ugmgvqlx5rh0qlo4
+    - _id: jpjyqOnqUmXeYkqF
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9ffz5gjqpmqoulm6
+  spellcasting:
+    ability: int
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: h407luknkkdb67fg
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!h407luknkkdb67fg'

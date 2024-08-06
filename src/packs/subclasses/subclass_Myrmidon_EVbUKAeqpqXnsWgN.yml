@@ -1,0 +1,117 @@
+name: Myrmidon
+type: subclass
+img: icons/skills/melee/blade-tip-smoke-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Myrmidon<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ogesf4r2ta9wkkv8]{Weapons
+      of War}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.twka4yq5df8uwxq6]{Mold
+      Weapon}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ezgsojyftsaunlbi]{Elemental
+      Warrior}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.l667zjec6a0ohfiv]{Extra
+      Attack}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.rjoj16alhn1tyfyv]{Energize
+      Weapon}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jg3zx7f20hl5lg7x]{Myrmidon
+      Immortality}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: elementalist
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ogesf4r2ta9wkkv8
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.twka4yq5df8uwxq6
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ezgsojyftsaunlbi
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.l667zjec6a0ohfiv
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.rjoj16alhn1tyfyv
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jg3zx7f20hl5lg7x
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: EVbUKAeqpqXnsWgN
+_key: '!items!EVbUKAeqpqXnsWgN'

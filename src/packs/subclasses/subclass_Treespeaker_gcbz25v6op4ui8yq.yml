@@ -1,0 +1,121 @@
+name: Treespeaker
+type: subclass
+img: icons/magic/nature/plant-sproud-hands-dirt-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Treespeaker<br></strong></p>
+
+      <table style="width: 100%; height: 141.4px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 40.6px;">
+
+      <td style="height: 40.6px;">2nd</td>
+
+      <td style="height: 40.6px;">
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vcg1i3urrosxndy8]{Treespeak}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.98chs30l0ma7i8ug]{Vine
+      Whip}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">6th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.fnxbjax8u5akiwyh]{Primal
+      Vitality}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">10th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.s0edunb3a4ja9zh1]{Ingrained
+      Vitality}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">14th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mqib2obsycrl6eai]{Embodied
+      Vitality}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: druid
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vcg1i3urrosxndy8
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.98chs30l0ma7i8ug
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fnxbjax8u5akiwyh
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.s0edunb3a4ja9zh1
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mqib2obsycrl6eai
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: gcbz25v6op4ui8yq
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!gcbz25v6op4ui8yq'

@@ -1,0 +1,126 @@
+name: Deepfire Emissary
+type: subclass
+img: icons/magic/fire/elemental-creature-horse.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Deepfire Emissary<br></strong></p>
+
+      <table style="width: 100%; height: 84px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.LilzlfuyxF752WpO]{Tenets
+      of the Deepfire Emissary}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.8wckbodu0apf8sbm]{Archetype
+      Schools}@UUID[Compendium.a5e-for-dnd5e.class-features.Item.05ry0m0xt6dcqaja]{Channel
+      Divinity (Deepfire Emissary)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.bpq7xtiiz6i7gnkk]{Firewalker}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">7th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.3lxsgajkspcat6rw]{Volcanic
+      Weapon}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.97dxsy95p9cj5wr7]{What's
+      at Hand}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">15th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.x8vedqt6rvdu5273]{Favored
+      of the Mountain}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">20th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2i6axdt43p9vqexv]{Island
+      Maker}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Fiery Justice
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.05ry0m0xt6dcqaja
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bpq7xtiiz6i7gnkk
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8wckbodu0apf8sbm
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.LilzlfuyxF752WpO
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3lxsgajkspcat6rw
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.97dxsy95p9cj5wr7
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.x8vedqt6rvdu5273
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2i6axdt43p9vqexv
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: ndBvkm1ygFsVvzQX
+_key: '!items!ndBvkm1ygFsVvzQX'

@@ -1,0 +1,136 @@
+name: Enigmatist
+type: subclass
+img: icons/equipment/finger/ring-cabochon-bronze-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Enigmatist<br></strong></p>
+
+      <table style="width: 100.008%; height: 100.788px;"
+      border="1"><colgroup><col style="width: 12.9548%;"><col style="width:
+      87.1545%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">Level</td>
+
+      <td style="height: 16.798px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wimeiq89o0opmumn]{Enigmatic
+      Spellcasting}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ctj5fxgrrxqcu2v6]{Enigma
+      Tinkering}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5961px;">
+
+      <td style="height: 33.5961px;">6th</td>
+
+      <td style="height:
+      33.5961px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.re2fsc9zb95ucoi3]{Wild
+      Experimentation}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">10th</td>
+
+      <td style="height:
+      16.798px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5inmxwgvm05c31vz]{Unlock
+      Potential}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">14th</td>
+
+      <td style="height:
+      16.798px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.o6z99pvwu3j2sdqi]{A
+      Puzzle Solved}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">18th</td>
+
+      <td style="height:
+      16.798px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.6g29abtq2nl8fkr7]{Infinite
+      Possibilities}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: wielder
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.re2fsc9zb95ucoi3
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5inmxwgvm05c31vz
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.o6z99pvwu3j2sdqi
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.6g29abtq2nl8fkr7
+    - _id: 5kj7F9bCEV4FBX5N
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wimeiq89o0opmumn
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ctj5fxgrrxqcu2v6
+  spellcasting:
+    ability: int
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 61mp0q1affpje5ba
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!61mp0q1affpje5ba'

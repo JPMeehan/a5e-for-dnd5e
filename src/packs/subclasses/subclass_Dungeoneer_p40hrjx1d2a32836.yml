@@ -1,0 +1,136 @@
+name: Dungeoneer
+type: subclass
+img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Dungeoneer<br></strong></p>
+
+      <table style="width: 100%; height: 104.578px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 20.5938px;">
+
+      <td style="height: 20.5938px;">3rd</td>
+
+      <td style="height:
+      20.5938px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ah60km9t6vihq9xc]{Close-Quarters
+      Fighting}&nbsp;
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.p5bqg3ey2ja3y7wh]{Dungeoneering
+      Traditions}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">7th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.fynxdlxwc48p04se]{Dungeon
+      Crawler}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">10th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.i2w3wqx84y9x9rzx]{Shadow
+      Sense}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">15th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.s33r69d7vuru4cr6]{Close-Quarters
+      Veteran}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">18th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.xyll994gs9323l3t]{Dauntless
+      Delver}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: fighter
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.p5bqg3ey2ja3y7wh
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ah60km9t6vihq9xc
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fynxdlxwc48p04se
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.i2w3wqx84y9x9rzx
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.s33r69d7vuru4cr6
+    - _id: bxAE9O5zmPKNEITs
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xyll994gs9323l3t
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: p40hrjx1d2a32836
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!p40hrjx1d2a32836'

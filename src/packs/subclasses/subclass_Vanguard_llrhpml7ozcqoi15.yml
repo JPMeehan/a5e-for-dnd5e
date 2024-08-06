@@ -1,0 +1,151 @@
+name: Vanguard
+type: subclass
+img: icons/skills/melee/shield-block-bash-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Vanguard<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align: center;">1st</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dw0f45wvxy67aqos]{The
+      Stage of Battle}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.a9op44ufkadq7hmi]{Bonus
+      Proficiencies (Vanguard)}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">2nd</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.oseettgc6xsn76ij]{Coordinated
+      Attack}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.4omgt83p5mtahoq5]{Burst
+      of Inspiration}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nm2zmpy9tzooiv4b]{Engaging
+      Footwork}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dtqj6kf1n69272nx]{Combat
+      Deduction}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">14th</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.etrcqglgnchx8fg7]{Seamless
+      Teamwork}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wplyuk4tb4co5569]{Checkmate}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventures in ZEITGEIST
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: savant
+  advancement:
+    - _id: Qsa6QzUAKHvJC62y
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dw0f45wvxy67aqos
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.a9op44ufkadq7hmi
+    - _id: 3FPv3Fa7wYJwCzwz
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.oseettgc6xsn76ij
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4omgt83p5mtahoq5
+    - _id: fIOqXPAHOiO5fKAz
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nm2zmpy9tzooiv4b
+    - _id: FHHPimTRbgXDJp5j
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dtqj6kf1n69272nx
+    - _id: P74pa16vl74CbiHt
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.etrcqglgnchx8fg7
+    - _id: oNEJRaBul7AOzfVj
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wplyuk4tb4co5569
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: llrhpml7ozcqoi15
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!llrhpml7ozcqoi15'

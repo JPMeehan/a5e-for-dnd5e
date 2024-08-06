@@ -1,0 +1,130 @@
+name: Trickster Priest
+type: subclass
+img: icons/magic/control/control-influence-puppet.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Trickster Priest<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.glrl7ncwtpuwlbdb]{Trickster
+      Spells (Trickster Priest)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.9em30qdd569kj8lm]{Undermining
+      Skills}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.qzzus6qf73nowrwt]{Channel
+      Divinity: Trickster's Guile (Trickster Priest)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.su44imos3mfpgehm]{Deceptive
+      Duplicate}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>8th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.l7uocpvl22le2rc1]{Unexpected
+      Advantage}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td style="text-align: center;">17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.umnxoj39b99sv5xb]{Unknown
+      Disruptor}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: cleric
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.glrl7ncwtpuwlbdb
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9em30qdd569kj8lm
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.qzzus6qf73nowrwt
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.su44imos3mfpgehm
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 8
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.l7uocpvl22le2rc1
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.umnxoj39b99sv5xb
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: bu57lo28ujl54rx2
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!bu57lo28ujl54rx2'

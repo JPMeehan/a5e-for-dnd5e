@@ -1,0 +1,132 @@
+name: Execrator
+type: subclass
+img: icons/magic/unholy/energy-smoke-pink.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Execrator<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.yOH07r9g5VwPsJHA]{Execrator
+      Spells}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.o3dnmx6qolnmvnci]{Implements
+      of Punishment}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.sqrcbdncoyt56opk]{Merciless}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.96oxmrwrejkb5y87]{Channel
+      Divinity: Suppress Resistance}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.421ua0apa8edty4q]{Mark
+      of the Pariah}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>8th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ivqresx44di266js]{Vicious
+      Scourging}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td style="text-align: center;">17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.66q2mndf80286zgo]{Mark
+      of Doom}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Cultist'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: cleric
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.o3dnmx6qolnmvnci
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sqrcbdncoyt56opk
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.yOH07r9g5VwPsJHA
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.96oxmrwrejkb5y87
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.421ua0apa8edty4q
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 8
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ivqresx44di266js
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.66q2mndf80286zgo
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: yvjCp3Gf6E21OuDv
+_key: '!items!yvjCp3Gf6E21OuDv'

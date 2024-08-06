@@ -1,0 +1,125 @@
+name: Spellguard
+type: subclass
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Spellguard<br></strong></p>
+
+      <table style="width: 100%; height: 100.781px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">2nd</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bfzesmdomjhaewwa]{Armored
+      Spellslinger}&nbsp;
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.bbqczy5u6mq4eeu1]{Combat
+      Maneuvers (Spellguard)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">6th</td>
+
+      <td style="height:
+      33.5938px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ew2hjgde9od8x77n]{Extra
+      Attack (Spellguard)}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.xkuy46ryisibbol6]{Blended
+      Combatant}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">10th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vptizs3aa5jj6k8w]{Arcane
+      Bulwark}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dpgd7ttporu0i7vs]{Hold
+      the Line (Spellguard)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">14th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ehe9lwlk4gabt3oe]{Walking
+      Siege}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: wizard
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bfzesmdomjhaewwa
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bbqczy5u6mq4eeu1
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ew2hjgde9od8x77n
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xkuy46ryisibbol6
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vptizs3aa5jj6k8w
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dpgd7ttporu0i7vs
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ehe9lwlk4gabt3oe
+  spellcasting:
+    ability: int
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: 167ojvycd5qaw9c9
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!167ojvycd5qaw9c9'

@@ -1,0 +1,118 @@
+folder: null
+name: Quickstepper
+type: subclass
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Quickstepper<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gsh7gffkk3bvtyte]{Quips}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.2x2jgmmtzs33s7lz]{Taunter}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dlb18w93gjknac92]{Deft
+      Steps}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.i5e0y6ge9scxtb7m]{Entangling
+      Throw}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.4sm53cps0091kbdh]{Sharpened
+      Tongue}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.j319wsvxycummeqb]{Deadly
+      Momentum}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3ms386myb1kfqr51]{Tireless}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#2'
+  identifier: ''
+  classIdentifier: adept
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gsh7gffkk3bvtyte
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2x2jgmmtzs33s7lz
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dlb18w93gjknac92
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.i5e0y6ge9scxtb7m
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4sm53cps0091kbdh
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.j319wsvxycummeqb
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3ms386myb1kfqr51
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: 83jk59xh6lk43vmo
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!83jk59xh6lk43vmo'

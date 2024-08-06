@@ -1,0 +1,122 @@
+name: Bombardier
+type: subclass
+img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Bombardier<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.47asedwjopskn6gl]{Alchemical
+      Grenades}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.jtuuyyii5t2isfcr]{Bombadier
+      spells}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.rckh886f4ncv44nj]{Explosives
+      Specialist}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>5th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tas5bf3fsf9tyzsp]{Munitions
+      Expert}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>9th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dtfx81pcvwj3fnev]{Precision
+      Explosives}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ux2rflsmc1l9gtan]{Demolitions
+      Master}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  identifier: ''
+  classIdentifier: artificer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.47asedwjopskn6gl
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jtuuyyii5t2isfcr
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.rckh886f4ncv44nj
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 5
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tas5bf3fsf9tyzsp
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dtfx81pcvwj3fnev
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ux2rflsmc1l9gtan
+  spellcasting:
+    ability: int
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: ycxjflqpinfksvib
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!ycxjflqpinfksvib'

@@ -1,0 +1,104 @@
+name: Darksinger
+type: subclass
+img: icons/magic/control/debuff-energy-hold-pink.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Darksinger<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5pheblh80lag8arm]{Dark
+      Implements}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.P3UFRgsflfvfFxKP]{Dark
+      Magic}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bwhwmg1v7666r80h]{Unsettling
+      Melody}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.hufggmxkzojkr633]{Unplaceable
+      Song}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.35808ufj111xsvbs]{Dirge
+      of Terror}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: bard
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5pheblh80lag8arm
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.P3UFRgsflfvfFxKP
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bwhwmg1v7666r80h
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hufggmxkzojkr633
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.35808ufj111xsvbs
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.19
+  createdTime: 1722260274732
+  modifiedTime: 1722261947161
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: azbusnunrt5b7vp2
+_key: '!items!azbusnunrt5b7vp2'

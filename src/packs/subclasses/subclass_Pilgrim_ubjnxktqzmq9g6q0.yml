@@ -1,0 +1,133 @@
+name: Pilgrim
+type: subclass
+img: icons/environment/wilderness/terrain-river-road-gray.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Pilgrim<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.36pr47x4p2jxx1xs]{Pilgrim
+      Spells}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.fgm7bytqnfmcas83]{Sacred
+      Journey}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.new19m535oawimhz]{Wisdom
+      of the Road}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.fr9pd5v1s0js8l3s]{Channel
+      Divinity: Make Straight the Way}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.e7wvs3bd9tdnsu0b]{Pilgrim&rsquo;s
+      Progress}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>8th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.m8zz7uqfywqhwwja]{Though
+      I Walk Through The Valley}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td style="text-align: center;">17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.7aq34lsof7qleziz]{Channel
+      Divinity: Sanctify Space}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: cleric
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.36pr47x4p2jxx1xs
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fgm7bytqnfmcas83
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.new19m535oawimhz
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fr9pd5v1s0js8l3s
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.e7wvs3bd9tdnsu0b
+    - _id: 5rg8buFSviFXGfp3
+      type: ItemGrant
+      title: Features
+      level: 8
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.m8zz7uqfywqhwwja
+    - _id: ckq411P9x45nFIBW
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7aq34lsof7qleziz
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: ubjnxktqzmq9g6q0
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!ubjnxktqzmq9g6q0'

@@ -1,0 +1,130 @@
+name: Sporekeeper
+type: subclass
+img: icons/magic/nature/mushrooms-fire-glow-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Sporekeeper<br></strong></p>
+
+      <table style="width: 100%; height: 191.766px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 74.1875px;">
+
+      <td style="height: 74.1875px;">2nd</td>
+
+      <td style="height: 74.1875px;">
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.zcpmqoxatdccdf6j]{Fungal
+      Infusion}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.tdw6ndwkbme46zdh]{Mushroom
+      Rations}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.95j1lwbxifzjwc9y]{Hallucinogenic
+      Magic}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 50.3906px;">
+
+      <td style="height: 50.3906px;">6th</td>
+
+      <td style="height:
+      50.3906px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.sfwtixpedao4i94l]{Sturdy
+      Mycelium}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.5rc2abg8pu3zly8i]{Spore
+      Cloud}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">10th</td>
+
+      <td style="height:
+      33.5938px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.7cnqkv4zd3olhz6q]{Fungal
+      Durability}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">14th</td>
+
+      <td style="height:
+      16.7969px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9gcuwr4dw0o1kn2f]{Cloud
+      of Death}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: druid
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.zcpmqoxatdccdf6j
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tdw6ndwkbme46zdh
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.95j1lwbxifzjwc9y
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sfwtixpedao4i94l
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5rc2abg8pu3zly8i
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7cnqkv4zd3olhz6q
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9gcuwr4dw0o1kn2f
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: yxj8pe6sndrxtw91
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!yxj8pe6sndrxtw91'

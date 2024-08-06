@@ -1,0 +1,117 @@
+name: Symbolist
+type: subclass
+img: icons/magic/symbols/runes-star-pentagon-orange.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Symbolist<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wf8yszf3toew34yj]{Symbolic
+      Spells}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ixe8pv92ckjep9ak]{Student
+      of the Elements}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.doffpwtoip4z13zf]{Deep
+      Font (Symbolist)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jnt14jvj4qax2077]{Empowered
+      Self}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.u3c5fz72fvoqn3br]{Elemental
+      Contemplative}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wzc779y0z296ghti]{Elemental
+      Revelation}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: elementalist
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wf8yszf3toew34yj
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ixe8pv92ckjep9ak
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.doffpwtoip4z13zf
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jnt14jvj4qax2077
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.u3c5fz72fvoqn3br
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wzc779y0z296ghti
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: F7mNd3Ou9fj8XcLA
+_key: '!items!F7mNd3Ou9fj8XcLA'

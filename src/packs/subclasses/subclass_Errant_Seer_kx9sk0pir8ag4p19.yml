@@ -1,0 +1,117 @@
+name: Errant Seer
+type: subclass
+img: icons/magic/perception/orb-eye-scrying.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Errant Seer<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.krqgj3wjf9ndusle]{Errant
+      Seer Magic}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bmg3973tuyhb9fgt]{Errant
+      Seer Spells}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dckcxbkvjntkgjyc]{Behind
+      the Veil}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bvmmoowq5k8eohr9]{Mystical
+      Retaliation}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.scy3l4exjgrc0w4x]{Sever
+      the Thread}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.iupdc7vzp5zqga0x]{Alter
+      Fate}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.krqgj3wjf9ndusle
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bmg3973tuyhb9fgt
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dckcxbkvjntkgjyc
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bvmmoowq5k8eohr9
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.scy3l4exjgrc0w4x
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.iupdc7vzp5zqga0x
+  spellcasting:
+    ability: wis
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: kx9sk0pir8ag4p19
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!kx9sk0pir8ag4p19'

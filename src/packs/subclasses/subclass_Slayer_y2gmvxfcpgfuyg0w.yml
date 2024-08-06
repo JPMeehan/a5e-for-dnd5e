@@ -1,0 +1,116 @@
+name: Slayer
+type: subclass
+img: icons/consumables/potions/potion-labeled-poison-white.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Slayer<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.kn0tiq6t7ezrwsrh]{Poison
+      Harvester}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.cstxbzxhukdub1kl]{Lethal
+      Combatant}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.xtj0xjwr6p4f1wgr]{Shadow
+      Striker}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.st1uz2nf6op5wufs]{Stay
+      Down}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0w4g4z3gzojbj8pp]{Resilience}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.do8kd3ifqqlvomgu]{Habitual
+      Poisoner}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Venomous Shadow'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kn0tiq6t7ezrwsrh
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cstxbzxhukdub1kl
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xtj0xjwr6p4f1wgr
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.st1uz2nf6op5wufs
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0w4g4z3gzojbj8pp
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.do8kd3ifqqlvomgu
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: y2gmvxfcpgfuyg0w
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!y2gmvxfcpgfuyg0w'

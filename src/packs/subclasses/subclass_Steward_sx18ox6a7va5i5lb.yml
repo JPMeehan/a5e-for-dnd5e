@@ -1,0 +1,157 @@
+name: Steward
+type: subclass
+img: icons/skills/social/diplomacy-handshake.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Steward<br></strong></p>
+
+      <table style="width: 100.008%; height: 134.384px;"
+      border="1"><colgroup><col style="width: 6.18858%;"><col style="width:
+      93.7387%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">Level</td>
+
+      <td style="height: 16.798px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 16.798px;">
+
+      <td style="height: 16.798px; text-align: center;">1st</td>
+
+      <td style="height: 16.798px; text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ry3fu3kndog2e24l]{Word
+      of Advice}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.x4jml2lmtl1b2pvo]{Bonus
+      Proficiencies (Steward)}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">2nd</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bxpibs48solpgx58]{Bolster
+      Ally}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.n9phbr58n4yelmg1]{Steward's
+      Care}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">6th</td>
+
+      <td style="height:
+      16.798px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dgmg21a0n4c9e4es]{Expert
+      Help}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5961px;">
+
+      <td style="height: 33.5961px;">11th</td>
+
+      <td style="height:
+      33.5961px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.omwqmbad7nvrl6cz]{The
+      Best of Your Abilities}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align: center;">14th</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5uqbb92nalp0m7oq]{I
+      Will Please}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.798px;">
+
+      <td style="height: 16.798px;">17th</td>
+
+      <td style="height:
+      16.798px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bmm5i65gshdkeki4]{This
+      Is No Place to Die}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventures in ZEITGEIST
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: savant
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ry3fu3kndog2e24l
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.x4jml2lmtl1b2pvo
+    - _id: et8kvGLiJPIykLfV
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bxpibs48solpgx58
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.n9phbr58n4yelmg1
+    - _id: NbLKxYcGZ88iPQ9L
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dgmg21a0n4c9e4es
+    - _id: iOsplmIU4pFApQoU
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.omwqmbad7nvrl6cz
+    - _id: 1eCr39ZPSuSBgesr
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5uqbb92nalp0m7oq
+    - _id: WDY3p9YlHzMBj0Qf
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bmm5i65gshdkeki4
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: sx18ox6a7va5i5lb
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!sx18ox6a7va5i5lb'

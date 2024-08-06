@@ -1,0 +1,134 @@
+name: Entrusted
+type: subclass
+img: icons/weapons/swords/shortsword-broad.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Entrusted<br></strong></p>
+
+      <table style="width: 100.008%;" border="1"><colgroup><col style="width:
+      17.5003%;"><col style="width: 82.6091%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align: center;">1st</td>
+
+      <td style="text-align:
+      center;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tivbvejahcmq50wn]{Wielded
+      Ally}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.dpn77ttypg7j8e6j]{Sentient
+      Artifact}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3ac4lm3t141slmvn]{Entrusted
+      Spellcasting}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.y55y84v0ygn3ajim]{Spiritual
+      Artifact}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vnc4t2w7hdenl7zs]{Jolly
+      Cooperation}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.sjg3z5hfqskmrvds]{Synchronized
+      Partners}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.uz8vurnes5eu16o2]{Inseparable}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: wielder
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tivbvejahcmq50wn
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dpn77ttypg7j8e6j
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.3ac4lm3t141slmvn
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.y55y84v0ygn3ajim
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vnc4t2w7hdenl7zs
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sjg3z5hfqskmrvds
+    - _id: KM9GWtpcDPjsjKoU
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.uz8vurnes5eu16o2
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: xzibs0sil6sdh78b
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!xzibs0sil6sdh78b'

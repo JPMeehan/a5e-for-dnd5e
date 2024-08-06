@@ -1,0 +1,120 @@
+name: Fiendblood
+type: subclass
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Fiendblood<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.hprbglrqeyn3nlyq]{Archetype
+      Spells: Fiendblood}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.ilvc3elxve9vke3p]{Liar's
+      Guile}&nbsp;
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.85ai2m2lhg8g3z5g]{Fiendish
+      Eyes}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4z4lmv5svq0ukoo1]{Malicious
+      Persistance}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2f6uk9bin71497vx]{Hellish
+      Physiology}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.cw2tcdveg5buhtnz]{Improved
+      Hellish Physiology}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.b98a7lc7h1eyusu4]{Hell's
+      Heart}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hprbglrqeyn3nlyq
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ilvc3elxve9vke3p
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.85ai2m2lhg8g3z5g
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4z4lmv5svq0ukoo1
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2f6uk9bin71497vx
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cw2tcdveg5buhtnz
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.b98a7lc7h1eyusu4
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: tpnf7oa29qqjy902
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!tpnf7oa29qqjy902'

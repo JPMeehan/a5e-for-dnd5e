@@ -1,0 +1,121 @@
+name: Proscriber
+type: subclass
+img: icons/skills/melee/strike-blade-hooked-blue-red.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Proscriber<br></strong></p>
+
+      <table style="width: 100%; height: 84px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">2nd</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tg93n1gu3jlpoel5]{Proscriber's
+      Discipline}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.c6ta1rjqnaamhllm]{Proscriber's
+      Arsenal}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.p8gt7t87xjh7u7vm]{Sealed
+      Soul}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">6th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wy80j130fas6g5j4]{Know
+      and Strike}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">10th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jygh2wkj7gi5zx0x]{Gatesealer}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">14th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9l6hvc0t6qn45iwh]{Scourge
+      of the Profane}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: ''
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: wizard
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tg93n1gu3jlpoel5
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.c6ta1rjqnaamhllm
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.p8gt7t87xjh7u7vm
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wy80j130fas6g5j4
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jygh2wkj7gi5zx0x
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9l6hvc0t6qn45iwh
+  spellcasting:
+    ability: int
+    progression: full
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: tsqfI7uIcHfzCSJ9
+_key: '!items!tsqfI7uIcHfzCSJ9'

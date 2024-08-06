@@ -1,0 +1,122 @@
+name: Engineer
+type: subclass
+img: icons/commodities/tech/metal-pipes.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Engineer<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9epwhm8pz2wpni0v]{Bonus
+      Proficiencies (Engineer)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.0w8jdckwxtzgsk24]{Custom
+      Vehicle}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.kkphisz6y13e9uor]{Engineer
+      Spells}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>5th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.uyqu2yy46hrf78qz]{Pinpoint
+      Maneuvering}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>9th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.r75u62qaxorpzm5i]{Advanced
+      Vehicle Modifications}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.skpb1pichesc68bx]{Mobile
+      Fortress}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#0'
+  identifier: ''
+  classIdentifier: artificer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9epwhm8pz2wpni0v
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0w8jdckwxtzgsk24
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kkphisz6y13e9uor
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 5
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.uyqu2yy46hrf78qz
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.r75u62qaxorpzm5i
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.skpb1pichesc68bx
+  spellcasting:
+    ability: int
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: ntiogh27b1cs3r0y
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!ntiogh27b1cs3r0y'

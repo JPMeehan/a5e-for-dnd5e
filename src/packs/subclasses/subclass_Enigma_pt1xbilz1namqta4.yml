@@ -1,0 +1,117 @@
+name: Enigma
+type: subclass
+img: icons/svg/mystery-man-black.svg
+system:
+  description:
+    value: >-
+      <p><strong>Table: Enigma<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.4yuq2k3mi0ezwjdq]{Archetype
+      Spells: Enigma}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.82ahogq2tp7xujq9]{Deeper
+      Understanding}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.lf4zseqkec7tg9hq]{Reach
+      Beyond}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0uzua8b3z15byc3n]{Retributive
+      Surge}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.m5qc4zw1v9j29qpr]{Tenuous
+      Serenity}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.b9ht5mfwoxj1z8g2]{Erupting
+      Nova}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.82ahogq2tp7xujq9
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.lf4zseqkec7tg9hq
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4yuq2k3mi0ezwjdq
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0uzua8b3z15byc3n
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.m5qc4zw1v9j29qpr
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.b9ht5mfwoxj1z8g2
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: pt1xbilz1namqta4
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!pt1xbilz1namqta4'

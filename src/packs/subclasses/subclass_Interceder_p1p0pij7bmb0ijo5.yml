@@ -1,0 +1,120 @@
+folder: null
+name: Interceder
+type: subclass
+img: icons/magic/movement/portal-vortex-orange.webp
+system:
+  description:
+    value: >-
+      <p>Interceders are those witches that specialize in magic dealing with
+      other planes and dealing with the entities that reside on them. Many
+      dedicate themselves to maintaining proper planar boundaries and regulating
+      what is allowed to pass between them, though others take a more permissive
+      approach, often to plunder these strange and otherworldly realms for
+      personal power and allies.</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Table: Interceder<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.q2c0mtyek7kf7i5y]{Parlay
+      with the Beyond (Interceder)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.l9yl3qgisj5cm9up]{Improved
+      Familiar (Interceder)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5uateddkbvpr7mg5]{Return
+      from When You Came (Interceder)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.sgf5k8546mqhvzn0]{Otherworldly
+      Aid (Interceder)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: witch
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.q2c0mtyek7kf7i5y
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.l9yl3qgisj5cm9up
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5uateddkbvpr7mg5
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sgf5k8546mqhvzn0
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+flags: {}
+_id: p1p0pij7bmb0ijo5
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!p1p0pij7bmb0ijo5'

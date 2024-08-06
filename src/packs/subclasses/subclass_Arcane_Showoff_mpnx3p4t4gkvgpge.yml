@@ -1,0 +1,129 @@
+name: Arcane Showoff
+type: subclass
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Arcane Showoff<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dfh6fikw9bgjjfdp]{Battlefield
+      Spectacle}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.eslsmzbotao3nr4y]{Spellcasting
+      (Arcane Showoff)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.s99zfj3tpfgt5gt4]{Demoralizing
+      Prowess}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.lxofq2w6m6cv3aej]{Dazzling
+      Spellsword}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.g4x9zsqitbq8xnus]{Center
+      of Attention}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.htygz84ub49jm965]{Fireworks}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: fighter
+  advancement:
+    - _id: STXXgRIQiakn7d1y
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dfh6fikw9bgjjfdp
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.eslsmzbotao3nr4y
+    - _id: HguWfQ9P8GYA2baj
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.s99zfj3tpfgt5gt4
+    - _id: hMFdfJWxcX4K3yLs
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.lxofq2w6m6cv3aej
+    - _id: YRSnqqIkfFnpkkw1
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.g4x9zsqitbq8xnus
+    - _id: 3dPpB10hbdcMSqLj
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.htygz84ub49jm965
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: mpnx3p4t4gkvgpge
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!mpnx3p4t4gkvgpge'

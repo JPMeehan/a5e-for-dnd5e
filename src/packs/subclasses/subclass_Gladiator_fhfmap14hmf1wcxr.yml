@@ -1,0 +1,133 @@
+name: Gladiator
+type: subclass
+img: icons/magic/control/control-influence-rally-purple.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Gladiator<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.pi4dwdr39k8he79x]{Arena
+      Training}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.lpc0g69566dzlr1o]{Gladiatorial
+      Traditions}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.hmpiwnkwfsl35mcf]{Bloodsport
+      Flourishes}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2p0o5udhg6th3y5n]{Champion
+      of the Arena}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.odpk47a2trrygot8]{Gladiatorial
+      Reputation}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1aziml2gnfgb4m8y]{Unmistakable
+      Presence}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.sj4dc6y5dtth0cz0]{Effortless
+      Flourishes}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: fighter
+  advancement:
+    - _id: STXXgRIQiakn7d1y
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.pi4dwdr39k8he79x
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.lpc0g69566dzlr1o
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hmpiwnkwfsl35mcf
+    - _id: HguWfQ9P8GYA2baj
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2p0o5udhg6th3y5n
+    - _id: hMFdfJWxcX4K3yLs
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.odpk47a2trrygot8
+    - _id: YRSnqqIkfFnpkkw1
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1aziml2gnfgb4m8y
+    - _id: 3dPpB10hbdcMSqLj
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.sj4dc6y5dtth0cz0
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: fhfmap14hmf1wcxr
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!fhfmap14hmf1wcxr'

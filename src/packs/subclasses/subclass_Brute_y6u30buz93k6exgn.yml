@@ -1,0 +1,129 @@
+name: Brute
+type: subclass
+img: icons/skills/melee/strike-axe-energy-pink.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Brute<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tl5j3nbiorr6x612]{Brute
+      Strength}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.qztr8os15xs8litu]{Brutish
+      Traditions}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.uaiidjn2micayoci]{Tough
+      as Nails}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.5pckyib9mvw0u9ya]{Overpowering
+      Strike}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mkkig7vzxklc2c97]{Unstoppable}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vx3gp685rgslxvnh]{Overwhelming
+      Onslaught (DC blank)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: fighter
+  advancement:
+    - _id: TbLxuxwg0iQ53UK2
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tl5j3nbiorr6x612
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.qztr8os15xs8litu
+    - _id: ofmp8VeBRLyaYkWg
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.uaiidjn2micayoci
+    - _id: LBPS9Zfx3uLsNIzv
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.5pckyib9mvw0u9ya
+    - _id: 6aRx9R4FtmUzOnSj
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mkkig7vzxklc2c97
+    - _id: o70QRIKjR1y8P3Es
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vx3gp685rgslxvnh
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: y6u30buz93k6exgn
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!y6u30buz93k6exgn'

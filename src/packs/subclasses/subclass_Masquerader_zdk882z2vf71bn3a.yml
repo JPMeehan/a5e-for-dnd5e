@@ -1,0 +1,114 @@
+name: Masquerader
+type: subclass
+img: icons/commodities/treasure/mask-wood-tan.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Masquerader<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bge01qm6qcupxv3j]{Bonus
+      Proficiencies (Masquerader)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.rh84m1ufz7c2najk]{Act
+      Natural}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>9th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vtthrjkkz1gjzv43]{Dress
+      to Impress}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>13th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.r45ppgeki5obsaw7]{Magic
+      Masks}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>17th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.lec9xrhmi6hkcezl]{Method
+      Actor}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: rogue
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bge01qm6qcupxv3j
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.rh84m1ufz7c2najk
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 9
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vtthrjkkz1gjzv43
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 13
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.r45ppgeki5obsaw7
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 17
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.lec9xrhmi6hkcezl
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: zdk882z2vf71bn3a
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!zdk882z2vf71bn3a'

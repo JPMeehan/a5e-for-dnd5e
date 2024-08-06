@@ -1,0 +1,121 @@
+name: Crownsworn
+type: subclass
+img: icons/commodities/treasure/crown-gold-satin-gems-red.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Crownsworn<br></strong></p>
+
+      <table style="width: 100%; height: 84px;" border="1"><colgroup><col
+      style="width: 41.8738%;"><col style="width: 58.1262%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">3rd</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.51tch5wyym5m2q24]{Tenets
+      of the Crownsworn}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.9r6an0qpco8wsqyl]{Archetype
+      Schools (Herald: Crownsworn)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.w41tk2ma0ndcesmu]{Channel
+      Divinity (Herald: Crownsworn)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">7th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.r9gtclbudfwki3u5]{Bodyguard}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">15th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.2yqejo7dxnmmjikq]{Unwavering
+      Sentinel}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">20th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.wzakgc7f12shjvfs]{Devoted
+      Champion}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9r6an0qpco8wsqyl
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.w41tk2ma0ndcesmu
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.51tch5wyym5m2q24
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.r9gtclbudfwki3u5
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2yqejo7dxnmmjikq
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.wzakgc7f12shjvfs
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: KYoN9fyeiUlw4hP7
+_key: '!items!KYoN9fyeiUlw4hP7'

@@ -1,0 +1,114 @@
+name: Confidence Mage
+type: subclass
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Confidence Mage<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bwg9233xof40gasm]{Underhanded
+      Study}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.xb9g6v9nwufpxp29]{Dubious
+      Connections}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mo4hpn1swbf56wlm]{Covert
+      Magics}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.o15087z95xirvtb1]{Now
+      You See Me}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.en77cojudg6toz2d]{I'll
+      Take That}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Confidence Mage
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: wizard
+  advancement:
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bwg9233xof40gasm
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.xb9g6v9nwufpxp29
+    - _id: IaBwwb6mhPurUKbo
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mo4hpn1swbf56wlm
+    - _id: zF9deWGa1RCNaAAj
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.o15087z95xirvtb1
+    - _id: 1SGhqRsORsuWG36G
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.en77cojudg6toz2d
+  spellcasting:
+    ability: int
+    progression: full
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: aJJ05VktoSaiPs4l
+_key: '!items!aJJ05VktoSaiPs4l'

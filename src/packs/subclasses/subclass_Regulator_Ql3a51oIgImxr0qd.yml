@@ -1,0 +1,117 @@
+name: Regulator
+type: subclass
+img: icons/commodities/tech/lever.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Regulator<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.6Swg7sFH4MIqib4b]{Archetype
+      Spells: Regulator}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.f5bjhts5x7uqcvl7]{Beacon
+      of Actuality}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.fklux2g2jsawgtjt]{What
+      Should Be}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.nubv8xdqd3pjuh5v]{Anchored
+      in the Definite}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.imkjpypkqlcofpdh]{Dissolver
+      of Unreality}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.eer57yvjypcwdilf]{Dimensional
+      Exclusion Zone}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Arcane Avenger'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.f5bjhts5x7uqcvl7
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fklux2g2jsawgtjt
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.6Swg7sFH4MIqib4b
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.nubv8xdqd3pjuh5v
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.imkjpypkqlcofpdh
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.eer57yvjypcwdilf
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: Ql3a51oIgImxr0qd
+_key: '!items!Ql3a51oIgImxr0qd'

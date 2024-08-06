@@ -1,0 +1,116 @@
+name: Traveler
+type: subclass
+img: icons/environment/wilderness/terrain-river-road-gray.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Traveler<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>1st</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.fly4bvm8zts8r92y]{Archetype
+      Spells: Traveler}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.e9hs76hratf5taf9]{Beyond
+      the Boundary}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.srv71eayxopb9c7b]{Flutter}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.7zszgessumo4vuxv]{Gift
+      of Impermanence}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.p2tr5s125ggm8le1]{All
+      Terrains}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>18th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.rdtc1letbhyjgl95]{Touch
+      the Void}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: sorcerer
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 1
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.e9hs76hratf5taf9
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.srv71eayxopb9c7b
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.fly4bvm8zts8r92y
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.7zszgessumo4vuxv
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.p2tr5s125ggm8le1
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 18
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.rdtc1letbhyjgl95
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: e11o629jv7nn6iff
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!e11o629jv7nn6iff'

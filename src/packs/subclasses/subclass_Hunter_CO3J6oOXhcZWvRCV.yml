@@ -1,0 +1,122 @@
+name: Hunter
+type: subclass
+img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Hunter<br></strong></p>
+
+      <table style="width: 100%; height: 151.2px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">Level</td>
+
+      <td style="height: 16.8px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 50.4px;">
+
+      <td style="height: 50.4px;">3rd</td>
+
+      <td style="height:
+      50.4px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.760p9h4is8q78fjh]{Specialized
+      Hunter}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.8c7mrosh5r44orkp]{Fighting
+      Style (Hunter Ranger)}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">7th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.hw5u8q1rokdmftft]{Bring
+      Down the Quarry}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.6px;">
+
+      <td style="height: 33.6px;">11th</td>
+
+      <td style="height:
+      33.6px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.0h0my318xt9iidnw]{Peerless
+      Tracker}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.w3o9xnkuhvfrl7qb]{Instinctual
+      Defense}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 16.8px;">
+
+      <td style="height: 16.8px;">15th</td>
+
+      <td style="height:
+      16.8px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.b5rqrwq7kmgcypr2]{Master
+      Slayer}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.760p9h4is8q78fjh
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.8c7mrosh5r44orkp
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.hw5u8q1rokdmftft
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0h0my318xt9iidnw
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.w3o9xnkuhvfrl7qb
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.b5rqrwq7kmgcypr2
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_id: CO3J6oOXhcZWvRCV
+_key: '!items!CO3J6oOXhcZWvRCV'

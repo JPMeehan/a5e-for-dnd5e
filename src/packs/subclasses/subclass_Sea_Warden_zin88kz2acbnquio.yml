@@ -1,0 +1,127 @@
+name: Sea Warden
+type: subclass
+img: icons/magic/water/water-hand.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Sea Warden<br></strong></p>
+
+      <table style="width: 100%; height: 207.344px;" border="1"><colgroup><col
+      style="width: 6.69216%;"><col style="width: 93.1166%;"></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center; height: 16.7969px;">
+
+      <td style="height: 16.7969px;">Level</td>
+
+      <td style="height: 16.7969px;">Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center; height: 56.1875px;">
+
+      <td style="height: 56.1875px;">2nd</td>
+
+      <td style="height: 56.1875px;">
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9q4k2uool9r45t2w]{Aquatic
+      Adaption}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.o7va0q54um8usb39]{Amphibious
+      Training}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 50.375px;">
+
+      <td style="height: 50.375px;">6th</td>
+
+      <td style="height:
+      50.375px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.s3kdcdvtxt8xickb]{Arsenal
+      of the Depths}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 50.3906px;">
+
+      <td style="height: 50.3906px;">10th</td>
+
+      <td style="height:
+      50.3906px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.jb1efhswbeltw6xf]{Shipping
+      Regulator}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.l5ao4t88opcyrm8d]{Tidal
+      Surge}</td>
+
+      </tr>
+
+      <tr style="text-align: center; height: 33.5938px;">
+
+      <td style="height: 33.5938px;">14th</td>
+
+      <td style="height:
+      33.5938px;">@UUID[Compendium.a5e-for-dnd5e.class-features.Item.47jpuhd7wuslhegh]{Guardian
+      of the Depths}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: druid
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9q4k2uool9r45t2w
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.o7va0q54um8usb39
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.s3kdcdvtxt8xickb
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.jb1efhswbeltw6xf
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.l5ao4t88opcyrm8d
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.47jpuhd7wuslhegh
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: zin88kz2acbnquio
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!zin88kz2acbnquio'

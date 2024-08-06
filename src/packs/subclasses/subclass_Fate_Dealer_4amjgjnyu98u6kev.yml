@@ -1,0 +1,101 @@
+name: Fate Dealer
+type: subclass
+img: icons/sundries/gaming/playing-cards.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Fate Dealer<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.98zfgf4jox8jz5ht]{Dealer's
+      Deck (Fate Dealer)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.1nt202bw0a6j2cm3]{Peek
+      at the Deck (Fate Dealer)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.iivqr3jj4i5zvjv3]{The
+      Hand That Cuts (Fate Dealer)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.2q1jrqz3vi20sj8i]{Favorable
+      Hand (Fate Dealer)}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.9lt2v1phxactwii4]{Stack
+      the Deck (Fate Dealer)}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Thematic Toolkit: Master of Ceremonies'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: bard
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.98zfgf4jox8jz5ht
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1nt202bw0a6j2cm3
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.iivqr3jj4i5zvjv3
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2q1jrqz3vi20sj8i
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.9lt2v1phxactwii4
+  spellcasting:
+    ability: cha
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: 4amjgjnyu98u6kev
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!4amjgjnyu98u6kev'

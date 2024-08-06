@@ -1,0 +1,122 @@
+name: Rescuer
+type: subclass
+img: icons/magic/life/cross-worn-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Rescuer<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.vddxi23gu5j9zwlc]{Rescue
+      Carry}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.j5vltrnzv0iycizb]{Practiced
+      Traversal}&nbsp;
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.dq88y5mn4uqrk5oq]{Field
+      Medicine}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.e8rgqttr5iqs7s8o]{Rescue
+      Specialty}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.2qcz8bt2jptx3tk0]{Field
+      Surgeon}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>11th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.my40bu26xva16ib6]{Rescuer&rsquo;s
+      Resolve}
+      &nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tkr9br73d4kzlksp]{Sure-footed}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.tbnw1nw2w6disxz7]{Life
+      Saver}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: ranger
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dq88y5mn4uqrk5oq
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.j5vltrnzv0iycizb
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.vddxi23gu5j9zwlc
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.2qcz8bt2jptx3tk0
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.e8rgqttr5iqs7s8o
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 11
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.my40bu26xva16ib6
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tkr9br73d4kzlksp
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.tbnw1nw2w6disxz7
+  spellcasting:
+    ability: none
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: vtokljliho9pyvk1
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!vtokljliho9pyvk1'

@@ -1,0 +1,120 @@
+name: Guardian
+type: subclass
+img: icons/magic/nature/plant-sproud-hands-dirt-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Guardian<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>2nd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.mrr8lw68g6jfntkc]{Advanced
+      Druidcraft}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.4kxsapsjdudxvd66]{Headology}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ccpwd4x9kwfi64oe]{Hedge
+      Herbalism}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>6th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.t6chmf9ogtqfv5io]{Druidic
+      Tradition}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>10th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.qxwfwi9cy994g69c]{Community
+      Symbol}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>14th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.kdyqo9x7wxjqiucp]{Take
+      Root}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: druid
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 2
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mrr8lw68g6jfntkc
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.4kxsapsjdudxvd66
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ccpwd4x9kwfi64oe
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 6
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.t6chmf9ogtqfv5io
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 10
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.qxwfwi9cy994g69c
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 14
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.kdyqo9x7wxjqiucp
+  spellcasting:
+    ability: wis
+    progression: full
+effects: []
+folder: null
+flags: {}
+_id: 80g87x3n99mjit0d
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!80g87x3n99mjit0d'

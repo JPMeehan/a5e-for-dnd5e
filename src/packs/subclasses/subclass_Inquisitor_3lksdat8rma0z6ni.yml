@@ -1,0 +1,121 @@
+name: Inquisitor
+type: subclass
+img: icons/tools/hand/scale-balances-merchant-brown.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Inquisitor<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.aw7b2wnxc2r3es8e]{Tenets
+      of the Inquisitor}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.0hhiv2o6vx6s7odg]{Archetype
+      Schools (Inquisitor)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.mxmm8ingc9r4uoag]{Channel
+      Divinity (Inquisitor)}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.1nmqu07hzwwd2ati]{Mark
+      of Heretic}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.p6zhih4xi1cvda1a]{Divine
+      Justice}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>20th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.cc08gs9ua8qae1yh]{Ear
+      for Deceit}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.aw7b2wnxc2r3es8e
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.0hhiv2o6vx6s7odg
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.mxmm8ingc9r4uoag
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.1nmqu07hzwwd2ati
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.p6zhih4xi1cvda1a
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.cc08gs9ua8qae1yh
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: 3lksdat8rma0z6ni
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!3lksdat8rma0z6ni'

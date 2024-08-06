@@ -1,0 +1,125 @@
+name: Liberator
+type: subclass
+img: icons/sundries/misc/key-ring-long-silver.webp
+system:
+  description:
+    value: >-
+      <p><strong>Table: Liberator<br></strong></p>
+
+      <table border="1"><colgroup><col><col></colgroup>
+
+      <thead>
+
+      <tr style="text-align: center;">
+
+      <td>Level</td>
+
+      <td>Features</td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="text-align: center;">
+
+      <td>3rd</td>
+
+      <td>
+
+      <p>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.dxu7h7ks4dcbkxaf]{Tenets
+      of the Liberator}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.envch1hcvpesmddb]{Archetype
+      Schools (Liberator)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.uo3lglsckol9zmzf]{Channel
+      Divinity (Liberator)}
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ovxyu3tcjyyzj1fg]{Gatecrasher}</p>
+
+      </td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>7th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gps9rd46quaowd6j]{Bane
+      of Slavers}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>15th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.a443avgc33zfbl38]{Wall
+      Toppler}</td>
+
+      </tr>
+
+      <tr style="text-align: center;">
+
+      <td>20th</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.bi9urxlzagqpmlj7]{Beacon
+      of Liberty}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  identifier: ''
+  classIdentifier: herald
+  advancement:
+    - _id: nkYlW0Tdnzn3hpEg
+      type: ItemGrant
+      title: Features
+      level: 3
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.uo3lglsckol9zmzf
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.ovxyu3tcjyyzj1fg
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.dxu7h7ks4dcbkxaf
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.envch1hcvpesmddb
+    - _id: LIOlm67TDWBb8gKL
+      type: ItemGrant
+      title: Features
+      level: 7
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.gps9rd46quaowd6j
+    - _id: x9agwGjHyAni2XfY
+      type: ItemGrant
+      title: Features
+      level: 15
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.a443avgc33zfbl38
+    - _id: LzFmtvMJp4NahvJy
+      type: ItemGrant
+      title: Features
+      level: 20
+      configuration:
+        items:
+          - uuid: Compendium.a5e-for-dnd5e.class-features.Item.bi9urxlzagqpmlj7
+  spellcasting:
+    ability: cha
+    progression: none
+effects: []
+folder: null
+flags: {}
+_id: om70abzopy7h2uie
+_stats:
+  coreVersion: '12'
+  systemId: a5e
+  systemVersion: 0.19.17
+_key: '!items!om70abzopy7h2uie'
