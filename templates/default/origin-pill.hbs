@@ -1,25 +1,21 @@
 {{#if item}}
-<div class="pill-lg texture item-tooltip {{type}}" data-action="edit"
-        data-item-id="{{ item.id }}"
-        aria-label="{{#if actor.isOwner}}{{ localize "DND5E.ItemEdit" }}{{else}}{{ localize "DND5E.ItemView" }}{{/if}}">
+<div class="pill-lg texture item-tooltip {{type}}" data-action="edit" data-item-id="{{ item.id }}"
+    aria-label="{{#if actor.isOwner}}{{ localize " DND5E.ItemEdit" }}{{else}}{{ localize "DND5E.ItemView" }}{{/if}}">
     {{#if item.img}}
-    <img class="gold-icon" src="{{ item.img }}"
-            alt="{{ item.name }}">
+    <img class="gold-icon" src="{{ item.img }}" alt="{{ item.name }}">
     {{/if}}
     <div class="name name-stacked">
         <span class="title">{{ item.name }}</span>
     </div>
     {{#if editable}}
-    <a class="item-control item-action" data-action="delete" data-tooltip="DND5E.ItemDelete"
-        aria-label="{{ localize "DND5E.ItemDelete" }}" data-tooltip-class data-tooltip-direction>
+    <a class="item-control item-action" data-action="delete" data-tooltip="DND5E.ItemDelete" aria-label="{{ localize "
+        DND5E.ItemDelete" }}" data-tooltip-class data-tooltip-direction>
         <i class="fas fa-trash"></i>
     </a>
     {{/if}}
 </div>
 {{else if (and actor.isOwner displayBlank)}}
 <div class="pill-lg empty roboto-upper" data-action="findItem" data-item-type="{{type}}">
-    {{!-- Switch to add version when there's a more general API here --}}
-    {{!-- {{ localize (concat type ".Add") }} --}}
-    {{ localize (concat "TYPES.Item." type)}}
+    {{ localize (concat type ".Add")}}
 </div>
 {{/if}}
