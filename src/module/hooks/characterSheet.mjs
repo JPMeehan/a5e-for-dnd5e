@@ -53,7 +53,7 @@ export async function defaultSheet(sheet, html, { editable, ...context }) {
   const destinyClass = moduleTypes.destiny.replace('.', '\\.');
   // General "edit" fn and then specific delete buttons
   const targetClasses = `.${cultureClass}, .${destinyClass}, .${cultureClass} .item-action, .${destinyClass} .item-action`;
-  originInfo.on('click', targetClasses, sheet._onItemAction.bind(sheet));
+  originInfo.on('click', targetClasses, sheet._onAction.bind(sheet));
 
   /**
    * Fatigue and Stress

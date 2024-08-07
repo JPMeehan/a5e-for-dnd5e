@@ -40,6 +40,8 @@ Hooks.once('init', () => {
     [moduleTypes.maneuver]: DataClasses.Maneuver,
   });
 
+  a5eHooks.compendiumBrowser.addTabs();
+
   for (const [name, sheetClass] of Object.entries(SheetClasses)) {
     const type = name.toLowerCase();
     Items.registerSheet(moduleID, sheetClass, {
