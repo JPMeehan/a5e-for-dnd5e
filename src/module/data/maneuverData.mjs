@@ -81,6 +81,14 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
 
   prepareFinalData() {
     this.prepareFinalActivatedEffectData();
+
+    // Necessary because excluded from valid types in Item5e#_prepareProficiency
+    if ( !this.parent.actor?.system.attributes?.prof ) {
+      this.prof = new dnd5e.documents.Proficiency(0, 0);
+      return;
+    }
+
+    this.prof = new dnd5e.documents.Proficiency(this.parent.actor.system.attributes.prof, this.proficiencyMultiplier ?? 0);
   }
 
   /* -------------------------------------------- */
@@ -110,6 +118,14 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   /** @inheritdoc */
   get _typeCriticalThreshold() {
     return this.parent?.actor?.flags.dnd5e?.spellCriticalThreshold ?? Infinity;
+  }
+
+  /**
+   * The proficiency multiplier for this item.
+   * @returns {number}
+   */
+  get proficiencyMultiplier() {
+    return 1;
   }
 
   /**

@@ -4,6 +4,7 @@
 
 - Updated data imports from a5e
 - Added max compatibility of `dnd5e` 3.3.9 because of upcoming breaks in 4.0
+- Fixed proficiency bonus not adding to maneuvers
 
 ## 1.1.0 Archetypes
 
