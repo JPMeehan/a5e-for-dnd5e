@@ -1,0 +1,42 @@
+name: Favored Illumination
+type: feat
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level when you choose this archetype, you learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.kh26gom04osoo005]{Dancing
+      Lights},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bqavvq6ju5ti8hr3]{Light}, or
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.krg2pw9p0pa5praw]{Produce
+      Flame} cantrip. This does not count against your number of known
+      cantrips.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723047350961
+  modifiedTime: 1723047397092
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: ivqbdcqdy9jgus3s
+_key: '!items!ivqbdcqdy9jgus3s'

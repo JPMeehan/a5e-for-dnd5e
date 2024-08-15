@@ -1,6 +1,6 @@
 name: Brute Strength
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
 effects: []
 flags: {}
 system:
@@ -23,15 +23,52 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
-_id: tl5j3nbiorr6x612
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723123576839
+  modifiedTime: 1723123679165
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: tl5j3nbiorr6x612
 _key: '!items!tl5j3nbiorr6x612'

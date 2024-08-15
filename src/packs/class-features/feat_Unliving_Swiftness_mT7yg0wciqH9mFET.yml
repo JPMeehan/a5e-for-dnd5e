@@ -1,0 +1,74 @@
+folder: null
+name: Unliving Swiftness
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you chose Path of the Vampire, your Speed increases by 10 feet. You
+      may also spend 7 exertion points to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.zhtyft34531a9nil]{Haste} on
+      yourself.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723334680453
+  modifiedTime: 1723334782170
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: mT7yg0wciqH9mFET
+_key: '!items!mT7yg0wciqH9mFET'

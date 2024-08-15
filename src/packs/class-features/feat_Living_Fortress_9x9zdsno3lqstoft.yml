@@ -15,8 +15,10 @@ system:
       see equal to your Wisdom modifier (minimum 1) as your charges. Whenever
       one of those creatures is within 10 feet of you and is subject to an
       attack, you may spend 1 exertion to move adjacent to the creature and
-      activate your <em>Get Behind Me</em> ability. You need not expend your
-      reaction to use <em>Get Behind Me</em> when activated this way.</p>
+      activate your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.pewyecxyp78fg8y2]{Get
+      Behind Me} ability. You need not expend your reaction to use Get Behind Me
+      when activated this way.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -27,13 +29,51 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: ''
+    cost: 1
+    condition: A creature within 5 feet of you is targeted with an attack
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: 9x9zdsno3lqstoft
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723213497663
+  modifiedTime: 1723213576886
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 9x9zdsno3lqstoft
 _key: '!items!9x9zdsno3lqstoft'

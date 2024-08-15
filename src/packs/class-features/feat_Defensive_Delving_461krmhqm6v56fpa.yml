@@ -1,0 +1,46 @@
+folder: null
+name: Defensive Delving
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <ul>
+
+      <li>You make Constitution saving throws to avoid or resist traps with
+      advantage.</li>
+
+      <li>You can hold your breath for a minimum of 5 minutes + your
+      Constitution modifier before checking for suffocation or drowning.</li>
+
+      <li>You have&nbsp;resistance&nbsp;to falling damage.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723417713556
+  modifiedTime: 1723417726785
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 461krmhqm6v56fpa
+_key: '!items!461krmhqm6v56fpa'

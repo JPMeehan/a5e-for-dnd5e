@@ -13,28 +13,33 @@ system:
 
       <ul>
 
-      <li><strong>Unliving swiftness</strong>: If you chose Path of the Vampire,
-      your speed increases by 10 feet. You may also spend 7 Exertion points to
-      cast Haste on yourself.</li>
+      <li><strong>Unliving swiftness</strong>: If you chose
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3Jb49f3nacLzry86]{Path
+      of the Vampire}, your speed increases by 10 feet. You may also spend 7
+      exertion points to cast
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.zhtyft34531a9nil]{Haste} on
+      yourself.</li>
 
-      <li><strong>Binding wrappings</strong>: If you chose Path of the Mummy,
-      you may spend 2 exertion points to extend your wrappings out to snare a
-      creature up to 1 size category larger than yourself you can see within 30
-      feet. Make a ranged weapon attack as an action. If you hit, the creature
-      is grappled (escape DC equal to your maneuver DC). While the creature
-      remains grappled this way, you may spend a bonus action to drag the
-      creature 10 feet closer to you.</li>
+      <li><strong>Binding wrappings</strong>: If you chose
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.orEuSrQOYCY8xHXq]{Path
+      of the Mummy}, you may spend 2 exertion points to extend your wrappings
+      out to snare a creature up to 1 size category larger than yourself you can
+      see within 30 feet. Make a ranged weapon attack as an action. If you hit,
+      the creature is grappled (escape DC equal to your maneuver DC). While the
+      creature remains grappled this way, you may spend a bonus action to drag
+      the creature 10 feet closer to you.</li>
 
-      <li><strong>Grasp of Vengeance</strong>: If you chose Path of the
-      Revenant, you can strangle your foes at range with the sheer power of your
-      hate. As an action, you may spend 4 exertion points to make a ranged spell
-      attack against a creature you can see within 30 feet. It must make a
-      Constitution save against your spell save DC or begin suffocating. The
-      target may repeat this save at the end of each of its turns, ending the
-      effect on a success. The effect also ends if you are knocked unconscious
-      or die or if the target has remove curse or similar magic cast on it. A
-      creature that successfully saves against your Grasp of Vengeance is immune
-      to it for 24 hours.</li>
+      <li><strong>Grasp of Vengeance</strong>: If you chose
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.Ag1d3VyeU3B3TvBE]{Path
+      of the Revenant}, you can strangle your foes at range with the sheer power
+      of your hate. As an action, you may spend 4 exertion points to make a
+      ranged spell attack against a creature you can see within 30 feet. It must
+      make a Constitution save against your spell save DC or begin suffocating.
+      The target may repeat this save at the end of each of its turns, ending
+      the effect on a success. The effect also ends if you are knocked
+      unconscious or die or if the target has remove curse or similar magic cast
+      on it. A creature that successfully saves against your Grasp of Vengeance
+      is immune to it for 24 hours.</li>
 
       </ul>
     chat: ''
@@ -54,9 +59,12 @@ system:
 effects: []
 flags: {}
 folder: null
-_id: hw2an5t9wae7rge8
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723335557889
+  modifiedTime: 1723335605070
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: hw2an5t9wae7rge8
 _key: '!items!hw2an5t9wae7rge8'

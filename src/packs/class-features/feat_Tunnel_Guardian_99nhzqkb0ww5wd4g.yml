@@ -1,0 +1,109 @@
+folder: null
+name: Tunnel Guardian
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: <p>While within 5 feet of a solid wall, you gain +2 AC.</p>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.Wm6lG7NOaj7tXuVl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: OIu5PQpeCkBOjD6v
+        applyToSelf: true
+    transfer: false
+    name: Tunnel Guardian
+    img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+    _id: G7aS5misFxOHYnxW
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        value: '2'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>While within 5 feet of a solid wall, you gain +2 AC.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723417523058
+      modifiedTime: 1723417542373
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!99nhzqkb0ww5wd4g.G7aS5misFxOHYnxW'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723417471320
+  modifiedTime: 1723417523091
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 99nhzqkb0ww5wd4g
+_key: '!items!99nhzqkb0ww5wd4g'

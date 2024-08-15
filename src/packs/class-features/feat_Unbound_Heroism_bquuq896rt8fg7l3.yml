@@ -52,14 +52,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: effect
+  actionType: heal
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - '@prof'
+        - temphp
     versatile: ''
   formula: ''
   save:
@@ -67,8 +69,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/light/projectile-smoke-blue-light.webp
-    origin: Item.bquuq896rt8fg7l3
+  - origin: Item.gC9LRrAqzq7TKVpw
     flags:
       a5e:
         sort: 0
@@ -84,7 +85,7 @@ effects:
       - key: flags.a5e.effects.bonuses.damage
         value: >-
           {"label":"Unbound
-          Heroism","formula":"1d6","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":["radiant"],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/svg/upgrade.svg"}
+          Heroism","formula":"1d6","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":["radiant"],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/light/projectile-smoke-blue-light.webp"}
         mode: 0
         priority: null
     disabled: false
@@ -96,18 +97,34 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>As long as you have these temporary hit points, your weapon attacks
+      deal an additional 1d6 radiant damage. These temporary hit points last for
+      1 minute.</p>
     statuses: []
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.22
+      createdTime: null
+      modifiedTime: 1723405966222
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/light/projectile-smoke-blue-light.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
     _key: '!items.effects!bquuq896rt8fg7l3.fUJ2AWuKQyuwC4XW'
 flags: {}
-_id: bquuq896rt8fg7l3
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723405847628
+  modifiedTime: 1723405969948
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: bquuq896rt8fg7l3
 _key: '!items!bquuq896rt8fg7l3'

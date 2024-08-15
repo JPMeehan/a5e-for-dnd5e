@@ -1,0 +1,78 @@
+name: Flower Blossom
+type: consumable
+img: icons/commodities/flowers/lily-bloom-purple.webp
+system:
+  description:
+    value: >-
+      <p>A creature can use a bonus action to eat one of the blossoms and regain
+      1d6 hit points.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: .nan
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: bonus
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: jczlz1TrOcJzDCz6
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722880056506
+  modifiedTime: 1722880288731
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: ypwNnh0SilVb8Dwy
+_key: '!items!ypwNnh0SilVb8Dwy'

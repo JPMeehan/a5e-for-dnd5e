@@ -26,8 +26,9 @@ system:
       choose an elemental creature you can see within 60 feet. The creature must
       attempt a Constitution save against your spell save DC or take Force
       damage equal to your basic elemental blast damage. If it succeeds the
-      save, it takes half damage. If it fails the save, you gain a free Gather
-      Energy, except the temporary spell points granted are equal to your full
+      save, it takes half damage. If it fails the save, you gain a free
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ytcsa478xzuifmur]{Gather
+      Energy}, except the temporary spell points granted are equal to your full
       proficiency bonus, and they last until the end of your next turn.</p>
 
       </div>
@@ -89,9 +90,12 @@ system:
     scaling: spell
 effects: []
 flags: {}
-_id: 0cv7hmjdq2hoos0j
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722972863137
+  modifiedTime: 1722972918928
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 0cv7hmjdq2hoos0j
 _key: '!items!0cv7hmjdq2hoos0j'

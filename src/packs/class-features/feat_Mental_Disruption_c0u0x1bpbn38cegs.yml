@@ -1,0 +1,114 @@
+folder: null
+name: Mental Disruption
+type: feat
+img: icons/magic/air/wind-vortex-swirl-red.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">At 6th level your anger is distracting to those around you.
+      Whenever you damage a creature when raging, if they are concentrating on a
+      spell they have disadvantage on the save. If your attack is a critical
+      hit, you can automatically break their concentration.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.0lLQneesOxlquM5U
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PxsOnh4Nlz1G0o9e
+    transfer: false
+    name: Mental Disruption
+    img: icons/magic/air/wind-vortex-swirl-red.webp
+    _id: DVTqGFiTAITLZwBQ
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.rollMode.concentration
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Whenever you damage a creature when raging, if they are concentrating
+      on a spell they have disadvantage on the save.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722890657207
+      modifiedTime: 1722890684558
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!c0u0x1bpbn38cegs.DVTqGFiTAITLZwBQ'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722890581122
+  modifiedTime: 1722890657240
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: c0u0x1bpbn38cegs
+_key: '!items!c0u0x1bpbn38cegs'

@@ -11,14 +11,19 @@ system:
   description:
     value: >-
       <p>The mere sight of you fighting is enough to spur allies on. An allied
-      creature inside the range of your <em>Commanding Presence</em> who can see
-      you engaged in combat may spend a bonus action to immediately end one of
-      the following conditions on themselves: <em>confused</em>,
-      <em>frightened</em>, <em>incapacitated</em>, <em>poisoned</em>, or
-      <em>rattled</em>.&nbsp;</p><p>You may also use your Rallying Surge feature
-      a number of times equal to your proficiency bonus between rests, and your
-      <em>Spur Ally</em> feature a number of times equal to half your
-      proficiency bonus between rests.</p>
+      creature inside the range of your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence} who can see you engaged in combat may spend a bonus action to
+      immediately end one of the following conditions on themselves: confused,
+      frightened, incapacitated, poisoned, or rattled.&nbsp;</p>
+
+      <p>You may also use your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.qc8h2qnq0of52qct]{Rallying
+      Surge} feature a number of times equal to your proficiency bonus between
+      rests, and your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.sapxpqore3a2d8n2]{Spur
+      Ally} feature a number of times equal to half your proficiency bonus
+      between rests.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -29,13 +34,53 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: reaction
+    cost: 1
+    condition: >-
+      When an ally you can see who can hear or see you fails fails an ability
+      check or saving throw
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: 9dnzxmtslxdy3e9v
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723399781244
+  modifiedTime: 1723400044598
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 9dnzxmtslxdy3e9v
 _key: '!items!9dnzxmtslxdy3e9v'

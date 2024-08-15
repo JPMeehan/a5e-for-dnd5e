@@ -33,14 +33,14 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 1
     width: null
     units: ''
-    type: ''
+    type: creature
   range:
-    value: null
+    value: 30
     long: null
-    units: ''
+    units: ft
   consume:
     type: ''
     target: null
@@ -62,9 +62,12 @@ system:
     scaling: spell
 effects: []
 flags: {}
-_id: g18kj28eegquu3q9
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722962605820
+  modifiedTime: 1722962621553
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: g18kj28eegquu3q9
 _key: '!items!g18kj28eegquu3q9'

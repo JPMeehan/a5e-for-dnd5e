@@ -1,0 +1,129 @@
+folder: null
+name: Binding Wrappings
+type: feat
+img: icons/commodities/cloth/ribbon-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you chose Path of the Mummy, you may spend 2 exertion points to
+      extend your wrappings out to snare a creature up to 1 size category larger
+      than yourself you can see within 30 feet. Make a ranged weapon attack as
+      an action. If you hit, the creature is grappled (escape DC equal to your
+      maneuver DC). While the creature remains grappled this way, you may spend
+      a bonus action to drag the creature 10 feet closer to you.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonus
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.t7yepz9HxbLHBCej
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: WpCTTKNKDLZdi9YX
+    transfer: false
+    name: Grappled
+    img: icons/commodities/cloth/ribbon-green.webp
+    _id: VOYGtoE8cYRqde0w
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["grappled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A grappled creature's Speed becomes 0, and it can't benefit from
+      bonuses to movement speeds.</li>
+
+      <li>If the grappler becomes incapacitated the condition ends.</li>
+
+      <li>If an effect removes the grappled creature from the reach of the
+      grappler or grappling effect (such as when a creature is shoved away by
+      the Doubleteam combat maneuver) the condition ends.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - grappled
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723334250936
+      modifiedTime: 1723334279155
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!v4e7xFgaGUPIjqYC.VOYGtoE8cYRqde0w'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723334173545
+  modifiedTime: 1723334302607
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: v4e7xFgaGUPIjqYC
+_key: '!items!v4e7xFgaGUPIjqYC'

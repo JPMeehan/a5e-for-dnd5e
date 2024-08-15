@@ -1,0 +1,38 @@
+name: Fighting Fit
+type: feat
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level, your beliefs have granted you the prowess to meet
+      any foe in any scenario of battle. You are proficient with all armors and
+      weapons, except for rare weapons. </p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723051188508
+  modifiedTime: 1723051592498
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: mz4xjnmnuymd145p
+_key: '!items!mz4xjnmnuymd145p'

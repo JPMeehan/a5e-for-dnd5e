@@ -43,13 +43,13 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: self
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -63,12 +63,61 @@ system:
     ability: con
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.AG8Kc8CMqsRjmbqk
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: qMSLcBIHGwW0kdxw
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Deafened and Poisoned
+    img: icons/magic/light/hand-sparks-smoke-teal.webp
+    _id: 1liIoyNEhQKKwokF
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["deafened","poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: "<h2>Deafened</h2>\n<p>A deafened creature can't hear and automatically fails ability checks that require hearing.</p>\n<h2>Poisoned</h2>\n<p>A poisoned creature has disadvantage on attack rolls and ability checks.</p>\n<p>\_</p>"
+    tint: '#ffffff'
+    statuses:
+      - deafened
+      - poisoned
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723142192586
+      modifiedTime: 1723142271658
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!lxofq2w6m6cv3aej.1liIoyNEhQKKwokF'
 flags: {}
 folder: null
-_id: lxofq2w6m6cv3aej
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723142162074
+  modifiedTime: 1723142192630
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: lxofq2w6m6cv3aej
 _key: '!items!lxofq2w6m6cv3aej'

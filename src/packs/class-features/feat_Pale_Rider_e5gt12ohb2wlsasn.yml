@@ -21,7 +21,8 @@ system:
     value: null
     charged: true
   activation:
-    type: special
+    type: ''
+    cost: 1
   uses:
     value: null
     max: ''
@@ -63,9 +64,12 @@ system:
 effects: []
 flags: {}
 folder: null
-_id: e5gt12ohb2wlsasn
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723334887700
+  modifiedTime: 1723334911651
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: e5gt12ohb2wlsasn
 _key: '!items!e5gt12ohb2wlsasn'

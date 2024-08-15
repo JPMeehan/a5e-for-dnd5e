@@ -54,27 +54,74 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts:
-      - - 2d6
-        - fire
+    parts: []
     versatile: ''
   formula: ''
   save:
     ability: ''
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.ztIsTAvUANkbEKtB
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Gz4zIEf8wZFeBVzB
+        applyToSelf: true
+    transfer: false
+    name: Fiery Armaments
+    img: icons/skills/wounds/anatomy-organ-heart-red.webp
+    _id: Pik2peNgKKNyDzUQ
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Fiery Armaments","formula":"
+          @classResources.fiery-armaments","damageType":"fire","context":{"attackTypes":["meleeWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/skills/wounds/anatomy-organ-heart-red.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your melee weapon attacks deal an additional 1d6 fire damage. This
+      damage increases to 2d6 at 15th level.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722950302415
+      modifiedTime: 1722950348945
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!jdst8989ltlea70f.Pik2peNgKKNyDzUQ'
 flags: {}
-_id: jdst8989ltlea70f
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722950151704
+  modifiedTime: 1722950400558
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: jdst8989ltlea70f
 _key: '!items!jdst8989ltlea70f'

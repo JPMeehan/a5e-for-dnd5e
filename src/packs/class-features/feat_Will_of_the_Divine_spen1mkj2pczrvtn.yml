@@ -8,17 +8,44 @@ system:
     value: >-
       <p>Beginning at 18th level, your presence bolsters your allies with divine
       power. You and a number of additional creatures that you select up to you
-      Charisma modifier gain the following benefits: </p><ul><li><p>While inside
-      the radius of your Commanding Presence, the first time on each of its
-      turns that the creature hits with a weapon attack, it deals an additional
-      1d8 radiant or necrotic damage (your choice when you acquire this
-      benefit).</p></li><li><p>Creatures you selected also gain resistance to
-      the same type of energy that is added to their attacks as long as they
-      remain inside the radius of your Commanding Presence.</p></li></ul><p>You
-      may change the selected creatures as a bonus action.</p><p>Additionally,
-      while inside the radius of your Commanding Presence, hostile creatures are
-      outlined in a faerie fire effect. The effect vanishes if the creature
-      leaves the area.</p>
+      Charisma modifier gain the following benefits:</p>
+
+      <ul>
+
+      <li>
+
+      <p>While inside the radius of your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence}, the first time on each of its turns that the creature hits with
+      a weapon attack, it deals an additional 1d8 radiant or necrotic damage
+      (your choice when you acquire this benefit).</p>
+
+      </li>
+
+      <li>
+
+      <p>Creatures you selected also gain resistance to the same type of energy
+      that is added to their attacks as long as they remain inside the radius of
+      your Commanding Presence.</p>
+
+      </li>
+
+      <li>
+
+      <p>You may change the selected creatures as a bonus action.</p>
+
+      </li>
+
+      <li>
+
+      <p>Additionally, while inside the radius of your Commanding Presence,
+      hostile creatures are outlined in a
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.z7r6plq6vyesck07]{Faerie Fire}
+      effect. The effect vanishes if the creature leaves the area.</p>
+
+      </li>
+
+      </ul>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -29,17 +56,142 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/magic/holy/angel-winged-humanoid-blue.webp
-effects: []
+effects:
+  - origin: Item.8FSdgV8vNNES7kJb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 7LS51bTDwI2EXxms
+    transfer: false
+    name: Will of the Divine (Radiant)
+    img: icons/magic/holy/angel-winged-humanoid-blue.webp
+    _id: cU8K1siYIk66yl3K
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: radiant
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gain resistance to the same type of energy that is added to their
+      attacks as long as they remain inside the radius of your Commanding
+      Presence.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723399212470
+      modifiedTime: 1723399234240
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!spen1mkj2pczrvtn.cU8K1siYIk66yl3K'
+  - origin: Item.8FSdgV8vNNES7kJb
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 7LS51bTDwI2EXxms
+    transfer: false
+    name: Will of the Divine (Necrotic)
+    img: icons/magic/holy/angel-winged-humanoid-blue.webp
+    _id: AN4jMBKw1dK1Je3O
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: necrotic
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gain resistance to the same type of energy that is added to their
+      attacks as long as they remain inside the radius of your Commanding
+      Presence.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723399236878
+      modifiedTime: 1723399246136
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!spen1mkj2pczrvtn.AN4jMBKw1dK1Je3O'
 flags: {}
 folder: null
-_id: spen1mkj2pczrvtn
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723399048430
+  modifiedTime: 1723399286612
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: spen1mkj2pczrvtn
 _key: '!items!spen1mkj2pczrvtn'

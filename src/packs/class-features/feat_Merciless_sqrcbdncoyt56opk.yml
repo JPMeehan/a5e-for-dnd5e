@@ -10,10 +10,13 @@ system:
   description:
     value: >-
       <p>Also at 1st level, your wrath extends to your magical abilities. You
-      learn the vicious mockery cantrip, and it does not count against the
-      number of cantrips you know. You also have advantage on saving throws
-      against spells and effects that would make you less aggressive such as
-      <em>calm emotions</em>.</p>
+      learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ohrkuqnbaeutcwox]{Vicious
+      Mockery} cantrip, and it does not count against the number of cantrips you
+      know. You also have advantage on saving throws against spells and effects
+      that would make you less aggressive such as
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.hnvt4tnuww6o4vvi]{Calm
+      Emotions}.</p>
     chat: ''
   source:
     book: 'Thematic Toolkit: Cultist'
@@ -29,9 +32,12 @@ system:
     per: null
     max: null
 folder: null
-_id: sqrcbdncoyt56opk
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722975559004
+  modifiedTime: 1722975590577
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: sqrcbdncoyt56opk
 _key: '!items!sqrcbdncoyt56opk'

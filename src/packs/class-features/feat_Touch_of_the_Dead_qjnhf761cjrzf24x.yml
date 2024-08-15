@@ -9,8 +9,9 @@ system:
   description:
     value: >-
       <p>Also at 1st level, you have learned how best to harness certain
-      necrotic energy and push its potential to the limits. You learn the Chill
-      Touch Cantrip, which does not count against your number of known cantrips.
+      necrotic energy and push its potential to the limits. You learn the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bpkked98u8mb2q3w]{Chill Touch}
+      cantrip, which does not count against your number of known cantrips.
       Furthermore, you can add your wisdom modifier to the damage you deal by
       any spell of 1st level or higher that deals necrotic damage.</p>
     chat: ''
@@ -29,9 +30,12 @@ system:
     max: null
 effects: []
 flags: {}
-_id: qjnhf761cjrzf24x
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722976975846
+  modifiedTime: 1722977039756
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: qjnhf761cjrzf24x
 _key: '!items!qjnhf761cjrzf24x'

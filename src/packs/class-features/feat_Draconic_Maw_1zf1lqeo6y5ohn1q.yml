@@ -24,7 +24,7 @@ system:
     value: null
     charged: true
   activation:
-    type: action
+    type: bonus
     cost: 1
   uses:
     value: null
@@ -66,9 +66,12 @@ system:
     scaling: spell
 effects: []
 flags: {}
-_id: 1zf1lqeo6y5ohn1q
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722954758564
+  modifiedTime: 1722955298136
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 1zf1lqeo6y5ohn1q
 _key: '!items!1zf1lqeo6y5ohn1q'

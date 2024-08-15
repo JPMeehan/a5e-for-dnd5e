@@ -19,31 +19,30 @@ system:
       prepared, and they do not count against your druid spells prepared.</p>
 
       <p>2nd
-      Level:&nbsp;<em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.lxu7vfccmpg4ntno]{Color
+      Level:&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.lxu7vfccmpg4ntno]{Color
       Spray},
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.1046kzuqvlnjtk0x]{Silent
-      Image}</em></p>
+      Image}</p>
 
       <p>3rd Level:
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.05w9nzp0kvu94k3h]{Mirror
-      Image}<em>,
-      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pzn6tyro9kivey8y]{Magic
-      Mouth}</em></p>
+      Image}, @UUID[Compendium.a5e-for-dnd5e.spells.Item.pzn6tyro9kivey8y]{Magic
+      Mouth}</p>
 
       <p>5th Level:
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.6yuzn2ix28wkvduc]{Hypnotic
-      Pattern}<em>,
+      Pattern},
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.h94zy649e1vquc53]{Phantom
-      Steed}</em></p>
+      Steed}</p>
 
       <p>7th Level:
-      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pdvg7c9emjgnib07]{Confusion}<em>,
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.pdvg7c9emjgnib07]{Confusion},
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.6y4rq48okutkormg]{Phantasmal
-      Killer}</em></p>
+      Killer}</p>
 
       <p>9th Level:
-      @UUID[Compendium.a5e-for-dnd5e.spells.Item.jo2vztvypvhqxh5u]{Dream}<em>,
-      @UUID[Compendium.a5e-for-dnd5e.spells.Item.f0lq2ogke9k8f1v9]{Mislead}</em></p>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.jo2vztvypvhqxh5u]{Dream},
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.f0lq2ogke9k8f1v9]{Mislead}</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -58,9 +57,12 @@ system:
   uses:
     per: null
     max: null
-_id: 95j1lwbxifzjwc9y
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722966231414
+  modifiedTime: 1722966247451
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 95j1lwbxifzjwc9y
 _key: '!items!95j1lwbxifzjwc9y'

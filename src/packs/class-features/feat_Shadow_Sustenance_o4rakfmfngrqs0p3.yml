@@ -1,0 +1,38 @@
+folder: null
+name: Shadow Sustenance
+type: feat
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you haven&rsquo;t been in an area of sunlight for 24 hours, your
+      body begins to fade and you no longer need to eat. This benefit ends when
+      you enter an area of sunlight.</p>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722952030804
+  modifiedTime: 1722952037239
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: o4rakfmfngrqs0p3
+_key: '!items!o4rakfmfngrqs0p3'

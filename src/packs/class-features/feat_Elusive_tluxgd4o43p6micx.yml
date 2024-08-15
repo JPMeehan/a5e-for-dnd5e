@@ -1,0 +1,40 @@
+name: Elusive
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 15th level, you can move effortlessly and untouched through any
+      battlefield. Your movement out of a creature’s threatened area does not
+      provoke opportunity attacks. In addition, whenever you use your reaction
+      to parry an attack using a Parrying weapon the expertise die to your AC
+      increases by one stage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723125709416
+  modifiedTime: 1723125736677
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: tluxgd4o43p6micx
+_key: '!items!tluxgd4o43p6micx'

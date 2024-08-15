@@ -1,0 +1,115 @@
+folder: null
+name: Grasp of Vengeance
+type: feat
+img: icons/magic/control/debuff-energy-hold-teal-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>If you chose Path of the Revenant, you can strangle your foes at range
+      with the sheer power of your hate. As an action, you may spend 4 exertion
+      points to make a ranged spell attack against a creature you can see within
+      30 feet. It must make a Constitution save against your spell save DC or
+      begin suffocating. The target may repeat this save at the end of each of
+      its turns, ending the effect on a success. The effect also ends if you are
+      knocked unconscious or die or if the target has remove curse or similar
+      magic cast on it. A creature that successfully saves against your Grasp of
+      Vengeance is immune to it for 24 hours.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.3eglgLj6NMEceRQy
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: h6tc6m6MBGT6zJKF
+    transfer: false
+    name: Suffocating
+    img: icons/magic/control/debuff-energy-hold-teal-blue.webp
+    _id: 3saTn5H8ZXuB1CZK
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723334537723
+      modifiedTime: 1723334543640
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!DOFVp9JZkU4BBrAI.3saTn5H8ZXuB1CZK'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723334422399
+  modifiedTime: 1723334537771
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: DOFVp9JZkU4BBrAI
+_key: '!items!DOFVp9JZkU4BBrAI'

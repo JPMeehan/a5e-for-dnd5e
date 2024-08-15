@@ -26,14 +26,13 @@ system:
     per: null
     max: null
 effects:
-  - icon: icons/environment/wilderness/cave-entrance-mountain-blue.webp
-    origin: Item.nizeijca1rh2ohlv
+  - origin: Item.NC4puWsJglRkgiQc
     flags:
       a5e:
         sort: 0
         transferType: passive
     transfer: false
-    name: Speed Boost
+    name: Light Step
     _id: e6uWrkA5iMBBmUd1
     changes:
       - key: system.attributes.movement.walk
@@ -51,16 +50,29 @@ effects:
       startTurn: null
     description: ''
     statuses: []
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.21
+      createdTime: null
+      modifiedTime: 1722951341932
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
     _key: '!items.effects!nizeijca1rh2ohlv.e6uWrkA5iMBBmUd1'
 flags: {}
-_id: nizeijca1rh2ohlv
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722951274644
+  modifiedTime: 1722951278277
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: nizeijca1rh2ohlv
 _key: '!items!nizeijca1rh2ohlv'

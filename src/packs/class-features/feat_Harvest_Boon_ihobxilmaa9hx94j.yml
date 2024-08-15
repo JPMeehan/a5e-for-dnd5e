@@ -1,0 +1,42 @@
+name: Harvest Boon
+type: feat
+img: icons/magic/nature/lotus-glow-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You learn the druidic rituals of vitality that have ensured generations
+      of bountiful harvests. You always have the
+      spell&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.fnuefdnb228qwwu8]{Plant
+      Growth} prepared and it doesn&rsquo;t count against the number of spells
+      you can prepare each day. You may also cast <em>plant growth</em> without
+      expending a spell slot when casting the spell using the Enlarged
+      option.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723057560498
+  modifiedTime: 1723057624029
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: ihobxilmaa9hx94j
+_key: '!items!ihobxilmaa9hx94j'

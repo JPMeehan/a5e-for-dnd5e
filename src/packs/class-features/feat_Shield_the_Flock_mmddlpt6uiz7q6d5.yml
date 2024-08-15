@@ -23,16 +23,14 @@ system:
     book: 'Thematic Toolkit: Itinerant'
     license: OGL 1.0a
   properties: []
-  requirements: Archetype Shepherd, Cleric 8
+  requirements: ''
   recharge:
     value: null
     charged: true
   activation:
     type: reaction
     cost: 1
-    condition: >-
-      When you or a friendly creature within 30 feet of you are targeted with an
-      attack or harmful spell or effect
+    condition: Targeted with an attack or harmful spell or effect
   uses:
     value: null
     max: ''
@@ -72,9 +70,12 @@ system:
 effects: []
 folder: null
 flags: {}
-_id: mmddlpt6uiz7q6d5
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722979056269
+  modifiedTime: 1722979123000
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: mmddlpt6uiz7q6d5
 _key: '!items!mmddlpt6uiz7q6d5'

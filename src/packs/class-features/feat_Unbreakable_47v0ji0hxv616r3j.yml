@@ -1,0 +1,41 @@
+name: Unbreakable
+type: feat
+img: icons/skills/melee/shield-block-gray-yellow.webp
+effects: []
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may not always stand and fight, but woe betide the fool who thinks
+      you a coward. You gain advantage on saving throws to avoid being charmed,
+      compelled, or frightened; to resist the effects of poisons and diseases;
+      and to avoid gaining levels of fatigue or strife. You also gain advantage
+      on saving throws and opposed checks to resist interrogation and to resist
+      having your thoughts read.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723150711460
+  modifiedTime: 1723150719016
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 47v0ji0hxv616r3j
+_key: '!items!47v0ji0hxv616r3j'

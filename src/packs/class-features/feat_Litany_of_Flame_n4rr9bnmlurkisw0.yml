@@ -38,15 +38,17 @@ system:
 
       <li dir="ltr" aria-level="1">
 
-      <p dir="ltr" role="presentation">You gain unlimited use of Brand of
-      Flame.&nbsp;</p>
+      <p dir="ltr" role="presentation">You gain unlimited use of
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.brs5ieevwfasrb6u]{Brand
+      of Flame}.&nbsp;</p>
 
       </li>
 
       <li dir="ltr" aria-level="1">
 
-      <p dir="ltr" role="presentation">You gain the benefits of Eyes of
-      Flame.</p>
+      <p dir="ltr" role="presentation">You gain the benefits of
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.hm481xz98jml7nbb]{Eyes
+      of Piercing Flame}.</p>
 
       </li>
 
@@ -62,8 +64,8 @@ system:
       <li dir="ltr" aria-level="1">
 
       <p dir="ltr" role="presentation">As a bonus action, you may ignite a
-      10-foot square into flames. It is affected as per the Fire encounter
-      element.</p>
+      10-foot square into flames, within 30 feet of you. It is affected as per
+      the Fire encounter element.</p>
 
       </li>
 
@@ -84,13 +86,14 @@ system:
   source:
     book: 'Manual of Adventurous Resources: Complete'
     license: OGL 1.0a
-  properties: []
+  properties:
+    - concentration
   requirements: ''
   recharge:
     value: null
     charged: true
   activation:
-    type: action
+    type: reaction
     cost: 1
   uses:
     value: null
@@ -104,17 +107,17 @@ system:
     value: 1
     width: null
     units: ''
-    type: self
+    type: creature
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: effect
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -129,19 +132,21 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/fire/beam-jet-stream-yellow.webp
-    origin: Item.fkSQjgx4zBZ00yXK
+  - origin: Item.m7HPL4XWhqyyLmha
     flags:
       a5e:
         sort: 0
         transferType: onUse
-        actionId: nQfkCKwOMIAhPEea
+        actionId: QhKJUVORrEsMbVy7
         applyToSelf: true
         duration:
           unit: minutes
     transfer: false
     name: Litany of Flame
-    _id: OfSaNtMP2N2UAEon
+    img: icons/magic/fire/beam-jet-stream-yellow.webp
+    _id: qlqImJQ3XX79Q60F
+    type: base
+    system: {}
     changes:
       - key: system.traits.di.value
         value: fire
@@ -152,8 +157,16 @@ effects:
         mode: 6
         priority: null
       - key: '@token.light.dim'
-        value: '50'
+        value: '100'
         mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.ste
+        value: '-1'
+        mode: 6
+        priority: null
+      - key: system.traits.conditionImmunities
+        value: '["invisible"]'
+        mode: 2
         priority: null
     disabled: false
     duration:
@@ -164,19 +177,29 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: "<p dir=\"ltr\">Once it has begun, you must concentrate on it like a spell, and you may keep it active for up to 10 minutes. While the Litany of Flame is active you gain the following effects:</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You continuously chant the Litany, precluding you from casting spells.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You gain immunity to fire damage.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You shed bright light in a 50-foot radius around you and dim light a further 50 feet beyond that. The light is considered daylight.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You gain unlimited use of Brand of Flame.\_</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">You gain the benefits of Eyes of Flame.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">As an action you may cause a creature within 30 feet of you to ignite, taking 3d6 fire damage and 1d6 ongoing fire damage. A creature may spend an action to put the fire out, ending the ongoing damage.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">As a bonus action, you may ignite a 10-foot square into flames. It is affected as per the Fire encounter element.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\">As a reaction, you may cause a creature within 60 feet of you whose presence you are aware of to be outlined in ghostly flames as if it were affected by faerie fire.If you stop chanting or lose concentration, the effect ends.</p>\n</li>\n</ul>"
+    description: "<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">You continuously chant the Litany, precluding you from casting spells.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">You gain immunity to fire damage.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">You shed bright light in a 50-foot radius around you and dim light a further 50 feet beyond that. The light is considered daylight.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">You gain unlimited use of Brand of Flame.\_</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">You gain the benefits of Eyes of Piercing Flame.</p>\n</li>\n</ul>"
+    tint: '#ffffff'
     statuses: []
-    folder: null
+    sort: 0
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
-    _key: '!items.effects!n4rr9bnmlurkisw0.OfSaNtMP2N2UAEon'
+      systemVersion: 0.19.21
+      createdTime: 1722963725177
+      modifiedTime: 1722964845165
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!n4rr9bnmlurkisw0.qlqImJQ3XX79Q60F'
 flags: {}
 folder: null
-_id: n4rr9bnmlurkisw0
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722963636381
+  modifiedTime: 1722964949173
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: n4rr9bnmlurkisw0
 _key: '!items!n4rr9bnmlurkisw0'

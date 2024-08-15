@@ -19,21 +19,21 @@ system:
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Fire Priest. Any one fire cantrip from
-      any spell list.</p>
+      <p dir="ltr" role="presentation"><strong>Fire Priest.</strong> Any one
+      fire cantrip from any spell list.</p>
 
       </li>
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Ice Priest. Any one cold cantrip from any
-      spell list.</p>
+      <p dir="ltr" role="presentation"><strong>Ice Priest. </strong>Any one cold
+      cantrip from any spell list.</p>
 
       </li>
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Plant Priest. Either
+      <p dir="ltr" role="presentation"><strong>Plant Priest. </strong>Either
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.zaeerhaj7ici4dtd]{Shillelagh},
       or any one plants or poison cantrip from any spell list.</p>
 
@@ -41,22 +41,22 @@ system:
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Stone Priest. Any one earth or force
-      cantrip from any spell list.&nbsp;</p>
+      <p dir="ltr" role="presentation"><strong>Stone Priest.</strong> Any one
+      earth or force cantrip from any spell list.&nbsp;</p>
 
       </li>
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Storm Priest. Any one lighting, thunder,
-      or storm cantrip from any spell list.&nbsp;</p>
+      <p dir="ltr" role="presentation"><strong>Storm Priest. </strong>Any one
+      lighting, thunder, or storm cantrip from any spell list.&nbsp;</p>
 
       </li>
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Water Priest. Any one acid or water
-      cantrip from any spell list.</p>
+      <p dir="ltr" role="presentation"><strong>Water Priest. </strong>Any one
+      acid or water cantrip from any spell list.</p>
 
       </li>
 
@@ -77,9 +77,12 @@ system:
     max: null
 effects: []
 flags: {}
-_id: 5h72q9t26xh7nmmy
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722957426696
+  modifiedTime: 1722957498430
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 5h72q9t26xh7nmmy
 _key: '!items!5h72q9t26xh7nmmy'

@@ -8,12 +8,13 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Beginning at 15th level, when you use your Divine Smite or strike a
-      creature with a smite spell, the target must succeed on a Constitution
-      saving throw. On a failure, the target gains vulnerability to your element
-      for one minute. If the target is resistant to that damage type, it instead
-      loses that resistance. If the target is immune to that damage type, it
-      instead becomes resistant.</p>
+      <p>Beginning at 15th level, when you use your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.c6aiq8cd90fo3ry1]{Divine
+      Smite} or strike a creature with a smite spell, the target must succeed on
+      a Constitution saving throw. On a failure, the target gains vulnerability
+      to your element for one minute. If the target is resistant to that damage
+      type, it instead loses that resistance. If the target is immune to that
+      damage type, it instead becomes resistant.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -24,7 +25,8 @@ system:
     value: null
     charged: true
   activation:
-    type: none
+    type: ''
+    cost: 1
   uses:
     value: null
     max: ''
@@ -47,7 +49,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -61,11 +63,155 @@ system:
     ability: con
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.bUiK4WiuDXQ6NzP9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HWeJCwt0wSL5pvcp
+        duration:
+          unit: minutes
+    transfer: false
+    name: Fire Vulnerability
+    img: icons/magic/fire/projectile-wave-arrow.webp
+    _id: t1wa2BbBjAxjtiOQ
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.damageVulnerabilities
+        value: '["fire"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On a failure, the target gains vulnerability to your element for one
+      minute. If the target is resistant to that damage type, it instead loses
+      that resistance. If the target is immune to that damage type, it instead
+      becomes resistant.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723330646848
+      modifiedTime: 1723330729154
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!tujjnhxiohzy5pr9.t1wa2BbBjAxjtiOQ'
+  - origin: Item.bUiK4WiuDXQ6NzP9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HWeJCwt0wSL5pvcp
+        duration:
+          unit: minutes
+    transfer: false
+    name: Cold Vulnerability
+    img: icons/magic/fire/projectile-wave-arrow.webp
+    _id: a7yngbuKBqbrKn4w
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.damageVulnerabilities
+        value: '["cold"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On a failure, the target gains vulnerability to your element for one
+      minute. If the target is resistant to that damage type, it instead loses
+      that resistance. If the target is immune to that damage type, it instead
+      becomes resistant.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723330738817
+      modifiedTime: 1723330747902
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!tujjnhxiohzy5pr9.a7yngbuKBqbrKn4w'
+  - origin: Item.bUiK4WiuDXQ6NzP9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HWeJCwt0wSL5pvcp
+        duration:
+          unit: minutes
+    transfer: false
+    name: Lightning Vulnerability
+    img: icons/magic/fire/projectile-wave-arrow.webp
+    _id: pqo1fMiZEi6daNlA
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.damageVulnerabilities
+        value: '["lightning"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On a failure, the target gains vulnerability to your element for one
+      minute. If the target is resistant to that damage type, it instead loses
+      that resistance. If the target is immune to that damage type, it instead
+      becomes resistant.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723330750612
+      modifiedTime: 1723330760457
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!tujjnhxiohzy5pr9.pqo1fMiZEi6daNlA'
 flags: {}
-_id: tujjnhxiohzy5pr9
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723330601417
+  modifiedTime: 1723330692998
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: tujjnhxiohzy5pr9
 _key: '!items!tujjnhxiohzy5pr9'

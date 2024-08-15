@@ -39,12 +39,14 @@ system:
 
       </ul>
 
+      <p><strong>Table: Myrmidon Maneuvers</strong></p>
+
       <div dir="ltr" align="left">
 
       <table><colgroup><col width="36"><col width="69"><col
       width="63"></colgroup>
 
-      <tbody>
+      <thead>
 
       <tr>
 
@@ -67,6 +69,10 @@ system:
       </td>
 
       </tr>
+
+      </thead>
+
+      <tbody>
 
       <tr>
 
@@ -488,9 +494,12 @@ system:
 effects: []
 flags: {}
 folder: null
-_id: ezgsojyftsaunlbi
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722973813362
+  modifiedTime: 1722973860560
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: ezgsojyftsaunlbi
 _key: '!items!ezgsojyftsaunlbi'

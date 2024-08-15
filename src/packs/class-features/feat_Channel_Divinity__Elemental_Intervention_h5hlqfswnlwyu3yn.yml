@@ -93,20 +93,20 @@ system:
   cover: null
   crewed: false
   target:
-    value: 30
+    value: null
     width: null
-    units: ft
-    type: cylinder
+    units: ''
+    type: ''
   range:
     value: null
     long: null
-    units: ''
+    units: self
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -120,12 +120,100 @@ system:
     ability: con
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.pQtoT74uNlegQkn8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: YcusQcsB59GR60z3
+    transfer: false
+    name: Prone
+    img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+    _id: lhupNR4ipVxCmKvt
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["prone"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - prone
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722957677160
+      modifiedTime: 1722957686167
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!h5hlqfswnlwyu3yn.lhupNR4ipVxCmKvt'
+  - origin: Item.pQtoT74uNlegQkn8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: YcusQcsB59GR60z3
+        duration:
+          unit: minutes
+    transfer: false
+    name: No Reactions
+    img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+    _id: iJrfUWesFQCREAsL
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><strong>Storm Priest.</strong> Lightning damage. Creatures wearing
+      metal armor and creatures in trees or in the water have disadvantage on
+      their save. Creatures who fail their save can’t take reactions for 1
+      minute.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722957696231
+      modifiedTime: 1722957738107
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!h5hlqfswnlwyu3yn.iJrfUWesFQCREAsL'
 flags: {}
 folder: null
-_id: h5hlqfswnlwyu3yn
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722957524093
+  modifiedTime: 1722957696267
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: h5hlqfswnlwyu3yn
 _key: '!items!h5hlqfswnlwyu3yn'

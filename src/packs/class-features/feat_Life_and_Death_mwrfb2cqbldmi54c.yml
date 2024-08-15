@@ -1,0 +1,45 @@
+folder: null
+name: Life and Death
+type: feat
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 6th level, whenever you cast a spell of 1st level or higher that
+      restores hit points you gain a death die. Whenever you cast a spell of 1st
+      level or higher that deals damage, you gain a life die. Both of these dice
+      start as d4s, and if you cast the appropriate type of spell while you
+      already have one its size increases by one step, to a maximum of a d12.
+      When you cast a spell of 1st level or higher that restores hit points you
+      can spend your life die to roll it and add it to one healing roll for the
+      spell. When you cast a spell of 1st level or higher that deals damage you
+      can spend your death die to roll it and add it to one damage roll for the
+      spell.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722891730619
+  modifiedTime: 1722893320219
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: mwrfb2cqbldmi54c
+_key: '!items!mwrfb2cqbldmi54c'

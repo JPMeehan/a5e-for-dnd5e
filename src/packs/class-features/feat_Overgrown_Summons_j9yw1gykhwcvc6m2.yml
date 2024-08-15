@@ -1,0 +1,37 @@
+name: Overgrown Summons
+type: feat
+img: icons/magic/nature/plant-sprout-hand-flower-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Plant creatures you summon gain a +2 bonus to their AC and attack
+      rolls.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Plant Bond
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723063722011
+  modifiedTime: 1723063815429
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: j9yw1gykhwcvc6m2
+_key: '!items!j9yw1gykhwcvc6m2'

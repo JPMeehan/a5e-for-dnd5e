@@ -1,0 +1,134 @@
+folder: null
+name: Channel Divinity
+type: feat
+img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p id="docs-internal-guid-95240a5b-7fff-9e13-9d1d-17fa98924c02"
+      dir="ltr">At 3rd level, you gain the following Channel Divinity
+      options.</p>
+
+      <p dir="ltr"><strong>Fidelity.</strong> As an action, you grant a creature
+      you touch immunity to the charmed condition and spells of the
+      <em>compulsion </em>school until the start of your next turn, ending any
+      such effects. Being subject to any of the aforementioned effects cannot
+      prevent you from using this Channel Divinity option.</p>
+
+      <p dir="ltr"><strong>Second Self.</strong> When you cast a spell that
+      targets a creature or are targeted by such a spell, you may use your
+      reaction to also target an additional willing creature within 30 feet of
+      you. Either the original or the additional target must be yourself, and
+      all creatures targeted by the spell must be willing targets or the Channel
+      Divinity fails.</p>
+    chat: ''
+  source:
+    book: Secrets of the Selkies
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When you cast a spell that targets a creature or are targeted by such a
+      spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.8Ua2jWkLLErorMhE
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: aSx5Arb9PlTrxEx3
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Fidelity
+    img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+    _id: LRVR1ZhyM6XXvIxB
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["charmed"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Immunity to the charmed condition and spells of the compulsion school
+      until the start of your next turn, ending any such effects.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723137408837
+      modifiedTime: 1723137439549
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!zdlzw4flbzzrpxdc.LRVR1ZhyM6XXvIxB'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723137281845
+  modifiedTime: 1723137483668
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: zdlzw4flbzzrpxdc
+_key: '!items!zdlzw4flbzzrpxdc'

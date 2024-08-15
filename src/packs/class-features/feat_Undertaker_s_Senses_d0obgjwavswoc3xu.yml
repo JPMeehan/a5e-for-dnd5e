@@ -7,10 +7,10 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Starting at 1st level when you choose this archetype, you can cast<em>
+      <p>Starting at 1st level when you choose this archetype, you can cast
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.jlqrjd03lyl8zb3c]{Detect Evil
-      and Good} </em>without spending spell slots. You can do so a total number
-      of times between long rests equal to your Wisdom modifier. When you cast
+      and Good} without spending spell slots. You can do so a total number of
+      times between long rests equal to your Wisdom modifier. When you cast
       <em>detect evil and good</em>, you know whether an entity you sense is
       Undead.</p>
     chat: ''
@@ -65,9 +65,12 @@ system:
 effects: []
 flags: {}
 folder: null
-_id: d0obgjwavswoc3xu
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722962255472
+  modifiedTime: 1722962288523
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: d0obgjwavswoc3xu
 _key: '!items!d0obgjwavswoc3xu'

@@ -1,0 +1,125 @@
+name: Masters of Surveillance
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+effects:
+  - origin: Item.6LJMCxYoHsCPFtFa
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ue8a6eCTM4cThhlr
+        duration:
+          unit: hours
+    transfer: false
+    name: Masters of Surveillance
+    img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+    _id: 6Z1sU9GTb2Jic3WX
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.rollMode.skillCheck.prc
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.inv
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You and the creatures you designate gain advantage on Perception and
+      Investigation checks for one hour.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723403942154
+      modifiedTime: 1723403971687
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!9czujklvw098j2qf.6Z1sU9GTb2Jic3WX'
+folder: null
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>As an action, designate a number of creatures up to your proficiency
+      bonus within range of your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence}. You and the creatures you designate gain advantage on
+      Perception and Investigation checks for one hour. Once you have used this
+      ability, you may not use it again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723403881317
+  modifiedTime: 1723403980799
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 9czujklvw098j2qf
+_key: '!items!9czujklvw098j2qf'

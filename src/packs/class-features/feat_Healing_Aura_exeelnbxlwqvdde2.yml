@@ -1,0 +1,38 @@
+name: Healing Aura
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, your restorative powers radiate while you
+      recuperate. Allies taking a short rest within 30 feet of you gain the
+      maximum amount of hit points possible from any expended hit dice.  </p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1723040035595
+  modifiedTime: 1723040065892
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: exeelnbxlwqvdde2
+_key: '!items!exeelnbxlwqvdde2'

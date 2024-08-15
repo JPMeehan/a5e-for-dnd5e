@@ -1,7 +1,52 @@
 name: 'Channel Divinity: Suppress Resistance'
 type: feat
 img: icons/magic/lightning/orb-ball-purple.webp
-effects: []
+effects:
+  - origin: Item.GMYKLH6D4w7OFDja
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: jtnivtXzUFCHbUSQ
+        duration:
+          unit: minutes
+    transfer: false
+    name: Suppress Resistance
+    img: icons/magic/lightning/orb-ball-purple.webp
+    _id: gvrKjnZLzMS0zpSe
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.rollMode.abilitySave.all
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>That creature makes all of its saving throws at disadvantage for the
+      next minute.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722975678661
+      modifiedTime: 1722975721701
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!96oxmrwrejkb5y87.gvrKjnZLzMS0zpSe'
 flags: {}
 system:
   type:
@@ -9,9 +54,10 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 2nd level, you may use your Channel Divinity as a bonus action to
-      condemn a creature. That creature makes all of its saving throws at
-      disadvantage for the next minute.</p>
+      <p>At 2nd level, you may use your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.s4iiatrup3e3virw]{Channel
+      Divinity} as a bonus action to condemn a creature. That creature makes all
+      of its saving throws at disadvantage for the next minute.</p>
     chat: ''
   source:
     book: 'Thematic Toolkit: Cultist'
@@ -46,7 +92,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -61,9 +107,12 @@ system:
     dc: null
     scaling: spell
 folder: null
-_id: 96oxmrwrejkb5y87
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722975618120
+  modifiedTime: 1722975706414
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 96oxmrwrejkb5y87
 _key: '!items!96oxmrwrejkb5y87'

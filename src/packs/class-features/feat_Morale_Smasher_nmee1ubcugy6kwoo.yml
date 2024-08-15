@@ -1,7 +1,56 @@
 name: Morale Smasher
 type: feat
 img: icons/magic/control/hypnosis-mesmerism-eye.webp
-effects: []
+effects:
+  - origin: Item.tCmP7VsgS5isqTmz
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: zag0CsGzhtSXQ2j7
+        duration:
+          unit: minutes
+    transfer: false
+    name: Frightened
+    img: icons/magic/control/hypnosis-mesmerism-eye.webp
+    _id: GGBopxFhEq9VJn2G
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A frightened creature has disadvantage on ability checks and attack
+      rolls while it is able to see the source of its fear.</p>
+
+      <p>A frightened creature can't willingly move closer to the source of its
+      fear.</p>
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722712195537
+      modifiedTime: 1722712232374
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!nmee1ubcugy6kwoo.GGBopxFhEq9VJn2G'
 flags: {}
 system:
   type:
@@ -27,7 +76,8 @@ system:
     value: null
     charged: true
   activation:
-    type: none
+    type: ''
+    cost: 1
   uses:
     value: null
     max: ''
@@ -50,7 +100,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: save
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -65,9 +115,12 @@ system:
     dc: null
     scaling: spell
 folder: null
-_id: nmee1ubcugy6kwoo
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722712136524
+  modifiedTime: 1722712248498
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: nmee1ubcugy6kwoo
 _key: '!items!nmee1ubcugy6kwoo'

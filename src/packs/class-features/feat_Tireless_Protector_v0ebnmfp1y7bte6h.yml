@@ -12,12 +12,12 @@ system:
     value: >-
       <p>You refine your existing training to better respond to threats. You
       gain the
-      <em>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.gps1jbpps9trpk1w]{Watchful
-      Eye}</em>&nbsp;trait of the
-      <em>@UUID[Compendium.a5e-for-dnd5e.class-features.Item.25vr449svc15tmv6]{Steely
-      Mien}</em>&nbsp;feature. If you already have it, select a second option.
-      You also gain proficiency in the Perception and Insight skills or if you
-      are already proficient, you gain an expertise die.</p>
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.gps1jbpps9trpk1w]{Watchful
+      Eye}&nbsp;trait of the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.25vr449svc15tmv6]{Steely
+      Mien}&nbsp;feature. If you already have it, select a second option. You
+      also gain proficiency in the Perception and Insight skills or if you are
+      already proficient, you gain an expertise die.</p>
 
       <p>Furthermore, as an action you can spend a point of exertion to ignore a
       number of levels of fatigue equal to your proficiency bonus for 1
@@ -32,13 +32,51 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
+    condition: ''
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: v0ebnmfp1y7bte6h
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723212528993
+  modifiedTime: 1723212535120
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: v0ebnmfp1y7bte6h
 _key: '!items!v0ebnmfp1y7bte6h'

@@ -30,9 +30,7 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: action
-    cost: 1
+  activation: {}
   uses:
     value: null
     max: ''
@@ -42,14 +40,14 @@ system:
   cover: null
   crewed: false
   target:
-    value: 1
+    value: null
     width: null
     units: ''
-    type: self
+    type: ''
   range:
-    value: 10
+    value: null
     long: null
-    units: ft
+    units: ''
   consume:
     type: ''
     target: null
@@ -62,18 +60,212 @@ system:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - '20'
+        - lightning
     versatile: ''
   formula: ''
   save:
     ability: ''
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.o3dm4UmmhoBKMch8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: v0p2UyXf3B4a7fK8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Elemental Archon (Fire)
+    img: icons/magic/fire/elemental-fire-flying.webp
+    _id: YTqDChN5TWSlqQum
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '25'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '50'
+        mode: 6
+        priority: null
+      - key: system.traits.di.value
+        value: fire
+        mode: 2
+        priority: null
+      - key: system.traits.dr.value
+        value: cold
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This elemental wreath lasts for 1 minute. It extends in a 10-foot
+      radius, emanates bright light in a 25-foot radius, and dim light 25 feet
+      beyond that. Whenever a creature starts its turn in the elemental wreath
+      or enters it for the first time this turn, the creature takes 20 damage of
+      the same type as your element.</p>
+
+      <p>In addition, for the duration, you have immunity to your element, and
+      resistance to the other two.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723330824402
+      modifiedTime: 1723330907367
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!xydlr6t53ghtacxk.YTqDChN5TWSlqQum'
+  - origin: Item.o3dm4UmmhoBKMch8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: v0p2UyXf3B4a7fK8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Elemental Archon (Cold)
+    img: icons/magic/fire/elemental-fire-flying.webp
+    _id: kkEhRqEewGazShOr
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '25'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '50'
+        mode: 6
+        priority: null
+      - key: system.traits.di.value
+        value: cold
+        mode: 2
+        priority: null
+      - key: system.traits.dr.value
+        value: lightning
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This elemental wreath lasts for 1 minute. It extends in a 10-foot
+      radius, emanates bright light in a 25-foot radius, and dim light 25 feet
+      beyond that. Whenever a creature starts its turn in the elemental wreath
+      or enters it for the first time this turn, the creature takes 20 damage of
+      the same type as your element.</p>
+
+      <p>In addition, for the duration, you have immunity to your element, and
+      resistance to the other two.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723330910671
+      modifiedTime: 1723330926069
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!xydlr6t53ghtacxk.kkEhRqEewGazShOr'
+  - origin: Item.o3dm4UmmhoBKMch8
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: v0p2UyXf3B4a7fK8
+        duration:
+          unit: minutes
+    transfer: false
+    name: Elemental Archon (Lightning)
+    img: icons/magic/fire/elemental-fire-flying.webp
+    _id: Jo58UbVRku75gkuJ
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '25'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '50'
+        mode: 6
+        priority: null
+      - key: system.traits.di.value
+        value: lightning
+        mode: 2
+        priority: null
+      - key: system.traits.dr.value
+        value: fire
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This elemental wreath lasts for 1 minute. It extends in a 10-foot
+      radius, emanates bright light in a 25-foot radius, and dim light 25 feet
+      beyond that. Whenever a creature starts its turn in the elemental wreath
+      or enters it for the first time this turn, the creature takes 20 damage of
+      the same type as your element.</p>
+
+      <p>In addition, for the duration, you have immunity to your element, and
+      resistance to the other two.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723330928523
+      modifiedTime: 1723330942428
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!xydlr6t53ghtacxk.Jo58UbVRku75gkuJ'
 flags: {}
-_id: xydlr6t53ghtacxk
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723330781225
+  modifiedTime: 1723331034883
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: xydlr6t53ghtacxk
 _key: '!items!xydlr6t53ghtacxk'

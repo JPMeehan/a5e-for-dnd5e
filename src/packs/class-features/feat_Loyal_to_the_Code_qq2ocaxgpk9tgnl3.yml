@@ -1,0 +1,186 @@
+name: Loyal to the Code
+type: feat
+img: icons/sundries/documents/document-sealed-white-orange.webp
+effects:
+  - origin: Item.clJ0DLrBUVYvzC83
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Loyal to the Code
+    img: icons/sundries/documents/document-sealed-white-orange.webp
+    _id: EHncd0stkDsTpI4I
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.per.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>You gain an expertise die on Persuasion checks.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723128267442
+      modifiedTime: 1723128286618
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!qq2ocaxgpk9tgnl3.EHncd0stkDsTpI4I'
+  - origin: Item.clJ0DLrBUVYvzC83
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: twahffXxHMOcHFHW
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Disloyal to the Code
+    img: icons/sundries/documents/document-sealed-white-orange.webp
+    _id: oz0CRwJlJ4LziXRC
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e-for-dnd5e.stress
+        value: '1'
+        mode: 2
+        priority: null
+      - key: flags.a5e.effects.rollMode.skillCheck.per
+        value: '-1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 604800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You suffer a level of strife and instead have disadvantage on
+      Persuasion checks for the following 7 days.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723128345788
+      modifiedTime: 1723128401523
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!qq2ocaxgpk9tgnl3.oz0CRwJlJ4LziXRC'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You are loyal to a specific code of honor. You gain an expertise die on
+      Persuasion checks. However, whenever you break your code you suffer a
+      level of strife and instead have disadvantage on Persuasion checks for the
+      following 7 days. Choose one of the following codes to keep:</p>
+
+      <ul>
+
+      <li>
+
+      <p>I will never harm a creature that has surrendered.</p>
+
+      </li>
+
+      <li>
+
+      <p>I will never steal from a living soul.</p>
+
+      </li>
+
+      <li>
+
+      <p>I will never let a lie pass my lips.</p>
+
+      </li>
+
+      </ul>
+
+      <p>Alternatively, consult the Narrator for any codes specific to the
+      campaign setting.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723128180701
+  modifiedTime: 1723128345823
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: qq2ocaxgpk9tgnl3
+_key: '!items!qq2ocaxgpk9tgnl3'

@@ -1,7 +1,223 @@
 name: Unmistakable Presence
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/skills/melee/strike-axe-blood-red.webp
+effects:
+  - origin: Item.S1FJOVFi3ejzmC0A
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: JjB4BudHKDuRdEuB
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frightened
+    img: icons/skills/melee/strike-axe-blood-red.webp
+    _id: 5D1IKmdr716hl7jk
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A frightened creature has disadvantage on ability checks and attack
+      rolls while it is able to see the source of its fear.</li>
+
+      <li>A frightened creature can't willingly move closer to the source of its
+      fear.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723126864095
+      modifiedTime: 1723126864095
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!1aziml2gnfgb4m8y.5D1IKmdr716hl7jk'
+  - origin: Item.S1FJOVFi3ejzmC0A
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: JjB4BudHKDuRdEuB
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Charmed
+    img: icons/skills/melee/strike-axe-blood-red.webp
+    _id: 0A1oho52dbg1idFU
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A charmed creature can't take any hostile action against the
+      charmer.</li>
+
+      <li>Ability checks the charmer makes to socially interact with the charmed
+      creature have advantage.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - charmed
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723126864095
+      modifiedTime: 1723126864095
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!1aziml2gnfgb4m8y.0A1oho52dbg1idFU'
+  - origin: Item.S1FJOVFi3ejzmC0A
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HLTGVq8V5WL8LgpG
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Frightened
+    img: icons/skills/melee/strike-axe-blood-red.webp
+    _id: MPW0ZcukqE40TSqF
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["frightened"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A frightened creature has disadvantage on ability checks and attack
+      rolls while it is able to see the source of its fear.</li>
+
+      <li>A frightened creature can't willingly move closer to the source of its
+      fear.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723126865012
+      modifiedTime: 1723126865012
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!1aziml2gnfgb4m8y.MPW0ZcukqE40TSqF'
+  - origin: Item.S1FJOVFi3ejzmC0A
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: HLTGVq8V5WL8LgpG
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Charmed
+    img: icons/skills/melee/strike-axe-blood-red.webp
+    _id: 8Jy8eYZGbh3RFCcX
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A charmed creature can't take any hostile action against the
+      charmer.</li>
+
+      <li>Ability checks the charmer makes to socially interact with the charmed
+      creature have advantage.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - charmed
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723126865012
+      modifiedTime: 1723126865012
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!1aziml2gnfgb4m8y.8Jy8eYZGbh3RFCcX'
 flags: {}
 system:
   type:
@@ -10,8 +226,9 @@ system:
   description:
     value: >-
       <p>At 15th level, your presence on the battlefield becomes impossible to
-      ignore. The range of your Bloodsport Flourishes increases from 20 feet to
-      60 feet.</p>
+      ignore. The range of your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.hmpiwnkwfsl35mcf]{Bloodsport
+      Flourishes} increases from 20 feet to 60 feet.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -21,15 +238,50 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
 folder: null
-_id: 1aziml2gnfgb4m8y
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723126830520
+  modifiedTime: 1723126882543
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 1aziml2gnfgb4m8y
 _key: '!items!1aziml2gnfgb4m8y'

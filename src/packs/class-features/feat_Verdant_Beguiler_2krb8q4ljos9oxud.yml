@@ -1,0 +1,117 @@
+name: Verdant Beguiler
+type: feat
+img: icons/magic/nature/lotus-glow-pink.webp
+effects:
+  - origin: Item.zf1kpjwhg9fabe01
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: CYBScgC8TOdZTsMv
+    transfer: false
+    name: Charm Person
+    _id: SuQoiaQOkdxoz4ml
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723063840906
+      modifiedTime: 1723063840906
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/control/control-influence-puppet.webp
+    type: base
+    system: {}
+    sort: 0
+    folder: null
+    _key: '!items.effects!2krb8q4ljos9oxud.SuQoiaQOkdxoz4ml'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your charming spores become more subtle and potent. When you emit
+      charming spores at a target you may choose to affect them as per the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.ml9ls27u9ncms8ko]{Suggestion}.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Verdant Beauty
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723063767088
+  modifiedTime: 1723063895457
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 2krb8q4ljos9oxud
+_key: '!items!2krb8q4ljos9oxud'

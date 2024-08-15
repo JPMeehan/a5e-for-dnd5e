@@ -1,0 +1,130 @@
+name: Sun Priest Spells
+type: feat
+img: icons/magic/light/explosion-star-glow-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <table style="width: 100%;" border="1"><colgroup><col style="width:
+      7.4394%;"><col style="width: 92.5606%;"></colgroup>
+
+      <tbody>
+
+      <tr>
+
+      <td>1</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.fdkaoynn8g8aqxdr]{Burning
+      Hands} @UUID[Compendium.a5e-for-dnd5e.spells.Item.z7r6plq6vyesck07]{Faerie
+      Fire}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>3</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.eyh4qm3ui8r6h54h]{Continual
+      Flame}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.c9itysok7lr2ai51]{Scorching
+      Ray}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>5</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.m9mcpe47tzeaamtj]{Darklight}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.n7vv8e7phkfc513j]{Fireball}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>7</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.lnbcwy44k19g4bbu]{Fire
+      Shield} @UUID[Compendium.a5e-for-dnd5e.spells.Item.1b2ean5arnl3tob0]{Wall
+      of Fire}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>9</td>
+
+      <td>@UUID[Compendium.a5e-for-dnd5e.spells.Item.v14gdz7j6rr1cr4h]{Creation}
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.qqrqbhsfxtg4xa9g]{Wall of
+      Force}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 12d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1723043231048
+  modifiedTime: 1723043972057
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: guye76yxuscvqwdt
+_key: '!items!guye76yxuscvqwdt'

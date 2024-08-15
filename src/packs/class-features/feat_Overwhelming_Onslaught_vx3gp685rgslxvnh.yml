@@ -1,0 +1,135 @@
+name: Overwhelming Onslaught
+type: feat
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects:
+  - origin: Item.Ov8xpNEWg4zYoNL0
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Y8YjsBLzKOJt7FDd
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Stunned
+    img: icons/skills/melee/spear-tips-quintuple-orange.webp
+    _id: JbddY4IH6xDML6y5
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A stunned creature is incapacitated (see the condition), can't move,
+      and can speak only falteringly.</li>
+
+      <li>The creature automatically fails Strength and Dexterity saving
+      throws.</li>
+
+      <li>Attack rolls against the creature have advantage.</li>
+
+      <li>A creature that is immune to being stunned is immune to being
+      rattled.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - stunned
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723124616371
+      modifiedTime: 1723124660657
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vx3gp685rgslxvnh.JbddY4IH6xDML6y5'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 18th level, when you successfully hit the same target with two or
+      more melee attacks in a single turn, you may spend 2 exertion points to
+      deal extra bludgeoning damage equal to 2d8 + your Strength modifier. In
+      addition, the target makes a Constitution saving throw (DC 8 + your
+      proficiency bonus + your Strength modifier) or becomes stunned until the
+      end of your next turn.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723124516020
+  modifiedTime: 1723124616408
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vx3gp685rgslxvnh
+_key: '!items!vx3gp685rgslxvnh'

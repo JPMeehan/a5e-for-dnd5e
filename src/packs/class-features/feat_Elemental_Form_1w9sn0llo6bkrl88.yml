@@ -14,8 +14,11 @@ system:
       air, earth, fire, or water elemental, matching your element. Once you use
       this ability, you must complete a long rest before you can use it again.
       While transformed this way, you can only cast spells matching the element
-      whose form you have taken, and you can use your <em>elemental blast</em>
-      and <em>command elements</em> abilities.</p>
+      whose form you have taken, and you can use
+      your&nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.uit7l3mc64l5h8h1]{Elemental
+      Blast} and
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.rosj8xvi8bstdegy]{Control
+      Elements} abilities.</p>
 
       <p dir="ltr">At 15th level, you can instead turn into a giant air, earth,
       fire, or water elemental.</p>
@@ -28,7 +31,10 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: action
+    cost: 1
+    condition: ''
   uses:
     value: null
     max: ''
@@ -38,20 +44,20 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: ''
     width: null
     units: ''
-    type: ''
+    type: creature
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -62,15 +68,18 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: wis
     dc: null
     scaling: spell
 effects: []
 flags: {}
 folder: null
-_id: 1w9sn0llo6bkrl88
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722974429422
+  modifiedTime: 1722974529319
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 1w9sn0llo6bkrl88
 _key: '!items!1w9sn0llo6bkrl88'

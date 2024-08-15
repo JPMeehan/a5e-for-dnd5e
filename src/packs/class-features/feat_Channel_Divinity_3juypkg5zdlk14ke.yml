@@ -1,0 +1,82 @@
+folder: null
+name: Channel Divinity
+type: feat
+img: icons/magic/holy/angel-wings-gray.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 3rd level when you choose this archetype, you gain the following two
+      Channel Divinity options.</p>
+
+      <p><em><strong>Second Chance.</strong></em> When a friendly creature
+      (including yourself) is suffering effects as result of a failed saving
+      throw, you can spend your reaction to allow it to attempt that saving
+      throw again.</p>
+
+      <p><em><strong>Choose to Succeed.</strong></em> When a friendly creature
+      (including yourself) fails an ability check, you can spend your reaction
+      to allow it to roll the check again with an expertise die.</p>
+    chat: ''
+  source:
+    book: Gate Pass Gazette
+    license: OGL 1.0a
+    page: '#1'
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Friendly creature (including yourself) fails an ability check
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723405414529
+  modifiedTime: 1723405656067
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 3juypkg5zdlk14ke
+_key: '!items!3juypkg5zdlk14ke'

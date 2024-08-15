@@ -1,0 +1,38 @@
+name: Heal Up
+type: feat
+img: icons/magic/life/heart-hand-gold-green-light.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level when you choose this archetype, you may add your
+      Wisdom modifier to the hit points restored by healing spells of 1st-level
+      or higher.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1723039773395
+  modifiedTime: 1723039829968
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: h2phw1a27rnm4dca
+_key: '!items!h2phw1a27rnm4dca'

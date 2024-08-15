@@ -7,14 +7,18 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Beginning at 3rd level, your Lay on Hands ability no longer works as it
-      did before. Your Lay on Hands ability can restore hit points to undead
-      creatures (including yourself), but healing is now only half as efficient
-      as it once was; you must spend 2 points to heal a point of damage, and you
-      must spend 7 to cure a disease or neutralize a poison. However, you can
-      now spend 5 points to deal an additional 1d8 points of necrotic damage
-      when hit with a weapon attack. This may not be combined with Divine Smite,
-      and you cannot spend more than 5 points per turn on this feature.</p>
+      <p>Beginning at 3rd level, your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.my42mip0qc35rcp2]{Lay
+      on Hands} ability no longer works as it did before. Your Lay on Hands
+      ability can restore hit points to undead creatures (including yourself),
+      but healing is now only half as efficient as it once was; you must spend 2
+      points to heal a point of damage, and you must spend 7 to cure a disease
+      or neutralize a poison. However, you can now spend 5 points to deal an
+      additional 1d8 points of necrotic damage when hit with a weapon attack.
+      This may not be combined with
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.c6aiq8cd90fo3ry1]{Divine
+      Smite}, and you cannot spend more than 5 points per turn on this
+      feature.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -24,17 +28,54 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null
-_id: 6n7xjmzhwnvo70gv
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723333728681
+  modifiedTime: 1723333858403
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 6n7xjmzhwnvo70gv
 _key: '!items!6n7xjmzhwnvo70gv'

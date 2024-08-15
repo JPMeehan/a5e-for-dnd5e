@@ -45,15 +45,15 @@ system:
     units: ''
     type: ''
   range:
-    value: 30
+    value: null
     long: null
-    units: ft
+    units: ''
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: generic
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -67,11 +67,59 @@ system:
     ability: ''
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.fBWYztPeT96RGlW2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: V5LycV1NfXttQwLX
+    transfer: false
+    name: Prior Tactics
+    img: icons/skills/social/diplomacy-unity-alliance.webp
+    _id: nZpi3RccV2d4JCt0
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Prior
+          Tactics","formula":"1d8","damageType":"","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/skills/social/diplomacy-unity-alliance.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On their next successful weapon attack, the chosen allies deal an extra
+      1d8 damage as they enact your recommended strategy.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723416533807
+      modifiedTime: 1723416574913
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!6kysmxmq2ey3pdtb.nZpi3RccV2d4JCt0'
 flags: {}
-_id: 6kysmxmq2ey3pdtb
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723416441902
+  modifiedTime: 1723416533867
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 6kysmxmq2ey3pdtb
 _key: '!items!6kysmxmq2ey3pdtb'

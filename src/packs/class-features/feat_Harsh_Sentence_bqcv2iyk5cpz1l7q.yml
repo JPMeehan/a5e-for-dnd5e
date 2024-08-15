@@ -1,7 +1,100 @@
 name: Harsh Sentence
 type: feat
 img: icons/skills/melee/strike-axe-energy-pink.webp
-effects: []
+effects:
+  - origin: Item.1On3sX3t540D5UXj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ww9W7RwpBp0SJhZW
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Harsh Sentence
+    img: icons/skills/melee/strike-axe-energy-pink.webp
+    _id: t0BXbjYGLufPmJPN
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        value: floor(@attributes.movement.walk.distance/2)
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: <p>Movement speed is halved.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722959827595
+      modifiedTime: 1722961407279
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!bqcv2iyk5cpz1l7q.t0BXbjYGLufPmJPN'
+  - origin: Item.1On3sX3t540D5UXj
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ww9W7RwpBp0SJhZW
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Harsh Sentence (14th Level)
+    img: icons/skills/melee/strike-axe-energy-pink.webp
+    _id: eCiuQDC9HisyADtG
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        value: floor(@attributes.movement.walk.distance/2)
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: <p>Movement speed is halved and the creature is also rattled.</p>
+    tint: '#ffffff'
+    statuses:
+      - rattled
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722960032150
+      modifiedTime: 1722961415685
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!bqcv2iyk5cpz1l7q.eCiuQDC9HisyADtG'
 folder: null
 flags: {}
 system:
@@ -12,9 +105,11 @@ system:
     value: >-
       <p>You gain the ability to infuse your attacks with the power of judgment.
       Once per turn, when you hit a creature with a weapon attack, your attack
-      deals an additional 1d6 psychic damage and the creature’s movement speed
-      is halved.</p><p>At 14th level, this bonus damage increases to 2d6 and the
-      creature is also rattled.</p>
+      deals an additional 1d6 psychic damage and the creature&rsquo;s movement
+      speed is halved till the end of its next turn.</p>
+
+      <p>At 14th level, this bonus damage increases to 2d6 and the creature is
+      also rattled.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -47,7 +142,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -57,15 +152,20 @@ system:
     parts:
       - - 1d6
         - psychic
+      - - 2d6
+        - psychic
     versatile: ''
   formula: ''
   save:
     ability: ''
     dc: null
     scaling: spell
-_id: bqcv2iyk5cpz1l7q
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722959728291
+  modifiedTime: 1722961441587
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: bqcv2iyk5cpz1l7q
 _key: '!items!bqcv2iyk5cpz1l7q'

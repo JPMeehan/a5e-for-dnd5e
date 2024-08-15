@@ -1,0 +1,115 @@
+folder: null
+name: Back to the Wall
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>While within 5 feet of a solid wall, you add your proficiency bonus to
+      damage rolls with weapon attacks.</p>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.KV7LPYpFhGGxlEWA
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: OIu5PQpeCkBOjD6v
+        applyToSelf: true
+    transfer: false
+    name: Back to the Wall
+    img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+    _id: KxCEXoyT2HatIxG0
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Back to the
+          Wall","formula":"@prof","damageType":"","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/earth/barrier-stone-explosion-spiked.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>While within 5 feet of a solid wall, you add your proficiency bonus to
+      damage rolls with weapon attacks.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723417424662
+      modifiedTime: 1723417456994
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!jqzyudtg6utdnyoh.KxCEXoyT2HatIxG0'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723417393140
+  modifiedTime: 1723417424703
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: jqzyudtg6utdnyoh
+_key: '!items!jqzyudtg6utdnyoh'

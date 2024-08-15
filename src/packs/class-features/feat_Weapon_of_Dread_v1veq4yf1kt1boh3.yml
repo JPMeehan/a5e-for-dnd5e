@@ -25,17 +25,54 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/weapons/swords/greatsword-crossguard-flanged-purple.webp
 effects: []
 flags: {}
 folder: null
-_id: v1veq4yf1kt1boh3
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723400243052
+  modifiedTime: 1723400260914
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: v1veq4yf1kt1boh3
 _key: '!items!v1veq4yf1kt1boh3'

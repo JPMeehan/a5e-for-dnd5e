@@ -1,7 +1,63 @@
 name: Vine Whip
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/nature/root-vine-wood-blue.webp
+effects:
+  - origin: Item.wL14UzYMTZhO7jtw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ABViPBzBlIwINSp4
+    transfer: false
+    name: Restrained
+    img: icons/magic/nature/root-vine-wood-blue.webp
+    _id: 9GUhgZGSeLcsmpka
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["restrained"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A restrained creature's Speed becomes 0, and it can't benefit from
+      bonuses to speed.</li>
+
+      <li>Attack rolls against a restrained creature are made with
+      advantage.</li>
+
+      <li>A restrained creature makes attack rolls with disadvantage.</li>
+
+      <li>The restrained creature has disadvantage on Dexterity saving
+      throws.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - restrained
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723062546037
+      modifiedTime: 1723062611290
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!98chs30l0ma7i8ug.9GUhgZGSeLcsmpka'
 flags: {}
 system:
   type:
@@ -17,11 +73,13 @@ system:
       against one target within 10 feet of it. On a hit the target takes 1d6
       force damage, and it must make a Strength saving throw against your spell
       save DC. On a failure the target is restrained by the vine (escape DC
-      equal to your spell save DC). </p><p>When you reach 10th level in this
-      class, the damage increases to 2d6. </p><p>As a bonus action on your turn,
-      you can move the vine up to 30 feet and repeat the attack, or if a
-      creature is currently restrained by the vine you may move the vine and the
-      restrained creature 10 feet in any direction.</p>
+      equal to your spell save DC).&nbsp;When you reach 10th level in this
+      class, the damage increases to 2d6.</p>
+
+      <p>As a bonus action on your turn, you can move the vine up to 30 feet and
+      repeat the attack, or if a creature is currently restrained by the vine
+      you may move the vine and the restrained creature 10 feet in any
+      direction.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -34,7 +92,6 @@ system:
   activation:
     type: bonus
     cost: 1
-    condition: ''
   uses:
     value: null
     max: ''
@@ -44,12 +101,12 @@ system:
   cover: null
   crewed: false
   target:
-    value: 10
-    width: 5
-    units: ft
-    type: line
+    value: null
+    width: null
+    units: ''
+    type: ''
   range:
-    value: 60
+    value: 10
     long: null
     units: ft
   consume:
@@ -57,27 +114,27 @@ system:
     target: null
     amount: null
   ability: null
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts:
-      - - 1d6
-        - force
-      - - 2d6
-        - force
+    parts: []
     versatile: ''
   formula: ''
   save:
-    ability: str
+    ability: ''
     dc: null
     scaling: spell
 folder: null
-_id: 98chs30l0ma7i8ug
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723062425439
+  modifiedTime: 1723062861488
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 98chs30l0ma7i8ug
 _key: '!items!98chs30l0ma7i8ug'

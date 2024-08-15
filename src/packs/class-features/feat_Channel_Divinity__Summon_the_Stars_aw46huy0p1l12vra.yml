@@ -1,0 +1,236 @@
+name: 'Channel Divinity: Summon the Stars'
+type: feat
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 17th level, you are able to manipulate the burning brilliance of the
+      stars themselves. Choose an object or creature within 60 feet. For 1
+      minute the target emits bright light in a 60-foot radius and dim light for
+      an additional 30 feet. When a creature starts its turn within 30 feet of
+      the target or first enters into a space within 30 feet of the target on
+      its turn, it makes a Constitution saving throw or becomes blinded for 1
+      minute. A blinded creature can repeat the saving throw at the end of each
+      of its turns, ending the effect on itself on a success.</p><p>The first
+      time this feature is used per long rest, any creature within 30 feet of
+      the target takes 12d6 radiant damage on a failed save, or half damage on a
+      success. Magical auras within the light’s radius become visible for 1
+      hour, shedding dim light in a 5-foot radius for 1 hour. An invisible
+      creature that fails its saving throw against the radiant damage is also
+      revealed and it sheds dim light in a 5-foot radius for 1 hour. </p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 60
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 12d6
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.gBdtq0yhsrr9Lm2M
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PNnUEIE46eYKDdL7
+        duration:
+          unit: minutes
+    transfer: false
+    name: Burning Brilliance
+    img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+    _id: QAApdw0ukepQLEtL
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '60'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '90'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For 1 minute the target emits bright light in a 60-foot radius and dim
+      light for an additional 30 feet. When a creature starts its turn within 30
+      feet of the target or first enters into a space within 30 feet of the
+      target on its turn, it makes a Constitution saving throw or becomes
+      blinded for 1 minute. A blinded creature can repeat the saving throw at
+      the end of each of its turns, ending the effect on itself on a
+      success.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723049638026
+      modifiedTime: 1723049918845
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!aw46huy0p1l12vra.QAApdw0ukepQLEtL'
+  - origin: Item.gBdtq0yhsrr9Lm2M
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PNnUEIE46eYKDdL7
+        duration:
+          unit: minutes
+    transfer: false
+    name: Blinded
+    img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+    _id: y4tDjPlxcNhBgFk9
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A blinded creature can't see and it automatically fails ability checks
+      that require sight.</li>
+
+      <li>Attack rolls against a blinded creature are made with advantage, and
+      the creature's attack rolls are made with disadvantage.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - blinded
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723049967647
+      modifiedTime: 1723049993889
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!aw46huy0p1l12vra.y4tDjPlxcNhBgFk9'
+  - origin: Item.gBdtq0yhsrr9Lm2M
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: PNnUEIE46eYKDdL7
+        duration:
+          unit: hours
+    transfer: false
+    name: Aura
+    img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+    _id: ToNOWcMSk22aSyeN
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.dim'
+        value: '5'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>Magical auras within the light’s radius become visible for 1 hour, shedding dim light in a 5-foot radius for 1 hour. An invisible creature that fails its saving throw against the radiant damage is also revealed and it sheds dim light in a 5-foot radius for 1 hour.\_</p>"
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723050016036
+      modifiedTime: 1723050048629
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!aw46huy0p1l12vra.ToNOWcMSk22aSyeN'
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723049499481
+  modifiedTime: 1723050016080
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: aw46huy0p1l12vra
+_key: '!items!aw46huy0p1l12vra'

@@ -10,8 +10,10 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>You may use your <em>Rallying Surge</em> feature a number of times
-      equal to half your proficiency bonus between rests.</p>
+      <p>You may use
+      your&nbsp;@UUID[Compendium.a5e-for-dnd5e.class-features.Item.qc8h2qnq0of52qct]{Rallying
+      Surge} feature a number of times equal to half your proficiency bonus
+      between rests.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -22,13 +24,53 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
+    condition: ''
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: xt9trm6zn2ahecrl
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @classes.marshal.level
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723399500720
+  modifiedTime: 1723399597390
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: xt9trm6zn2ahecrl
 _key: '!items!xt9trm6zn2ahecrl'

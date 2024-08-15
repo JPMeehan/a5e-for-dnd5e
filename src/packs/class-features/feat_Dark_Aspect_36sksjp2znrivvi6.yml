@@ -24,17 +24,54 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/magic/light/orb-lightbulb-gray.webp
 effects: []
 flags: {}
 folder: null
-_id: 36sksjp2znrivvi6
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723216909449
+  modifiedTime: 1723216951324
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 36sksjp2znrivvi6
 _key: '!items!36sksjp2znrivvi6'

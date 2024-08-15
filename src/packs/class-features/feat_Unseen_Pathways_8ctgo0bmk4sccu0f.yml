@@ -21,7 +21,9 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: action
+    cost: 1
   uses:
     value: null
     max: ''
@@ -60,9 +62,12 @@ system:
     scaling: spell
 effects: []
 flags: {}
-_id: 8ctgo0bmk4sccu0f
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722961289773
+  modifiedTime: 1722961361838
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 8ctgo0bmk4sccu0f
 _key: '!items!8ctgo0bmk4sccu0f'

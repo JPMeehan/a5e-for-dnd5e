@@ -1,0 +1,44 @@
+name: Loyal to the Crown
+type: feat
+img: icons/commodities/treasure/crown-gold-satin-gems-red.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You are loyal to a specific nation, lord, organization, or other
+      authority. While you are in good standing with that authority and are
+      within their area of influence, you and your allies can easily find free
+      food and lodging, and creatures with a CR lower than yours that are also
+      loyal to that authority may perform simple tasks at your request. You lose
+      good standing with that authority if you go against their
+      wishes.</p><p>Consult the Narrator on authorities within the&nbsp;campaign
+      setting, their wishes, and what will keep or return you to good standing
+      with them.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723128130261
+  modifiedTime: 1723128161893
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: qujwefzyefrk3ty7
+_key: '!items!qujwefzyefrk3ty7'

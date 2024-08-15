@@ -1,0 +1,130 @@
+folder: null
+name: Channel Divinity
+type: feat
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you choose this archetype at 3rd level, you gain the following two
+      Channel Divinity options.</p>
+
+      <p><em><strong>Earthen Resolve. </strong></em>When you are subjected to an
+      effect that would alter your behavior (such as becoming charmed, confused,
+      or frightened) or that would allow another creature to dictate your
+      actions (such as the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.bs1zn1s8ewwa4tfx]{Command}
+      spell), you can use your reaction to negate that effect on you.</p>
+
+      <p><em><strong>Rock Skin. </strong></em>You can use an action to cover
+      yourself in a magical layer of gray stone plates. You gain temporary hit
+      points equal to your herald level + your Charisma modifier (minimum of 1).
+      The temporary hit points last up to 1 hour. While the temporary hit points
+      remain, critical hits against you are treated as normal hits.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classes.herald.level + max(@mod,1)'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.W4IORJrx91VxTgjD
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: QFI5s6KoI0lxnuhT
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Rock Skin
+    img: icons/magic/earth/barrier-stone-pillar-purple.webp
+    _id: BDBqbbiaFfrxN10q
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>While the temporary hit points remain, critical hits against you are
+      treated as normal hits.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723457551281
+      modifiedTime: 1723457568576
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!sljou1gszgtwew08.BDBqbbiaFfrxN10q'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723457217913
+  modifiedTime: 1723457573540
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: sljou1gszgtwew08
+_key: '!items!sljou1gszgtwew08'

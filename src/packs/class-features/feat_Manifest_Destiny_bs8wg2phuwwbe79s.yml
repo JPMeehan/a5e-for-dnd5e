@@ -10,13 +10,24 @@ system:
     value: >-
       <p>Starting at 15th level, you can use an action and expend one use of
       Channel Divinity to bathe yourself in holy light for 1 minute. For the
-      duration, you gain the following benefits:</p><ul><li>You gain an
-      expertise die on Insight, Intimidation and Perception checks.</li><li>When
-      you miss a weapon attack, you deal radiant damage equal to your Charisma
-      bonus.</li><li>When you spend spell slots with Unbound Heroism, you gain
-      twice as many temporary hit points and your additional radiant damage
-      becomes 1d12.</li><li>You score critical hits on a roll of
-      19&ndash;20.</li></ul>
+      duration, you gain the following benefits:</p>
+
+      <ul>
+
+      <li>You gain an expertise die on Insight, Intimidation and Perception
+      checks.</li>
+
+      <li>When you miss a weapon attack, you deal radiant damage equal to your
+      Charisma bonus.</li>
+
+      <li>When you spend spell slots with
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.bquuq896rt8fg7l3]{Unbound
+      Heroism}, you gain twice as many temporary hit points and your additional
+      radiant damage becomes 1d12.</li>
+
+      <li>You score critical hits on a roll of 19&ndash;20.</li>
+
+      </ul>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -27,7 +38,10 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: reaction
+    cost: 1
+    condition: Suffer damage
   uses:
     value: null
     max: ''
@@ -50,7 +64,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: heal
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -58,8 +72,8 @@ system:
     damage: ''
   damage:
     parts:
-      - - '@mod'
-        - radiant
+      - - 2*@prof
+        - temphp
     versatile: ''
   formula: ''
   save:
@@ -67,8 +81,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/skills/movement/arrows-up-trio-red.webp
-    origin: Item.bs8wg2phuwwbe79s
+  - origin: Item.5sRqRAXAipXFRW73
     flags:
       a5e:
         sort: 0
@@ -89,6 +102,10 @@ effects:
         value: '1'
         mode: 2
         priority: null
+      - key: system.skills.ins.expertiseDice
+        value: '1'
+        mode: 2
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -98,18 +115,97 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>For the duration, you gain the following benefits:</p>
+
+      <ul>
+
+      <li>You gain an expertise die on Insight, Intimidation and Perception
+      checks.</li>
+
+      <li>When you miss a weapon attack, you deal radiant damage equal to your
+      Charisma bonus.</li>
+
+      <li>When you spend spell slots with Unbound Heroism, you gain twice as
+      many temporary hit points and your additional radiant damage becomes
+      1d12.</li>
+
+      <li>You score critical hits on a roll of 19–20.</li>
+
+      </ul>
     statuses: []
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.22
+      createdTime: null
+      modifiedTime: 1723415694871
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/movement/arrows-up-trio-red.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
     _key: '!items.effects!bs8wg2phuwwbe79s.yJiuokPAg1QsZwnJ'
+  - origin: Item.gC9LRrAqzq7TKVpw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: mZ3DwcEV8Jfx8pPf
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Unbound Heroism
+    _id: TzUhhXyfKi69rRgU
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Unbound
+          Heroism","formula":"1d12","damageType":"radiant","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":["radiant"],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/light/projectile-smoke-blue-light.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>As long as you have these temporary hit points, your weapon attacks
+      deal an additional 1d6 radiant damage. These temporary hit points last for
+      1 minute.</p>
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723415738614
+      modifiedTime: 1723415765518
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/light/projectile-smoke-blue-light.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!bs8wg2phuwwbe79s.TzUhhXyfKi69rRgU'
 flags: {}
-_id: bs8wg2phuwwbe79s
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723415576879
+  modifiedTime: 1723415751663
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: bs8wg2phuwwbe79s
 _key: '!items!bs8wg2phuwwbe79s'

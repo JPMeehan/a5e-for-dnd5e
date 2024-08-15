@@ -1,0 +1,40 @@
+folder: null
+name: Aggressive Delving
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <ul><li>You make Dexterity&nbsp;saving throws</span>&nbsp;to avoid or
+      resist traps with&nbsp;advantage</span>.</li><li>You
+      have&nbsp;<span>advantage&nbsp;on&nbsp;<span>ability checks&nbsp;to break
+      objects such as locked or jammed doors and locked chests, and your attacks
+      deal double damage to objects and constructs.</li></ul>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723417677674
+  modifiedTime: 1723417683165
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 0ucf0mr00tunix23
+_key: '!items!0ucf0mr00tunix23'

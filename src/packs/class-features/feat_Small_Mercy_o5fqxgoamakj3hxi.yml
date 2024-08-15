@@ -1,0 +1,40 @@
+name: Small Mercy
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Also at 1st level, you&rsquo;re given the power to improve the chances
+      of allies wounded on the battlefield. You learn
+      the&nbsp;@UUID[Compendium.a5e-for-dnd5e.spells.Item.omvngnmoo75is54f]{Spare
+      the Dying} cantrip. This does not count against your number of known
+      cantrips.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1723039863158
+  modifiedTime: 1723039917032
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: o5fqxgoamakj3hxi
+_key: '!items!o5fqxgoamakj3hxi'

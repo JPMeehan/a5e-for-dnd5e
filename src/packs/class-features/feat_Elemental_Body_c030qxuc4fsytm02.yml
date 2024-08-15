@@ -14,14 +14,21 @@ system:
 
       <ul>
 
-      <li><strong>Earth</strong>: You gain the Earth Glide adaptation.</li>
+      <li><strong>Earth</strong>: You gain the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.utcgr3iulspvdft0]{Earth
+      Glide} adaptation.</li>
 
-      <li><strong>Air</strong>: You gain the Wings of Air adaptation.</li>
+      <li><strong>Air</strong>: You gain the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.lczz48v2p88m1hgq]{Wings
+      of Air} adaptation.</li>
 
-      <li><strong>Fire</strong>: You gain the Flame Jet adaptation.</li>
+      <li><strong>Fire</strong>: You gain the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.9tn5pstqxq73khmh]{Flame
+      Jet} adaptation.</li>
 
-      <li><strong>Water</strong>: You gain the Denizen of the Deep
-      adaptation.</li>
+      <li><strong>Water</strong>: You gain the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.w0fijhokako8n7zu]{Denizen
+      of the Deep} adaptation.</li>
 
       </ul>
     chat: ''
@@ -41,9 +48,12 @@ system:
 effects: []
 flags: {}
 folder: null
-_id: c030qxuc4fsytm02
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722974552865
+  modifiedTime: 1722975271009
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: c030qxuc4fsytm02
 _key: '!items!c030qxuc4fsytm02'

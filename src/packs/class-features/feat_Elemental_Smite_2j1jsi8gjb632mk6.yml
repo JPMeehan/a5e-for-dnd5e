@@ -8,8 +8,10 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Starting at 3rd level, when you use your Divine Smite, at your option
-      you can change the damage type to that of your element.</p>
+      <p>Starting at 3rd level, when you use your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.c6aiq8cd90fo3ry1]{Divine
+      Smite}, at your option you can change the damage type to that of your
+      element.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -26,9 +28,12 @@ system:
     max: null
 effects: []
 flags: {}
-_id: 2j1jsi8gjb632mk6
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723237519587
+  modifiedTime: 1723237529619
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 2j1jsi8gjb632mk6
 _key: '!items!2j1jsi8gjb632mk6'

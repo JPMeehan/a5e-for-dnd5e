@@ -9,10 +9,17 @@ system:
     value: >-
       <p>At 3rd level, you learn a variety of techniques to draw attention to
       yourself in a fight. You gain proficiency with your choice of the
-      Performance skill or the Intimidation skill.</p><p>You become proficient
-      with the Cutting Omen combat tradition. </p><p>You also learn to quickly
-      decorate your armor and weapons to maximum effect. You may spend 10
-      minutes to grant the flamboyant property to weapons you wield.<br></p>
+      Performance skill or the Intimidation skill.</p>
+
+      <p>You become proficient with the Cutting Omen combat tradition.</p>
+
+      <p>You also learn to quickly decorate your armor and weapons to maximum
+      effect. You may spend 10 minutes to grant the flamboyant property to
+      weapons you wield.</p>
+
+      <p>Finally, choose five multiclass spells associated with the fighter
+      class and add them to your fighter spells known. They do not count against
+      your total spells known.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -23,16 +30,53 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: minute
+    cost: 10
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 effects: []
 flags: {}
 folder: null
-_id: dfh6fikw9bgjjfdp
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723141734741
+  modifiedTime: 1723145985117
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: dfh6fikw9bgjjfdp
 _key: '!items!dfh6fikw9bgjjfdp'

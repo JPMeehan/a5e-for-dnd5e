@@ -14,13 +14,20 @@ system:
 
       <ul>
 
-      <li dir="ltr"><strong>Earth</strong>: Earthwalk</li>
+      <li dir="ltr"><strong>Earth</strong>:
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.akj9l9wizx9dwnn5]{Earth
+      Walk}</li>
 
-      <li dir="ltr"><strong>Air</strong>: Aerial Acclimation</li>
+      <li dir="ltr"><strong>Air</strong>:
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.ov0c7pkl89laxi38]{Aerial
+      Acclimation}</li>
 
-      <li dir="ltr"><strong>Fire</strong>: Heat Acclimation</li>
+      <li dir="ltr"><strong>Fire</strong>:
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.qehhw2uaxvctt47i]{Heat
+      Acclimation}</li>
 
-      <li><strong> Water</strong>: Amphibiousness</li>
+      <li><strong> Water</strong>:
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.qcqtm6pw7et859p7]{Amphibiousness}</li>
 
       </ul>
     chat: ''
@@ -40,9 +47,12 @@ system:
 effects: []
 flags: {}
 folder: null
-_id: puwxym4jiehmq3ud
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722974136833
+  modifiedTime: 1722974229961
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: puwxym4jiehmq3ud
 _key: '!items!puwxym4jiehmq3ud'

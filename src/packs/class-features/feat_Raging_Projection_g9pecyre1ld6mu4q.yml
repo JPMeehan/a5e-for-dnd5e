@@ -1,0 +1,85 @@
+folder: null
+name: Raging Projection
+type: feat
+img: icons/magic/movement/portal-vortex-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you select this archetype at 3rd level, you have developed the
+      unique psionic ability to render your emotions, particularly your fury,
+      contagious, and to project them onto others.<span style="mso-spacerun:
+      yes;">&nbsp; </span></p><p>Whenever you gain rage hit points, you can use
+      your reaction to project your rage at another creature within 20
+      feet.<span style="mso-spacerun: yes;">&nbsp; </span>They either gain
+      temporary hit points equal the number of rage hit points you just gained,
+      or take psychic damage equal to that amount.<span style="mso-spacerun:
+      yes;">&nbsp; </span></p><p>At 6th level the range of this ability
+      increases to 30 feet, at 10th level it increases to 40ft, and at 14th
+      level it increases to 50ft.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: Gain rage hit points
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 20
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classResources.rage-hit-points'
+        - temphp
+      - - '@classResources.rage-hit-points'
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722890449812
+  modifiedTime: 1722890560886
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: g9pecyre1ld6mu4q
+_key: '!items!g9pecyre1ld6mu4q'

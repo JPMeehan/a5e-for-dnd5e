@@ -1,6 +1,6 @@
 name: Treespeak
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/magic/nature/tree-animated-smile.webp
 effects: []
 flags: {}
 system:
@@ -15,12 +15,13 @@ system:
       vague understanding of the world around them, though creatures with the
       plant type can often give you information about nearby locations and
       monsters, including whatever they have perceived within the past day. At
-      the Narrator’s discretion, you might be able to persuade a plant creature
-      to perform a small favor for you. </p><p>In addition, your verdant magic
-      causes those around you to flourish. Whenever you cast a spell of the
-      plants school, <strong>roll a number of d4s equal to the spell’s
-      level</strong>. You and allied creatures within 10 feet of you regain a
-      number of hit points equal to the result.</p>
+      the Narrator&rsquo;s discretion, you might be able to persuade a plant
+      creature to perform a small favor for you.</p>
+
+      <p>In addition, your verdant magic causes those around you to flourish.
+      Whenever you cast a spell of the <em>plants </em>school, roll a number of
+      d4s equal to the spell&rsquo;s level. You and allied creatures within 10
+      feet of you regain a number of hit points equal to the result.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -48,22 +49,24 @@ system:
     units: ''
     type: ''
   range:
-    value: 10
+    value: null
     long: null
-    units: ft
+    units: self
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: heal
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d4
+        - healing
     versatile: ''
   formula: ''
   save:
@@ -71,9 +74,12 @@ system:
     dc: null
     scaling: spell
 folder: null
-_id: vcg1i3urrosxndy8
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723062149167
+  modifiedTime: 1723062334251
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vcg1i3urrosxndy8
 _key: '!items!vcg1i3urrosxndy8'

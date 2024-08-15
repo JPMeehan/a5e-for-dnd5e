@@ -12,13 +12,13 @@ system:
       points in an outdoor setting, you can summon a corrupted creature of grave
       earth and necrotic vines from a space adjacent to it. Treat this as a free
       casting of the
-      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.633bpp281x35cz6t]{Conjure
-      Elemental}</em>&nbsp;spell cast with an effective 6th-level spell slot,
-      except it can only conjure an earth elemental, the creature&rsquo;s bonus
-      damage is necrotic, and it has the undead type in addition to the
-      elemental type. Once you have used this feature a number of times equal to
-      your Wisdom modifier (minimum once), you can&rsquo;t do so again until you
-      finish a long rest.</p>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.633bpp281x35cz6t]{Conjure
+      Elemental}&nbsp;spell cast with an effective 6th-level spell slot, except
+      it can only conjure an earth elemental, the creature&rsquo;s bonus damage
+      is necrotic, and it has the undead type in addition to the elemental type.
+      Once you have used this feature a number of times equal to your Wisdom
+      modifier (minimum once), you can&rsquo;t do so again until you finish a
+      long rest.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -67,9 +67,12 @@ system:
     scaling: spell
 effects: []
 flags: {}
-_id: e53exf2i3xobiqv3
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722965751924
+  modifiedTime: 1722965795791
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: e53exf2i3xobiqv3
 _key: '!items!e53exf2i3xobiqv3'

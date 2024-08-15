@@ -1,0 +1,75 @@
+name: Familiar Bond
+type: feat
+img: icons/magic/nature/plant-sprout-hand-flower-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You may summon a plant creature using your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.p2ve9q856nr1j0pw]{Plant
+      Bond} feature without expending any uses of
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3jdfihvtbyhbv9ez]{Wild
+      Shape}. Once you summon a plant in this way, you cannot do so again
+      without expending uses of Wild Shape until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Overgrown Summons
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonus
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723064934182
+  modifiedTime: 1723065043502
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: dcqtj9fozkh9nxd8
+_key: '!items!dcqtj9fozkh9nxd8'

@@ -9,12 +9,24 @@ system:
   description:
     value: >-
       <p>Starting at 15th level, you have mastered the art of fighting in
-      cramped environments both offensively and defensively.</p><ul><li>If you
-      selected Back to the Wall as your Close-Quarters Fighting feature, your
-      damage bonus increases to 2 + your proficiency bonus.</li><li>If you
-      selected Tunnel Guardian as your Close-Quarters Fighting feature, your
-      bonus to AC increases to +3.</li><li>You gain the Close-Quarters Fighting
-      feature you did not select at level 3.</li></ul>
+      cramped environments both offensively and defensively.</p>
+
+      <ul>
+
+      <li>If you selected
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.jqzyudtg6utdnyoh]{Back
+      to the Wall} as your Close-Quarters Fighting feature, your damage bonus
+      increases to 2 + your proficiency bonus.</li>
+
+      <li>If you selected
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.99nhzqkb0ww5wd4g]{Tunnel
+      Guardian} as your Close-Quarters Fighting feature, your bonus to AC
+      increases to +3.</li>
+
+      <li>You gain the Close-Quarters Fighting feature you did not select at
+      level 3.</li>
+
+      </ul>
     chat: ''
   source:
     book: Dungeon Delver's Guide
@@ -47,7 +59,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -62,8 +74,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/earth/barrier-stone-explosion-spiked.webp
-    origin: Item.s33r69d7vuru4cr6
+  - origin: Item.USCSkxln4xDpDXmM
     flags:
       a5e:
         sort: 0
@@ -87,16 +98,117 @@ effects:
       startTurn: null
     description: ''
     statuses: []
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.22
+      createdTime: null
+      modifiedTime: 1723417823641
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
     _key: '!items.effects!s33r69d7vuru4cr6.9JCbOWYhdRotoSnp'
+  - origin: Item.KV7LPYpFhGGxlEWA
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 6PDbzRbJh6fVeUz1
+        applyToSelf: true
+    transfer: false
+    name: Back to the Wall
+    img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+    _id: hhPRQ9q6YIigTClN
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Back to the Wall","formula":"2 +
+          @prof","damageType":"","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/magic/earth/barrier-stone-explosion-spiked.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>While within 5 feet of a solid wall, you add 2 + your proficiency bonus
+      to damage rolls with weapon attacks.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723417894175
+      modifiedTime: 1723417942603
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!s33r69d7vuru4cr6.hhPRQ9q6YIigTClN'
+  - origin: Item.Wm6lG7NOaj7tXuVl
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: miDIzaGTwDvykhNL
+        applyToSelf: true
+    transfer: false
+    name: Tunnel Guardian
+    img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+    _id: A80SeOCF6J7Nhq7p
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        value: '3'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>While within 5 feet of a solid wall, you gain +3 AC.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723417919107
+      modifiedTime: 1723417956655
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!s33r69d7vuru4cr6.A80SeOCF6J7Nhq7p'
 flags: {}
-_id: s33r69d7vuru4cr6
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723417823606
+  modifiedTime: 1723417981961
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: s33r69d7vuru4cr6
 _key: '!items!s33r69d7vuru4cr6'

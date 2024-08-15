@@ -1,0 +1,37 @@
+folder: null
+name: Path of the Mummy
+type: feat
+img: icons/commodities/cloth/cloth-roll-worn-tan.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain the
+      @UUID[Compendium.a5e.a5e-feats.Item.yzucj1tkkfertl0b]{Embalmed} feat.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723335383641
+  modifiedTime: 1723335395431
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: orEuSrQOYCY8xHXq
+_key: '!items!orEuSrQOYCY8xHXq'

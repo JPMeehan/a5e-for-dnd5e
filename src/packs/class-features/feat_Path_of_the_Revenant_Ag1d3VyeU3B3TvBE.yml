@@ -1,0 +1,37 @@
+folder: null
+name: Path of the Revenant
+type: feat
+img: icons/magic/death/skull-energy-light-purple.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain the
+      @UUID[Compendium.a5e.a5e-feats.Item.2nx0w4eics706sym]{Vendetta} feat.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723335427882
+  modifiedTime: 1723335437287
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: Ag1d3VyeU3B3TvBE
+_key: '!items!Ag1d3VyeU3B3TvBE'

@@ -10,10 +10,11 @@ system:
     value: >-
       <p dir="ltr">When you use your Wild Shape to transform into a creature
       with both a bite attack and a swim speed, you gain an expertise die on
-      Stealth and Athletics checks while in the water.<br>In addition, once per
-      turn, you can deal extra damage when you hit a creature with a bite
-      attack. The amount of extra damage is a number of d6s equal to half your
-      proficiency bonus.</p>
+      Stealth and Athletics checks while in the water.</p>
+
+      <p dir="ltr">In addition, once per turn, you can deal extra damage when
+      you hit a creature with a bite attack. The amount of extra damage is a
+      number of d6s equal to half your proficiency bonus.</p>
 
       <p dir="ltr">In order to apply this damage, you must not have disadvantage
       on the attack and your target must be within 5 feet of another enemy of
@@ -67,9 +68,12 @@ system:
     scaling: spell
 effects: []
 flags: {}
-_id: godyvmgtfst97q29
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722968440733
+  modifiedTime: 1722968533889
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: godyvmgtfst97q29
 _key: '!items!godyvmgtfst97q29'

@@ -1,0 +1,37 @@
+folder: null
+name: Path of the Vampire
+type: feat
+img: icons/magic/death/mouth-bite-fangs-vampire.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain the
+      @UUID[Compendium.a5e.a5e-feats.Item.zbnketvz0zntc4ki]{Newblood} feat.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723335458800
+  modifiedTime: 1723335467488
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 3Jb49f3nacLzry86
+_key: '!items!3Jb49f3nacLzry86'

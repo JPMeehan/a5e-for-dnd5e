@@ -10,11 +10,11 @@ system:
       <p dir="ltr">Also at 1st level, your mystical powers manifest in very
       tangible skills. Choose one benefit from the following:</p>
 
-      <h4 dir="ltr"><strong>Warrior&rsquo;s Gift</strong></h4>
+      <h2 dir="ltr">Warrior&rsquo;s Gift</h2>
 
       <p dir="ltr">You are proficient with martial weapons and heavy armor.</p>
 
-      <h4 dir="ltr"><strong>Nature&rsquo;s Insight</strong></h4>
+      <h2 dir="ltr">Nature&rsquo;s Insight</h2>
 
       <p dir="ltr">You gain proficiency with your choice of either Insight or
       Nature. You also learn two bonus cantrips, which count as cleric spells
@@ -27,21 +27,21 @@ system:
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Fire Priest. Any one fire cantrip from
-      any spell list.</p>
+      <p dir="ltr" role="presentation"><strong>Fire Priest. </strong>Any one
+      fire cantrip from any spell list.</p>
 
       </li>
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Ice Priest. Any one cold cantrip from any
-      spell list.</p>
+      <p dir="ltr" role="presentation"><strong>Ice Priest. </strong>Any one cold
+      cantrip from any spell list.</p>
 
       </li>
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Plant Priest. Either
+      <p dir="ltr" role="presentation"><strong>Plant Priest.</strong> Either
       @UUID[Compendium.a5e-for-dnd5e.spells.Item.zaeerhaj7ici4dtd]{Shillelagh},
       or any one plants or poison cantrip from any spell list.</p>
 
@@ -49,22 +49,22 @@ system:
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Stone Priest. Any one earth or force
-      cantrip from any spell list.&nbsp;</p>
+      <p dir="ltr" role="presentation"><strong>Stone Priest.</strong> Any one
+      earth or force cantrip from any spell list.&nbsp;</p>
 
       </li>
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Storm Priest. Any one lighting, thunder,
-      or storm cantrip from any spell list.&nbsp;</p>
+      <p dir="ltr" role="presentation"><strong>Storm Priest. </strong>Any one
+      lighting, thunder, or storm cantrip from any spell list.&nbsp;</p>
 
       </li>
 
       <li dir="ltr" aria-level="2">
 
-      <p dir="ltr" role="presentation">Water Priest. Any one acid or water
-      cantrip from any spell list.</p>
+      <p dir="ltr" role="presentation"><strong>Water Priest. </strong>Any one
+      acid or water cantrip from any spell list.</p>
 
       </li>
 
@@ -88,9 +88,12 @@ system:
 effects: []
 flags: {}
 folder: null
-_id: by9yv1q04hk8vbvy
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722957282574
+  modifiedTime: 1722957353713
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: by9yv1q04hk8vbvy
 _key: '!items!by9yv1q04hk8vbvy'

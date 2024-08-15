@@ -1,0 +1,163 @@
+name: Flash Fight
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects:
+  - origin: Item.JN0ocSUD1ynCaG6s
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: hwPQzUhr9WB16zcd
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Gentle Illumination
+    img: icons/magic/light/explosion-star-glow-silhouette.webp
+    _id: Sr1CJ2o77J16pVdK
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Advantage on attacks made against it before the start of your next
+      turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723047449449
+      modifiedTime: 1723047503613
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!es9jn8a9en6e5mih.Sr1CJ2o77J16pVdK'
+  - origin: Item.JN0ocSUD1ynCaG6s
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: xS3mewJjDsCGosu2
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Coruscating Shimmer
+    img: icons/magic/light/explosion-star-glow-silhouette.webp
+    _id: voWl4aVoluQiLaH4
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Creatures have disadvantage on attack rolls against the touched
+      ally.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723047548057
+      modifiedTime: 1723047568075
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!es9jn8a9en6e5mih.voWl4aVoluQiLaH4'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 1st level, you learn that light is everything on the battlefield.
+      You can use an action to touch a hostile creature within your reach,
+      gently illuminating it with your divine will and granting advantage on
+      attacks made against it before the start of your next
+      turn.</p><p>Alternatively, you can use an action to touch an ally within
+      reach, surrounding them with a coruscating shimmer of bright light. Until
+      the start of your next turn, creatures have disadvantage on attack rolls
+      against the touched ally.</p><p>Once you have used this feature a number
+      of times equal to your Wisdom modifier, you cannot do so again until you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723047411501
+  modifiedTime: 1723047596297
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: es9jn8a9en6e5mih
+_key: '!items!es9jn8a9en6e5mih'

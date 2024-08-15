@@ -1,0 +1,76 @@
+name: 'Channel Divinity: Divine Protection'
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-purple-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Beginning at 17th level, you may bluntly deploy divine power to shield
+      your companions from harm. When one or more allies within 30 feet would
+      take damage from an attack, effect, or spell, you can use your reaction
+      and
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.s4iiatrup3e3virw]{Channel
+      Divinity} to negate that damage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: One or more allies would take damage from an attack, effect, or spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1723040285021
+  modifiedTime: 1723040421733
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: gj66vhbab2avu3lm
+_key: '!items!gj66vhbab2avu3lm'

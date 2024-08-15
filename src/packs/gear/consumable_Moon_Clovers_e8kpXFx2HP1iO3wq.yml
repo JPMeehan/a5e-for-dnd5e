@@ -1,0 +1,74 @@
+folder: jczlz1TrOcJzDCz6
+name: Moon Clovers
+type: consumable
+img: icons/commodities/flowers/clover-pink.webp
+system:
+  description:
+    value: >-
+      <p>Undead cannot come within 10 feet of. Once picked, this plant
+      permanently loses its efficacy in 1 week.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: .nan
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722880330383
+  modifiedTime: 1722880501127
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: e8kpXFx2HP1iO3wq
+_key: '!items!e8kpXFx2HP1iO3wq'

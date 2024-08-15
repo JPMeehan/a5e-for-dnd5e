@@ -28,13 +28,51 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: reaction
+    cost: 1
+    condition: A creature within 5 feet of you is targeted with an attack
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: pewyecxyp78fg8y2
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723213053899
+  modifiedTime: 1723213259794
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: pewyecxyp78fg8y2
 _key: '!items!pewyecxyp78fg8y2'

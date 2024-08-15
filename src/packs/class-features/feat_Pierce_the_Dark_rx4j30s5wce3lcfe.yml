@@ -27,73 +27,14 @@ system:
   uses:
     per: null
     max: null
-effects:
-  - icon: icons/magic/unholy/beam-ringed-impact-purple.webp
-    origin: Item.rx4j30s5wce3lcfe
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Darkvision
-    _id: 6mlwhs0XQMIwL718
-    changes:
-      - key: system.attributes.senses.darkvision.distance
-        value: '120'
-        mode: 6
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _stats:
-      coreVersion: '12'
-      systemId: a5e
-      systemVersion: 0.19.17
-    _key: '!items.effects!rx4j30s5wce3lcfe.6mlwhs0XQMIwL718'
-  - icon: icons/magic/unholy/beam-ringed-impact-purple.webp
-    origin: Item.rx4j30s5wce3lcfe
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Blindsight
-    _id: 2n6mwiosRCEcXlLr
-    changes:
-      - key: system.attributes.senses.blindsight.distance
-        value: '30'
-        mode: 2
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _stats:
-      coreVersion: '12'
-      systemId: a5e
-      systemVersion: 0.19.17
-    _key: '!items.effects!rx4j30s5wce3lcfe.2n6mwiosRCEcXlLr'
+effects: []
 flags: {}
-_id: rx4j30s5wce3lcfe
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723486458180
+  modifiedTime: 1723490015600
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: rx4j30s5wce3lcfe
 _key: '!items!rx4j30s5wce3lcfe'

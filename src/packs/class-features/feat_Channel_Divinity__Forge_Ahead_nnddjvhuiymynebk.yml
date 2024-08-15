@@ -25,46 +25,52 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-effects:
-  - icon: icons/environment/wilderness/cave-entrance-mountain-blue.webp
-    origin: Item.nnddjvhuiymynebk
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Speed Boost
-    _id: e6uWrkA5iMBBmUd1
-    changes:
-      - key: system.attributes.movement.walk
-        value: '10'
-        mode: 2
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _stats:
-      coreVersion: '12'
-      systemId: a5e
-      systemVersion: 0.19.17
-    _key: '!items.effects!nnddjvhuiymynebk.e6uWrkA5iMBBmUd1'
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
 flags: {}
-_id: nnddjvhuiymynebk
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722951415249
+  modifiedTime: 1722951470419
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: nnddjvhuiymynebk
 _key: '!items!nnddjvhuiymynebk'

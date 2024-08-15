@@ -1,0 +1,126 @@
+name: Noxious Miasma
+type: feat
+img: icons/magic/acid/dissolve-drip-droplet-smoke.webp
+effects:
+  - origin: Item.p68GIhEjhTUXnkN9
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: yDvsYnJrX4hVUZOF
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Poisoned
+    img: icons/magic/acid/dissolve-drip-droplet-smoke.webp
+    _id: Fmysct2HgUv7OYTk
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["poisoned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A poisoned creature has disadvantage on attack rolls and ability
+      checks.</p>
+    tint: '#ffffff'
+    statuses:
+      - poisoned
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723065539903
+      modifiedTime: 1723065565473
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!swcfo5okfw1lsbyy.Fmysct2HgUv7OYTk'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Miasmic ichor runs through you and that which you grow. As an action
+      you can expend a use of
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3jdfihvtbyhbv9ez]{Wild
+      Shape} to cause yourself or a creature you&rsquo;ve summoned to give off a
+      noxious miasma in a 10-foot radius for the next minute. Whenever a
+      non-plant creature other than you starts its turn within the
+      miasma&rsquo;s radius or moves there for the first time on its turn, it
+      must make a Constitution saving throw against your spell save DC or be
+      poisoned until the start of its next turn.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Deathly Nectar
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723065231229
+  modifiedTime: 1723065539945
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: swcfo5okfw1lsbyy
+_key: '!items!swcfo5okfw1lsbyy'

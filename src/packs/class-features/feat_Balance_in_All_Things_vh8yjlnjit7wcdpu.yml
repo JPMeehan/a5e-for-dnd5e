@@ -1,0 +1,77 @@
+name: Balance in All Things
+type: feat
+img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 8th level, the damage you deal to your enemies radiates healing
+      energy back to you and your allies. When you hit with a spell attack, you
+      and any allies within 30 feet of you regain hit points equal to your
+      Wisdom modifier + the spell’s level. A creature cannot benefit from this
+      effect more than once per short rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: 1
+    condition: You hit with a spell attack
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@mod'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1723040115863
+  modifiedTime: 1723040232500
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vh8yjlnjit7wcdpu
+_key: '!items!vh8yjlnjit7wcdpu'

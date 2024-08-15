@@ -31,11 +31,58 @@ system:
   uses:
     per: null
     max: null
-effects: []
+effects:
+  - origin: Item.5zKIrcik8SoUEHJe
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Wisdom of the Road
+    img: icons/magic/holy/saint-glass-portrait-halo.webp
+    _id: ZZjxDiO3tuA2vC9n
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.cul.ability
+        value: wis
+        mode: 6
+        priority: null
+      - key: system.skills.sur.ability
+        value: wis
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722889690628
+      modifiedTime: 1722889746595
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!new19m535oawimhz.ZZjxDiO3tuA2vC9n'
 flags: {}
-_id: new19m535oawimhz
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722889604940
+  modifiedTime: 1722889685055
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: new19m535oawimhz
 _key: '!items!new19m535oawimhz'

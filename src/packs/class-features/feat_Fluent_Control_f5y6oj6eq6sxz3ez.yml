@@ -1,7 +1,47 @@
 name: Fluent Control
 type: feat
-img: icons/svg/item-bag.svg
-effects: []
+img: icons/magic/control/mouth-smile-deception-purple.webp
+effects:
+  - origin: Item.GkP7mLP3O4DVGGHF
+    flags:
+      a5e:
+        sort: 0
+        transferType: passive
+    transfer: false
+    name: Fluent Control
+    img: icons/magic/control/mouth-smile-deception-purple.webp
+    _id: oPHx8PdaTprSAp5F
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.con.save.concentrationBonus
+        value: '@int.mod'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723332956742
+      modifiedTime: 1723332981341
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!f5y6oj6eq6sxz3ez.oPHx8PdaTprSAp5F'
 flags: {}
 system:
   type:
@@ -9,10 +49,12 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 10th level, you can use your Flexible Thinking feature as a bonus
-      action (instead of an action). </p><p>In addition, you add your
-      Intelligence modifier to Constitution saving throws made to maintain
-      concentration on spells.</p>
+      <p>At 10th level, you can use your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.v7ivxc03k9nwrw2n]{Flexible
+      Thinking} feature as a bonus action (instead of an action).</p>
+
+      <p>In addition, you add your Intelligence modifier to Constitution saving
+      throws made to maintain concentration on spells.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -23,14 +65,52 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
+    condition: ''
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 folder: null
-_id: f5y6oj6eq6sxz3ez
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723332695569
+  modifiedTime: 1723332951184
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: f5y6oj6eq6sxz3ez
 _key: '!items!f5y6oj6eq6sxz3ez'

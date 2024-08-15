@@ -8,9 +8,10 @@ system:
   description:
     value: >-
       <p>Beginning at 2nd level, as a bonus action you can lay a curse on a
-      creature you can see within 30 feet of you, using your Channel Divinity.
-      The next time that creature is hit by an attack before the end of your
-      next turn, that attack’s total damage is doubled.</p>
+      creature you can see within 30 feet of you, using your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.s4iiatrup3e3virw]{Channel
+      Divinity}. The next time that creature is hit by an attack before the end
+      of your next turn, that attack&rsquo;s total damage is doubled.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -21,16 +22,95 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-effects: []
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.cuIepkFD3VWA5l2Z
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: sJEexRMkn7819YYt
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Moribund Curse
+    img: icons/magic/death/skull-energy-light-purple.webp
+    _id: OKtWZEf2KxlA1nVd
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The next time that creature is hit by an attack before the end of your
+      next turn, that attack’s total damage is doubled.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722962473372
+      modifiedTime: 1722962492181
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!nxjk0epr5ogzzyov.OKtWZEf2KxlA1nVd'
 flags: {}
 folder: null
-_id: nxjk0epr5ogzzyov
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722962407949
+  modifiedTime: 1722962473421
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: nxjk0epr5ogzzyov
 _key: '!items!nxjk0epr5ogzzyov'

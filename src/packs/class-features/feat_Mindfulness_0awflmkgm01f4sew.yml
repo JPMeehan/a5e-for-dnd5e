@@ -1,0 +1,113 @@
+folder: null
+name: Mindfulness
+type: feat
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You attune your breathing to the vibrations of the world around you,
+      increasing your ability to sense your immediate surroundings. You and
+      creatures you choose within the radius of your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence} gain tremorsense to a range of 10 feet.</p>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.RM8r3VhP8z2vOD68
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: LkpqqCCApXcZPoQV
+    transfer: false
+    name: Mindfulness
+    img: icons/tools/navigation/map-chart-tan.webp
+    _id: RmXyDKxj3owze5DC
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.tremorsense.distance
+        value: '10'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Gain tremorsense to a range of 10 feet.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723458652495
+      modifiedTime: 1723458677245
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!0awflmkgm01f4sew.RmXyDKxj3owze5DC'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723458596418
+  modifiedTime: 1723458694221
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 0awflmkgm01f4sew
+_key: '!items!0awflmkgm01f4sew'

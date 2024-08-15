@@ -61,8 +61,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/skills/wounds/anatomy-organ-heart-red.webp
-    origin: Item.98cfy8w4lmi24hd0
+  - origin: Item.qPRbg1jfIXpMgMiW
     flags:
       a5e:
         sort: 0
@@ -86,16 +85,29 @@ effects:
       startTurn: null
     description: ''
     statuses: []
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.21
+      createdTime: null
+      modifiedTime: 1722950452371
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/skills/wounds/anatomy-organ-heart-red.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
     _key: '!items.effects!98cfy8w4lmi24hd0.IjqbgZpj9nozsK7F'
 flags: {}
-_id: 98cfy8w4lmi24hd0
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722950452337
+  modifiedTime: 1722950477562
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 98cfy8w4lmi24hd0
 _key: '!items!98cfy8w4lmi24hd0'

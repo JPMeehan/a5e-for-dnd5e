@@ -1,0 +1,78 @@
+name: Magewrist Flower
+type: consumable
+img: icons/commodities/flowers/lotus-violet.webp
+system:
+  description:
+    value: >-
+      <p>When a creature uses a bonus action to inhale the flower&rsquo;s
+      magical pollen, the next spell it casts within 1 minute increases in range
+      by one step (from self to touch, touch to short, and so on). The spell
+      must have a casting time of 1 action.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: .nan
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: bonus
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+folder: jczlz1TrOcJzDCz6
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722879873765
+  modifiedTime: 1722880296369
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: GKqYSZHIDvZAoCPr
+_key: '!items!GKqYSZHIDvZAoCPr'

@@ -6,10 +6,37 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 10th level, select a feat to gain from the following list:
-      <em>Combat Thievery, Deadeye, Fear Breaker, Martial Scholar, Monster
-      Hunter, Mounted Warrior, Natural Warrior, Powerful Attacker, Spellbreaker,
-      Surgical Combatant or Swift Combatant</em>.</p>
+      <p>At 10th level, select a feat to gain from the following list:</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.n8rh27w94jgwa4pm]{Combat
+      Thievery}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.11ws4los75kno2ir]{Deadeye}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.hhop8t8eocrrp86j]{Fear Breaker}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.talc9l59lir1wkko]{Martial
+      Scholar}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.xm4pu81pr3rdm5ah]{Monster
+      Hunter}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.vmc5fdef2lj0mmcr]{Mounted
+      Warrior}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.2yd2vw5r3iwv04nq]{Natural
+      Warrior}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.e6506kodovstp5yw]{Powerful
+      Attacker}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.e2dvnnzq13n5iuur]{Spellbreaker}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.3v3eg8ki8mwvkoc6]{Surgical
+      Combatant}</p>
+
+      <p>@UUID[Compendium.a5e.a5e-feats.Item.mcpg04wauaq24pxe]{Swift
+      Combatant}</p>
     chat: ''
   source:
     book: 'Thematic Toolkit: Scrapper'
@@ -28,9 +55,12 @@ img: icons/skills/melee/swords-parry-block-yellow.webp
 effects: []
 flags: {}
 folder: null
-_id: t4nw03qc74c16tk1
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723138427527
+  modifiedTime: 1723138565876
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: t4nw03qc74c16tk1
 _key: '!items!t4nw03qc74c16tk1'

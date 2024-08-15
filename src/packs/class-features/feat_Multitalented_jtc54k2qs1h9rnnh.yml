@@ -1,6 +1,6 @@
 name: Multitalented
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/trades/academics-book-study-runes.webp
 effects: []
 flags: {}
 system:
@@ -11,11 +11,13 @@ system:
     value: >-
       <p>At 14th level, you have an incredible breadth of magical understanding.
       When you see a creature cast a spell of a level equal to or lower than
-      your Intelligence modifier, you automatically know what spell it is.
-      </p><p>In addition, choose one Flux effect. The chosen effect doesn’t
-      interfere with your normal use of Flux and can be used an unlimited number
-      of times. When you gain a level in this class, you can replace it with a
-      different Flux effect.</p>
+      your Intelligence modifier, you automatically know what spell it is.</p>
+
+      <p>In addition, choose one
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.waodr53v91ogya1a]{Flux}
+      effect. The chosen effect doesn&rsquo;t interfere with your normal use of
+      Flux and can be used an unlimited number of times. When you gain a level
+      in this class, you can replace it with a different Flux effect.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -31,9 +33,12 @@ system:
     per: null
     max: null
 folder: null
-_id: jtc54k2qs1h9rnnh
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723332992575
+  modifiedTime: 1723333037975
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: jtc54k2qs1h9rnnh
 _key: '!items!jtc54k2qs1h9rnnh'

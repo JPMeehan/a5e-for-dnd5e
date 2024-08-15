@@ -8,13 +8,19 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Starting at 3rd level, you have adapted to&nbsp;the confined conditions
-      found in dungeons,&nbsp;and you fight best with a wall at your
-      back.<br>Choose one of the following benefits:</p><p><strong>Back to the
-      Wall</strong><br>While within 5 feet of a solid wall,&nbsp;you add your
-      proficiency bonus to&nbsp;damage rolls with weapon
-      attacks.<br><strong>Tunnel Guardian</strong><br>While within 5 feet of a
-      solid wall,&nbsp;you gain +2 AC.</p>
+      <p>Starting at 3rd level, you have adapted to the confined conditions
+      found in dungeons, and you fight best with a wall at your back.</p>
+
+      <p>Choose one of the following benefits:</p>
+
+      <h2>Back to the Wall</h2>
+
+      <p>While within 5 feet of a solid wall, you add your proficiency bonus to
+      damage rolls with weapon attacks.</p>
+
+      <h2>Tunnel Guardian</h2>
+
+      <p>While within 5 feet of a solid wall, you gain +2 AC.</p>
     chat: ''
   source:
     book: Dungeon Delver's Guide
@@ -31,9 +37,12 @@ system:
     max: null
 effects: []
 flags: {}
-_id: ah60km9t6vihq9xc
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723417337910
+  modifiedTime: 1723417387836
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: ah60km9t6vihq9xc
 _key: '!items!ah60km9t6vihq9xc'

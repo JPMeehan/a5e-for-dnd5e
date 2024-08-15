@@ -1,0 +1,133 @@
+name: 'Channel Divinity: Radiant Burst'
+type: feat
+img: icons/magic/light/explosion-star-large-blue-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 2nd level, you can use an action to clutch your holy symbol
+      and emit a bright blast. In addition to dispelling any magical darkness
+      within 30 feet, enemy creatures within 30 feet make a Constitution saving
+      throw or are blinded by the light for 1 minute. A blinded creature can
+      repeat the saving throw at the end of each of its turns, ending the effect
+      on itself on a success.</p><p>Alternatively, you can choose to make the
+      light more harmful. On a failed saving throw a creature takes radiant
+      damage equal to 2d10 + your cleric level, or half damage on a success.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: '1'
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d10 + @classes.cleric.level
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.sUbCkWvHCGBhDMjS
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: hbQl6wJXUNx0X5Bt
+        duration:
+          unit: minutes
+    transfer: false
+    name: Blinded
+    img: icons/magic/light/explosion-star-large-blue-yellow.webp
+    _id: i6WKEBLfUbrBKAZW
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A blinded creature can't see and it automatically fails ability checks
+      that require sight.</li>
+
+      <li>Attack rolls against a blinded creature are made with advantage, and
+      the creature's attack rolls are made with disadvantage.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - blinded
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723047690399
+      modifiedTime: 1723047733385
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxxueocqy91i6tit.i6WKEBLfUbrBKAZW'
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723047614568
+  modifiedTime: 1723047804471
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vxxueocqy91i6tit
+_key: '!items!vxxueocqy91i6tit'

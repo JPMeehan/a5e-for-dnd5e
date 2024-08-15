@@ -11,15 +11,22 @@ system:
   description:
     value: >-
       <p>Your connection to the divine enables you to separate the worthwhile
-      from the worthless in an investigation or court case.&nbsp;</p><p>As a
-      bonus action, you may ask a single question and expend a use of your
-      Channel Divinity. For one hour, anything that would lead you to the answer
-      to this question is highlighted with a divine glow only you can see.
+      from the worthless in an investigation or court case.&nbsp;</p>
+
+      <p>As a bonus action, you may ask a single question and expend a use of
+      your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.s4iiatrup3e3virw]{Channel
+      Divinity}. For one hour, anything that would lead you to the answer to
+      this question is highlighted with a divine glow only you can see.
       Witnesses or those with relevant knowledge seem to glow faintly, text that
-      contains clues to the question’s answer appears highlighted on the page,
-      and you automatically notice clues that would help you answer the question
-      you asked.</p><p>This feature merely shows you the location of evidence;
-      securing it and interpreting it are still up to you.</p><p></p>
+      contains clues to the question&rsquo;s answer appears highlighted on the
+      page, and you automatically notice clues that would help you answer the
+      question you asked.</p>
+
+      <p>This feature merely shows you the location of evidence; securing it and
+      interpreting it are still up to you.</p>
+
+      <p>&nbsp;</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -30,13 +37,50 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: 08qz96s48tf3tn0t
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722958760674
+  modifiedTime: 1722958845757
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 08qz96s48tf3tn0t
 _key: '!items!08qz96s48tf3tn0t'

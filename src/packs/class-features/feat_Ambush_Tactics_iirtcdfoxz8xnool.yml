@@ -1,7 +1,55 @@
 name: Ambush Tactics
 type: feat
 img: icons/skills/melee/strike-sword-blood-red.webp
-effects: []
+effects:
+  - origin: Item.Fym2XJ8XctIs5D98
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 8OfFxCKaUohz6rRN
+        duration:
+          unit: minutes
+    transfer: false
+    name: Ambush Tactics
+    img: icons/skills/melee/strike-sword-blood-red.webp
+    _id: TJr0c04k5G8P4cOb
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Ambush
+          Tactics","formula":"1d6","damageType":"","context":{"attackTypes":["meleeWeaponAttack","meleeSpellAttack","rangedWeaponAttack","rangedSpellAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":false,"img":"icons/skills/melee/strike-sword-blood-red.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Once per turn when an affected creature hits with an attack and has
+      advantage on the attack roll, the attack deals an additional 1d6
+      damage.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723404110224
+      modifiedTime: 1723404161978
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!iirtcdfoxz8xnool.TJr0c04k5G8P4cOb'
 folder: null
 flags: {}
 system:
@@ -11,13 +59,14 @@ system:
   description:
     value: >-
       <p>As an action you may select a number of friendly creatures equal to
-      your Charisma modifier within range of your <em>Commanding Presence</em>.
-      Once per turn when an affected creature hits with an attack and has
-      advantage on the attack roll, the attack deals an additional 1d6 damage.
-      You may select a new batch of creatures by spending another action. The
-      effect persists for one minute. Once you have used this ability a number
-      of times equal to your proficiency bonus, you can’t do so again until you
-      finish a short or long rest.</p>
+      your Charisma modifier within range of your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.d71mc2057x7y6c08]{Commanding
+      Presence}. Once per turn when an affected creature hits with an attack and
+      has advantage on the attack roll, the attack deals an additional 1d6
+      damage. You may select a new batch of creatures by spending another
+      action. The effect persists for one minute. Once you have used this
+      ability a number of times equal to your proficiency bonus, you can&rsquo;t
+      do so again until you finish a short or long rest.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -28,13 +77,50 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: iirtcdfoxz8xnool
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723404021236
+  modifiedTime: 1723404137049
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: iirtcdfoxz8xnool
 _key: '!items!iirtcdfoxz8xnool'

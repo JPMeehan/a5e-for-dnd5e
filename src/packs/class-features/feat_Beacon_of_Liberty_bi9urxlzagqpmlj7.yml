@@ -1,7 +1,127 @@
 name: Beacon of Liberty
 type: feat
 img: icons/magic/light/explosion-beam-impact-silhouette.webp
-effects: []
+effects:
+  - origin: Item.NStrr44Kij8AswLn
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: EqTNUUS3h1fJ1ydC
+        duration:
+          unit: minutes
+        applyToSelf: true
+    transfer: false
+    name: Beacon of Liberty (Self)
+    img: icons/magic/light/explosion-beam-impact-silhouette.webp
+    _id: MAEAjWFLNQPvlo6O
+    type: base
+    system: {}
+    changes:
+      - key: '@token.light.bright'
+        value: '100'
+        mode: 6
+        priority: null
+      - key: '@token.light.dim'
+        value: '200'
+        mode: 6
+        priority: null
+      - key: system.traits.conditionImmunities
+        value: '["stunned","petrified"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For one minute, you emit bright light to 100 feet and dim light for 100
+      feet beyond that. All creatures in the radius of your bright light are
+      under a continuous
+      @UUID[Compendium.a5e.a5e-spells.Item.adbxdvi3uj851e70]{Freedom of
+      Movement} effect and are immune to the stunned and petrified conditions,
+      and if either of these conditions are present they immediately end. All
+      restraints and imprisoning structures (even magical ones) in the area of
+      your bright light immediately spring open. If a creature is blinded,
+      deafened, paralyzed, or missing limbs (whether by injury or birth), those
+      afflictions are immediately healed as if by a regenerate spell unless the
+      creature does not wish for them to be. At the Narrator's discretion, other
+      afflictions such as chronic pain, cancer, and so on are also healed.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723387961963
+      modifiedTime: 1723388076793
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!bi9urxlzagqpmlj7.MAEAjWFLNQPvlo6O'
+  - origin: Item.NStrr44Kij8AswLn
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: EqTNUUS3h1fJ1ydC
+        duration:
+          unit: minutes
+        applyToSelf: false
+    transfer: false
+    name: Beacon of Liberty
+    img: icons/magic/light/explosion-beam-impact-silhouette.webp
+    _id: T9aHpfUe3VowGdEV
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.conditionImmunities
+        value: '["stunned","petrified"]'
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For one minute, you emit bright light to 100 feet and dim light for 100
+      feet beyond that. All creatures in the radius of your bright light are
+      under a continuous
+      @UUID[Compendium.a5e.a5e-spells.Item.adbxdvi3uj851e70]{Freedom of
+      Movement} effect and are immune to the stunned and petrified conditions,
+      and if either of these conditions are present they immediately end. All
+      restraints and imprisoning structures (even magical ones) in the area of
+      your bright light immediately spring open. If a creature is blinded,
+      deafened, paralyzed, or missing limbs (whether by injury or birth), those
+      afflictions are immediately healed as if by a regenerate spell unless the
+      creature does not wish for them to be. At the Narrator's discretion, other
+      afflictions such as chronic pain, cancer, and so on are also healed.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723388090529
+      modifiedTime: 1723388098767
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!bi9urxlzagqpmlj7.T9aHpfUe3VowGdEV'
 folder: null
 flags: {}
 system:
@@ -13,17 +133,19 @@ system:
       <p>You can use an action to shine the light of freedom so brightly that
       none can escape it. For one minute, you emit bright light to 100 feet and
       dim light for 100 feet beyond that. All creatures in the radius of your
-      bright light are under a continuous <em>freedom of movement</em> effect
-      and are immune to the stunned and petrified conditions, and if either of
-      these conditions are present they immediately end. All restraints and
-      imprisoning structures (even magical ones) in the area of your bright
-      light immediately spring open. If a creature is blinded, deafened,
-      paralyzed, or missing limbs (whether by injury or birth), those
-      afflictions are immediately healed as if by a <em>regenerate</em> spell
-      unless the creature does not wish for them to be. At the Narrator's
-      discretion, other afflictions such as chronic pain, cancer, and so on are
-      also healed.</p><p>Once you have used this feature, you cannot do so again
-      until you finish a long rest.</p>
+      bright light are under a continuous
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.adbxdvi3uj851e70]{Freedom of
+      Movement} effect and are immune to the stunned and petrified conditions,
+      and if either of these conditions are present they immediately end. All
+      restraints and imprisoning structures (even magical ones) in the area of
+      your bright light immediately spring open. If a creature is blinded,
+      deafened, paralyzed, or missing limbs (whether by injury or birth), those
+      afflictions are immediately healed as if by a regenerate spell unless the
+      creature does not wish for them to be. At the Narrator's discretion, other
+      afflictions such as chronic pain, cancer, and so on are also healed.</p>
+
+      <p>Once you have used this feature, you cannot do so again until you
+      finish a long rest.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -34,13 +156,50 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: action
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: bi9urxlzagqpmlj7
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723387943126
+  modifiedTime: 1723388105214
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: bi9urxlzagqpmlj7
 _key: '!items!bi9urxlzagqpmlj7'

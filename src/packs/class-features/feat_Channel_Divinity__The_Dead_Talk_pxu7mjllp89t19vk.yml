@@ -8,15 +8,16 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Beginning at 2nd level, you may use your Channel Divinity to
-      temporarily animate the body or a pile of bones of a creature you touch.
-      Upon doing so, the undead mutters the name (if any) and the creature type
-      (such as Giant or Humanoid - the GM may choose to be more specific, such
-      as stating Orc, or Elf) of the creature that killed it. For the next 24
-      hours, you or a creature of your choosing gains advantage on the next
-      ability check made regarding the creature (such as a History check to
-      recall something about it, or a Survival check to track it) or attack roll
-      made against it.</p>
+      <p>Beginning at 2nd level, you may use your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.s4iiatrup3e3virw]{Channel
+      Divinity} to temporarily animate the body or a pile of bones of a creature
+      you touch. Upon doing so, the undead mutters the name (if any) and the
+      creature type (such as Giant or Humanoid - the GM may choose to be more
+      specific, such as stating Orc, or Elf) of the creature that killed it. For
+      the next 24 hours, you or a creature of your choosing gains advantage on
+      the next ability check made regarding the creature (such as a History
+      check to recall something about it, or a Survival check to track it) or
+      attack roll made against it.</p>
     chat: ''
   source:
     book: Ace's Adventuring Guide to Necromancy
@@ -27,7 +28,7 @@ system:
     value: null
     charged: true
   activation:
-    type: action
+    type: ''
     cost: 1
   uses:
     value: null
@@ -45,13 +46,13 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: touch
   consume:
     type: ''
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -65,11 +66,53 @@ system:
     ability: ''
     dc: null
     scaling: spell
-effects: []
+effects:
+  - origin: Item.0EaZJVyeBPzIZ5we
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: bd1lwND60IUZmW2L
+        duration:
+          unit: hours
+    transfer: false
+    name: The Dead Talk
+    img: icons/magic/death/undead-ghost-scream-teal.webp
+    _id: ORNBdz44szFqorly
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>\_For the next 24 hours, you or a creature of your choosing gains advantage on the next ability check made regarding the creature (such as a History check to recall something about it, or a Survival check to track it) or attack roll made against it.</p>"
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722977178948
+      modifiedTime: 1722977196327
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!pxu7mjllp89t19vk.ORNBdz44szFqorly'
 flags: {}
-_id: pxu7mjllp89t19vk
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722977064989
+  modifiedTime: 1722977178988
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: pxu7mjllp89t19vk
 _key: '!items!pxu7mjllp89t19vk'

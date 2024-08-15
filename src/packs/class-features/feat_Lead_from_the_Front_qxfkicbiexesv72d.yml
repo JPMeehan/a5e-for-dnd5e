@@ -10,11 +10,14 @@ system:
     value: >-
       <p>Beginning at 15th level, when you use your
       @UUID[Compendium.a5e-for-dnd5e.class-features.Item.7vvqy990w8pxatdy]{Indomitable}
-      feature, you may immediately use Prior Tactics without spending exertion
-      (no Attack action or attack to forgo required), its range increases to 50
-      feet, and you need not choose allies able to hear you.</p><p>In addition,
-      you have advantage on saving throws made to resist spells of the
-      compulsion school.</p>
+      feature, you may immediately use
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.6kysmxmq2ey3pdtb]{Prior
+      Tactics} without spending exertion (no Attack action or attack to forgo
+      required), its range increases to 50 feet, and you need not choose allies
+      able to hear you.</p>
+
+      <p>In addition, you have advantage on saving throws made to resist spells
+      of the compulsion school.</p>
     chat: ''
   source:
     book: Gate Pass Gazette
@@ -25,16 +28,191 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-effects: []
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 50
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.fBWYztPeT96RGlW2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: MxQ3Is0FM41DMvgT
+    transfer: false
+    name: Prior Tactics
+    img: icons/skills/social/diplomacy-unity-alliance.webp
+    _id: AHxAY6PMbx7D9577
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Prior
+          Tactics","formula":"1d8","damageType":"","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/skills/social/diplomacy-unity-alliance.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On their next successful weapon attack, the chosen allies deal an extra
+      1d8 damage as they enact your recommended strategy. They also gain an
+      expertise die on their next spell or weapon attack.</p>
+
+      <p>You can now choose for the extra damage dealt by it to be acid, fire,
+      or poison damage.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723417018004
+      modifiedTime: 1723417018004
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!qxfkicbiexesv72d.AHxAY6PMbx7D9577'
+  - origin: Item.fBWYztPeT96RGlW2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: MxQ3Is0FM41DMvgT
+    transfer: false
+    name: Prior Tactics
+    img: icons/skills/social/diplomacy-unity-alliance.webp
+    _id: OAP16NYoH9jVNSEt
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Prior
+          Tactics","formula":"1d8","damageType":"","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/skills/social/diplomacy-unity-alliance.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On their next successful weapon attack, the chosen allies deal an extra
+      1d8 damage as they enact your recommended strategy. They also gain an
+      expertise die on their next spell or weapon attack.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723417018004
+      modifiedTime: 1723417018004
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!qxfkicbiexesv72d.OAP16NYoH9jVNSEt'
+  - origin: Item.fBWYztPeT96RGlW2
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: MxQ3Is0FM41DMvgT
+    transfer: false
+    name: Prior Tactics
+    img: icons/skills/social/diplomacy-unity-alliance.webp
+    _id: dKCitLIzyg1gS6nd
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Prior
+          Tactics","formula":"1d8","damageType":"","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":true,"img":"icons/skills/social/diplomacy-unity-alliance.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On their next successful weapon attack, the chosen allies deal an extra
+      1d8 damage as they enact your recommended strategy.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723417018004
+      modifiedTime: 1723417018004
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!qxfkicbiexesv72d.dKCitLIzyg1gS6nd'
 flags: {}
-_id: qxfkicbiexesv72d
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723416976051
+  modifiedTime: 1723417087227
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: qxfkicbiexesv72d
 _key: '!items!qxfkicbiexesv72d'

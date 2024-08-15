@@ -1,0 +1,139 @@
+folder: null
+name: Infectious Fury
+type: feat
+img: icons/magic/fire/flame-burning-fist-strike.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p dir="ltr">While raging you can choose a number of creatures equal to
+      your proficiency bonus. You gain the benefits of the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.158awzfd5ctjae15]{Telepathic
+      Bond} spell with them.</p>
+
+      <p dir="ltr">Creatures bonded in this way can choose to give in to the
+      rage. If they do so, for the duration of your rage they have advantage on
+      strength checks and strength saving throws, cannot benefit from temporary
+      hit points, gain two rage hit points per round as if they were raging to a
+      maximum of 2 x your berserker level, and cannot cast spells, concentrate
+      on spells, or use the fallback action.</p>
+
+      <p dir="ltr">When using
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.g9pecyre1ld6mu4q]{Raging
+      Projection} you grant such creatures additional rage hit points rather
+      than temporary hit points.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.dDKrma3YEG7vGTyN
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: zmfYEvseZsBsG0EQ
+    transfer: false
+    name: Infectious Fury
+    img: icons/magic/fire/flame-burning-fist-strike.webp
+    _id: rpUr71ZgJIry04kd
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.rollMode.abilityCheck.str
+        value: '1'
+        mode: 6
+        priority: null
+      - key: flags.a5e.effects.rollMode.abilitySave.str
+        value: '1'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p dir="ltr">While raging you can choose a number of creatures equal to
+      your proficiency bonus. You gain the benefits of the
+      @UUID[Compendium.a5e.a5e-spells.Item.158awzfd5ctjae15]{Telepathic Bond}
+      spell with them.</p>
+
+      <p dir="ltr">Creatures bonded in this way can choose to give in to the
+      rage. If they do so, for the duration of your rage they have advantage on
+      strength checks and strength saving throws, cannot benefit from temporary
+      hit points, gain two rage hit points per round as if they were raging to a
+      maximum of 2 x your berserker level, and cannot cast spells, concentrate
+      on spells, or use the fallback action.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722890902897
+      modifiedTime: 1722890947802
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!8ulbb4j54yvrarz2.rpUr71ZgJIry04kd'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722890706099
+  modifiedTime: 1722890956900
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 8ulbb4j54yvrarz2
+_key: '!items!8ulbb4j54yvrarz2'

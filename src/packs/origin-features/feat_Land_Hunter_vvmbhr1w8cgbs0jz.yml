@@ -1,0 +1,39 @@
+name: Land Hunter
+type: feat
+img: icons/environment/wilderness/island.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: culture
+    subtype: ''
+  description:
+    value: >-
+      <p>You gain proficiency in Nature, and can always choose to use Wisdom
+      when making a Nature check.</p><p>You gain an expertise die on
+      Intimidation and Stealth checks. Additionally, you can march up to 12
+      hours before you need to save against fatigue.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: OpVlQm2oviOU6e9w
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1723038052023
+  modifiedTime: 1723038135340
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vvmbhr1w8cgbs0jz
+_key: '!items!vvmbhr1w8cgbs0jz'

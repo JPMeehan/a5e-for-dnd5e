@@ -1,0 +1,118 @@
+folder: jczlz1TrOcJzDCz6
+name: Saffron Lilies
+type: consumable
+img: icons/commodities/flowers/lily-yellow.webp
+system:
+  description:
+    value: >-
+      <p>A creature can use a bonus action to eat a saffron lilly and gain
+      resistance to poison damage for one hour.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: .nan
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation: {}
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.7LWBhaa7T7EYXqkC
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Rg7b5QEUkNjgo9It
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Saffron Lilies
+    img: icons/commodities/flowers/lily-yellow.webp
+    _id: L9kAaOwhW1IFaqrL
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: poison
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722880509455
+      modifiedTime: 1722880529922
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!C9nfsa7iIw0zHRje.L9kAaOwhW1IFaqrL'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722880443827
+  modifiedTime: 1722880509509
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: C9nfsa7iIw0zHRje
+_key: '!items!C9nfsa7iIw0zHRje'

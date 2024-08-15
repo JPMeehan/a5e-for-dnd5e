@@ -9,14 +9,17 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>At 3rd level when you choose this archetype, you gain the Beast Friend
-      knack if you don’t already know it, and the beast can be of CR 1/4 or
-      less. In addition, whenever the beast rolls initiative, it gains a number
-      of temporary hit points equal to your level multiplied by your proficiency
-      bonus, and its Armor Class increases by an amount equal to your
-      proficiency bonus.</p><p>As a bonus action on your turn, you can order the
-      beast to take an action on its turn. If you order the beast to attack, it
-      adds your proficiency bonus to attack and damage rolls.</p>
+      <p>At 3rd level when you choose this archetype, you gain the
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.u2rlv1ijr9h8kguh]{Beast
+      Friend} knack if you don&rsquo;t already know it, and the beast can be of
+      CR 1/4 or less. In addition, whenever the beast rolls initiative, it gains
+      a number of temporary hit points equal to your level multiplied by your
+      proficiency bonus, and its Armor Class increases by an amount equal to
+      your proficiency bonus.</p>
+
+      <p>As a bonus action on your turn, you can order the beast to take an
+      action on its turn. If you order the beast to attack, it adds your
+      proficiency bonus to attack and damage rolls.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -29,7 +32,6 @@ system:
   activation:
     type: bonus
     cost: 1
-    condition: ''
   uses:
     value: null
     max: ''
@@ -52,16 +54,14 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: heal
+  actionType: null
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts:
-      - - '@level * @prof'
-        - temphp
+    parts: []
     versatile: ''
   formula: ''
   save:
@@ -69,9 +69,12 @@ system:
     dc: null
     scaling: spell
 folder: null
-_id: 1iyv4uossj8bvi1t
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723331300025
+  modifiedTime: 1723331431584
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 1iyv4uossj8bvi1t
 _key: '!items!1iyv4uossj8bvi1t'

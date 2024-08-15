@@ -1,0 +1,78 @@
+name: Deathly Nectar
+type: feat
+img: icons/magic/acid/dissolve-drip-droplet-smoke.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>The additional poison damage dealt by your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.7yeaqa92z9i4gx04]{Insidious
+      Nectar} feature improves to 1d8 from 1d6. In addition, spells you cast and
+      attacks by you or creatures you&rsquo;ve summoned ignore resistance to
+      poison damage and treat immunity to poison damage as resistance
+      instead.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Insidious Nectar
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: ''
+    cost: ''
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723063579428
+  modifiedTime: 1723063799486
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 65aoqyqzzq5lmnn4
+_key: '!items!65aoqyqzzq5lmnn4'

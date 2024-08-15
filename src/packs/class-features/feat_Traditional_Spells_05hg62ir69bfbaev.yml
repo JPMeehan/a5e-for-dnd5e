@@ -1,0 +1,44 @@
+name: Traditional Spells
+type: feat
+img: icons/magic/nature/leaf-elm-sparkle-glow-green.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you first gain this feature, select three spells from the
+      <em>air</em>, <em>beasts</em>, <em>earth</em>, <em>healing</em>,
+      <em>nature</em>, <em>plants</em>, <em>terrain</em>, <em>water</em>, or
+      <em>weather </em>schools as your traditional spells. You can select up to
+      two additional traditional spells from those schools when you reach 7th,
+      9th, and 11th level in this class. You always have your traditional spells
+      prepared, and they don&rsquo;t count against the number of spells you can
+      prepare each day. If you select a spell that doesn&rsquo;t appear on the
+      druid spell list, the spell is a druid spell for you.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723057652457
+  modifiedTime: 1723057730010
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 05hg62ir69bfbaev
+_key: '!items!05hg62ir69bfbaev'

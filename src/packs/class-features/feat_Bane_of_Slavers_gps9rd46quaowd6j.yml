@@ -10,12 +10,14 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>Your Divine Smite becomes deadlier to oppressors. Choose a number of
-      organizations up to half your proficiency bonus. Members of these
-      organizations, plus any creature involved in the slave trade as a supplier
-      or customer, any creature with the Evil alignment trait, and any Fiend all
-      take an additional die of damage from your Divine Smite. You may change
-      the chosen organizations when you complete a long rest.</p>
+      <p>Your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.c6aiq8cd90fo3ry1]{Divine
+      Smite} becomes deadlier to oppressors. Choose a number of organizations up
+      to half your proficiency bonus. Members of these organizations, plus any
+      creature involved in the slave trade as a supplier or customer, any
+      creature with the Evil alignment trait, and any Fiend all take an
+      additional die of damage from your Divine Smite. You may change the chosen
+      organizations when you complete a long rest.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -30,9 +32,12 @@ system:
   uses:
     per: null
     max: null
-_id: gps9rd46quaowd6j
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723387853073
+  modifiedTime: 1723387868479
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: gps9rd46quaowd6j
 _key: '!items!gps9rd46quaowd6j'

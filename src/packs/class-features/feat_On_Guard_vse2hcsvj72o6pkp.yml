@@ -1,0 +1,115 @@
+folder: null
+name: On Guard
+type: feat
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>When you use your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.qc8h2qnq0of52qct]{Rallying
+      Surge} to allow a creature to regain hit points, that creature also gains
+      an expertise die on one saving throw it makes in the next minute. The
+      creature chooses whether or not to use the expertise die before making the
+      save, and the die is wasted if not used before the effect ends.</p>
+    chat: ''
+  source:
+    book: Dungeon Delver's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.Whm3ysqLCYVTrpAr
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 9nXtD2e9Lg5qjtvL
+        duration:
+          unit: minutes
+    transfer: false
+    name: On Guard
+    img: icons/tools/navigation/map-chart-tan.webp
+    _id: QLcdtcssUw6FlZpU
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Gains an expertise die on one saving throw it makes in the next minute.
+      The creature chooses whether or not to use the expertise die before making
+      the save, and the die is wasted if not used before the effect ends.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723458321166
+      modifiedTime: 1723458341959
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vse2hcsvj72o6pkp.QLcdtcssUw6FlZpU'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723458226601
+  modifiedTime: 1723458321203
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vse2hcsvj72o6pkp
+_key: '!items!vse2hcsvj72o6pkp'

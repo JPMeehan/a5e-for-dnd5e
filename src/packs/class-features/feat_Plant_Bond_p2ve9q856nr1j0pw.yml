@@ -1,0 +1,82 @@
+name: Plant Bond
+type: feat
+img: icons/magic/nature/plant-sprout-hand-flower-pink.webp
+effects: []
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>You have a mystic connection with flora. As an action you can expend 2
+      uses of
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.3jdfihvtbyhbv9ez]{Wild
+      Shape} to summon a plant creature with a CR no greater than 1/3 your druid
+      level in an unoccupied space you can see within 30 feet. Plants summoned
+      in this way are allied to you and your companions. While plants summoned
+      in this way are within 60 feet you can use a bonus action to mentally
+      command them. When you command multiple plants in this way, you must give
+      them all the same command. You may decide the action the plant takes and
+      where it moves during its next turn, or you can issue a general command,
+      such as guarding an area. If not given a command, a summoned plant only
+      defends itself. Plants you summon in this way remain for up to 8 hours, or
+      until killed or magically dismissed as a bonus action.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: bonus
+    cost: 1
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723063312639
+  modifiedTime: 1723063479879
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: p2ve9q856nr1j0pw
+_key: '!items!p2ve9q856nr1j0pw'

@@ -1,0 +1,74 @@
+name: 'Channel Divinity: Trickster''s Guile'
+type: feat
+img: icons/creatures/unholy/demon-fanged-horned-yellow.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 2nd level you may expend your Channel Divinity when you fail an
+      ability check. You may re-roll that check and gain an expertise die on the
+      re-roll. You must take the new result.</p><p>Alternatively, at 2nd level
+      you may choose a channel divinity option from another cleric archetype
+      that is granted at 2nd level in place of the above option. You gain that
+      channel divinity option instead. Once this choice has been made it cannot
+      be changed.</p>
+    chat: ''
+  source:
+    book: Heroes Old and New
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722946302416
+  modifiedTime: 1722946413791
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: qzzus6qf73nowrwt
+_key: '!items!qzzus6qf73nowrwt'

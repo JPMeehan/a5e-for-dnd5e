@@ -1,0 +1,37 @@
+name: Archetype School
+type: feat
+img: icons/magic/movement/trail-streak-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Add the <em>movement </em>school of magic to your list of herald
+      spells.</p>
+    chat: ''
+  source:
+    book: 'Manual of Adventurous Resources: Complete'
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: null
+  uses:
+    per: null
+    max: null
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723336013592
+  modifiedTime: 1723336032202
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: envch1hcvpesmddb
+_key: '!items!envch1hcvpesmddb'

@@ -14,8 +14,8 @@ system:
       and if it is dispelled from you, you can reactivate it with an action. You
       may also suppress this effect if desired; no action needed. Additionally,
       you can cast the
-      <em>@UUID[Compendium.a5e-for-dnd5e.spells.Item.4eidicv0lyqevtwd]{Invisibility}
-      </em>spell at will without using a spell slot, but may only target
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.4eidicv0lyqevtwd]{Invisibility}
+      spell at will without using a spell slot, but may only target
       yourself.</p>
     chat: ''
   source:
@@ -39,14 +39,14 @@ system:
   cover: null
   crewed: false
   target:
-    value: 1
+    value: null
     width: null
     units: ''
-    type: creature
+    type: ''
   range:
     value: null
     long: null
-    units: touch
+    units: self
   consume:
     type: ''
     target: null
@@ -67,8 +67,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/light/explosion-star-glow-silhouette.webp
-    origin: Item.4eidicv0lyqevtwd
+  - origin: Item.qIpm9D0Pf1L2JO6d
     flags:
       a5e:
         sort: 0
@@ -98,16 +97,113 @@ effects:
     statuses:
       - invisible
     tint: '#ffffff'
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.21
+      createdTime: null
+      modifiedTime: 1722961503471
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/light/explosion-star-glow-silhouette.webp
+    type: base
+    system: {}
+    sort: 0
+    folder: null
     _key: '!items.effects!5rvw15bunz436lio.eRF1arVuDyuP8bR0'
+  - origin: Item.yaoaihxyt4dlsysw
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: O6YRnhT92HFKpYxs
+        duration:
+          unit: hours
+    transfer: false
+    name: Nondetection
+    _id: vkjDRqypQGKwAVqj
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is hidden from divination magic and cannot be perceived by
+      magical scrying sensors.</p>
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722961513953
+      modifiedTime: 1722961513953
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/symbols/runes-star-magenta.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
+    _key: '!items.effects!5rvw15bunz436lio.vkjDRqypQGKwAVqj'
+  - origin: Item.4eidicv0lyqevtwd
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 36L0AlCMfrZAPp1V
+        duration:
+          unit: hours
+    transfer: false
+    name: Invisible
+    _id: Rklp6CPY4ZhcGYeU
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["invisible"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - invisible
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722961533805
+      modifiedTime: 1722961533805
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/light/explosion-star-glow-silhouette.webp
+    type: base
+    system: {}
+    sort: 0
+    folder: null
+    _key: '!items.effects!5rvw15bunz436lio.Rklp6CPY4ZhcGYeU'
 flags: {}
-_id: 5rvw15bunz436lio
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722961503439
+  modifiedTime: 1722961579402
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 5rvw15bunz436lio
 _key: '!items!5rvw15bunz436lio'

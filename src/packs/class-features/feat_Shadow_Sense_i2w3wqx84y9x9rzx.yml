@@ -8,11 +8,17 @@ system:
     subtype: ''
   description:
     value: >-
-      <ul><li><p>Starting at 10th level, you are at home in pitch darkness and
-      fight even more effectively without light.</p><ul><li>You gain blindsight
-      with a radius of 10 feet.</li><li>You gain an&nbsp;expertise
-      die</span>&nbsp;to&nbsp;<span>attack rolls while in
-      darkness.</li></ul></li></ul>
+      <p>Starting at 10th level, you are at home in pitch darkness and fight
+      even more effectively without light.</p>
+
+      <ul>
+
+      <li>You gain blindsight with a radius of 10 feet.</li>
+
+      <li>You gain an&nbsp;expertise die&nbsp;to&nbsp;attack rolls while in
+      darkness.</li>
+
+      </ul>
     chat: ''
   source:
     book: Dungeon Delver's Guide
@@ -27,42 +33,14 @@ system:
   uses:
     per: null
     max: null
-effects:
-  - icon: icons/magic/earth/barrier-stone-explosion-spiked.webp
-    origin: Item.i2w3wqx84y9x9rzx
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Blindsight
-    _id: y326lb2BZRAp4fMC
-    changes:
-      - key: system.attributes.senses.blindsight.distance
-        value: '10'
-        mode: 2
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _stats:
-      coreVersion: '12'
-      systemId: a5e
-      systemVersion: 0.19.17
-    _key: '!items.effects!i2w3wqx84y9x9rzx.y326lb2BZRAp4fMC'
+effects: []
 flags: {}
-_id: i2w3wqx84y9x9rzx
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723417738316
+  modifiedTime: 1723417788594
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: i2w3wqx84y9x9rzx
 _key: '!items!i2w3wqx84y9x9rzx'

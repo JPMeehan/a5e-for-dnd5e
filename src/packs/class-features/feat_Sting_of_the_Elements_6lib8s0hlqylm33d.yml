@@ -11,7 +11,9 @@ system:
       elemental divination dice makes a damage roll, they can expend elemental
       divination dice to deal bonus damage to one of their targets. The target
       takes 1d8 damage per elemental damage die spent in this way, the damage
-      type being the same as your Channel Divinity: Elemental Intervention.</p>
+      type being the same as your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.h5hlqfswnlwyu3yn]{Channel
+      Divinity: Elemental Intervention}.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -21,49 +23,20 @@ system:
   recharge:
     value: null
     charged: true
-  activation: {}
+  activation:
+    type: null
   uses:
-    value: null
-    max: ''
     per: null
-    recovery: ''
-  duration: {}
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: null
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    max: null
 effects: []
 flags: {}
 folder: null
-_id: 6lib8s0hlqylm33d
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722957775797
+  modifiedTime: 1722957823030
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 6lib8s0hlqylm33d
 _key: '!items!6lib8s0hlqylm33d'

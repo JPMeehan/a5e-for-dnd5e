@@ -69,8 +69,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/creatures/mammals/bull-horned-blue.webp
-    origin: Item.lbkrq1vd4qaxh58w
+  - origin: Item.ZT8kQ34bc2vx0Dcl
     flags:
       a5e:
         sort: 0
@@ -96,16 +95,29 @@ effects:
     description: ''
     statuses:
       - prone
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.22
+      createdTime: null
+      modifiedTime: 1723416244137
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/creatures/mammals/bull-horned-blue.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
     _key: '!items.effects!lbkrq1vd4qaxh58w.DUOtmtFIoOeS7XEV'
 flags: {}
-_id: lbkrq1vd4qaxh58w
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723416244106
+  modifiedTime: 1723416247471
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: lbkrq1vd4qaxh58w
 _key: '!items!lbkrq1vd4qaxh58w'

@@ -1,7 +1,199 @@
 name: Mark of the Pariah
 type: feat
 img: icons/magic/unholy/hand-marked-pink.webp
-effects: []
+effects:
+  - origin: Item.E8mxb9RK2wx9OuP6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: M2UPUObtatbshFn5
+    transfer: false
+    name: Mark of the Pariah
+    img: icons/magic/unholy/hand-marked-pink.webp
+    _id: 1uOKfxG1wKspQfFV
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The creature has a glowing symbol branded onto its hand, face,
+      forehead, or other obvious location. While the brand persists, whenever
+      the creature takes damage, it takes 1d4 points of psychic damage and must
+      make another Charisma save or be rattled until the end of its next turn,
+      and it also cannot benefit from resting in sanctuaries. The mark lasts for
+      a number of days equal to your proficiency bonus or until you dismiss it
+      (no action required).</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722975883445
+      modifiedTime: 1722975917184
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!421ua0apa8edty4q.1uOKfxG1wKspQfFV'
+  - origin: Item.E8mxb9RK2wx9OuP6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: FT2kgL51tRXOtrC7
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    img: icons/magic/unholy/hand-marked-pink.webp
+    _id: 5E2cTSGEGAKNXKm5
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A rattled creature cannot benefit from expertise dice.</li>
+
+      <li>A creature that is immune to being stunned is immune to being
+      rattled.</li>
+
+      <li>A rattled creature cannot take reactions.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - rattled
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722975985833
+      modifiedTime: 1722976028042
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!421ua0apa8edty4q.5E2cTSGEGAKNXKm5'
+  - origin: Item.E8mxb9RK2wx9OuP6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: M2UPUObtatbshFn5
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    img: icons/magic/unholy/hand-marked-pink.webp
+    _id: 8YAeq1YtV2IfheDH
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <div class="editor-content tjs-editor-content svelte-1vyshng">
+
+      <ul>
+
+      <li>A rattled creature cannot benefit from expertise dice.</li>
+
+      <li>A creature that is immune to being stunned is immune to being
+      rattled.</li>
+
+      <li>A rattled creature cannot take reactions.</li>
+
+      </ul>
+
+      </div>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722976077678
+      modifiedTime: 1722976091513
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!421ua0apa8edty4q.8YAeq1YtV2IfheDH'
+  - origin: Item.E8mxb9RK2wx9OuP6
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: M2UPUObtatbshFn5
+        duration:
+          unit: hours
+    transfer: false
+    name: Immune to Mark of the Pariah
+    img: icons/magic/unholy/hand-marked-pink.webp
+    _id: vuaPot60UHLQTle0
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722976098645
+      modifiedTime: 1722976113536
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!421ua0apa8edty4q.vuaPot60UHLQTle0'
 flags: {}
 system:
   type:
@@ -32,15 +224,52 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
 folder: null
-_id: 421ua0apa8edty4q
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722975745907
+  modifiedTime: 1722976164921
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 421ua0apa8edty4q
 _key: '!items!421ua0apa8edty4q'

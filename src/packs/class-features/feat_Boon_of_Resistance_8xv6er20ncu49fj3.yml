@@ -1,0 +1,249 @@
+name: Boon of Resistance
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 17th level, you may choose after each long rest to gain
+      resistance to bludgeoning, piercing and slashing damage from nonmagical
+      weapons, or to gain resistance to either magical bludgeoning, magical
+      piercing, or magical slashing damage.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.Focgf2Zk9EbsxY20
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: JII5M8BPhkN2BPcD
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Boon of Resistance
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    _id: OWSJ1fbohjZJrNU9
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: Non-magical Weapons
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Resistance to bludgeoning, piercing and slashing damage from nonmagical
+      weapons.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723052311970
+      modifiedTime: 1723052357665
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!8xv6er20ncu49fj3.OWSJ1fbohjZJrNU9'
+  - origin: Item.Focgf2Zk9EbsxY20
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 7eG52vfv0ysIszTI
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Boon of Resistance
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    _id: 7XiAm9eBed1LUQUJ
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: Magical Bludgeoning
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Resistance to magical bludgeoning.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723052444393
+      modifiedTime: 1723052511752
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!8xv6er20ncu49fj3.7XiAm9eBed1LUQUJ'
+  - origin: Item.Focgf2Zk9EbsxY20
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: ZAlrSyBrD6HUnC7u
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Boon of Resistance
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    _id: WpTQI0q9m79z3i7q
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: Magical Piercing
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Resistance to magical piercing.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723052516825
+      modifiedTime: 1723052539119
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!8xv6er20ncu49fj3.WpTQI0q9m79z3i7q'
+  - origin: Item.Focgf2Zk9EbsxY20
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: M2ty7OuoVGJOQlyd
+        applyToSelf: true
+        duration:
+          unit: minutes
+    transfer: false
+    name: Boon of Resistance
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    _id: YZuNWNHNnxcaD68c
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: Magical Slashing
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 0
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Resistance to magical slashing.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723052544298
+      modifiedTime: 1723052563417
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!8xv6er20ncu49fj3.YZuNWNHNnxcaD68c'
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723052251596
+  modifiedTime: 1723052553924
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 8xv6er20ncu49fj3
+_key: '!items!8xv6er20ncu49fj3'

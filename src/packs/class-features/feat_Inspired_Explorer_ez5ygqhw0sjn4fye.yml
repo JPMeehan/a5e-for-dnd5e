@@ -29,42 +29,14 @@ system:
   uses:
     per: null
     max: null
-effects:
-  - icon: icons/environment/wilderness/cave-entrance-mountain-blue.webp
-    origin: Item.ez5ygqhw0sjn4fye
-    flags:
-      a5e:
-        sort: 0
-        transferType: passive
-    transfer: false
-    name: Survival Proficency
-    _id: 2jBg8Uy32QAfHduu
-    changes:
-      - key: system.skills.sur.value
-        value: '1'
-        mode: 5
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    statuses: []
-    folder: null
-    _stats:
-      coreVersion: '12'
-      systemId: a5e
-      systemVersion: 0.19.17
-    _key: '!items.effects!ez5ygqhw0sjn4fye.2jBg8Uy32QAfHduu'
+effects: []
 flags: {}
-_id: ez5ygqhw0sjn4fye
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722951352411
+  modifiedTime: 1722951371295
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: ez5ygqhw0sjn4fye
 _key: '!items!ez5ygqhw0sjn4fye'

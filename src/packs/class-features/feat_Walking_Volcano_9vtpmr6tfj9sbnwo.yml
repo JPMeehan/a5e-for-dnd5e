@@ -43,7 +43,7 @@ system:
     type: creatureOrObject
   range:
     value: 30
-    long: 60
+    long: null
     units: ft
   consume:
     type: ''
@@ -73,9 +73,12 @@ flags:
   a5e:
     placeTemplate: false
 folder: null
-_id: 9vtpmr6tfj9sbnwo
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722791341789
+  modifiedTime: 1722791395525
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 9vtpmr6tfj9sbnwo
 _key: '!items!9vtpmr6tfj9sbnwo'

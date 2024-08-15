@@ -8,11 +8,13 @@ system:
   description:
     value: >-
       <p>At 1st level you gain proficiency with one of the following skills:
-      Stealth, Deception, or Sleight of Hand.</p><p>In addition, you learn the
+      Stealth, Deception, or Sleight of Hand.</p>
+
+      <p>In addition, you learn the
       @UUID[Compendium.a5e-for-dnd5e.spells.4oruofw2q7gso9hq]{Minor Illusion}
       and @UUID[Compendium.a5e-for-dnd5e.spells.4gcxix2l4zvy9kdu]{Message}
-      cantrips. When using message, you may disguise your voice so that the
-      recipient doesn't know it is you talking. Starting at level 8, you may
+      cantrips. When using <em>message</em>, you may disguise your voice so that
+      the recipient doesn't know it is you talking. Starting at level 8, you may
       have your message impersonate the voice of another person you have
       heard.</p>
     chat: ''
@@ -32,9 +34,12 @@ system:
 effects: []
 flags: {}
 folder: null
-_id: 9em30qdd569kj8lm
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722946339979
+  modifiedTime: 1722946377346
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 9em30qdd569kj8lm
 _key: '!items!9em30qdd569kj8lm'

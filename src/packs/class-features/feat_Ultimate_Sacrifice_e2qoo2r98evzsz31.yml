@@ -1,0 +1,82 @@
+folder: null
+name: Ultimate Sacrifice
+type: feat
+img: icons/magic/fire/projectile-feathers-embers-gold.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>At 14th level, you can expend 5 Burning Boon charges to cast the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.zontlhypt3b5gk6z]{Resurrection}
+      spell, no material component required.<span style="mso-spacerun:
+      yes;">&nbsp; </span>You can only cast <em>resurrection</em> on a
+      particular creature once in this way. You also do not need to concentrate
+      on a @UUID[Compendium.a5e-for-dnd5e.spells.Item.xnm2hvlfzqp792tz]{Bless}
+      spell cast using Burning Boon charges.</p>
+
+      <p>You also gain the
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.c2mhqi8hbsck0pdy]{Flame Strike}
+      spell, it is always prepared, and does not count against the number of
+      spells you have prepared.</p>
+    chat: ''
+  source:
+    book: Mysterious and Marvelous Miscellanea
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722893423138
+  modifiedTime: 1722893768524
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: e2qoo2r98evzsz31
+_key: '!items!e2qoo2r98evzsz31'

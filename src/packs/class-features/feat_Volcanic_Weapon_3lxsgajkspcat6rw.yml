@@ -27,17 +27,101 @@ system:
   recharge:
     value: null
     charged: true
-  activation:
-    type: null
+  activation: {}
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-effects: []
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.M7I0cSLfxzUgRUUJ
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: 2vOt6GVp4pTtqgbh
+        applyToSelf: true
+    transfer: false
+    name: Volcanic Weapon
+    img: icons/commodities/stone/stone-chunk-teal.webp
+    _id: I8f7ehyV9dBvgagb
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.bonuses.damage
+        value: >-
+          {"label":"Volcanic
+          Weapon","formula":"1d6","damageType":"fire","context":{"attackTypes":["meleeWeaponAttack","rangedWeaponAttack"],"damageTypes":[],"spellLevels":[],"isCritBonus":false},"default":false,"img":"icons/commodities/stone/stone-chunk-teal.webp"}
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The weapon also deals an additional 1d6 points of fire damage.</p>
+
+      <p>If the weapon is already made with volcanic stone (such as an
+      obsidian-edged macuahuitl or an obsidian dagger or spear) the damage from
+      both sources increases by one step, to 1d6 and 1d8, respectively.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723494036494
+      modifiedTime: 1723494132550
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!3lxsgajkspcat6rw.I8f7ehyV9dBvgagb'
 flags: {}
 folder: null
-_id: 3lxsgajkspcat6rw
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723493560865
+  modifiedTime: 1723494036546
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 3lxsgajkspcat6rw
 _key: '!items!3lxsgajkspcat6rw'

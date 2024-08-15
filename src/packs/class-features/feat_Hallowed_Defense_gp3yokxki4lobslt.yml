@@ -7,9 +7,10 @@ system:
   description:
     value: >-
       <p>Beginning at 15th level you can cast a modified version of the
-      <em>hallow</em> spell. The casting time is reduced to 1 hour, the duration
-      is reduced to 8 hours, and it does not require material components. Once
-      you do, you must finish a long rest before doing so again.</p>
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.r6eshb9jaeqc70mp]{Hallow}
+      spell. The casting time is reduced to 1 hour, the duration is reduced to 8
+      hours, and it does not require material components. Once you do, you must
+      finish a long rest before doing so again.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -20,17 +21,55 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: hour
+    cost: 1
+    condition: ''
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: '60'
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: touch
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 img: icons/magic/light/beam-strike-village-yellow.webp
 effects: []
 flags: {}
 folder: null
-_id: gp3yokxki4lobslt
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723398960039
+  modifiedTime: 1723398999912
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: gp3yokxki4lobslt
 _key: '!items!gp3yokxki4lobslt'

@@ -1,0 +1,119 @@
+folder: jczlz1TrOcJzDCz6
+name: Fireroots
+type: consumable
+img: icons/consumables/plants/thorned-dried-stem-red.webp
+system:
+  description:
+    value: >-
+      <p>It takes an hour to crush and prepare one of these warm, red roots, but
+      when ingested they provide immunity to the effects of cold weather until
+      the creature has taken a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Trials and Treasures
+    license: OGL 1.0a
+  quantity: 1
+  weight: 0
+  price:
+    value: .nan
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: mundane
+  identified: true
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  activation:
+    type: hour
+    cost: 1
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.qDj08OAr6a3Ytkrh
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: zFU9G8TKtS0Qdzn6
+        applyToSelf: true
+        duration:
+          unit: hours
+    transfer: false
+    name: Fireroots
+    img: icons/consumables/plants/thorned-dried-stem-red.webp
+    _id: IWuG9H5vxgVZt2DD
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Immunity to the effects of cold weather until the creature has taken a
+      long rest.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722881139859
+      modifiedTime: 1722881164419
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!D9p8ZZmT6M93X6kJ.IWuG9H5vxgVZt2DD'
+flags: {}
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1722880887188
+  modifiedTime: 1722881139896
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: D9p8ZZmT6M93X6kJ
+_key: '!items!D9p8ZZmT6M93X6kJ'

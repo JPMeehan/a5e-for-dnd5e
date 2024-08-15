@@ -1,0 +1,76 @@
+name: Boon of the Protector
+type: feat
+img: icons/magic/defensive/shield-barrier-blades-teal.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 1st level when you choose this archetype, your zeal for
+      taking vengeance rises to the fore. When a creature within your reach hits
+      you or an ally with a melee weapon attack, you can use your reaction to
+      make a melee weapon attack against it.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      A creature within your reach hits you or an ally with a melee weapon
+      attack
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects: []
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723051123120
+  modifiedTime: 1723051173936
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: ouqdpypu5bh5wu3t
+_key: '!items!ouqdpypu5bh5wu3t'

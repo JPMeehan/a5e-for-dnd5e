@@ -1,0 +1,209 @@
+name: Verdant Sovereign
+type: feat
+img: icons/magic/nature/lotus-glow-pink.webp
+effects:
+  - origin: Item.zf1kpjwhg9fabe01
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: yxnxZZULg0kfjYFx
+    transfer: false
+    name: Charm Person
+    _id: o7HeRyC8hpUeKIm7
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723065701731
+      modifiedTime: 1723065701731
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/control/control-influence-puppet.webp
+    type: base
+    system: {}
+    sort: 0
+    folder: null
+    _key: '!items.effects!cr6uj7hjeom7alai.o7HeRyC8hpUeKIm7'
+  - origin: Item.zf1kpjwhg9fabe01
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: vyte5B7agPBSVSNW
+    transfer: false
+    name: Charm Person
+    _id: EU5Izok68Xq8anjT
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723065706399
+      modifiedTime: 1723065706399
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/control/control-influence-puppet.webp
+    type: base
+    system: {}
+    sort: 0
+    folder: null
+    _key: '!items.effects!cr6uj7hjeom7alai.EU5Izok68Xq8anjT'
+  - origin: Item.7rvo952czilh307s
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        duration:
+          unit: hours
+        actionId: qDV2l7s1LlC0Rp4m
+    transfer: false
+    name: Charm Monster
+    _id: a7kNzVfBNLKZyqHI
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["charmed"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    statuses:
+      - charmed
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723065713146
+      modifiedTime: 1723065713146
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/creatures/abilities/paw-print-yellow.webp
+    type: base
+    system: {}
+    sort: 0
+    folder: null
+    _key: '!items.effects!cr6uj7hjeom7alai.a7kNzVfBNLKZyqHI'
+flags: {}
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Your charming spores find fertile ground in even the strongest minds.
+      When you emit charming spores at a target you may choose to affect them as
+      per the spell
+      @UUID[Compendium.a5e-for-dnd5e.spells.Item.7rvo952czilh307s]{Charm
+      Monster}.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: Verdant Beguiler
+  recharge:
+    value: null
+    charged: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.22
+  createdTime: 1723065649163
+  modifiedTime: 1723065731834
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: cr6uj7hjeom7alai
+_key: '!items!cr6uj7hjeom7alai'

@@ -44,14 +44,16 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: effect
+  actionType: heal
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - floor(@prof/2)
+        - temphp
     versatile: ''
   formula: ''
   save:
@@ -59,8 +61,7 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/commodities/leather/scales-brown.webp
-    origin: Item.Tl1NkqfYeEB0epF1
+  - origin: Item.Vkk43KwdXmVlZdAq
     flags:
       a5e:
         sort: 0
@@ -86,16 +87,29 @@ effects:
       damage you take except psychic damage is reduced by an amount equal to
       half your proficiency bonus.</p>
     statuses: []
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.21
+      createdTime: null
+      modifiedTime: 1722954556129
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/commodities/leather/scales-brown.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
     _key: '!items.effects!z2s060elpa5gv1kf.7DOkcF4aJXrOj2Tw'
 flags: {}
-_id: z2s060elpa5gv1kf
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722954556077
+  modifiedTime: 1722954615235
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: z2s060elpa5gv1kf
 _key: '!items!z2s060elpa5gv1kf'

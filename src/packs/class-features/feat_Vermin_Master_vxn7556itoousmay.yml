@@ -52,7 +52,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - '@level+@prof'
+      - - '@classes.druid.level + @mod'
         - piercing
     versatile: ''
   formula: ''
@@ -61,36 +61,20 @@ system:
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/death/skull-poison-green.webp
-    origin: Item.vxn7556itoousmay
+  - origin: Item.F9cp7LvSSyHlab8v
     flags:
       a5e:
         sort: 0
         transferType: onUse
-        actionId: gqpNUdspRzjVZVfl
-        applyToSelf: true
-        duration:
-          unit: minutes
+        actionId: X0mXUMS1aHE3biVk
+        applyToSelf: false
     transfer: false
-    name: Swarm Form
-    _id: C5jyHxEghYGVhZdA
+    name: Resistance
+    img: icons/magic/death/skull-poison-green.webp
+    _id: xWcQcW4SUu9AGPx2
+    type: base
+    system: {}
     changes:
-      - key: system.details.creatureTypes
-        value: '["beast"]'
-        mode: 6
-        priority: null
-      - key: system.details.isSwarm
-        value: 'true'
-        mode: 6
-        priority: null
-      - key: system.attributes.movement.fly
-        value: ''
-        mode: 6
-        priority: null
-      - key: system.attributes.movement.climb
-        value: '30'
-        mode: 6
-        priority: null
       - key: system.traits.dr.value
         value: bludgeoning
         mode: 2
@@ -98,24 +82,322 @@ effects:
     disabled: false
     duration:
       startTime: null
-      seconds: 60
+      seconds: null
       combat: null
       rounds: null
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: <p>You have resistance to bludgeoning, piercing, and slashing damage.</p>
+    tint: '#ffffff'
     statuses: []
-    folder: null
+    sort: 0
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
-    _key: '!items.effects!vxn7556itoousmay.C5jyHxEghYGVhZdA'
+      systemVersion: 0.19.21
+      createdTime: 1722953208250
+      modifiedTime: 1722953208250
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.xWcQcW4SUu9AGPx2'
+  - origin: Item.F9cp7LvSSyHlab8v
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: X0mXUMS1aHE3biVk
+    transfer: false
+    name: Opportunity Attacks
+    img: icons/magic/death/skull-poison-green.webp
+    _id: L08olvzTWRMfsBjK
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You don’t provoke opportunity attacks when moving out of a creature’s
+      reach.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722953208250
+      modifiedTime: 1722953208250
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.L08olvzTWRMfsBjK'
+  - origin: Item.F9cp7LvSSyHlab8v
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: X0mXUMS1aHE3biVk
+    transfer: false
+    name: Climb
+    img: icons/magic/death/skull-poison-green.webp
+    _id: f8jnxBZLkhqCSvA5
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.climb
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You have a climb speed equal to your Speed, and you can walk on walls
+      and upside down on ceilings.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722953208250
+      modifiedTime: 1722953208250
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.f8jnxBZLkhqCSvA5'
+  - origin: Item.F9cp7LvSSyHlab8v
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: X0mXUMS1aHE3biVk
+    transfer: false
+    name: Fly
+    img: icons/magic/death/skull-poison-green.webp
+    _id: fyovnsNOtBqFSyLj
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>You have a fly speed equal to your Speed.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722953208250
+      modifiedTime: 1722953208250
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.fyovnsNOtBqFSyLj'
+  - origin: Item.F9cp7LvSSyHlab8v
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: OUAGwZLziCuyTVve
+        applyToSelf: false
+    transfer: false
+    name: Resistance
+    img: icons/magic/death/skull-poison-green.webp
+    _id: SAE08MWUrlLN4iRu
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        value: bludgeoning
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>You have resistance to bludgeoning, piercing, and slashing damage.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722953209719
+      modifiedTime: 1722953209719
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.SAE08MWUrlLN4iRu'
+  - origin: Item.F9cp7LvSSyHlab8v
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: OUAGwZLziCuyTVve
+    transfer: false
+    name: Opportunity Attacks
+    img: icons/magic/death/skull-poison-green.webp
+    _id: WRQIopcYkKpa6ur9
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You don’t provoke opportunity attacks when moving out of a creature’s
+      reach.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722953209719
+      modifiedTime: 1722953209719
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.WRQIopcYkKpa6ur9'
+  - origin: Item.F9cp7LvSSyHlab8v
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: OUAGwZLziCuyTVve
+    transfer: false
+    name: Climb
+    img: icons/magic/death/skull-poison-green.webp
+    _id: UtyYwW0ODUp9uIv5
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.climb
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You have a climb speed equal to your Speed, and you can walk on walls
+      and upside down on ceilings.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722953209719
+      modifiedTime: 1722953209719
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.UtyYwW0ODUp9uIv5'
+  - origin: Item.F9cp7LvSSyHlab8v
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: OUAGwZLziCuyTVve
+    transfer: false
+    name: Fly
+    img: icons/magic/death/skull-poison-green.webp
+    _id: gX9tmrMtW0YwDOqR
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        value: '@attributes.movement.walk.distance'
+        mode: 6
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>You have a fly speed equal to your Speed.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722953209719
+      modifiedTime: 1722953209719
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!vxn7556itoousmay.gX9tmrMtW0YwDOqR'
 flags: {}
-_id: vxn7556itoousmay
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722953175209
+  modifiedTime: 1722953239109
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: vxn7556itoousmay
 _key: '!items!vxn7556itoousmay'

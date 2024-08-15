@@ -10,20 +10,20 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>You gain proficiency in your choice of four of the following skills and
-      tool kits:</p><ul><li><p>Deception skill</p></li><li><p>Insight
-      skill</p></li><li><p>Investigation skill</p></li><li><p>Stealth
-      skill</p></li><li><p>Disguise Kit</p></li><li><p>Poisoner’s
-      Kit</p></li><li><p>Thieves’ Tools</p></li></ul><p>If you already have
-      proficiency with a skill you select this way, you gain an expertise die
-      with it instead.</p><p>In addition, you can invent ciphers and are able to
-      teach a cipher you create to others. Anyone who knows the cipher can
-      encode and read hidden messages made with it; the apparent text must be at
-      least four times longer than the hidden message. Other creatures can
-      detect the presence of the cipher if they spend a minute examining it and
-      succeed on an Investigation check against a DC equal to 8 + your
-      proficiency bonus + your Intelligence modifier. If the check succeeds by 5
-      or more, they can read the hidden message.</p>
+      <p>When you choose this archetype at 3rd level, you gain proficiency in
+      four of the following skills and tool kits: Deception, Insight,
+      Investigation, Stealth, disguise kit, poisoner&rsquo;s kit, or
+      thieves&rsquo; tools. If you already have proficiency with a skill you
+      select this way, you gain an expertise die with it instead.</p>
+
+      <p>In addition, you can invent ciphers and are able to teach a cipher you
+      create to others. Anyone who knows the cipher can encode and read hidden
+      messages made with it; the apparent text must be at least four times
+      longer than the hidden message. Other creatures can detect the presence of
+      the cipher if they spend a minute examining it and succeed on an
+      Investigation check against a DC equal to 8 + your proficiency bonus +
+      your Intelligence modifier. If the check succeeds by 5 or more, they can
+      read the hidden message.</p>
     chat: ''
   source:
     book: 'Manual of Adventurous Resources: Complete'
@@ -38,9 +38,12 @@ system:
   uses:
     per: null
     max: null
-_id: 9aopgxafex9t307p
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723403520226
+  modifiedTime: 1723403597991
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 9aopgxafex9t307p
 _key: '!items!9aopgxafex9t307p'

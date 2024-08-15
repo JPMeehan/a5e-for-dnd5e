@@ -1,6 +1,6 @@
 name: Honor Bound
 type: feat
-img: icons/svg/item-bag.svg
+img: icons/skills/social/diplomacy-peace-alliance.webp
 effects: []
 flags: {}
 system:
@@ -10,9 +10,36 @@ system:
   description:
     value: >-
       <p>Also at 3rd level, you swear yourself either to a code of conduct or to
-      a lord or nation. Choose one of the following:</p><p><strong><em>&nbsp;
-      &nbsp;Loyal to the Crown</em></strong></p><p><strong><em>&nbsp;
-      &nbsp;Loyal to the Code</em></strong></p>
+      a lord or nation. Choose one of the following:</p>
+
+      <p><em><strong>Loyal to the Crown.</strong></em> You are loyal to a
+      specific nation, lord, organization, or other authority. While you are in
+      good standing with that authority and are within their area of influence,
+      you and your allies can easily find free food and lodging, and creatures
+      with a CR lower than yours that are also loyal to that authority may
+      perform simple tasks at your request. You lose good standing with that
+      authority if you go against their wishes. Consult the Narrator on
+      authorities within the campaign setting, their wishes, and what will keep
+      or return you to good standing with them.</p>
+
+      <p><em><strong>Loyal to the Code.</strong></em> You are loyal to a
+      specific code of honor. You gain an expertise die on Persuasion checks.
+      However, whenever you break your code you suffer a level of strife and
+      instead have disadvantage on Persuasion checks for the following 7 days.
+      Choose one of the following codes to keep:</p>
+
+      <ul>
+
+      <li>I will never harm a creature that has surrendered.</li>
+
+      <li>I will never steal from a living soul.</li>
+
+      <li>I will never let a lie pass my lips.</li>
+
+      </ul>
+
+      <p>Alternatively, consult the Narrator for any codes specific to the
+      campaign setting.</p>
     chat: ''
   source:
     book: Adventurer's Guide
@@ -28,9 +55,12 @@ system:
     per: null
     max: null
 folder: null
-_id: urdctkqriy31nerq
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723128013392
+  modifiedTime: 1723128237280
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: urdctkqriy31nerq
 _key: '!items!urdctkqriy31nerq'

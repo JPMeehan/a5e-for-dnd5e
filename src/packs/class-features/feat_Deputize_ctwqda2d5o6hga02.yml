@@ -1,7 +1,52 @@
 name: Deputize
 type: feat
 img: icons/commodities/treasure/token-gold-cross.webp
-effects: []
+effects:
+  - origin: Item.DSHYu4OucEFgRDI5
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: c392hElubbV42OYh
+        duration:
+          unit: hours
+    transfer: false
+    name: Deputize
+    img: icons/sundries/scrolls/scroll-yellow-teal.webp
+    _id: n2bkYpOG1UaeC4NP
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        value: floor(@prof/2)
+        mode: 2
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You and the affected creatures all gain a bonus to AC and saving throws
+      equal to half your proficiency bonus for the duration of the effect.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1722958957473
+      modifiedTime: 1722959026011
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!ctwqda2d5o6hga02.n2bkYpOG1UaeC4NP'
 folder: null
 flags: {}
 system:
@@ -10,15 +55,20 @@ system:
     subtype: ''
   description:
     value: >-
-      <p>When you use your Judicial Review, you and a number of creatures up to
-      your proficiency bonus all gain its benefits.&nbsp;</p><p>The other
-      creatures may ask different questions, but you know what answers they are
-      seeking and must approve them. A creature asking an unapproved question
-      may try again (subject only to your patience), or you may simply deny it
-      access to the benefits of this ability. The ability takes effect for all
-      selected creatures once these conflicts have been resolved.</p><p>In
-      addition, you and the affected creatures all gain a bonus to AC and saving
-      throws equal to half your proficiency bonus for the duration of the
+      <p>When you use your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.08qz96s48tf3tn0t]{Judicial
+      Review}, you and a number of creatures up to your proficiency bonus all
+      gain its benefits.&nbsp;</p>
+
+      <p>The other creatures may ask different questions, but you know what
+      answers they are seeking and must approve them. A creature asking an
+      unapproved question may try again (subject only to your patience), or you
+      may simply deny it access to the benefits of this ability. The ability
+      takes effect for all selected creatures once these conflicts have been
+      resolved.</p>
+
+      <p>In addition, you and the affected creatures all gain a bonus to AC and
+      saving throws equal to half your proficiency bonus for the duration of the
       effect.</p>
     chat: ''
   source:
@@ -30,13 +80,50 @@ system:
     value: null
     charged: true
   activation:
-    type: null
+    type: bonus
+    cost: 1
   uses:
+    value: null
+    max: ''
     per: null
-    max: null
-_id: ctwqda2d5o6hga02
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: effect
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.21
+  createdTime: 1722958879333
+  modifiedTime: 1722959036576
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: ctwqda2d5o6hga02
 _key: '!items!ctwqda2d5o6hga02'

@@ -1,0 +1,113 @@
+name: Potent Premonitions
+type: feat
+img: icons/magic/perception/eye-winged-pink.webp
+system:
+  type:
+    value: class
+    subtype: ''
+  description:
+    value: >-
+      <p>Starting at 8th level, your premonitions are more powerful. Your
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.0qbtin86dqzj6oz2]{Unfickle
+      Fate} feature now lasts up to 8 hours. In addition you gain one
+      premonition per long rest. Roll a d20. You may apply its number to the
+      ability check, attack roll, or saving throw of a creature you can see
+      within 30 feet. Once you use this feature, you cannot do so again until
+      you finish a long rest.</p>
+    chat: ''
+  source:
+    book: Adventurer's Guide
+    license: OGL 1.0a
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: true
+  activation: {}
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  duration: {}
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+effects:
+  - origin: Item.XjK1te0kRa7G8ZII
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: E5EZO2WHsVExE6Ip
+        duration:
+          unit: hours
+    transfer: false
+    name: Premonition
+    img: icons/skills/social/trading-injustice-scale-gray.webp
+    _id: yPK1MAsJKrcNBkKs
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: "<p>Can choose to reroll an ability check, attack roll, or saving throw, after which the premonition is gone from its mind.\_</p>"
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.21
+      createdTime: 1723041526554
+      modifiedTime: 1723041550307
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!4j8c0qyx4l459h47.yPK1MAsJKrcNBkKs'
+flags: {}
+folder: null
+_stats:
+  coreVersion: '12.330'
+  systemId: a5e
+  systemVersion: 0.19.21
+  createdTime: 1723041469675
+  modifiedTime: 1723041727235
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: 4j8c0qyx4l459h47
+_key: '!items!4j8c0qyx4l459h47'

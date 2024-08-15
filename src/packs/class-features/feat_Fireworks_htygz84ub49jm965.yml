@@ -14,14 +14,16 @@ system:
       Stealth checks, you do not benefit from invisibility, and the noise of
       your magically-infused assault can be heard up to 300 feet away with no
       checks required. You shed bright light in a 30-foot radius around yourself
-      and dim light a further 30 feet beyond that.&nbsp;</p><p>Additionally, you
-      can spend 2 exertion points as a bonus action to have all attacks you make
-      until the end of your turn benefit from Demoralizing Prowess. When you do,
-      you must pick a different damage type each time Demoralizing Prowess
-      triggers. In addition, the severity of the effects of your attacks
-      increases. If a creature fails a second saving throw in the same round
-      against your Demoralizing Prowess, it is also blinded until the end of its
-      next turn. If it fails a third, it is also stunned for that
+      and dim light a further 30 feet beyond that.&nbsp;</p>
+
+      <p>Additionally, you can spend 2 exertion points as a bonus action to have
+      all attacks you make until the end of your turn benefit from
+      @UUID[Compendium.a5e-for-dnd5e.class-features.Item.s99zfj3tpfgt5gt4]{Demoralizing
+      Prowess}. When you do, you must pick a different damage type each time
+      Demoralizing Prowess triggers. In addition, the severity of the effects of
+      your attacks increases. If a creature fails a second saving throw in the
+      same round against your Demoralizing Prowess, it is also blinded until the
+      end of its next turn. If it fails a third, it is also stunned for that
       duration.&nbsp;</p>
     chat: ''
   source:
@@ -57,7 +59,7 @@ system:
     target: null
     amount: null
   ability: null
-  actionType: null
+  actionType: effect
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -68,12 +70,11 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: wis
     dc: null
     scaling: spell
 effects:
-  - icon: icons/magic/light/projectile-smoke-blue-white.webp
-    origin: Item.mkSqVtAVTdMJQ7Si
+  - origin: Item.PCvxQx8GdpKzt37k
     flags:
       a5e:
         sort: 0
@@ -115,17 +116,198 @@ effects:
       startTurn: null
     description: "<p>When you roll initiative, you can activate your Fireworks (no action). This grants you advantage on Performance and Intimidation checks. While under the effects of Fireworks, you cannot make Stealth checks, you do not benefit from invisibility, and the noise of your magically-infused assault can be heard up to 300 feet away with no checks required. You shed bright light in a 30-foot radius around yourself and dim light a further 30 feet beyond that.\_</p>"
     statuses: []
-    folder: null
     _stats:
-      coreVersion: '12'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
       systemId: a5e
-      systemVersion: 0.19.17
+      systemVersion: 0.19.22
+      createdTime: null
+      modifiedTime: 1723143750660
+      lastModifiedBy: Glw114cHAVexdKTu
+    img: icons/magic/light/projectile-smoke-blue-white.webp
+    type: base
+    system: {}
+    tint: '#ffffff'
+    sort: 0
+    folder: null
     _key: '!items.effects!htygz84ub49jm965.Ps7Ro3VyWbjNv06q'
+  - origin: Item.fPhA3YYn8X9AeqCO
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Bju5kmmeCGs4mKo5
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Rattled
+    img: icons/magic/control/voodoo-doll-pain-damage-red.webp
+    _id: KO2adB0WZPKvCh5G
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["rattled"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A rattled creature cannot benefit from expertise dice.</li>
+
+      <li>A creature that is immune to being stunned is immune to being
+      rattled.</li>
+
+      <li>A rattled creature cannot take reactions.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - rattled
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723143785772
+      modifiedTime: 1723143785772
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!htygz84ub49jm965.KO2adB0WZPKvCh5G'
+  - origin: Item.fPhA3YYn8X9AeqCO
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Bju5kmmeCGs4mKo5
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Blinded
+    img: icons/magic/control/voodoo-doll-pain-damage-red.webp
+    _id: 8KWiGbd7U7QYtJym
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["blinded"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A blinded creature can't see and it automatically fails ability checks
+      that require sight.</li>
+
+      <li>Attack rolls against a blinded creature are made with advantage, and
+      the creature's attack rolls are made with disadvantage.</li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - blinded
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723143846467
+      modifiedTime: 1723143882283
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!htygz84ub49jm965.8KWiGbd7U7QYtJym'
+  - origin: Item.fPhA3YYn8X9AeqCO
+    flags:
+      a5e:
+        sort: 0
+        transferType: onUse
+        actionId: Bju5kmmeCGs4mKo5
+        duration:
+          type: rounds
+          unit: minutes
+    transfer: false
+    name: Stunned
+    img: icons/magic/control/voodoo-doll-pain-damage-red.webp
+    _id: G876RCDQlPjAwGPv
+    type: base
+    system: {}
+    changes:
+      - key: flags.a5e.effects.statusConditions
+        value: '["stunned"]'
+        mode: 0
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <ul>
+
+      <li>A stunned creature is incapacitated (see the condition), can't move,
+      and can speak only falteringly.</li>
+
+      <li>The creature automatically fails Strength and Dexterity saving
+      throws.</li>
+
+      <li>Attack rolls against the creature have advantage.</li>
+
+      <li>A creature that is immune to being stunned is immune to being
+      rattled.<br /><br /></li>
+
+      </ul>
+    tint: '#ffffff'
+    statuses:
+      - stunned
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: a5e
+      systemVersion: 0.19.22
+      createdTime: 1723143886117
+      modifiedTime: 1723143936747
+      lastModifiedBy: Glw114cHAVexdKTu
+    folder: null
+    _key: '!items.effects!htygz84ub49jm965.G876RCDQlPjAwGPv'
 flags: {}
 folder: null
-_id: htygz84ub49jm965
 _stats:
-  coreVersion: '12'
+  coreVersion: '12.330'
   systemId: a5e
-  systemVersion: 0.19.17
+  systemVersion: 0.19.22
+  createdTime: 1723143750596
+  modifiedTime: 1723143945872
+  lastModifiedBy: Glw114cHAVexdKTu
+_id: htygz84ub49jm965
 _key: '!items!htygz84ub49jm965'
