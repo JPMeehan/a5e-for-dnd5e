@@ -2,7 +2,7 @@ import A5E_CONFIG from "./src/module/config.mjs";
 import * as DataClasses from "./src/module/data/_module.mjs";
 import * as SheetClasses from "./src/module/apps/_module.mjs";
 import * as a5eHooks from "./src/module/hooks/_module.mjs";
-import {ACTOR_SHEETS, moduleID, moduleTypes} from "./src/module/utils.mjs";
+import {ACTOR_SHEETS, moduleID, moduleTypes, modulePath} from "./src/module/utils.mjs";
 import {_onDialogSubmit} from "./src/module/hooks/expertiseDice.mjs";
 
 Hooks.once("init", () => {
@@ -42,11 +42,12 @@ Hooks.once("init", () => {
 
   a5eHooks.compendiumBrowser.addTabs();
 
+  loadTemplates([modulePath + "templates/default/details-maneuver.hbs"]);
+
   for (const [name, sheetClass] of Object.entries(SheetClasses)) {
     const type = name.toLowerCase();
     Items.registerSheet(moduleID, sheetClass, {
       types: [moduleTypes[type]],
-      makeDefault: true,
       label: `${moduleID}.${name}.SheetLabel`
     });
   }
@@ -178,7 +179,7 @@ Hooks.on("dnd5e.preRollSkill", a5eHooks.expertiseDice.applyExpertDie);
  */
 
 Hooks.on("renderItemSheet5e", (sheet, html, context) => {
-  switch (context.document.type) {
+  switch (sheet.document.type) {
     case "spell":
       a5eHooks.itemSheet.spells(sheet, html, context);
       break;

@@ -18,6 +18,10 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   ItemDescriptionTemplate,
   ActivitiesTemplate
 ) {
+  static LOCALIZATION_PREFIXES = [
+    "DND5E.ACTIVATION", "DND5E.DURATION", "DND5E.RANGE", "DND5E.SOURCE", "DND5E.TARGET"
+  ];
+  
   static defineSchema() {
     const fields = foundry.data.fields;
     return this.mergeSchema(super.defineSchema(), {
@@ -40,7 +44,8 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
         required: false,
         label: "a5e-for-dnd5e.Maneuver.Prerequisite"
       }),
-      properties: new fields.SetField(new fields.StringField())
+      properties: new fields.SetField(new fields.StringField()),
+      sourceClass: new foundry.data.fields.StringField({label: "DND5E.SpellSourceClass"})
     });
   }
 
@@ -227,12 +232,11 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   /** @inheritDoc */
   async getSheetData(context) {
     context.subtitles = [
-      {label: context.labels.level},
-      {label: context.labels.discipline}
+      {label: context.labels.degree},
+      {label: context.labels.tradition}
     ];
-    context.psionics = CONFIG.PSIONICS;
-    context.properties.active = this.parent.labels?.components?.tags;
-    context.parts = [modulePath("templates/details-power.hbs"), "dnd5e.field-uses"];
+    context.a5e = CONFIG.A5E;
+    context.parts = [modulePath + "templates/default/details-maneuver.hbs", "dnd5e.field-uses"];
   }
 
   /* -------------------------------------------- */

@@ -63,7 +63,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
       });
 
       // Activation
-      const cost = maneuver.system.activation?.cost;
+      const cost = maneuver.system.activation?.value;
       const abbr = {
         action: "DND5E.ActionAbbr",
         bonus: "DND5E.BonusActionAbbr",
