@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0
+
+- Rewrite for dnd5e system 4.0.0
+
 ## 1.1.1
 
 - Updated data imports from a5e
