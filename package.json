@@ -19,7 +19,10 @@
     "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
     "rollup": "^3.29.4",
     "sass": "^1.70.0"
   }
