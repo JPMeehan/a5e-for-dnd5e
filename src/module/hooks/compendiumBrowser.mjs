@@ -26,7 +26,7 @@ export function addTabs() {
     label: "TYPES.Item.a5e-for-dnd5e.maneuverPl",
     svg: modulePath + "assets/icons/subtypes/maneuver.svg",
     documentClass: "Item",
-    types: [moduleTypes.culture]
+    types: [moduleTypes.maneuver]
   };
   tabs.splice(9, 0, maneuverTab);
 }

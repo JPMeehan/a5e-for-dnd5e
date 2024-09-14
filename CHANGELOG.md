@@ -3,6 +3,7 @@
 ## 2.0.0
 
 - Rewrite for dnd5e system 4.0.0
+- Fixed bug where Compendium Browser tab for maneuvers showed cultures
 
 ## 1.1.1
 
