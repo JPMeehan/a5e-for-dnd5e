@@ -236,7 +236,7 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
       {label: context.labels.tradition}
     ];
     context.a5e = CONFIG.A5E;
-    context.parts = [modulePath + "templates/default/details-maneuver.hbs", "dnd5e.field-uses"];
+    context.parts = ["a5e.details-maneuver", "dnd5e.field-uses"];
   }
 
   /* -------------------------------------------- */

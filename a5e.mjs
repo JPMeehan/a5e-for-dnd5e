@@ -42,7 +42,11 @@ Hooks.once("init", () => {
 
   a5eHooks.compendiumBrowser.addTabs();
 
-  loadTemplates([modulePath + "templates/default/details-maneuver.hbs"]);
+  loadTemplates({
+    "a5e.details-culture": modulePath + "templates/items/details-culture.hbs",
+    "a5e.details-destiny": modulePath + "templates/items/details-destiny.hbs",
+    "a5e.details-maneuver": modulePath + "templates/items/details-maneuver.hbs"
+  });
 
   for (const [name, sheetClass] of Object.entries(SheetClasses)) {
     const type = name.toLowerCase();

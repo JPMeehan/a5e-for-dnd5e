@@ -11,7 +11,28 @@ export default class CultureData extends dnd5e.dataModels.ItemDataModel.mixin(
     });
   }
 
-  static metadata = Object.freeze({singleton: true});
+  /** @inheritDoc */
+  static metadata = Object.freeze(foundry.utils.mergeObject(super.metadata, {
+    singleton: true
+  }, {inplace: false}));
+
+  /* -------------------------------------------- */
+  /*  Data Preparation                            */
+  /* -------------------------------------------- */
+
+  /** @inheritDoc */
+  prepareDerivedData() {
+    super.prepareDerivedData();
+    this.prepareDescriptionData();
+  }
+  /* -------------------------------------------- */
+
+  /** @inheritDoc */
+  async getSheetData(context) {
+    context.subtitles = [{label: context.itemType}];
+    context.singleDescription = true;
+    context.parts = ["a5e.details-culture"];
+  }
 
   /* -------------------------------------------- */
   /*  Socket Event Handlers                       */

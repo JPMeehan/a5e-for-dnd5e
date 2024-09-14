@@ -3,6 +3,10 @@ import {moduleID} from "../utils.mjs";
 export default class DestinyData extends dnd5e.dataModels.ItemDataModel.mixin(
   dnd5e.dataModels.item.ItemDescriptionTemplate
 ) {
+  
+  /** @override */
+  static LOCALIZATION_PREFIXES = ["DND5E.SOURCE"];
+
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
       advancement: new foundry.data.fields.ArrayField(
@@ -11,7 +15,28 @@ export default class DestinyData extends dnd5e.dataModels.ItemDataModel.mixin(
     });
   }
 
-  static metadata = Object.freeze({singleton: true});
+  /** @inheritDoc */
+  static metadata = Object.freeze(foundry.utils.mergeObject(super.metadata, {
+    singleton: true
+  }, {inplace: false}));
+
+  /* -------------------------------------------- */
+  /*  Data Preparation                            */
+  /* -------------------------------------------- */
+
+  /** @inheritDoc */
+  prepareDerivedData() {
+    super.prepareDerivedData();
+    this.prepareDescriptionData();
+  }
+  /* -------------------------------------------- */
+
+  /** @inheritDoc */
+  async getSheetData(context) {
+    context.subtitles = [{label: context.itemType}];
+    context.singleDescription = true;
+    context.parts = ["a5e.details-destiny"];
+  }
 
   /* -------------------------------------------- */
   /*  Socket Event Handlers                       */
