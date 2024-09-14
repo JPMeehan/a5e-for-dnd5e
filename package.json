@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "createSymlinks": "node ./tools/createSymlinks.mjs",
     "build:init": "node ./tools/extract-a5e.mjs",
     "build:A5Eto5E": "node ./tools/migrateFiles.mjs",
     "build:spells": "npm run build:A5Eto5E -- spells && node ./tools/folderBuild/spells.mjs",
