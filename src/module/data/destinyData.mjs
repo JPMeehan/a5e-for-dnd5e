@@ -1,4 +1,4 @@
-import { moduleID } from '../utils.mjs';
+import {moduleID} from "../utils.mjs";
 
 export default class DestinyData extends dnd5e.dataModels.ItemDataModel.mixin(
   dnd5e.dataModels.item.ItemDescriptionTemplate
@@ -7,11 +7,11 @@ export default class DestinyData extends dnd5e.dataModels.ItemDataModel.mixin(
     return this.mergeSchema(super.defineSchema(), {
       advancement: new foundry.data.fields.ArrayField(
         new dnd5e.dataModels.fields.AdvancementField()
-      ),
+      )
     });
   }
 
-  static metadata = Object.freeze({ singleton: true });
+  static metadata = Object.freeze({singleton: true});
 
   /* -------------------------------------------- */
   /*  Socket Event Handlers                       */
@@ -26,9 +26,9 @@ export default class DestinyData extends dnd5e.dataModels.ItemDataModel.mixin(
    * @protected
    */
   _onCreate(data, options, userId) {
-    if (game.user.id !== userId || this.parent.actor?.type !== 'character')
+    if ((game.user.id !== userId) || (this.parent.actor?.type !== "character"))
       return;
-    this.parent.actor.setFlag(moduleID, 'destiny', this.parent.id);
+    this.parent.actor.setFlag(moduleID, "destiny", this.parent.id);
   }
 
   /* -------------------------------------------- */
@@ -42,7 +42,7 @@ export default class DestinyData extends dnd5e.dataModels.ItemDataModel.mixin(
    * @protected
    */
   async _preDelete(options, user) {
-    if (this.parent.actor?.type !== 'character') return;
-    await this.parent.actor.unsetFlag(moduleID, 'destiny');
+    if (this.parent.actor?.type !== "character") return;
+    await this.parent.actor.unsetFlag(moduleID, "destiny");
   }
 }

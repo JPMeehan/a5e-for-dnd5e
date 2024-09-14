@@ -1,20 +1,20 @@
-import { moduleID } from '../utils.mjs';
+import {moduleID} from "../utils.mjs";
 
 export function useFatigueStress() {
   const fatigue = {
-    label: 'a5e-for-dnd5e.Fatigue',
-    name: 'a5e-for-dnd5e.Fatigue',
-    levels: 7,
+    label: "a5e-for-dnd5e.Fatigue",
+    name: "a5e-for-dnd5e.Fatigue",
+    levels: 7
   };
   foundry.utils.mergeObject(CONFIG.DND5E.conditionTypes.exhaustion, fatigue);
   foundry.utils.mergeObject(
-    CONFIG.statusEffects.find((s) => s.id === 'exhaustion'),
+    CONFIG.statusEffects.find((s) => s.id === "exhaustion"),
     fatigue
   );
-  CONFIG.DND5E.conditionEffects.halfMovement.delete('exhaustion-2');
-  CONFIG.DND5E.conditionEffects.halfMovement.add('exhaustion-3');
-  CONFIG.DND5E.conditionEffects.halfHealth.delete('exhaustion-4');
-  CONFIG.DND5E.conditionEffects.noMovement.delete('exhaustion-5');
+  CONFIG.DND5E.conditionEffects.halfMovement.delete("exhaustion-2");
+  CONFIG.DND5E.conditionEffects.halfMovement.add("exhaustion-3");
+  CONFIG.DND5E.conditionEffects.halfHealth.delete("exhaustion-4");
+  CONFIG.DND5E.conditionEffects.noMovement.delete("exhaustion-5");
 }
 
 /**
@@ -29,21 +29,21 @@ export function useFatigueStress() {
  * @returns {boolean}                  Explicitly return `false` to prevent updates from being performed.
  */
 export function natOneDeathSave(actor, roll, details) {
-  if (!game.settings.get(moduleID, 'useFatigueStress')) return;
+  if (!game.settings.get(moduleID, "useFatigueStress")) return;
   if (roll.isFumble) {
     const death = actor.system.attributes.death;
     const failures = death.failure + 1;
     const exhaustion = actor.system.attributes.exhaustion;
-    const stress = actor.getFlag(moduleID, 'stress') ?? 0;
+    const stress = actor.getFlag(moduleID, "stress") ?? 0;
     details.updates = {
-      'system.attributes.death.failure': Math.clamped(failures, 0, 3),
-      'system.attributes.exhaustion': Math.clamped(
+      "system.attributes.death.failure": Math.clamped(failures, 0, 3),
+      "system.attributes.exhaustion": Math.clamped(
         exhaustion + 1,
         0,
         CONFIG.DND5E.conditionTypes.exhaustion.levels
       ),
-      'flags.a5e-for-dnd5e.stress': Math.clamped(stress + 1, 0, 7),
+      "flags.a5e-for-dnd5e.stress": Math.clamped(stress + 1, 0, 7)
     };
-    if (failures < 3) details.chatString = '';
+    if (failures < 3) details.chatString = "";
   }
 }

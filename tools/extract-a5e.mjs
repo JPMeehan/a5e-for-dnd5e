@@ -1,5 +1,5 @@
-import { extractPack } from "@foundryvtt/foundryvtt-cli";
-import { promises as fs } from "fs";
+import {extractPack} from "@foundryvtt/foundryvtt-cli";
+import {promises as fs} from "fs";
 import path from "path";
 
 const a5eDir = path.join("..", "..", "systems", "a5e", "packs");
@@ -20,5 +20,5 @@ for (const pack of packs) {
   }
   const src = path.join(a5eDir, pack);
 
-  await extractPack(src, dest, { yaml: true, log: true });
+  await extractPack(src, dest, {yaml: true, log: true});
 }

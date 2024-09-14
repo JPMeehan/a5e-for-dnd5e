@@ -1,4 +1,4 @@
-import { moduleID, modulePath, moduleTypes } from '../utils.mjs';
+import {moduleID, modulePath, moduleTypes} from "../utils.mjs";
 
 /**
  * A prestige definition
@@ -11,73 +11,73 @@ import { moduleID, modulePath, moduleTypes } from '../utils.mjs';
  * @param {JQuery} html
  * @param {object} context
  */
-export async function defaultSheet(sheet, html, { editable, ...context }) {
+export async function defaultSheet(sheet, html, {editable, ...context}) {
   /**
    * Culture and Destiny
    */
 
-  const originInfo = html.find('.right .top.flexrow .pills-lg');
+  const originInfo = html.find(".right .top.flexrow .pills-lg");
   /** @type {Actor} */
   const actor = sheet.actor;
   const itemTypes = actor.itemTypes;
-  const displayBlank = game.settings.get(moduleID, 'showBlankOrigins');
+  const displayBlank = game.settings.get(moduleID, "showBlankOrigins");
 
   const culture = itemTypes[moduleTypes.culture][0];
   const culturePill = await renderTemplate(
-    modulePath + 'templates/default/origin-pill.hbs',
+    modulePath + "templates/default/origin-pill.hbs",
     {
       actor,
       item: culture,
       type: moduleTypes.culture,
       editable,
-      displayBlank,
+      displayBlank
     }
   );
-  originInfo.find('.pill-lg:nth-child(2)').after(culturePill);
+  originInfo.find(".pill-lg:nth-child(2)").after(culturePill);
 
   const destiny = itemTypes[moduleTypes.destiny][0];
   const destinyPill = await renderTemplate(
-    modulePath + 'templates/default/origin-pill.hbs',
+    modulePath + "templates/default/origin-pill.hbs",
     {
       actor,
       item: destiny,
       type: moduleTypes.destiny,
       editable,
-      displayBlank,
+      displayBlank
     }
   );
   originInfo.append(destinyPill);
 
   // Need to manually reapply listeners in v11
-  const cultureClass = moduleTypes.culture.replace('.', '\\.');
-  const destinyClass = moduleTypes.destiny.replace('.', '\\.');
+  const cultureClass = moduleTypes.culture.replace(".", "\\.");
+  const destinyClass = moduleTypes.destiny.replace(".", "\\.");
   // General "edit" fn and then specific delete buttons
   const embeddedOrigins = `.${cultureClass}, .${destinyClass}, .${cultureClass} .item-action, .${destinyClass} .item-action`;
-  originInfo.on('click', embeddedOrigins, sheet._onItemAction.bind(sheet));
-  const blankOrigins = `[data-action][data-item-type^="${moduleID}"]`
-  originInfo.on('click', blankOrigins, sheet._onAction.bind(sheet));
+  originInfo.on("click", embeddedOrigins, sheet._onItemAction.bind(sheet));
+  const blankOrigins = `[data-action][data-item-type^="${moduleID}"]`;
+  originInfo.on("click", blankOrigins, sheet._onAction.bind(sheet));
 
   /**
    * Fatigue and Stress
    */
-  if (game.settings.get(moduleID, 'useFatigueStress')) {
-    const exhaustion = html.find('.sidebar .card .stats .top');
+  if (game.settings.get(moduleID, "useFatigueStress")) {
+    const exhaustion = html.find(".sidebar .card .stats .top");
     const fatigue = exhaustion.children()[0];
-    fatigue.classList.add('fatigue');
+    fatigue.classList.add("fatigue");
     fatigue.innerHTML = await renderTemplate(
-      modulePath + 'templates/pipsFatigueStress.hbs',
+      modulePath + "templates/pipsFatigueStress.hbs",
       {
-        conditions: constructPips('Fatigue', actor),
+        conditions: constructPips("Fatigue", actor)
       }
     );
 
     const stress = exhaustion.children()[2];
-    stress.classList.add('stress');
+    stress.classList.add("stress");
     stress.dataset.prop = `flags.${moduleID}.stress`;
     stress.innerHTML = await renderTemplate(
-      modulePath + 'templates/pipsFatigueStress.hbs',
+      modulePath + "templates/pipsFatigueStress.hbs",
       {
-        conditions: constructPips('Stress', actor),
+        conditions: constructPips("Stress", actor)
       }
     );
   }
@@ -85,34 +85,34 @@ export async function defaultSheet(sheet, html, { editable, ...context }) {
   /**
    * Prestige
    */
-  if (game.settings.get(moduleID, 'usePrestige')) {
+  if (game.settings.get(moduleID, "usePrestige")) {
     const prestige = getPrestige(actor);
-    const biographyTraits = html.find('.tab.biography .middle');
-    if (game.settings.get(moduleID, 'multiPrestige')) {
+    const biographyTraits = html.find(".tab.biography .middle");
+    if (game.settings.get(moduleID, "multiPrestige")) {
       const prestigeHTML = await renderTemplate(
-        modulePath + 'templates/character/multi-prestige.hbs',
-        { editable, prestige }
+        modulePath + "templates/character/multi-prestige.hbs",
+        {editable, prestige}
       );
       biographyTraits.append(prestigeHTML);
     } else {
-      const appearance = biographyTraits.find('.right .textbox-half');
+      const appearance = biographyTraits.find(".right .textbox-half");
       const prestigeHTML = await renderTemplate(
-        modulePath + 'templates/default/single-prestige.hbs',
-        { prestige: prestige[0], editable, element: 'h3' }
+        modulePath + "templates/default/single-prestige.hbs",
+        {prestige: prestige[0], editable, element: "h3"}
       );
 
       appearance.first().after(prestigeHTML);
     }
-    biographyTraits.on('click', 'a.prestige', (e) => {
+    biographyTraits.on("click", "a.prestige", (e) => {
       const data = e.currentTarget.dataset;
       switch (data.action) {
-        case 'roll':
+        case "roll":
           rollPrestige(actor, Number(data.rating));
           break;
-        case 'add':
+        case "add":
           addPrestige(actor);
           break;
-        case 'delete':
+        case "delete":
           removePrestige(actor, Number(data.index));
           break;
       }
@@ -129,23 +129,23 @@ function constructPips(condition, actor) {
   const max = 7;
 
   const dataPath =
-    condition === 'Fatigue'
-      ? 'system.attributes.exhaustion'
+    condition === "Fatigue"
+      ? "system.attributes.exhaustion"
       : `flags.${moduleID}.stress`;
 
   return Array.fromRange(max, 1).reduce((acc, n) => {
-    const label = game.i18n.format(moduleID + '.' + condition + 'Level', { n });
-    const classes = ['pip'];
+    const label = game.i18n.format(moduleID + "." + condition + "Level", {n});
+    const classes = ["pip"];
     const filled = foundry.utils.getProperty(actor, dataPath) >= n;
 
-    if (filled) classes.push('filled');
-    if (n === max) classes.push('death');
+    if (filled) classes.push("filled");
+    if (n === max) classes.push("death");
     const pip = {
       n,
       label,
       filled,
       tooltip: label,
-      classes: classes.join(' '),
+      classes: classes.join(" ")
     };
     acc.push(pip);
     return acc;
@@ -158,16 +158,16 @@ function constructPips(condition, actor) {
  * @returns {Array<Prestige>}
  */
 function getPrestige(actor) {
-  const prestige = actor.getFlag(moduleID, 'prestige');
+  const prestige = actor.getFlag(moduleID, "prestige");
   // case 1: Convert object of numbers to array
   if (prestige) return Object.values(prestige);
   // case 2: No prestige flag set yet
   else if (prestige === undefined)
     return [
       {
-        center: game.i18n.localize('a5e-for-dnd5e.Prestige.center'),
-        rating: 1,
-      },
+        center: game.i18n.localize("a5e-for-dnd5e.Prestige.center"),
+        rating: 1
+      }
     ];
   // case 3: deleted all values for empty object
   else return [];
@@ -180,12 +180,12 @@ function getPrestige(actor) {
  */
 function rollPrestige(actor, prestige) {
   game.dnd5e.dice.d20Roll({
-    parts: ['@prestige'],
-    data: { prestige },
-    title: game.i18n.localize('a5e-for-dnd5e.Prestige.check'),
+    parts: ["@prestige"],
+    data: {prestige},
+    title: game.i18n.localize("a5e-for-dnd5e.Prestige.check"),
     messageData: {
-      speaker: { actor },
-    },
+      speaker: {actor}
+    }
   });
 }
 
@@ -195,13 +195,13 @@ function rollPrestige(actor, prestige) {
  */
 function addPrestige(actor) {
   const start = {
-    center: game.i18n.localize('a5e-for-dnd5e.Prestige.center'),
-    rating: 1,
+    center: game.i18n.localize("a5e-for-dnd5e.Prestige.center"),
+    rating: 1
   };
   /** @type {Record<number, Prestige>} */
-  const prestige = actor.getFlag(moduleID, 'prestige') ?? { 0: start };
+  const prestige = actor.getFlag(moduleID, "prestige") ?? {0: start};
   prestige[Object.keys(prestige).length] = start;
-  actor.setFlag(moduleID, 'prestige', prestige);
+  actor.setFlag(moduleID, "prestige", prestige);
 }
 
 /**
@@ -211,9 +211,9 @@ function addPrestige(actor) {
  */
 function removePrestige(actor, index) {
   /** @type {Record<number, Prestige} */
-  const prestige = actor.getFlag(moduleID, 'prestige');
+  const prestige = actor.getFlag(moduleID, "prestige");
   if (!prestige) {
-    actor.setFlag(moduleID, 'prestige', {});
+    actor.setFlag(moduleID, "prestige", {});
     return;
   }
 
@@ -227,9 +227,9 @@ function removePrestige(actor, index) {
       acc[i] = curr;
       return acc;
     },
-    { [`-=${prestigeArray.length}`]: null }
+    {[`-=${prestigeArray.length}`]: null}
   );
-  actor.setFlag(moduleID, 'prestige', newPrestige);
+  actor.setFlag(moduleID, "prestige", newPrestige);
 }
 
 /**
@@ -250,19 +250,19 @@ export function legacySheet(sheet, html, context) {
   const newFeatures = [
     context.features[0],
     {
-      dataset: { type: moduleTypes.culture },
+      dataset: {type: moduleTypes.culture},
       hasActions: false,
       items: [],
-      label: `TYPES.Item.${moduleTypes.culture}`,
+      label: `TYPES.Item.${moduleTypes.culture}`
     },
     context.features[1],
     {
-      dataset: { type: moduleTypes.destiny },
+      dataset: {type: moduleTypes.destiny},
       hasActions: false,
       items: [],
-      label: `TYPES.Item.${moduleTypes.destiny}`,
+      label: `TYPES.Item.${moduleTypes.destiny}`
     },
-    ...context.features.slice(2),
+    ...context.features.slice(2)
   ];
 
   const actor = sheet.actor;
@@ -275,9 +275,9 @@ export function legacySheet(sheet, html, context) {
   const destiny = itemTypes[moduleTypes.destiny][0];
   if (destiny) newFeatures[3].items.push(destiny);
 
-  const featureList = html.find('.features');
-  const template = 'systems/dnd5e/templates/actors/parts/actor-features.hbs';
-  renderTemplate(template, { ...context, sections: newFeatures }).then(
+  const featureList = html.find(".features");
+  const template = "systems/dnd5e/templates/actors/parts/actor-features.hbs";
+  renderTemplate(template, {...context, sections: newFeatures}).then(
     (partial) => {
       featureList.html(partial);
       sheet.activateListeners(featureList);
@@ -287,10 +287,10 @@ export function legacySheet(sheet, html, context) {
   /**
    * Fatigue
    */
-  if (game.settings.get(moduleID, 'useFatigueStress')) {
-    const exhaustion = html.find('.exhaustion');
-    renderTemplate(modulePath + 'templates/legacy/stress-partial.hbs', {
-      stress: actor.getFlag(moduleID, 'stress'),
+  if (game.settings.get(moduleID, "useFatigueStress")) {
+    const exhaustion = html.find(".exhaustion");
+    renderTemplate(modulePath + "templates/legacy/stress-partial.hbs", {
+      stress: actor.getFlag(moduleID, "stress")
     }).then((partial) => {
       exhaustion.after(partial);
     });
@@ -299,17 +299,17 @@ export function legacySheet(sheet, html, context) {
   /**
    * Prestige
    */
-  if (game.settings.get(moduleID, 'usePrestige')) {
-    const characteristics = html.find('.characteristics');
+  if (game.settings.get(moduleID, "usePrestige")) {
+    const characteristics = html.find(".characteristics");
     const prestige = getPrestige(actor)[0];
-    renderTemplate(modulePath + 'templates/legacy/prestige-partial.hbs', {
+    renderTemplate(modulePath + "templates/legacy/prestige-partial.hbs", {
       prestige,
-      editable: true,
+      editable: true
     }).then((partial) => {
       characteristics.prepend(partial);
 
       /** Roll Listener */
-      characteristics.on('click', '.prestige-roll', () =>
+      characteristics.on("click", ".prestige-roll", () =>
         rollPrestige(actor, prestige.rating)
       );
     });

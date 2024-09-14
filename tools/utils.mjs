@@ -6,9 +6,9 @@
  */
 export function randomID(length = 16) {
   const chars =
-    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  const r = Array.from({ length }, () => (Math.random() * chars.length) >> 0);
-  return r.map((i) => chars[i]).join('');
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  const r = Array.from({length}, () => (Math.random() * chars.length) >> 0);
+  return r.map((i) => chars[i]).join("");
 }
 
 /**
@@ -21,7 +21,7 @@ export function randomID(length = 16) {
  */
 export function uuid(pack, id, type) {
   const MODULE_ID = process.cwd();
-  return ['Compendium', MODULE_ID, pack, type, id].join('.');
+  return ["Compendium", MODULE_ID, pack, type, id].join(".");
 }
 
 /**
@@ -30,8 +30,9 @@ export function uuid(pack, id, type) {
  * @returns {string}    The full length name of the source
  */
 export function expandSource(src) {
-  switch (src) {
-  }
+  // switch (src) {
+  //   // Do things?
+  // }
   return src;
 }
 
@@ -41,9 +42,9 @@ export function expandSource(src) {
  * @returns {string}        The name of the subclass feature
  */
 export function subclassHeader(classID) {
-  switch (classID) {
-  }
-  return 'Item Grant';
+  // switch (classID) {
+  // }
+  return "Item Grant";
 }
 
 export class Folder {
@@ -54,16 +55,16 @@ export class Folder {
    * @param {string | null} [context.parentFolder]
    * @param {string | null} [context.color]
    */
-  constructor(name, { parentFolder, color, ...context } = {}) {
+  constructor(name, {parentFolder, color, ...context} = {}) {
     this.name = name;
     this.color = color ?? null;
     this.flags = {};
     this.sort = 0;
-    this.sorting = 'a';
-    this._type = 'Item';
+    this.sorting = "a";
+    this._type = "Item";
     this.folder = parentFolder ?? null;
     this._id = randomID();
-    this._key = '!folders!' + this._id;
+    this._key = "!folders!" + this._id;
   }
 
   /**
@@ -71,8 +72,8 @@ export class Folder {
    * @returns {object} The folder, as an object
    */
   get toObject() {
-    const out = { ...this };
-    out['type'] = this._type;
+    const out = {...this};
+    out["type"] = this._type;
     delete out._type;
     return out;
   }

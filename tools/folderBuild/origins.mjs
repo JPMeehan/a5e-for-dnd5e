@@ -1,36 +1,36 @@
-import { promises as fs } from 'fs';
-import path from 'path';
-import { Folder } from '../utils.mjs';
-import yaml from 'js-yaml';
-import ReferenceFolder from '../ReferenceFolder.mjs';
+import {promises as fs} from "fs";
+import path from "path";
+import {Folder} from "../utils.mjs";
+import yaml from "js-yaml";
+import ReferenceFolder from "../ReferenceFolder.mjs";
 
-const targetPack = 'origins';
-const packPath = path.join('src', 'packs', targetPack);
+const targetPack = "origins";
+const packPath = path.join("src", "packs", targetPack);
 
 const yamlPack = await fs.readdir(packPath);
 
 const outerFolders = [
-  { name: 'Heritages', type: 'race' },
-  { name: 'Cultures', type: 'a5e-for-dnd5e.culture' },
-  { name: 'Backgrounds', type: 'background' },
-  { name: 'Destinies', type: 'a5e-for-dnd5e.destiny' },
+  {name: "Heritages", type: "race"},
+  {name: "Cultures", type: "a5e-for-dnd5e.culture"},
+  {name: "Backgrounds", type: "background"},
+  {name: "Destinies", type: "a5e-for-dnd5e.destiny"}
 ];
 
 async function createFolders() {
   for (const o of outerFolders) {
     const outer = new Folder(o.name);
     let filename =
-      'folders_' + outer.name.replace(' ', '_') + '_' + outer._id + '.yml';
+      "folders_" + outer.name.replace(" ", "_") + "_" + outer._id + ".yml";
     await fs.writeFile(
       path.join(packPath, filename),
-      yaml.dump(outer.toObject, { indent: 2 }),
-      { flag: 'w' }
+      yaml.dump(outer.toObject, {indent: 2}),
+      {flag: "w"}
     );
   }
   await ReferenceFolder.build(targetPack);
 }
 try {
-  await fs.access(path.join('tools', 'referenceFolders', targetPack + '.yml'));
+  await fs.access(path.join("tools", "referenceFolders", targetPack + ".yml"));
 } catch {
   await createFolders();
 }
@@ -50,7 +50,7 @@ const folderStruct = outerFolders.reduce((a, c) => {
 for (const d of yamlPack) {
   const read_file = await fs.readFile(path.join(packPath, d));
   const data = yaml.load(read_file);
-  if (data.type === 'Item') continue;
+  if (data.type === "Item") continue;
   if (!data.system) {
     console.log(d);
     continue;
@@ -64,7 +64,7 @@ for (const d of yamlPack) {
   data.folder = folderStruct[targetFolder.name];
   await fs.writeFile(
     path.join(packPath, d),
-    yaml.dump(data, { indent: 2 }),
-    'utf-8'
+    yaml.dump(data, {indent: 2}),
+    "utf-8"
   );
 }

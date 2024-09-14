@@ -1,11 +1,11 @@
-import { modulePath } from '../utils.mjs';
+import {modulePath} from "../utils.mjs";
 
 export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
   /**
    * @override
    */
   get template() {
-    return modulePath + 'templates/sheets/maneuver-sheet.hbs';
+    return modulePath + "templates/sheets/maneuver-sheet.hbs";
   }
 
   /**
@@ -16,8 +16,8 @@ export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
     context.maneuvers = CONFIG.A5E.MANEUVERS;
 
     const consume =
-      context.system.consume.type === 'flags'
-        ? { ep: game.i18n.localize('a5e-for-dnd5e.Maneuver.EP') }
+      context.system.consume.type === "flags"
+        ? {ep: game.i18n.localize("a5e-for-dnd5e.Maneuver.EP")}
         : {};
 
     const consumption = context.system.consume;
@@ -30,11 +30,11 @@ export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
     } else delete context.system.labels.ep;
     foundry.utils.mergeObject(context, {
       labels: context.system.labels,
-      abilityConsumptionTargets: consume,
+      abilityConsumptionTargets: consume
     });
 
-    if (this.item.system.duration.units === 'stance')
-      context.itemStatus = game.i18n.localize('a5e-for-dnd5e.Stance');
+    if (this.item.system.duration.units === "stance")
+      context.itemStatus = game.i18n.localize("a5e-for-dnd5e.Stance");
 
     return context;
   }
@@ -46,8 +46,8 @@ export default class ManeuverSheet extends dnd5e.applications.item.ItemSheet5e {
   epText(ep) {
     return `${ep} ${
       ep === 1
-        ? game.i18n.localize('a5e-for-dnd5e.Maneuver.1EP')
-        : game.i18n.localize('a5e-for-dnd5e.Maneuver.EP')
+        ? game.i18n.localize("a5e-for-dnd5e.Maneuver.1EP")
+        : game.i18n.localize("a5e-for-dnd5e.Maneuver.EP")
     }`;
   }
 }

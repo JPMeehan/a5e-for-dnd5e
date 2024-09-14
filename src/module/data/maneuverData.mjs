@@ -1,4 +1,4 @@
-import { modulePath } from '../utils.mjs';
+import {modulePath} from "../utils.mjs";
 
 /**
  * Data definition for Maneuver items.
@@ -24,17 +24,17 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
         integer: true,
         initial: 1,
         min: 0,
-        label: 'a5e-for-5e.Maneuver.Degree',
+        label: "a5e-for-5e.Maneuver.Degree"
       }),
       tradition: new fields.StringField({
         required: true,
-        label: 'a5e-for-5e.Maneuver.Tradition',
+        label: "a5e-for-5e.Maneuver.Tradition"
       }),
       prerequisite: new fields.StringField({
         required: false,
-        label: 'a5e-for-5e.Maneuver.Prerequisite',
+        label: "a5e-for-5e.Maneuver.Prerequisite"
       }),
-      properties: new fields.SetField(new fields.StringField()),
+      properties: new fields.SetField(new fields.StringField())
     });
   }
 
@@ -42,7 +42,7 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   /*  Tooltips                                    */
   /* -------------------------------------------- */
 
-  static ITEM_TOOLTIP_TEMPLATE = modulePath + 'templates/maneuver-tooltip.hbs';
+  static ITEM_TOOLTIP_TEMPLATE = modulePath + "templates/maneuver-tooltip.hbs";
 
   async getCardData(enrichmentOptions = {}) {
     const context = await super.getCardData(enrichmentOptions);
@@ -51,7 +51,7 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
     context.isSpell = true;
     // context.tags = this.labels.components.tags;
     context.subtitle = [this.labels.degree, this.labels.school].filterJoin(
-      ' &bull; '
+      " &bull; "
     );
     return context;
   }
@@ -61,7 +61,7 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
       subtitle: [this.parent.labels.activation],
       modifier: this.parent.labels.modifier,
       range: this.range,
-      save: this.save,
+      save: this.save
     });
   }
 
@@ -76,14 +76,14 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
       CONFIG.A5E.MANEUVERS.tradition[this.tradition]?.label;
     this.labels.tradition = traditionLabel;
     this.labels.school = traditionLabel;
-    this.labels.ep = this.usesExertion ? 'a5e-for-dnd5e.Maneuver.EP' : '';
+    this.labels.ep = this.usesExertion ? "a5e-for-dnd5e.Maneuver.EP" : "";
   }
 
   prepareFinalData() {
     this.prepareFinalActivatedEffectData();
 
     // Necessary because excluded from valid types in Item5e#_prepareProficiency
-    if ( !this.parent.actor?.system.attributes?.prof ) {
+    if (!this.parent.actor?.system.attributes?.prof) {
       this.prof = new dnd5e.documents.Proficiency(0, 0);
       return;
     }
@@ -110,7 +110,7 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
 
   /** @inheritdoc */
   get _typeAbilityMod() {
-    return this.parent?.actor?.system.attributes.spellcasting || 'str';
+    return this.parent?.actor?.system.attributes.spellcasting || "str";
   }
 
   /* -------------------------------------------- */
@@ -132,6 +132,6 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
    * @returns {boolean}     Returns true if it spends exertion points as a resource
    */
   get usesExertion() {
-    return this.consume.type === 'charges';
+    return this.consume.type === "charges";
   }
 }

@@ -1,4 +1,4 @@
-import { ACTOR_SHEETS, moduleTypes } from '../utils.mjs';
+import {ACTOR_SHEETS, moduleTypes} from "../utils.mjs";
 const maneuverType = moduleTypes.maneuver;
 
 /**
@@ -26,7 +26,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
       sl,
       d,
       label,
-      { preparationMode = 'prepared', override } = {}
+      {preparationMode = "prepared", override} = {}
     ) => {
       const aeOverride = foundry.utils.hasProperty(
         context.actor.overrides,
@@ -38,18 +38,18 @@ export function inlineManeuverDisplay(sheet, html, context) {
         label: label,
         usesSlots: false,
         canCreate: owner,
-        canPrepare: context.actor.type === 'character' && d >= 1,
+        canPrepare: (context.actor.type === "character") && (d >= 1),
         spells: [],
-        uses: '-',
-        slots: '-',
+        uses: "-",
+        slots: "-",
         override: override || 0,
         dataset: {
           type: maneuverType,
           degree: d,
-          preparationMode,
+          preparationMode
         },
         prop: sl,
-        editable: context.editable && !aeOverride,
+        editable: context.editable && !aeOverride
       };
     };
 
@@ -59,18 +59,18 @@ export function inlineManeuverDisplay(sheet, html, context) {
           maneuver.system.consume.amount
         );
       foundry.utils.mergeObject(maneuver, {
-        labels: maneuver.system.labels,
+        labels: maneuver.system.labels
       });
 
       // Activation
       const cost = maneuver.system.activation?.cost;
       const abbr = {
-        action: 'DND5E.ActionAbbr',
-        bonus: 'DND5E.BonusActionAbbr',
-        reaction: 'DND5E.ReactionAbbr',
-        minute: 'DND5E.TimeMinuteAbbr',
-        hour: 'DND5E.TimeHourAbbr',
-        day: 'DND5E.TimeDayAbbr',
+        action: "DND5E.ActionAbbr",
+        bonus: "DND5E.BonusActionAbbr",
+        reaction: "DND5E.ReactionAbbr",
+        minute: "DND5E.TimeMinuteAbbr",
+        hour: "DND5E.TimeHourAbbr",
+        day: "DND5E.TimeDayAbbr"
       }[maneuver.system.activation.type];
 
       let itemContext = null;
@@ -81,14 +81,14 @@ export function inlineManeuverDisplay(sheet, html, context) {
               cost && abbr
                 ? `${cost}${game.i18n.localize(abbr)}`
                 : maneuver.labels.activation,
-            preparation: { applicable: false },
+            preparation: {applicable: false}
           };
           break;
         case ACTOR_SHEETS.LEGACY_PC:
         case ACTOR_SHEETS.LEGACY_NPC:
           itemContext = {
             toggleTitle: CONFIG.DND5E.spellPreparationModes.always,
-            toggleClass: 'fixed',
+            toggleClass: "fixed"
           };
           break;
       }
@@ -96,22 +96,22 @@ export function inlineManeuverDisplay(sheet, html, context) {
       if (sheet.constructor.name === ACTOR_SHEETS.DEFAULT_PC) {
         // Range
         const units = maneuver.system.range?.units;
-        if (units && units !== 'none') {
+        if (units && (units !== "none")) {
           if (units in CONFIG.DND5E.movementUnits) {
             itemContext.range = {
               distance: true,
               value: maneuver.system.range.value,
-              unit: game.i18n.localize(`DND5E.Dist${units.capitalize()}Abbr`),
+              unit: game.i18n.localize(`DND5E.Dist${units.capitalize()}Abbr`)
             };
-          } else itemContext.range = { distance: false };
+          } else itemContext.range = {distance: false};
         }
 
         // To Hit
         const toHit = parseInt(maneuver.labels.modifier);
         if (maneuver.hasAttack && !isNaN(toHit)) {
           itemContext.toHit = {
-            sign: Math.sign(toHit) < 0 ? '-' : '+',
-            abs: Math.abs(toHit),
+            sign: Math.sign(toHit) < 0 ? "-" : "+",
+            abs: Math.abs(toHit)
           };
         }
       }
@@ -125,7 +125,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
 
       if (!spellbook[index]) {
         registerSection(pl, d, CONFIG.A5E.MANEUVERS.degree[d], {
-          levels: levels[pl],
+          levels: levels[pl]
         });
       }
 
@@ -137,32 +137,36 @@ export function inlineManeuverDisplay(sheet, html, context) {
     }
     const spellList =
       sheet.constructor.name === ACTOR_SHEETS.DEFAULT_PC
-        ? html.find('.spells')
-        : html.find('.spellbook');
+        ? html.find(".spells")
+        : html.find(".spellbook");
     const spellListTemplate = {
       [ACTOR_SHEETS.DEFAULT_PC]:
-        'systems/dnd5e/templates/actors/tabs/creature-spells.hbs',
+        "systems/dnd5e/templates/actors/tabs/creature-spells.hbs",
       [ACTOR_SHEETS.DEFAULT_NPC]:
-        'systems/dnd5e/templates/actors/tabs/creature-spells.hbs',
+        "systems/dnd5e/templates/actors/tabs/creature-spells.hbs",
       [ACTOR_SHEETS.LEGACY_PC]:
-        'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs',
+        "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs",
       [ACTOR_SHEETS.LEGACY_NPC]:
-        'systems/dnd5e/templates/actors/parts/actor-spellbook.hbs',
+        "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs"
     }[sheet.constructor.name];
     if (!spellListTemplate) return;
     renderTemplate(spellListTemplate, context).then((partial) => {
       spellList.html(partial);
+      let schoolSlots;
+      let traditions;
+      let schoolFilter;
+      let sectionHeader;
 
       switch (sheet.constructor.name) {
         case ACTOR_SHEETS.DEFAULT_PC:
           spellList
             .find(`.items-section[data-type="${maneuverType}"]`)
-            .find('.item-header.item-school')
-            .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.TraditionShort'));
+            .find(".item-header.item-school")
+            .html(game.i18n.localize("a5e-for-dnd5e.Maneuver.TraditionShort"));
 
-          const schoolSlots = spellList.find('.item-detail.item-school');
+          schoolSlots = spellList.find(".item-detail.item-school");
           /** @type {Array<{label: string, icon: string}>} */
-          const traditions = Object.values(CONFIG.A5E.MANEUVERS.tradition);
+          traditions = Object.values(CONFIG.A5E.MANEUVERS.tradition);
           for (const div of schoolSlots) {
             const trad = traditions.find(
               (t) => t.label === div.dataset.tooltip
@@ -172,8 +176,8 @@ export function inlineManeuverDisplay(sheet, html, context) {
             }
           }
 
-          const schoolFilter = spellList.find(
-            'item-list-controls .filter-list'
+          schoolFilter = spellList.find(
+            "item-list-controls .filter-list"
           );
           schoolFilter.append(
             Object.values(CONFIG.A5E.MANEUVERS.tradition).map((t) => {
@@ -183,27 +187,27 @@ export function inlineManeuverDisplay(sheet, html, context) {
           break;
         case ACTOR_SHEETS.LEGACY_PC:
         case ACTOR_SHEETS.LEGACY_NPC:
-          const sectionHeader = spellList.find(
+          sectionHeader = spellList.find(
             `.items-header.spellbook-header[data-type="${maneuverType}"]`
           );
           sectionHeader
-            .find('.spell-school')
-            .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Tradition'));
+            .find(".spell-school")
+            .html(game.i18n.localize("a5e-for-dnd5e.Maneuver.Tradition"));
           sectionHeader
-            .find('.spell-action')
-            .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Usage'));
+            .find(".spell-action")
+            .html(game.i18n.localize("a5e-for-dnd5e.Maneuver.Usage"));
           sectionHeader
-            .find('.spell-target')
-            .html(game.i18n.localize('a5e-for-dnd5e.Maneuver.Target'));
+            .find(".spell-target")
+            .html(game.i18n.localize("a5e-for-dnd5e.Maneuver.Target"));
           break;
       }
       sheet.activateListeners(spellList);
     });
 
-    if (sheet.constructor.name === 'ActorSheet5eNPC') {
-      const features = html.find('dnd5e-inventory').first();
-      const inventory = features.find('ol').last();
-      for (const i of inventory.find('li')) {
+    if (sheet.constructor.name === "ActorSheet5eNPC") {
+      const features = html.find("dnd5e-inventory").first();
+      const inventory = features.find("ol").last();
+      for (const i of inventory.find("li")) {
         const item = sheet.actor.items.get(i.dataset.itemId);
         if (item.type === maneuverType) i.remove();
       }

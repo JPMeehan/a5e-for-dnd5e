@@ -1,4 +1,4 @@
-import { promises as fs } from "fs";
+import {promises as fs} from "fs";
 import path from "path";
 import yaml from "js-yaml";
 
@@ -61,7 +61,7 @@ export default class ReferenceFolder {
   getFolderName(id, depth) {
     const f = this.compendium[id];
     if (f === undefined) console.log("Undefined result for ID", id);
-    if (f?.parent === null || depth === 0) return f.name;
+    if ((f?.parent === null) || (depth === 0)) return f.name;
     else if (depth > 0) return this.getFolderName(f.parent, depth - 1);
     else return this.getFolderName(f.parent, depth);
   }
@@ -79,16 +79,16 @@ export default class ReferenceFolder {
         "utf8"
       );
       const data = yaml.load(file);
-      if (!data.hasOwnProperty("type")) continue;
+      if (!("type" in data)) continue;
       folderStruct[data._id] = {
         name: data.name,
-        parent: data.folder,
+        parent: data.folder
       };
     }
     await fs.writeFile(
       path.join("tools", "referenceFolders", pack + ".yml"),
       yaml.dump(folderStruct, null, 2).trim(),
-      { encoding: "utf-8", flag: "w" }
+      {encoding: "utf-8", flag: "w"}
     );
   }
 }

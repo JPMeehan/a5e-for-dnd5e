@@ -1,7 +1,7 @@
 export default {
-  input: './a5e.mjs',
+  input: "./a5e.mjs",
   output: {
-    file: './public/a5e.mjs',
-    format: 'esm',
-  },
+    file: "./public/a5e.mjs",
+    format: "esm"
+  }
 };
