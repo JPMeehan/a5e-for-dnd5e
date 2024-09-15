@@ -3,7 +3,9 @@
 ## 2.0.0
 
 - Rewrite for dnd5e system 4.0.0
+- Thorough rework of import system to accommodate new activities model
 - Maneuvers, Cultures, and Destinies now use the default 5e Item Sheet
+- Fixed bug preventing display of Basic Maneuvers on sheet
 - Fixed bug where Compendium Browser tab for maneuvers showed cultures
 
 ## 1.1.1
