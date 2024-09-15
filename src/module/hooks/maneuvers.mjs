@@ -55,8 +55,8 @@ export function inlineManeuverDisplay(sheet, html, context) {
 
     maneuvers.forEach((maneuver) => {
       if (maneuver.system.usesExertion)
-        maneuver.system.labels.ep = maneuver.sheet.epText(
-          maneuver.system.consume.amount
+        maneuver.system.labels.ep = maneuver.system.epText(
+          maneuver.system.epValue
         );
       foundry.utils.mergeObject(maneuver, {
         labels: maneuver.system.labels

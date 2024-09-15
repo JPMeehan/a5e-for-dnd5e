@@ -1,6 +1,5 @@
 import A5E_CONFIG from "./src/module/config.mjs";
 import * as DataClasses from "./src/module/data/_module.mjs";
-import * as SheetClasses from "./src/module/apps/_module.mjs";
 import * as a5eHooks from "./src/module/hooks/_module.mjs";
 import {ACTOR_SHEETS, moduleID, moduleTypes, modulePath} from "./src/module/utils.mjs";
 import {_onDialogSubmit} from "./src/module/hooks/expertiseDice.mjs";
@@ -47,14 +46,6 @@ Hooks.once("init", () => {
     "a5e.details-destiny": modulePath + "templates/items/details-destiny.hbs",
     "a5e.details-maneuver": modulePath + "templates/items/details-maneuver.hbs"
   });
-
-  for (const [name, sheetClass] of Object.entries(SheetClasses)) {
-    const type = name.toLowerCase();
-    Items.registerSheet(moduleID, sheetClass, {
-      types: [moduleTypes[type]],
-      label: `${moduleID}.${name}.SheetLabel`
-    });
-  }
 
   game.settings.register(moduleID, "useCultureEngineer", {
     name: `${moduleID}.Settings.UseCultureEngineer.name`,
@@ -195,21 +186,3 @@ Hooks.on("renderItemSheet5e", (sheet, html, context) => {
  */
 
 Hooks.on("renderActorSheet5e", a5eHooks.maneuvers.inlineManeuverDisplay);
-// Hooks.on(
-//   'tidy5e-sheet.renderActorSheet',
-//   a5eHooks.maneuvers.inlineManeuverDisplay
-// );
-
-// Hooks.on(
-//   'dnd5e.computeManeuversProgression',
-//   a5eHooks.maneuvers.maxExertionPoints
-// );
-
-// Hooks.on('dnd5e.preRestCompleted', a5eHooks.maneuvers.resetEP);
-
-// Hooks.on(
-//   'dnd5e.preItemUsageConsumption',
-//   a5eHooks.maneuvers.disableConsumeResourceCheck
-// );
-
-// Hooks.on('dnd5e.itemUsageConsumption', a5eHooks.maneuvers.handleEPConsumption);

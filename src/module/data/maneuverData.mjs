@@ -315,9 +315,31 @@ export default class ManeuverData extends dnd5e.dataModels.ItemDataModel.mixin(
   }
 
   /**
+   * Finds the first Item Uses consumption and returns its value
+   * @returns {number | null}
+   */
+  get epValue() {
+    const [consumptionData] = this.activities.map(a => a.consumption.targets.find(c => c.type === "itemUses"));
+    if (!consumptionData) return null;
+    return consumptionData.value;
+  }
+
+  /**
    * @returns {boolean}     Returns true if it spends exertion points as a resource
    */
   get usesExertion() {
-    return this.activities.some(a => a.consumption.targets.some(c => c.type === "exertionPoints"));
+    return this.activities.some(a => a.consumption.targets.some(c => c.type === "itemUses"));
+  }
+
+  /**
+   * @param {number} ep Exertion point count
+   * @returns Pluralized string
+   */
+  epText(ep) {
+    return `${ep} ${
+      ep === 1
+        ? game.i18n.localize("a5e-for-dnd5e.Maneuver.1EP")
+        : game.i18n.localize("a5e-for-dnd5e.Maneuver.EP")
+    }`;
   }
 }

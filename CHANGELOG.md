@@ -3,6 +3,7 @@
 ## 2.0.0
 
 - Rewrite for dnd5e system 4.0.0
+- Maneuvers, Cultures, and Destinies now use the default 5e Item Sheet
 - Fixed bug where Compendium Browser tab for maneuvers showed cultures
 
 ## 1.1.1
