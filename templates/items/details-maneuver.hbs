@@ -3,7 +3,7 @@
     <legend>{{ localize "a5e-for-dnd5e.Maneuver.Details" }}</legend>
 
     {{!-- Maneuver Degree --}}
-    {{ formField fields.degree value=source.level choices=a5e.MANEUVERS.degree localize=true }}
+    {{ formField fields.degree value=source.degree choices=a5e.MANEUVERS.degree localize=true }}
 
     {{!-- Maneuver Tradition --}}
     {{ formField fields.tradition value=source.tradition choices=a5e.MANEUVERS.tradition

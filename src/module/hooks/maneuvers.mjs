@@ -20,7 +20,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
     if (!maneuvers.length) return true;
     const levels = context.system.spells;
     const spellbook = context.spellbook;
-    const levelOffset = spellbook.length - 1;
+    const levelOffset = spellbook.length;
 
     const registerSection = (
       sl,
@@ -32,8 +32,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
         context.actor.overrides,
         `system.spells.spell${d}.override`
       );
-      const i = d + levelOffset;
-      spellbook[i] = {
+      const sectionData = {
         order: d,
         label: label,
         usesSlots: false,
@@ -51,6 +50,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
         prop: sl,
         editable: context.editable && !aeOverride
       };
+      spellbook[d + levelOffset] = sectionData;
     };
 
     maneuvers.forEach((maneuver) => {
