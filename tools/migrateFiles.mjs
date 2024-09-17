@@ -2043,9 +2043,11 @@ function mapWeapons(a5eWeapon) {
   return rarity[r] + a5eWeapon.toLowerCase();
 }
 
+/** @import {ActiveEffectData} from "../foundry/common/types.mjs" */
+
 /**
  * Migrates the effects array
- * @param {Array<import('./types/core.mjs').ActiveEffectData>} effects
+ * @param {Array<ActiveEffectData>} effects
  */
 function migrateEffects(effects) {
   const flagPath = "flags.a5e-for-dnd5e";
