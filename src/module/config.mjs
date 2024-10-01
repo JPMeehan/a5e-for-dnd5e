@@ -512,5 +512,12 @@ A5E_CONFIG.DND5E.sourceBooks = {
   "T&T": "Level Up: Trials and Treasures",
   VF: "Venture Forth"
 };
+// Sourcebooks produced with following code
+// ```js
+// Object.values(CONFIG.A5E.products).reduce((sourceBooks, book) => {
+//     sourceBooks[book.abbreviation] = book.title;
+//     return sourceBooks;
+// }, {});
+// ```
 
 export default A5E_CONFIG;
