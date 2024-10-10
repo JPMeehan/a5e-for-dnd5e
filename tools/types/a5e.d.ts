@@ -307,3 +307,170 @@ export type Grant = AbilityGrant
   | SkillGrant
   | SkillSpecialtyGrant
   | TraitGrant;
+
+/**********************
+ *
+ * Feature, Spell, Maneuver
+ *
+ **********************/
+
+interface Feature {
+  ac: ACTemplate;
+  concentration: boolean;
+  featureType: string;
+  grants: Record<string, Grant>;
+  prerequisite: string;
+  requiresBloodied: boolean;
+}
+
+interface Spell {
+  components: {
+    vocalized: boolean;
+    seen: boolean;
+    material: boolean;
+  };
+  concentration: boolean;
+  level: number;
+  materials: string;
+  materialsConsumed: boolean;
+  prepared: boolean;
+  prerequisite: string;
+  rare: boolean;
+  ritual: boolean;
+  schools: {
+    primary: string;
+    secondary: string[];
+  };
+}
+
+interface Maneuver {
+  concentration: boolean;
+  degree: number;
+  exertionCost: number;
+  isStance: boolean;
+  prerequisite: string;
+  rare: boolean;
+  tradition: string;
+}
+
+/********************
+ *
+ *      ORIGINS
+ *
+ ********************/
+
+interface Background {
+  description: string;
+  grants: Record<string, Grant>;
+  source: string;
+}
+
+interface Culture {
+  description: string;
+  grants: Record<string, Grant>;
+  source: string;
+}
+
+interface Destiny {
+  description: string;
+  sourceOfInspiration: string;
+  inspirationFeature: string;
+  fulfillmentFeature: string;
+}
+
+interface Heritage {
+  description: string;
+  grants: Record<string, Grant>;
+  source: string;
+}
+
+/***
+ *
+ * CLASSES
+ *
+ */
+
+interface ClassResource {
+  name: string;
+  reference: object;
+  type: string;
+}
+
+interface ClassA5E {
+  slug: string;
+  description: string;
+  classLevels: number;
+  hp: {
+    hitDiceSize: number;
+    hitDiceUsed: number;
+    levels: object;
+  };
+  grants: Record<string, Grant>;
+  resources: ClassResource[];
+  source: string;
+  spellcasting: {
+    ability: {
+      base: string;
+      options: string[];
+      value: string;
+    };
+    casterType: string;
+    knownCantrips: object;
+    knownSpells: object;
+  };
+  wealth: string;
+}
+
+interface Archetype {
+  slug: string;
+  class: string;
+  description: string;
+  grants: Record<string, Grant>;
+  resources: ClassResource[];
+  source: string;
+  spellcasting: {
+    ability: {
+      base: string;
+      options: string[];
+      value: string;
+    };
+    casterType: string;
+    knownCantrips: object;
+    knownSpells: object;
+  };
+}
+
+/**
+ *
+ * OBJECT
+ *
+ */
+
+interface ObjectA5E {
+  ac: ACTemplate;
+  ammunitionProperties: string[];
+  armorCategory: string;
+  armorProperties: string[];
+  attuned: boolean;
+  bulky: boolean;
+  containerId: string;
+  craftingComponents: string;
+  damagedState: number;
+  equippedState: number;
+  items: object;
+  materialProperties: string[];
+  objectType: string;
+  plotItem: boolean;
+  price: number;
+  proficient: boolean;
+  quantity: number;
+  rarity: string;
+  requiresAttunement: boolean;
+  shieldCategory: string;
+  shieldProperties: string[];
+  unidentified: boolean;
+  unidentifiedDescription: string;
+  unidentifiedName: string;
+  weaponProperties: string[];
+  weight: number;
+}
