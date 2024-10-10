@@ -314,7 +314,7 @@ export type Grant = AbilityGrant
  *
  **********************/
 
-interface Feature {
+export interface Feature {
   ac: ACTemplate;
   concentration: boolean;
   featureType: string;
@@ -323,7 +323,7 @@ interface Feature {
   requiresBloodied: boolean;
 }
 
-interface Spell {
+export interface Spell {
   components: {
     vocalized: boolean;
     seen: boolean;
@@ -343,7 +343,7 @@ interface Spell {
   };
 }
 
-interface Maneuver {
+export interface Maneuver {
   concentration: boolean;
   degree: number;
   exertionCost: number;
@@ -359,26 +359,26 @@ interface Maneuver {
  *
  ********************/
 
-interface Background {
+export interface Background {
   description: string;
   grants: Record<string, Grant>;
   source: string;
 }
 
-interface Culture {
+export interface Culture {
   description: string;
   grants: Record<string, Grant>;
   source: string;
 }
 
-interface Destiny {
+export interface Destiny {
   description: string;
   sourceOfInspiration: string;
   inspirationFeature: string;
   fulfillmentFeature: string;
 }
 
-interface Heritage {
+export interface Heritage {
   description: string;
   grants: Record<string, Grant>;
   source: string;
@@ -390,13 +390,13 @@ interface Heritage {
  *
  */
 
-interface ClassResource {
+export interface ClassResource {
   name: string;
   reference: object;
   type: string;
 }
 
-interface ClassA5E {
+export interface ClassA5E {
   slug: string;
   description: string;
   classLevels: number;
@@ -421,7 +421,7 @@ interface ClassA5E {
   wealth: string;
 }
 
-interface Archetype {
+export interface Archetype {
   slug: string;
   class: string;
   description: string;
@@ -446,7 +446,7 @@ interface Archetype {
  *
  */
 
-interface ObjectA5E {
+export interface ObjectA5E {
   ac: ACTemplate;
   ammunitionProperties: string[];
   armorCategory: string;

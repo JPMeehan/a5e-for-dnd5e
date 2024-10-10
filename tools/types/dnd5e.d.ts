@@ -170,3 +170,86 @@ export type Advancement = BaseAdvancement &
     SizeAdvancement | 
     TraitAdvancement
 );
+
+/**
+ * 
+ * Shared
+ * 
+ */
+
+interface SourceField {
+  book: string;
+  page: string;
+  custom: string;
+  license: string;
+  revision: number;
+  rules: string;
+}
+
+interface ItemDescription {
+  description: {
+    value: string;
+    chat: string;
+  }
+  identifier: string;
+  source: SourceField
+}
+
+
+/***************
+ * 
+ * ORIGINS
+ * 
+ ***************/
+
+interface EquipmentEntry {
+  _id: string;
+  group: string;
+  sort: number;
+  type: string;
+  count: number;
+  key: string;
+  requiresProficiency: boolean;
+}
+
+interface StartingEquipment {
+  startingEquipment: EquipmentEntry[],
+  wealth: string;
+}
+
+interface SpellcastingField {
+  progression: string;
+  ability: string;
+  preparation: {
+    formula: string;
+  }
+}
+
+export interface Race extends ItemDescription {
+  advancement: Advancement[];
+  movement: Movement;
+  senses: Senses;
+  type: CreatureType;
+}
+
+export interface Background extends ItemDescription, StartingEquipment {
+  advancement: Advancement[];
+}
+
+export interface Class5e extends ItemDescription, StartingEquipment {
+  levels: number;
+  primaryAbility: {
+    value: Set<string>;
+    all: boolean;
+  }
+  hitDice: string;
+  hitDiceUsed: number;
+  advancement: Advancement[];
+  spellcasting: SpellcastingField;
+}
+
+export interface Subclass5e extends ItemDescription {
+  advancement: object[];
+  classIdentifier: string;
+  spellcasting: SpellcastingField;
+}
