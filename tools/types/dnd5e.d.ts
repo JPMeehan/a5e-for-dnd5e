@@ -249,7 +249,304 @@ export interface Class5e extends ItemDescription, StartingEquipment {
 }
 
 export interface Subclass5e extends ItemDescription {
-  advancement: object[];
+  advancement: Advancement[];
   classIdentifier: string;
   spellcasting: SpellcastingField;
+}
+
+/**
+ * 
+ * Activities
+ * 
+ */
+
+interface Activation {
+  type: string;
+  value: number;
+  condition: string;
+}
+
+interface ConsumptionTarget {
+  type: string;
+  target: string;
+  value: string;
+  scaling: {
+    mode: string
+    formula: string;
+  }
+}
+
+interface Duration {
+  value: string;
+  units: string;
+  special: string;
+}
+
+interface AppliedEffect {
+  _id: string;
+}
+
+interface Uses {
+  spent: number;
+  max: string;
+  recovery: Array<{
+    period: string;
+    type: string;
+    formula: string;
+  }>
+}
+
+interface Damage {
+  number: number;
+  denomination: number;
+  bonus: string;
+  types: Set<string>;
+  custom: {
+    enabled: boolean;
+    formula: string;
+  }
+  scaling: {
+    mode: string;
+    number: number;
+    formula: string;
+  }
+}
+
+interface BaseActivity {
+  _id: string;
+  // type: string;
+  name: string;
+  img: string;
+  sort: number;
+  activation: Activation;
+  consumption: {
+    scaling: {
+      allowed: boolean;
+      max: string;
+    }
+    spellSlot: boolean;
+    targets: ConsumptionTarget[];
+  }
+  description: {
+    chatFlavor: string;
+  }
+  duration: Duration & {
+    concentration: boolean;
+    override: boolean;
+  }
+  effects: AppliedEffect[];
+  range: Range & {
+    override: boolean;
+  }
+  target: Target & {
+    override: boolean;
+    prompt: boolean;
+  }
+  uses: Uses;
+}
+
+export interface AttackActivity extends BaseActivity {
+  type: "attack";
+  attack: {
+    ability: string;
+    bonus: string;
+    critical: {
+      threshold: number;
+    }
+    flat: boolean;
+    type: {
+      value: string;
+      classification: string;
+    }
+  }
+  damage: {
+    critical: {
+      bonus: string;
+    }
+    includeBase: boolean;
+    parts: Damage[];
+  }
+}
+
+export interface CheckActivity extends BaseActivity {
+  type: "check";
+  check: {
+    ability: string;
+    associated: Set<string>;
+    dc: {
+      calculation: string;
+      formula: string;
+    }
+  }
+}
+
+export interface DamageActivity extends BaseActivity {
+  type: "damage";
+  damage: {
+    critical: {
+      allow: boolean;
+      bonus: string;
+    }
+    parts: Damage[];
+  }
+}
+
+export interface EnchantActivity extends BaseActivity {
+  type: "enchant";
+  effects: Array<AppliedEffect & {
+    level: {
+      min: number;
+      max: number;
+    }
+    riders: {
+      activity: Set<string>;
+      effect: Set<string>;
+      item: Set<string>;
+    }
+  }>
+  enchant: {
+    identifier: string;
+  }
+  restrictions: {
+    allowMagical: boolean;
+    categories: Set<string>;
+    properties: Set<string>;
+    type: string;
+  }
+}
+
+export interface HealActivity extends BaseActivity {
+  type: "heal";
+  healing: Damage[];
+}
+
+export interface SaveActivity extends BaseActivity {
+  type: "save";
+  damage: {
+    onSave: string;
+    parts: Damage[];
+  }
+  effects: Array<AppliedEffect & {
+    onSave: boolean;
+  }>
+  save: {
+    ability: string;
+    dc: {
+      calculation: string;
+      formula: string;
+    }
+  }
+}
+
+interface SummonProfile {
+  _id: string;
+  count: string;
+  cr: string;
+  level: {
+    min: number;
+    max: number;
+  }
+  name: string;
+  types: Set<string>;
+  uuid: string;
+}
+
+export interface SummonActivity extends BaseActivity {
+  bonuses: {
+    ac: string;
+    hd: string;
+    hp: string;
+    attackDamage: string;
+    saveDamage: string;
+    healing: string;
+  }
+  creatureSizes: Set<string>;
+  creatureTypes: Set<string>;
+  match: {
+    attacks: boolean;
+    proficiency: boolean;
+    saves: boolean;
+  }
+  profiles: SummonProfile[];
+  summon: {
+    identifier: string;
+    mode: string;
+    prompt: boolean;
+  }
+}
+
+export interface UtilityActivity extends BaseActivity {
+  roll: {
+    formula: string;
+    name: string;
+    prompt: boolean;
+    visible: boolean;
+  }
+}
+
+export type Activity = AttackActivity | CheckActivity | DamageActivity | EnchantActivity | HealActivity | SaveActivity | SummonActivity;
+
+export interface ActivitiesTemplate {
+  activities: Record<string, Activity>;
+  uses: Uses;
+}
+
+/**
+ * 
+ * Gear
+ * 
+ */
+
+export interface EquippableItem {
+  attunement: string;
+  attuned: boolean;
+  equipped: boolean;
+}
+
+export interface Identifiable {
+  identified: boolean;
+  unidentified: {
+    name: string;
+    description: string;
+  }
+}
+
+export interface ItemType {
+  type: {
+    value: string;
+    subtype: string;
+    baseItem: string;
+  }
+}
+
+export interface Mountable {
+  armor: {
+    value: number;
+  }
+  cover: number;
+  crewed: boolean;
+  hp: {
+    value: number;
+    max: number;
+    dt: number;
+    conditions: string;
+  }
+  speed: {
+    value: string;
+    conditions: string;
+  }
+}
+
+export interface PhysicalItem {
+  container: string;
+  quantity: number;
+  weight: {
+    value: number;
+    units: string;
+    price: {
+      value: number;
+      denomination: string;
+    }
+    rarity: string;
+  }
 }
