@@ -239,7 +239,7 @@ export interface Background extends ItemDescription, StartingEquipment {
 export interface Class5e extends ItemDescription, StartingEquipment {
   levels: number;
   primaryAbility: {
-    value: Set<string>;
+    value: Array<string>;
     all: boolean;
   }
   hitDice: string;
@@ -300,7 +300,7 @@ interface Damage {
   number: number;
   denomination: number;
   bonus: string;
-  types: Set<string>;
+  types: Array<string>;
   custom: {
     enabled: boolean;
     formula: string;
@@ -309,6 +309,24 @@ interface Damage {
     mode: string;
     number: number;
     formula: string;
+  }
+}
+
+interface Target {
+  template: {
+    count: string;
+    contiguous: boolean;
+    type: string;
+    size: string;
+    width: string;
+    height: string;
+    units: string;
+  }
+  affects: {
+    count: string;
+    type: string;
+    choice: boolean;
+    special: string;
   }
 }
 
@@ -372,7 +390,7 @@ export interface CheckActivity extends BaseActivity {
   type: "check";
   check: {
     ability: string;
-    associated: Set<string>;
+    associated: Array<string>;
     dc: {
       calculation: string;
       formula: string;
@@ -399,9 +417,9 @@ export interface EnchantActivity extends BaseActivity {
       max: number;
     }
     riders: {
-      activity: Set<string>;
-      effect: Set<string>;
-      item: Set<string>;
+      activity: Array<string>;
+      effect: Array<string>;
+      item: Array<string>;
     }
   }>
   enchant: {
@@ -409,8 +427,8 @@ export interface EnchantActivity extends BaseActivity {
   }
   restrictions: {
     allowMagical: boolean;
-    categories: Set<string>;
-    properties: Set<string>;
+    categories: Array<string>;
+    properties: Array<string>;
     type: string;
   }
 }
@@ -447,7 +465,7 @@ interface SummonProfile {
     max: number;
   }
   name: string;
-  types: Set<string>;
+  types: Array<string>;
   uuid: string;
 }
 
@@ -460,8 +478,8 @@ export interface SummonActivity extends BaseActivity {
     saveDamage: string;
     healing: string;
   }
-  creatureSizes: Set<string>;
-  creatureTypes: Set<string>;
+  creatureSizes: Array<string>;
+  creatureTypes: Array<string>;
   match: {
     attacks: boolean;
     proficiency: boolean;
@@ -486,7 +504,7 @@ export interface UtilityActivity extends BaseActivity {
 
 export type Activity = AttackActivity | CheckActivity | DamageActivity | EnchantActivity | HealActivity | SaveActivity | SummonActivity;
 
-export interface ActivitiesTemplate {
+export interface Activities {
   activities: Record<string, Activity>;
   uses: Uses;
 }
@@ -514,8 +532,8 @@ export interface Identifiable {
 export interface ItemType {
   type: {
     value: string;
-    subtype: string;
-    baseItem: string;
+    subtype?: string;
+    baseItem?: string;
   }
 }
 
@@ -549,4 +567,112 @@ export interface PhysicalItem {
     }
     rarity: string;
   }
+}
+
+export interface Currency {
+  currency: Record<string, number>;
+}
+
+export interface Consumable extends Activities, ItemDescription, Identifiable, ItemType, PhysicalItem, EquippableItem {
+  damage: {
+    base: Damage;
+    replace: boolean;
+  }
+  magicalBonus: number;
+  properties: Array<string>;
+  uses: Uses & {
+    autoDestroy: boolean;
+  }
+}
+
+export interface Container extends ItemDescription, Identifiable, PhysicalItem, EquippableItem, Currency {
+  quantity: number;
+  properties: Array<string>;
+  capacity: {
+    type: string;
+    value: string;
+  }
+}
+
+export interface Equipment extends Activities, ItemDescription, Identifiable, ItemType, PhysicalItem, EquippableItem, Mountable {
+  armor: {
+    value: number;
+    magicalBonus: number;
+    dex: number;
+  }
+  properties: Array<string>;
+  strength: number;
+  proficient: number;
+}
+
+export interface Loot extends ItemDescription, Identifiable, ItemType, PhysicalItem {
+  properties: Array<string>;
+}
+
+export interface Tool extends Activities, ItemDescription, Identifiable, ItemType, PhysicalItem, EquippableItem {
+  ability: string;
+  chatFlavor: string;
+  proficient: number;
+  properties: Array<string>;
+  bonus: string;
+}
+
+export interface Weapon extends Activities, ItemDescription, Identifiable, ItemType, PhysicalItem, EquippableItem, Mountable {
+  ammunition: {
+    type: string;
+  }
+  damage: {
+    base: Damage;
+    versatile: Damage;
+  }
+  magicalBonus: number;
+  mastery: string;
+  properties: Array<string>;
+  proficient: number;
+  range: {
+    value: number;
+    long: number;
+    reach: number;
+    units: string;
+  }
+}
+
+/**************************
+ * 
+ * Non-Gear Activity Items
+ * 
+ **************************/
+
+export interface Feat extends Activities, ItemDescription, ItemType {
+  enchant: {
+    max: string;
+    period: string;
+  }
+  prerequisities: {
+    level: number;
+  }
+  properties: Array<string>;
+  requirements: string;
+}
+
+export interface Spell extends Activities, ItemDescription {
+  ability: string;
+  activation: Activation;
+  duration: Duration;
+  level: number;
+  materials: {
+    value: string;
+    consumed: boolean;
+    cost: number;
+    supply: number;
+  }
+  preparation: {
+    mode: string;
+    prepared: boolean;
+  }
+  properties: Array<string>;
+  range: Range;
+  school: string;
+  sourceClass: string;
+  target: Target;
 }
