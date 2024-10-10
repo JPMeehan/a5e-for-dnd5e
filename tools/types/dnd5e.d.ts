@@ -202,6 +202,32 @@ interface ItemDescription {
  * 
  ***************/
 
+interface Movement {
+  burrow: number;
+  climb: number;
+  fly: number;
+  swim: number;
+  walk: number;
+  units: string;
+  hover: boolean;
+}
+
+interface Senses {
+  darkvision: number;
+  blindsight: number;
+  tremorsense: number;
+  truesight: number;
+  units: string;
+  special: string;
+}
+
+interface CreatureType {
+  value: string;
+  subtype: string;
+  swarm: string;
+  custom: string;
+}
+
 interface EquipmentEntry {
   _id: string;
   group: string;
@@ -675,4 +701,30 @@ export interface Spell extends Activities, ItemDescription {
   school: string;
   sourceClass: string;
   target: Target;
+}
+
+/**
+ * 
+ * A5E-for-DND5E Subtypes
+ * 
+ */
+
+export interface Culture extends ItemDescription {
+  advancement: Advancement[];
+}
+
+export interface Destiny extends ItemDescription {
+  advancement: Advancement[];
+}
+
+export interface Maneuver extends ItemDescription, Activities {
+  activation: Activation;
+  duration: Duration;
+  range: Range;
+  target: Target;
+  degree: number;
+  tradition: string;
+  prerequisite: string;
+  properties: Array<string>;
+  sourceClass: string;
 }
