@@ -197,17 +197,16 @@ export interface InitiativeGrant extends BaseGrant {
   }
 }
 
+type _ItemGrant = {
+  uuid: string;
+  quantityOverride: number;
+}
+
 export interface ItemGrant extends BaseGrant {
   grantType: 'item';
   items: {
-    base: {
-      uuid: string,
-      quantityOverride: number,
-    }[],
-    options: {
-      uuid: string,
-      quantityOverride: number,
-    }[],
+    base: _ItemGrant[],
+    options: _ItemGrant[],
   }
   total: number,
 }
@@ -314,7 +313,7 @@ export type Grant = AbilityGrant
  *
  **********************/
 
-export interface Feature {
+export interface Feature extends BaseTemplate {
   ac: ACTemplate;
   concentration: boolean;
   featureType: string;
@@ -323,7 +322,7 @@ export interface Feature {
   requiresBloodied: boolean;
 }
 
-export interface Spell {
+export interface Spell extends BaseTemplate {
   components: {
     vocalized: boolean;
     seen: boolean;
@@ -343,7 +342,7 @@ export interface Spell {
   };
 }
 
-export interface Maneuver {
+export interface Maneuver extends BaseTemplate {
   concentration: boolean;
   degree: number;
   exertionCost: number;

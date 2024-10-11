@@ -2,6 +2,9 @@ import {promises as fs} from "fs";
 import path from "path";
 import yaml from "js-yaml";
 
+/** @import * as dnd5e from "./types/dnd5e.d.ts" */
+/** @import * as a5e from "./types/a5e.d.ts" */
+
 const targetPack = process.argv[2];
 const origin = path.join("src", "packs-origin", targetPack);
 let packPath = path.join("src", "packs", targetPack);
@@ -45,7 +48,7 @@ let debugInfo = false;
 /**
  * Maps a5e sources to their name
  * @param {string} src                             The a5e source
- * @returns {import('./types/dnd5e.mjs').SourceField} The converted source
+ * @returns {dnd5e.SourceField} The converted source
  */
 function mapSource(src) {
   /** Produced by `Object.entries(CONFIG.A5E.products).reduce((a, [k, v]) => {a[k] = v.abbreviation; return a}, {})` */
@@ -127,7 +130,7 @@ function mapSource(src) {
     ventureForth: "VF"
   };
   const ORC = ["ridingParsnip"];
-  /** @type {import('./types/dnd5e.mjs').SourceField} */
+  /** @type {dnd5e.SourceField} */
   const source = {
     book: sourceMap[src] ?? "",
     license: ORC.includes(src) ? "ORC" : "OGL 1.0a"
@@ -266,243 +269,243 @@ function fixUUIDrefs(uuid = "") {
   return uuid;
 }
 
-/**
- * @typedef {import('./types/dnd5e.mjs').Action & import('./types/dnd5e.mjs').ActivatedEffect} Action
- */
+// /**
+//  * @typedef {dnd5e.Action & dnd5e.ActivatedEffect} Action
+//  */
 
-/**
- *
- * @param {import('./types/a5e.mjs').Action} action     The action being called
- * @param {Action} system   The o5e system data to update
- * @returns {boolean} Validates that the action was completed
- */
-function migrateAction(action, system) {
-  /** @type {Action} */
-  const activation = {
-    activation: {
-      type: action?.activation?.type?.replace("bonusAction", "bonus"),
-      cost: action?.activation?.cost,
-      condition: action?.activation?.reactionTrigger
-    },
-    duration: {},
-    cover: null,
-    crewed: false,
-    target: {
-      value: null,
-      width: null,
-      units: "",
-      type: ""
-    },
-    range: {
-      value: null,
-      long: null,
-      units: ""
-    },
-    uses: {
-      value: null,
-      max: "",
-      per: null,
-      recovery: ""
-    },
-    consume: {
-      type: "",
-      target: null,
-      amount: null
-    },
-    ability: null,
-    actionType: null,
-    attackBonus: "",
-    chatFlavor: "",
-    critical: {
-      threshold: null,
-      damage: ""
-    },
-    damage: {
-      parts: [],
-      versatile: ""
-    },
-    formula: "",
-    save: {
-      ability: "",
-      dc: null,
-      scaling: "spell"
-    }
-  };
-  updateTarget(activation.target, action);
-  let rangeProp = "value";
-  for (const r of Object.values(action.ranges || {})) {
-    const actionRange = r.range;
-    if (["self", "touch"].includes(actionRange)) {
-      activation.range.units = actionRange;
-      break;
-    } else {
-      activation.range.units = "ft";
-      const convertedRange = abbr(actionRange);
-      activation.range[rangeProp] = isNaN(convertedRange)
-        ? (convertedRange.match(/\d+/) ?? [])[0]
-        : Number(convertedRange);
-      if (rangeProp === "value") rangeProp = "long";
-      else console.warn("More than 2 ranges!");
-    }
-  }
-  for (const p of Object.values(action.prompts || {})) {
-    activation.actionType = actionType(abbr(p.type), activation.actionType);
-    if (activation.actionType === "abil") activation.ability = p.ability;
-    if (activation.actionType === "save") activation.save.ability = p.ability;
-  }
-  Object.assign(system, activation);
-  processRolls(action.rolls, action, system);
-  if (system?.properties?.ver || system?.properties?.mnt) {
-    /** @type {{versatile: string, parts: string[]}} */
-    const dmg = system.damage;
-    dmg.versatile = dmg.parts.splice(1, 1)[0][0];
-  }
-  return true;
-}
+// /**
+//  *
+//  * @param {import('./types/a5e.mjs').Action} action     The action being called
+//  * @param {Action} system   The o5e system data to update
+//  * @returns {boolean} Validates that the action was completed
+//  */
+// function migrateAction(action, system) {
+//   /** @type {Action} */
+//   const activation = {
+//     activation: {
+//       type: action?.activation?.type?.replace("bonusAction", "bonus"),
+//       cost: action?.activation?.cost,
+//       condition: action?.activation?.reactionTrigger
+//     },
+//     duration: {},
+//     cover: null,
+//     crewed: false,
+//     target: {
+//       value: null,
+//       width: null,
+//       units: "",
+//       type: ""
+//     },
+//     range: {
+//       value: null,
+//       long: null,
+//       units: ""
+//     },
+//     uses: {
+//       value: null,
+//       max: "",
+//       per: null,
+//       recovery: ""
+//     },
+//     consume: {
+//       type: "",
+//       target: null,
+//       amount: null
+//     },
+//     ability: null,
+//     actionType: null,
+//     attackBonus: "",
+//     chatFlavor: "",
+//     critical: {
+//       threshold: null,
+//       damage: ""
+//     },
+//     damage: {
+//       parts: [],
+//       versatile: ""
+//     },
+//     formula: "",
+//     save: {
+//       ability: "",
+//       dc: null,
+//       scaling: "spell"
+//     }
+//   };
+//   updateTarget(activation.target, action);
+//   let rangeProp = "value";
+//   for (const r of Object.values(action.ranges || {})) {
+//     const actionRange = r.range;
+//     if (["self", "touch"].includes(actionRange)) {
+//       activation.range.units = actionRange;
+//       break;
+//     } else {
+//       activation.range.units = "ft";
+//       const convertedRange = abbr(actionRange);
+//       activation.range[rangeProp] = isNaN(convertedRange)
+//         ? (convertedRange.match(/\d+/) ?? [])[0]
+//         : Number(convertedRange);
+//       if (rangeProp === "value") rangeProp = "long";
+//       else console.warn("More than 2 ranges!");
+//     }
+//   }
+//   for (const p of Object.values(action.prompts || {})) {
+//     activation.actionType = actionType(abbr(p.type), activation.actionType);
+//     if (activation.actionType === "abil") activation.ability = p.ability;
+//     if (activation.actionType === "save") activation.save.ability = p.ability;
+//   }
+//   Object.assign(system, activation);
+//   processRolls(action.rolls, action, system);
+//   if (system?.properties?.ver || system?.properties?.mnt) {
+//     /** @type {{versatile: string, parts: string[]}} */
+//     const dmg = system.damage;
+//     dmg.versatile = dmg.parts.splice(1, 1)[0][0];
+//   }
+//   return true;
+// }
 
-/**
- * Handles the rolls object of the a5e item
- * @param {Record<string, import('./types/a5e.mjs').Roll} rolls
- * @param {import('./types/a5e.mjs').Action} action
- * @param {import('./types/dnd5e.mjs').Action & import('./types/dnd5e.mjs').Spell} system
- */
-function processRolls(rolls, action, system) {
-  if (!Object.keys(rolls || {}).length) return false;
-  let formula = "";
-  for (const r of Object.values(rolls)) {
-    switch (r.type) {
-      case "attack":
-        system.actionType = actionType(abbr(r.attackType), system.actionType);
-        system.attackBonus = r.bonus ?? "";
-        break;
-      case "damage":
-        if (!r.formula) {
-          console.warn("No formula found in", action.name);
-          continue;
-        }
-        formula = r.formula.replace(/\w+.mod/, "mod"); //  re.sub("@w+.mod", "@mod", r.formula);
-        if (!r.damageType) {
-          console.warn("No damage type found in", action.name);
-          continue;
-        }
-        system.damage.parts.push([formula, r.damageType]);
-        if (system.scaling && r.scaling) {
-          system.scaling.formula = r.scaling.formula;
-          system.scaling.mode = abbr(r.scaling.mode);
-        }
-        break;
-      case "healing":
-        system.actionType = actionType("heal", system.actionType);
-        if (!r.formula) {
-          console.warn("No formula found in", action.name);
-          continue;
-        }
-        formula = r.formula.replace(/\w+.mod/, "mod"); // re.sub("@w+.mod", "@mod", r.formula);
-        system.damage.parts.push([formula, abbr(r.healingType ?? "healing")]);
-        break;
-      case "abilityCheck":
-        system.actionType = actionType("abil", system.actionType);
-        break;
-      default:
-        console.warn(r.type, action.name);
-    }
-  }
-  return true;
-}
+// /**
+//  * Handles the rolls object of the a5e item
+//  * @param {Record<string, import('./types/a5e.mjs').Roll} rolls
+//  * @param {import('./types/a5e.mjs').Action} action
+//  * @param {dnd5e.Action & dnd5e.Spell} system
+//  */
+// function processRolls(rolls, action, system) {
+//   if (!Object.keys(rolls || {}).length) return false;
+//   let formula = "";
+//   for (const r of Object.values(rolls)) {
+//     switch (r.type) {
+//       case "attack":
+//         system.actionType = actionType(abbr(r.attackType), system.actionType);
+//         system.attackBonus = r.bonus ?? "";
+//         break;
+//       case "damage":
+//         if (!r.formula) {
+//           console.warn("No formula found in", action.name);
+//           continue;
+//         }
+//         formula = r.formula.replace(/\w+.mod/, "mod"); //  re.sub("@w+.mod", "@mod", r.formula);
+//         if (!r.damageType) {
+//           console.warn("No damage type found in", action.name);
+//           continue;
+//         }
+//         system.damage.parts.push([formula, r.damageType]);
+//         if (system.scaling && r.scaling) {
+//           system.scaling.formula = r.scaling.formula;
+//           system.scaling.mode = abbr(r.scaling.mode);
+//         }
+//         break;
+//       case "healing":
+//         system.actionType = actionType("heal", system.actionType);
+//         if (!r.formula) {
+//           console.warn("No formula found in", action.name);
+//           continue;
+//         }
+//         formula = r.formula.replace(/\w+.mod/, "mod"); // re.sub("@w+.mod", "@mod", r.formula);
+//         system.damage.parts.push([formula, abbr(r.healingType ?? "healing")]);
+//         break;
+//       case "abilityCheck":
+//         system.actionType = actionType("abil", system.actionType);
+//         break;
+//       default:
+//         console.warn(r.type, action.name);
+//     }
+//   }
+//   return true;
+// }
 
-/**
- * Prioritizes action types
- * @param {string} alternative  The incoming action type
- * @param {string} current      The standing action type
- * @returns {string}  The prioritized action type
- */
-function actionType(alternative, current) {
-  switch (current) {
-    case null:
-    case "save":
-    case "util":
-    case "other":
-      return alternative;
-    case "mwak":
-    case "msak":
-    case "rwak":
-    case "rsak":
-      return current;
-    case "abil":
-    case "heal":
-      if (["mwak", "msak", "rwak", "rsak"].includes(alternative))
-        return alternative;
-      else return current;
-    default:
-      return alternative;
-  }
-}
+// /**
+//  * Prioritizes action types
+//  * @param {string} alternative  The incoming action type
+//  * @param {string} current      The standing action type
+//  * @returns {string}  The prioritized action type
+//  */
+// function actionType(alternative, current) {
+//   switch (current) {
+//     case null:
+//     case "save":
+//     case "util":
+//     case "other":
+//       return alternative;
+//     case "mwak":
+//     case "msak":
+//     case "rwak":
+//     case "rsak":
+//       return current;
+//     case "abil":
+//     case "heal":
+//       if (["mwak", "msak", "rwak", "rsak"].includes(alternative))
+//         return alternative;
+//       else return current;
+//     default:
+//       return alternative;
+//   }
+// }
 
-/**
- * Effect's valid targets, a subset of ActivatedEffect
- * @typedef Target 
- * @property {number} value          Length or radius of target depending on targeting mode selected.
- * @property {number} width          Width of line when line type is selected.
- * @property {string} units          Units used for value and width as defined in `DND5E.distanceUnits`.
- * @property {string} type           Targeting mode as defined in `DND5E.targetTypes`.
+// /**
+//  * Effect's valid targets, a subset of ActivatedEffect
+//  * @typedef Target 
+//  * @property {number} value          Length or radius of target depending on targeting mode selected.
+//  * @property {number} width          Width of line when line type is selected.
+//  * @property {string} units          Units used for value and width as defined in `DND5E.distanceUnits`.
+//  * @property {string} type           Targeting mode as defined in `DND5E.targetTypes`.
 
- */
+//  */
 
-/**
- * Updates the target property of an item
- * @param {Target} target                           Item's valid targets
- * @param {import("./types/a5e.mjs").Action} action The source action
- */
-function updateTarget(target, action) {
-  switch (action.area?.shape) {
-    case "circle":
-    case "cylinder":
-      target.type = "cylinder";
-      target.value = action.area.radius;
-      target.units = "ft";
-      return;
-    case "cone":
-      target.type = "cone";
-      target.value = action.area.length;
-      target.units = "ft";
-      target.type = action.area.shape;
-      target.value = action.area.width;
-      target.units = "ft";
-      return;
-    case "cube":
-    case "square":
-      target.type = action.area.shape;
-      target.value = action.area.width;
-      target.units = "ft";
-      return;
-    case "line":
-      target.type = "line";
-      target.value = action.area.length;
-      target.width = action.area.width;
-      target.units = "ft";
-      return;
-    case "sphere":
-      target.type = "sphere";
-      target.value = action.area.radius;
-      target.units = "ft";
-      return;
-  }
-  switch (action.target?.type) {
-    case "self":
-    case "creature":
-    case "object":
-      target.type = action.target.type;
-      target.value = action.target.quantity;
-      break;
-    case "creatureObject":
-      target.type = "creatureOrObject";
-      target.value = action.target.quantity;
-      break;
-    case "other":
-      target.type = "space";
-      break;
-  }
-}
+// /**
+//  * Updates the target property of an item
+//  * @param {Target} target                           Item's valid targets
+//  * @param {import("./types/a5e.mjs").Action} action The source action
+//  */
+// function updateTarget(target, action) {
+//   switch (action.area?.shape) {
+//     case "circle":
+//     case "cylinder":
+//       target.type = "cylinder";
+//       target.value = action.area.radius;
+//       target.units = "ft";
+//       return;
+//     case "cone":
+//       target.type = "cone";
+//       target.value = action.area.length;
+//       target.units = "ft";
+//       target.type = action.area.shape;
+//       target.value = action.area.width;
+//       target.units = "ft";
+//       return;
+//     case "cube":
+//     case "square":
+//       target.type = action.area.shape;
+//       target.value = action.area.width;
+//       target.units = "ft";
+//       return;
+//     case "line":
+//       target.type = "line";
+//       target.value = action.area.length;
+//       target.width = action.area.width;
+//       target.units = "ft";
+//       return;
+//     case "sphere":
+//       target.type = "sphere";
+//       target.value = action.area.radius;
+//       target.units = "ft";
+//       return;
+//   }
+//   switch (action.target?.type) {
+//     case "self":
+//     case "creature":
+//     case "object":
+//       target.type = action.target.type;
+//       target.value = action.target.quantity;
+//       break;
+//     case "creatureObject":
+//       target.type = "creatureOrObject";
+//       target.value = action.target.quantity;
+//       break;
+//     case "other":
+//       target.type = "space";
+//       break;
+//   }
+// }
 
 /**
  *
@@ -522,16 +525,12 @@ function migrateMonster(system) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Feat & import('./types/dnd5e.mjs').ItemDescription} Feature
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').Feature & import('./types/a5e.mjs').BaseTemplate} system The a5e feature
- * @returns {Feature}      The o5e feature
+ * @param {a5e.Feature} system The a5e feature
+ * @returns {dnd5e.Feat}      The o5e feature
  */
 function migrateFeature(system) {
-  /** @type {Feature} */
+  /** @type {dnd5e.Feat} */
   const o5e = {
     type: featureTypes(system),
     description: {
@@ -580,8 +579,8 @@ function migrateFeature(system) {
 
 /**
  * Translates a5e featureTypes to dnd5e type.value and type.subtype
- * @param {import('./types/a5e.mjs').Feature} system
- * @returns {import('./types/dnd5e.mjs').ItemType}
+ * @param {a5e.Feature} system
+ * @returns {dnd5e.ItemType}
  */
 function featureTypes(system) {
   const typeMap = {
@@ -647,16 +646,12 @@ function featureTypes(system) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Maneuver & import('./types/dnd5e.mjs').ItemDescription} Maneuver
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').Maneuver} system
- * @returns {Maneuver}
+ * @param {a5e.Maneuver} system
+ * @returns {dnd5e.Maneuver}
  */
 function migrateManeuver(system) {
-  /** @type {} */
+  /** @type {dnd5e.Maneuver} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -685,17 +680,13 @@ function migrateManeuver(system) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').ItemDescription & import('./types/dnd5e.mjs').PhysicalItem & import('./types/dnd5e.mjs').Identifiable} PhysicalItem
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').ObjectA5E & import('./types/a5e.mjs').BaseTemplate} system
+ * @param {a5e.ObjectA5E} system
  * @param {string} name
- * @returns {PhysicalItem} Weapon, Container, Equipment,
+ * @returns {dnd5e.PhysicalItem} Weapon, Container, Equipment,
  */
 function migrateObject(system, name) {
-  /** @type {PhysicalItem} */
+  /** @type {dnd5e.PhysicalItem} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -711,7 +702,7 @@ function migrateObject(system, name) {
     rarity: system.rarity,
     identified: true
   };
-  /** @type {import('./types/dnd5e.mjs').Container} */
+  /** @type {dnd5e.Container} */
   const container = {
     // No data properties to pull from
     capacity: {
@@ -728,7 +719,7 @@ function migrateObject(system, name) {
     },
     documentSubType: "container"
   };
-  /** @type {import('./types/dnd5e.mjs').Equipment} */
+  /** @type {dnd5e.Equipment} */
   const equipment = {
     armor: {
       value: baseAC(system.ac.baseFormula),
@@ -743,7 +734,7 @@ function migrateObject(system, name) {
     proficient: null,
     documentSubType: "equipment"
   };
-  /** @type {import('./types/dnd5e.mjs').Consumable} */
+  /** @type {dnd5e.Consumable} */
   const consumable = {
     type: {value: "potion", subtype: ""},
     uses: {
@@ -751,7 +742,7 @@ function migrateObject(system, name) {
     },
     documentSubType: "consumable"
   };
-  /** @type {import('./types/dnd5e.mjs').Tool} */
+  /** @type {dnd5e.Tool} */
   const tool = {
     ability: "int",
     chatFlavor: "",
@@ -759,11 +750,12 @@ function migrateObject(system, name) {
     bonus: "",
     documentSubType: "tool"
   };
-  /** @type {import('./types/dnd5e.mjs').Weapon} */
+  /** @type {dnd5e.Weapon} */
   const weapon = {
     proficient: true,
     documentSubType: "weapon"
   };
+  /** @type {dnd5e.Mountable} */
   const mountable = {
     armor: {
       value: null
@@ -871,9 +863,9 @@ function splitPrice(price) {
 }
 
 /**
- *
+ * Derives the base AC of a a piece of equipment
  * @param {string} formula
- * @returns {number} The b
+ * @returns {number} The base AC of the equipment
  */
 function baseAC(formula) {
   const parsed = parseInt(formula);
@@ -882,7 +874,7 @@ function baseAC(formula) {
 }
 
 /**
- *
+ * Derives the correct type for a weapon
  * @param {object} system
  * @returns {string}
  */
@@ -1301,16 +1293,12 @@ function weaponProperties(system, description) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Spell & import('./types/dnd5e.mjs').ItemDescription} Spell
- */
-
-/**
  *
- * @param {import("./types/a5e.mjs").Spell & import('./types/a5e.mjs').BaseTemplate} system
- * @returns {Spell}
+ * @param {a5e.Spell} system
+ * @returns {dnd5e.Spell}
  */
 function migrateSpell(system) {
-  /** @type {Spell} */
+  /** @type {dnd5e.Spell} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -1346,17 +1334,13 @@ function migrateSpell(system) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Race & import('./types/dnd5e.mjs').ItemDescription} Heritage
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').Heritage} system The a5e heritage
+ * @param {a5e.Heritage} system The a5e heritage
  * @param {string} name                               The race's name
- * @returns {Heritage}        The o5e race
+ * @returns {dnd5e.Race}        The o5e race
  */
 function migrateHeritage(system, name) {
-  /** @type {Heritage} */
+  /** @type {dnd5e.Race} */
   const o5e = {
     identifier: name.toLowerCase().replace(" ", "-"),
     description: {
@@ -1379,17 +1363,13 @@ function migrateHeritage(system, name) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Background & import('./types/dnd5e.mjs').ItemDescription} Background
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').Background} system The a5e background
+ * @param {a5e.Background} system The a5e background
  * @param {string} name The background's name
- * @returns {Background}    The o5e background
+ * @returns {dnd5e.Background}    The o5e background
  */
 function migrateBackground(system, name) {
-  /** @type {Background} */
+  /** @type {dnd5e.Background} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -1405,17 +1385,13 @@ function migrateBackground(system, name) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Culture & import('./types/dnd5e.mjs').ItemDescription} Culture
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').Culture} system The a5e culture
+ * @param {a5e.Culture} system The a5e culture
  * @param {string} name The culture's name
- * @returns {Culture}    The o5e culture
+ * @returns {dnd5e.Culture}    The o5e culture
  */
 function migrateCulture(system, name) {
-  /** @type {Culture} */
+  /** @type {dnd5e.Culture} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -1430,17 +1406,13 @@ function migrateCulture(system, name) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Destiny & import('./types/dnd5e.mjs').ItemDescription} Destiny
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').Destiny} system The a5e destiny
+ * @param {a5e.Destiny} system The a5e destiny
  * @param {string} name The destiny's name
- * @returns {Destiny}    The o5e destiny
+ * @returns {dnd5e.Destiny}    The o5e destiny
  */
 function migrateDestiny(system, name) {
-  /** @type {Destiny} */
+  /** @type {dnd5e.Destiny} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -1483,17 +1455,13 @@ function migrateDestiny(system, name) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Class5e & import('./types/dnd5e.mjs').ItemDescription} Class5e
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').ClassA5E} system The a5e class
+ * @param {a5e.ClassA5E} system The a5e class
  * @param {string} name The name of the class
- * @returns {import('./types/dnd5e.mjs').Class5e}  The o5e class
+ * @returns {dnd5e.Class5e}  The o5e class
  */
 function migrateClass(system, name) {
-  /** @type {Class5e} */
+  /** @type {dnd5e.Class5e} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -1528,17 +1496,13 @@ function migrateClass(system, name) {
 }
 
 /**
- * @typedef {import('./types/dnd5e.mjs').Subclass5e & import('./types/dnd5e.mjs').ItemDescription} Subclass5e
- */
-
-/**
  *
- * @param {import('./types/a5e.mjs').Archetype} system The a5e class
+ * @param {a5e.Archetype} system The a5e class
  * @param {string} name The name of the class
- * @returns {Subclass5e}  The o5e class
+ * @returns {dnd5e.Subclass5e}  The o5e class
  */
 function migrateArchetype(system, name) {
-  /** @type {Subclass5e} */
+  /** @type {dnd5e.Subclass5e} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -1562,6 +1526,12 @@ function migrateArchetype(system, name) {
   return o5e;
 }
 
+/**
+ * Figures out the correct spellcasting progression
+ * @param {string} slug 
+ * @param {string} casterType 
+ * @returns {string}
+ */
 function resolveSpellcastingProgression(slug, casterType) {
   if (
     ["adept", "berserker", "fighter", "marshal", "ranger", "rogue"].includes(
@@ -1604,9 +1574,9 @@ function remapPack(uuid = "") {
 
 /**
  * Reads through the grants and handles their data
- * @param {Heritage | Background | Culture | Destiny} o5e The target o5e data
- * @param {Record<string, import('./types/a5e.mjs').Grant>} grants        The a5e grants
- * @param {string} type                                   The item type
+ * @param {dnd5e.Heritage | dnd5e.Background | dnd5e.Culture | dnd5e.Destiny} o5e The target o5e data
+ * @param {Record<string, a5e.Grant>} grants        The a5e grants
+ * @param {string} type                             The item type
  */
 function processGrants(o5e, grants, type) {
   for (const [id, grant] of Object.entries(grants)) {
@@ -1614,7 +1584,7 @@ function processGrants(o5e, grants, type) {
     let proficiency;
     switch (grant.grantType) {
       case "ability":
-        /** @type {import('./types/dnd5e.mjs').AbilityScoreImprovementAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
+        /** @type {dnd5e.AbilityScoreImprovementAdvancement & dnd5e.BaseAdvancement} */
         asi = {
           _id: id,
           type: "AbilityScoreImprovement",
@@ -1640,7 +1610,7 @@ function processGrants(o5e, grants, type) {
         break;
       case "feature":
         if (grant.features.base?.length) {
-          /** @type {import('./types/dnd5e.mjs').ItemGrantAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
+          /** @type {dnd5e.ItemGrantAdvancement & dnd5e.BaseAdvancement} */
           const featureGrant = {
             _id: id,
             type: "ItemGrant",
@@ -1655,7 +1625,7 @@ function processGrants(o5e, grants, type) {
           o5e.advancement.push(featureGrant);
         }
         if (grant.features.options?.length) {
-          /** @type {import('./types/dnd5e.mjs').ItemChoiceAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
+          /** @type {dnd5e.ItemChoiceAdvancement & dnd5e.BaseAdvancement} */
           const featureChoice = {
             _id: id,
             type: "ItemChoice",
@@ -1678,7 +1648,7 @@ function processGrants(o5e, grants, type) {
         break;
       case "item":
         if (["background", "class"].includes(type)) {
-          /** @type {import('./types/dnd5e.mjs').EquipmentEntryData[]} */
+          /** @type {dnd5e.EquipmentEntryData[]} */
           const items = o5e.startingEquipment;
           if (grant.items.base?.length) {
             items.push(
@@ -1706,7 +1676,7 @@ function processGrants(o5e, grants, type) {
         break;
       case "proficiency":
         if (grant.proficiencyType === "tradition") continue;
-        /** @type {import('./types/dnd5e.mjs').TraitAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} */
+        /** @type {dnd5e.TraitAdvancement} */
         proficiency = {
           _id: id,
           type: "Trait",
@@ -1747,10 +1717,10 @@ function processGrants(o5e, grants, type) {
 
 /**
  * Calculates the starting equipment
- * @param {import('./types/a5e.mjs')._ItemGrant} itemGrant
+ * @param {a5e._ItemGrant} itemGrant
  * @param {number} i
  * @param {string} id
- * @returns {import('./types/dnd5e.mjs').EquipmentEntryData}
+ * @returns {dnd5e.EquipmentEntry}
  */
 function equipmentEntry(itemGrant, i, id) {
   const _id = i > 9 ? id.slice(0, 14) + i : id.slice(0, 15) + i;
@@ -1767,8 +1737,8 @@ function equipmentEntry(itemGrant, i, id) {
 /**
  * Derives proficiency grant configuration
  * Used for both ProficiencyGrant as well as TraitGrant
- * @param {import('./types/a5e.mjs').ProficiencyGrant["keys"]} keys
- * @param {import('./types/a5e.mjs').profType} proficiencyType
+ * @param {a5e.ProficiencyGrant["keys"]} keys
+ * @param {a5e.profType} proficiencyType
  */
 function profConfig(keys, proficiencyType) {
   const prefix = {
@@ -1845,16 +1815,14 @@ function profConfig(keys, proficiencyType) {
   return config;
 }
 
-/** @typedef {import('./types/dnd5e.mjs').TraitAdvancement & import('./types/dnd5e.mjs').BaseAdvancement} TraitAdvancement */
-
 /**
  * Creates a trait advancement from a trait grant
- * @param {import('./types/a5e.mjs').Traits} traits
+ * @param {a5e.Traits} traits
  * @param {string} id
- * @returns {TraitAdvancement | import('./types/dnd5e.mjs').SizeAdvancement}
+ * @returns {dnd5e.TraitAdvancement | dnd5e.SizeAdvancement}
  */
 function traitGrant(traits, id) {
-  /** @type {TraitAdvancement | import('./types/dnd5e.mjs').SizeAdvancement} */
+  /** @type {dnd5e.TraitAdvancement | dnd5e.SizeAdvancement} */
   const trait = {
     _id: id,
     type: "Trait",
