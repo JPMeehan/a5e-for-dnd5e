@@ -286,9 +286,13 @@ export interface Subclass5e extends ItemDescription {
  * 
  */
 
+/** Activation Data */
 interface Activation {
-  type: string;
+  /** Activation type (e.g. action, legendary action, minutes). */
+  type: string; 
+  /** Scalar value associated with the activation. */
   value: number;
+  /** Condition required to activate this activity. */
   condition: string;
 }
 
@@ -312,12 +316,21 @@ interface AppliedEffect {
   _id: string;
 }
 
+/**
+ * Uses Data
+ */
 interface Uses {
+  /** Number of uses that have been spent. */
   spent: number;
+  /** Formula for the maximum number of uses. */
   max: string;
+  /** Recovery profiles for this activity's uses. */
   recovery: Array<{
+    /** Period at which this profile is activated. */
     period: string;
+    /** Whether uses are reset to full, reset to zero, or recover a certain number of uses. */
     type: string;
+    /** Formula used to determine recovery if type is not reset. */
     formula: string;
   }>
 }
@@ -338,20 +351,46 @@ interface Damage {
   }
 }
 
+/**
+ * Range data
+ */
+interface Range {
+  /** Scalar value for the activity's range. */
+  value: string;
+  /** Units that are used for the range. */
+  units: string;
+  /** Description of any special range details. */
+  special: string;
+}
+
+/**
+ * Target Data
+ */
 interface Target {
   template: {
+    /** Number of templates created. */
     count: string;
+    /** Must all created areas be connected to one another? */
     contiguous: boolean;
+    /** Type of area of effect caused by this activity. */
     type: string;
+    /** Size of the activity's area of effect on its primary axis. */
     size: string;
+    /** Width of line area of effect. */
     width: string;
+    /** Height of cylinder area of effect. */
     height: string;
+    /** Units used to measure the area of effect sizes. */
     units: string;
   }
   affects: {
+    /** Number of individual targets that can be affected. */
     count: string;
+    /** Type of targets that can be affected (e.g. creatures, objects, spaces). */
     type: string;
+    /** When targeting an area, can the user choose who it affects? */
     choice: boolean;
+    /** Description of special targeting. */
     special: string;
   }
 }
@@ -587,12 +626,12 @@ export interface PhysicalItem {
   weight: {
     value: number;
     units: string;
-    price: {
-      value: number;
-      denomination: string;
-    }
-    rarity: string;
   }
+  price: {
+    value: number;
+    denomination: string;
+  }
+  rarity: string;
 }
 
 export interface Currency {

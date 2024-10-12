@@ -269,14 +269,81 @@ function fixUUIDrefs(uuid = "") {
   return uuid;
 }
 
-// /**
-//  * @typedef {dnd5e.Action & dnd5e.ActivatedEffect} Action
-//  */
+/**
+ * Migrates a5e Actions into dnd5e Activities
+ * @param {Record<string, a5e.Action>} actions 
+ * @param {Record<string, dnd5e.Activity>} activities 
+ * @param {boolean} isSpell 
+ */
+function migrateActions(actions, activities, isSpell) {
+  for (const [key, a] of Object.entries(actions)) {
+    /** @type {dnd5e.BaseActivity} */
+    const activity = {
+      _id: key,
+      name: a.name,
+      sort: 0,
+      activation: {
+        type: a.activation?.type?.replace("bonusAction", "bonus"),
+        value: a.activation?.cost,
+        condition: a.activation?.reactionTrigger
+      },
+      consumption: {},
+      description: {
+        chatFlavor: a.description
+      },
+      duration: {
+        value: a.duration.value,
+        units: a.duration.unit,
+        special: "",
+        concentration: false,
+        override: false
+      },
+      effects: [],
+      range: {
+
+        override: false
+      },
+      target: {
+        // TODO: Scaling
+        template: {
+          count: a.area?.quantity,
+          contiguous: true,
+          type: a.area?.shape,
+          size: a.area?.length,
+          width: a.area?.width,
+          height: a.area?.height,
+          units: ""
+        },
+        affects: {
+          count: "",
+          type: "",
+          choice: false,
+          special: ""
+        },
+        override: false,
+        prompt: true
+      },
+      uses: {
+        spent: 0,
+        max: a.uses.max,
+        recovery: [
+          {
+            period: a.uses.recharge.threshold,
+            formula: a.uses.recharge.formula,
+            type: ""
+          }
+        ]
+      }
+    };
+
+    activities[key] = activity;
+  }
+}
 
 // /**
 //  *
-//  * @param {import('./types/a5e.mjs').Action} action     The action being called
-//  * @param {Action} system   The o5e system data to update
+//  * @param {a5e.Action} action     The action being called
+//  * @param {dnd5e.Activities} system   The o5e system data to update
 //  * @returns {boolean} Validates that the action was completed
 //  */
 // function migrateAction(action, system) {
@@ -365,8 +432,8 @@ function fixUUIDrefs(uuid = "") {
 
 // /**
 //  * Handles the rolls object of the a5e item
-//  * @param {Record<string, import('./types/a5e.mjs').Roll} rolls
-//  * @param {import('./types/a5e.mjs').Action} action
+//  * @param {Record<string, a5e.Roll} rolls
+//  * @param {a5e.Action} action
 //  * @param {dnd5e.Action & dnd5e.Spell} system
 //  */
 // function processRolls(rolls, action, system) {
@@ -540,18 +607,7 @@ function migrateFeature(system) {
     source: mapSource(system.source),
     properties: [],
     requirements: system.prerequisite,
-    recharge: {
-      value: null,
-      charged: true
-    },
-    // simplifies null checking
-    activation: {
-      type: null
-    },
-    uses: {
-      per: null,
-      max: null
-    }
+    activities: {}
   };
 
   if (system.concentration) o5e.properties.push("concentration");
@@ -560,17 +616,17 @@ function migrateFeature(system) {
 
   for (const grant of Object.values(system.grants ?? {})) {
     if (grant?.grantType === "exertion") {
-      o5e.activation.type = o5e.activation?.type ?? "none";
-      o5e.uses.per = "sr";
-      o5e.uses.prompt = false;
-      switch (grant.poolType) {
-        case "doubleProf":
-          o5e.uses.max = "2 * @prof";
-          break;
-        case "prof":
-          o5e.uses.max = "@prof";
-          break;
-      }
+      // o5e.activation.type = o5e.activation?.type ?? "none";
+      // o5e.uses.per = "sr";
+      // o5e.uses.prompt = false;
+      // switch (grant.poolType) {
+      //   case "doubleProf":
+      //     o5e.uses.max = "2 * @prof";
+      //     break;
+      //   case "prof":
+      //     o5e.uses.max = "@prof";
+      //     break;
+      // }
     }
   }
 
@@ -662,19 +718,20 @@ function migrateManeuver(system) {
     tradition: abbr(system.tradition),
     prerequisite: system.prerequisite,
     properties: [],
-    consume: {
-      type: "",
-      target: null,
-      amount: null
-    }
+    activities: {}
+    // consume: {
+    //   type: "",
+    //   target: null,
+    //   amount: null
+    // }
   };
 
   if (system.concentration) o5e.properties.push("concentration");
 
   for (const a of Object.values(system.actions)) migrateAction(a, o5e);
 
-  o5e.consume.amount = system.exertionCost;
-  o5e.consume.type = "charges";
+  // o5e.consume.amount = system.exertionCost;
+  // o5e.consume.type = "charges";
 
   return o5e;
 }
@@ -683,10 +740,10 @@ function migrateManeuver(system) {
  *
  * @param {a5e.ObjectA5E} system
  * @param {string} name
- * @returns {dnd5e.PhysicalItem} Weapon, Container, Equipment,
+ * @returns {dnd5e.PhysicalItem & dnd5e.EquippableItem} Weapon, Container, Equipment,
  */
 function migrateObject(system, name) {
-  /** @type {dnd5e.PhysicalItem} */
+  /** @type {dnd5e.PhysicalItem & dnd5e.EquippableItem} */
   const o5e = {
     description: {
       value: fixUUIDrefs(system.description),
@@ -767,6 +824,11 @@ function migrateObject(system, name) {
       conditions: ""
     }
   };
+  /** @type {dnd5e.Activities} */
+  const activities = {
+    activities: {},
+    uses: {}
+  };
   switch (system.objectType) {
     case "ammunition":
       Object.assign(o5e, consumable);
@@ -775,6 +837,7 @@ function migrateObject(system, name) {
     case "armor":
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      Object.assign(o5e, activities);
       o5e.type = {
         value: system.armorCategory,
         baseItem: getBaseItem(name, "armor")
@@ -784,6 +847,7 @@ function migrateObject(system, name) {
     case "clothing":
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      Object.assign(o5e, activities);
       o5e.type = {
         value: "clothing",
         baseItem: ""
@@ -792,6 +856,7 @@ function migrateObject(system, name) {
       break;
     case "consumable":
       Object.assign(o5e, consumable);
+      Object.assign(o5e, activities);
       for (const a of Object.values(system.actions)) migrateAction(a, o5e);
       break;
     case "container":
@@ -800,6 +865,7 @@ function migrateObject(system, name) {
     case "jewelry":
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      Object.assign(o5e, activities);
       o5e.type = {
         value: "clothing",
         baseItem: ""
@@ -809,6 +875,7 @@ function migrateObject(system, name) {
     case "miscellaneous":
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      Object.assign(o5e, activities);
       o5e.type = {
         value: "",
         baseItem: ""
@@ -818,6 +885,7 @@ function migrateObject(system, name) {
     case "shield":
       Object.assign(o5e, mountable);
       Object.assign(o5e, equipment);
+      Object.assign(o5e, activities);
       o5e.type = {
         value: "shield",
         baseItem: getBaseItem(name, "shield")
@@ -826,6 +894,7 @@ function migrateObject(system, name) {
       break;
     case "tool":
       Object.assign(o5e, tool);
+      Object.assign(o5e, activities);
       o5e.type = {
         value: toolType(name),
         baseItem: getBaseItem(name, "tool")
@@ -833,6 +902,7 @@ function migrateObject(system, name) {
       break;
     case "weapon":
       Object.assign(o5e, weapon);
+      Object.assign(o5e, activities);
       o5e.type = {
         value: weaponType(system),
         baseItem: getBaseItem(name, "weapon")
@@ -1317,10 +1387,6 @@ function migrateSpell(system) {
     preparation: {
       mode: "prepared",
       prepared: false
-    },
-    scaling: {
-      mode: "none",
-      formula: null
     }
   };
   if (system.components.vocalized) o5e.properties.push("vocal");
