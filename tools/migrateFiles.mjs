@@ -424,6 +424,14 @@ function migrateActions(a5e, o5e, isSpell) {
           activity.effects.push({_id: p.effectId});
           break;
         case "generic":
+          if (activity.type) console.warn("Need an extra activity");
+          activity.type = "utility";
+          activity.roll = {
+            formula: p.formula,
+            name: p.label,
+            prompt: true,
+            visible: true
+          };
           break;
         case "savingThrow":
           if (activity.type && (activity.type !== "damage")) console.warn("Need an extra activity");

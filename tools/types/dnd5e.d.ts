@@ -569,7 +569,7 @@ export interface UtilityActivity extends BaseActivity {
   }
 }
 
-export type Activity = AttackActivity | CheckActivity | DamageActivity | EnchantActivity | HealActivity | SaveActivity | SummonActivity;
+export type Activity = AttackActivity | CheckActivity | DamageActivity | EnchantActivity | HealActivity | SaveActivity | SummonActivity | UtilityActivity;
 
 export interface Activities {
   activities: Record<string, Activity>;
