@@ -1,3 +1,48 @@
+/**
+ * PROMPTS
+ */
+
+interface AbilityCheckPrompt {
+  type: "abilityCheck";
+  default: boolean;
+  ability: string;
+}
+
+interface ActiveEffectPrompt {
+  type: "effect";
+  default: boolean;
+  effectId: string;
+}
+
+interface SavingThrowPrompt {
+  type: "savingThrow";
+  default: boolean;
+  ability: string;
+  onSave: string;
+  saveDC: {
+    type: string;
+    bonus: string;
+  }
+}
+
+interface SkillCheckPrompt {
+  type: "skillCheck";
+  default: boolean;
+  skill: string;
+  label: string;
+  ability: string;
+}
+
+interface GenericRollPrompt {
+  type: "generic";
+  default: boolean;
+  label: string;
+  formula: string;
+}
+
+type Prompt = AbilityCheckPrompt | ActiveEffectPrompt | SavingThrowPrompt | SkillCheckPrompt | GenericRollPrompt;
+
+/** Range data */
 export interface ActionRange {
   range: string | number;
   unit?: string;
@@ -35,7 +80,7 @@ export interface Action {
     value: number;
   };
   consumers: any;
-  prompts: object;
+  prompts: Record<string, Prompt>;
   ranges: Record<string, ActionRange>;
   rolls: Record<string, Roll>;
   target: {
@@ -57,7 +102,8 @@ export interface Action {
 export interface Roll {
   default: boolean;
   label: string;
-  type: string;
+  /** Derived from rollTypes */
+  type: "abilityCheck" | "attack" | "damage" | "healing" | "generic" | "savingThrow" | "skillCheck" | "toolCheck";
   ability?: string;
   attackType?: string;
   proficient?: boolean;

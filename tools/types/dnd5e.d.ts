@@ -535,6 +535,7 @@ interface SummonProfile {
 }
 
 export interface SummonActivity extends BaseActivity {
+  type: "summon";
   bonuses: {
     ac: string;
     hd: string;
@@ -559,6 +560,7 @@ export interface SummonActivity extends BaseActivity {
 }
 
 export interface UtilityActivity extends BaseActivity {
+  type: "utility";
   roll: {
     formula: string;
     name: string;

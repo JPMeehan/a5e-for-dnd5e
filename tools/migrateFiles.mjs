@@ -271,13 +271,13 @@ function fixUUIDrefs(uuid = "") {
 
 /**
  * Migrates a5e Actions into dnd5e Activities
- * @param {Record<string, a5e.Action>} actions 
- * @param {Record<string, dnd5e.Activity>} activities 
+ * @param {a5e.BaseTemplate} a5e 
+ * @param {dnd5e.Activities} o5e 
  * @param {boolean} isSpell 
  */
-function migrateActions(actions, activities, isSpell) {
-  for (const [key, a] of Object.entries(actions)) {
-    /** @type {dnd5e.BaseActivity} */
+function migrateActions(a5e, o5e, isSpell) {
+  for (const [key, a] of Object.entries(a5e.actions)) {
+    /** @type {dnd5e.Activity} */
     const activity = {
       _id: key,
       name: a.name,
@@ -336,7 +336,110 @@ function migrateActions(actions, activities, isSpell) {
       }
     };
 
-    activities[key] = activity;
+    for (const r of Object.values(a.rolls)) {
+      switch (r.type) {
+        case "abilityCheck":
+        case "skillCheck":
+        case "toolCheck":
+          activity.type = "check";
+          activity.check = {
+            ability: r.ability,
+            associated: [],
+            dc: {
+              calculation: "",
+              formula: r.formula
+            }
+          };
+          break;
+        case "attack":
+          activity.type = "attack";
+          activity.attack = {
+            ability: "",
+            bonus: "",
+            critical: {
+              threshold: undefined
+            },
+            flat: false,
+            type: {
+              value: "",
+              classification: ""
+            }
+          };
+          break;
+        case "damage":
+          activity.type ??= "damage";
+          activity.damage = {
+            critical: {
+              bonus: "string"
+            },
+            includeBase: false,
+            parts: []
+          };
+          break;
+        case "generic":
+          activity.type = "utility";
+          activity.roll = {
+            formula: r.formula,
+            name: r.label,
+            prompt: false,
+            visible: false
+          };
+          break;
+        case "healing":
+          activity.type = "heal";
+          activity.healing = [];
+          break;
+        case "savingThrow":
+          activity.type = "save";
+          break;
+      }
+    }
+
+    for (const p of Object.values(a.prompts)) {
+      switch (p.type) {
+        case "abilityCheck":
+          activity.type = "check";
+          activity.check = {
+            ability: p.ability,
+            associated: [],
+            dc: {
+              calculation: "",
+              formula: ""
+            }
+          };
+          break;
+        case "skillCheck":
+          if (activity.type) console.warn("Need an extra activity");
+          activity.type = "check";
+          activity.check = {
+            ability: p.ability,
+            associated: [],
+            dc: {
+              calculation: "",
+              formula: ""
+            }
+          };
+          break;
+        case "effect":
+          activity.effects.push({_id: p.effectId});
+          break;
+        case "generic":
+          break;
+        case "savingThrow":
+          if (activity.type && (activity.type !== "damage")) console.warn("Need an extra activity");
+          activity.type = "save";
+          activity.save = {
+            ability: p.ability,
+            dc: {
+              calculation: p.saveDC.type,
+              formula: p.saveDC.bonus
+            }
+          };
+          break;
+      }
+    }
+
+    o5e.activities[key] = activity;
   }
 }
 
@@ -612,7 +715,7 @@ function migrateFeature(system) {
 
   if (system.concentration) o5e.properties.push("concentration");
 
-  for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+  migrateActions(system, o5e);
 
   for (const grant of Object.values(system.grants ?? {})) {
     if (grant?.grantType === "exertion") {
@@ -728,7 +831,7 @@ function migrateManeuver(system) {
 
   if (system.concentration) o5e.properties.push("concentration");
 
-  for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+  migrateActions(system, o5e);
 
   // o5e.consume.amount = system.exertionCost;
   // o5e.consume.type = "charges";
@@ -842,7 +945,7 @@ function migrateObject(system, name) {
         value: system.armorCategory,
         baseItem: getBaseItem(name, "armor")
       };
-      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      migrateActions(system, o5e);
       break;
     case "clothing":
       Object.assign(o5e, mountable);
@@ -852,12 +955,12 @@ function migrateObject(system, name) {
         value: "clothing",
         baseItem: ""
       };
-      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      migrateActions(system, o5e);
       break;
     case "consumable":
       Object.assign(o5e, consumable);
       Object.assign(o5e, activities);
-      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      migrateActions(system, o5e);
       break;
     case "container":
       Object.assign(o5e, container);
@@ -870,7 +973,7 @@ function migrateObject(system, name) {
         value: "clothing",
         baseItem: ""
       };
-      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      migrateActions(system, o5e);
       break;
     case "miscellaneous":
       Object.assign(o5e, mountable);
@@ -880,7 +983,7 @@ function migrateObject(system, name) {
         value: "",
         baseItem: ""
       };
-      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      migrateActions(system, o5e);
       break;
     case "shield":
       Object.assign(o5e, mountable);
@@ -890,7 +993,7 @@ function migrateObject(system, name) {
         value: "shield",
         baseItem: getBaseItem(name, "shield")
       };
-      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      migrateActions(system, o5e);
       break;
     case "tool":
       Object.assign(o5e, tool);
@@ -909,7 +1012,7 @@ function migrateObject(system, name) {
       };
       o5e.properties = weaponProperties(system, o5e.description);
       Object.assign(o5e, mountable);
-      for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+      migrateActions(system, o5e);
       break;
     default:
       o5e.documentSubType = "loot";
@@ -1395,7 +1498,7 @@ function migrateSpell(system) {
   if (system.ritual) o5e.properties.push("ritual");
   if (system.concentration) o5e.properties.push("concentration");
 
-  for (const a of Object.values(system.actions)) migrateAction(a, o5e);
+  migrateActions(system, o5e);
   return o5e;
 }
 
