@@ -329,9 +329,9 @@ interface Uses {
     /** Period at which this profile is activated. */
     period: string;
     /** Whether uses are reset to full, reset to zero, or recover a certain number of uses. */
-    type: string;
+    type?: string;
     /** Formula used to determine recovery if type is not reset. */
-    formula: string;
+    formula?: string;
   }>
 }
 

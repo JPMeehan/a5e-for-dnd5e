@@ -273,9 +273,14 @@ function fixUUIDrefs(uuid = "") {
  * Migrates a5e Actions into dnd5e Activities
  * @param {a5e.BaseTemplate} a5e 
  * @param {dnd5e.Activities} o5e 
- * @param {boolean} isSpell 
+ * @param {object} options
+ * @param {boolean} [options.isSpell]  - Is the source item a spell
+ * @param {boolean} [options.isWeapon] - Is the source item a weapon
+ * @param {boolean} [options.overrideDuration]
+ * @param {boolean} [options.overrideRange] 
+ * @param {boolean} [options.overrideTarget] 
  */
-function migrateActions(a5e, o5e, isSpell) {
+function migrateActions(a5e, o5e, options = {}) {
   for (const [key, a] of Object.entries(a5e.actions)) {
     /** @type {dnd5e.Activity} */
     const activity = {
@@ -296,12 +301,14 @@ function migrateActions(a5e, o5e, isSpell) {
         units: a.duration.unit,
         special: "",
         concentration: false,
-        override: false
+        override: options.overrideDuration
       },
       effects: [],
       range: {
-
-        override: false
+        value: "",
+        units: "",
+        special: "",
+        override: options.overrideRange
       },
       target: {
         // TODO: Scaling
@@ -312,29 +319,64 @@ function migrateActions(a5e, o5e, isSpell) {
           size: a.area?.length,
           width: a.area?.width,
           height: a.area?.height,
-          units: ""
+          units: "ft"
         },
         affects: {
-          count: "",
-          type: "",
+          count: a.target.quantity,
+          type: abbr(a.target.type),
           choice: false,
           special: ""
         },
-        override: false,
+        override: options.overrideTarget,
         prompt: true
       },
       uses: {
         spent: 0,
         max: a.uses.max,
-        recovery: [
-          {
-            period: a.uses.recharge.threshold,
-            formula: a.uses.recharge.formula,
-            type: ""
-          }
-        ]
+        recovery: []
       }
     };
+
+    switch (a.uses.per) {
+      case "recharge":
+        activity.uses.recovery.push({
+          period: "recharge",
+          formula: a.uses.recharge.threshold
+        });
+        break;
+      case "shortRest":
+        activity.uses.recovery.push({
+          period: "sr",
+          type: "recoverAll"
+        });
+        break;
+      case "longRest":
+        activity.uses.recovery.push({
+          period: "lr",
+          type: "recoverAll"
+        });
+        break;
+      case "day":
+        activity.uses.recovery.push({
+          period: "day",
+          type: "recoverAll"
+        });
+        break;
+    }
+    
+    if (Object.keys(a.ranges || {}).length > 1) console.warn("More than 2 ranges");
+    for (const r of Object.values(a.ranges || {})) {
+      if (["self", "touch"].includes(r.range)) {
+        activity.range.units = r.range;
+        break;
+      } else {
+        activity.range.units = "ft";
+        const convertedRange = abbr(r.range);
+        activity.range.value = isNaN(convertedRange)
+          ? (convertedRange.match(/\d+/) ?? [])[0]
+          : Number(convertedRange);
+      }
+    }
 
     for (const r of Object.values(a.rolls)) {
       switch (r.type) {
@@ -350,6 +392,8 @@ function migrateActions(a5e, o5e, isSpell) {
               formula: r.formula
             }
           };
+          if (r.skill) activity.check.associated.push(r.skill);
+          if (r.tool) activity.check.associated.push(abbr(r.tool));
           break;
         case "attack":
           activity.type = "attack";
@@ -413,7 +457,7 @@ function migrateActions(a5e, o5e, isSpell) {
           activity.type = "check";
           activity.check = {
             ability: p.ability,
-            associated: [],
+            associated: [p.skill],
             dc: {
               calculation: "",
               formula: ""
