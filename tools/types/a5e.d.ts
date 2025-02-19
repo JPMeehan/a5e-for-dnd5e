@@ -54,20 +54,28 @@ export interface ScalingProperties {
   step?: number;
 }
 
+export interface ActionConsumer {
+  type: 'actionUses' | 'ammunition' | 'hitDice' | 'itemUses' | 'quantity' | 'resources' | 'spell';
+}
+
 export interface Action {
+  id: string;
   name: string;
+  default: boolean;
   description?: string;
+  descriptionOutputs: Array<'action', 'item'>;
+  img: string;
   activation: {
     type: string;
-    cost?: number;
-    reactionTrigger?: string;
+    cost: number;
+    reactionTrigger: string;
   };
-  area?: {
-    quantity: number;
-    shape: string;
+  area: {
+    quantity?: number;
+    shape?: string;
     scaling?: {
-      formula: Record<string, string>;
-      mode: string;
+      formula?: Record<string, string>;
+      mode?: string;
       step?: number;
     };
     radius?: number;
@@ -79,7 +87,8 @@ export interface Action {
     unit: string;
     value: number;
   };
-  consumers: any;
+  effects: string[];
+  consumers: Record<string, ActionConsumer>;
   prompts: Record<string, Prompt>;
   ranges: Record<string, ActionRange>;
   rolls: Record<string, Roll>;
@@ -495,27 +504,44 @@ export interface ObjectA5E {
   ac: ACTemplate;
   ammunitionProperties: string[];
   armorCategory: string;
+  armorMods: string[];
   armorProperties: string[];
   attuned: boolean;
   bulky: boolean;
+  breakerProperties: string[];
+  capacity: {
+    type: string;
+    value: number;
+    weightlessContents: boolean;
+  }
   containerId: string;
   craftingComponents: string;
   damagedState: number;
+  defensiveProperties: string;
   equippedState: number;
+  flaws: string[];
   items: object;
+  implant: boolean;
   materialProperties: string[];
+  modPorts: string;
+  mounted: string[];
   objectType: string;
   plotItem: boolean;
   price: number;
   proficient: boolean;
   quantity: number;
   rarity: string;
+  repairTools: string[];
   requiresAttunement: boolean;
   shieldCategory: string;
   shieldProperties: string[];
+  supply: boolean;
+  techLevel: string;
   unidentified: boolean;
   unidentifiedDescription: string;
   unidentifiedName: string;
+  versatile: string;
+  weaponAugments: string[];
   weaponProperties: string[];
   weight: number;
 }
