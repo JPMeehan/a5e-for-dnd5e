@@ -76,12 +76,19 @@ export function inlineManeuverDisplay(sheet, html, context) {
       let itemContext = null;
       switch (sheet.constructor.name) {
         case ACTOR_SHEETS.DEFAULT_PC:
+        case ACTOR_SHEETS.DEFAULT_NPC:
           itemContext = {
             activation:
               cost && abbr
                 ? `${cost}${game.i18n.localize(abbr)}`
                 : maneuver.labels.activation,
-            preparation: {applicable: false}
+            preparation: {applicable: false},
+            dataset: {
+              itemLevel: maneuver.system.degree,
+              itemName: maneuver.name,
+              itemSort: maneuver.sort,
+              itemPreparationMode: "prepared"
+            }
           };
           break;
         case ACTOR_SHEETS.LEGACY_PC:
@@ -151,6 +158,7 @@ export function inlineManeuverDisplay(sheet, html, context) {
     }[sheet.constructor.name];
     if (!spellListTemplate) return;
     renderTemplate(spellListTemplate, context).then((partial) => {
+      console.log(context, spellList);
       spellList.html(partial);
       let schoolSlots;
       let traditions;
@@ -200,6 +208,16 @@ export function inlineManeuverDisplay(sheet, html, context) {
             .find(".spell-target")
             .html(game.i18n.localize("a5e-for-dnd5e.Maneuver.Target"));
           break;
+      }
+      // Recreating drag listeners without accidentally duplicating drop listeners
+      for (const dragDrop of sheet._dragDrop) {
+        if (dragDrop.can("dragstart", dragDrop.dragSelector)) {
+          const draggables = spellList[0].querySelectorAll(dragDrop.dragSelector);
+          for (let el of draggables) {
+            el.setAttribute("draggable", true);
+            el.ondragstart = dragDrop._handleDragStart.bind(dragDrop);
+          }
+        }
       }
       sheet.activateListeners(spellList);
     });

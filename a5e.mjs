@@ -103,12 +103,12 @@ Hooks.once("init", () => {
   });
 
   /** Expertise Die */
-  libWrapper.register(
-    moduleID,
-    "CONFIG.Dice.D20Roll.prototype._onDialogSubmit",
-    _onDialogSubmit,
-    "WRAPPER"
-  );
+  // libWrapper.register(
+  //   moduleID,
+  //   "CONFIG.Dice.D20Roll.prototype._onDialogSubmit",
+  //   _onDialogSubmit,
+  //   "WRAPPER"
+  // );
 });
 
 Hooks.once("i18nInit", () => {
