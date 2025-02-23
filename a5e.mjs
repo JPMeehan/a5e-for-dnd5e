@@ -162,12 +162,10 @@ Hooks.on("dnd5e.rollDeathSave", a5eHooks.exhaustion.natOneDeathSave);
  * EXPERTISE DICE
  */
 
-Hooks.on("renderProficiencyConfig", a5eHooks.expertiseDice.configSkillTool);
+Hooks.on("renderSkillToolConfig", a5eHooks.expertiseDice.configSkillTool);
 
-Hooks.on("renderDialog", a5eHooks.expertiseDice.rollConfig);
-
-Hooks.on("dnd5e.preRollToolCheck", a5eHooks.expertiseDice.applyExpertDie);
-Hooks.on("dnd5e.preRollSkill", a5eHooks.expertiseDice.applyExpertDie);
+Hooks.on("dnd5e.buildRollConfig", a5eHooks.expertiseDice.buildRollConfig);
+Hooks.on("renderSkillToolRollConfigurationDialog", a5eHooks.expertiseDice.renderSkillToolRollConfigurationDialog);
 
 /**
  * ITEM MODIFICATIONS

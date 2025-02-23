@@ -158,7 +158,6 @@ export function inlineManeuverDisplay(sheet, html, context) {
     }[sheet.constructor.name];
     if (!spellListTemplate) return;
     renderTemplate(spellListTemplate, context).then((partial) => {
-      console.log(context, spellList);
       spellList.html(partial);
       let schoolSlots;
       let traditions;

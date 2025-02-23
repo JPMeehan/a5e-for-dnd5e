@@ -1,134 +1,91 @@
+
 import {moduleID, modulePath} from "../utils.mjs";
+
+/** @import RollConfigurationDialog from "../../../dnd5e/module/applications/dice/roll-configuration-dialog.mjs"; */ 
+/** @import { SkillToolConfig } from "../../../dnd5e/module/applications/actor/_module.mjs"; */
+/** @import { BasicRollConfiguration } from "../../../dnd5e/module/dice/basic-roll.mjs" */
+
 const edPartialHeight = 30;
 
 /**
  * Adds expertise die configuration to skills and tools
- * @param {DocumentSheet} app
- * @param {JQuery} html
- * @param {object} context
+ * @param {SkillToolConfig} app
+ * @param {HTMLElement} html
  * @returns
  */
-export function configSkillTool(app, html, context) {
+export function configSkillTool(app, html) {
   /** @type {Actor} */
   const actor = app.document;
   if (actor.documentName !== "Actor") return;
   /** @type {Record<string, number>} */
   const ed = actor.getFlag(moduleID, "ed") ?? {};
 
-  const template = modulePath + "templates/expertise-dice-partial.hbs";
-  renderTemplate(template, {
-    key: `flags.${moduleID}.ed.${context.key}`,
-    dice: ed[context.key] ?? 0,
-    config: CONFIG.A5E.expertiseDie
-  }).then((partial) => {
-    // Insert before check bonus
-    html.find(".form-group:nth-child(4)").after(partial);
-    html.height(html.height() + edPartialHeight);
+  const selectInput = foundry.applications.fields.createSelectInput({
+    name: `flags.${moduleID}.ed.${app.options.key}`,
+    value: ed[app.options.key] ?? 0,
+    options: Object.entries(CONFIG.A5E.expertiseDie).map(([value, label]) => ({value, label}))
   });
-}
 
-/**
- *
- * @param {Actor} actor
- * @param {import("../../../dnd5e/module/dice/dice.mjs").D20RollConfiguration} rollData
- * @param {string} id
- */
-export function applyExpertDie(actor, rollData, id) {
-  /** @type {Record<string, number>} */
-  const ed = actor.getFlag(moduleID, "ed") ?? {};
-  rollData.parts.push("@expertDie[Expertise]");
-  rollData.data["expertDie"] = CONFIG.A5E.expertiseDie[ed[id]];
-}
-
-/**
- *
- * @param {Dialog} dialog
- * @param {JQuery} html
- * @param {Record} context
- * @param {Actor} actor
- */
-export function rollConfig(dialog, html, context, actor) {
-  // Validate this is a roll dialog
-  /** @type {Record<string, object>} */
-  const buttons = dialog.data.buttons;
-  if (
-    !("normal" in buttons) ||
-    !("advantage" in buttons) ||
-    !("disadvantage" in buttons)
-  ) {
-    return;
-  }
-
-  // Locate situational bonus
-  const sitBonus = html.find(".form-group:nth-child(3)");
-  const labelText = sitBonus.find("label")[0].innerText;
-  if (labelText !== game.i18n.localize("DND5E.RollSituationalBonus")) return;
-
-  /** @type {string} */
-  const formula = html.find(".form-group:nth-child(1) input").val();
-
-  const newFormula = formula.replace(/ \+ (1d\d|0)\[Expertise\]/, "");
-
-  html.find(".form-group:nth-child(1) input").val(newFormula);
-
-  const expertise = formula.match(/(1d\d|0)\[Expertise\]/);
-
-  // Stick the extra info right before the sit bonus
-  const ed = {
-    "0[Expertise]": 0,
-    "1d4[Expertise]": 1,
-    "1d6[Expertise]": 2,
-    "1d8[Expertise]": 3
-  };
-
-  const template = modulePath + "templates/expertise-dice-partial.hbs";
-  renderTemplate(template, {
-    key: "expertDie",
-    dice: ed[expertise[0]] ?? 0,
-    config: CONFIG.A5E.expertiseDie
-  }).then((partial) => {
-    // Insert before check bonus
-    sitBonus.before(partial);
-    html.height(html.height() + edPartialHeight);
+  const formGroup = foundry.applications.fields.createFormGroup({
+    input: selectInput,
+    label: "a5e-for-dnd5e.ExpertiseDie.label",
+    localize: true
   });
+
+  html.querySelector("fieldset.card").insertAdjacentElement("beforeend", formGroup);
 }
 
 /**
- * Handle submission of the Roll evaluation configuration Dialog
- * @param {Function} wrapped       The original D20Roll_onDialogSubmit
- * @param {jQuery} html            The submitted dialog content
- * @param {number} advantageMode   The chosen advantage mode
- * @returns {D20Roll}              This damage roll.
- * @private
+ * A hook event that fires when a roll config is built using the roll prompt.
+ * @param {RollConfigurationDialog} dialog Roll configuration dialog.
+ * @param {BasicRollConfiguration} config  Roll configuration data.
+ * @param {FormDataExtended} [formData]    Any data entered into the rolling prompt.
+ * @param {number} index                   Index of the roll within all rolls being prepared.
  */
-export function _onDialogSubmit(wrapped, html, advantageMode) {
-  /** @type {Roll} */
-  const roll = wrapped(html, advantageMode);
-
-  const form = html[0].querySelector("form");
-
-  const dice = CONFIG.Dice;
-
-  if (form.expertDie) {
-    const expIndex = roll.terms.findIndex(
-      (t) => t.options?.flavor === "Expertise"
-    );
-    const expertise = roll.terms[expIndex];
-    if (expIndex === -1) return roll;
-    else if (expertise instanceof dice.termTypes.DiceTerm) {
-      expertise.faces = [0, 4, 6, 8][form.expertDie.value];
-    } else if (
-      (expertise instanceof dice.termTypes.NumericTerm) &&
-      (form.expertDie.value > 0)
-    ) {
-      roll.terms[expIndex] = new dice.terms.d({
-        number: 1,
-        faces: form.expertDie.value * 2 + 2,
-        options: {flavor: "Expertise"}
-      });
+export function buildRollConfig(dialog, config, formData, index) {
+  if (!(dialog instanceof dnd5e.applications.dice.SkillToolRollConfigurationDialog)) return;
+  const actor = dialog.config.subject;
+  if (!(actor instanceof Actor)) return;
+  const expertiseDice = actor.getFlag(moduleID, "ed") ?? {};
+  const key = dialog.config.skill || dialog.config.tool;
+  if (key) {
+    const ed = formData?.get("expertiseDie") ?? expertiseDice[key] ?? 0;
+    dialog.config.expertiseDie = ed; // 
+    if (Number(ed)) {
+      config.parts.push(`@expertDie[${game.i18n.localize("a5e-for-dnd5e.ExpertiseDie.flavor")}]`);
+      config.data.expertDie = CONFIG.A5E.expertiseDie[ed];
     }
-    roll.resetFormula();
   }
+}
 
-  return roll;
+/**
+ * 
+ * @param {RollConfigurationDialog} dialog 
+ * @param {HTMLDialogElement} html 
+ */
+export function renderSkillToolRollConfigurationDialog(dialog, html) {
+  if (!("expertiseDie" in dialog.config)) return;
+  const actor = dialog.config.subject;
+  if (!(actor instanceof Actor)) return;
+
+  // The dialog selectively re-renders which means in v12 we need to check if the dialog already has the select
+  // in v13 this can be swapped to checking for renderOptions.firstRender
+  const ed = html.querySelector("select[name=\"expertiseDie\"]");
+  if (ed) return;
+
+  const selectInput = foundry.applications.fields.createSelectInput({
+    name: "expertiseDie",
+    value: dialog.config.expertiseDie ?? 0,
+    options: Object.entries(CONFIG.A5E.expertiseDie).map(([value, label]) => ({value, label}))
+  });
+
+  const formGroup = foundry.applications.fields.createFormGroup({
+    input: selectInput,
+    label: "a5e-for-dnd5e.ExpertiseDie.label",
+    localize: true
+  });
+
+  /** @type {HTMLFieldSetElement} */
+  const configuration = html.querySelector("fieldset[data-application-part=\"configuration\"]");
+  configuration.insertAdjacentElement("beforeend", formGroup);
 }
